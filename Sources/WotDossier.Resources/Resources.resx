@@ -3512,4 +3512,7 @@ Date: {Date:dd.MM.yyyy}</value>
   <data name="Country_Sweden" xml:space="preserve">
     <value>Sweden</value>
   </data>
+  <data name="Country_Poland" xml:space="preserve">
+    <value>Poland</value>
+  </data>
 </root>

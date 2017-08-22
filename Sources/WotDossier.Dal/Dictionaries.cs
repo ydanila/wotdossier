@@ -29,12 +29,14 @@ namespace WotDossier.Dal
         private Dictionary<int, RatingExpectancy> _ratingExpectations;
 
         public static readonly Version VersionAll = new Version("100.0.0.0");
-        public static readonly Version VersionRelease = new Version("0.9.17.1");
-        public static readonly Version VersionTest = new Version("0.9.18.0");
+        public static readonly Version VersionRelease = new Version("0.9.19.1");
+        public static readonly Version VersionTest = new Version("0.9.20.0");
 
         private static readonly List<Version> _versions = new List<Version>
         {
                 VersionRelease,
+                new Version("0.9.19.0"),
+                new Version("0.9.18.0"),
                 new Version("0.9.17.0"),
                 new Version("0.9.16.0"),
                 new Version("0.9.15.1"),
@@ -92,16 +94,16 @@ namespace WotDossier.Dal
             {
                 3, new Dictionary<TankType, LevelRange>
                 {
-                    {TankType.LT, new LevelRange{Min = 3, Max = 5}},
-                    {TankType.MT, new LevelRange{Min = 3, Max = 5}},
-                    {TankType.SPG, new LevelRange{Min = 3, Max = 5}},
-                    {TankType.TD, new LevelRange{Min = 3, Max = 5}},
+                    {TankType.LT, new LevelRange{Min = 3, Max = 4}},
+                    {TankType.MT, new LevelRange{Min = 3, Max = 4}},
+                    {TankType.SPG, new LevelRange{Min = 3, Max = 4}},
+                    {TankType.TD, new LevelRange{Min = 3, Max = 4}},
                 }
             },
             {
                 4, new Dictionary<TankType, LevelRange>
                 {
-                    {TankType.LT, new LevelRange{Min = 4, Max = 8}},
+                    {TankType.LT, new LevelRange{Min = 4, Max = 6}},
                     {TankType.MT, new LevelRange{Min = 4, Max = 6}},
                     {TankType.HT, new LevelRange{Min = 4, Max = 5}},
                     {TankType.SPG, new LevelRange{Min = 4, Max = 6}},
@@ -111,7 +113,7 @@ namespace WotDossier.Dal
             {
                 5, new Dictionary<TankType, LevelRange>
                 {
-                    {TankType.LT, new LevelRange{Min = 6, Max = 9}},
+                    {TankType.LT, new LevelRange{Min = 5, Max = 7}},
                     {TankType.MT, new LevelRange{Min = 5, Max = 7}},
                     {TankType.HT, new LevelRange{Min = 5, Max = 7}},
                     {TankType.SPG, new LevelRange{Min = 5, Max = 7}},
@@ -121,7 +123,7 @@ namespace WotDossier.Dal
             {
                 6, new Dictionary<TankType, LevelRange>
                 {
-                    {TankType.LT, new LevelRange{Min = 7, Max = 10}},
+                    {TankType.LT, new LevelRange{Min = 6, Max = 8}},
                     {TankType.MT, new LevelRange{Min = 6, Max = 8}},
                     {TankType.HT, new LevelRange{Min = 6, Max = 8}},
                     {TankType.SPG, new LevelRange{Min = 6, Max = 8}},
@@ -131,7 +133,7 @@ namespace WotDossier.Dal
             {
                 7, new Dictionary<TankType, LevelRange>
                 {
-                    {TankType.LT, new LevelRange{Min = 8, Max = 11}},
+                    {TankType.LT, new LevelRange{Min = 7, Max = 9}},
                     {TankType.MT, new LevelRange{Min = 7, Max = 9}},
                     {TankType.HT, new LevelRange{Min = 7, Max = 9}},
                     {TankType.SPG, new LevelRange{Min = 7, Max = 9}},
@@ -141,7 +143,7 @@ namespace WotDossier.Dal
             {
                 8, new Dictionary<TankType, LevelRange>
                 {
-                    {TankType.LT, new LevelRange{Min = 9, Max = 11}},
+                    {TankType.LT, new LevelRange{Min = 8, Max = 10}},
                     {TankType.MT, new LevelRange{Min = 8, Max = 10}},
                     {TankType.HT, new LevelRange{Min = 8, Max = 10}},
                     {TankType.SPG, new LevelRange{Min = 8, Max = 10}},

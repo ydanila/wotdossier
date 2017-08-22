@@ -333,6 +333,25 @@
     <Resource Include="Images\Countries\slot_bright_8.png" />
     <Resource Include="Images\nations\sweden.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\nations\poland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Maps\112_eiffel_tower_ctf.png" />
+    <Resource Include="Images\Maps\Minimap\112_eiffel_tower_ctf.png" />
+    <Resource Include="Images\Tanks\china_Ch39_WZ120_1G_FT.png" />
+    <Resource Include="Images\Tanks\china_Ch40_WZ120G_FT.png" />
+    <Resource Include="Images\Tanks\china_Ch41_WZ_111_5A.png" />
+    <Resource Include="Images\Tanks\france_F89_Canon_dassaut_de_105.png" />
+    <Resource Include="Images\Tanks\germany_G134_PzKpfw_VII.png" />
+    <Resource Include="Images\Tanks\germany_G136_Tiger_131.png" />
+    <Resource Include="Images\Tanks\germany_G137_PzVI_Tiger_217.png" />
+    <Resource Include="Images\Tanks\poland_Pl03_PzV_Poland.png" />
+    <Resource Include="Images\Tanks\sweden_S23_Strv_81_sabaton.png" />
+    <Resource Include="Images\Tanks\ussr_R135_T_103.png" />
+    <Resource Include="Images\Tanks\ussr_R143_T_29.png" />
+    <Resource Include="Images\Tanks\ussr_R146_STG.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

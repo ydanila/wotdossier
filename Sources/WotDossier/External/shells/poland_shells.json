@@ -1,0 +1,48 @@
+﻿{
+  "_75mm_Pzgr39L": {
+    "id": "\t24\t",
+    "userString": "#poland_vehicles:_75mm_Pzgr39L",
+    "icon": "ap",
+    "price": "\t109\t",
+    "kind": "ARMOR_PIERCING",
+    "caliber": "\t75\t",
+    "isTracer": "\ttrue\t",
+    "effects": "mediumArmorPiercing",
+    "damage": {
+      "armor": "\t135\t",
+      "devices": "\t100\t"
+    }
+  },
+  "_75mm_Pzgr.40L": {
+    "id": "\t25\t",
+    "userString": "#poland_vehicles:_75mm_Pzgr.40L",
+    "icon": "ap_cr",
+    "price": {
+      "#text": "\t7\t",
+      "gold": ""
+    },
+    "kind": "ARMOR_PIERCING_CR",
+    "caliber": "\t75\t",
+    "isTracer": "\ttrue\t",
+    "effects": "mediumAPCR",
+    "damage": {
+      "armor": "\t135\t",
+      "devices": "\t100\t"
+    }
+  },
+  "_75mm_Sprg.18L": {
+    "id": "\t26\t",
+    "userString": "#poland_vehicles:_75mm_Sprg.18L",
+    "icon": "he",
+    "price": "\t98\t",
+    "kind": "HIGH_EXPLOSIVE",
+    "caliber": "\t75\t",
+    "explosionRadius": "1.06",
+    "isTracer": "\ttrue\t",
+    "effects": "mediumHighExplosive",
+    "damage": {
+      "armor": "\t175\t",
+      "devices": "\t100\t"
+    }
+  }
+}
