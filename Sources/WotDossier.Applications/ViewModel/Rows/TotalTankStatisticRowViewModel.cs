@@ -3,26 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using WotDossier.Applications.Logic;
 using WotDossier.Domain.Interfaces;
+using WotDossier.Domain.Rating;
 using WotDossier.Domain.Tank;
 
 namespace WotDossier.Applications.ViewModel.Rows
 {
     public class TotalTankStatisticRowViewModel : TankStatisticRowViewModelBase
     {
-        private double _wn8RatingValue;
-        private double _performanceRatingValue;
+        public override double WN8Rating { get; set; }
 
-        public override double WN8Rating
-        {
-            get { return _wn8RatingValue; }
-            set { _wn8RatingValue = value; }
-        }
+        public override double WN8KTTCRating { get; set; }
 
-        public override double PerformanceRating
-        {
-            get { return _performanceRatingValue; }
-            set { _performanceRatingValue = value; }
-        }
+        public override double WN8XVMRating { get; set; }
+
+        public override double PerformanceRating { get; set; }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="T:System.Object"/> class.
@@ -190,7 +184,9 @@ namespace WotDossier.Applications.ViewModel.Rows
             MaxXp = list.Max(x => x.MaxXp);
             #endregion
 
-            WN8Rating = RatingHelper.Wn8(list);
+            WN8Rating = RatingHelper.Wn8(list, WN8Type.Default);
+            WN8KTTCRating = RatingHelper.Wn8(list, WN8Type.KTTC);
+            WN8XVMRating = RatingHelper.Wn8(list, WN8Type.XVM);
             PerformanceRating = RatingHelper.PerformanceRating(list);
         }
 

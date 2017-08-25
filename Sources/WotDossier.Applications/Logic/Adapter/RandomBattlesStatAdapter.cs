@@ -6,6 +6,7 @@ using WotDossier.Applications.ViewModel.Statistic;
 using WotDossier.Common;
 using WotDossier.Domain.Entities;
 using WotDossier.Domain.Interfaces;
+using WotDossier.Domain.Rating;
 using WotDossier.Domain.Server;
 using WotDossier.Domain.Tank;
 
@@ -20,7 +21,7 @@ namespace WotDossier.Applications.Logic.Adapter
         {
             Func<TankJson, AchievementsJson> achievementsPredicate = tankJson => tankJson.Achievements ?? new AchievementsJson();
 
-                #region [ BattleAwards ]
+            #region [ BattleAwards ]
 
             Warrior = tanks.Sum(x => achievementsPredicate(x).Warrior);
             Invader = tanks.Sum(x => achievementsPredicate(x).Invader);
@@ -233,7 +234,9 @@ namespace WotDossier.Applications.Logic.Adapter
             if (stat.dataField.vehicles != null)
             {
                 Tanks = stat.dataField.vehicles.Where(x => x.description != null).Select(x => (ITankStatisticRow)new RandomBattlesTankStatisticRowViewModel(Dal.DataMapper.Map(x), new List<StatisticSlice>())).OrderByDescending(x => x.Tier).ToList();
-                WN8Rating = RatingHelper.Wn8(Tanks);
+                WN8Rating = RatingHelper.Wn8(Tanks, WN8Type.Default);
+                WN8KTTCRating = RatingHelper.Wn8(Tanks, WN8Type.KTTC);
+                WN8XVMRating = RatingHelper.Wn8(Tanks, WN8Type.XVM);
                 PerformanceRating = RatingHelper.PerformanceRating(Tanks);
 
                 //double battlesCount88 = ???;

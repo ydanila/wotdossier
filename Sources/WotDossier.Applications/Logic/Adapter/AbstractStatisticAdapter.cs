@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using WotDossier.Dal;
 using WotDossier.Domain.Entities;
+using WotDossier.Domain.Rating;
 using WotDossier.Domain.Tank;
 
 namespace WotDossier.Applications.Logic.Adapter
@@ -28,6 +29,8 @@ namespace WotDossier.Applications.Logic.Adapter
         public double AvgLevel { get; set; }
         public double RBR { get; set; }
         public double WN8Rating { get; set; }
+        public double WN8KTTCRating { get; set; }
+        public double WN8XVMRating { get; set; }
         public double PerformanceRating { get; set; }
         public DateTime Updated { get; set; }
         public DateTime Created { get; set; }
@@ -66,7 +69,9 @@ namespace WotDossier.Applications.Logic.Adapter
             }
 
             PerformanceRating = RatingHelper.PerformanceRating(tanks, statPredicate);
-            WN8Rating = RatingHelper.Wn8(tanks, statPredicate);
+            WN8Rating = RatingHelper.Wn8(tanks, WN8Type.Default, statPredicate);
+            WN8KTTCRating = RatingHelper.Wn8(tanks, WN8Type.KTTC, statPredicate);
+            WN8XVMRating = RatingHelper.Wn8(tanks, WN8Type.XVM, statPredicate);
             RBR = RatingHelper.PersonalRating(tanks, statPredicate);
         }
 
@@ -92,6 +97,8 @@ namespace WotDossier.Applications.Logic.Adapter
             entity.AvgLevel = AvgLevel;
             entity.RBR = RBR;
             entity.WN8Rating = WN8Rating;
+            entity.WN8KTTCRating = WN8KTTCRating;
+            entity.WN8XVMRating = WN8XVMRating;
             entity.PerformanceRating = PerformanceRating;
             entity.MarkOfMastery = MarkOfMastery;
         }

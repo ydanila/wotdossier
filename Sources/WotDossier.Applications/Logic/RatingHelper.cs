@@ -4,6 +4,7 @@ using System.Linq;
 using WotDossier.Applications.ViewModel.Rows;
 using WotDossier.Dal;
 using WotDossier.Domain.Interfaces;
+using WotDossier.Domain.Rating;
 using WotDossier.Domain.Tank;
 
 namespace WotDossier.Applications.Logic
@@ -353,8 +354,9 @@ namespace WotDossier.Applications.Logic
         /// http://blog.noobmeter.com/2013/10/wn8-rating-alpha-testing.html
         /// </summary>
         /// <param name="tanks">The tanks.</param>
+        /// <param name="wn8Type">The type of calculating WN8.</param>
         /// <param name="predicate">The statistic predicate.</param>
-        public static double Wn8(List<TankJson> tanks, Func<TankJson, StatisticJson> predicate)
+        public static double Wn8(List<TankJson> tanks, WN8Type wn8Type, Func<TankJson, StatisticJson> predicate)
         {
             tanks = Filter(tanks).Cast<TankJson>().ToList();
 
@@ -368,14 +370,14 @@ namespace WotDossier.Applications.Logic
                 double winRate = tanks.Sum(x => predicate(x).wins)/battles;
                 double frags = tanks.Sum(x => predicate(x).frags)/battles;
 
-                double expDamage = tanks.Sum(x => predicate(x).battlesCount*x.Description.Expectancy.Wn8NominalDamage)/
+                double expDamage = tanks.Sum(x => predicate(x).battlesCount*x.Description.ExpectedValues[wn8Type].Damage)/
                                    battles;
-                double expSpotted = tanks.Sum(x => predicate(x).battlesCount*x.Description.Expectancy.Wn8NominalSpotted)/
+                double expSpotted = tanks.Sum(x => predicate(x).battlesCount*x.Description.ExpectedValues[wn8Type].Spotted)/
                                     battles;
-                double expDef = tanks.Sum(x => predicate(x).battlesCount*x.Description.Expectancy.Wn8NominalDefence)/battles;
+                double expDef = tanks.Sum(x => predicate(x).battlesCount*x.Description.ExpectedValues[wn8Type].Defence)/battles;
                 double expWinRate =
-                    tanks.Sum(x => (predicate(x).battlesCount*x.Description.Expectancy.Wn8NominalWinRate)/100.0)/battles;
-                double expFrags = tanks.Sum(x => predicate(x).battlesCount*x.Description.Expectancy.Wn8NominalFrags)/battles;
+                    tanks.Sum(x => (predicate(x).battlesCount*x.Description.ExpectedValues[wn8Type].WinRate)/100.0)/battles;
+                double expFrags = tanks.Sum(x => predicate(x).battlesCount*x.Description.ExpectedValues[wn8Type].Frags)/battles;
                 return Wn8(damage, expDamage, frags, expFrags, spotted, expSpotted, def, expDef, winRate, expWinRate);
             }
             return 0;
@@ -395,7 +397,8 @@ namespace WotDossier.Applications.Logic
         /// http://blog.noobmeter.com/2013/10/wn8-rating-alpha-testing.html
         /// </summary>
         /// <param name="tanks">The tanks.</param>
-        public static double Wn8(List<ITankStatisticRow> tanks)
+        /// <param name="wn8Type">The type of calculating WN8.</param>
+        public static double Wn8(List<ITankStatisticRow> tanks, WN8Type wn8Type)
         {
             tanks = Filter(tanks).Cast<ITankStatisticRow>().ToList();
 
@@ -409,12 +412,12 @@ namespace WotDossier.Applications.Logic
                 double winRate = tanks.Sum(x => x.Wins)/battles;
                 double frags = tanks.Sum(x => x.Frags)/battles;
 
-                double expDamage = tanks.Sum(x => x.BattlesCount*x.Description.Expectancy.Wn8NominalDamage)/battles;
-                double expSpotted = tanks.Sum(x => x.BattlesCount*x.Description.Expectancy.Wn8NominalSpotted)/battles;
-                double expDef = tanks.Sum(x => x.BattlesCount*x.Description.Expectancy.Wn8NominalDefence)/battles;
-                double expWinRate = tanks.Sum(x => (x.BattlesCount*x.Description.Expectancy.Wn8NominalWinRate)/100.0)/
+                double expDamage = tanks.Sum(x => x.BattlesCount*x.Description.ExpectedValues[wn8Type].Damage)/battles;
+                double expSpotted = tanks.Sum(x => x.BattlesCount*x.Description.ExpectedValues[wn8Type].Spotted)/battles;
+                double expDef = tanks.Sum(x => x.BattlesCount*x.Description.ExpectedValues[wn8Type].Defence)/battles;
+                double expWinRate = tanks.Sum(x => (x.BattlesCount*x.Description.ExpectedValues[wn8Type].WinRate)/100.0)/
                                     battles;
-                double expFrags = tanks.Sum(x => x.BattlesCount*x.Description.Expectancy.Wn8NominalFrags)/battles;
+                double expFrags = tanks.Sum(x => x.BattlesCount*x.Description.ExpectedValues[wn8Type].Frags)/battles;
                 return Wn8(damage, expDamage, frags, expFrags, spotted, expSpotted, def, expDef, winRate, expWinRate);
             }
             return 0;
@@ -424,7 +427,8 @@ namespace WotDossier.Applications.Logic
         /// http://blog.noobmeter.com/2013/10/wn8-rating-alpha-testing.html
         /// </summary>
         /// <param name="tanks">The tanks.</param>
-        public static double Wn8ForPeriod(List<ITankStatisticRow> tanks)
+        /// <param name="wn8Type">The type of calculating WN8.</param>
+        public static double Wn8ForPeriod(List<ITankStatisticRow> tanks, WN8Type wn8Type)
         {
             tanks = Filter(tanks).Cast<ITankStatisticRow>().ToList();
 
@@ -438,13 +442,13 @@ namespace WotDossier.Applications.Logic
                 double winRate = tanks.Sum(x => x.WinsDelta)/battles;
                 double frags = tanks.Sum(x => x.FragsDelta)/battles;
 
-                double expDamage = tanks.Sum(x => x.BattlesCountDelta*x.Description.Expectancy.Wn8NominalDamage)/battles;
-                double expSpotted = tanks.Sum(x => x.BattlesCountDelta*x.Description.Expectancy.Wn8NominalSpotted)/
+                double expDamage = tanks.Sum(x => x.BattlesCountDelta*x.Description.ExpectedValues[wn8Type].Damage)/battles;
+                double expSpotted = tanks.Sum(x => x.BattlesCountDelta*x.Description.ExpectedValues[wn8Type].Spotted)/
                                     battles;
-                double expDef = tanks.Sum(x => x.BattlesCountDelta*x.Description.Expectancy.Wn8NominalDefence)/battles;
+                double expDef = tanks.Sum(x => x.BattlesCountDelta*x.Description.ExpectedValues[wn8Type].Defence)/battles;
                 double expWinRate =
-                    tanks.Sum(x => (x.BattlesCountDelta*x.Description.Expectancy.Wn8NominalWinRate)/100.0)/battles;
-                double expFrags = tanks.Sum(x => x.BattlesCountDelta*x.Description.Expectancy.Wn8NominalFrags)/battles;
+                    tanks.Sum(x => (x.BattlesCountDelta*x.Description.ExpectedValues[wn8Type].WinRate)/100.0)/battles;
+                double expFrags = tanks.Sum(x => x.BattlesCountDelta*x.Description.ExpectedValues[wn8Type].Frags)/battles;
                 return Wn8(damage, expDamage, frags, expFrags, spotted, expSpotted, def, expDef, winRate, expWinRate);
             }
             return 0;

@@ -27,6 +27,7 @@ using WotDossier.Dal;
 using WotDossier.Domain;
 using WotDossier.Domain.Entities;
 using WotDossier.Domain.Interfaces;
+using WotDossier.Domain.Rating;
 using WotDossier.Domain.Server;
 using WotDossier.Domain.Tank;
 using WotDossier.Framework;
@@ -758,7 +759,9 @@ namespace WotDossier.Applications.ViewModel
             {
                 RaisePropertyChanged(PropLastUsedTanksList);
                 var lastUsedTanksList = LastUsedTanksList;
-                PlayerStatistic.WN8RatingForPeriod = RatingHelper.Wn8ForPeriod(lastUsedTanksList);
+                PlayerStatistic.WN8RatingForPeriod = RatingHelper.Wn8ForPeriod(lastUsedTanksList, WN8Type.Default);
+                PlayerStatistic.WN8KTTCRatingForPeriod = RatingHelper.Wn8ForPeriod(lastUsedTanksList, WN8Type.KTTC);
+                PlayerStatistic.WN8XVMRatingForPeriod = RatingHelper.Wn8ForPeriod(lastUsedTanksList, WN8Type.XVM);
                 PlayerStatistic.PerformanceRatingForPeriod = RatingHelper.PerformanceRatingForPeriod(lastUsedTanksList);
             }
 

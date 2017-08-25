@@ -128,6 +128,16 @@
                                    DeltaForeground="{Binding WN8RatingDelta, Converter={x:Static color:DeltaToColorConverter.Default}}"
                                    ValueForeground="{Binding Path=WN8RatingForPeriod, Converter={x:Static ratings:RatingToColorConverter.Default}, ConverterParameter={x:Static logic:Rating.WN8}}"
                                    HeaderLink="{Binding PerformanceRatingLink}"/>
+            <controls:LinkStatisticRow Header="WN8 KTTC" Value="{Binding WN8KTTCRatingForPeriod, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='N1'}"
+                                       Delta="{Binding WN8KTTCRatingDelta, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='+#,0.0;-#,0.0;0'}"
+                                       DeltaForeground="{Binding WN8KTTCRatingDelta, Converter={x:Static color:DeltaToColorConverter.Default}}"
+                                       ValueForeground="{Binding Path=WN8KTTCRatingForPeriod, Converter={x:Static ratings:RatingToColorConverter.Default}, ConverterParameter={x:Static logic:Rating.WN8}}"
+                                       HeaderLink="{Binding PerformanceRatingLink}"/>
+            <controls:LinkStatisticRow Header="WN8 XVM" Value="{Binding WN8XVMRatingForPeriod, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='N1'}"
+                                       Delta="{Binding WN8XVMRatingDelta, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='+#,0.0;-#,0.0;0'}"
+                                       DeltaForeground="{Binding WN8XVMRatingDelta, Converter={x:Static color:DeltaToColorConverter.Default}}"
+                                       ValueForeground="{Binding Path=WN8XVMRatingForPeriod, Converter={x:Static ratings:RatingToColorConverter.Default}, ConverterParameter={x:Static logic:Rating.WN8}}"
+                                       HeaderLink="{Binding PerformanceRatingLink}"/>
             <!--KievArmorRating-->
             <controls:LinkStatisticRow Header="{x:Static resources:Resources.Common_KievArmorRating}" Value="{Binding KievArmorRatingForPeriod, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='N1'}"
                                    Delta="{Binding KievArmorRatingDelta, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='+#,0.0;-#,0.0;0'}"

@@ -183,6 +183,8 @@ namespace TournamentStat.Applications.Logic
             excelWorksheet.Cells[2, column++].Value = "УпЗ";
             excelWorksheet.Cells[2, column++].Value = "ППУ";
             excelWorksheet.Cells[2, column++].Value = "WN8";
+            excelWorksheet.Cells[2, column++].Value = "WN8 KTTC";
+            excelWorksheet.Cells[2, column++].Value = "WN8 XVM";
 
             excelWorksheet.Cells[1, groupStartColumn, 1, column - 1].Merge = true;
             excelWorksheet.Cells[1, groupStartColumn, 1, column - 1].Value = "серия";
@@ -271,6 +273,14 @@ namespace TournamentStat.Applications.Logic
                 excelWorksheet.Cells[row, column].Style.Fill.PatternType = ExcelFillStyle.Solid;
                 excelWorksheet.Cells[row, column].Style.Fill.BackgroundColor.SetColor(GetWN8Color(tankStatistic.WN8RatingForPeriod));
                 excelWorksheet.Cells[row, column++].Value = tankStatistic.WN8RatingForPeriod;
+                excelWorksheet.Cells[row, column].Style.Numberformat.Format = _format;
+                excelWorksheet.Cells[row, column].Style.Fill.PatternType = ExcelFillStyle.Solid;
+                excelWorksheet.Cells[row, column].Style.Fill.BackgroundColor.SetColor(GetWN8Color(tankStatistic.WN8KTTCRatingForPeriod));
+                excelWorksheet.Cells[row, column++].Value = tankStatistic.WN8KTTCRatingForPeriod;
+                excelWorksheet.Cells[row, column].Style.Numberformat.Format = _format;
+                excelWorksheet.Cells[row, column].Style.Fill.PatternType = ExcelFillStyle.Solid;
+                excelWorksheet.Cells[row, column].Style.Fill.BackgroundColor.SetColor(GetWN8Color(tankStatistic.WN8XVMRatingForPeriod));
+                excelWorksheet.Cells[row, column++].Value = tankStatistic.WN8XVMRatingForPeriod;
 
                 excelWorksheet.Cells[row, column++].Value = tankStatistic.ReplaysUrlOwner;//"реплеи на ресурсе игрока";
                 excelWorksheet.Cells[row, column++].Value = tankStatistic.ReplaysUrl;//"реплеи на ресурсе организатора";

@@ -85,6 +85,8 @@ namespace WotDossier.Applications.ViewModel.Statistic
             RBR = stat.RBR;
             PerformanceRating = stat.PerformanceRating;
             WN8Rating = stat.WN8Rating;
+            WN8KTTCRating = stat.WN8KTTCRating;
+            WN8XVMRating = stat.WN8XVMRating;
         }
     }
 }

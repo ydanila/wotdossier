@@ -67,7 +67,15 @@
     <Style x:Key="DataGridCellWn8Style" TargetType="{x:Type DataGridCell}" BasedOn="{StaticResource DataGridCellStyle}">
         <Setter Property="Background" Value="{Binding Path=WN8Rating, Converter={x:Static ratings:RatingToColorConverter.Default}, ConverterParameter={x:Static logic:Rating.WN8}}" />
     </Style>
-    
+
+    <Style x:Key="DataGridCellWn8KttcStyle" TargetType="{x:Type DataGridCell}" BasedOn="{StaticResource DataGridCellStyle}">
+        <Setter Property="Background" Value="{Binding Path=WN8KTTCRating, Converter={x:Static ratings:RatingToColorConverter.Default}, ConverterParameter={x:Static logic:Rating.WN8}}" />
+    </Style>
+
+    <Style x:Key="DataGridCellWn8XvmStyle" TargetType="{x:Type DataGridCell}" BasedOn="{StaticResource DataGridCellStyle}">
+        <Setter Property="Background" Value="{Binding Path=WN8XVMRating, Converter={x:Static ratings:RatingToColorConverter.Default}, ConverterParameter={x:Static logic:Rating.WN8}}" />
+    </Style>
+
     <Style x:Key="DataGridCellEffForPeriodStyle" TargetType="{x:Type DataGridCell}" BasedOn="{StaticResource DataGridCellStyle}">
         <Setter Property="Background" Value="{Binding Path=EffRatingForPeriod, Converter={x:Static ratings:RatingToColorConverter.Default}, ConverterParameter={x:Static logic:Rating.EFF}}" />
     </Style>
@@ -82,6 +90,14 @@
     
     <Style x:Key="DataGridCellWn8ForPeriodStyle" TargetType="{x:Type DataGridCell}" BasedOn="{StaticResource DataGridCellStyle}">
         <Setter Property="Background" Value="{Binding Path=WN8RatingForPeriod, Converter={x:Static ratings:RatingToColorConverter.Default}, ConverterParameter={x:Static logic:Rating.WN8}}" />
+    </Style>
+
+    <Style x:Key="DataGridCellWn8KttcForPeriodStyle" TargetType="{x:Type DataGridCell}" BasedOn="{StaticResource DataGridCellStyle}">
+        <Setter Property="Background" Value="{Binding Path=WN8KTTCRatingForPeriod, Converter={x:Static ratings:RatingToColorConverter.Default}, ConverterParameter={x:Static logic:Rating.WN8}}" />
+    </Style>
+
+    <Style x:Key="DataGridCellWn8XvmForPeriodStyle" TargetType="{x:Type DataGridCell}" BasedOn="{StaticResource DataGridCellStyle}">
+        <Setter Property="Background" Value="{Binding Path=WN8XVMRatingForPeriod, Converter={x:Static ratings:RatingToColorConverter.Default}, ConverterParameter={x:Static logic:Rating.WN8}}" />
     </Style>
 
     <Style x:Key="DataGridCellXvmStyle" TargetType="{x:Type DataGridCell}" BasedOn="{StaticResource DataGridCellStyle}">

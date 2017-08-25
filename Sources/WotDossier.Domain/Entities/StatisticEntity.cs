@@ -44,10 +44,22 @@ namespace WotDossier.Domain.Entities
         public virtual double RBR { get; set; }
 
         /// <summary>
-        ///     Gets or sets the W n8 rating.
+        ///     Gets or sets the WN8 rating.
         /// </summary>
         [DataMember]
         public virtual double WN8Rating { get; set; }
+
+        /// <summary>
+        ///     Gets or sets the WN8 KTTC rating.
+        /// </summary>
+        [DataMember]
+        public virtual double WN8KTTCRating { get; set; }
+
+        /// <summary>
+        ///     Gets or sets the WN8 XVM rating.
+        /// </summary>
+        [DataMember]
+        public virtual double WN8XVMRating { get; set; }
 
         /// <summary>
         ///     Gets or sets the performance rating.

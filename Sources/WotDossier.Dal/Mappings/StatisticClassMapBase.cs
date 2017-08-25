@@ -38,6 +38,8 @@ namespace WotDossier.Dal.Mappings
 
             Map(v => v.RBR);
             Map(v => v.WN8Rating);
+            Map(v => v.WN8KTTCRating);
+            Map(v => v.WN8XVMRating);
             Map(v => v.PerformanceRating);
 
             Map(v => v.Rev);

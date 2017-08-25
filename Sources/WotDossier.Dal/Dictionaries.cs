@@ -8,6 +8,7 @@ using Newtonsoft.Json.Linq;
 using WotDossier.Common;
 using WotDossier.Domain;
 using System.Linq;
+using WotDossier.Domain.Rating;
 using WotDossier.Domain.Tank;
 
 namespace WotDossier.Dal
@@ -253,7 +254,11 @@ namespace WotDossier.Dal
         public void Init()
         {
             _ratingExpectations = ReadRatingExpectationsDictionary();
+
             _tanks = ReadTanksDictionary();
+
+            UpdateTankExpectedValues();
+
             _maps = ReadMaps();
             Medals = ReadMedals();
 
@@ -480,6 +485,75 @@ namespace WotDossier.Dal
                 _log.Error(e);
             }
             return new Dictionary<int, RatingExpectancy>();
+        }
+
+        private void UpdateTankExpectedValues()
+        {
+            var wn8 = ReadRatingExpectedValues(WN8Type.Default);
+            var wn8k = ReadRatingExpectedValues(WN8Type.KTTC);
+            var wn8x = ReadRatingExpectedValues(WN8Type.XVM);
+
+            foreach (var pair in Tanks)
+            {
+                var tank = pair.Value;
+
+                tank.ExpectedValues = new Dictionary<WN8Type, RatingExpectedValuesData>()
+                {
+                    {WN8Type.Default, FindExpectedValues(wn8, tank)},
+                    {WN8Type.KTTC, FindExpectedValues(wn8k, tank)},
+                    {WN8Type.XVM, FindExpectedValues(wn8x, tank)}
+                };
+            }
+        }
+
+        private RatingExpectedValuesData FindExpectedValues(RatingExpectedValues expValues, TankDescription tank)
+        {
+            var exp = expValues.Data.FirstOrDefault(d => d.CompDescr == tank.CompDescr) ?? expValues.Data.FirstOrDefault(x => x.TankLevel == tank.Tier && (int) x.TankType == tank.Type);
+            return exp ?? new RatingExpectedValuesData();
+        }
+        private RatingExpectedValues ReadRatingExpectedValues(WN8Type wn8Type)
+        {
+            var result = new RatingExpectedValues();
+            try
+            {
+                var filename = string.Empty;
+                switch (wn8Type)
+                {
+                    case WN8Type.Default:
+                        filename = "expected_tank_values.json";
+                        break;
+                    case WN8Type.KTTC:
+                        filename = "expected_kttc.json";
+                        break;
+                    case WN8Type.XVM:
+                        filename = "expected_xvm.json";
+                        break;
+                    default:
+                        throw new ArgumentOutOfRangeException(nameof(wn8Type), wn8Type, null);
+                }
+                using (StreamReader re = new StreamReader(@"External\" + filename))
+                {
+                    JsonTextReader reader = new JsonTextReader(re);
+                    JsonSerializer se = new JsonSerializer();
+                    result = se.Deserialize<RatingExpectedValues>(reader);
+                }
+
+                foreach (var data in result.Data)
+                {
+                    var tank = Tanks.Values.FirstOrDefault(t => t.CompDescr == data.CompDescr);
+                    if (tank != null)
+                    {
+                        data.TankLevel = tank.Tier;
+                        data.TankType = data.TankType;
+                    }
+
+                }
+            }
+            catch (Exception e)
+            {
+                _log.Error(e);
+            }
+            return result;
         }
 
         /// <summary>

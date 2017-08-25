@@ -133,6 +133,7 @@
     <Compile Include="Entities\PlayerEntity.cs" />
     <Compile Include="Entities\RandomBattlesStatisticEntity.cs" />
     <Compile Include="MedalGroup.cs" />
+    <Compile Include="Rating\WN8Type.cs" />
     <Compile Include="Replay\AdvancedReplayData.cs" />
     <Compile Include="Replay\BattleResult98.cs" />
     <Compile Include="Replay\BattleResult.cs" />

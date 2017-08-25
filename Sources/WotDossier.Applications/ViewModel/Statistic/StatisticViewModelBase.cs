@@ -312,13 +312,35 @@ namespace WotDossier.Applications.ViewModel.Statistic
         }
 
         private double _wn8Rating;
+        private double _wn8KTTCRating;
+        private double _wn8XVMRating;
         public virtual double WN8Rating
         {
-            get { return _wn8Rating; }
+            get => _wn8Rating;
             set
             {
                 _wn8Rating = value;
                 OnPropertyChanged("WN8Rating");
+            }
+        }
+
+        public virtual double WN8KTTCRating
+        {
+            get => _wn8KTTCRating;
+            set
+            {
+                _wn8KTTCRating = value;
+                OnPropertyChanged("WN8KTTCRating");
+            }
+        }
+
+        public virtual double WN8XVMRating
+        {
+            get => _wn8XVMRating;
+            set
+            {
+                _wn8XVMRating = value;
+                OnPropertyChanged("WN8XVMRating");
             }
         }
 

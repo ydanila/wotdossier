@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using WotDossier.Applications.Logic;
 using WotDossier.Applications.ViewModel.Statistic;
 using WotDossier.Common;
+using WotDossier.Domain.Rating;
 using WotDossier.Domain.Tank;
 
 namespace WotDossier.Applications.ViewModel.Rows
@@ -260,23 +261,27 @@ namespace WotDossier.Applications.ViewModel.Rows
             }
         }
 
-        public override double WN8Rating
-        {
-            get
-            {
-                if (BattlesCount > 0)
-                {
-                    double expDamage = BattlesCount * Description.Expectancy.Wn8NominalDamage / BattlesCount;
-                    double expSpotted = BattlesCount * Description.Expectancy.Wn8NominalSpotted / BattlesCount;
-                    double expDef = BattlesCount * Description.Expectancy.Wn8NominalDefence / BattlesCount;
-                    double expWinRate = BattlesCount * Description.Expectancy.Wn8NominalWinRate / 100.0 / BattlesCount;
-                    double expFrags = BattlesCount * Description.Expectancy.Wn8NominalFrags / BattlesCount;
+        #region [ WN8 ]
 
-                    return RatingHelper.Wn8(AvgDamageDealt, expDamage, AvgFrags, expFrags, AvgSpotted, expSpotted, AvgDroppedCapturePoints, expDef, WinsPercent, expWinRate);
-                }
-                return 0;
+        private double calculateWN8(WN8Type wn8type, int battleCount, double avgDmg, double avgFrag, double avgSpot, double avgDef, double avgWinRate)
+        {
+            if (battleCount > 0)
+            {
+                double expDamage = battleCount * Description.ExpectedValues[wn8type].Damage / battleCount;
+                double expSpotted = battleCount * Description.ExpectedValues[wn8type].Spotted / battleCount;
+                double expDef = battleCount * Description.ExpectedValues[wn8type].Defence / battleCount;
+                double expWinRate = battleCount * Description.ExpectedValues[wn8type].WinRate / 100.0 / battleCount;
+                double expFrags = battleCount * Description.ExpectedValues[wn8type].Frags / battleCount;
+
+                return RatingHelper.Wn8(avgDmg, expDamage, avgFrag, expFrags, avgSpot, expSpotted, avgDef, expDef, avgWinRate, expWinRate);
             }
+            return 0;
         }
+        public override double WN8Rating => calculateWN8(WN8Type.Default, BattlesCount, AvgDamageDealt, AvgFrags, AvgSpotted, AvgDroppedCapturePoints, WinsPercent);
+        public override double WN8KTTCRating => calculateWN8(WN8Type.KTTC, BattlesCount, AvgDamageDealt, AvgFrags, AvgSpotted, AvgDroppedCapturePoints, WinsPercent);
+        public override double WN8XVMRating => calculateWN8(WN8Type.XVM, BattlesCount, AvgDamageDealt, AvgFrags, AvgSpotted, AvgDroppedCapturePoints, WinsPercent);
+
+        #endregion
 
         public override double RBR
         {
@@ -318,24 +323,10 @@ namespace WotDossier.Applications.ViewModel.Rows
                 return 0;
             }
         }
-
-        public override double WN8RatingForPeriod
-        {
-            get
-            {
-                if (BattlesCountDelta > 0)
-                {
-                    double expDamage = BattlesCountDelta * Description.Expectancy.Wn8NominalDamage / BattlesCountDelta;
-                    double expSpotted = BattlesCountDelta * Description.Expectancy.Wn8NominalSpotted / BattlesCountDelta;
-                    double expDef = BattlesCountDelta * Description.Expectancy.Wn8NominalDefence / BattlesCountDelta;
-                    double expWinRate = BattlesCountDelta * Description.Expectancy.Wn8NominalWinRate / 100.0 / BattlesCountDelta;
-                    double expFrags = BattlesCountDelta * Description.Expectancy.Wn8NominalFrags / BattlesCountDelta;
-
-                    return RatingHelper.Wn8(AvgDamageDealtForPeriod, expDamage, AvgFragsForPeriod, expFrags, AvgSpottedForPeriod, expSpotted, AvgDroppedCapturePointsForPeriod, expDef, WinsPercentForPeriod, expWinRate);
-                }
-                return 0;
-            }
-        }
+        
+        public override double WN8RatingForPeriod => calculateWN8(WN8Type.Default, BattlesCountDelta, AvgDamageDealtForPeriod, AvgFragsForPeriod, AvgSpottedForPeriod, AvgDroppedCapturePointsForPeriod, WinsPercentForPeriod);
+        public override double WN8KTTCRatingForPeriod => calculateWN8(WN8Type.KTTC, BattlesCountDelta, AvgDamageDealtForPeriod, AvgFragsForPeriod, AvgSpottedForPeriod, AvgDroppedCapturePointsForPeriod, WinsPercentForPeriod);
+        public override double WN8XVMRatingForPeriod => calculateWN8(WN8Type.XVM, BattlesCountDelta, AvgDamageDealtForPeriod, AvgFragsForPeriod, AvgSpottedForPeriod, AvgDroppedCapturePointsForPeriod, WinsPercentForPeriod);
 
         protected TankStatisticRowViewModelBase()
         {

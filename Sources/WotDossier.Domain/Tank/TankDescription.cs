@@ -1,4 +1,6 @@
-﻿using System.Runtime.Serialization;
+﻿using System.Collections.Generic;
+using System.Runtime.Serialization;
+using WotDossier.Domain.Rating;
 
 namespace WotDossier.Domain.Tank
 {
@@ -93,6 +95,30 @@ namespace WotDossier.Domain.Tank
         {
             get { return _expectancy ?? new RatingExpectancy(); }
             set { _expectancy = value; }
+        }
+
+
+        private Dictionary<WN8Type, RatingExpectedValuesData> expectedValues;
+        /// <summary>
+        /// Gets or sets the rating expected values.
+        /// </summary>
+        [IgnoreDataMember]
+        public Dictionary<WN8Type, RatingExpectedValuesData> ExpectedValues
+        {
+            get
+            {
+                if (expectedValues == null)
+                {
+                    expectedValues = new Dictionary<WN8Type, RatingExpectedValuesData>()
+                    {
+                        {WN8Type.Default, new RatingExpectedValuesData()},
+                        { WN8Type.KTTC, new RatingExpectedValuesData() },
+                        { WN8Type.XVM, new RatingExpectedValuesData() }
+                    };
+                }
+                return expectedValues;
+            }
+            set => expectedValues = value;
         }
 
         private int _uniqueId = -1;

@@ -116,6 +116,12 @@
             <controls:CompareRow Header="WN8" FirstValue="{Binding First.WN8Rating, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='N0'}"
                                      SecondValue="{Binding Second.WN8Rating, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='N0'}" Diff="{Binding WN8Rating, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='+#,0.;-#,0.;0'}"
                                  Foreground="{Binding WN8Rating, Converter={x:Static color:DeltaToColorConverter.Default}}"/>
+            <controls:CompareRow Header="WN8 KTTC" FirstValue="{Binding First.WN8KTTCRating, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='N0'}"
+                                 SecondValue="{Binding Second.WN8KTTCRating, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='N0'}" Diff="{Binding WN8KTTCRating, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='+#,0.;-#,0.;0'}"
+                                 Foreground="{Binding WN8KTTCRating, Converter={x:Static color:DeltaToColorConverter.Default}}"/>
+            <controls:CompareRow Header="WN8 XVM" FirstValue="{Binding First.WN8XVMRating, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='N0'}"
+                                 SecondValue="{Binding Second.WN8XVMRating, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='N0'}" Diff="{Binding WN8XVMRating, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='+#,0.;-#,0.;0'}"
+                                 Foreground="{Binding WN8XVMRating, Converter={x:Static color:DeltaToColorConverter.Default}}"/>
             <!--KievArmorRating-->
             <controls:CompareRow Header="{x:Static resources:Resources.Common_KievArmorRating}" FirstValue="{Binding First.KievArmorRating, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='N0'}"
                                      SecondValue="{Binding Second.KievArmorRating, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='N0'}" Diff="{Binding KievArmorRating, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='+#,0.;-#,0.;0'}"
