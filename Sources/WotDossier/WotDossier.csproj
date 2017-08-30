@@ -895,10 +895,10 @@
     <Content Include="External\Data\WotGameVersion-#0285.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\scripts\compile_exe.py" />
-    <Content Include="External\scripts\SafeUnpickler.py" />
-    <Content Include="External\scripts\wotdc2j.py" />
-    <Content Include="External\scripts\wotrp2j.py" />
+    <None Include="External\scripts\compile_exe.py" />
+    <None Include="External\scripts\SafeUnpickler.py" />
+    <None Include="External\scripts\wotdc2j.py" />
+    <None Include="External\scripts\wotrp2j.py" />
     <Content Include="x64\SQLite.Interop.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -924,26 +924,26 @@
     <Content Include="External\maps.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_18.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_18.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_20.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_20.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_22.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_22.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_24.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_24.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_26.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_26.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_27.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_27.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_28.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_28.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="External\tanks.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -954,29 +954,29 @@
     <Content Include="External\_hashlib.pyd">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_29.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_29.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="External\tanks_expectations.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_65.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_65.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_69.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_69.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_10.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_10.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_17.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_17.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_77.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_77.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_81.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_81.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="External\consumables.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -984,11 +984,11 @@
     <Content Include="External\optional_devices.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_85.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_85.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_87.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_87.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="External\shells\china_shells.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -1014,17 +1014,17 @@
     <Content Include="External\maps_description.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_88.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_88.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_89.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_89.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_92.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_92.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_94.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_94.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="External\shells\czech_shells.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -1032,8 +1032,8 @@
     <Content Include="External\shells\sweden_shells.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="External\structures_95.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="External\structures\structures_95.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="External\bz2.pyd">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -1051,15 +1051,18 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="External\shells\poland_shells.json" />
-    <None Include="External\structures_96.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="External\structures_97.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="External\structures_98.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Content Include="External\structures\structures_96.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\structures\structures_97.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\structures\structures_98.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="External\structures\structures_99.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="External\unicodedata.pyd">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Windows.Data;
+using WotDossier.Domain;
 using WotDossier.Resources;
 
 namespace WotDossier.Converters
@@ -32,7 +33,9 @@ namespace WotDossier.Converters
             int countryId = (int)value;
             if (countryId > -1)
             {
-                Uri uriSource = new Uri(string.Format(@"pack://application:,,,/WotDossier.Resources;component/Images/Countries/slot_bright_{0}.png", countryId));
+                //Uri uriSource = new Uri(string.Format(@"pack://application:,,,/WotDossier.Resources;component/Images/Countries/slot_bright_{0}.png", countryId));
+                var cnt = (Country) countryId;
+                Uri uriSource = new Uri(string.Format(@"pack://application:,,,/WotDossier.Resources;component/Images/Countries/{0}_131x31.png", cnt.ToString().ToLower()));
                 var bitmapImage = ImageCache.GetBitmapImage(uriSource);
                 return bitmapImage;
             }

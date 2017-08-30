@@ -230,10 +230,10 @@ def main():
 				blocks = ('a15x15', 'a15x15_2', 'clan', 'clan2', 'company', 'company2', 'a7x7', 'achievements', 'frags', 'total', 'max15x15', 'max7x7', 'playerInscriptions', 'playerEmblems', 'camouflages', 'compensation', 'achievements7x7', 'historical', 'maxHistorical', 'historicalAchievements', 'fortBattles', 'maxFortBattles', 'fortSorties', 'maxFortSorties', 'fortAchievements', 'singleAchievements', 'clanAchievements', 'rated7x7', 'maxRated7x7', 'globalMapCommon', 'maxGlobalMapCommon', 'fallout', 'maxFallout', 'falloutAchievements')
 
 			if tankversion in [97, 98]:
-				blocks = ('a15x15', 'a15x15_2', 'clan', 'clan2', 'company', 'company2', 'a7x7', 'achievements', 'frags', 'total', 'max15x15', 'max7x7', 'playerInscriptions', 'playerEmblems', 'camouflages', 'compensation', 'achievements7x7', 'historical', 'maxHistorical', 'historicalAchievements', 'fortBattles', 'maxFortBattles', 'fortSorties', 'maxFortSorties', 'fortAchievements', 'singleAchievements', 'clanAchievements', 'rated7x7', 'maxRated7x7', 'globalMapCommon', 'maxGlobalMapCommon', 'fallout', 'maxFallout', 'falloutAchievements', 'ranked', 'maxRanked', 'rankedCurrent')
-
+				blocks = ('a15x15', 'a15x15_2', 'clan', 'clan2', 'company', 'company2', 'a7x7', 'achievements', 'frags', 'total', 'max15x15', 'max7x7', 'playerInscriptions', 'playerEmblems', 'camouflages', 'compensation', 'achievements7x7', 'historical', 'maxHistorical', 'historicalAchievements', 'fortBattles', 'maxFortBattles', 'fortSorties', 'maxFortSorties', 'fortAchievements', 'singleAchievements', 'clanAchievements', 'rated7x7', 'maxRated7x7', 'globalMapCommon', 'maxGlobalMapCommon', 'fallout', 'maxFallout', 'falloutAchievements', 'ranked', 'maxRanked', 'rankedSeasons')
+			
 			if tankversion == 99:
-				blocks = ('a15x15', 'a15x15_2', 'clan', 'clan2', 'company', 'company2', 'a7x7', 'achievements', 'frags', 'total', 'max15x15', 'max7x7', 'playerInscriptions', 'playerEmblems', 'camouflages', 'compensation', 'achievements7x7', 'historical', 'maxHistorical', 'historicalAchievements', 'fortBattles', 'maxFortBattles', 'fortSorties', 'maxFortSorties', 'fortAchievements', 'singleAchievements', 'clanAchievements', 'rated7x7', 'maxRated7x7', 'globalMapCommon', 'maxGlobalMapCommon', 'fallout', 'maxFallout', 'falloutAchievements', 'ranked', 'maxRanked', 'rankedCurrent', 'maxRankedCurrent' 'a30x30', 'max30x30')
+				blocks = ('a15x15', 'a15x15_2', 'clan', 'clan2', 'company', 'company2', 'a7x7', 'achievements', 'frags', 'total', 'max15x15', 'max7x7', 'playerInscriptions', 'playerEmblems', 'camouflages', 'compensation', 'achievements7x7', 'historical', 'maxHistorical', 'historicalAchievements', 'fortBattles', 'maxFortBattles', 'fortSorties', 'maxFortSorties', 'fortAchievements', 'singleAchievements', 'clanAchievements', 'rated7x7', 'maxRated7x7', 'globalMapCommon', 'maxGlobalMapCommon', 'fallout', 'maxFallout', 'falloutAchievements', 'ranked', 'maxRanked', 'rankedSeasons', 'a30x30', 'max30x30')
 
 			blockcount = len(list(blocks))+1
 
@@ -246,7 +246,6 @@ def main():
 			numoffrags_a7x7 = 0
 			numoffrags_a30x30 = 0
 			numoffrags_ranked = 0
-			numoffrags_rankedCurrent = 0
 			numoffrags_historical = 0
 			numoffrags_fortBattles = 0
 			numoffrags_fortSorties = 0
@@ -278,6 +277,10 @@ def main():
 				
 						newbaseoffset += blocksizes[blocknumber] 
 
+					elif blockname == 'rankedSeasons':
+						rdict = unpackdict('II', 'BB', blocksizes[blocknumber], data, newbaseoffset)
+						tank_v2['rankedSeasons'] = rdict
+						newbaseoffset += blocksizes[blocknumber]
 						
 					else:
 						oldbaseoffset = newbaseoffset
@@ -377,14 +380,6 @@ def main():
 				if 'frags' in tank_v2['ranked']:
 					numoffrags_ranked = int(tank_v2['ranked']['frags'])
 
-			if contains_block('rankedCurrent', tank_v2):
-				
-				if 'battlesCount' in tank_v2['rankedCurrent']:
-					battleCount_rankedCurrent += tank_v2['rankedCurrent']['battlesCount']
-				
-				if 'frags' in tank_v2['rankedCurrent']:
-					numoffrags_rankedCurrent = int(tank_v2['rankedCurrent']['frags'])
-
 			if contains_block('a30x30', tank_v2):
 				
 				if 'battlesCount' in tank_v2['a30x30']:
@@ -424,7 +419,6 @@ def main():
 				"frags_fortBattles":  numoffrags_fortBattles,
 				"frags_fortSorties":  numoffrags_fortSorties,
 				"frags_ranked":  numoffrags_ranked,
-				"frags_rankedCurrent":  numoffrags_rankedCurrent,
 				"frags_a30x30":  numoffrags_a30x30,
 				"frags_compare": numoffrags_list,
 				"has_15x15": contains_block("a15x15", tank_v2),
@@ -435,7 +429,6 @@ def main():
 				"has_fort": contains_block("fortBattles", tank_v2),
 				"has_sortie": contains_block("fortSorties", tank_v2),
 				"has_ranked": contains_block("ranked", tank_v2),
-				"has_rankedCurrent": contains_block("rankedCurrent", tank_v2),
 				"has_a30x30": contains_block("a30x30", tank_v2)
 				
 			}
@@ -688,6 +681,38 @@ def keepCompatibility(structureddata):
 
 	return structureddata
 
+def unpackdict(keyFormat, valueFormat, blocksize, data, offset):
+	itemFormat = keyFormat + valueFormat
+	itemSize = struct.calcsize('<' + itemFormat)
+	length = blocksize / itemSize
+	if length == 0:
+		return {}
+	
+	keyLength = len(keyFormat)
+	valueLength = len(valueFormat)
+	result = dict()
+
+	if keyLength == 1 and valueLength == 1:
+		listToItem = lambda values, idx: (values[idx], values[idx + 1])
+	elif keyLength == 1 and valueLength != 1:
+		listToItem = lambda values, idx: (values[idx], values[idx + 1:idx + valueLength + 1])
+	elif keyLength != 1 and valueLength == 1:
+		listToItem = lambda values, idx: (values[idx:idx + keyLength], values[idx + keyLength])
+	else:
+		listToItem = lambda values, idx: (values[idx:idx + keyLength], values[idx + keyLength:idx + valueLength + keyLength])
+
+	fmt = '<' + itemFormat * length
+	values = struct.unpack_from(fmt, data, offset)
+	return values
+	#itemLength = len(itemFormat)
+	#idx = 0
+	#for i in xrange(length):
+	#	key, value = listToItem(values, idx)
+	#	#key, value = (values[idx], values[idx + valueLength])
+	#	idx += itemLength
+	#	result[key] = value
+
+	#return result
 
 
 
@@ -792,7 +817,7 @@ def load_structures():
 	
 	load_versions = [10,17,18,20,22,24,26,27,28,29,65,69,77,81,85,87,88,89,92,94,95,96,97,98,99];
 	for version in load_versions:
-		jsondata = get_json_data('structures_'+str(version)+'.json')
+		jsondata = get_json_data('structures/structures_'+str(version)+'.json')
 		structures[version] = dict()
 		for item in jsondata:
 			category = item['category']

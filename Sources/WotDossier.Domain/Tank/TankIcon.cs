@@ -14,7 +14,7 @@ namespace WotDossier.Domain.Tank
         {
             get
             {
-                return string.Format("{0}_{1}", CountryId, Icon);
+                return string.Format("{0}-{1}", CountryId.ToString().ToLower(), Icon);
             }
         }
 

@@ -260,10 +260,12 @@ namespace WotDossier.Dal
         public void Init()
         {
             var appSettings = SettingsReader.Get();
-            //if (string.IsNullOrEmpty(appSettings.WotFolderPath))
-            var inst = new GameInstallation(appSettings.WotFolderPath);
-            var context = WotData.Load(@"External\Data", new GameInstallation(appSettings.WotFolderPath), String.Empty, null);
-
+            if (!string.IsNullOrEmpty(appSettings.WotFolderPath))
+            {
+                var inst = new GameInstallation(appSettings.WotFolderPath);
+                var context = WotData.Load(@"External\Data", new GameInstallation(appSettings.WotFolderPath),
+                    String.Empty, null);
+            }
 
 
 
