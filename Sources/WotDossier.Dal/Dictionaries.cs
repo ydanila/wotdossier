@@ -8,8 +8,10 @@ using Newtonsoft.Json.Linq;
 using WotDossier.Common;
 using WotDossier.Domain;
 using System.Linq;
+using WotDataLib;
 using WotDossier.Domain.Rating;
 using WotDossier.Domain.Tank;
+using Country = WotDossier.Domain.Country;
 
 namespace WotDossier.Dal
 {
@@ -30,12 +32,13 @@ namespace WotDossier.Dal
         private Dictionary<int, RatingExpectancy> _ratingExpectations;
 
         public static readonly Version VersionAll = new Version("100.0.0.0");
-        public static readonly Version VersionRelease = new Version("0.9.19.1");
-        public static readonly Version VersionTest = new Version("0.9.20.0");
+        public static readonly Version VersionRelease = new Version("0.9.20.0");
+        public static readonly Version VersionTest = new Version("0.9.21.0");
 
         private static readonly List<Version> _versions = new List<Version>
         {
                 VersionRelease,
+                new Version("0.9.19.1"),
                 new Version("0.9.19.0"),
                 new Version("0.9.18.0"),
                 new Version("0.9.17.0"),
@@ -173,6 +176,8 @@ namespace WotDossier.Dal
 
         #endregion
 
+        private AppSettings AppSettings { get; }
+
         public List<Version> Versions
         {
             get { return _versions; }
@@ -248,11 +253,21 @@ namespace WotDossier.Dal
         /// </summary>
         private Dictionaries()
         {
+            AppSettings = SettingsReader.Get();
             Init();
         }
 
         public void Init()
         {
+            var appSettings = SettingsReader.Get();
+            //if (string.IsNullOrEmpty(appSettings.WotFolderPath))
+            var inst = new GameInstallation(appSettings.WotFolderPath);
+            var context = WotData.Load(@"External\Data", new GameInstallation(appSettings.WotFolderPath), String.Empty, null);
+
+
+
+
+
             _ratingExpectations = ReadRatingExpectationsDictionary();
 
             _tanks = ReadTanksDictionary();
@@ -508,7 +523,10 @@ namespace WotDossier.Dal
 
         private RatingExpectedValuesData FindExpectedValues(RatingExpectedValues expValues, TankDescription tank)
         {
-            var exp = expValues.Data.FirstOrDefault(d => d.CompDescr == tank.CompDescr) ?? expValues.Data.FirstOrDefault(x => x.TankLevel == tank.Tier && (int) x.TankType == tank.Type);
+            var exp = expValues.Data.FirstOrDefault(d => d.CompDescr == tank.CompDescr);
+
+            if ( exp == null && AppSettings.TryFindTankAnalog)
+                exp = expValues.Data.FirstOrDefault(x => x.TankLevel == tank.Tier && x.TankType == tank.Type);
             return exp ?? new RatingExpectedValuesData();
         }
         private RatingExpectedValues ReadRatingExpectedValues(WN8Type wn8Type)
@@ -544,7 +562,7 @@ namespace WotDossier.Dal
                     if (tank != null)
                     {
                         data.TankLevel = tank.Tier;
-                        data.TankType = data.TankType;
+                        data.TankType = tank.Type;
                     }
 
                 }

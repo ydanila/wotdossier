@@ -892,6 +892,9 @@
     </Compile>
     <EmbeddedResource Include="OxyPlot.dll" />
     <EmbeddedResource Include="OxyPlot.Wpf.dll" />
+    <Content Include="External\Data\WotGameVersion-#0285.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="External\scripts\compile_exe.py" />
     <Content Include="External\scripts\SafeUnpickler.py" />
     <Content Include="External\scripts\wotdc2j.py" />

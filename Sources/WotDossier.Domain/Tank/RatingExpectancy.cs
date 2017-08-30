@@ -83,6 +83,6 @@ namespace WotDossier.Domain.Tank
         public int TankLevel { get; set; }
 
         [IgnoreDataMember]
-        public TankType TankType { get; set; }
+        public int TankType { get; set; }
     }
 }

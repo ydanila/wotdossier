@@ -130,6 +130,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\wotdatalib\WotDataLib.csproj">
+      <Project>{77e86e2b-89df-43d2-8efa-6eccd961465e}</Project>
+      <Name>WotDataLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WotDossier.Common\WotDossier.Common.csproj">
       <Project>{1268b707-a866-4723-89c7-2e9bd92e6aa6}</Project>
       <Name>WotDossier.Common</Name>

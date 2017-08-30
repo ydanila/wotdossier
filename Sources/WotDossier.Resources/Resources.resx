@@ -1160,6 +1160,9 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
   <data name="Settings_CheckForUpdatesOnStart" xml:space="preserve">
     <value>Check for updates on start</value>
   </data>
+  <data name="Settings_TryFindTankAnalog" xml:space="preserve">
+    <value>Try to find trank analog in expected values</value>
+  </data>
   <data name="WindowCaption_Error" xml:space="preserve">
     <value>Error</value>
   </data>
@@ -3484,6 +3487,9 @@ Date: {Date:dd.MM.yyyy}</value>
   </data>
   <data name="Settings_CacheFolder" xml:space="preserve">
     <value>Path to game cache</value>
+  </data>
+  <data name="Settings_WotFolder" xml:space="preserve">
+    <value>World of tanks catalog</value>
   </data>
   <data name="Total_ForSelected" xml:space="preserve">
     <value>For selected</value>

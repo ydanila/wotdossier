@@ -7338,6 +7338,24 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Try to find trank analog in expected values.
+        /// </summary>
+        public static string Settings_TryFindTankAnalog {
+            get {
+                return ResourceManager.GetString("Settings_TryFindTankAnalog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to World of tanks catalog.
+        /// </summary>
+        public static string Settings_WotFolder {
+            get {
+                return ResourceManager.GetString("Settings_WotFolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to All observation period.
         /// </summary>
         public static string StatisticPeriod_AllObservationPeriod {
