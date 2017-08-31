@@ -89,12 +89,16 @@
     <Compile Include="Dossier\TankV65\TotalJson.cs" />
     <Compile Include="Entities\FavoritePlayerEntity.cs" />
     <Compile Include="Entities\IRevised.cs" />
+    <Compile Include="Entities\RankedBattlesAchievementsEntity.cs" />
+    <Compile Include="Entities\RankedBattlesStatisticEntity.cs" />
+    <Compile Include="Entities\TankRankedBattlesStatisticEntity.cs" />
     <Compile Include="GameplayDescription.cs" />
     <Compile Include="Interfaces\IFortAchievements.cs" />
     <Compile Include="Interfaces\IClanBattlesAchievements.cs" />
     <Compile Include="Interfaces\IMapDescription.cs" />
     <Compile Include="Interfaces\IRandomBattlesAchievements.cs" />
     <Compile Include="Interfaces\IHistoricalBattlesAchievements.cs" />
+    <Compile Include="Interfaces\IRankedBattlesAchievements.cs" />
     <Compile Include="Interfaces\IStatisticExtended.cs" />
     <Compile Include="Interfaces\IStatisticBase.cs" />
     <Compile Include="Interfaces\IStatisticBattleAwards.cs" />

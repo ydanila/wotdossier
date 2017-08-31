@@ -7,6 +7,8 @@ namespace WotDossier.Domain
         HistoricalBattle = 2,
         Clan = 3,
         FortBattles = 4,
-        FortSorties = 5
+        FortSorties = 5,
+        Ranked = 6,
+        GeneralBattle = 7
     }
 }

@@ -99,6 +99,7 @@
     <Compile Include="JsonCreationConverter.cs" />
     <Compile Include="MapConfigConverter.cs" />
     <Compile Include="Mappings\ClassMapBase.cs" />
+    <Compile Include="Mappings\RankedBattlesStatisticMapping.cs" />
     <Compile Include="Mappings\TankEntityMapping.cs" />
     <Compile Include="Mappings\RandomBattlesAchievementsEntityMapping.cs" />
     <Compile Include="Mappings\StatisticClassMapBase.cs" />
