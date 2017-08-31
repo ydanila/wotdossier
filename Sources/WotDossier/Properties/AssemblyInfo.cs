@@ -8,11 +8,11 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("WotDossier")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("World Of Tanks Dossier Cache statistics")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("ITN")]
 [assembly: AssemblyProduct("WotDossier")]
-[assembly: AssemblyCopyright("Copyright © Rembel 2016")]
+[assembly: AssemblyCopyright("Copyright © Rembel, McHarny 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

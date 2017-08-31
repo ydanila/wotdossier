@@ -195,7 +195,6 @@
 {"category": "achievements", "length": 2, "name": "bonecrusher", "offset": 153, "version": 94},
 {"category": "achievements", "length": 2, "name": "charmed", "offset": 155, "version": 94},
 {"category": "achievements", "length": 2, "name": "even", "offset": 157, "version": 94},
-{"category": "achievements", "length": 2, "name": "testartilleryman", "offset": 159, "version": 94},
 {"category": "total", "length": 4, "name": "creationTime", "offset": 0, "version": 94},
 {"category": "total", "length": 4, "name": "lastBattleTime", "offset": 4, "version": 94},
 {"category": "total", "length": 4, "name": "battleLifeTime", "offset": 8, "version": 94},

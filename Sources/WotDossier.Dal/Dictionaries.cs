@@ -8,7 +8,6 @@ using Newtonsoft.Json.Linq;
 using WotDossier.Common;
 using WotDossier.Domain;
 using System.Linq;
-using WotDataLib;
 using WotDossier.Domain.Rating;
 using WotDossier.Domain.Tank;
 using Country = WotDossier.Domain.Country;
@@ -259,13 +258,13 @@ namespace WotDossier.Dal
 
         public void Init()
         {
-            var appSettings = SettingsReader.Get();
-            if (!string.IsNullOrEmpty(appSettings.WotFolderPath))
-            {
-                var inst = new GameInstallation(appSettings.WotFolderPath);
-                var context = WotData.Load(@"External\Data", new GameInstallation(appSettings.WotFolderPath),
-                    String.Empty, null);
-            }
+            //var appSettings = SettingsReader.Get();
+            //if (!string.IsNullOrEmpty(appSettings.WotFolderPath))
+            //{
+            //    var inst = new GameInstallation(appSettings.WotFolderPath);
+            //    var context = WotData.Load(@"External\Data", new GameInstallation(appSettings.WotFolderPath),
+            //        String.Empty, null);
+            //}
 
 
 

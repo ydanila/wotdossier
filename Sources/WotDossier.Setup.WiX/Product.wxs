@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"><?define WotDossier_TargetDir=$(var.WotDossier.TargetDir)?>
+	<Product Id="*" Name="WotDossier" Language="1033" Version="1.0.0.0" Manufacturer="Rembel (McHarny's resumption)" UpgradeCode="dcd56e90-3064-46d2-9a51-74196a8804b7">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="WotDossier" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+			<ComponentGroupRef Id="Config_files" />
+			<ComponentGroupRef Id="Data_files" />
+			<ComponentGroupRef Id="External_files" />
+			<ComponentGroupRef Id="External_Data_files" />
+			<ComponentGroupRef Id="External_shells_files" />
+			<ComponentGroupRef Id="External_structures_files" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="WotDossier">
+				  <Directory Id="Config" Name="Config" />
+				  <Directory Id="Data" Name="Data" />
+				  <Directory Id="External" Name="External">
+				    <Directory Id="External_Data" Name="Data" />
+				    <Directory Id="External_shells" Name="shells" />
+				    <Directory Id="External_structures" Name="structures" />
+				  </Directory>
+				  <Directory Id="ru_RU" Name="ru-RU" />
+				  <Directory Id="_x64" Name="x64" />
+				  <Directory Id="_x86" Name="x86" />
+				</Directory>
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+			<!-- <Component Id="ProductComponent"> -->
+				<!-- TODO: Insert files, registry keys, and other resources here. -->
+			<!-- </Component> -->
+			<Component Id="app.manifest" Guid="bde31d73-3373-4a3f-aeb4-309a8a9099bc">
+			  <File Id="app.manifest" Name="app.manifest" Source="$(var.WotDossier_TargetDir)app.manifest" />
+			</Component>
+			<Component Id="AutoMapper.dll" Guid="d8b64068-3778-4b8f-a68f-89f96d8ab4bb">
+			  <File Id="AutoMapper.dll" Name="AutoMapper.dll" Source="$(var.WotDossier_TargetDir)AutoMapper.dll" />
+			</Component>
+			<Component Id="Common.Logging.Core.dll" Guid="da4f4754-d9ba-4c46-8df9-ce04f309d173">
+			  <File Id="Common.Logging.Core.dll" Name="Common.Logging.Core.dll" Source="$(var.WotDossier_TargetDir)Common.Logging.Core.dll" />
+			</Component>
+			<Component Id="Common.Logging.dll" Guid="8dd6bff9-ca9e-4a3e-bab0-5d7b2cf2fd0c">
+			  <File Id="Common.Logging.dll" Name="Common.Logging.dll" Source="$(var.WotDossier_TargetDir)Common.Logging.dll" />
+			</Component>
+			<Component Id="De.TorstenMandelkow.MetroChart.dll" Guid="1f7591b4-d6ae-4e33-b7cf-65e1bb51b461">
+			  <File Id="De.TorstenMandelkow.MetroChart.dll" Name="De.TorstenMandelkow.MetroChart.dll" Source="$(var.WotDossier_TargetDir)De.TorstenMandelkow.MetroChart.dll" />
+			</Component>
+			<Component Id="DotNetZip.dll" Guid="b71593a5-a3d7-4121-8f57-fe3e8bca8843">
+			  <File Id="DotNetZip.dll" Name="DotNetZip.dll" Source="$(var.WotDossier_TargetDir)DotNetZip.dll" />
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+
+  <Fragment>
+    <ComponentGroup Id="Config_files" Directory="Config">
+      <Component Id="Config_Log4Net.xml" Guid="9dcfc1aa-52cf-4505-9aaf-76bd8dfc495b">
+        <File Id="Config_Log4Net.xml" Name="Log4Net.xml" Source="$(var.WotDossier_TargetDir)Config\Log4Net.xml" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+
+  <Fragment>
+    <ComponentGroup Id="Data_files" Directory="Data">
+      <Component Id="Data_Medals.xml" Guid="e9b81346-0ef7-47a6-9439-ff7c10536285">
+        <File Id="Data_Medals.xml" Name="Medals.xml" Source="$(var.WotDossier_TargetDir)Data\Medals.xml" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+
+  <Fragment>
+    <ComponentGroup Id="External_files" Directory="External">
+      <Component Id="External__hashlib.pyd" Guid="bd7c1ae1-2ff4-45f5-995c-077dd43cfa1b">
+        <File Id="External__hashlib.pyd" Name="_hashlib.pyd" Source="$(var.WotDossier_TargetDir)External\_hashlib.pyd" />
+      </Component>
+      <Component Id="External_consumables.json" Guid="184a4be4-19c1-48bc-b509-dd8532c83683">
+        <File Id="External_consumables.json" Name="consumables.json" Source="$(var.WotDossier_TargetDir)External\consumables.json" />
+      </Component>
+      <Component Id="External_expected_kttc.json" Guid="d76261a1-e2e3-4f49-9051-aecc962258cb">
+        <File Id="External_expected_kttc.json" Name="expected_kttc.json" Source="$(var.WotDossier_TargetDir)External\expected_kttc.json" />
+      </Component>
+      <Component Id="External_expected_tank_values.json" Guid="86528939-b177-492d-8d82-0306c2805d6e">
+        <File Id="External_expected_tank_values.json" Name="expected_tank_values.json" Source="$(var.WotDossier_TargetDir)External\expected_tank_values.json" />
+      </Component>
+      <Component Id="External_expected_xvm.json" Guid="eb711487-c0c8-44bc-84c9-d64c65f228fc">
+        <File Id="External_expected_xvm.json" Name="expected_xvm.json" Source="$(var.WotDossier_TargetDir)External\expected_xvm.json" />
+      </Component>
+      <Component Id="External_library.zip" Guid="6448c08e-62cf-4a0f-805e-0d9c218bf36d">
+        <File Id="External_library.zip" Name="library.zip" Source="$(var.WotDossier_TargetDir)External\library.zip" />
+      </Component>
+      <Component Id="External_maps.json" Guid="2c21cacf-5b86-4d5d-86c9-ab5d9920e840">
+        <File Id="External_maps.json" Name="maps.json" Source="$(var.WotDossier_TargetDir)External\maps.json" />
+      </Component>
+      <Component Id="External_maps_description.json" Guid="03c6cc2e-6b0b-431f-ae2a-2b20f0d28df5">
+        <File Id="External_maps_description.json" Name="maps_description.json" Source="$(var.WotDossier_TargetDir)External\maps_description.json" />
+      </Component>
+      <Component Id="External_optional_devices.json" Guid="4cd9346c-0c28-48b7-92c5-069a594d7de4">
+        <File Id="External_optional_devices.json" Name="optional_devices.json" Source="$(var.WotDossier_TargetDir)External\optional_devices.json" />
+      </Component>
+      <Component Id="External_python27.dll" Guid="c71562a1-e5d0-4472-b3ea-0e3de0ff1431">
+        <File Id="External_python27.dll" Name="python27.dll" Source="$(var.WotDossier_TargetDir)External\python27.dll" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+
+  <Fragment>
+    <ComponentGroup Id="External_Data_files" Directory="External_Data">
+      <Component Id="External_Data_WotGameVersion__0285.xml" Guid="9aefdd0a-70b2-4146-93c6-0a8d0c4b5cba">
+        <File Id="External_Data_WotGameVersion__0285.xml" Name="WotGameVersion-#0285.xml" Source="$(var.WotDossier_TargetDir)External\Data\WotGameVersion-#0285.xml" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+
+  <Fragment>
+    <ComponentGroup Id="External_shells_files" Directory="External_shells">
+      <Component Id="External_shells_china_shells.json" Guid="8e10e8a2-d1d5-43cf-b2a3-d05a90d3f291">
+        <File Id="External_shells_china_shells.json" Name="china_shells.json" Source="$(var.WotDossier_TargetDir)External\shells\china_shells.json" />
+      </Component>
+      <Component Id="External_shells_czech_shells.json" Guid="b284857f-2ec4-41c4-9156-32becec2d964">
+        <File Id="External_shells_czech_shells.json" Name="czech_shells.json" Source="$(var.WotDossier_TargetDir)External\shells\czech_shells.json" />
+      </Component>
+      <Component Id="External_shells_france_shells.json" Guid="2406ff69-1fb7-46a5-a41e-cbec514bc1fb">
+        <File Id="External_shells_france_shells.json" Name="france_shells.json" Source="$(var.WotDossier_TargetDir)External\shells\france_shells.json" />
+      </Component>
+      <Component Id="External_shells_germany_shells.json" Guid="7464612a-4a8a-496e-9f90-0c54aa85413b">
+        <File Id="External_shells_germany_shells.json" Name="germany_shells.json" Source="$(var.WotDossier_TargetDir)External\shells\germany_shells.json" />
+      </Component>
+      <Component Id="External_shells_japan_shells.json" Guid="8ab0f8a7-7520-4143-9545-ccfcc566f1e8">
+        <File Id="External_shells_japan_shells.json" Name="japan_shells.json" Source="$(var.WotDossier_TargetDir)External\shells\japan_shells.json" />
+      </Component>
+      <Component Id="External_shells_sweden_shells.json" Guid="3abf7199-977e-4ed3-aa9a-625800d9610e">
+        <File Id="External_shells_sweden_shells.json" Name="sweden_shells.json" Source="$(var.WotDossier_TargetDir)External\shells\sweden_shells.json" />
+      </Component>
+      <Component Id="External_shells_uk_shells.json" Guid="0625448a-0643-48a2-a65a-2f8cfdcd9d47">
+        <File Id="External_shells_uk_shells.json" Name="uk_shells.json" Source="$(var.WotDossier_TargetDir)External\shells\uk_shells.json" />
+      </Component>
+      <Component Id="External_shells_usa_shells.json" Guid="5706f2c4-1a2e-427d-88fb-83ebb55abc0b">
+        <File Id="External_shells_usa_shells.json" Name="usa_shells.json" Source="$(var.WotDossier_TargetDir)External\shells\usa_shells.json" />
+      </Component>
+      <Component Id="External_shells_ussr_shells.json" Guid="d54c558e-1d74-4f9d-9af5-67e5b843717f">
+        <File Id="External_shells_ussr_shells.json" Name="ussr_shells.json" Source="$(var.WotDossier_TargetDir)External\shells\ussr_shells.json" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+
+  <Fragment>
+    <ComponentGroup Id="External_structures_files" Directory="External_structures">
+      <Component Id="External_structures_structures_10.json" Guid="36deb7ef-6af6-4248-8ee0-29a2a56c396a">
+        <File Id="External_structures_structures_10.json" Name="structures_10.json" Source="$(var.WotDossier_TargetDir)External\structures\structures_10.json" />
+      </Component>
+      <Component Id="External_structures_structures_17.json" Guid="ce97006a-770d-4e62-a69e-7b4194e33221">
+        <File Id="External_structures_structures_17.json" Name="structures_17.json" Source="$(var.WotDossier_TargetDir)External\structures\structures_17.json" />
+      </Component>
+      <Component Id="External_structures_structures_18.json" Guid="97c8bba4-33fc-41c5-b603-2a6d107728b7">
+        <File Id="External_structures_structures_18.json" Name="structures_18.json" Source="$(var.WotDossier_TargetDir)External\structures\structures_18.json" />
+      </Component>
+      <Component Id="External_structures_structures_20.json" Guid="519b406b-8970-49c2-aa79-c36b21c86561">
+        <File Id="External_structures_structures_20.json" Name="structures_20.json" Source="$(var.WotDossier_TargetDir)External\structures\structures_20.json" />
+      </Component>
+      <Component Id="External_structures_structures_22.json" Guid="9add0bb9-a7b8-4c7c-ad46-f50bac0113e9">
+        <File Id="External_structures_structures_22.json" Name="structures_22.json" Source="$(var.WotDossier_TargetDir)External\structures\structures_22.json" />
+      </Component>
+      <Component Id="External_structures_structures_24.json" Guid="7e3238ce-54f8-464b-88f8-b4b23d63e622">
+        <File Id="External_structures_structures_24.json" Name="structures_24.json" Source="$(var.WotDossier_TargetDir)External\structures\structures_24.json" />
+      </Component>
+      <Component Id="External_structures_structures_26.json" Guid="d95e8bd5-a5fc-48f3-8de9-96fe127ea86d">
+        <File Id="External_structures_structures_26.json" Name="structures_26.json" Source="$(var.WotDossier_TargetDir)External\structures\structures_26.json" />
+      </Component>
+      <Component Id="External_structures_structures_27.json" Guid="f7101df5-f61f-403a-9622-a90218ad1d42">
+        <File Id="External_structures_structures_27.json" Name="structures_27.json" Source="$(var.WotDossier_TargetDir)External\structures\structures_27.json" />
+      </Component>
+      <Component Id="External_structures_structures_28.json" Guid="854301b4-1066-4e64-bfb1-4960b52754f8">
+        <File Id="External_structures_structures_28.json" Name="structures_28.json" Source="$(var.WotDossier_TargetDir)External\structures\structures_28.json" />
+      </Component>
+      <Component Id="External_structures_structures_29.json" Guid="db5f6cea-e37d-49d3-83e4-d6ac1ef75eb1">
+        <File Id="External_structures_structures_29.json" Name="structures_29.json" Source="$(var.WotDossier_TargetDir)External\structures\structures_29.json" />
+      </Component>
+      <Component Id="External_structures_structures_65.json" Guid="9ab50ccc-b4f7-4b14-a1a3-73f7751ca56a">
+        <File Id="External_structures_structures_65.json" Name="structures_65.json" Source="$(var.WotDossier_TargetDir)External\structures\structures_65.json" />
+      </Component>
+      <Component Id="External_structures_structures_69.json" Guid="de7ab11f-eb2a-44fa-90da-9222b070e5cf">
+        <File Id="External_structures_structures_69.json" Name="structures_69.json" Source="$(var.WotDossier_TargetDir)External\structures\structures_69.json" />
+      </Component>
+      <Component Id="External_structures_structures_77.json" Guid="151a4503-379d-4823-a988-d046348bcd49">
+        <File Id="External_structures_structures_77.json" Name="structures_77.json" Source="$(var.WotDossier_TargetDir)External\structures\structures_77.json" />
+      </Component>
+      <Component Id="External_structures_structures_81.json" Guid="33390a60-41f8-4b66-81e2-5b79bc6027d2">
+        <File Id="External_structures_structures_81.json" Name="structures_81.json" Source="$(var.WotDossier_TargetDir)External\structures\structures_81.json" />
+      </Component>
+      <Component Id="External_structures_structures_85.json" Guid="eef0120d-5b75-4cb2-82b4-53bf174727eb">
+        <File Id="External_structures_structures_85.json" Name="structures_85.json" Source="$(var.WotDossier_TargetDir)External\structures\structures_85.json" />
+      </Component>
+      <Component Id="External_structures_structures_87.json" Guid="1e53c46c-7c1e-4023-a54b-25589b81cbb6">
+        <File Id="External_structures_structures_87.json" Name="structures_87.json" Source="$(var.WotDossier_TargetDir)External\structures\structures_87.json" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>

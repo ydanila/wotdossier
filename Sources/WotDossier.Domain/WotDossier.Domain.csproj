@@ -87,14 +87,39 @@
     <Compile Include="Dossier\TankV65\CommonJson.cs" />
     <Compile Include="Dossier\TankV65\StatisticJson_2.cs" />
     <Compile Include="Dossier\TankV65\TotalJson.cs" />
+    <Compile Include="Dossier\TankV88\AchievementsSingle.cs" />
+    <Compile Include="Dossier\TankV88\TankJson.cs" />
+    <Compile Include="Dossier\TankV89\AchievementsSingle.cs" />
+    <Compile Include="Dossier\TankV89\TankJson.cs" />
+    <Compile Include="Dossier\TankV92\TankJson.cs" />
+    <Compile Include="Dossier\TankV94\AchievementsFallout.cs" />
+    <Compile Include="Dossier\TankV94\MaxJsonFallout.cs" />
+    <Compile Include="Dossier\TankV94\StatisticJsonFallout.cs" />
+    <Compile Include="Dossier\TankV94\TankJson.cs" />
+    <Compile Include="Dossier\TankV95\StatisticJson.cs" />
+    <Compile Include="Dossier\TankV95\StatisticJsonFallout.cs" />
+    <Compile Include="Dossier\TankV95\StatisticJsonFort.cs" />
+    <Compile Include="Dossier\TankV95\StatisticJsonFortSortie.cs" />
+    <Compile Include="Dossier\TankV95\StatisticJson_2.cs" />
+    <Compile Include="Dossier\TankV95\TankJson.cs" />
+    <Compile Include="Dossier\TankV96\AchievementsFallout.cs" />
+    <Compile Include="Dossier\TankV96\TankJson.cs" />
+    <Compile Include="Dossier\TankV97\TankJson.cs" />
+    <Compile Include="Dossier\TankV98\AchievementsFort.cs" />
+    <Compile Include="Dossier\TankV98\TankJson.cs" />
+    <Compile Include="Dossier\TankV99\TankJson.cs" />
     <Compile Include="Entities\FavoritePlayerEntity.cs" />
+    <Compile Include="Entities\GeneralBattlesAchievementsEntity.cs" />
+    <Compile Include="Entities\GeneralBattlesStatisticEntity.cs" />
     <Compile Include="Entities\IRevised.cs" />
     <Compile Include="Entities\RankedBattlesAchievementsEntity.cs" />
     <Compile Include="Entities\RankedBattlesStatisticEntity.cs" />
+    <Compile Include="Entities\TankGeneralBattlesStatisticEntity.cs" />
     <Compile Include="Entities\TankRankedBattlesStatisticEntity.cs" />
     <Compile Include="GameplayDescription.cs" />
     <Compile Include="Interfaces\IFortAchievements.cs" />
     <Compile Include="Interfaces\IClanBattlesAchievements.cs" />
+    <Compile Include="Interfaces\IGeneralBattlesAchievements.cs" />
     <Compile Include="Interfaces\IMapDescription.cs" />
     <Compile Include="Interfaces\IRandomBattlesAchievements.cs" />
     <Compile Include="Interfaces\IHistoricalBattlesAchievements.cs" />
@@ -112,6 +137,7 @@
     <Compile Include="Interfaces\IStatisticSeries.cs" />
     <Compile Include="Interfaces\IStatisticSpecialAwards.cs" />
     <Compile Include="Interfaces\IStatisticXp.cs" />
+    <Compile Include="Interfaces\IFalloutAchievements.cs" />
     <Compile Include="Interfaces\ITeamBattlesAchievements.cs" />
     <Compile Include="Entities\TankRandomBattlesStatisticEntity.cs" />
     <Compile Include="Entities\TankTeamBattleStatisticEntity.cs" />
@@ -192,6 +218,7 @@
     <Compile Include="Dossier\TankV65\StatisticJson.cs" />
     <Compile Include="Dossier\TankV65\MaxJson.cs" />
     <Compile Include="Dossier\TankV65\TankJson.cs" />
+    <Compile Include="Tank\AchievementsFallout.cs" />
     <Compile Include="Tank\AchievementsFort.cs" />
     <Compile Include="Tank\AchievementsHistorical.cs" />
     <Compile Include="Tank\Achievements7x7.cs" />
@@ -208,6 +235,9 @@
     <Compile Include="Tank\RatingExpectancy.cs" />
     <Compile Include="Tank\ShellDescription.cs" />
     <Compile Include="Tank\StatisticJson.cs" />
+    <Compile Include="Tank\StatisticJsonFallout.cs" />
+    <Compile Include="Tank\StatisticJsonFort.cs" />
+    <Compile Include="Tank\StatisticJsonSortie.cs" />
     <Compile Include="Tank\TankJsonV2.cs" />
     <Compile Include="Tank\TankServerInfo.cs" />
     <Compile Include="Tank\FragsJson.cs" />
@@ -230,6 +260,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

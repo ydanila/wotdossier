@@ -59,7 +59,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External projects", "Extern
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WotDataLib", "..\..\wotdatalib\WotDataLib.csproj", "{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WotDossier.Setup", "WotDossier.Setup\WotDossier.Setup.vdproj", "{9C460577-A152-486D-B544-457B3219354A}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WotDossier.Setup", "WotDossier.Setup\WotDossier.Setup.vdproj", "{97CC652B-D314-4910-A543-CBC455F0C4E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -448,21 +448,36 @@ Global
 		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.TournamentStat|Mixed Platforms.Build.0 = Release|Any CPU
 		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.TournamentStat|x86.ActiveCfg = Release|Any CPU
 		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.TournamentStat|x86.Build.0 = Release|Any CPU
-		{9C460577-A152-486D-B544-457B3219354A}.Debug|Any CPU.ActiveCfg = Debug
-		{9C460577-A152-486D-B544-457B3219354A}.Debug|Mixed Platforms.ActiveCfg = Debug
-		{9C460577-A152-486D-B544-457B3219354A}.Debug|x86.ActiveCfg = Debug
-		{9C460577-A152-486D-B544-457B3219354A}.Full|Any CPU.ActiveCfg = Release
-		{9C460577-A152-486D-B544-457B3219354A}.Full|Mixed Platforms.ActiveCfg = Release
-		{9C460577-A152-486D-B544-457B3219354A}.Full|x86.ActiveCfg = Release
-		{9C460577-A152-486D-B544-457B3219354A}.Lite|Any CPU.ActiveCfg = Release
-		{9C460577-A152-486D-B544-457B3219354A}.Lite|Mixed Platforms.ActiveCfg = Release
-		{9C460577-A152-486D-B544-457B3219354A}.Lite|x86.ActiveCfg = Release
-		{9C460577-A152-486D-B544-457B3219354A}.Release|Any CPU.ActiveCfg = Release
-		{9C460577-A152-486D-B544-457B3219354A}.Release|Mixed Platforms.ActiveCfg = Release
-		{9C460577-A152-486D-B544-457B3219354A}.Release|x86.ActiveCfg = Release
-		{9C460577-A152-486D-B544-457B3219354A}.TournamentStat|Any CPU.ActiveCfg = Release
-		{9C460577-A152-486D-B544-457B3219354A}.TournamentStat|Mixed Platforms.ActiveCfg = Release
-		{9C460577-A152-486D-B544-457B3219354A}.TournamentStat|x86.ActiveCfg = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Debug|Any CPU.ActiveCfg = Debug
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Debug|Any CPU.Build.0 = Debug
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Debug|Mixed Platforms.Build.0 = Debug
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Debug|x86.ActiveCfg = Debug
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Debug|x86.Build.0 = Debug
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Full|Any CPU.ActiveCfg = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Full|Any CPU.Build.0 = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Full|Mixed Platforms.ActiveCfg = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Full|Mixed Platforms.Build.0 = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Full|x86.ActiveCfg = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Full|x86.Build.0 = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Lite|Any CPU.ActiveCfg = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Lite|Any CPU.Build.0 = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Lite|Mixed Platforms.ActiveCfg = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Lite|Mixed Platforms.Build.0 = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Lite|x86.ActiveCfg = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Lite|x86.Build.0 = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Release|Any CPU.ActiveCfg = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Release|Any CPU.Build.0 = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Release|Mixed Platforms.ActiveCfg = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Release|Mixed Platforms.Build.0 = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Release|x86.ActiveCfg = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Release|x86.Build.0 = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.TournamentStat|Any CPU.ActiveCfg = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.TournamentStat|Any CPU.Build.0 = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.TournamentStat|Mixed Platforms.ActiveCfg = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.TournamentStat|Mixed Platforms.Build.0 = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.TournamentStat|x86.ActiveCfg = Release
+		{97CC652B-D314-4910-A543-CBC455F0C4E2}.TournamentStat|x86.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

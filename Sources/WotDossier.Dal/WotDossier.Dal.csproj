@@ -99,11 +99,16 @@
     <Compile Include="JsonCreationConverter.cs" />
     <Compile Include="MapConfigConverter.cs" />
     <Compile Include="Mappings\ClassMapBase.cs" />
+    <Compile Include="Mappings\GeneralBattlesAchievementsEntity.cs" />
+    <Compile Include="Mappings\GeneralBattlesStatisticMapping.cs" />
+    <Compile Include="Mappings\RankedBattlesAchievementsEntityMapping.cs" />
     <Compile Include="Mappings\RankedBattlesStatisticMapping.cs" />
     <Compile Include="Mappings\TankEntityMapping.cs" />
     <Compile Include="Mappings\RandomBattlesAchievementsEntityMapping.cs" />
     <Compile Include="Mappings\StatisticClassMapBase.cs" />
+    <Compile Include="Mappings\TankGeneralBattlesStatisticEntityMapping.cs" />
     <Compile Include="Mappings\TankRandomBattlesStatisticEntityMapping.cs" />
+    <Compile Include="Mappings\TankRankedBattlesStatisticEntity.cs" />
     <Compile Include="Mappings\TankTeamBattleStatisticEntityMapping.cs" />
     <Compile Include="Mappings\TankHistoricalBattleStatisticEntityMapping.cs" />
     <Compile Include="Mappings\HistoricalBattlesStatisticEntityMapping.cs" />
@@ -131,10 +136,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\wotdatalib\WotDataLib.csproj">
-      <Project>{77e86e2b-89df-43d2-8efa-6eccd961465e}</Project>
-      <Name>WotDataLib</Name>
-    </ProjectReference>
     <ProjectReference Include="..\WotDossier.Common\WotDossier.Common.csproj">
       <Project>{1268b707-a866-4723-89c7-2e9bd92e6aa6}</Project>
       <Name>WotDossier.Common</Name>

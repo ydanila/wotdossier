@@ -1,13 +1,9 @@
-﻿namespace WotDossier.Domain.Dossier.TankV87
+﻿using WotDossier.Domain.Dossier.TankV85;
+
+namespace WotDossier.Domain.Dossier.TankV87
 {
-    public class AchievementsFort_87
+    public class AchievementsFort_87 : AchievementsFort_85
     {
-        public int conqueror;
-        public int fireAndSword;
-        public int crusher;
-        public int counterblow;
-        public int soldierOfFortune;
-        public int kampfer;
         public int wins;
         public int capturedBasesInAttack;
         public int capturedBasesInDefence;

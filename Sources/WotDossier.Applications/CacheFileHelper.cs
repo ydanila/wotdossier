@@ -159,32 +159,38 @@ namespace WotDossier.Applications
             return tanks;
         }
 
+        #region [ Obsolete ]
+
+        // Obsolete
+
         /// <summary>
         /// Reads the dossier application spot tanks.
         /// </summary>
         /// <param name="data">The data.</param>
         /// <returns></returns>
-        public static List<TankJson> ReadDossierAppSpotTanks(string data)
-        {
-            List<TankJson> tanks = new List<TankJson>();
+        //public static List<TankJson> ReadDossierAppSpotTanks(string data)
+        //{
+        //    List<TankJson> tanks = new List<TankJson>();
 
-            JObject parsedData = JsonConvert.DeserializeObject<JObject>(data);
+        //    JObject parsedData = JsonConvert.DeserializeObject<JObject>(data);
 
-            JToken tanksData = parsedData["tanks"];
+        //    JToken tanksData = parsedData["tanks"];
 
-            foreach (JToken jToken in tanksData)
-            {
-                Tank appSpotTank = jToken.ToObject<Tank>();
-                TankJson tank = DataMapper.Map(appSpotTank);
-                tank.Raw = CompressHelper.CompressObject(tank);
-                if (ExtendPropertiesData(tank))
-                {
-                    tanks.Add(tank);
-                }
-            }
+        //    foreach (JToken jToken in tanksData)
+        //    {
+        //        Tank appSpotTank = jToken.ToObject<Tank>();
+        //        TankJson tank = DataMapper.Map(appSpotTank);
+        //        tank.Raw = CompressHelper.CompressObject(tank);
+        //        if (ExtendPropertiesData(tank))
+        //        {
+        //            tanks.Add(tank);
+        //        }
+        //    }
 
-            return tanks;
-        }
+        //    return tanks;
+        //}
+
+        #endregion
 
         /// <summary>
         /// Extends the properties data with Description and FragsList.
