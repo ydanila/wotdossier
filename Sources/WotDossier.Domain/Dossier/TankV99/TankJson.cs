@@ -1,11 +1,7 @@
 ﻿using System.Collections.Generic;
 using WotDossier.Domain.Dossier.TankV77;
-using WotDossier.Domain.Dossier.TankV85;
-using WotDossier.Domain.Dossier.TankV87;
-using WotDossier.Domain.Dossier.TankV92;
-using WotDossier.Domain.Dossier.TankV94;
 using WotDossier.Domain.Dossier.TankV95;
-using WotDossier.Domain.Dossier.TankV96;
+using WotDossier.Domain.Dossier.TankV97;
 using WotDossier.Domain.Dossier.TankV98;
 
 namespace WotDossier.Domain.Dossier.TankV99

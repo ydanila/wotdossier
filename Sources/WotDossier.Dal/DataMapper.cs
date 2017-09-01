@@ -1171,7 +1171,7 @@ namespace WotDossier.Dal
 
             if (tankJson.FortBattles != null)
             {
-                v2.FortBattles = new StatisticJson
+                v2.FortBattles = new StatisticJsonFort()
                 {
                     battlesCount = tankJson.FortBattles.battlesCount,
                     capturePoints = tankJson.FortBattles.capturePoints,
@@ -1207,7 +1207,7 @@ namespace WotDossier.Dal
 
             if (tankJson.FortSorties != null)
             {
-                v2.FortSorties = new StatisticJson
+                v2.FortSorties = new StatisticJsonSortie()
                 {
                     battlesCount = tankJson.FortSorties.battlesCount,
                     capturePoints = tankJson.FortSorties.capturePoints,
@@ -1730,8 +1730,328 @@ namespace WotDossier.Dal
         {
             var v2 = Map((TankJson87) tankJson);
 
-            if(v2.Achievements != null)
-                v2.Achievements.Ai
+            if (v2.Achievements != null)
+                v2.Achievements.Aimer = tankJson.SingleAchievements.aimer;
+
+            if (tankJson.RatedA7x7 != null)
+            {
+                v2.Rated7x7 = new StatisticJson
+                {
+                    battlesCount = tankJson.RatedA7x7.battlesCount,
+                    capturePoints = tankJson.RatedA7x7.capturePoints,
+                    damageDealt = tankJson.RatedA7x7.damageDealt,
+                    damageReceived = tankJson.RatedA7x7.damageReceived,
+                    droppedCapturePoints = tankJson.RatedA7x7.droppedCapturePoints,
+                    frags = tankJson.RatedA7x7.frags,
+                    frags8p = tankJson.RatedA7x7.frags8p,
+                    hits = tankJson.RatedA7x7.hits,
+                    losses = tankJson.RatedA7x7.losses,
+                    shots = tankJson.RatedA7x7.shots,
+                    spotted = tankJson.RatedA7x7.spotted,
+                    survivedBattles = tankJson.RatedA7x7.survivedBattles,
+                    winAndSurvived = tankJson.RatedA7x7.winAndSurvived,
+                    wins = tankJson.RatedA7x7.wins,
+                    xp = tankJson.RatedA7x7.xp,
+                    originalXP = tankJson.RatedA7x7.originalXP,
+                    damageAssistedRadio = tankJson.RatedA7x7.damageAssistedRadio,
+                    damageAssistedTrack = tankJson.RatedA7x7.damageAssistedTrack,
+                    shotsReceived = tankJson.RatedA7x7.directHitsReceived,
+                    noDamageShotsReceived = tankJson.RatedA7x7.noDamageDirectHitsReceived,
+                    piercedReceived = tankJson.RatedA7x7.piercingsReceived,
+                    heHitsReceived = tankJson.RatedA7x7.explosionHitsReceived,
+                    he_hits = tankJson.RatedA7x7.explosionHits,
+                    pierced = tankJson.RatedA7x7.piercings,
+                    potentialDamageReceived = tankJson.RatedA7x7.potentialDamageReceived,
+                    damageBlockedByArmor = tankJson.RatedA7x7.damageBlockedByArmor,
+                    maxDamage = tankJson.MaxRated7x7.maxDamage,
+                    maxFrags = tankJson.MaxRated7x7.maxFrags,
+                    maxXP = tankJson.MaxRated7x7.maxXP
+                };
+            }
+
+            return v2;
+        }
+
+        private static TankJson Map(TankJson89 tankJson)
+        {
+            var v2 = Map((TankJson88)tankJson);
+
+            return v2;
+        }
+
+        private static TankJson Map(TankJson92 tankJson)
+        {
+            var v2 = Map((TankJson89)tankJson);
+
+            if (tankJson.GlobalMapCommon != null)
+            {
+                v2.GlobalMapCommon = new StatisticJson
+                {
+                    battlesCount = tankJson.GlobalMapCommon.battlesCount,
+                    capturePoints = tankJson.GlobalMapCommon.capturePoints,
+                    damageDealt = tankJson.GlobalMapCommon.damageDealt,
+                    damageReceived = tankJson.GlobalMapCommon.damageReceived,
+                    droppedCapturePoints = tankJson.GlobalMapCommon.droppedCapturePoints,
+                    frags = tankJson.GlobalMapCommon.frags,
+                    frags8p = tankJson.GlobalMapCommon.frags8p,
+                    hits = tankJson.GlobalMapCommon.hits,
+                    losses = tankJson.GlobalMapCommon.losses,
+                    shots = tankJson.GlobalMapCommon.shots,
+                    spotted = tankJson.GlobalMapCommon.spotted,
+                    survivedBattles = tankJson.GlobalMapCommon.survivedBattles,
+                    winAndSurvived = tankJson.GlobalMapCommon.winAndSurvived,
+                    wins = tankJson.GlobalMapCommon.wins,
+                    xp = tankJson.GlobalMapCommon.xp,
+                    originalXP = tankJson.GlobalMapCommon.originalXP,
+                    damageAssistedRadio = tankJson.GlobalMapCommon.damageAssistedRadio,
+                    damageAssistedTrack = tankJson.GlobalMapCommon.damageAssistedTrack,
+                    shotsReceived = tankJson.GlobalMapCommon.directHitsReceived,
+                    noDamageShotsReceived = tankJson.GlobalMapCommon.noDamageDirectHitsReceived,
+                    piercedReceived = tankJson.GlobalMapCommon.piercingsReceived,
+                    heHitsReceived = tankJson.GlobalMapCommon.explosionHitsReceived,
+                    he_hits = tankJson.GlobalMapCommon.explosionHits,
+                    pierced = tankJson.GlobalMapCommon.piercings,
+                    potentialDamageReceived = tankJson.GlobalMapCommon.potentialDamageReceived,
+                    damageBlockedByArmor = tankJson.GlobalMapCommon.damageBlockedByArmor,
+                    maxDamage = tankJson.MaxGlobalMapCommon.maxDamage,
+                    maxFrags = tankJson.MaxGlobalMapCommon.maxFrags,
+                    maxXP = tankJson.MaxGlobalMapCommon.maxXP
+                };
+            }
+
+
+            return v2;
+        }
+
+        private static TankJson Map(TankJson94 tankJson)
+        {
+            var v2 = Map((TankJson92)tankJson);
+
+            if (tankJson.Fallout != null)
+            {
+                v2.Fallout = new StatisticJsonFallout()
+                {
+                    battlesCount = tankJson.Fallout.battlesCount,
+                    capturePoints = tankJson.Fallout.capturePoints,
+                    damageDealt = tankJson.Fallout.damageDealt,
+                    damageReceived = tankJson.Fallout.damageReceived,
+                    droppedCapturePoints = tankJson.Fallout.droppedCapturePoints,
+                    frags = tankJson.Fallout.frags,
+                    frags8p = tankJson.Fallout.frags8p,
+                    hits = tankJson.Fallout.hits,
+                    losses = tankJson.Fallout.losses,
+                    shots = tankJson.Fallout.shots,
+                    spotted = tankJson.Fallout.spotted,
+                    survivedBattles = tankJson.Fallout.survivedBattles,
+                    winAndSurvived = tankJson.Fallout.winAndSurvived,
+                    wins = tankJson.Fallout.wins,
+                    xp = tankJson.Fallout.xp,
+                    originalXP = tankJson.Fallout.originalXP,
+                    damageAssistedRadio = tankJson.Fallout.damageAssistedRadio,
+                    damageAssistedTrack = tankJson.Fallout.damageAssistedTrack,
+                    shotsReceived = tankJson.Fallout.directHitsReceived,
+                    noDamageShotsReceived = tankJson.Fallout.noDamageDirectHitsReceived,
+                    piercedReceived = tankJson.Fallout.piercingsReceived,
+                    heHitsReceived = tankJson.Fallout.explosionHitsReceived,
+                    he_hits = tankJson.Fallout.explosionHits,
+                    pierced = tankJson.Fallout.piercings,
+                    potentialDamageReceived = tankJson.Fallout.potentialDamageReceived,
+                    damageBlockedByArmor = tankJson.Fallout.damageBlockedByArmor,
+
+                    winPoints = tankJson.Fallout.damageBlockedByArmor,
+                    flagCapture = tankJson.Fallout.damageBlockedByArmor,
+                    soloFlagCapture = tankJson.Fallout.damageBlockedByArmor,
+                    coins = tankJson.Fallout.damageBlockedByArmor,
+                    avatarDamageDealt = tankJson.Fallout.damageBlockedByArmor,
+                    avatarKills = tankJson.Fallout.damageBlockedByArmor,
+                    resourceAbsorbed = tankJson.Fallout.damageBlockedByArmor,
+                    deathCount = tankJson.Fallout.damageBlockedByArmor,
+
+
+
+                    maxDamage = tankJson.MaxFallout.maxDamage,
+                    maxFrags = tankJson.MaxFallout.maxFrags,
+                    maxXP = tankJson.MaxFallout.maxXP,
+                    maxWinPoints = tankJson.MaxFallout.maxWinPoints,
+                    maxCoins = tankJson.MaxFallout.maxCoins
+                };
+            }
+
+            if (tankJson.AchievementsFallout != null)
+            {
+                v2.AchievementsFallout = new AchievementsFallout
+                {
+                    ShoulderToShoulder = tankJson.AchievementsFallout.shoulderToShoulder,
+                    AloneInTheField = tankJson.AchievementsFallout.aloneInTheField,
+                    FallenFlags = tankJson.AchievementsFallout.fallenFlags,
+                    EffectiveSupport = tankJson.AchievementsFallout.effectiveSupport,
+                    StormLord = tankJson.AchievementsFallout.stormLord,
+                    WinnerLaurels = tankJson.AchievementsFallout.winnerLaurels,
+                    Predator = tankJson.AchievementsFallout.predator,
+                    Unreachable = tankJson.AchievementsFallout.unreachable,
+                    Champion = tankJson.AchievementsFallout.champion,
+                    Bannerman = tankJson.AchievementsFallout.bannerman,
+                    FalloutDieHard = tankJson.AchievementsFallout.falloutDieHard
+
+                };
+            }
+
+            return v2;
+        }
+
+        private static TankJson Map(TankJson95 tankJson)
+        {
+            var v2 = Map((TankJson94)tankJson);
+
+            v2.A15x15.battlesOnStunningVehicles = tankJson.A15x15.battlesOnStunningVehicles;
+            v2.A15x15.stunNum = tankJson.A15x15.stunNum;
+            v2.A15x15.damageAssistedStun = tankJson.A15x15.damageAssistedStun;
+
+            v2.Clan.battlesOnStunningVehicles = tankJson.Clan.battlesOnStunningVehicles;
+            v2.Clan.stunNum = tankJson.Clan.stunNum;
+            v2.Clan.damageAssistedStun = tankJson.Clan.damageAssistedStun;
+
+            v2.Company.battlesOnStunningVehicles = tankJson.Company.battlesOnStunningVehicles;
+            v2.Company.stunNum = tankJson.Company.stunNum;
+            v2.Company.damageAssistedStun = tankJson.Company.damageAssistedStun;
+
+            v2.A7x7.battlesOnStunningVehicles = tankJson.A7x7.battlesOnStunningVehicles;
+            v2.A7x7.stunNum = tankJson.A7x7.stunNum;
+            v2.A7x7.damageAssistedStun = tankJson.A7x7.damageAssistedStun;
+
+            v2.Historical.battlesOnStunningVehicles = tankJson.Historical.battlesOnStunningVehicles;
+            v2.Historical.stunNum = tankJson.Historical.stunNum;
+            v2.Historical.damageAssistedStun = tankJson.Historical.damageAssistedStun;
+
+            v2.FortBattles.battlesOnStunningVehicles = tankJson.FortBattles.battlesOnStunningVehicles;
+            v2.FortBattles.stunNum = tankJson.FortBattles.stunNum;
+            v2.FortBattles.damageAssistedStun = tankJson.FortBattles.damageAssistedStun;
+
+            v2.FortSorties.battlesOnStunningVehicles = tankJson.FortSorties.battlesOnStunningVehicles;
+            v2.FortSorties.stunNum = tankJson.FortSorties.stunNum;
+            v2.FortSorties.damageAssistedStun = tankJson.FortSorties.damageAssistedStun;
+
+            v2.Fallout.battlesOnStunningVehicles = tankJson.Fallout.battlesOnStunningVehicles;
+            v2.Fallout.stunNum = tankJson.Fallout.stunNum;
+            v2.Fallout.damageAssistedStun = tankJson.Fallout.damageAssistedStun;
+
+            v2.Rated7x7.battlesOnStunningVehicles = tankJson.RatedA7X7.battlesOnStunningVehicles;
+            v2.Rated7x7.stunNum = tankJson.RatedA7X7.stunNum;
+            v2.Rated7x7.damageAssistedStun = tankJson.RatedA7X7.damageAssistedStun;
+
+            v2.GlobalMapCommon.battlesOnStunningVehicles = tankJson.GlobalMapCommon.battlesOnStunningVehicles;
+            v2.GlobalMapCommon.stunNum = tankJson.GlobalMapCommon.stunNum;
+            v2.GlobalMapCommon.damageAssistedStun = tankJson.GlobalMapCommon.damageAssistedStun;
+
+            return v2;
+        }
+
+        private static TankJson Map(TankJson96 tankJson)
+        {
+            var v2 = Map((TankJson95)tankJson);
+
+            return v2;
+        }
+
+        private static TankJson Map(TankJson97 tankJson)
+        {
+            var v2 = Map((TankJson96)tankJson);
+
+            if (tankJson.Ranked != null)
+            {
+                v2.Ranked = new StatisticJson
+                {
+                    battlesCount = tankJson.Ranked.battlesCount,
+                    capturePoints = tankJson.Ranked.capturePoints,
+                    damageDealt = tankJson.Ranked.damageDealt,
+                    damageReceived = tankJson.Ranked.damageReceived,
+                    droppedCapturePoints = tankJson.Ranked.droppedCapturePoints,
+                    frags = tankJson.Ranked.frags,
+                    frags8p = tankJson.Ranked.frags8p,
+                    hits = tankJson.Ranked.hits,
+                    losses = tankJson.Ranked.losses,
+                    shots = tankJson.Ranked.shots,
+                    spotted = tankJson.Ranked.spotted,
+                    survivedBattles = tankJson.Ranked.survivedBattles,
+                    winAndSurvived = tankJson.Ranked.winAndSurvived,
+                    wins = tankJson.Ranked.wins,
+                    xp = tankJson.Ranked.xp,
+                    originalXP = tankJson.Ranked.originalXP,
+                    damageAssistedRadio = tankJson.Ranked.damageAssistedRadio,
+                    damageAssistedTrack = tankJson.Ranked.damageAssistedTrack,
+                    shotsReceived = tankJson.Ranked.directHitsReceived,
+                    noDamageShotsReceived = tankJson.Ranked.noDamageDirectHitsReceived,
+                    piercedReceived = tankJson.Ranked.piercingsReceived,
+                    heHitsReceived = tankJson.Ranked.explosionHitsReceived,
+                    he_hits = tankJson.Ranked.explosionHits,
+                    pierced = tankJson.Ranked.piercings,
+                    potentialDamageReceived = tankJson.Ranked.potentialDamageReceived,
+                    damageBlockedByArmor = tankJson.Ranked.damageBlockedByArmor,
+                    battlesOnStunningVehicles = tankJson.Ranked.battlesOnStunningVehicles,
+                    stunNum = tankJson.Ranked.stunNum,
+                    damageAssistedStun = tankJson.Ranked.damageAssistedStun,
+                    maxDamage = tankJson.MaxRanked.maxDamage,
+                    maxFrags = tankJson.MaxRanked.maxFrags,
+                    maxXP = tankJson.MaxRanked.maxXP
+                };
+            }
+
+
+            return v2;
+        }
+
+        private static TankJson Map(TankJson98 tankJson)
+        {
+            var v2 = Map((TankJson97)tankJson);
+
+            return v2;
+        }
+
+        private static TankJson Map(TankJson99 tankJson)
+        {
+            var v2 = Map((TankJson98)tankJson);
+
+            if (tankJson.A30x30 != null)
+            {
+                v2.A30x30 = new StatisticJson
+                {
+                    battlesCount = tankJson.A30x30.battlesCount,
+                    capturePoints = tankJson.A30x30.capturePoints,
+                    damageDealt = tankJson.A30x30.damageDealt,
+                    damageReceived = tankJson.A30x30.damageReceived,
+                    droppedCapturePoints = tankJson.A30x30.droppedCapturePoints,
+                    frags = tankJson.A30x30.frags,
+                    frags8p = tankJson.A30x30.frags8p,
+                    hits = tankJson.A30x30.hits,
+                    losses = tankJson.A30x30.losses,
+                    shots = tankJson.A30x30.shots,
+                    spotted = tankJson.A30x30.spotted,
+                    survivedBattles = tankJson.A30x30.survivedBattles,
+                    winAndSurvived = tankJson.A30x30.winAndSurvived,
+                    wins = tankJson.A30x30.wins,
+                    xp = tankJson.A30x30.xp,
+                    originalXP = tankJson.A30x30.originalXP,
+                    damageAssistedRadio = tankJson.A30x30.damageAssistedRadio,
+                    damageAssistedTrack = tankJson.A30x30.damageAssistedTrack,
+                    shotsReceived = tankJson.A30x30.directHitsReceived,
+                    noDamageShotsReceived = tankJson.A30x30.noDamageDirectHitsReceived,
+                    piercedReceived = tankJson.A30x30.piercingsReceived,
+                    heHitsReceived = tankJson.A30x30.explosionHitsReceived,
+                    he_hits = tankJson.A30x30.explosionHits,
+                    pierced = tankJson.A30x30.piercings,
+                    potentialDamageReceived = tankJson.A30x30.potentialDamageReceived,
+                    damageBlockedByArmor = tankJson.A30x30.damageBlockedByArmor,
+                    battlesOnStunningVehicles = tankJson.A30x30.battlesOnStunningVehicles,
+                    stunNum = tankJson.A30x30.stunNum,
+                    damageAssistedStun = tankJson.A30x30.damageAssistedStun,
+                    maxDamage = tankJson.Max30x30.maxDamage,
+                    maxFrags = tankJson.Max30x30.maxFrags,
+                    maxXP = tankJson.Max30x30.maxXP
+                };
+            }
+
+
+            return v2;
         }
 
         /// Obsolete

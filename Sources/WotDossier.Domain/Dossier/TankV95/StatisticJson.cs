@@ -2,8 +2,10 @@
 
 namespace WotDossier.Domain.Dossier.TankV95
 {
-    public class StatisticJson95 : StatisticJson95_2
+    public class StatisticJson95 : StatisticJson77
     {
-
+        public int battlesOnStunningVehicles;
+        public int stunNum;
+        public int damageAssistedStun;
     }
 }

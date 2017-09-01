@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WotDataLib", "..\..\wotdata
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WotDossier.Setup", "WotDossier.Setup\WotDossier.Setup.vdproj", "{97CC652B-D314-4910-A543-CBC455F0C4E2}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WotDossier.Python.Utils", "WotDossier.Python.Utils\WotDossier.Python.Utils.pyproj", "{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -478,6 +480,21 @@ Global
 		{97CC652B-D314-4910-A543-CBC455F0C4E2}.TournamentStat|Mixed Platforms.Build.0 = Release
 		{97CC652B-D314-4910-A543-CBC455F0C4E2}.TournamentStat|x86.ActiveCfg = Release
 		{97CC652B-D314-4910-A543-CBC455F0C4E2}.TournamentStat|x86.Build.0 = Release
+		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Full|Any CPU.ActiveCfg = Release|Any CPU
+		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Full|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Full|x86.ActiveCfg = Release|Any CPU
+		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Lite|Any CPU.ActiveCfg = Release|Any CPU
+		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Lite|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Lite|x86.ActiveCfg = Release|Any CPU
+		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Release|x86.ActiveCfg = Release|Any CPU
+		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.TournamentStat|Any CPU.ActiveCfg = Release|Any CPU
+		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.TournamentStat|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.TournamentStat|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

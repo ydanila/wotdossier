@@ -56,5 +56,6 @@
 {"mapid": 72, "mapidname": "111_paris", "mapname": "Icebound"},
 {"mapid": 73, "mapidname": "105_germany", "mapname": "germany"},
 {"mapid": 74, "mapidname": "114_czech", "mapname": "czech"},
-{"mapid": 75, "mapidname": "112_eiffel_tower_ctf", "mapname": "Eiffel Tower CTF"}
+{"mapid": 75, "mapidname": "112_eiffel_tower_ctf", "mapname": "Eiffel Tower CTF"},
+{"mapid": 76, "mapidname": "212_epic_random_valley", "mapname": "Nebelburg"}
 ]

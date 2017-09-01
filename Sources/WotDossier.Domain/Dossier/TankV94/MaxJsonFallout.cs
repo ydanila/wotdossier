@@ -11,7 +11,5 @@ namespace WotDossier.Domain.Dossier.TankV94
     {
         public int maxWinPoints;
         public int maxCoins;
-        public int maxFragsWithAvatar;
-        public int maxDamageWithAvatar;
     }
 }

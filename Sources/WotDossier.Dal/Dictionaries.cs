@@ -285,6 +285,7 @@ namespace WotDossier.Dal
 
         private static void UpdateMapsGeometry(Dictionary<string, Map> maps)
         {
+
             using (StreamReader re = new StreamReader(@"External\maps_description.json"))
             {
                 JsonTextReader reader = new JsonTextReader(re);
@@ -381,8 +382,17 @@ namespace WotDossier.Dal
         /// <returns></returns>
         public TankDescription GetReplayTankDescription(string playerVehicle, Version clientVersion)
         {
-            string iconId = playerVehicle.Replace(":", "_").Replace("-", "_").Replace(" ", "_").Replace(".", "_").ToLower();
-            TankDescription tankDescription = TankDescriptionByIconId(clientVersion, iconId) ?? ClientVersionCompabilityHelper.GetHDModelDescription(iconId, _tanks);
+            var iconId = playerVehicle.Replace(":", "_").Replace(" ", "_").Replace(".", "_").ToLower();
+            var tankDescription = TankDescriptionByIconId(clientVersion, iconId);
+            if (tankDescription == null)
+            {
+                iconId = iconId.Replace("-", "_");
+                tankDescription = TankDescriptionByIconId(clientVersion, iconId);
+            }
+            if (tankDescription == null)
+            {
+                tankDescription = ClientVersionCompabilityHelper.GetHDModelDescription(iconId, _tanks);
+            }
             return tankDescription ?? TankDescription.Unknown(playerVehicle);
         }
 

@@ -8,7 +8,10 @@ namespace WotDossier.Domain
         Clan = 3,
         FortBattles = 4,
         FortSorties = 5,
-        Ranked = 6,
-        GeneralBattle = 7
+        TeamRated = 6,
+        GlobalMap = 7,
+        Fallout = 8,
+        Ranked = 9,
+        GeneralBattle = 10
     }
 }

@@ -8,8 +8,6 @@ namespace WotDossier.Domain.Dossier.TankV94
         public int flagCapture;
         public int soloFlagCapture;
         public int coins;
-        public int avatarDamageDealt;
-        public int avatarKills;
         public int resourceAbsorbed;
         public int deathCount;
     }

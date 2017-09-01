@@ -13,11 +13,11 @@ namespace WotDossier.Domain.Dossier.TankV94
     {
         public StatisticFallout94 Fallout { get; set; } = new StatisticFallout94();
 
-        public MaxJsonFallout94 MaxJsonFallout { get; set; } = new MaxJsonFallout94();
+        public MaxJsonFallout94 MaxFallout { get; set; } = new MaxJsonFallout94();
 
         #region Achievements
 
-        public AchievementsFallout94 FalloutAchievements { get; set; } = new AchievementsFallout94();
+        public AchievementsFallout94 AchievementsFallout { get; set; } = new AchievementsFallout94();
 
         #endregion
 

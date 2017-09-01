@@ -56,6 +56,7 @@ namespace WotDossier.Applications.Parser
 
         public void ReadReplayStream(Stream stream, Action<Packet> packetHandler)
         {
+
             _abort = false;
             bool endOfStream = false;
             _log.Trace("Begin replay stream read");

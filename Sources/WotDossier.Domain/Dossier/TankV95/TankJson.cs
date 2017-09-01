@@ -41,23 +41,5 @@ namespace WotDossier.Domain.Dossier.TankV95
 
         public new StatisticJson95 GlobalMapCommon { get; set; } = new StatisticJson95();
 
-        #region Achievements
-
-        public new Achievements_87 Achievements { get; set; } = new Achievements_87();
-
-        public new Achievements7x7_85 Achievements7X7 { get; set; } = new Achievements7x7_85();
-
-        public new AchievementsSingle89 SingleAchievements { get; set; } = new AchievementsSingle89();
-
-        public new AchievementsClan_85 ClanAchievements { get; set; } = new AchievementsClan_85();
-
-        public new AchievementsHistorical_85 HistoricalAchievements { get; set; } = new AchievementsHistorical_85();
-
-        public new AchievementsFort_87 FortAchievements { get; set; } = new AchievementsFort_87();
-
-        public new AchievementsFallout94 FalloutAchievements { get; set; } = new AchievementsFallout94();
-
-        #endregion
-
     }
 }

@@ -20,6 +20,8 @@
         ctf = 101,
         domination = 102,
         assault = 103,
-        nations = 104
+        nations = 104,
+        ctf30x30 = 105
+
     }
 }

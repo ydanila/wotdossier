@@ -486,7 +486,7 @@
     <Resource Include="Images\Tanks\uk-GB86_Centurion_Action_X.png" />
     <Resource Include="Images\Tanks\uk-GB87_Chieftain_T95_turret.png" />
     <Resource Include="Images\Tanks\uk-GB88_T95_Chieftain_turret.png" />
-    <Resource Include="Images\Tanks\unknown_tank.png" />
+    <Resource Include="Images\Tanks\unknown-tank.png" />
     <Resource Include="Images\Tanks\usa-A00_T110E5.png" />
     <Resource Include="Images\Tanks\usa-A01_T1_Cunningham.png" />
     <Resource Include="Images\Tanks\usa-A01_T1_Cunningham_bot.png" />
@@ -1145,7 +1145,6 @@
     <Resource Include="Images\Maps\00_tank_tutorial.png" />
     <Resource Include="Images\Maps\01_karelia.png" />
     <Resource Include="Images\Maps\02_malinovka.png" />
-    <Resource Include="Images\Maps\03_campania.jpg" />
     <Resource Include="Images\Maps\04_himmelsdorf.png" />
     <Resource Include="Images\Maps\05_prohorovka.png" />
     <Resource Include="Images\Maps\06_ensk.png" />
@@ -1153,22 +1152,13 @@
     <Resource Include="Images\Maps\08_ruinberg.png" />
     <Resource Include="Images\Maps\100_thepit.png" />
     <Resource Include="Images\Maps\101_dday.png" />
-    <Resource Include="Images\Maps\102_DeathTrack.jpg" />
     <Resource Include="Images\Maps\103_ruinberg_winter.png" />
-    <Resource Include="Images\Maps\105_germany.jpg" />
-    <Resource Include="Images\Maps\105_germany_fallout.jpg" />
-    <Resource Include="Images\Maps\109_Battlecity_NY.jpg" />
     <Resource Include="Images\Maps\10_hills.png" />
-    <Resource Include="Images\Maps\111_paris.jpg" />
-    <Resource Include="Images\Maps\111_Paris_fallout.jpg" />
-    <Resource Include="Images\Maps\112_eiffel_tower.jpg" />
     <Resource Include="Images\Maps\112_eiffel_tower_ctf.png" />
-    <Resource Include="Images\Maps\112_eiffel_tower_fallout.jpg" />
     <Resource Include="Images\Maps\114_czech.png" />
     <Resource Include="Images\Maps\11_murovanka.png" />
     <Resource Include="Images\Maps\13_erlenberg.png" />
     <Resource Include="Images\Maps\14_siegfried_line.png" />
-    <Resource Include="Images\Maps\15_komarin.jpg" />
     <Resource Include="Images\Maps\17_munchen.png" />
     <Resource Include="Images\Maps\18_cliff.png" />
     <Resource Include="Images\Maps\19_monastery.png" />
@@ -1184,27 +1174,18 @@
     <Resource Include="Images\Maps\36_fishing_bay.png" />
     <Resource Include="Images\Maps\37_caucasus.png" />
     <Resource Include="Images\Maps\38_mannerheim_line.png" />
-    <Resource Include="Images\Maps\39_crimea.jpg" />
-    <Resource Include="Images\Maps\42_north_america.jpg" />
-    <Resource Include="Images\Maps\43_north_america.jpg" />
     <Resource Include="Images\Maps\44_north_america.png" />
     <Resource Include="Images\Maps\45_north_america.png" />
     <Resource Include="Images\Maps\47_canada_a.png" />
-    <Resource Include="Images\Maps\51_asia.jpg" />
-    <Resource Include="Images\Maps\53_japan.jpg" />
     <Resource Include="Images\Maps\59_asia_great_wall.png" />
-    <Resource Include="Images\Maps\60_asia_miao.jpg" />
     <Resource Include="Images\Maps\63_tundra.png" />
     <Resource Include="Images\Maps\73_Asia_Korea.png" />
     <Resource Include="Images\Maps\83_kharkiv.png" />
     <Resource Include="Images\Maps\84_winter.png" />
-    <Resource Include="Images\Maps\85_winter.jpg" />
     <Resource Include="Images\Maps\86_himmelsdorf_winter.png" />
-    <Resource Include="Images\Maps\87_ruinberg_on_fire.jpg" />
     <Resource Include="Images\Maps\92_stalingrad.png" />
     <Resource Include="Images\Maps\95_lost_city.png" />
     <Resource Include="Images\Maps\96_prohorovka_defense.png" />
-    <Resource Include="Images\Maps\99_himmelball.jpg" />
     <Resource Include="Images\Maps\content_bg.png" />
     <Resource Include="Images\Maps\noImage.png" />
     <Resource Include="Images\Maps\overlay.png" />
@@ -1220,6 +1201,27 @@
     <Resource Include="Images\Countries\uk_131x31.png" />
     <Resource Include="Images\Countries\usa_131x31.png" />
     <Resource Include="Images\Countries\ussr_131x31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Maps\03_campania.png" />
+    <Resource Include="Images\Maps\102_DeathTrack.png" />
+    <Resource Include="Images\Maps\105_germany.png" />
+    <Resource Include="Images\Maps\105_germany_fallout.png" />
+    <Resource Include="Images\Maps\109_Battlecity_NY.png" />
+    <Resource Include="Images\Maps\111_paris.png" />
+    <Resource Include="Images\Maps\111_Paris_fallout.png" />
+    <Resource Include="Images\Maps\112_eiffel_tower.png" />
+    <Resource Include="Images\Maps\112_eiffel_tower_fallout.png" />
+    <Resource Include="Images\Maps\15_komarin.png" />
+    <Resource Include="Images\Maps\39_crimea.png" />
+    <Resource Include="Images\Maps\42_north_america.png" />
+    <Resource Include="Images\Maps\43_north_america.png" />
+    <Resource Include="Images\Maps\51_asia.png" />
+    <Resource Include="Images\Maps\53_japan.png" />
+    <Resource Include="Images\Maps\60_asia_miao.png" />
+    <Resource Include="Images\Maps\85_winter.png" />
+    <Resource Include="Images\Maps\87_ruinberg_on_fire.png" />
+    <Resource Include="Images\Maps\99_himmelball.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

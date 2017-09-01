@@ -17,5 +17,10 @@ namespace WotDossier.Domain.Dossier.TankV97
         public StatisticJson95 Ranked { get; set; } = new StatisticJson95();
 
         public MaxJson77 MaxRanked { get; set; } = new MaxJson77();
+
+        public new StatisticJson95 FortBattles { get; set; } = new StatisticJson95();
+
+        public new StatisticJson95 FortSorties { get; set; } = new StatisticJson95();
+
     }
 }

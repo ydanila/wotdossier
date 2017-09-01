@@ -895,10 +895,10 @@
     <Content Include="External\Data\WotGameVersion-#0285.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="External\scripts\compile_exe.py" />
-    <None Include="External\scripts\SafeUnpickler.py" />
-    <None Include="External\scripts\wotdc2j.py" />
-    <None Include="External\scripts\wotrp2j.py" />
+    <None Include="External\compile_exe.py" />
+    <None Include="External\SafeUnpickler.py" />
+    <None Include="External\wotdc2j.py" />
+    <None Include="External\wotrp2j.py" />
     <Content Include="x64\SQLite.Interop.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -1035,9 +1035,9 @@
     <Content Include="External\structures\structures_95.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="External\bz2.pyd">
+    <Content Include="External\bz2.pyd">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
     <Content Include="External\expected_kttc.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -1047,9 +1047,9 @@
     <Content Include="External\expected_xvm.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="External\select.pyd">
+    <Content Include="External\select.pyd">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
     <None Include="External\shells\poland_shells.json" />
     <Content Include="External\structures\structures_96.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -1063,9 +1063,9 @@
     <Content Include="External\structures\structures_99.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="External\unicodedata.pyd">
+    <Content Include="External\unicodedata.pyd">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
