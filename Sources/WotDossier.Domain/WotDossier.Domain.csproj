@@ -165,6 +165,7 @@
     <Compile Include="MedalGroup.cs" />
     <Compile Include="Rating\WN8Type.cs" />
     <Compile Include="Replay\AdvancedReplayData.cs" />
+    <Compile Include="Replay\BattleInfo.cs" />
     <Compile Include="Replay\BattleResult98.cs" />
     <Compile Include="Replay\BattleResult.cs" />
     <Compile Include="Replay\ChatMessage.cs" />

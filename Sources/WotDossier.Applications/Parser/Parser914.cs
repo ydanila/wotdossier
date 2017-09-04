@@ -7,29 +7,16 @@ using WotDossier.Domain.Replay;
 
 namespace WotDossier.Applications.Parser
 {
-    public class Parser914 : Parser912
+    public class Parser914 : Parser913
     {
-        protected override ulong PacketChat
-        {
-            get { return 0x23; }
-        }
-
-        protected override ulong UpdateEvent_Slot
-        {
-            get { return 0x0a; }
-        }
-
-        protected override ulong UpdateEvent_Arena
-        {
-            get { return 0x29; }
-        }
+        protected override ulong PacketVersion => 0x18;
 
         /// <summary>
         /// Process packet 0x00
         /// Contains Battle level setup and Player Name.
         /// </summary>
         /// <param name="packet">The packet.</param>
-        public override void ProcessPacket_0x00(Packet packet)
+        public override void ProcessPacketBattleLevel(Packet packet)
         {
             packet.Type = PacketType.BattleLevel;
 

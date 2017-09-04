@@ -36,4 +36,9 @@
         public const uint BATTLE = 0x03;
         public const uint AFTERBATTLE = 0x04;
     }
+
+    //public class PacketType
+    //{
+        
+    //}
 }

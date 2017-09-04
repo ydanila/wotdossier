@@ -54,6 +54,11 @@ namespace WotDossier.Applications.Parser
             get { return 0x1d; }
         }
 
+        protected virtual ulong PacketVersion
+        {
+            get { return 0x14; }
+        }
+
         public void ReadReplayStream(Stream stream, Action<Packet> packetHandler)
         {
 
@@ -109,7 +114,7 @@ namespace WotDossier.Applications.Parser
                 if (packet.StreamPacketType == 0x00)
                 {
                     _log.Trace("Process packet 0x00");
-                    ProcessPacket_0x00(packet);
+                    ProcessPacketBattleLevel(packet);
                 }
                 else
                 //player position
@@ -127,10 +132,10 @@ namespace WotDossier.Applications.Parser
                 }
                 else
                 //replay version
-                if (packet.StreamPacketType == 0x14)
+                if (packet.StreamPacketType == PacketVersion)
                 {
-                    _log.Trace("Process packet 0x14");
-                    ProcessPacket_0x14(packet);
+                    _log.Trace($"Process version packet {PacketVersion}");
+                    ProcessPacket_Version(packet);
                 }
                 else
                 //in game updates
@@ -239,7 +244,7 @@ namespace WotDossier.Applications.Parser
         /// Contains Battle level setup and Player Name.
         /// </summary>
         /// <param name="packet">The packet.</param>
-        public virtual void ProcessPacket_0x00(Packet packet)
+        public virtual void ProcessPacketBattleLevel(Packet packet)
         {
             packet.Type = PacketType.BattleLevel;
 
@@ -300,14 +305,19 @@ namespace WotDossier.Applications.Parser
                     ProcessPacket_0x08_0x1d(packet, stream);
                 }
 
-                if (packet.StreamSubType == UpdateEvent_Slot) //onSlotUpdate events
+                else if (packet.StreamSubType == UpdateEvent_Slot) //onSlotUpdate events
                 {
                     ProcessPacket_0x08_0x09(packet, stream);
                 }
 
-                if (packet.StreamSubType == 0x01) //onDamageReceived
+                else if (packet.StreamSubType == 0x01) //onDamageReceived
                 {
-                    //ProcessPacket_0x08_0x01(packet, stream, data);
+                    ProcessPacket_0x08_0x01(packet, stream);//, data);
+                }
+
+                else
+                {
+                    var i = 0;
                 }
             }
         }
@@ -542,7 +552,7 @@ namespace WotDossier.Applications.Parser
         /// Contains Replay version
         /// </summary>
         /// <param name="packet">The packet.</param>
-        private static void ProcessPacket_0x14(Packet packet)
+        private static void ProcessPacket_Version(Packet packet)
         {
             packet.Type = PacketType.Version;
 

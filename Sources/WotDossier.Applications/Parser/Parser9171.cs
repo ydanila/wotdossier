@@ -7,7 +7,7 @@ using WotDossier.Domain.Replay;
 
 namespace WotDossier.Applications.Parser
 {
-    public class Parser9171 : Parser914
+    public class Parser9171 : Parser915
     {
         protected override ulong PacketChat
         {
@@ -34,7 +34,7 @@ namespace WotDossier.Applications.Parser
         /// Contains Battle level setup and Player Name.
         /// </summary>
         /// <param name="packet">The packet.</param>
-        public override void ProcessPacket_0x00(Packet packet)
+        public override void ProcessPacketBattleLevel(Packet packet)
         {
             packet.Type = PacketType.BattleLevel;
 

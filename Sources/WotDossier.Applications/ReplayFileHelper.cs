@@ -346,13 +346,21 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
             {
                 return new Parser910();
             }
-            if (version < new Version("0.9.14.0"))
+            if (version < new Version("0.9.13.0"))
             {
                 return new Parser912();
             }
-            if (version < new Version("0.9.17.1"))
+            if (version < new Version("0.9.14.0"))
+            {
+                return new Parser913();
+            }
+            if (version < new Version("0.9.15.0"))
             {
                 return new Parser914();
+            }
+            if (version < new Version("0.9.17.1"))
+            {
+                return new Parser915();
             }
             return new Parser9171();
         }
