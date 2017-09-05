@@ -59,6 +59,12 @@ namespace WotDossier.Applications.Parser
 
             if (!RosterProcessed)
             {
+                if (updatePayload.Length < 100)
+                {
+                    var rosterdata = new Dictionary<string, AdvancedPlayerInfo>();
+                    data.roster = rosterdata;
+                    return;
+                }
                 updatePayload = DecompressData(updatePayload);
                 RosterProcessed = true;
             }

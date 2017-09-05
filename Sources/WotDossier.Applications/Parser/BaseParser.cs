@@ -7,6 +7,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using Common.Logging;
 using Ionic.Zlib;
+using Newtonsoft.Json;
 using WotDossier.Common;
 using WotDossier.Common.Extensions;
 using WotDossier.Domain;
@@ -61,7 +62,8 @@ namespace WotDossier.Applications.Parser
 
         public void ReadReplayStream(Stream stream, Action<Packet> packetHandler)
         {
-
+            pc8.Clear();
+            pc.Clear();
             _abort = false;
             bool endOfStream = false;
             _log.Trace("Begin replay stream read");
@@ -75,6 +77,11 @@ namespace WotDossier.Applications.Parser
                 }
             }
             _log.Trace("End replay stream read");
+
+            var str = JsonConvert.SerializeObject(pc8);
+            var str2 = JsonConvert.SerializeObject(pc);
+
+
         }
 
         public void Abort()
@@ -90,7 +97,8 @@ namespace WotDossier.Applications.Parser
 
             long position = stream.Position;
 
-            bool endOfStream = packetType == new byte[] { 255, 255, 255, 255 }.ConvertLittleEndian() || stream.Position >= stream.Length;
+            bool endOfStream = packetType == new byte[] {255, 255, 255, 255}.ConvertLittleEndian() ||
+                               stream.Position >= stream.Length;
 
             byte[] payload = new byte[packetLength];
 
@@ -98,7 +106,7 @@ namespace WotDossier.Applications.Parser
 
             if (!endOfStream)
             {
-                stream.Read(payload, 0, (int)packetLength);
+                stream.Read(payload, 0, (int) packetLength);
 
                 packet = new Packet
                 {
@@ -109,7 +117,6 @@ namespace WotDossier.Applications.Parser
                     Time = TimeSpan.FromSeconds(time),
                     Clock = time
                 };
-
                 //battle level setup 
                 if (packet.StreamPacketType == 0x00)
                 {
@@ -117,46 +124,50 @@ namespace WotDossier.Applications.Parser
                     ProcessPacketBattleLevel(packet);
                 }
                 else
-                //player position
+                    //player position
                 if (packet.StreamPacketType == PacketPosition)
                 {
                     _log.Trace("Process packet 0x0a");
                     ProcessPacket_0x0a(packet);
                 }
                 else
-                //minimap click
+                    //minimap click
                 if (packet.StreamPacketType == 0x21)
                 {
                     _log.Trace("Process packet 0x21");
                     ProcessPacket_0x21(packet);
                 }
                 else
-                //replay version
+                    //replay version
                 if (packet.StreamPacketType == PacketVersion)
                 {
                     _log.Trace($"Process version packet {PacketVersion}");
                     ProcessPacket_Version(packet);
                 }
                 else
-                //in game updates
+                    //in game updates
                 if (packet.StreamPacketType == PacketBattleUpdateEvent)
                 {
                     _log.Trace("Process packet 0x08");
                     ProcessPacket_0x08(packet);
                 }
-                else
-                if (packet.StreamPacketType == PacketHealth)
+                else if (packet.StreamPacketType == PacketHealth)
                 {
                     _log.Trace("Process packet 0x07");
                     ProcessPacket_0x07(packet);
                 }
                 else
-                //chat
+                    //chat
                 if (packet.StreamPacketType == PacketChat)
                 {
                     _log.Trace("Process packet 0x1f");
                     ProcessPacket_0x1f(packet);
                 }
+
+
+                pc.Add(new Tuple<PacketType, ulong, ulong, ulong, ulong, ulong, List<byte>>(packet.Type,
+                    packet.StreamPacketType, packet.StreamSubType, packet.PlayerId, packet.PacketLength,
+                    packet.SubTypePayloadLength, packet.Payload.ToList()));
             }
 
             return packet;
@@ -284,6 +295,11 @@ namespace WotDossier.Applications.Parser
             }
         }
 
+        static List<Tuple<ulong, ulong, ulong, List<byte>>> pc8 = new List<Tuple<ulong, ulong, ulong, List<byte>>>();
+        static List<Tuple<PacketType, ulong, ulong, ulong, ulong, ulong, List<byte>>> pc = new List<Tuple<PacketType, ulong, ulong, ulong, ulong, ulong, List<byte>>>();
+
+        
+
         /// <summary>
         /// Process packet 0x08
         /// Contains Various game state updates
@@ -315,10 +331,8 @@ namespace WotDossier.Applications.Parser
                     ProcessPacket_0x08_0x01(packet, stream);//, data);
                 }
 
-                else
-                {
-                    var i = 0;
-                }
+                //if(packet.StreamSubType == UpdateEvent_Arena)
+                    pc8.Add(new Tuple<ulong, ulong, ulong, List<byte>>(packet.PlayerId, packet.StreamSubType, packet.SubTypePayloadLength, packet.Payload.ToList()));
             }
         }
 
@@ -526,11 +540,11 @@ namespace WotDossier.Applications.Parser
         /// </summary>
         /// <param name="packet">The packet.</param>
         /// <param name="stream">The stream.</param>
-        protected static void ProcessPacket_0x08_0x09(Packet packet, MemoryStream stream)
+        protected virtual void ProcessPacket_0x08_0x09(Packet packet, MemoryStream stream)
         {
             packet.Type = PacketType.SlotUpdate;
-            //buffer = new byte[packet.SubTypePayloadLength];
-            ////Read from your offset to the end of the packet, this will be the "update pickle". 
+            //var buffer = new byte[packet.SubTypePayloadLength];
+            //Read from your offset to the end of the packet, this will be the "update pickle". 
             //stream.Read(buffer, 0, (int) (packet.SubTypePayloadLength));
 
             dynamic data = new ExpandoObject();

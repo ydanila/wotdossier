@@ -11,6 +11,16 @@ namespace WotDossier.Applications.Parser
     {
         protected override ulong PacketVersion => 0x18;
 
+        protected override ulong UpdateEvent_Slot
+        {
+            get { return 0x0a; }
+        }
+
+        protected override ulong UpdateEvent_Arena
+        {
+            get { return 0x29; }
+        }
+
         /// <summary>
         /// Process packet 0x00
         /// Contains Battle level setup and Player Name.

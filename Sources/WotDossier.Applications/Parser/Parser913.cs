@@ -13,12 +13,12 @@ namespace WotDossier.Applications.Parser
 
         protected override ulong UpdateEvent_Slot
         {
-            get { return 0x0a; }
+            get { return 0x9; }
         }
 
         protected override ulong UpdateEvent_Arena
         {
-            get { return 0x29; }
+            get { return 0x28; }
         }
     }
 }

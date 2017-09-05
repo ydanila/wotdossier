@@ -132,7 +132,9 @@
     <Compile Include="Parser\Packet.cs" />
     <Compile Include="Parser\Parser913.cs" />
     <Compile Include="Parser\Parser915.cs" />
+    <Compile Include="Parser\Parser916.cs" />
     <Compile Include="Parser\Parser9171.cs" />
+    <Compile Include="Parser\Parser917.cs" />
     <Compile Include="Parser\Parser914.cs" />
     <Compile Include="Parser\Parser912.cs" />
     <Compile Include="Parser\Parser910.cs" />
