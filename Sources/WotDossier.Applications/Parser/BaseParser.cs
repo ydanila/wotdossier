@@ -17,6 +17,51 @@ namespace WotDossier.Applications.Parser
 {
     public class BaseParser
     {
+        public string ProcessedVersion { get; set; }
+        public ulong ReplayWriterVehicle { get; set; }
+        protected ulong CurrentVehicleId { get; set; }
+
+
+
+        List<Tuple<ulong, ulong, ulong, List<byte>>> pc8 = new List<Tuple<ulong, ulong, ulong, List<byte>>>();
+        List<PacketDescription> pc = new List<PacketDescription>();
+        
+
+        public class PacketDescription
+        {
+            public PacketType Type { get; set; }
+            public ulong StreamPacketType { get; set; }
+            public ulong StreamSubType { get; set; }
+            public ulong PlayerId { get; set; }
+
+            public TimeSpan Time { get; set; }
+
+            public long Offset { get; set; }
+            public ulong PacketLength { get; set; }
+            public ulong SubTypePayloadLength { get; set; }
+            public List<byte> Payload { get; set; }
+        }
+
+        class MyConverter : JsonConverter
+        {
+            public override bool CanConvert(Type objectType)
+            {
+                return objectType == typeof(string[]) || objectType == typeof(List<byte>);
+            }
+
+            public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+            {
+                throw new NotImplementedException();
+            }
+
+            public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+            {
+                writer.WriteRawValue(JsonConvert.SerializeObject(value, Formatting.None));
+            }
+        }
+
+
+
         protected static readonly ILog _log = LogManager.GetLogger<BaseParser>();
         private bool _abort = false;
 
@@ -64,6 +109,7 @@ namespace WotDossier.Applications.Parser
         {
             pc8.Clear();
             pc.Clear();
+            
             _abort = false;
             bool endOfStream = false;
             _log.Trace("Begin replay stream read");
@@ -73,13 +119,26 @@ namespace WotDossier.Applications.Parser
                 endOfStream = readPacket == null;
                 if (!endOfStream)
                 {
-                    packetHandler(readPacket);
+                    if (readPacket.PlayerId == 6555161)
+                    {
+                        var xxx = 0;
+                    }
+                        packetHandler(readPacket);
                 }
             }
             _log.Trace("End replay stream read");
 
-            var str = JsonConvert.SerializeObject(pc8);
-            var str2 = JsonConvert.SerializeObject(pc);
+            //var str = JsonConvert.SerializeObject(pc8, Formatting.Indented);
+
+
+
+            var settings = new JsonSerializerSettings
+            {
+                Formatting = Formatting.Indented,
+            };
+            settings.Converters.Add(new MyConverter());
+            //File.WriteAllText($"Logs\\{ProcessedVersion}.Packets.json", JsonConvert.SerializeObject(pc, settings));
+
 
 
         }
@@ -127,8 +186,8 @@ namespace WotDossier.Applications.Parser
                     //player position
                 if (packet.StreamPacketType == PacketPosition)
                 {
-                    _log.Trace("Process packet 0x0a");
-                    ProcessPacket_0x0a(packet);
+                    _log.Trace("Process packet 'Player position'");
+                    ProcessPacketPlayerPosition(packet);
                 }
                 else
                     //minimap click
@@ -154,7 +213,7 @@ namespace WotDossier.Applications.Parser
                 else if (packet.StreamPacketType == PacketHealth)
                 {
                     _log.Trace("Process packet 0x07");
-                    ProcessPacket_0x07(packet);
+                    ProcessPacketHealth(packet);
                 }
                 else
                     //chat
@@ -165,15 +224,25 @@ namespace WotDossier.Applications.Parser
                 }
 
 
-                pc.Add(new Tuple<PacketType, ulong, ulong, ulong, ulong, ulong, List<byte>>(packet.Type,
-                    packet.StreamPacketType, packet.StreamSubType, packet.PlayerId, packet.PacketLength,
-                    packet.SubTypePayloadLength, packet.Payload.ToList()));
+
+                pc.Add(new PacketDescription()
+                {
+                    Type = packet.Type,
+                    StreamPacketType = packet.StreamPacketType,
+                    StreamSubType = packet.StreamSubType,
+                    PlayerId = packet.PlayerId,
+                    Time = packet.Time,
+                    Offset = packet.Offset,
+                    PacketLength = packet.PacketLength,
+                    SubTypePayloadLength = packet.SubTypePayloadLength,
+                    Payload = packet.Payload.ToList()
+                });
             }
 
             return packet;
         }
 
-        private void ProcessPacket_0x07(Packet packet)
+        private void ProcessPacketHealth(Packet packet)
         {
             packet.Type = PacketType.Health;
 
@@ -184,7 +253,11 @@ namespace WotDossier.Applications.Parser
             using (MemoryStream stream = new MemoryStream(packet.Payload))
             {
                 //read 0-4 - player_id
-                packet.PlayerId = stream.Read(4).ConvertLittleEndian();
+                var playerId = stream.Read(4).ConvertLittleEndian();
+                if (playerId == CurrentVehicleId && CurrentVehicleId != 0)
+                    playerId = ReplayWriterVehicle;
+
+                packet.PlayerId = playerId;
                 //read 4-8 - subType
                 packet.StreamSubType = stream.Read(4).ConvertLittleEndian();
                 //read 8-12 - update length
@@ -222,7 +295,11 @@ namespace WotDossier.Applications.Parser
             }
         }
 
-        private void ProcessPacket_0x0a(Packet packet)
+        /// <summary>
+        /// Processes the player position.
+        /// </summary>
+        /// <param name="packet">The packet.</param>
+        protected virtual void ProcessPacketPlayerPosition(Packet packet)
         {
             packet.Type = PacketType.PlayerPos;
 
@@ -232,7 +309,12 @@ namespace WotDossier.Applications.Parser
 
             using (MemoryStream f = new MemoryStream(packet.Payload))
             {
-                data.PlayerId = (long)f.Read(4).ConvertLittleEndian();
+                var playerId = f.Read(4).ConvertLittleEndian();
+                if (playerId == CurrentVehicleId && CurrentVehicleId != 0)
+                    playerId = ReplayWriterVehicle;
+
+                packet.PlayerId = playerId;
+                data.PlayerId = playerId;
 
                 f.Seek(12, SeekOrigin.Begin);
 
@@ -295,11 +377,6 @@ namespace WotDossier.Applications.Parser
             }
         }
 
-        static List<Tuple<ulong, ulong, ulong, List<byte>>> pc8 = new List<Tuple<ulong, ulong, ulong, List<byte>>>();
-        static List<Tuple<PacketType, ulong, ulong, ulong, ulong, ulong, List<byte>>> pc = new List<Tuple<PacketType, ulong, ulong, ulong, ulong, ulong, List<byte>>>();
-
-        
-
         /// <summary>
         /// Process packet 0x08
         /// Contains Various game state updates
@@ -310,7 +387,13 @@ namespace WotDossier.Applications.Parser
             using (MemoryStream stream = new MemoryStream(packet.Payload))
             {
                 //read 0-4 - player_id
-                packet.PlayerId = stream.Read(4).ConvertLittleEndian();
+                var playerId = stream.Read(4).ConvertLittleEndian();
+                if (playerId != ReplayWriterVehicle)
+                {
+                    CurrentVehicleId = playerId;
+                    playerId = ReplayWriterVehicle;
+                }
+                packet.PlayerId = playerId;
                 //read 4-8 - subType
                 packet.StreamSubType = stream.Read(4).ConvertLittleEndian();
                 //read 8-12 - update length

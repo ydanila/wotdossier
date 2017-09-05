@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Dynamic;
 using System.IO;
 using WotDossier.Common;
@@ -9,6 +10,8 @@ namespace WotDossier.Applications.Parser
 {
     public class Parser914 : Parser913
     {
+        List<long> Ids = new List<long>();
+
         protected override ulong PacketVersion => 0x18;
 
         protected override ulong UpdateEvent_Slot
@@ -65,5 +68,47 @@ namespace WotDossier.Applications.Parser
                 }
             }
         }
+
+        /// <summary>
+        /// Processes the player position.
+        /// </summary>
+        /// <param name="packet">The packet.</param>
+        //protected override void ProcessPacketPlayerPosition(Packet packet)
+        //{
+        //    packet.Type = PacketType.PlayerPos;
+
+        //    dynamic data = new ExpandoObject();
+
+        //    packet.Data = data;
+
+        //    using (MemoryStream f = new MemoryStream(packet.Payload))
+        //    {
+        //        var id1 = (long)f.Read(4).ConvertLittleEndian();
+        //        var id2 = (long)f.Read(4).ConvertLittleEndian();
+        //        data.PlayerId = id2 == 0 ? id1 : id2;
+        //        //data.PlayerId = (long)f.Read(4).ConvertLittleEndian();
+        //        if (id2 != 0 && id1 == 6555161 && id2 != 6615128)
+        //        {
+        //            var x = 0;
+        //        }
+
+        //        if (!Ids.Contains(data.PlayerId))
+        //            Ids.Add(data.PlayerId);
+
+        //        f.Seek(12, SeekOrigin.Begin);
+
+        //        var pos1 = f.Read(4).ToSingle();
+        //        var pos2 = f.Read(4).ToSingle();
+        //        var pos3 = f.Read(4).ToSingle();
+        //        data.position = new[] { pos1, pos2, pos3 };
+
+        //        f.Seek(36, SeekOrigin.Begin);
+
+        //        var hull1 = f.Read(4).ToSingle();
+        //        var hull2 = f.Read(4).ToSingle();
+        //        var hull3 = f.Read(4).ToSingle();
+        //        data.hull_orientation = new[] { hull1, hull2, hull3 };
+        //    }
+        //}
     }
 }

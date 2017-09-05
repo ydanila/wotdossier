@@ -146,7 +146,7 @@ namespace WotDossier.Applications.Parser
                 }
             }
 
-            if (updateType == ARENA_UPDATE.BASE_POINTS)
+            else if (updateType == ARENA_UPDATE.BASE_POINTS)
             {
                 try
                 {
@@ -165,7 +165,7 @@ namespace WotDossier.Applications.Parser
                 }
             }
 
-            if (updateType == ARENA_UPDATE.PERIOD)
+            else if (updateType == ARENA_UPDATE.PERIOD)
             {
                 try
                 {
@@ -186,7 +186,7 @@ namespace WotDossier.Applications.Parser
                 }
             }
 
-            if (updateType == ARENA_UPDATE.VEHICLE_KILLED)
+            else if (updateType == ARENA_UPDATE.VEHICLE_KILLED)
             {
                 try
                 {
@@ -202,6 +202,11 @@ namespace WotDossier.Applications.Parser
                 {
                     _log.Error("Error on update load", e);
                 }
+            }
+
+            else
+            {
+                var xx = 0;
             }
         }
     }

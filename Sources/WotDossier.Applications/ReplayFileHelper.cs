@@ -282,9 +282,17 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
 
             //uncompressed.Dump(@"c:\\temp");
 
+            var replayWriterVehicle = replay.datablock_battle_result.vehicles.First(v =>
+                v.Value.accountDBID == replay.datablock_battle_result.personal.accountDBID).Key;
+
+            //ReplayUser = Vehicles.First(v => v.AccountDBID == replay.datablock_battle_result.personal.accountDBID);
+
             using (var uncompressedReplayStream = new MemoryStream(uncompressed))
             {
                 BaseParser parser = GetParser(replay);
+
+                parser.ProcessedVersion = replay.datablock_1.Version.ToString();
+                parser.ReplayWriterVehicle = Convert.ToUInt64(replayWriterVehicle);
 
                 replay.datablock_advanced = new AdvancedReplayData();
 
