@@ -8,10 +8,11 @@ using WotDossier.Domain.Replay;
 
 namespace WotDossier.Applications.Parser
 {
-    public class Parser916 : Parser915
+    public class Parser920 : Parser9191
     {
-        protected override ulong UpdateEvent_Arena => 0x2A;
+	    protected override ulong UpdateEvent_Arena => 0x2d;
 
-	    public override ulong UpdateEvent_Health => 0x04;
+	    protected override ulong UpdateEvent_Slot => 0x2d;
+
 	}
 }

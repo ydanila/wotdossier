@@ -291,7 +291,6 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
             {
                 BaseParser parser = GetParser(replay);
 
-                parser.ProcessedVersion = replay.datablock_1.Version.ToString();
                 parser.ReplayWriterVehicle = Convert.ToUInt64(replayWriterVehicle);
 
                 replay.datablock_advanced = new AdvancedReplayData();
@@ -378,7 +377,15 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
             {
                 return new Parser917();
             }
-            return new Parser9171();
+	        if (version < new Version("0.9.19.1"))
+	        {
+		        return new Parser917();
+	        }
+			if (version < new Version("0.9.20.0"))
+	        {
+		        return new Parser9191();
+	        }
+			return new Parser920();
         }
 
 

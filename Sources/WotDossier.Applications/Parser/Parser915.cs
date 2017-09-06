@@ -10,13 +10,14 @@ namespace WotDossier.Applications.Parser
     public class Parser915 : Parser914
     {
         protected override ulong PacketVersion => 0x18;
+	    public override ulong UpdateEvent_Health => 0x05;
 
-        /// <summary>
-        /// Process packet 0x00
-        /// Contains Battle level setup and Player Name.
-        /// </summary>
-        /// <param name="packet">The packet.</param>
-        public override void ProcessPacketBattleLevel(Packet packet)
+		/// <summary>
+		/// Process packet 0x00
+		/// Contains Battle level setup and Player Name.
+		/// </summary>
+		/// <param name="packet">The packet.</param>
+		public override void ProcessPacketBattleLevel(Packet packet)
         {
             packet.Type = PacketType.BattleLevel;
 

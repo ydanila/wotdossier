@@ -15,14 +15,16 @@ namespace WotDossier.Applications.Parser
             get { return 0x23; }
         }
 
-        protected override ulong UpdateEvent_Slot => 0x0e; //0x0a;
+        protected override ulong UpdateEvent_Slot => 0x0e;
 
-        protected override ulong UpdateEvent_Health
-        {
-            get { return 0x05; }
-        }
+	    public override ulong UpdateEvent_Health => 0x5;
 
-        protected override ulong UpdateEvent_Arena => 0x2c;
+		//public override ulong UpdateEvent_Health
+		//{
+		//    get { return 0x05; }
+		//}
+
+		protected override ulong UpdateEvent_Arena => 0x2c;
 
         /// <summary>
         /// Process packet 0x08 subType 0x09
