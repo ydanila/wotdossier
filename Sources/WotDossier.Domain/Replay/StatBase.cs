@@ -204,5 +204,14 @@ namespace WotDossier.Domain.Replay
             get { return _deathReason; }
             set { _deathReason = value; }
         }
+
+        [DataMember]
+        public int damageAssistedStun { get; set; }
+
+        [DataMember]
+        public int stunNum { get; set; }
+
+        [DataMember]
+        public double stunDuration { get; set; }
     }
 }

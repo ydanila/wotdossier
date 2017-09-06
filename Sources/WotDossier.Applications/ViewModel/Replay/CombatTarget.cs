@@ -19,6 +19,10 @@ namespace WotDossier.Applications.ViewModel.Replay
         
         public int DamageAssistedRadio { get; set; }
 
+        public int DamageAssistedStun { get; set; }
+
+        public int StunNum { get; set; }
+
         public int DamageDealt { get; set; }
 
         public int Fire { get; set; }
@@ -51,6 +55,8 @@ namespace WotDossier.Applications.ViewModel.Replay
             Killed = vehicleDamage.Value.killed;
             Pierced = vehicleDamage.Value.pierced;
             Spotted = vehicleDamage.Value.spotted;
+            StunNum = vehicleDamage.Value.stunNum;
+            DamageAssistedStun = vehicleDamage.Value.damageAssistedStun;
             TeamMate = teamMember.TeamMate;
         }
 

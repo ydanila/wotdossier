@@ -226,6 +226,8 @@
                 <DataGridTextColumn Header="{x:Static resources:Resources.Column_Performance_DamageAssisted}" Binding="{Binding DamageAssisted}" ElementStyle="{StaticResource RTextBlock}" />
                 <DataGridTextColumn Header="{x:Static resources:Resources.Column_Performance_DamageAssistedRadio}" Binding="{Binding DamageAssistedRadio}" ElementStyle="{StaticResource RTextBlock}" />
                 <DataGridTextColumn Header="{x:Static resources:Resources.Column_Performance_DamageAssistedTrack}" Binding="{Binding DamageAssistedTrack}" ElementStyle="{StaticResource RTextBlock}" />
+                <DataGridTextColumn Header="{x:Static resources:Resources.Column_Replay_Stun}" Binding="{Binding StunNum}" ElementStyle="{StaticResource RTextBlock}" />
+                <DataGridTextColumn Header="{x:Static resources:Resources.Column_Performance_DamageAssistedStun}" Binding="{Binding DamageAssistedStun}" ElementStyle="{StaticResource RTextBlock}" />
                 <DataGridTextColumn Header="{x:Static resources:Resources.Column_Time_PlayTime}" Binding="{Binding PlayTime, StringFormat='dd.MM.yyyy HH:mm'}" ElementStyle="{StaticResource RTextBlock}" />
                 <DataGridTextColumn Header="{x:Static resources:Resources.Label_ReplayDetail_BattleDuration}" Width="100" Binding="{Binding BattleTime, StringFormat=mm\\:ss}" Visibility="Hidden" ElementStyle="{StaticResource RTextBlock}" />
                 <DataGridTextColumn Header="{x:Static resources:Resources.Label_ReplayDetail_LifeTime}" Width="100" Binding="{Binding LifeTime, StringFormat=mm\\:ss}" Visibility="Hidden" ElementStyle="{StaticResource RTextBlock}" />

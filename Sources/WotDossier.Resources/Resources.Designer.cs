@@ -2820,6 +2820,15 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Average Damage Assisted Stun.
+        /// </summary>
+        public static string Column_Performance_AvgDamageAssistedStun {
+            get {
+                return ResourceManager.GetString("Column_Performance_AvgDamageAssistedStun", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Average Damage Assisted Track.
         /// </summary>
         public static string Column_Performance_AvgDamageAssistedTrack {
@@ -2897,6 +2906,15 @@ namespace WotDossier.Resources {
         public static string Column_Performance_DamageAssistedRadio {
             get {
                 return ResourceManager.GetString("Column_Performance_DamageAssistedRadio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Damage Assisted Stun.
+        /// </summary>
+        public static string Column_Performance_DamageAssistedStun {
+            get {
+                return ResourceManager.GetString("Column_Performance_DamageAssistedStun", resourceCulture);
             }
         }
         
@@ -3239,6 +3257,15 @@ namespace WotDossier.Resources {
         public static string Column_Replay_PlayerName {
             get {
                 return ResourceManager.GetString("Column_Replay_PlayerName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stuns.
+        /// </summary>
+        public static string Column_Replay_Stun {
+            get {
+                return ResourceManager.GetString("Column_Replay_Stun", resourceCulture);
             }
         }
         

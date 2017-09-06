@@ -356,6 +356,34 @@ namespace WotDossier.Applications.ViewModel.Statistic
 
         #endregion
 
+        #region Stunning
+        public int BattlesOnStunningVehicles { get; set; }
+        public int StunNum { get; set; }
+        public int DamageAssistedStun { get; set; }
+        public double AvgStun
+        {
+            get
+            {
+                if (BattlesOnStunningVehicles > 0)
+                {
+                    return StunNum / (double)BattlesOnStunningVehicles;
+                }
+                return 0;
+            }
+        }
+        public double AvgDamageAssistedStun
+        {
+            get
+            {
+                if (BattlesOnStunningVehicles > 0)
+                {
+                    return DamageAssistedStun / (double)BattlesOnStunningVehicles;
+                }
+                return 0;
+            }
+        }
+        #endregion
+
         #endregion
 
         private StatisticViewModelBase TypedPrevStatistic

@@ -172,6 +172,24 @@ namespace WotDossier.Domain.Entities
         public virtual int CapturePoints { get; set; }
 
         /// <summary>
+        ///     Gets/Sets the field "BattlesOnStunningVehicles".
+        /// </summary>
+        [DataMember]
+        public virtual int BattlesOnStunningVehicles { get; set; }
+
+        /// <summary>
+        ///     Gets/Sets the field "StunNum".
+        /// </summary>
+        [DataMember]
+        public virtual int StunNum { get; set; }
+
+        /// <summary>
+        ///     Gets/Sets the field "DamageAssistedStun".
+        /// </summary>
+        [DataMember]
+        public virtual int DamageAssistedStun { get; set; }
+
+        /// <summary>
         ///     Gets/Sets the field "DroppedCapturePoints".
         /// </summary>
         [DataMember]

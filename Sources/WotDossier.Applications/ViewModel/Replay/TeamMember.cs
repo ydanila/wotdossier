@@ -60,6 +60,8 @@ namespace WotDossier.Applications.ViewModel.Replay
             Shots = vehicleResult.Value.shots;
             ShotsReceived = vehicleResult.Value.shotsReceived;
             Spotted = vehicleResult.Value.spotted;
+            StunNum = vehicleResult.Value.stunNum;
+            DamageAssistedStun = vehicleResult.Value.damageAssistedStun;
             TDamageDealt = vehicleResult.Value.tdamageDealt;
             //team = vehicleResult.Value;
             THits = vehicleResult.Value.thits;
@@ -156,6 +158,8 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int Shots { get; set; }
         public int ShotsReceived { get; set; }
         public int Spotted { get; set; }
+        public int StunNum { get; set; }
+        public int DamageAssistedStun { get; set; }
         public double TDamageDealt { get; set; }
         //public int team { get; set; }
         public int THits { get; set; }

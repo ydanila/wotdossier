@@ -129,7 +129,7 @@ namespace WotDossier.Applications.Parser
                 Formatting = Formatting.Indented,
             };
             settings.Converters.Add(new MyConverter());
-            File.WriteAllText($"Logs\\{ProcessedVersion}.Packets.json", JsonConvert.SerializeObject(pcList, settings));
+            //File.WriteAllText($"Logs\\{ProcessedVersion}.Packets.json", JsonConvert.SerializeObject(pcList, settings));
 
 
 

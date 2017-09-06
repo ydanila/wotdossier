@@ -36,6 +36,11 @@ namespace WotDossier.Applications.Logic.Adapter
         public DateTime Created { get; set; }
         public int MarkOfMastery { get; set; }
 
+
+        public int BattlesOnStunningVehicles { get; set; }
+        public int StunNum { get; set; }
+        public int DamageAssistedStun { get; set; }
+
         protected AbstractStatisticAdapter()
         {
         }
@@ -73,6 +78,10 @@ namespace WotDossier.Applications.Logic.Adapter
             WN8KTTCRating = RatingHelper.Wn8(tanks, WN8Type.KTTC, statPredicate);
             WN8XVMRating = RatingHelper.Wn8(tanks, WN8Type.XVM, statPredicate);
             RBR = RatingHelper.PersonalRating(tanks, statPredicate);
+
+            BattlesOnStunningVehicles = tanks.Max(x => statPredicate(x).battlesOnStunningVehicles);
+            StunNum = tanks.Max(x => statPredicate(x).stunNum);
+            DamageAssistedStun = tanks.Max(x => statPredicate(x).damageAssistedStun);
         }
 
         public virtual void Update(T entity)
@@ -101,6 +110,10 @@ namespace WotDossier.Applications.Logic.Adapter
             entity.WN8XVMRating = WN8XVMRating;
             entity.PerformanceRating = PerformanceRating;
             entity.MarkOfMastery = MarkOfMastery;
+
+            entity.BattlesOnStunningVehicles = BattlesOnStunningVehicles;
+            entity.StunNum = StunNum;
+            entity.DamageAssistedStun = DamageAssistedStun;
         }
     }
 }

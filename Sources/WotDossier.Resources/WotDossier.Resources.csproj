@@ -1223,6 +1223,9 @@
     <Resource Include="Images\Maps\87_ruinberg_on_fire.png" />
     <Resource Include="Images\Maps\99_himmelball.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Maps\Minimap\212_epic_random_valley.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

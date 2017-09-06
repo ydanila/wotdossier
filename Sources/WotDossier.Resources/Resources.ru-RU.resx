@@ -1175,6 +1175,9 @@
   <data name="Column_Replay_XP" xml:space="preserve">
     <value>Опыт</value>
   </data>
+  <data name="Column_Replay_Stun" xml:space="preserve">
+    <value>Количество оглушений</value>
+  </data>
   <data name="Replay_TeamMember_HideResultButton" xml:space="preserve">
     <value>Скрыть</value>
   </data>
@@ -1511,6 +1514,9 @@
   <data name="Column_Performance_DamageAssistedTrack" xml:space="preserve">
     <value>Урон по засвету(гусли)</value>
   </data>
+  <data name="Column_Performance_DamageAssistedStun" xml:space="preserve">
+    <value>Урон по оглушенным</value>
+  </data>
   <data name="Column_Performance_HeHits" xml:space="preserve">
     <value>Фугасных попаданий</value>
   </data>
@@ -1615,6 +1621,9 @@
   </data>
   <data name="Column_Performance_AvgDamageAssistedTrack" xml:space="preserve">
     <value>Ср. урон по засвету(гусли)</value>
+  </data>
+  <data name="Column_Performance_AvgDamageAssistedStun" xml:space="preserve">
+    <value>Ср. урон по оглушенным</value>
   </data>
   <data name="Column_Performance_AvgOriginalXP" xml:space="preserve">
     <value>Ср. чистый опыт</value>

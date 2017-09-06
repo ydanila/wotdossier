@@ -57,6 +57,10 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int DamageReceived { get; set; }
         public int Damaged { get; set; }
 
+        public int StunNum { get; set; }
+
+        public int DamageAssistedStun { get; set; }
+
         private DeathReason _deathReason = DeathReason.Unknown;
 
         public DeathReason DeathReason
@@ -249,6 +253,8 @@ namespace WotDossier.Applications.ViewModel.Replay
                     DamageAssisted = replay.datablock_battle_result.personal.damageAssisted;
                     DamageAssistedRadio = replay.datablock_battle_result.personal.damageAssistedRadio;
                     DamageAssistedTrack = replay.datablock_battle_result.personal.damageAssistedTrack;
+                    DamageAssistedStun = replay.datablock_battle_result.personal.damageAssistedStun;
+                    StunNum = replay.datablock_battle_result.personal.stunNum;
                     PotentialDamageReceived = replay.datablock_battle_result.personal.potentialDamageReceived;
                     DamageBlockedByArmor = replay.datablock_battle_result.personal.damageBlockedByArmor;
                     MarkOfMastery = replay.datablock_battle_result.personal.markOfMastery;

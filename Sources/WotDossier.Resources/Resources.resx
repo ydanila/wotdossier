@@ -1076,6 +1076,9 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
   <data name="Column_Replay_DamageDealt" xml:space="preserve">
     <value>Damage Dealt</value>
   </data>
+  <data name="Column_Replay_Stun" xml:space="preserve">
+    <value>Stuns</value>
+  </data>
   <data name="Column_Replay_DamageReceived" xml:space="preserve">
     <value>Damage Received</value>
   </data>
@@ -1418,6 +1421,9 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
   <data name="Column_Performance_DamageAssistedRadio" xml:space="preserve">
     <value>Damage Assisted Radio</value>
   </data>
+  <data name="Column_Performance_DamageAssistedStun" xml:space="preserve">
+    <value>Damage Assisted Stun</value>
+  </data>
   <data name="Column_Performance_DamageAssistedTrack" xml:space="preserve">
     <value>Damage Assisted Track</value>
   </data>
@@ -1525,6 +1531,9 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
   </data>
   <data name="Column_Performance_AvgDamageAssistedTrack" xml:space="preserve">
     <value>Average Damage Assisted Track</value>
+  </data>
+  <data name="Column_Performance_AvgDamageAssistedStun" xml:space="preserve">
+    <value>Average Damage Assisted Stun</value>
   </data>
   <data name="Column_Performance_AvgOriginalXP" xml:space="preserve">
     <value>Average Original XP</value>

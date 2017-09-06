@@ -32,6 +32,7 @@ namespace WotDossier.Applications.ViewModel.Rows
             OriginalXP = list.Sum(x => x.OriginalXP);
             DamageAssistedTrack = list.Sum(x => x.DamageAssistedTrack);
             DamageAssistedRadio = list.Sum(x => x.DamageAssistedRadio);
+            DamageAssistedStun = list.Sum(x => x.DamageAssistedStun);
             Mileage = list.Sum(x => x.Mileage);
             ShotsReceived = list.Sum(x => x.ShotsReceived);
             NoDamageShotsReceived = list.Sum(x => x.NoDamageShotsReceived);
@@ -40,9 +41,11 @@ namespace WotDossier.Applications.ViewModel.Rows
             HeHits = list.Sum(x => x.HeHits);
             Pierced = list.Sum(x => x.Pierced);
             XpBefore88 = list.Sum(x => x.XpBefore88);
+            StunNum = list.Sum(x => x.StunNum);
             BattlesCountBefore88 = list.Sum(x => x.BattlesCountBefore88);
             BattlesCount88 = list.Sum(x => x.BattlesCount88);
             BattlesCount90 = list.Sum(x => x.BattlesCount90);
+            BattlesOnStunningVehicles = list.Sum(x => x.BattlesOnStunningVehicles);
             PotentialDamageReceived = list.Sum(x => x.PotentialDamageReceived);
             DamageBlockedByArmor = list.Sum(x => x.DamageBlockedByArmor); 
             IsPremium = false;

@@ -55,5 +55,12 @@ namespace WotDossier.Domain.Replay
         public int tmenXP { get; set; }
         [DataMember]
         public int xpPenalty { get; set; }
+
+        [DataMember]
+        public int stunNum { get; set; }
+
+        [DataMember]
+        public int damageAssistedStun { get; set; }
+        
     }
 }

@@ -414,6 +414,12 @@ namespace WotDossier.Applications.ViewModel.Rows
                 AverageBattleTime = new TimeSpan(0, 0, 0, tank.Common.battleLifeTime / Predicate(tank).battlesCount);
             }
             #endregion
+
+            #region [ IStatisticStun ]
+            BattlesOnStunningVehicles = Predicate(tank).battlesOnStunningVehicles;
+            StunNum = Predicate(tank).stunNum;
+            DamageAssistedStun = Predicate(tank).damageAssistedStun;
+            #endregion
         }
 
         public IEnumerable<FragsJson> TankFrags { get; set; }

@@ -34,6 +34,8 @@ namespace WotDossier.Domain.Interfaces
         int BattlesCount88 { get; set; }
         int BattlesCount90 { get; set; }
 
+        int BattlesOnStunningVehicles { get; set; }
+
         #endregion
 
         #region Damage
@@ -48,9 +50,15 @@ namespace WotDossier.Domain.Interfaces
         int DamageAssistedTrack { get; set; }
         int DamageAssistedRadio { get; set; }
 
+        int DamageAssistedStun { get; set; }
+
+        int StunNum { get; set; }
+
         double AvgDamageAssisted { get; }
         double AvgDamageAssistedRadio { get; }
         double AvgDamageAssistedTrack { get; }
+
+        double AvgDamageAssistedStun { get; }
         int DamageAssisted { get; }
 
         #endregion
