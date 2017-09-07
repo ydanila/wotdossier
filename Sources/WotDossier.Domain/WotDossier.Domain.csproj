@@ -41,9 +41,8 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -104,12 +103,13 @@
     <Compile Include="Dossier\TankV95\TankJson.cs" />
     <Compile Include="Dossier\TankV96\AchievementsFallout.cs" />
     <Compile Include="Dossier\TankV96\TankJson.cs" />
+    <Compile Include="Dossier\TankV97\StatisticJsonFort.cs" />
+    <Compile Include="Dossier\TankV97\StatisticJsonFortSortie.cs" />
     <Compile Include="Dossier\TankV97\TankJson.cs" />
     <Compile Include="Dossier\TankV98\AchievementsFort.cs" />
     <Compile Include="Dossier\TankV98\TankJson.cs" />
     <Compile Include="Dossier\TankV99\TankJson.cs" />
     <Compile Include="Entities\FavoritePlayerEntity.cs" />
-    <Compile Include="Entities\GeneralBattlesAchievementsEntity.cs" />
     <Compile Include="Entities\GeneralBattlesStatisticEntity.cs" />
     <Compile Include="Entities\IRevised.cs" />
     <Compile Include="Entities\RankedBattlesAchievementsEntity.cs" />
@@ -119,7 +119,6 @@
     <Compile Include="GameplayDescription.cs" />
     <Compile Include="Interfaces\IFortAchievements.cs" />
     <Compile Include="Interfaces\IClanBattlesAchievements.cs" />
-    <Compile Include="Interfaces\IGeneralBattlesAchievements.cs" />
     <Compile Include="Interfaces\IMapDescription.cs" />
     <Compile Include="Interfaces\IRandomBattlesAchievements.cs" />
     <Compile Include="Interfaces\IHistoricalBattlesAchievements.cs" />
@@ -261,7 +260,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

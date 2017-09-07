@@ -146,6 +146,10 @@ namespace WotDossier.Applications
                     {
                         JProperty property = (JProperty)jToken;
                         int version = property.Value["common"].ToObject<CommonJson>().basedonversion;
+	                    if (property.Value["common"].ToObject<CommonJson>().compactDescr == 8449)
+	                    {
+		                    int x = 0;
+	                    }
                         TankJson tank = DataMapper.Map(property.Value, version);
                         tank.Raw = CompressHelper.Compress(JsonConvert.SerializeObject(tank));
                         if (ExtendPropertiesData(tank))

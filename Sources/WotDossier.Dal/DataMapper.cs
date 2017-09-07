@@ -1903,17 +1903,17 @@ namespace WotDossier.Dal
         {
             var v2 = Map((TankJson94)tankJson);
 
-            v2.A15x15.battlesOnStunningVehicles = tankJson.A15x15.battlesOnStunningVehicles;
-            v2.A15x15.stunNum = tankJson.A15x15.stunNum;
-            v2.A15x15.damageAssistedStun = tankJson.A15x15.damageAssistedStun;
+            v2.A15x15.battlesOnStunningVehicles = tankJson.A15x15_2.battlesOnStunningVehicles;
+            v2.A15x15.stunNum = tankJson.A15x15_2.stunNum;
+            v2.A15x15.damageAssistedStun = tankJson.A15x15_2.damageAssistedStun;
 
-            v2.Clan.battlesOnStunningVehicles = tankJson.Clan.battlesOnStunningVehicles;
-            v2.Clan.stunNum = tankJson.Clan.stunNum;
-            v2.Clan.damageAssistedStun = tankJson.Clan.damageAssistedStun;
+            v2.Clan.battlesOnStunningVehicles = tankJson.Clan2.battlesOnStunningVehicles;
+            v2.Clan.stunNum = tankJson.Clan2.stunNum;
+            v2.Clan.damageAssistedStun = tankJson.Clan2.damageAssistedStun;
 
-            v2.Company.battlesOnStunningVehicles = tankJson.Company.battlesOnStunningVehicles;
-            v2.Company.stunNum = tankJson.Company.stunNum;
-            v2.Company.damageAssistedStun = tankJson.Company.damageAssistedStun;
+            v2.Company.battlesOnStunningVehicles = tankJson.Company2.battlesOnStunningVehicles;
+            v2.Company.stunNum = tankJson.Company2.stunNum;
+            v2.Company.damageAssistedStun = tankJson.Company2.damageAssistedStun;
 
             v2.A7x7.battlesOnStunningVehicles = tankJson.A7x7.battlesOnStunningVehicles;
             v2.A7x7.stunNum = tankJson.A7x7.stunNum;

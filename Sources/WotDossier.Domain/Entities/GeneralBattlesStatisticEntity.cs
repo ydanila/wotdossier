@@ -9,10 +9,10 @@ namespace WotDossier.Domain.Entities
     [DataContract]
     public class GeneralBattlesStatisticEntity : StatisticEntity
     {
-        /// <summary>
-        ///     Gets/Sets the <see cref="GeneralBattlesAchievementsEntity" /> object.
-        /// </summary>
-        [DataMember(Name = "Achievements")]
-        public virtual GeneralBattlesAchievementsEntity AchievementsIdObject { get; set; }
+		/// <summary>
+		///     Gets/Sets the <see cref="RandomBattlesAchievementsEntity" /> object.
+		/// </summary>
+		[DataMember(Name = "Achievements")]
+        public virtual RandomBattlesAchievementsEntity AchievementsIdObject { get; set; }
     }
 }

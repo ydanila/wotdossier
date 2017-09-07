@@ -8,9 +8,18 @@ namespace WotDossier.Domain.Dossier.TankV89
 {
     public class TankJson89 : TankJson88
     {
-        #region Achievements
-        public new AchievementsSingle89 SingleAchievements { get; set; } = new AchievementsSingle89();
+	    public TankJson89()
+	    {
+		    SingleAchievements = new AchievementsSingle89();
+	    }
+		#region Achievements
 
-        #endregion
-    }
+		public new AchievementsSingle89 SingleAchievements
+	    {
+		    get => (AchievementsSingle89)base.SingleAchievements;
+		    set => base.SingleAchievements = value;
+	    }
+
+		#endregion
+	}
 }

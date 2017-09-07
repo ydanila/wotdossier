@@ -7,12 +7,26 @@ namespace WotDossier.Domain.Dossier.TankV87
     /*0.9.2*/
     public class TankJson87 : TankJson85
     {
-        #region Achievements
+	    public TankJson87()
+	    {
+		    Achievements = new Achievements_87();
+		    FortAchievements = new AchievementsFort_87();
+		}
 
-        public new Achievements_87 Achievements { get; set; } = new Achievements_87();
+	    #region Achievements
 
-        public new AchievementsFort_87 FortAchievements { get; set; } = new AchievementsFort_87();
+	    public new Achievements_87 Achievements
+	    {
+		    get => (Achievements_87)base.Achievements;
+		    set => base.Achievements = value;
+	    }
 
-        #endregion
+	    public new AchievementsFort_87 FortAchievements
+	    {
+		    get => (AchievementsFort_87) base.FortAchievements;
+		    set => base.FortAchievements = value;
+	    }
+
+	    #endregion
     }
 }

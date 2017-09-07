@@ -15,10 +15,18 @@ namespace WotDossier.Domain.Dossier.TankV98
     /// </summary>
     public class TankJson98 : TankJson97
     {
-        #region Achievements
+	    public TankJson98()
+	    {
+		    FortAchievements = new AchievementsFort98();
+	    }
+		#region Achievements
 
-        public new AchievementsFort98 FortAchievements { get; set; } = new AchievementsFort98();
+		public new AchievementsFort98 FortAchievements
+		{
+		    get => (AchievementsFort98)base.FortAchievements;
+		    set => base.FortAchievements = value;
+	    }
 
-        #endregion
-    }
+		#endregion
+	}
 }

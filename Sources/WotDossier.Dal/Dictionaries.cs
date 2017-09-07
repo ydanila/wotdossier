@@ -399,10 +399,12 @@ namespace WotDossier.Dal
         private TankDescription TankDescriptionByIconId(Version clientVersion, string iconId)
         {
             TankDescription tankDescription = null;
-            if (Icons.ContainsKey(iconId))
+	        if (!Icons.TryGetValue(iconId, out var tankIcon))
+	        {
+		        tankIcon = Icons.Values.FirstOrDefault(p => p.IconKey == iconId);
+	        }
+            if (tankIcon != null)
             {
-                TankIcon tankIcon = Icons[iconId];
-
                 if (IconTanks.ContainsKey(tankIcon))
                 {
                     tankDescription = IconTanks[tankIcon];
