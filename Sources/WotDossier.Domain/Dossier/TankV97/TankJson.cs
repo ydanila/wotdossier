@@ -14,13 +14,27 @@ namespace WotDossier.Domain.Dossier.TankV97
     /// </summary>
     public class TankJson97 : TankJson96
     {
-        public StatisticJson95 Ranked { get; set; } = new StatisticJson95();
+	    public TankJson97()
+	    {
+		    FortBattles = new StatisticJsonFort97();
+		    FortSorties = new StatisticJsonFortSortie97();
+	    }
+
+		public StatisticJson95 Ranked { get; set; } = new StatisticJson95();
 
         public MaxJson77 MaxRanked { get; set; } = new MaxJson77();
 
-        public new StatisticJson95 FortBattles { get; set; } = new StatisticJson95();
+        public new StatisticJsonFort97 FortBattles
+	    {
+		    get => (StatisticJsonFort97)base.FortBattles;
+		    set => base.FortBattles = value;
+	    }
 
-        public new StatisticJson95 FortSorties { get; set; } = new StatisticJson95();
+	    public new StatisticJsonFortSortie97 FortSorties
+	    {
+		    get => (StatisticJsonFortSortie97)base.FortSorties;
+		    set => base.FortSorties = value;
+	    }
 
-    }
+	}
 }

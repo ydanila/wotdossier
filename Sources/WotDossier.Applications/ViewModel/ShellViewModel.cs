@@ -427,6 +427,10 @@ namespace WotDossier.Applications.ViewModel
             {
                 exportInterfaces.Add(typeof (ITeamBattlesAchievements));
             }
+            if (BattleModeSelector.BattleMode == BattleMode.GrandBattle)
+            {
+                exportInterfaces.Add(typeof(IRandomBattlesAchievements));
+            }
             SaveAsCsv(provider.Export(_tanks, exportInterfaces));
         }
 

@@ -13,7 +13,7 @@ namespace WotDossier.Applications.Logic.Adapter
         /// <summary>
         /// Initializes a new instance of the <see cref="T:System.Object"/> class.
         /// </summary>
-        public FortSortiesStatAdapter(List<TankJson> tanks) : base(tanks, tank => tank.FortSorties ?? new StatisticJson())
+        public FortSortiesStatAdapter(List<TankJson> tanks) : base(tanks)
         {
             var achievementsFort = new AchievementsFort();
             Func<TankJson, AchievementsFort> fortAchievementsPredicate = tankJson => tankJson.FortAchievements ?? achievementsFort;
@@ -51,6 +51,11 @@ namespace WotDossier.Applications.Logic.Adapter
             }
 
             Mapper.Map<IFortAchievements>(this, entity.AchievementsIdObject);
+        }
+
+        public override Func<TankJson, StatisticJson> Predicate
+        {
+            get { return tank => tank.FortSorties ?? new StatisticJson(); }
         }
     }
 }

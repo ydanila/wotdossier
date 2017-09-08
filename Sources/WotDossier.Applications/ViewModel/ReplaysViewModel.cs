@@ -603,7 +603,7 @@ namespace WotDossier.Applications.ViewModel
         {
             var path = ReplaysCacheFilePath();
             
-            using (var stream = File.Open(path, FileMode.Create, FileAccess.Read))
+            using (var stream = File.Open(path, FileMode.Create, FileAccess.Write))
             {
                 Serializer.Serialize(stream, replays);
             }

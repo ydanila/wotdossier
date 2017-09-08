@@ -13,9 +13,9 @@ namespace WotDossier.Domain.Dossier.TankV96
     /// </summary>
     public class TankJson96 : TankJson95
     {
-        #region Achievements
+		#region Achievements
 
-        public new AchievementsFallout96 FalloutAchievements { get; set; } = new AchievementsFallout96();
+		public AchievementsFallout96 FalloutAchievements { get; set; } = new AchievementsFallout96();
 
         #endregion
     }

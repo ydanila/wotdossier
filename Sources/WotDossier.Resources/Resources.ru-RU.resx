@@ -3619,4 +3619,10 @@
   <data name="Country_Poland" xml:space="preserve">
     <value>Польша</value>
   </data>
+  <data name="BattleType_GrandBattle" xml:space="preserve">
+    <value>Генеральное сражение</value>
+  </data>
+  <data name="BattleMode_GrandBattle" xml:space="preserve">
+    <value>Генеральное сражение</value>
+  </data>
 </root>

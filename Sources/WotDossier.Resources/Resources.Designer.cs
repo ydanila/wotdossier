@@ -1619,6 +1619,15 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Grand Battle.
+        /// </summary>
+        public static string BattleMode_GrandBattle {
+            get {
+                return ResourceManager.GetString("BattleMode_GrandBattle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Historical Battle.
         /// </summary>
         public static string BattleMode_HistoricalBattle {
@@ -1768,6 +1777,15 @@ namespace WotDossier.Resources {
         public static string BattleType_FortBattles {
             get {
                 return ResourceManager.GetString("BattleType_FortBattles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grand Battle.
+        /// </summary>
+        public static string BattleType_GrandBattle {
+            get {
+                return ResourceManager.GetString("BattleType_GrandBattle", resourceCulture);
             }
         }
         

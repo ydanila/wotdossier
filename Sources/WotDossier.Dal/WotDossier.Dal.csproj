@@ -59,9 +59,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Iesi.Collections.4.0.1.4000\lib\net40\Iesi.Collections.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate, Version=4.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <HintPath>..\packages\NHibernate.4.1.1.4000\lib\net40\NHibernate.dll</HintPath>
@@ -99,14 +98,13 @@
     <Compile Include="JsonCreationConverter.cs" />
     <Compile Include="MapConfigConverter.cs" />
     <Compile Include="Mappings\ClassMapBase.cs" />
-    <Compile Include="Mappings\GeneralBattlesAchievementsEntity.cs" />
-    <Compile Include="Mappings\GeneralBattlesStatisticMapping.cs" />
+    <Compile Include="Mappings\GrandBattleBattlesStatisticMapping.cs" />
     <Compile Include="Mappings\RankedBattlesAchievementsEntityMapping.cs" />
     <Compile Include="Mappings\RankedBattlesStatisticMapping.cs" />
     <Compile Include="Mappings\TankEntityMapping.cs" />
     <Compile Include="Mappings\RandomBattlesAchievementsEntityMapping.cs" />
     <Compile Include="Mappings\StatisticClassMapBase.cs" />
-    <Compile Include="Mappings\TankGeneralBattlesStatisticEntityMapping.cs" />
+    <Compile Include="Mappings\TankGrandBattleBattlesStatisticEntityMapping.cs" />
     <Compile Include="Mappings\TankRandomBattlesStatisticEntityMapping.cs" />
     <Compile Include="Mappings\TankRankedBattlesStatisticEntity.cs" />
     <Compile Include="Mappings\TankTeamBattleStatisticEntityMapping.cs" />

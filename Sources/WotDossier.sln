@@ -57,8 +57,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tools", ".tools", "{3BA1A1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External projects", "External projects", "{25C628B0-39A0-4732-A640-6B44FFF007F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WotDataLib", "..\..\wotdatalib\WotDataLib.csproj", "{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}"
-EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WotDossier.Setup", "WotDossier.Setup\WotDossier.Setup.vdproj", "{97CC652B-D314-4910-A543-CBC455F0C4E2}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WotDossier.Python.Utils", "WotDossier.Python.Utils\WotDossier.Python.Utils.pyproj", "{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}"
@@ -420,36 +418,6 @@ Global
 		{723973C8-E27A-422D-A178-73058BB42059}.TournamentStat|Mixed Platforms.Build.0 = TournamentStat|Any CPU
 		{723973C8-E27A-422D-A178-73058BB42059}.TournamentStat|x86.ActiveCfg = TournamentStat|Any CPU
 		{723973C8-E27A-422D-A178-73058BB42059}.TournamentStat|x86.Build.0 = TournamentStat|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Debug|x86.Build.0 = Debug|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Full|Any CPU.ActiveCfg = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Full|Any CPU.Build.0 = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Full|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Full|Mixed Platforms.Build.0 = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Full|x86.ActiveCfg = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Full|x86.Build.0 = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Lite|Any CPU.ActiveCfg = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Lite|Any CPU.Build.0 = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Lite|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Lite|Mixed Platforms.Build.0 = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Lite|x86.ActiveCfg = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Lite|x86.Build.0 = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Release|x86.ActiveCfg = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.Release|x86.Build.0 = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.TournamentStat|Any CPU.ActiveCfg = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.TournamentStat|Any CPU.Build.0 = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.TournamentStat|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.TournamentStat|Mixed Platforms.Build.0 = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.TournamentStat|x86.ActiveCfg = Release|Any CPU
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E}.TournamentStat|x86.Build.0 = Release|Any CPU
 		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Debug|Any CPU.ActiveCfg = Debug
 		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Debug|Any CPU.Build.0 = Debug
 		{97CC652B-D314-4910-A543-CBC455F0C4E2}.Debug|Mixed Platforms.ActiveCfg = Debug
@@ -498,9 +466,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{77E86E2B-89DF-43D2-8EFA-6ECCD961465E} = {25C628B0-39A0-4732-A640-6B44FFF007F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B36B677-423E-48BA-8D46-CBC86898B099}

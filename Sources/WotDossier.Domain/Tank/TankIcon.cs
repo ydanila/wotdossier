@@ -10,18 +10,17 @@ namespace WotDossier.Domain.Tank
         /// <summary>
         /// Gets the icon id.
         /// </summary>
-        public string IconId
-        {
-            get
-            {
-                return string.Format("{0}-{1}", CountryId.ToString().ToLower(), Icon);
-            }
-        }
+        public string IconId => $"{CountryId.ToString().ToLower()}-{Icon}";
 
-        /// <summary>
-        /// Gets or sets the country id.
-        /// </summary>
-        [DataMember(Name = "countryid")]
+	    /// <summary>
+	    /// Gets the icon Key.
+	    /// </summary>
+	    public string IconKey => $"{CountryId.ToString().ToLower()}_{Icon.ToLower().Replace("-", "_")}";
+
+	    /// <summary>
+		/// Gets or sets the country id.
+		/// </summary>
+		[DataMember(Name = "countryid")]
         public Country CountryId { get; set; }
 
         /// <summary>

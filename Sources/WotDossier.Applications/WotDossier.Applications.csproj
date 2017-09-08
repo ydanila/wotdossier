@@ -64,9 +64,8 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
-    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Ookii.Dialogs.Wpf">
       <HintPath>..\packages\Ookii.Dialogs.1.0\lib\net35\Ookii.Dialogs.Wpf.dll</HintPath>
@@ -102,6 +101,7 @@
     <Compile Include="BattleModeStrategies\FortBattlesStatisticViewStrategy.cs" />
     <Compile Include="BattleModeStrategies\HistoricalStatisticViewStrategy.cs" />
     <Compile Include="BattleModeStrategies\ClanStatisticViewStrategy.cs" />
+    <Compile Include="BattleModeStrategies\GrandBattleStatisticViewStrategy.cs" />
     <Compile Include="BattleModeStrategies\RandomStatisticViewStrategy.cs" />
     <Compile Include="BattleModeStrategies\StatisticViewStrategyBase.cs" />
     <Compile Include="BattleModeStrategies\StatisticViewStrategyManager.cs" />
@@ -118,6 +118,7 @@
     <Compile Include="Logic\Adapter\FortSortiesStatAdapter.cs" />
     <Compile Include="Logic\Adapter\FortBattlesStatAdapter.cs" />
     <Compile Include="Logic\Adapter\ClanBattlesStatAdapter.cs" />
+    <Compile Include="Logic\Adapter\GrandBattleBattlesStatAdapter.cs" />
     <Compile Include="Logic\Constants.cs" />
     <Compile Include="Logic\Mapper.cs" />
     <Compile Include="Logic\Rating.cs" />
@@ -216,7 +217,8 @@
     <Compile Include="ViewModel\Replay\UploadReplayViewModel.cs" />
     <Compile Include="ViewModel\Rows\ITankStatisticRow.cs" />
     <Compile Include="ViewModel\Rows\ClanTankStatisticRowViewModel.cs" />
-    <Compile Include="ViewModel\Rows\RandomBattlesTankStatisticRowViewModell.cs" />
+    <Compile Include="ViewModel\Rows\GrandBattleBattlesTankStatisticRowViewModel.cs" />
+    <Compile Include="ViewModel\Rows\RandomBattlesTankStatisticRowViewModel.cs" />
     <Compile Include="ViewModel\Rows\TankStatisticRowViewModelBase.cs" />
     <Compile Include="ViewModel\Rows\TeamBattlesTankStatisticRowViewModel.cs">
       <SubType>Code</SubType>
@@ -237,6 +239,7 @@
     <Compile Include="ViewModel\Statistic\PeriodStatisticViewModel.cs" />
     <Compile Include="ViewModel\Statistic\PlayerStatisticViewModel.cs" />
     <Compile Include="ViewModel\Statistic\FortBattlesPlayerStatisticViewModel.cs" />
+    <Compile Include="ViewModel\Statistic\GrandBattleBattlesPlayerStatisticViewModel.cs" />
     <Compile Include="ViewModel\Statistic\RandomBattlesPlayerStatisticViewModel.cs" />
     <Compile Include="ViewModel\Statistic\StatisticViewModelBase.Achievements.cs" />
     <Compile Include="ViewModel\Statistic\StatisticViewModelBase.PeriodStatistic.cs" />
