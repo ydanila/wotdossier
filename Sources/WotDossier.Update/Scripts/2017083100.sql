@@ -62,7 +62,7 @@ CREATE TABLE RankedBattlesStatistic (
     REFERENCES Player(Id)
 );
 
-CREATE TABLE TankGrandBattleBattlesStatistic (
+CREATE TABLE TankGeneralBattlesStatistic (
   Id            integer NOT NULL PRIMARY KEY,
   UId           nvarchar(36),
   TankId        int NOT NULL,
@@ -78,7 +78,7 @@ CREATE TABLE TankGrandBattleBattlesStatistic (
     REFERENCES Tank(Id)
 );
 
-CREATE TABLE GrandBattleBattlesStatistic (
+CREATE TABLE GeneralBattlesStatistic (
   Id                    integer NOT NULL PRIMARY KEY,
   UId                   nvarchar(36),
   PlayerId              int NOT NULL,
@@ -127,7 +127,7 @@ ALTER TABLE [TeamBattlesStatistic] ADD [BattlesOnStunningVehicles] int NOT NULL 
 
 ALTER TABLE [RankedBattlesStatistic] ADD [BattlesOnStunningVehicles] int NOT NULL default(0);
 
-ALTER TABLE [GrandBattleBattlesStatistic] ADD [BattlesOnStunningVehicles] int NOT NULL default(0);
+ALTER TABLE [GeneralBattlesStatistic] ADD [BattlesOnStunningVehicles] int NOT NULL default(0);
 
 ALTER TABLE [HistoricalBattlesStatistic] ADD [StunNum] int NOT NULL default(0);
 
@@ -137,7 +137,7 @@ ALTER TABLE [TeamBattlesStatistic] ADD [StunNum] int NOT NULL default(0);
 
 ALTER TABLE [RankedBattlesStatistic] ADD [StunNum] int NOT NULL default(0);
 
-ALTER TABLE [GrandBattleBattlesStatistic] ADD [StunNum] int NOT NULL default(0);
+ALTER TABLE [GeneralBattlesStatistic] ADD [StunNum] int NOT NULL default(0);
 
 ALTER TABLE [HistoricalBattlesStatistic] ADD [DamageAssistedStun] int NOT NULL default(0);
 
@@ -147,6 +147,6 @@ ALTER TABLE [TeamBattlesStatistic] ADD [DamageAssistedStun] int NOT NULL default
 
 ALTER TABLE [RankedBattlesStatistic] ADD [DamageAssistedStun] int NOT NULL default(0);
 
-ALTER TABLE [GrandBattleBattlesStatistic] ADD [DamageAssistedStun] int NOT NULL default(0);
+ALTER TABLE [GeneralBattlesStatistic] ADD [DamageAssistedStun] int NOT NULL default(0);
 
 ALTER TABLE [RandomBattlesAchievements] ADD [Aimer] int NOT NULL default(0);
