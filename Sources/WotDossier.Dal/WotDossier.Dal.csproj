@@ -98,13 +98,13 @@
     <Compile Include="JsonCreationConverter.cs" />
     <Compile Include="MapConfigConverter.cs" />
     <Compile Include="Mappings\ClassMapBase.cs" />
-    <Compile Include="Mappings\GeneralBattlesStatisticMapping.cs" />
+    <Compile Include="Mappings\GrandBattleBattlesStatisticMapping.cs" />
     <Compile Include="Mappings\RankedBattlesAchievementsEntityMapping.cs" />
     <Compile Include="Mappings\RankedBattlesStatisticMapping.cs" />
     <Compile Include="Mappings\TankEntityMapping.cs" />
     <Compile Include="Mappings\RandomBattlesAchievementsEntityMapping.cs" />
     <Compile Include="Mappings\StatisticClassMapBase.cs" />
-    <Compile Include="Mappings\TankGeneralBattlesStatisticEntityMapping.cs" />
+    <Compile Include="Mappings\TankGrandBattleBattlesStatisticEntityMapping.cs" />
     <Compile Include="Mappings\TankRandomBattlesStatisticEntityMapping.cs" />
     <Compile Include="Mappings\TankRankedBattlesStatisticEntity.cs" />
     <Compile Include="Mappings\TankTeamBattleStatisticEntityMapping.cs" />
