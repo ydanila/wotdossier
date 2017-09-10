@@ -293,11 +293,15 @@
                     <Grid.RowDefinitions>
                         <RowDefinition></RowDefinition>
                         <RowDefinition></RowDefinition>
+                        <RowDefinition Height=""></RowDefinition>
                     </Grid.RowDefinitions>
                     <controls:TextWithImage Text="{Binding TotalCredits, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='N0'}"
-                                            Source="pack://application:,,,/WotDossier.Resources;component/Images/Replays/CreditsIcon_Large.png" FontSize="30" Foreground="White" HorizontalAlignment="Right" />
+                                            Source="pack://application:,,,/WotDossier.Resources;component/Images/Replays/CreditsIconBig-1.png" FontSize="30" Foreground="White" HorizontalAlignment="Right" />
                     <controls:TextWithImage Grid.Row="1" Text="{Binding TotalXp, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='N0'}"
                                             Source="pack://application:,,,/WotDossier.Resources;component/Images/Replays/XpIcon_Large.png" FontSize="30" Foreground="White" HorizontalAlignment="Right" />
+                    <controls:TextWithImage Grid.Row="2" Text="{Binding Crystal, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='N0'}"
+                                            Source="pack://application:,,,/WotDossier.Resources;component/Images/Replays/CrystalIconBig-1.png" FontSize="30" Foreground="White" HorizontalAlignment="Right" />
+
                 </Grid>
                 <ListBox Grid.Column="2" Background="Transparent" ItemsSource="{Binding BattleMedals}" BorderThickness="0" Padding="0" Margin="0" Height="94" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
                     <ItemsControl.ItemsPanel>

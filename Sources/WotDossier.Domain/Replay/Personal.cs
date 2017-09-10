@@ -62,5 +62,17 @@ namespace WotDossier.Domain.Replay
         [DataMember]
         public int damageAssistedStun { get; set; }
         
+        [DataMember]
+        public int originalCrystal { get; set; }
+        
+        [DataMember]
+        public int crystal { get; set; }
+        
+        [DataMember]
+        public int subtotalCrystal { get; set; }
+        
+        [DataMember]
+        public int eventCrystal { get; set; }
+        
     }
 }

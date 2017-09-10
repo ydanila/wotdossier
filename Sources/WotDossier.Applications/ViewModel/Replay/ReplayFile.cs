@@ -24,6 +24,7 @@ namespace WotDossier.Applications.ViewModel.Replay
         public static readonly string PropDamageDealt = TypeHelper<ReplayFile>.PropertyName(v => v.DamageDealt);
         public static readonly string PropDamaged = TypeHelper<ReplayFile>.PropertyName(v => v.Damaged);
         public static readonly string PropCredits = TypeHelper<ReplayFile>.PropertyName(v => v.Credits);
+        public static readonly string PropCrystal = TypeHelper<ReplayFile>.PropertyName(v => v.Crystal);
         public static readonly string PropKilled = TypeHelper<ReplayFile>.PropertyName(v => v.Killed);
         public static readonly string PropXp = TypeHelper<ReplayFile>.PropertyName(v => v.Xp);
 
@@ -51,6 +52,7 @@ namespace WotDossier.Applications.ViewModel.Replay
         public string Comment { get; set; }
         public Country CountryId { get; set; }
         public int Credits { get; set; }
+        public int Crystal { get; set; }
         public int CreditsEarned { get; set; }
         public int DamageAssisted { get; set; }
         public int DamageDealt { get; set; }
@@ -242,6 +244,7 @@ namespace WotDossier.Applications.ViewModel.Replay
 
                     Credits = replay.datablock_battle_result.personal.credits;
                     CreditsEarned = Credits - autoRepairCost - autoLoadCost - autoEquipCost;
+                    Crystal = replay.datablock_battle_result.personal.crystal;
                     DamageDealt = replay.datablock_battle_result.personal.damageDealt;
                     DamageReceived = replay.datablock_battle_result.personal.damageReceived;
                     IsWinner = GetBattleStatus(replay);

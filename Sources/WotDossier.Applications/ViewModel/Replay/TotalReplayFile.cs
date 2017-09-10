@@ -23,6 +23,7 @@ namespace WotDossier.Applications.ViewModel.Replay
             if (replayFiles.Any())
             {
                 Credits = (int)replayFiles.Average(x => x.Credits);
+                Crystal = (int)replayFiles.Average(x => x.Crystal);
                 DamageDealt = (int)replayFiles.Average(x => x.DamageDealt);
                 DamageReceived = (int)replayFiles.Average(x => x.DamageReceived);
                 Xp = (int)replayFiles.Average(x => x.Xp);
@@ -94,5 +95,7 @@ namespace WotDossier.Applications.ViewModel.Replay
         public Guid FolderId { get; set; }
 
         public string PlayerName { get; set; }
+        
+        public int Crystal { get; set; }
     }
 }

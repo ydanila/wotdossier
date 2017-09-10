@@ -12,7 +12,7 @@ using WotDossier.Domain.Tank;
 
 namespace WotDossier.Applications.Logic.Adapter
 {
-    public class GrandBattleBattlesStatAdapter : RandomBattlesStatAdapter, IRandomBattlesAchievements
+    public class GrandBattleBattlesStatAdapter : RandomBattlesStatAdapterBase<GrandBattleBattlesStatisticEntity>
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="T:System.Object"/> class.
@@ -25,11 +25,6 @@ namespace WotDossier.Applications.Logic.Adapter
         public GrandBattleBattlesStatAdapter(Player stat) : base(stat)
         {
             
-        }
-
-        public override void Update(RandomBattlesStatisticEntity entity)
-        {
-            base.Update(entity);
         }
 
         public override Func<TankJson, StatisticJson> Predicate

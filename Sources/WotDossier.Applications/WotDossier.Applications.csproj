@@ -119,6 +119,7 @@
     <Compile Include="Logic\Adapter\FortBattlesStatAdapter.cs" />
     <Compile Include="Logic\Adapter\ClanBattlesStatAdapter.cs" />
     <Compile Include="Logic\Adapter\GrandBattleBattlesStatAdapter.cs" />
+    <Compile Include="Logic\Adapter\RandomBattlesStatAdapterBase.cs" />
     <Compile Include="Logic\Constants.cs" />
     <Compile Include="Logic\Mapper.cs" />
     <Compile Include="Logic\Rating.cs" />

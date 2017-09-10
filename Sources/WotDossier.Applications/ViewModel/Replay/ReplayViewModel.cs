@@ -134,6 +134,7 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int BaseTotalXp { get; set; }
         public int TotalXp { get; set; }
         public int TotalCredits { get; set; }
+        public int Crystal { get; set; }
 
         public int Xp { get; set; }
 
@@ -389,6 +390,7 @@ namespace WotDossier.Applications.ViewModel.Replay
                 int premiumCreditsPenalty = (int)Math.Round(creditsPenalty * premiumFactor, 0);
 
                 TotalCredits = replay.datablock_battle_result.personal.credits;
+                Crystal = replay.datablock_battle_result.personal.crystal;
                 TotalXp = replay.datablock_battle_result.personal.xp;
 
                 IsPremium = replay.datablock_battle_result.personal.isPremium;

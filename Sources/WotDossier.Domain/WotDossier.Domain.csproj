@@ -164,6 +164,7 @@
     <Compile Include="MedalGroup.cs" />
     <Compile Include="Rating\WN8Type.cs" />
     <Compile Include="Replay\AdvancedReplayData.cs" />
+    <Compile Include="Replay\Avatar.cs" />
     <Compile Include="Replay\BattleInfo.cs" />
     <Compile Include="Replay\BattleResult98.cs" />
     <Compile Include="Replay\BattleResult.cs" />
@@ -180,6 +181,7 @@
     <Compile Include="Replay\Player.cs" />
     <Compile Include="Replay\Replay.cs" />
     <Compile Include="Replay\ReplayIdentify.cs" />
+    <Compile Include="Replay\ResultBase.cs" />
     <Compile Include="Replay\Slot.cs" />
     <Compile Include="Replay\SlotItem.cs" />
     <Compile Include="Replay\StatBase.cs" />

@@ -3207,6 +3207,15 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Credits.
+        /// </summary>
+        public static string Column_Replay_Crystal {
+            get {
+                return ResourceManager.GetString("Column_Replay_Crystal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Earned.
         /// </summary>
         public static string Column_Replay_CreditsEarned {
@@ -8758,7 +8767,8 @@ namespace WotDossier.Resources {
         ///    • The player must cause more damage than the hit points of the player&apos;s vehicle, at least 1,000 hit points.
         ///    • The player must not hit any allies by direct shots.
         ///    • The achievement is only awarded once per battle.
-        ///    • Unavailable for SPGs.        /// [rest of string was truncated]&quot;;.
+        ///    • Unavailable for SPGs.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Tooltip_Achievements_15x15_Sniper2 {
             get {

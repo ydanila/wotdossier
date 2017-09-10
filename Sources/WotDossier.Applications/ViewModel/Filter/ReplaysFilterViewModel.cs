@@ -943,11 +943,12 @@ namespace WotDossier.Applications.ViewModel.Filter
 
             FilterFields = new List<ListItem<string>>
             {
-                new ListItem<string>(ReplayFile.PropCredits,Resources.Resources.Column_Replay_Credits), 
+                new ListItem<string>(ReplayFile.PropCredits,Resources.Resources.Column_Replay_Credits),
                 new ListItem<string>(ReplayFile.PropDamageDealt,Resources.Resources.Column_Replay_DamageDealt), 
                 new ListItem<string>(ReplayFile.PropXp,Resources.Resources.Column_Replay_XP), 
                 new ListItem<string>(ReplayFile.PropKilled,Resources.Resources.Column_Replay_Frags), 
-                new ListItem<string>(ReplayFile.PropDamaged,Resources.Resources.Column_Replay_Damaged), 
+                new ListItem<string>(ReplayFile.PropDamaged,Resources.Resources.Column_Replay_Damaged),
+                new ListItem<string>(ReplayFile.PropCrystal,Resources.Resources.Column_Replay_Crystal),
             };
 
             BattleResults = new List<ListItem<BattleStatus>>

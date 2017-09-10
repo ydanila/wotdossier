@@ -510,4 +510,19 @@
   <data name="r09_t_26_bot" xml:space="preserve">
     <value>Т-26</value>
   </data>
+  <data name="r146_stg" xml:space="preserve">
+    <value>СТГ</value>
+  </data>
+   <data name="r146_stg_tday" xml:space="preserve">
+    <value>Гвардеец</value>
+  </data>
+  <data name="r134_object_252u" xml:space="preserve">
+    <value>Об. 252У</value>
+  </data>
+  <data name="r134_object_252k" xml:space="preserve">
+    <value>Защитник</value>
+  </data>
+  <data name="R71_IS_2B" xml:space="preserve">
+    <value>ИС-2</value>
+  </data>
 </root>

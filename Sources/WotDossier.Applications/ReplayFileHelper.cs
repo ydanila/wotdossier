@@ -246,6 +246,7 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
                         replay.datablock_battle_result.common = battleResult.common;
                         replay.datablock_battle_result.players = battleResult.players;
                         replay.datablock_battle_result.personal = battleResult.personal.Values.First();
+                        replay.datablock_battle_result.avatar = battleResult.personal.Values.First();
                         replay.datablock_battle_result.vehicles = battleResult.vehicles.ToDictionary(x => x.Key, y => y.Value.First());
                     }
                     else
@@ -565,5 +566,42 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
     {
         public int Health { get; set; }
         public int Source { get; set; }
+    }
+
+    internal class PersonalConverter : JsonConverter
+    {
+        public override bool CanConvert(Type objectType)
+        {
+            return (objectType == typeof(ResultBase));
+        }
+
+        public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+        {
+            // Load the JSON for the Result into a JObject
+//            JObject jo = JObject.Load(reader);
+
+            // Read the properties which will be used as constructor parameters
+//            int? code = (int?)jo["Code"];
+//            string format = (string)jo["Format"];
+
+            // Construct the Result object using the non-default constructor
+//            Result result = new Result(code, format);
+
+            // (If anything else needs to be populated on the result object, do that here)
+
+            // Return the result
+//            return result;
+            return base.ReadJson(reader, objectType, existingValue, serializer);
+        }
+
+        public override bool CanWrite
+        {
+            get { return false; }
+        }
+
+        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

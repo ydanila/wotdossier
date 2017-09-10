@@ -817,7 +817,6 @@
     <Resource Include="Images\Replays\05s.png" />
     <Resource Include="Images\Replays\06s.png" />
     <Resource Include="Images\Replays\CreditsIcon-2.png" />
-    <Resource Include="Images\Replays\CreditsIcon_Large.png" />
     <Resource Include="Images\Replays\FinalStatistic_linedraw.png" />
     <Resource Include="Images\Replays\FinalStatistic_linelose.png" />
     <Resource Include="Images\Replays\FinalStatistic_linewin.png" />
@@ -1225,6 +1224,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Maps\Minimap\212_epic_random_valley.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Replays\CreditsIconBig-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Replays\CrystalIconBig-1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

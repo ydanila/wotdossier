@@ -1160,6 +1160,9 @@
   <data name="Column_Replay_Credits" xml:space="preserve">
     <value>Кредиты</value>
   </data>
+  <data name="Column_Replay_Crystal" xml:space="preserve">
+    <value>Боны</value>
+  </data>
   <data name="Column_Replay_Damaged" xml:space="preserve">
     <value>Повреждено</value>
   </data>
@@ -1821,6 +1824,9 @@
   </data>
   <data name="BattleType_Tutorial" xml:space="preserve">
     <value>Обучающий бой</value>
+  </data>
+  <data name="BattleType_Ctf30x30" xml:space="preserve">
+    <value>Генеральное сражение</value>
   </data>
   <data name="ChartLegend_AvgDamage" xml:space="preserve">
     <value>Средний урон</value>

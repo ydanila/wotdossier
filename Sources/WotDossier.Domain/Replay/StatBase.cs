@@ -3,7 +3,7 @@ using System.Runtime.Serialization;
 namespace WotDossier.Domain.Replay
 {
     [DataContract]
-    public class StatBase
+    public class StatBase : ResultBase
     {
         private int _damageAssisted;
         private int _heHits;
