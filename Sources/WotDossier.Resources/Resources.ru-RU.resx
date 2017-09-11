@@ -2016,6 +2016,9 @@
   <data name="Tooltip_Replay_Damage" xml:space="preserve">
     <value>Вы нанесли урона: {0}</value>
   </data>
+  <data name="Tooltip_Replay_AssistedStun" xml:space="preserve">
+    <value>Урон по оглушённым вами целям: {0}</value>
+  </data>
   <data name="Tooltip_Replay_Detected" xml:space="preserve">
     <value>Вы обнаружили этот танк противника</value>
   </data>
@@ -3630,5 +3633,8 @@
   </data>
   <data name="BattleMode_GrandBattle" xml:space="preserve">
     <value>Генеральное сражение</value>
+  </data>
+  <data name="Tooltip_Replay_DamageBlockedByArmor" xml:space="preserve">
+    <value>Урон заблокированный броней: {0}</value>
   </data>
 </root>

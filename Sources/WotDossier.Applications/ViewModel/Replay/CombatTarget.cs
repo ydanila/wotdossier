@@ -39,7 +39,11 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         public bool TeamMate { get; set; }
 
-        public CombatTarget(KeyValuePair<long, DamagedVehicle> vehicleDamage, TeamMember teamMember, Version version)
+	    public int NoDamageDirectHitsReceived { get; set; }
+
+	    public int DamageBlockedByArmor { get; set; }
+
+		public CombatTarget(KeyValuePair<long, DamagedVehicle> vehicleDamage, TeamMember teamMember, Version version)
         {
             TeamMember = teamMember;
 
@@ -58,7 +62,11 @@ namespace WotDossier.Applications.ViewModel.Replay
             StunNum = vehicleDamage.Value.stunNum;
             DamageAssistedStun = vehicleDamage.Value.damageAssistedStun;
             TeamMate = teamMember.TeamMate;
-        }
+	        StunNum = vehicleDamage.Value.stunNum;
+	        NoDamageDirectHitsReceived = vehicleDamage.Value.noDamageDirectHitsReceived;
+	        DamageBlockedByArmor = vehicleDamage.Value.damageBlockedByArmor;
+
+		}
 
         public List<CritDetails> CritsDetails { get; set; }
 

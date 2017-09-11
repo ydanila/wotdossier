@@ -6,6 +6,6 @@ namespace WotDossier.Domain.Replay
     public class Avatar : ResultBase
     {
         [DataMember]
-        private bool eligibleForCrystalRewards { get; set; }
+        public bool eligibleForCrystalRewards { get; set; }
     }
 }

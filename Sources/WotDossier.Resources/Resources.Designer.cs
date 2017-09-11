@@ -1745,6 +1745,15 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Grand Battle.
+        /// </summary>
+        public static string BattleType_Ctf30x30 {
+            get {
+                return ResourceManager.GetString("BattleType_Ctf30x30", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cyber Sport.
         /// </summary>
         public static string BattleType_CyberSport {
@@ -3207,20 +3216,20 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Credits.
-        /// </summary>
-        public static string Column_Replay_Crystal {
-            get {
-                return ResourceManager.GetString("Column_Replay_Crystal", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Earned.
         /// </summary>
         public static string Column_Replay_CreditsEarned {
             get {
                 return ResourceManager.GetString("Column_Replay_CreditsEarned", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Crystal.
+        /// </summary>
+        public static string Column_Replay_Crystal {
+            get {
+                return ResourceManager.GetString("Column_Replay_Crystal", resourceCulture);
             }
         }
         
@@ -8767,8 +8776,7 @@ namespace WotDossier.Resources {
         ///    • The player must cause more damage than the hit points of the player&apos;s vehicle, at least 1,000 hit points.
         ///    • The player must not hit any allies by direct shots.
         ///    • The achievement is only awarded once per battle.
-        ///    • Unavailable for SPGs.
-        /// [rest of string was truncated]&quot;;.
+        ///    • Unavailable for SPGs.        /// [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Tooltip_Achievements_15x15_Sniper2 {
             get {
@@ -9191,6 +9199,15 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Damage by your stun: {0}.
+        /// </summary>
+        public static string Tooltip_Replay_AssistedStun {
+            get {
+                return ResourceManager.GetString("Tooltip_Replay_AssistedStun", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Critical damage to enemy vehicle: {0}.
         /// </summary>
         public static string Tooltip_Replay_CriticalDamage {
@@ -9232,6 +9249,15 @@ namespace WotDossier.Resources {
         public static string Tooltip_Replay_DamageAssistedTrack {
             get {
                 return ResourceManager.GetString("Tooltip_Replay_DamageAssistedTrack", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Damage blocked by armor: {0}.
+        /// </summary>
+        public static string Tooltip_Replay_DamageBlockedByArmor {
+            get {
+                return ResourceManager.GetString("Tooltip_Replay_DamageBlockedByArmor", resourceCulture);
             }
         }
         

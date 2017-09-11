@@ -136,7 +136,9 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int TotalCredits { get; set; }
         public int Crystal { get; set; }
 
-        public int Xp { get; set; }
+		public bool EligibleForCrystalRewards { get; set; }
+
+		public int Xp { get; set; }
 
         public int PremiumTotalXp { get; set; }
         public int PremiumXp { get; set; }
@@ -391,7 +393,8 @@ namespace WotDossier.Applications.ViewModel.Replay
 
                 TotalCredits = replay.datablock_battle_result.personal.credits;
                 Crystal = replay.datablock_battle_result.personal.crystal;
-                TotalXp = replay.datablock_battle_result.personal.xp;
+				EligibleForCrystalRewards = replay.datablock_battle_result.avatar.eligibleForCrystalRewards;
+				TotalXp = replay.datablock_battle_result.personal.xp;
 
                 IsPremium = replay.datablock_battle_result.personal.isPremium;
                 IsBase = !IsPremium;

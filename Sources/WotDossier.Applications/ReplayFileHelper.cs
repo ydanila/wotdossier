@@ -240,14 +240,22 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
                 {
                     if (replay.datablock_1.Version >= _prevMinVersion)
                     {
-                        var battleResult = parsedData[0].ToObject<BattleResult98>();
+
+	                    JsonSerializerSettings settings = new JsonSerializerSettings();
+	                    settings.Converters.Add(new PersonalConverter());
+	                    var battleResult = parsedData[0].ToObject<BattleResult98>(JsonSerializer.CreateDefault(settings));
+						//var battleResult = parsedData[0].ToObject<BattleResult98>();
+
                         replay.datablock_battle_result = new BattleResult();
                         replay.datablock_battle_result.arenaUniqueID = battleResult.arenaUniqueID;
                         replay.datablock_battle_result.common = battleResult.common;
                         replay.datablock_battle_result.players = battleResult.players;
-                        replay.datablock_battle_result.personal = battleResult.personal.Values.First();
-                        replay.datablock_battle_result.avatar = battleResult.personal.Values.First();
-                        replay.datablock_battle_result.vehicles = battleResult.vehicles.ToDictionary(x => x.Key, y => y.Value.First());
+                        replay.datablock_battle_result.personal = battleResult.personal.Values.First() as Personal;
+						if(battleResult.personal.ContainsKey("avatar"))
+							replay.datablock_battle_result.avatar = battleResult.personal["avatar"] as Avatar;
+						else
+							replay.datablock_battle_result.avatar = new Avatar();
+						replay.datablock_battle_result.vehicles = battleResult.vehicles.ToDictionary(x => x.Key, y => y.Value.First());
                     }
                     else
                     {
@@ -578,21 +586,28 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
         {
             // Load the JSON for the Result into a JObject
-//            JObject jo = JObject.Load(reader);
+            JObject jo = JObject.Load(reader);
 
-            // Read the properties which will be used as constructor parameters
-//            int? code = (int?)jo["Code"];
-//            string format = (string)jo["Format"];
 
-            // Construct the Result object using the non-default constructor
-//            Result result = new Result(code, format);
+	        if (jo["autoLoadCost"] != null)
+		        return jo.ToObject<Personal>();
 
-            // (If anything else needs to be populated on the result object, do that here)
+	        if (jo["totalDamaged"] != null)
+		        return jo.ToObject<Avatar>();
+			// Read the properties which will be used as constructor parameters
+			//            int? code = (int?)jo["Code"];
+			//            string format = (string)jo["Format"];
 
-            // Return the result
-//            return result;
-            return base.ReadJson(reader, objectType, existingValue, serializer);
-        }
+			// Construct the Result object using the non-default constructor
+			//            Result result = new Result(code, format);
+
+			// (If anything else needs to be populated on the result object, do that here)
+
+			// Return the result
+			//            return result;
+			//return base.ReadJson(reader, objectType, existingValue, serializer);
+			return jo.ToObject<Avatar>();
+		}
 
         public override bool CanWrite
         {

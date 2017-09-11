@@ -11,7 +11,7 @@ namespace WotDossier.Domain.Replay
         [DataMember]
         public Common common { get; set; }
         [DataMember]
-        public Dictionary<string, Personal> personal { get; set; }
+        public Dictionary<string, ResultBase> personal { get; set; }
         [DataMember]
         public Dictionary<long, Player> players { get; set; }
         [DataMember]
