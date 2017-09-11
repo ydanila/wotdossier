@@ -219,6 +219,7 @@
     <Compile Include="Converters\Formater\NumberFormatConverter.cs" />
     <Compile Include="Converters\Image\AppLogoToImageConverter.cs" />
     <Compile Include="Converters\MedalsCountToOpacityConverter.cs" />
+    <Compile Include="Converters\ResourceMultiValueFormatConverter.cs" />
     <Compile Include="Converters\ResxTextConverter.cs" />
     <Compile Include="Converters\Formater\DateFormater.cs" />
     <Compile Include="Converters\Formater\Double2Formater.cs" />

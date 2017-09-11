@@ -128,6 +128,12 @@
     <Compile Include="..\WotDossier\Converters\BattleModeToVisibilityConverter.cs">
       <Link>Converters\BattleModeToVisibilityConverter.cs</Link>
     </Compile>
+    <Compile Include="..\WotDossier\Converters\BoolToRowHeightConverter.cs">
+      <Link>Converters\BoolToRowHeightConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\WotDossier\Converters\ResourceMultiValueFormatConverter.cs">
+      <Link>Converters\ResourceMultiValueFormatConverter.cs</Link>
+    </Compile>
     <Compile Include="..\WotDossier\Views\TankStatisticWindow.xaml.cs">
       <Link>Views\TankStatisticWindow.xaml.cs</Link>
     </Compile>

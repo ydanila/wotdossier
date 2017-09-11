@@ -3635,6 +3635,6 @@
     <value>Генеральное сражение</value>
   </data>
   <data name="Tooltip_Replay_DamageBlockedByArmor" xml:space="preserve">
-    <value>Урон заблокированный броней: {0}</value>
+    <value>Рикошетов: {0}, Непробитий: {1}, Заблокировано броней: {2}</value>
   </data>
 </root>

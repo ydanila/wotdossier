@@ -213,5 +213,8 @@ namespace WotDossier.Domain.Replay
 
         [DataMember]
         public double stunDuration { get; set; }
+
+        [DataMember]
+        public int rickochetsReceived { get; set; }
     }
 }

@@ -43,7 +43,9 @@ namespace WotDossier.Applications.ViewModel.Replay
 
 	    public int DamageBlockedByArmor { get; set; }
 
-		public CombatTarget(KeyValuePair<long, DamagedVehicle> vehicleDamage, TeamMember teamMember, Version version)
+        public int RickochetsReceived { get; set; }
+
+        public CombatTarget(KeyValuePair<long, DamagedVehicle> vehicleDamage, TeamMember teamMember, Version version)
         {
             TeamMember = teamMember;
 
@@ -65,8 +67,10 @@ namespace WotDossier.Applications.ViewModel.Replay
 	        StunNum = vehicleDamage.Value.stunNum;
 	        NoDamageDirectHitsReceived = vehicleDamage.Value.noDamageDirectHitsReceived;
 	        DamageBlockedByArmor = vehicleDamage.Value.damageBlockedByArmor;
+            RickochetsReceived = vehicleDamage.Value.rickochetsReceived;
 
-		}
+
+        }
 
         public List<CritDetails> CritsDetails { get; set; }
 

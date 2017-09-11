@@ -17,6 +17,7 @@
             <!-- These setters are the same as your normal style when none of your triggers are true -->
             <Setter Property="Opacity" Value="1" />
             <Setter Property="Source" Value="pack://application:,,,/WotDossier.Resources;component/Images/Replays/06s.png" />
+            <Setter Property="ToolTipService.IsEnabled" Value="{Binding Path=Killed}" />
             <Style.Triggers>
                 <DataTrigger Binding="{Binding Path=Killed}" Value="0">
                     <Setter Property="Opacity" Value="0.25" />
@@ -32,23 +33,26 @@
             <!-- These setters are the same as your normal style when none of your triggers are true -->
             <Setter Property="Opacity" Value="1" />
             <Setter Property="Source" Value="pack://application:,,,/WotDossier.Resources;component/Images/Replays/03s.png" />
+            <Setter Property="ToolTipService.IsEnabled" Value="{Binding Path=Hits}" />
             <Style.Triggers>
-                <DataTrigger Binding="{Binding Path=DamageDealt}" Value="0">
+                <DataTrigger Binding="{Binding Path=Hits}" Value="0">
                     <Setter Property="Opacity" Value="0.25" />
                 </DataTrigger>
             </Style.Triggers>
         </Style>
 
-        <!--damage icon-->
+        <!--Stun icon-->
         <Style TargetType="Image" x:Key="StunImageStyle">
             <!-- These setters are the same as your normal style when none of your triggers are true -->
             <Setter Property="Opacity" Value="1" />
             <Setter Property="Source" Value="pack://application:,,,/WotDossier.Resources;component/Images/Replays/08s.png" />
+            <Setter Property="ToolTipService.IsEnabled" Value="{Binding Path=StunNum}" />
             <Style.Triggers>
                 <DataTrigger Binding="{Binding Path=StunNum}" Value="0">
                     <Setter Property="Opacity" Value="0.25" />
                 </DataTrigger>
             </Style.Triggers>
+            
         </Style>
 
         <!--bloicked icon-->
@@ -56,6 +60,7 @@
             <!-- These setters are the same as your normal style when none of your triggers are true -->
             <Setter Property="Opacity" Value="1" />
             <Setter Property="Source" Value="pack://application:,,,/WotDossier.Resources;component/Images/Replays/blocked.jpg" />
+            <Setter Property="ToolTipService.IsEnabled" Value="{Binding Path=NoDamageDirectHitsReceived}" />
             <Style.Triggers>
                 <DataTrigger Binding="{Binding Path=NoDamageDirectHitsReceived}" Value="0">
                     <Setter Property="Opacity" Value="0.25" />
@@ -68,6 +73,7 @@
             <!-- These setters are the same as your normal style when none of your triggers are true -->
             <Setter Property="Opacity" Value="1" />
             <Setter Property="Source" Value="pack://application:,,,/WotDossier.Resources;component/Images/Replays/04s.png" />
+            <Setter Property="ToolTipService.IsEnabled" Value="{Binding Path=Crits}" />
             <Style.Triggers>
                 <DataTrigger Binding="{Binding Path=Crits}" Value="0">
                     <Setter Property="Opacity" Value="0.25" />
@@ -80,6 +86,7 @@
             <!-- These setters are the same as your normal style when none of your triggers are true -->
             <Setter Property="Opacity" Value="1" />
             <Setter Property="Source" Value="pack://application:,,,/WotDossier.Resources;component/Images/Replays/07s.png" />
+            <Setter Property="ToolTipService.IsEnabled" Value="{Binding Path=DamageAssisted}" />
             <Style.Triggers>
                 <DataTrigger Binding="{Binding Path=DamageAssisted}" Value="0">
                     <Setter Property="Opacity" Value="0.25" />
@@ -92,6 +99,7 @@
             <!-- These setters are the same as your normal style when none of your triggers are true -->
             <Setter Property="Opacity" Value="1" />
             <Setter Property="Source" Value="pack://application:,,,/WotDossier.Resources;component/Images/Replays/02s.png" />
+            <Setter Property="ToolTipService.IsEnabled" Value="{Binding Path=Spotted}" />
             <Style.Triggers>
                 <DataTrigger Binding="{Binding Path=Spotted}" Value="0">
                     <Setter Property="Opacity" Value="0.25" />
@@ -134,7 +142,7 @@
                 <!--Stuns-->
                 <Image Grid.Row="0" Grid.Column="2" Stretch="None" Style="{StaticResource StunImageStyle}" HorizontalAlignment="Left">
                     <Image.ToolTip>
-                        <TextBlock Text="{Binding StunNum, Converter={x:Static converters:ResourceFormatConverter.Default}, 
+                        <TextBlock Text="{Binding DamageAssistedStun, Converter={x:Static converters:ResourceFormatConverter.Default}, 
                                        ConverterParameter={x:Static resources:Resources.Tooltip_Replay_AssistedStun}}"></TextBlock>
                     </Image.ToolTip>
                 </Image>
@@ -196,16 +204,32 @@
                 <!--blocked-->
                 <Image Grid.Row="0" Grid.Column="5" Stretch="None" Style="{StaticResource BlockedImageStyle}" HorizontalAlignment="Left">
                     <Image.ToolTip>
-                        <TextBlock Text="{Binding NoDamageDirectHitsReceived, Converter={x:Static converters:ResourceFormatConverter.Default}, 
-                                       ConverterParameter={x:Static resources:Resources.Tooltip_Replay_Damage}}"></TextBlock>
+                        <TextBlock>
+                            <TextBlock.Text>
+                                <MultiBinding Converter="{x:Static converters:ResourceMultiValueFormatConverter.Default}"
+                                              ConverterParameter="{x:Static resources:Resources.Tooltip_Replay_DamageBlockedByArmor}">
+                                    <Binding Path="RickochetsReceived"/>
+                                    <Binding Path="NoDamageDirectHitsReceived"/>
+                                    <Binding Path="DamageBlockedByArmor"/>
+                                </MultiBinding>
+                            </TextBlock.Text>
+                        </TextBlock>
                     </Image.ToolTip>
                 </Image>
                 <Border Margin="0,18,5,0" Width="Auto" Grid.Row="0" Grid.Column="5" BorderThickness="1" BorderBrush="#2F2822" Background="#10100D" HorizontalAlignment="Right"
                         Visibility="{Binding NoDamageDirectHitsReceived, Converter={x:Static converters:IntToVisibilityConverter.Default}}">
                     <TextBlock Text="{Binding NoDamageDirectHitsReceived}" Foreground="White" FontSize="10">
                         <TextBlock.ToolTip>
-                            <TextBlock Text="{Binding DamageBlockedByArmor, Converter={x:Static converters:ResourceFormatConverter.Default}, 
-                                       ConverterParameter={x:Static resources:Resources.Tooltip_Replay_DamageBlockedByArmor}}"></TextBlock>
+                            <TextBlock>
+                                <TextBlock.Text>
+                                    <MultiBinding Converter="{x:Static converters:ResourceMultiValueFormatConverter.Default}"
+                                                  ConverterParameter="{x:Static resources:Resources.Tooltip_Replay_DamageBlockedByArmor}">
+                                        <Binding Path="RickochetsReceived"/>
+                                        <Binding Path="NoDamageDirectHitsReceived"/>
+                                        <Binding Path="DamageBlockedByArmor"/>
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
                         </TextBlock.ToolTip>
                     </TextBlock>
                 </Border>
@@ -241,7 +265,7 @@
                         </StackPanel>
                     </Image.ToolTip>
                 </Image>
-                <Border Margin="0,18,5,0" Width="Auto" Grid.Row="0" Grid.Column="4" BorderThickness="1" BorderBrush="#2F2822" Background="#10100D" HorizontalAlignment="Right"
+                <Border Margin="0,18,5,0" Width="Auto" Grid.Row="0" Grid.Column="6" BorderThickness="1" BorderBrush="#2F2822" Background="#10100D" HorizontalAlignment="Right"
                         Visibility="{Binding Crits, Converter={x:Static converters:IntToVisibilityConverter.Default}}">
                     <TextBlock Text="{Binding Crits}" Foreground="White" FontSize="10">
                         <TextBlock.ToolTip>

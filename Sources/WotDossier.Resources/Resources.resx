@@ -2003,13 +2003,13 @@ Date: {2:dd.MM.yyyy}</value>
     <value>Damage to enemy vehicle: {0}</value>
   </data>
   <data name="Tooltip_Replay_DamageBlockedByArmor" xml:space="preserve">
-    <value>Damage blocked by armor: {0}</value>
+    <value>Ricochets: {0}, Non-penetrations: {1}, Blocked by armor: {2}</value>
   </data>
   <data name="Tooltip_Replay_Detected" xml:space="preserve">
     <value>You detected this enemy vehicle</value>
   </data>
   <data name="Tooltip_Replay_AssistedStun" xml:space="preserve">
-    <value>Damage by your stun: {0}</value>
+    <value>Damage to Enemy Vehicles Stunned by You: {0}</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Total</value>

@@ -569,6 +569,9 @@
       <DependentUpon>TextWithImage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="..\WotDossier\Converters\BoolToRowHeightConverter.cs">
+      <Link>Converters\BoolToRowHeightConverter.cs</Link>
+    </Compile>
     <Compile Include="..\WotDossier\Converters\BoolToVisibilityConverter.cs">
       <Link>Converters\BoolToVisibilityConverter.cs</Link>
     </Compile>
@@ -685,6 +688,9 @@
     </Compile>
     <Compile Include="..\WotDossier\Converters\ResourceFormatConverter.cs">
       <Link>Converters\ResourceFormatConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\WotDossier\Converters\ResourceMultiValueFormatConverter.cs">
+      <Link>Converters\ResourceMultiValueFormatConverter.cs</Link>
     </Compile>
     <Compile Include="..\WotDossier\Converters\ResxTextConverter.cs">
       <Link>Converters\ResxTextConverter.cs</Link>

@@ -9199,7 +9199,7 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Damage by your stun: {0}.
+        ///   Looks up a localized string similar to Damage to Enemy Vehicles Stunned by You: {0}.
         /// </summary>
         public static string Tooltip_Replay_AssistedStun {
             get {
@@ -9253,7 +9253,7 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Damage blocked by armor: {0}.
+        ///   Looks up a localized string similar to Ricochets: {0}, Non-penetrations: {1}, Blocked by armor: {2}.
         /// </summary>
         public static string Tooltip_Replay_DamageBlockedByArmor {
             get {

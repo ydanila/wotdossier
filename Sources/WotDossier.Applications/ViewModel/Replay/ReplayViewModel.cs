@@ -151,6 +151,13 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         public DeathReason DeathReason { get; set; }
 
+        public int NoDamageDirectHitsReceived { get; set; }
+        public int RickochetsReceived { get; set; }
+
+        public int DamageAssistedStun { get; set; }
+
+        public int StunNum { get; set; }
+
         public List<ChatMessage> ChatMessages { get; set; }
 
         private List<DeviceDescription> _devices;
@@ -395,6 +402,11 @@ namespace WotDossier.Applications.ViewModel.Replay
                 Crystal = replay.datablock_battle_result.personal.crystal;
 				EligibleForCrystalRewards = replay.datablock_battle_result.avatar.eligibleForCrystalRewards;
 				TotalXp = replay.datablock_battle_result.personal.xp;
+
+                NoDamageDirectHitsReceived = replay.datablock_battle_result.personal.noDamageDirectHitsReceived;
+                RickochetsReceived = replay.datablock_battle_result.personal.rickochetsReceived;
+                DamageAssistedStun = replay.datablock_battle_result.personal.damageAssistedStun;
+                StunNum = replay.datablock_battle_result.personal.stunNum;
 
                 IsPremium = replay.datablock_battle_result.personal.isPremium;
                 IsBase = !IsPremium;
