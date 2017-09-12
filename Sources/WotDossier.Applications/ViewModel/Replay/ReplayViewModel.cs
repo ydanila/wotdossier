@@ -64,6 +64,8 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         public int HEHits { get; set; }
 
+        public int HEHitsReceived { get; set; }
+
         public int XpFactor { get; set; }
 
         public int XpPenalty { get; set; }
@@ -161,10 +163,15 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int DamageAssistedStun { get; set; }
 
         public int StunNum { get; set; }
+        public int PiercingsReceived { get; set; }
 
-	    public string HitsPenetrations => $"{Hits}/{Pierced}";
+        public string HitsPenetrations => $"{Hits}/{Pierced}";
 
-		public List<ChatMessage> ChatMessages { get; set; }
+        public string DamagedDestroyed => $"{Damaged}/{Killed}";
+
+        public string CaptureDefensePoints => $"{CapturePoints}/{DroppedCapturePoints}";
+
+        public List<ChatMessage> ChatMessages { get; set; }
 
         private List<DeviceDescription> _devices;
         public List<DeviceDescription> Devices
@@ -409,9 +416,11 @@ namespace WotDossier.Applications.ViewModel.Replay
 				EligibleForCrystalRewards = replay.datablock_battle_result.avatar.eligibleForCrystalRewards;
 				TotalXp = replay.datablock_battle_result.personal.xp;
 
-                NoDamageDirectHitsReceived = replay.datablock_battle_result.personal.noDamageDirectHitsReceived;
+                PiercingsReceived = replay.datablock_battle_result.personal.piercedReceived;
+                NoDamageDirectHitsReceived = replay.datablock_battle_result.personal.noDamageShotsReceived;
                 RickochetsReceived = replay.datablock_battle_result.personal.rickochetsReceived;
                 DamageAssistedStun = replay.datablock_battle_result.personal.damageAssistedStun;
+                HEHitsReceived = replay.datablock_battle_result.personal.heHitsReceived;
                 StunNum = replay.datablock_battle_result.personal.stunNum;
 				IsAlive = true;
 

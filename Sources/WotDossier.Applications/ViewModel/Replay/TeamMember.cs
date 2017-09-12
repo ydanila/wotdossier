@@ -58,16 +58,14 @@ namespace WotDossier.Applications.ViewModel.Replay
             Mileage = vehicleResult.Value.mileage;
             Pierced = vehicleResult.Value.pierced;
             PotentialDamageReceived = vehicleResult.Value.potentialDamageReceived;
+            DamageBlockedByArmor = vehicleResult.Value.damageBlockedByArmor;
             Repair = vehicleResult.Value.repair;
             Shots = vehicleResult.Value.shots;
             ShotsReceived = vehicleResult.Value.shotsReceived;
             Spotted = vehicleResult.Value.spotted;
             StunNum = vehicleResult.Value.stunNum;
             DamageAssistedStun = vehicleResult.Value.damageAssistedStun;
-            TDamageDealt = vehicleResult.Value.tdamageDealt;
-            //team = vehicleResult.Value;
-            THits = vehicleResult.Value.thits;
-            TKills = vehicleResult.Value.tkills;
+            TDamage = $"{vehicleResult.Value.tkills}/{vehicleResult.Value.tdamageDealt}";
             TypeCompDescr = vehicleResult.Value.typeCompDescr;
             Xp = vehicleResult.Value.xp;
 	        SniperDamageDealt = vehicleResult.Value.sniperDamageDealt;
@@ -83,7 +81,9 @@ namespace WotDossier.Applications.ViewModel.Replay
 				if (players.TryGetValue(vehKiller.accountDBID, out var killer))
 					Killer = killer;
 			}
-
+            NoDamageDirectHitsReceived = vehicleResult.Value.noDamageShotsReceived;
+            PiercingsReceived = vehicleResult.Value.piercedReceived;
+            HEHitsReceived = vehicleResult.Value.heHitsReceived;
         }
 
         private string GetName(string regionCode)
@@ -157,9 +157,13 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int FreeXp { get; set; }
         public int Gold { get; set; }
         public int HEHits { get; set; }
+        public int HEHitsReceived { get; set; }
         public int Health { get; set; }
         public int Hits { get; set; }
 	    public string HitsPenetrations => $"{Hits}/{Pierced}";
+        public string DamagedDestroyed => $"{Damaged}/{Kills}";
+
+        public string CaptureDefensePoints => $"{CapturePoints}/{DroppedCapturePoints}";
         public bool IsTeamKiller { get; set; }
         public int KillerId { get; set; }
         public int Kills { get; set; }
@@ -167,19 +171,21 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int Mileage { get; set; }
         public int Pierced { get; set; }
         public int PotentialDamageReceived { get; set; }
+        public int DamageBlockedByArmor { get; set; }
         public int Repair { get; set; }
 	    public int SniperDamageDealt { get; set; }
 		public int Shots { get; set; }
         public int ShotsReceived { get; set; }
+        public int PiercingsReceived { get; set; }
+        public int NoDamageDirectHitsReceived { get; set; }
         public int Spotted { get; set; }
         public int StunNum { get; set; }
         public int DamageAssistedStun { get; set; }
-        public double TDamageDealt { get; set; }
+        public string TDamage { get; set; }
         //public int team { get; set; }
-        public int THits { get; set; }
-        public int TKills { get; set; }
         public int? TypeCompDescr { get; set; }
         public int Xp { get; set; }
+
 
         //public string clanAbbrev { get; set; }
         //        "events": {}, 

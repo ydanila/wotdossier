@@ -4863,11 +4863,11 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Base capture points.
+        ///   Looks up a localized string similar to Base capture/defence points.
         /// </summary>
-        public static string Label_ReplayDetail_CapturePoint {
+        public static string Label_ReplayDetail_CaptureDefensePoints {
             get {
-                return ResourceManager.GetString("Label_ReplayDetail_CapturePoint", resourceCulture);
+                return ResourceManager.GetString("Label_ReplayDetail_CaptureDefensePoints", resourceCulture);
             }
         }
         
@@ -4908,16 +4908,25 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Enemies damaged.
+        ///   Looks up a localized string similar to Damage to Enemy Vehicles Stunned by You.
         /// </summary>
-        public static string Label_ReplayDetail_Damaged {
+        public static string Label_ReplayDetail_DamageAssistedStun {
             get {
-                return ResourceManager.GetString("Label_ReplayDetail_Damaged", resourceCulture);
+                return ResourceManager.GetString("Label_ReplayDetail_DamageAssistedStun", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Damage upon detecting.
+        ///   Looks up a localized string similar to Enemy vehicles damaged/destroyed.
+        /// </summary>
+        public static string Label_ReplayDetail_DamagedDestroyed {
+            get {
+                return ResourceManager.GetString("Label_ReplayDetail_DamagedDestroyed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Damage due to the player’s assistance.
         /// </summary>
         public static string Label_ReplayDetail_DamageUponDetecting {
             get {
@@ -4926,25 +4935,7 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Base defense points.
-        /// </summary>
-        public static string Label_ReplayDetail_DefensePoints {
-            get {
-                return ResourceManager.GetString("Label_ReplayDetail_DefensePoints", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Enemies destroyed.
-        /// </summary>
-        public static string Label_ReplayDetail_Destroyed {
-            get {
-                return ResourceManager.GetString("Label_ReplayDetail_Destroyed", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Enemies detected.
+        ///   Looks up a localized string similar to Enemy vehicles spotted.
         /// </summary>
         public static string Label_ReplayDetail_Detected {
             get {
@@ -4989,6 +4980,15 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Hits received as a result of splash damage.
+        /// </summary>
+        public static string Label_ReplayDetail_HEReceived {
+            get {
+                return ResourceManager.GetString("Label_ReplayDetail_HEReceived", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Hits received.
         /// </summary>
         public static string Label_ReplayDetail_HitsReceived {
@@ -5021,6 +5021,15 @@ namespace WotDossier.Resources {
         public static string Label_ReplayDetail_LifeTime {
             get {
                 return ResourceManager.GetString("Label_ReplayDetail_LifeTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to non-penetration.
+        /// </summary>
+        public static string Label_ReplayDetail_NonPenetration {
+            get {
+                return ResourceManager.GetString("Label_ReplayDetail_NonPenetration", resourceCulture);
             }
         }
         
@@ -5070,6 +5079,15 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Stuns caused.
+        /// </summary>
+        public static string Label_ReplayDetail_StunNum {
+            get {
+                return ResourceManager.GetString("Label_ReplayDetail_StunNum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Time.
         /// </summary>
         public static string Label_ReplayDetail_Time {
@@ -5079,7 +5097,7 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Traveled.
+        ///   Looks up a localized string similar to Distance traveled.
         /// </summary>
         public static string Label_ReplayDetail_Traveled {
             get {
@@ -7023,7 +7041,7 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hide.
+        ///   Looks up a localized string similar to Close.
         /// </summary>
         public static string Replay_TeamMember_HideResultButton {
             get {
