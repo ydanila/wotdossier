@@ -45,7 +45,9 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         public int RickochetsReceived { get; set; }
 
-        public CombatTarget(KeyValuePair<long, DamagedVehicle> vehicleDamage, TeamMember teamMember, Version version)
+	    public bool IsAlive { get; set; }
+
+		public CombatTarget(KeyValuePair<long, DamagedVehicle> vehicleDamage, TeamMember teamMember, Version version)
         {
             TeamMember = teamMember;
 
@@ -59,7 +61,8 @@ namespace WotDossier.Applications.ViewModel.Replay
             HeHits = vehicleDamage.Value.he_hits;
             Hits = vehicleDamage.Value.hits;
             Killed = vehicleDamage.Value.killed;
-            Pierced = vehicleDamage.Value.pierced;
+			IsAlive = teamMember.IsAlive;
+			Pierced = vehicleDamage.Value.pierced;
             Spotted = vehicleDamage.Value.spotted;
             StunNum = vehicleDamage.Value.stunNum;
             DamageAssistedStun = vehicleDamage.Value.damageAssistedStun;

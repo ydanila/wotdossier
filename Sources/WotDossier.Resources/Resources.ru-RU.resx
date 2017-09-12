@@ -1053,16 +1053,16 @@
     <value>Произведено выстрелов</value>
   </data>
   <data name="Label_ReplayDetail_DirectHits" xml:space="preserve">
-    <value>прямых попаданий</value>
+    <value>прямых попаданий/пробитий</value>
   </data>
   <data name="Label_ReplayDetail_HEDamage" xml:space="preserve">
-    <value>фугасных повреждений</value>
+    <value>осколочно-фугасных повреждений</value>
   </data>
   <data name="Label_ReplayDetail_Penetrations" xml:space="preserve">
     <value>пробитий</value>
   </data>
   <data name="Label_ReplayDetail_Damage" xml:space="preserve">
-    <value>Нанесенный урон</value>
+    <value>Нанесено урона</value>
   </data>
   <data name="Label_ReplayDetail_HitsReceived" xml:space="preserve">
     <value>Получено попаданий</value>
@@ -3636,5 +3636,11 @@
   </data>
   <data name="Tooltip_Replay_DamageBlockedByArmor" xml:space="preserve">
     <value>Рикошетов: {0}, Непробитий: {1}, Заблокировано броней: {2}</value>
+  </data>
+  <data name="Column_Replay_Achievements" xml:space="preserve">
+    <value>Медали</value>
+  </data>
+  <data name="Label_ReplayDetail_SniperDamage" xml:space="preserve">
+    <value>с дистанции свыше 300м</value>
   </data>
 </root>

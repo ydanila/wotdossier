@@ -960,10 +960,13 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
     <value>Shots fired</value>
   </data>
   <data name="Label_ReplayDetail_DirectHits" xml:space="preserve">
-    <value>direct hits</value>
+    <value>direct hits/penetrations</value>
   </data>
   <data name="Label_ReplayDetail_HEDamage" xml:space="preserve">
-    <value>damage caused by HE shells</value>
+    <value>splash damange</value>
+  </data>
+  <data name="Label_ReplayDetail_SniperDamage" xml:space="preserve">
+    <value>from a distance of more than 300 meters</value>
   </data>
   <data name="Label_ReplayDetail_Penetrations" xml:space="preserve">
     <value>penetrations</value>
@@ -1585,6 +1588,9 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
   </data>
   <data name="Column_Replay_Platoon" xml:space="preserve">
     <value>Platoon</value>
+  </data>
+  <data name="Column_Replay_Achievements" xml:space="preserve">
+    <value>Achievements</value>
   </data>
   <data name="Column_Replay_PlayerName" xml:space="preserve">
     <value>Player Name</value>

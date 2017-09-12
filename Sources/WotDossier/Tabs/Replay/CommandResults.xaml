@@ -8,6 +8,18 @@
              xmlns:color="clr-namespace:WotDossier.Converters.Color"
              mc:Ignorable="d" 
              d:DesignHeight="605" d:DesignWidth="970">
+    <UserControl.Resources>
+        <Style TargetType="Image" x:Key="AchievementsImageStyle">
+            <!-- These setters are the same as your normal style when none of your triggers are true -->
+            <Setter Property="Source" Value="pack://application:,,,/WotDossier.Resources;component/Images/Replays/Achievement.png" />
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=AchievementsCount}" Value="0">
+                    <Setter Property="Visibility" Value="Hidden" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    
     <Grid Background="#0E0C09">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"></ColumnDefinition>
@@ -19,31 +31,40 @@
                 <ColumnDefinition Width="Auto"></ColumnDefinition>
                 <ColumnDefinition Width="Auto"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <StackPanel Visibility="{Binding AlienTeamMember, Converter={x:Static Converters:ObjectToCollapseConverter.Default}}">
-                <TextBlock Margin="10,0,0,0" Text="{x:Static resources:Resources.Label_Replay_OurTeam}" FontSize="16" Foreground="#BCBDBE" />
-                <DataGrid Style="{StaticResource replayDataGrid}" SelectedItem="{Binding OurTeamMember}" RowStyle="{StaticResource RowStyle}"
+
+            <Grid Visibility="{Binding AlienTeamMember, Converter={x:Static Converters:ObjectToCollapseConverter.Default}}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                
+                <TextBlock Grid.Row="0" Margin="10,0,0,0" Text="{x:Static resources:Resources.Label_Replay_OurTeam}" FontSize="16" Foreground="#BCBDBE" />
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" FlowDirection="RightToLeft">
+                    <DataGrid  Style="{StaticResource replayDataGrid}" SelectedItem="{Binding OurTeamMember}" RowStyle="{StaticResource RowStyle}"
                            BorderThickness="0" ItemsSource="{Binding FirstTeam}" Margin="0,0,0,3" HorizontalAlignment="Stretch"
                           Height="Auto" AutoGenerateColumns="False" HorizontalContentAlignment="Stretch" HeadersVisibility="Column"
-                          RowHeight="31" IsReadOnly="True">
-                    <DataGrid.Columns>
-                        <DataGridTemplateColumn Width="47" Header="{x:Static resources:Resources.Column_Replay_Platoon}" HeaderTemplate="{StaticResource squadTemplate}" SortMemberPath="Squad">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <Grid>
-                                        <Image Visibility="{Binding Squad, Converter={x:Static Converters:IntToVisibilityConverter.Default}}" 
+                          RowHeight="34" IsReadOnly="True" VerticalScrollBarVisibility="Auto" FlowDirection="LeftToRight"
+                        ScrollViewer.CanContentScroll="True" 
+                          ScrollViewer.VerticalScrollBarVisibility="Auto">
+                        <DataGrid.Columns>
+                            <DataGridTemplateColumn Width="31" Header="{x:Static resources:Resources.Column_Replay_Platoon}" HeaderTemplate="{StaticResource squadTemplate}" SortMemberPath="Squad">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Grid>
+                                            <Image Visibility="{Binding Squad, Converter={x:Static Converters:IntToVisibilityConverter.Default}}" 
                                                HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="None" 
                                                Source="pack://application:,,,/WotDossier.Resources;component/Images/Replays/Squad-Ico-silver.png"/>
-                                        <TextBlock Visibility="{Binding Squad, Converter={x:Static Converters:IntToVisibilityConverter.Default}}" Text="{Binding Squad}" 
+                                            <TextBlock Visibility="{Binding Squad, Converter={x:Static Converters:IntToVisibilityConverter.Default}}" Text="{Binding Squad}" 
                                                    FontSize="11" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" />
-                                    </Grid>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-                        <DataGridTemplateColumn Width="100" Header="{x:Static resources:Resources.Column_Replay_PlayerName}" 
+                                        </Grid>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Width="111" Header="{x:Static resources:Resources.Column_Replay_PlayerName}" 
                                             HeaderTemplate="{StaticResource userTemplate}" SortMemberPath="FullName">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5,0,5,0" Visibility="{Binding StatisticLink, Converter={x:Static Converters:ObjectToVisibilityConverter.Default}}">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5,0,5,0" Visibility="{Binding StatisticLink, Converter={x:Static Converters:ObjectToVisibilityConverter.Default}}">
                                         <Hyperlink Foreground="#5C5A4A" CommandParameter="{Binding Path=.}" Command="{Binding Path=DataContext.OpenPlayerCommand, RelativeSource={RelativeSource FindAncestor, AncestorType=DataGrid}}">
                                             <TextBlock Foreground="#5C5A4A" Text="{Binding FullName}"></TextBlock>
                                         </Hyperlink>
@@ -51,39 +72,63 @@
                                             <TextBlock Text="{Binding Path=FullName}"></TextBlock>
                                         </ToolTipService.ToolTip>
                                     </TextBlock>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-                        <DataGridTemplateColumn Width="179" Header="{x:Static resources:Resources.Column_Header_Tank}" HeaderTemplate="{StaticResource tankTemplate}" SortMemberPath="Tank">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <Grid>
-                                        <Image Source="{Binding Path=TankIcon, Mode=OneWay, Converter={x:Static Converters:TankIconToImageConverter.Default}}" 
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Width="141" Header="{x:Static resources:Resources.Column_Header_Tank}" HeaderTemplate="{StaticResource tankTemplate}" SortMemberPath="Tank">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Grid>
+                                            <Image Source="{Binding Path=TankIcon, Mode=OneWay, Converter={x:Static Converters:TankIconToImageConverter.Default}}" 
                                                HorizontalAlignment="Left" />
-                                        <TextBlock Margin="40,0,0,0" Text="{Binding Tank}" Foreground="#5C5A4A" VerticalAlignment="Center"></TextBlock>
-                                    </Grid>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-                        <DataGridTextColumn Width="37" Header="{x:Static resources:Resources.Column_Replay_DamageDealt}" Binding="{Binding DamageDealt}" Foreground="#CBAD78" FontSize="12" ElementStyle="{StaticResource CTextBlock}" HeaderTemplate="{StaticResource healthTemplate}" />
-                        <DataGridTextColumn Width="55" Header="{x:Static resources:Resources.Column_Replay_Frags}" Binding="{Binding Kills}" Foreground="#CBAD78" FontSize="12" ElementStyle="{StaticResource CTextBlock}" HeaderTemplate="{StaticResource killsTemplate}" />
-                        <DataGridTemplateColumn Width="69" Header="{x:Static resources:Resources.Column_Replay_XP}" HeaderTemplate="{StaticResource starTemplate}" SortMemberPath="Xp">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <Grid>
-                                        <controls:TextWithImage HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding Xp}" 
+                                            <TextBlock Margin="40,0,0,0" Text="{Binding Tank}" Foreground="#5C5A4A" VerticalAlignment="Center"></TextBlock>
+                                        </Grid>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTextColumn Width="50" Header="{x:Static resources:Resources.Column_Replay_DamageDealt}" Binding="{Binding DamageDealt}" Foreground="#CBAD78" FontSize="12" ElementStyle="{StaticResource CTextBlock}" HeaderTemplate="{StaticResource healthTemplate}" />
+                            <DataGridTextColumn Width="45" Header="{x:Static resources:Resources.Column_Replay_Frags}" Binding="{Binding Kills}" Foreground="#CBAD78" FontSize="12" ElementStyle="{StaticResource CTextBlock}" HeaderTemplate="{StaticResource killsTemplate}" />
+                            <DataGridTemplateColumn Width="60" Header="{x:Static resources:Resources.Column_Replay_XP}" HeaderTemplate="{StaticResource starTemplate}" SortMemberPath="Xp">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Grid>
+                                            <controls:TextWithImage HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding Xp}" 
                                             Source="pack://application:,,,/WotDossier.Resources;component/Images/Replays/XpIcon-1.png" Foreground="#C7C7B4" FontSize="13" ></controls:TextWithImage>
-                                    </Grid>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-                    </DataGrid.Columns>
-                </DataGrid>
-            </StackPanel>
+                                        </Grid>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Width="40" Header="{x:Static resources:Resources.Column_Replay_Achievements}" HeaderTemplate="{StaticResource achievementsTemplate}" SortMemberPath="AchievementsCount">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Grid>
+                                            <Image Stretch="None" Style="{StaticResource AchievementsImageStyle}" HorizontalAlignment="Center">
+                                                <Image.ToolTip>
+                                                    <TextBlock Text="{Binding AchievementsList}"></TextBlock>
+                                                </Image.ToolTip>
+                                            </Image>
+                                            <Border Margin="0,18,5,0" Width="Auto" BorderThickness="1" BorderBrush="#2F2822" Background="#10100D" HorizontalAlignment="Right"
+                                                Visibility="{Binding AchievementsCount, Converter={x:Static Converters:IntToVisibilityConverter.Default}}">
+                                                <TextBlock Text="{Binding AchievementsCount}" Foreground="White" FontSize="10">
+                                                    <TextBlock.ToolTip>
+                                                        <TextBlock Text="{Binding AchievementsList}"></TextBlock>
+                                                    </TextBlock.ToolTip>
+                                            </TextBlock>
+                                            </Border>
+                                        </Grid>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </ScrollViewer>
+            </Grid>
+
+            <!--</StackPanel>-->
 
             <StackPanel HorizontalAlignment="Stretch" Grid.Column="1" Width="480"
                   Visibility="{Binding AlienTeamMember, Converter={x:Static Converters:ObjectToVisibilityConverter.Default}}">
-                <Grid HorizontalAlignment="Stretch" DataContext="{Binding AlienTeamMember}">
+                <Grid HorizontalAlignment="Stretch" DataContext="{Binding AlienTeamMember}" Background="{Binding IsAlive, Converter={x:Static color:AliveToColorConverter.Default}}">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="1*"></ColumnDefinition>
                         <ColumnDefinition Width="2*"></ColumnDefinition>
@@ -95,6 +140,7 @@
                     <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left">
                         <TextBlock Text="{Binding FullName}" FontSize="20" Foreground="#FEC264"></TextBlock>
                         <TextBlock Text="{Binding Tank}" Foreground="White" FontSize="16"></TextBlock>
+                        <TextBlock Text="{Binding DeathType}" Foreground="#989898" FontSize="14"></TextBlock>
                     </StackPanel>
                 </Grid>
                 <Grid HorizontalAlignment="Stretch" DataContext="{Binding AlienTeamMember}">
@@ -125,17 +171,23 @@
                 <ColumnDefinition Width="Auto"></ColumnDefinition>
                 <ColumnDefinition Width="Auto"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-
-            <StackPanel Visibility="{Binding OurTeamMember, Converter={x:Static Converters:ObjectToCollapseConverter.Default}}">
-                <TextBlock Margin="10,0,0,0" Text="{x:Static resources:Resources.Label_Replay_EnemyTeam}" FontSize="16"
+            <Grid Visibility="{Binding OurTeamMember, Converter={x:Static Converters:ObjectToCollapseConverter.Default}}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Margin="10,0,0,0" Text="{x:Static resources:Resources.Label_Replay_EnemyTeam}" FontSize="16"
                            Foreground="#BCBDBE">
                 </TextBlock>
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
                 <DataGrid Style="{StaticResource replayDataGrid}" SelectedItem="{Binding AlienTeamMember}"
                            BorderThickness="0" ItemsSource="{Binding SecondTeam}" Margin="3,0,0,0" HorizontalAlignment="Stretch"
                           Height="Auto" AutoGenerateColumns="False" HorizontalContentAlignment="Stretch" HeadersVisibility="Column"
-                          RowHeight="31" RowStyle="{StaticResource RowStyle}" IsReadOnly="True">
+                          RowHeight="34" RowStyle="{StaticResource RowStyle}" IsReadOnly="True"
+                          ScrollViewer.CanContentScroll="True" 
+                          ScrollViewer.VerticalScrollBarVisibility="Auto">
                     <DataGrid.Columns>
-                        <DataGridTemplateColumn Width="47" Header="{x:Static resources:Resources.Column_Replay_Platoon}" HeaderTemplate="{StaticResource squadTemplate}" SortMemberPath="Squad">
+                        <DataGridTemplateColumn Width="31" Header="{x:Static resources:Resources.Column_Replay_Platoon}" HeaderTemplate="{StaticResource squadTemplate}" SortMemberPath="Squad">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
                                     <Grid>
@@ -148,7 +200,7 @@
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>
-                        <DataGridTemplateColumn Width="100" Header="{x:Static resources:Resources.Column_Replay_PlayerName}" 
+                        <DataGridTemplateColumn Width="111" Header="{x:Static resources:Resources.Column_Replay_PlayerName}" 
                                             HeaderTemplate="{StaticResource userTemplate}" SortMemberPath="FullName">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
@@ -160,7 +212,7 @@
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>
-                        <DataGridTemplateColumn Width="179" Header="{x:Static resources:Resources.Column_Header_Tank}" HeaderTemplate="{StaticResource tankTemplate}" SortMemberPath="Tank">
+                        <DataGridTemplateColumn Width="141" Header="{x:Static resources:Resources.Column_Header_Tank}" HeaderTemplate="{StaticResource tankTemplate}" SortMemberPath="Tank">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
                                     <Grid>
@@ -171,9 +223,9 @@
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>
-                        <DataGridTextColumn Width="37" Header="{x:Static resources:Resources.Column_Replay_DamageDealt}" Binding="{Binding DamageDealt}" Foreground="#CBAD78" FontSize="12" ElementStyle="{StaticResource CTextBlock}" HeaderTemplate="{StaticResource healthTemplate}" />
-                        <DataGridTextColumn Width="55" Header="{x:Static resources:Resources.Column_Replay_Frags}" Binding="{Binding Kills}" Foreground="#CBAD78" FontSize="12" ElementStyle="{StaticResource CTextBlock}" HeaderTemplate="{StaticResource killsTemplate}" />
-                        <DataGridTemplateColumn Width="69" Header="{x:Static resources:Resources.Column_Replay_XP}" HeaderTemplate="{StaticResource starTemplate}" SortMemberPath="Xp">
+                        <DataGridTextColumn Width="50" Header="{x:Static resources:Resources.Column_Replay_DamageDealt}" Binding="{Binding DamageDealt}" Foreground="#CBAD78" FontSize="12" ElementStyle="{StaticResource CTextBlock}" HeaderTemplate="{StaticResource healthTemplate}" />
+                        <DataGridTextColumn Width="45" Header="{x:Static resources:Resources.Column_Replay_Frags}" Binding="{Binding Kills}" Foreground="#CBAD78" FontSize="12" ElementStyle="{StaticResource CTextBlock}" HeaderTemplate="{StaticResource killsTemplate}" />
+                        <DataGridTemplateColumn Width="60" Header="{x:Static resources:Resources.Column_Replay_XP}" HeaderTemplate="{StaticResource starTemplate}" SortMemberPath="Xp">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
                                     <Grid>
@@ -183,13 +235,35 @@
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>
-                    </DataGrid.Columns>
+                        <DataGridTemplateColumn Width="40" Header="{x:Static resources:Resources.Column_Replay_Achievements}" HeaderTemplate="{StaticResource achievementsTemplate}" SortMemberPath="AchievementsCount">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                        <Image Stretch="None" Style="{StaticResource AchievementsImageStyle}" HorizontalAlignment="Center">
+                                            <Image.ToolTip>
+                                                <TextBlock Text="{Binding AchievementsList}"></TextBlock>
+                                            </Image.ToolTip>
+                                        </Image>
+                                        <Border Margin="0,18,5,0" Width="Auto" BorderThickness="1" BorderBrush="#2F2822" Background="#10100D" HorizontalAlignment="Right"
+                                                Visibility="{Binding AchievementsCount, Converter={x:Static Converters:IntToVisibilityConverter.Default}}">
+                                            <TextBlock Text="{Binding AchievementsCount}" Foreground="White" FontSize="10">
+                                                <TextBlock.ToolTip>
+                                                    <TextBlock Text="{Binding AchievementsList}"></TextBlock>
+                                                </TextBlock.ToolTip>
+                                            </TextBlock>
+                                        </Border>
+                                    </Grid>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        </DataGrid.Columns>
                 </DataGrid>
-            </StackPanel>
+                </ScrollViewer>
+            </Grid>
 
             <StackPanel HorizontalAlignment="Stretch" Grid.Column="1" Width="480"
                   Visibility="{Binding OurTeamMember, Converter={x:Static Converters:ObjectToVisibilityConverter.Default}}">
-                <Grid HorizontalAlignment="Stretch" DataContext="{Binding OurTeamMember}">
+                <Grid HorizontalAlignment="Stretch" DataContext="{Binding OurTeamMember}" Background="{Binding IsAlive, Converter={x:Static color:AliveToColorConverter.Default}}">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="1*"></ColumnDefinition>
                         <ColumnDefinition Width="2*"></ColumnDefinition>
@@ -201,6 +275,7 @@
                     <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left">
                         <TextBlock Text="{Binding FullName}" FontSize="20" Foreground="#FEC264"></TextBlock>
                         <TextBlock Text="{Binding Tank}" Foreground="White" FontSize="16"></TextBlock>
+                        <TextBlock Text="{Binding DeathType}" Foreground="#989898" FontSize="14"></TextBlock>
                     </StackPanel>
                 </Grid>
                 <Grid HorizontalAlignment="Stretch" DataContext="{Binding OurTeamMember}">

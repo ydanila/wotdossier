@@ -92,9 +92,13 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         public int Spotted { get; set; }
 
-        public int Killed { get; set; }
+	    public int SniperDamageDealt { get; set; }
 
-        public int Damaged { get; set; }
+		public int Killed { get; set; }
+
+	    public bool IsAlive { get; set; }
+
+		public int Damaged { get; set; }
 
         public string TDamage { get; set; }
 
@@ -158,7 +162,9 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         public int StunNum { get; set; }
 
-        public List<ChatMessage> ChatMessages { get; set; }
+	    public string HitsPenetrations => $"{Hits}/{Pierced}";
+
+		public List<ChatMessage> ChatMessages { get; set; }
 
         private List<DeviceDescription> _devices;
         public List<DeviceDescription> Devices
@@ -407,8 +413,9 @@ namespace WotDossier.Applications.ViewModel.Replay
                 RickochetsReceived = replay.datablock_battle_result.personal.rickochetsReceived;
                 DamageAssistedStun = replay.datablock_battle_result.personal.damageAssistedStun;
                 StunNum = replay.datablock_battle_result.personal.stunNum;
+				IsAlive = true;
 
-                IsPremium = replay.datablock_battle_result.personal.isPremium;
+				IsPremium = replay.datablock_battle_result.personal.isPremium;
                 IsBase = !IsPremium;
 
                 int premiumCredits;
@@ -470,7 +477,8 @@ namespace WotDossier.Applications.ViewModel.Replay
                 DroppedCapturePoints = replay.datablock_battle_result.personal.droppedCapturePoints;
                 PotentialDamageReceived = replay.datablock_battle_result.personal.potentialDamageReceived;
                 DamageBlockedByArmor = replay.datablock_battle_result.personal.damageBlockedByArmor;
-                Mileage = string.Format(Resources.Resources.Traveled_Format, replay.datablock_battle_result.personal.mileage/(double)1000);
+	            SniperDamageDealt = replay.datablock_battle_result.personal.sniperDamageDealt;
+				Mileage = string.Format(Resources.Resources.Traveled_Format, replay.datablock_battle_result.personal.mileage/(double)1000);
 
                 StartTime = DateTime.Parse(replay.datablock_1.dateTime, CultureInfo.GetCultureInfo("ru-RU")).ToShortTimeString();
                 TimeSpan battleLength = new TimeSpan(0, 0, (int) replay.datablock_battle_result.common.duration);
@@ -615,7 +623,7 @@ namespace WotDossier.Applications.ViewModel.Replay
             List<TeamMember> teamMembers =
                 players.Join(vehicleResults, p => p.Key, vr => vr.Value.accountDBID, Tuple.Create)
                     .Join(vehicles, pVr => pVr.Item2.Key, v => v.Key,
-                        (pVr, v) => new TeamMember(pVr.Item1, pVr.Item2, v, myTeamId, replay.datablock_1.regionCode))
+                        (pVr, v) => new TeamMember(pVr.Item1, pVr.Item2, v, myTeamId, replay.datablock_1.regionCode, replay.datablock_battle_result.players, replay.datablock_battle_result.vehicles))
                     .ToList();
             return teamMembers;
         }

@@ -3198,6 +3198,15 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Achievements.
+        /// </summary>
+        public static string Column_Replay_Achievements {
+            get {
+                return ResourceManager.GetString("Column_Replay_Achievements", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Result.
         /// </summary>
         public static string Column_Replay_BattleResult {
@@ -4944,7 +4953,7 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to direct hits.
+        ///   Looks up a localized string similar to direct hits/penetrations.
         /// </summary>
         public static string Label_ReplayDetail_DirectHits {
             get {
@@ -4971,7 +4980,7 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to damage caused by HE shells.
+        ///   Looks up a localized string similar to splash damange.
         /// </summary>
         public static string Label_ReplayDetail_HEDamage {
             get {
@@ -5039,6 +5048,15 @@ namespace WotDossier.Resources {
         public static string Label_ReplayDetail_ShotsFired {
             get {
                 return ResourceManager.GetString("Label_ReplayDetail_ShotsFired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to from a distance of more than 300 meters.
+        /// </summary>
+        public static string Label_ReplayDetail_SniperDamage {
+            get {
+                return ResourceManager.GetString("Label_ReplayDetail_SniperDamage", resourceCulture);
             }
         }
         

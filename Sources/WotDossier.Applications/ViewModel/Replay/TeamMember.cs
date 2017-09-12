@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 using WotDossier.Applications.Logic;
+using WotDossier.Common;
 using WotDossier.Dal;
 using WotDossier.Domain;
 using WotDossier.Domain.Replay;
@@ -14,7 +16,7 @@ namespace WotDossier.Applications.ViewModel.Replay
         private List<int> _achievements;
 
         private TankDescription _tankDescription;
-        public TeamMember(KeyValuePair<long, Player> player, KeyValuePair<long, VehicleResult> vehicleResult, KeyValuePair<long, Vehicle> vehicle, int replayPlayerTeam, string regionCode)
+        public TeamMember(KeyValuePair<long, Player> player, KeyValuePair<long, VehicleResult> vehicleResult, KeyValuePair<long, Vehicle> vehicle, int replayPlayerTeam, string regionCode, Dictionary<long, Player> players, Dictionary<long, VehicleResult> vehicles)
         {
             Id = vehicle.Key;
 
@@ -68,10 +70,20 @@ namespace WotDossier.Applications.ViewModel.Replay
             TKills = vehicleResult.Value.tkills;
             TypeCompDescr = vehicleResult.Value.typeCompDescr;
             Xp = vehicleResult.Value.xp;
+	        SniperDamageDealt = vehicleResult.Value.sniperDamageDealt;
 
-            TeamMate = Team == replayPlayerTeam;
+			TeamMate = Team == replayPlayerTeam;
             
             StatisticLink = string.Format(RatingHelper.NOOBMETER_STATISTIC_LINK_FORMAT, GetServer(regionCode), GetName(regionCode));
+
+	        DeathReason = (DeathReason) vehicleResult.Value.deathReason;
+
+			if(vehicles.TryGetValue(KillerId, out var vehKiller))
+			{
+				if (players.TryGetValue(vehKiller.accountDBID, out var killer))
+					Killer = killer;
+			}
+
         }
 
         private string GetName(string regionCode)
@@ -147,6 +159,7 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int HEHits { get; set; }
         public int Health { get; set; }
         public int Hits { get; set; }
+	    public string HitsPenetrations => $"{Hits}/{Pierced}";
         public bool IsTeamKiller { get; set; }
         public int KillerId { get; set; }
         public int Kills { get; set; }
@@ -155,7 +168,8 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int Pierced { get; set; }
         public int PotentialDamageReceived { get; set; }
         public int Repair { get; set; }
-        public int Shots { get; set; }
+	    public int SniperDamageDealt { get; set; }
+		public int Shots { get; set; }
         public int ShotsReceived { get; set; }
         public int Spotted { get; set; }
         public int StunNum { get; set; }
@@ -177,7 +191,16 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         public int Squad { get; set; }
 
-        public bool TeamMate { get; set; }
+	    public DeathReason DeathReason { get; set; }
+
+	    public Player Killer { get; set; }
+
+		public int AchievementsCount => BattleMedals.Count;
+
+	    public string AchievementsList => string.Join("\r\n", BattleMedals.Select(m => m.Name));
+
+
+	    public bool TeamMate { get; set; }
 
         public TankDescription TankDescription
         {
@@ -197,5 +220,16 @@ namespace WotDossier.Applications.ViewModel.Replay
             PropertyChangedEventHandler handler = PropertyChanged;
             if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
         }
+
+	    public string DeathType
+	    {
+		    get
+		    {
+			   return Resources.Resources.ResourceManager.GetEnumResource(DeathReason) + ((Killer != null)
+					    ? (" (" + Killer.name + ((!string.IsNullOrEmpty(Killer.clanAbbrev)) ? "[" + Killer.clanAbbrev + "]" : "") + ")")
+					    : "");
+
+		    }
+	    }
     }
 }

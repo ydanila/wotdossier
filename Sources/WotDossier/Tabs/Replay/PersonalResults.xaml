@@ -8,6 +8,7 @@
              xmlns:replay="clr-namespace:WotDossier.Applications.ViewModel.Replay;assembly=WotDossier.Applications"
              xmlns:system="clr-namespace:System;assembly=mscorlib"
              xmlns:framework="clr-namespace:WotDossier.Framework;assembly=WotDossier.Framework"
+             xmlns:color="clr-namespace:WotDossier.Converters.Color"
              mc:Ignorable="d"
              d:DesignHeight="605" d:DesignWidth="965">
     <UserControl.Resources>
@@ -106,10 +107,25 @@
                 </DataTrigger>
             </Style.Triggers>
         </Style>
+        <Style TargetType="Grid" x:Key="KilledBackground">
+            <Setter Property="Background" Value="Transparent"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=Killed}" Value="false">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#1a1814" Offset="0"/>
+                                <GradientStop Color="#1a1814" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
 
         <!--<ImageBrush x:Key="bg" ImageSource="pack://application:,,,/WotDossier.Resources;component/Images/Maps\content_bg.png" Stretch="Fill" />-->
         <DataTemplate x:Key="CombatEffectRowTemplate" DataType="replay:CombatTarget">
-            <Grid HorizontalAlignment="Stretch">
+            <Grid HorizontalAlignment="Stretch" Background="{Binding IsAlive, Converter={x:Static color:AliveToColorConverter.Default}}">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="130"></ColumnDefinition>
                     <ColumnDefinition Width="145"></ColumnDefinition>

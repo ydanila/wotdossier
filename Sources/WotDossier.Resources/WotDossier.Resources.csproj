@@ -1239,6 +1239,12 @@
   <ItemGroup>
     <Resource Include="Images\Replays\blocked.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Replays\Achievement.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Replays\tbl_ico__achiev.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -40,7 +40,7 @@
                 <Grid HorizontalAlignment="Stretch" Margin="10,3,10,3">
                     <TextBlock Margin="30,0,0,0" Text="{x:Static resources:Resources.Label_ReplayDetail_DirectHits}" Foreground=" #ABA8A9" FontFamily="Arial" FontSize="12px" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBlock>
                     <Rectangle  Stroke="#3A3836" Height="1" StrokeThickness="1" StrokeDashArray="1 2" SnapsToDevicePixels="True" VerticalAlignment="Bottom"/>
-                    <TextBlock Text="{Binding Hits}" Foreground=" #ABA8A9" FontFamily="Arial" FontSize="12px" VerticalAlignment="Top" HorizontalAlignment="Right"></TextBlock>
+                    <TextBlock Text="{Binding HitsPenetrations}" Foreground=" #ABA8A9" FontFamily="Arial" FontSize="12px" VerticalAlignment="Top" HorizontalAlignment="Right"></TextBlock>
                 </Grid>
                 <Grid HorizontalAlignment="Stretch" Margin="10,3,10,3">
                     <TextBlock Margin="30,0,0,0" Text="{x:Static resources:Resources.Label_ReplayDetail_HEDamage}" Foreground=" #ABA8A9" FontFamily="Arial" FontSize="12px" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBlock>
@@ -48,14 +48,14 @@
                     <TextBlock Text="{Binding HEHits}" Foreground=" #ABA8A9" FontFamily="Arial" FontSize="12px" VerticalAlignment="Top" HorizontalAlignment="Right"></TextBlock>
                 </Grid>
                 <Grid HorizontalAlignment="Stretch" Margin="10,3,10,3">
-                    <TextBlock Margin="30,0,0,0" Text="{x:Static resources:Resources.Label_ReplayDetail_Penetrations}" Foreground=" #ABA8A9" FontFamily="Arial" FontSize="12px" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBlock>
-                    <Rectangle  Stroke="#3A3836" Height="1" StrokeThickness="1" StrokeDashArray="1 2" SnapsToDevicePixels="True" VerticalAlignment="Bottom"/>
-                    <TextBlock Text="{Binding Pierced}" Foreground=" #ABA8A9" FontFamily="Arial" FontSize="12px" VerticalAlignment="Top" HorizontalAlignment="Right"></TextBlock>
-                </Grid>
-                <Grid HorizontalAlignment="Stretch" Margin="10,3,10,3">
                     <TextBlock Text="{x:Static resources:Resources.Label_ReplayDetail_Damage}" Foreground=" #ABA8A9" FontFamily="Arial" FontSize="12px" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBlock>
                     <Rectangle  Stroke="#3A3836" Height="1" StrokeThickness="1" StrokeDashArray="1 2" SnapsToDevicePixels="True" VerticalAlignment="Bottom"/>
                     <TextBlock Text="{Binding DamageDealt, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='N0'}" Foreground=" #ABA8A9" FontFamily="Arial" FontSize="12px" VerticalAlignment="Top" HorizontalAlignment="Right"></TextBlock>
+                </Grid>
+                <Grid HorizontalAlignment="Stretch" Margin="10,3,10,3">
+                    <TextBlock Margin="30,0,0,0" Text="{x:Static resources:Resources.Label_ReplayDetail_SniperDamage}" Foreground=" #ABA8A9" FontFamily="Arial" FontSize="12px" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBlock>
+                    <Rectangle  Stroke="#3A3836" Height="1" StrokeThickness="1" StrokeDashArray="1 2" SnapsToDevicePixels="True" VerticalAlignment="Bottom"/>
+                    <TextBlock Text="{Binding SniperDamageDealt, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='N0'}" Foreground=" #ABA8A9" FontFamily="Arial" FontSize="12px" VerticalAlignment="Top" HorizontalAlignment="Right"></TextBlock>
                 </Grid>
                 <Grid HorizontalAlignment="Stretch" Margin="10,3,10,3">
                     <TextBlock Text="{x:Static resources:Resources.Label_ReplayDetail_HitsReceived}" Foreground=" #ABA8A9" FontFamily="Arial" FontSize="12px" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBlock>

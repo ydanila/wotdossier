@@ -146,6 +146,11 @@
             <Image Source="pack://application:,,,/WotDossier.Resources;component/Images/Replays/tbl_ico__squad.png" VerticalAlignment="Center" HorizontalAlignment="Center" />
         </Border>
     </DataTemplate>
+    <DataTemplate x:Key="achievementsTemplate">
+        <Border BorderThickness="1" BorderBrush="#12110C" Height="33" Background="#222117">
+            <Image Source="pack://application:,,,/WotDossier.Resources;component/Images/Replays/tbl_ico__achiev.png" VerticalAlignment="Center" HorizontalAlignment="Center" />
+        </Border>
+    </DataTemplate>
     <DataTemplate x:Key="userTemplate">
         <Border BorderThickness="1" BorderBrush="#12110C" Height="33" Background="#222117">
             <Image Source="pack://application:,,,/WotDossier.Resources;component/Images/Replays/tbl_ico__user.png" VerticalAlignment="Center" HorizontalAlignment="Center" />
