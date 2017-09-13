@@ -12,7 +12,7 @@ namespace WotDossier.Applications.Parser
     {
 	    protected override ulong UpdateEvent_Arena => 0x2d;
 
-	    protected override ulong UpdateEvent_Slot => 0x2d;
+	    protected override ulong UpdateEvent_Slot => 0xC;
 
         /// <summary>
         /// Processes the player position.
