@@ -499,7 +499,8 @@ namespace WotDossier.Applications.ViewModel.Replay
                 AchievMedals = medals.Where(x => x.Type == 1).ToList();
 
                 TimeSpan userbattleLength = new TimeSpan(0, 0, replay.datablock_battle_result.personal.lifeTime);
-                UserBattleTime = userbattleLength.ToString(Resources.Resources.ExtendedTimeFormat);
+                UserBattleTime = (replay.datablock_battle_result.personal.deathReason == -1 ||
+                                    replay.datablock_battle_result.personal.killerID == 0) ? "-": userbattleLength.ToString(Resources.Resources.ExtendedTimeFormat);
 
                 //calc levels by squad
                 List<LevelRange> membersLevels = new List<LevelRange>();

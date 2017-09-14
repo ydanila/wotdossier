@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<DOCUMENT Type="Advanced Installer" CreateVersion="14.2.1" version="14.2.1" Modules="simple" RootPath="." Language="en" Id="{A99A7F68-84A5-44C8-8297-B8ADFF4C2328}">
+<DOCUMENT Type="Advanced Installer" CreateVersion="14.2.1" version="14.2.1" Modules="architect" RootPath="." Language="en" Id="{A99A7F68-84A5-44C8-8297-B8ADFF4C2328}">
   <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
     <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent"/>
   </COMPONENT>
@@ -7,11 +7,12 @@
     <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
     <ROW Property="ALLUSERS" Value="1"/>
     <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
-    <ROW Property="Manufacturer" Value="Your Company"/>
+    <ROW Property="ARPCONTACT" Value="Rembel continuous support by McHarny"/>
+    <ROW Property="Manufacturer" Value="McHarny"/>
     <ROW Property="ProductCode" Value="1033:{955C7F8A-FEE9-4F06-91E0-5BBEE66063C3} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
-    <ROW Property="ProductName" Value="Your Application"/>
-    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="ProductName" Value="WotDossier"/>
+    <ROW Property="ProductVersion" Value="4.20.0" Type="32"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
     <ROW Property="UpgradeCode" Value="{EF149386-A78D-4FAA-A030-24E89221D50B}"/>
     <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>

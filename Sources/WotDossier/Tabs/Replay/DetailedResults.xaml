@@ -233,7 +233,7 @@
                 </Grid>
             </StackPanel>
         </Grid>
-        <Grid Height="40"></Grid>
+        <Grid Height="10"></Grid>
         <Grid Background="#272519" Height="30">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"></ColumnDefinition>

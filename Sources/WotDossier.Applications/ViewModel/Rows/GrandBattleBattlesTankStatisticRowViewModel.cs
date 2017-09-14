@@ -20,7 +20,7 @@ namespace WotDossier.Applications.ViewModel.Rows
 
         public override Func<TankJson, StatisticJson> Predicate
         {
-            get { return tank => tank.A30x30; }
+            get { return tank => tank.A30x30 ?? new StatisticJson(); }
         }
     }
 }
