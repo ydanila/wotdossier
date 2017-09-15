@@ -31,5 +31,5 @@ namespace WotDossier.Applications.Logic.Adapter
         {
             get { return tank => tank.A30x30 ?? new StatisticJson(); }
         }
-    }
+	}
 }

@@ -30,7 +30,8 @@ namespace WotDossier.Test
     [TestFixture]
     public class CommonTestFixture : TestFixtureBase
     {
-        private string clientPath = @"c:\World_of_Tanks";
+        private string clientPath = @"S:\WorldOfTanks";
+	    private string patchVer = "0.9.20";
 
         [Test]
         public void MultipleUploadTest()
@@ -139,7 +140,7 @@ namespace WotDossier.Test
                 var localizedString = Resources.Resources.ResourceManager.GetString("Map_" + map.Value.MapNameId);
                 Assert.IsNotNull(localizedString, "Resource not found: {0}", map.Value.MapNameId);
 
-                var key = string.Format("images/maps/{0}.jpg", map.Value.MapNameId).ToLowerInvariant();
+                var key = string.Format("images/maps/{0}.png", map.Value.MapNameId).ToLowerInvariant();
                 //Assert.IsTrue(dictionary.ContainsKey(key), "Image resource not found: {0}", map.Value.mapidname);
                 if (!dictionary.ContainsKey(key))
                 {
@@ -198,7 +199,7 @@ namespace WotDossier.Test
         [Test]
         public void ImportTanksComponentsXmlTest()
         {
-            var strings = Directory.GetFiles(Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Tanks"), "shells.xml",
+            var strings = Directory.GetFiles(Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Tanks"), "shells.xml",
                 SearchOption.AllDirectories);
 
             List<JObject> result = new List<JObject>();
@@ -249,14 +250,14 @@ namespace WotDossier.Test
             Console.WriteLine("Copy tanks definitions");
 
             var scriptsPath = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Scripts");
-            var destination = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Tanks");
+            var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Tanks");
             var source = Path.Combine(scriptsPath, @"item_defs\vehicles");
 
             Directory.CreateDirectory(destination);
 
             DirectoryCopy(source, destination, true);
 
-            var strings = Directory.GetFiles(Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Tanks"), "list.xml", SearchOption.AllDirectories);
+            var strings = Directory.GetFiles(Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Tanks"), "list.xml", SearchOption.AllDirectories);
 
             List<JObject> result = new List<JObject>();
 
@@ -422,7 +423,7 @@ namespace WotDossier.Test
 
         private JObject GetTankDefinition(int countryid, string tankName)
         {
-            var fileName = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Tanks", ((Country)countryid).ToString(), tankName + ".xml");
+            var fileName = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Tanks", ((Country)countryid).ToString(), tankName + ".xml");
             if (File.Exists(fileName))
             {
                 var file = new FileInfo(fileName);
@@ -461,14 +462,16 @@ namespace WotDossier.Test
                     return 7;
                 case Country.Sweden:
                     return 8;
-            }
+	            case Country.Poland:
+		            return 9;
+			}
             return -1;
         }
 
         [Test]
         public void ImportMapsTest()
         {
-            string configsPath = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Maps");
+            string configsPath = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Maps");
 
             if (!Directory.Exists(configsPath))
             {
@@ -551,7 +554,7 @@ namespace WotDossier.Test
 
             Console.WriteLine("Copy maps definitions");
 
-            destination = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Maps");
+            destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Maps");
 
             var scriptsPath = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\scripts");
             source = Path.Combine(scriptsPath, @"arena_defs");
@@ -631,7 +634,7 @@ namespace WotDossier.Test
             string source;
             Console.WriteLine("Copy resources");
 
-            destination = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Resources");
+            destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Resources");
             source = Path.Combine(clientPath, @"res\text\lc_messages");
 
             Directory.CreateDirectory(destination);
