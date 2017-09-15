@@ -252,6 +252,9 @@
     <Compile Include="Converters\SubtractValueConverter.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Tabs\BalancerTab.xaml.cs">
+      <DependentUpon>BalancerTab.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Tabs\Charts\ReplaysStatTab.xaml.cs">
       <DependentUpon>ReplaysStatTab.xaml</DependentUpon>
     </Compile>
@@ -700,6 +703,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Styles\CommonStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Tabs\BalancerTab.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

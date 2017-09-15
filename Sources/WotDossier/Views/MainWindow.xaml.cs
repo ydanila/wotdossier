@@ -4,9 +4,11 @@ using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using WotDossier.Applications.Events;
 using WotDossier.Applications.View;
 using WotDossier.Dal;
 using WotDossier.Framework;
+using WotDossier.Framework.EventAggregator;
 
 namespace WotDossier.Views
 {
@@ -50,6 +52,20 @@ namespace WotDossier.Views
         private void Selector_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             tcMain.SelectedIndex = 0;
+        }
+
+        private void TcMain_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            //  https://stackoverflow.com/a/772948
+            if (!(e.Source is TabControl))
+            {
+                return;
+            }
+
+            if (tabBalancer.IsSelected)
+            {
+                EventAggregatorFactory.EventAggregator.GetEvent<BalancerActivatedEvent>().Publish(EventArgs.Empty);
+            }
         }
     }
 }

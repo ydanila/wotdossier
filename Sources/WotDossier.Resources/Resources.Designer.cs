@@ -2568,6 +2568,24 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bottom 3-5-7.
+        /// </summary>
+        public static string Column_Bottom_3_5_7 {
+            get {
+                return ResourceManager.GetString("Column_Bottom_3_5_7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bottom 5-10.
+        /// </summary>
+        public static string Column_Bottom_5_10 {
+            get {
+                return ResourceManager.GetString("Column_Bottom_5_10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Average Damage Dealt.
         /// </summary>
         public static string Column_Damage_AverageDamageDealt {
@@ -2825,6 +2843,15 @@ namespace WotDossier.Resources {
         public static string Column_MasterTanker_IsPremium {
             get {
                 return ResourceManager.GetString("Column_MasterTanker_IsPremium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to One level.
+        /// </summary>
+        public static string Column_One_Level {
+            get {
+                return ResourceManager.GetString("Column_One_Level", resourceCulture);
             }
         }
         
@@ -3473,6 +3500,24 @@ namespace WotDossier.Resources {
         public static string Column_Time_PlayTime {
             get {
                 return ResourceManager.GetString("Column_Time_PlayTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Top 3-5-7.
+        /// </summary>
+        public static string Column_Top_3_5_7 {
+            get {
+                return ResourceManager.GetString("Column_Top_3_5_7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Top 5-10.
+        /// </summary>
+        public static string Column_Top_5_10 {
+            get {
+                return ResourceManager.GetString("Column_Top_5_10", resourceCulture);
             }
         }
         
@@ -7077,6 +7122,15 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Group by.
+        /// </summary>
+        public static string ReplaysFilterGroupBy {
+            get {
+                return ResourceManager.GetString("ReplaysFilterGroupBy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Maps.
         /// </summary>
         public static string ReplaysFilterGroupHeader_Maps {
@@ -7550,6 +7604,15 @@ namespace WotDossier.Resources {
         public static string Tab_Header_AveragePerformance {
             get {
                 return ResourceManager.GetString("Tab_Header_AveragePerformance", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Balancer.
+        /// </summary>
+        public static string Tab_Header_Balancer {
+            get {
+                return ResourceManager.GetString("Tab_Header_Balancer", resourceCulture);
             }
         }
         

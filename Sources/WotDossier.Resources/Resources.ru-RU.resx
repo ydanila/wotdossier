@@ -3625,6 +3625,27 @@
   <data name="Country_Sweden" xml:space="preserve">
     <value>Швеция</value>
   </data>
+  <data name="Tab_Header_Balancer" xml:space="preserve">
+    <value>Балансер</value>
+  </data>
+  <data name="ReplaysFilterGroupBy" xml:space="preserve">
+    <value>Группировка по</value>
+  </data>
+  <data name="Column_Top_3_5_7" xml:space="preserve">
+    <value>Топ 3-5-7</value>
+  </data>
+  <data name="Column_Top_5_10" xml:space="preserve">
+    <value>Топ 5-10</value>
+  </data>
+  <data name="Column_One_Level" xml:space="preserve">
+    <value>Одноуровневый</value>
+  </data>
+  <data name="Column_Bottom_5_10" xml:space="preserve">
+    <value>Низ 5-10</value>
+  </data>
+  <data name="Column_Bottom_3_5_7" xml:space="preserve">
+    <value>Низ 3-5-7</value>
+  </data>
   <data name="Country_Poland" xml:space="preserve">
     <value>Польша</value>
   </data>

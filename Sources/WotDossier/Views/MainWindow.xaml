@@ -78,7 +78,7 @@
             </ToolBar>
         </ToolBarTray>
 
-        <TabControl Margin="0,6,0,0" Name="tcMain" Grid.Row="2" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <TabControl Margin="0,6,0,0" Name="tcMain" Grid.Row="2" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="TcMain_OnSelectionChanged">
             <!--Common tab-->
             <TabItem TabIndex="0" Header="{x:Static resources:Resources.Tab_Header_Overall}">
                 <tabs:CommonTabNew x:Name="CommonTab" HorizontalAlignment="Stretch" />
@@ -213,6 +213,9 @@
             </TabItem>
             <TabItem Header="{x:Static resources:Resources.Tab_Header_MapsStatistic}" DataContext="{Binding ChartView}">
                 <charts:ReplaysStatTab />
+            </TabItem>
+            <TabItem TabIndex="18" Header="{x:Static resources:Resources.Tab_Header_Balancer}" DataContext="{Binding BalancerData}" Name="tabBalancer">
+                <tabs:BalancerTab/>
             </TabItem>
         </TabControl>
         <StatusBar Grid.Row="3" VerticalAlignment="Bottom">

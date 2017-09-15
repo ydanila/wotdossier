@@ -112,6 +112,8 @@
     <Compile Include="CultureHelper.cs" />
     <Compile Include="DictionaryExtensions.cs" />
     <Compile Include="Events\AddFavoritePlayerEvent.cs" />
+    <Compile Include="Events\BalancerRefreshEvent.cs" />
+    <Compile Include="Events\BalancerActivatedEvent.cs" />
     <Compile Include="Events\RemoveFavoritePlayerEvent.cs" />
     <Compile Include="Events\ReplayManagerRefreshEvent.cs" />
     <Compile Include="Events\ReplayManagerActivatedEvent.cs" />
@@ -170,6 +172,7 @@
     <Compile Include="SyncManager.cs" />
     <Compile Include="ThemesManager.cs" />
     <Compile Include="Model\ClanMemberModel.cs" />
+    <Compile Include="ViewModel\BalancerDataViewModel.cs" />
     <Compile Include="ViewModel\Chart\CommonChartsViewModel.cs" />
     <Compile Include="ViewModel\Chart\DateDataPoint.cs" />
     <Compile Include="ViewModel\Chart\LocalizedGenericPoint.cs" />

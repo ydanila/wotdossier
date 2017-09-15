@@ -168,6 +168,8 @@ namespace WotDossier.Applications.ViewModel
 
         public ReplaysViewModel ReplaysViewModel { get; set; }
 
+        public BalancerDataViewModel BalancerData { get; set; }
+
         public List<ITankStatisticRow> LastUsedTanksList
         {
             get
@@ -291,6 +293,9 @@ namespace WotDossier.Applications.ViewModel
             EventAggregatorFactory.EventAggregator.GetEvent<AddFavoritePlayerEvent>().Subscribe(OnAddFavoritePlayer);
             EventAggregatorFactory.EventAggregator.GetEvent<RemoveFavoritePlayerEvent>().Subscribe(OnRemoveFavoritePlayer);
 
+            EventAggregatorFactory.EventAggregator.GetEvent<BalancerActivatedEvent>().Subscribe(OnBalancerActivated);
+            EventAggregatorFactory.EventAggregator.GetEvent<BalancerRefreshEvent>().Subscribe(OnBalancerRefresh);
+
             ProgressView = new ProgressControlViewModel();
             PeriodSelector = new PeriodSelectorViewModel();
             BattleModeSelector = new BattleModeSelectorViewModel();
@@ -312,6 +317,8 @@ namespace WotDossier.Applications.ViewModel
             ViewTyped.Closing += ViewTypedOnClosing;
 
             FavoritePlayers = new ObservableCollection<ListItem<int>>(Mapper.Map<List<FavoritePlayerEntity>, List<ListItem<int>>>(_dossierRepository.GetFavoritePlayers()));
+
+            BalancerData = new BalancerDataViewModel(_dossierRepository, ProgressView);
 
             InitCacheMonitor();
         }
@@ -368,6 +375,27 @@ namespace WotDossier.Applications.ViewModel
         private void OnReplayManagerRefresh(EventArgs eventArgs)
         {
             ReplaysViewModel.LoadReplaysList();
+        }
+
+        private void OnBalancerActivated(EventArgs eventArgs)
+        {
+            if(LoadInProgress)
+            {
+                return;
+            }
+
+            EventAggregatorFactory.EventAggregator.GetEvent<BalancerActivatedEvent>().Unsubscribe(OnBalancerActivated);
+            BalancerData.LoadReplaysList();
+        }
+
+        private void OnBalancerRefresh(EventArgs eventArgs)
+        {
+            if(LoadInProgress)
+            {
+                return;
+            }
+
+            BalancerData.LoadReplaysList();
         }
 
         public PlayerSelectorViewModel PlayerSelector { get; set; }

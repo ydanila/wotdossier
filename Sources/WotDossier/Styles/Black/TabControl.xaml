@@ -409,6 +409,15 @@
         </ControlTemplate.Triggers>
     </ControlTemplate>
 
+    <Style x:Key="office2007SilverLabel" TargetType="{x:Type Label}">
+        <Setter Property="TextElement.Foreground" Value="White"/>
+        <Setter Property="Padding" Value="11,6,11,6"/>
+        <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}"/>
+        <Setter Property="FontSize" Value="{StaticResource DefaultFontSize}"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+    </Style>
     <Style x:Key="office2007SilverTabItem" TargetType="{x:Type TabItem}">
         <Setter Property="TextElement.Foreground" Value="White"/>
         <Setter Property="Padding" Value="11,6,11,6"/>

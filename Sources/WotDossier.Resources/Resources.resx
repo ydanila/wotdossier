@@ -539,6 +539,21 @@
   <data name="Column_Ratings_MarkOfMastery" xml:space="preserve">
     <value>Mark Of Mastery</value>
   </data>
+  <data name="Column_Top_3_5_7" xml:space="preserve">
+    <value>Top 3-5-7</value>
+  </data>
+  <data name="Column_Top_5_10" xml:space="preserve">
+    <value>Top 5-10</value>
+  </data>
+  <data name="Column_One_Level" xml:space="preserve">
+    <value>One level</value>
+  </data>
+  <data name="Column_Bottom_5_10" xml:space="preserve">
+    <value>Bottom 5-10</value>
+  </data>
+  <data name="Column_Bottom_3_5_7" xml:space="preserve">
+    <value>Bottom 3-5-7</value>
+  </data>
   <data name="Tooltip_MarkOfMastery_1" xml:space="preserve">
     <value>Earn more experience in a single battle than the average highest experience of 50% of all players in the same tank within the last seven days.</value>
   </data>
@@ -3331,6 +3346,9 @@ up to 500 m</value>
   <data name="BattleType_assault2" xml:space="preserve">
     <value>Assault</value>
   </data>
+  <data name="ReplaysFilterGroupBy" xml:space="preserve">
+    <value>Group by</value>
+  </data>
   <data name="ReplaysFilterGroupHeader_Maps" xml:space="preserve">
     <value>Maps</value>
   </data>
@@ -3450,6 +3468,9 @@ up to 500 m</value>
   </data>
   <data name="Tab_Header_MapsStatistic" xml:space="preserve">
     <value>Maps Statistic</value>
+  </data>
+  <data name="Tab_Header_Balancer" xml:space="preserve">
+    <value>Balancer</value>
   </data>
   <data name="Tab_Header_OverallPerformance" xml:space="preserve">
     <value>Overall performance</value>
