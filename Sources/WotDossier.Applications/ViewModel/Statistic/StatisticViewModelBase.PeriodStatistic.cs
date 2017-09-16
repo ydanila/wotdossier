@@ -842,6 +842,11 @@ namespace WotDossier.Applications.ViewModel.Statistic
             get { return Even - TypedPrevStatistic.Even; }
         }
 
+        public int AimerDelta
+        {
+            get { return Aimer - TypedPrevStatistic.Aimer; }
+        }
+
         public double TierDelta
         {
             get { return Tier - TypedPrevStatistic.Tier; }

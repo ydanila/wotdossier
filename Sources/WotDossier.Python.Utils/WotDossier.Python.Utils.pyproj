@@ -4,16 +4,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e8457ef3-a18c-4b8e-8532-d7c7afd90888</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>..\WotDossier\External\wotrp2j.py</StartupFile>
-    <SearchPath>..\WotDossier\External;..\WotDossier\External;..\WotDossier\External;..\WotDossier\External</SearchPath>
-    <WorkingDirectory>.</WorkingDirectory>
+    <StartupFile>..\WotDossier\External\wotdc2j.py</StartupFile>
+    <SearchPath>..\WotDossier\External</SearchPath>
+    <WorkingDirectory>..\WotDossier\External</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>WotDossier.Python.Utils</Name>
     <RootNamespace>WotDossier.Python.Utils</RootNamespace>
     <InterpreterId>Global|PythonCore|2.7-32</InterpreterId>
     <IsWindowsApplication>False</IsWindowsApplication>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>c:\55\replays\20170829_2252_czech-Cz04_T50_51_212_epic_random_valley.wotreplay -a -chat</CommandLineArguments>
+    <CommandLineArguments>..\..\WotDossier.Test\CacheFiles\0.9.20\NRXWO2LOGIXHAMROO5XXE3DEN5THIYLONNZS43TFOQ5DEMBQGE2DWTLDJBQXE3TZHNIGYYLZMVZECY3DN52W45A=.dat -f</CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

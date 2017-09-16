@@ -106,6 +106,8 @@ namespace WotDossier.Applications.ViewModel.Rows
             Fadin = list.Sum(x => x.Fadin);
             HeroesOfRassenay = list.Sum(x => x.HeroesOfRassenay);
             DeLanglade = list.Sum(x => x.DeLanglade);
+            MedalGore = list.Sum(x => x.MedalGore);
+            MedalStark = list.Sum(x => x.MedalStark);
             #endregion
 
             #region [ IStatisticFrags ]

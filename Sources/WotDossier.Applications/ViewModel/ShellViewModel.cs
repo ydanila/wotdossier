@@ -727,8 +727,11 @@ namespace WotDossier.Applications.ViewModel
         private void UpdateLocalDatabase(Player serverStatistic, FileInfo cacheFile)
         {
             //convert dossier cache file to json
+
             string jsonFile = CacheFileHelper.BinaryCacheToJson(cacheFile);
             var tanksCache = CacheFileHelper.ReadTanksCache(jsonFile);
+            //var tanksCache = CacheFileHelper.InternalBinaryCacheToJson(cacheFile);
+
 
             AppSettings settings = SettingsReader.Get();
 

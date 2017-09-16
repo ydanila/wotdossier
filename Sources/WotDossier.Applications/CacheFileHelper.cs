@@ -10,7 +10,9 @@ using Newtonsoft.Json.Linq;
 using WotDossier.Common;
 using WotDossier.Common.Python;
 using WotDossier.Dal;
+using WotDossier.Domain.Dossier;
 using WotDossier.Domain.Dossier.AppSpot;
+using WotDossier.Domain.Dossier.Utils;
 using WotDossier.Domain.Tank;
 
 namespace WotDossier.Applications
@@ -111,17 +113,8 @@ namespace WotDossier.Applications
         /// <returns></returns>
         public static List<TankJson> InternalBinaryCacheToJson(FileInfo cacheFile)
         {
-            using (Unpickler unpickler = new Unpickler())
-            {
-                object[] pickle = (object[]) unpickler.load(cacheFile.OpenRead());
-                object dossierversion = pickle[0];
-                Hashtable tankItems = (Hashtable)pickle[1]; 
-                foreach (DictionaryEntry tankItem in tankItems)
-                {
-                    string data = (string) ((object[])tankItem.Value)[1];
-                }
-                return null;   
-            }
+            var result = DossierReader.Read(cacheFile);
+            return result.tanks_v2;
         }
 
         /// <summary>

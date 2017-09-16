@@ -513,23 +513,23 @@ namespace WotDossier.Applications.Parser
                 rosterdata[key].prebattleID = (int)roster[10];
 
                 var bindataBytes = Encoding.GetEncoding(1252).GetBytes((string)roster[1]);
-                List<int> bindata = bindataBytes.Unpack("BBHHHHHHB");
+                var bindata = bindataBytes.Unpack("BBHHHHHHB");
 
-                rosterdata[key].countryID = bindata[0] >> 4 & 15;
-                rosterdata[key].tankID = bindata[1];
-                int compDescr = (bindata[1] << 8) + bindata[0];
+                rosterdata[key].countryID = Convert.ToInt32(bindata[0]) >> 4 & 15;
+                rosterdata[key].tankID = Convert.ToInt32(bindata[1]);
+                int compDescr = (Convert.ToInt32(bindata[1]) << 8) + Convert.ToInt32(bindata[0]);
                 rosterdata[key].compDescr = compDescr;
 
                 //Does not make sense, will check later
                 rosterdata[key].vehicle = new AdvancedVehicleInfo();
-                rosterdata[key].vehicle.chassisID = bindata[2];
-                rosterdata[key].vehicle.engineID = bindata[3];
-                rosterdata[key].vehicle.fueltankID = bindata[4];
-                rosterdata[key].vehicle.radioID = bindata[5];
-                rosterdata[key].vehicle.turretID = bindata[6];
-                rosterdata[key].vehicle.gunID = bindata[7];
+                rosterdata[key].vehicle.chassisID = Convert.ToInt32(bindata[2]);
+                rosterdata[key].vehicle.engineID = Convert.ToInt32(bindata[3]);
+                rosterdata[key].vehicle.fueltankID = Convert.ToInt32(bindata[4]);
+                rosterdata[key].vehicle.radioID = Convert.ToInt32(bindata[5]);
+                rosterdata[key].vehicle.turretID = Convert.ToInt32(bindata[6]);
+                rosterdata[key].vehicle.gunID = Convert.ToInt32(bindata[7]);
 
-                int flags = bindata[8];
+                int flags = Convert.ToInt32(bindata[8]);
                 int optionalDevicesMask = flags & 15;
                 int idx = 2;
                 int pos = 15;

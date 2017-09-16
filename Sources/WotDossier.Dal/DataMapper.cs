@@ -1407,7 +1407,7 @@ namespace WotDossier.Dal
                 Arsonist = tankJson.Achievements.arsonist,
                 Bonecrusher = tankJson.Achievements.bonecrusher,
                 Charmed = tankJson.Achievements.charmed,
-                Even = tankJson.Achievements.even,
+                Even = tankJson.Achievements.even
             };
 
             //achievements 7x7

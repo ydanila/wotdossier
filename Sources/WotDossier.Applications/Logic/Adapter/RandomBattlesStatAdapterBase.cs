@@ -62,7 +62,8 @@ namespace WotDossier.Applications.Logic.Adapter
             Fadin = tanks.Sum(x => achievementsPredicate(x).Fadin);
             HeroesOfRassenay = tanks.Sum(x => achievementsPredicate(x).HeroesOfRassenay);
             DeLanglade = tanks.Sum(x => achievementsPredicate(x).DeLanglade);
-
+            MedalGore = tanks.Sum(x => achievementsPredicate(x).MedalGore);
+            MedalStark = tanks.Sum(x => achievementsPredicate(x).MedalStark);
             #endregion
 
             #region [ Series ]
@@ -95,9 +96,9 @@ namespace WotDossier.Applications.Logic.Adapter
             MovingAvgDamage = (int) tanks.Average(x => achievementsPredicate(x).MovingAvgDamage);
             MedalMonolith = tanks.Sum(x => achievementsPredicate(x).MedalMonolith);
             MedalAntiSpgFire = tanks.Sum(x => achievementsPredicate(x).MedalAntiSpgFire);
-            MedalGore = tanks.Sum(x => achievementsPredicate(x).MedalGore);
+            
             MedalCoolBlood = tanks.Sum(x => achievementsPredicate(x).MedalCoolBlood);
-            MedalStark = tanks.Sum(x => achievementsPredicate(x).MedalStark);
+            
             DamageRating = tanks.Max(x => achievementsPredicate(x).DamageRating);
 
             Impenetrable = tanks.Sum(x => achievementsPredicate(x).Impenetrable);
@@ -110,6 +111,7 @@ namespace WotDossier.Applications.Logic.Adapter
             Bonecrusher = tanks.Sum(x => achievementsPredicate(x).Bonecrusher);
             Charmed = tanks.Sum(x => achievementsPredicate(x).Charmed);
             Even = tanks.Sum(x => achievementsPredicate(x).Even);
+            Aimer = tanks.Sum(x => achievementsPredicate(x).Aimer);
 
             MasterGunner = tanks.Sum(x => achievementsPredicate(x).MasterGunner);
             Alaric = tanks.Sum(x => achievementsPredicate(x).Alaric);
@@ -184,7 +186,8 @@ namespace WotDossier.Applications.Logic.Adapter
             Fadin = stat.dataField.achievements.achievements.medalFadin;
             HeroesOfRassenay = stat.dataField.achievements.achievements.heroesOfRassenay;
             DeLanglade = stat.dataField.achievements.achievements.medalDeLanglade;
-
+            MedalGore = stat.dataField.achievements.achievements.medalGore;
+            MedalStark = stat.dataField.achievements.achievements.medalStark;
             #endregion
 
             #region [ Medals]
@@ -227,9 +230,9 @@ namespace WotDossier.Applications.Logic.Adapter
             MovingAvgDamage = stat.dataField.achievements.achievements.movingAvgDamage;
             MedalMonolith = stat.dataField.achievements.achievements.medalMonolith;
             MedalAntiSpgFire = stat.dataField.achievements.achievements.medalAntiSpgFire;
-            MedalGore = stat.dataField.achievements.achievements.medalGore;
+            
             MedalCoolBlood = stat.dataField.achievements.achievements.medalCoolBlood;
-            MedalStark = stat.dataField.achievements.achievements.medalStark;
+            
 
             if (stat.dataField.vehicles != null)
             {
@@ -328,6 +331,9 @@ namespace WotDossier.Applications.Logic.Adapter
 
         public int DeLanglade { get; set; }
 
+        public int MedalGore { get; set; }
+        public int MedalStark { get; set; }
+
         #endregion
 
         #region [ SpecialAwards ]
@@ -410,11 +416,11 @@ namespace WotDossier.Applications.Logic.Adapter
         
         public int MedalAntiSpgFire { get; set; }
         
-        public int MedalGore { get; set; }
+        
         
         public int MedalCoolBlood { get; set; }
         
-        public int MedalStark { get; set; }
+        
 
         public int BattleHero { get; set; }
 
@@ -434,6 +440,8 @@ namespace WotDossier.Applications.Logic.Adapter
         public int Bonecrusher { get; set; }
         public int Charmed { get; set; }
         public int Even { get; set; }
+
+        public int Aimer { get; set; }
 
         #endregion
 
