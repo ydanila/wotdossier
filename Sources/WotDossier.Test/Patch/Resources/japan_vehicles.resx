@@ -228,6 +228,12 @@
   <data name="Chassis_J28_O_I_100_2" xml:space="preserve">
     <value>O-Ni Kai</value>
   </data>
+  <data name="Chassis_J29_Nameless" xml:space="preserve">
+    <value>Nameless</value>
+  </data>
+  <data name="Chassis_J30_Edelweiss" xml:space="preserve">
+    <value>Edelweiss</value>
+  </data>
   <data name="Chassis_Ke_Ho" xml:space="preserve">
     <value>Type 5 Ke-Ho</value>
   </data>
@@ -338,6 +344,12 @@
   <data name="Chi_To_short" xml:space="preserve">
     <value>Chi-To</value>
   </data>
+  <data name="Edelweiss_Engine" xml:space="preserve">
+    <value>Edelweiss</value>
+  </data>
+  <data name="Edelweiss_Radio" xml:space="preserve">
+    <value>Edelweiss</value>
+  </data>
   <data name="FuG5A" xml:space="preserve">
     <value>Fu 5 mit 20 WS.E.</value>
   </data>
@@ -440,6 +452,24 @@
   <data name="J28_O_I_100_short" xml:space="preserve">
     <value>O-Ni</value>
   </data>
+  <data name="J29_Nameless" xml:space="preserve">
+    <value>Nameless</value>
+  </data>
+  <data name="J29_Nameless_descr" xml:space="preserve">
+    <value>Основная боевая машина отряда 422, подразделения регулярной армии Галлии, также известного как «Безымянные». Как и у танка Edelweiss, отличительной чертой данной машины были наклонные плиты брони. Массового распространения в танкостроении машина не получила. Насколько известно, машина отряда 422 — один из боевых прототипов.</value>
+  </data>
+  <data name="J29_Nameless_short" xml:space="preserve">
+    <value>Nameless</value>
+  </data>
+  <data name="J30_Edelweiss" xml:space="preserve">
+    <value>Edelweiss</value>
+  </data>
+  <data name="J30_Edelweiss_descr" xml:space="preserve">
+    <value>Экспериментальный средний танк. Разработан инженером Тэймером под руководством генерала Белгена Гюнтера по опыту боевых действий Первой Европейской Войны. С началом Второй Европейской Войны боевая машина использовалась Седьмым Отрядом Третьего Полка Галлийского Ополчения. Серийно не выпускался.</value>
+  </data>
+  <data name="J30_Edelweiss_short" xml:space="preserve">
+    <value>Edelweiss</value>
+  </data>
   <data name="JAN-GRC-3Z" xml:space="preserve">
     <value>JAN/GRC-3Z</value>
   </data>
@@ -505,6 +535,12 @@ Otsu-Gata Sensha (танк модель В). Японские машины бы�
   </data>
   <data name="NC27_short" xml:space="preserve">
     <value>R. Otsu</value>
+  </data>
+  <data name="Nameless_Engine" xml:space="preserve">
+    <value>Nameless</value>
+  </data>
+  <data name="Nameless_Radio" xml:space="preserve">
+    <value>Nameless</value>
   </data>
   <data name="STA_1" xml:space="preserve">
     <value>STA-1</value>
@@ -601,6 +637,12 @@ Otsu-Gata Sensha (танк модель В). Японские машины бы�
   <data name="Turret_1_J28_O_I_100" xml:space="preserve">
     <value>O-Ni</value>
   </data>
+  <data name="Turret_1_J29_Nameless" xml:space="preserve">
+    <value>Nameless</value>
+  </data>
+  <data name="Turret_1_J30_Edelweiss" xml:space="preserve">
+    <value>Edelweiss</value>
+  </data>
   <data name="Turret_1_Ke_Ho" xml:space="preserve">
     <value>Type 5 Ke-Ho</value>
   </data>
@@ -691,6 +733,9 @@ Otsu-Gata Sensha (танк модель В). Японские машины бы�
   </data>
   <data name="_105mm_AP_Experimental_Type2_TKK" xml:space="preserve">
     <value>AP Experimental Type 2 Toku Kou Kai</value>
+  </data>
+  <data name="_105mm_AP_Experimental_Type2_TS" xml:space="preserve">
+    <value>AP Experimental Type 2 Toku Otsu</value>
   </data>
   <data name="_105mm_Cannon_Type92" xml:space="preserve">
     <value>10 cm Cannon Type 92</value>
@@ -965,8 +1010,32 @@ Otsu-Gata Sensha (танк модель В). Японские машины бы�
   <data name="_75mm_Type5_1" xml:space="preserve">
     <value>7.5 cm Tank Gun Type 5</value>
   </data>
+  <data name="_88mm_Edelweiss_AP" xml:space="preserve">
+    <value>AP/E</value>
+  </data>
+  <data name="_88mm_Edelweiss_APCR" xml:space="preserve">
+    <value>APCR/E</value>
+  </data>
+  <data name="_88mm_Edelweiss_ENH" xml:space="preserve">
+    <value>ENH/E</value>
+  </data>
+  <data name="_88mm_Edelweiss_Gun" xml:space="preserve">
+    <value>88 mm Theimer L/40</value>
+  </data>
   <data name="_88mm_KwK_36_L56A" xml:space="preserve">
     <value>8,8 cm Kw.K. 36 L/56</value>
+  </data>
+  <data name="_88mm_Nameless_AP" xml:space="preserve">
+    <value>AP/N</value>
+  </data>
+  <data name="_88mm_Nameless_APCR" xml:space="preserve">
+    <value>APCR/N</value>
+  </data>
+  <data name="_88mm_Nameless_ENH" xml:space="preserve">
+    <value>ENH/N</value>
+  </data>
+  <data name="_88mm_Nameless_Gun" xml:space="preserve">
+    <value>88 mm Breda L/48 (Trial Production)</value>
   </data>
   <data name="_88mm_Pzgr.40" xml:space="preserve">
     <value>Pzgr. 40</value>

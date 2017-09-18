@@ -148,7 +148,7 @@
     <value>AMX 13 105 AM mle. 50</value>
   </data>
   <data name="AMX_105AM_descr" xml:space="preserve">
-    <value>САУ на базе танка AMX-B. Прототип машины разрабатывался и испытывался с 1949 года. В 1955 году началось серийное производство.</value>
+    <value>Разрабатывалась с конца 40-х годов на базе танка AMX 13 75. Установка была вооружена гаубицей Obusier de 105 mm TF50. С начала 50-х годов данная САУ поступила на вооружение французской армии. Всего было выпущено 429 машин, из которых 92 были поставлены в Нидерланды.</value>
   </data>
   <data name="AMX_105AM_short" xml:space="preserve">
     <value>AMX 13 AM</value>
@@ -166,7 +166,7 @@
     <value>AMX 13 F3 AM</value>
   </data>
   <data name="AMX_13F3AM_descr" xml:space="preserve">
-    <value>Разработана в конце 50-х годов на базе АМХ 13. Выпускалась до конца 60-х годов. До сих пор состоит на вооружении во Франции, Аргентине, Чили, Эквадоре, Марокко и ряде других стран.</value>
+    <value>Разработана в конце 50-х годов инженерами компании Creusot-Loire на укороченной базе АМХ 13 с установкой 155-мм орудия. Выпускалась с 1962 по 1997 год. Всего было выпущено около 600 машин. До сих пор состоит на вооружении во Франции, Аргентине, Чили, Эквадоре, Марокко и ряде других стран.</value>
   </data>
   <data name="AMX_13F3AM_short" xml:space="preserve">
     <value>AMX 13 F3</value>
@@ -325,7 +325,7 @@
     <value>BDR G1 B</value>
   </data>
   <data name="BDR_G1B_descr" xml:space="preserve">
-    <value>Конструкция нового танка была предложена инженерами Baudet-Donon-Rousell в июне 1938 года. Однако даже проект машины разработан не был.</value>
+    <value>Конструкция нового танка была предложена инженерами Baudet-Donon-Roussel в июне 1938 года, однако проект машины разработан не был.</value>
   </data>
   <data name="BDR_G1B_short" xml:space="preserve">
     <value>BDR G1 B</value>
@@ -352,7 +352,7 @@
     <value>Bat.-Châtillon 25 t</value>
   </data>
   <data name="Bat_Chatillon25t_descr" xml:space="preserve">
-    <value>Экспериментальный французский танк. Являлся дальнейшим развитием концепции АМХ 13. Прошёл испытания, но серийно не выпускался и на вооружении не состоял. Всего было выпущено две машины.</value>
+    <value>Средний танк с качающейся башней и 90-мм орудием. Разрабатывался в середине 50-х годов компанией Batignolles-Châtillon. Было построено два опытных образца. Серийно не выпускался.</value>
   </data>
   <data name="Bat_Chatillon25t_short" xml:space="preserve">
     <value>B-C 25 t</value>
@@ -610,6 +610,9 @@ de 33 calibres</value>
   <data name="Chassis_F19_Lorraine40t" xml:space="preserve">
     <value>Lorraine 40 t</value>
   </data>
+  <data name="Chassis_F64_AMX_50Fosh_B" xml:space="preserve">
+    <value>AMX 50 Foch B</value>
+  </data>
   <data name="Chassis_F74_AMX_M4_1949" xml:space="preserve">
     <value>AMX M4 mle. 49</value>
   </data>
@@ -624,6 +627,9 @@ de 33 calibres</value>
   </data>
   <data name="Chassis_F87_Batignolles-Chatillon_12t_2" xml:space="preserve">
     <value>Batignolles-Châtillon 12 t bis</value>
+  </data>
+  <data name="Chassis_F89_Canon_dassaut_de_105" xml:space="preserve">
+    <value>AMX Canon d'assaut de 105</value>
   </data>
   <data name="Chassis_FCM36_20t" xml:space="preserve">
     <value>FCM 36</value>
@@ -825,6 +831,15 @@ de 33 calibres</value>
   <data name="F19_Lorraine40t_short" xml:space="preserve">
     <value>Lorr. 40 t</value>
   </data>
+  <data name="F64_AMX_50Fosh_B" xml:space="preserve">
+    <value>AMX 50 Foch B</value>
+  </data>
+  <data name="F64_AMX_50Fosh_B_descr" xml:space="preserve">
+    <value>В рамках работы над ПТ-САУ AMX 50 Foch со 120-мм орудием рассматривался вариант установки автомата заряжания, но после начала работ над танком АМХ 50 120 с аналогичным вооружением данное направление было признано бесперспективным. Рабочий прототип так и не был построен.</value>
+  </data>
+  <data name="F64_AMX_50Fosh_B_short" xml:space="preserve">
+    <value>Foch B</value>
+  </data>
   <data name="F68_AMX_Chasseur_de_char_46" xml:space="preserve">
     <value>AMX Chasseur de chars</value>
   </data>
@@ -924,6 +939,15 @@ de 33 calibres</value>
   <data name="F88_AMX_13_105_short" xml:space="preserve">
     <value>AMX 13 105</value>
   </data>
+  <data name="F89_Canon_dassaut_de_105" xml:space="preserve">
+    <value>AMX Canon d'assaut 105</value>
+  </data>
+  <data name="F89_Canon_dassaut_de_105_descr" xml:space="preserve">
+    <value>ПТ-САУ Canon d'assaut de 105 представляет собой проект боевой машины, разработанный компанией AMX в 1958 году. Согласно архивным данным, проектируемая ПТ-САУ должна была обладать высокой подвижностью и манёвренностью, при этом иметь хорошее бронирование (до 100 мм в лобовой проекции) и мощное 105-мм орудие. Однако дальнейшая разработка была свёрнута, и проект остался на бумаге.</value>
+  </data>
+  <data name="F89_Canon_dassaut_de_105_short" xml:space="preserve">
+    <value>AMX Cda 105</value>
+  </data>
   <data name="FCM36_20t" xml:space="preserve">
     <value>FCM 36</value>
   </data>
@@ -1003,7 +1027,7 @@ de 33 calibres</value>
     <value>Lorraine 39L AM</value>
   </data>
   <data name="Lorraine39_L_AM_descr" xml:space="preserve">
-    <value>САУ на базе Lorraine 37L. Разработка началась накануне Второй мировой войны. Существовала только в эскизах.</value>
+    <value>САУ на базе тягача-бронетранспортёра Lorraine 37L. Разработка началась накануне Второй мировой войны. Существовала только в эскизах.</value>
   </data>
   <data name="Lorraine39_L_AM_short" xml:space="preserve">
     <value>Lorr. 39L AM</value>
@@ -1123,7 +1147,7 @@ mle. 1950</value>
     <value>Renault FT 75 BS</value>
   </data>
   <data name="RenaultBS_descr" xml:space="preserve">
-    <value>Первый заказ на САУ на базе танка Renault FT-17 был сделан в декабре 1917 года. Однако до конца Первой мировой войны ни одной САУ в армию не поставили. Только после окончания боевых действий было выпущено 39 машин.</value>
+    <value>САУ с 75-мм короткоствольной гаубицей Blockhaus Schneider S типа, установленной в бронерубке. Её размер был больше предыдущих, из-за чего вес САУ увеличился до 7,3 тонн. Из-за большого орудия размер боекомплекта снизился до 30 снарядов. Военное руководство оценило проект, и впоследствии поступил заказ на 970 машин. К моменту окончания Первой мировой войны было создано всего 39 машин, после чего выпуск прекратился. Достоверной информации насчёт использования этой САУ в 1940-х годах нет, но некоторые из машин приняли участие в боях в Северной Африке. Две САУ были захвачены Союзниками (США, Великобритания, Франция) во время Мароккано-алжирской операции «Факел».</value>
   </data>
   <data name="RenaultBS_short" xml:space="preserve">
     <value>FT BS</value>
@@ -1135,7 +1159,7 @@ mle. 1950</value>
     <value>Renault FT AC</value>
   </data>
   <data name="RenaultFT_AC_descr" xml:space="preserve">
-    <value>Большое количество находящихся на вооружении во французской армии Renault FT вынуждало постоянно предпринимать попытки модернизации этих устаревших машин. Например, было предложено переделать танки в ПТ-САУ, но проект так и остался нереализованным.</value>
+    <value>Во французской армии на момент окончания Первой мировой войны оставалось на вооружении большое количество лёгких танков Renault FT. Машины постоянно модернизировались, в том числе было предложено создать ПТ-САУ на базе танка Renault FT. Однако проект так и остался на стадии разработок.</value>
   </data>
   <data name="RenaultFT_AC_short" xml:space="preserve">
     <value>FT AC</value>
@@ -1168,7 +1192,8 @@ mle. 1950</value>
     <value>Renault UE 57</value>
   </data>
   <data name="RenaultUE57_descr" xml:space="preserve">
-    <value>Разработана в 1943 году в Великобритании путём установки британского шестифунтового орудия с дульным тормозом специально разработанной конструкции на шасси французской танкетки UE2. Выпущен один экземпляр.</value>
+    <value>Разработана в 1943 году в Великобритании. На шасси французской танкетки Renault UE2 было установлено британское 57-мм противотанковое орудие
+Ordnance QF 6-pounder с дульным тормозом специально разработанной конструкции. Выпущен один экземпляр.</value>
   </data>
   <data name="RenaultUE57_short" xml:space="preserve">
     <value>UE 57</value>
@@ -1255,6 +1280,9 @@ Naeder-FIEUX</value>
   <data name="SCR_619" xml:space="preserve">
     <value>SCR 619</value>
   </data>
+  <data name="SCR_619_F155" xml:space="preserve">
+    <value>SCR 619F</value>
+  </data>
   <data name="SCR_619_fallout" xml:space="preserve">
     <value>SCR 619</value>
   </data>
@@ -1263,6 +1291,9 @@ Naeder-FIEUX</value>
   </data>
   <data name="SOFAM_12GSds_A" xml:space="preserve">
     <value>SOFAM 12 GSds</value>
+  </data>
+  <data name="SOFAM_12_58" xml:space="preserve">
+    <value>SOFAM 12 58</value>
   </data>
   <data name="SOFAM_8Gxb" xml:space="preserve">
     <value>SOFAM 8 Gxb</value>
@@ -1284,6 +1315,12 @@ Naeder-FIEUX</value>
   </data>
   <data name="Saurer" xml:space="preserve">
     <value>Saurer</value>
+  </data>
+  <data name="Saurer_1000" xml:space="preserve">
+    <value>Saurer 1000</value>
+  </data>
+  <data name="Saurer_F155" xml:space="preserve">
+    <value>Saurer 1000F</value>
   </data>
   <data name="Somua_190CV_V8" xml:space="preserve">
     <value>Somua V8</value>
@@ -1446,6 +1483,9 @@ Naeder-FIEUX</value>
   <data name="Turret_1_F19_Lorraine40t" xml:space="preserve">
     <value>Lorraine 40 t</value>
   </data>
+  <data name="Turret_1_F64_AMX_50Fosh_B" xml:space="preserve">
+    <value>AMX 50 Foch B</value>
+  </data>
   <data name="Turret_1_F74_AMX_M4_1949" xml:space="preserve">
     <value>AMX M4 mle. 49</value>
   </data>
@@ -1457,6 +1497,9 @@ Naeder-FIEUX</value>
   </data>
   <data name="Turret_1_F88_AMX_13_105" xml:space="preserve">
     <value>AMX 13 105</value>
+  </data>
+  <data name="Turret_1_F89_Canon_dassaut_de_105" xml:space="preserve">
+    <value>AMX Canon d'assaut de 105</value>
   </data>
   <data name="Turret_1_FCM36_20t" xml:space="preserve">
     <value>Tracteur RN.3</value>
@@ -1595,6 +1638,9 @@ Naeder-FIEUX</value>
   </data>
   <data name="_105mm_APCR_OFL_E1" xml:space="preserve">
     <value>OFL-105-57</value>
+  </data>
+  <data name="_105mm_CN_105" xml:space="preserve">
+    <value>105 mm CN 105</value>
   </data>
   <data name="_105mm_CN_105_57" xml:space="preserve">
     <value>105 mm mle. 57 (D. 1504)</value>

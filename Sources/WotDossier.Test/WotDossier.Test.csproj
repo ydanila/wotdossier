@@ -130,6 +130,17 @@
     <Compile Include="TestFixtureBase.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Patch\0.9.20\Resources\china_vehicles.resx" />
+    <EmbeddedResource Include="Patch\0.9.20\Resources\czech_vehicles.resx" />
+    <EmbeddedResource Include="Patch\0.9.20\Resources\france_vehicles.resx" />
+    <EmbeddedResource Include="Patch\0.9.20\Resources\gb_vehicles.resx" />
+    <EmbeddedResource Include="Patch\0.9.20\Resources\germany_vehicles.resx" />
+    <EmbeddedResource Include="Patch\0.9.20\Resources\igr_vehicles.resx" />
+    <EmbeddedResource Include="Patch\0.9.20\Resources\japan_vehicles.resx" />
+    <EmbeddedResource Include="Patch\0.9.20\Resources\poland_vehicles.resx" />
+    <EmbeddedResource Include="Patch\0.9.20\Resources\sweden_vehicles.resx" />
+    <EmbeddedResource Include="Patch\0.9.20\Resources\usa_vehicles.resx" />
+    <EmbeddedResource Include="Patch\0.9.20\Resources\ussr_vehicles.resx" />
     <None Include="..\.tools\convert.bat">
       <Link>Tools\convert.bat</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -358,6 +369,28 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
+    <None Include="Patch\0.9.20\Resources\china_vehicles.mo" />
+    <None Include="Patch\0.9.20\Resources\china_vehicles.po" />
+    <None Include="Patch\0.9.20\Resources\czech_vehicles.mo" />
+    <None Include="Patch\0.9.20\Resources\czech_vehicles.po" />
+    <None Include="Patch\0.9.20\Resources\france_vehicles.mo" />
+    <None Include="Patch\0.9.20\Resources\france_vehicles.po" />
+    <None Include="Patch\0.9.20\Resources\gb_vehicles.mo" />
+    <None Include="Patch\0.9.20\Resources\gb_vehicles.po" />
+    <None Include="Patch\0.9.20\Resources\germany_vehicles.mo" />
+    <None Include="Patch\0.9.20\Resources\germany_vehicles.po" />
+    <None Include="Patch\0.9.20\Resources\igr_vehicles.mo" />
+    <None Include="Patch\0.9.20\Resources\igr_vehicles.po" />
+    <None Include="Patch\0.9.20\Resources\japan_vehicles.mo" />
+    <None Include="Patch\0.9.20\Resources\japan_vehicles.po" />
+    <None Include="Patch\0.9.20\Resources\poland_vehicles.mo" />
+    <None Include="Patch\0.9.20\Resources\poland_vehicles.po" />
+    <None Include="Patch\0.9.20\Resources\sweden_vehicles.mo" />
+    <None Include="Patch\0.9.20\Resources\sweden_vehicles.po" />
+    <None Include="Patch\0.9.20\Resources\usa_vehicles.mo" />
+    <None Include="Patch\0.9.20\Resources\usa_vehicles.po" />
+    <None Include="Patch\0.9.20\Resources\ussr_vehicles.mo" />
+    <None Include="Patch\0.9.20\Resources\ussr_vehicles.po" />
     <None Include="Replays\0.9.14\20160212_2124_ussr-Object_140_83_kharkiv.wotreplay">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -4191,9 +4224,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Patch\0.9.20\Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>

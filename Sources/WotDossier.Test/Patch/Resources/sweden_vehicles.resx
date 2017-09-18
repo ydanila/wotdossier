@@ -249,6 +249,9 @@
   <data name="Chassis_S23_Strv_81" xml:space="preserve">
     <value>Strv 81</value>
   </data>
+  <data name="Chassis_S23_Strv_81_sabaton" xml:space="preserve">
+    <value>Primo Victoria</value>
+  </data>
   <data name="DB_605" xml:space="preserve">
     <value>DB 605</value>
   </data>
@@ -520,6 +523,15 @@ L-60. В 1939 году к проекту проявила заинтересов
   <data name="S23_Strv_81_descr" xml:space="preserve">
     <value>В середине 1950-х г. Швеция закупила у Великобритании около 240 танков Centurion Mk. 3 и Mk. 5. В шведской армии машины получили наименование Strv 81. Танки находились на вооружении вплоть до начала 2000-х гг. и неоднократно модернизировались на протяжении всего срока службы.</value>
   </data>
+  <data name="S23_Strv_81_sabaton" xml:space="preserve">
+    <value>Primo Victoria</value>
+  </data>
+  <data name="S23_Strv_81_sabaton_descr" xml:space="preserve">
+    <value>Около 240 танков Centurion Mk. III и Mk. V было закуплено шведскими военными для нужд армии, где машины получили наименование Strv 81. Танки состояли на вооружении вплоть до начала 2000-х годов, неоднократно модернизируясь на протяжении всего срока службы. В августе 2017 года один из образцов был передан шведской группе Sabaton, где подвергся серьёзной модернизации, обретя все характерные признаки настоящего headbanger-танка, а британская сталь была перекована в настоящий шведский металл.</value>
+  </data>
+  <data name="S23_Strv_81_sabaton_short" xml:space="preserve">
+    <value>P:Victoria</value>
+  </data>
   <data name="S23_Strv_81_short" xml:space="preserve">
     <value>Strv 81</value>
   </data>
@@ -612,6 +624,9 @@ L-60. В 1939 году к проекту проявила заинтересов
   </data>
   <data name="Turret_1_S23_Strv_81" xml:space="preserve">
     <value>Strv 81</value>
+  </data>
+  <data name="Turret_1_S23_Strv_81_sabaton" xml:space="preserve">
+    <value>Primo Victoria</value>
   </data>
   <data name="Turret_2_S02_Strv_M42" xml:space="preserve">
     <value>Strv m/42</value>
