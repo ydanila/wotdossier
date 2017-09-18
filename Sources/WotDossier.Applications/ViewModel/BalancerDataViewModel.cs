@@ -1,19 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
-using System.Windows;
 using Common.Logging;
+using WotDossier.Applications.Annotations;
 using WotDossier.Applications.Logic;
 using WotDossier.Applications.ViewModel.Replay;
 using WotDossier.Dal;
-using WotDossier.Domain.Entities;
-using WotDossier.Framework;
 using WotDossier.Framework.Forms.ProgressDialog;
 
 namespace WotDossier.Applications.ViewModel
 {
-    public class BalancerDataViewModel
+    public class BalancerDataViewModel : INotifyPropertyChanged
     {
         private static readonly ILog _log = LogManager.GetLogger<BalancerDataViewModel>();
 
@@ -73,12 +70,21 @@ namespace WotDossier.Applications.ViewModel
         {
             try
             {
-                   var root = ReplaysViewModel.PrepareReplays(reporter, _log, DossierRepository, ReplaysFolders, replayFolders, _replays);
+                var root = ReplaysViewModel.PrepareReplays(reporter, _log, DossierRepository, ReplaysFolders, replayFolders, _replays);
+                OnPropertyChanged(nameof(ReplaysFolders));
             }
             finally
             {
                 _processing = false;
             }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        [NotifyPropertyChangedInvocator]
+        protected virtual void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

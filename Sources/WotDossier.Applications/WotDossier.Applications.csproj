@@ -149,6 +149,7 @@
     <Compile Include="Parser\Parser98.cs" />
     <Compile Include="Parser\Parser96.cs" />
     <Compile Include="Parser\Parser93.cs" />
+    <Compile Include="Properties\Annotations.cs" />
     <Compile Include="ReplayFileHelper.cs" />
     <Compile Include="ReplaysManagerController.cs" />
     <Compile Include="Events\ReplayFileMoveEvent.cs" />

@@ -493,6 +493,8 @@ namespace WotDossier.Applications.ViewModel
             try
             {
                 var root = PrepareReplays(reporter, _log, DossierRepository, ReplaysFolders, replayFolders, _replays);
+                OnPropertyChanged(nameof(ReplaysFolders));
+                OnPropertyChanged(nameof(Replays));
 
                 //restore folder selection
                 ReplayFilter.SelectedFolder =
@@ -589,11 +591,7 @@ namespace WotDossier.Applications.ViewModel
                     .ToList();
 
             currentReplays.RemoveAll(x => x.FolderId == ReplaysManager.DeletedFolder.Id);
-            currentReplays.AddRange(collection);
-
-            //sort
-            currentReplays.Clear();
-            currentReplays.AddRange(currentReplays.OrderByDescending(x => x.PlayTime).ToList());
+            currentReplays.AddRange(collection.OrderByDescending(x => x.PlayTime).ToList());
 
             //add folder for deleted replays
             ReplayFolder deletedFolder =
