@@ -13,7 +13,7 @@
              xmlns:replay="clr-namespace:WotDossier.Applications.ViewModel.Replay;assembly=WotDossier.Applications"
              xmlns:dataGrid="clr-namespace:WotDossier.Framework.Controls.DataGrid;assembly=WotDossier.Framework"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="300" d:DesignWidth="800">
     <UserControl.Resources>
 
         <HierarchicalDataTemplate x:Key="TreeTemplate" ItemsSource="{Binding Folders}" DataType="replay:ReplayFolder">

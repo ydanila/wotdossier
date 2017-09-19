@@ -10,7 +10,7 @@ namespace WotDossier.Domain.Tank
     [DataContract]
     public class TankDescription
     {
-        private const string UNKNOWN = "Unknown";
+        public const string UNKNOWN = "Unknown";
 
         public static TankDescription Unknown(string iconId = null)
         {

@@ -746,6 +746,7 @@ namespace WotDossier.Applications.ViewModel
                     finally
                     {
                         LoadInProgress = false;
+                        EventAggregatorFactory.EventAggregator.GetEvent<BalancerRefreshEvent>().Publish(EventArgs.Empty);
                     }
                 });
 
