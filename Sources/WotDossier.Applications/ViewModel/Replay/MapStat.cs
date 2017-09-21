@@ -24,6 +24,7 @@ namespace WotDossier.Applications.ViewModel.Replay
         public static readonly string PropDamageDealt = TypeHelper<ReplayFile>.PropertyName(v => v.DamageDealt);
         public static readonly string PropDamaged = TypeHelper<ReplayFile>.PropertyName(v => v.Damaged);
         public static readonly string PropCredits = TypeHelper<ReplayFile>.PropertyName(v => v.Credits);
+        public static readonly string PropCrystal = TypeHelper<ReplayFile>.PropertyName(v => v.Crystal);
         public static readonly string PropKilled = TypeHelper<ReplayFile>.PropertyName(v => v.Killed);
         public static readonly string PropXp = TypeHelper<ReplayFile>.PropertyName(v => v.Xp);
 
@@ -42,6 +43,7 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int DamageReceived { get; set; }
         public int DamageDealt { get; set; }
         public int Credits { get; set; }
+        public int Crystal { get; set; }
         public int CreditsEarned { get; set; }
         public int Team { get; set; }
         
@@ -63,6 +65,7 @@ namespace WotDossier.Applications.ViewModel.Replay
             }
             
             Credits = (int) replays.Average(x => x.Credits);
+            Crystal = (int) replays.Average(x => x.Credits);
             CreditsEarned = (int) replays.Average(x => x.CreditsEarned);
             DamageDealt = (int) replays.Average(x => x.DamageDealt);
             DamageReceived = (int) replays.Average(x => x.DamageReceived);

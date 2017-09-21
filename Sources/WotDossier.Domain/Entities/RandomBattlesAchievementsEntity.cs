@@ -502,6 +502,9 @@ namespace WotDossier.Domain.Entities
         [DataMember]
         public virtual int Even { get; set; }
 
+        [DataMember]
+        public virtual int Aimer { get; set; }
+
         #region
 
         [DataMember]

@@ -16,19 +16,9 @@ namespace WotDossier.Domain.Interfaces
         int MedalAntiSpgFire { get; set; }
 
         /// <summary>
-        /// Gets or sets the medal gore.
-        /// </summary>
-        int MedalGore { get; set; }
-
-        /// <summary>
         /// Gets or sets the medal cool blood.
         /// </summary>
         int MedalCoolBlood { get; set; }
-
-        /// <summary>
-        /// Gets or sets the medal stark.
-        /// </summary>
-        int MedalStark { get; set; }
 
         /// <summary>
         /// Gets or sets the damage rating.

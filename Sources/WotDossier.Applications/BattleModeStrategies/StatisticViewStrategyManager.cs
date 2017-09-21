@@ -33,6 +33,11 @@ namespace WotDossier.Applications.BattleModeStrategies
             {
                 return new FortSortiesStatisticViewStrategy(dossierRepository);
             }
+
+            if (randomCompany == BattleMode.GrandBattle)
+            {
+                return new GrandBattleStatisticViewStrategy(dossierRepository);
+            }
             return null;
         }
     }

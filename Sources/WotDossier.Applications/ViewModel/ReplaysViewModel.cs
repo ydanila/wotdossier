@@ -603,7 +603,7 @@ namespace WotDossier.Applications.ViewModel
         {
             var path = ReplaysCacheFilePath();
             
-            using (var stream = File.Open(path, FileMode.Create, FileAccess.Read))
+            using (var stream = File.Open(path, FileMode.Create, FileAccess.Write))
             {
                 Serializer.Serialize(stream, replays);
             }
@@ -630,6 +630,14 @@ namespace WotDossier.Applications.ViewModel
                 catch (Exception e)
                 {
                     _log.Error("Error on replays cache load", e);
+                    try
+                    {
+                        File.Delete(path);
+                    }
+                    catch (Exception exception)
+                    {
+                        _log.Error("Cant delete replays cache", exception);
+                    }
                 }
             }
             return new List<ReplayFile>();

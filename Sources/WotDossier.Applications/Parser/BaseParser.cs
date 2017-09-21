@@ -7,6 +7,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using Common.Logging;
 using Ionic.Zlib;
+using Newtonsoft.Json;
 using WotDossier.Common;
 using WotDossier.Common.Extensions;
 using WotDossier.Domain;
@@ -16,6 +17,54 @@ namespace WotDossier.Applications.Parser
 {
     public class BaseParser
     {
+        protected string ProcessedVersion { get; set; }
+        public ulong ReplayWriterVehicle { get; set; }
+
+		protected List<int> vehicleIds = new List<int>();
+
+        List<Packet> pcList = new List<Packet>();
+        
+
+        public class PacketDescription
+        {
+            public PacketType Type { get; set; }
+            public ulong StreamPacketType { get; set; }
+            public ulong StreamSubType { get; set; }
+            public ulong PlayerId { get; set; }
+
+            public TimeSpan Time { get; set; }
+
+            public long Offset { get; set; }
+            public ulong PacketLength { get; set; }
+            public ulong SubTypePayloadLength { get; set; }
+            public List<byte> Payload { get; set; }
+        }
+
+        class MyConverter : JsonConverter
+        {
+            public override bool CanConvert(Type objectType)
+            {
+                return objectType == typeof(string[]) || objectType == typeof(List<byte>) || objectType == typeof(byte[]);
+            }
+
+            public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+            {
+                throw new NotImplementedException();
+            }
+
+            public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+            {
+                if (value != null && value is byte[])
+                {
+                    writer.WriteRawValue(JsonConvert.SerializeObject(((byte[])value).ToList(), Formatting.None));
+                }
+                else
+                    writer.WriteRawValue(JsonConvert.SerializeObject(value, Formatting.None));
+            }
+        }
+
+
+
         protected static readonly ILog _log = LogManager.GetLogger<BaseParser>();
         private bool _abort = false;
 
@@ -29,7 +78,7 @@ namespace WotDossier.Applications.Parser
             get { return 0x07; }
         }
 
-        protected virtual ulong UpdateEvent_Health
+        public virtual ulong UpdateEvent_Health
         {
             get { return 0x03; }
         }
@@ -54,6 +103,11 @@ namespace WotDossier.Applications.Parser
             get { return 0x1d; }
         }
 
+        protected virtual ulong PacketVersion
+        {
+            get { return 0x14; }
+        }
+
         public void ReadReplayStream(Stream stream, Action<Packet> packetHandler)
         {
             _abort = false;
@@ -69,6 +123,16 @@ namespace WotDossier.Applications.Parser
                 }
             }
             _log.Trace("End replay stream read");
+
+            var settings = new JsonSerializerSettings
+            {
+                Formatting = Formatting.Indented,
+            };
+            settings.Converters.Add(new MyConverter());
+            //File.WriteAllText($"Logs\\{ProcessedVersion}.Packets.json", JsonConvert.SerializeObject(pcList, settings));
+
+
+
         }
 
         public void Abort()
@@ -84,7 +148,8 @@ namespace WotDossier.Applications.Parser
 
             long position = stream.Position;
 
-            bool endOfStream = packetType == new byte[] { 255, 255, 255, 255 }.ConvertLittleEndian() || stream.Position >= stream.Length;
+            bool endOfStream = packetType == new byte[] {255, 255, 255, 255}.ConvertLittleEndian() ||
+                               stream.Position >= stream.Length;
 
             byte[] payload = new byte[packetLength];
 
@@ -92,7 +157,7 @@ namespace WotDossier.Applications.Parser
 
             if (!endOfStream)
             {
-                stream.Read(payload, 0, (int)packetLength);
+                stream.Read(payload, 0, (int) packetLength);
 
                 packet = new Packet
                 {
@@ -103,60 +168,60 @@ namespace WotDossier.Applications.Parser
                     Time = TimeSpan.FromSeconds(time),
                     Clock = time
                 };
-
                 //battle level setup 
                 if (packet.StreamPacketType == 0x00)
                 {
                     _log.Trace("Process packet 0x00");
-                    ProcessPacket_0x00(packet);
+                    ProcessPacketBattleLevel(packet);
                 }
                 else
-                //player position
+                    //player position
                 if (packet.StreamPacketType == PacketPosition)
                 {
-                    _log.Trace("Process packet 0x0a");
-                    ProcessPacket_0x0a(packet);
+                    _log.Trace("Process packet 'Player position'");
+                    ProcessPacketPlayerPosition(packet);
                 }
                 else
-                //minimap click
+                    //minimap click
                 if (packet.StreamPacketType == 0x21)
                 {
                     _log.Trace("Process packet 0x21");
                     ProcessPacket_0x21(packet);
                 }
                 else
-                //replay version
-                if (packet.StreamPacketType == 0x14)
+                    //replay version
+                if (packet.StreamPacketType == PacketVersion)
                 {
-                    _log.Trace("Process packet 0x14");
-                    ProcessPacket_0x14(packet);
+                    _log.Trace($"Process version packet {PacketVersion}");
+                    ProcessPacket_Version(packet);
                 }
                 else
-                //in game updates
+                    //in game updates
                 if (packet.StreamPacketType == PacketBattleUpdateEvent)
                 {
                     _log.Trace("Process packet 0x08");
-                    ProcessPacket_0x08(packet);
+                    ProcessPacketStateUpdate(packet);
                 }
-                else
-                if (packet.StreamPacketType == PacketHealth)
+                else if (packet.StreamPacketType == PacketHealth)
                 {
                     _log.Trace("Process packet 0x07");
-                    ProcessPacket_0x07(packet);
+                    ProcessPacketHealth(packet);
                 }
                 else
-                //chat
+                    //chat
                 if (packet.StreamPacketType == PacketChat)
                 {
                     _log.Trace("Process packet 0x1f");
                     ProcessPacket_0x1f(packet);
                 }
+                pcList.Add(packet);
             }
 
             return packet;
         }
+		List<ulong> hls = new List<ulong>();
 
-        private void ProcessPacket_0x07(Packet packet)
+        protected virtual void ProcessPacketHealth(Packet packet)
         {
             packet.Type = PacketType.Health;
 
@@ -179,7 +244,10 @@ namespace WotDossier.Applications.Parser
                     data.health = value < 0 ? 0 : value;
                 }
             }
-        }
+
+	        if (!hls.Contains(packet.StreamSubType))
+		        hls.Add(packet.StreamSubType);
+		}
 
         /// <summary>
         /// Processes the minimap click.
@@ -205,7 +273,11 @@ namespace WotDossier.Applications.Parser
             }
         }
 
-        private void ProcessPacket_0x0a(Packet packet)
+        /// <summary>
+        /// Processes the player position.
+        /// </summary>
+        /// <param name="packet">The packet.</param>
+        protected virtual void ProcessPacketPlayerPosition(Packet packet)
         {
             packet.Type = PacketType.PlayerPos;
 
@@ -215,7 +287,7 @@ namespace WotDossier.Applications.Parser
 
             using (MemoryStream f = new MemoryStream(packet.Payload))
             {
-                data.PlayerId = (long)f.Read(4).ConvertLittleEndian();
+                data.PlayerId = f.Read(4).ConvertLittleEndian();
 
                 f.Seek(12, SeekOrigin.Begin);
 
@@ -238,7 +310,7 @@ namespace WotDossier.Applications.Parser
         /// Contains Battle level setup and Player Name.
         /// </summary>
         /// <param name="packet">The packet.</param>
-        public virtual void ProcessPacket_0x00(Packet packet)
+        public virtual void ProcessPacketBattleLevel(Packet packet)
         {
             packet.Type = PacketType.BattleLevel;
 
@@ -283,7 +355,7 @@ namespace WotDossier.Applications.Parser
         /// Contains Various game state updates
         /// </summary>
         /// <param name="packet">The packet.</param>
-        protected virtual void ProcessPacket_0x08(Packet packet)
+        protected virtual void ProcessPacketStateUpdate(Packet packet)
         {
             using (MemoryStream stream = new MemoryStream(packet.Payload))
             {
@@ -294,19 +366,24 @@ namespace WotDossier.Applications.Parser
                 //read 8-12 - update length
                 packet.SubTypePayloadLength = stream.Read(4).ConvertLittleEndian();
 
+	            if (packet.SubTypePayloadLength > 10 && packet.SubTypePayloadLength < 20)
+	            {
+		            var x = 0;
+	            }
+
                 if (packet.StreamSubType == UpdateEvent_Arena) //onArenaUpdate events
                 {
-                    ProcessPacket_0x08_0x1d(packet, stream);
+                    ProcessPacketStateArenaUpdate(packet, stream);
                 }
 
-                if (packet.StreamSubType == UpdateEvent_Slot) //onSlotUpdate events
+                else if (packet.StreamSubType == UpdateEvent_Slot) //onSlotUpdate events
                 {
                     ProcessPacket_0x08_0x09(packet, stream);
                 }
 
-                if (packet.StreamSubType == 0x01) //onDamageReceived
+                else if (packet.StreamSubType == 0x01) //onDamageReceived
                 {
-                    //ProcessPacket_0x08_0x01(packet, stream, data);
+                    ProcessPacket_0x08_0x01(packet, stream);//, data);
                 }
             }
         }
@@ -332,7 +409,7 @@ namespace WotDossier.Applications.Parser
         /// </summary>
         /// <param name="packet">The packet.</param>
         /// <param name="stream">The stream.</param>
-        protected virtual void ProcessPacket_0x08_0x1d(Packet packet, MemoryStream stream)
+        protected virtual void ProcessPacketStateArenaUpdate(Packet packet, MemoryStream stream)
         {
             packet.Type = PacketType.ArenaUpdate;
 
@@ -344,6 +421,30 @@ namespace WotDossier.Applications.Parser
 
             data.updateType = updateType;
 
+
+            var updatePayload = ProcessPacketStateArenaUpdateBase(packet, data, stream);
+
+            //Updates the vehicle list; also known as the roster
+            switch (updateType)
+            {
+                case ARENA_UPDATE.VEHICLE_LIST:
+                    ProcessPacketStateArenaUpdateVehicleList(data, updatePayload);
+                    break;
+                case ARENA_UPDATE.BASE_POINTS:
+                    ProcessPacketStateArenaUpdateBasePoints(data, updatePayload);
+                    break;
+                case ARENA_UPDATE.PERIOD:
+                    ProcessPacketStateArenaUpdatePeriod(data, updatePayload);
+                    break;
+                case ARENA_UPDATE.VEHICLE_KILLED:
+                    ProcessPacketStateArenaUpdateVehicleKilled(data, updatePayload);
+                    break;
+            }
+        }
+
+        protected virtual byte[] ProcessPacketStateArenaUpdateBase(Packet packet, dynamic data, Stream stream)
+        {
+            ulong updateType = data.updateType;
             //For update types 0x01 and 0x04: at offset 14, read an uint16 and unpack it to 2 bytes, 
             //if the unpacked value matches 0x80, 0x02 then set your offset to 14. 
             //If the unpacked value does not match 0x80, 0x02 set your offset to 17. 
@@ -371,155 +472,157 @@ namespace WotDossier.Applications.Parser
                 stream.Seek(1, SeekOrigin.Current);
                 packet.SubTypePayloadLength = packet.SubTypePayloadLength - 2;
             }
-
             //Read from your offset to the end of the packet, this will be the "update pickle". 
             byte[] updatePayload = stream.Read((int)(packet.SubTypePayloadLength));
+            return updatePayload;
+        }
 
-            //Updates the vehicle list; also known as the roster
-            if (updateType == 0x01)
+        protected virtual void ProcessPacketStateArenaUpdateVehicleList(dynamic data, byte[] updatePayload)
+        {
+            var rosterdata = new Dictionary<string, AdvancedPlayerInfo>();
+            data.roster = rosterdata;
+
+            List<object> rosters = new List<object>();
+
+            try
             {
-                var rosterdata = new Dictionary<string, AdvancedPlayerInfo>();
-                data.roster = rosterdata;
-
-                List<object> rosters = new List<object>();
-
-                try
+                using (var updatePayloadStream = new MemoryStream(updatePayload))
                 {
-                    using (var updatePayloadStream = new MemoryStream(updatePayload))
-                    {
-                        rosters = (List<object>)Unpickle.Load(updatePayloadStream);
-                    }
+                    rosters = (List<object>)Unpickle.Load(updatePayloadStream);
                 }
-                catch (Exception e)
+            }
+            catch (Exception e)
+            {
+                _log.Error("Error on roster load", e);
+            }
+
+            foreach (object[] roster in rosters)
+            {
+                string key = (string)roster[2];
+                rosterdata[key] = new AdvancedPlayerInfo();
+                rosterdata[key].internaluserID = (int)roster[0];
+
+				//if(!vehicleIds.Contains(rosterdata[key].internaluserID))
+				//	vehicleIds.Add(rosterdata[key].internaluserID);
+
+                rosterdata[key].playerName = key;
+                rosterdata[key].team = (int)roster[3];
+                rosterdata[key].accountDBID = (int)roster[7];
+                rosterdata[key].clanAbbrev = (string)roster[8];
+                rosterdata[key].clanID = (int)roster[9];
+                rosterdata[key].prebattleID = (int)roster[10];
+
+                var bindataBytes = Encoding.GetEncoding(1252).GetBytes((string)roster[1]);
+                var bindata = bindataBytes.Unpack("BBHHHHHHB");
+
+                rosterdata[key].countryID = Convert.ToInt32(bindata[0]) >> 4 & 15;
+                rosterdata[key].tankID = Convert.ToInt32(bindata[1]);
+                int compDescr = (Convert.ToInt32(bindata[1]) << 8) + Convert.ToInt32(bindata[0]);
+                rosterdata[key].compDescr = compDescr;
+
+                //Does not make sense, will check later
+                rosterdata[key].vehicle = new AdvancedVehicleInfo();
+                rosterdata[key].vehicle.chassisID = Convert.ToInt32(bindata[2]);
+                rosterdata[key].vehicle.engineID = Convert.ToInt32(bindata[3]);
+                rosterdata[key].vehicle.fueltankID = Convert.ToInt32(bindata[4]);
+                rosterdata[key].vehicle.radioID = Convert.ToInt32(bindata[5]);
+                rosterdata[key].vehicle.turretID = Convert.ToInt32(bindata[6]);
+                rosterdata[key].vehicle.gunID = Convert.ToInt32(bindata[7]);
+
+                int flags = Convert.ToInt32(bindata[8]);
+                int optionalDevicesMask = flags & 15;
+                int idx = 2;
+                int pos = 15;
+
+                while (optionalDevicesMask != 0)
                 {
-                    _log.Error("Error on roster load", e);
-                }
-
-                foreach (object[] roster in rosters)
-                {
-                    string key = (string)roster[2];
-                    rosterdata[key] = new AdvancedPlayerInfo();
-                    rosterdata[key].internaluserID = (int)roster[0];
-                    rosterdata[key].playerName = key;
-                    rosterdata[key].team = (int)roster[3];
-                    rosterdata[key].accountDBID = (int)roster[7];
-                    rosterdata[key].clanAbbrev = (string)roster[8];
-                    rosterdata[key].clanID = (int)roster[9];
-                    rosterdata[key].prebattleID = (int)roster[10];
-
-                    var bindataBytes = Encoding.GetEncoding(1252).GetBytes((string)roster[1]);
-                    List<int> bindata = bindataBytes.Unpack("BBHHHHHHB");
-
-                    rosterdata[key].countryID = bindata[0] >> 4 & 15;
-                    rosterdata[key].tankID = bindata[1];
-                    int compDescr = (bindata[1] << 8) + bindata[0];
-                    rosterdata[key].compDescr = compDescr;
-
-                    //Does not make sense, will check later
-                    rosterdata[key].vehicle = new AdvancedVehicleInfo();
-                    rosterdata[key].vehicle.chassisID = bindata[2];
-                    rosterdata[key].vehicle.engineID = bindata[3];
-                    rosterdata[key].vehicle.fueltankID = bindata[4];
-                    rosterdata[key].vehicle.radioID = bindata[5];
-                    rosterdata[key].vehicle.turretID = bindata[6];
-                    rosterdata[key].vehicle.gunID = bindata[7];
-
-                    int flags = bindata[8];
-                    int optionalDevicesMask = flags & 15;
-                    int idx = 2;
-                    int pos = 15;
-
-                    while (optionalDevicesMask != 0)
+                    if ((optionalDevicesMask & 1) == 1)
                     {
-                        if ((optionalDevicesMask & 1) == 1)
+                        try
                         {
-                            try
-                            {
-                                int m = (int)bindataBytes.Skip(pos).Take(2).ToArray().ConvertLittleEndian();
-                                rosterdata[key].vehicle.module[idx] = m;
-                            }
-                            catch (Exception e)
-                            {
-                                _log.Error("error on processing player [" + key + "]: ", e);
-                            }
+                            int m = (int)bindataBytes.Skip(pos).Take(2).ToArray().ConvertLittleEndian();
+                            rosterdata[key].vehicle.module[idx] = m;
                         }
-
-                        optionalDevicesMask = optionalDevicesMask >> 1;
-                        idx = idx - 1;
-                        pos = pos + 2;
-
+                        catch (Exception e)
+                        {
+                            _log.Error("error on processing player [" + key + "]: ", e);
+                        }
                     }
-                }
-            }
 
-            if (updateType == 0x08)
-            {
-                try
-                {
-                    using (var updatePayloadStream = new MemoryStream(updatePayload))
-                    {
-                        object[] update = (object[])Unpickle.Load(updatePayloadStream);
-                        data.team = (int)update[0];
-                        data.baseID = (int)update[1];
-                        data.points = (int)update[2];
-                        data.capturingStopped = (int)update[3];
-                    }
-                }
-                catch (Exception e)
-                {
-                    _log.Error("Error on update load", e);
-                }
-            }
+                    optionalDevicesMask = optionalDevicesMask >> 1;
+                    idx = idx - 1;
+                    pos = pos + 2;
 
-            if (updateType == 0x03)
-            {
-                try
-                {
-                    using (var updatePayloadStream = new MemoryStream(updatePayload))
-                    {
-                        object[] update = (object[])Unpickle.Load(updatePayloadStream);
-                        data.period = update[0];
-                        data.period_end = update[1];
-                        data.period_length = Convert.ToInt32(update[2]);
-                        data.activities = update[3];
-                    }
-                }
-                catch (Exception e)
-                {
-                    _log.Error("Error on update load", e);
-                }
-            }
-
-            if (updateType == 0x06)
-            {
-                try
-                {
-                    using (var updatePayloadStream = new MemoryStream(updatePayload))
-                    {
-                        object[] update = (object[])Unpickle.Load(updatePayloadStream);
-                        data.destroyed = update[0];
-                        data.destroyer = update[1];
-                        data.reason = update[2];
-                    }
-                }
-                catch (Exception e)
-                {
-                    _log.Error("Error on update load", e);
                 }
             }
         }
 
+        protected virtual void ProcessPacketStateArenaUpdateBasePoints(dynamic data, byte[] updatePayload)
+        {
+            try
+            {
+                using (var updatePayloadStream = new MemoryStream(updatePayload))
+                {
+                    object[] update = (object[])Unpickle.Load(updatePayloadStream);
+                    data.team = (int)update[0];
+                    data.baseID = (int)update[1];
+                    data.points = (int)update[2];
+                    data.capturingStopped = (int)update[3];
+                }
+            }
+            catch (Exception e)
+            {
+                _log.Error("Error on update load", e);
+            }
+        }
+
+        protected virtual void ProcessPacketStateArenaUpdatePeriod(dynamic data, byte[] updatePayload)
+        {
+            try
+            {
+                using (var updatePayloadStream = new MemoryStream(updatePayload))
+                {
+                    object[] update = (object[])Unpickle.Load(updatePayloadStream);
+                    data.period = update[0];
+                    data.period_end = update[1];
+                    data.period_length = Convert.ToInt32(update[2]);
+                    data.activities = update[3];
+                }
+            }
+            catch (Exception e)
+            {
+                _log.Error("Error on update load", e);
+            }
+        }
+
+        protected virtual void ProcessPacketStateArenaUpdateVehicleKilled(dynamic data, byte[] updatePayload)
+        {
+            try
+            {
+                using (var updatePayloadStream = new MemoryStream(updatePayload))
+                {
+                    object[] update = (object[])Unpickle.Load(updatePayloadStream);
+                    data.destroyed = update[0];
+                    data.destroyer = update[1];
+                    data.reason = update[2];
+                }
+            }
+            catch (Exception e)
+            {
+                _log.Error("Error on update load", e);
+            }
+        }
         /// <summary>
         /// Process packet 0x08 subType 0x09
         /// Contains slots updates
         /// </summary>
         /// <param name="packet">The packet.</param>
         /// <param name="stream">The stream.</param>
-        protected static void ProcessPacket_0x08_0x09(Packet packet, MemoryStream stream)
+        protected virtual void ProcessPacket_0x08_0x09(Packet packet, MemoryStream stream)
         {
             packet.Type = PacketType.SlotUpdate;
-            //buffer = new byte[packet.SubTypePayloadLength];
-            ////Read from your offset to the end of the packet, this will be the "update pickle". 
+            //var buffer = new byte[packet.SubTypePayloadLength];
+            //Read from your offset to the end of the packet, this will be the "update pickle". 
             //stream.Read(buffer, 0, (int) (packet.SubTypePayloadLength));
 
             dynamic data = new ExpandoObject();
@@ -541,7 +644,7 @@ namespace WotDossier.Applications.Parser
         /// Contains Replay version
         /// </summary>
         /// <param name="packet">The packet.</param>
-        private static void ProcessPacket_0x14(Packet packet)
+        protected virtual void ProcessPacket_Version(Packet packet)
         {
             packet.Type = PacketType.Version;
 
@@ -560,6 +663,7 @@ namespace WotDossier.Applications.Parser
                 data.replay_version = data.replay_version.Replace(". ", ".");
                 data.replay_version = data.replay_version.Replace(' ', '.');
             }
+            ProcessedVersion = data.replay_version;
         }
 
         /// <summary>

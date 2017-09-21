@@ -86,6 +86,7 @@ namespace WotDossier.Dal.Mappings
             Map(v => v.Bonecrusher);
             Map(v => v.Charmed);
             Map(v => v.Even);
+            Map(v => v.Aimer);
 
             Map(v => v.Rev);
         }

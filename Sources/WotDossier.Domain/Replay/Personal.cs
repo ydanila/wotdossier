@@ -55,5 +55,18 @@ namespace WotDossier.Domain.Replay
         public int tmenXP { get; set; }
         [DataMember]
         public int xpPenalty { get; set; }
+      
+        [DataMember]
+        public int originalCrystal { get; set; }
+        
+        [DataMember]
+        public int crystal { get; set; }
+        
+        [DataMember]
+        public int subtotalCrystal { get; set; }
+        
+        [DataMember]
+        public int eventCrystal { get; set; }
+        
     }
 }

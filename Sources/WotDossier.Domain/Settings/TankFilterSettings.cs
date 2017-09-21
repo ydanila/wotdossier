@@ -19,6 +19,7 @@
             JPSelected = true;
             CZSelected = true;
             SESelected = true;
+            PLSelected = true;
             LTSelected = true;
             MTSelected = true;
             HTSelected = true;
@@ -227,6 +228,14 @@
         ///   <c>true</c> if [se selected]; otherwise, <c>false</c>.
         /// </value>
         public bool SESelected { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether [pl selected].
+        /// </summary>
+        /// <value>
+        ///   <c>true</c> if [pl selected]; otherwise, <c>false</c>.
+        /// </value>
+        public bool PLSelected { get; set; }
 
         /// <summary>
         /// Gets or sets a value indicating whether this instance is premium.

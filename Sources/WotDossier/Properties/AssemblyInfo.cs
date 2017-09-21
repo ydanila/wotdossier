@@ -8,11 +8,11 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("WotDossier")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("World Of Tanks Dossier Cache statistics")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("ITN")]
 [assembly: AssemblyProduct("WotDossier")]
-[assembly: AssemblyCopyright("Copyright © Rembel 2016")]
+[assembly: AssemblyCopyright("Copyright © Rembel, McHarny 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -51,4 +51,4 @@ using System.Windows;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("4.15.0.*")]
+[assembly: AssemblyVersion("4.15.1.*")]

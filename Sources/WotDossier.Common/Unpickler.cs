@@ -294,7 +294,15 @@ namespace WotDossier.Common
                     string raw = ReadLineNoNewline();
                     if ("00" == raw) return False;
                     else if ("01" == raw) return True;
-                    return Int32.Parse(raw);
+                    try
+                    {
+                        return Int32.Parse(raw);
+                    }
+                    catch (OverflowException)
+                    {
+                        // hmm, integer didnt' work.. is it perhaps an int from a 64-bit python? so try long:
+                        return long.Parse(raw);
+                    }
                 }
 
                 private int ReadInt32()
@@ -354,7 +362,7 @@ namespace WotDossier.Common
                 {
                     for (int i = markIndex + 1; i < _stack.Count; i += 2)
                     {
-                        dict[(string)_stack[i]] = _stack[i + 1];
+                        dict[(string)_stack[i].ToString()] = _stack[i + 1];
                     }
                     PopMark(markIndex);
                 }

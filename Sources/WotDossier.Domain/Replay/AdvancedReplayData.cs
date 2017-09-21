@@ -44,11 +44,6 @@ namespace WotDossier.Domain.Replay
         public AdvancedVehicleInfo vehicle { get; set; }
     }
 
-    public class BattleInfo
-    {
-        public int battleLevel { get; set; }
-    }
-
     public class AdvancedVehicleInfo
     {
         public ModuleIndexer module;

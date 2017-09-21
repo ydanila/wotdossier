@@ -10,9 +10,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WotDossier.Domain</RootNamespace>
     <AssemblyName>WotDossier.Domain</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,6 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -30,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'TournamentStat|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -39,11 +42,14 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="JetBrains.Annotations, Version=11.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
+      <HintPath>..\packages\JetBrains.Annotations.11.0.0\lib\net20\JetBrains.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -63,6 +69,9 @@
     <Compile Include="Dossier\AppSpot\Series.cs" />
     <Compile Include="Dossier\AppSpot\Tank.cs" />
     <Compile Include="Dossier\AppSpot\TankStatistic.cs" />
+    <Compile Include="Dossier\DossierData.cs" />
+    <Compile Include="Dossier\DossierDataHeader.cs" />
+    <Compile Include="Dossier\DossierReader.cs" />
     <Compile Include="Dossier\TankV65\Achievements7x7.cs" />
     <Compile Include="Dossier\TankV87\Achievements.cs" />
     <Compile Include="Dossier\TankV87\AchievementsFort.cs" />
@@ -87,14 +96,44 @@
     <Compile Include="Dossier\TankV65\CommonJson.cs" />
     <Compile Include="Dossier\TankV65\StatisticJson_2.cs" />
     <Compile Include="Dossier\TankV65\TotalJson.cs" />
+    <Compile Include="Dossier\TankV88\AchievementsSingle.cs" />
+    <Compile Include="Dossier\TankV88\TankJson.cs" />
+    <Compile Include="Dossier\TankV89\AchievementsSingle.cs" />
+    <Compile Include="Dossier\TankV89\TankJson.cs" />
+    <Compile Include="Dossier\TankV92\TankJson.cs" />
+    <Compile Include="Dossier\TankV94\AchievementsFallout.cs" />
+    <Compile Include="Dossier\TankV94\MaxJsonFallout.cs" />
+    <Compile Include="Dossier\TankV94\StatisticJsonFallout.cs" />
+    <Compile Include="Dossier\TankV94\TankJson.cs" />
+    <Compile Include="Dossier\TankV95\StatisticJson.cs" />
+    <Compile Include="Dossier\TankV95\StatisticJsonFallout.cs" />
+    <Compile Include="Dossier\TankV95\StatisticJsonFort.cs" />
+    <Compile Include="Dossier\TankV95\StatisticJsonFortSortie.cs" />
+    <Compile Include="Dossier\TankV95\StatisticJson_2.cs" />
+    <Compile Include="Dossier\TankV95\TankJson.cs" />
+    <Compile Include="Dossier\TankV96\AchievementsFallout.cs" />
+    <Compile Include="Dossier\TankV96\TankJson.cs" />
+    <Compile Include="Dossier\TankV97\StatisticJsonFort.cs" />
+    <Compile Include="Dossier\TankV97\StatisticJsonFortSortie.cs" />
+    <Compile Include="Dossier\TankV97\TankJson.cs" />
+    <Compile Include="Dossier\TankV98\AchievementsFort.cs" />
+    <Compile Include="Dossier\TankV98\TankJson.cs" />
+    <Compile Include="Dossier\TankV99\TankJson.cs" />
+    <Compile Include="Dossier\Utils\Base32.cs" />
     <Compile Include="Entities\FavoritePlayerEntity.cs" />
+    <Compile Include="Entities\GrandBattleBattlesStatisticEntity.cs" />
     <Compile Include="Entities\IRevised.cs" />
+    <Compile Include="Entities\RankedBattlesAchievementsEntity.cs" />
+    <Compile Include="Entities\RankedBattlesStatisticEntity.cs" />
+    <Compile Include="Entities\TankGrandBattleBattlesStatisticEntity.cs" />
+    <Compile Include="Entities\TankRankedBattlesStatisticEntity.cs" />
     <Compile Include="GameplayDescription.cs" />
     <Compile Include="Interfaces\IFortAchievements.cs" />
     <Compile Include="Interfaces\IClanBattlesAchievements.cs" />
     <Compile Include="Interfaces\IMapDescription.cs" />
     <Compile Include="Interfaces\IRandomBattlesAchievements.cs" />
     <Compile Include="Interfaces\IHistoricalBattlesAchievements.cs" />
+    <Compile Include="Interfaces\IRankedBattlesAchievements.cs" />
     <Compile Include="Interfaces\IStatisticExtended.cs" />
     <Compile Include="Interfaces\IStatisticBase.cs" />
     <Compile Include="Interfaces\IStatisticBattleAwards.cs" />
@@ -108,6 +147,7 @@
     <Compile Include="Interfaces\IStatisticSeries.cs" />
     <Compile Include="Interfaces\IStatisticSpecialAwards.cs" />
     <Compile Include="Interfaces\IStatisticXp.cs" />
+    <Compile Include="Interfaces\IFalloutAchievements.cs" />
     <Compile Include="Interfaces\ITeamBattlesAchievements.cs" />
     <Compile Include="Entities\TankRandomBattlesStatisticEntity.cs" />
     <Compile Include="Entities\TankTeamBattleStatisticEntity.cs" />
@@ -133,7 +173,10 @@
     <Compile Include="Entities\PlayerEntity.cs" />
     <Compile Include="Entities\RandomBattlesStatisticEntity.cs" />
     <Compile Include="MedalGroup.cs" />
+    <Compile Include="Rating\WN8Type.cs" />
     <Compile Include="Replay\AdvancedReplayData.cs" />
+    <Compile Include="Replay\Avatar.cs" />
+    <Compile Include="Replay\BattleInfo.cs" />
     <Compile Include="Replay\BattleResult98.cs" />
     <Compile Include="Replay\BattleResult.cs" />
     <Compile Include="Replay\ChatMessage.cs" />
@@ -149,6 +192,7 @@
     <Compile Include="Replay\Player.cs" />
     <Compile Include="Replay\Replay.cs" />
     <Compile Include="Replay\ReplayIdentify.cs" />
+    <Compile Include="Replay\ResultBase.cs" />
     <Compile Include="Replay\Slot.cs" />
     <Compile Include="Replay\SlotItem.cs" />
     <Compile Include="Replay\StatBase.cs" />
@@ -187,6 +231,7 @@
     <Compile Include="Dossier\TankV65\StatisticJson.cs" />
     <Compile Include="Dossier\TankV65\MaxJson.cs" />
     <Compile Include="Dossier\TankV65\TankJson.cs" />
+    <Compile Include="Tank\AchievementsFallout.cs" />
     <Compile Include="Tank\AchievementsFort.cs" />
     <Compile Include="Tank\AchievementsHistorical.cs" />
     <Compile Include="Tank\Achievements7x7.cs" />
@@ -203,6 +248,9 @@
     <Compile Include="Tank\RatingExpectancy.cs" />
     <Compile Include="Tank\ShellDescription.cs" />
     <Compile Include="Tank\StatisticJson.cs" />
+    <Compile Include="Tank\StatisticJsonFallout.cs" />
+    <Compile Include="Tank\StatisticJsonFort.cs" />
+    <Compile Include="Tank\StatisticJsonSortie.cs" />
     <Compile Include="Tank\TankJsonV2.cs" />
     <Compile Include="Tank\TankServerInfo.cs" />
     <Compile Include="Tank\FragsJson.cs" />
@@ -224,6 +272,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WotDossier.Common\WotDossier.Common.csproj">
+      <Project>{1268B707-A866-4723-89C7-2E9BD92E6AA6}</Project>
+      <Name>WotDossier.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -10,7 +10,7 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Right"
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Right" Padding="0, 0, 5, 0"
             FontFamily="{Binding Path=FontFamily, RelativeSource={RelativeSource FindAncestor, AncestorType=view:TextWithImage}, Mode=TwoWay}"
             FontSize="{Binding Path=FontSize, RelativeSource={RelativeSource FindAncestor, AncestorType=view:TextWithImage}, Mode=TwoWay}"
             Foreground="{Binding Path=Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType=view:TextWithImage}, Mode=TwoWay}"

@@ -960,13 +960,22 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
     <value>Shots fired</value>
   </data>
   <data name="Label_ReplayDetail_DirectHits" xml:space="preserve">
-    <value>direct hits</value>
+    <value>direct hits/penetrations</value>
   </data>
   <data name="Label_ReplayDetail_HEDamage" xml:space="preserve">
-    <value>damage caused by HE shells</value>
+    <value>splash damange</value>
+  </data>
+  <data name="Label_ReplayDetail_HEReceived" xml:space="preserve">
+    <value>Hits received as a result of splash damage</value>
+  </data>
+  <data name="Label_ReplayDetail_SniperDamage" xml:space="preserve">
+    <value>from a distance of more than 300 meters</value>
   </data>
   <data name="Label_ReplayDetail_Penetrations" xml:space="preserve">
     <value>penetrations</value>
+  </data>
+  <data name="Label_ReplayDetail_NonPenetration" xml:space="preserve">
+    <value>non-penetration</value>
   </data>
   <data name="Label_ReplayDetail_Damage" xml:space="preserve">
     <value>Damage</value>
@@ -978,25 +987,25 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
     <value>Damage caused to allies (destroyed/HP)</value>
   </data>
   <data name="Label_ReplayDetail_Detected" xml:space="preserve">
-    <value>Enemies detected</value>
+    <value>Enemy vehicles spotted</value>
   </data>
-  <data name="Label_ReplayDetail_Damaged" xml:space="preserve">
-    <value>Enemies damaged</value>
+  <data name="Label_ReplayDetail_DamagedDestroyed" xml:space="preserve">
+    <value>Enemy vehicles damaged/destroyed</value>
   </data>
-  <data name="Label_ReplayDetail_Destroyed" xml:space="preserve">
-    <value>Enemies destroyed</value>
+  <data name="Label_ReplayDetail_DamageAssistedStun" xml:space="preserve">
+    <value>Damage to Enemy Vehicles Stunned by You</value>
   </data>
   <data name="Label_ReplayDetail_DamageUponDetecting" xml:space="preserve">
-    <value>Damage upon detecting</value>
+    <value>Damage due to the player’s assistance</value>
   </data>
-  <data name="Label_ReplayDetail_CapturePoint" xml:space="preserve">
-    <value>Base capture points</value>
+  <data name="Label_ReplayDetail_StunNum" xml:space="preserve">
+    <value>Stuns caused</value>
   </data>
-  <data name="Label_ReplayDetail_DefensePoints" xml:space="preserve">
-    <value>Base defense points</value>
+  <data name="Label_ReplayDetail_CaptureDefensePoints" xml:space="preserve">
+    <value>Base capture/defence points</value>
   </data>
   <data name="Label_ReplayDetail_Traveled" xml:space="preserve">
-    <value>Traveled</value>
+    <value>Distance traveled</value>
   </data>
   <data name="Label_ReplayDetail_CreditsReceived" xml:space="preserve">
     <value>Received</value>
@@ -1070,11 +1079,17 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
   <data name="Column_Replay_Credits" xml:space="preserve">
     <value>Credits</value>
   </data>
+  <data name="Column_Replay_Crystal" xml:space="preserve">
+    <value>Crystal</value>
+  </data>
   <data name="Column_Replay_Damaged" xml:space="preserve">
     <value>Damaged</value>
   </data>
   <data name="Column_Replay_DamageDealt" xml:space="preserve">
     <value>Damage Dealt</value>
+  </data>
+  <data name="Column_Replay_Stun" xml:space="preserve">
+    <value>Stuns</value>
   </data>
   <data name="Column_Replay_DamageReceived" xml:space="preserve">
     <value>Damage Received</value>
@@ -1086,7 +1101,7 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
     <value>XP</value>
   </data>
   <data name="Replay_TeamMember_HideResultButton" xml:space="preserve">
-    <value>Hide</value>
+    <value>Close</value>
   </data>
   <data name="TankFilterPanel_Levels" xml:space="preserve">
     <value>Levels</value>
@@ -1159,6 +1174,9 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
   </data>
   <data name="Settings_CheckForUpdatesOnStart" xml:space="preserve">
     <value>Check for updates on start</value>
+  </data>
+  <data name="Settings_TryFindTankAnalog" xml:space="preserve">
+    <value>Try to find trank analog in expected values</value>
   </data>
   <data name="WindowCaption_Error" xml:space="preserve">
     <value>Error</value>
@@ -1415,6 +1433,9 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
   <data name="Column_Performance_DamageAssistedRadio" xml:space="preserve">
     <value>Damage Assisted Radio</value>
   </data>
+  <data name="Column_Performance_DamageAssistedStun" xml:space="preserve">
+    <value>Damage Assisted Stun</value>
+  </data>
   <data name="Column_Performance_DamageAssistedTrack" xml:space="preserve">
     <value>Damage Assisted Track</value>
   </data>
@@ -1523,6 +1544,9 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
   <data name="Column_Performance_AvgDamageAssistedTrack" xml:space="preserve">
     <value>Average Damage Assisted Track</value>
   </data>
+  <data name="Column_Performance_AvgDamageAssistedStun" xml:space="preserve">
+    <value>Average Damage Assisted Stun</value>
+  </data>
   <data name="Column_Performance_AvgOriginalXP" xml:space="preserve">
     <value>Average Original XP</value>
   </data>
@@ -1570,6 +1594,9 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
   </data>
   <data name="Column_Replay_Platoon" xml:space="preserve">
     <value>Platoon</value>
+  </data>
+  <data name="Column_Replay_Achievements" xml:space="preserve">
+    <value>Achievements</value>
   </data>
   <data name="Column_Replay_PlayerName" xml:space="preserve">
     <value>Player Name</value>
@@ -1790,6 +1817,9 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
   <data name="BattleType_Tutorial" xml:space="preserve">
     <value>Tutorial</value>
   </data>
+  <data name="BattleType_Ctf30x30" xml:space="preserve">
+    <value>Grand Battle</value>
+  </data>
   <data name="ChartLegend_AvgDamage" xml:space="preserve">
     <value>Avg damage</value>
   </data>
@@ -1984,8 +2014,14 @@ Date: {2:dd.MM.yyyy}</value>
   <data name="Tooltip_Replay_Damage" xml:space="preserve">
     <value>Damage to enemy vehicle: {0}</value>
   </data>
+  <data name="Tooltip_Replay_DamageBlockedByArmor" xml:space="preserve">
+    <value>Ricochets: {0}, Non-penetrations: {1}, Blocked by armor: {2}</value>
+  </data>
   <data name="Tooltip_Replay_Detected" xml:space="preserve">
     <value>You detected this enemy vehicle</value>
+  </data>
+  <data name="Tooltip_Replay_AssistedStun" xml:space="preserve">
+    <value>Damage to Enemy Vehicles Stunned by You: {0}</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Total</value>
@@ -2950,11 +2986,17 @@ up to 500 m</value>
   <data name="BattleMode_FortBattles" xml:space="preserve">
     <value>Battle for Stronghold</value>
   </data>
+  <data name="BattleMode_GrandBattle" xml:space="preserve">
+    <value>Grand Battle</value>
+  </data>
   <data name="BattleMode_FortSorties" xml:space="preserve">
     <value>Skirmish</value>
   </data>
   <data name="BattleType_Sorties" xml:space="preserve">
     <value>Skirmish</value>
+  </data>
+  <data name="BattleType_GrandBattle" xml:space="preserve">
+    <value>Grand Battle</value>
   </data>
   <data name="Btn_Refresh" xml:space="preserve">
     <value>Refresh</value>
@@ -3485,6 +3527,9 @@ Date: {Date:dd.MM.yyyy}</value>
   <data name="Settings_CacheFolder" xml:space="preserve">
     <value>Path to game cache</value>
   </data>
+  <data name="Settings_WotFolder" xml:space="preserve">
+    <value>World of tanks catalog</value>
+  </data>
   <data name="Total_ForSelected" xml:space="preserve">
     <value>For selected</value>
   </data>
@@ -3511,5 +3556,8 @@ Date: {Date:dd.MM.yyyy}</value>
   </data>
   <data name="Country_Sweden" xml:space="preserve">
     <value>Sweden</value>
+  </data>
+  <data name="Country_Poland" xml:space="preserve">
+    <value>Poland</value>
   </data>
 </root>

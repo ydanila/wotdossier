@@ -15,11 +15,13 @@
         Sorties = 10,
         FortBattles = 11,
         Ladder = 12,
+        Ctf30x30 = 24,
 
 
         ctf = 101,
         domination = 102,
         assault = 103,
         nations = 104
+
     }
 }

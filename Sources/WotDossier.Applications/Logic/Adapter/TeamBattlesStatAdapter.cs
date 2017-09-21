@@ -13,7 +13,7 @@ namespace WotDossier.Applications.Logic.Adapter
         /// <summary>
         ///     Initializes a new instance of the <see cref="T:System.Object" /> class.
         /// </summary>
-        public TeamBattlesStatAdapter(List<TankJson> tanks) : base(tanks, tank => tank.A7x7 ?? new StatisticJson())
+        public TeamBattlesStatAdapter(List<TankJson> tanks) : base(tanks)
         {
             #region [ Awards ]
 
@@ -184,6 +184,11 @@ namespace WotDossier.Applications.Logic.Adapter
             }
 
             Mapper.Map<ITeamBattlesAchievements>(this, entity.AchievementsIdObject);
+        }
+
+        public override Func<TankJson, StatisticJson> Predicate
+        {
+            get { return tank => tank.A7x7 ?? new StatisticJson(); }
         }
     }
 }

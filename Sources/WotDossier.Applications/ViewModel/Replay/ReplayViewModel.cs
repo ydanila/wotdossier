@@ -64,6 +64,8 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         public int HEHits { get; set; }
 
+        public int HEHitsReceived { get; set; }
+
         public int XpFactor { get; set; }
 
         public int XpPenalty { get; set; }
@@ -92,9 +94,13 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         public int Spotted { get; set; }
 
-        public int Killed { get; set; }
+	    public int SniperDamageDealt { get; set; }
 
-        public int Damaged { get; set; }
+		public int Killed { get; set; }
+
+	    public bool IsAlive { get; set; }
+
+		public int Damaged { get; set; }
 
         public string TDamage { get; set; }
 
@@ -134,8 +140,11 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int BaseTotalXp { get; set; }
         public int TotalXp { get; set; }
         public int TotalCredits { get; set; }
+        public int Crystal { get; set; }
 
-        public int Xp { get; set; }
+		public bool EligibleForCrystalRewards { get; set; }
+
+		public int Xp { get; set; }
 
         public int PremiumTotalXp { get; set; }
         public int PremiumXp { get; set; }
@@ -147,6 +156,20 @@ namespace WotDossier.Applications.ViewModel.Replay
         public FinishReason FinishReason { get; set; }
 
         public DeathReason DeathReason { get; set; }
+
+        public int NoDamageDirectHitsReceived { get; set; }
+        public int RickochetsReceived { get; set; }
+
+        public int DamageAssistedStun { get; set; }
+
+        public int StunNum { get; set; }
+        public int PiercingsReceived { get; set; }
+
+        public string HitsPenetrations => $"{Hits}/{Pierced}";
+
+        public string DamagedDestroyed => $"{Damaged}/{Killed}";
+
+        public string CaptureDefensePoints => $"{CapturePoints}/{DroppedCapturePoints}";
 
         public List<ChatMessage> ChatMessages { get; set; }
 
@@ -389,9 +412,19 @@ namespace WotDossier.Applications.ViewModel.Replay
                 int premiumCreditsPenalty = (int)Math.Round(creditsPenalty * premiumFactor, 0);
 
                 TotalCredits = replay.datablock_battle_result.personal.credits;
-                TotalXp = replay.datablock_battle_result.personal.xp;
+                Crystal = replay.datablock_battle_result.personal.crystal;
+				EligibleForCrystalRewards = replay.datablock_battle_result.avatar.eligibleForCrystalRewards;
+				TotalXp = replay.datablock_battle_result.personal.xp;
 
-                IsPremium = replay.datablock_battle_result.personal.isPremium;
+                PiercingsReceived = replay.datablock_battle_result.personal.piercedReceived;
+                NoDamageDirectHitsReceived = replay.datablock_battle_result.personal.noDamageShotsReceived;
+                RickochetsReceived = replay.datablock_battle_result.personal.rickochetsReceived;
+                DamageAssistedStun = replay.datablock_battle_result.personal.damageAssistedStun;
+                HEHitsReceived = replay.datablock_battle_result.personal.heHitsReceived;
+                StunNum = replay.datablock_battle_result.personal.stunNum;
+				IsAlive = true;
+
+				IsPremium = replay.datablock_battle_result.personal.isPremium;
                 IsBase = !IsPremium;
 
                 int premiumCredits;
@@ -453,7 +486,8 @@ namespace WotDossier.Applications.ViewModel.Replay
                 DroppedCapturePoints = replay.datablock_battle_result.personal.droppedCapturePoints;
                 PotentialDamageReceived = replay.datablock_battle_result.personal.potentialDamageReceived;
                 DamageBlockedByArmor = replay.datablock_battle_result.personal.damageBlockedByArmor;
-                Mileage = string.Format(Resources.Resources.Traveled_Format, replay.datablock_battle_result.personal.mileage/(double)1000);
+	            SniperDamageDealt = replay.datablock_battle_result.personal.sniperDamageDealt;
+				Mileage = string.Format(Resources.Resources.Traveled_Format, replay.datablock_battle_result.personal.mileage/(double)1000);
 
                 StartTime = DateTime.Parse(replay.datablock_1.dateTime, CultureInfo.GetCultureInfo("ru-RU")).ToShortTimeString();
                 TimeSpan battleLength = new TimeSpan(0, 0, (int) replay.datablock_battle_result.common.duration);
@@ -465,7 +499,8 @@ namespace WotDossier.Applications.ViewModel.Replay
                 AchievMedals = medals.Where(x => x.Type == 1).ToList();
 
                 TimeSpan userbattleLength = new TimeSpan(0, 0, replay.datablock_battle_result.personal.lifeTime);
-                UserBattleTime = userbattleLength.ToString(Resources.Resources.ExtendedTimeFormat);
+                UserBattleTime = (replay.datablock_battle_result.personal.deathReason == -1 ||
+                                    replay.datablock_battle_result.personal.killerID == 0) ? "-": userbattleLength.ToString(Resources.Resources.ExtendedTimeFormat);
 
                 //calc levels by squad
                 List<LevelRange> membersLevels = new List<LevelRange>();
@@ -598,7 +633,7 @@ namespace WotDossier.Applications.ViewModel.Replay
             List<TeamMember> teamMembers =
                 players.Join(vehicleResults, p => p.Key, vr => vr.Value.accountDBID, Tuple.Create)
                     .Join(vehicles, pVr => pVr.Item2.Key, v => v.Key,
-                        (pVr, v) => new TeamMember(pVr.Item1, pVr.Item2, v, myTeamId, replay.datablock_1.regionCode))
+                        (pVr, v) => new TeamMember(pVr.Item1, pVr.Item2, v, myTeamId, replay.datablock_1.regionCode, replay.datablock_battle_result.players, replay.datablock_battle_result.vehicles))
                     .ToList();
             return teamMembers;
         }

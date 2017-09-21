@@ -13,6 +13,8 @@ namespace WotDossier.Domain.Replay
         [DataMember]
         public Personal personal { get; set; }
         [DataMember]
+        public Avatar avatar { get; set; }
+        [DataMember]
         public Dictionary<long, Player> players { get; set; }
         [DataMember]
         public Dictionary<long, VehicleResult> vehicles { get; set; }

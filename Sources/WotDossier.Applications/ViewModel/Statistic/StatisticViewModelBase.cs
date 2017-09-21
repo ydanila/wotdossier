@@ -312,13 +312,35 @@ namespace WotDossier.Applications.ViewModel.Statistic
         }
 
         private double _wn8Rating;
+        private double _wn8KTTCRating;
+        private double _wn8XVMRating;
         public virtual double WN8Rating
         {
-            get { return _wn8Rating; }
+            get => _wn8Rating;
             set
             {
                 _wn8Rating = value;
                 OnPropertyChanged("WN8Rating");
+            }
+        }
+
+        public virtual double WN8KTTCRating
+        {
+            get => _wn8KTTCRating;
+            set
+            {
+                _wn8KTTCRating = value;
+                OnPropertyChanged("WN8KTTCRating");
+            }
+        }
+
+        public virtual double WN8XVMRating
+        {
+            get => _wn8XVMRating;
+            set
+            {
+                _wn8XVMRating = value;
+                OnPropertyChanged("WN8XVMRating");
             }
         }
 
@@ -332,6 +354,34 @@ namespace WotDossier.Applications.ViewModel.Statistic
             }
         }
 
+        #endregion
+
+        #region Stunning
+        public int BattlesOnStunningVehicles { get; set; }
+        public int StunNum { get; set; }
+        public int DamageAssistedStun { get; set; }
+        public double AvgStun
+        {
+            get
+            {
+                if (BattlesOnStunningVehicles > 0)
+                {
+                    return StunNum / (double)BattlesOnStunningVehicles;
+                }
+                return 0;
+            }
+        }
+        public double AvgDamageAssistedStun
+        {
+            get
+            {
+                if (BattlesOnStunningVehicles > 0)
+                {
+                    return DamageAssistedStun / (double)BattlesOnStunningVehicles;
+                }
+                return 0;
+            }
+        }
         #endregion
 
         #endregion

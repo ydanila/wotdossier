@@ -5866,5 +5866,68 @@
       "ctf": ""
     },
     "explicitRequestOnly": "\ttrue\t"
-  }
+  },
+  {
+		"name": "#arenas:212_epic_random_valley/name",
+		"description": "#arenas:212_epic_random_valley/description",
+		"geometry": "spaces/212_epic_random_valley",
+		"boundingBox": {
+			"bottomLeft": "-700.000000 -700.000000",
+			"upperRight": "700.000000 700.000000"
+		},
+		"minimap": "\tspaces/212_epic_random_valley/mmap.dds\t",
+		"vehicleCamouflageKind": "\tsummer\t",
+		"maxPlayersInTeam": "\t30\t",
+		"wwmusicSetup": {
+			"wwmusicLoading": "\tmusic_euro_vilage\t",
+			"wwmusicIntensive": "\tmusic_combat\t",
+			"wwmusicRelaxed": "\tmusic_combat\t",
+			"wwmusicStop": "\tmusic_dron_stop_temporary\t",
+			"wwmusicEndbattleStop": "\tmusic_dron_endbattle_stop_temporary\t",
+			"wwmusicResultWin": "\tmusic_victory\t",
+			"wwmusicResultDrawn": "\tmusic_drawn_game\t",
+			"wwmusicResultDefeat": "\tmusic_defeat\t"
+		},
+		"wwambientSound": "\tambient_wind_spring_01\t",
+		"umbraEnabled": "\t1\t",
+		"batchingEnabled": "\t0\t",
+		"water": {
+			"texScale": "\t0\t",
+			"freqX": "\t0\t",
+			"freqZ": "\t0\t"
+		},
+		"numPlayerGroups": "\t3\t",
+		"playerGroupLimit": "\t10\t",
+		"estimatedLoad": "\t0.91\t",
+		"gameplayTypes": {
+			"ctf30x30": {
+				"teamSpawnPoints": {
+					"team1": {
+						"position": [
+							"\t137.550000 511.200000\t",
+							"\t265.840000 304.520000\t",
+							"\t536.780000 145.170000\t"
+						]
+					},
+					"team2": {
+						"position": [
+							"\t-563.290000 -155.830000\t",
+							"\t-287.650000 -296.600000\t",
+							"\t-96.730000 -500.360000\t"
+						]
+					}
+				},
+				"teamBasePositions": {
+					"team1": {
+						"position1": "\t210.635071 257.220917\t"
+					},
+					"team2": {
+						"position2": "\t-238.273926 -238.990707\t"
+					}
+				}
+			}
+		},
+		"roadMap": "",
+		"mapActivities": ""
+}
 ]

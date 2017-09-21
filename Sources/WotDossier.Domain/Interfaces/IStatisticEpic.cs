@@ -21,5 +21,8 @@
         int Fadin { get; set; }
         int HeroesOfRassenay { get; set; }
         int DeLanglade { get; set; }
+
+        int MedalGore { get; set; }
+        int MedalStark { get; set; }
     }
 }

@@ -9,6 +9,7 @@ using System.Reflection;
 using System.Resources;
 using System.Text;
 using System.Xml;
+using System.Xml.Linq;
 using Ionic.Zip;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -30,7 +31,8 @@ namespace WotDossier.Test
     [TestFixture]
     public class CommonTestFixture : TestFixtureBase
     {
-        private string clientPath = @"c:\World_of_Tanks";
+        private string clientPath = @"S:\WorldOfTanks";
+	    private string patchVer = "0.9.20";
 
         [Test]
         public void MultipleUploadTest()
@@ -139,7 +141,7 @@ namespace WotDossier.Test
                 var localizedString = Resources.Resources.ResourceManager.GetString("Map_" + map.Value.MapNameId);
                 Assert.IsNotNull(localizedString, "Resource not found: {0}", map.Value.MapNameId);
 
-                var key = string.Format("images/maps/{0}.jpg", map.Value.MapNameId).ToLowerInvariant();
+                var key = string.Format("images/maps/{0}.png", map.Value.MapNameId).ToLowerInvariant();
                 //Assert.IsTrue(dictionary.ContainsKey(key), "Image resource not found: {0}", map.Value.mapidname);
                 if (!dictionary.ContainsKey(key))
                 {
@@ -198,7 +200,7 @@ namespace WotDossier.Test
         [Test]
         public void ImportTanksComponentsXmlTest()
         {
-            var strings = Directory.GetFiles(Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Tanks"), "shells.xml",
+            var strings = Directory.GetFiles(Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Tanks"), "shells.xml",
                 SearchOption.AllDirectories);
 
             List<JObject> result = new List<JObject>();
@@ -249,14 +251,14 @@ namespace WotDossier.Test
             Console.WriteLine("Copy tanks definitions");
 
             var scriptsPath = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Scripts");
-            var destination = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Tanks");
+            var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Tanks");
             var source = Path.Combine(scriptsPath, @"item_defs\vehicles");
 
             Directory.CreateDirectory(destination);
 
             DirectoryCopy(source, destination, true);
 
-            var strings = Directory.GetFiles(Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Tanks"), "list.xml", SearchOption.AllDirectories);
+            var strings = Directory.GetFiles(Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Tanks"), "list.xml", SearchOption.AllDirectories);
 
             List<JObject> result = new List<JObject>();
 
@@ -278,17 +280,17 @@ namespace WotDossier.Test
                     var dictionary = JsonConvert.DeserializeObject<Dictionary<string, JObject>>(jsonText);
                     dictionary = dictionary["vehicles"].ToObject<Dictionary<string, JObject>>();
 
-                    //{"tankid": 0, "countryid": 0, "compDescr": 1, "active": 1, "type": 2, 
-                    //"type_name": "MT", "tier": 5, "premium": 0, "title": "T-34", "icon": "r04_t_34", "icon_orig": "R04_T-34"},
-
-                    List<JObject> tanks = new List<JObject>();
+					//{"tankid": 0, "countryid": 0, "compDescr": 1, "active": 1, "type": 2, 
+					//"type_name": "MT", "tier": 5, "premium": 0, "title": "T-34", "icon": "r04_t_34", "icon_orig": "R04_T-34"},
+					
+	                List<JObject> tanks = new List<JObject>();
                     foreach (var tank in dictionary)
                     {
                         JObject tankDescription = new JObject();
                         var tankid = tank.Value["id"].Value<int>();
                         tankDescription["tankid"] = tankid;
                         Country country = (Country)Enum.Parse(typeof(Country), info.Directory.Name);
-                        var countryid = (int)country;
+	                    var countryid = (int)country;
                         tankDescription["countryid"] = countryid;
                         var typeCompDesc = Utils.TypeCompDesc(countryid, tankid);
                         tankDescription["compDescr"] = typeCompDesc;
@@ -351,8 +353,10 @@ namespace WotDossier.Test
                     result.AddRange(tanks);
                 }
             }
+			//Add Action tanks
+			AddActionTanks(result);
 
-            using (ResXResourceWriter writer = new ResXResourceWriter(Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Resources\ussr_vehicles_out.resx")))
+			using (ResXResourceWriter writer = new ResXResourceWriter(Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Resources\ussr_vehicles_out.resx")))
             {
                 foreach (var resource in resources)
                 {
@@ -384,7 +388,262 @@ namespace WotDossier.Test
             Console.WriteLine(codegen);
         }
 
-        private string GetString(string key)
+	    private void AddActionTanks(List<JObject> tanks)
+	    {
+			//Add Action tanks
+
+			#region Karl
+			tanks.Add( new JObject
+		    {
+			    ["tankid"] = 234,
+			    ["countryid"] = 1,
+			    ["compDescr"] = 59921,
+			    ["active"] = 0,
+			    ["type"] = 5,
+			    ["type_name"] = "SPG",
+			    ["tier"] = 1,
+			    ["premium"] = 0,
+			    ["title"] = "Karl",
+			    ["title_short"] = "Karl",
+			    ["icon"] = "karl",
+			    ["icon_orig"] = "karl",
+			    ["health"] = 1
+		    });
+
+			#endregion
+
+			#region Leopard 1 (P)
+		    tanks.Add(new JObject
+		    {
+			    ["tankid"] = 253,
+			    ["countryid"] = 1,
+			    ["compDescr"] = 64785,
+			    ["active"] = 0,
+			    ["type"] = 2,
+			    ["type_name"] = "MT",
+			    ["tier"] = 10,
+			    ["premium"] = 1,
+			    ["title"] = "Leopard 1 (P)",
+			    ["title_short"] = "Leopard 1 (P)",
+			    ["icon"] = "g89_leopard1_fallout",
+			    ["icon_orig"] = "G89_Leopard1_fallout",
+			    ["health"] = 1950
+		    });
+
+			#endregion
+
+			#region Polar Bear
+			tanks.Add(new JObject
+		    {
+			    ["tankid"] = 254,
+			    ["countryid"] = 4,
+			    ["compDescr"] = 65089,
+			    ["active"] = 0,
+			    ["type"] = 3,
+			    ["type_name"] = "TD",
+			    ["tier"] = 1,
+			    ["premium"] = 1,
+			    ["title"] = "Polar Bear",
+			    ["title_short"] = "Polar Bear",
+			    ["icon"] = "f00_amx_50foch_155",
+			    ["icon_orig"] = "F00_AMX_50Foch_155",
+			    ["health"] = 1
+		    });
+			#endregion
+
+			#region Bat.-Chatillon 25 t (P)
+			tanks.Add(new JObject
+		    {
+			    ["tankid"] = 255,
+			    ["countryid"] = 4,
+			    ["compDescr"] = 65345,
+			    ["active"] = 0,
+			    ["type"] = 2,
+			    ["type_name"] = "MT",
+			    ["tier"] = 10,
+			    ["premium"] = 1,
+			    ["title"] = "Bat.-Chatillon 25 t (P)",
+			    ["title_short"] = "B-C 25 t (P)",
+			    ["icon"] = "bat_chatillon25t_fallout",
+			    ["icon_orig"] = "Bat_Chatillon25t_fallout",
+			    ["health"] = 1800
+		    });
+			#endregion
+		    
+		    #region Arctic Fox
+		    tanks.Add(new JObject
+		    {
+			    ["tankid"] = 253,
+			    ["countryid"] = 0,
+			    ["compDescr"] = 64769,
+			    ["active"] = 0,
+			    ["type"] = 1,
+			    ["type_name"] = "LT",
+			    ["tier"] = 1,
+			    ["premium"] = 1,
+			    ["title"] = "Arctic Fox",
+			    ["title_short"] = "Arctic Fox",
+			    ["icon"] = "r00_t_50_2",
+			    ["icon_orig"] = "R00_T_50_2",
+			    ["health"] = 1
+		    });
+			#endregion
+
+			#region Sfera
+			tanks.Add(new JObject
+		    {
+			    ["tankid"] = 254,
+			    ["countryid"] = 0,
+			    ["compDescr"] = 65025,
+			    ["active"] = 0,
+			    ["type"] = 1,
+			    ["type_name"] = "LT",
+			    ["tier"] = 1,
+			    ["premium"] = 1,
+			    ["title"] = "Sfera",
+			    ["title_short"] = "Sfera",
+			    ["icon"] = "r00_sfera",
+			    ["icon_orig"] = "R00_Sfera",
+			    ["health"] = 1
+		    });
+			#endregion
+		    
+		    #region Объект 140 (P)
+		    tanks.Add(new JObject
+		    {
+			    ["tankid"] = 252,
+			    ["countryid"] = 0,
+			    ["compDescr"] = 64513,
+			    ["active"] = 0,
+			    ["type"] = 2,
+			    ["type_name"] = "MT",
+			    ["tier"] = 10,
+			    ["premium"] = 1,
+			    ["title"] = "Объект 140 (P)",
+			    ["title_short"] = "Об. 140 (P)",
+			    ["icon"] = "object_140_fallout",
+			    ["icon_orig"] = "Object_140_fallout",
+			    ["health"] = 1900
+		    });
+			#endregion
+		    
+		    #region Объект 268 (P)
+		    tanks.Add(new JObject
+		    {
+			    ["tankid"] = 248,
+			    ["countryid"] = 0,
+			    ["compDescr"] = 63489,
+			    ["active"] = 0,
+			    ["type"] = 4,
+			    ["type_name"] = "TD",
+			    ["tier"] = 10,
+			    ["premium"] = 1,
+			    ["title"] = "Объект 268 (P)",
+			    ["title_short"] = "Об. 268 (P)",
+			    ["icon"] = "object268_fallout",
+			    ["icon_orig"] = "Object268_fallout",
+			    ["health"] = 1950
+		    });
+			#endregion
+		    
+		    #region T57 Heavy Tank (P)
+		    tanks.Add(new JObject
+		    {
+			    ["tankid"] = 251,
+			    ["countryid"] = 2,
+			    ["compDescr"] = 64289,
+			    ["active"] = 0,
+			    ["type"] = 3,
+			    ["type_name"] = "HT",
+			    ["tier"] = 10,
+			    ["premium"] = 1,
+			    ["title"] = "T57 Heavy Tank (P)",
+			    ["title_short"] = "T57 Heavy (P)",
+			    ["icon"] = "t57_58_fallout",
+			    ["icon_orig"] = "T57_58_fallout",
+			    ["health"] = 2250
+		    });
+			#endregion
+		    
+		    #region T110E5 (P)
+		    tanks.Add(new JObject
+		    {
+			    ["tankid"] = 252,
+			    ["countryid"] = 2,
+			    ["compDescr"] = 64545,
+			    ["active"] = 0,
+			    ["type"] = 3,
+			    ["type_name"] = "HT",
+			    ["tier"] = 10,
+			    ["premium"] = 1,
+			    ["title"] = "T110E5 (P)",
+			    ["title_short"] = "T110E5 (P)",
+			    ["icon"] = "t110_fallout",
+			    ["icon_orig"] = "T110_fallout",
+			    ["health"] = 2200
+		    });
+			#endregion
+		    
+		    #region Mammoth
+		    tanks.Add(new JObject
+		    {
+			    ["tankid"] = 253,
+			    ["countryid"] = 2,
+			    ["compDescr"] = 64801,
+			    ["active"] = 0,
+			    ["type"] = 3,
+			    ["type_name"] = "HT",
+			    ["tier"] = 1,
+			    ["premium"] = 1,
+			    ["title"] = "Mammoth",
+			    ["title_short"] = "Mammoth",
+			    ["icon"] = "a00_t110e5",
+			    ["icon_orig"] = "A00_T110E5",
+			    ["health"] = 1
+		    });
+			#endregion
+		    
+		    #region M24 Chaffee Sport
+		    tanks.Add(new JObject
+		    {
+			    ["tankid"] = 255,
+			    ["countryid"] = 2,
+			    ["compDescr"] = 65313,
+			    ["active"] = 0,
+			    ["type"] = 1,
+			    ["type_name"] = "LT",
+			    ["tier"] = 1,
+			    ["premium"] = 1,
+			    ["title"] = "M24 Chaffee Sport",
+			    ["title_short"] = "M24 Chaffee Sport",
+			    ["icon"] = "m24_chaffee_gt",
+			    ["icon_orig"] = "M24_Chaffee_GT",
+			    ["health"] = 1
+		    });
+			#endregion
+		    
+		    #region Lanchester
+		    tanks.Add(new JObject
+		    {
+			    ["tankid"] = 222,
+			    ["countryid"] = 5,
+			    ["compDescr"] = 56913,
+			    ["active"] = 0,
+			    ["type"] = 1,
+			    ["type_name"] = "LT",
+			    ["tier"] = 1,
+			    ["premium"] = 1,
+			    ["title"] = "Lanchester",
+			    ["title_short"] = "Lanchester",
+			    ["icon"] = "gb90_lanchester_armored_car",
+			    ["icon_orig"] = "GB90_Llanchester_Armored_Car",
+			    ["health"] = 1
+		    });
+		    #endregion
+		}
+
+
+		private string GetString(string key)
         {
             var value = ResourceManagers.Select(x => x.GetString(key, CultureInfo.InvariantCulture)).FirstOrDefault(x => x != null);
             value = (value ?? key).Trim();
@@ -422,7 +681,7 @@ namespace WotDossier.Test
 
         private JObject GetTankDefinition(int countryid, string tankName)
         {
-            var fileName = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Tanks", ((Country)countryid).ToString(), tankName + ".xml");
+            var fileName = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Tanks", ((Country)countryid).ToString(), tankName + ".xml");
             if (File.Exists(fileName))
             {
                 var file = new FileInfo(fileName);
@@ -461,14 +720,16 @@ namespace WotDossier.Test
                     return 7;
                 case Country.Sweden:
                     return 8;
-            }
+	            case Country.Poland:
+		            return 9;
+			}
             return -1;
         }
 
         [Test]
         public void ImportMapsTest()
         {
-            string configsPath = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Maps");
+            string configsPath = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Maps");
 
             if (!Directory.Exists(configsPath))
             {
@@ -489,9 +750,10 @@ namespace WotDossier.Test
                 using (BinaryReader br = new BinaryReader(stream))
                 {
                     var xml = reader.DecodePackedFile(br, "map");
-                    XmlDocument doc = new XmlDocument();
-                    doc.LoadXml(xml);
-                    string jsonText = JsonConvert.SerializeXmlNode(doc, Formatting.Indented);
+                    var doc = XDocument.Parse(xml);
+					if(doc.Root.Name != "map" || doc.Root.Elements("name").FirstOrDefault() == null)
+						continue;
+                    string jsonText = JsonConvert.SerializeXNode(doc, Formatting.Indented);
 
                     var deserializeObject = JsonConvert.DeserializeObject<JObject>(jsonText);
 
@@ -551,7 +813,7 @@ namespace WotDossier.Test
 
             Console.WriteLine("Copy maps definitions");
 
-            destination = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Maps");
+            destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Maps");
 
             var scriptsPath = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\scripts");
             source = Path.Combine(scriptsPath, @"arena_defs");
@@ -631,7 +893,7 @@ namespace WotDossier.Test
             string source;
             Console.WriteLine("Copy resources");
 
-            destination = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Resources");
+            destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Resources");
             source = Path.Combine(clientPath, @"res\text\lc_messages");
 
             Directory.CreateDirectory(destination);

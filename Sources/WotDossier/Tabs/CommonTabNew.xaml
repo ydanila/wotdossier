@@ -77,6 +77,11 @@
                      ConverterParameter={x:Static domain:BattleMode.HistoricalBattle}}">
                 <tabs:RecentActivityTab></tabs:RecentActivityTab>
             </TabItem>
+            <TabItem TabIndex="0" Header="{Binding PeriodTabHeader}"
+                     Visibility="{Binding BattleModeSelector.BattleMode, Converter={x:Static converters:BattleModeToVisibilityConverter.Default}, 
+                     ConverterParameter={x:Static domain:BattleMode.GrandBattle}}">
+                <tabs:RecentActivityTab></tabs:RecentActivityTab>
+            </TabItem>
             <!--Session-->
             <!--<TabItem TabIndex="0" Header="{x:Static Resources:Resources.Tab_Header_Session}" Name="tabSession">
                 <ScrollViewer VerticalScrollBarVisibility="Auto">
@@ -100,6 +105,13 @@
             </TabItem>
             <TabItem Header="{x:Static resources:Resources.Tab_Header_Achievements}"
                      Visibility="{Binding BattleModeSelector.BattleMode, Converter={x:Static converters:BattleModeToVisibilityConverter.Default}, 
+                     ConverterParameter={x:Static domain:BattleMode.GrandBattle}}">
+                <ScrollViewer>
+                    <controls:Achievements DataContext="{Binding PlayerStatistic}"></controls:Achievements>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="{x:Static resources:Resources.Tab_Header_Achievements}"
+                     Visibility="{Binding BattleModeSelector.BattleMode, Converter={x:Static converters:BattleModeToVisibilityConverter.Default}, 
                      ConverterParameter={x:Static domain:BattleMode.TeamBattle}}">
                 <ScrollViewer>
                     <controls:Achievements7x7 DataContext="{Binding PlayerStatistic}"></controls:Achievements7x7>
@@ -110,6 +122,13 @@
                      ConverterParameter={x:Static domain:BattleMode.HistoricalBattle}}">
                 <ScrollViewer>
                     <controls:AchievementsHistorical DataContext="{Binding PlayerStatistic}"></controls:AchievementsHistorical>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="{x:Static resources:Resources.Tab_Header_Achievements}"
+                     Visibility="{Binding BattleModeSelector.BattleMode, Converter={x:Static converters:BattleModeToVisibilityConverter.Default}, 
+                     ConverterParameter={x:Static domain:BattleMode.GrandBattle}}">
+                <ScrollViewer>
+                    <controls:Achievements DataContext="{Binding PlayerStatistic}"></controls:Achievements>
                 </ScrollViewer>
             </TabItem>
         </TabControl>

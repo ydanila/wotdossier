@@ -12,7 +12,8 @@ namespace WotDossier.Applications.ViewModel.Selectors
             new ListItem<BattleMode>(BattleMode.HistoricalBattle, Resources.Resources.BattleMode_HistoricalBattle), 
             new ListItem<BattleMode>(BattleMode.Clan, Resources.Resources.BattleMode_Clan), 
             new ListItem<BattleMode>(BattleMode.FortBattles, Resources.Resources.BattleMode_FortBattles), 
-            new ListItem<BattleMode>(BattleMode.FortSorties, Resources.Resources.BattleMode_FortSorties), 
+            new ListItem<BattleMode>(BattleMode.FortSorties, Resources.Resources.BattleMode_FortSorties),
+            new ListItem<BattleMode>(BattleMode.GrandBattle, Resources.Resources.BattleMode_GrandBattle),
         };
         
         public List<ListItem<BattleMode>> BattleModes

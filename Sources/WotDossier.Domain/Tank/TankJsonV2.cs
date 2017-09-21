@@ -12,19 +12,28 @@ namespace WotDossier.Domain.Tank
         {
             A15x15 = new StatisticJson(),
             Clan = new StatisticJson(),
-            AchievementsClan = new AchievementsClan(),
             Company = new StatisticJson(),
             A7x7 = new StatisticJson(),
+            Rated7x7 = new StatisticJson(),
+            GlobalMapCommon = new StatisticJson(),
+            Fallout = new StatisticJsonFallout(),
+            Ranked = new StatisticJson(),
+            A30x30 = new StatisticJson(),
+
+            AchievementsClan = new AchievementsClan(),
+            
+            
             Achievements = new AchievementsJson(),
             Common = new CommonJson(),
             Description = TankDescription.Unknown(),
             Frags = new List<FragsJson>(),
             Achievements7x7 = new Achievements7x7(),
             AchievementsHistorical = new AchievementsHistorical(),
+            AchievementsFallout = new AchievementsFallout(),
             Historical = new StatisticJson(),
-            FortBattles = new StatisticJson(),
+            FortBattles = new StatisticJsonFort(),
             FortAchievements = new AchievementsFort(),
-            FortSorties = new StatisticJson()
+            FortSorties = new StatisticJsonSortie()
         };
 
         /// <summary>
@@ -60,12 +69,12 @@ namespace WotDossier.Domain.Tank
         /// <summary>
         /// Gets or sets the fort battles stat.
         /// </summary>
-        public StatisticJson FortBattles { get; set; }
+        public StatisticJsonFort FortBattles { get; set; }
 
         /// <summary>
         /// Gets or sets the fort sorties.
         /// </summary>
-        public StatisticJson FortSorties { get; set; }
+        public StatisticJsonSortie FortSorties { get; set; }
 
         /// <summary>
         /// Gets or sets the fort achievements.
@@ -82,6 +91,16 @@ namespace WotDossier.Domain.Tank
         /// </summary>
         public StatisticJson Company { get; set; }
 
+        public StatisticJson Rated7x7 { get; set; }
+
+        public StatisticJson GlobalMapCommon { get; set; }
+
+        public StatisticJsonFallout Fallout { get; set; }
+
+        public StatisticJson Ranked { get; set; }
+
+        public StatisticJson A30x30 { get; set; }
+
         /// <summary>
         /// Gets or sets the achievements.
         /// </summary>
@@ -91,6 +110,8 @@ namespace WotDossier.Domain.Tank
         /// Gets or sets the achievements7x7.
         /// </summary>
         public Achievements7x7 Achievements7x7 { get; set; }
+
+        public AchievementsFallout AchievementsFallout { get; set; }
 
         /// <summary>
         /// Gets or sets the achievements historical.

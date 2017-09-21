@@ -279,5 +279,8 @@ namespace WotDossier.Domain.Tank
 
         [DataMember(Name = "even")]
         public int Even { get; set; }
+
+        [DataMember(Name = "aimer")]
+        public int Aimer { get; set; }
     }
 }

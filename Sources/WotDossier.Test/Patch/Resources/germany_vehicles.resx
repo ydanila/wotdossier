@@ -325,6 +325,18 @@
   <data name="Chassis_G126_HWK_12_2" xml:space="preserve">
     <value>HWK 12 verbessert</value>
   </data>
+  <data name="Chassis_G134_PzKpfw_VII" xml:space="preserve">
+    <value>Pz.Kpfw. VII</value>
+  </data>
+  <data name="Chassis_G136_Tiger_131" xml:space="preserve">
+    <value>Pz.Kpfw. Tiger Ausf. E</value>
+  </data>
+  <data name="Chassis_G137_PzVI_Tiger_217" xml:space="preserve">
+    <value>Pz.Kpfw. Tiger Ausf. E</value>
+  </data>
+  <data name="Chassis_G138_VK168_02" xml:space="preserve">
+    <value>VK 168.01 (P)</value>
+  </data>
   <data name="Chassis_G16_PzVIB_Tiger_II_F" xml:space="preserve">
     <value>Tiger II</value>
   </data>
@@ -336,6 +348,9 @@
   </data>
   <data name="Chassis_G58_VK4502P_short" xml:space="preserve">
     <value>VK 45.02(P) Ausf. B</value>
+  </data>
+  <data name="Chassis_G98_Waffentrager_E100_P" xml:space="preserve">
+    <value>Waffenträger auf E 100 (P)</value>
   </data>
   <data name="Chassis_GW_Elefant" xml:space="preserve">
     <value>G.W. Tiger (P)</value>
@@ -577,9 +592,6 @@ verstärkteketten</value>
   <data name="Chassis_VK7201" xml:space="preserve">
     <value>VK 72.01 (K)</value>
   </data>
-  <data name="Chassis_VK7201P" xml:space="preserve">
-    <value>Pz.Kpfw. VII</value>
-  </data>
   <data name="Chassis_Waffentrager_E100" xml:space="preserve">
     <value>Waffenträger auf E 100</value>
   </data>
@@ -588,6 +600,9 @@ verstärkteketten</value>
   </data>
   <data name="Chassis_Waffentrager_IV_2" xml:space="preserve">
     <value>Waffenträger auf Pz. IV für 15 cm</value>
+  </data>
+  <data name="Chrysler_361B" xml:space="preserve">
+    <value>Chrysler 361B</value>
   </data>
   <data name="Continental_AOS-895-3" xml:space="preserve">
     <value>Continental AOS-895-3</value>
@@ -714,6 +729,9 @@ AOS-895-3</value>
     <value>Fu 16</value>
   </data>
   <data name="FuG2" xml:space="preserve">
+    <value>FuG 2</value>
+  </data>
+  <data name="FuG2_bootcamp" xml:space="preserve">
     <value>FuG 2</value>
   </data>
   <data name="FuG2_bot" xml:space="preserve">
@@ -854,7 +872,7 @@ AOS-895-3</value>
     <value>Mäuschen</value>
   </data>
   <data name="G110_Typ_205_descr" xml:space="preserve">
-    <value>Летом 1942 года компания Porsche получила заказ на проведение опытно-конструкторских работ по созданию танка прорыва с максимально допустимым уровнем защиты и мощным вооружением. Typ 205 Mäuschen стал одним из эскизных проектов в процессе разработки сверхтяжелого танка Maus со схожей компоновкой. Машина не была реализована в металле.</value>
+    <value>Летом 1942 года фирма Porsche получила заказ на проведение опытно-конструкторских работ по созданию танка прорыва с максимально допустимыми уровнями защиты и мощности вооружения. Typ 205 «Mäuschen» стал одним из эскизных проектов в процессе разработки сверхтяжелого танка «Maus», от которого не отличался компоновкой. Машина не была реализована в металле.</value>
   </data>
   <data name="G110_Typ_205_short" xml:space="preserve">
     <value>Mäuschen</value>
@@ -1013,10 +1031,46 @@ AOS-895-3</value>
     <value>HWK 12</value>
   </data>
   <data name="G126_HWK_12_descr" xml:space="preserve">
-    <value>Серия лёгких гусеничных бронетранспортёров HWK 10 разрабатывалась компанией Henschel-Werke в конце 1950-х – первой половине 1960-х годов. Машины разрабатывались для экспортных поставок. Первый прототип бронетранспортера HWK 11 был создан в 1963 году, а позже 40 машин были поставлены в Мексику. Также было создано два прототипа разведывательной машины HWK 13. На базе общего шасси планировалось создание танка HWK 12, однако прототип построен не был.</value>
+    <value>Серия лёгких гусеничных бронетранспортёров HWK 10 разрабатывалась компанией Henschel-Werke в конце 1950-х – первой половине 1960-х годов. Машины разрабатывались для экспортных поставок. Первый прототип бронетранспортёра HWK 11 был создан в 1963 году, а позже 40 машин были поставлены в Мексику. Также было создано два прототипа разведывательной машины HWK 13. На базе общего шасси планировалось создание танка HWK 12, однако прототип построен не был.</value>
   </data>
   <data name="G126_HWK_12_short" xml:space="preserve">
     <value>HWK 12</value>
+  </data>
+  <data name="G134_PzKpfw_VII" xml:space="preserve">
+    <value>Pz.Kpfw. VII</value>
+  </data>
+  <data name="G134_PzKpfw_VII_descr" xml:space="preserve">
+    <value>Вариант сверхтяжёлого танка компании Krupp с задним расположением башни, прорабатывавшийся в 1942 году. Проект был свёрнут в пользу более тяжёлых машин. Не было выпущено ни одного экземпляра.</value>
+  </data>
+  <data name="G134_PzKpfw_VII_short" xml:space="preserve">
+    <value>Pz.Kpfw. VII</value>
+  </data>
+  <data name="G136_Tiger_131" xml:space="preserve">
+    <value>Tiger 131</value>
+  </data>
+  <data name="G136_Tiger_131_descr" xml:space="preserve">
+    <value>Tiger 131 — на данный момент единственный в мире Pz.Kpfw. VI Tiger, способный двигаться самостоятельно. Машина была захвачена британским 48-м королевским танковым полком в Тунисе 21 апреля 1943 г. и отремонтирована. В том же году машина переправлена по морю в Великобританию, где было проведено полное исследование машины, и с 1951 г. танк является экспонатом Танкового музея в Бовингтоне.</value>
+  </data>
+  <data name="G136_Tiger_131_short" xml:space="preserve">
+    <value>Tiger 131</value>
+  </data>
+  <data name="G137_PzVI_Tiger_217" xml:space="preserve">
+    <value>Tiger 217</value>
+  </data>
+  <data name="G137_PzVI_Tiger_217_descr" xml:space="preserve">
+    <value>В апреле 1944 г. Отто Кариус получил под своё командование танк Tiger среднего выпуска под номером 217. На этом танке ас воевал до своего ранения в июле 1944 г. Сам танк окончательно вышел из строя и был взорван под Пиллау (нынешний Балтийск) в 1945 г.</value>
+  </data>
+  <data name="G137_PzVI_Tiger_217_short" xml:space="preserve">
+    <value>Tiger 217</value>
+  </data>
+  <data name="G138_VK168_02" xml:space="preserve">
+    <value>VK 168.01 (P)</value>
+  </data>
+  <data name="G138_VK168_02_descr" xml:space="preserve">
+    <value>Летом 1942 года фирма Porsche получила заказ на проведение опытно-конструкторских работ по созданию танка прорыва с максимально допустимыми уровнями защиты и мощности вооружения. Typ 205 (Oktober) являлся развитием эскизного проекта Typ 205 «Mäuschen». Основным отличием было переднее расположение башни. Проект не вышел за рамки эскизов.</value>
+  </data>
+  <data name="G138_VK168_02_short" xml:space="preserve">
+    <value>VK 168.01 P</value>
   </data>
   <data name="G20_Marder_II" xml:space="preserve">
     <value>Marder II</value>
@@ -1035,6 +1089,15 @@ AOS-895-3</value>
   </data>
   <data name="G58_VK4502P_short" xml:space="preserve">
     <value>VK 45.02 B7</value>
+  </data>
+  <data name="G98_Waffentrager_E100_P" xml:space="preserve">
+    <value>Waffenträger auf E 100 (P)</value>
+  </data>
+  <data name="G98_Waffentrager_E100_P_descr" xml:space="preserve">
+    <value>Вариант установки зенитных орудий крупного калибра на шасси танка Е 100. Предполагалось использовать 128- и 150-мм орудия с автоматом заряжания. Однако к концу войны разработка данного проекта так и не была начата.</value>
+  </data>
+  <data name="G98_Waffentrager_E100_P_short" xml:space="preserve">
+    <value>WT E 100 (P)</value>
   </data>
   <data name="GW_Mk_VIe" xml:space="preserve">
     <value>G.Pz. Mk. VI (e)</value>
@@ -1115,7 +1178,7 @@ AOS-895-3</value>
     <value>Pz.Kpfw. 38H 735 (f)</value>
   </data>
   <data name="H39_captured_descr" xml:space="preserve">
-    <value>В мае 1940 года французская армия имела в строю более 800 танков этого типа. Многие из них попали в руки немцев и широко использовались Вермахтом.</value>
+    <value>В ходе Французской кампании Германией было захвачено около 600 танков Hotchkiss 39 в качестве трофеев. Эти машины были модернизированы и продолжили участвовать в боевых действиях уже в частях Вермахта.</value>
   </data>
   <data name="H39_captured_short" xml:space="preserve">
     <value>Pz. 38H</value>
@@ -1286,6 +1349,9 @@ AOS-895-3</value>
     <value>Krupp M305</value>
   </data>
   <data name="Krupp_M311" xml:space="preserve">
+    <value>Krupp M311</value>
+  </data>
+  <data name="Krupp_M311_bootcamp" xml:space="preserve">
     <value>Krupp M311</value>
   </data>
   <data name="LT-40_turm" xml:space="preserve">
@@ -1571,6 +1637,13 @@ HL 210 TRM P30</value>
     <value>Maybach HL 210
 TRM P45</value>
   </data>
+  <data name="Maybach_HL_210_TRM_P45M" xml:space="preserve">
+    <value>Maybach HL 210 TRM P45</value>
+  </data>
+  <data name="Maybach_HL_210_TRM_P45M_short" xml:space="preserve">
+    <value>Maybach HL 210
+TRM P45</value>
+  </data>
   <data name="Maybach_HL_210_TRM_P45_short" xml:space="preserve">
     <value>Maybach HL 210
 TRM P45</value>
@@ -1626,6 +1699,12 @@ TRM P72</value>
   <data name="Maybach_HL_234P60" xml:space="preserve">
     <value>Maybach Neues Projekt</value>
   </data>
+  <data name="Maybach_HL_234P60_WT" xml:space="preserve">
+    <value>Maybach Neues Projekt A</value>
+  </data>
+  <data name="Maybach_HL_234P60_WT_short" xml:space="preserve">
+    <value>Maybach Neues Projekt A</value>
+  </data>
   <data name="Maybach_HL_234P60_short" xml:space="preserve">
     <value>Maybach Neues Projekt</value>
   </data>
@@ -1650,6 +1729,9 @@ TRM P45</value>
     <value>Maybach HL 45 P</value>
   </data>
   <data name="Maybach_NL38TR" xml:space="preserve">
+    <value>Maybach HL 38 TR</value>
+  </data>
+  <data name="Maybach_NL38TR_bootcamp" xml:space="preserve">
     <value>Maybach HL 38 TR</value>
   </data>
   <data name="Meadows_ESTL" xml:space="preserve">
@@ -1688,11 +1770,23 @@ TRM P45</value>
   <data name="PanzerJager_I" xml:space="preserve">
     <value>Panzerjäger I</value>
   </data>
+  <data name="PanzerJager_I_bootcamp" xml:space="preserve">
+    <value>Panzerjäger I</value>
+  </data>
+  <data name="PanzerJager_I_bootcamp_descr" xml:space="preserve">
+    <value>Работы над немецкой ПТ-САУ Panzerjäger I начались в 1939 году на базе танка Panzerkampfwagen I Ausf. B. Изначально на шасси танка Panzerkampfwagen I Ausf. B установили немецкую 37-мм пушку Pak 36, но в ходе войны с Польшей выяснилось, что данное орудие не позволяет противостоять новым образцам бронетехники. После захвата Чехословакии в 1940 году на танк была установлена 47-мм пушка Pak 36(t) L/43.4 (Škoda 47-mm A-5 KP ÚV vz. 38 Model A5). Всего было выпущено 202 машины, которые участвовали в боевых действиях до 1943 года.</value>
+  </data>
+  <data name="PanzerJager_I_bootcamp_short" xml:space="preserve">
+    <value>Pz.Jäg. I</value>
+  </data>
   <data name="PanzerJager_I_descr" xml:space="preserve">
     <value>Работы над немецкой ПТ-САУ Panzerjäger I начались в 1939 году на базе танка Panzerkampfwagen I Ausf. B. Изначально на шасси танка Panzerkampfwagen I Ausf. B установили немецкую 37-мм пушку Pak 36, но в ходе войны с Польшей выяснилось, что данное орудие не позволяет противостоять новым образцам бронетехники. После захвата Чехословакии в 1940 году на танк была установлена 47-мм пушка Pak 36(t) L/43.4 (Škoda 47-mm A-5 KP ÚV vz. 38 Model A5). Всего было выпущено 202 машины, которые участвовали в боевых действиях до 1943 года.</value>
   </data>
   <data name="PanzerJager_I_short" xml:space="preserve">
     <value>Pz.Jäg. I</value>
+  </data>
+  <data name="PanzerJager_bootcamp" xml:space="preserve">
+    <value>Panzerjäger I</value>
   </data>
   <data name="Porsche_16_Cyl_Y" xml:space="preserve">
     <value>Porsche Typ 212 NL</value>
@@ -1730,6 +1824,9 @@ Typ 180/2</value>
   </data>
   <data name="Porsche_Typ_101_1_x2" xml:space="preserve">
     <value>2 x Porsche Typ 101/1</value>
+  </data>
+  <data name="Porsche_Typ_205_2" xml:space="preserve">
+    <value>Porsche Typ 205/2</value>
   </data>
   <data name="Porsche_Typ_220" xml:space="preserve">
     <value>DB 603 A1</value>
@@ -2055,7 +2152,7 @@ Ausf. F</value>
     <value>Pz.Kpfw. IV hydrostat.</value>
   </data>
   <data name="PzIV_Hydro_descr" xml:space="preserve">
-    <value>В 1944 году был изготовлен экспериментальный танк Pz.Kpfw. IV Ausf. G с гидростатическим приводом. Испытания машины были прерваны из-за проблем с запасными частями и ненадёжной работы трансмиссии.</value>
+    <value>В июле 1944 года в Германии начались работы по созданию танков с гидростатическим приводом, расположенным в кормовой части машины. В качестве базового шасси для испытания новой трансмиссии был использован Pz. IV Ausf. G. Работы по созданию первого прототипа были завершены в конце октября 1944 года. Машина была выпущена в единственном экземпляре.</value>
   </data>
   <data name="PzIV_Hydro_short" xml:space="preserve">
     <value>Pz. IV hydr.</value>
@@ -2126,6 +2223,12 @@ Ausf. B</value>
   </data>
   <data name="PzJgd_ketten_II" xml:space="preserve">
     <value>Panzerjäger I verstärkteketten</value>
+  </data>
+  <data name="PzJgd_ketten_II_bootcamp" xml:space="preserve">
+    <value>Panzerjäger I verstärkteketten</value>
+  </data>
+  <data name="PzJgd_ketten_I_bootcamp" xml:space="preserve">
+    <value>Panzerjäger I</value>
   </data>
   <data name="PzV" xml:space="preserve">
     <value>Panther</value>
@@ -2583,6 +2686,18 @@ Ausf. E</value>
   <data name="Turret_1_G126_HWK_12" xml:space="preserve">
     <value>HWK 12</value>
   </data>
+  <data name="Turret_1_G134_PzKpfw_VII" xml:space="preserve">
+    <value>Pz.Kpfw. VII</value>
+  </data>
+  <data name="Turret_1_G136_Tiger_131" xml:space="preserve">
+    <value>Pz.Kpfw. Tiger Ausf. E</value>
+  </data>
+  <data name="Turret_1_G137_PzVI_Tiger_217" xml:space="preserve">
+    <value>Pz.Kpfw. Tiger Ausf. E</value>
+  </data>
+  <data name="Turret_1_G138_VK168_02" xml:space="preserve">
+    <value>VK 168.01 (P)</value>
+  </data>
   <data name="Turret_1_G16_PzVIB_Tiger_II_F" xml:space="preserve">
     <value>Tiger II</value>
   </data>
@@ -2594,6 +2709,9 @@ Ausf. E</value>
   </data>
   <data name="Turret_1_G58_VK4502P_short" xml:space="preserve">
     <value>VK 45.02 (P) Ausf. B</value>
+  </data>
+  <data name="Turret_1_G98_Waffentrager_E100_P" xml:space="preserve">
+    <value>Waffenträger auf E 100 (P)</value>
   </data>
   <data name="Turret_1_GW_Elefant" xml:space="preserve">
     <value>G.W. Tiger (P)</value>
@@ -2803,9 +2921,6 @@ Schwerer Turm</value>
   <data name="Turret_VK7201" xml:space="preserve">
     <value>VK 72.01 (K)</value>
   </data>
-  <data name="Turret_VK7201P" xml:space="preserve">
-    <value>Pz.Kpfw. VII</value>
-  </data>
   <data name="V12_cylinder_Boxer_Motor" xml:space="preserve">
     <value>12 cylinder Boxer-Motor</value>
   </data>
@@ -2910,7 +3025,7 @@ verstärkteketten</value>
     <value>VK 30.01 (D)</value>
   </data>
   <data name="VK3002DB_V1_descr" xml:space="preserve">
-    <value>Зимой 1941–1942 года WaPrüf 6 сформулировал тактико-технические требования к новому 30-ти тонному танку. Контракты на разработку машины были заключены с компаниями MAN и Daimler-Benz. Прототипы должны были быть подготовлены к маю 1942 года. Однако 13 мая 1942 года были представлены только сравнительные характеристики проектов. Предпочтение было отдано проекту MAN. Работы над проектом Daimler-Benz были свёрнуты.</value>
+    <value>Зимой 1941–1942 года отдел испытания танкового вооружения (WaPrüf 6) сформулировал тактико-технические требования к новому 30-тонному танку. Контракты на разработку машины были заключены с компаниями MAN и Daimler-Benz. Прототипы должны были быть подготовлены к маю 1942 года. Однако 13 мая 1942 года были представлены только сравнительные характеристики проектов. Предпочтение было отдано проекту MAN. Работы над проектом Daimler-Benz были свёрнуты.</value>
   </data>
   <data name="VK3002DB_V1_short" xml:space="preserve">
     <value>VK 30.01 D</value>
@@ -2923,7 +3038,7 @@ verstärkteketten</value>
 verstärkteketten</value>
   </data>
   <data name="VK3002DB_descr" xml:space="preserve">
-    <value>Танк, разработанный как ответ Т-34 и под его влиянием. Заказ на постройку 200 машин был отменён. Предпочтение было отдано «Пантере».</value>
+    <value>Весенний прототип 1942 г. должен был представлять собой доработанный проект концерна Daimler-Benz. Была разработана новая ходовая часть с торсионной подвеской и восемью опорными катками, расположенными в шахматном порядке. В качестве силовой установки планировалось использовать бензиновый двигатель Maybach HL 210 P45. На машину предполагалось установить 75-мм орудие KwK 42 L/71, но в итоге предпочтение было отдано проекту компании MAN — будущему танку Pz.Kpfw. V «Panther». Ни один прототип VK 30.02 (DB) полностью закончен не был.</value>
   </data>
   <data name="VK3002DB_short" xml:space="preserve">
     <value>VK 30.02 D</value>
@@ -3022,15 +3137,6 @@ verstärkteketten</value>
   <data name="VK7201" xml:space="preserve">
     <value>VK 72.01 (K)</value>
   </data>
-  <data name="VK7201P" xml:space="preserve">
-    <value>Pz.Kpfw. VII</value>
-  </data>
-  <data name="VK7201P_descr" xml:space="preserve">
-    <value>Вариант сверхтяжёлого танка c задним расположением башни. Разрабатывался компанией Krupp. От VK 70.01 отличался усиленным вооружением и бронированием. Существовал только в эскизах.</value>
-  </data>
-  <data name="VK7201P_short" xml:space="preserve">
-    <value>Pz.Kpfw. VII</value>
-  </data>
   <data name="VK7201_descr" xml:space="preserve">
     <value>Вариант сверхтяжёлого танка c задним расположением башни. Разрабатывался компанией Krupp. От VK 70.01 отличался усиленным вооружением и бронированием. Существовал только в эскизах.</value>
   </data>
@@ -3047,10 +3153,10 @@ verstärkteketten</value>
     <value>Waffenträger auf E 100</value>
   </data>
   <data name="Waffentrager_E100_descr" xml:space="preserve">
-    <value>Аванпроект установки зенитных орудий большого калибра на шасси танка E 100. Предполагалось использовать 128- и 150-мм орудия с автоматом перезарядки. Однако проект так и не был разработан.</value>
+    <value>Вариант установки зенитных орудий крупного калибра на шасси танка Е 100. Предполагалось использовать 128- и 150-мм орудия с автоматом заряжания. Однако к концу войны разработка данного проекта так и не была начата.</value>
   </data>
   <data name="Waffentrager_E100_short" xml:space="preserve">
-    <value>WT auf E 100</value>
+    <value>WT E 100</value>
   </data>
   <data name="Waffentrager_IV" xml:space="preserve">
     <value>Waffenträger auf Pz. IV</value>
@@ -3210,11 +3316,17 @@ Ausf. K</value>
   <data name="_10WSc" xml:space="preserve">
     <value>10WSc</value>
   </data>
+  <data name="_10WSc_WT" xml:space="preserve">
+    <value>10WSc A</value>
+  </data>
   <data name="_128mm_K43_L55" xml:space="preserve">
     <value>12,8 cm Kanone 43 L/55</value>
   </data>
   <data name="_128mm_K44_2_L61" xml:space="preserve">
     <value>12,8 cm Kanone L/61</value>
+  </data>
+  <data name="_128mm_K44_2_L61_WT" xml:space="preserve">
+    <value>12,8 cm Kanone L/61 A</value>
   </data>
   <data name="_128mm_K44_L55" xml:space="preserve">
     <value>12,8 cm Kanone 44 L/55</value>
@@ -3230,6 +3342,9 @@ Ausf. K</value>
   </data>
   <data name="_128mm_L50A" xml:space="preserve">
     <value>12,8 cm Kw.K. L/50</value>
+  </data>
+  <data name="_128mm_L50P" xml:space="preserve">
+    <value>12,8 cm Kw.K. L/50 A</value>
   </data>
   <data name="_128mm_PaK44_2_L61" xml:space="preserve">
     <value>12,8 cm Pak L/66</value>
@@ -3435,6 +3550,9 @@ Ausf. K</value>
   <data name="_37cm_Pzgr40t" xml:space="preserve">
     <value>Pzgr 40 (t)</value>
   </data>
+  <data name="_37cm_Pzgr40t_bootcamp" xml:space="preserve">
+    <value>Pzgr 40 (t)</value>
+  </data>
   <data name="_37mm_KwK_34t_L40" xml:space="preserve">
     <value>3,7 cm Kw.K. 34 (t) L/40</value>
   </data>
@@ -3453,6 +3571,9 @@ Ausf. K</value>
   <data name="_37mm_PaK_38t_L47" xml:space="preserve">
     <value>3,7 cm Pak (t) L/47</value>
   </data>
+  <data name="_37mm_PaK_38t_L47_bootcamp" xml:space="preserve">
+    <value>3,7 cm Pak (t) L/47</value>
+  </data>
   <data name="_37mm_Pzgr36" xml:space="preserve">
     <value>Pzgr 36</value>
   </data>
@@ -3462,6 +3583,9 @@ Ausf. K</value>
   <data name="_37mm_Pzgr39t" xml:space="preserve">
     <value>Pzgr 39 (t)</value>
   </data>
+  <data name="_37mm_Pzgr39t_bootcamp" xml:space="preserve">
+    <value>Pzgr 39 (t)</value>
+  </data>
   <data name="_37mm_SA_38f_L34" xml:space="preserve">
     <value>3,7 cm SA 38 L/34</value>
   </data>
@@ -3469,6 +3593,9 @@ Ausf. K</value>
     <value>Sprgr 18</value>
   </data>
   <data name="_37mm_Sprg.18t" xml:space="preserve">
+    <value>Sprgr 18 (t)</value>
+  </data>
+  <data name="_37mm_Sprg.18t_bootcamp" xml:space="preserve">
     <value>Sprgr 18 (t)</value>
   </data>
   <data name="_40mm_36_M_Pancelgranat" xml:space="preserve">
@@ -3489,16 +3616,25 @@ Ausf. K</value>
   <data name="_47cm_Pzgr40t" xml:space="preserve">
     <value>Pzgr 40 (t)</value>
   </data>
+  <data name="_47cm_Pzgr40t_bootcamp" xml:space="preserve">
+    <value>Pzgr 40 (t)</value>
+  </data>
   <data name="_47mm_PaK_38t_L43" xml:space="preserve">
     <value>4,7 cm Kw.K. (t) L/43</value>
   </data>
   <data name="_47mm_PaK_38t_L43AT" xml:space="preserve">
     <value>4,7 cm Pak (t) L/43</value>
   </data>
+  <data name="_47mm_PaK_38t_L43AT_bootcamp" xml:space="preserve">
+    <value>4,7 cm Pak (t) L/43</value>
+  </data>
   <data name="_47mm_Pzgr39f" xml:space="preserve">
     <value>Pzgr 39 (f)</value>
   </data>
   <data name="_47mm_Pzgr39t" xml:space="preserve">
+    <value>Pzgr 39 (t)</value>
+  </data>
+  <data name="_47mm_Pzgr39t_bootcamp" xml:space="preserve">
     <value>Pzgr 39 (t)</value>
   </data>
   <data name="_47mm_SA35_L34" xml:space="preserve">
@@ -3508,6 +3644,9 @@ Ausf. K</value>
     <value>Sprgr 18 (f)</value>
   </data>
   <data name="_47mm_Sprg.18t" xml:space="preserve">
+    <value>Sprgr 18 (t)</value>
+  </data>
+  <data name="_47mm_Sprg.18t_bootcamp" xml:space="preserve">
     <value>Sprgr 18 (t)</value>
   </data>
   <data name="_50mm_KwK_38_L42" xml:space="preserve">

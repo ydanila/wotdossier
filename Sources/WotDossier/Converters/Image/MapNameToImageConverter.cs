@@ -33,7 +33,7 @@ namespace WotDossier.Converters
         {
             string mapName = (string)value;
 
-            var uriSource = new Uri(string.Format(@"pack://application:,,,/WotDossier.Resources;component/Images/Maps/{0}.jpg", mapName));
+            var uriSource = new Uri(string.Format(@"pack://application:,,,/WotDossier.Resources;component/Images/Maps/{0}.png", mapName));
 
             BitmapImage bitmapImage = ImageCache.GetBitmapImage(uriSource);
 

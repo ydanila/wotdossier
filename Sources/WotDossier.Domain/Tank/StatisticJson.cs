@@ -32,7 +32,11 @@ namespace WotDossier.Domain.Tank
         public int xpBefore8_8;
         public int battlesCountBefore8_8;
         public int battlesCountBefore9_0;
-        
+
+        public int battlesOnStunningVehicles;
+        public int stunNum;
+        public int damageAssistedStun;
+
         public int maxDamage;
         public int maxFrags;
         public int maxXP;

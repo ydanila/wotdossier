@@ -54,6 +54,8 @@
                     <DataGridTextColumn CellStyle="{StaticResource DataGridCellEffForPeriodStyle}" Header="{x:Static resources:Resources.Column_Ratings_EffRating}" Binding="{Binding EffRatingForPeriod, StringFormat='0.'}" Width="1*" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
                     <DataGridTextColumn CellStyle="{StaticResource DataGridCellWn7ForPeriodStyle}" Header="WN7" Binding="{Binding WN7RatingForPeriod, StringFormat='0.'}" Width="1*" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
                     <DataGridTextColumn CellStyle="{StaticResource DataGridCellWn8ForPeriodStyle}" Header="WN8" Binding="{Binding WN8RatingForPeriod, StringFormat='0.'}" Width="1*" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
+                    <DataGridTextColumn CellStyle="{StaticResource DataGridCellWn8KttcForPeriodStyle}" Header="WN8 KTTC" Binding="{Binding WN8KTTCRatingForPeriod, StringFormat='0.'}" Width="1*" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
+                    <DataGridTextColumn CellStyle="{StaticResource DataGridCellWn8XvmForPeriodStyle}" Header="WN8 XVM" Binding="{Binding WN8XVMRatingForPeriod, StringFormat='0.'}" Width="1*" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
                 </DataGrid.Columns>
                 <i:Interaction.Triggers>
                     <i:EventTrigger EventName="MouseDoubleClick">

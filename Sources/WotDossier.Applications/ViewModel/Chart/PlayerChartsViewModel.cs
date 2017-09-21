@@ -9,6 +9,7 @@ using WotDossier.Applications.ViewModel.Rows;
 using WotDossier.Applications.ViewModel.Statistic;
 using WotDossier.Common;
 using WotDossier.Domain;
+using WotDossier.Domain.Rating;
 
 namespace WotDossier.Applications.ViewModel.Chart
 {
@@ -292,7 +293,7 @@ namespace WotDossier.Applications.ViewModel.Chart
                 values,
                 statisticViewModels,
                 row => (int) row.Tier,
-                group => Math.Round(RatingHelper.Wn8(group.ToList()), 1),
+                group => Math.Round(RatingHelper.Wn8(group.ToList(), WN8Type.Default), 1),
                 value => Utils.ToRoman(value));
         }
 
@@ -304,7 +305,7 @@ namespace WotDossier.Applications.ViewModel.Chart
                 values,
                 statisticViewModels,
                 row => row.Type,
-                group => Math.Round(RatingHelper.Wn8(group.ToList()), 1),
+                group => Math.Round(RatingHelper.Wn8(group.ToList(), WN8Type.Default), 1),
                 value => Resources.Resources.ResourceManager.GetEnumResource((TankType)value));
         }
 
@@ -316,7 +317,7 @@ namespace WotDossier.Applications.ViewModel.Chart
                 values,
                 statisticViewModels,
                 row => row.CountryId,
-                group => Math.Round(RatingHelper.Wn8(group.ToList()), 1),
+                group => Math.Round(RatingHelper.Wn8(group.ToList(), WN8Type.Default), 1),
                 value => Resources.Resources.ResourceManager.GetEnumResource((Country)value));
         }
 

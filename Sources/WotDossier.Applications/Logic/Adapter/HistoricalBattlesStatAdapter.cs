@@ -13,7 +13,7 @@ namespace WotDossier.Applications.Logic.Adapter
         /// <summary>
         ///     Initializes a new instance of the <see cref="T:System.Object" /> class.
         /// </summary>
-        public HistoricalBattlesStatAdapter(List<TankJson> tanks) : base(tanks, tank => tank.Historical ?? new StatisticJson())
+        public HistoricalBattlesStatAdapter(List<TankJson> tanks) : base(tanks)
         {
             Func<TankJson, AchievementsHistorical> achievementsHistoricalPredicate = tankJson => tankJson.AchievementsHistorical ?? new AchievementsHistorical();
 
@@ -95,6 +95,11 @@ namespace WotDossier.Applications.Logic.Adapter
             }
 
             Mapper.Map<IHistoricalBattlesAchievements>(this, entity.AchievementsIdObject);
+        }
+
+        public override Func<TankJson, StatisticJson> Predicate
+        {
+            get { return tank => tank.Historical ?? new StatisticJson(); }
         }
     }
 }

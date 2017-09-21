@@ -181,6 +181,7 @@
         public int Bonecrusher { get; set; }
         public int Charmed { get; set; }
         public int Even { get; set; }
+        public int Aimer { get; set; }
 
         #endregion
 

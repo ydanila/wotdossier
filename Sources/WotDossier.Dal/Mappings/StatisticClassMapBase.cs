@@ -38,7 +38,13 @@ namespace WotDossier.Dal.Mappings
 
             Map(v => v.RBR);
             Map(v => v.WN8Rating);
+            Map(v => v.WN8KTTCRating);
+            Map(v => v.WN8XVMRating);
             Map(v => v.PerformanceRating);
+
+            Map(v => v.BattlesOnStunningVehicles);
+            Map(v => v.StunNum);
+            Map(v => v.DamageAssistedStun);
 
             Map(v => v.Rev);
         }

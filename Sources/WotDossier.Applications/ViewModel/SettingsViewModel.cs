@@ -32,6 +32,7 @@ namespace WotDossier.Applications.ViewModel
         private bool _nameChanged;
         public DelegateCommand SaveCommand { get; set; }
         public DelegateCommand SelectCacheFolderCommand { get; set; }
+        public DelegateCommand SelectWotFolderCommand { get; set; }
 
         public AppSettings AppSettings
         {
@@ -110,6 +111,16 @@ namespace WotDossier.Applications.ViewModel
             }
         }
 
+        public bool TryFindTankAnalog
+        {
+            get { return AppSettings.TryFindTankAnalog; }
+            set
+            {
+                AppSettings.TryFindTankAnalog = value;
+                RaisePropertyChanged("TryFindTankAnalog");
+            }
+        }
+
         public string CacheFolderPath
         {
             get { return AppSettings.DossierCachePath; }
@@ -117,6 +128,16 @@ namespace WotDossier.Applications.ViewModel
             {
                 AppSettings.DossierCachePath = value;
                 RaisePropertyChanged("CacheFolderPath");
+            }
+        }
+
+        public string WotFolderPath
+        {
+            get { return AppSettings.WotFolderPath; }
+            set
+            {
+                AppSettings.WotFolderPath = value;
+                RaisePropertyChanged("WotFolderPath");
             }
         }
 
@@ -134,17 +155,29 @@ namespace WotDossier.Applications.ViewModel
             SaveCommand = new DelegateCommand(OnSave);
             _appSettings = SettingsReader.Get();
             Servers = Dictionaries.Instance.GameServers.Keys.ToList();
-            SelectCacheFolderCommand = new DelegateCommand(OnSelectCacheFolder);
+            SelectCacheFolderCommand = new DelegateCommand(() =>
+            {
+                var path = SelectFolder();
+                if(!string.IsNullOrEmpty(path))
+                    CacheFolderPath = path;
+            });
+            SelectWotFolderCommand = new DelegateCommand(() =>
+            {
+                var path = SelectFolder();
+                if (!string.IsNullOrEmpty(path))
+                    WotFolderPath = path;
+            });
         }
 
-        private void OnSelectCacheFolder()
+        private string SelectFolder()
         {
             VistaFolderBrowserDialog dialog = new VistaFolderBrowserDialog();
             bool? showDialog = dialog.ShowDialog();
             if (showDialog == true)
             {
-                CacheFolderPath = dialog.SelectedPath;
+                return dialog.SelectedPath;
             }
+            return string.Empty;
         }
 
         private void OnSave()

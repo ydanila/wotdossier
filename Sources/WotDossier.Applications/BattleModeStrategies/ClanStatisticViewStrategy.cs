@@ -21,7 +21,7 @@ namespace WotDossier.Applications.BattleModeStrategies
         /// </summary>
         public override Func<TankJson, StatisticJson> Predicate
         {
-            get { return tank => tank.Clan; }
+            get { return tank => tank.Clan ?? new StatisticJson(); ; }
         }
 
         /// <summary>

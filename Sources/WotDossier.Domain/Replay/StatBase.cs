@@ -3,7 +3,7 @@ using System.Runtime.Serialization;
 namespace WotDossier.Domain.Replay
 {
     [DataContract]
-    public class StatBase
+    public class StatBase : ResultBase
     {
         private int _damageAssisted;
         private int _heHits;
@@ -204,5 +204,17 @@ namespace WotDossier.Domain.Replay
             get { return _deathReason; }
             set { _deathReason = value; }
         }
+
+        [DataMember]
+        public int damageAssistedStun { get; set; }
+
+        [DataMember]
+        public int stunNum { get; set; }
+
+        [DataMember]
+        public double stunDuration { get; set; }
+
+        [DataMember]
+        public int rickochetsReceived { get; set; }
     }
 }

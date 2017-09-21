@@ -126,6 +126,9 @@
   <data name="A-220B_1" xml:space="preserve">
     <value>A-220B</value>
   </data>
+  <data name="A-220B_1P" xml:space="preserve">
+    <value>A-220B</value>
+  </data>
   <data name="A-220_1" xml:space="preserve">
     <value>A-220</value>
   </data>
@@ -288,6 +291,21 @@
   <data name="Ch22_113" xml:space="preserve">
     <value>113</value>
   </data>
+  <data name="Ch22_113P" xml:space="preserve">
+    <value>113</value>
+  </data>
+  <data name="Ch22_113P_descr" xml:space="preserve">
+    <value>Разработка модели 113 началась в 1963 году в связи с необходимостью создания альтернативы WZ-111. Проект основывался на отработанных узлах и агрегатах средних танков. Однако в связи с появлением класса основных боевых танков работы над моделью 113 были свёрнуты.</value>
+  </data>
+  <data name="Ch22_113_Beijing_Opera" xml:space="preserve">
+    <value>113 Beijing Opera</value>
+  </data>
+  <data name="Ch22_113_Beijing_Opera_descr" xml:space="preserve">
+    <value>Разработка модели 113 началась в 1963 году в связи с необходимостью создания альтернативы WZ-111. Проект основывался на отработанных узлах и агрегатах средних танков. Однако в связи с появлением класса основных боевых танков работы над моделью 113 были свёрнуты.</value>
+  </data>
+  <data name="Ch22_113_Beijing_Opera_short" xml:space="preserve">
+    <value>113 BO</value>
+  </data>
   <data name="Ch22_113_descr" xml:space="preserve">
     <value>Разработка модели 113 началась в 1963 году в связи с необходимостью создания альтернативы WZ-111. Проект основывался на отработанных узлах и агрегатах средних танков. Однако в связи с появлением класса основных боевых танков работы над моделью 113 были свёрнуты.</value>
   </data>
@@ -338,6 +356,114 @@
   </data>
   <data name="Ch29_Type_62C_prot_short" xml:space="preserve">
     <value>WZ-132-1</value>
+  </data>
+  <data name="Ch30_T-26G_FT" xml:space="preserve">
+    <value>T-26G FT</value>
+  </data>
+  <data name="Ch30_T-26G_FT_descr" xml:space="preserve">
+    <value>Танки Т-26 поставлялись Советским Союзом в Китай ещё в конце 30-х годов, где состояли на вооружении 200 механизированной дивизии гоминьдановской Национально-революционной армии Китая. Во время гражданской войны 1946-1950 гг. некоторое количество танков было захвачено коммунистической Народно-освободительной армией в восточном Китае в 1949 году. В 1950 году на их базе были созданы по меньшей мере две модификации ПТ-САУ.</value>
+  </data>
+  <data name="Ch30_T-26G_FT_short" xml:space="preserve">
+    <value>T-26G FT</value>
+  </data>
+  <data name="Ch31_M3G_FT" xml:space="preserve">
+    <value>M3G FT</value>
+  </data>
+  <data name="Ch31_M3G_FT_descr" xml:space="preserve">
+    <value>В 1943 году Национально-революционная армия Китая получила от США по ленд-лизу 48 лёгких танков M3A3 и M5A1. Часть машин стали трофеями Народно-освободительной армии Китая. После окончания гражданской войны встал вопрос о повышении огневой мощи этих танков. Рассматривался вариант установки советских противотанковых орудий, однако после начала поставок Т-34-85 из СССР вопрос потерял актуальность. Не было построено ни одного экземпляра.</value>
+  </data>
+  <data name="Ch31_M3G_FT_short" xml:space="preserve">
+    <value>M3G FT</value>
+  </data>
+  <data name="Ch32_SU-76G_FT" xml:space="preserve">
+    <value>SU-76G FT</value>
+  </data>
+  <data name="Ch32_SU-76G_FT_descr" xml:space="preserve">
+    <value>Предполагаемая китайская модификация советской ПТ-САУ СУ-76М. В начале 50-х годов около 90 СУ-76М были поставлены в КНДР для изучения китайскими военными специалистами. В реальности не существовала.</value>
+  </data>
+  <data name="Ch32_SU-76G_FT_short" xml:space="preserve">
+    <value>SU-76G FT</value>
+  </data>
+  <data name="Ch33_60G_FT" xml:space="preserve">
+    <value>60G FT</value>
+  </data>
+  <data name="Ch33_60G_FT_descr" xml:space="preserve">
+    <value>Проект ПТ-САУ на базе артиллерийского тягача АТ-Т. Данный тягач поставлялся СССР во многие страны и неоднократно копировался. На его базе было создано большое количество инженерных машин и транспортёров. Также планировалось использовать тягач в качестве базы для создания боевых машин, однако все работы не выходили за рамки аванпроектов.</value>
+  </data>
+  <data name="Ch33_60G_FT_short" xml:space="preserve">
+    <value>60G FT</value>
+  </data>
+  <data name="Ch34_WZ131G_FT" xml:space="preserve">
+    <value>WZ-131G FT</value>
+  </data>
+  <data name="Ch34_WZ131G_FT_descr" xml:space="preserve">
+    <value>Проект ПТ-САУ на базе танка Type 62, также известного под заводским обозначением WZ-131. Разрабатывалась в 1963 году. Как и базовая машина, данная ПТ-САУ предназначалась для боевых действий в южных районах страны в условиях гористой и заболоченной местности с большим количеством мостов. Данных о производстве ПТ-САУ в металле нет.</value>
+  </data>
+  <data name="Ch34_WZ131G_FT_short" xml:space="preserve">
+    <value>WZ-131G FT</value>
+  </data>
+  <data name="Ch35_T-34-2G_FT" xml:space="preserve">
+    <value>T-34-2G FT</value>
+  </data>
+  <data name="Ch35_T-34-2G_FT_descr" xml:space="preserve">
+    <value>Предположительный проект ПТ-САУ на базе проектного среднего танка Т-34-2 с использованием технических решений советских СУ-122-54 и САУ периода Великой Отечественной войны. В реальности не существовала.</value>
+  </data>
+  <data name="Ch35_T-34-2G_FT_short" xml:space="preserve">
+    <value>T-34-2G FT</value>
+  </data>
+  <data name="Ch36_WZ111_1G_FT" xml:space="preserve">
+    <value>WZ-111-1G FT</value>
+  </data>
+  <data name="Ch36_WZ111_1G_FT_descr" xml:space="preserve">
+    <value>Разработка ПТ-САУ WZ-111-1G FT велась с учётом опыта создания тяжёлого танка WZ-111. Прототип последнего был создан в начале 1960-х годов. Он прошёл испытания пробегом, в ходе которых было выявлено множество недостатков в конструкции машины, и дальнейшие работы над WZ-111 были свёрнуты в 1964 году. В конструкции WZ-111-1G FT угадывается влияние советской школы танкостроения. Данных о производстве ПТ-САУ в металле нет.</value>
+  </data>
+  <data name="Ch36_WZ111_1G_FT_short" xml:space="preserve">
+    <value>WZ-111-1 FT</value>
+  </data>
+  <data name="Ch37_WZ111G_FT" xml:space="preserve">
+    <value>WZ-111G FT</value>
+  </data>
+  <data name="Ch37_WZ111G_FT_descr" xml:space="preserve">
+    <value>Самоходное орудие разрабатывалось на базе опытного образца тяжёлого танка WZ-111 в первой половине 60-х годов. После прекращения работ над WZ-111, работы по данной машине также были свёрнуты. Не было построено ни одного экземпляра.</value>
+  </data>
+  <data name="Ch37_WZ111G_FT_short" xml:space="preserve">
+    <value>WZ-111G FT</value>
+  </data>
+  <data name="Ch38_WZ113G_FT" xml:space="preserve">
+    <value>WZ-113G FT</value>
+  </data>
+  <data name="Ch38_WZ113G_FT_descr" xml:space="preserve">
+    <value>Основой для создания проекта ПТ-САУ WZ-113G FT послужил проект танка 113. Проектирование последнего началось в 1963 году. Обе машины не были реализованы в металле.</value>
+  </data>
+  <data name="Ch38_WZ113G_FT_short" xml:space="preserve">
+    <value>WZ-113G FT</value>
+  </data>
+  <data name="Ch39_WZ120_1G_FT" xml:space="preserve">
+    <value>WZ-120-1G FT</value>
+  </data>
+  <data name="Ch39_WZ120_1G_FT_descr" xml:space="preserve">
+    <value>Вариант проекта ПТ-САУ на базе среднего танка Type 59 (заводское обозначение WZ-120), принятого на вооружение в 1959 году. Проект реализован не был.</value>
+  </data>
+  <data name="Ch39_WZ120_1G_FT_short" xml:space="preserve">
+    <value>WZ-120-1 FT</value>
+  </data>
+  <data name="Ch40_WZ120G_FT" xml:space="preserve">
+    <value>WZ-120G FT</value>
+  </data>
+  <data name="Ch40_WZ120G_FT_descr" xml:space="preserve">
+    <value>WZ-120G FT представляет собой проект противотанковой самоходной установки на базе китайского среднего танка WZ-120. Работы над новой машиной проводились в начале 60-х гг. Проектом предусматривалось максимальная унификация узлов и агрегатов с базовым танком. Работы над машиной были свёрнуты в пользу других перспективных проектов.</value>
+  </data>
+  <data name="Ch40_WZ120G_FT_short" xml:space="preserve">
+    <value>WZ-120G FT</value>
+  </data>
+  <data name="Ch41_WZ_111_5A" xml:space="preserve">
+    <value>WZ-111 model 5A</value>
+  </data>
+  <data name="Ch41_WZ_111_5A_descr" xml:space="preserve">
+    <value>Прототип тяжёлого танка разрабатывался в начале 60-х годов. Проект 111 разрабатывался на основе конструкции советских танков ИС-2 и ИС-3 как аналог танка Т-10. От остальных вариантов проекта 111 эта машина отличалась усиленным лобовым бронированием. Разработка была прекращена в 1964 году.</value>
+  </data>
+  <data name="Ch41_WZ_111_5A_short" xml:space="preserve">
+    <value>WZ-111 5A</value>
   </data>
   <data name="Chassis_Ch01_Type59_2" xml:space="preserve">
     <value>Type 59</value>
@@ -456,6 +582,12 @@
   <data name="Chassis_Ch22_113" xml:space="preserve">
     <value>113</value>
   </data>
+  <data name="Chassis_Ch22_113P" xml:space="preserve">
+    <value>113</value>
+  </data>
+  <data name="Chassis_Ch22_113_Beijing_Opera" xml:space="preserve">
+    <value>113 Beijing Opera</value>
+  </data>
   <data name="Chassis_Ch23_112" xml:space="preserve">
     <value>112</value>
   </data>
@@ -477,8 +609,75 @@
   <data name="Chassis_Ch29_Type_62C_prot" xml:space="preserve">
     <value>WZ-132-1</value>
   </data>
+  <data name="Chassis_Ch30_T-26G_FT" xml:space="preserve">
+    <value>T-26G FT</value>
+  </data>
+  <data name="Chassis_Ch30_T-26G_FT_2" xml:space="preserve">
+    <value>T-26G FT model 2</value>
+  </data>
+  <data name="Chassis_Ch31_M3G_FT" xml:space="preserve">
+    <value>M3G FT</value>
+  </data>
+  <data name="Chassis_Ch31_M3G_FT_2" xml:space="preserve">
+    <value>M3G FT model 2</value>
+  </data>
+  <data name="Chassis_Ch32_SU-76G_FT" xml:space="preserve">
+    <value>SU-76G FT</value>
+  </data>
+  <data name="Chassis_Ch32_SU-76G_FT_2" xml:space="preserve">
+    <value>SU-76G FT model 4</value>
+  </data>
+  <data name="Chassis_Ch33_60G_FT" xml:space="preserve">
+    <value>60G FT</value>
+  </data>
+  <data name="Chassis_Ch33_60G_FT_2" xml:space="preserve">
+    <value>60G FT model 3</value>
+  </data>
+  <data name="Chassis_Ch34_WZ131G_FT" xml:space="preserve">
+    <value>WZ-131G FT</value>
+  </data>
+  <data name="Chassis_Ch34_WZ131G_FT_2" xml:space="preserve">
+    <value>WZ-131G FT model 2</value>
+  </data>
+  <data name="Chassis_Ch35_T-34-2G_FT" xml:space="preserve">
+    <value>T-34-2G FT</value>
+  </data>
+  <data name="Chassis_Ch35_T-34-2G_FT_2" xml:space="preserve">
+    <value>T-34-2G FT model 2</value>
+  </data>
+  <data name="Chassis_Ch36_WZ111_1G_FT" xml:space="preserve">
+    <value>WZ-111-1G FT</value>
+  </data>
+  <data name="Chassis_Ch36_WZ111_1G_FT_2" xml:space="preserve">
+    <value>WZ-111-1G FT model 2</value>
+  </data>
+  <data name="Chassis_Ch37_WZ111G_FT" xml:space="preserve">
+    <value>WZ-111G FT</value>
+  </data>
+  <data name="Chassis_Ch37_WZ111G_FT_2" xml:space="preserve">
+    <value>WZ-111G FT model 4</value>
+  </data>
+  <data name="Chassis_Ch38_WZ113G_FT" xml:space="preserve">
+    <value>WZ-113G FT</value>
+  </data>
+  <data name="Chassis_Ch39_WZ120_1G_FT" xml:space="preserve">
+    <value>WZ-120-1G FT</value>
+  </data>
+  <data name="Chassis_Ch40_WZ120G_FT" xml:space="preserve">
+    <value>WZ-120G FT</value>
+  </data>
+  <data name="Chassis_Ch41_WZ_111_5A" xml:space="preserve">
+    <value>WZ-111 model 5A</value>
+  </data>
   <data name="Continental_R-975-C1" xml:space="preserve">
     <value>Continental R-975-C1</value>
+  </data>
+  <data name="Continental_W670_9A" xml:space="preserve">
+    <value>Continental W-670-9A</value>
+  </data>
+  <data name="Continental_W670_9A_short" xml:space="preserve">
+    <value>Continental
+W-670-9A</value>
   </data>
   <data name="ER_52" xml:space="preserve">
     <value>ER 52</value>
@@ -492,11 +691,20 @@
   <data name="NORINCO_12150L7" xml:space="preserve">
     <value>NORINCO 12150L</value>
   </data>
+  <data name="SCR_210" xml:space="preserve">
+    <value>SCR 210</value>
+  </data>
   <data name="SCR_506" xml:space="preserve">
     <value>SCR 506</value>
   </data>
   <data name="SCR_508" xml:space="preserve">
     <value>SCR 508</value>
+  </data>
+  <data name="T_26" xml:space="preserve">
+    <value>T-26</value>
+  </data>
+  <data name="T_26M" xml:space="preserve">
+    <value>T-26M</value>
   </data>
   <data name="Turret_1_Ch01_Type59_2" xml:space="preserve">
     <value>Type 59</value>
@@ -526,7 +734,7 @@
     <value>FT-17</value>
   </data>
   <data name="Turret_1_Ch07_Vickers_MkE_Type_BT26" xml:space="preserve">
-    <value>Vickers Mk. E Type B</value>
+    <value>Vickers Mk. E</value>
   </data>
   <data name="Turret_1_Ch08_Type97_Chi_Ha" xml:space="preserve">
     <value>Type 97</value>
@@ -570,6 +778,12 @@
   <data name="Turret_1_Ch22_113" xml:space="preserve">
     <value>113</value>
   </data>
+  <data name="Turret_1_Ch22_113P" xml:space="preserve">
+    <value>113</value>
+  </data>
+  <data name="Turret_1_Ch22_113_Beijing_Opera" xml:space="preserve">
+    <value>113 Beijing Opera</value>
+  </data>
   <data name="Turret_1_Ch23_112" xml:space="preserve">
     <value>112</value>
   </data>
@@ -588,6 +802,42 @@
   <data name="Turret_1_Ch29_Type_62C_prot" xml:space="preserve">
     <value>WZ-132-1</value>
   </data>
+  <data name="Turret_1_Ch30_T-26G_FT" xml:space="preserve">
+    <value>T-26G FT</value>
+  </data>
+  <data name="Turret_1_Ch31_M3G_FT" xml:space="preserve">
+    <value>M3G FT</value>
+  </data>
+  <data name="Turret_1_Ch32_SU-76G_FT" xml:space="preserve">
+    <value>SU-76G FT</value>
+  </data>
+  <data name="Turret_1_Ch33_60G_FT" xml:space="preserve">
+    <value>60G FT</value>
+  </data>
+  <data name="Turret_1_Ch34_WZ131G_FT" xml:space="preserve">
+    <value>WZ-131G FT</value>
+  </data>
+  <data name="Turret_1_Ch35_T-34-2G_FT" xml:space="preserve">
+    <value>T-34-2G FT</value>
+  </data>
+  <data name="Turret_1_Ch36_WZ111_1G_FT" xml:space="preserve">
+    <value>WZ-111-1G FT</value>
+  </data>
+  <data name="Turret_1_Ch37_WZ111G_FT" xml:space="preserve">
+    <value>WZ-111G FT</value>
+  </data>
+  <data name="Turret_1_Ch38_WZ113G_FT" xml:space="preserve">
+    <value>WZ-113G FT</value>
+  </data>
+  <data name="Turret_1_Ch39_WZ120_1G_FT" xml:space="preserve">
+    <value>WZ-120-1G FT</value>
+  </data>
+  <data name="Turret_1_Ch40_WZ120G_FT" xml:space="preserve">
+    <value>WZ-120G FT</value>
+  </data>
+  <data name="Turret_1_Ch41_WZ_111_5A" xml:space="preserve">
+    <value>WZ-111 model 5A</value>
+  </data>
   <data name="Turret_2_Ch04_T34_1" xml:space="preserve">
     <value>T-34-1 model 2</value>
   </data>
@@ -598,7 +848,7 @@
     <value>FT-18</value>
   </data>
   <data name="Turret_2_Ch07_Vickers_MkE_Type_BT26" xml:space="preserve">
-    <value>Т-26 model 1936</value>
+    <value>Vickers Mk. E Type B</value>
   </data>
   <data name="Turret_2_Ch08_Type97_Chi_Ha" xml:space="preserve">
     <value>Type 97-Kai</value>
@@ -633,6 +883,12 @@
   <data name="Turret_2_Ch21_T34" xml:space="preserve">
     <value>Type T-34M</value>
   </data>
+  <data name="Turret_2_Ch31_M3G_FT" xml:space="preserve">
+    <value>M3G FT model 2</value>
+  </data>
+  <data name="Twin_Cadillac_42Gseries" xml:space="preserve">
+    <value>Twin Cadillac, Series 42G</value>
+  </data>
   <data name="Twin_Cadillac_42series" xml:space="preserve">
     <value>Twin Cadillac, Series 42</value>
   </data>
@@ -644,6 +900,12 @@
   </data>
   <data name="V-2-34" xml:space="preserve">
     <value>V-2-34</value>
+  </data>
+  <data name="V_2_54SCG" xml:space="preserve">
+    <value>V-2-54SCG</value>
+  </data>
+  <data name="V_54" xml:space="preserve">
+    <value>V-54</value>
   </data>
   <data name="_100mm_44-100JT" xml:space="preserve">
     <value>100 mm 44-100JT</value>
@@ -657,11 +919,17 @@
   <data name="_100mm_59-100TA" xml:space="preserve">
     <value>100 mm 59-100TA</value>
   </data>
+  <data name="_100mm_59_100TG_FT" xml:space="preserve">
+    <value>100 mm 59-100TG FT</value>
+  </data>
   <data name="_100mm_60-100T" xml:space="preserve">
     <value>100 mm 60-100T</value>
   </data>
   <data name="_100mm_60-100TA" xml:space="preserve">
     <value>100 mm 60-100TA</value>
+  </data>
+  <data name="_100mm_60_100TG_FT" xml:space="preserve">
+    <value>100 mm 60-100TG FT</value>
   </data>
   <data name="_100mm_62-100T" xml:space="preserve">
     <value>100 mm 62-100T</value>
@@ -708,26 +976,53 @@
   <data name="_12150L-3_V-12" xml:space="preserve">
     <value>NORINCO 12150L3</value>
   </data>
+  <data name="_12150L1" xml:space="preserve">
+    <value>12150L1</value>
+  </data>
+  <data name="_12150L1G" xml:space="preserve">
+    <value>12150L1G</value>
+  </data>
   <data name="_12150L2" xml:space="preserve">
     <value>12150L2</value>
   </data>
   <data name="_12150L3" xml:space="preserve">
     <value>12150L3</value>
   </data>
+  <data name="_12150L3G" xml:space="preserve">
+    <value>12150L3G</value>
+  </data>
+  <data name="_12150L3G2" xml:space="preserve">
+    <value>12150L3G2</value>
+  </data>
+  <data name="_12150L4" xml:space="preserve">
+    <value>12150L4</value>
+  </data>
   <data name="_12150L7" xml:space="preserve">
     <value>12150L7</value>
+  </data>
+  <data name="_12150L7G" xml:space="preserve">
+    <value>12150L7G</value>
   </data>
   <data name="_12150L8" xml:space="preserve">
     <value>12150L8</value>
   </data>
+  <data name="_12150LG" xml:space="preserve">
+    <value>12150LG</value>
+  </data>
   <data name="_12150LS" xml:space="preserve">
     <value>12150LS</value>
+  </data>
+  <data name="_12150LSG" xml:space="preserve">
+    <value>12150LSG</value>
   </data>
   <data name="_12150LT" xml:space="preserve">
     <value>12150LT</value>
   </data>
   <data name="_12150LT2" xml:space="preserve">
     <value>12150LT2</value>
+  </data>
+  <data name="_12150LTG" xml:space="preserve">
+    <value>12150LTG</value>
   </data>
   <data name="_12150LZ" xml:space="preserve">
     <value>NORINCO 12150L</value>
@@ -741,14 +1036,26 @@
   <data name="_122-mm_60-122TG" xml:space="preserve">
     <value>122 mm 60-122TG</value>
   </data>
+  <data name="_122-mm_60-122TP" xml:space="preserve">
+    <value>122 mm 60-122T</value>
+  </data>
   <data name="_122-mm_D25-T" xml:space="preserve">
     <value>122 mm D-25T</value>
   </data>
   <data name="_122-mm_D25-TA" xml:space="preserve">
     <value>122 mm D-25TA</value>
   </data>
+  <data name="_122mm_60_122TG_FT" xml:space="preserve">
+    <value>122 mm 60-122TG FT</value>
+  </data>
+  <data name="_122mm_60_122TG_FT_A" xml:space="preserve">
+    <value>122 mm 60-122TG FT A</value>
+  </data>
   <data name="_122mm_CB-472" xml:space="preserve">
     <value>Chuan bei-472</value>
+  </data>
+  <data name="_122mm_D25_TG_FT" xml:space="preserve">
+    <value>122 mm D-25TG FT</value>
   </data>
   <data name="_122mm_PO-122" xml:space="preserve">
     <value>Po-122</value>
@@ -768,14 +1075,47 @@
   <data name="_130mm_59-130T" xml:space="preserve">
     <value>130 mm 59-130T</value>
   </data>
+  <data name="_130mm_59_130JG_FT" xml:space="preserve">
+    <value>130 mm 59-130JG FT</value>
+  </data>
+  <data name="_130mm_59_130JG_FT_A" xml:space="preserve">
+    <value>130 mm 59-130JG FT A</value>
+  </data>
+  <data name="_130mm_59_130TA" xml:space="preserve">
+    <value>130 mm 59-130TA</value>
+  </data>
   <data name="_130mm_AP" xml:space="preserve">
     <value>Chuan bei-482</value>
+  </data>
+  <data name="_130mm_Chuan_bei_482G" xml:space="preserve">
+    <value>Chuan bei-482G</value>
   </data>
   <data name="_130mm_HE" xml:space="preserve">
     <value>Sha bao-482</value>
   </data>
   <data name="_130mm_HEAT" xml:space="preserve">
     <value>Po-130</value>
+  </data>
+  <data name="_130mm_Po_130G" xml:space="preserve">
+    <value>Po-130G</value>
+  </data>
+  <data name="_130mm_Sha_bao_482G" xml:space="preserve">
+    <value>Sha bao-482G</value>
+  </data>
+  <data name="_152mm_59_152JG_FT" xml:space="preserve">
+    <value>152 mm 59-152JG FT</value>
+  </data>
+  <data name="_152mm_Chuan_bei_547" xml:space="preserve">
+    <value>Chuan bei-547</value>
+  </data>
+  <data name="_152mm_Po_152" xml:space="preserve">
+    <value>Po-152</value>
+  </data>
+  <data name="_152mm_Sha_bao_547" xml:space="preserve">
+    <value>Sha bao-547</value>
+  </data>
+  <data name="_2x_GAZ_203" xml:space="preserve">
+    <value>2x GAZ-203</value>
   </data>
   <data name="_37cm_Pzgr40" xml:space="preserve">
     <value>Pzgr. 40</value>
@@ -812,6 +1152,9 @@
   </data>
   <data name="_37mm_Odr_mle._1935_bot" xml:space="preserve">
     <value>ODR mle. 1935</value>
+  </data>
+  <data name="_37mm_Pak" xml:space="preserve">
+    <value>37 mm Pak</value>
   </data>
   <data name="_37mm_Pzgr36" xml:space="preserve">
     <value>Pzgr. 36</value>
@@ -858,6 +1201,9 @@
   <data name="_47mm_Gun_Type_1" xml:space="preserve">
     <value>47 mm Gun Type 1</value>
   </data>
+  <data name="_47mm_Gun_Type_1G_FT" xml:space="preserve">
+    <value>47 mm Gun Type 1G FT</value>
+  </data>
   <data name="_47mm_HE" xml:space="preserve">
     <value>HE</value>
   </data>
@@ -893,6 +1239,9 @@
   </data>
   <data name="_57mm_HE_Type_97" xml:space="preserve">
     <value>Type 90</value>
+  </data>
+  <data name="_57mm_ZiS_2" xml:space="preserve">
+    <value>57 mm ZiS-2</value>
   </data>
   <data name="_71-TK-3" xml:space="preserve">
     <value>71-TK-3</value>
@@ -931,8 +1280,17 @@
   <data name="_76mm_UOF-354" xml:space="preserve">
     <value>UOF-354</value>
   </data>
+  <data name="_76mm_ZiS_3" xml:space="preserve">
+    <value>76 mm ZiS-3</value>
+  </data>
   <data name="_85mm_367" xml:space="preserve">
     <value>Chuan chao-367</value>
+  </data>
+  <data name="_85mm_56_85TG_FT" xml:space="preserve">
+    <value>85 mm 56-85TG FT</value>
+  </data>
+  <data name="_85mm_62_85TG_FT" xml:space="preserve">
+    <value>85 mm 62-85TG FT</value>
   </data>
   <data name="_85mm_CB_367G" xml:space="preserve">
     <value>Chuan bei-367G</value>
@@ -1036,7 +1394,13 @@
   <data name="_Type_102S1" xml:space="preserve">
     <value>Type 102S1</value>
   </data>
+  <data name="_Type_102SG" xml:space="preserve">
+    <value>Type 102SG</value>
+  </data>
   <data name="_V-2-54SC" xml:space="preserve">
+    <value>V-2-54SC</value>
+  </data>
+  <data name="_V-2-54SCP" xml:space="preserve">
     <value>V-2-54SC</value>
   </data>
   <data name="_V-2IS" xml:space="preserve">

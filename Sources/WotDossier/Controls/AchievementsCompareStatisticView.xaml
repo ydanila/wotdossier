@@ -173,6 +173,16 @@
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Huntsman}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Huntsman}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
+                <controls:AchievementCompareRow FirstValue="{Binding First.MedalGore}" SecondValue="{Binding Second.MedalGore}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/medalGore.png">
+                    <ToolTipService.ToolTip>
+                        <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_MedalGore}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_MedalGore}" />
+                    </ToolTipService.ToolTip>
+                </controls:AchievementCompareRow>
+                <controls:AchievementCompareRow FirstValue="{Binding First.MedalStark}" SecondValue="{Binding Second.MedalStark}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/medalStark.png">
+                    <ToolTipService.ToolTip>
+                        <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_MedalStark}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_MedalStark}" />
+                    </ToolTipService.ToolTip>
+                </controls:AchievementCompareRow>
                 <!--Special Achievements-->
                 <TextBlock HorizontalAlignment="Center" Text="{x:Static resources:Resources.Label_Achievements_Special}" FontSize="17" FontFamily="Arial" Foreground="White" Margin="0,40,0,20"></TextBlock>
                 <controls:AchievementCompareRow FirstValue="{Binding First.Survivor}" SecondValue="{Binding Second.Survivor}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Diehard.png">

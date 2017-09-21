@@ -10,15 +10,18 @@ namespace WotDossier.Applications.Logic
     {
         static Mapper()
         {
-            AutoMapper.Mapper.CreateMap<IRandomBattlesAchievements, IRandomBattlesAchievements>();
-            AutoMapper.Mapper.CreateMap<IHistoricalBattlesAchievements, IHistoricalBattlesAchievements>();
-            AutoMapper.Mapper.CreateMap<ITeamBattlesAchievements, ITeamBattlesAchievements>();
-            AutoMapper.Mapper.CreateMap<IFortAchievements, IFortAchievements>();
-            AutoMapper.Mapper.CreateMap<IClanBattlesAchievements, IClanBattlesAchievements>();
-            AutoMapper.Mapper.CreateMap<ExpandoObject, Map>();
-            AutoMapper.Mapper.CreateMap<FavoritePlayerEntity, ListItem<int>>()
-                .ForMember(x => x.Id, opt => opt.MapFrom(x => x.Id))
-                .ForMember(x => x.Value, opt => opt.MapFrom(x => x.Name));
+            AutoMapper.Mapper.Initialize(cfg =>
+            {
+                cfg.CreateMap<IRandomBattlesAchievements, IRandomBattlesAchievements>();
+                cfg.CreateMap<IHistoricalBattlesAchievements, IHistoricalBattlesAchievements>();
+                cfg.CreateMap<ITeamBattlesAchievements, ITeamBattlesAchievements>();
+                cfg.CreateMap<IFortAchievements, IFortAchievements>();
+                cfg.CreateMap<IClanBattlesAchievements, IClanBattlesAchievements>();
+                cfg.CreateMap<ExpandoObject, Map>();
+                cfg.CreateMap<FavoritePlayerEntity, ListItem<int>>()
+                    .ForMember(x => x.Id, opt => opt.MapFrom(x => x.Id))
+                    .ForMember(x => x.Value, opt => opt.MapFrom(x => x.Name));
+            });
         }
 
         public static void Map<TSource, TTarget>(TSource source, TTarget target)

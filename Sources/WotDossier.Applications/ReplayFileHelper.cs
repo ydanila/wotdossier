@@ -240,13 +240,22 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
                 {
                     if (replay.datablock_1.Version >= _prevMinVersion)
                     {
-                        var battleResult = parsedData[0].ToObject<BattleResult98>();
+
+	                    JsonSerializerSettings settings = new JsonSerializerSettings();
+	                    settings.Converters.Add(new PersonalConverter());
+	                    var battleResult = parsedData[0].ToObject<BattleResult98>(JsonSerializer.CreateDefault(settings));
+						//var battleResult = parsedData[0].ToObject<BattleResult98>();
+
                         replay.datablock_battle_result = new BattleResult();
                         replay.datablock_battle_result.arenaUniqueID = battleResult.arenaUniqueID;
                         replay.datablock_battle_result.common = battleResult.common;
                         replay.datablock_battle_result.players = battleResult.players;
-                        replay.datablock_battle_result.personal = battleResult.personal.Values.First();
-                        replay.datablock_battle_result.vehicles = battleResult.vehicles.ToDictionary(x => x.Key, y => y.Value.First());
+                        replay.datablock_battle_result.personal = battleResult.personal.Values.First() as Personal;
+						if(battleResult.personal.ContainsKey("avatar"))
+							replay.datablock_battle_result.avatar = battleResult.personal["avatar"] as Avatar;
+						else
+							replay.datablock_battle_result.avatar = new Avatar();
+						replay.datablock_battle_result.vehicles = battleResult.vehicles.ToDictionary(x => x.Key, y => y.Value.First());
                     }
                     else
                     {
@@ -282,9 +291,16 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
 
             //uncompressed.Dump(@"c:\\temp");
 
+            var replayWriterVehicle = replay.datablock_battle_result.vehicles.First(v =>
+                v.Value.accountDBID == replay.datablock_battle_result.personal.accountDBID).Key;
+
+            //ReplayUser = Vehicles.First(v => v.AccountDBID == replay.datablock_battle_result.personal.accountDBID);
+
             using (var uncompressedReplayStream = new MemoryStream(uncompressed))
             {
                 BaseParser parser = GetParser(replay);
+
+                parser.ReplayWriterVehicle = Convert.ToUInt64(replayWriterVehicle);
 
                 replay.datablock_advanced = new AdvancedReplayData();
 
@@ -346,11 +362,39 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
             {
                 return new Parser910();
             }
-            if (version < new Version("0.9.14.0"))
+            if (version < new Version("0.9.13.0"))
             {
                 return new Parser912();
             }
-            return new Parser914();
+            if (version < new Version("0.9.14.0"))
+            {
+                return new Parser913();
+            }
+            if (version < new Version("0.9.15.0"))
+            {
+                return new Parser914();
+            }
+            if (version < new Version("0.9.16.0"))
+            {
+                return new Parser915();
+            }
+            if (version < new Version("0.9.17.0"))
+            {
+                return new Parser916();
+            }
+            if (version < new Version("0.9.17.1"))
+            {
+                return new Parser917();
+            }
+	        if (version < new Version("0.9.19.1"))
+	        {
+		        return new Parser9171();
+	        }
+			if (version < new Version("0.9.20.0"))
+	        {
+		        return new Parser9191();
+	        }
+			return new Parser920();
         }
 
 
@@ -530,5 +574,49 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
     {
         public int Health { get; set; }
         public int Source { get; set; }
+    }
+
+    internal class PersonalConverter : JsonConverter
+    {
+        public override bool CanConvert(Type objectType)
+        {
+            return (objectType == typeof(ResultBase));
+        }
+
+        public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+        {
+            // Load the JSON for the Result into a JObject
+            JObject jo = JObject.Load(reader);
+
+
+	        if (jo["autoLoadCost"] != null)
+		        return jo.ToObject<Personal>();
+
+	        if (jo["totalDamaged"] != null)
+		        return jo.ToObject<Avatar>();
+			// Read the properties which will be used as constructor parameters
+			//            int? code = (int?)jo["Code"];
+			//            string format = (string)jo["Format"];
+
+			// Construct the Result object using the non-default constructor
+			//            Result result = new Result(code, format);
+
+			// (If anything else needs to be populated on the result object, do that here)
+
+			// Return the result
+			//            return result;
+			//return base.ReadJson(reader, objectType, existingValue, serializer);
+			return jo.ToObject<Avatar>();
+		}
+
+        public override bool CanWrite
+        {
+            get { return false; }
+        }
+
+        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -19,6 +19,10 @@ namespace WotDossier.Applications.ViewModel.Replay
         
         public int DamageAssistedRadio { get; set; }
 
+        public int DamageAssistedStun { get; set; }
+
+        public int StunNum { get; set; }
+
         public int DamageDealt { get; set; }
 
         public int Fire { get; set; }
@@ -35,7 +39,15 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         public bool TeamMate { get; set; }
 
-        public CombatTarget(KeyValuePair<long, DamagedVehicle> vehicleDamage, TeamMember teamMember, Version version)
+	    public int NoDamageDirectHitsReceived { get; set; }
+
+	    public int DamageBlockedByArmor { get; set; }
+
+        public int RickochetsReceived { get; set; }
+
+	    public bool IsAlive { get; set; }
+
+		public CombatTarget(KeyValuePair<long, DamagedVehicle> vehicleDamage, TeamMember teamMember, Version version)
         {
             TeamMember = teamMember;
 
@@ -49,9 +61,18 @@ namespace WotDossier.Applications.ViewModel.Replay
             HeHits = vehicleDamage.Value.he_hits;
             Hits = vehicleDamage.Value.hits;
             Killed = vehicleDamage.Value.killed;
-            Pierced = vehicleDamage.Value.pierced;
+			IsAlive = teamMember.IsAlive;
+			Pierced = vehicleDamage.Value.pierced;
             Spotted = vehicleDamage.Value.spotted;
+            StunNum = vehicleDamage.Value.stunNum;
+            DamageAssistedStun = vehicleDamage.Value.damageAssistedStun;
             TeamMate = teamMember.TeamMate;
+	        StunNum = vehicleDamage.Value.stunNum;
+	        NoDamageDirectHitsReceived = vehicleDamage.Value.noDamageDirectHitsReceived;
+	        DamageBlockedByArmor = vehicleDamage.Value.damageBlockedByArmor;
+            RickochetsReceived = vehicleDamage.Value.rickochetsReceived;
+
+
         }
 
         public List<CritDetails> CritsDetails { get; set; }

@@ -5,6 +5,8 @@
         double EffRating { get; }
         double WN7Rating { get; }
         double WN8Rating { get; }
+        double WN8KTTCRating { get; }
+        double WN8XVMRating { get; }
         double KievArmorRating { get; }
 
         double NoobRating { get; }

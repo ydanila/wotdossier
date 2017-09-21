@@ -99,6 +99,14 @@ namespace WotDossier.Applications.ViewModel.Statistic
         {
             get { return WN8Rating - TypedPrevStatistic.WN8Rating; }
         }
+        public double WN8KTTCRatingDelta
+        {
+            get { return WN8KTTCRating - TypedPrevStatistic.WN8KTTCRating; }
+        }
+        public double WN8XVMRatingDelta
+        {
+            get { return WN8XVMRating - TypedPrevStatistic.WN8XVMRating; }
+        }
 
         public double PerformanceRatingDelta
         {
@@ -300,6 +308,8 @@ namespace WotDossier.Applications.ViewModel.Statistic
         }
 
         private double _wn8RatingForPeriod;
+        private double _wn8KTTCRatingForPeriod;
+        private double _wn8XVMRatingForPeriod;
         public virtual double WN8RatingForPeriod
         {
             get { return _wn8RatingForPeriod; }
@@ -307,6 +317,26 @@ namespace WotDossier.Applications.ViewModel.Statistic
             {
                 _wn8RatingForPeriod = value;
                 OnPropertyChanged("WN8RatingForPeriod");
+            }
+        }
+
+        public virtual double WN8KTTCRatingForPeriod
+        {
+            get { return _wn8KTTCRatingForPeriod; }
+            set
+            {
+                _wn8KTTCRatingForPeriod = value;
+                OnPropertyChanged("WN8KTTCRatingForPeriod");
+            }
+        }
+
+        public virtual double WN8XVMRatingForPeriod
+        {
+            get { return _wn8XVMRatingForPeriod; }
+            set
+            {
+                _wn8XVMRatingForPeriod = value;
+                OnPropertyChanged("WN8XVMRatingForPeriod");
             }
         }
 
@@ -810,6 +840,11 @@ namespace WotDossier.Applications.ViewModel.Statistic
         public int EvenDelta
         {
             get { return Even - TypedPrevStatistic.Even; }
+        }
+
+        public int AimerDelta
+        {
+            get { return Aimer - TypedPrevStatistic.Aimer; }
         }
 
         public double TierDelta

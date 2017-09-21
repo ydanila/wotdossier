@@ -96,18 +96,21 @@ namespace WotDossier.Domain
         /// </value>
         public bool AutoLoadStatistic { get; set; }
 
-        private bool _showExtendedReplaysData = true;
         /// <summary>
         /// Gets or sets a value indicating whether [show extended replays data].
         /// </summary>
         /// <value>
         /// <c>true</c> if [show extended replays data]; otherwise, <c>false</c>.
         /// </value>
-        public bool ShowExtendedReplaysData
-        {
-            get { return _showExtendedReplaysData; }
-            set { _showExtendedReplaysData = value; }
-        }
+        public bool ShowExtendedReplaysData { get; set; } = true;
+
+        /// <summary>
+        /// Gets or sets a value indicating whether to try to find tank analog in tanks ratings.
+        /// </summary>
+        /// <value>
+        /// <c>true</c> if try to find tank analog; otherwise, <c>false</c>.
+        /// </value>
+        public bool TryFindTankAnalog { get; set; } = true;
 
         private bool _useIncompleteReplaysResultsForCharts = false;
         
@@ -135,6 +138,9 @@ namespace WotDossier.Domain
 
         public String ColumnInfo { get; set; }
         public string DossierCachePath { get; set; }
+
+        public string WotFolderPath { get; set; }
+
         public int WindowState { get; set; }
     }
 }

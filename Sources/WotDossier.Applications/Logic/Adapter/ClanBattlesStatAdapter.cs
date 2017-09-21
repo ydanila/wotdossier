@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using WotDossier.Applications.ViewModel.Rows;
@@ -12,7 +13,7 @@ namespace WotDossier.Applications.Logic.Adapter
         /// <summary>
         /// Initializes a new instance of the <see cref="T:System.Object"/> class.
         /// </summary>
-        public ClanBattlesStatAdapter(List<TankJson> tanks) : base(tanks, tank => tank.Clan)
+        public ClanBattlesStatAdapter(List<TankJson> tanks) : base(tanks)
         {
             MedalRotmistrov = tanks.Sum(x => x.AchievementsClan?.MedalRotmistrov ?? 0);
         }
@@ -36,5 +37,11 @@ namespace WotDossier.Applications.Logic.Adapter
 
             Mapper.Map<IClanBattlesAchievements>(this, entity.AchievementsIdObject);
         }
+
+        public override Func<TankJson, StatisticJson> Predicate
+        {
+            get { return tank => tank.Clan; }
+        }
+
     }
 }

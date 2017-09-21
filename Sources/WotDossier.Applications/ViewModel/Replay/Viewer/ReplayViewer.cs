@@ -196,6 +196,8 @@ namespace WotDossier.Applications.ViewModel.Replay.Viewer
 
             _parser = ReplayFileHelper.GetParser(_replay);
 
+            _parser.ReplayWriterVehicle = Convert.ToUInt64(ReplayUser.Id);
+
             _mapGrid = new MapGrid(new MapElementContext(map, replay.datablock_1.gameplayID, ReplayUser.Team, MAP_CONTROL_SIZE, MAP_CONTROL_SIZE));
         }
 
@@ -230,9 +232,10 @@ namespace WotDossier.Applications.ViewModel.Replay.Viewer
             {
                 Point point = MapGrid.ElementContext.game_to_map_coord(data.position);
 
-                MapVehicle member = Vehicles.FirstOrDefault(x => x.Id == data.PlayerId);
+                //MapVehicle member = Vehicles.FirstOrDefault(x => x.Id == (long)packet.PlayerId);
+	            MapVehicle member = Vehicles.FirstOrDefault(x => x.Id == (long)data.PlayerId);
 
-                if (member != null)
+				if (member != null)
                 {
                     member.X = point.X;
                     member.Y = point.Y;
@@ -247,7 +250,7 @@ namespace WotDossier.Applications.ViewModel.Replay.Viewer
                 }
             }
 
-            if (packet.Type == PacketType.Health && packet.StreamSubType == 0x03)
+            if (packet.Type == PacketType.Health && packet.StreamSubType == _parser.UpdateEvent_Health)
             {
                 MapVehicle member = Vehicles.FirstOrDefault(x => x.Id == (int)packet.PlayerId);
                 if (member != null)

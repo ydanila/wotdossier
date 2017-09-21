@@ -10,7 +10,9 @@ using Newtonsoft.Json.Linq;
 using WotDossier.Common;
 using WotDossier.Common.Python;
 using WotDossier.Dal;
+using WotDossier.Domain.Dossier;
 using WotDossier.Domain.Dossier.AppSpot;
+using WotDossier.Domain.Dossier.Utils;
 using WotDossier.Domain.Tank;
 
 namespace WotDossier.Applications
@@ -111,17 +113,8 @@ namespace WotDossier.Applications
         /// <returns></returns>
         public static List<TankJson> InternalBinaryCacheToJson(FileInfo cacheFile)
         {
-            using (Unpickler unpickler = new Unpickler())
-            {
-                object[] pickle = (object[]) unpickler.load(cacheFile.OpenRead());
-                object dossierversion = pickle[0];
-                Hashtable tankItems = (Hashtable)pickle[1]; 
-                foreach (DictionaryEntry tankItem in tankItems)
-                {
-                    string data = (string) ((object[])tankItem.Value)[1];
-                }
-                return null;   
-            }
+            var result = DossierReader.Read(cacheFile);
+            return result.tanks_v2;
         }
 
         /// <summary>
@@ -146,6 +139,10 @@ namespace WotDossier.Applications
                     {
                         JProperty property = (JProperty)jToken;
                         int version = property.Value["common"].ToObject<CommonJson>().basedonversion;
+	                    if (property.Value["common"].ToObject<CommonJson>().compactDescr == 8449)
+	                    {
+		                    int x = 0;
+	                    }
                         TankJson tank = DataMapper.Map(property.Value, version);
                         tank.Raw = CompressHelper.Compress(JsonConvert.SerializeObject(tank));
                         if (ExtendPropertiesData(tank))
@@ -159,32 +156,38 @@ namespace WotDossier.Applications
             return tanks;
         }
 
+        #region [ Obsolete ]
+
+        // Obsolete
+
         /// <summary>
         /// Reads the dossier application spot tanks.
         /// </summary>
         /// <param name="data">The data.</param>
         /// <returns></returns>
-        public static List<TankJson> ReadDossierAppSpotTanks(string data)
-        {
-            List<TankJson> tanks = new List<TankJson>();
+        //public static List<TankJson> ReadDossierAppSpotTanks(string data)
+        //{
+        //    List<TankJson> tanks = new List<TankJson>();
 
-            JObject parsedData = JsonConvert.DeserializeObject<JObject>(data);
+        //    JObject parsedData = JsonConvert.DeserializeObject<JObject>(data);
 
-            JToken tanksData = parsedData["tanks"];
+        //    JToken tanksData = parsedData["tanks"];
 
-            foreach (JToken jToken in tanksData)
-            {
-                Tank appSpotTank = jToken.ToObject<Tank>();
-                TankJson tank = DataMapper.Map(appSpotTank);
-                tank.Raw = CompressHelper.CompressObject(tank);
-                if (ExtendPropertiesData(tank))
-                {
-                    tanks.Add(tank);
-                }
-            }
+        //    foreach (JToken jToken in tanksData)
+        //    {
+        //        Tank appSpotTank = jToken.ToObject<Tank>();
+        //        TankJson tank = DataMapper.Map(appSpotTank);
+        //        tank.Raw = CompressHelper.CompressObject(tank);
+        //        if (ExtendPropertiesData(tank))
+        //        {
+        //            tanks.Add(tank);
+        //        }
+        //    }
 
-            return tanks;
-        }
+        //    return tanks;
+        //}
+
+        #endregion
 
         /// <summary>
         /// Extends the properties data with Description and FragsList.

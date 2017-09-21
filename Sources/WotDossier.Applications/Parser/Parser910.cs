@@ -11,5 +11,7 @@ namespace WotDossier.Applications.Parser
         {
             get { return 0x26; }
         }
+
+	    public override ulong UpdateEvent_Health => 0x06;
     }
 }

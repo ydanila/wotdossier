@@ -9,7 +9,7 @@
         xmlns:services="clr-namespace:WotDossier.Framework.Presentation.Services;assembly=WotDossier.Framework"
         xmlns:domain="clr-namespace:WotDossier.Domain;assembly=WotDossier.Domain"
         xmlns:charts="clr-namespace:WotDossier.Tabs.Charts"
-        Title="{x:Static services:ApplicationInfo.FullProductName}" Height="960" Width="1280" MinWidth="1280" MinHeight="768" 
+        Title="{x:Static services:ApplicationInfo.FullProductName}" Height="960" Width="1280" MinWidth="1280" MinHeight="708" 
         WindowStartupLocation="CenterScreen" WindowState="Maximized" Icon="/app_icon.ico"
         Style="{DynamicResource office2007SilverWindow}">
     <Window.CommandBindings>
@@ -103,7 +103,7 @@
             <TabItem TabIndex="5" Header="{x:Static resources:Resources.Tab_Header_Damage}">
                 <tabs:DamageTab HorizontalAlignment="Stretch"></tabs:DamageTab>
             </TabItem>
-            <!--Awards-->
+            <!--Awards Random-->
             <TabItem TabIndex="5" Header="{x:Static resources:Resources.Tab_Awards}"
                      Visibility="{Binding BattleModeSelector.BattleMode, Converter={x:Static converters:BattleModeToVisibilityConverter.Default}, 
                      ConverterParameter={x:Static domain:BattleMode.RandomCompany}}">
@@ -128,6 +128,33 @@
                     <TabItem TabIndex="9" Header="{x:Static resources:Resources.Tab_Header_Medals}">
                         <tabs:MedalsTab HorizontalAlignment="Stretch"></tabs:MedalsTab>
                     </TabItem>         
+                </TabControl>
+            </TabItem>
+            <!--Awards General Battle-->
+            <TabItem TabIndex="5" Header="{x:Static resources:Resources.Tab_Awards}"
+                     Visibility="{Binding BattleModeSelector.BattleMode, Converter={x:Static converters:BattleModeToVisibilityConverter.Default}, 
+                     ConverterParameter={x:Static domain:BattleMode.GrandBattle}}">
+                <TabControl HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <!--Battle awards-->
+                    <TabItem TabIndex="6" Header="{x:Static resources:Resources.Tab_Header_BattleAwards}">
+                        <tabs:BattleAwardsTab HorizontalAlignment="Stretch"></tabs:BattleAwardsTab>
+                    </TabItem>
+                    <!--Epics-->
+                    <TabItem TabIndex="15" Header="{x:Static resources:Resources.Tab_Header_Epics}">
+                        <tabs:EpicsTab HorizontalAlignment="Stretch"></tabs:EpicsTab>
+                    </TabItem>
+                    <!--Special awards-->
+                    <TabItem TabIndex="7" Header="{x:Static resources:Resources.Tab_Header_SpecialAwards}">
+                        <tabs:SpecialAwardsTab HorizontalAlignment="Stretch"></tabs:SpecialAwardsTab>
+                    </TabItem>
+                    <!--Series-->
+                    <TabItem TabIndex="8" Header="{x:Static resources:Resources.Tab_Header_Series}">
+                        <tabs:SeriesTab HorizontalAlignment="Stretch"></tabs:SeriesTab>
+                    </TabItem>
+                    <!--Medals-->
+                    <TabItem TabIndex="9" Header="{x:Static resources:Resources.Tab_Header_Medals}">
+                        <tabs:MedalsTab HorizontalAlignment="Stretch"></tabs:MedalsTab>
+                    </TabItem>
                 </TabControl>
             </TabItem>
             <!--Medals-->
@@ -158,6 +185,11 @@
             <TabItem TabIndex="13" Header="{x:Static resources:Resources.Tab_Header_FragCounts}"
                      Visibility="{Binding BattleModeSelector.BattleMode, Converter={x:Static converters:BattleModeToVisibilityConverter.Default}, 
                      ConverterParameter={x:Static domain:BattleMode.RandomCompany}}">
+                <tabs:FragCountsTab DataContext="{Binding FraggsCount}" HorizontalAlignment="Stretch"></tabs:FragCountsTab>
+            </TabItem>
+            <TabItem TabIndex="13" Header="{x:Static resources:Resources.Tab_Header_FragCounts}"
+                     Visibility="{Binding BattleModeSelector.BattleMode, Converter={x:Static converters:BattleModeToVisibilityConverter.Default}, 
+                     ConverterParameter={x:Static domain:BattleMode.GrandBattle}}">
                 <tabs:FragCountsTab DataContext="{Binding FraggsCount}" HorizontalAlignment="Stretch"></tabs:FragCountsTab>
             </TabItem>
             <!--Master tanker-->

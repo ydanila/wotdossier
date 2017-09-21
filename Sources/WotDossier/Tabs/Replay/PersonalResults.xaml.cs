@@ -11,5 +11,5 @@ namespace WotDossier.Tabs.Replay
         {
             InitializeComponent();
         }
-    }
+	}
 }

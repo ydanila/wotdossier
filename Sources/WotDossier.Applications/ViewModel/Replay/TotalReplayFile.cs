@@ -23,17 +23,20 @@ namespace WotDossier.Applications.ViewModel.Replay
             if (replayFiles.Any())
             {
                 Credits = (int)replayFiles.Average(x => x.Credits);
+                Crystal = (int)replayFiles.Average(x => x.Crystal);
                 DamageDealt = (int)replayFiles.Average(x => x.DamageDealt);
                 DamageReceived = (int)replayFiles.Average(x => x.DamageReceived);
                 Xp = (int)replayFiles.Average(x => x.Xp);
                 OriginalXp = (int)replayFiles.Average(x => x.OriginalXp);
                 Killed = replayFiles.Average(x => x.Killed).ToString("N2");
                 Damaged = replayFiles.Average(x => x.Damaged).ToString("N2");
+                StunNum = replayFiles.Average(x => x.StunNum).ToString("N2");
                 Spotted = replayFiles.Average(x => x.Spotted).ToString("N1");
                 PotentialDamageReceived = (int)replayFiles.Average(x => x.PotentialDamageReceived);
                 DamageBlockedByArmor = (int)replayFiles.Average(x => x.DamageBlockedByArmor);
                 DamageAssistedTrack = (int)replayFiles.Average(x => x.DamageAssistedTrack);
                 DamageAssistedRadio = (int)replayFiles.Average(x => x.DamageAssistedRadio);
+                DamageAssistedStun = (int)replayFiles.Average(x => x.DamageAssistedStun);
                 Spotted = replayFiles.Average(x => x.Spotted).ToString("N1");
                 DamageAssisted = replayFiles.Average(x => x.DamageAssisted).ToString("N0");
                 BattleTime = new TimeSpan(0, 0, (int)replayFiles.Average(x => x.BattleTime.TotalSeconds));
@@ -68,6 +71,10 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         public string Damaged { get; set; }
         public string Spotted { get; set; }
+
+        public string StunNum { get; set; }
+        public int DamageAssistedStun { get; set; }
+        
         public int PotentialDamageReceived { get; set; }
         public int DamageBlockedByArmor { get; set; }
         public int DamageAssistedTrack { get; set; }
@@ -88,5 +95,7 @@ namespace WotDossier.Applications.ViewModel.Replay
         public Guid FolderId { get; set; }
 
         public string PlayerName { get; set; }
+        
+        public int Crystal { get; set; }
     }
 }

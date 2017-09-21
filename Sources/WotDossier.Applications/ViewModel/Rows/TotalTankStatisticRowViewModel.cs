@@ -3,26 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using WotDossier.Applications.Logic;
 using WotDossier.Domain.Interfaces;
+using WotDossier.Domain.Rating;
 using WotDossier.Domain.Tank;
 
 namespace WotDossier.Applications.ViewModel.Rows
 {
     public class TotalTankStatisticRowViewModel : TankStatisticRowViewModelBase
     {
-        private double _wn8RatingValue;
-        private double _performanceRatingValue;
+        public override double WN8Rating { get; set; }
 
-        public override double WN8Rating
-        {
-            get { return _wn8RatingValue; }
-            set { _wn8RatingValue = value; }
-        }
+        public override double WN8KTTCRating { get; set; }
 
-        public override double PerformanceRating
-        {
-            get { return _performanceRatingValue; }
-            set { _performanceRatingValue = value; }
-        }
+        public override double WN8XVMRating { get; set; }
+
+        public override double PerformanceRating { get; set; }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="T:System.Object"/> class.
@@ -38,6 +32,7 @@ namespace WotDossier.Applications.ViewModel.Rows
             OriginalXP = list.Sum(x => x.OriginalXP);
             DamageAssistedTrack = list.Sum(x => x.DamageAssistedTrack);
             DamageAssistedRadio = list.Sum(x => x.DamageAssistedRadio);
+            DamageAssistedStun = list.Sum(x => x.DamageAssistedStun);
             Mileage = list.Sum(x => x.Mileage);
             ShotsReceived = list.Sum(x => x.ShotsReceived);
             NoDamageShotsReceived = list.Sum(x => x.NoDamageShotsReceived);
@@ -46,9 +41,11 @@ namespace WotDossier.Applications.ViewModel.Rows
             HeHits = list.Sum(x => x.HeHits);
             Pierced = list.Sum(x => x.Pierced);
             XpBefore88 = list.Sum(x => x.XpBefore88);
+            StunNum = list.Sum(x => x.StunNum);
             BattlesCountBefore88 = list.Sum(x => x.BattlesCountBefore88);
             BattlesCount88 = list.Sum(x => x.BattlesCount88);
             BattlesCount90 = list.Sum(x => x.BattlesCount90);
+            BattlesOnStunningVehicles = list.Sum(x => x.BattlesOnStunningVehicles);
             PotentialDamageReceived = list.Sum(x => x.PotentialDamageReceived);
             DamageBlockedByArmor = list.Sum(x => x.DamageBlockedByArmor); 
             IsPremium = false;
@@ -109,6 +106,8 @@ namespace WotDossier.Applications.ViewModel.Rows
             Fadin = list.Sum(x => x.Fadin);
             HeroesOfRassenay = list.Sum(x => x.HeroesOfRassenay);
             DeLanglade = list.Sum(x => x.DeLanglade);
+            MedalGore = list.Sum(x => x.MedalGore);
+            MedalStark = list.Sum(x => x.MedalStark);
             #endregion
 
             #region [ IStatisticFrags ]
@@ -190,7 +189,9 @@ namespace WotDossier.Applications.ViewModel.Rows
             MaxXp = list.Max(x => x.MaxXp);
             #endregion
 
-            WN8Rating = RatingHelper.Wn8(list);
+            WN8Rating = RatingHelper.Wn8(list, WN8Type.Default);
+            WN8KTTCRating = RatingHelper.Wn8(list, WN8Type.KTTC);
+            WN8XVMRating = RatingHelper.Wn8(list, WN8Type.XVM);
             PerformanceRating = RatingHelper.PerformanceRating(list);
         }
 

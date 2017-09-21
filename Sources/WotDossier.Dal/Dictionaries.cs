@@ -8,7 +8,9 @@ using Newtonsoft.Json.Linq;
 using WotDossier.Common;
 using WotDossier.Domain;
 using System.Linq;
+using WotDossier.Domain.Rating;
 using WotDossier.Domain.Tank;
+using Country = WotDossier.Domain.Country;
 
 namespace WotDossier.Dal
 {
@@ -29,12 +31,15 @@ namespace WotDossier.Dal
         private Dictionary<int, RatingExpectancy> _ratingExpectations;
 
         public static readonly Version VersionAll = new Version("100.0.0.0");
-        public static readonly Version VersionRelease = new Version("0.9.17.1");
-        public static readonly Version VersionTest = new Version("0.9.18.0");
+        public static readonly Version VersionRelease = new Version("0.9.20.0");
+        public static readonly Version VersionTest = new Version("0.9.21.0");
 
         private static readonly List<Version> _versions = new List<Version>
         {
                 VersionRelease,
+                new Version("0.9.19.1"),
+                new Version("0.9.19.0"),
+                new Version("0.9.18.0"),
                 new Version("0.9.17.0"),
                 new Version("0.9.16.0"),
                 new Version("0.9.15.1"),
@@ -92,16 +97,16 @@ namespace WotDossier.Dal
             {
                 3, new Dictionary<TankType, LevelRange>
                 {
-                    {TankType.LT, new LevelRange{Min = 3, Max = 5}},
-                    {TankType.MT, new LevelRange{Min = 3, Max = 5}},
-                    {TankType.SPG, new LevelRange{Min = 3, Max = 5}},
-                    {TankType.TD, new LevelRange{Min = 3, Max = 5}},
+                    {TankType.LT, new LevelRange{Min = 3, Max = 4}},
+                    {TankType.MT, new LevelRange{Min = 3, Max = 4}},
+                    {TankType.SPG, new LevelRange{Min = 3, Max = 4}},
+                    {TankType.TD, new LevelRange{Min = 3, Max = 4}},
                 }
             },
             {
                 4, new Dictionary<TankType, LevelRange>
                 {
-                    {TankType.LT, new LevelRange{Min = 4, Max = 8}},
+                    {TankType.LT, new LevelRange{Min = 4, Max = 6}},
                     {TankType.MT, new LevelRange{Min = 4, Max = 6}},
                     {TankType.HT, new LevelRange{Min = 4, Max = 5}},
                     {TankType.SPG, new LevelRange{Min = 4, Max = 6}},
@@ -111,7 +116,7 @@ namespace WotDossier.Dal
             {
                 5, new Dictionary<TankType, LevelRange>
                 {
-                    {TankType.LT, new LevelRange{Min = 6, Max = 9}},
+                    {TankType.LT, new LevelRange{Min = 5, Max = 7}},
                     {TankType.MT, new LevelRange{Min = 5, Max = 7}},
                     {TankType.HT, new LevelRange{Min = 5, Max = 7}},
                     {TankType.SPG, new LevelRange{Min = 5, Max = 7}},
@@ -121,7 +126,7 @@ namespace WotDossier.Dal
             {
                 6, new Dictionary<TankType, LevelRange>
                 {
-                    {TankType.LT, new LevelRange{Min = 7, Max = 10}},
+                    {TankType.LT, new LevelRange{Min = 6, Max = 8}},
                     {TankType.MT, new LevelRange{Min = 6, Max = 8}},
                     {TankType.HT, new LevelRange{Min = 6, Max = 8}},
                     {TankType.SPG, new LevelRange{Min = 6, Max = 8}},
@@ -131,7 +136,7 @@ namespace WotDossier.Dal
             {
                 7, new Dictionary<TankType, LevelRange>
                 {
-                    {TankType.LT, new LevelRange{Min = 8, Max = 11}},
+                    {TankType.LT, new LevelRange{Min = 7, Max = 9}},
                     {TankType.MT, new LevelRange{Min = 7, Max = 9}},
                     {TankType.HT, new LevelRange{Min = 7, Max = 9}},
                     {TankType.SPG, new LevelRange{Min = 7, Max = 9}},
@@ -141,7 +146,7 @@ namespace WotDossier.Dal
             {
                 8, new Dictionary<TankType, LevelRange>
                 {
-                    {TankType.LT, new LevelRange{Min = 9, Max = 11}},
+                    {TankType.LT, new LevelRange{Min = 8, Max = 10}},
                     {TankType.MT, new LevelRange{Min = 8, Max = 10}},
                     {TankType.HT, new LevelRange{Min = 8, Max = 10}},
                     {TankType.SPG, new LevelRange{Min = 8, Max = 10}},
@@ -169,6 +174,8 @@ namespace WotDossier.Dal
         };
 
         #endregion
+
+        private AppSettings AppSettings { get; }
 
         public List<Version> Versions
         {
@@ -245,13 +252,29 @@ namespace WotDossier.Dal
         /// </summary>
         private Dictionaries()
         {
+            AppSettings = SettingsReader.Get();
             Init();
         }
 
         public void Init()
         {
+            //var appSettings = SettingsReader.Get();
+            //if (!string.IsNullOrEmpty(appSettings.WotFolderPath))
+            //{
+            //    var inst = new GameInstallation(appSettings.WotFolderPath);
+            //    var context = WotData.Load(@"External\Data", new GameInstallation(appSettings.WotFolderPath),
+            //        String.Empty, null);
+            //}
+
+
+
+
             _ratingExpectations = ReadRatingExpectationsDictionary();
+
             _tanks = ReadTanksDictionary();
+
+            UpdateTankExpectedValues();
+
             _maps = ReadMaps();
             Medals = ReadMedals();
 
@@ -262,6 +285,7 @@ namespace WotDossier.Dal
 
         private static void UpdateMapsGeometry(Dictionary<string, Map> maps)
         {
+
             using (StreamReader re = new StreamReader(@"External\maps_description.json"))
             {
                 JsonTextReader reader = new JsonTextReader(re);
@@ -358,18 +382,29 @@ namespace WotDossier.Dal
         /// <returns></returns>
         public TankDescription GetReplayTankDescription(string playerVehicle, Version clientVersion)
         {
-            string iconId = playerVehicle.Replace(":", "_").Replace("-", "_").Replace(" ", "_").Replace(".", "_").ToLower();
-            TankDescription tankDescription = TankDescriptionByIconId(clientVersion, iconId) ?? ClientVersionCompabilityHelper.GetHDModelDescription(iconId, _tanks);
+            var iconId = playerVehicle.Replace(":", "_").Replace(" ", "_").Replace(".", "_").ToLower();
+            var tankDescription = TankDescriptionByIconId(clientVersion, iconId);
+            if (tankDescription == null)
+            {
+                iconId = iconId.Replace("-", "_");
+                tankDescription = TankDescriptionByIconId(clientVersion, iconId);
+            }
+            if (tankDescription == null)
+            {
+                tankDescription = ClientVersionCompabilityHelper.GetHDModelDescription(iconId, _tanks);
+            }
             return tankDescription ?? TankDescription.Unknown(playerVehicle);
         }
 
         private TankDescription TankDescriptionByIconId(Version clientVersion, string iconId)
         {
             TankDescription tankDescription = null;
-            if (Icons.ContainsKey(iconId))
+	        if (!Icons.TryGetValue(iconId, out var tankIcon))
+	        {
+		        tankIcon = Icons.Values.FirstOrDefault(p => p.IconKey == iconId);
+	        }
+            if (tankIcon != null)
             {
-                TankIcon tankIcon = Icons[iconId];
-
                 if (IconTanks.ContainsKey(tankIcon))
                 {
                     tankDescription = IconTanks[tankIcon];
@@ -478,6 +513,78 @@ namespace WotDossier.Dal
                 _log.Error(e);
             }
             return new Dictionary<int, RatingExpectancy>();
+        }
+
+        private void UpdateTankExpectedValues()
+        {
+            var wn8 = ReadRatingExpectedValues(WN8Type.Default);
+            var wn8k = ReadRatingExpectedValues(WN8Type.KTTC);
+            var wn8x = ReadRatingExpectedValues(WN8Type.XVM);
+
+            foreach (var pair in Tanks)
+            {
+                var tank = pair.Value;
+
+                tank.ExpectedValues = new Dictionary<WN8Type, RatingExpectedValuesData>()
+                {
+                    {WN8Type.Default, FindExpectedValues(wn8, tank)},
+                    {WN8Type.KTTC, FindExpectedValues(wn8k, tank)},
+                    {WN8Type.XVM, FindExpectedValues(wn8x, tank)}
+                };
+            }
+        }
+
+        private RatingExpectedValuesData FindExpectedValues(RatingExpectedValues expValues, TankDescription tank)
+        {
+            var exp = expValues.Data.FirstOrDefault(d => d.CompDescr == tank.CompDescr);
+
+            if ( exp == null && AppSettings.TryFindTankAnalog)
+                exp = expValues.Data.FirstOrDefault(x => x.TankLevel == tank.Tier && x.TankType == tank.Type);
+            return exp ?? new RatingExpectedValuesData();
+        }
+        private RatingExpectedValues ReadRatingExpectedValues(WN8Type wn8Type)
+        {
+            var result = new RatingExpectedValues();
+            try
+            {
+                var filename = string.Empty;
+                switch (wn8Type)
+                {
+                    case WN8Type.Default:
+                        filename = "expected_tank_values.json";
+                        break;
+                    case WN8Type.KTTC:
+                        filename = "expected_kttc.json";
+                        break;
+                    case WN8Type.XVM:
+                        filename = "expected_xvm.json";
+                        break;
+                    default:
+                        throw new ArgumentOutOfRangeException(nameof(wn8Type), wn8Type, null);
+                }
+                using (StreamReader re = new StreamReader(@"External\" + filename))
+                {
+                    JsonTextReader reader = new JsonTextReader(re);
+                    JsonSerializer se = new JsonSerializer();
+                    result = se.Deserialize<RatingExpectedValues>(reader);
+                }
+
+                foreach (var data in result.Data)
+                {
+                    var tank = Tanks.Values.FirstOrDefault(t => t.CompDescr == data.CompDescr);
+                    if (tank != null)
+                    {
+                        data.TankLevel = tank.Tier;
+                        data.TankType = tank.Type;
+                    }
+
+                }
+            }
+            catch (Exception e)
+            {
+                _log.Error(e);
+            }
+            return result;
         }
 
         /// <summary>

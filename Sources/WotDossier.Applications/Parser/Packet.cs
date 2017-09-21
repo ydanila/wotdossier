@@ -18,17 +18,17 @@ namespace WotDossier.Applications.Parser
         public object Data { get; set; }
     }
 
-    public enum PacketType
-    {
-        Unknown,
-        ChatMessage,
-        BattleLevel,
-        DamageReceived,
-        ArenaUpdate,
-        SlotUpdate,
-        Version,
-        PlayerPos,
-        MinimapClick,
-        Health
-    }
+	public enum PacketType
+	{
+		Unknown = 0,
+		ChatMessage = 1,
+		BattleLevel = 2,
+		DamageReceived = 3,
+		ArenaUpdate = 4,
+		SlotUpdate = 5,
+		Version = 6,
+		PlayerPos = 7,
+		MinimapClick = 8,
+		Health = 9
+	}
 }
