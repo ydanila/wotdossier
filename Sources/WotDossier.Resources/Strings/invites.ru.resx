@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="clan/application/comment" xml:space="preserve">
+    <value>%(linkStartTag)sПросмотреть%(linkEndTag)s информацию об игроке</value>
+  </data>
+  <data name="clan/application/title" xml:space="preserve">
+    <value>%(titleStartTag)sЗаявка в клан%(titleEndTag)s
+от %(nameStartTag)s%(name)s%(nameEndTag)s</value>
+  </data>
+  <data name="clan/applications/buttons/details" xml:space="preserve">
+    <value>Просмотреть заявки</value>
+  </data>
+  <data name="clan/applications/comment" xml:space="preserve">
+    <value>%(linkStartTag)sОтключить%(linkEndTag)s уведомления</value>
+  </data>
+  <data name="clan/applications/comment/minimap" xml:space="preserve">
+    <value>Кланы станут доступны после завершения загрузки.</value>
+  </data>
+  <data name="clan/applications/title" xml:space="preserve">
+    <value>%(titleStartTag)sЗаявок от игроков: %(appsCount)s %(titleEndTag)s</value>
+  </data>
+  <data name="clan/invite/comment" xml:space="preserve">
+    <value>%(linkStartTag)sПросмотреть%(linkEndTag)s информацию о клане</value>
+  </data>
+  <data name="clan/invite/title" xml:space="preserve">
+    <value>%(titleStartTag)sПриглашение в клан%(titleEndTag)s
+%(nameStartTag)s%(name)s%(nameEndTag)s</value>
+  </data>
+  <data name="clan/personal/invites/buttons/details" xml:space="preserve">
+    <value>Просмотреть приглашения</value>
+  </data>
+  <data name="clan/personal/invites/title" xml:space="preserve">
+    <value>%(titleStartTag)sПриглашений в кланы: %(appsCount)s %(titleEndTag)s</value>
+  </data>
+  <data name="clans/state/app/accepted" xml:space="preserve">
+    <value>Игрок принят в клан.</value>
+  </data>
+  <data name="clans/state/app/active" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="clans/state/app/declined" xml:space="preserve">
+    <value>Заявка отклонена.</value>
+  </data>
+  <data name="clans/state/app/error/inClanEnterCooldown" xml:space="preserve">
+    <value>Ещё не истёк двухдневный штраф после выхода игрока из предыдущего клана.</value>
+  </data>
+  <data name="clans/state/invite/accepted" xml:space="preserve">
+    <value>Вы были приняты в клан.</value>
+  </data>
+  <data name="clans/state/invite/active" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="clans/state/invite/declined" xml:space="preserve">
+    <value>Приглашение отклонено.</value>
+  </data>
+  <data name="clans/state/invite/error/inClanEnterCooldown" xml:space="preserve">
+    <value>Двухдневный штраф после выхода из предыдущего клана ещё не истёк.</value>
+  </data>
+  <data name="errors/creationNotAllowed" xml:space="preserve">
+    <value>У вас недостаточно прав для создания приглашения.</value>
+  </data>
+  <data name="errors/invalid" xml:space="preserve">
+    <value>Приглашение недействительно.</value>
+  </data>
+  <data name="errors/inviteNotSupported" xml:space="preserve">
+    <value>Данный тип приглашения на текущий момент не поддерживается. Попробуйте позже.</value>
+  </data>
+  <data name="errors/receiverIgnoreSender" xml:space="preserve">
+    <value>Получатель приглашения добавил вас в «Чёрный список».</value>
+  </data>
+  <data name="errors/selfinvite" xml:space="preserve">
+    <value>Нельзя создать приглашение самому себе.</value>
+  </data>
+  <data name="errors/unknownuser" xml:space="preserve">
+    <value>Пользователь не зарегистрирован в системе.</value>
+  </data>
+  <data name="errors/useroffline" xml:space="preserve">
+    <value>Пользователь не в сети.</value>
+  </data>
+  <data name="errors/vehicleBrokenOrLocked" xml:space="preserve">
+    <value>Машина в Ангаре разбита или заблокирована. Выберите другую.</value>
+  </data>
+  <data name="friendship/note/approved" xml:space="preserve">
+    <value>Игрок добавлен в «Друзья»</value>
+  </data>
+  <data name="friendship/note/canceled" xml:space="preserve">
+    <value>Запрос отклонён</value>
+  </data>
+  <data name="friendship/note/maxRoster" xml:space="preserve">
+    <value>Максимальное количество контактов в списке: %(rosterMaxCount)s. Для добавления нового игрока в «Друзья» удалите один из контактов.</value>
+  </data>
+  <data name="friendship/note/notConnected" xml:space="preserve">
+    <value>Отсутствует подключение к серверу. Подождите.</value>
+  </data>
+  <data name="friendship/note/process" xml:space="preserve">
+    <value>Ожидание ответа от сервера</value>
+  </data>
+  <data name="friendship/request/text" xml:space="preserve">
+    <value>%(titleStartTag)sЗапрос на добавление в «Друзья»%(titleEndTag)s
+от %(nameStartTag)s%(name)s%(nameEndTag)s</value>
+  </data>
+  <data name="gui/buttons/accept" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="gui/buttons/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="gui/buttons/reject" xml:space="preserve">
+    <value>Отклонить</value>
+  </data>
+  <data name="gui/buttons/send" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="gui/labels/additionalText" xml:space="preserve">
+    <value>Дополнительный текст приглашения:</value>
+  </data>
+  <data name="gui/labels/inviteText" xml:space="preserve">
+    <value>Текст приглашения:</value>
+  </data>
+  <data name="gui/labels/receiver" xml:space="preserve">
+    <value>Получатель:</value>
+  </data>
+  <data name="gui/titles/barter" xml:space="preserve">
+    <value>Приглашение к торговле</value>
+  </data>
+  <data name="gui/titles/clan" xml:space="preserve">
+    <value>Приглашение вступить в клан</value>
+  </data>
+  <data name="gui/titles/invite" xml:space="preserve">
+    <value>Приглашение</value>
+  </data>
+  <data name="gui/titles/receivedInvites" xml:space="preserve">
+    <value>Приглашения</value>
+  </data>
+  <data name="invites/comment" xml:space="preserve">
+    <value>«%(comment)s»</value>
+  </data>
+  <data name="invites/note/change_and_leave/CLAN" xml:space="preserve">
+    <value>Приняв приглашение, вы будете автоматически исключены из списка участников боя на глобальной карте и перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/EVENT" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете режим «+++Event battle+++» и будете перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/EVENT_BATTLES" xml:space="preserve">
+    <value>Вы будете автоматически перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/EXTERNAL" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете текущий отряд и будете перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/E_SPORT_COMMON" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете режим «Командный бой» и будете перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/FALLOUT" xml:space="preserve">
+    <value>Приняв приглашение, вы будете автоматически исключены из состава взвода и перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/FORT_BATTLE" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете «Укрепрайон: сражения» и будете перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/FORT_COMMON" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете Наступления и будете перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/RANDOMS" xml:space="preserve">
+    <value>Вы будете автоматически перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/SANDBOX" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете режим «Учебный бой» и будете перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/SORTIE" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете «Укрепрайон: сражения» и будете перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/SQUAD" xml:space="preserve">
+    <value>Приняв приглашение, вы будете автоматически исключены из состава взвода и перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/TOURNAMENT" xml:space="preserve">
+    <value>Приняв приглашение, вы будете автоматически исключены из списка участников турнира и перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/TRAINING" xml:space="preserve">
+    <value>Приняв приглашение, вы будете автоматически исключены из списка участников командной тренировки и перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/UNIT" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете режим «Командный бой» и будете перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/note/leave/CLAN" xml:space="preserve">
+    <value>Приняв приглашение, вы будете автоматически исключены из списка участников боя на Глобальной карте.</value>
+  </data>
+  <data name="invites/note/leave/EVENT" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="invites/note/leave/EXTERNAL" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете текущий отряд.</value>
+  </data>
+  <data name="invites/note/leave/E_SPORT_COMMON" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете режим «Командный бой».</value>
+  </data>
+  <data name="invites/note/leave/FALLOUT" xml:space="preserve">
+    <value>Приняв приглашение, вы будете автоматически исключены из состава взвода.</value>
+  </data>
+  <data name="invites/note/leave/FORT_BATTLE" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете «Укрепрайон: сражения».</value>
+  </data>
+  <data name="invites/note/leave/FORT_COMMON" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете Наступления.</value>
+  </data>
+  <data name="invites/note/leave/RANDOMS" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="invites/note/leave/SANDBOX" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете режим «Учебный бой».</value>
+  </data>
+  <data name="invites/note/leave/SORTIE" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете «Укрепрайон: сражения».</value>
+  </data>
+  <data name="invites/note/leave/SQUAD" xml:space="preserve">
+    <value>Приняв приглашение, вы будете автоматически исключены из состава взвода.</value>
+  </data>
+  <data name="invites/note/leave/TOURNAMENT" xml:space="preserve">
+    <value>Приняв приглашение, вы будете автоматически исключены из списка участников турнира.</value>
+  </data>
+  <data name="invites/note/leave/TRAINING" xml:space="preserve">
+    <value>Приняв приглашение, вы будете автоматически исключены из списка участников командной тренировки.</value>
+  </data>
+  <data name="invites/note/leave/UNIT" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете режим «Командный бой».</value>
+  </data>
+  <data name="invites/note/server_change" xml:space="preserve">
+    <value>Вы будете автоматически перемещены на сервер %(host)s.</value>
+  </data>
+  <data name="invites/prebattle/acceptNotAllowed/otherPeriphery" xml:space="preserve">
+    <value>Вы не можете принять приглашение. Чтобы принять приглашение, перейдите на сервер '%(host)s'.</value>
+  </data>
+  <data name="invites/prebattle/acceptNotAllowed/undefinedPeriphery" xml:space="preserve">
+    <value>Вы не можете принять приглашение. Чтобы принять приглашение, перейдите на другой сервер.</value>
+  </data>
+  <data name="invites/prebattle/alreadyJoined/CLAN" xml:space="preserve">
+    <value>Вы уже присоединились к этому бою на Глобальной карте.</value>
+  </data>
+  <data name="invites/prebattle/alreadyJoined/FALLOUT" xml:space="preserve">
+    <value>Вы уже присоединились к этому взводу.</value>
+  </data>
+  <data name="invites/prebattle/alreadyJoined/SORTIE" xml:space="preserve">
+    <value>Вы уже присоединились к этому отряду.</value>
+  </data>
+  <data name="invites/prebattle/alreadyJoined/SQUAD" xml:space="preserve">
+    <value>Вы уже присоединились к этому взводу.</value>
+  </data>
+  <data name="invites/prebattle/alreadyJoined/TOURNAMENT" xml:space="preserve">
+    <value>Вы уже присоединились к этому турниру.</value>
+  </data>
+  <data name="invites/prebattle/alreadyJoined/TRAINING" xml:space="preserve">
+    <value>Вы уже присоединились к этой командной тренировке.</value>
+  </data>
+  <data name="invites/prebattle/alreadyJoined/UNIT" xml:space="preserve">
+    <value>Вы уже присоединились к этой команде.</value>
+  </data>
+  <data name="invites/state/ACCEPTED" xml:space="preserve">
+    <value>Приглашение принято.</value>
+  </data>
+  <data name="invites/state/DECLINED" xml:space="preserve">
+    <value>Приглашение отклонено.</value>
+  </data>
+  <data name="invites/state/ERROR" xml:space="preserve">
+    <value>Приглашение недействительно.</value>
+  </data>
+  <data name="invites/state/EXPIRED" xml:space="preserve">
+    <value>Приглашение недействительно.</value>
+  </data>
+  <data name="invites/state/PENDING" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="invites/state/REVOKED" xml:space="preserve">
+    <value>Приглашение отозвано.</value>
+  </data>
+  <data name="invites/text/EVENT" xml:space="preserve">
+    <value>++%(titleStartTag)sПриглашение войти в состав взвода%(titleEndTag)s++</value>
+  </data>
+  <data name="invites/text/EXTERNAL" xml:space="preserve">
+    <value>%(titleStartTag)sПриглашение в отряд%(titleEndTag)s</value>
+  </data>
+  <data name="invites/text/FALLOUT" xml:space="preserve">
+    <value>%(titleStartTag)sПриглашение войти в состав взвода %(battleType)s%(titleEndTag)s</value>
+  </data>
+  <data name="invites/text/FALLOUT/FALLOUT_CLASSIC" xml:space="preserve">
+    <value>«Превосходство»</value>
+  </data>
+  <data name="invites/text/FALLOUT/FALLOUT_MULTITEAM" xml:space="preserve">
+    <value>«Стальная охота»</value>
+  </data>
+  <data name="invites/text/FORT_BATTLE" xml:space="preserve">
+    <value>%(titleStartTag)sПриглашение в битву%(titleEndTag)s</value>
+  </data>
+  <data name="invites/text/SORTIE" xml:space="preserve">
+    <value>%(titleStartTag)sПриглашение в отряд%(titleEndTag)s</value>
+  </data>
+  <data name="invites/text/SQUAD" xml:space="preserve">
+    <value>%(titleStartTag)sПриглашение войти в состав взвода%(titleEndTag)s</value>
+  </data>
+  <data name="invites/text/TRAINING" xml:space="preserve">
+    <value>%(titleStartTag)sПриглашение поучаствовать в командной тренировке%(titleEndTag)s</value>
+  </data>
+  <data name="invites/text/UNIT" xml:space="preserve">
+    <value>%(titleStartTag)sПриглашение войти в состав команды%(titleEndTag)s</value>
+  </data>
+  <data name="invites/text/creatorName" xml:space="preserve">
+    <value>от %(nameStartTag)s%(name)s%(nameEndTag)s</value>
+  </data>
+  <data name="invites/text/fort/defence" xml:space="preserve">
+    <value>Период обороны</value>
+  </data>
+  <data name="invites/text/fort/direction" xml:space="preserve">
+    <value>Плацдарм</value>
+  </data>
+  <data name="invites/text/fort/offence" xml:space="preserve">
+    <value>Нападение на</value>
+  </data>
+  <data name="stronghold/invite/sendInviteToUsername" xml:space="preserve">
+    <value>Приглашение игроку %(name)s отправлено.</value>
+  </data>
+</root>

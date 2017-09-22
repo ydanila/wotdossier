@@ -1,0 +1,607 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addVehPopover/btnAdd" xml:space="preserve">
+    <value>Add (%(count)d)</value>
+  </data>
+  <data name="addVehPopover/btnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="addVehPopover/header" xml:space="preserve">
+    <value>Select Vehicles for Comparison</value>
+  </data>
+  <data name="addVehPopover/showOnlyMyVahicles" xml:space="preserve">
+    <value>Display vehicles from the Garage</value>
+  </data>
+  <data name="addVehPopover/tooltips/addToCompare/body" xml:space="preserve">
+    <value>Add selected vehicles to comparison</value>
+  </data>
+  <data name="addVehPopover/tooltips/addToCompare/header" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="addVehPopover/tooltips/addToCompareDisabled/body" xml:space="preserve">
+    <value>To add the vehicle to comparison, remove vehicles from the comparison list.</value>
+  </data>
+  <data name="addVehPopover/tooltips/addToCompareDisabled/header" xml:space="preserve">
+    <value>Unable to Add</value>
+  </data>
+  <data name="addVehPopover/tooltips/inHangar/body" xml:space="preserve">
+    <value>Sort by vehicles in Garage.</value>
+  </data>
+  <data name="addVehPopover/tooltips/inHangar/header" xml:space="preserve">
+    <value>Vehicles in Garage</value>
+  </data>
+  <data name="addVehPopover/tooltips/level/body" xml:space="preserve">
+    <value>Sort by vehicle Tiers.</value>
+  </data>
+  <data name="addVehPopover/tooltips/level/header" xml:space="preserve">
+    <value>Vehicles</value>
+  </data>
+  <data name="addVehPopover/tooltips/nation/body" xml:space="preserve">
+    <value>Sort by nations.</value>
+  </data>
+  <data name="addVehPopover/tooltips/nation/header" xml:space="preserve">
+    <value>Nation</value>
+  </data>
+  <data name="addVehPopover/tooltips/selectVehicle/body" xml:space="preserve">
+    <value>Sort by selected vehicles.</value>
+  </data>
+  <data name="addVehPopover/tooltips/selectVehicle/header" xml:space="preserve">
+    <value>Selected Vehicles</value>
+  </data>
+  <data name="addVehPopover/tooltips/title/body" xml:space="preserve">
+    <value>Sort by vehicle names.</value>
+  </data>
+  <data name="addVehPopover/tooltips/title/header" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="addVehPopover/tooltips/type/body" xml:space="preserve">
+    <value>Sort by vehicle type.</value>
+  </data>
+  <data name="addVehPopover/tooltips/type/header" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="addVehPopover/vehicleName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="cartPopover/configurationType/basic" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="cartPopover/configurationType/current" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="cartPopover/configurationType/custom" xml:space="preserve">
+    <value>Configured</value>
+  </data>
+  <data name="cartPopover/configurationType/premium" xml:space="preserve">
+    <value>Premium</value>
+  </data>
+  <data name="cartPopover/fullBasketCmpBtn/tooltip/attention" xml:space="preserve">
+    <value>To add a vehicle to the comparison, remove irrelevant vehicles from the comparison list.</value>
+  </data>
+  <data name="cartPopover/fullBasketCmpBtn/tooltip/header" xml:space="preserve">
+    <value>Unable to Add</value>
+  </data>
+  <data name="cartPopover/gotoCompareBtn/label" xml:space="preserve">
+    <value>(%(value)s) to compare</value>
+  </data>
+  <data name="cartPopover/openCmpBtn/tooltip/body" xml:space="preserve">
+    <value>Go to the comparison of the selected vehicles</value>
+  </data>
+  <data name="cartPopover/openCmpBtn/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="cartPopover/removeAllBtn/label" xml:space="preserve">
+    <value>Clear List</value>
+  </data>
+  <data name="cartPopover/removeAllBtn/tooltip/body" xml:space="preserve">
+    <value>Remove all vehicles from comparison list.</value>
+  </data>
+  <data name="cartPopover/removeAllBtn/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="cartPopover/removeBtn/tooltip/body" xml:space="preserve">
+    <value>Click to remove a vehicle from comparison list.</value>
+  </data>
+  <data name="cartPopover/removeBtn/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="cartPopover/removeBtnLocked/tooltip/body" xml:space="preserve">
+    <value>Unable to remove vehicles from the comparison list when the configuration window is open.</value>
+  </data>
+  <data name="cartPopover/removeBtnLocked/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="cartPopover/removeLockedBtn/tooltip/body" xml:space="preserve">
+    <value>Unable to remove the vehicle from the comparison list when the configuration window is open.</value>
+  </data>
+  <data name="cartPopover/removeLockedBtn/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="cartPopover/sorting/nation/body" xml:space="preserve">
+    <value>Displays the nations of the selected vehicles.</value>
+  </data>
+  <data name="cartPopover/sorting/nation/header" xml:space="preserve">
+    <value>Nation</value>
+  </data>
+  <data name="cartPopover/sorting/vehLvl/body" xml:space="preserve">
+    <value>Displays the Tiers of the selected vehicles.</value>
+  </data>
+  <data name="cartPopover/sorting/vehLvl/header" xml:space="preserve">
+    <value>Tier</value>
+  </data>
+  <data name="cartPopover/sorting/vehName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="cartPopover/sorting/vehName/tooltip/body" xml:space="preserve">
+    <value>Displays the names of the selected vehicles.</value>
+  </data>
+  <data name="cartPopover/sorting/vehName/tooltip/header" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="cartPopover/sorting/vehType/body" xml:space="preserve">
+    <value>Displays the types of the selected vehicles.</value>
+  </data>
+  <data name="cartPopover/sorting/vehType/header" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="cartPopover/title" xml:space="preserve">
+    <value>Comparison List</value>
+  </data>
+  <data name="compareVehicleBtn/tooltips/miniclient/attention" xml:space="preserve">
+    <value>Vehicle comparison will be available after the download is completed. Please complete the download first.</value>
+  </data>
+  <data name="header/backBtn/descrLabel/hangar" xml:space="preserve">
+    <value>TO GARAGE</value>
+  </data>
+  <data name="header/backBtn/descrLabel/researchTree" xml:space="preserve">
+    <value>TO TECH TREE</value>
+  </data>
+  <data name="header/backBtn/descrLabel/shop" xml:space="preserve">
+    <value>TO STORE</value>
+  </data>
+  <data name="header/backBtn/label" xml:space="preserve">
+    <value>BACK</value>
+  </data>
+  <data name="header/closeBtn/label" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="menu/cloneForCompare" xml:space="preserve">
+    <value>Copy for comparison</value>
+  </data>
+  <data name="modulesView/closeBtnLabel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="modulesView/closeBtnLabel/tooltip/body" xml:space="preserve">
+    <value>Click to cancel the current module choice and go back to vehicle configuration.</value>
+  </data>
+  <data name="modulesView/closeBtnLabel/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="modulesView/compareBtnLabel" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="modulesView/compareBtnLabel/tooltip/body" xml:space="preserve">
+    <value>Click to save the selected modules and go back to vehicle configuration.</value>
+  </data>
+  <data name="modulesView/compareBtnLabel/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="modulesView/resetBtnLabel" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="modulesView/resetBtnLabel/tooltip/body" xml:space="preserve">
+    <value>Click to reset the vehicle to its standard configuration.</value>
+  </data>
+  <data name="modulesView/resetBtnLabel/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="modulesView/title" xml:space="preserve">
+    <value>Module Configuration for the %(vehName)s</value>
+  </data>
+  <data name="modulesView/vehicleStatus/inHangar" xml:space="preserve">
+    <value>In the Garage</value>
+  </data>
+  <data name="modulesView/vehicleStatus/readyToBuy" xml:space="preserve">
+    <value>Not purchased</value>
+  </data>
+  <data name="modulesView/vehicleStatus/readyToResearch" xml:space="preserve">
+    <value>Not researched</value>
+  </data>
+  <data name="store/compareVehicleBtn/tooltips/addToCompare/body" xml:space="preserve">
+    <value>Add to comparison</value>
+  </data>
+  <data name="store/compareVehicleBtn/tooltips/addToCompare/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="store/compareVehicleBtn/tooltips/canNotAddToCompare/body" xml:space="preserve">
+    <value>You cannot add this vehicle to the comparison.</value>
+  </data>
+  <data name="store/compareVehicleBtn/tooltips/canNotAddToCompare/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="store/compareVehicleBtn/tooltips/disabled/body" xml:space="preserve">
+    <value>To add more vehicles to comparison, remove several vehicles from the list.</value>
+  </data>
+  <data name="store/compareVehicleBtn/tooltips/disabled/header" xml:space="preserve">
+    <value>Unable to Add to Comparison</value>
+  </data>
+  <data name="techTree/tooltips/addToCompare/body" xml:space="preserve">
+    <value>Add to Comparison</value>
+  </data>
+  <data name="techTree/tooltips/addToCompare/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehConf/applyBtnLabel" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="vehConf/btnCleanUp" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="vehConf/cancelBtnLabel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="vehConf/cancelBtnLabel/tooltip/body" xml:space="preserve">
+    <value>Click to cancel the selected configuration and return to comparison.</value>
+  </data>
+  <data name="vehConf/cancelBtnLabel/tooltip/header" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="vehConf/compareBtnLabel/tooltip/body" xml:space="preserve">
+    <value>Click to save the selected configuration and return to comparison.</value>
+  </data>
+  <data name="vehConf/compareBtnLabel/tooltip/header" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="vehConf/confAvailable" xml:space="preserve">
+    <value>CONFIGURING
+AVAILABLE</value>
+  </data>
+  <data name="vehConf/crewTitle" xml:space="preserve">
+    <value>Perks and skills that affect the technical characteristics</value>
+  </data>
+  <data name="vehConf/doesntAffect" xml:space="preserve">
+    <value>Does not affect the simplified technical characteristics</value>
+  </data>
+  <data name="vehConf/equipment" xml:space="preserve">
+    <value>Equipment and consumables</value>
+  </data>
+  <data name="vehConf/header" xml:space="preserve">
+    <value>Configuration for the %(vehName)s</value>
+  </data>
+  <data name="vehConf/modules" xml:space="preserve">
+    <value>Modules</value>
+  </data>
+  <data name="vehConf/resetBtnLabel" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="vehConf/resetBtnLabel/tooltip/body" xml:space="preserve">
+    <value>Click to restore the default vehicle configuration.</value>
+  </data>
+  <data name="vehConf/resetBtnLabel/tooltip/header" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="vehConf/skills/fadeText" xml:space="preserve">
+    <value>Perks and skills can be selected for a crew trained to 100%.</value>
+  </data>
+  <data name="vehConf/tooltips/attentionIconCrew/body" xml:space="preserve">
+    <value>Some perks and skills were added to the comparison</value>
+  </data>
+  <data name="vehConf/tooltips/attentionIconCrew/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehConf/tooltips/btnCleanUp/body" xml:space="preserve">
+    <value>Click to remove the selected equipment from the configuration.</value>
+  </data>
+  <data name="vehConf/tooltips/btnCleanUp/header" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="vehConf/tooltips/camoInfo" xml:space="preserve">
+    <value>Increase the concealment of your vehicle on each of the map types by applying summer, winter, and desert camouflage.</value>
+  </data>
+  <data name="vehConf/tooltips/camoInfoDisabled/body" xml:space="preserve">
+    <value>This all-season camouflage is an integral element of the vehicle. It cannot be removed or replaced.</value>
+  </data>
+  <data name="vehConf/tooltips/camoInfoDisabled/header" xml:space="preserve">
+    <value>All-Season Camouflage</value>
+  </data>
+  <data name="vehConf/tooltips/camoTitle" xml:space="preserve">
+    <value>Camouflage</value>
+  </data>
+  <data name="vehConf/tooltips/deviceNotAffectedTTC" xml:space="preserve">
+    <value>Does not affect the technical characteristics of the vehicle</value>
+  </data>
+  <data name="vehConf/tooltips/emptyEqSlot/body" xml:space="preserve">
+    <value>Click to view the consumable list. You can select available consumables to see their influence on the technical characteristics of the vehicle.</value>
+  </data>
+  <data name="vehConf/tooltips/emptyEqSlot/header" xml:space="preserve">
+    <value>Consumables</value>
+  </data>
+  <data name="vehConf/tooltips/emptyOptDeviceSlot/body" xml:space="preserve">
+    <value>Click to view the equipment list. You can mount available equipment to see its influence on the technical characteristics of the vehicle.</value>
+  </data>
+  <data name="vehConf/tooltips/emptyOptDeviceSlot/header" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="vehConf/tooltips/revertBtn/body" xml:space="preserve">
+    <value>Click to restore the default vehicle configuration.</value>
+  </data>
+  <data name="vehConf/tooltips/revertBtn/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehConf/tooltips/skills/desc1" xml:space="preserve">
+    <value>Only perks and skills that %(influence)s the simplified technical characteristics can be selected.</value>
+  </data>
+  <data name="vehConf/tooltips/skills/desc1/influence" xml:space="preserve">
+    <value>affect</value>
+  </data>
+  <data name="vehConf/tooltips/skills/desc2" xml:space="preserve">
+    <value>The technical characteristics are calculated considering that the selected perks or skills are trained to %(perc)s.</value>
+  </data>
+  <data name="vehConf/tooltips/skills/desc2/perc" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="vehConf/tooltips/skills/descHeader" xml:space="preserve">
+    <value>General Principle</value>
+  </data>
+  <data name="vehConf/tooltips/skills/header" xml:space="preserve">
+    <value>Skills and Perks</value>
+  </data>
+  <data name="vehConf/tooltips/skills/skillsList" xml:space="preserve">
+    <value>Perks and skills</value>
+  </data>
+  <data name="vehConf/tooltips/topModulesLabel/body" xml:space="preserve">
+    <value>Other modules are not available for this vehicle: the vehicle configuration is permanent.</value>
+  </data>
+  <data name="vehConf/tooltips/topModulesLabel/header" xml:space="preserve">
+    <value>Top Configuration</value>
+  </data>
+  <data name="vehConf/tooltips/topModulesOff/body" xml:space="preserve">
+    <value>Click to select the best modules for the vehicle.</value>
+  </data>
+  <data name="vehConf/tooltips/topModulesOff/header" xml:space="preserve">
+    <value>Top Configuration</value>
+  </data>
+  <data name="vehConf/tooltips/topModulesOn/body" xml:space="preserve">
+    <value>Click to cancel the selection for the top configuration.</value>
+  </data>
+  <data name="vehConf/tooltips/topModulesOn/header" xml:space="preserve">
+    <value>Top Configuration</value>
+  </data>
+  <data name="vehConf/topModulesBtnLabel" xml:space="preserve">
+    <value>Select Top Configuration</value>
+  </data>
+  <data name="vehConf/topModulesLabel" xml:space="preserve">
+    <value>Top Configuration</value>
+  </data>
+  <data name="vehPreview/compareInfo/addToCompare" xml:space="preserve">
+    <value>Add to comparison—</value>
+  </data>
+  <data name="vehPreview/compareVehicleBtn/tooltips/addToCompare/body" xml:space="preserve">
+    <value>Add to Comparison</value>
+  </data>
+  <data name="vehPreview/compareVehicleBtn/tooltips/addToCompare/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/body" xml:space="preserve">
+    <value>You cannot add this vehicle to the comparison.</value>
+  </data>
+  <data name="vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehPreview/compareVehicleBtn/tooltips/disabled/body" xml:space="preserve">
+    <value>To add the vehicle to comparison, remove vehicles from the comparison list.</value>
+  </data>
+  <data name="vehPreview/compareVehicleBtn/tooltips/disabled/header" xml:space="preserve">
+    <value>Unable to Add</value>
+  </data>
+  <data name="vehicleCompareView/btnAddVehicles" xml:space="preserve">
+    <value>Add to Comparison</value>
+  </data>
+  <data name="vehicleCompareView/configurationType/basic" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="vehicleCompareView/configurationType/current" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="vehicleCompareView/configurationType/custom" xml:space="preserve">
+    <value>Configured</value>
+  </data>
+  <data name="vehicleCompareView/configure" xml:space="preserve">
+    <value>Configure</value>
+  </data>
+  <data name="vehicleCompareView/crew/current" xml:space="preserve">
+    <value>Current Crew</value>
+  </data>
+  <data name="vehicleCompareView/crew/skill100" xml:space="preserve">
+    <value>100% crew</value>
+  </data>
+  <data name="vehicleCompareView/crew/skill50" xml:space="preserve">
+    <value>50% crew</value>
+  </data>
+  <data name="vehicleCompareView/crew/skill75" xml:space="preserve">
+    <value>75% crew</value>
+  </data>
+  <data name="vehicleCompareView/header" xml:space="preserve">
+    <value>Compare Vehicles</value>
+  </data>
+  <data name="vehicleCompareView/toHangar" xml:space="preserve">
+    <value>View in Garage</value>
+  </data>
+  <data name="vehicleCompareView/toPreview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/addVehicles/body" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/addVehicles/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/attentionEquipment/body" xml:space="preserve">
+    <value>The equipment that increases the load capacity of suspension is not counted when comparing vehicles. The suspension suitable for this configuration will be mounted automatically.</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/attentionEquipment/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/configure/body" xml:space="preserve">
+    <value>Click to select the parameters that affect the technical characteristics.</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/configure/header" xml:space="preserve">
+    <value>Configure Parameters</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/crewDropDown/body" xml:space="preserve">
+    <value>Select crew training level.</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/crewDropDown/header" xml:space="preserve">
+    <value>Crew</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/removeAllVehicles/body" xml:space="preserve">
+    <value>Click to remove all vehicles from comparison.</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/removeAllVehicles/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/removeFromCompare/body" xml:space="preserve">
+    <value>Remove from comparison.</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/removeFromCompare/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/toHangar/body" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/toHangar/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/toPreview/body" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/toPreview/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/topPanel/noVehicle" xml:space="preserve">
+    <value>Vehicles not selected</value>
+  </data>
+  <data name="vehicleCompareView/topPanel/premium" xml:space="preserve">
+    <value>Premium</value>
+  </data>
+  <data name="vehicleCompareView/topPanel/vehiclesCount" xml:space="preserve">
+    <value>Vehicles for comparison: %(count)s</value>
+  </data>
+</root>

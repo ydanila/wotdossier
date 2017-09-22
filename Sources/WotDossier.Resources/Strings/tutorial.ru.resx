@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chain/hint/buyVehicle" xml:space="preserve">
+    <value>ПЕРЕЙДИТЕ К ПОКУПКЕ
+МАШИНЫ</value>
+  </data>
+  <data name="chain/hint/changeToPveOrRandom" xml:space="preserve">
+    <value>ВЫБЕРИТЕ СЛУЧАЙНЫЙ ИЛИ УЧЕБНЫЙ БОЙ</value>
+  </data>
+  <data name="chain/hint/changeVehicle" xml:space="preserve">
+    <value>МАШИНА НЕДОСТУПНА</value>
+  </data>
+  <data name="chain1/hint/goToBattle" xml:space="preserve">
+    <value>ВЫЙДИТЕ В БОЙ</value>
+  </data>
+  <data name="chain2/hint/buyItem" xml:space="preserve">
+    <value>КУПИТЕ МОДУЛЬ</value>
+  </data>
+  <data name="chain2/hint/goToResearch" xml:space="preserve">
+    <value>ПЕРЕЙДИТЕ НА ЭКРАН
+ИССЛЕДОВАНИЙ</value>
+  </data>
+  <data name="chain2/hint/noItemsToBuy" xml:space="preserve">
+    <value>ВСЕ МОДУЛИ
+КУПЛЕНЫ</value>
+  </data>
+  <data name="chain2/hint/noItemsToUnlock" xml:space="preserve">
+    <value>НЕТ МОДУЛЕЙ
+ДЛЯ ИССЛЕДОВАНИЯ</value>
+  </data>
+  <data name="chain2/hint/unlockItem" xml:space="preserve">
+    <value>ИССЛЕДУЙТЕ МОДУЛЬ</value>
+  </data>
+  <data name="chain3/hint/buyVehicle1Level" xml:space="preserve">
+    <value>КУПИТЕ МАШИНУ
+I УРОВНЯ</value>
+  </data>
+  <data name="chain3/hint/buyVehicle2Level" xml:space="preserve">
+    <value>КУПИТЕ МАШИНУ
+II УРОВНЯ</value>
+  </data>
+  <data name="chain3/hint/buyVehicle3Level" xml:space="preserve">
+    <value>КУПИТЕ МАШИНУ
+III УРОВНЯ</value>
+  </data>
+  <data name="chain3/hint/goToResearch" xml:space="preserve">
+    <value>ПЕРЕЙДИТЕ НА ЭКРАН
+ИССЛЕДОВАНИЙ</value>
+  </data>
+  <data name="chain3/hint/nextLevel" xml:space="preserve">
+    <value>ТЕХНИКА, ДОСТУПНАЯ
+ДЛЯ ИССЛЕДОВАНИЯ</value>
+  </data>
+  <data name="chain3/hint/noNextLevel" xml:space="preserve">
+    <value>НЕТ ТЕХНИКИ
+СЛЕДУЮЩЕГО УРОВНЯ</value>
+  </data>
+  <data name="chain3/hint/selectTankAcademy" xml:space="preserve">
+    <value>ВЫБЕРИТЕ
+ТАНКОВУЮ АКАДЕМИЮ</value>
+  </data>
+  <data name="chain3/hint/selectVehicle1Level" xml:space="preserve">
+    <value>ВЫБЕРИТЕ МАШИНУ
+I УРОВНЯ</value>
+  </data>
+  <data name="chain3/hint/selectVehicle2Level" xml:space="preserve">
+    <value>ВЫБЕРИТЕ МАШИНУ
+II УРОВНЯ</value>
+  </data>
+  <data name="chain3/hint/selectVehicle3Level" xml:space="preserve">
+    <value>ВЫБЕРИТЕ МАШИНУ
+III УРОВНЯ</value>
+  </data>
+  <data name="chain4/hint/applyChanges" xml:space="preserve">
+    <value>ПОДТВЕРДИТЕ ВЫБОР
+СНАРЯЖЕНИЯ</value>
+  </data>
+  <data name="chain4/hint/openEquipmentDropDown" xml:space="preserve">
+    <value>ОТКРОЙТЕ СПИСОК
+СНАРЯЖЕНИЯ</value>
+  </data>
+  <data name="chain4/hint/openMaintenanceWindow" xml:space="preserve">
+    <value>ОТКРОЙТЕ ОКНО
+ОБСЛУЖИВАНИЯ</value>
+  </data>
+  <data name="chain5/hint/openOptDevicesDropDown" xml:space="preserve">
+    <value>ОТКРОЙТЕ СПИСОК
+ОБОРУДОВАНИЯ</value>
+  </data>
+  <data name="chain6/hint/buyFreeSlot" xml:space="preserve">
+    <value>ЧТОБЫ КУПИТЬ СЛОТ,
+НАЖМИТЕ НА НЕГО</value>
+  </data>
+  <data name="chain7/hint/clickToFightButton" xml:space="preserve">
+    <value>ВЫЙДИТЕ В БОЙ</value>
+  </data>
+  <data name="chain7/hint/noPremiumVehicle" xml:space="preserve">
+    <value>НЕТ ПРЕМИУМНОЙ
+ТЕХНИКИ</value>
+  </data>
+  <data name="chain7/hint/selectPremiumVehicle" xml:space="preserve">
+    <value>ВЫБЕРИТЕ ВЫДАННУЮ
+МАШИНУ</value>
+  </data>
+  <data name="chain8/hint/openXPChange" xml:space="preserve">
+    <value>НАЖМИТЕ, ЧТОБЫ
+ОТКРЫТЬ МЕНЮ</value>
+  </data>
+  <data name="chain8/hint/submit" xml:space="preserve">
+    <value>НАЖМИТЕ ДЛЯ
+ПОДТВЕРЖДЕНИЯ ОПЕРАЦИИ</value>
+  </data>
+  <data name="chain9/hint/open" xml:space="preserve">
+    <value>НАЖМИТЕ, ЧТОБЫ
+ОТКРЫТЬ МЕНЮ</value>
+  </data>
+  <data name="chain9/hint/select" xml:space="preserve">
+    <value>ВЫБЕРИТЕ
+ЖЕЛАЕМЫЙ СРОК</value>
+  </data>
+  <data name="chain9/hint/submit" xml:space="preserve">
+    <value>НАЖМИТЕ ДЛЯ
+ПОДТВЕРЖДЕНИЯ ОПЕРАЦИИ</value>
+  </data>
+  <data name="customization/slots" xml:space="preserve">
+    <value>НАЖМИТЕ
+НА СЛОТ ГРУППЫ</value>
+  </data>
+  <data name="hangarTutorial/customization/image" xml:space="preserve">
+    <value>ВАРИАНТЫ</value>
+  </data>
+  <data name="hangarTutorial/customization/period" xml:space="preserve">
+    <value>СРОК ДЕЙСТВИЯ</value>
+  </data>
+  <data name="hangarTutorial/customization/totalCost" xml:space="preserve">
+    <value>ОБЩАЯ СТОИМОСТЬ</value>
+  </data>
+  <data name="hangarTutorial/customization/type" xml:space="preserve">
+    <value>ВЫБОР ЭЛЕМЕНТОВ</value>
+  </data>
+  <data name="hangarTutorial/personalCase/actionButtons" xml:space="preserve">
+    <value>КНОПКИ ДЕЙСТВИЙ</value>
+  </data>
+  <data name="hangarTutorial/personalCase/addActions" xml:space="preserve">
+    <value>ДОПОЛНИТЕЛЬНЫЕ ВОЗМОЖНОСТИ</value>
+  </data>
+  <data name="hangarTutorial/personalCase/characteristics" xml:space="preserve">
+    <value>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ ЧЛЕНА ЭКИПАЖА</value>
+  </data>
+  <data name="hangarTutorial/personalCase/perks" xml:space="preserve">
+    <value>ИЗУЧЕННЫЕ УМЕНИЯ И НАВЫКИ ЧЛЕНА ЭКИПАЖА</value>
+  </data>
+  <data name="hangarTutorial/research/modules" xml:space="preserve">
+    <value>МОДУЛИ ВЫБРАННОЙ МАШИНЫ</value>
+  </data>
+  <data name="hangarTutorial/research/nextVehicles" xml:space="preserve">
+    <value>СЛЕДУЮЩАЯ МАШИНА (МАШИНЫ)</value>
+  </data>
+  <data name="hangarTutorial/research/prevVehicles" xml:space="preserve">
+    <value>ПРЕДЫДУЩАЯ МАШИНА (МАШИНЫ)</value>
+  </data>
+  <data name="hangarTutorial/research/tankInfo" xml:space="preserve">
+    <value>ИНФОРМАЦИЯ О ВЫБРАННОЙ МАШИНЕ</value>
+  </data>
+  <data name="hangarTutorial/researchPrem/premAdvantages" xml:space="preserve">
+    <value>ПРЕИМУЩЕСТВА ПРЕМИУМ ТЕХНИКИ</value>
+  </data>
+  <data name="hangarTutorial/researchPrem/tankInfo" xml:space="preserve">
+    <value>ИНФОРМАЦИЯ О ВЫБРАННОЙ МАШИНЕ</value>
+  </data>
+  <data name="hangarTutorial/researchTree/researchTree" xml:space="preserve">
+    <value>ДЕРЕВО ИССЛЕДОВАНИЙ</value>
+  </data>
+  <data name="hangarTutorial/technicalMaintenance/costAndApply" xml:space="preserve">
+    <value>ИТОГОВАЯ СТОИМОСТЬ ОБСЛУЖИВАНИЯ И КНОПКА ПОДТВЕРЖДЕНИЯ</value>
+  </data>
+  <data name="hangarTutorial/technicalMaintenance/techAmmunition" xml:space="preserve">
+    <value>БОЕКОМПЛЕКТ МАШИНЫ</value>
+  </data>
+  <data name="hangarTutorial/technicalMaintenance/techEquipment" xml:space="preserve">
+    <value>СНАРЯЖЕНИЕ МАШИНЫ</value>
+  </data>
+  <data name="hangarTutorial/technicalMaintenance/techRepair" xml:space="preserve">
+    <value>РЕМОНТ МАШИНЫ</value>
+  </data>
+  <data name="messages/request-bonus-failed" xml:space="preserve">
+    <value>При переходе к следующему заданию возникла ошибка. Продолжить обучение невозможно. Пожалуйста, обратитесь в службу техподдержки или попробуйте войти в игру позже.</value>
+  </data>
+  <data name="messages/tutorial-disabled" xml:space="preserve">
+    <value>На данном сервере обучение запрещено. Невозможно продолжить обучение.</value>
+  </data>
+  <data name="onceOnlyHints/falloutQuestsTab" xml:space="preserve">
+    <value>НОВАЯ КАМПАНИЯ
+ЛИЧНЫХ БОЕВЫХ ЗАДАЧ</value>
+  </data>
+  <data name="pveChain/hint/selector" xml:space="preserve">
+    <value>МЕНЮ ВЫБОРА РЕЖИМА БОЯ</value>
+  </data>
+  <data name="tradeIn/shop" xml:space="preserve">
+    <value>НОВАЯ ОПЕРАЦИЯ
+С ПРЕМИУМ ТЕХНИКОЙ</value>
+  </data>
+  <data name="tutorialQuest/award/quest14" xml:space="preserve">
+    <value>5 дней премиум аккаунта (активируется автоматически).</value>
+  </data>
+  <data name="tutorialQuest/award/quest4" xml:space="preserve">
+    <value>Разовая 100% скидка на покупку слота в Ангаре.</value>
+  </data>
+  <data name="tutorialQuest/award/quest5" xml:space="preserve">
+    <value>Лёгкий танк Тетрарх со 100% экипажем на 5 боёв.</value>
+  </data>
+  <data name="tutorialQuest/award/quest5/altBonus" xml:space="preserve">
+    <value>У вас уже есть данная машина, поэтому вместо неё вы получаете 10000 кредитов.</value>
+  </data>
+  <data name="tutorialQuest/award/quest5/kr" xml:space="preserve">
+    <value>Тяжёлый танк T14 со 100% экипажем на 5 боёв.</value>
+  </data>
+  <data name="tutorialQuest/award/quest6" xml:space="preserve">
+    <value>Разовая 100% скидка на перевод боевого опыта в свободный (до 1000 ед.) без ограничения по времени.</value>
+  </data>
+  <data name="tutorialQuest/award/quest7" xml:space="preserve">
+    <value>Разовая 100% скидка на обучение в танковой академии для всего экипажа при покупке любой машины.</value>
+  </data>
+  <data name="tutorialQuest/award/quest8" xml:space="preserve">
+    <value>100% скидка на трёхдневный премиум аккаунт.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest10" xml:space="preserve">
+    <value>Поздравляем! Вы уверенно продвигаетесь по игре. Теперь вам стали доступны новые боевые задачи и акции.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest11" xml:space="preserve">
+    <value>Поздравляем! Вы освоили первую помощь в бою. Помните: раненый член экипажа существенно хуже выполняет свои обязанности, поэтому лечите его при первой возможности.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest12" xml:space="preserve">
+    <value>Поздравляем! Вы научились использовать ремкомплект. Помните: в бою повреждённые или выведенные из строя модули существенно ухудшают характеристики машины, а иногда повышают шанс взрыва боекомплекта или возгорания.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest13" xml:space="preserve">
+    <value>Поздравляем! Вы научились пользоваться огнетушителем. Помните: горящая машина быстро теряет очки прочности и работоспособные модули, поэтому старайтесь тушить пожар настолько быстро, насколько это возможно.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest14" xml:space="preserve">
+    <value>Поздравляем! Вы научились устанавливать оборудование, которое в случае необходимости может быть демонтировано бесплатно (простое оборудование) или платно (сложное оборудование), после чего перемещено на Склад или на другую машину.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest2" xml:space="preserve">
+    <value>Поздравляем! Вы провели свой первый бой, в котором заработали кредиты и боевой опыт. Сейчас мы расскажем, как их использовать.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest3" xml:space="preserve">
+    <value>Поздравляем! Вы только что улучшили машину. Теперь опробуйте на практике эффективность установленных модулей, проведя несколько боёв.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest4" xml:space="preserve">
+    <value>Поздравляем! Вы купили машину уровнем выше. Чем выше уровень машины, на которой вы выходите в бой, тем больший доход она будет приносить по итогам боя, однако сложность игры также возрастёт.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest5" xml:space="preserve">
+    <value>Поздравляем! Теперь вы умеете расширять Ангар. Приобрести слот можно также непосредственно при покупке очередной машины. Чтобы освободить слот, можно продать одну из машин.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest6" xml:space="preserve">
+    <value>Поздравляем! Вы провели необходимое количество боёв на %(vehName)s.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest7" xml:space="preserve">
+    <value>Поздравляем! Вы научились переводить боевой опыт в свободный.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest8" xml:space="preserve">
+    <value>Поздравляем! Теперь у вас есть большой выбор техники для исследования. Задумайтесь, какую машину максимального уровня вы хотите получить, и начните продвижение к ней по ветке исследований.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest9" xml:space="preserve">
+    <value>Поздравляем! Ваш премиум аккаунт будет активен в течение выбранного срока. По истечении срока действия премиум аккаунт можно продлить.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/header" xml:space="preserve">
+    <value>Задача «%(qName)s» выполнена!</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/nextQuest" xml:space="preserve">
+    <value>Показать следующую задачу</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title" xml:space="preserve">
+    <value>Учебная задача выполнена</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest10" xml:space="preserve">
+    <value>Учебная задача выполнена</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest11" xml:space="preserve">
+    <value>Учебная задача выполнена</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest12" xml:space="preserve">
+    <value>Учебная задача выполнена</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest13" xml:space="preserve">
+    <value>Учебная задача выполнена</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest14" xml:space="preserve">
+    <value>Учебная задача выполнена</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest2" xml:space="preserve">
+    <value>Первый бой завершён</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest3" xml:space="preserve">
+    <value>Учебная задача выполнена</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest4" xml:space="preserve">
+    <value>Учебная задача выполнена</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest5" xml:space="preserve">
+    <value>Учебная задача выполнена</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest6" xml:space="preserve">
+    <value>Учебная задача выполнена</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest7" xml:space="preserve">
+    <value>Учебная задача выполнена</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest8" xml:space="preserve">
+    <value>Учебная задача выполнена</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest9" xml:space="preserve">
+    <value>Учебная задача выполнена</value>
+  </data>
+  <data name="tutorialQuest/condition/quest1" xml:space="preserve">
+    <value>Пройти Боевое обучение для ознакомления с основными особенностями ведения боя.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest10" xml:space="preserve">
+    <value>Исследовать и купить любую машину IV уровня.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest11/chain" xml:space="preserve">
+    <value>Купить аптечку и установить её в слот снаряжения.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest11/video" xml:space="preserve">
+    <value>При ранении члена экипажа в бою использовать аптечку.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest12/chain" xml:space="preserve">
+    <value>Купить ремкомплект и установить его в слот снаряжения.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest12/video" xml:space="preserve">
+    <value>При повреждении или выведении модуля из строя в бою использовать ремкомплект.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest13/chain" xml:space="preserve">
+    <value>Купить огнетушитель и установить его в слот снаряжения.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest13/video" xml:space="preserve">
+    <value>Выйти в бой, имея в слоте снаряжения установленный огнетушитель.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest14/chain" xml:space="preserve">
+    <value>Установите на машину любое оборудование.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest2" xml:space="preserve">
+    <value>Провести 1 бой против настоящего противника (Случайный бой) либо против искусственного интеллекта (Учебный бой).</value>
+  </data>
+  <data name="tutorialQuest/condition/quest3" xml:space="preserve">
+    <value>Исследовать один из модулей вашей машины. Установить исследованный модуль.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest4" xml:space="preserve">
+    <value>Исследовать и купить любую машину II уровня.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest5" xml:space="preserve">
+    <value>Купить слот для машины.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest6" xml:space="preserve">
+    <value>5 раз выйти в бой на %(vehName)s.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest7" xml:space="preserve">
+    <value>Перевести боевой опыт, заработанный на арендованной или элитной технике, в свободный.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest8" xml:space="preserve">
+    <value>Исследовать и купить любую машину III уровня.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest9" xml:space="preserve">
+    <value>Использовать 100% скидку для покупки премиум аккаунта.</value>
+  </data>
+  <data name="tutorialQuest/description/quest1" xml:space="preserve">
+    <value>Добро пожаловать, боец! С помощью данного обучения мы поможем вам быстро освоиться в игре и примкнуть к дружному братству танкистов.</value>
+  </data>
+  <data name="tutorialQuest/description/quest10" xml:space="preserve">
+    <value>Чем выше уровень машины, тем сильнее проявляется её назначение — некоторые машины наносят огромный урон, некоторые служат разведчиками, некоторые прорывают и удерживают направления. Пробуйте в бою разные типы техники, чтобы найти подходящую для вашего стиля игры машину.</value>
+  </data>
+  <data name="tutorialQuest/description/quest11" xml:space="preserve">
+    <value>В игре есть категория предметов, называемая «Снаряжение». Посмотреть список доступного для покупки снаряжения можно, нажав на соответствующий слот (или в Магазине). Малая аптечка лечит только одного члена экипажа. Большая аптечка добавляет бонус к защите от критических повреждений, а при использовании лечит всех выведенных из строя членов экипажа.</value>
+  </data>
+  <data name="tutorialQuest/description/quest12" xml:space="preserve">
+    <value>Малый ремкомплект нужен для полного мгновенного ремонта в бою одного повреждённого модуля или двух повреждённых гусениц. Большой ремкомплект добавляет бонус к скорости ремонта, а при использовании чинит все повреждённые модули.</value>
+  </data>
+  <data name="tutorialQuest/description/quest13" xml:space="preserve">
+    <value>Иногда удачное попадание противника по вам может поджечь машину. Пожар наносит огромный урон и повреждает модули, поэтому потушить его — первоочередная задача. Ручной огнетушитель гасит пожар при ручной активации. Автоматический огнетушитель снижает вероятность возникновения пожара, а при возгорании автоматически тушит машину.</value>
+  </data>
+  <data name="tutorialQuest/description/quest14" xml:space="preserve">
+    <value>Дополнительное оборудование поможет сделать вашу машину ещё эффективнее, усиливая различные её параметры. Выбирайте грамотно: вам доступно только три слота под оборудование на каждую машину.</value>
+  </data>
+  <data name="tutorialQuest/description/quest2" xml:space="preserve">
+    <value>На этот раз вам будет противостоять реальный противник. Настало время провести свой первый настоящий бой.</value>
+  </data>
+  <data name="tutorialQuest/description/quest3" xml:space="preserve">
+    <value>Только что купленная машина недостаточно эффективна, поскольку на ней установлены базовые модули. Для того, чтобы улучшить характеристики вашей машины, исследуйте, купите и установите более совершенные модули.</value>
+  </data>
+  <data name="tutorialQuest/description/quest4" xml:space="preserve">
+    <value>У каждой нации в игре есть несколько веток развития техники, продвижение по которым зависит только от вашего желания. Начав игру на танке I уровня, вы вольны выбрать, по какому пути развития пойти для получения заветной машины максимального уровня.</value>
+  </data>
+  <data name="tutorialQuest/description/quest5" xml:space="preserve">
+    <value>Слоты в Ангаре — места для хранения техники. Каждая машина в Ангаре занимает 1 слот, поэтому перед покупкой очередной машины убедитесь, что для неё есть место.</value>
+  </data>
+  <data name="tutorialQuest/description/quest6" xml:space="preserve">
+    <value>Премиум техника приносит больше кредитов и опыта за каждый бой, может быть куплена во внутриигровом магазине или через портал игры, а также взята в аренду на определённый срок при наличии такой возможности.</value>
+  </data>
+  <data name="tutorialQuest/description/quest7" xml:space="preserve">
+    <value>Боевой опыт, накопленный на элитной или премиум технике, можно перевести в свободный, который можно использовать на исследование любой машины и модулей. Кроме того, около 5% всего опыта, заработанного за каждый бой, автоматически переводится в свободный.</value>
+  </data>
+  <data name="tutorialQuest/description/quest8" xml:space="preserve">
+    <value>Чем выше уровень техники, тем ярче выражаются её особенности в борьбе с противником. Тратьте заработанный в бою опыт на исследования и выводите в бой всё новые и новые машины.</value>
+  </data>
+  <data name="tutorialQuest/description/quest9" xml:space="preserve">
+    <value>Премиум аккаунт позволяет зарабатывать больше кредитов и опыта за бой при игре на любой машине, что экономит время и ускоряет развитие в игре.</value>
+  </data>
+  <data name="tutorialQuest/helpBtn/hint" xml:space="preserve">
+    <value>НАЖМИТЕ, ЧТОБЫ
+УВИДЕТЬ ПОДСКАЗКУ</value>
+  </data>
+  <data name="tutorialQuest/questsControl/hint" xml:space="preserve">
+    <value>ДОСТУПНЫ ОБУЧАЮЩИЕ ЗАДАЧИ</value>
+  </data>
+  <data name="tutorialQuest/title/quest1" xml:space="preserve">
+    <value>Тренировочный лагерь</value>
+  </data>
+  <data name="tutorialQuest/title/quest10" xml:space="preserve">
+    <value>Дальнейшее развитие</value>
+  </data>
+  <data name="tutorialQuest/title/quest11" xml:space="preserve">
+    <value>Первая помощь</value>
+  </data>
+  <data name="tutorialQuest/title/quest12" xml:space="preserve">
+    <value>Полевой ремонт</value>
+  </data>
+  <data name="tutorialQuest/title/quest13" xml:space="preserve">
+    <value>Пожарная безопасность</value>
+  </data>
+  <data name="tutorialQuest/title/quest14" xml:space="preserve">
+    <value>Усиленная комплектация</value>
+  </data>
+  <data name="tutorialQuest/title/quest2" xml:space="preserve">
+    <value>Боевое крещение</value>
+  </data>
+  <data name="tutorialQuest/title/quest3" xml:space="preserve">
+    <value>Повышаем эффективность</value>
+  </data>
+  <data name="tutorialQuest/title/quest4" xml:space="preserve">
+    <value>Новые разработки</value>
+  </data>
+  <data name="tutorialQuest/title/quest5" xml:space="preserve">
+    <value>Расширяем Ангар</value>
+  </data>
+  <data name="tutorialQuest/title/quest6" xml:space="preserve">
+    <value>Бой продолжается</value>
+  </data>
+  <data name="tutorialQuest/title/quest7" xml:space="preserve">
+    <value>Пополняем резерв опыта</value>
+  </data>
+  <data name="tutorialQuest/title/quest8" xml:space="preserve">
+    <value>Конструкторское бюро</value>
+  </data>
+  <data name="tutorialQuest/title/quest9" xml:space="preserve">
+    <value>Ускоряем развитие</value>
+  </data>
+  <data name="tutorialQuest/video/fireExtinguisherHelp" xml:space="preserve">
+    <value>Использование ручного огнетушителя в бою</value>
+  </data>
+  <data name="tutorialQuest/video/medkitHelp" xml:space="preserve">
+    <value>Использование аптечки в бою</value>
+  </data>
+  <data name="tutorialQuest/video/repairkitHelp" xml:space="preserve">
+    <value>Использование ремкомплекта в бою</value>
+  </data>
+</root>

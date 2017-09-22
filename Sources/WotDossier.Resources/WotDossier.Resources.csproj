@@ -66,6 +66,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Strings\achievements.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>achievements.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Strings\battle_results.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>battle_results.resx</DependentUpon>
+    </Compile>
     <Compile Include="Tanks.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -860,14 +870,166 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources.ru-RU.resx">
+    <EmbeddedResource Include="Resources.ru.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Strings\achievements.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>achievements.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\achievements.ru.resx" />
+    <EmbeddedResource Include="Strings\aogas.resx" />
+    <EmbeddedResource Include="Strings\aogas.ru.resx" />
+    <EmbeddedResource Include="Strings\arenas.resx" />
+    <EmbeddedResource Include="Strings\arenas.ru.resx" />
+    <EmbeddedResource Include="Strings\artefacts.resx" />
+    <EmbeddedResource Include="Strings\artefacts.ru.resx" />
+    <EmbeddedResource Include="Strings\badge.resx" />
+    <EmbeddedResource Include="Strings\badge.ru.resx" />
+    <EmbeddedResource Include="Strings\ban_reason.resx" />
+    <EmbeddedResource Include="Strings\ban_reason.ru.resx" />
+    <EmbeddedResource Include="Strings\battle_results.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>battle_results.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\battle_results.ru.resx" />
+    <EmbeddedResource Include="Strings\battle_tutorial.resx" />
+    <EmbeddedResource Include="Strings\battle_tutorial.ru.resx" />
+    <EmbeddedResource Include="Strings\bootcamp.resx" />
+    <EmbeddedResource Include="Strings\bootcamp.ru.resx" />
+    <EmbeddedResource Include="Strings\captcha.ru.resx" />
+    <EmbeddedResource Include="Strings\chat.resx" />
+    <EmbeddedResource Include="Strings\chat.ru.resx" />
+    <EmbeddedResource Include="Strings\china_tankmen.resx" />
+    <EmbeddedResource Include="Strings\china_tankmen.ru.resx" />
+    <EmbeddedResource Include="Strings\china_vehicles.resx" />
+    <EmbeddedResource Include="Strings\china_vehicles.ru.resx" />
+    <EmbeddedResource Include="Strings\clans.resx" />
+    <EmbeddedResource Include="Strings\clans.ru.resx" />
+    <EmbeddedResource Include="Strings\common.resx" />
+    <EmbeddedResource Include="Strings\common.ru.resx" />
+    <EmbeddedResource Include="Strings\controls.resx" />
+    <EmbeddedResource Include="Strings\controls.ru.resx" />
+    <EmbeddedResource Include="Strings\crew_operations.resx" />
+    <EmbeddedResource Include="Strings\crew_operations.ru.resx" />
+    <EmbeddedResource Include="Strings\customization.ru.resx" />
+    <EmbeddedResource Include="Strings\cybersport.resx" />
+    <EmbeddedResource Include="Strings\cybersport.ru.resx" />
+    <EmbeddedResource Include="Strings\czech_tankmen.resx" />
+    <EmbeddedResource Include="Strings\czech_tankmen.ru.resx" />
+    <EmbeddedResource Include="Strings\czech_vehicles.resx" />
+    <EmbeddedResource Include="Strings\czech_vehicles.ru.resx" />
+    <EmbeddedResource Include="Strings\development.resx" />
+    <EmbeddedResource Include="Strings\development.ru.resx" />
+    <EmbeddedResource Include="Strings\dialogs.resx" />
+    <EmbeddedResource Include="Strings\dialogs.ru.resx" />
+    <EmbeddedResource Include="Strings\environment_tooltips.resx" />
+    <EmbeddedResource Include="Strings\environment_tooltips.ru.resx" />
+    <EmbeddedResource Include="Strings\fallout.resx" />
+    <EmbeddedResource Include="Strings\fallout.ru.resx" />
+    <EmbeddedResource Include="Strings\faq.resx" />
+    <EmbeddedResource Include="Strings\faq.ru.resx" />
+    <EmbeddedResource Include="Strings\fortifications.resx" />
+    <EmbeddedResource Include="Strings\fortifications.ru.resx" />
+    <EmbeddedResource Include="Strings\france_tankmen.resx" />
+    <EmbeddedResource Include="Strings\france_tankmen.ru.resx" />
+    <EmbeddedResource Include="Strings\france_vehicles.resx" />
+    <EmbeddedResource Include="Strings\france_vehicles.ru.resx" />
+    <EmbeddedResource Include="Strings\gb_tankmen.resx" />
+    <EmbeddedResource Include="Strings\gb_tankmen.ru.resx" />
+    <EmbeddedResource Include="Strings\gb_vehicles.resx" />
+    <EmbeddedResource Include="Strings\gb_vehicles.ru.resx" />
+    <EmbeddedResource Include="Strings\germany_tankmen.resx" />
+    <EmbeddedResource Include="Strings\germany_tankmen.ru.resx" />
+    <EmbeddedResource Include="Strings\germany_vehicles.resx" />
+    <EmbeddedResource Include="Strings\germany_vehicles.ru.resx" />
+    <EmbeddedResource Include="Strings\historical_battles.ru.resx" />
+    <EmbeddedResource Include="Strings\igr_vehicles.resx" />
+    <EmbeddedResource Include="Strings\igr_vehicles.ru.resx" />
+    <EmbeddedResource Include="Strings\ingame_gui.resx" />
+    <EmbeddedResource Include="Strings\ingame_gui.ru.resx" />
+    <EmbeddedResource Include="Strings\ingame_help.resx" />
+    <EmbeddedResource Include="Strings\ingame_help.ru.resx" />
+    <EmbeddedResource Include="Strings\invites.resx" />
+    <EmbeddedResource Include="Strings\invites.ru.resx" />
+    <EmbeddedResource Include="Strings\item_types.resx" />
+    <EmbeddedResource Include="Strings\item_types.ru.resx" />
+    <EmbeddedResource Include="Strings\japan_tankmen.resx" />
+    <EmbeddedResource Include="Strings\japan_tankmen.ru.resx" />
+    <EmbeddedResource Include="Strings\japan_vehicles.resx" />
+    <EmbeddedResource Include="Strings\japan_vehicles.ru.resx" />
+    <EmbeddedResource Include="Strings\kong_captcha.ru.resx" />
+    <EmbeddedResource Include="Strings\lobby_help.resx" />
+    <EmbeddedResource Include="Strings\lobby_help.ru.resx" />
+    <EmbeddedResource Include="Strings\menu.resx" />
+    <EmbeddedResource Include="Strings\menu.ru.resx" />
+    <EmbeddedResource Include="Strings\messenger.resx" />
+    <EmbeddedResource Include="Strings\messenger.ru.resx" />
+    <EmbeddedResource Include="Strings\miniclient.resx" />
+    <EmbeddedResource Include="Strings\miniclient.ru.resx" />
+    <EmbeddedResource Include="Strings\motivation_quests.resx" />
+    <EmbeddedResource Include="Strings\motivation_quests.ru.resx" />
+    <EmbeddedResource Include="Strings\nations.resx" />
+    <EmbeddedResource Include="Strings\nations.ru.resx" />
+    <EmbeddedResource Include="Strings\poland_tankmen.resx" />
+    <EmbeddedResource Include="Strings\poland_tankmen.ru.resx" />
+    <EmbeddedResource Include="Strings\poland_vehicles.resx" />
+    <EmbeddedResource Include="Strings\poland_vehicles.ru.resx" />
+    <EmbeddedResource Include="Strings\potapov_quests.resx" />
+    <EmbeddedResource Include="Strings\potapov_quests.ru.resx" />
+    <EmbeddedResource Include="Strings\prebattle.resx" />
+    <EmbeddedResource Include="Strings\prebattle.ru.resx" />
+    <EmbeddedResource Include="Strings\profile.resx" />
+    <EmbeddedResource Include="Strings\profile.ru.resx" />
+    <EmbeddedResource Include="Strings\quests.resx" />
+    <EmbeddedResource Include="Strings\quests.ru.resx" />
+    <EmbeddedResource Include="Strings\ranked_battles.resx" />
+    <EmbeddedResource Include="Strings\ranked_battles.ru.resx" />
+    <EmbeddedResource Include="Strings\readable_key_names.resx" />
+    <EmbeddedResource Include="Strings\readable_key_names.ru.resx" />
+    <EmbeddedResource Include="Strings\recaptcha.ru.resx" />
+    <EmbeddedResource Include="Strings\retrain_crew.resx" />
+    <EmbeddedResource Include="Strings\retrain_crew.ru.resx" />
+    <EmbeddedResource Include="Strings\settings.resx" />
+    <EmbeddedResource Include="Strings\settings.ru.resx" />
+    <EmbeddedResource Include="Strings\sweden_tankmen.resx" />
+    <EmbeddedResource Include="Strings\sweden_tankmen.ru.resx" />
+    <EmbeddedResource Include="Strings\sweden_vehicles.resx" />
+    <EmbeddedResource Include="Strings\sweden_vehicles.ru.resx" />
+    <EmbeddedResource Include="Strings\system_messages.resx" />
+    <EmbeddedResource Include="Strings\system_messages.ru.resx" />
+    <EmbeddedResource Include="Strings\tank_carousel_filter.resx" />
+    <EmbeddedResource Include="Strings\tank_carousel_filter.ru.resx" />
+    <EmbeddedResource Include="Strings\tips.resx" />
+    <EmbeddedResource Include="Strings\tips.ru.resx" />
+    <EmbeddedResource Include="Strings\tooltips.resx" />
+    <EmbeddedResource Include="Strings\tooltips.ru.resx" />
+    <EmbeddedResource Include="Strings\tutorial.resx" />
+    <EmbeddedResource Include="Strings\tutorial.ru.resx" />
+    <EmbeddedResource Include="Strings\usa_tankmen.resx" />
+    <EmbeddedResource Include="Strings\usa_tankmen.ru.resx" />
+    <EmbeddedResource Include="Strings\usa_vehicles.resx" />
+    <EmbeddedResource Include="Strings\usa_vehicles.ru.resx" />
+    <EmbeddedResource Include="Strings\ussr_tankmen.resx" />
+    <EmbeddedResource Include="Strings\ussr_tankmen.ru.resx" />
+    <EmbeddedResource Include="Strings\ussr_vehicles.resx" />
+    <EmbeddedResource Include="Strings\ussr_vehicles.ru.resx" />
+    <EmbeddedResource Include="Strings\vehicle_customization.resx" />
+    <EmbeddedResource Include="Strings\vehicle_customization.ru.resx" />
+    <EmbeddedResource Include="Strings\vehicle_customization_cn.resx" />
+    <EmbeddedResource Include="Strings\vehicle_customization_cn.ru.resx" />
+    <EmbeddedResource Include="Strings\vehicle_preview.resx" />
+    <EmbeddedResource Include="Strings\vehicle_preview.ru.resx" />
+    <EmbeddedResource Include="Strings\veh_compare.resx" />
+    <EmbeddedResource Include="Strings\veh_compare.ru.resx" />
+    <EmbeddedResource Include="Strings\waiting.resx" />
+    <EmbeddedResource Include="Strings\waiting.ru.resx" />
+    <EmbeddedResource Include="Strings\wp.ru.resx" />
     <EmbeddedResource Include="Tanks.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Tanks.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tanks.ru-RU.resx" />
+    <EmbeddedResource Include="Tanks.ru.resx" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Replays\replay.png" />

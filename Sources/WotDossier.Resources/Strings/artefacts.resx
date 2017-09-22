@@ -1,0 +1,912 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="afterburning/descr" xml:space="preserve">
+    <value>+15% to engine power for one minute</value>
+  </data>
+  <data name="afterburning/name" xml:space="preserve">
+    <value>Engine Power Boost</value>
+  </data>
+  <data name="aimingStabilizer/descr" xml:space="preserve">
+    <value>{colorTagOpen}+20%{colorTagClose} to accuracy during movement and turret rotation</value>
+  </data>
+  <data name="aimingStabilizerBattleBooster/descr" xml:space="preserve">
+    <value>%s to dispersion during movement and turret rotation with Vertical Stabilizer (Mk 1 and Mk 2) or Stabilizing Equipment System mounted.</value>
+  </data>
+  <data name="aimingStabilizerBattleBooster/gain/deluxe" xml:space="preserve">
+    <value>-5%</value>
+  </data>
+  <data name="aimingStabilizerBattleBooster/gain/simple" xml:space="preserve">
+    <value>-5%</value>
+  </data>
+  <data name="aimingStabilizerBattleBooster/name" xml:space="preserve">
+    <value>Stabilizer Greasing</value>
+  </data>
+  <data name="aimingStabilizer_Mk1/name" xml:space="preserve">
+    <value>Vertical Stabilizer Mk 1</value>
+  </data>
+  <data name="aimingStabilizer_Mk2/name" xml:space="preserve">
+    <value>Vertical Stabilizer Mk 2</value>
+  </data>
+  <data name="antifragmentationLining_heavy/descr" xml:space="preserve">
+    <value>{colorTagOpen}+30%{colorTagClose} to armor protection from ramming and explosions
+{colorTagOpen}+30%{colorTagClose} to protection of the crew from injuries
+{colorTagOpen}-10%{colorTagClose} to stun duration</value>
+  </data>
+  <data name="antifragmentationLining_heavy/name" xml:space="preserve">
+    <value>Heavy Spall Liner</value>
+  </data>
+  <data name="antifragmentationLining_light/descr" xml:space="preserve">
+    <value>{colorTagOpen}+20%{colorTagClose} to armor protection from ramming and explosions
+{colorTagOpen}+20%{colorTagClose} to protection of the crew from injuries
+{colorTagOpen}-10%{colorTagClose} to stun duration</value>
+  </data>
+  <data name="antifragmentationLining_light/name" xml:space="preserve">
+    <value>Light Spall Liner</value>
+  </data>
+  <data name="antifragmentationLining_medium/descr" xml:space="preserve">
+    <value>{colorTagOpen}+25%{colorTagClose} to armor protection from ramming and explosions
+{colorTagOpen}+25%{colorTagClose} to protection of the crew from injuries
+{colorTagOpen}-10%{colorTagClose} to stun duration</value>
+  </data>
+  <data name="antifragmentationLining_medium/name" xml:space="preserve">
+    <value>Medium Spall Liner</value>
+  </data>
+  <data name="antifragmentationLining_superheavy/descr" xml:space="preserve">
+    <value>{colorTagOpen}+50%{colorTagClose} to armor protection from ramming and explosions
+{colorTagOpen}+50%{colorTagClose} to protection of the crew from injuries
+{colorTagOpen}-10%{colorTagClose} to stun duration</value>
+  </data>
+  <data name="antifragmentationLining_superheavy/name" xml:space="preserve">
+    <value>Superheavy Spall Liner</value>
+  </data>
+  <data name="artillery/descr" xml:space="preserve">
+    <value>Upon activation, commands the artillery to lay fire at the specified map coordinates.</value>
+  </data>
+  <data name="artillery/name" xml:space="preserve">
+    <value>Artillery Strike</value>
+  </data>
+  <data name="autoExtinguishers/always" xml:space="preserve">
+    <value>+10% to fire protection.</value>
+  </data>
+  <data name="autoExtinguishers/descr" xml:space="preserve">
+    <value>Automatic fire extinguishing in your vehicle.</value>
+  </data>
+  <data name="autoExtinguishers/name" xml:space="preserve">
+    <value>Automatic Fire Extinguisher</value>
+  </data>
+  <data name="autoExtinguishers/onUse" xml:space="preserve">
+    <value>Automatic fire extinguishing in your vehicle. Can be used multiple times in a battle. The consumable is removed after a battle if it was used at least once.</value>
+  </data>
+  <data name="autoExtinguishers/restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="bomber/descr" xml:space="preserve">
+    <value>Upon activation, commands a ground-attack plane to take off and drop bombs at the specified map coordinates.</value>
+  </data>
+  <data name="bomber/name" xml:space="preserve">
+    <value>Airstrike</value>
+  </data>
+  <data name="camouflageBattleBooster/action/boost" xml:space="preserve">
+    <value>Additional 10% to vehicle concealment</value>
+  </data>
+  <data name="camouflageBattleBooster/action/perk" xml:space="preserve">
+    <value>Gives all crew members the Concealment skill trained to 100%</value>
+  </data>
+  <data name="camouflageBattleBooster/name" xml:space="preserve">
+    <value>Natural Cover</value>
+  </data>
+  <data name="camouflageNet/descr" xml:space="preserve">
+    <value>Reduces detection chance when the vehicle is stationary</value>
+  </data>
+  <data name="camouflageNet/name" xml:space="preserve">
+    <value>Camouflage Net</value>
+  </data>
+  <data name="carbonDioxide/descr" xml:space="preserve">
+    <value>{colorTagOpen}+50%{colorTagClose} to fuel tank durability</value>
+  </data>
+  <data name="carbonDioxide/name" xml:space="preserve">
+    <value>Fill Tanks with CO2</value>
+  </data>
+  <data name="chocolate/always" xml:space="preserve">
+    <value>+10% to all crew skills and perks for the course of the battle.</value>
+  </data>
+  <data name="chocolate/descr" xml:space="preserve">
+    <value>+10% to all crew skills and perks.</value>
+  </data>
+  <data name="chocolate/name" xml:space="preserve">
+    <value>Chocolate</value>
+  </data>
+  <data name="chocolate/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="chocolate/restriction" xml:space="preserve">
+    <value>Restricted: German vehicles.</value>
+  </data>
+  <data name="coatedOptics/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to view range, up to a range of 445 m</value>
+  </data>
+  <data name="coatedOptics/name" xml:space="preserve">
+    <value>Coated Optics</value>
+  </data>
+  <data name="coatedOpticsBattleBooster/descr" xml:space="preserve">
+    <value>%s to view range (up to 445 m) with Coated Optics or Experimental Optics mounted.</value>
+  </data>
+  <data name="coatedOpticsBattleBooster/gain/deluxe" xml:space="preserve">
+    <value>+2.5%</value>
+  </data>
+  <data name="coatedOpticsBattleBooster/gain/simple" xml:space="preserve">
+    <value>+2.5%</value>
+  </data>
+  <data name="coatedOpticsBattleBooster/name" xml:space="preserve">
+    <value>Optical Calibration</value>
+  </data>
+  <data name="cocacola/always" xml:space="preserve">
+    <value>+10% to all crew skills and perks for the course of the battle.</value>
+  </data>
+  <data name="cocacola/descr" xml:space="preserve">
+    <value>+10% to all crew skills and perks.</value>
+  </data>
+  <data name="cocacola/name" xml:space="preserve">
+    <value>Case of Cola</value>
+  </data>
+  <data name="cocacola/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="cocacola/restriction" xml:space="preserve">
+    <value>Restricted: U.S. vehicles.</value>
+  </data>
+  <data name="crewBattleBooster/descr/boost" xml:space="preserve">
+    <value>Improves the following</value>
+  </data>
+  <data name="crewBattleBooster/descr/common" xml:space="preserve">
+    <value>{colorTagOpen}{action}{colorTagClose} {skillOrPerk} "{name}"</value>
+  </data>
+  <data name="crewBattleBooster/descr/perk" xml:space="preserve">
+    <value>perk:</value>
+  </data>
+  <data name="crewBattleBooster/descr/replace" xml:space="preserve">
+    <value>Gives the following</value>
+  </data>
+  <data name="crewBattleBooster/descr/skill" xml:space="preserve">
+    <value>skill:</value>
+  </data>
+  <data name="deluxAimingStabilizer/descr" xml:space="preserve">
+    <value>{colorTagOpen}-25%{colorTagClose} to dispersion during movement and turret rotation</value>
+  </data>
+  <data name="deluxAimingStabilizer/name" xml:space="preserve">
+    <value>Stabilizing Equipment System</value>
+  </data>
+  <data name="deluxCoatedOptics/descr" xml:space="preserve">
+    <value>{colorTagOpen}+12.5%{colorTagClose} to view range, up to 445 m</value>
+  </data>
+  <data name="deluxCoatedOptics/name" xml:space="preserve">
+    <value>Experimental Optics</value>
+  </data>
+  <data name="deluxEnhancedAimDrives/descr" xml:space="preserve">
+    <value>{colorTagOpen}+12.5%{colorTagClose} to aiming speed</value>
+  </data>
+  <data name="deluxEnhancedAimDrives/name" xml:space="preserve">
+    <value>Wear-Resistant Gun Laying Drive</value>
+  </data>
+  <data name="deluxImprovedVentilation/descr" xml:space="preserve">
+    <value>{colorTagOpen}+7.5%{colorTagClose} to all crew skills</value>
+  </data>
+  <data name="deluxImprovedVentilation/name" xml:space="preserve">
+    <value>Venting System</value>
+  </data>
+  <data name="deluxRammer/descr" xml:space="preserve">
+    <value>{colorTagOpen}-12.5%{colorTagClose} to loading time</value>
+  </data>
+  <data name="deluxRammer/name" xml:space="preserve">
+    <value>Innovative Loading System</value>
+  </data>
+  <data name="deluxToolbox/descr" xml:space="preserve">
+    <value>{colorTagOpen}+40%{colorTagClose} to repair speed</value>
+  </data>
+  <data name="deluxToolbox/name" xml:space="preserve">
+    <value>Extended Spare Parts Kit</value>
+  </data>
+  <data name="enhancedAimDrives/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to aiming speed</value>
+  </data>
+  <data name="enhancedAimDrives/name" xml:space="preserve">
+    <value>Enhanced Gun Laying Drive</value>
+  </data>
+  <data name="enhancedAimDrivesBattleBooster/descr" xml:space="preserve">
+    <value>%s to aiming speed with Enhanced Gun Laying Drive or Wear-Resistant Gun Laying Drive mounted.</value>
+  </data>
+  <data name="enhancedAimDrivesBattleBooster/gain/deluxe" xml:space="preserve">
+    <value>+2.5%</value>
+  </data>
+  <data name="enhancedAimDrivesBattleBooster/gain/simple" xml:space="preserve">
+    <value>+2.5%</value>
+  </data>
+  <data name="enhancedAimDrivesBattleBooster/name" xml:space="preserve">
+    <value>Aim Tuning</value>
+  </data>
+  <data name="enhancedBelwillWashers/name" xml:space="preserve">
+    <value>Enhanced Belleville Washers</value>
+  </data>
+  <data name="enhancedHorizontal_elastic_elements/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to suspension load capacity
+{colorTagOpen}+20%{colorTagClose} to suspension durability
+ {colorTagOpen}-50%{colorTagClose} to hull damage caused by suspension damage during impact</value>
+  </data>
+  <data name="enhancedHorizontal_elastic_elements/name" xml:space="preserve">
+    <value>Enhanced Horizontal Leaf Springs</value>
+  </data>
+  <data name="enhancedHorizontal_springs/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to suspension load capacity
+{colorTagOpen}+20%{colorTagClose} to suspension durability
+ {colorTagOpen}-50%{colorTagClose} to hull damage caused by suspension damage during impact</value>
+  </data>
+  <data name="enhancedHorizontal_springs/name" xml:space="preserve">
+    <value>Enhanced Coil Springs Class 1</value>
+  </data>
+  <data name="enhancedHorizontal_springs_class2/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to suspension load capacity
+{colorTagOpen}+20%{colorTagClose} to suspension durability
+ {colorTagOpen}-50%{colorTagClose} to hull damage caused by suspension damage during impact</value>
+  </data>
+  <data name="enhancedHorizontal_springs_class2/name" xml:space="preserve">
+    <value>Enhanced Coil Springs Class 2</value>
+  </data>
+  <data name="enhancedHorizontal_springs_class3/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to suspension load capacity
+{colorTagOpen}+20%{colorTagClose} to suspension durability
+ {colorTagOpen}-50%{colorTagClose} to hull damage caused by suspension damage during impact</value>
+  </data>
+  <data name="enhancedHorizontal_springs_class3/name" xml:space="preserve">
+    <value>Enhanced Coil Springs Class 3</value>
+  </data>
+  <data name="enhancedLevers/name" xml:space="preserve">
+    <value>Enhanced Levers</value>
+  </data>
+  <data name="enhancedLongitudinalTorsions/name" xml:space="preserve">
+    <value>Enhanced Longitudinal Torsion Bars</value>
+  </data>
+  <data name="enhancedSprings/name" xml:space="preserve">
+    <value>Enhanced Springs</value>
+  </data>
+  <data name="enhancedSprings_class2/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to suspension load capacity
+{colorTagOpen}+20%{colorTagClose} to suspension durability
+ {colorTagOpen}-50%{colorTagClose} to hull damage caused by suspension damage during impact</value>
+  </data>
+  <data name="enhancedSprings_class2/name" xml:space="preserve">
+    <value>Enhanced Leaf Springs 2 Class</value>
+  </data>
+  <data name="enhancedSprings_class3/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to suspension load capacity
+{colorTagOpen}+20%{colorTagClose} to suspension durability
+ {colorTagOpen}-50%{colorTagClose} to hull damage caused by suspension damage during impact</value>
+  </data>
+  <data name="enhancedSprings_class3/name" xml:space="preserve">
+    <value>Enhanced Leaf Springs 3 Class</value>
+  </data>
+  <data name="enhancedSuspension/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to suspension load capacity
+{colorTagOpen}+20%{colorTagClose} to suspension durability
+ {colorTagOpen}-50%{colorTagClose} to hull damage caused by suspension damage during impact</value>
+  </data>
+  <data name="enhancedSuspension_Christie/name" xml:space="preserve">
+    <value>Enhanced Christie Suspension</value>
+  </data>
+  <data name="enhancedSuspension_Vikkers/name" xml:space="preserve">
+    <value>Enhanced Vickers Suspension</value>
+  </data>
+  <data name="enhancedSuspension_candle/name" xml:space="preserve">
+    <value>Enhanced Candle Suspension</value>
+  </data>
+  <data name="enhancedTorsions1t/name" xml:space="preserve">
+    <value>Enhanced Torsion Bars 1 t Class</value>
+  </data>
+  <data name="enhancedTorsions3t/name" xml:space="preserve">
+    <value>Enhanced Torsion Bars 3 t Class</value>
+  </data>
+  <data name="enhancedTorsions5t/name" xml:space="preserve">
+    <value>Enhanced Torsion Bars 5+ t Class</value>
+  </data>
+  <data name="enhancedVertical_elastic_elements/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to suspension load capacity
+{colorTagOpen}+20%{colorTagClose} to suspension durability
+ {colorTagOpen}-50%{colorTagClose} to hull damage caused by suspension damage during impact</value>
+  </data>
+  <data name="enhancedVertical_elastic_elements/name" xml:space="preserve">
+    <value>Enhanced Vertical Leaf Springs</value>
+  </data>
+  <data name="enhancedVertical_springs/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to suspension load capacity
+{colorTagOpen}+20%{colorTagClose} to suspension durability
+ {colorTagOpen}-50%{colorTagClose} to hull damage caused by suspension damage during impact</value>
+  </data>
+  <data name="enhancedVertical_springs/name" xml:space="preserve">
+    <value>Enhanced Vertical Coil Springs 1 Class</value>
+  </data>
+  <data name="enhancedVertical_springs_class2/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to suspension load capacity
+{colorTagOpen}+20%{colorTagClose} to suspension durability
+ {colorTagOpen}-50%{colorTagClose} to hull damage caused by suspension damage during impact</value>
+  </data>
+  <data name="enhancedVertical_springs_class2/name" xml:space="preserve">
+    <value>Enhanced Vertical Coil Springs 2 Class</value>
+  </data>
+  <data name="enhancedVertical_springs_class3/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to suspension load capacity
+{colorTagOpen}+20%{colorTagClose} to suspension durability
+ {colorTagOpen}-50%{colorTagClose} to hull damage caused by suspension damage during impact</value>
+  </data>
+  <data name="enhancedVertical_springs_class3/name" xml:space="preserve">
+    <value>Enhanced Vertical Coil Springs 3 Class</value>
+  </data>
+  <data name="filterCyclone/descr" xml:space="preserve">
+    <value>{colorTagOpen}+50%{colorTagClose} to engine durability</value>
+  </data>
+  <data name="filterCyclone/name" xml:space="preserve">
+    <value>Cyclone Filter</value>
+  </data>
+  <data name="fireFightingBattleBooster/action/boost" xml:space="preserve">
+    <value>Additional 50% to firefighting abilities</value>
+  </data>
+  <data name="fireFightingBattleBooster/action/perk" xml:space="preserve">
+    <value>Gives all crew members the Firefighting skill trained to 100%</value>
+  </data>
+  <data name="fireFightingBattleBooster/name" xml:space="preserve">
+    <value>Experienced Firefighters</value>
+  </data>
+  <data name="gasoline100/always" xml:space="preserve">
+    <value>+5% to engine power and turret traverse speed for the course of the battle.</value>
+  </data>
+  <data name="gasoline100/descr" xml:space="preserve">
+    <value>+5% to engine power and turret traverse speed.</value>
+  </data>
+  <data name="gasoline100/name" xml:space="preserve">
+    <value>100-octane Gasoline</value>
+  </data>
+  <data name="gasoline100/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="gasoline100/restriction" xml:space="preserve">
+    <value>Restricted: German, U.S., U.K., French, Czechoslovakian, Swedish and Polish gasoline engines.</value>
+  </data>
+  <data name="gasoline105/always" xml:space="preserve">
+    <value>+10% to engine power and turret traverse speed for the course of the battle.</value>
+  </data>
+  <data name="gasoline105/descr" xml:space="preserve">
+    <value>+10% to engine power and turret traverse speed.</value>
+  </data>
+  <data name="gasoline105/name" xml:space="preserve">
+    <value>105-octane Gasoline</value>
+  </data>
+  <data name="gasoline105/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="gasoline105/restriction" xml:space="preserve">
+    <value>Restricted: German, U.S., U.K., French, Czechoslovakian, Swedish and Polish gasoline engines.</value>
+  </data>
+  <data name="grousers/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} to performance on soft ground,
+{colorTagOpen}+5%{colorTagClose} to performance on moderately soft ground</value>
+  </data>
+  <data name="grousers/name" xml:space="preserve">
+    <value>Additional Grousers</value>
+  </data>
+  <data name="handExtinguishers/always" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="handExtinguishers/descr" xml:space="preserve">
+    <value>Fire extinguishing in your vehicle.</value>
+  </data>
+  <data name="handExtinguishers/name" xml:space="preserve">
+    <value>Manual Fire Extinguisher</value>
+  </data>
+  <data name="handExtinguishers/onUse" xml:space="preserve">
+    <value>Fire extinguishing in your vehicle. Can be used multiple times in a battle. The consumable is removed after a battle if it was used at least once.</value>
+  </data>
+  <data name="handExtinguishers/restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="hotCoffee/always" xml:space="preserve">
+    <value>+10% to all crew skills and perks for the course of the battle.</value>
+  </data>
+  <data name="hotCoffee/descr" xml:space="preserve">
+    <value>+10% to all crew skills and perks.</value>
+  </data>
+  <data name="hotCoffee/name" xml:space="preserve">
+    <value>Strong Coffee</value>
+  </data>
+  <data name="hotCoffee/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="hotCoffee/restriction" xml:space="preserve">
+    <value>Restricted: French vehicles.</value>
+  </data>
+  <data name="improvedVentilation/descr" xml:space="preserve">
+    <value>{colorTagOpen}+5%{colorTagClose} to all crew skills</value>
+  </data>
+  <data name="improvedVentilationBattleBooster/descr" xml:space="preserve">
+    <value>%s to all crew skills with Improved Ventilation (any class) or Venting System mounted.</value>
+  </data>
+  <data name="improvedVentilationBattleBooster/gain/deluxe" xml:space="preserve">
+    <value>+2.5%</value>
+  </data>
+  <data name="improvedVentilationBattleBooster/gain/simple" xml:space="preserve">
+    <value>+2.5%</value>
+  </data>
+  <data name="improvedVentilationBattleBooster/name" xml:space="preserve">
+    <value>Vent Purge</value>
+  </data>
+  <data name="improvedVentilation_class1/name" xml:space="preserve">
+    <value>Improved Ventilation Class 1</value>
+  </data>
+  <data name="improvedVentilation_class2/name" xml:space="preserve">
+    <value>Improved Ventilation Class 2</value>
+  </data>
+  <data name="improvedVentilation_class3/name" xml:space="preserve">
+    <value>Improved Ventilation Class 3</value>
+  </data>
+  <data name="largeCaliberHowitzerRammer/name" xml:space="preserve">
+    <value>Large-Caliber Artillery-Shell Rammer</value>
+  </data>
+  <data name="largeCaliberTankRammer/name" xml:space="preserve">
+    <value>Large-Caliber Tank Gun Rammer</value>
+  </data>
+  <data name="largeMedkit/always" xml:space="preserve">
+    <value>-5% to stun duration
++15% to protection of the crew from injuries.</value>
+  </data>
+  <data name="largeMedkit/descr" xml:space="preserve">
+    <value>Treatment of all injured crew members and removing the stun effect.</value>
+  </data>
+  <data name="largeMedkit/name" xml:space="preserve">
+    <value>Large First Aid Kit</value>
+  </data>
+  <data name="largeMedkit/onUse" xml:space="preserve">
+    <value>Treatment of all injured crew members. Can be used multiple times in a battle. The consumable is removed after a battle if it was used at least once.</value>
+  </data>
+  <data name="largeMedkit/removingStun/onUse" xml:space="preserve">
+    <value>Treatment of all injured crew members and removing the stun effect. Can be used multiple times in a battle. The consumable is removed after a battle if it was used at least once.</value>
+  </data>
+  <data name="largeMedkit/restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="largeMedkit/stunDisabled/descr" xml:space="preserve">
+    <value>Treatment of all injured crew members.</value>
+  </data>
+  <data name="largeRepairkit/always" xml:space="preserve">
+    <value>+10% to speed of module repairs.</value>
+  </data>
+  <data name="largeRepairkit/descr" xml:space="preserve">
+    <value>Repair of all damaged modules.</value>
+  </data>
+  <data name="largeRepairkit/name" xml:space="preserve">
+    <value>Large Repair Kit</value>
+  </data>
+  <data name="largeRepairkit/onUse" xml:space="preserve">
+    <value>Repair of all damaged modules. Can be used multiple times in a battle. The consumable is removed after a battle if it was used at least once.</value>
+  </data>
+  <data name="largeRepairkit/restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="lastEffortBattleBooster/action/boost" xml:space="preserve">
+    <value>Additional 3 s to time for a Radio Operator who was not injured at the moment of his vehicle's destruction to report enemy positions</value>
+  </data>
+  <data name="lastEffortBattleBooster/action/perk" xml:space="preserve">
+    <value>Gives the Call for Vengeance perk trained to 100%</value>
+  </data>
+  <data name="lastEffortBattleBooster/name" xml:space="preserve">
+    <value>Duty Comes First</value>
+  </data>
+  <data name="lendLeaseOil/always" xml:space="preserve">
+    <value>+5% to engine power for the course of the battle.</value>
+  </data>
+  <data name="lendLeaseOil/descr" xml:space="preserve">
+    <value>+5% to engine power.</value>
+  </data>
+  <data name="lendLeaseOil/name" xml:space="preserve">
+    <value>Lend-Lease Oil</value>
+  </data>
+  <data name="lendLeaseOil/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="lendLeaseOil/restriction" xml:space="preserve">
+    <value>Restricted: U.S.S.R. vehicles.</value>
+  </data>
+  <data name="mediumCaliberHowitzerRammer/name" xml:space="preserve">
+    <value>Medium-Caliber Artillery Shell Rammer</value>
+  </data>
+  <data name="mediumCaliberTankRammer/name" xml:space="preserve">
+    <value>Medium-Caliber Tank Gun Rammer</value>
+  </data>
+  <data name="pedantBattleBooster/action/boost" xml:space="preserve">
+    <value>Additional 37.5% to ammo rack durability</value>
+  </data>
+  <data name="pedantBattleBooster/action/perk" xml:space="preserve">
+    <value>Gives the Safe Stowage perk trained to 100%</value>
+  </data>
+  <data name="pedantBattleBooster/name" xml:space="preserve">
+    <value>Shell Organizer</value>
+  </data>
+  <data name="qualityOil/always" xml:space="preserve">
+    <value>+5% to engine power for the course of the battle.</value>
+  </data>
+  <data name="qualityOil/descr" xml:space="preserve">
+    <value>+5% to engine power.</value>
+  </data>
+  <data name="qualityOil/name" xml:space="preserve">
+    <value>Quality Oil</value>
+  </data>
+  <data name="qualityOil/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="qualityOil/restriction" xml:space="preserve">
+    <value>Restricted: Chinese and Japanese vehicles.</value>
+  </data>
+  <data name="rammer/descr" xml:space="preserve">
+    <value>{colorTagOpen}-10%{colorTagClose} to loading time</value>
+  </data>
+  <data name="rammerBattleBooster/descr" xml:space="preserve">
+    <value>%s to loading time with Rammer (any gun type and caliber) or Innovative Loading System mounted.</value>
+  </data>
+  <data name="rammerBattleBooster/gain/deluxe" xml:space="preserve">
+    <value>-2.5%</value>
+  </data>
+  <data name="rammerBattleBooster/gain/simple" xml:space="preserve">
+    <value>-2.5%</value>
+  </data>
+  <data name="rammerBattleBooster/name" xml:space="preserve">
+    <value>Orderly Ammo Rack</value>
+  </data>
+  <data name="rancorousBattleBooster/action/boost" xml:space="preserve">
+    <value>Additional 2 s to time for a targeted enemy vehicle to stay visible</value>
+  </data>
+  <data name="rancorousBattleBooster/action/perk" xml:space="preserve">
+    <value>Gives the Designated Target perk trained to 100%</value>
+  </data>
+  <data name="rancorousBattleBooster/name" xml:space="preserve">
+    <value>Focus on Target</value>
+  </data>
+  <data name="ration/always" xml:space="preserve">
+    <value>+10% to all crew skills and perks for the course of the battle.</value>
+  </data>
+  <data name="ration/descr" xml:space="preserve">
+    <value>+10% to all crew skills and perks.</value>
+  </data>
+  <data name="ration/name" xml:space="preserve">
+    <value>Extra Combat Rations</value>
+  </data>
+  <data name="ration/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="ration/restriction" xml:space="preserve">
+    <value>Restricted: U.S.S.R. vehicles.</value>
+  </data>
+  <data name="ration_china/always" xml:space="preserve">
+    <value>+10% to all crew skills and perks for the course of the battle.</value>
+  </data>
+  <data name="ration_china/descr" xml:space="preserve">
+    <value>+10% to all crew skills and perks.</value>
+  </data>
+  <data name="ration_china/name" xml:space="preserve">
+    <value>Improved Combat Rations</value>
+  </data>
+  <data name="ration_china/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="ration_china/restriction" xml:space="preserve">
+    <value>Restricted: Chinese vehicles.</value>
+  </data>
+  <data name="ration_czech/always" xml:space="preserve">
+    <value>+10% to all crew skills and perks for the course of the battle.</value>
+  </data>
+  <data name="ration_czech/descr" xml:space="preserve">
+    <value>+10% to all crew skills and perks.</value>
+  </data>
+  <data name="ration_czech/name" xml:space="preserve">
+    <value>Buchty</value>
+  </data>
+  <data name="ration_czech/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="ration_czech/restriction" xml:space="preserve">
+    <value>Restricted: Czechoslovakian vehicles.</value>
+  </data>
+  <data name="ration_japan/always" xml:space="preserve">
+    <value>+10% to all crew skills and perks for the course of the battle.</value>
+  </data>
+  <data name="ration_japan/descr" xml:space="preserve">
+    <value>+10% to all crew skills and perks.</value>
+  </data>
+  <data name="ration_japan/name" xml:space="preserve">
+    <value>Onigiri</value>
+  </data>
+  <data name="ration_japan/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="ration_japan/restriction" xml:space="preserve">
+    <value>Restricted: Japanese vehicles.</value>
+  </data>
+  <data name="ration_poland/always" xml:space="preserve">
+    <value>+10% to all crew skills and perks for the course of the battle.</value>
+  </data>
+  <data name="ration_poland/descr" xml:space="preserve">
+    <value>+10% to all crew skills and perks.</value>
+  </data>
+  <data name="ration_poland/name" xml:space="preserve">
+    <value>Bread with Smalec</value>
+  </data>
+  <data name="ration_poland/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="ration_poland/restriction" xml:space="preserve">
+    <value>Restricted: Polish vehicles.</value>
+  </data>
+  <data name="ration_sweden/always" xml:space="preserve">
+    <value>+10% to all crew skills and perks for the course of the battle.</value>
+  </data>
+  <data name="ration_sweden/descr" xml:space="preserve">
+    <value>+10% to all crew skills and perks.</value>
+  </data>
+  <data name="ration_sweden/name" xml:space="preserve">
+    <value>Coffee with Cinnamon Buns</value>
+  </data>
+  <data name="ration_sweden/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="ration_sweden/restriction" xml:space="preserve">
+    <value>Restricted: Swedish vehicles.</value>
+  </data>
+  <data name="ration_uk/always" xml:space="preserve">
+    <value>+10% to all crew skills and perks for the course of the battle.</value>
+  </data>
+  <data name="ration_uk/descr" xml:space="preserve">
+    <value>+10% to all crew skills and perks.</value>
+  </data>
+  <data name="ration_uk/name" xml:space="preserve">
+    <value>Pudding and Tea</value>
+  </data>
+  <data name="ration_uk/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="ration_uk/restriction" xml:space="preserve">
+    <value>Restricted: U.K. vehicles.</value>
+  </data>
+  <data name="removedRpmLimiter/always" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="removedRpmLimiter/descr" xml:space="preserve">
+    <value>+10% to engine power but damages the engine.</value>
+  </data>
+  <data name="removedRpmLimiter/name" xml:space="preserve">
+    <value>Removed Speed Governor</value>
+  </data>
+  <data name="removedRpmLimiter/onUse" xml:space="preserve">
+    <value>+10% to engine power but damages the engine. Multiple use.</value>
+  </data>
+  <data name="removedRpmLimiter/restriction" xml:space="preserve">
+    <value>Restricted: U.S.S.R. and Chinese vehicles.</value>
+  </data>
+  <data name="sixthSenseBattleBooster/action/boost" xml:space="preserve">
+    <value>The Sixth Sense perk is activated 1 s earlier</value>
+  </data>
+  <data name="sixthSenseBattleBooster/action/perk" xml:space="preserve">
+    <value>Gives the Sixth Sense perk trained to 100%</value>
+  </data>
+  <data name="sixthSenseBattleBooster/name" xml:space="preserve">
+    <value>Increased Focus</value>
+  </data>
+  <data name="smallMedkit/always" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="smallMedkit/descr" xml:space="preserve">
+    <value>Treatment of an injured crew member and removing the stun effect.</value>
+  </data>
+  <data name="smallMedkit/name" xml:space="preserve">
+    <value>Small First Aid Kit</value>
+  </data>
+  <data name="smallMedkit/onUse" xml:space="preserve">
+    <value>Treatment of an injured crew member. Can be used multiple times in a battle. The consumable is removed after a battle if it was used at least once.</value>
+  </data>
+  <data name="smallMedkit/removingStun/onUse" xml:space="preserve">
+    <value>Treatment of an injured crew member and removing the stun effect. Can be used multiple times in a battle. The consumable is removed after a battle if it was used at least once.</value>
+  </data>
+  <data name="smallMedkit/restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="smallMedkit/stunDisabled/descr" xml:space="preserve">
+    <value>Treatment of an injured crew member.</value>
+  </data>
+  <data name="smallRepairkit/always" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="smallRepairkit/descr" xml:space="preserve">
+    <value>Repair of a damaged module or two damaged tracks.</value>
+  </data>
+  <data name="smallRepairkit/name" xml:space="preserve">
+    <value>Small Repair Kit</value>
+  </data>
+  <data name="smallRepairkit/onUse" xml:space="preserve">
+    <value>Repair of a damaged module or two damaged tracks. Can be used multiple times in a battle. The consumable is removed after a battle if it was used at least once.</value>
+  </data>
+  <data name="smallRepairkit/restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="smoothDrivingBattleBooster/action/boost" xml:space="preserve">
+    <value>Doubles the effect of the Smooth Ride skill</value>
+  </data>
+  <data name="smoothDrivingBattleBooster/action/perk" xml:space="preserve">
+    <value>Gives the Smooth Ride skill trained to 100%</value>
+  </data>
+  <data name="smoothDrivingBattleBooster/name" xml:space="preserve">
+    <value>Gearbox Intricacy</value>
+  </data>
+  <data name="smoothTurretBattleBooster/action/boost" xml:space="preserve">
+    <value>Doubles the effect of the Snap Shot skill</value>
+  </data>
+  <data name="smoothTurretBattleBooster/action/perk" xml:space="preserve">
+    <value>Gives the Snap Shot skill trained to 100%</value>
+  </data>
+  <data name="smoothTurretBattleBooster/name" xml:space="preserve">
+    <value>Steady Hand</value>
+  </data>
+  <data name="stereoscope/descr" xml:space="preserve">
+    <value>{colorTagOpen}+25%{colorTagClose} to view range for a stationary vehicle,
+up to 445 m</value>
+  </data>
+  <data name="stereoscope/name" xml:space="preserve">
+    <value>Binocular Telescope</value>
+  </data>
+  <data name="toolbox/descr" xml:space="preserve">
+    <value>{colorTagOpen}+25%{colorTagClose} to repair speed</value>
+  </data>
+  <data name="toolbox/name" xml:space="preserve">
+    <value>Toolbox</value>
+  </data>
+  <data name="toolboxBattleBooster/descr" xml:space="preserve">
+    <value>%s to repair speed with Toolbox or Extended Spare Parts Kit mounted.</value>
+  </data>
+  <data name="toolboxBattleBooster/gain/deluxe" xml:space="preserve">
+    <value>+10%</value>
+  </data>
+  <data name="toolboxBattleBooster/gain/simple" xml:space="preserve">
+    <value>+10%</value>
+  </data>
+  <data name="toolboxBattleBooster/name" xml:space="preserve">
+    <value>Pre-Battle Maintenance</value>
+  </data>
+  <data name="virtuosoBattleBooster/action/boost" xml:space="preserve">
+    <value>Doubles the effect of the Clutch Braking skill</value>
+  </data>
+  <data name="virtuosoBattleBooster/action/perk" xml:space="preserve">
+    <value>Gives the Clutch Braking skill trained to 100%</value>
+  </data>
+  <data name="virtuosoBattleBooster/name" xml:space="preserve">
+    <value>Combat Course</value>
+  </data>
+  <data name="wetCombatPack/descr" xml:space="preserve">
+    <value>{colorTagOpen}+50%{colorTagClose} to ammo rack durability</value>
+  </data>
+  <data name="wetCombatPack_class1/name" xml:space="preserve">
+    <value>"Wet" Ammo Rack Class 1</value>
+  </data>
+  <data name="wetCombatPack_class2/name" xml:space="preserve">
+    <value>"Wet" Ammo Rack Class 2</value>
+  </data>
+</root>

@@ -255,6 +255,9 @@
     <Compile Include="Tabs\Charts\ReplaysStatTab.xaml.cs">
       <DependentUpon>ReplaysStatTab.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Tabs\Replay\RawData.xaml.cs">
+      <DependentUpon>RawData.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UI\MedalSearchItemTemplateSelector.cs" />
     <Compile Include="MinimizeToTray.cs" />
     <Compile Include="NativeMethods.cs" />
@@ -732,6 +735,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Tabs\Medals7x7Tab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Tabs\Replay\RawData.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

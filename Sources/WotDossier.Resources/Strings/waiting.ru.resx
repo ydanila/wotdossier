@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Flash" xml:space="preserve">
+    <value>Обновление...</value>
+  </data>
+  <data name="__updateCaptureDevices" xml:space="preserve">
+    <value>Обновление устройств ввода...</value>
+  </data>
+  <data name="applyModule" xml:space="preserve">
+    <value>Производится операция...</value>
+  </data>
+  <data name="browser/init" xml:space="preserve">
+    <value>Загрузка содержимого...</value>
+  </data>
+  <data name="buttons/autoSearch" xml:space="preserve">
+    <value>Автопоиск</value>
+  </data>
+  <data name="buttons/cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="buttons/cease" xml:space="preserve">
+    <value>Прекратить</value>
+  </data>
+  <data name="buttons/exit" xml:space="preserve">
+    <value>Не ожидать</value>
+  </data>
+  <data name="buttons/exitQueue" xml:space="preserve">
+    <value>Покинуть очередь</value>
+  </data>
+  <data name="buyAndInstall" xml:space="preserve">
+    <value>Покупка и установка...</value>
+  </data>
+  <data name="buyBerths" xml:space="preserve">
+    <value>Покупка коек...</value>
+  </data>
+  <data name="buyItem" xml:space="preserve">
+    <value>Покупка...</value>
+  </data>
+  <data name="buySlot" xml:space="preserve">
+    <value>Покупка слота...</value>
+  </data>
+  <data name="changingRole" xml:space="preserve">
+    <value>Смена специализации...</value>
+  </data>
+  <data name="clans/invites/send" xml:space="preserve">
+    <value>Отправка приглашения...</value>
+  </data>
+  <data name="crewRetraining" xml:space="preserve">
+    <value>Переобучение экипажа...</value>
+  </data>
+  <data name="crewReturning" xml:space="preserve">
+    <value>Возврат экипажа...</value>
+  </data>
+  <data name="customizationApply" xml:space="preserve">
+    <value>Кастомизация...</value>
+  </data>
+  <data name="customizationDrop" xml:space="preserve">
+    <value>Удаление...</value>
+  </data>
+  <data name="deleting" xml:space="preserve">
+    <value>Удаление...</value>
+  </data>
+  <data name="disconnect" xml:space="preserve">
+    <value>Отключение...</value>
+  </data>
+  <data name="download/discounts" xml:space="preserve">
+    <value>Синхронизация скидок...</value>
+  </data>
+  <data name="download/dossier" xml:space="preserve">
+    <value>Синхронизация личного дела...</value>
+  </data>
+  <data name="download/inventory" xml:space="preserve">
+    <value>Синхронизация оборудования и снаряжения...</value>
+  </data>
+  <data name="download/ranked" xml:space="preserve">
+    <value>Синхронизация данных игрока...</value>
+  </data>
+  <data name="download/recycleBin" xml:space="preserve">
+    <value>Синхронизация техники в Ангаре...</value>
+  </data>
+  <data name="download/shop" xml:space="preserve">
+    <value>Синхронизация Магазина...</value>
+  </data>
+  <data name="draw_research_items" xml:space="preserve">
+    <value>Загружается...</value>
+  </data>
+  <data name="enter" xml:space="preserve">
+    <value>Вход в игру...</value>
+  </data>
+  <data name="equipping" xml:space="preserve">
+    <value>Посадка...</value>
+  </data>
+  <data name="exchangeVehiclesXP" xml:space="preserve">
+    <value>Перевод опыта</value>
+  </data>
+  <data name="exit_battle" xml:space="preserve">
+    <value>Выход в Ангар...</value>
+  </data>
+  <data name="fort/activateConsumable" xml:space="preserve">
+    <value>Операция с резервом...</value>
+  </data>
+  <data name="fort/attack" xml:space="preserve">
+    <value>Подтверждение атаки...</value>
+  </data>
+  <data name="fort/building/add" xml:space="preserve">
+    <value>Создание...</value>
+  </data>
+  <data name="fort/building/attach" xml:space="preserve">
+    <value>Присоединение...</value>
+  </data>
+  <data name="fort/building/delete" xml:space="preserve">
+    <value>Удаление...</value>
+  </data>
+  <data name="fort/building/upgrade" xml:space="preserve">
+    <value>Обновление...</value>
+  </data>
+  <data name="fort/card/get" xml:space="preserve">
+    <value>Сбор информации...</value>
+  </data>
+  <data name="fort/create" xml:space="preserve">
+    <value>Создание...</value>
+  </data>
+  <data name="fort/delete" xml:space="preserve">
+    <value>Удаление...</value>
+  </data>
+  <data name="fort/direction/close" xml:space="preserve">
+    <value>Удаление...</value>
+  </data>
+  <data name="fort/direction/open" xml:space="preserve">
+    <value>Создание...</value>
+  </data>
+  <data name="fort/favorite/add" xml:space="preserve">
+    <value>Добавление в список...</value>
+  </data>
+  <data name="fort/favorite/remove" xml:space="preserve">
+    <value>Удаление из списка...</value>
+  </data>
+  <data name="fort/fortBattle/createOrJoin" xml:space="preserve">
+    <value>Подтверждение участия...</value>
+  </data>
+  <data name="fort/order/activate" xml:space="preserve">
+    <value>Применение...</value>
+  </data>
+  <data name="fort/order/add" xml:space="preserve">
+    <value>Создание...</value>
+  </data>
+  <data name="fort/returnConsumable" xml:space="preserve">
+    <value>Операция с резервом...</value>
+  </data>
+  <data name="fort/serverConnection" xml:space="preserve">
+    <value>Соединение с сервером...</value>
+  </data>
+  <data name="fort/settings" xml:space="preserve">
+    <value>Применение...</value>
+  </data>
+  <data name="fort/sortie/create" xml:space="preserve">
+    <value>Создание...</value>
+  </data>
+  <data name="fort/sortie/get" xml:space="preserve">
+    <value>Сбор информации...</value>
+  </data>
+  <data name="fort/subscribe" xml:space="preserve">
+    <value>Подключение...</value>
+  </data>
+  <data name="fort/transport" xml:space="preserve">
+    <value>Транспортировка...</value>
+  </data>
+  <data name="fort/unsubscribe" xml:space="preserve">
+    <value>Отключение...</value>
+  </data>
+  <data name="hof/loading" xml:space="preserve">
+    <value>Загрузка...</value>
+  </data>
+  <data name="in_battle" xml:space="preserve">
+    <value>Поиск комнаты...</value>
+  </data>
+  <data name="installEquipment" xml:space="preserve">
+    <value>Установка оборудования...</value>
+  </data>
+  <data name="loadContent" xml:space="preserve">
+    <value>Загрузка содержимого...</value>
+  </data>
+  <data name="loadHangarSpace" xml:space="preserve">
+    <value>Обновление Ангара...</value>
+  </data>
+  <data name="loadHangarSpaceVehicle" xml:space="preserve">
+    <value>Обновление Ангара...</value>
+  </data>
+  <data name="loadPage" xml:space="preserve">
+    <value>Загрузка интерфейса...</value>
+  </data>
+  <data name="loadStats" xml:space="preserve">
+    <value>Сбор информации...</value>
+  </data>
+  <data name="loadingData" xml:space="preserve">
+    <value>Получение данных...</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Подключение...</value>
+  </data>
+  <data name="message/another_periphery" xml:space="preserve">
+    <value>&lt;font color='#ff0000'&gt;Ошибка сервера «%s», не закончена сессия на другом сервере.&lt;/font&gt;
+
+Ожидайте, пока клиент автоматически войдёт в игру.</value>
+  </data>
+  <data name="message/autoLogin" xml:space="preserve">
+    <value>&lt;font color='#ff0000'&gt;Извините, сервер «%s» перегружен.&lt;/font&gt;
+
+Вы в очереди на вход в игру.
+
+Ожидайте, пока клиент автоматически войдёт в игру.</value>
+  </data>
+  <data name="message/auto_login_activating" xml:space="preserve">
+    <value>&lt;font color='#ff0000'&gt;Ваш аккаунт регистрируется.&lt;/font&gt;
+
+Ожидайте, пока клиент автоматически войдёт в игру.</value>
+  </data>
+  <data name="message/auto_login_query_failed" xml:space="preserve">
+    <value>&lt;font color='#ff0000'&gt;Сервер "%(server)s" недоступен.
+%(reason)s&lt;/font&gt;
+
+Ожидайте, пока клиент автоматически войдёт в игру.</value>
+  </data>
+  <data name="message/checkout_error" xml:space="preserve">
+    <value>&lt;font color='#ff0000'&gt;Ошибка сервера «%s» при получении информации об игроке.&lt;/font&gt;
+
+Ожидайте, пока клиент автоматически войдёт в игру.</value>
+  </data>
+  <data name="message/queue" xml:space="preserve">
+    <value>&lt;font color='#ff0000'&gt;Извините, сервер «%s» перегружен.&lt;/font&gt;
+
+Ваш номер в очереди: %s.
+
+Ожидайте, пока клиент автоматически войдёт в игру.</value>
+  </data>
+  <data name="message/useAutoSearch" xml:space="preserve">
+    <value>&lt;font color='#ff0000'&gt;Извините, сервер «%s» перегружен.&lt;/font&gt;
+
+Ваш номер в очереди: %s.
+
+Ожидайте входа на "%s" или воспользуйтесь автопоиском (подбор сервера с комфортными условиями игры).</value>
+  </data>
+  <data name="messenger/subscribe" xml:space="preserve">
+    <value>Подключение...</value>
+  </data>
+  <data name="prebattle/assign" xml:space="preserve">
+    <value>Перемещение...</value>
+  </data>
+  <data name="prebattle/auto_search" xml:space="preserve">
+    <value>Идёт поиск...</value>
+  </data>
+  <data name="prebattle/battle_queue" xml:space="preserve">
+    <value>Идёт поиск...</value>
+  </data>
+  <data name="prebattle/changeDivision" xml:space="preserve">
+    <value>Смена дивизиона...</value>
+  </data>
+  <data name="prebattle/change_arena_voip" xml:space="preserve">
+    <value>Изменение VOIP...</value>
+  </data>
+  <data name="prebattle/change_settings" xml:space="preserve">
+    <value>Изменение настроек...</value>
+  </data>
+  <data name="prebattle/change_user_status" xml:space="preserve">
+    <value>Изменение вашей роли в тренировке...</value>
+  </data>
+  <data name="prebattle/create" xml:space="preserve">
+    <value>Создание...</value>
+  </data>
+  <data name="prebattle/giveLeadership" xml:space="preserve">
+    <value>Передача командования...</value>
+  </data>
+  <data name="prebattle/join" xml:space="preserve">
+    <value>Присоединение...</value>
+  </data>
+  <data name="prebattle/kick" xml:space="preserve">
+    <value>Отсоединение...</value>
+  </data>
+  <data name="prebattle/leave" xml:space="preserve">
+    <value>Выход...</value>
+  </data>
+  <data name="prebattle/player_not_ready" xml:space="preserve">
+    <value>Не готов...</value>
+  </data>
+  <data name="prebattle/player_ready" xml:space="preserve">
+    <value>Подтверждение готовности...</value>
+  </data>
+  <data name="prebattle/swap" xml:space="preserve">
+    <value>Смена команд...</value>
+  </data>
+  <data name="prebattle/takeLeadership" xml:space="preserve">
+    <value>Передача командования...</value>
+  </data>
+  <data name="prebattle/team_not_ready" xml:space="preserve">
+    <value>Команда не готова...</value>
+  </data>
+  <data name="prebattle/team_ready" xml:space="preserve">
+    <value>Команда готова...</value>
+  </data>
+  <data name="recruting" xml:space="preserve">
+    <value>Рекрутирование...</value>
+  </data>
+  <data name="replacePassport" xml:space="preserve">
+    <value>Смена документов...</value>
+  </data>
+  <data name="requestCaptureDevices" xml:space="preserve">
+    <value>Получение информации об устройствах...</value>
+  </data>
+  <data name="research" xml:space="preserve">
+    <value>Исследование...</value>
+  </data>
+  <data name="retraining" xml:space="preserve">
+    <value>Переобучение...</value>
+  </data>
+  <data name="sellItem" xml:space="preserve">
+    <value>Продажа...</value>
+  </data>
+  <data name="sellVehicle" xml:space="preserve">
+    <value>Продажа техники...</value>
+  </data>
+  <data name="sinhronize" xml:space="preserve">
+    <value>Синхронизация...</value>
+  </data>
+  <data name="start_battle" xml:space="preserve">
+    <value>Начало боя...</value>
+  </data>
+  <data name="stats" xml:space="preserve">
+    <value>Сбор информации...</value>
+  </data>
+  <data name="studying" xml:space="preserve">
+    <value>Изучение...</value>
+  </data>
+  <data name="techMaintenance" xml:space="preserve">
+    <value>Обновление обслуживания...</value>
+  </data>
+  <data name="techMaintenanceEquipments" xml:space="preserve">
+    <value>Обновление снаряжения...</value>
+  </data>
+  <data name="titles/another_periphery" xml:space="preserve">
+    <value>Не закончена сессия на другом сервере.</value>
+  </data>
+  <data name="titles/auto_login_query_failed" xml:space="preserve">
+    <value>Автоматический выбор сервера…</value>
+  </data>
+  <data name="titles/checkout_error" xml:space="preserve">
+    <value>Ошибка идентификации</value>
+  </data>
+  <data name="titles/queue" xml:space="preserve">
+    <value>Очередь на вход в игру</value>
+  </data>
+  <data name="titles/registering" xml:space="preserve">
+    <value>Создание аккаунта...</value>
+  </data>
+  <data name="trainingCreate" xml:space="preserve">
+    <value>Создание комнаты...</value>
+  </data>
+  <data name="trainingDestroy" xml:space="preserve">
+    <value>Удаление комнаты...</value>
+  </data>
+  <data name="trainingJoin" xml:space="preserve">
+    <value>Вход в комнату...</value>
+  </data>
+  <data name="trainingLeave" xml:space="preserve">
+    <value>Выход...</value>
+  </data>
+  <data name="trainingStart" xml:space="preserve">
+    <value>Начало тренировки...</value>
+  </data>
+  <data name="trainingUpdate" xml:space="preserve">
+    <value>Изменение комнаты...</value>
+  </data>
+  <data name="transferMoney" xml:space="preserve">
+    <value>Перевод золота</value>
+  </data>
+  <data name="tutorial-chapter-loading" xml:space="preserve">
+    <value>Загрузка обучения...</value>
+  </data>
+  <data name="tutorial-queue" xml:space="preserve">
+    <value>Загрузка обучения...</value>
+  </data>
+  <data name="tutorial-request-battle-count" xml:space="preserve">
+    <value>Сбор информации...</value>
+  </data>
+  <data name="tutorial-request-bonus" xml:space="preserve">
+    <value>Получение бонуса...</value>
+  </data>
+  <data name="tutorial-request-credits" xml:space="preserve">
+    <value>Сбор информации...</value>
+  </data>
+  <data name="tutorial-request-elite-vehicles" xml:space="preserve">
+    <value>Получение списка элитной техники...</value>
+  </data>
+  <data name="tutorial-request-inventory-items" xml:space="preserve">
+    <value>Сбор информации со Склада...</value>
+  </data>
+  <data name="tutorial-request-item-params" xml:space="preserve">
+    <value>Сбор информации по модулю...</value>
+  </data>
+  <data name="tutorial-request-shop" xml:space="preserve">
+    <value>Сбор информации из Магазина...</value>
+  </data>
+  <data name="tutorial-request-slots" xml:space="preserve">
+    <value>Сбор информации по слотам...</value>
+  </data>
+  <data name="tutorial-request-tankman" xml:space="preserve">
+    <value>Сбор информации по экипажам...</value>
+  </data>
+  <data name="tutorial-request-tankman-info" xml:space="preserve">
+    <value>Сбор информации по члену экипажа...</value>
+  </data>
+  <data name="tutorial-request-unlocks" xml:space="preserve">
+    <value>Получение списка исследованных модулей...</value>
+  </data>
+  <data name="tutorial-request-vehicle-equipments" xml:space="preserve">
+    <value>Сбор информации со Склада...</value>
+  </data>
+  <data name="tutorial-request-vehicle-settings" xml:space="preserve">
+    <value>Получение настроек машины...</value>
+  </data>
+  <data name="tutorial-request-xp" xml:space="preserve">
+    <value>Сбор информации...</value>
+  </data>
+  <data name="tutorial-start-training" xml:space="preserve">
+    <value>Начало обучения...</value>
+  </data>
+  <data name="tutorial-update-scene" xml:space="preserve">
+    <value>Обновление интерфейса...</value>
+  </data>
+  <data name="unloading" xml:space="preserve">
+    <value>Высадка...</value>
+  </data>
+  <data name="updateAmmo" xml:space="preserve">
+    <value>Обновление амуниции...</value>
+  </data>
+  <data name="updateCurrentVehicle" xml:space="preserve">
+    <value>Обновление техники...</value>
+  </data>
+  <data name="updateFitting" xml:space="preserve">
+    <value>Обновление модулей...</value>
+  </data>
+  <data name="updateInventory" xml:space="preserve">
+    <value>Обновление Склада...</value>
+  </data>
+  <data name="updateMyVehicles" xml:space="preserve">
+    <value>Обновление техники...</value>
+  </data>
+  <data name="updateShop" xml:space="preserve">
+    <value>Обновление Магазина...</value>
+  </data>
+  <data name="updateTankmen" xml:space="preserve">
+    <value>Обновление экипажа...</value>
+  </data>
+  <data name="updateVehicle" xml:space="preserve">
+    <value>Обновление техники...</value>
+  </data>
+  <data name="updating" xml:space="preserve">
+    <value>Обновление...</value>
+  </data>
+  <data name="updatingSkillWindow" xml:space="preserve">
+    <value>Обновление данных...</value>
+  </data>
+  <data name="voiceChat" xml:space="preserve">
+    <value>Инициализация голосовой связи</value>
+  </data>
+</root>

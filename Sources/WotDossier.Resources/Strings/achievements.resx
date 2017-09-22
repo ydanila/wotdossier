@@ -1,0 +1,2287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EFC2016" xml:space="preserve">
+    <value>Football Player 2016</value>
+  </data>
+  <data name="EFC2016Goleador" xml:space="preserve">
+    <value>Hat Trick</value>
+  </data>
+  <data name="EFC2016Goleador_condition" xml:space="preserve">
+    <value>• Was awarded during the special football event.
+• Was unavailable in the football tournament.</value>
+  </data>
+  <data name="EFC2016Goleador_descr" xml:space="preserve">
+    <value>Score at least 3 goals in one match.</value>
+  </data>
+  <data name="EFC2016_condition" xml:space="preserve">
+    <value>• Only the longest series of victories in a row was counted.
+• A series was broken by a defeat.
+• Was awarded to all members of a victorious team during the special football event.
+• Was unavailable in the football tournament.</value>
+  </data>
+  <data name="EFC2016_descr" xml:space="preserve">
+    <value>Win a football match in the T-62A SPORT.</value>
+  </data>
+  <data name="WFC2014" xml:space="preserve">
+    <value>Football Player 2014</value>
+  </data>
+  <data name="WFC2014_condition" xml:space="preserve">
+    <value>• Only the maximum series of victories in a row was counted.
+• A series was broken by a defeat.
+• Awarded to all members of a victorious team during the special football event.</value>
+  </data>
+  <data name="WFC2014_descr" xml:space="preserve">
+    <value>Win a battle with the T-62A SPORT.</value>
+  </data>
+  <data name="achievement/master1" xml:space="preserve">
+    <value>III Class</value>
+  </data>
+  <data name="achievement/master2" xml:space="preserve">
+    <value>II Class</value>
+  </data>
+  <data name="achievement/master3" xml:space="preserve">
+    <value>I Class</value>
+  </data>
+  <data name="achievement/master4" xml:space="preserve">
+    <value>Ace Tanker</value>
+  </data>
+  <data name="achievement/maxMedalValue" xml:space="preserve">
+    <value>&gt;%s</value>
+  </data>
+  <data name="achievement/rank" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="achievement/rank1" xml:space="preserve">
+    <value> I Class</value>
+  </data>
+  <data name="achievement/rank2" xml:space="preserve">
+    <value> II Class</value>
+  </data>
+  <data name="achievement/rank3" xml:space="preserve">
+    <value> III Class</value>
+  </data>
+  <data name="achievement/rank4" xml:space="preserve">
+    <value> IV Class</value>
+  </data>
+  <data name="aimer" xml:space="preserve">
+    <value>Spotter</value>
+  </data>
+  <data name="aimer_condition" xml:space="preserve">
+    <value>• Win the battle.
+• The series is extended for every 1,000 HP of damage caused by allies to enemy vehicles spotted by you in one battle.
+• Every vehicle has its own series.
+• Only the longest series is counted.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="aimer_descr" xml:space="preserve">
+    <value>Spot enemy vehicles, enabling your allies to cause 1,000 HP of damage in one battle.</value>
+  </data>
+  <data name="aloneInTheField" xml:space="preserve">
+    <value>I Stand Alone!</value>
+  </data>
+  <data name="aloneInTheField_condition" xml:space="preserve">
+    <value>• Only awarded to solo players.
+• Was awarded for causing at least 10,000 HP of damage to enemy vehicles.
+• Damage caused with Combat Reserves was also counted.
+• Could only be obtained in a battle of Steel Hunt in the Rampage mode.</value>
+  </data>
+  <data name="aloneInTheField_descr" xml:space="preserve">
+    <value>Cause more damage to enemy vehicles than any other player in the battle.</value>
+  </data>
+  <data name="armorPiercer" xml:space="preserve">
+    <value>Master Gunner</value>
+  </data>
+  <data name="armorPiercer_condition" xml:space="preserve">
+    <value>• A series is broken by a miss, non-penetration, or ricochet. The series can continue in the next battle using the same vehicle.
+• Every vehicle has its own series. Only the longest series is counted.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="armorPiercer_descr" xml:space="preserve">
+    <value>Score at least 5 armor-penetrating hits in a row against enemy vehicles.</value>
+  </data>
+  <data name="armoredFist" xml:space="preserve">
+    <value>Armored Fist</value>
+  </data>
+  <data name="armoredFist_condition" xml:space="preserve">
+    <value>• Win the battle.
+• Awarded to all team members.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="armoredFist_descr" xml:space="preserve">
+    <value>Destroy all enemy vehicles while losing only one friendly vehicle.</value>
+  </data>
+  <data name="arsonist" xml:space="preserve">
+    <value>Arsonist</value>
+  </data>
+  <data name="arsonist_condition" xml:space="preserve">
+    <value>• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="arsonist_descr" xml:space="preserve">
+    <value>Destroy at least one enemy vehicle by setting it on fire.</value>
+  </data>
+  <data name="bannerman" xml:space="preserve">
+    <value>Streak of Color</value>
+  </data>
+  <data name="bannerman_condition" xml:space="preserve">
+    <value>• Only awarded to members of a Platoon.
+• Personal contribution was counted.
+• Could only be obtained in a battle of Steel Hunt in the Rampage mode.</value>
+  </data>
+  <data name="bannerman_descr" xml:space="preserve">
+    <value>Deliver at least 4 flags.</value>
+  </data>
+  <data name="battleCitizen" xml:space="preserve">
+    <value>Operation Nostalgia</value>
+  </data>
+  <data name="battleCitizen_condition" xml:space="preserve">
+    <value>• Awarded to all members of the victorious team.
+• The player must not have destroyed any allies.
+• Could be obtained in Random Battles only.
+• Awarded only once for all the battles fought in April, 2014.</value>
+  </data>
+  <data name="battleCitizen_descr" xml:space="preserve">
+    <value>Win a battle with the Karl mortar.</value>
+  </data>
+  <data name="battleTested" xml:space="preserve">
+    <value>Battle Tested %(rank)s</value>
+  </data>
+  <data name="battleTested_condition" xml:space="preserve">
+    <value>• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="battleTested_descr" xml:space="preserve">
+    <value>For the number of awards received in Team Battles.</value>
+  </data>
+  <data name="beasthunter" xml:space="preserve">
+    <value>Hunter</value>
+  </data>
+  <data name="beasthunter_condition" xml:space="preserve">
+    <value>• Pz.Kpfw.&amp;nbsp;V&amp;nbsp;Panther, Panther&amp;nbsp;II, Panther-M10, Panther&amp;nbsp;mit&amp;nbsp;8,8&amp;nbsp;cm&amp;nbsp;L/71, Jagdpanther, Jagdpanther&amp;nbsp;II, GW&amp;nbsp;Panther
+
+• Pz.Kpfw.&amp;nbsp;VI&amp;nbsp;Tiger,Pz.Kpfw.&amp;nbsp;VI&amp;nbsp;Tiger&amp;nbsp;(P), Pz.Kpfw.&amp;nbsp;VI&amp;nbsp;Ausf.&amp;nbsp;B&amp;nbsp;Tiger&amp;nbsp;II, Jagdtiger, 8.8&amp;nbsp;cm&amp;nbsp;Pak43&amp;nbsp;JagdTiger, GW&amp;nbsp;Tiger, GW&amp;nbsp;Tiger&amp;nbsp;(P), Tiger 131
+
+• Löwe
+
+• Leopard&amp;nbsp;prototyp&amp;nbsp;A, Leopard&amp;nbsp;1
+
+• Total results in all vehicles are included.
+• Newly received awards are added together.
+• Vehicles destroyed in Random Battles, Team Battles, Advances, Ranked Battles, Tank Company and in battles on the Global Map are counted.</value>
+  </data>
+  <data name="beasthunter_descr" xml:space="preserve">
+    <value>Destroy 100 vehicles of the "feline family," including:</value>
+  </data>
+  <data name="bombardier" xml:space="preserve">
+    <value>Bombardier</value>
+  </data>
+  <data name="bombardier_condition" xml:space="preserve">
+    <value>• Series achieved in all vehicles are added together.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="bombardier_descr" xml:space="preserve">
+    <value>Destroy at least 2 enemy vehicles with one shell.</value>
+  </data>
+  <data name="bonecrusher" xml:space="preserve">
+    <value>Bruiser</value>
+  </data>
+  <data name="bonecrusher_condition" xml:space="preserve">
+    <value>• Modules damaged by fire are counted.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="bonecrusher_descr" xml:space="preserve">
+    <value>Damage enemy vehicles' modules or injure crew members at least five times in a battle.</value>
+  </data>
+  <data name="bruteForceMedal" xml:space="preserve">
+    <value>Brute Force</value>
+  </data>
+  <data name="bruteForceMedal_condition" xml:space="preserve">
+    <value>• Newly received awards are added together.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="bruteForceMedal_descr" xml:space="preserve">
+    <value>Destroy 10 enemy vehicles by ramming.</value>
+  </data>
+  <data name="champion" xml:space="preserve">
+    <value>Rambo</value>
+  </data>
+  <data name="champion_condition" xml:space="preserve">
+    <value>• Only awarded to solo players.
+• Destroy at least 3 flags.
+• Destroy at least 5 enemy vehicles.
+• Vehicles destroyed by Combat Reserves were also counted.
+• Could only be obtained in a battle of Steel Hunt in the Rampage mode.</value>
+  </data>
+  <data name="champion_descr" xml:space="preserve">
+    <value>Cause at least 10,000 HP of damage to enemy vehicles.</value>
+  </data>
+  <data name="charmed" xml:space="preserve">
+    <value>Hand of God</value>
+  </data>
+  <data name="charmed_condition" xml:space="preserve">
+    <value>• Only hits that caused damage are included.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="charmed_descr" xml:space="preserve">
+    <value>Survive and win the battle, having received damage from at least four different enemy vehicles.</value>
+  </data>
+  <data name="conqueror" xml:space="preserve">
+    <value>Capturer %(rank)s</value>
+  </data>
+  <data name="conqueror_condition" xml:space="preserve">
+    <value>• Only a player's personal contribution is counted.
+• Awarded before the release of version 9.17.1.</value>
+  </data>
+  <data name="conqueror_descr" xml:space="preserve">
+    <value>For the total amount of Industrial Resource earned in Skirmishes.</value>
+  </data>
+  <data name="counterblow" xml:space="preserve">
+    <value>Retaliation</value>
+  </data>
+  <data name="counterblow_condition" xml:space="preserve">
+    <value>• The level of the attacking team's Command Center must not be lower than the level of the defending team's Command Center.
+• Personal achievement.
+• Awarded before the release of version 9.17.1.</value>
+  </data>
+  <data name="counterblow_descr" xml:space="preserve">
+    <value>Capture the enemy Command Center while defending your Stronghold.</value>
+  </data>
+  <data name="crucialShotMedal" xml:space="preserve">
+    <value>Crucial Shot</value>
+  </data>
+  <data name="crucialShotMedal_condition" xml:space="preserve">
+    <value>• Win the battle.
+• Newly received awards are added together.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="crucialShotMedal_descr" xml:space="preserve">
+    <value>In 20 battles, destroy the last enemy vehicle.</value>
+  </data>
+  <data name="crusher" xml:space="preserve">
+    <value>Fortress Crusher</value>
+  </data>
+  <data name="crusher_condition" xml:space="preserve">
+    <value>• The level of the defending team's Command Center must not be lower than the level of the attacking team's Command Center.
+• Personal achievement.
+• Awarded before the release of version 9.17.1.</value>
+  </data>
+  <data name="crusher_descr" xml:space="preserve">
+    <value>Capture the enemy Command Center while attacking their Stronghold.</value>
+  </data>
+  <data name="deathTrack" xml:space="preserve">
+    <value>Racer 2014</value>
+  </data>
+  <data name="deathTrack_condition" xml:space="preserve">
+    <value>• Only the maximum series of victories in a row was counted.
+• A series was broken by a defeat.
+• Awarded to all members of a victorious team during the special race event.</value>
+  </data>
+  <data name="deathTrack_descr" xml:space="preserve">
+    <value>Win a race with the Chaffee SPORT.</value>
+  </data>
+  <data name="defender" xml:space="preserve">
+    <value>Defender</value>
+  </data>
+  <data name="defender_condition" xml:space="preserve">
+    <value>• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="defender_descr" xml:space="preserve">
+    <value>Reduce the number of enemy capture points of a friendly base by 70 or more.</value>
+  </data>
+  <data name="demolition" xml:space="preserve">
+    <value>Demolition Expert</value>
+  </data>
+  <data name="demolition_condition" xml:space="preserve">
+    <value>• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="demolition_descr" xml:space="preserve">
+    <value>Destroy at least one enemy vehicle by causing its ammunition to explode.</value>
+  </data>
+  <data name="diehard" xml:space="preserve">
+    <value>Survivor</value>
+  </data>
+  <data name="diehard_condition" xml:space="preserve">
+    <value>• An unbroken series continues in the next battle using the same vehicle.
+• Every vehicle has its own series. Only the longest series is counted.
+• Battles fought in SPGs do not count.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="diehard_descr" xml:space="preserve">
+    <value>Survive 20 battles in a row using the same vehicle.</value>
+  </data>
+  <data name="duelist" xml:space="preserve">
+    <value>Duelist</value>
+  </data>
+  <data name="duelist_condition" xml:space="preserve">
+    <value>• Damage to modules is included.
+• Ricochets and non-penetrating hits are not included.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="duelist_descr" xml:space="preserve">
+    <value>Destroy at least two enemy vehicles that caused damage to your vehicle in the battle.</value>
+  </data>
+  <data name="effectiveSupport" xml:space="preserve">
+    <value>Superior Support</value>
+  </data>
+  <data name="effectiveSupport_condition" xml:space="preserve">
+    <value>• Was awarded for causing at least 2,000 HP of damage to enemy vehicles.
+• Could only be obtained in the Rampage mode.</value>
+  </data>
+  <data name="effectiveSupport_descr" xml:space="preserve">
+    <value>Cause more damage to enemy vehicles with Combat Reserves than any other player in the battle.</value>
+  </data>
+  <data name="even" xml:space="preserve">
+    <value>Eye for an Eye!</value>
+  </data>
+  <data name="even_condition" xml:space="preserve">
+    <value>• Enemy vehicles destroyed by setting them on fire or by ramming are counted.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="even_descr" xml:space="preserve">
+    <value>Simultaneously destroy, and be destroyed, by the same enemy.</value>
+  </data>
+  <data name="evileye" xml:space="preserve">
+    <value>Patrol Duty</value>
+  </data>
+  <data name="evileye_condition" xml:space="preserve">
+    <value>• The player must be the only one spotting the enemy vehicles at the moment when they are damaged.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="evileye_descr" xml:space="preserve">
+    <value>Help your team damage at least 6 enemy vehicles by spotting them.</value>
+  </data>
+  <data name="fallenFlags" xml:space="preserve">
+    <value>Fallen Flags</value>
+  </data>
+  <data name="fallenFlags_condition" xml:space="preserve">
+    <value>• Only awarded to solo players.
+• Destroy at least 4 flags.
+• Could only be obtained in a battle of Steel Hunt in the Rampage mode.</value>
+  </data>
+  <data name="fallenFlags_descr" xml:space="preserve">
+    <value>Destroy more flags than Platoons deliver in a battle.</value>
+  </data>
+  <data name="fallout" xml:space="preserve">
+    <value>Domination Hero</value>
+  </data>
+  <data name="fallout2" xml:space="preserve">
+    <value>Glorious Victory</value>
+  </data>
+  <data name="fallout2_condition" xml:space="preserve">
+    <value>• Was awarded to all members of a victorious team during the special event.
+• Only one award for all battles fought could be received.</value>
+  </data>
+  <data name="fallout2_descr" xml:space="preserve">
+    <value>Win a battle of Domination: Supply Swarm.</value>
+  </data>
+  <data name="falloutAlwaysInLine" xml:space="preserve">
+    <value>Battle-Hardened</value>
+  </data>
+  <data name="falloutAlwaysInLine_condition" xml:space="preserve">
+    <value>• Was awarded to all players who won at least one battle during the Rampage special event.
+• The award could only be received once during the event.</value>
+  </data>
+  <data name="falloutAlwaysInLine_descr" xml:space="preserve">
+    <value>Win a battle during the Rampage special event.</value>
+  </data>
+  <data name="falloutDieHard" xml:space="preserve">
+    <value>Unbreakable</value>
+  </data>
+  <data name="falloutDieHard_condition" xml:space="preserve">
+    <value>• Was awarded for causing at least 10,000 HP of damage to enemy vehicles.
+• Was awarded for destroying at least 5 enemy vehicles.
+• Damage to and destruction of enemy vehicles by Combat Reserves was also counted.
+• Could only be obtained in a battle of Domination in the Rampage mode.</value>
+  </data>
+  <data name="falloutDieHard_descr" xml:space="preserve">
+    <value>Do not lose any of your own vehicles in the battle.</value>
+  </data>
+  <data name="falloutPackOfWolfs" xml:space="preserve">
+    <value>Pack Mentality</value>
+  </data>
+  <data name="falloutPackOfWolfs_condition" xml:space="preserve">
+    <value>• Was awarded to victorious players who were playing as part of a Platoon in a battle during the special event.
+• Only one award for all battles fought could be received.</value>
+  </data>
+  <data name="falloutPackOfWolfs_descr" xml:space="preserve">
+    <value>Win a battle of Steel Hunt.</value>
+  </data>
+  <data name="falloutSingleWolf" xml:space="preserve">
+    <value>Lone Wolf</value>
+  </data>
+  <data name="falloutSingleWolf_condition" xml:space="preserve">
+    <value>• Was awarded to victorious solo players during the special event.
+• Only one award for all battles fought could be received.</value>
+  </data>
+  <data name="falloutSingleWolf_descr" xml:space="preserve">
+    <value>Win a battle of Steel Hunt.</value>
+  </data>
+  <data name="falloutSteelHunter" xml:space="preserve">
+    <value>Steel Hunter</value>
+  </data>
+  <data name="falloutSteelHunter_condition" xml:space="preserve">
+    <value>• Was awarded to all players who finished a battle of Steel Hunt during the special event.
+• Only one award for all battles fought could be received.</value>
+  </data>
+  <data name="falloutSteelHunter_descr" xml:space="preserve">
+    <value>Fight a battle of Steel Hunt.</value>
+  </data>
+  <data name="fallout_condition" xml:space="preserve">
+    <value>• Was awarded to all members of a victorious team during the special event.
+• Only one award for all battles fought could be received.</value>
+  </data>
+  <data name="fallout_descr" xml:space="preserve">
+    <value>Win a battle in Domination.</value>
+  </data>
+  <data name="fighter" xml:space="preserve">
+    <value>Fighter</value>
+  </data>
+  <data name="fighter_condition" xml:space="preserve">
+    <value>• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="fighter_descr" xml:space="preserve">
+    <value>Destroy four or five enemy vehicles in one battle.</value>
+  </data>
+  <data name="fightingReconnaissanceMedal" xml:space="preserve">
+    <value>Fighting Reconnaissance</value>
+  </data>
+  <data name="fightingReconnaissanceMedal_condition" xml:space="preserve">
+    <value>• Win the battle.
+• Spot at least 2 enemy vehicles.
+• Be among the top three damage dealers.
+• Newly received awards are added together.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="fightingReconnaissanceMedal_descr" xml:space="preserve">
+    <value>In 50 battles, fulfill the following conditions:</value>
+  </data>
+  <data name="fireAndSteelMedal" xml:space="preserve">
+    <value>Fire and Steel</value>
+  </data>
+  <data name="fireAndSteelMedal_condition" xml:space="preserve">
+    <value>• Survive a battle.
+• Newly received awards are added together.
+• Only victorious battles are counted.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="fireAndSteelMedal_descr" xml:space="preserve">
+    <value>Receive maximum total amount of damage taken and damage blocked by armor 25 times.</value>
+  </data>
+  <data name="fireAndSword" xml:space="preserve">
+    <value>For Decisive Battles %(rank)s</value>
+  </data>
+  <data name="fireAndSword_condition" xml:space="preserve">
+    <value>• Industrial Resource lost as a result of defeat does not reduce the score.
+• Personal achievement.
+• Awarded before the release of version 9.17.1.</value>
+  </data>
+  <data name="fireAndSword_descr" xml:space="preserve">
+    <value>For the total amount of Industrial Resource earned in all Battles for Stronghold.</value>
+  </data>
+  <data name="firstMerit" xml:space="preserve">
+    <value>First Merit</value>
+  </data>
+  <data name="firstMerit_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="firstMerit_descr" xml:space="preserve">
+    <value>Complete the first personal mission in any set of an operation.</value>
+  </data>
+  <data name="firstMerit_notification" xml:space="preserve">
+    <value>For successful completion of a personal mission you receive the award: First Merit medal.</value>
+  </data>
+  <data name="forTacticalOperations" xml:space="preserve">
+    <value>For Tactical Operations %(rank)s</value>
+  </data>
+  <data name="forTacticalOperations_condition" xml:space="preserve">
+    <value>• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="forTacticalOperations_descr" xml:space="preserve">
+    <value>Awarded to the player for a certain number of victories on randomly selected teams.</value>
+  </data>
+  <data name="geniusForWarMedal" xml:space="preserve">
+    <value>War Genius</value>
+  </data>
+  <data name="geniusForWarMedal_condition" xml:space="preserve">
+    <value>• Only victorious battles are counted.
+• Newly received awards are added together.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="geniusForWarMedal_descr" xml:space="preserve">
+    <value>In 100 battles, be the top player by experience earned.</value>
+  </data>
+  <data name="globalRating" xml:space="preserve">
+    <value>Personal Rating</value>
+  </data>
+  <data name="globalRating_descr" xml:space="preserve">
+    <value>Personal Rating is a measure of player’s skills and experience, on the basis of:
+
+• Victories
+• Damage caused with your assistance
+• Average damage per battle
+• Average experience per battle
+• Battles survived
+
+Personal rating is updated with increasing number of battles fought.</value>
+  </data>
+  <data name="godOfWar" xml:space="preserve">
+    <value>God of War</value>
+  </data>
+  <data name="godOfWar_condition" xml:space="preserve">
+    <value>• Newly received awards are added together.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="godOfWar_descr" xml:space="preserve">
+    <value>While driving an SPG, be the last survivor and win the battle.</value>
+  </data>
+  <data name="guardsman" xml:space="preserve">
+    <value>Guardsman %(rank)s</value>
+  </data>
+  <data name="guardsman_condition" xml:space="preserve">
+    <value>• For example, when fighting for a team consisting of T-34 and BT-7 vehicles, it is required to drive a BT-7 tank.
+• Specific vehicles can be used as support vehicles in certain Historical Battles.
+• Can be obtained in Historical Battles only.</value>
+  </data>
+  <data name="guardsman_descr" xml:space="preserve">
+    <value>For the number of victories that were won while driving support vehicles.</value>
+  </data>
+  <data name="guerrillaMedal" xml:space="preserve">
+    <value>Guerrilla</value>
+  </data>
+  <data name="guerrillaMedal_condition" xml:space="preserve">
+    <value>• Enemy vehicles must be within the vehicle's visibility range.
+• Newly received awards are added together.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="guerrillaMedal_descr" xml:space="preserve">
+    <value>Remain undetected and destroy at least 10 enemy vehicles.</value>
+  </data>
+  <data name="handOfDeath" xml:space="preserve">
+    <value>Reaper</value>
+  </data>
+  <data name="handOfDeath_condition" xml:space="preserve">
+    <value>• An unbroken series continues in the next battle using the same vehicle.
+• Every vehicle has its own series. Only the longest series is counted.
+• This achievement is awarded on completion of the next record series.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="handOfDeath_descr" xml:space="preserve">
+    <value>Destroy at least three enemy vehicles in a row. The second and all consecutive vehicles must be destroyed with a single shell each.</value>
+  </data>
+  <data name="heavyFireMedal" xml:space="preserve">
+    <value>Heavy Fire</value>
+  </data>
+  <data name="heavyFireMedal_condition" xml:space="preserve">
+    <value>• Newly received awards are added together.
+• Only victorious battles are counted.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="heavyFireMedal_descr" xml:space="preserve">
+    <value>In 100 battles, be among the top three damage dealers.</value>
+  </data>
+  <data name="heroesOfRassenay" xml:space="preserve">
+    <value>Raseiniai Heroes' Medal</value>
+  </data>
+  <data name="heroesOfRassenay_condition" xml:space="preserve">
+    <value>• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="heroesOfRassenay_descr" xml:space="preserve">
+    <value>Destroy enemy vehicles:
+&lt;FONT COLOR="#FFFFFF"&gt;14&lt;/FONT&gt; and more in Standard Battle, Assault and Encounter Battle.
+&lt;FONT COLOR="#FFFFFF"&gt;21&lt;/FONT&gt; and more in Grand Battle.</value>
+  </data>
+  <data name="heroesOfRassenay_heroInfo" xml:space="preserve">
+    <value>In June 1941, near the Lithuanian town of Raseiniai, roughly 20 KV tanks of the Soviet 3rd Mechanized Corps met the assault of the 6th Panzer Division, with approximately 100 vehicles. A single KV tank managed to hold off the German advance for a full day while being pummeled by a variety of antitank weapons, until finally the KV ran out of ammunition and was knocked out.</value>
+  </data>
+  <data name="histBattle1_battlefield" xml:space="preserve">
+    <value>Battlefield: Operation Spring Awakening</value>
+  </data>
+  <data name="histBattle1_battlefield_condition" xml:space="preserve">
+    <value>• Can be obtained in Historical Battles only.</value>
+  </data>
+  <data name="histBattle1_battlefield_descr" xml:space="preserve">
+    <value>Win at least one battle on each of the belligerent sides in all vehicles that fought in the actual battle.</value>
+  </data>
+  <data name="histBattle1_historyLessons" xml:space="preserve">
+    <value>Lessons of History: Operation Spring Awakening</value>
+  </data>
+  <data name="histBattle1_historyLessons_condition" xml:space="preserve">
+    <value>• Can be obtained in Historical Battles only.</value>
+  </data>
+  <data name="histBattle1_historyLessons_descr" xml:space="preserve">
+    <value>Win at least one battle on each of the belligerent sides in any vehicle.</value>
+  </data>
+  <data name="histBattle2_battlefield" xml:space="preserve">
+    <value>Battlefield: Battle of Kursk</value>
+  </data>
+  <data name="histBattle2_battlefield_condition" xml:space="preserve">
+    <value>• Can be obtained in Historical Battles only.</value>
+  </data>
+  <data name="histBattle2_battlefield_descr" xml:space="preserve">
+    <value>Win at least one battle on each of the belligerent sides in all vehicles that fought in the actual battle.</value>
+  </data>
+  <data name="histBattle2_historyLessons" xml:space="preserve">
+    <value>Lessons of History: Battle of Kursk</value>
+  </data>
+  <data name="histBattle2_historyLessons_condition" xml:space="preserve">
+    <value>• Can be obtained in Historical Battles only.</value>
+  </data>
+  <data name="histBattle2_historyLessons_descr" xml:space="preserve">
+    <value>Win at least one battle on each of the belligerent sides in any vehicle.</value>
+  </data>
+  <data name="histBattle3_battlefield" xml:space="preserve">
+    <value>Battlefield: Battle of the Bulge (1944)</value>
+  </data>
+  <data name="histBattle3_battlefield_condition" xml:space="preserve">
+    <value>• Can be obtained in Historical Battles only.</value>
+  </data>
+  <data name="histBattle3_battlefield_descr" xml:space="preserve">
+    <value>Win at least one battle on each of the belligerent sides in all vehicles that fought in the actual battle.</value>
+  </data>
+  <data name="histBattle3_historyLessons" xml:space="preserve">
+    <value>Lessons of History: Battle of the Bulge (1944)</value>
+  </data>
+  <data name="histBattle3_historyLessons_condition" xml:space="preserve">
+    <value>• Can be obtained in Historical Battles only.</value>
+  </data>
+  <data name="histBattle3_historyLessons_descr" xml:space="preserve">
+    <value>Win at least one battle on each of the belligerent sides in any vehicle.</value>
+  </data>
+  <data name="histBattle4_battlefield" xml:space="preserve">
+    <value>Battlefield: Bryansk Front</value>
+  </data>
+  <data name="histBattle4_battlefield_condition" xml:space="preserve">
+    <value>• Can be obtained in Historical Battles only.</value>
+  </data>
+  <data name="histBattle4_battlefield_descr" xml:space="preserve">
+    <value>Win at least one battle on each of the belligerent sides in all vehicles that fought in the actual battle.</value>
+  </data>
+  <data name="histBattle4_historyLessons" xml:space="preserve">
+    <value>Lessons of History: Bryansk Front</value>
+  </data>
+  <data name="histBattle4_historyLessons_condition" xml:space="preserve">
+    <value>• Can be obtained in Historical Battles only.</value>
+  </data>
+  <data name="histBattle4_historyLessons_descr" xml:space="preserve">
+    <value>Win at least one battle on each of the belligerent sides in any vehicle.</value>
+  </data>
+  <data name="histBattle5_battlefield" xml:space="preserve">
+    <value>Battlefield: Battle of Berlin</value>
+  </data>
+  <data name="histBattle5_battlefield_condition" xml:space="preserve">
+    <value>• Can be obtained in Historical Battles only.</value>
+  </data>
+  <data name="histBattle5_battlefield_descr" xml:space="preserve">
+    <value>Win at least one battle on each of the belligerent sides in all vehicles that fought in the actual battle.</value>
+  </data>
+  <data name="histBattle5_historyLessons" xml:space="preserve">
+    <value>Lessons of History: Battle of Berlin</value>
+  </data>
+  <data name="histBattle5_historyLessons_condition" xml:space="preserve">
+    <value>• Can be obtained in Historical Battles only.</value>
+  </data>
+  <data name="histBattle5_historyLessons_descr" xml:space="preserve">
+    <value>Win at least one battle on each of the belligerent sides in any vehicle.</value>
+  </data>
+  <data name="histBattle6_battlefield" xml:space="preserve">
+    <value>Battlefield: Siege of Tobruk</value>
+  </data>
+  <data name="histBattle6_battlefield_condition" xml:space="preserve">
+    <value>• Can be obtained in Historical Battles only.</value>
+  </data>
+  <data name="histBattle6_battlefield_descr" xml:space="preserve">
+    <value>Win at least one battle on each of the belligerent sides in all vehicles that fought in the actual battle.</value>
+  </data>
+  <data name="histBattle6_historyLessons" xml:space="preserve">
+    <value>Lessons of History: Siege of Tobruk</value>
+  </data>
+  <data name="histBattle6_historyLessons_condition" xml:space="preserve">
+    <value>• Can be obtained in Historical Battles only.</value>
+  </data>
+  <data name="histBattle6_historyLessons_descr" xml:space="preserve">
+    <value>Win at least one battle on each of the belligerent sides in any vehicle.</value>
+  </data>
+  <data name="honoredRank" xml:space="preserve">
+    <value>Vehicle Rank</value>
+  </data>
+  <data name="honoredRank_descr" xml:space="preserve">
+    <value>Shows the rank you achieved in Ranked Battles in this vehicle.</value>
+  </data>
+  <data name="huntsman" xml:space="preserve">
+    <value>Naydin's Medal</value>
+  </data>
+  <data name="huntsman_condition" xml:space="preserve">
+    <value>• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="huntsman_descr" xml:space="preserve">
+    <value>Destroy all enemy light tanks (at least 3) in the course of one battle.</value>
+  </data>
+  <data name="huntsman_heroInfo" xml:space="preserve">
+    <value>Sergeant Grigoriy Naydin was a BT-7 commander. On June 25th, 1941, near the Lithuanian town of Rudishkyay, he destroyed a Wehrmacht armored column that included 15 vehicles and 10 guns of the 19th Mechanized Corps. Naydin managed to hold off the German advance for two days, making it possible to organize the defenses around Vilnius. For this action, Naydin was made a Hero of the Soviet Union.</value>
+  </data>
+  <data name="impenetrable" xml:space="preserve">
+    <value>Shellproof</value>
+  </data>
+  <data name="impenetrable_condition" xml:space="preserve">
+    <value>• Survive the battle.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="impenetrable_descr" xml:space="preserve">
+    <value>Have total damage blocked by armor exceed the hit points of your vehicle.</value>
+  </data>
+  <data name="infiltratorMedal" xml:space="preserve">
+    <value>Vanquisher</value>
+  </data>
+  <data name="infiltratorMedal_condition" xml:space="preserve">
+    <value>• Achievement only includes the base capture points that resulted in a successful base capture.
+• Newly received awards are added together.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="infiltratorMedal_descr" xml:space="preserve">
+    <value>Earn at least 1,000 capture points on the enemy base.</value>
+  </data>
+  <data name="invader" xml:space="preserve">
+    <value>Invader</value>
+  </data>
+  <data name="invader_condition" xml:space="preserve">
+    <value>• The achievement is awarded upon successful base capture, and only includes the points that were part of the base capture.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="invader_descr" xml:space="preserve">
+    <value>Earn at least 80 capture points on the enemy base.</value>
+  </data>
+  <data name="invincible" xml:space="preserve">
+    <value>Invincible</value>
+  </data>
+  <data name="invincible_condition" xml:space="preserve">
+    <value>• An unbroken series continues in the next battle using the same vehicle.
+• Every vehicle has its own series. Only the longest series is counted.
+• Battles fought in SPGs do not count.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="invincible_descr" xml:space="preserve">
+    <value>Survive 5 or more battles in a row without taking any damage.</value>
+  </data>
+  <data name="ironMan" xml:space="preserve">
+    <value>Cool-Headed</value>
+  </data>
+  <data name="ironMan_condition" xml:space="preserve">
+    <value>• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="ironMan_descr" xml:space="preserve">
+    <value>Survive at least 10 ricochets and non-penetrating hits in a row from enemy team players.</value>
+  </data>
+  <data name="kamikaze" xml:space="preserve">
+    <value>Kamikaze</value>
+  </data>
+  <data name="kamikaze_condition" xml:space="preserve">
+    <value>• Destroy an enemy vehicle of a higher tier.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="kamikaze_descr" xml:space="preserve">
+    <value>Destroy at least one enemy vehicle by ramming it.</value>
+  </data>
+  <data name="kampfer" xml:space="preserve">
+    <value>Skirmisher %(rank)s</value>
+  </data>
+  <data name="kampfer_condition" xml:space="preserve">
+    <value>• Personal achievement.
+• Awarded before the release of version 9.17.1.</value>
+  </data>
+  <data name="kampfer_descr" xml:space="preserve">
+    <value>For the number of victories in Battles for Stronghold.</value>
+  </data>
+  <data name="kingOfTheHill" xml:space="preserve">
+    <value>King of the Hill</value>
+  </data>
+  <data name="kingOfTheHill_condition" xml:space="preserve">
+    <value>• Win the battle.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="kingOfTheHill_descr" xml:space="preserve">
+    <value>Be the only survivor while driving a tank or a tank destroyer.</value>
+  </data>
+  <data name="luckyDevil" xml:space="preserve">
+    <value>Lucky</value>
+  </data>
+  <data name="luckyDevil_condition" xml:space="preserve">
+    <value>• Also awarded if you are less than 10 meters away from an enemy vehicle at the moment of its destruction by an artillery strike or airstrike called in by another enemy team player in the Strongholds: Battles mode.
+• Can be obtained in Random Battles, Skirmishes, and Advances only.</value>
+  </data>
+  <data name="luckyDevil_descr" xml:space="preserve">
+    <value>Witness an enemy vehicle being hit and destroyed by another enemy team player. You must be 10 meters or closer from the enemy vehicle at the moment of its destruction.</value>
+  </data>
+  <data name="mainGun" xml:space="preserve">
+    <value>High Caliber</value>
+  </data>
+  <data name="mainGun_condition" xml:space="preserve">
+    <value>• Damage caused must be at least 20% of the total HP of enemy vehicles.
+• Damage caused must be at least 1,000 HP.
+• The player must not hit any allies by direct shots.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="mainGun_descr" xml:space="preserve">
+    <value>Cause the highest damage in a battle.</value>
+  </data>
+  <data name="makerOfHistory" xml:space="preserve">
+    <value>History Maker %(rank)s</value>
+  </data>
+  <data name="makerOfHistory_condition" xml:space="preserve">
+    <value>• Can be obtained in Historical Battles only.</value>
+  </data>
+  <data name="makerOfHistory_descr" xml:space="preserve">
+    <value>For the number of victories that were won on each of the belligerent sides.</value>
+  </data>
+  <data name="markI100Years" xml:space="preserve">
+    <value>100 Years of Tanks %(rank)s</value>
+  </data>
+  <data name="markI100Years_descr" xml:space="preserve">
+    <value>Awarded for participation in the "Anniversary of First Tank Creation" event.</value>
+  </data>
+  <data name="markIBaseProtector" xml:space="preserve">
+    <value>Base Protector</value>
+  </data>
+  <data name="markIBaseProtector_condition" xml:space="preserve">
+    <value>• Awarded to all members of the victorious team during the special event.
+• Only one award for all battles fought can be received.</value>
+  </data>
+  <data name="markIBaseProtector_descr" xml:space="preserve">
+    <value>Win a battle during the Convoy event by keeping the friendly base secure.</value>
+  </data>
+  <data name="markIBomberman" xml:space="preserve">
+    <value>Bomberman</value>
+  </data>
+  <data name="markIBomberman_condition" xml:space="preserve">
+    <value>• Awarded during the special event.</value>
+  </data>
+  <data name="markIBomberman_descr" xml:space="preserve">
+    <value>Blow a track off the Mk. I using a bomb.</value>
+  </data>
+  <data name="markIProtector" xml:space="preserve">
+    <value>Honor Guard</value>
+  </data>
+  <data name="markIProtector_condition" xml:space="preserve">
+    <value>• Awarded to all members of the victorious team during the special event.
+• Only one award for all battles fought can be received.</value>
+  </data>
+  <data name="markIProtector_descr" xml:space="preserve">
+    <value>Win a battle during the Convoy event by helping the Mk. I successfully capture the enemy base.</value>
+  </data>
+  <data name="markIRepairer" xml:space="preserve">
+    <value>Field Repair</value>
+  </data>
+  <data name="markIRepairer_condition" xml:space="preserve">
+    <value>• Awarded during the special event.</value>
+  </data>
+  <data name="markIRepairer_descr" xml:space="preserve">
+    <value>Repair a track of the Mk. I.</value>
+  </data>
+  <data name="markOfMastery" xml:space="preserve">
+    <value>Mastery Badge: "%(name)s"</value>
+  </data>
+  <data name="markOfMasteryContent" xml:space="preserve">
+    <value>Awarded for mastery in controlling an armored&lt;br/&gt;vehicle. To qualify, a player must earn more&lt;br/&gt;experience in a battle than the average highest&lt;br/&gt;experience of %(val)s players who have fought&lt;br/&gt;in this vehicle for the previous 7 days.</value>
+  </data>
+  <data name="markOfMasteryContent/1" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="markOfMasteryContent/1/info" xml:space="preserve">
+    <value>III Class: 50%</value>
+  </data>
+  <data name="markOfMasteryContent/2" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="markOfMasteryContent/2/info" xml:space="preserve">
+    <value>II Class: 80%</value>
+  </data>
+  <data name="markOfMasteryContent/3" xml:space="preserve">
+    <value>95</value>
+  </data>
+  <data name="markOfMasteryContent/3/info" xml:space="preserve">
+    <value>I Class: 95%</value>
+  </data>
+  <data name="markOfMasteryContent/4" xml:space="preserve">
+    <value>99</value>
+  </data>
+  <data name="markOfMasteryContent/4/info" xml:space="preserve">
+    <value>Ace Tanker: 99%</value>
+  </data>
+  <data name="markOfMasteryRankHeader" xml:space="preserve">
+    <value>Mastery Ranks:</value>
+  </data>
+  <data name="markOfMasterySubContent" xml:space="preserve">
+    <value>• The statistics show the maximum rank&lt;br/&gt;of a mastery.&lt;br/&gt;• A newly received current rank is displayed&lt;br/&gt;in the window of the battle results.&lt;br/&gt;• Can be obtained in Random Battles and Ranked Battles.</value>
+  </data>
+  <data name="marksOnGun/descr/param/label/1" xml:space="preserve">
+    <value>1 Mark</value>
+  </data>
+  <data name="marksOnGun/descr/param/label/2" xml:space="preserve">
+    <value>2 Marks</value>
+  </data>
+  <data name="marksOnGun/descr/param/label/3" xml:space="preserve">
+    <value>3 Marks</value>
+  </data>
+  <data name="marksOnGun/descr/param/value/1" xml:space="preserve">
+    <value>65%</value>
+  </data>
+  <data name="marksOnGun/descr/param/value/2" xml:space="preserve">
+    <value>85%</value>
+  </data>
+  <data name="marksOnGun/descr/param/value/3" xml:space="preserve">
+    <value>95%</value>
+  </data>
+  <data name="marksOnGun0" xml:space="preserve">
+    <value>Marks of Excellence</value>
+  </data>
+  <data name="marksOnGun0_descr" xml:space="preserve">
+    <value>To obtain one Mark of Excellence, displayed on the gun, the average damage caused by the player and average damage caused with the player's assistance must be higher than the results of 65% of players in this vehicle for the past 14 days.</value>
+  </data>
+  <data name="marksOnGun1" xml:space="preserve">
+    <value>1 Mark of Excellence</value>
+  </data>
+  <data name="marksOnGun1_descr" xml:space="preserve">
+    <value>To obtain two Marks of Excellence, displayed on the gun, the average damage caused by the player and average damage caused with the player's assistance must be higher than the results of 85% of players in this vehicle for the past 14 days.</value>
+  </data>
+  <data name="marksOnGun2" xml:space="preserve">
+    <value>2 Marks of Excellence</value>
+  </data>
+  <data name="marksOnGun2_descr" xml:space="preserve">
+    <value>To obtain three Marks of Excellence, displayed on the gun, the average damage caused by the player and average damage caused with the player's assistance must be higher than the results of 95% of players in this vehicle for the past 14 days.</value>
+  </data>
+  <data name="marksOnGun3" xml:space="preserve">
+    <value>3 Marks of Excellence</value>
+  </data>
+  <data name="marksOnGun3_descr" xml:space="preserve">
+    <value>The maximum number of Marks of Excellence is obtained.</value>
+  </data>
+  <data name="marksOnGunHeader" xml:space="preserve">
+    <value>Ranks by average damage:</value>
+  </data>
+  <data name="marksOnGun_condition" xml:space="preserve">
+    <value>• Player's average damage is updated after each battle. Only the 100 recent battles are counted. 
+• Obtained Marks do not disappear even if the player's average damage decreases.
+• Marks can be obtained in vehicles of Tiers V–X only.
+• Display of Marks on your vehicles can be disabled in game settings.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="mechanicEngineer" xml:space="preserve">
+    <value>Senior Technical Engineer</value>
+  </data>
+  <data name="mechanicEngineer0" xml:space="preserve">
+    <value>Technical Engineer: U.S.S.R.</value>
+  </data>
+  <data name="mechanicEngineer0_condition" xml:space="preserve">
+    <value>• Unresearched modules do not prevent a player from receiving the award.</value>
+  </data>
+  <data name="mechanicEngineer0_descr" xml:space="preserve">
+    <value>Research all vehicles in the U.S.S.R. Tech Tree.</value>
+  </data>
+  <data name="mechanicEngineer1" xml:space="preserve">
+    <value>Technical Engineer: Germany</value>
+  </data>
+  <data name="mechanicEngineer1_condition" xml:space="preserve">
+    <value>• Unresearched modules do not prevent a player from receiving the award.</value>
+  </data>
+  <data name="mechanicEngineer1_descr" xml:space="preserve">
+    <value>Research all vehicles in the Germany Tech Tree.</value>
+  </data>
+  <data name="mechanicEngineer2" xml:space="preserve">
+    <value>Technical Engineer: U.S.A.</value>
+  </data>
+  <data name="mechanicEngineer2_condition" xml:space="preserve">
+    <value>• Unresearched modules do not prevent a player from receiving the award.</value>
+  </data>
+  <data name="mechanicEngineer2_descr" xml:space="preserve">
+    <value>Research all vehicles in the U.S.A. Tech Tree.</value>
+  </data>
+  <data name="mechanicEngineer3" xml:space="preserve">
+    <value>Technical Engineer: China</value>
+  </data>
+  <data name="mechanicEngineer3_condition" xml:space="preserve">
+    <value>• Unresearched modules do not prevent a player from receiving the award.</value>
+  </data>
+  <data name="mechanicEngineer3_descr" xml:space="preserve">
+    <value>Research all vehicles in the China Tech Tree.</value>
+  </data>
+  <data name="mechanicEngineer4" xml:space="preserve">
+    <value>Technical Engineer: France</value>
+  </data>
+  <data name="mechanicEngineer4_condition" xml:space="preserve">
+    <value>• Unresearched modules do not prevent a player from receiving the award.</value>
+  </data>
+  <data name="mechanicEngineer4_descr" xml:space="preserve">
+    <value>Research all vehicles in the France Tech Tree.</value>
+  </data>
+  <data name="mechanicEngineer5" xml:space="preserve">
+    <value>Technical Engineer: U.K.</value>
+  </data>
+  <data name="mechanicEngineer5_condition" xml:space="preserve">
+    <value>• Unresearched modules do not prevent a player from receiving the award.</value>
+  </data>
+  <data name="mechanicEngineer5_descr" xml:space="preserve">
+    <value>Research all vehicles in the U.K. Tech Tree.</value>
+  </data>
+  <data name="mechanicEngineer6" xml:space="preserve">
+    <value>Technical Engineer: Japan</value>
+  </data>
+  <data name="mechanicEngineer6_condition" xml:space="preserve">
+    <value>• Unresearched modules do not prevent a player from receiving the award.</value>
+  </data>
+  <data name="mechanicEngineer6_descr" xml:space="preserve">
+    <value>Research all vehicles in the Japan Tech Tree.</value>
+  </data>
+  <data name="mechanicEngineer7" xml:space="preserve">
+    <value>Technical Engineer: Czechoslovakia</value>
+  </data>
+  <data name="mechanicEngineer7_condition" xml:space="preserve">
+    <value>• Unresearched modules do not prevent a player from receiving the award.</value>
+  </data>
+  <data name="mechanicEngineer7_descr" xml:space="preserve">
+    <value>Research all vehicles in the Czechoslovakia Tech Tree.</value>
+  </data>
+  <data name="mechanicEngineer8" xml:space="preserve">
+    <value>Technical Engineer: Sweden</value>
+  </data>
+  <data name="mechanicEngineer8_condition" xml:space="preserve">
+    <value>• Unresearched modules do not prevent a player from receiving the award.</value>
+  </data>
+  <data name="mechanicEngineer8_descr" xml:space="preserve">
+    <value>Research all vehicles in the Sweden Tech Tree.</value>
+  </data>
+  <data name="mechanicEngineer9" xml:space="preserve">
+    <value>Technical Engineer: Poland</value>
+  </data>
+  <data name="mechanicEngineer9_condition" xml:space="preserve">
+    <value>• Unresearched modules do not prevent a player from receiving the award.</value>
+  </data>
+  <data name="mechanicEngineer9_descr" xml:space="preserve">
+    <value>Research all vehicles in the Poland Tech Tree.</value>
+  </data>
+  <data name="mechanicEngineer_descr" xml:space="preserve">
+    <value>Research all vehicles in all Tech Trees.</value>
+  </data>
+  <data name="medalAbrams" xml:space="preserve">
+    <value>Abrams's Medal %(rank)s</value>
+  </data>
+  <data name="medalAbrams_descr" xml:space="preserve">
+    <value>For the total number of team victories in which the player survived the battle.</value>
+  </data>
+  <data name="medalAbrams_heroInfo" xml:space="preserve">
+    <value>General Creighton Abrams commanded U.S. armored forces during WWII and the Vietnam War, earning a reputation as an aggressive and successful commander.</value>
+  </data>
+  <data name="medalAntiSpgFire" xml:space="preserve">
+    <value>For Counter-Battery Fire</value>
+  </data>
+  <data name="medalAntiSpgFire_condition" xml:space="preserve">
+    <value>• The player must not destroy any allied vehicles.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalAntiSpgFire_descr" xml:space="preserve">
+    <value>In a battle, destroy all enemy SPGs (at least 2) with an SPG.</value>
+  </data>
+  <data name="medalBillotte" xml:space="preserve">
+    <value>Billotte's Medal</value>
+  </data>
+  <data name="medalBillotte_condition" xml:space="preserve">
+    <value>• Survive and win the battle.
+• Destroyed enemy vehicles count after all damage is received.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalBillotte_descr" xml:space="preserve">
+    <value>Destroy at least 2 enemy vehicles while having 5 different modules damaged or crew members injured and losing 80% of hit points.</value>
+  </data>
+  <data name="medalBillotte_heroInfo" xml:space="preserve">
+    <value>Pierre Billotte was a captain in the French Army who destroyed 2 Pz.Kpfw. IV, 11 Pz.Kpfw. III and two guns with his Char B1 bis on May 16th, 1940.</value>
+  </data>
+  <data name="medalBrothersInArms" xml:space="preserve">
+    <value>Brothers in Arms</value>
+  </data>
+  <data name="medalBrothersInArms_condition" xml:space="preserve">
+    <value>• All Platoon members must survive the battle.
+• All Platoon members receive the award.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalBrothersInArms_descr" xml:space="preserve">
+    <value>Each Platoon member must destroy at least 3 enemy vehicles.</value>
+  </data>
+  <data name="medalBrunoPietro" xml:space="preserve">
+    <value>Bruno's Medal</value>
+  </data>
+  <data name="medalBrunoPietro_condition" xml:space="preserve">
+    <value>• Survive and win the battle.
+• Destroyed enemy vehicles count after all damage is received.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalBrunoPietro_descr" xml:space="preserve">
+    <value>Destroy 3-4 enemy vehicles while having 5 different modules damaged or crew members injured and losing 80% of hit points.</value>
+  </data>
+  <data name="medalBrunoPietro_heroInfo" xml:space="preserve">
+    <value>Pietro Bruno was an Italian tank ace. For exceptional valor in the face of the enemy he was awarded the Gold Medal of Military Valor (Medaglia d'oro al Valore Militare), the highest Italian award.</value>
+  </data>
+  <data name="medalBurda" xml:space="preserve">
+    <value>Burda's Medal</value>
+  </data>
+  <data name="medalBurda_condition" xml:space="preserve">
+    <value>• Drive a tank or a tank destroyer.
+• The destroyed vehicle must be at least 1 tier higher.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalBurda_descr" xml:space="preserve">
+    <value>Destroy 3 enemy SPGs in one battle.</value>
+  </data>
+  <data name="medalBurda_heroInfo" xml:space="preserve">
+    <value>Guards Colonel Alexander Burda was a Soviet tank ace and a Hero of the Soviet Union. On October 4th, 1941, Burda organized an ambush that destroyed an enemy armored column, including ten medium and light tanks, two trucks with antitank guns, and five infantry vehicles.</value>
+  </data>
+  <data name="medalCarius" xml:space="preserve">
+    <value>Carius's Medal %(rank)s</value>
+  </data>
+  <data name="medalCarius_descr" xml:space="preserve">
+    <value>For the number of enemy vehicles destroyed.</value>
+  </data>
+  <data name="medalCarius_heroInfo" xml:space="preserve">
+    <value>Otto Carius was one of the most successful tank aces of WWII. He commanded the Pz.Kpfw. 38(t), the Pz.Kpfw. VI Tiger, and the Jagdtiger tank destroyer during his impressive career.</value>
+  </data>
+  <data name="medalCoolBlood" xml:space="preserve">
+    <value>Cold-Blooded</value>
+  </data>
+  <data name="medalCoolBlood_condition" xml:space="preserve">
+    <value>• Drive an SPG of at least Tier IV.
+• The player must not destroy any allied vehicles.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalCoolBlood_descr" xml:space="preserve">
+    <value>Destroy at least 2 enemy light tanks from a distance of not more than 100 meters.</value>
+  </data>
+  <data name="medalCrucialContribution" xml:space="preserve">
+    <value>Crucial Contribution</value>
+  </data>
+  <data name="medalCrucialContribution_condition" xml:space="preserve">
+    <value>• All Platoon members receive the award.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalCrucialContribution_descr" xml:space="preserve">
+    <value>Platoon must destroy at least 12 enemy vehicles.</value>
+  </data>
+  <data name="medalDeLanglade" xml:space="preserve">
+    <value>De Langlade's Medal</value>
+  </data>
+  <data name="medalDeLanglade_condition" xml:space="preserve">
+    <value>• Enemy vehicles must be within the base circle.
+• Enemy vehicles may attempt to capture the base all at once or sequentially.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalDeLanglade_descr" xml:space="preserve">
+    <value>Destroy at least 4 enemy vehicles while they are attempting to capture the base in one battle.</value>
+  </data>
+  <data name="medalDeLanglade_heroInfo" xml:space="preserve">
+    <value>Paul Girot de Langlade was a French Army lieutenant-colonel during WWII. In September 1943 he was promoted to colonel. De Langlade fought with the 2nd Tank Division under General Leclerc. On September 12-13, 1944, a combat team under de Langlade's command wiped out Panzerbrigade 112 in the battle of Dompaire, France. Only 4 out of 45 Panthers survived the battle.</value>
+  </data>
+  <data name="medalDumitru" xml:space="preserve">
+    <value>Dumitru's Medal</value>
+  </data>
+  <data name="medalDumitru_condition" xml:space="preserve">
+    <value>• Drive a tank or a tank destroyer.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalDumitru_descr" xml:space="preserve">
+    <value>Destroy 3 enemy SPGs in one battle.</value>
+  </data>
+  <data name="medalDumitru_heroInfo" xml:space="preserve">
+    <value>Ion S. Dumitru was a Romanian tank ace. He fought in World War II for just twenty-five days, for five on the German side, and, after Romania changed sides, for twenty days against the Germans. On March 26th, 1945, Dumitru contributed to the destruction of six enemy tank destroyers and capture of a battery of 150-mm howitzers.</value>
+  </data>
+  <data name="medalEkins" xml:space="preserve">
+    <value>Ekins's Medal %(rank)s</value>
+  </data>
+  <data name="medalEkins_descr" xml:space="preserve">
+    <value>For destroying Tier VIII–X enemy vehicles.</value>
+  </data>
+  <data name="medalEkins_heroInfo" xml:space="preserve">
+    <value>Joe Ekins was a tank gunner in the Northamptonshire Division of the British Territorial Army. A number of sources identify Ekins as the individual who brought down famous German tank ace Michael Wittmann.</value>
+  </data>
+  <data name="medalFadin" xml:space="preserve">
+    <value>Fadin's Medal</value>
+  </data>
+  <data name="medalFadin_condition" xml:space="preserve">
+    <value>• Awarded even if the enemy vehicle is destroyed by a fire caused by the last shell in the ammo.
+• Awarded for destroying the last enemy vehicle with the last shell using autoloading guns and machineguns.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalFadin_descr" xml:space="preserve">
+    <value>Destroy the last enemy vehicle in the battle with the last shell in the ammo.</value>
+  </data>
+  <data name="medalFadin_heroInfo" xml:space="preserve">
+    <value>A Hero of the Soviet Union, Alexander Fadin was a T-34 commander. Supported by one infantry platoon, Fadin managed to capture the village of Dashukovka (Ukraine) and hold it for five hours with one tank. He destroyed one tank, one SPG, eighteen machinegun nests, and neutralized up to 50 enemy soldiers and officers. His crew also shot down an enemy plane.</value>
+  </data>
+  <data name="medalGore" xml:space="preserve">
+    <value>Gore's Medal</value>
+  </data>
+  <data name="medalGore_condition" xml:space="preserve">
+    <value>• Damage caused should be at least 2,000 HP
+• The player must not destroy any allied vehicles.
+• Hits on allied vehicles are not counted.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalGore_descr" xml:space="preserve">
+    <value>Drive an SPG and cause damage exceeding 8 times the hit points of your vehicle.</value>
+  </data>
+  <data name="medalGore_heroInfo" xml:space="preserve">
+    <value>British colonel Adrian Clements Gore was in charge of a combat team that defended the Kasserine Pass, Tunisia, on 20 February, 1943. His force, composed of a tank squadron, an infantry company, and a battery of infantry support artillery, put up stiff resistance against troops of the Wehrmacht Africa Korps, comprising five infantry batallions and one tank batallion. The German forces lost 11 tanks in the fighting.</value>
+  </data>
+  <data name="medalHalonen" xml:space="preserve">
+    <value>Halonen's Medal</value>
+  </data>
+  <data name="medalHalonen_condition" xml:space="preserve">
+    <value>• The targets must be at least two tiers higher than the player's tank destroyer.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalHalonen_descr" xml:space="preserve">
+    <value>Destroy at least 2 enemy tanks or tank destroyers in a tank destroyer in one battle.</value>
+  </data>
+  <data name="medalHalonen_heroInfo" xml:space="preserve">
+    <value>Erkki Halonen, a sergeant in the Finnish Army and a tank ace, destroyed three T-34, two KV-1, and two ISU-152 with his StuG III in battles during June and July 1944.</value>
+  </data>
+  <data name="medalKay" xml:space="preserve">
+    <value>Kay's Medal %(rank)s</value>
+  </data>
+  <data name="medalKay_descr" xml:space="preserve">
+    <value>For achieving Battle Hero status.</value>
+  </data>
+  <data name="medalKay_heroInfo" xml:space="preserve">
+    <value>Douglas Kay, a British Army sergeant and gunner on a Sherman Firefly, participated in the Allied landing in Normandy and later helped increase popular interest in tank warfare.</value>
+  </data>
+  <data name="medalKnispel" xml:space="preserve">
+    <value>Knispel's Medal %(rank)s</value>
+  </data>
+  <data name="medalKnispel_descr" xml:space="preserve">
+    <value>For the total amount of damage caused and received.</value>
+  </data>
+  <data name="medalKnispel_heroInfo" xml:space="preserve">
+    <value>Kurt Knispel, a WWII German tank ace, participated in battles on both the Western and Eastern Fronts, fighting in Pz.Kpfw. II, Pz.Kpfw. III, Pz.Kpfw. IV, Pz.Kpfw. VI Tiger, and Pz.Kpfw. VI Ausf. B Tiger II.</value>
+  </data>
+  <data name="medalKolobanov" xml:space="preserve">
+    <value>Kolobanov's Medal</value>
+  </data>
+  <data name="medalKolobanov_condition" xml:space="preserve">
+    <value>• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalKolobanov_descr" xml:space="preserve">
+    <value>Stand alone against at least five enemy vehicles and win.</value>
+  </data>
+  <data name="medalKolobanov_heroInfo" xml:space="preserve">
+    <value>Colonel Zinoviy Kolobanov was a Soviet tank ace who destroyed 22 German tanks, two guns, and two armored vehicles with his KV-1 in battle on August 19th, 1941.</value>
+  </data>
+  <data name="medalLafayettePool" xml:space="preserve">
+    <value>Pool's Medal</value>
+  </data>
+  <data name="medalLafayettePool_condition" xml:space="preserve">
+    <value>• In vehicles of at least Tier V.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalLafayettePool_descr" xml:space="preserve">
+    <value>Destroy enemy vehicles:
+&lt;FONT COLOR="#FFFFFF"&gt;10–13&lt;/FONT&gt; in Standard Battle, Assault and Encounter Battle.
+&lt;FONT COLOR="#FFFFFF"&gt;13–20&lt;/FONT&gt; in Grand Battle.</value>
+  </data>
+  <data name="medalLafayettePool_heroInfo" xml:space="preserve">
+    <value>Lafayette G. Pool is widely recognized as the U.S. tank ace of aces who destroyed a total of 258 armored vehicles and military vehicles.</value>
+  </data>
+  <data name="medalLavrinenko" xml:space="preserve">
+    <value>Lavrinenko's Medal %(rank)s</value>
+  </data>
+  <data name="medalLavrinenko_condition" xml:space="preserve">
+    <value>• Up to 100 points per battle are included.</value>
+  </data>
+  <data name="medalLavrinenko_descr" xml:space="preserve">
+    <value>Reduce the total number of capture points of a friendly base.</value>
+  </data>
+  <data name="medalLavrinenko_heroInfo" xml:space="preserve">
+    <value>Dmitry Lavrinenko, a Hero of the Soviet Union, Guards Lieutenant, and tank ace, was recognized as the top Soviet tanker, destroying 52 tanks in 28 battles over the course of just two months.</value>
+  </data>
+  <data name="medalLeClerc" xml:space="preserve">
+    <value>Leclerc's Medal %(rank)s</value>
+  </data>
+  <data name="medalLeClerc_condition" xml:space="preserve">
+    <value>• Win the battle.
+• All enemy base capture points earned in one battle are included.</value>
+  </data>
+  <data name="medalLeClerc_descr" xml:space="preserve">
+    <value>For the total number of the player's enemy base capture points.</value>
+  </data>
+  <data name="medalLeClerc_heroInfo" xml:space="preserve">
+    <value>Philippe Leclerc was a General of the Free French Forces during WWII and one of the leaders of the Paris liberation operation.</value>
+  </data>
+  <data name="medalLehvaslaiho" xml:space="preserve">
+    <value>Lehväslaiho's Medal</value>
+  </data>
+  <data name="medalLehvaslaiho_condition" xml:space="preserve">
+    <value>• The enemy vehicles must be at least 1 tier higher.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalLehvaslaiho_descr" xml:space="preserve">
+    <value>Destroy 2 enemy tanks or tank destroyers with a medium tank in one battle.</value>
+  </data>
+  <data name="medalLehvaslaiho_heroInfo" xml:space="preserve">
+    <value>Reino Lehväslaiho was a Finnish tank ace who destroyed seven tanks and tank destroyers.</value>
+  </data>
+  <data name="medalMonolith" xml:space="preserve">
+    <value>Rock Solid</value>
+  </data>
+  <data name="medalMonolith_condition" xml:space="preserve">
+    <value>• SPG's speed must be less than 10 km/h.
+• The speed of the enemy vehicle that rammed you must exceed the speed of your SPG.
+• The player must not destroy any allied vehicles.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalMonolith_descr" xml:space="preserve">
+    <value>While driving an SPG, destroy an enemy vehicle by ramming and survive the battle.</value>
+  </data>
+  <data name="medalNikolas" xml:space="preserve">
+    <value>Nicols's Medal</value>
+  </data>
+  <data name="medalNikolas_condition" xml:space="preserve">
+    <value>• The enemy vehicles must be at least 1 tier higher.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalNikolas_descr" xml:space="preserve">
+    <value>Destroy at least 4 enemy tanks or tank destroyers with a medium tank in one battle.</value>
+  </data>
+  <data name="medalNikolas_heroInfo" xml:space="preserve">
+    <value>Alfie Nicols was a British tank gunner. During the battle of Al Alamein he destroyed fourteen enemy vehicles.</value>
+  </data>
+  <data name="medalOrlik" xml:space="preserve">
+    <value>Orlik's Medal</value>
+  </data>
+  <data name="medalOrlik_condition" xml:space="preserve">
+    <value>• The enemy vehicles must be at least 1 tier higher.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalOrlik_descr" xml:space="preserve">
+    <value>Destroy 2 or more enemy tanks or tank destroyers in a light tank in one battle.</value>
+  </data>
+  <data name="medalOrlik_heroInfo" xml:space="preserve">
+    <value>Roman Edmund Orlik, a Polish Army sergeant, was a tank ace who knocked out 13 German tanks with his light TKS tankette in September 1939.</value>
+  </data>
+  <data name="medalOskin" xml:space="preserve">
+    <value>Oskin's Medal</value>
+  </data>
+  <data name="medalOskin_condition" xml:space="preserve">
+    <value>• The enemy vehicles must be at least 1 tier higher.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalOskin_descr" xml:space="preserve">
+    <value>Destroy at least 3 enemy tanks or tank destroyers with a medium tank in one battle.</value>
+  </data>
+  <data name="medalOskin_heroInfo" xml:space="preserve">
+    <value>Alexander Oskin, a Hero of the Soviet Union, was a tank commander who destroyed three King Tigers with his T-34 during a reconnaissance operation near Oglenduv on August 11th, 1944.</value>
+  </data>
+  <data name="medalPascucci" xml:space="preserve">
+    <value>Pascucci's Medal</value>
+  </data>
+  <data name="medalPascucci_condition" xml:space="preserve">
+    <value>• Drive a tank or a tank destroyer.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalPascucci_descr" xml:space="preserve">
+    <value>Destroy 2 enemy SPGs in one battle.</value>
+  </data>
+  <data name="medalPascucci_heroInfo" xml:space="preserve">
+    <value>Second Lieutenant Luigi Arbib Pascucci was an Italian tank commander during World War Two. He fought with the Ariete Tank Division in North Africa. Pascucci fought in the Second Battle of El Alamein, where he sacrificed his life in a reckless frontal attack that enabled the rest of his company to escape encirclement.</value>
+  </data>
+  <data name="medalPoppel" xml:space="preserve">
+    <value>Popel's Medal %(rank)s</value>
+  </data>
+  <data name="medalPoppel_descr" xml:space="preserve">
+    <value>For the number of enemy vehicles detected.</value>
+  </data>
+  <data name="medalPoppel_heroInfo" xml:space="preserve">
+    <value>Lieutenant General of Tank Forces Nikolay Popel, a Soviet military leader and political officer, organized a raid against the enemy rear using captured vehicles during the battle of Dubno (Ukraine) in the summer of 1941.</value>
+  </data>
+  <data name="medalRadleyWalters" xml:space="preserve">
+    <value>Radley-Walters's Medal</value>
+  </data>
+  <data name="medalRadleyWalters_condition" xml:space="preserve">
+    <value>• In vehicles of at least Tier V.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalRadleyWalters_descr" xml:space="preserve">
+    <value>Destroy enemy vehicles:
+&lt;FONT COLOR="#FFFFFF"&gt;8–9&lt;/FONT&gt; in Standard Battle, Assault and Encounter Battle.
+&lt;FONT COLOR="#FFFFFF"&gt;10–12&lt;/FONT&gt; in Grand Battle.</value>
+  </data>
+  <data name="medalRadleyWalters_heroInfo" xml:space="preserve">
+    <value>Sydney Valpy Radley-Walters was a Canadian tank ace of the 27th Armored Regiment. In 1944–1945 he destroyed 18 German vehicles with his Sherman Firefly.</value>
+  </data>
+  <data name="medalRotmistrov" xml:space="preserve">
+    <value>Rotmistrov's Medal %(rank)s</value>
+  </data>
+  <data name="medalRotmistrov_descr" xml:space="preserve">
+    <value>For the number of battles fought in Clan Wars.</value>
+  </data>
+  <data name="medalRotmistrov_heroInfo" xml:space="preserve">
+    <value>Pavel Rotmistrov, a Hero of the Soviet Union, was a commander of armored units during World War II. Later he became the Chief Marshal of Armored Forces of the Soviet Union.</value>
+  </data>
+  <data name="medalStark" xml:space="preserve">
+    <value>Stark's Medal</value>
+  </data>
+  <data name="medalStark_condition" xml:space="preserve">
+    <value>• Survive a battle.
+• Total amount of damage received and damage blocked by armor must be at least 2/3 of the hit points of your vehicle.
+• Hitting allied vehicles is not counted.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalStark_descr" xml:space="preserve">
+    <value>While driving an SPG, destroy at least 2 enemy vehicles and receive at least 2 enemy hits that cause damage or are blocked by armor.</value>
+  </data>
+  <data name="medalStark_heroInfo" xml:space="preserve">
+    <value>Colonel Alexander Stark commanded the joint French-American task force defending the Kasserine Pass, Tunisia. On 19 February, 1943, Stark's force unleashed heavy artillery fire from the heights surrounding the pass and was able to delay the advancing tank batallion and two infantry batallions of the Wehrmacht Africa Korps, forcing them to request reinforcements.</value>
+  </data>
+  <data name="medalTamadaYoshio" xml:space="preserve">
+    <value>Yoshio Tamada's Medal</value>
+  </data>
+  <data name="medalTamadaYoshio_condition" xml:space="preserve">
+    <value>• Survive the battle.
+• Destroyed enemy vehicles must be one tier higher than the player's tank.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalTamadaYoshio_descr" xml:space="preserve">
+    <value>Destroy at least 2 enemy SPGs in a light tank in one battle.</value>
+  </data>
+  <data name="medalTamadaYoshio_heroInfo" xml:space="preserve">
+    <value>Colonel Yoshio Tamada was the commander-in-chief of the 4th Armored Regiment of the Kwantung Army. During the night battle of Khalkhyn Gol on July 2–3, 1939, he destroyed 4 batteries of 122-mm howitzers, 107-mm guns, 76.2-mm field guns, 10 armored vehicles, 2 armored tracked vehicles, 7 anti-tank guns, 5 mortars, and 20 enemy trucks.</value>
+  </data>
+  <data name="medalTarczay" xml:space="preserve">
+    <value>Tarczay's Medal</value>
+  </data>
+  <data name="medalTarczay_condition" xml:space="preserve">
+    <value>• Survive and win the battle.
+• Destroyed enemy vehicles count after all damage is received.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="medalTarczay_descr" xml:space="preserve">
+    <value>Destroy at least 5 enemy vehicles while having 5 different modules damaged or crew members injured and losing 80% of hit points.</value>
+  </data>
+  <data name="medalTarczay_heroInfo" xml:space="preserve">
+    <value>Ervin Tarczay was a Hungarian tank ace. He fought with the Hungarian 2nd Armored Division and destroyed at least ten enemy vehicles.</value>
+  </data>
+  <data name="medalWittmann" xml:space="preserve">
+    <value>Bölter's Medal</value>
+  </data>
+  <data name="medalWittmann_condition" xml:space="preserve">
+    <value>• The targets had to be enemy vehicles of Tiers IV-X.
+• Awarded before the release of version 0.8.0.</value>
+  </data>
+  <data name="medalWittmann_descr" xml:space="preserve">
+    <value>Destroy 7 or more enemy vehicles with a tank or tank destroyer, or 10 or more vehicles with a self-propelled gun.</value>
+  </data>
+  <data name="medalWittmann_heroInfo" xml:space="preserve">
+    <value>Johannes Bölter was one of the most successful German tank aces of WWII. He participated in operations in the invasions of Poland, France, Greece, and the Soviet Union, as well as in the defense of France.</value>
+  </data>
+  <data name="moonSphere" xml:space="preserve">
+    <value>Trickshot</value>
+  </data>
+  <data name="moonSphere_condition" xml:space="preserve">
+    <value>• Awarded to all members of a victorious team during the special event.
+• Only one award for all battles fought can be received.</value>
+  </data>
+  <data name="moonSphere_descr" xml:space="preserve">
+    <value>Win a battle during the Moon Mayhem special event.</value>
+  </data>
+  <data name="mousebane" xml:space="preserve">
+    <value>Mouse Trap</value>
+  </data>
+  <data name="mousebane_condition" xml:space="preserve">
+    <value>• Total results in all vehicles are included.
+• Newly received awards are added together.
+• Vehicles destroyed in Random Battles, Team Battles, Ranked Battles, Tank Company Battles, Advances, and in battles on the Global Map are counted.</value>
+  </data>
+  <data name="mousebane_descr" xml:space="preserve">
+    <value>Destroy 10 or more Pz.Kpfw. VIII Maus tanks.</value>
+  </data>
+  <data name="noMansLand" xml:space="preserve">
+    <value>Scorched Earth</value>
+  </data>
+  <data name="noMansLand_condition" xml:space="preserve">
+    <value>• Awarded to all members of both teams.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="noMansLand_descr" xml:space="preserve">
+    <value>End a battle in a draw where both teams are completely destroyed.</value>
+  </data>
+  <data name="operationWinter" xml:space="preserve">
+    <value>Operation Winter</value>
+  </data>
+  <data name="operationWinter_condition" xml:space="preserve">
+    <value>• Awarded to all members of a victorious team during the winter event.
+• Only one award for all battles fought could be received.
+• Could only be obtained in Random Battles.</value>
+  </data>
+  <data name="operationWinter_descr" xml:space="preserve">
+    <value>Win the battle.</value>
+  </data>
+  <data name="pattonValley" xml:space="preserve">
+    <value>Valley of Pattons</value>
+  </data>
+  <data name="pattonValley_condition" xml:space="preserve">
+    <value>	• M46 Patton
+	• M46 Patton KR
+	• M48A1 Patton III
+	• M48A2/T54E2/T123E6
+	• M60
+
+• Series achieved in all vehicles are added together.
+• Newly received awards are added together.
+• Vehicles destroyed in Random Battles, Team Battles, Ranked Battles, Tank Company Battles, Advances, and in battles on the Global Map are counted.</value>
+  </data>
+  <data name="pattonValley_descr" xml:space="preserve">
+    <value>Destroy 100 Patton tanks, including:</value>
+  </data>
+  <data name="predator" xml:space="preserve">
+    <value>Predator</value>
+  </data>
+  <data name="predator_condition" xml:space="preserve">
+    <value>• Enemy vehicles destroyed by Combat Reserves were also counted.
+• Could only be obtained in a battle of Domination in the Rampage mode.</value>
+  </data>
+  <data name="predator_descr" xml:space="preserve">
+    <value>Destroy at least 5 enemy vehicles.</value>
+  </data>
+  <data name="prematureDetonationMedal" xml:space="preserve">
+    <value>Achille’s Heel</value>
+  </data>
+  <data name="prematureDetonationMedal_condition" xml:space="preserve">
+    <value>• Newly received awards are added together.
+• Can only be obtained in Team Battles.</value>
+  </data>
+  <data name="prematureDetonationMedal_descr" xml:space="preserve">
+    <value>Destroy 10 enemy vehicles by causing their ammunition to explode.</value>
+  </data>
+  <data name="promisingFighterMedal" xml:space="preserve">
+    <value>Promising Fighter</value>
+  </data>
+  <data name="promisingFighterMedal_condition" xml:space="preserve">
+    <value>• Newly received awards are added together.
+• Only victorious battles are counted.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="promisingFighterMedal_descr" xml:space="preserve">
+    <value>In 100 battles, be among the top three players by experience earned.</value>
+  </data>
+  <data name="pyromaniacMedal" xml:space="preserve">
+    <value>Pyromaniac</value>
+  </data>
+  <data name="pyromaniacMedal_condition" xml:space="preserve">
+    <value>• Newly received awards are added together.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="pyromaniacMedal_descr" xml:space="preserve">
+    <value>Set 10 enemy vehicles on fire.</value>
+  </data>
+  <data name="raider" xml:space="preserve">
+    <value>Raider</value>
+  </data>
+  <data name="raider_condition" xml:space="preserve">
+    <value>• The achievement is awarded upon successful base capture.
+• Remain within the base circle while attempting to capture the enemy base.
+• The achievement is awarded even if the vehicle was accidentally hit or damaged.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="raider_descr" xml:space="preserve">
+    <value>Remain undetected throughout the entire battle and be the only player who captures the enemy base.</value>
+  </data>
+  <data name="rangerMedal" xml:space="preserve">
+    <value>Ranger</value>
+  </data>
+  <data name="rangerMedal_condition" xml:space="preserve">
+    <value>• Newly received awards are added together.
+• Only hits that cause damage are counted.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="rangerMedal_descr" xml:space="preserve">
+    <value>Damage or destroy enemy vehicles not visible to the player, 10 times.</value>
+  </data>
+  <data name="rankedBattlesPioneer" xml:space="preserve">
+    <value>Ranked Battles Pioneer</value>
+  </data>
+  <data name="rankedBattlesPioneer_condition" xml:space="preserve">
+    <value>• Points are earned when a rank is received.
+• The total number of points for all stages is counted.
+• Awarded to all players who earned at least 4 points during the Ranked Battles Beta Season.
+• Awarded at the end of the season.</value>
+  </data>
+  <data name="rankedBattlesPioneer_descr" xml:space="preserve">
+    <value>Earn at least 4 points during the season.</value>
+  </data>
+  <data name="rare100003" xml:space="preserve">
+    <value>The Maus Reborn</value>
+  </data>
+  <data name="rare100003_condition" xml:space="preserve">
+    <value>• Can be obtained by any participant in the project "The Maus Reborn."</value>
+  </data>
+  <data name="rare100003_descr" xml:space="preserve">
+    <value>For contribution and participation in the restoration of the Maus tank in the Central Museum of Armored Fighting Vehicles in Kubinka.</value>
+  </data>
+  <data name="readyForBattleALL" xml:space="preserve">
+    <value>With Guns Blazing</value>
+  </data>
+  <data name="readyForBattleALL_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleALL_descr" xml:space="preserve">
+    <value>Receive the Exemplary Performance award for all vehicle types during the Long-Awaited Backup campaign.</value>
+  </data>
+  <data name="readyForBattleALL_notification1" xml:space="preserve">
+    <value>Receive the Exemplary Performance Class I award for all vehicle types. Reward: With Guns Blazing medal, Class I.</value>
+  </data>
+  <data name="readyForBattleALL_notification2" xml:space="preserve">
+    <value>Receive the Exemplary Performance Class II award for all vehicle types. Reward: With Guns Blazing medal, Class II.</value>
+  </data>
+  <data name="readyForBattleALL_notification3" xml:space="preserve">
+    <value>Receive the Exemplary Performance Class III award for all vehicle types. Reward: With Guns Blazing medal, Class III.</value>
+  </data>
+  <data name="readyForBattleALL_notification4" xml:space="preserve">
+    <value>Receive the Exemplary Performance Class IV award for all vehicle types. Reward: With Guns Blazing medal, Class IV.</value>
+  </data>
+  <data name="readyForBattleATSPG" xml:space="preserve">
+    <value>Exemplary Performance: Tank Destroyers</value>
+  </data>
+  <data name="readyForBattleATSPG_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleATSPG_descr" xml:space="preserve">
+    <value>For completion with honors of personal missions for tank destroyers during the Long-Awaited Backup campaign.</value>
+  </data>
+  <data name="readyForBattleATSPG_notification1" xml:space="preserve">
+    <value>Complete with honors 60 personal missions for tank destroyers. Reward: Exemplary Performance: Tank Destroyers medal, I Class.</value>
+  </data>
+  <data name="readyForBattleATSPG_notification2" xml:space="preserve">
+    <value>Complete with honors 45 personal missions for tank destroyers. Reward: Exemplary Performance: Tank Destroyers medal, II Class.</value>
+  </data>
+  <data name="readyForBattleATSPG_notification3" xml:space="preserve">
+    <value>Complete with honors 30 personal missions for tank destroyers. Reward: Exemplary Performance: Tank Destroyers medal, III Class.</value>
+  </data>
+  <data name="readyForBattleATSPG_notification4" xml:space="preserve">
+    <value>Complete with honors 15 personal missions for tank destroyers. Reward: Exemplary Performance: Tank Destroyers medal, IV Class.</value>
+  </data>
+  <data name="readyForBattleHT" xml:space="preserve">
+    <value>Exemplary Performance: Heavy Tanks</value>
+  </data>
+  <data name="readyForBattleHT_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleHT_descr" xml:space="preserve">
+    <value>For completion with honors of personal missions for heavy tanks during the Long-Awaited Backup campaign.</value>
+  </data>
+  <data name="readyForBattleHT_notification1" xml:space="preserve">
+    <value>Complete with honors 60 personal missions for heavy tanks. Reward: Exemplary Performance: Heavy Tanks medal, I Class.</value>
+  </data>
+  <data name="readyForBattleHT_notification2" xml:space="preserve">
+    <value>Complete with honors 45 personal missions for heavy tanks. Reward: Exemplary Performance: Heavy Tanks medal, II Class.</value>
+  </data>
+  <data name="readyForBattleHT_notification3" xml:space="preserve">
+    <value>Complete with honors 30 personal missions for heavy tanks. Reward: Exemplary Performance: Heavy Tanks medal, III Class.</value>
+  </data>
+  <data name="readyForBattleHT_notification4" xml:space="preserve">
+    <value>Complete with honors 15 personal missions for heavy tanks. Reward: Exemplary Performance: Heavy Tanks medal, IV Class.</value>
+  </data>
+  <data name="readyForBattleLT" xml:space="preserve">
+    <value>Exemplary Performance: Light Tanks</value>
+  </data>
+  <data name="readyForBattleLT_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleLT_descr" xml:space="preserve">
+    <value>For completion with honors of personal missions for light tanks during the Long-Awaited Backup campaign.</value>
+  </data>
+  <data name="readyForBattleLT_notification1" xml:space="preserve">
+    <value>Complete with honors 60 personal missions for light tanks. Reward: Exemplary Performance: Light Tanks medal, I Class.</value>
+  </data>
+  <data name="readyForBattleLT_notification2" xml:space="preserve">
+    <value>Complete with honors 45 personal missions for light tanks. Reward: Exemplary Performance: Light Tanks medal, II Class.</value>
+  </data>
+  <data name="readyForBattleLT_notification3" xml:space="preserve">
+    <value>Complete with honors 30 personal missions for light tanks. Reward: Exemplary Performance: Light Tanks medal, III Class.</value>
+  </data>
+  <data name="readyForBattleLT_notification4" xml:space="preserve">
+    <value>Complete with honors 15 personal missions for light tanks. Reward: Exemplary Performance: Light Tanks medal, IV Class.</value>
+  </data>
+  <data name="readyForBattleMT" xml:space="preserve">
+    <value>Exemplary Performance: Medium Tanks</value>
+  </data>
+  <data name="readyForBattleMT_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleMT_descr" xml:space="preserve">
+    <value>For completion with honors of personal missions for medium tanks during the Long-Awaited Backup campaign.</value>
+  </data>
+  <data name="readyForBattleMT_notification1" xml:space="preserve">
+    <value>Complete with honors 60 personal missions for medium tanks. Reward: Exemplary Performance: Medium Tanks medal, I Class.</value>
+  </data>
+  <data name="readyForBattleMT_notification2" xml:space="preserve">
+    <value>Complete with honors 45 personal missions for medium tanks. Reward: Exemplary Performance: Medium Tanks medal, II Class.</value>
+  </data>
+  <data name="readyForBattleMT_notification3" xml:space="preserve">
+    <value>Complete with honors 30 personal missions for medium tanks. Reward: Exemplary Performance: Medium Tanks medal, III Class.</value>
+  </data>
+  <data name="readyForBattleMT_notification4" xml:space="preserve">
+    <value>Complete with honors 15 personal missions for medium tanks. Reward: Exemplary Performance: Medium Tanks medal, IV Class.</value>
+  </data>
+  <data name="readyForBattleSPG" xml:space="preserve">
+    <value>Exemplary Performance: SPGs</value>
+  </data>
+  <data name="readyForBattleSPG_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleSPG_descr" xml:space="preserve">
+    <value>For completion with honors of personal missions for SPGs during the Long-Awaited Backup campaign.</value>
+  </data>
+  <data name="readyForBattleSPG_notification1" xml:space="preserve">
+    <value>Complete with honors 60 personal missions for SPGs. Reward: Exemplary Performance: SPG medal, I Class.</value>
+  </data>
+  <data name="readyForBattleSPG_notification2" xml:space="preserve">
+    <value>Complete with honors 45 personal missions for SPGs. Reward: Exemplary Performance: SPG medal, II Class.</value>
+  </data>
+  <data name="readyForBattleSPG_notification3" xml:space="preserve">
+    <value>Complete with honors 30 personal missions for SPGs. Reward: Exemplary Performance: SPG medal, III Class.</value>
+  </data>
+  <data name="readyForBattleSPG_notification4" xml:space="preserve">
+    <value>Complete with honors 15 personal missions for SPGs. Reward: Exemplary Performance: SPG medal, IV Class.</value>
+  </data>
+  <data name="reliableComrade" xml:space="preserve">
+    <value>Battle Buddy</value>
+  </data>
+  <data name="reliableComrade_condition" xml:space="preserve">
+    <value>• Hits on modules with no damage caused to them are not included.
+• Ricochets and non-penetrating hits are not included.
+• The series is interrupted by any actions that cause damage to allied vehicles.
+• The series can continue while driving any vehicle.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="reliableComrade_descr" xml:space="preserve">
+    <value>Do not cause any damage to allies for 50 battles.</value>
+  </data>
+  <data name="scout" xml:space="preserve">
+    <value>Scout</value>
+  </data>
+  <data name="scout_condition" xml:space="preserve">
+    <value>• Win the battle.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="scout_descr" xml:space="preserve">
+    <value>Detect at least 9 enemy vehicles.</value>
+  </data>
+  <data name="secretOperations" xml:space="preserve">
+    <value>Sudden Strike</value>
+  </data>
+  <data name="secretOperations_condition" xml:space="preserve">
+    <value>• All vehicles participating in the enemy base capture must survive the battle and earn base capture points.
+• Enemy must not reduce any capture points of their base.
+• Victories in training are not counted.
+• Can be obtained in Ranked Team Battles only.</value>
+  </data>
+  <data name="secretOperations_descr" xml:space="preserve">
+    <value>Win the battle by capturing the enemy base with a group of at least 2 allied vehicles or with at least 1 vehicle of each team capturing both bases at the same time.</value>
+  </data>
+  <data name="sentinelMedal" xml:space="preserve">
+    <value>Sentinel</value>
+  </data>
+  <data name="sentinelMedal_condition" xml:space="preserve">
+    <value>• Only victorious battles are counted.
+• Newly received awards are added together.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="sentinelMedal_descr" xml:space="preserve">
+    <value>Earn at least 1,000 base defense points.</value>
+  </data>
+  <data name="shootToKill" xml:space="preserve">
+    <value>Fire for Effect</value>
+  </data>
+  <data name="shootToKill_condition" xml:space="preserve">
+    <value>• Damage caused by ramming or setting enemy vehicle on fire is included.
+• Unavailable for SPGs.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="shootToKill_descr" xml:space="preserve">
+    <value>Cause more damage to enemy vehicles than the hit points of your vehicle.</value>
+  </data>
+  <data name="shoulderToShoulder" xml:space="preserve">
+    <value>United We Stand</value>
+  </data>
+  <data name="shoulderToShoulder_condition" xml:space="preserve">
+    <value>• Was awarded for causing at least 30,000 HP of damage to enemy vehicles.
+• Damage caused with Combat Reserves was also counted.
+• Was awarded to all Platoon members in the Rampage mode.</value>
+  </data>
+  <data name="shoulderToShoulder_descr" xml:space="preserve">
+    <value>As a Platoon, destroy 12 or more enemy vehicles.</value>
+  </data>
+  <data name="sinai" xml:space="preserve">
+    <value>The Lion of Sinai</value>
+  </data>
+  <data name="sinai_condition" xml:space="preserve">
+    <value>• IS, IS-2, IS-3, IS-3A, IS-4, IS-5, IS-6, IS-7, Kirovets-1, T-10
+
+• ISU-122S, ISU-130, ISU-152
+
+• Object&amp;nbsp;252U, Defender, Object&amp;nbsp;260, Object&amp;nbsp;261, Object&amp;nbsp;263, Object&amp;nbsp;268, Object&amp;nbsp;704
+
+• Only U.S.S.R. vehicles are included.
+• Series achieved in all vehicles are added together.
+• Newly received awards are added together.
+• Vehicles destroyed in Random Battles, Team Battles, Ranked Battles, Advances, and in battles on the Global Map are counted.</value>
+  </data>
+  <data name="sinai_descr" xml:space="preserve">
+    <value>Destroy at least 100 tanks of the IS series and vehicles based on their chassis, including:</value>
+  </data>
+  <data name="sniper" xml:space="preserve">
+    <value>Sniper</value>
+  </data>
+  <data name="sniper2" xml:space="preserve">
+    <value>Tank Sniper</value>
+  </data>
+  <data name="sniper2_condition" xml:space="preserve">
+    <value>• Fire at least 8 shots.
+• Firing accuracy must be at least 85% per battle.
+• At least 80% of hits must cause damage, including damage to enemy vehicles and modules.
+• Damage caused from a distance of more than 300 meters must exceed the hit points of the player's vehicle, at least 1,000 HP.
+• The player must not hit any allies with direct shots.
+• Unavailable for SPGs.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="sniper2_descr" xml:space="preserve">
+    <value>Cause the highest damage in a battle at a distance of at least 300 meters.</value>
+  </data>
+  <data name="sniper_condition" xml:space="preserve">
+    <value>• Non-penetrating hits were included.
+• Direct hits on friendly vehicles were not allowed.
+• If two or more players had identical hit ratios, the achievement was awarded to the player with the highest number of hits.
+• If two or more players had identical hit ratios and the same number of hits, the achievement was awarded to the player who had earned more XP for the battle.
+• The achievement could only be awarded once per battle.
+• Can be obtained in Random Battles only.
+• Awarded before the release of 0.8.11 version.</value>
+  </data>
+  <data name="sniper_descr" xml:space="preserve">
+    <value>Achieve at least 85% hits out of a minimum of 10 shots fired with potential damage of 1,000 HP or more.</value>
+  </data>
+  <data name="soldierOfFortune" xml:space="preserve">
+    <value>Soldier of Fortune %(rank)s</value>
+  </data>
+  <data name="soldierOfFortune_condition" xml:space="preserve">
+    <value>• Personal achievement.</value>
+  </data>
+  <data name="soldierOfFortune_descr" xml:space="preserve">
+    <value>For the number of victories in Skirmishes.</value>
+  </data>
+  <data name="steelwall" xml:space="preserve">
+    <value>Steel Wall</value>
+  </data>
+  <data name="steelwall_condition" xml:space="preserve">
+    <value>• Survive the battle.
+• Receive at least 11 hits.
+• The amount of damage received and damage blocked by armor must be at least 1,000 HP.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="steelwall_descr" xml:space="preserve">
+    <value>Receive the highest damage blocked by armor.</value>
+  </data>
+  <data name="stormLord" xml:space="preserve">
+    <value>Valkyrie %(rank)s</value>
+  </data>
+  <data name="stormLord_condition" xml:space="preserve">
+    <value>• Could only be obtained in the Rampage mode.</value>
+  </data>
+  <data name="stormLord_descr" xml:space="preserve">
+    <value>For the number of enemy vehicles destroyed by Combat Reserves</value>
+  </data>
+  <data name="strategicOperations" xml:space="preserve">
+    <value>For Strategic Operations %(rank)s</value>
+  </data>
+  <data name="strategicOperations_condition" xml:space="preserve">
+    <value>• Victories in training are not counted.
+• Displayed in team achievements only.
+• Can be obtained in Ranked Team Battles only.</value>
+  </data>
+  <data name="strategicOperations_descr" xml:space="preserve">
+    <value>For the number of victories on a Permanent Team.</value>
+  </data>
+  <data name="sturdy" xml:space="preserve">
+    <value>Spartan</value>
+  </data>
+  <data name="sturdy_condition" xml:space="preserve">
+    <value>• Survive the battle.
+• Hits to external modules are not counted.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="sturdy_descr" xml:space="preserve">
+    <value>Survive a ricochet or non-penetrating hit from an enemy team player. Your vehicle must have less than 10% of its hit points left.</value>
+  </data>
+  <data name="supporter" xml:space="preserve">
+    <value>Confederate</value>
+  </data>
+  <data name="supporter_condition" xml:space="preserve">
+    <value>• Targets that were destroyed by other players or lost in battle are included.
+• Ricochets and non-penetrating hits are not included.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="supporter_descr" xml:space="preserve">
+    <value>Cause damage or critical hits to more enemy vehicles, at least 6, than any other player.</value>
+  </data>
+  <data name="tacticalAdvantage" xml:space="preserve">
+    <value>Tactical Superiority</value>
+  </data>
+  <data name="tacticalAdvantage_condition" xml:space="preserve">
+    <value>• Win the battle.
+• Awarded to all members of the victorious team in a battle.
+• The vehicle lost in battle must not be higher than Tier VII.
+• Victories in training are not counted.
+• Can be obtained in Ranked Team Battles only.</value>
+  </data>
+  <data name="tacticalAdvantage_descr" xml:space="preserve">
+    <value>Destroy all enemy vehicles while losing only one vehicle of the lowest tier on your team.</value>
+  </data>
+  <data name="tacticalBreakthrough" xml:space="preserve">
+    <value>Tactical Genius</value>
+  </data>
+  <data name="tacticalBreakthrough_condition" xml:space="preserve">
+    <value>• Every vehicle has its own series. An unbroken series continues in the next battle using the same vehicle.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="tacticalBreakthrough_descr" xml:space="preserve">
+    <value>Win at least 3 battles in a row as a member of a random team.</value>
+  </data>
+  <data name="tacticalSkill" xml:space="preserve">
+    <value>Tactical Supremacy</value>
+  </data>
+  <data name="tacticalSkill_condition" xml:space="preserve">
+    <value>• Awarded to all members of the victorious team in a battle.
+• Victories in training are not counted.
+• Can be obtained in Ranked Team Battles only.</value>
+  </data>
+  <data name="tacticalSkill_descr" xml:space="preserve">
+    <value>Win the battle by destroying all enemy vehicles while not losing any allied vehicles.</value>
+  </data>
+  <data name="tankExpert" xml:space="preserve">
+    <value>Master Tanker</value>
+  </data>
+  <data name="tankExpert0" xml:space="preserve">
+    <value>Expert: U.S.S.R.</value>
+  </data>
+  <data name="tankExpert0_descr" xml:space="preserve">
+    <value>Destroy all vehicles from the U.S.S.R. Tech Tree except Premium and award vehicles.
+• Vehicles destroyed in Random Battles, Team Battles, Tank Company Battles, Advances, battles on the Global Map, and the Proving Ground mode (first 10 battles) are counted.</value>
+  </data>
+  <data name="tankExpert1" xml:space="preserve">
+    <value>Expert: Germany</value>
+  </data>
+  <data name="tankExpert1_descr" xml:space="preserve">
+    <value>Destroy all vehicles from the Germany Tech Tree except Premium and award vehicles.
+• Vehicles destroyed in Random Battles, Team Battles, Tank Company Battles, Advances, battles on the Global Map, and the Proving Ground mode (first 10 battles) are counted.</value>
+  </data>
+  <data name="tankExpert2" xml:space="preserve">
+    <value>Expert: U.S.A.</value>
+  </data>
+  <data name="tankExpert2_descr" xml:space="preserve">
+    <value>Destroy all vehicles from the U.S.A. Tech Tree except Premium and award vehicles.
+• Vehicles destroyed in Random Battles, Team Battles, Tank Company Battles, Advances, battles on the Global Map, and the Proving Ground mode (first 10 battles) are counted.</value>
+  </data>
+  <data name="tankExpert3" xml:space="preserve">
+    <value>Expert: China</value>
+  </data>
+  <data name="tankExpert3_descr" xml:space="preserve">
+    <value>Destroy all vehicles from the China Tech Tree except Premium and award vehicles.
+• Vehicles destroyed in Random Battles, Team Battles, Tank Company Battles, Advances, battles on the Global Map, and the Proving Ground mode (first 10 battles) are counted.</value>
+  </data>
+  <data name="tankExpert4" xml:space="preserve">
+    <value>Expert: France</value>
+  </data>
+  <data name="tankExpert4_descr" xml:space="preserve">
+    <value>Destroy all vehicles from the France Tech Tree except Premium and award vehicles.
+• Vehicles destroyed in Random Battles, Team Battles, Tank Company Battles, Advances, battles on the Global Map, and the Proving Ground mode (first 10 battles) are counted.</value>
+  </data>
+  <data name="tankExpert5" xml:space="preserve">
+    <value>Expert: U.K.</value>
+  </data>
+  <data name="tankExpert5_descr" xml:space="preserve">
+    <value>Destroy all vehicles from the U.K. Tech Tree except Premium and award vehicles.
+• Vehicles destroyed in Random Battles, Team Battles, Tank Company Battles, Advances, battles on the Global Map, and the Proving Ground mode (first 10 battles) are counted.</value>
+  </data>
+  <data name="tankExpert6" xml:space="preserve">
+    <value>Expert: Japan</value>
+  </data>
+  <data name="tankExpert6_descr" xml:space="preserve">
+    <value>Destroy all vehicles from the Japan Tech Tree except Premium and award vehicles.
+• Vehicles destroyed in Random Battles, Team Battles, Tank Company Battles, Advances, battles on the Global Map, and the Proving Ground mode (first 10 battles) are counted.</value>
+  </data>
+  <data name="tankExpert7" xml:space="preserve">
+    <value>Expert: Czechoslovakia</value>
+  </data>
+  <data name="tankExpert7_descr" xml:space="preserve">
+    <value>Destroy all vehicles from the Czechoslovakia Tech Tree except Premium and award vehicles.
+• Vehicles destroyed in Random Battles, Team Battles, Tank Company Battles, Advances, battles on the Global Map, and the Proving Ground mode (first 10 battles) are counted.</value>
+  </data>
+  <data name="tankExpert8" xml:space="preserve">
+    <value>Expert: Sweden</value>
+  </data>
+  <data name="tankExpert8_descr" xml:space="preserve">
+    <value>Destroy all vehicles from the Sweden Tech Tree except Premium and award vehicles.
+• Vehicles destroyed in Random Battles, Team Battles, Tank Company Battles, Advances, battles on the Global Map, and the Proving Ground mode (first 10 battles) are counted.</value>
+  </data>
+  <data name="tankExpert_descr" xml:space="preserve">
+    <value>Destroy all vehicles from each nation's Tech Trees except Premium and award vehicles.
+• Vehicles destroyed in Random Battles, Team Battles, Tank Company Battles, Advances, battles on the Global Map, and the Proving Ground mode (first 10 battles) are counted.</value>
+  </data>
+  <data name="tankwomen" xml:space="preserve">
+    <value>Women at War</value>
+  </data>
+  <data name="tankwomen_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="tankwomen_descr" xml:space="preserve">
+    <value>Recruit five female crew members.</value>
+  </data>
+  <data name="tankwomen_notification" xml:space="preserve">
+    <value>For recruiting a full female crew you receive the award: Women at War medal.</value>
+  </data>
+  <data name="testartilleryman" xml:space="preserve">
+    <value>Rocket Scientist</value>
+  </data>
+  <data name="testartilleryman_condition" xml:space="preserve">
+    <value>• Awarded during the 2015 April Fools event.</value>
+  </data>
+  <data name="testartilleryman_descr" xml:space="preserve">
+    <value>Complete a special mission and receive a secret weapon.</value>
+  </data>
+  <data name="titleSniper" xml:space="preserve">
+    <value>Sharpshooter</value>
+  </data>
+  <data name="titleSniper_condition" xml:space="preserve">
+    <value>• The series is broken by a miss.
+• Every vehicle has its own series that continues to the next battle using the same vehicle.
+• Only the longest series is counted.
+• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="titleSniper_descr" xml:space="preserve">
+    <value>Hit enemy vehicles with 10 or more consecutive shots.</value>
+  </data>
+  <data name="unreachable" xml:space="preserve">
+    <value>Hail to the King, Baby!</value>
+  </data>
+  <data name="unreachable_condition" xml:space="preserve">
+    <value>• Could only be obtained in a battle of Domination in the Rampage mode.</value>
+  </data>
+  <data name="unreachable_descr" xml:space="preserve">
+    <value>Earn more victory points than any other player in the battle.</value>
+  </data>
+  <data name="victoryMarch" xml:space="preserve">
+    <value>Victory March</value>
+  </data>
+  <data name="victoryMarch_condition" xml:space="preserve">
+    <value>• Victories in training are not counted.
+• Can be obtained in Ranked Team Battles only.</value>
+  </data>
+  <data name="victoryMarch_descr" xml:space="preserve">
+    <value>Win 3 battles in a row as a member of the same team.</value>
+  </data>
+  <data name="warrior" xml:space="preserve">
+    <value>Top Gun</value>
+  </data>
+  <data name="warrior_condition" xml:space="preserve">
+    <value>• Can be obtained in Random Battles only.</value>
+  </data>
+  <data name="warrior_descr" xml:space="preserve">
+    <value>Destroy enemy vehicles:
+&lt;FONT COLOR="#FFFFFF"&gt;6&lt;/FONT&gt; and more in Standard Battle, Assault and Encounter Battle.
+&lt;FONT COLOR="#FFFFFF"&gt;8&lt;/FONT&gt; and more in Grand Battle.</value>
+  </data>
+  <data name="whiteTiger" xml:space="preserve">
+    <value>White Tiger</value>
+  </data>
+  <data name="whiteTiger_condition" xml:space="preserve">
+    <value>• Unavailable since July 1, 2012.</value>
+  </data>
+  <data name="whiteTiger_descr" xml:space="preserve">
+    <value>Destroy a White Tiger phantom tank.</value>
+  </data>
+  <data name="willToWinSpirit" xml:space="preserve">
+    <value>Will-to-Win Spirit</value>
+  </data>
+  <data name="willToWinSpirit_condition" xml:space="preserve">
+    <value>• Newly received awards are added together.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="willToWinSpirit_descr" xml:space="preserve">
+    <value>Fight alone against at least 3 enemy vehicles and win the battle.</value>
+  </data>
+  <data name="winnerLaurels" xml:space="preserve">
+    <value>V for Victory %(rank)s</value>
+  </data>
+  <data name="winnerLaurels_condition" xml:space="preserve">
+    <value>• Could only be obtained in the Rampage mode.</value>
+  </data>
+  <data name="winnerLaurels_descr" xml:space="preserve">
+    <value>For the number of victory points earned</value>
+  </data>
+  <data name="wolfAmongSheepMedal" xml:space="preserve">
+    <value>Wolf Among Sheep</value>
+  </data>
+  <data name="wolfAmongSheepMedal_condition" xml:space="preserve">
+    <value>• Newly received awards are added together.
+• Can be obtained in Team Battles only.</value>
+  </data>
+  <data name="wolfAmongSheepMedal_descr" xml:space="preserve">
+    <value>Win 100 battles and be the top player by damage caused.</value>
+  </data>
+  <data name="xmasTreeBronze" xml:space="preserve">
+    <value>Bad Ace Tanker, Class III</value>
+  </data>
+  <data name="xmasTreeBronze_condition" xml:space="preserve">
+    <value>• You can enhance the Festive Atmosphere by putting more decorations on your New Year Tree and Snowitzer.
+• Awarded to all players, who fulfill all required conditions during the 2016–2017 New Year special.</value>
+  </data>
+  <data name="xmasTreeBronze_descr" xml:space="preserve">
+    <value>Reach Festive Atmosphere Level II by participating in the New Year special.</value>
+  </data>
+  <data name="xmasTreeBronze_notification" xml:space="preserve">
+    <value>For notable gallantry, demonstrated while reaching Festive Atmosphere Level II, you receive the Bad Ace Tanker, Class III award.</value>
+  </data>
+  <data name="xmasTreeGold" xml:space="preserve">
+    <value>Bad Ace Tanker, Class I</value>
+  </data>
+  <data name="xmasTreeGold_condition" xml:space="preserve">
+    <value>• You can enhance the Festive Atmosphere by putting more decorations on your New Year Tree and Snowitzer.
+• Awarded to all players, who fulfill all required conditions during the 2016–2017 New Year special.</value>
+  </data>
+  <data name="xmasTreeGold_descr" xml:space="preserve">
+    <value>Reach Festive Atmosphere Level X by participating in the New Year special.</value>
+  </data>
+  <data name="xmasTreeGold_notification" xml:space="preserve">
+    <value>For notable gallantry, demonstrated while reaching Festive Atmosphere Level X, you receive the Bad Ace Tanker, Class I award.</value>
+  </data>
+  <data name="xmasTreeSilver" xml:space="preserve">
+    <value>Bad Ace Tanker, Class II</value>
+  </data>
+  <data name="xmasTreeSilver_condition" xml:space="preserve">
+    <value>• You can enhance the Festive Atmosphere by putting more decorations on your New Year Tree and Snowitzer.
+• Awarded to all players, who fulfill all required conditions during the 2016–2017 New Year special.</value>
+  </data>
+  <data name="xmasTreeSilver_descr" xml:space="preserve">
+    <value>Reach Festive Atmosphere Level V by participating in the New Year special.</value>
+  </data>
+  <data name="xmasTreeSilver_notification" xml:space="preserve">
+    <value>For notable gallantry, demonstrated while reaching Festive Atmosphere Level V, you receive the Bad Ace Tanker, Class II award.</value>
+  </data>
+</root>

@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ClanListWindow/table/memberName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="ClanListWindow/table/monthMining" xml:space="preserve">
+    <value>За месяц</value>
+  </data>
+  <data name="ClanListWindow/table/role" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="ClanListWindow/table/weekMining" xml:space="preserve">
+    <value>За неделю</value>
+  </data>
+  <data name="disconnected/Warning" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="disconnected/WarningDescriptionCenterUnavailable" xml:space="preserve">
+    <value>Укрепрайон временно недоступен. Повторите попытку позже.</value>
+  </data>
+  <data name="disconnected/WarningDescriptionRoaming" xml:space="preserve">
+    <value>В роуминге Укрепрайон недоступен. Чтобы получить доступ к Укрепрайону, перейдите в свой регион.</value>
+  </data>
+  <data name="fortBattleRoom/listHeader/clanPlayers" xml:space="preserve">
+    <value>Соклановцы</value>
+  </data>
+  <data name="fortBattleRoom/listHeader/legionariesPlayers" xml:space="preserve">
+    <value>Легионеры</value>
+  </data>
+  <data name="mainWindow/maintenance/body" xml:space="preserve">
+    <value>Приносим извинения за доставленное неудобство.</value>
+  </data>
+  <data name="mainWindow/maintenance/button" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="mainWindow/maintenance/header" xml:space="preserve">
+    <value>Ошибка загрузки данных</value>
+  </data>
+  <data name="orders/ADDITIONAL_BRIEFING_2_0" xml:space="preserve">
+    <value>Дополнительный инструктаж</value>
+  </data>
+  <data name="orders/COMBAT_PAYMENTS_2_0" xml:space="preserve">
+    <value>Боевые выплаты</value>
+  </data>
+  <data name="orders/MILITARY_EXERCISES_2_0" xml:space="preserve">
+    <value>Военные учения</value>
+  </data>
+  <data name="orders/TACTICAL_TRAINING_2_0" xml:space="preserve">
+    <value>Тактическая подготовка</value>
+  </data>
+  <data name="rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon" xml:space="preserve">
+    <value>До начала боя &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt; минут</value>
+  </data>
+  <data name="rosterIntroWindow/introView/fortBattles/unavailable" xml:space="preserve">
+    <value>Время начала будет уточнено позднее</value>
+  </data>
+  <data name="sortie/introView/fortBattles/EndOfBattleSoon" xml:space="preserve">
+    <value>До завершения &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="sortie/introView/fortBattles/available" xml:space="preserve">
+    <value>Вылазки доступны</value>
+  </data>
+  <data name="sortie/introView/fortBattles/nextTimeOfBattle" xml:space="preserve">
+    <value>Ближайшая битва состоится %(nextDate)s</value>
+  </data>
+  <data name="sortie/introView/fortBattles/nextTimeOfBattleSoon" xml:space="preserve">
+    <value>До начала &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="sortie/introView/fortBattles/nextTimeOfBattleToday" xml:space="preserve">
+    <value>Начало сегодня в &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="sortie/introView/fortBattles/nextTimeOfBattleTomorrow" xml:space="preserve">
+    <value>Начало завтра в &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="sortie/introView/fortBattles/unavailable" xml:space="preserve">
+    <value>Время начала будет уточнено позднее</value>
+  </data>
+  <data name="sortie/introView/title" xml:space="preserve">
+    <value>Укрепрайон: сражения</value>
+  </data>
+  <data name="sortie/listView/enterBtn" xml:space="preserve">
+    <value>Записаться</value>
+  </data>
+  <data name="sortie/listView/enterText" xml:space="preserve">
+    <value>Вы можете записаться добровольцем</value>
+  </data>
+  <data name="sortie/listView/notSelected" xml:space="preserve">
+    <value>Выберите отряд из списка слева,
+чтобы увидеть подробное описание.</value>
+  </data>
+  <data name="sortie/listView/teamMembers" xml:space="preserve">
+    <value>Состав: %(current)s / %(max)s</value>
+  </data>
+  <data name="sortie/listView/teamVehiclesStub" xml:space="preserve">
+    <value>Техника:</value>
+  </data>
+  <data name="sortie/room/candidates" xml:space="preserve">
+    <value>Добровольцы</value>
+  </data>
+  <data name="sortie/room/chat" xml:space="preserve">
+    <value>Канал связи</value>
+  </data>
+  <data name="sortie/room/description" xml:space="preserve">
+    <value>Сформированный отряд вступает в бой со случайным кланом противника на нейтральной территории. Уровень используемой техники определяется выбранным дивизионом.</value>
+  </data>
+  <data name="sortie/room/fight" xml:space="preserve">
+    <value>В бой!</value>
+  </data>
+  <data name="sortie/room/inviteFriends" xml:space="preserve">
+    <value>Пригласить игроков</value>
+  </data>
+  <data name="sortie/room/leaveBtn" xml:space="preserve">
+    <value>К СПИСКУ ОТРЯДОВ</value>
+  </data>
+  <data name="sortie/room/level" xml:space="preserve">
+    <value>%(level)s уровень</value>
+  </data>
+  <data name="sortie/room/members" xml:space="preserve">
+    <value>Состав: %(current)s / %(max)s</value>
+  </data>
+  <data name="sortie/room/notReady" xml:space="preserve">
+    <value>Не готов</value>
+  </data>
+  <data name="sortie/room/ready" xml:space="preserve">
+    <value>Готов!</value>
+  </data>
+  <data name="sortie/room/title" xml:space="preserve">
+    <value>Отряд</value>
+  </data>
+  <data name="sortie/slot/emptySlot" xml:space="preserve">
+    <value>Свободно</value>
+  </data>
+  <data name="sortie/slot/takePlace" xml:space="preserve">
+    <value>Занять место</value>
+  </data>
+  <data name="sortie/vehicleSelector/description" xml:space="preserve">
+    <value>Выберите машину, на которой хотите провести Вылазку. Красный индикатор означает, что техника не готова к бою.</value>
+  </data>
+  <data name="stronghold/teamHeader" xml:space="preserve">
+    <value>Состав отряда</value>
+  </data>
+  <data name="strongholdbuilds/direction" xml:space="preserve">
+    <value>%(direction)s плацдарм союзников</value>
+  </data>
+  <data name="strongholdbuilds/direction/A" xml:space="preserve">
+    <value>Северный</value>
+  </data>
+  <data name="strongholdbuilds/direction/B" xml:space="preserve">
+    <value>Восточный</value>
+  </data>
+  <data name="strongholdbuilds/direction/C" xml:space="preserve">
+    <value>Южный</value>
+  </data>
+  <data name="strongholdbuilds/direction/D" xml:space="preserve">
+    <value>Западный</value>
+  </data>
+  <data name="strongholdbuilds/directionEnemy" xml:space="preserve">
+    <value>Плацдарм противника</value>
+  </data>
+  <data name="strongholdbuilds/mapName" xml:space="preserve">
+    <value>Карта: &lt;font color='#FCF4CC'&gt;%(mapName)s&lt;/font&gt;</value>
+  </data>
+  <data name="strongholdbuilds/mapUnknown" xml:space="preserve">
+    <value>Карта будет определена при начале Наступления</value>
+  </data>
+  <data name="strongholdbuilds/point1" xml:space="preserve">
+    <value>Цитадель</value>
+  </data>
+  <data name="strongholdbuilds/point2" xml:space="preserve">
+    <value>Запасной рубеж</value>
+  </data>
+  <data name="strongholdbuilds/point3" xml:space="preserve">
+    <value>Передовой рубеж</value>
+  </data>
+  <data name="strongholdbuilds/point4" xml:space="preserve">
+    <value>Передовой рубеж</value>
+  </data>
+  <data name="strongholdbuilds/point5" xml:space="preserve">
+    <value>Запасной рубеж</value>
+  </data>
+  <data name="strongholdbuilds/point6" xml:space="preserve">
+    <value>Цитадель</value>
+  </data>
+  <data name="strongholdbuilds/rewardFirstTime" xml:space="preserve">
+    <value>x%(reward)s за первую победу в день при Наступлениях на этом плацдарме</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint1" xml:space="preserve">
+    <value>Удержание Цитадели при потере обоих рубежей</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint2" xml:space="preserve">
+    <value>Удержание запасного рубежа при потере передового</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint3" xml:space="preserve">
+    <value>Удержание обоих рубежей без захвата рубежей противника</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint4" xml:space="preserve">
+    <value>Захват только передового рубежа</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint5" xml:space="preserve">
+    <value>Захват обоих рубежей без захвата Цитадели</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint6" xml:space="preserve">
+    <value>Захват Цитадели противника</value>
+  </data>
+  <data name="strongholdbuilds/rewardRequisition" xml:space="preserve">
+    <value>от резерва Реквизиция</value>
+  </data>
+  <data name="strongholdbuilds/totalDescription" xml:space="preserve">
+    <value>Награда выдаётся по завершении Наступления</value>
+  </data>
+  <data name="strongholdbuttons/makeInvisible" xml:space="preserve">
+    <value>Скрыть от легионеров</value>
+  </data>
+  <data name="strongholdbuttons/makeInvisibleStatus" xml:space="preserve">
+    <value>Легионеры видят отряд</value>
+  </data>
+  <data name="strongholdbuttons/makeVisible" xml:space="preserve">
+    <value>Отображать легионерам</value>
+  </data>
+  <data name="strongholdbuttons/makeVisibleStatus" xml:space="preserve">
+    <value>Легионеры не видят отряд</value>
+  </data>
+  <data name="strongholddirection/A" xml:space="preserve">
+    <value>Северного</value>
+  </data>
+  <data name="strongholddirection/B" xml:space="preserve">
+    <value>Восточного</value>
+  </data>
+  <data name="strongholddirection/C" xml:space="preserve">
+    <value>Южного</value>
+  </data>
+  <data name="strongholddirection/D" xml:space="preserve">
+    <value>Западного</value>
+  </data>
+  <data name="strongholdinfo/sortie" xml:space="preserve">
+    <value>Вылазка в %(level)s дивизионе</value>
+  </data>
+  <data name="strongholdinfo/stronghold" xml:space="preserve">
+    <value>Наступление с %(direction)s плацдарма</value>
+  </data>
+  <data name="strongholdmap/randomMap" xml:space="preserve">
+    <value>Случайная карта</value>
+  </data>
+  <data name="strongholdreserve/heavyTrucks" xml:space="preserve">
+    <value>Большегрузный транспорт</value>
+  </data>
+  <data name="strongholdreserve/requisition" xml:space="preserve">
+    <value>Реквизиция</value>
+  </data>
+  <data name="strongholdreserve/support" xml:space="preserve">
+    <value>Боевые резервы</value>
+  </data>
+  <data name="strongholdreserve/tooltip/condition" xml:space="preserve">
+    <value>В Вылазках и при Наступлениях на 1 бой</value>
+  </data>
+  <data name="strongholdreserve/tooltip/conditionRequisition" xml:space="preserve">
+    <value>За результат проведённого Наступления</value>
+  </data>
+  <data name="strongholdreserve/tooltip/disabledInBattle" xml:space="preserve">
+    <value>Установить резерв можно перед боем</value>
+  </data>
+  <data name="strongholdreserve/tooltip/disabledRequisition" xml:space="preserve">
+    <value>Установить резерв можно перед Наступлением</value>
+  </data>
+  <data name="strongholdreserve/tooltip/empty" xml:space="preserve">
+    <value>У вас нет резервов для установки</value>
+  </data>
+  <data name="strongholdreserve/tooltip/heavytrucksActivation" xml:space="preserve">
+    <value>Активируется с началом боя</value>
+  </data>
+  <data name="strongholdreserve/tooltip/inStorage" xml:space="preserve">
+    <value>&lt;font color='#C9C9BE'&gt;%(count)s&lt;/font&gt; на складе</value>
+  </data>
+  <data name="strongholdreserve/tooltip/level" xml:space="preserve">
+    <value>уровень</value>
+  </data>
+  <data name="strongholdreserve/tooltip/readyToSelect" xml:space="preserve">
+    <value>Готов к установке</value>
+  </data>
+  <data name="strongholdreserve/tooltip/requisitionActivation" xml:space="preserve">
+    <value>Активируется с началом Наступления</value>
+  </data>
+  <data name="strongholdreserve/tooltip/selected" xml:space="preserve">
+    <value>Установлен</value>
+  </data>
+  <data name="strongholdreserve/tooltip/supportActivation" xml:space="preserve">
+    <value>Активируется при использовании резерва в бою</value>
+  </data>
+  <data name="strongholdreserve/tooltip/withPermition" xml:space="preserve">
+    <value>Нажмите, чтобы просмотреть список доступных резервов для установки.</value>
+  </data>
+  <data name="strongholdreserve/tooltip/withoutPermition" xml:space="preserve">
+    <value>Установить резерв может только командир отряда в должности командующего, заместителя командующего, офицера штаба или командира подразделения.</value>
+  </data>
+  <data name="strongholdtable/rating" xml:space="preserve">
+    <value>Рейтинг</value>
+  </data>
+  <data name="strongholdtable/roster" xml:space="preserve">
+    <value>Состав</value>
+  </data>
+  <data name="strongholdtable/tech" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="strongholdtitle/sortie" xml:space="preserve">
+    <value>Вылазка</value>
+  </data>
+  <data name="strongholdtitle/stronghold" xml:space="preserve">
+    <value>Наступление с %(direction)s плацдарма</value>
+  </data>
+  <data name="strongholdtooltips/crossSwords" xml:space="preserve">
+    <value>{HEADER}Граница{/HEADER}{BODY}Нейтральная территория. Победитель атакует рубеж противника в следующем бою. В случае ничьей атакующий будет определён случайным образом.{/BODY}</value>
+  </data>
+  <data name="strongholdtooltips/fortTitle" xml:space="preserve">
+    <value>Наступление с %(direction)s плацдарма</value>
+  </data>
+  <data name="strongholdtooltips/hours" xml:space="preserve">
+    <value>ч.</value>
+  </data>
+  <data name="strongholdtooltips/minuts" xml:space="preserve">
+    <value>мин.</value>
+  </data>
+  <data name="strongholdtooltips/sortieTitle" xml:space="preserve">
+    <value>Вылазка в %(level)s дивизионе</value>
+  </data>
+</root>

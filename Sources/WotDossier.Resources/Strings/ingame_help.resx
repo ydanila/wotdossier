@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="battleControls/casseteReload" xml:space="preserve">
+    <value>Reload Shell Container</value>
+  </data>
+  <data name="battleControls/cruiseCtrlBackward" xml:space="preserve">
+    <value>Move Backward in Cruise Control Mode</value>
+  </data>
+  <data name="battleControls/cruiseCtrlForward" xml:space="preserve">
+    <value>Move Forward in Cruise Control Mode</value>
+  </data>
+  <data name="battleControls/disableLockTarget" xml:space="preserve">
+    <value>Disable Auto-Aim</value>
+  </data>
+  <data name="battleControls/fire" xml:space="preserve">
+    <value>Fire</value>
+  </data>
+  <data name="battleControls/hideInterface" xml:space="preserve">
+    <value>Show/Hide Battle Interface</value>
+  </data>
+  <data name="battleControls/hideMinimap" xml:space="preserve">
+    <value>Hide/Show Minimap</value>
+  </data>
+  <data name="battleControls/makeScreenshort" xml:space="preserve">
+    <value>Capture Screen Image to Folder</value>
+  </data>
+  <data name="battleControls/movementBackward" xml:space="preserve">
+    <value>Move Backward</value>
+  </data>
+  <data name="battleControls/movementForward" xml:space="preserve">
+    <value>Move Forward</value>
+  </data>
+  <data name="battleControls/movementLeft" xml:space="preserve">
+    <value>Turn/Move Left</value>
+  </data>
+  <data name="battleControls/movementRight" xml:space="preserve">
+    <value>Turn/Move Right</value>
+  </data>
+  <data name="battleControls/showCursor" xml:space="preserve">
+    <value>Display Cursor</value>
+  </data>
+  <data name="battleControls/showCursor/ext" xml:space="preserve">
+    <value>(for minimap, list of players, etc.)</value>
+  </data>
+  <data name="battleControls/showExPlayerInfo" xml:space="preserve">
+    <value>Display Alternative Marker</value>
+  </data>
+  <data name="battleControls/stopFire" xml:space="preserve">
+    <value>Stop and Fire</value>
+  </data>
+  <data name="battleControls/switchAutorotation" xml:space="preserve">
+    <value>Switch from Travel to Siege mode</value>
+  </data>
+  <data name="battleControls/title" xml:space="preserve">
+    <value>Battle Mode</value>
+  </data>
+  <data name="battleControls/toggleLockTarget" xml:space="preserve">
+    <value>Enable/Disable Auto-Aim</value>
+  </data>
+  <data name="battleControls/toggleLockTarget/ext" xml:space="preserve">
+    <value>(with reticle on target)</value>
+  </data>
+  <data name="battleControls/togglePlayerPanelModes" xml:space="preserve">
+    <value>Show/Hide Team Lists</value>
+  </data>
+  <data name="battleControls/toggleSniperMode" xml:space="preserve">
+    <value>Enable/Disable Sniper Mode</value>
+  </data>
+  <data name="battleControls/toggleSniperMode/ext" xml:space="preserve">
+    <value>or Artillery Mode</value>
+  </data>
+  <data name="battleControls/voiceChatMute" xml:space="preserve">
+    <value>Enable Voice Chat</value>
+  </data>
+  <data name="chatControls/change" xml:space="preserve">
+    <value>To Team / To All</value>
+  </data>
+  <data name="chatControls/enterToChatMode" xml:space="preserve">
+    <value>Enter Chat Mode</value>
+  </data>
+  <data name="chatControls/exitFromChatMode" xml:space="preserve">
+    <value>Exit Chat Mode</value>
+  </data>
+  <data name="chatControls/send" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
+  <data name="chatControls/title" xml:space="preserve">
+    <value>Chat Mode</value>
+  </data>
+  <data name="chatShortcuts/attack" xml:space="preserve">
+    <value>Attack!</value>
+  </data>
+  <data name="chatShortcuts/attackEnemy" xml:space="preserve">
+    <value>Attacking!</value>
+  </data>
+  <data name="chatShortcuts/attackEnemy/ext" xml:space="preserve">
+    <value>(with reticle on target)</value>
+  </data>
+  <data name="chatShortcuts/backToBase" xml:space="preserve">
+    <value>Defend the base!</value>
+  </data>
+  <data name="chatShortcuts/followMe" xml:space="preserve">
+    <value>Follow me!</value>
+  </data>
+  <data name="chatShortcuts/helpMe" xml:space="preserve">
+    <value>Help!</value>
+  </data>
+  <data name="chatShortcuts/helpMeEx" xml:space="preserve">
+    <value>Help!</value>
+  </data>
+  <data name="chatShortcuts/negative" xml:space="preserve">
+    <value>Negative!</value>
+  </data>
+  <data name="chatShortcuts/positive" xml:space="preserve">
+    <value>Affirmative!</value>
+  </data>
+  <data name="chatShortcuts/reloadingGun" xml:space="preserve">
+    <value>Reloading!</value>
+  </data>
+  <data name="chatShortcuts/stop" xml:space="preserve">
+    <value>Halt!</value>
+  </data>
+  <data name="chatShortcuts/supportMeWithFire" xml:space="preserve">
+    <value>Requesting fire!</value>
+  </data>
+  <data name="chatShortcuts/title" xml:space="preserve">
+    <value>Chat Shortcuts:</value>
+  </data>
+  <data name="chatShortcuts/toBack" xml:space="preserve">
+    <value>Fall back!</value>
+  </data>
+  <data name="crosshairControls/ammoNumber" xml:space="preserve">
+    <value>Shells Remaining</value>
+  </data>
+  <data name="crosshairControls/damageIndicator" xml:space="preserve">
+    <value>Fire Direction</value>
+  </data>
+  <data name="crosshairControls/dispercion" xml:space="preserve">
+    <value>Dispersion</value>
+  </data>
+  <data name="crosshairControls/example/damage" xml:space="preserve">
+    <value>-248</value>
+  </data>
+  <data name="crosshairControls/example/hp" xml:space="preserve">
+    <value>375/720</value>
+  </data>
+  <data name="crosshairControls/example/name" xml:space="preserve">
+    <value>T-34-85</value>
+  </data>
+  <data name="crosshairControls/gunMarker" xml:space="preserve">
+    <value>Gun Position</value>
+  </data>
+  <data name="crosshairControls/healthPlayer" xml:space="preserve">
+    <value>Player Health</value>
+  </data>
+  <data name="crosshairControls/hpIndicator" xml:space="preserve">
+    <value>Health Indicator</value>
+  </data>
+  <data name="crosshairControls/hpValues" xml:space="preserve">
+    <value>Target Health (%/HP left/total)</value>
+  </data>
+  <data name="crosshairControls/marker" xml:space="preserve">
+    <value>Point of Aim</value>
+  </data>
+  <data name="crosshairControls/reloadIndicator" xml:space="preserve">
+    <value>Gun Loading</value>
+  </data>
+  <data name="crosshairControls/reloadTimer" xml:space="preserve">
+    <value>Gun Reload Time (in seconds)</value>
+  </data>
+  <data name="crosshairControls/targetClass" xml:space="preserve">
+    <value>Vehicle Type Marker</value>
+  </data>
+  <data name="crosshairControls/targetDistance" xml:space="preserve">
+    <value>Range to Target</value>
+  </data>
+  <data name="crosshairControls/targetIcon" xml:space="preserve">
+    <value>Vehicle Icon</value>
+  </data>
+  <data name="crosshairControls/targetLevel" xml:space="preserve">
+    <value>Tier</value>
+  </data>
+  <data name="crosshairControls/targetName" xml:space="preserve">
+    <value>Vehicle Model / Player Name</value>
+  </data>
+  <data name="crosshairControls/title" xml:space="preserve">
+    <value>Gun and Reticle Indicators</value>
+  </data>
+  <data name="markerColors/enemy" xml:space="preserve">
+    <value>Enemy</value>
+  </data>
+  <data name="markerColors/friend" xml:space="preserve">
+    <value>Ally</value>
+  </data>
+  <data name="markerColors/squadPlayer" xml:space="preserve">
+    <value>Platoon mate</value>
+  </data>
+  <data name="markerColors/teamKiller" xml:space="preserve">
+    <value>Team killer</value>
+  </data>
+  <data name="markerColors/title" xml:space="preserve">
+    <value>Marker Colors:</value>
+  </data>
+  <data name="markerMarks/attack" xml:space="preserve">
+    <value>Attacking</value>
+  </data>
+  <data name="markerMarks/follow" xml:space="preserve">
+    <value>Follow me!</value>
+  </data>
+  <data name="markerMarks/help" xml:space="preserve">
+    <value>Help!</value>
+  </data>
+  <data name="markerMarks/target/sau" xml:space="preserve">
+    <value>SPG's Target</value>
+  </data>
+  <data name="markerMarks/target/tank" xml:space="preserve">
+    <value>Vehicle's Target</value>
+  </data>
+  <data name="markerMarks/title" xml:space="preserve">
+    <value>Shortcuts on Minimap:</value>
+  </data>
+  <data name="radialMenu/attackEnemy" xml:space="preserve">
+    <value>Requesting fire!</value>
+  </data>
+  <data name="radialMenu/attackEnemy/ext" xml:space="preserve">
+    <value>(with reticle on target)</value>
+  </data>
+  <data name="radialMenu/show" xml:space="preserve">
+    <value>Display Command Menu</value>
+  </data>
+  <data name="radialMenu/show/ext" xml:space="preserve">
+    <value>(list of commands depends on the target)</value>
+  </data>
+  <data name="radialMenu/title" xml:space="preserve">
+    <value>Command Menu</value>
+  </data>
+  <data name="returnToGame" xml:space="preserve">
+    <value>Esc—Back to Battle</value>
+  </data>
+  <data name="settings/button" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="settings/help" xml:space="preserve">
+    <value>To view and customize game controls, click Settings.</value>
+  </data>
+  <data name="vehicleTypes/title" xml:space="preserve">
+    <value>Vehicle Markers</value>
+  </data>
+</root>

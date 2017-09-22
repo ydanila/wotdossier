@@ -256,7 +256,8 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
 						else
 							replay.datablock_battle_result.avatar = new Avatar();
 						replay.datablock_battle_result.vehicles = battleResult.vehicles.ToDictionary(x => x.Key, y => y.Value.First());
-                    }
+	                    replay.datablock_battle_result.raw = parsedData.ToString();
+					}
                     else
                     {
                         replay.datablock_battle_result = parsedData[0].ToObject<BattleResult>();

@@ -1826,6 +1826,15 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Ranked Battle.
+        /// </summary>
+        public static string BattleType_Ranked {
+            get {
+                return ResourceManager.GetString("BattleType_Ranked", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Random battle.
         /// </summary>
         public static string BattleType_Regular {

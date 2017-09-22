@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bonusName/all" xml:space="preserve">
+    <value>Весь экипаж</value>
+  </data>
+  <data name="bonusName/camouflage" xml:space="preserve">
+    <value>Снижение заметности на:</value>
+  </data>
+  <data name="bonusName/commander" xml:space="preserve">
+    <value>Командир</value>
+  </data>
+  <data name="bonusName/driver" xml:space="preserve">
+    <value>Механик-водитель</value>
+  </data>
+  <data name="bonusName/extended/all" xml:space="preserve">
+    <value>Бонус к основной специальности всего экипажа</value>
+  </data>
+  <data name="bonusName/extended/camouflage" xml:space="preserve">
+    <value>Бонус к скрытности техники</value>
+  </data>
+  <data name="bonusName/extended/commander" xml:space="preserve">
+    <value>Бонус к основной специальности командира</value>
+  </data>
+  <data name="bonusName/extended/driver" xml:space="preserve">
+    <value>Бонус к основной специальности механика-водителя</value>
+  </data>
+  <data name="bonusName/extended/gunner" xml:space="preserve">
+    <value>Бонус к основной специальности наводчика</value>
+  </data>
+  <data name="bonusName/extended/loader" xml:space="preserve">
+    <value>Бонус к основной специальности заряжающего</value>
+  </data>
+  <data name="bonusName/extended/radioman" xml:space="preserve">
+    <value>Бонус к основной специальности радиста</value>
+  </data>
+  <data name="bonusName/gunner" xml:space="preserve">
+    <value>Наводчик</value>
+  </data>
+  <data name="bonusName/loader" xml:space="preserve">
+    <value>Заряжающий</value>
+  </data>
+  <data name="bonusName/radioman" xml:space="preserve">
+    <value>Радист</value>
+  </data>
+  <data name="bonusPanel/tooltip/duration/0" xml:space="preserve">
+    <value>бессрочно</value>
+  </data>
+  <data name="bonusPanel/tooltip/duration/1" xml:space="preserve">
+    <value>осталось %(numberOfDaysLeft)d дней</value>
+  </data>
+  <data name="buyWindow/buyTime/copy" xml:space="preserve">
+    <value>Дубликат</value>
+  </data>
+  <data name="buyWindow/buyTime/ever" xml:space="preserve">
+    <value>- Постоянно</value>
+  </data>
+  <data name="buyWindow/buyTime/sevenDays" xml:space="preserve">
+    <value>- На 7 дней</value>
+  </data>
+  <data name="buyWindow/buyTime/thirtyDays" xml:space="preserve">
+    <value>- На 30 дней</value>
+  </data>
+  <data name="buyWindow/title/camouflage" xml:space="preserve">
+    <value>Камуфляж:</value>
+  </data>
+  <data name="buyWindow/title/emblem" xml:space="preserve">
+    <value>Эмблемы:</value>
+  </data>
+  <data name="buyWindow/title/inscription" xml:space="preserve">
+    <value>Надписи:</value>
+  </data>
+  <data name="carousel/itemLabel/applied" xml:space="preserve">
+    <value>На технике</value>
+  </data>
+  <data name="carousel/itemLabel/purchased" xml:space="preserve">
+    <value>В наличии</value>
+  </data>
+  <data name="dialog/remove_element/delete" xml:space="preserve">
+    <value>будет удалён</value>
+  </data>
+  <data name="dialog/remove_element/description" xml:space="preserve">
+    <value>При снятии временный элемент %(delete)s:
+%(elementName)s.
+Снять элемент?</value>
+  </data>
+  <data name="dialog/remove_element/elements_separator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="dialog/remove_element/groups_end" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="dialog/remove_element/groups_separator" xml:space="preserve">
+    <value>; </value>
+  </data>
+  <data name="dialog/remove_element/typeName/0" xml:space="preserve">
+    <value>Камуфляж:</value>
+  </data>
+  <data name="dialog/remove_element/typeName/1" xml:space="preserve">
+    <value>Эмблема:</value>
+  </data>
+  <data name="dialog/remove_element/typeName/2" xml:space="preserve">
+    <value>Надпись:</value>
+  </data>
+  <data name="dialog/remove_elements/delete" xml:space="preserve">
+    <value>будут удалены</value>
+  </data>
+  <data name="dialog/remove_elements/typeName/0" xml:space="preserve">
+    <value>Камуфляж:</value>
+  </data>
+  <data name="dialog/remove_elements/typeName/1" xml:space="preserve">
+    <value>Эмблемы:</value>
+  </data>
+  <data name="dialog/remove_elements/typeName/2" xml:space="preserve">
+    <value>Надписи:</value>
+  </data>
+  <data name="dialog/replace_element/description" xml:space="preserve">
+    <value>При замене временный элемент %(delete)s:
+%(elementName)s
+Заменить элемент?</value>
+  </data>
+  <data name="dialog/replace_elements/description" xml:space="preserve">
+    <value>При замене временные элементы %(delete)s:
+%(elementsName)s
+Заменить элементы?</value>
+  </data>
+  <data name="filter/popover/bonusType/title" xml:space="preserve">
+    <value>Типы бонусов:</value>
+  </data>
+  <data name="filter/popover/getDefaultSettings" xml:space="preserve">
+    <value>Сбросить фильтр</value>
+  </data>
+  <data name="filter/popover/groups/all" xml:space="preserve">
+    <value>Все группы</value>
+  </data>
+  <data name="filter/popover/groups/title" xml:space="preserve">
+    <value>Группы:</value>
+  </data>
+  <data name="filter/popover/title" xml:space="preserve">
+    <value>Фильтр</value>
+  </data>
+  <data name="filter/popover/waysToBuy/buy" xml:space="preserve">
+    <value>Покупка</value>
+  </data>
+  <data name="filter/popover/waysToBuy/event" xml:space="preserve">
+    <value>Акции</value>
+  </data>
+  <data name="filter/popover/waysToBuy/missions" xml:space="preserve">
+    <value>Боевые задачи</value>
+  </data>
+  <data name="filter/popover/waysToBuy/title" xml:space="preserve">
+    <value>Способы получения:</value>
+  </data>
+  <data name="filter/tooltip/igr/disabled/body" xml:space="preserve">
+    <value>Для установки элементов вы должны находиться в %(icon)s</value>
+  </data>
+  <data name="filter/tooltip/igr/disabled/header" xml:space="preserve">
+    <value>Режим IGR недоступен</value>
+  </data>
+  <data name="qualifier/condition/alive_allies_count_less_6" xml:space="preserve">
+    <value>Не более 6 боеспособных союзников, включая машину игрока.</value>
+  </data>
+  <data name="qualifier/condition/alive_squad_members_count_greater_or_equal_2" xml:space="preserve">
+    <value>Не менее 2 боеспособных совзводных, включая машину игрока.</value>
+  </data>
+  <data name="qualifier/condition/enemy_tank_critical_hit_less_20s_ago" xml:space="preserve">
+    <value>На протяжении 20 сек после критического попадания игроком по противнику (засчитываются: повреждение / выведение из строя модуля, ранение члена экипажа).</value>
+  </data>
+  <data name="qualifier/condition/enemy_tank_destroyed_less_30s_ago" xml:space="preserve">
+    <value>На протяжении 30 сек после уничтожения игроком машины противника.</value>
+  </data>
+  <data name="qualifier/condition/enemy_tank_detected_less_20s_ago" xml:space="preserve">
+    <value>На протяжении 20 сек после обнаружения игроком машины противника.</value>
+  </data>
+  <data name="qualifier/condition/map_kind_desert" xml:space="preserve">
+    <value>Карта пустынного типа.</value>
+  </data>
+  <data name="qualifier/condition/map_kind_summer" xml:space="preserve">
+    <value>Карта летнего типа.</value>
+  </data>
+  <data name="qualifier/condition/map_kind_winter" xml:space="preserve">
+    <value>Карта зимнего типа.</value>
+  </data>
+  <data name="qualifier/condition/nearby_at_heavy_enemies_count_greater_2" xml:space="preserve">
+    <value>Не менее 2 боеспособных машин противника типа ТТ и ПТ в радиусе 50 м.</value>
+  </data>
+  <data name="qualifier/condition/nearby_at_medium_enemies_count_greater_2" xml:space="preserve">
+    <value>Не менее 2 боеспособных машин противника типа СТ и ПТ в радиусе 50 м.</value>
+  </data>
+  <data name="qualifier/condition/nearby_enemies_count_greater_3" xml:space="preserve">
+    <value>Не менее 3 боеспособных машин противника в радиусе 50 м.</value>
+  </data>
+  <data name="qualifier/condition/nearby_heavy_medium_enemies_count_greater_2" xml:space="preserve">
+    <value>Не менее 2 боеспособных машин противника типа СТ и ТТ в радиусе 50 м.</value>
+  </data>
+  <data name="qualifier/condition/nearby_light_medium_enemies_count_greater_2" xml:space="preserve">
+    <value>Не менее 2 боеспособных машин противника типа ЛТ и СТ в радиусе 50 м.</value>
+  </data>
+  <data name="qualifier/condition/player_health_greater_80_percent" xml:space="preserve">
+    <value>Прочность машины больше 80%.</value>
+  </data>
+  <data name="qualifier/condition/player_health_less_20_percent" xml:space="preserve">
+    <value>Прочность машины меньше 20%.</value>
+  </data>
+  <data name="qualifier/condition/player_tank_unproductive_hit_less_10s_ago" xml:space="preserve">
+    <value>На протяжении 10 сек после нерезультативного попадания противником по игроку (засчитываются: рикошет, непробитие, попадание без урона).</value>
+  </data>
+  <data name="tooltip/element/purchase/acquired/days" xml:space="preserve">
+    <value>На %(total)d дней (осталось %(left)d)</value>
+  </data>
+  <data name="tooltip/filter/groups/disabled/body" xml:space="preserve">
+    <value>Измените способ приобретения, чтобы воспользоваться фильтрацией элементов по группам.</value>
+  </data>
+  <data name="tooltip/filter/groups/disabled/header" xml:space="preserve">
+    <value>Выбор группы недоступен</value>
+  </data>
+  <data name="typeSwitchScreen/slotSummary" xml:space="preserve">
+    <value>Нанесено: %(occupiedSlotsNum)d/%(totalSlotsNum)d</value>
+  </data>
+  <data name="typeSwitchScreen/typeName/0" xml:space="preserve">
+    <value>Камуфляж</value>
+  </data>
+  <data name="typeSwitchScreen/typeName/1" xml:space="preserve">
+    <value>Эмблема</value>
+  </data>
+  <data name="typeSwitchScreen/typeName/2" xml:space="preserve">
+    <value>Надпись</value>
+  </data>
+  <data name="typeSwitchScreen/typeName/plural/0" xml:space="preserve">
+    <value>Камуфляж</value>
+  </data>
+  <data name="typeSwitchScreen/typeName/plural/1" xml:space="preserve">
+    <value>Эмблемы</value>
+  </data>
+  <data name="typeSwitchScreen/typeName/plural/2" xml:space="preserve">
+    <value>Надписи</value>
+  </data>
+  <data name="window/purchase/bonus" xml:space="preserve">
+    <value>+%(bnsValue)s</value>
+  </data>
+  <data name="window/purchase/btnBuy" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="window/purchase/btnCancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="window/purchase/header" xml:space="preserve">
+    <value>Подтверждение покупки</value>
+  </data>
+  <data name="window/purchase/tableHeader/bonus" xml:space="preserve">
+    <value>Бонус</value>
+  </data>
+  <data name="window/purchase/tableHeader/cost" xml:space="preserve">
+    <value>Стоимость</value>
+  </data>
+  <data name="window/purchase/tableHeader/items" xml:space="preserve">
+    <value>Элемент</value>
+  </data>
+  <data name="window/purchase/totalCost" xml:space="preserve">
+    <value>Итого (%(selected)s/%(total)s):</value>
+  </data>
+</root>

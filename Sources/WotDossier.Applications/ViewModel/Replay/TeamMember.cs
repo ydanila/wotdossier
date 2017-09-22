@@ -141,13 +141,13 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int Team { get; set; }
 
         public long AccountDBID { get; set; }
-        public List<int> achievements
-        {
-            get { return _achievements ?? new List<int>(); }
-            set { _achievements = value; }
-        }
+		public List<int> achievements
+		{
+			get { return _achievements ?? new List<int>(); }
+			set { _achievements = value; }
+		}
 
-        public int CapturePoints { get; set; }
+		public int CapturePoints { get; set; }
         public int Credits { get; set; }
         public int DamageAssisted { get; set; }
         public int DamageDealt { get; set; }

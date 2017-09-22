@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="burda/desc" xml:space="preserve">
+    <value>Guards Colonel Alexander Burda was a Soviet tank ace and a Hero of the Soviet Union. On October 4th, 1941, Burda organized an ambush that destroyed an enemy armored column, including ten medium and light tanks, two trucks with antitank guns, and five infantry vehicles. He died in battle on January 25, 1944. His actions hindered the advance of 12 enemy vehicles and helped the brigade headquarters successfully evacuate.</value>
+  </data>
+  <data name="burda/title" xml:space="preserve">
+    <value>Alexander Burda</value>
+  </data>
+  <data name="fadin/desc" xml:space="preserve">
+    <value>A Hero of the Soviet Union, Alexander Fadin was a T-34 commander. Supported by one infantry platoon, Fadin managed to capture the village of Dashukovka (Ukraine) and hold it for five hours with one tank. He destroyed one tank, one SPG, eighteen machinegun nests, and neutralized up to 50 enemy soldiers and officers. His crew also shot down an enemy plane. Fadin ended the war in the Far East, where he participated in destroying the Kwantung Army as a commander of a tank company.</value>
+  </data>
+  <data name="fadin/title" xml:space="preserve">
+    <value>Alexander Fadin</value>
+  </data>
+  <data name="kolobanov/desc" xml:space="preserve">
+    <value>Colonel Zinoviy Kolobanov was a Soviet tank ace who destroyed 22 German tanks, two guns, and two armored vehicles with his KV-1 in the battle on August 19, 1941. The tanker fired 98 AP shells from his concealed tank, which received more than 100 hits. On September 15, 1941, Kolobanov was heavily wounded and stayed under treatment until the end of the war.</value>
+  </data>
+  <data name="kolobanov/title" xml:space="preserve">
+    <value>Zinoviy Kolobanov</value>
+  </data>
+  <data name="lavrinenko/desc" xml:space="preserve">
+    <value>Dmitry Lavrinenko, a Hero of the Soviet Union, Guards Lieutenant, tank ace, and a commander of the T-34 was recognized as a top Soviet tanker, who destroyed 52 tanks in 28 battles over the course of two and a half months. He died during a mortar attack on the Goryuny village, Volokolamsk Region, on December 18, 1941.</value>
+  </data>
+  <data name="lavrinenko/title" xml:space="preserve">
+    <value>Dmitry Lavrinenko</value>
+  </data>
+  <data name="naydeen/desc" xml:space="preserve">
+    <value>Sergeant Grigoriy Naydin was a BT-7 commander. On June 25th, 1941, near the Lithuanian town of Rudishkyay, he destroyed a Wehrmacht armored column that included 15 vehicles and 10 guns of the 19th Mechanized Corps. Naydin managed to hold off the German advance for two days, making it possible to organize the defenses around Vilnius. For this action, Naydin was made a Hero of the Soviet Union. He was wounded twice and continued to serve in the Armed Forces of the USSR after the war.</value>
+  </data>
+  <data name="naydeen/title" xml:space="preserve">
+    <value>Grigoriy Naydin</value>
+  </data>
+  <data name="oskin/desc" xml:space="preserve">
+    <value>Alexander Oskin, a Hero of the Soviet Union, was a tank commander who destroyed three King Tigers with his T-34 during a reconnaissance operation near Oglenduv on August 11, 1944. The following day, his tank was one of the first to rush into the Oglenduv village, which resulted in the capture of another three working King Tigers. One of the captured tanks with hull number 502 is currently exhibited in the Kubinka Tank Museum.</value>
+  </data>
+  <data name="oskin/title" xml:space="preserve">
+    <value>Alexander Oskin</value>
+  </data>
+</root>

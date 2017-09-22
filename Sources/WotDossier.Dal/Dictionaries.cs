@@ -643,12 +643,12 @@ namespace WotDossier.Dal
         {
             List<Medal> list = new List<Medal>();
 
-            foreach (int achievement in achievements)
+            foreach (var achievement in achievements)
             {
-                if (Medals.ContainsKey(achievement))
-                {
-                    list.Add(Medals[achievement]);
-                }
+	            if (Medals.ContainsKey(achievement))
+	            {
+	                list.Add(Medals[achievement]);
+	            }
             }
             return list;
         }

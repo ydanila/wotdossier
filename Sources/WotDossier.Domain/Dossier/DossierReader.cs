@@ -50,18 +50,18 @@ namespace WotDossier.Domain.Dossier
             if (data.Length < startoffset + offsetlength)
                 return 0;
 
-            var structformat = 'H';
+            var structformat = "H";
 
             if (offsetlength == 1)
-                structformat = 'B';
+                structformat = "B";
 
             if (offsetlength == 2)
-                structformat = 'H';
+                structformat = "H";
 
             if (offsetlength == 4)
-                structformat = 'I';
+                structformat = "I";
 
-            var value = data.UnpackFrom("<" + structformat, startoffset);
+            var value = data.Unpack(structformat, startoffset);
 
             return value;
         }

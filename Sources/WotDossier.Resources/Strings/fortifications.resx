@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ClanListWindow/table/memberName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ClanListWindow/table/monthMining" xml:space="preserve">
+    <value>Per month</value>
+  </data>
+  <data name="ClanListWindow/table/role" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="ClanListWindow/table/weekMining" xml:space="preserve">
+    <value>Per week</value>
+  </data>
+  <data name="disconnected/Warning" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="disconnected/WarningDescriptionCenterUnavailable" xml:space="preserve">
+    <value>Stronghold is temporarily unavailable. Try again later.</value>
+  </data>
+  <data name="disconnected/WarningDescriptionRoaming" xml:space="preserve">
+    <value>Stronghold is unavailable in roaming. To get access to Stronghold, go to your region.</value>
+  </data>
+  <data name="fortBattleRoom/listHeader/clanPlayers" xml:space="preserve">
+    <value>Clan members</value>
+  </data>
+  <data name="fortBattleRoom/listHeader/legionariesPlayers" xml:space="preserve">
+    <value>Legionnaires</value>
+  </data>
+  <data name="mainWindow/maintenance/body" xml:space="preserve">
+    <value>We apologize for the inconvenience.</value>
+  </data>
+  <data name="mainWindow/maintenance/button" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="mainWindow/maintenance/header" xml:space="preserve">
+    <value>Error Loading Data</value>
+  </data>
+  <data name="orders/ADDITIONAL_BRIEFING_2_0" xml:space="preserve">
+    <value>Additional Briefing</value>
+  </data>
+  <data name="orders/COMBAT_PAYMENTS_2_0" xml:space="preserve">
+    <value>Battle Payments</value>
+  </data>
+  <data name="orders/MILITARY_EXERCISES_2_0" xml:space="preserve">
+    <value>Military Maneuvers</value>
+  </data>
+  <data name="orders/TACTICAL_TRAINING_2_0" xml:space="preserve">
+    <value>Tactical Training</value>
+  </data>
+  <data name="rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon" xml:space="preserve">
+    <value>Battle starts in &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt; min</value>
+  </data>
+  <data name="rosterIntroWindow/introView/fortBattles/unavailable" xml:space="preserve">
+    <value>Starting time will be specified later</value>
+  </data>
+  <data name="sortie/introView/fortBattles/EndOfBattleSoon" xml:space="preserve">
+    <value>Battle ends in &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="sortie/introView/fortBattles/available" xml:space="preserve">
+    <value>Skirmishes available</value>
+  </data>
+  <data name="sortie/introView/fortBattles/nextTimeOfBattle" xml:space="preserve">
+    <value>Upcoming battle will start on %(nextDate)s</value>
+  </data>
+  <data name="sortie/introView/fortBattles/nextTimeOfBattleSoon" xml:space="preserve">
+    <value>Battle starts in &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="sortie/introView/fortBattles/nextTimeOfBattleToday" xml:space="preserve">
+    <value>Battle starts today at &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="sortie/introView/fortBattles/nextTimeOfBattleTomorrow" xml:space="preserve">
+    <value>Battle starts tomorrow at &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="sortie/introView/fortBattles/unavailable" xml:space="preserve">
+    <value>Starting time will be specified later</value>
+  </data>
+  <data name="sortie/introView/title" xml:space="preserve">
+    <value>Stronghold: Battles</value>
+  </data>
+  <data name="sortie/listView/enterBtn" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="sortie/listView/enterText" xml:space="preserve">
+    <value>You can join as a volunteer</value>
+  </data>
+  <data name="sortie/listView/notSelected" xml:space="preserve">
+    <value>Select a detachment from the list on the left
+to see the detailed description.</value>
+  </data>
+  <data name="sortie/listView/teamMembers" xml:space="preserve">
+    <value>Members: %(current)s / %(max)s</value>
+  </data>
+  <data name="sortie/listView/teamVehiclesStub" xml:space="preserve">
+    <value>Vehicles:</value>
+  </data>
+  <data name="sortie/room/candidates" xml:space="preserve">
+    <value>Volunteers</value>
+  </data>
+  <data name="sortie/room/chat" xml:space="preserve">
+    <value>Chat Channel</value>
+  </data>
+  <data name="sortie/room/description" xml:space="preserve">
+    <value>Created detachment fights a battle with a random enemy clan on neutral territory. Vehicle tier is determined by the division selected.</value>
+  </data>
+  <data name="sortie/room/fight" xml:space="preserve">
+    <value>Battle!</value>
+  </data>
+  <data name="sortie/room/inviteFriends" xml:space="preserve">
+    <value>Invite Players</value>
+  </data>
+  <data name="sortie/room/leaveBtn" xml:space="preserve">
+    <value>GO TO DETACHMENT LIST</value>
+  </data>
+  <data name="sortie/room/level" xml:space="preserve">
+    <value>Tier %(level)s</value>
+  </data>
+  <data name="sortie/room/members" xml:space="preserve">
+    <value>Members: %(current)s / %(max)s</value>
+  </data>
+  <data name="sortie/room/notReady" xml:space="preserve">
+    <value>Not ready</value>
+  </data>
+  <data name="sortie/room/ready" xml:space="preserve">
+    <value>Ready!</value>
+  </data>
+  <data name="sortie/room/title" xml:space="preserve">
+    <value>Detachment</value>
+  </data>
+  <data name="sortie/slot/emptySlot" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="sortie/slot/takePlace" xml:space="preserve">
+    <value>Take Slot</value>
+  </data>
+  <data name="sortie/vehicleSelector/description" xml:space="preserve">
+    <value>Select a vehicle to engage in Skirmish. Red indicator marks vehicles not ready for battle.</value>
+  </data>
+  <data name="stronghold/teamHeader" xml:space="preserve">
+    <value>Detachment Members</value>
+  </data>
+  <data name="strongholdbuilds/direction" xml:space="preserve">
+    <value>%(direction)s allied bridgehead</value>
+  </data>
+  <data name="strongholdbuilds/direction/A" xml:space="preserve">
+    <value>Northern</value>
+  </data>
+  <data name="strongholdbuilds/direction/B" xml:space="preserve">
+    <value>Eastern</value>
+  </data>
+  <data name="strongholdbuilds/direction/C" xml:space="preserve">
+    <value>Southern</value>
+  </data>
+  <data name="strongholdbuilds/direction/D" xml:space="preserve">
+    <value>Western</value>
+  </data>
+  <data name="strongholdbuilds/directionEnemy" xml:space="preserve">
+    <value>Enemy bridgehead</value>
+  </data>
+  <data name="strongholdbuilds/mapName" xml:space="preserve">
+    <value>Map: &lt;font color='#FCF4CC'&gt;%(mapName)s&lt;/font&gt;</value>
+  </data>
+  <data name="strongholdbuilds/mapUnknown" xml:space="preserve">
+    <value>The map will be selected after the start of the Advance</value>
+  </data>
+  <data name="strongholdbuilds/point1" xml:space="preserve">
+    <value>Citadel</value>
+  </data>
+  <data name="strongholdbuilds/point2" xml:space="preserve">
+    <value>Reserve Line</value>
+  </data>
+  <data name="strongholdbuilds/point3" xml:space="preserve">
+    <value>Front Line</value>
+  </data>
+  <data name="strongholdbuilds/point4" xml:space="preserve">
+    <value>Front Line</value>
+  </data>
+  <data name="strongholdbuilds/point5" xml:space="preserve">
+    <value>Reserve Line</value>
+  </data>
+  <data name="strongholdbuilds/point6" xml:space="preserve">
+    <value>Citadel</value>
+  </data>
+  <data name="strongholdbuilds/rewardFirstTime" xml:space="preserve">
+    <value>x%(reward)s for the first victory each day in Advances on this bridgehead</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint1" xml:space="preserve">
+    <value>For defending the Citadel with both lines lost</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint2" xml:space="preserve">
+    <value>For defending the Reserve Line with the Front Line lost</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint3" xml:space="preserve">
+    <value>For defending both lines without capturing enemy lines</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint4" xml:space="preserve">
+    <value>For capturing only the Front Line</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint5" xml:space="preserve">
+    <value>For capturing both lines without capturing the Citadel</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint6" xml:space="preserve">
+    <value>For capturing the enemy Citadel</value>
+  </data>
+  <data name="strongholdbuilds/rewardRequisition" xml:space="preserve">
+    <value>from the Requisition reserve</value>
+  </data>
+  <data name="strongholdbuilds/totalDescription" xml:space="preserve">
+    <value>Awarded after the Advance</value>
+  </data>
+  <data name="strongholdbuttons/makeInvisible" xml:space="preserve">
+    <value>Hide From Legionnaires</value>
+  </data>
+  <data name="strongholdbuttons/makeInvisibleStatus" xml:space="preserve">
+    <value>Legionnaires can see the detachment</value>
+  </data>
+  <data name="strongholdbuttons/makeVisible" xml:space="preserve">
+    <value>Display to Legionnaires</value>
+  </data>
+  <data name="strongholdbuttons/makeVisibleStatus" xml:space="preserve">
+    <value>Legionnaires cannot see the detachment</value>
+  </data>
+  <data name="strongholddirection/A" xml:space="preserve">
+    <value>Northern</value>
+  </data>
+  <data name="strongholddirection/B" xml:space="preserve">
+    <value>Eastern</value>
+  </data>
+  <data name="strongholddirection/C" xml:space="preserve">
+    <value>Southern</value>
+  </data>
+  <data name="strongholddirection/D" xml:space="preserve">
+    <value>Western</value>
+  </data>
+  <data name="strongholdinfo/sortie" xml:space="preserve">
+    <value>Skirmish in division %(level)s</value>
+  </data>
+  <data name="strongholdinfo/stronghold" xml:space="preserve">
+    <value>Advance from the %(direction)s bridgehead</value>
+  </data>
+  <data name="strongholdmap/randomMap" xml:space="preserve">
+    <value>Random map</value>
+  </data>
+  <data name="strongholdreserve/heavyTrucks" xml:space="preserve">
+    <value>High-Capacity Transport</value>
+  </data>
+  <data name="strongholdreserve/requisition" xml:space="preserve">
+    <value>Requisition</value>
+  </data>
+  <data name="strongholdreserve/support" xml:space="preserve">
+    <value>Combat Reserves</value>
+  </data>
+  <data name="strongholdreserve/tooltip/condition" xml:space="preserve">
+    <value>In Skirmishes and Advances, for 1 battle</value>
+  </data>
+  <data name="strongholdreserve/tooltip/conditionRequisition" xml:space="preserve">
+    <value>For the result of the Advance</value>
+  </data>
+  <data name="strongholdreserve/tooltip/disabledInBattle" xml:space="preserve">
+    <value>A Reserve can be enabled before a battle</value>
+  </data>
+  <data name="strongholdreserve/tooltip/disabledRequisition" xml:space="preserve">
+    <value>A Reserve can be enabled before the Advance</value>
+  </data>
+  <data name="strongholdreserve/tooltip/empty" xml:space="preserve">
+    <value>You have no Reserves to enable</value>
+  </data>
+  <data name="strongholdreserve/tooltip/heavytrucksActivation" xml:space="preserve">
+    <value>Activated at the beginning of a battle</value>
+  </data>
+  <data name="strongholdreserve/tooltip/inStorage" xml:space="preserve">
+    <value>&lt;font color='#C9C9BE'&gt;%(count)s&lt;/font&gt; in the Storage</value>
+  </data>
+  <data name="strongholdreserve/tooltip/level" xml:space="preserve">
+    <value>level</value>
+  </data>
+  <data name="strongholdreserve/tooltip/readyToSelect" xml:space="preserve">
+    <value>Can be enabled</value>
+  </data>
+  <data name="strongholdreserve/tooltip/requisitionActivation" xml:space="preserve">
+    <value>Activated at the beginning of an Advance</value>
+  </data>
+  <data name="strongholdreserve/tooltip/selected" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="strongholdreserve/tooltip/supportActivation" xml:space="preserve">
+    <value>Activated when a Reserve is used in a battle</value>
+  </data>
+  <data name="strongholdreserve/tooltip/withPermition" xml:space="preserve">
+    <value>Click to view the list of Reserves you can enable.</value>
+  </data>
+  <data name="strongholdreserve/tooltip/withoutPermition" xml:space="preserve">
+    <value>Reserve can only be enabled by a Detachment Commander with the rank of Commander, Executive Officer, Personnel Officer or Combat Officer.</value>
+  </data>
+  <data name="strongholdtable/rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="strongholdtable/roster" xml:space="preserve">
+    <value>Players</value>
+  </data>
+  <data name="strongholdtable/tech" xml:space="preserve">
+    <value>Vehicles</value>
+  </data>
+  <data name="strongholdtitle/sortie" xml:space="preserve">
+    <value>Skirmish</value>
+  </data>
+  <data name="strongholdtitle/stronghold" xml:space="preserve">
+    <value>Advance from the %(direction)s bridgehead</value>
+  </data>
+  <data name="strongholdtooltips/crossSwords" xml:space="preserve">
+    <value>{HEADER}Border{/HEADER}{BODY}Neutral territory. The winner will attack the enemy line in the next battle. If a battle ends in a draw, the attacking team will be selected randomly.{/BODY}</value>
+  </data>
+  <data name="strongholdtooltips/fortTitle" xml:space="preserve">
+    <value>Advance from the %(direction)s bridgehead</value>
+  </data>
+  <data name="strongholdtooltips/hours" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="strongholdtooltips/minuts" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="strongholdtooltips/sortieTitle" xml:space="preserve">
+    <value>Skirmish in division %(level)s</value>
+  </data>
+</root>
