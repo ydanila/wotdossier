@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -31,10 +32,28 @@ namespace WotDossier.Test
     [TestFixture]
     public class CommonTestFixture : TestFixtureBase
     {
-        private string clientPath = @"S:\WorldOfTanks";
+		private string clientPath = @"S:\WorldOfTanks";
 	    private string patchVer = "0.9.20";
 
-        [Test]
+
+	    private string processedPatch = "";
+
+	    public class ClientInfo
+	    {
+		    public string ClientPath { get; set; }
+		    public string PatchVer { get; set; }
+		    public bool Packed { get; set; }
+		    public string EnglishClientPath { get; set; }
+		}
+
+	    private List<ClientInfo> clients = new List<ClientInfo>
+	    {
+		    //new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.4", PatchVer="0.8.4", Packed=false, EnglishClientPath="ru-RU"},
+		    new ClientInfo{ClientPath= @"s:\WorldOfTanks", PatchVer="0.9.20", Packed=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.20"},
+		};
+
+
+	    [Test]
         public void MultipleUploadTest()
         {
             FileInfo info = new FileInfo(@"Replays\20140325_2258_ussr-Object_140_84_winter.wotreplay");
@@ -727,147 +746,306 @@ namespace WotDossier.Test
         }
 
         [Test]
-        public void ImportMapsTest()
+        public void ImportMapsTest(ClientInfo client)
         {
-            string configsPath = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Maps");
+            var configsPath = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\scripts\arena_defs");
 
             if (!Directory.Exists(configsPath))
             {
                 Assert.Fail("Folder not exists - [{0}]", configsPath);
             }
 
-            var files = Directory.GetFiles(configsPath, "*.xml", SearchOption.AllDirectories);
+	        var path = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\Maps");
 
-            BigWorldXmlReader reader = new BigWorldXmlReader();
-
-            JArray array = new JArray();
-
-            foreach (var configFile in files)
-            {
-                FileInfo file = new FileInfo(configFile);
-
-                FileStream stream = new FileStream(configFile, FileMode.Open, FileAccess.Read);
-                using (BinaryReader br = new BinaryReader(stream))
-                {
-                    var xml = reader.DecodePackedFile(br, "map");
-                    var doc = XDocument.Parse(xml);
-					if(doc.Root.Name != "map" || doc.Root.Elements("name").FirstOrDefault() == null)
-						continue;
-                    string jsonText = JsonConvert.SerializeXNode(doc, Formatting.Indented);
-
-                    var deserializeObject = JsonConvert.DeserializeObject<JObject>(jsonText);
-
-                    var jToken = deserializeObject["map"];
-
-                    var mapKey = file.Name.Replace(file.Extension, string.Empty);
-
-                    if (Dictionaries.Instance.Maps.ContainsKey(mapKey))
-                    {
-                        var target = Dictionaries.Instance.Maps[mapKey];
-
-                        JsonConvert.PopulateObject(jToken["boundingBox"].ToString(), target);
-                    }
-
-                    array.Add(jToken);
-                }
+	        if (!Directory.Exists(path))
+	        {
+		        Directory.CreateDirectory(path);
+	        }
 
 
-            }
 
-            foreach (var key in Dictionaries.Instance.Maps.Keys)
-            {
-                if (!File.Exists(Path.Combine(configsPath, key + ".xml")))
-                {
-                    Console.WriteLine("Missed map: {0}", key);
-                }
-            }
+			var reader = new BigWorldXmlReader();
 
-            var path = Path.Combine(Environment.CurrentDirectory, @"Output\Externals");
+            var resultDoc = new XDocument();
+	        var mapNode = new XElement("maps");
+			resultDoc.Add(mapNode);
 
-            if (!Directory.Exists(path))
-            {
-                Directory.CreateDirectory(path);
-            }
+			using (ResXResourceWriter images = new ResXResourceWriter(Path.Combine(Environment.CurrentDirectory,
+		        $@"Output\{client.PatchVer}\Maps\Images.resx")))
+	        {
+		        using (ResXResourceWriter minimap = new ResXResourceWriter(Path.Combine(Environment.CurrentDirectory,
+			        $@"Output\{client.PatchVer}\Maps\Minimap.resx")))
+		        {
+			        foreach (var configFile in Directory.GetFiles(configsPath, "*.xml", SearchOption.AllDirectories))
+			        {
+				        var file = new FileInfo(configFile);
 
-            path = Path.Combine(path, "maps_description.json");
+				        using (var stream = new FileStream(configFile, FileMode.Open, FileAccess.Read))
+				        {
+					        using (var br = new BinaryReader(stream))
+					        {
+						        var xml = reader.DecodePackedFile(br, "map");
+						        var doc = XElement.Parse(xml);
+						        if (doc.Name != "map" || doc.Elements("name").FirstOrDefault() == null)
+							        continue;
 
-            var outputStream = File.OpenWrite(path);
-            var mapsJson = array.ToString(Formatting.Indented);
-            using (StreamWriter writer = new StreamWriter(outputStream))
-            {
-                writer.Write(mapsJson);
-            }
+						        var mapKey = file.Name.Replace(file.Extension, string.Empty);
 
-            Console.WriteLine(mapsJson);
+						        var res = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\Resources\Text\arenas.ru-RU.resx");
+						        if (File.Exists(res))
+							        File.Copy(res, Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\Maps\Strings.ru-RU.resx"), true);
+
+								var img = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\map");
+						        if (File.Exists(Path.Combine(img, $@"stats\{mapKey}.png" )))
+									images.AddResource(mapKey, Image.FromFile(Path.Combine(img, $@"stats\{mapKey}.png")));
+
+						        if (File.Exists(Path.Combine(img, $@"{mapKey}.png")))
+							        minimap.AddResource(mapKey, Image.FromFile(Path.Combine(img, $@"{mapKey}.png")));
+
+								mapNode.Add(doc);
+					        }
+				        }
+			        }
+					minimap.Generate();
+		        }
+				images.Generate();
+	        }
+	        
+			path = Path.Combine(path, "Maps.xml");
+			resultDoc.Save(path);
+            Console.WriteLine(resultDoc);
         }
 
-        [Test]
+		public void ImportShellsXmlTest(ClientInfo client)
+	    {
+		    var strings = Directory.GetFiles(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\scripts"), "shells.xml",
+			    SearchOption.AllDirectories);
+
+		    List<JObject> result = new List<JObject>();
+
+		    foreach (var xml in strings)
+		    {
+			    BigWorldXmlReader reader = new BigWorldXmlReader();
+			    FileInfo info = new FileInfo(xml);
+			    using (BinaryReader br = new BinaryReader(info.OpenRead()))
+			    {
+				    var xmlContent = reader.DecodePackedFile(br, "shell");
+					var doc = XDocument.Parse(xmlContent);
+					string jsonText = JsonConvert.SerializeXNode(doc, Formatting.Indented);
+
+				    var dictionary = JsonConvert.DeserializeObject<Dictionary<string, JObject>>(jsonText);
+				    dictionary = dictionary["shell"].ToObject<Dictionary<string, JObject>>();
+				    dictionary.Remove("icons");
+
+				    jsonText = JsonConvert.SerializeObject(dictionary, Formatting.Indented);
+
+				    var path = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\Tanks\Shells");
+
+				    if (!Directory.Exists(path))
+				    {
+					    Directory.CreateDirectory(path);
+				    }
+
+					path = Path.Combine(path, info.Directory.Parent.Name + "_" + info.Name.Replace(info.Extension, ".json"));
+
+				    var stream = File.OpenWrite(path.ToLower());
+				    using (var writer = new StreamWriter(stream))
+				    {
+					    writer.Write(jsonText);
+				    }
+
+			    }
+		    }
+	    }
+
+		public void ImportAchievementsXmlTest(ClientInfo client)
+		{
+			var configsPath = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\scripts\item_defs\");
+
+			if (!Directory.Exists(configsPath))
+			{
+				Assert.Fail("Folder not exists - [{0}]", configsPath);
+			}
+			if (!File.Exists(Path.Combine(configsPath, "achievements.xml")))
+				return;
+
+			throw new NotImplementedException();
+			//var reader = new BigWorldXmlReader();
+
+			//var array = new JArray();
+
+			//foreach (var configFile in Directory.GetFiles(configsPath, "*.xml", SearchOption.AllDirectories))
+			//{
+			//	var file = new FileInfo(configFile);
+
+			//	using (var stream = new FileStream(configFile, FileMode.Open, FileAccess.Read))
+			//	{
+			//		using (var br = new BinaryReader(stream))
+			//		{
+			//			var xml = reader.DecodePackedFile(br, "map");
+			//			var doc = XDocument.Parse(xml);
+			//			if (doc.Root == null || doc.Root.Name != "map" || doc.Root.Elements("name").FirstOrDefault() == null)
+			//				continue;
+
+			//			var jsonText = JsonConvert.SerializeXNode(doc, Formatting.Indented);
+
+			//			var deserializeObject = JsonConvert.DeserializeObject<JObject>(jsonText);
+
+			//			var jToken = deserializeObject["map"];
+
+			//			var mapKey = file.Name.Replace(file.Extension, string.Empty);
+
+			//			//if (Dictionaries.Instance.Maps.ContainsKey(mapKey))
+			//			//{
+			//			// var target = Dictionaries.Instance.Maps[mapKey];
+
+			//			// JsonConvert.PopulateObject(jToken["boundingBox"].ToString(), target);
+			//			//}
+
+			//			array.Add(jToken);
+			//		}
+			//	}
+
+			//}
+
+			////foreach (var key in Dictionaries.Instance.Maps.Keys)
+			////{
+			////    if (!File.Exists(Path.Combine(configsPath, key + ".xml")))
+			////    {
+			////        Console.WriteLine("Missed map: {0}", key);
+			////    }
+			////}
+
+			//var path = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\Maps");
+
+			//if (!Directory.Exists(path))
+			//{
+			//	Directory.CreateDirectory(path);
+			//}
+
+			//path = Path.Combine(path, "maps_description.json");
+
+			//var outputStream = File.OpenWrite(path);
+			//var mapsJson = array.ToString(Formatting.Indented);
+			//using (StreamWriter writer = new StreamWriter(outputStream))
+			//{
+			//	writer.Write(mapsJson);
+			//}
+
+			//Console.WriteLine(mapsJson);
+		}
+
+	    [Test]
+	    public void ImportAchievementsImages(ClientInfo client)
+	    {
+		    var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\Achievements\Images");
+		    Directory.CreateDirectory(destination);
+			string filepath = Path.Combine(client.ClientPath, @"res\packages\gui.pkg");
+		    using (var zip = new ZipFile(filepath, Encoding.GetEncoding((int) CodePage.CyrillicDOS)))
+		    {
+			    var achievement = @"gui/maps/icons/achievement";
+			    zip.ExtractSelectedEntries("name = *.*", achievement, destination, ExtractExistingFileAction.OverwriteSilently);
+		    }
+	    }
+
+	    public void EnsureImportImages(ClientInfo client)
+	    {
+			var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}");
+
+		    if (Directory.Exists(Path.Combine(destination, "gui")))
+			    return;
+			
+		    string filepath = Path.Combine(client.ClientPath, @"res\packages\gui.pkg");
+
+		    using (var zip = new ZipFile(filepath, Encoding.GetEncoding((int)CodePage.CyrillicDOS)))
+		    {
+			    zip.ExtractSelectedEntries("name = *.*", @"gui/maps/icons/map", destination, ExtractExistingFileAction.OverwriteSilently);
+			    zip.ExtractSelectedEntries("name = *.*", @"gui/maps/icons/map/stats", destination, ExtractExistingFileAction.OverwriteSilently);
+			    zip.ExtractSelectedEntries("name = *.*", @"gui/maps/icons/vehicle", destination, ExtractExistingFileAction.OverwriteSilently);
+			    zip.ExtractSelectedEntries("name = *.*", @"gui/maps/icons/achievement", destination, ExtractExistingFileAction.OverwriteSilently);
+			    zip.ExtractSelectedEntries("name = *.*", @"gui/maps/icons/artefact", destination, ExtractExistingFileAction.OverwriteSilently);
+				zip.ExtractSelectedEntries("name = *.*", @"gui/maps/icons/ammopanel/ammo", destination, ExtractExistingFileAction.OverwriteSilently);
+			}
+	    }
+
+	    [Test]
         public void UpdateToPatch()
         {
             string destination;
             string source;
 
-            EnshureScriptsCopied();
 
-            ImportTanksXmlTest();
+	        foreach (var client in clients.Where(c => string.IsNullOrEmpty(processedPatch) || c.PatchVer == processedPatch))
+	        {
+		        EnshureScriptsCopied(client);
+		        EnshureGameTextResources(client);
+		        EnsureImportImages(client);
 
-            Console.WriteLine("Copy maps definitions");
+				Console.WriteLine("Copy maps definitions");
 
-            destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Maps");
+		        //destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Maps");
 
-            var scriptsPath = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\scripts");
-            source = Path.Combine(scriptsPath, @"arena_defs");
+		        //var scriptsPath = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\scripts");
+		        //source = Path.Combine(scriptsPath, @"arena_defs");
 
-            Directory.CreateDirectory(destination);
+		        //Directory.CreateDirectory(destination);
 
-            DirectoryCopy(source, destination, true);
+		        //DirectoryCopy(source, destination, true);
 
-            ImportMapsTest();
+		        ImportMapsTest(client);
 
-            Console.WriteLine("Copy tanks components");
-            
-            ImportTanksComponentsXmlTest();
+		        Console.WriteLine("Copy tanks components");
 
-            destination = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Images");
+		        ImportShellsXmlTest(client);
 
-            string filepath = Path.Combine(clientPath, @"res\packages\gui.pkg");
-            using (var zip = new ZipFile(filepath, Encoding.GetEncoding((int)CodePage.CyrillicDOS)))
-            {
-                var achievement = @"gui/maps/icons/achievement";
-                zip.ExtractSelectedEntries("name = *.*", achievement, destination, ExtractExistingFileAction.OverwriteSilently);
+		        Console.WriteLine("import achievements xml");
 
-                var achievementsDestinationPath = Path.Combine(destination, "achievement");
+		        ImportAchievementsXmlTest(client);
 
-                if (Directory.Exists(achievementsDestinationPath))
-                {
-                    Directory.Delete(achievementsDestinationPath, true);
-                }
+		        Console.WriteLine("import images");
 
-                Directory.Move(Path.Combine(destination, achievement), achievementsDestinationPath);
 
-                var vehicle = @"gui/maps/icons/vehicle";
-                zip.ExtractSelectedEntries("name = *.*", vehicle, destination, ExtractExistingFileAction.OverwriteSilently);
-                var vehiclesPath = Path.Combine(destination, @"vehicle");
+		        //destination = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Images");
 
-                if (Directory.Exists(vehiclesPath))
-                {
-                    Directory.Delete(vehiclesPath, true);
-                }
+		        //string filepath = Path.Combine(clientPath, @"res\packages\gui.pkg");
+		        //using (var zip = new ZipFile(filepath, Encoding.GetEncoding((int)CodePage.CyrillicDOS)))
+		        //{
+		        //    var achievement = @"gui/maps/icons/achievement";
+		        //    zip.ExtractSelectedEntries("name = *.*", achievement, destination, ExtractExistingFileAction.OverwriteSilently);
 
-                Directory.Move(Path.Combine(destination, vehicle), vehiclesPath);
+		        //    var achievementsDestinationPath = Path.Combine(destination, "achievement");
 
-                var files = Directory.GetFiles(vehiclesPath);
+		        //    if (Directory.Exists(achievementsDestinationPath))
+		        //    {
+		        //        Directory.Delete(achievementsDestinationPath, true);
+		        //    }
 
-                foreach (var file in files)
-                {
-                    FileInfo info = new FileInfo(file);
-                    var destFileName = file.Replace("-", "_");
-                    if (!File.Exists(destFileName))
-                    {
-                        info.MoveTo(destFileName);
-                    }
-                }
-            }
+		        //    Directory.Move(Path.Combine(destination, achievement), achievementsDestinationPath);
+
+		        //    var vehicle = @"gui/maps/icons/vehicle";
+		        //    zip.ExtractSelectedEntries("name = *.*", vehicle, destination, ExtractExistingFileAction.OverwriteSilently);
+		        //    var vehiclesPath = Path.Combine(destination, @"vehicle");
+
+		        //    if (Directory.Exists(vehiclesPath))
+		        //    {
+		        //        Directory.Delete(vehiclesPath, true);
+		        //    }
+
+		        //    Directory.Move(Path.Combine(destination, vehicle), vehiclesPath);
+
+		        //    var files = Directory.GetFiles(vehiclesPath);
+
+		        //    foreach (var file in files)
+		        //    {
+		        //        FileInfo info = new FileInfo(file);
+		        //        var destFileName = file.Replace("-", "_");
+		        //        if (!File.Exists(destFileName))
+		        //        {
+		        //            info.MoveTo(destFileName);
+		        //        }
+		        //    }
+		        //}
+	        }
 
 
         }
@@ -887,7 +1065,90 @@ namespace WotDossier.Test
             }
         }
 
-        private void CopyGameTextResources()
+
+	    private void EnshureScriptsCopied(ClientInfo client)
+	    {
+			var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}");
+		    var scriptsPath = Path.Combine(destination, @"scripts");
+
+		    if (!Directory.Exists(scriptsPath))
+		    {
+			    Directory.CreateDirectory(scriptsPath);
+			    if (client.Packed)
+			    {
+				    string filepath = Path.Combine(client.ClientPath, @"res\packages\scripts.pkg");
+				    using (var zip = new ZipFile(filepath, Encoding.GetEncoding((int)CodePage.CyrillicDOS)))
+				    {
+					    zip.ExtractAll(destination, ExtractExistingFileAction.OverwriteSilently);
+				    }
+			    }
+			    else
+			    {
+				    string filepath = Path.Combine(client.ClientPath, @"res\scripts");
+				    DirectoryCopy(filepath, scriptsPath, true);
+			    }
+			}
+		}
+
+	    private void EnshureGameTextResources(ClientInfo client)
+	    {
+		    string destination;
+		    string source;
+		    Console.WriteLine("Copy resources");
+
+		    foreach(var lc in new List<(string path, string locale)> { (client.ClientPath, "ru"), (client.EnglishClientPath, "en") })
+			{
+				destination = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\text\{lc.locale}");
+				source = Path.Combine(lc.path, @"res\text\lc_messages");
+
+				if (!Directory.Exists(destination))
+				{
+					Directory.CreateDirectory(destination);
+
+					var strings = Directory.GetFiles(source);
+
+					foreach (var resourceFile in strings)
+					{
+						FileInfo info = new FileInfo(resourceFile);
+						info.CopyTo(Path.Combine(destination, info.Name), true);
+					}
+
+					var res = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\Resources\Text\{lc.locale}");
+					if (!Directory.Exists(res))
+					{
+						Directory.CreateDirectory(res);
+					}
+
+					string result;
+					using (var proc = new Process())
+					{
+						proc.StartInfo.CreateNoWindow = true;
+						proc.StartInfo.UseShellExecute = false;
+						proc.StartInfo.RedirectStandardOutput = true;
+						proc.StartInfo.FileName = Path.Combine(Environment.CurrentDirectory, @"Tools\convert.cmd");
+						proc.StartInfo.StandardOutputEncoding = Encoding.ASCII;
+						proc.StartInfo.Arguments = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}") + " " +
+						                           Path.Combine(Environment.CurrentDirectory, @"Tools") + " " + lc.locale;
+
+
+						proc.StartInfo.WorkingDirectory = destination;
+
+						proc.Start();
+
+						result = proc.StandardOutput.ReadToEnd();
+
+						Console.WriteLine(result);
+
+						//write log
+						proc.WaitForExit();
+					}
+				}
+
+			}		    
+	    }
+
+
+		private void CopyGameTextResources()
         {
             string destination;
             string source;

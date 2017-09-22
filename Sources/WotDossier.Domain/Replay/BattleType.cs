@@ -15,7 +15,8 @@
         Sorties = 10,
         FortBattles = 11,
         Ladder = 12,
-        Ctf30x30 = 24,
+	    Ranked = 22,
+		Ctf30x30 = 24,
 
 
         ctf = 101,

@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="battleControls/casseteReload" xml:space="preserve">
+    <value>Перезарядить кассету</value>
+  </data>
+  <data name="battleControls/cruiseCtrlBackward" xml:space="preserve">
+    <value>Автоматическое движение назад</value>
+  </data>
+  <data name="battleControls/cruiseCtrlForward" xml:space="preserve">
+    <value>Автоматическое движение вперёд</value>
+  </data>
+  <data name="battleControls/disableLockTarget" xml:space="preserve">
+    <value>Выключить автоприцел</value>
+  </data>
+  <data name="battleControls/fire" xml:space="preserve">
+    <value>Выстрелить</value>
+  </data>
+  <data name="battleControls/hideInterface" xml:space="preserve">
+    <value>Скрыть/показать боевой интерфейс</value>
+  </data>
+  <data name="battleControls/hideMinimap" xml:space="preserve">
+    <value>Скрыть/показать миникарту</value>
+  </data>
+  <data name="battleControls/makeScreenshort" xml:space="preserve">
+    <value>Сохранить скриншот</value>
+  </data>
+  <data name="battleControls/movementBackward" xml:space="preserve">
+    <value>Движение назад</value>
+  </data>
+  <data name="battleControls/movementForward" xml:space="preserve">
+    <value>Движение вперёд</value>
+  </data>
+  <data name="battleControls/movementLeft" xml:space="preserve">
+    <value>Разворот/движение влево</value>
+  </data>
+  <data name="battleControls/movementRight" xml:space="preserve">
+    <value>Разворот/движение вправо</value>
+  </data>
+  <data name="battleControls/showCursor" xml:space="preserve">
+    <value>Отобразить курсор</value>
+  </data>
+  <data name="battleControls/showCursor/ext" xml:space="preserve">
+    <value>(для действий с миникартой, списком игроков и др.)</value>
+  </data>
+  <data name="battleControls/showExPlayerInfo" xml:space="preserve">
+    <value>Показать альтернативный маркер</value>
+  </data>
+  <data name="battleControls/stopFire" xml:space="preserve">
+    <value>Остановка для выстрела</value>
+  </data>
+  <data name="battleControls/switchAutorotation" xml:space="preserve">
+    <value>Смена режима с походного на осадный</value>
+  </data>
+  <data name="battleControls/title" xml:space="preserve">
+    <value>В режиме боя</value>
+  </data>
+  <data name="battleControls/toggleLockTarget" xml:space="preserve">
+    <value>Включить/выключить автоприцел</value>
+  </data>
+  <data name="battleControls/toggleLockTarget/ext" xml:space="preserve">
+    <value>(при наведённом на противника прицеле)</value>
+  </data>
+  <data name="battleControls/togglePlayerPanelModes" xml:space="preserve">
+    <value>Скрыть/показать списки команд</value>
+  </data>
+  <data name="battleControls/toggleSniperMode" xml:space="preserve">
+    <value>Сменить режим прицела на снайперский</value>
+  </data>
+  <data name="battleControls/toggleSniperMode/ext" xml:space="preserve">
+    <value>или артиллерийский</value>
+  </data>
+  <data name="battleControls/voiceChatMute" xml:space="preserve">
+    <value>Активировать голосовую связь</value>
+  </data>
+  <data name="chatControls/change" xml:space="preserve">
+    <value>Отправить сообщение команде/всем</value>
+  </data>
+  <data name="chatControls/enterToChatMode" xml:space="preserve">
+    <value>Войти в режим чата</value>
+  </data>
+  <data name="chatControls/exitFromChatMode" xml:space="preserve">
+    <value>Отменить набор текста и выйти из режима чата</value>
+  </data>
+  <data name="chatControls/send" xml:space="preserve">
+    <value>Отправить сообщение</value>
+  </data>
+  <data name="chatControls/title" xml:space="preserve">
+    <value>В режиме чата</value>
+  </data>
+  <data name="chatShortcuts/attack" xml:space="preserve">
+    <value>В атаку!</value>
+  </data>
+  <data name="chatShortcuts/attackEnemy" xml:space="preserve">
+    <value>Атакую!</value>
+  </data>
+  <data name="chatShortcuts/attackEnemy/ext" xml:space="preserve">
+    <value>(при наведённом на противника прицеле)</value>
+  </data>
+  <data name="chatShortcuts/backToBase" xml:space="preserve">
+    <value>Защищайте базу!</value>
+  </data>
+  <data name="chatShortcuts/followMe" xml:space="preserve">
+    <value>За мной!</value>
+  </data>
+  <data name="chatShortcuts/helpMe" xml:space="preserve">
+    <value>Нужна помощь!</value>
+  </data>
+  <data name="chatShortcuts/helpMeEx" xml:space="preserve">
+    <value>Помоги!</value>
+  </data>
+  <data name="chatShortcuts/negative" xml:space="preserve">
+    <value>Никак нет!</value>
+  </data>
+  <data name="chatShortcuts/positive" xml:space="preserve">
+    <value>Так точно!</value>
+  </data>
+  <data name="chatShortcuts/reloadingGun" xml:space="preserve">
+    <value>Перезаряжаюсь!</value>
+  </data>
+  <data name="chatShortcuts/stop" xml:space="preserve">
+    <value>Стой!</value>
+  </data>
+  <data name="chatShortcuts/supportMeWithFire" xml:space="preserve">
+    <value>Поддержите огнём!</value>
+  </data>
+  <data name="chatShortcuts/title" xml:space="preserve">
+    <value>Быстрые команды:</value>
+  </data>
+  <data name="chatShortcuts/toBack" xml:space="preserve">
+    <value>Назад!</value>
+  </data>
+  <data name="crosshairControls/ammoNumber" xml:space="preserve">
+    <value>Количество снарядов</value>
+  </data>
+  <data name="crosshairControls/damageIndicator" xml:space="preserve">
+    <value>Индикатор направления обстрела</value>
+  </data>
+  <data name="crosshairControls/dispercion" xml:space="preserve">
+    <value>Разброс орудия</value>
+  </data>
+  <data name="crosshairControls/example/damage" xml:space="preserve">
+    <value>-248</value>
+  </data>
+  <data name="crosshairControls/example/hp" xml:space="preserve">
+    <value>375/720</value>
+  </data>
+  <data name="crosshairControls/example/name" xml:space="preserve">
+    <value>Т-34-85</value>
+  </data>
+  <data name="crosshairControls/gunMarker" xml:space="preserve">
+    <value>Маркер положения орудия</value>
+  </data>
+  <data name="crosshairControls/healthPlayer" xml:space="preserve">
+    <value>Индикатор прочности игрока</value>
+  </data>
+  <data name="crosshairControls/hpIndicator" xml:space="preserve">
+    <value>Индикатор прочности цели</value>
+  </data>
+  <data name="crosshairControls/hpValues" xml:space="preserve">
+    <value>Прочность цели (%/HP осталось/всего)</value>
+  </data>
+  <data name="crosshairControls/marker" xml:space="preserve">
+    <value>Прицельный маркер</value>
+  </data>
+  <data name="crosshairControls/reloadIndicator" xml:space="preserve">
+    <value>Индикатор перезарядки орудия</value>
+  </data>
+  <data name="crosshairControls/reloadTimer" xml:space="preserve">
+    <value>Время перезарядки орудия в секундах</value>
+  </data>
+  <data name="crosshairControls/targetClass" xml:space="preserve">
+    <value>Маркер типа техники</value>
+  </data>
+  <data name="crosshairControls/targetDistance" xml:space="preserve">
+    <value>Расстояние до цели</value>
+  </data>
+  <data name="crosshairControls/targetIcon" xml:space="preserve">
+    <value>Иконка техники</value>
+  </data>
+  <data name="crosshairControls/targetLevel" xml:space="preserve">
+    <value>Уровень техники</value>
+  </data>
+  <data name="crosshairControls/targetName" xml:space="preserve">
+    <value>Модель техники / Имя игрока</value>
+  </data>
+  <data name="crosshairControls/title" xml:space="preserve">
+    <value>Прицел и маркер орудия</value>
+  </data>
+  <data name="markerColors/enemy" xml:space="preserve">
+    <value>Игрок команды противника</value>
+  </data>
+  <data name="markerColors/friend" xml:space="preserve">
+    <value>Игрок нашей команды</value>
+  </data>
+  <data name="markerColors/squadPlayer" xml:space="preserve">
+    <value>Игрок вашего взвода</value>
+  </data>
+  <data name="markerColors/teamKiller" xml:space="preserve">
+    <value>Игрок, уничтоживший технику союзников</value>
+  </data>
+  <data name="markerColors/title" xml:space="preserve">
+    <value>Цветовая кодировка маркеров:</value>
+  </data>
+  <data name="markerMarks/attack" xml:space="preserve">
+    <value>Атакующий противника</value>
+  </data>
+  <data name="markerMarks/follow" xml:space="preserve">
+    <value>За мной!</value>
+  </data>
+  <data name="markerMarks/help" xml:space="preserve">
+    <value>Нужна помощь!</value>
+  </data>
+  <data name="markerMarks/target/sau" xml:space="preserve">
+    <value>Цель атакующей САУ</value>
+  </data>
+  <data name="markerMarks/target/tank" xml:space="preserve">
+    <value>Цель атакующей машины</value>
+  </data>
+  <data name="markerMarks/title" xml:space="preserve">
+    <value>Обозначение быстрых команд на миникарте:</value>
+  </data>
+  <data name="radialMenu/attackEnemy" xml:space="preserve">
+    <value>Поддержите огнём!</value>
+  </data>
+  <data name="radialMenu/attackEnemy/ext" xml:space="preserve">
+    <value>(при наведённом на противника прицеле)</value>
+  </data>
+  <data name="radialMenu/show" xml:space="preserve">
+    <value>Показать меню приказов</value>
+  </data>
+  <data name="radialMenu/show/ext" xml:space="preserve">
+    <value>(список приказов в меню зависит от цели)</value>
+  </data>
+  <data name="radialMenu/title" xml:space="preserve">
+    <value>Меню приказов</value>
+  </data>
+  <data name="returnToGame" xml:space="preserve">
+    <value>Esc — вернуться в бой</value>
+  </data>
+  <data name="settings/button" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="settings/help" xml:space="preserve">
+    <value>Для просмотра и настройки всех используемых в игре клавиш нажмите кнопку «Настройки».</value>
+  </data>
+  <data name="vehicleTypes/title" xml:space="preserve">
+    <value>Обозначение типов техники</value>
+  </data>
+</root>

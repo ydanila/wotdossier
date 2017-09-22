@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="KEY_0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KEY_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="KEY_2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="KEY_3" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="KEY_4" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="KEY_5" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="KEY_6" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="KEY_7" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="KEY_8" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="KEY_9" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="KEY_A" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="KEY_ABNT_C1" xml:space="preserve">
+    <value>KEY_ABNT_C1</value>
+  </data>
+  <data name="KEY_ABNT_C2" xml:space="preserve">
+    <value>KEY_ABNT_C2</value>
+  </data>
+  <data name="KEY_ADD" xml:space="preserve">
+    <value>NumAdd</value>
+  </data>
+  <data name="KEY_APOSTROPHE" xml:space="preserve">
+    <value>'</value>
+  </data>
+  <data name="KEY_APPS" xml:space="preserve">
+    <value>KEY_APPS</value>
+  </data>
+  <data name="KEY_AT" xml:space="preserve">
+    <value>KEY_AT</value>
+  </data>
+  <data name="KEY_AX" xml:space="preserve">
+    <value>AX</value>
+  </data>
+  <data name="KEY_B" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="KEY_BACKSLASH" xml:space="preserve">
+    <value>\</value>
+  </data>
+  <data name="KEY_BACKSPACE" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="KEY_C" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="KEY_CALCULATOR" xml:space="preserve">
+    <value>KEY_CALCULATOR</value>
+  </data>
+  <data name="KEY_CAPSLOCK" xml:space="preserve">
+    <value>CapsLock</value>
+  </data>
+  <data name="KEY_COLON" xml:space="preserve">
+    <value>KEY_COLON</value>
+  </data>
+  <data name="KEY_COMMA" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="KEY_CONVERT" xml:space="preserve">
+    <value>KEY_CONVERT</value>
+  </data>
+  <data name="KEY_D" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="KEY_DEBUG" xml:space="preserve">
+    <value>KEY_DEBUG</value>
+  </data>
+  <data name="KEY_DELETE" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="KEY_DOWNARROW" xml:space="preserve">
+    <value>Down Arrow</value>
+  </data>
+  <data name="KEY_E" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="KEY_END" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="KEY_ENTER" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="KEY_EQUALS" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="KEY_ESCAPE" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="KEY_F" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="KEY_F1" xml:space="preserve">
+    <value>F1</value>
+  </data>
+  <data name="KEY_F10" xml:space="preserve">
+    <value>F10</value>
+  </data>
+  <data name="KEY_F11" xml:space="preserve">
+    <value>F11</value>
+  </data>
+  <data name="KEY_F12" xml:space="preserve">
+    <value>F12</value>
+  </data>
+  <data name="KEY_F13" xml:space="preserve">
+    <value>F13</value>
+  </data>
+  <data name="KEY_F14" xml:space="preserve">
+    <value>F14</value>
+  </data>
+  <data name="KEY_F15" xml:space="preserve">
+    <value>F15</value>
+  </data>
+  <data name="KEY_F2" xml:space="preserve">
+    <value>F2</value>
+  </data>
+  <data name="KEY_F3" xml:space="preserve">
+    <value>F3</value>
+  </data>
+  <data name="KEY_F4" xml:space="preserve">
+    <value>F4</value>
+  </data>
+  <data name="KEY_F5" xml:space="preserve">
+    <value>F5</value>
+  </data>
+  <data name="KEY_F6" xml:space="preserve">
+    <value>F6</value>
+  </data>
+  <data name="KEY_F7" xml:space="preserve">
+    <value>F7</value>
+  </data>
+  <data name="KEY_F8" xml:space="preserve">
+    <value>F8</value>
+  </data>
+  <data name="KEY_F9" xml:space="preserve">
+    <value>F9</value>
+  </data>
+  <data name="KEY_G" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="KEY_GRAVE" xml:space="preserve">
+    <value>KEY_GRAVE</value>
+  </data>
+  <data name="KEY_H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="KEY_HOME" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="KEY_I" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="KEY_IME_CHAR" xml:space="preserve">
+    <value>KEY_IME_CHAR</value>
+  </data>
+  <data name="KEY_INSERT" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="KEY_J" xml:space="preserve">
+    <value>J</value>
+  </data>
+  <data name="KEY_JOYA" xml:space="preserve">
+    <value>KEY_JOYA</value>
+  </data>
+  <data name="KEY_JOYALDOWN" xml:space="preserve">
+    <value>KEY_JOYALDOWN</value>
+  </data>
+  <data name="KEY_JOYALLEFT" xml:space="preserve">
+    <value>KEY_JOYALLEFT</value>
+  </data>
+  <data name="KEY_JOYALPUSH" xml:space="preserve">
+    <value>KEY_JOYALPUSH</value>
+  </data>
+  <data name="KEY_JOYALRIGHT" xml:space="preserve">
+    <value>KEY_JOYALRIGHT</value>
+  </data>
+  <data name="KEY_JOYALUP" xml:space="preserve">
+    <value>KEY_JOYALUP</value>
+  </data>
+  <data name="KEY_JOYARPUSH" xml:space="preserve">
+    <value>KEY_JOYARPUSH</value>
+  </data>
+  <data name="KEY_JOYB" xml:space="preserve">
+    <value>KEY_JOYB</value>
+  </data>
+  <data name="KEY_JOYBACK" xml:space="preserve">
+    <value>KEY_JOYBACK</value>
+  </data>
+  <data name="KEY_JOYBLACK" xml:space="preserve">
+    <value>KEY_JOYBLACK</value>
+  </data>
+  <data name="KEY_JOYDDOWN" xml:space="preserve">
+    <value>KEY_JOYDDOWN</value>
+  </data>
+  <data name="KEY_JOYDLEFT" xml:space="preserve">
+    <value>KEY_JOYDLEFT</value>
+  </data>
+  <data name="KEY_JOYDRIGHT" xml:space="preserve">
+    <value>KEY_JOYDRIGHT</value>
+  </data>
+  <data name="KEY_JOYDUP" xml:space="preserve">
+    <value>KEY_JOYDUP</value>
+  </data>
+  <data name="KEY_JOYLTRIGGER" xml:space="preserve">
+    <value>KEY_JOYLTRIGGER</value>
+  </data>
+  <data name="KEY_JOYRTRIGGER" xml:space="preserve">
+    <value>KEY_JOYRTRIGGER</value>
+  </data>
+  <data name="KEY_JOYSTART" xml:space="preserve">
+    <value>KEY_JOYSTART</value>
+  </data>
+  <data name="KEY_JOYWHITE" xml:space="preserve">
+    <value>KEY_JOYWHITE</value>
+  </data>
+  <data name="KEY_JOYX" xml:space="preserve">
+    <value>KEY_JOYX</value>
+  </data>
+  <data name="KEY_JOYY" xml:space="preserve">
+    <value>KEY_JOYY</value>
+  </data>
+  <data name="KEY_K" xml:space="preserve">
+    <value>K</value>
+  </data>
+  <data name="KEY_KANA" xml:space="preserve">
+    <value>KEY_KANA</value>
+  </data>
+  <data name="KEY_KANJI" xml:space="preserve">
+    <value>KEY_KANJI</value>
+  </data>
+  <data name="KEY_L" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="KEY_LALT" xml:space="preserve">
+    <value>Left Alt</value>
+  </data>
+  <data name="KEY_LBRACKET" xml:space="preserve">
+    <value>[</value>
+  </data>
+  <data name="KEY_LCDKB_CANCEL" xml:space="preserve">
+    <value>KEY_LCDKB_CANCEL</value>
+  </data>
+  <data name="KEY_LCDKB_DOWN" xml:space="preserve">
+    <value>KEY_LCDKB_DOWN</value>
+  </data>
+  <data name="KEY_LCDKB_LEFT" xml:space="preserve">
+    <value>KEY_LCDKB_LEFT</value>
+  </data>
+  <data name="KEY_LCDKB_MENU" xml:space="preserve">
+    <value>KEY_LCDKB_MENU</value>
+  </data>
+  <data name="KEY_LCDKB_OK" xml:space="preserve">
+    <value>KEY_LCDKB_OK</value>
+  </data>
+  <data name="KEY_LCDKB_RIGHT" xml:space="preserve">
+    <value>KEY_LCDKB_RIGHT</value>
+  </data>
+  <data name="KEY_LCDKB_UP" xml:space="preserve">
+    <value>KEY_LCDKB_UP</value>
+  </data>
+  <data name="KEY_LCONTROL" xml:space="preserve">
+    <value>Left Ctrl</value>
+  </data>
+  <data name="KEY_LEFTARROW" xml:space="preserve">
+    <value>Left Arrow</value>
+  </data>
+  <data name="KEY_LEFTMOUSE" xml:space="preserve">
+    <value>KEY_LEFTMOUSE</value>
+  </data>
+  <data name="KEY_LSHIFT" xml:space="preserve">
+    <value>Left Shift</value>
+  </data>
+  <data name="KEY_LWIN" xml:space="preserve">
+    <value>KEY_LWIN</value>
+  </data>
+  <data name="KEY_M" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="KEY_MAIL" xml:space="preserve">
+    <value>KEY_MAIL</value>
+  </data>
+  <data name="KEY_MEDIASELECT" xml:space="preserve">
+    <value>KEY_MEDIASELECT</value>
+  </data>
+  <data name="KEY_MEDIASTOP" xml:space="preserve">
+    <value>KEY_MEDIASTOP</value>
+  </data>
+  <data name="KEY_MIDDLEMOUSE" xml:space="preserve">
+    <value>KEY_MIDDLEMOUSE</value>
+  </data>
+  <data name="KEY_MINUS" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="KEY_MOUSE0" xml:space="preserve">
+    <value>LMB</value>
+  </data>
+  <data name="KEY_MOUSE1" xml:space="preserve">
+    <value>RMB</value>
+  </data>
+  <data name="KEY_MOUSE2" xml:space="preserve">
+    <value>MMB</value>
+  </data>
+  <data name="KEY_MOUSE3" xml:space="preserve">
+    <value>KEY_MOUSE3</value>
+  </data>
+  <data name="KEY_MOUSE4" xml:space="preserve">
+    <value>DOWN_MB</value>
+  </data>
+  <data name="KEY_MOUSE5" xml:space="preserve">
+    <value>UP_MB</value>
+  </data>
+  <data name="KEY_MOUSE6" xml:space="preserve">
+    <value>MB6</value>
+  </data>
+  <data name="KEY_MOUSE7" xml:space="preserve">
+    <value>MB7</value>
+  </data>
+  <data name="KEY_MUTE" xml:space="preserve">
+    <value>KEY_MUTE</value>
+  </data>
+  <data name="KEY_MYCOMPUTER" xml:space="preserve">
+    <value>KEY_MYCOMPUTER</value>
+  </data>
+  <data name="KEY_N" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="KEY_NEXTTRACK" xml:space="preserve">
+    <value>KEY_NEXTTRACK</value>
+  </data>
+  <data name="KEY_NOCONVERT" xml:space="preserve">
+    <value>KEY_NOCONVERT</value>
+  </data>
+  <data name="KEY_NONE" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="KEY_NONE_ALT" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="KEY_NUMLOCK" xml:space="preserve">
+    <value>Numlock</value>
+  </data>
+  <data name="KEY_NUMPAD0" xml:space="preserve">
+    <value>Num0</value>
+  </data>
+  <data name="KEY_NUMPAD1" xml:space="preserve">
+    <value>Num1</value>
+  </data>
+  <data name="KEY_NUMPAD2" xml:space="preserve">
+    <value>Num2</value>
+  </data>
+  <data name="KEY_NUMPAD3" xml:space="preserve">
+    <value>Num3</value>
+  </data>
+  <data name="KEY_NUMPAD4" xml:space="preserve">
+    <value>Num4</value>
+  </data>
+  <data name="KEY_NUMPAD5" xml:space="preserve">
+    <value>Num5</value>
+  </data>
+  <data name="KEY_NUMPAD6" xml:space="preserve">
+    <value>Num6</value>
+  </data>
+  <data name="KEY_NUMPAD7" xml:space="preserve">
+    <value>Num7</value>
+  </data>
+  <data name="KEY_NUMPAD8" xml:space="preserve">
+    <value>Num8</value>
+  </data>
+  <data name="KEY_NUMPAD9" xml:space="preserve">
+    <value>Num9</value>
+  </data>
+  <data name="KEY_NUMPADCOMMA" xml:space="preserve">
+    <value>NumCom</value>
+  </data>
+  <data name="KEY_NUMPADENTER" xml:space="preserve">
+    <value>NumEnter</value>
+  </data>
+  <data name="KEY_NUMPADEQUALS" xml:space="preserve">
+    <value>KEY_NUMPADEQUALS</value>
+  </data>
+  <data name="KEY_NUMPADMINUS" xml:space="preserve">
+    <value>NumMin</value>
+  </data>
+  <data name="KEY_NUMPADPERIOD" xml:space="preserve">
+    <value>NumPeriod</value>
+  </data>
+  <data name="KEY_NUMPADSLASH" xml:space="preserve">
+    <value>NumDiv</value>
+  </data>
+  <data name="KEY_NUMPADSTAR" xml:space="preserve">
+    <value>NumStar</value>
+  </data>
+  <data name="KEY_O" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="KEY_OEM_102" xml:space="preserve">
+    <value>OEM 102</value>
+  </data>
+  <data name="KEY_P" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="KEY_PAUSE" xml:space="preserve">
+    <value>KEY PAUSE</value>
+  </data>
+  <data name="KEY_PERIOD" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="KEY_PGDN" xml:space="preserve">
+    <value>Page Down</value>
+  </data>
+  <data name="KEY_PGUP" xml:space="preserve">
+    <value>Page Up</value>
+  </data>
+  <data name="KEY_PLAYPAUSE" xml:space="preserve">
+    <value>KEY_PLAYPAUSE</value>
+  </data>
+  <data name="KEY_POWER" xml:space="preserve">
+    <value>KEY_POWER</value>
+  </data>
+  <data name="KEY_PREVTRACK" xml:space="preserve">
+    <value>KEY_PREVTRACK</value>
+  </data>
+  <data name="KEY_Q" xml:space="preserve">
+    <value>Q</value>
+  </data>
+  <data name="KEY_R" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="KEY_RALT" xml:space="preserve">
+    <value>Right Alt</value>
+  </data>
+  <data name="KEY_RBRACKET" xml:space="preserve">
+    <value>]</value>
+  </data>
+  <data name="KEY_RCONTROL" xml:space="preserve">
+    <value>Right Ctrl</value>
+  </data>
+  <data name="KEY_RETURN" xml:space="preserve">
+    <value>KEY_RETURN</value>
+  </data>
+  <data name="KEY_RIGHTARROW" xml:space="preserve">
+    <value>Right Arrow</value>
+  </data>
+  <data name="KEY_RIGHTMOUSE" xml:space="preserve">
+    <value>KEY_RIGHTMOUSE</value>
+  </data>
+  <data name="KEY_RSHIFT" xml:space="preserve">
+    <value>Right Shift</value>
+  </data>
+  <data name="KEY_RWIN" xml:space="preserve">
+    <value>KEY_RWIN</value>
+  </data>
+  <data name="KEY_S" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="KEY_SCROLL" xml:space="preserve">
+    <value>KEY SCROLL</value>
+  </data>
+  <data name="KEY_SEMICOLON" xml:space="preserve">
+    <value>;</value>
+  </data>
+  <data name="KEY_SLASH" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="KEY_SLEEP" xml:space="preserve">
+    <value>KEY_SLEEP</value>
+  </data>
+  <data name="KEY_SPACE" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="KEY_STOP" xml:space="preserve">
+    <value>KEY_STOP</value>
+  </data>
+  <data name="KEY_SYSRQ" xml:space="preserve">
+    <value>KEY_SYSRQ</value>
+  </data>
+  <data name="KEY_T" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="KEY_TAB" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="KEY_U" xml:space="preserve">
+    <value>U</value>
+  </data>
+  <data name="KEY_UNDERLINE" xml:space="preserve">
+    <value>KEY_UNDERLINE</value>
+  </data>
+  <data name="KEY_UNLABELED" xml:space="preserve">
+    <value>KEY_UNLABELED</value>
+  </data>
+  <data name="KEY_UPARROW" xml:space="preserve">
+    <value>Up Arrow</value>
+  </data>
+  <data name="KEY_V" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="KEY_VOLUMEDOWN" xml:space="preserve">
+    <value>KEY_VOLUMEDOWN</value>
+  </data>
+  <data name="KEY_VOLUMEUP" xml:space="preserve">
+    <value>KEY_VOLUMEUP</value>
+  </data>
+  <data name="KEY_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="KEY_WAKE" xml:space="preserve">
+    <value>KEY_WAKE</value>
+  </data>
+  <data name="KEY_WEBBACK" xml:space="preserve">
+    <value>KEY_WEBBACK</value>
+  </data>
+  <data name="KEY_WEBFAVORITES" xml:space="preserve">
+    <value>KEY_WEBFAVORITES</value>
+  </data>
+  <data name="KEY_WEBFORWARD" xml:space="preserve">
+    <value>KEY_WEBFORWARD</value>
+  </data>
+  <data name="KEY_WEBHOME" xml:space="preserve">
+    <value>KEY_WEBHOME</value>
+  </data>
+  <data name="KEY_WEBREFRESH" xml:space="preserve">
+    <value>KEY_WEBREFRESH</value>
+  </data>
+  <data name="KEY_WEBSEARCH" xml:space="preserve">
+    <value>KEY_WEBSEARCH</value>
+  </data>
+  <data name="KEY_WEBSTOP" xml:space="preserve">
+    <value>KEY_WEBSTOP</value>
+  </data>
+  <data name="KEY_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="KEY_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="KEY_YEN" xml:space="preserve">
+    <value>KEY_YEN</value>
+  </data>
+  <data name="KEY_Z" xml:space="preserve">
+    <value>Z</value>
+  </data>
+</root>

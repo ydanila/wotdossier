@@ -1,0 +1,1403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="clan/header/chatChannelBtn" xml:space="preserve">
+    <value>Clan Chat</value>
+  </data>
+  <data name="clan/header/chatChannelBtn/tooltip/body" xml:space="preserve">
+    <value>Click to write and send a message to the clan chat.</value>
+  </data>
+  <data name="clan/header/chatChannelBtn/tooltip/header" xml:space="preserve">
+    <value>Clan Chat</value>
+  </data>
+  <data name="clan/header/creationDate" xml:space="preserve">
+    <value>Created on %(creationDate)s</value>
+  </data>
+  <data name="clan/header/invitesAndRequests" xml:space="preserve">
+    <value>Applications and Invitations</value>
+  </data>
+  <data name="clan/header/requestSent" xml:space="preserve">
+    <value>Application submitted</value>
+  </data>
+  <data name="clan/header/sendRequestBtn" xml:space="preserve">
+    <value>Submit Application</value>
+  </data>
+  <data name="clan/header/sendRequestBtn/tooltip/body" xml:space="preserve">
+    <value>Click to submit your application to this clan.</value>
+  </data>
+  <data name="clan/header/sendRequestBtn/tooltip/header" xml:space="preserve">
+    <value>Submit Application</value>
+  </data>
+  <data name="clan/post/combatOfficer" xml:space="preserve">
+    <value>Combat Officer</value>
+  </data>
+  <data name="clan/post/commander" xml:space="preserve">
+    <value>Commander</value>
+  </data>
+  <data name="clan/post/executiveOfficer" xml:space="preserve">
+    <value>Executive Officer</value>
+  </data>
+  <data name="clan/post/intelligenceOfficer" xml:space="preserve">
+    <value>Intelligence Officer</value>
+  </data>
+  <data name="clan/post/juniorOfficer" xml:space="preserve">
+    <value>Junior Officer</value>
+  </data>
+  <data name="clan/post/personnelOfficer" xml:space="preserve">
+    <value>Personnel Officer</value>
+  </data>
+  <data name="clan/post/private" xml:space="preserve">
+    <value>Private</value>
+  </data>
+  <data name="clan/post/quartermaster" xml:space="preserve">
+    <value>Quartermaster</value>
+  </data>
+  <data name="clan/post/recruit" xml:space="preserve">
+    <value>Recruit</value>
+  </data>
+  <data name="clan/post/recruiter" xml:space="preserve">
+    <value>Recruitment Officer</value>
+  </data>
+  <data name="clan/post/reservist" xml:space="preserve">
+    <value>Reservist</value>
+  </data>
+  <data name="clanInvite/notification/userNameError" xml:space="preserve">
+    <value>Error displaying the name</value>
+  </data>
+  <data name="clanInvitesWindow/dataUpdated" xml:space="preserve">
+    <value>Data in the table has been updated.</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noActualRequests/link" xml:space="preserve">
+    <value>Recruitment Requirements</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noActualRequests/text" xml:space="preserve">
+    <value>Can be edited</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noActualRequests/title" xml:space="preserve">
+    <value>The clan has no pending applications.</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noExpiredRequests/title" xml:space="preserve">
+    <value>The clan has no expired applications.</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noInvites/invite" xml:space="preserve">
+    <value>Invite to Clan</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noInvites/text" xml:space="preserve">
+    <value>Click %(invite)s to send invitations
+to new players.</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noInvites/title" xml:space="preserve">
+    <value>The clan did not send any invitations in the last 28 days.</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noInvitesActual/title" xml:space="preserve">
+    <value>The clan does not have any pending invitations from the last 28 days.</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noInvitesExpired/title" xml:space="preserve">
+    <value>The clan does not have any expired invitations from the last 28 days.</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noInvitesProcessed/title" xml:space="preserve">
+    <value>The clan does not have any processed invitations from the last 28 days.</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noProcessedRequests/title" xml:space="preserve">
+    <value>The clan has no processed applications.</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/serverError/text" xml:space="preserve">
+    <value>No data received from server. 
+Try again later.</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/serverError/title" xml:space="preserve">
+    <value>Server Error</value>
+  </data>
+  <data name="clanInvitesWindow/filters/actual" xml:space="preserve">
+    <value>Pending (%(value)s)</value>
+  </data>
+  <data name="clanInvitesWindow/filters/all" xml:space="preserve">
+    <value>All (%(value)s)</value>
+  </data>
+  <data name="clanInvitesWindow/filters/expired" xml:space="preserve">
+    <value>Expired (%(value)s)</value>
+  </data>
+  <data name="clanInvitesWindow/filters/hasAnswer" xml:space="preserve">
+    <value>Decision received (%(value)s)</value>
+  </data>
+  <data name="clanInvitesWindow/filters/processed" xml:space="preserve">
+    <value>Processed (%(value)s)</value>
+  </data>
+  <data name="clanInvitesWindow/header/freePlacesInClan" xml:space="preserve">
+    <value>Free positions in clan: %(count)s</value>
+  </data>
+  <data name="clanInvitesWindow/header/inviteInClan" xml:space="preserve">
+    <value>Invite to Clan</value>
+  </data>
+  <data name="clanInvitesWindow/header/tooltips/info" xml:space="preserve">
+    <value>You have three days to process an application to join the clan. Applications and invitations are stored for 28 days, then automatically deleted.</value>
+  </data>
+  <data name="clanInvitesWindow/header/tooltips/noPlaces" xml:space="preserve">
+    <value>Unable to invite players: the clan is full.</value>
+  </data>
+  <data name="clanInvitesWindow/header/tooltips/recruitementStopped" xml:space="preserve">
+    <value>Unable to invite players: clan recruitment is closed at the moment.</value>
+  </data>
+  <data name="clanInvitesWindow/status/accepted" xml:space="preserve">
+    <value>Accepted</value>
+  </data>
+  <data name="clanInvitesWindow/status/daysLeft" xml:space="preserve">
+    <value>%(days)d d to process</value>
+  </data>
+  <data name="clanInvitesWindow/status/declined" xml:space="preserve">
+    <value>Declined</value>
+  </data>
+  <data name="clanInvitesWindow/status/error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="clanInvitesWindow/status/expired" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="clanInvitesWindow/status/hoursLeft" xml:space="preserve">
+    <value>%(hours)d h to process</value>
+  </data>
+  <data name="clanInvitesWindow/status/minutesLeft" xml:space="preserve">
+    <value>%(min)d min to process</value>
+  </data>
+  <data name="clanInvitesWindow/status/sent" xml:space="preserve">
+    <value>Sent</value>
+  </data>
+  <data name="clanInvitesWindow/tabInvites" xml:space="preserve">
+    <value>Invitations (%(value)s)</value>
+  </data>
+  <data name="clanInvitesWindow/tabRequests" xml:space="preserve">
+    <value>Applications (%(value)s)</value>
+  </data>
+  <data name="clanInvitesWindow/table/actions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="clanInvitesWindow/table/inviteButton" xml:space="preserve">
+    <value>Invite</value>
+  </data>
+  <data name="clanInvitesWindow/table/sent" xml:space="preserve">
+    <value>Sent</value>
+  </data>
+  <data name="clanInvitesWindow/table/showMore" xml:space="preserve">
+    <value>Show More</value>
+  </data>
+  <data name="clanInvitesWindow/table/status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="clanInvitesWindow/table/userName" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="clanInvitesWindow/title" xml:space="preserve">
+    <value>Applications and Invitations</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/header/inviteButton" xml:space="preserve">
+    <value>Click to invite players to the clan.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/invite/byUser" xml:space="preserve">
+    <value>By invitation from:</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/invite/inviteAccepted" xml:space="preserve">
+    <value>Invitation accepted.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/invite/inviteDeclined" xml:space="preserve">
+    <value>Invitation declined.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/invite/inviteSent" xml:space="preserve">
+    <value>Invitation sent.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/invite/sender" xml:space="preserve">
+    <value>Sender:</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/refreshButton/disabled" xml:space="preserve">
+    <value>This button will be enabled upon receiving new data from the server.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/refreshButton/enabled" xml:space="preserve">
+    <value>Click to display new applications and invitations.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh" xml:space="preserve">
+    <value>Refresh the list.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/request/byUser" xml:space="preserve">
+    <value>Decision-maker:</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/request/requestAccepted" xml:space="preserve">
+    <value>Application accepted.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/request/requestDeclined" xml:space="preserve">
+    <value>Application declined.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/request/requestExpired" xml:space="preserve">
+    <value>Application expired</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/request/requestSent" xml:space="preserve">
+    <value>Application submitted.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/cantAcceptRequest/body" xml:space="preserve">
+    <value>Unable to add new players: the clan is full.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body" xml:space="preserve">
+    <value>The player has recently left a clan. You can accept them into the clan only after:</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/cantSendInvite/body" xml:space="preserve">
+    <value>Unable to invite new players: the clan is full.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/awgExp/body" xml:space="preserve">
+    <value>Average experience per battle of the player whom the invitation was sent to (including Premium Account)</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/awgExp/header" xml:space="preserve">
+    <value>Average Experience per Battle</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/battlesCount/body" xml:space="preserve">
+    <value>Battles fought by the player whom the invitation was sent to.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/battlesCount/header" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/inviteButton" xml:space="preserve">
+    <value>Click to invite this player to the clan.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/message/body" xml:space="preserve">
+    <value>Message included with the invitation from the clan.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/message/header" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/personalRating/body" xml:space="preserve">
+    <value>Personal Rating of the player whom the invitation was sent to</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/personalRating/header" xml:space="preserve">
+    <value>Personal Rating</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/sent/body" xml:space="preserve">
+    <value>Date and time when the clan invitation was sent</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/sent/header" xml:space="preserve">
+    <value>Sent</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/status/body" xml:space="preserve">
+    <value>Clan invitation status.
+An invitation can be pending, expired, or processed.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/status/header" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/userName/body" xml:space="preserve">
+    <value>Name of the player whom the invitation was sent to</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/userName/header" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/wins/body" xml:space="preserve">
+    <value>Victory rate of the player whom the invitation was sent to</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/wins/header" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/actions/body" xml:space="preserve">
+    <value>An application can either be accepted or declined.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/actions/header" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/awgExp/body" xml:space="preserve">
+    <value>Average experience per battle of the player who submitted the application (including Premium Account)</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/awgExp/header" xml:space="preserve">
+    <value>Average Experience per Battle</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/battlesCount/body" xml:space="preserve">
+    <value>Total battles fought by the player who submitted the application</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/battlesCount/header" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/message/body" xml:space="preserve">
+    <value>Message from the player, included with their application</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/message/header" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/personalRating/body" xml:space="preserve">
+    <value>Personal Rating of the player who submitted the application</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/personalRating/header" xml:space="preserve">
+    <value>Personal Rating</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/status/body" xml:space="preserve">
+    <value>Clan application status.
+An application can be pending, expired, or processed.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/status/header" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/userName/body" xml:space="preserve">
+    <value>Name of the player who submitted the application</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/userName/header" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/wins/body" xml:space="preserve">
+    <value>Victory rate of the player who submitted the application</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/wins/header" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/actualInvites" xml:space="preserve">
+    <value>Pending invitations: %(count)s</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/declineSelected" xml:space="preserve">
+    <value>Decline Selected (%(count)s)</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/headerText" xml:space="preserve">
+    <value>My Clan Invitations</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/loading" xml:space="preserve">
+    <value>Receiving data...</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/noInvites" xml:space="preserve">
+    <value>You do not yet have any invitations to clans.</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/selectAll" xml:space="preserve">
+    <value>Select all applications</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/table/actions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/table/clanName" xml:space="preserve">
+    <value>Clan Name</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/table/status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/title" xml:space="preserve">
+    <value>Clan Invitations</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/refreshButton/disabled" xml:space="preserve">
+    <value>You will be able to update the list upon receiving new data.</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/refreshButton/enabled" xml:space="preserve">
+    <value>Click to update the table.</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body" xml:space="preserve">
+    <value>You have recently left a clan. You can accept clan invitations only after:</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body" xml:space="preserve">
+    <value>Average experience earned per battle by members of the clan that sent the invitation (weighted average across the Random Battle mode)</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header" xml:space="preserve">
+    <value>Average Experience per Battle</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body" xml:space="preserve">
+    <value>Average number of battles fought by members of the clan that sent the invitation (only in the Random Battle mode)</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header" xml:space="preserve">
+    <value>Clan's Battles</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/clanName/body" xml:space="preserve">
+    <value>Name of the clan that sent you an invitation</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/clanName/header" xml:space="preserve">
+    <value>Clan Name</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/message/body" xml:space="preserve">
+    <value>Message from the clan that sent you an invitation</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/message/header" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/rating/body" xml:space="preserve">
+    <value>Total rating of the clan that sent you an invitation</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/rating/header" xml:space="preserve">
+    <value>Clan Rating</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/status/body" xml:space="preserve">
+    <value>Displays clan invitation status and time left to process that invitation</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/status/header" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/wins/body" xml:space="preserve">
+    <value>Victory rate of members of the clan that sent the invitation (weighted average across the Random Battle mode)</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/wins/header" xml:space="preserve">
+    <value>Clan Victories</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/requests/actions/body" xml:space="preserve">
+    <value>You can either accept or decline the invitation. By accepting an invitation, you will automatically decline invitations from other clans.</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/requests/actions/header" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/btnAction" xml:space="preserve">
+    <value>Clan Profile</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/btnClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/header" xml:space="preserve">
+    <value>Welcome to the Clan!</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/secondaryText" xml:space="preserve">
+    <value>Now you can fight in battles on the Global Map, build and defend your Stronghold, and complete special missions.</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/title" xml:space="preserve">
+    <value>Bulletin</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/yourClan" xml:space="preserve">
+    <value>Your clan: [%(tag)s] %(clanName)s</value>
+  </data>
+  <data name="clanProfile/fortificationInfo/dummy/body" xml:space="preserve">
+    <value>We are sorry for the inconvenience. Please try again later.</value>
+  </data>
+  <data name="clanProfile/fortificationInfo/dummy/header" xml:space="preserve">
+    <value>Stronghold is temporarily unavailable</value>
+  </data>
+  <data name="clanProfile/mainWindow/dummy/body" xml:space="preserve">
+    <value>We are sorry for the inconvenience.
+Try again later.</value>
+  </data>
+  <data name="clanProfile/mainWindow/dummy/header" xml:space="preserve">
+    <value>Error Loading Data</value>
+  </data>
+  <data name="clanProfile/mainWindow/title" xml:space="preserve">
+    <value>Clan Profile</value>
+  </data>
+  <data name="clanProfile/mainWindowTab/fortification" xml:space="preserve">
+    <value>Stronghold</value>
+  </data>
+  <data name="clanProfile/mainWindowTab/globalMap" xml:space="preserve">
+    <value>Global Map</value>
+  </data>
+  <data name="clanProfile/mainWindowTab/personnel" xml:space="preserve">
+    <value>Clan Members</value>
+  </data>
+  <data name="clanProfile/mainWindowTab/strongholds" xml:space="preserve">
+    <value>Stronghold</value>
+  </data>
+  <data name="clanProfile/mainWindowTab/summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="clanProfile/sendInvitesWindow/title" xml:space="preserve">
+    <value>Invite Player to Clan</value>
+  </data>
+  <data name="clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention" xml:space="preserve">
+    <value>Action unavailable. You can only invite players to the clan one by one.</value>
+  </data>
+  <data name="clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body" xml:space="preserve">
+    <value>Add all contacts to recipient list.</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/battlesCount" xml:space="preserve">
+    <value>Battles in the last 28 Days</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/battlesPerDay" xml:space="preserve">
+    <value>Advances in the last 28 Days</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/commander" xml:space="preserve">
+    <value>Clan Commander</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/emptyFort" xml:space="preserve">
+    <value>Not yet created</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/emptyGlobalMap" xml:space="preserve">
+    <value>No battles fought.
+No Provinces owned.</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/fortLevel" xml:space="preserve">
+    <value>Stronghold Level</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/gold" xml:space="preserve">
+    <value>Treasury</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/hasNoBattles" xml:space="preserve">
+    <value>No battles fought</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/provinces" xml:space="preserve">
+    <value>Provinces</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/rageLevel10" xml:space="preserve">
+    <value>Elo rating X</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/rageLevel6" xml:space="preserve">
+    <value>Elo rating VI</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/rageLevel8" xml:space="preserve">
+    <value>Elo rating VIII</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/sortiesPerDay" xml:space="preserve">
+    <value>Skirmishes in the last 28 days</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/totalPlayers" xml:space="preserve">
+    <value>Total members</value>
+  </data>
+  <data name="clanProfile/summaryView/buttonLbl/details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="clanProfile/summaryView/buttonLbl/navigation" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="clanProfile/summaryView/buttonLbl/request" xml:space="preserve">
+    <value>Submit Application</value>
+  </data>
+  <data name="clanProfile/summaryView/defaultClanDescr" xml:space="preserve">
+    <value>The clan has no motto.</value>
+  </data>
+  <data name="clanProfile/summaryView/links/detailsMap" xml:space="preserve">
+    <value>Global Map details</value>
+  </data>
+  <data name="clanProfile/summaryView/links/gotoMap" xml:space="preserve">
+    <value>Go to Map</value>
+  </data>
+  <data name="clanProfile/summaryView/noData" xml:space="preserve">
+    <value>Details are temporarily unavailable</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/banned" xml:space="preserve">
+    <value>Unable to join the clan.</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/detailsConditions" xml:space="preserve">
+    <value>Review recruitment requirements %(icon)s</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/inAnotherClan" xml:space="preserve">
+    <value>You are already a member
+of another clan.</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/invitationSubmitted" xml:space="preserve">
+    <value>You have already received an invitation
+to join this clan.</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/inviteLimit" xml:space="preserve">
+    <value>%(icon)s Temporarily restricted</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/requestLimit" xml:space="preserve">
+    <value>%(icon)s Temporarily restricted</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/requestNotBeConsidered" xml:space="preserve">
+    <value>This clan does not accept applications %(icon)s</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/requestSubmitted" xml:space="preserve">
+    <value>Application submitted.</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/resynchronize" xml:space="preserve">
+    <value>Synchronizing data...</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_10/body" xml:space="preserve">
+    <value>Clan's Elo rating in division X</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_10/header" xml:space="preserve">
+    <value>Elo Rating X</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_6/body" xml:space="preserve">
+    <value>Clan's Elo rating in division VI</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_6/header" xml:space="preserve">
+    <value>Elo rating VI</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_8/body" xml:space="preserve">
+    <value>Clan's Elo rating in division VIII</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_8/header" xml:space="preserve">
+    <value>Elo Rating VIII</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_battles_count_28/body" xml:space="preserve">
+    <value>Clan's Advances in the last 28 days</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_battles_count_28/header" xml:space="preserve">
+    <value>Advances in the Last 28 Days</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_level/body" xml:space="preserve">
+    <value>Stronghold level is equal to its Command Center level.</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_level/header" xml:space="preserve">
+    <value>Stronghold Level</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_sortie_count_28/body" xml:space="preserve">
+    <value>Clan's Skirmishes in the last 28 days</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_sortie_count_28/header" xml:space="preserve">
+    <value>Skirmishes in the Last 28 Days</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body" xml:space="preserve">
+    <value>Clan's Elo rating in division X battles on the Global Map</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header" xml:space="preserve">
+    <value>Elo Rating X</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body" xml:space="preserve">
+    <value>Clan's Elo rating in division VI battles on the Global Map</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header" xml:space="preserve">
+    <value>Elo Rating VI</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body" xml:space="preserve">
+    <value>Clan's Elo rating in division VIII battles on the Global Map</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header" xml:space="preserve">
+    <value>Elo Rating VIII</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_battles_count/body" xml:space="preserve">
+    <value>Clan's battles fought on the Global Map in the last 28 days</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_battles_count/header" xml:space="preserve">
+    <value>Battles in the Last 28 Days</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_province/body" xml:space="preserve">
+    <value>Provinces on the Global Map currently owned by the clan</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_province/header" xml:space="preserve">
+    <value>Provinces</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body" xml:space="preserve">
+    <value>Maximum number of applications submitted.</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header" xml:space="preserve">
+    <value>Unable to Submit Application</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body" xml:space="preserve">
+    <value>Maximum number of applications submitted.</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header" xml:space="preserve">
+    <value>Unable to Submit Application</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body" xml:space="preserve">
+    <value>Clan does not accept applications.</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header" xml:space="preserve">
+    <value>Unable to Submit Application</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/ratingOutdated/body" xml:space="preserve">
+    <value>The clan's rating has not been updated in the last 28 days.</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/ratingOutdated/header" xml:space="preserve">
+    <value>Outdated Information</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/totalRating/body" xml:space="preserve">
+    <value>Total rating depends on the clan's effectiveness in the Stronghold mode and on the Global Map.</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/totalRating/header" xml:space="preserve">
+    <value>Total Rating</value>
+  </data>
+  <data name="clanProfile/summaryView/totalRage" xml:space="preserve">
+    <value>Total Rating</value>
+  </data>
+  <data name="fort/header/clanProfileBtnLbl" xml:space="preserve">
+    <value>Clan Profile</value>
+  </data>
+  <data name="globalMapView/level10" xml:space="preserve">
+    <value>Tier X</value>
+  </data>
+  <data name="globalMapView/level6" xml:space="preserve">
+    <value>Tier VI</value>
+  </data>
+  <data name="globalMapView/level8" xml:space="preserve">
+    <value>Tier VIII</value>
+  </data>
+  <data name="globalMapView/noIncome/tooltip/body" xml:space="preserve">
+    <value>This Province does not earn you income, because the connection to the Command Center was lost, or the Province was pillaged.</value>
+  </data>
+  <data name="globalMapView/noIncome/tooltip/header" xml:space="preserve">
+    <value>Does not Earn Income</value>
+  </data>
+  <data name="globalMapView/noProvince" xml:space="preserve">
+    <value>The clan does not own any Provinces.</value>
+  </data>
+  <data name="globalMapView/popularPrimeTime" xml:space="preserve">
+    <value>Popular prime time: %(time)s</value>
+  </data>
+  <data name="globalMapView/promo/description" xml:space="preserve">
+    <value>Global Map is a battlefield where clans compete for strategic superiority. Clan Officers spend most of their time here, planning tactics and deploying forces for strategic maneuvers.</value>
+  </data>
+  <data name="globalMapView/promo/header" xml:space="preserve">
+    <value>Global Map</value>
+  </data>
+  <data name="globalMapView/promo/infoLink" xml:space="preserve">
+    <value>Global Map details</value>
+  </data>
+  <data name="globalMapView/promo/mapLink" xml:space="preserve">
+    <value>Go to Map</value>
+  </data>
+  <data name="globalMapView/statistics10/battles" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="globalMapView/statistics10/battles/tooltip/body" xml:space="preserve">
+    <value>Total battles in division X on the Global Map</value>
+  </data>
+  <data name="globalMapView/statistics10/battles/tooltip/header" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="globalMapView/statistics10/eloRating" xml:space="preserve">
+    <value>Elo rating</value>
+  </data>
+  <data name="globalMapView/statistics10/eloRating/tooltip/body" xml:space="preserve">
+    <value>Clan's rating in division X battles on the Global Map</value>
+  </data>
+  <data name="globalMapView/statistics10/eloRating/tooltip/header" xml:space="preserve">
+    <value>Elo Rating</value>
+  </data>
+  <data name="globalMapView/statistics10/favoriteMap" xml:space="preserve">
+    <value>Favorite map</value>
+  </data>
+  <data name="globalMapView/statistics10/favoriteMap/tooltip/body" xml:space="preserve">
+    <value>The map on which the clan fought the most division X battles in the last 28 days</value>
+  </data>
+  <data name="globalMapView/statistics10/favoriteMap/tooltip/header" xml:space="preserve">
+    <value>Favorite Map: %(value)s</value>
+  </data>
+  <data name="globalMapView/statistics10/place" xml:space="preserve">
+    <value>Position in rating</value>
+  </data>
+  <data name="globalMapView/statistics10/place/tooltip/body" xml:space="preserve">
+    <value>Clan's position in rating in division X battles on the Global Map</value>
+  </data>
+  <data name="globalMapView/statistics10/place/tooltip/header" xml:space="preserve">
+    <value>Position in Rating</value>
+  </data>
+  <data name="globalMapView/statistics10/wins" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="globalMapView/statistics10/wins/tooltip/body" xml:space="preserve">
+    <value>Total rate of victories in division X battles on the Global Map</value>
+  </data>
+  <data name="globalMapView/statistics10/wins/tooltip/header" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="globalMapView/statistics6/battles" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="globalMapView/statistics6/battles/tooltip/body" xml:space="preserve">
+    <value>Total battles in division VI on the Global Map</value>
+  </data>
+  <data name="globalMapView/statistics6/battles/tooltip/header" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="globalMapView/statistics6/eloRating" xml:space="preserve">
+    <value>Elo rating</value>
+  </data>
+  <data name="globalMapView/statistics6/eloRating/tooltip/body" xml:space="preserve">
+    <value>Clan's rating in division VI battles on the Global Map</value>
+  </data>
+  <data name="globalMapView/statistics6/eloRating/tooltip/header" xml:space="preserve">
+    <value>Elo Rating</value>
+  </data>
+  <data name="globalMapView/statistics6/favoriteMap" xml:space="preserve">
+    <value>Favorite map</value>
+  </data>
+  <data name="globalMapView/statistics6/favoriteMap/tooltip/body" xml:space="preserve">
+    <value>The map on which the clan fought the most division VI battles in the last 28 days</value>
+  </data>
+  <data name="globalMapView/statistics6/favoriteMap/tooltip/header" xml:space="preserve">
+    <value>Favorite Map: %(value)s</value>
+  </data>
+  <data name="globalMapView/statistics6/place" xml:space="preserve">
+    <value>Position in rating</value>
+  </data>
+  <data name="globalMapView/statistics6/place/tooltip/body" xml:space="preserve">
+    <value>Clan's position in rating in division VI battles on the Global Map</value>
+  </data>
+  <data name="globalMapView/statistics6/place/tooltip/header" xml:space="preserve">
+    <value>Position in Rating</value>
+  </data>
+  <data name="globalMapView/statistics6/wins" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="globalMapView/statistics6/wins/tooltip/body" xml:space="preserve">
+    <value>Total rate of victories in division VI battles on the Global Map</value>
+  </data>
+  <data name="globalMapView/statistics6/wins/tooltip/header" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="globalMapView/statistics8/battles" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="globalMapView/statistics8/battles/tooltip/body" xml:space="preserve">
+    <value>Total battles in division VIII on the Global Map</value>
+  </data>
+  <data name="globalMapView/statistics8/battles/tooltip/header" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="globalMapView/statistics8/eloRating" xml:space="preserve">
+    <value>Elo rating</value>
+  </data>
+  <data name="globalMapView/statistics8/eloRating/tooltip/body" xml:space="preserve">
+    <value>Clan's rating in division VIII battles on the Global Map</value>
+  </data>
+  <data name="globalMapView/statistics8/eloRating/tooltip/header" xml:space="preserve">
+    <value>Elo Rating</value>
+  </data>
+  <data name="globalMapView/statistics8/favoriteMap" xml:space="preserve">
+    <value>Favorite map</value>
+  </data>
+  <data name="globalMapView/statistics8/favoriteMap/tooltip/body" xml:space="preserve">
+    <value>The map on which the clan fought the most division VIII battles in the last 28 days</value>
+  </data>
+  <data name="globalMapView/statistics8/favoriteMap/tooltip/header" xml:space="preserve">
+    <value>Favorite Map: %(value)s</value>
+  </data>
+  <data name="globalMapView/statistics8/place" xml:space="preserve">
+    <value>Position in rating</value>
+  </data>
+  <data name="globalMapView/statistics8/place/tooltip/body" xml:space="preserve">
+    <value>Clan's position in rating in division VIII battles on the Global Map</value>
+  </data>
+  <data name="globalMapView/statistics8/place/tooltip/header" xml:space="preserve">
+    <value>Position in Rating</value>
+  </data>
+  <data name="globalMapView/statistics8/wins" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="globalMapView/statistics8/wins/tooltip/body" xml:space="preserve">
+    <value>Total rate of victories in division VIII battles on the Global Map</value>
+  </data>
+  <data name="globalMapView/statistics8/wins/tooltip/header" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="globalMapView/stats/battles" xml:space="preserve">
+    <value>Battles on Global Map</value>
+  </data>
+  <data name="globalMapView/stats/battles/tooltip/body" xml:space="preserve">
+    <value>Total battles fought by the clan on the Global Map</value>
+  </data>
+  <data name="globalMapView/stats/battles/tooltip/header" xml:space="preserve">
+    <value>Battles on Global Map</value>
+  </data>
+  <data name="globalMapView/stats/seized" xml:space="preserve">
+    <value>Provinces Owned</value>
+  </data>
+  <data name="globalMapView/stats/seized/tooltip/body" xml:space="preserve">
+    <value>Total Provinces owned by the clan. Provinces that were previously owned but have since been lost are also counted.</value>
+  </data>
+  <data name="globalMapView/stats/seized/tooltip/header" xml:space="preserve">
+    <value>Provinces Owned</value>
+  </data>
+  <data name="globalMapView/stats/wins" xml:space="preserve">
+    <value>Victories Across Clan Members</value>
+  </data>
+  <data name="globalMapView/stats/wins/tooltip/body" xml:space="preserve">
+    <value>Total victory rate of clan members in battles on the Global Map</value>
+  </data>
+  <data name="globalMapView/stats/wins/tooltip/header" xml:space="preserve">
+    <value>Clan's Victories</value>
+  </data>
+  <data name="globalMapView/table/days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="globalMapView/table/days/tooltip/body" xml:space="preserve">
+    <value>Period of time in days, during which the clan owned the Province on the Global Map</value>
+  </data>
+  <data name="globalMapView/table/days/tooltip/header" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="globalMapView/table/front" xml:space="preserve">
+    <value>Front</value>
+  </data>
+  <data name="globalMapView/table/front/tooltip/body" xml:space="preserve">
+    <value>Name of the selected Front</value>
+  </data>
+  <data name="globalMapView/table/front/tooltip/header" xml:space="preserve">
+    <value>Front</value>
+  </data>
+  <data name="globalMapView/table/income" xml:space="preserve">
+    <value>Income</value>
+  </data>
+  <data name="globalMapView/table/income/tooltip/body" xml:space="preserve">
+    <value>Gold earned by the Province per day</value>
+  </data>
+  <data name="globalMapView/table/income/tooltip/header" xml:space="preserve">
+    <value>Income</value>
+  </data>
+  <data name="globalMapView/table/map" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="globalMapView/table/map/tooltip/body" xml:space="preserve">
+    <value>Name of the map on which battles for the Province are fought</value>
+  </data>
+  <data name="globalMapView/table/map/tooltip/header" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="globalMapView/table/primeTime" xml:space="preserve">
+    <value>Prime Time</value>
+  </data>
+  <data name="globalMapView/table/primeTime/tooltip/body" xml:space="preserve">
+    <value>Scheduled time when battles for the Province will start</value>
+  </data>
+  <data name="globalMapView/table/primeTime/tooltip/header" xml:space="preserve">
+    <value>Prime Time</value>
+  </data>
+  <data name="globalMapView/table/province" xml:space="preserve">
+    <value>Province</value>
+  </data>
+  <data name="globalMapView/table/province/tooltip/body" xml:space="preserve">
+    <value>Name of the selected Province</value>
+  </data>
+  <data name="globalMapView/table/province/tooltip/header" xml:space="preserve">
+    <value>Province</value>
+  </data>
+  <data name="globalMapView/table/provinceRobbed/tooltip/noIncome" xml:space="preserve">
+    <value>The Province was pillaged and temporarily does not earn you income.</value>
+  </data>
+  <data name="globalMapView/table/provinceRobbed/tooltip/restoreTime" xml:space="preserve">
+    <value>Time before you start receiving income again:
+%(date)s</value>
+  </data>
+  <data name="globalMapView/tabs/provinces" xml:space="preserve">
+    <value>Provinces</value>
+  </data>
+  <data name="globalMapView/tabs/stats" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="globalMapView/tooltip/ratingOutdated" xml:space="preserve">
+    <value>The clan's rating has not been updated in the last 28 days.</value>
+  </data>
+  <data name="globalMapView/totalIncome" xml:space="preserve">
+    <value>Total daily income: %(icon)s%(value)s</value>
+  </data>
+  <data name="personnelView/clanStats/avgBattlesCount" xml:space="preserve">
+    <value>Average
+number of battles</value>
+  </data>
+  <data name="personnelView/clanStats/avgBattlesCount/tooltip/body" xml:space="preserve">
+    <value>Number of battles fought in the Random Battle and Tank Company Battle modes averaged across all clan members. Only players who are current members of the clan are counted.</value>
+  </data>
+  <data name="personnelView/clanStats/avgBattlesCount/tooltip/header" xml:space="preserve">
+    <value>Average Battles Fought Across Clan Members</value>
+  </data>
+  <data name="personnelView/clanStats/avgExp" xml:space="preserve">
+    <value>Average experience</value>
+  </data>
+  <data name="personnelView/clanStats/avgExp/tooltip/body" xml:space="preserve">
+    <value>Weighted average of clan members' experience earned in the Random Battle and Tank Company Battle modes. The total number of battles fought by each player affects the weighting. Only players who are current members of the clan are counted.</value>
+  </data>
+  <data name="personnelView/clanStats/avgExp/tooltip/header" xml:space="preserve">
+    <value>Average Experience Across Clan Members</value>
+  </data>
+  <data name="personnelView/clanStats/avgPersonalRating" xml:space="preserve">
+    <value>Average Personal Rating</value>
+  </data>
+  <data name="personnelView/clanStats/avgPersonalRating/tooltip/body" xml:space="preserve">
+    <value>Personal Rating averaged across all clan members. Only players who are current members of the clan are counted.</value>
+  </data>
+  <data name="personnelView/clanStats/avgPersonalRating/tooltip/header" xml:space="preserve">
+    <value>Average Personal Rating Across Clan Members</value>
+  </data>
+  <data name="personnelView/clanStats/avgWins" xml:space="preserve">
+    <value>Average rate of victories</value>
+  </data>
+  <data name="personnelView/clanStats/avgWins/tooltip/body" xml:space="preserve">
+    <value>Weighted average of clan members' victory rates in the Random Battle and Tank Company Battle modes. The total number of battles fought by each player affects the weighting. Only players who are current members of the clan are counted.</value>
+  </data>
+  <data name="personnelView/clanStats/avgWins/tooltip/header" xml:space="preserve">
+    <value>Average Rate of Victories Across Clan Members</value>
+  </data>
+  <data name="personnelView/table/avgExp/tooltip/body" xml:space="preserve">
+    <value>Ratio of total experience earned to the number of battles fought by the player in the Random Battle and Tank Company Battle modes</value>
+  </data>
+  <data name="personnelView/table/avgExp/tooltip/header" xml:space="preserve">
+    <value>Average Experience</value>
+  </data>
+  <data name="personnelView/table/battlesCount/tooltip/body" xml:space="preserve">
+    <value>Total number of Random Battles and Tank Company Battles fought by the player</value>
+  </data>
+  <data name="personnelView/table/battlesCount/tooltip/header" xml:space="preserve">
+    <value>Total Number of Battles</value>
+  </data>
+  <data name="personnelView/table/daysInClan/tooltip/body" xml:space="preserve">
+    <value>The number of days that the player has been with the clan</value>
+  </data>
+  <data name="personnelView/table/daysInClan/tooltip/header" xml:space="preserve">
+    <value>Days in Clan</value>
+  </data>
+  <data name="personnelView/table/personalRating/tooltip/body" xml:space="preserve">
+    <value>Player's Personal Rating</value>
+  </data>
+  <data name="personnelView/table/personalRating/tooltip/header" xml:space="preserve">
+    <value>Personal Rating</value>
+  </data>
+  <data name="personnelView/table/player" xml:space="preserve">
+    <value>Player (%(count)s / %(max)s)</value>
+  </data>
+  <data name="personnelView/table/player/tooltip/body" xml:space="preserve">
+    <value>Clan member's name</value>
+  </data>
+  <data name="personnelView/table/player/tooltip/header" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="personnelView/table/post" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="personnelView/table/post/tooltip/body" xml:space="preserve">
+    <value>Member's rank in the clan</value>
+  </data>
+  <data name="personnelView/table/post/tooltip/header" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="personnelView/table/wins/tooltip/body" xml:space="preserve">
+    <value>Player's victory rate in the Random Battle and Tank Company Battle modes</value>
+  </data>
+  <data name="personnelView/table/wins/tooltip/header" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="personnelView/title" xml:space="preserve">
+    <value>Clan Member Statistics Across Random Battles:</value>
+  </data>
+  <data name="search/clansList" xml:space="preserve">
+    <value>Listed Clans: %(value)s</value>
+  </data>
+  <data name="search/emptyResult/body" xml:space="preserve">
+    <value>Nothing found matching your query. Try searching with different keywords.</value>
+  </data>
+  <data name="search/emptyResult/button" xml:space="preserve">
+    <value>Back to List</value>
+  </data>
+  <data name="search/emptyResult/button/tooltip/body" xml:space="preserve">
+    <value>Click to return to the list of clans found.</value>
+  </data>
+  <data name="search/emptyResult/button/tooltip/header" xml:space="preserve">
+    <value>Back to List</value>
+  </data>
+  <data name="search/emptyResult/header" xml:space="preserve">
+    <value>No Search Results</value>
+  </data>
+  <data name="search/foundClans" xml:space="preserve">
+    <value>Clans Found: %(value)s</value>
+  </data>
+  <data name="search/info/banned/tooltip/body" xml:space="preserve">
+    <value>Unable to join the clan.</value>
+  </data>
+  <data name="search/info/banned/tooltip/header" xml:space="preserve">
+    <value>Unable to Submit Application</value>
+  </data>
+  <data name="search/info/clanProfileBtn" xml:space="preserve">
+    <value>Clan Profile</value>
+  </data>
+  <data name="search/info/forbiddenAccountType/tooltip/body" xml:space="preserve">
+    <value>Unable to submit the application to join the clan.</value>
+  </data>
+  <data name="search/info/forbiddenAccountType/tooltip/header" xml:space="preserve">
+    <value>Action Unavailable</value>
+  </data>
+  <data name="search/info/inviteAlreadyAchieved/tooltip/attention" xml:space="preserve">
+    <value>You have already received an invitation to join this clan.</value>
+  </data>
+  <data name="search/info/inviteAlreadyAchieved/tooltip/header" xml:space="preserve">
+    <value>Unable to Submit Application</value>
+  </data>
+  <data name="search/info/ratingDescription" xml:space="preserve">
+    <value>Total Rating</value>
+  </data>
+  <data name="search/info/ratingDescription/tooltip/body" xml:space="preserve">
+    <value>Clan's effectiveness in the Stronghold mode and battles on the Global Map affect how the total rating increases.</value>
+  </data>
+  <data name="search/info/ratingDescription/tooltip/header" xml:space="preserve">
+    <value>Total Rating</value>
+  </data>
+  <data name="search/info/ratingTitle" xml:space="preserve">
+    <value>Statistics Across All Battle Types:</value>
+  </data>
+  <data name="search/info/requestAlreadySent/tooltip/attention" xml:space="preserve">
+    <value>You have already submitted your application to this clan.</value>
+  </data>
+  <data name="search/info/requestAlreadySent/tooltip/header" xml:space="preserve">
+    <value>Unable to Submit Application</value>
+  </data>
+  <data name="search/info/requestSent" xml:space="preserve">
+    <value>Application submitted.</value>
+  </data>
+  <data name="search/info/requestsAreNotAccepted/tooltip/attention" xml:space="preserve">
+    <value>Clan does not accept applications.</value>
+  </data>
+  <data name="search/info/requestsAreNotAccepted/tooltip/header" xml:space="preserve">
+    <value>Unable to Submit Application</value>
+  </data>
+  <data name="search/info/requestsLimitExceeded/tooltip/attention" xml:space="preserve">
+    <value>Maximum number of applications sent.</value>
+  </data>
+  <data name="search/info/requestsLimitExceeded/tooltip/header" xml:space="preserve">
+    <value>Unable to Submit Application</value>
+  </data>
+  <data name="search/info/sendRequestBtn" xml:space="preserve">
+    <value>Submit Application</value>
+  </data>
+  <data name="search/info/serverUnavailable/body" xml:space="preserve">
+    <value>No server data received. Try again later.</value>
+  </data>
+  <data name="search/info/serverUnavailable/header" xml:space="preserve">
+    <value>Server Error</value>
+  </data>
+  <data name="search/info/stats/avgExp" xml:space="preserve">
+    <value>Average experience</value>
+  </data>
+  <data name="search/info/stats/avgExp/tooltip/body" xml:space="preserve">
+    <value>Weighted average of clan members' experience earned across all battle modes. The total number of battles fought by each player affects the weighting. Only players who are current members of the clan are counted.</value>
+  </data>
+  <data name="search/info/stats/avgExp/tooltip/header" xml:space="preserve">
+    <value>Average Experience Across Clan Members</value>
+  </data>
+  <data name="search/info/stats/battles" xml:space="preserve">
+    <value>Average
+number of battles fought</value>
+  </data>
+  <data name="search/info/stats/battles/tooltip/body" xml:space="preserve">
+    <value>Average number of battles fought by clan members across all battle modes. Only players who are current members of the clan are counted.</value>
+  </data>
+  <data name="search/info/stats/battles/tooltip/header" xml:space="preserve">
+    <value>Average Battles Fought By Clan Members</value>
+  </data>
+  <data name="search/info/stats/wins" xml:space="preserve">
+    <value>Average rate of victories</value>
+  </data>
+  <data name="search/info/stats/wins/tooltip/body" xml:space="preserve">
+    <value>Weighted average of clan members' victory rates across all battle modes. The total number of battles fought by each player affects the weighting. Only players who are current members of the clan are counted.</value>
+  </data>
+  <data name="search/info/stats/wins/tooltip/header" xml:space="preserve">
+    <value>Average Victory Rate of Clan Members</value>
+  </data>
+  <data name="search/nextBtn" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="search/nextBtn/tooltip/body" xml:space="preserve">
+    <value>Click to display the next part of the clans list.</value>
+  </data>
+  <data name="search/nextBtn/tooltip/header" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="search/previousBtn" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="search/previousBtn/tooltip/body" xml:space="preserve">
+    <value>Click to display the previous part of the clans list.</value>
+  </data>
+  <data name="search/previousBtn/tooltip/header" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="search/promoText/body" xml:space="preserve">
+    <value>To search for a clan, enter its name or tag into the field and click Search.</value>
+  </data>
+  <data name="search/promoText/header" xml:space="preserve">
+    <value>Clan Search</value>
+  </data>
+  <data name="search/requestTooShort/body" xml:space="preserve">
+    <value>To search for a clan, enter at least 2 characters in the field and try again.</value>
+  </data>
+  <data name="search/requestTooShort/button" xml:space="preserve">
+    <value>Back to List</value>
+  </data>
+  <data name="search/requestTooShort/button/tooltip/header" xml:space="preserve">
+    <value>Back to List</value>
+  </data>
+  <data name="search/requestTooShort/header" xml:space="preserve">
+    <value>Insufficient Data</value>
+  </data>
+  <data name="search/searchBtn" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="search/searchBtn/tooltip/body" xml:space="preserve">
+    <value>Enter a clan's name or tag into the field on the left (at least 2 characters).</value>
+  </data>
+  <data name="search/searchBtn/tooltip/header" xml:space="preserve">
+    <value>Clan Search</value>
+  </data>
+  <data name="search/searchInputPrompt" xml:space="preserve">
+    <value>Enter clan's name or tag.</value>
+  </data>
+  <data name="search/serverUnavailable/body" xml:space="preserve">
+    <value>No server data received. Try again later.</value>
+  </data>
+  <data name="search/serverUnavailable/header" xml:space="preserve">
+    <value>Server Error</value>
+  </data>
+  <data name="search/table/clan" xml:space="preserve">
+    <value>Clan</value>
+  </data>
+  <data name="search/table/clan/tooltip/body" xml:space="preserve">
+    <value>Clan attributes: tag and name</value>
+  </data>
+  <data name="search/table/clan/tooltip/header" xml:space="preserve">
+    <value>Clan</value>
+  </data>
+  <data name="search/table/creationDate" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="search/table/creationDate/tooltip/body" xml:space="preserve">
+    <value>Clan creation date</value>
+  </data>
+  <data name="search/table/creationDate/tooltip/header" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="search/table/players" xml:space="preserve">
+    <value>Players</value>
+  </data>
+  <data name="search/table/players/tooltip/body" xml:space="preserve">
+    <value>Total number of clan members</value>
+  </data>
+  <data name="search/table/players/tooltip/header" xml:space="preserve">
+    <value>Players</value>
+  </data>
+  <data name="search/table/rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="search/table/rating/tooltip/body" xml:space="preserve">
+    <value>Clan total rating</value>
+  </data>
+  <data name="search/table/rating/tooltip/header" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="search/title" xml:space="preserve">
+    <value>Clan Search</value>
+  </data>
+  <data name="search/titleDescription" xml:space="preserve">
+    <value>Here you can search for a clan, review its details,
+and submit your application to join. You can either search by clan name or tag.</value>
+  </data>
+  <data name="search/windowTitle" xml:space="preserve">
+    <value>Clan Search</value>
+  </data>
+  <data name="section/fort/bodyBar/label/scheme" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="section/fort/bodyBar/label/statistics" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="section/fort/building/tooltip/body" xml:space="preserve">
+    <value>Level %(level)s
+
+%(description)s</value>
+  </data>
+  <data name="section/fort/defence/notActivated" xml:space="preserve">
+    <value>not set</value>
+  </data>
+  <data name="section/fort/view/schema/labels/dayoff" xml:space="preserve">
+    <value>Ceasefire:</value>
+  </data>
+  <data name="section/fort/view/schema/labels/defenceHour" xml:space="preserve">
+    <value>Defense Period:</value>
+  </data>
+  <data name="section/fort/view/schema/labels/server" xml:space="preserve">
+    <value>Home server:</value>
+  </data>
+  <data name="section/fort/view/schema/labels/totalBuildings" xml:space="preserve">
+    <value>Structures built:</value>
+  </data>
+  <data name="section/fort/view/schema/labels/vacation" xml:space="preserve">
+    <value>Neutrality:</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/recordResource" xml:space="preserve">
+    <value>Most Industrial Resource earned</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/recordWinSeries" xml:space="preserve">
+    <value>Most victories in a row</value>
+  </data>
+</root>

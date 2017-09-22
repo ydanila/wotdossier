@@ -1,0 +1,3191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="account_was_restored" xml:space="preserve">
+    <value>Аккаунт был успешно восстановлен</value>
+  </data>
+  <data name="actionAchievement/title" xml:space="preserve">
+    <value>Акционная медаль</value>
+  </data>
+  <data name="actionAchievements/title" xml:space="preserve">
+    <value>Акционные медали</value>
+  </data>
+  <data name="add_tankman_skill/invalid_vehicle" xml:space="preserve">
+    <value>Ошибка изучения умения. Неправильная машина.</value>
+  </data>
+  <data name="add_tankman_skill/server_error" xml:space="preserve">
+    <value>Новое умение не изучено. Попробуйте позже.</value>
+  </data>
+  <data name="add_tankman_skill/success" xml:space="preserve">
+    <value>Новое умение успешно изучено.</value>
+  </data>
+  <data name="add_tankman_skill/vehicle_locked" xml:space="preserve">
+    <value>Ошибка изучения умения. Машина заблокирована.</value>
+  </data>
+  <data name="add_tankman_skill/vehicle_need_repair" xml:space="preserve">
+    <value>Ошибка изучения умения. Машине необходим ремонт.</value>
+  </data>
+  <data name="another_periphery" xml:space="preserve">
+    <value>Не закончена сессия на другом сервере.</value>
+  </data>
+  <data name="arena_start_errors/join/ACCOUNT_LOCK" xml:space="preserve">
+    <value>Ошибка присоединения. Вы уже присоединены к команде.</value>
+  </data>
+  <data name="arena_start_errors/join/CANNOT_CREATE" xml:space="preserve">
+    <value>Ошибка присоединения. Неправильный номер команды.</value>
+  </data>
+  <data name="arena_start_errors/join/COOLDOWN" xml:space="preserve">
+    <value>Ошибка присоединения. Операция временно заморожена. Попробуйте позже.</value>
+  </data>
+  <data name="arena_start_errors/join/EVENT_DISABLED" xml:space="preserve">
+    <value>В настоящий момент данное событие недоступно. Следите за новостями на портале игры.</value>
+  </data>
+  <data name="arena_start_errors/join/NOT_FOUND" xml:space="preserve">
+    <value>Ошибка присоединения. Приглашение устарело.</value>
+  </data>
+  <data name="arena_start_errors/join/PRIVACY" xml:space="preserve">
+    <value>Ошибка присоединения. Недостаточно прав.</value>
+  </data>
+  <data name="arena_start_errors/join/TEAM_IS_FULL" xml:space="preserve">
+    <value>Ошибка присоединения. Команда уже сформирована.</value>
+  </data>
+  <data name="arena_start_errors/join/TIME_OUT" xml:space="preserve">
+    <value>Ошибка присоединения. Слишком долго нет ответа.</value>
+  </data>
+  <data name="arena_start_errors/join/WRONG_ACCOUNT_TYPE" xml:space="preserve">
+    <value>Ошибка присоединения. Недоступно для этого типа аккаунта.</value>
+  </data>
+  <data name="arena_start_errors/join/WRONG_ARENA_STATE" xml:space="preserve">
+    <value>Ошибка присоединения к арене.</value>
+  </data>
+  <data name="arena_start_errors/join/WRONG_ARGS" xml:space="preserve">
+    <value>Ошибка присоединения, WRONG_ARGS.</value>
+  </data>
+  <data name="arena_start_errors/join/WRONG_BATTLE_ID" xml:space="preserve">
+    <value>Ошибка присоединения. Выбранный Исторический бой недоступен.</value>
+  </data>
+  <data name="arena_start_errors/join/WRONG_PERIPHERY_KNOWN" xml:space="preserve">
+    <value>Ошибка присоединения. Требуется перейти на сервер '%s'.</value>
+  </data>
+  <data name="arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN" xml:space="preserve">
+    <value>Ошибка присоединения. Требуется перейти на другой сервер.</value>
+  </data>
+  <data name="arena_start_errors/join/WRONG_VEHICLE" xml:space="preserve">
+    <value>Ошибка присоединения. Текущая машина не готова.</value>
+  </data>
+  <data name="arena_start_errors/join/no_readyVehicle" xml:space="preserve">
+    <value>Невозможно выйти в бой. Машина не готова.</value>
+  </data>
+  <data name="arena_start_errors/join/no_vehicle" xml:space="preserve">
+    <value>Для участия в бою необходимо купить машину.</value>
+  </data>
+  <data name="arena_start_errors/kick/ARENA_CREATION_FAILURE" xml:space="preserve">
+    <value>Ошибка подключения к бою (ARENA_CREATION_FAILURE)</value>
+  </data>
+  <data name="arena_start_errors/kick/AVATAR_CREATION_FAILURE" xml:space="preserve">
+    <value>Ошибка подключения к бою (AVATAR_CREATION_FAILURE)</value>
+  </data>
+  <data name="arena_start_errors/kick/BASEAPP_CRASH" xml:space="preserve">
+    <value>Ошибка подключения к бою (BASEAPP_CRASH)</value>
+  </data>
+  <data name="arena_start_errors/kick/CELLAPP_CRASH" xml:space="preserve">
+    <value>Ошибка подключения к бою (CELLAPP_CRASH)</value>
+  </data>
+  <data name="arena_start_errors/kick/CREATOR_LEFT" xml:space="preserve">
+    <value>Ошибка подключения к бою (CREATOR_LEFT)</value>
+  </data>
+  <data name="arena_start_errors/kick/FINISHED" xml:space="preserve">
+    <value>Ошибка подключения к бою (FINISHED)</value>
+  </data>
+  <data name="arena_start_errors/kick/PLAYERKICK" xml:space="preserve">
+    <value>Ошибка подключения к бою (PLAYERKICK)</value>
+  </data>
+  <data name="arena_start_errors/kick/PREBATTLE_CREATION_FAILURE" xml:space="preserve">
+    <value>Ошибка подключения к бою (PREBATTLE_CREATION_FAILURE)</value>
+  </data>
+  <data name="arena_start_errors/kick/TIMEOUT" xml:space="preserve">
+    <value>Ошибка подключения к бою (TIMEOUT)</value>
+  </data>
+  <data name="arena_start_errors/kick/UNKNOWN_FAILURE" xml:space="preserve">
+    <value>Ошибка подключения к бою (UNKNOWN_FAILURE)</value>
+  </data>
+  <data name="arena_start_errors/kick/VEHICLE_CREATION_FAILURE" xml:space="preserve">
+    <value>Ошибка подключения к бою (VEHICLE_CREATION_FAILURE)</value>
+  </data>
+  <data name="arena_start_errors/prb/kick/timeout" xml:space="preserve">
+    <value>Время ожидания в очереди на бой истекло, попробуйте сменить машину или зайти позже.</value>
+  </data>
+  <data name="artefact_apply/error_not_for_this_vehicle_type" xml:space="preserve">
+    <value>%(kind)s '%(name)s' не подходит для этой машины.</value>
+  </data>
+  <data name="artefact_apply/error_too_heavy" xml:space="preserve">
+    <value>%(kind)s '%(name)s' не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.</value>
+  </data>
+  <data name="artefact_apply/invalid_vehicle" xml:space="preserve">
+    <value>Неправильная машина. %(kind)s '%(name)s' не установлено.</value>
+  </data>
+  <data name="artefact_apply/money_success" xml:space="preserve">
+    <value>%(kind)s '%(name)s' снято с машины. Потрачено %(money)s.</value>
+  </data>
+  <data name="artefact_apply/server_error" xml:space="preserve">
+    <value>Произошла серверная ошибка установки %(kind)s '%(name)s'. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="artefact_apply/success" xml:space="preserve">
+    <value>%(kind)s '%(name)s' установлено на машину.</value>
+  </data>
+  <data name="artefact_apply/vehicle_locked" xml:space="preserve">
+    <value>Машина заблокирована. %(kind)s '%(name)s' не установлено.</value>
+  </data>
+  <data name="artefact_apply/vehicle_need_repair" xml:space="preserve">
+    <value>Машина повреждена. %(kind)s '%(name)s' не установлено. Отремонтируйте машину и повторите операцию.</value>
+  </data>
+  <data name="artefact_buy/error_not_for_this_vehicle_type" xml:space="preserve">
+    <value>%(kind)s '%(name)s' не подходит для этой машины.</value>
+  </data>
+  <data name="artefact_buy/error_too_heavy" xml:space="preserve">
+    <value>%(kind)s '%(name)s' не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.</value>
+  </data>
+  <data name="artefact_buy/invalid_module" xml:space="preserve">
+    <value>Покупка %(kind)s '%(name)s' не удалась. Неправильный модуль.</value>
+  </data>
+  <data name="artefact_buy/invalid_vehicle" xml:space="preserve">
+    <value>Неправильная машина. Покупка и установка %(kind)s '%(name)s' не удалась.</value>
+  </data>
+  <data name="artefact_buy/not_enough_credits" xml:space="preserve">
+    <value>Покупка %(kind)s '%(name)s' не удалась. Недостаточно кредитов.</value>
+  </data>
+  <data name="artefact_buy/not_enough_crystal" xml:space="preserve">
+    <value>Покупка %(kind)s '%(name)s' не удалась. Недостаточно бон.</value>
+  </data>
+  <data name="artefact_buy/not_enough_gold" xml:space="preserve">
+    <value>Покупка %(kind)s '%(name)s' не удалась. Недостаточно золота.</value>
+  </data>
+  <data name="artefact_buy/server_error" xml:space="preserve">
+    <value>Покупка %(kind)s '%(name)s' не удалась. Попробуйте позже.</value>
+  </data>
+  <data name="artefact_buy/server_error_centerDown" xml:space="preserve">
+    <value>Покупка %(kind)s '%(name)s' не удалась. Сервис покупки модулей временно недоступен.</value>
+  </data>
+  <data name="artefact_buy/success" xml:space="preserve">
+    <value>%(kind)s '%(name)s' успешно приобретено (%(count)s шт.). Потрачено %(money)s.</value>
+  </data>
+  <data name="artefact_buy/vehicle_locked" xml:space="preserve">
+    <value>Машина заблокирована. Покупка и установка %(kind)s '%(name)s' не удалась.</value>
+  </data>
+  <data name="artefact_buy/vehicle_need_repair" xml:space="preserve">
+    <value>Покупка и установка %(kind)s '%(name)s' не удалась. Отремонтируйте машину и повторите операцию.</value>
+  </data>
+  <data name="artefact_buy/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="artefact_destroy/invalid_vehicle" xml:space="preserve">
+    <value>Неправильная машина. %(kind)s '%(name)s' не уничтожено.</value>
+  </data>
+  <data name="artefact_destroy/server_error" xml:space="preserve">
+    <value>Произошла серверная ошибка уничтожения %(kind)s '%(name)s'. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="artefact_destroy/success" xml:space="preserve">
+    <value>%(kind)s '%(name)s' уничтожено при демонтаже.</value>
+  </data>
+  <data name="artefact_destroy/vehicle_locked" xml:space="preserve">
+    <value>Машина заблокирована. %(kind)s '%(name)s' не уничтожено.</value>
+  </data>
+  <data name="artefact_destroy/vehicle_need_repair" xml:space="preserve">
+    <value>Машина повреждена. %(kind)s '%(name)s' не уничтожено. Отремонтируйте машину и повторите операцию.</value>
+  </data>
+  <data name="artefact_remove/error_too_heavy" xml:space="preserve">
+    <value>%(kind)s '%(name)s' нельзя демонтировать. Попробуйте заменить ходовую часть или облегчить машину.</value>
+  </data>
+  <data name="artefact_remove/incompatibleEqs" xml:space="preserve">
+    <value>Снаряжение '%s' отправлено на Склад в связи с несовместимостью с устанавливаемым модулем.</value>
+  </data>
+  <data name="artefact_remove/invalid_vehicle" xml:space="preserve">
+    <value>Неправильная машина. %(kind)s '%(name)s' не демонтировано.</value>
+  </data>
+  <data name="artefact_remove/money_success" xml:space="preserve">
+    <value>%(kind)s '%(name)s' снято с машины. Потрачено %(money)s.</value>
+  </data>
+  <data name="artefact_remove/server_error" xml:space="preserve">
+    <value>Произошла серверная ошибка демонтажа %(kind)s '%(name)s'. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="artefact_remove/success" xml:space="preserve">
+    <value>%(kind)s '%(name)s' снято с машины.</value>
+  </data>
+  <data name="artefact_remove/vehicle_locked" xml:space="preserve">
+    <value>Машина заблокирована. %(kind)s '%(name)s' не демонтировано.</value>
+  </data>
+  <data name="artefact_remove/vehicle_need_repair" xml:space="preserve">
+    <value>Машина повреждена. %(kind)s '%(name)s' не демонтировано. Отремонтируйте машину и повторите операцию.</value>
+  </data>
+  <data name="artefact_sell/invalid_module" xml:space="preserve">
+    <value>Продажа %(kind)s '%(name)s' не удалась. Неправильный модуль.</value>
+  </data>
+  <data name="artefact_sell/server_error" xml:space="preserve">
+    <value>Продажа %(kind)s '%(name)s' не удалась. Попробуйте позже.</value>
+  </data>
+  <data name="artefact_sell/success" xml:space="preserve">
+    <value>%(kind)s '%(name)s' успешно продано (%(count)s шт.). Получено %(money)s.</value>
+  </data>
+  <data name="battle/request/SEND_INVITES" xml:space="preserve">
+    <value>Отправка приглашений</value>
+  </data>
+  <data name="battleBooster_buy/error_not_for_this_vehicle_type" xml:space="preserve">
+    <value>%(kind)s «%(name)s» не подходит для этой машины.</value>
+  </data>
+  <data name="battleBooster_buy/error_too_heavy" xml:space="preserve">
+    <value>%(kind)s «%(name)s» не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.</value>
+  </data>
+  <data name="battleBooster_buy/invalid_module" xml:space="preserve">
+    <value>Покупка %(kind)s «%(name)s» не удалась. Неправильный модуль.</value>
+  </data>
+  <data name="battleBooster_buy/invalid_vehicle" xml:space="preserve">
+    <value>Неправильная машина. Покупка и установка %(kind)s «%(name)s» не удалась.</value>
+  </data>
+  <data name="battleBooster_buy/not_enough_credits" xml:space="preserve">
+    <value>Покупка %(kind)s «%(name)s» не удалась. Недостаточно кредитов.</value>
+  </data>
+  <data name="battleBooster_buy/not_enough_crystal" xml:space="preserve">
+    <value>Покупка %(kind)s «%(name)s» не удалась. Недостаточно бон.</value>
+  </data>
+  <data name="battleBooster_buy/not_enough_gold" xml:space="preserve">
+    <value>Покупка %(kind)s «%(name)s» не удалась. Недостаточно золота.</value>
+  </data>
+  <data name="battleBooster_buy/server_error" xml:space="preserve">
+    <value>Покупка %(kind)s «%(name)s» не удалась. Попробуйте позже.</value>
+  </data>
+  <data name="battleBooster_buy/server_error_centerDown" xml:space="preserve">
+    <value>Покупка %(kind)s «%(name)s» не удалась. Сервис покупки модулей временно недоступен.</value>
+  </data>
+  <data name="battleBooster_buy/success" xml:space="preserve">
+    <value>%(kind)s «%(name)s» успешно приобретена (%(count)s шт.). Потрачено %(money)s.</value>
+  </data>
+  <data name="battleBooster_buy/vehicle_locked" xml:space="preserve">
+    <value>Машина заблокирована. Покупка и установка %(kind)s «%(name)s» не удалась.</value>
+  </data>
+  <data name="battleBooster_buy/vehicle_need_repair" xml:space="preserve">
+    <value>Покупка и установка %(kind)s «%(name)s» не удалась. Отремонтируйте машину и повторите операцию.</value>
+  </data>
+  <data name="battleBooster_buy/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="battleResults/sharing/success" xml:space="preserve">
+    <value>Ссылка скопирована в буфер обмена. Вы можете её вставить с помощью Ctrl+V в игровой чат или использовать вне клиента игры.</value>
+  </data>
+  <data name="battleSession/kickedFromQueue" xml:space="preserve">
+    <value>Невозможно подобрать соперников для данного Специального боя. Попробуйте переформировать команду.</value>
+  </data>
+  <data name="battleSession/memberJoined" xml:space="preserve">
+    <value>%s присоединился к команде.</value>
+  </data>
+  <data name="battleSession/memberLeave" xml:space="preserve">
+    <value>%s покинул команду.</value>
+  </data>
+  <data name="battleSession/memberNotReady" xml:space="preserve">
+    <value>%s не готов воевать в команде.</value>
+  </data>
+  <data name="battleSession/memberOffline" xml:space="preserve">
+    <value>Потеря связи с %s.</value>
+  </data>
+  <data name="battleSession/memberReady" xml:space="preserve">
+    <value>%s готов воевать в команде.</value>
+  </data>
+  <data name="battlesession/error/AddObserver" xml:space="preserve">
+    <value>Ошибка. Максимальное количество наблюдателей в команде - %(numPlayers)s.</value>
+  </data>
+  <data name="battlesession/error/AddPlayer" xml:space="preserve">
+    <value>Ошибка. Максимальное количество игроков в команде - %(numPlayers)s.</value>
+  </data>
+  <data name="battlesession/error/Limits" xml:space="preserve">
+    <value>Ошибка. Превышено максимальное количество участников в команде.</value>
+  </data>
+  <data name="bonuses/booster/value" xml:space="preserve">
+    <value>%(name)s (x%(count)d)</value>
+  </data>
+  <data name="booster_activate/ALREADY_USED" xml:space="preserve">
+    <value>Действие недоступно. Личный резерв уже использован.</value>
+  </data>
+  <data name="booster_activate/DISABLED" xml:space="preserve">
+    <value>Ошибка активации личного резерва. Действие недоступно.</value>
+  </data>
+  <data name="booster_activate/EXCEPTION" xml:space="preserve">
+    <value>Ошибка активации личного резерва. Действие недоступно.</value>
+  </data>
+  <data name="booster_activate/NO_BOOSTERS" xml:space="preserve">
+    <value>Действие недоступно. Личный резерв отсутствует или не выбран.</value>
+  </data>
+  <data name="booster_activate/WRONG_ARGS" xml:space="preserve">
+    <value>Ошибка активации личного резерва. Действие недоступно.</value>
+  </data>
+  <data name="booster_activate/server_error" xml:space="preserve">
+    <value>Ошибка активации личного резерва. Попробуйте позже.</value>
+  </data>
+  <data name="booster_activate/success" xml:space="preserve">
+    <value>Личный резерв «%(boosterName)s» активирован! До окончания действия: %(time)s.</value>
+  </data>
+  <data name="booster_buy/not_enough_credits" xml:space="preserve">
+    <value>Покупка личного резерва «%(boosterName)s» не удалась. Недостаточно кредитов.</value>
+  </data>
+  <data name="booster_buy/not_enough_gold" xml:space="preserve">
+    <value>Покупка личного резерва «%(boosterName)s» не удалась. Недостаточно золота.</value>
+  </data>
+  <data name="booster_buy/server_error" xml:space="preserve">
+    <value>Покупка личного резерва «%(boosterName)s» не удалась.</value>
+  </data>
+  <data name="booster_buy/server_error_centerDown" xml:space="preserve">
+    <value>Покупка личного резерва «%(boosterName)s» не удалась. Сервис покупки временно недоступен.</value>
+  </data>
+  <data name="booster_buy/success" xml:space="preserve">
+    <value>Личный резерв «%(boosterName)s» успешно приобретён (%(count)s шт.). Потрачено %(money)s.</value>
+  </data>
+  <data name="booster_buy/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="booster_sell/server_error" xml:space="preserve">
+    <value>Продажа личного резерва «%(boosterName)s» не удалась. Попробуйте позже.</value>
+  </data>
+  <data name="booster_sell/server_error_centerDown" xml:space="preserve">
+    <value>Продажа личного резерва «%(boosterName)s» не удалась. Попробуйте позже.</value>
+  </data>
+  <data name="booster_sell/success" xml:space="preserve">
+    <value>Личный резерв «%(boosterName)s» успешно продан (%(count)s шт.). Получено %(money)s.</value>
+  </data>
+  <data name="buttons/goToPoll" xml:space="preserve">
+    <value>Перейти к опросу</value>
+  </data>
+  <data name="buy_and_equip_tankman/FORBIDDEN" xml:space="preserve">
+    <value>Невозможно рекрутировать и пересадить члена экипажа: у танка уникальный постоянный экипаж.</value>
+  </data>
+  <data name="buy_and_equip_tankman/financial_success" xml:space="preserve">
+    <value>Рекрутирование и пересадка члена экипажа выполнены успешно. Потрачено %(price)s.</value>
+  </data>
+  <data name="buy_and_equip_tankman/free_tankmen_limit" xml:space="preserve">
+    <value>Вы исчерпали лимит бесплатных членов экипажа на сегодняшний день.</value>
+  </data>
+  <data name="buy_and_equip_tankman/invalid_vehicle" xml:space="preserve">
+    <value>Рекрутирование и пересадка члена экипажа не выполнены. Неправильная машина.</value>
+  </data>
+  <data name="buy_and_equip_tankman/not_enough_credits" xml:space="preserve">
+    <value>Рекрутирование и пересадка члена экипажа не выполнены. Недостаточно кредитов.</value>
+  </data>
+  <data name="buy_and_equip_tankman/not_enough_gold" xml:space="preserve">
+    <value>Рекрутирование и пересадка члена экипажа не выполнены. Недостаточно золота.</value>
+  </data>
+  <data name="buy_and_equip_tankman/server_error" xml:space="preserve">
+    <value>Рекрутирование и пересадка члена экипажа не выполнены. Попробуйте позже.</value>
+  </data>
+  <data name="buy_and_equip_tankman/success" xml:space="preserve">
+    <value>Рекрутирование и пересадка члена экипажа выполнены успешно.</value>
+  </data>
+  <data name="buy_and_equip_tankman/vehicle_locked" xml:space="preserve">
+    <value>Рекрутирование и пересадка члена экипажа не выполнены. Машина заблокирована.</value>
+  </data>
+  <data name="buy_and_equip_tankman/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="buy_and_reequip_tankman/FORBIDDEN" xml:space="preserve">
+    <value>Невозможно рекрутировать и пересадить члена экипажа: у танка уникальный постоянный экипаж.</value>
+  </data>
+  <data name="buy_and_reequip_tankman/financial_success" xml:space="preserve">
+    <value>Рекрутирование и замена члена экипажа выполнены успешно. Потрачено %(price)s.</value>
+  </data>
+  <data name="buy_and_reequip_tankman/free_tankmen_limit" xml:space="preserve">
+    <value>Вы исчерпали лимит бесплатных членов экипажа на сегодняшний день.</value>
+  </data>
+  <data name="buy_and_reequip_tankman/invalid_vehicle" xml:space="preserve">
+    <value>Рекрутирование и замена члена экипажа не выполнены. Неправильная машина.</value>
+  </data>
+  <data name="buy_and_reequip_tankman/not_enough_credits" xml:space="preserve">
+    <value>Рекрутирование и замена члена экипажа не выполнены. Недостаточно кредитов.</value>
+  </data>
+  <data name="buy_and_reequip_tankman/not_enough_gold" xml:space="preserve">
+    <value>Рекрутирование и замена члена экипажа не выполнены. Недостаточно золота.</value>
+  </data>
+  <data name="buy_and_reequip_tankman/not_enough_space" xml:space="preserve">
+    <value>Рекрутирование и замена члена экипажа не выполнены. Для рекрутирования члена экипажа необходима свободная койка в Казарме. Пожалуйста, освободите одну койку или приобретите дополнительные койки в Казарме.</value>
+  </data>
+  <data name="buy_and_reequip_tankman/server_error" xml:space="preserve">
+    <value>Рекрутирование и замена члена экипажа не выполнены. Попробуйте позже.</value>
+  </data>
+  <data name="buy_and_reequip_tankman/success" xml:space="preserve">
+    <value>Рекрутирование и замена члена экипажа выполнены успешно.</value>
+  </data>
+  <data name="buy_and_reequip_tankman/vehicle_locked" xml:space="preserve">
+    <value>Рекрутирование и замена члена экипажа не выполнены. Машина заблокирована.</value>
+  </data>
+  <data name="buy_and_reequip_tankman/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="buy_free_vehicle_limit_error" xml:space="preserve">
+    <value>Вы израсходовали лимит на приобретение бесплатной техники. Попробуйте завтра.</value>
+  </data>
+  <data name="buy_tankmen_berths/not_enough_credits" xml:space="preserve">
+    <value>Ошибка расширения Казармы. Недостаточно кредитов.</value>
+  </data>
+  <data name="buy_tankmen_berths/not_enough_gold" xml:space="preserve">
+    <value>Ошибка расширения Казармы. Недостаточно золота.</value>
+  </data>
+  <data name="buy_tankmen_berths/server_error" xml:space="preserve">
+    <value>Ошибка расширения Казармы. Попробуйте позже.</value>
+  </data>
+  <data name="buy_tankmen_berths/success" xml:space="preserve">
+    <value>Казарма расширена. Потрачено %(money)s.</value>
+  </data>
+  <data name="buy_tankmen_berths/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="buy_vehicle_slot_error" xml:space="preserve">
+    <value>Не удалось купить '%s' . Нет свободных слотов в Ангаре. Продайте одну из машин или купите новый слот.</value>
+  </data>
+  <data name="buy_vehicle_slot_error2" xml:space="preserve">
+    <value>Не удалось купить '%s' . Нет свободных слотов в Ангаре. Пожалуйста, освободите слот.</value>
+  </data>
+  <data name="change_tankman_role/FORBIDDEN" xml:space="preserve">
+    <value>Невозможно сменить специальность члену экипажа: у танка уникальный постоянный экипаж.</value>
+  </data>
+  <data name="change_tankman_role/installed" xml:space="preserve">
+    <value>Переученный член экипажа посажен в %(vehicle)s</value>
+  </data>
+  <data name="change_tankman_role/invalid_role" xml:space="preserve">
+    <value>Не удалось сменить специальность. Попробуйте позже.</value>
+  </data>
+  <data name="change_tankman_role/invalid_vehicle" xml:space="preserve">
+    <value>Не удалось сменить специальность. Неправильная машина.</value>
+  </data>
+  <data name="change_tankman_role/no_vehicle" xml:space="preserve">
+    <value>Машина отсутствует в Ангаре. Переученный член экипажа помещён в Казарму.</value>
+  </data>
+  <data name="change_tankman_role/not_enough_credits" xml:space="preserve">
+    <value>Переучивание танкиста не может быть выполнено. Недостаточно средств.</value>
+  </data>
+  <data name="change_tankman_role/not_enough_gold" xml:space="preserve">
+    <value>Переучивание танкиста не может быть выполнено. Недостаточно средств.</value>
+  </data>
+  <data name="change_tankman_role/server_error" xml:space="preserve">
+    <value>Не удалось сменить специальность. Попробуйте позже.</value>
+  </data>
+  <data name="change_tankman_role/slot_is_taken" xml:space="preserve">
+    <value>%(role)s уже в %(vehicle)s. Переученный член экипажа помещён в Казарму.</value>
+  </data>
+  <data name="change_tankman_role/success" xml:space="preserve">
+    <value>Смена специальности члена экипажа выполнена успешно. Потрачено %(money)s</value>
+  </data>
+  <data name="change_tankman_role/wallet_not_available" xml:space="preserve">
+    <value>Не удалось сменить специальность. Попробуйте позже.</value>
+  </data>
+  <data name="charge/credits_error" xml:space="preserve">
+    <value>Не хватает %s кредитов и %s золота. Установите боекомплект вручную.</value>
+  </data>
+  <data name="charge/credits_error_credits" xml:space="preserve">
+    <value>Не хватает %s кредитов. Установите боекомплект вручную.</value>
+  </data>
+  <data name="charge/credits_error_gold" xml:space="preserve">
+    <value>Не хватает %s золота. Установите боекомплект вручную.</value>
+  </data>
+  <data name="charge/inventory_error" xml:space="preserve">
+    <value>Боекомплект для %(vehicle)s не загружен. Установите боекомплект вручную.</value>
+  </data>
+  <data name="charge/money_spent" xml:space="preserve">
+    <value>Всего на закупку боекомплекта потрачено %s.</value>
+  </data>
+  <data name="charge/server_error" xml:space="preserve">
+    <value>Ошибка загрузки боекомплекта. Попробуйте позже.</value>
+  </data>
+  <data name="charge/server_error_save" xml:space="preserve">
+    <value>Ошибка запоминания боекомплекта. Попробуйте позже.</value>
+  </data>
+  <data name="charge/success" xml:space="preserve">
+    <value>Боекомплект загружен.</value>
+  </data>
+  <data name="charge/success_save" xml:space="preserve">
+    <value>Боекомплект сохранён.</value>
+  </data>
+  <data name="checkout_error" xml:space="preserve">
+    <value>Ошибка сервера при получении информации об игроке. Попробуйте войти ещё раз.</value>
+  </data>
+  <data name="clans/isClanProfileDisabled" xml:space="preserve">
+    <value>Действие недоступно. Попробуйте позже.</value>
+  </data>
+  <data name="clans/notifications/accept" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="clans/notifications/decline" xml:space="preserve">
+    <value>Отклонить</value>
+  </data>
+  <data name="clans/notifications/from" xml:space="preserve">
+    <value>от %(user)s</value>
+  </data>
+  <data name="clans/notifications/info" xml:space="preserve">
+    <value>Просмотреть информацию о клане</value>
+  </data>
+  <data name="clans/notifications/invite" xml:space="preserve">
+    <value>Приглашение в клан</value>
+  </data>
+  <data name="clans/notifications/invite/accepted" xml:space="preserve">
+    <value>Приглашение в клан принято</value>
+  </data>
+  <data name="clans/notifications/invite/declined" xml:space="preserve">
+    <value>Приглашение в клан отклонено</value>
+  </data>
+  <data name="clans/notifications/invite/expired" xml:space="preserve">
+    <value>Приглашение в клан недействительно</value>
+  </data>
+  <data name="clans/notifications/inviteAccepted" xml:space="preserve">
+    <value>%(nameStartTag)s%(name)s%(nameEndTag)s принял приглашение в клан.</value>
+  </data>
+  <data name="clans/notifications/inviteDeclined" xml:space="preserve">
+    <value>%(nameStartTag)s%(name)s%(nameEndTag)s отклонил приглашение в клан.</value>
+  </data>
+  <data name="clans/notifications/inviteSendError" xml:space="preserve">
+    <value>Невозможно отправить приглашение %(userName)s.</value>
+  </data>
+  <data name="clans/notifications/inviteSent" xml:space="preserve">
+    <value>Приглашение игроку %(userName)s отправлено.</value>
+  </data>
+  <data name="clans/notifications/invites" xml:space="preserve">
+    <value>Приглашений в кланы: %(count)s</value>
+  </data>
+  <data name="clans/notifications/invites/turnOff" xml:space="preserve">
+    <value>Отключить уведомления</value>
+  </data>
+  <data name="clans/notifications/invites/watchInvites" xml:space="preserve">
+    <value>Просмотреть приглашения</value>
+  </data>
+  <data name="clans/notifications/invitesSendError" xml:space="preserve">
+    <value>Приглашения не были отправлены %(userCount)d игрокам.</value>
+  </data>
+  <data name="clans/notifications/invitesSent" xml:space="preserve">
+    <value>Приглашения были отправлены %(userCount)d игрокам.</value>
+  </data>
+  <data name="clans/notifications/personal/appAccepted" xml:space="preserve">
+    <value>Вы приняты в клан
+%(nameStartTag)s%(name)s%(nameEndTag)s.</value>
+  </data>
+  <data name="clans/notifications/personal/appDeclined" xml:space="preserve">
+    <value>Ваша заявка на вступление в клан
+%(nameStartTag)s%(name)s%(nameEndTag)s отклонена.</value>
+  </data>
+  <data name="clans/notifications/request" xml:space="preserve">
+    <value>Заявка на вступление в клан</value>
+  </data>
+  <data name="clans/notifications/request/accepted" xml:space="preserve">
+    <value>Заявка принята</value>
+  </data>
+  <data name="clans/notifications/request/declined" xml:space="preserve">
+    <value>Заявка отклонена</value>
+  </data>
+  <data name="clans/notifications/requestSent" xml:space="preserve">
+    <value>Отправлена заявка в клан:
+%(clanName)s</value>
+  </data>
+  <data name="clans/notifications/requests" xml:space="preserve">
+    <value>Заявок от игроков: %(count)s</value>
+  </data>
+  <data name="clans/notifications/requests/watchRequests" xml:space="preserve">
+    <value>Просмотреть заявки</value>
+  </data>
+  <data name="clans/request/errors/Account already invited" xml:space="preserve">
+    <value>%(userName)s уже приглашён в ваш клан.</value>
+  </data>
+  <data name="clans/request/errors/Account does not meet requirements" xml:space="preserve">
+    <value>Действие недоступно. Игрок не удовлетворяет условиям набора.</value>
+  </data>
+  <data name="clans/request/errors/Account in cooldown" xml:space="preserve">
+    <value>Двухдневный штраф после выхода из предыдущего клана ещё не истёк.</value>
+  </data>
+  <data name="clans/request/errors/Account in unknown" xml:space="preserve">
+    <value>Действие недоступно. Некорректный аккаунт.</value>
+  </data>
+  <data name="clans/request/errors/Account is banned" xml:space="preserve">
+    <value>Действие недоступно. Аккаунт забанен.</value>
+  </data>
+  <data name="clans/request/errors/Account is in clan already" xml:space="preserve">
+    <value>Игрок уже состоит в клане.</value>
+  </data>
+  <data name="clans/request/errors/Account is not in clan" xml:space="preserve">
+    <value>Действие недоступно. Игрок не состоит в клане.</value>
+  </data>
+  <data name="clans/request/errors/Application does not exist" xml:space="preserve">
+    <value>Действие недоступно. Заявка не существует.</value>
+  </data>
+  <data name="clans/request/errors/Application is not active" xml:space="preserve">
+    <value>Действие недоступно. Заявка устарела.</value>
+  </data>
+  <data name="clans/request/errors/Bad request" xml:space="preserve">
+    <value>Действие недоступно. Попробуйте позже.</value>
+  </data>
+  <data name="clans/request/errors/CANT_SEND_INVITES" xml:space="preserve">
+    <value>Недостаточно полномочий для отправки приглашений на вступление в клан.</value>
+  </data>
+  <data name="clans/request/errors/CLAN_CONSCRIPTION_CLOSED" xml:space="preserve">
+    <value>Набор в клан закрыт.</value>
+  </data>
+  <data name="clans/request/errors/CLAN_IS_FULL" xml:space="preserve">
+    <value>В клане нет свободных мест.</value>
+  </data>
+  <data name="clans/request/errors/Clan does not exist" xml:space="preserve">
+    <value>Действие недоступно. Клан не существует.</value>
+  </data>
+  <data name="clans/request/errors/Clan has not free space" xml:space="preserve">
+    <value>Действие недоступно. Нет свободных мест.</value>
+  </data>
+  <data name="clans/request/errors/Clan is disbanded" xml:space="preserve">
+    <value>Действие недоступно. Клан распущен.</value>
+  </data>
+  <data name="clans/request/errors/Clan is not active" xml:space="preserve">
+    <value>Действие недоступно. Клан неактивен.</value>
+  </data>
+  <data name="clans/request/errors/DEFAULT" xml:space="preserve">
+    <value>Действие недоступно. Попробуйте позже.</value>
+  </data>
+  <data name="clans/request/errors/Exporter error was occurred" xml:space="preserve">
+    <value>Действие недоступно. Попробуйте позже.</value>
+  </data>
+  <data name="clans/request/errors/FORBIDDEN_ACCOUNT_TYPE" xml:space="preserve">
+    <value>Действие недоступно для данного типа аккаунта.</value>
+  </data>
+  <data name="clans/request/errors/Forbidden" xml:space="preserve">
+    <value>Действие недоступно. Недостаточно полномочий.</value>
+  </data>
+  <data name="clans/request/errors/Global map error was occurred" xml:space="preserve">
+    <value>Действие недоступно. Попробуйте позже.</value>
+  </data>
+  <data name="clans/request/errors/Invite does not exist" xml:space="preserve">
+    <value>Действие недоступно. Приглашение не существует.</value>
+  </data>
+  <data name="clans/request/errors/Invite is not active" xml:space="preserve">
+    <value>Действие недоступно. Приглашение устарело.</value>
+  </data>
+  <data name="clans/request/errors/Recruiting policy mismatch" xml:space="preserve">
+    <value>Действие недоступно. Попробуйте позже.</value>
+  </data>
+  <data name="clans/request/errors/SPA error was occurred" xml:space="preserve">
+    <value>Действие недоступно. Попробуйте позже.</value>
+  </data>
+  <data name="clans/request/errors/Stronghold is not found" xml:space="preserve">
+    <value>Действие недоступно. Укрепрайон недоступен.</value>
+  </data>
+  <data name="clans/request/errors/Too Many Applications" xml:space="preserve">
+    <value>Действие недоступно. Лимит заявок достигнут.</value>
+  </data>
+  <data name="clans/request/errors/Too many invites" xml:space="preserve">
+    <value>Действие недоступно. Лимит приглашений достигнут.</value>
+  </data>
+  <data name="clans/request/errors/User is not authentificated" xml:space="preserve">
+    <value>Действие недоступно. Попробуйте позже.</value>
+  </data>
+  <data name="clans/request/errors/WGCCBE error was occurred" xml:space="preserve">
+    <value>Действие недоступно. Попробуйте позже.</value>
+  </data>
+  <data name="clans/request/errors/WGCCFE error was occurred" xml:space="preserve">
+    <value>Действие недоступно. Попробуйте позже.</value>
+  </data>
+  <data name="clans/request/errors/Wgrs error was occurred" xml:space="preserve">
+    <value>Действие недоступно. Попробуйте позже.</value>
+  </data>
+  <data name="clans/request/errors/user is in clan already" xml:space="preserve">
+    <value>%(userName)s уже состоит в клане.</value>
+  </data>
+  <data name="clientInstallError_not_for_this_vehicle_type" xml:space="preserve">
+    <value>Модуль %s '%s' не подходит для этой машины.</value>
+  </data>
+  <data name="clientInstallError_too_heavy" xml:space="preserve">
+    <value>Модуль %s '%s' не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.</value>
+  </data>
+  <data name="clientInstallError_vehicleGun_not_for_current_vehicle" xml:space="preserve">
+    <value>%s '%s' не подходит для данной башни. Замените башню.</value>
+  </data>
+  <data name="clientInstallError_wrong_item_type" xml:space="preserve">
+    <value>Модуль %s '%s' не подходит по типу.</value>
+  </data>
+  <data name="clientInstallError_wrong_nation" xml:space="preserve">
+    <value>Модуль %s '%s' не подходит по нации.</value>
+  </data>
+  <data name="clientRemoveError_not_in_list" xml:space="preserve">
+    <value>Модуль %s '%s' не подходит для данной машины.</value>
+  </data>
+  <data name="clientRemoveError_too_heavy" xml:space="preserve">
+    <value>Модуль %s '%s' не подходит по массе. Попробуйте облегчить машину.</value>
+  </data>
+  <data name="clientRemoveError_wrong_item_type" xml:space="preserve">
+    <value>Модуль %s '%s' не подходит по типу.</value>
+  </data>
+  <data name="clientRemoveError_wrong_nation" xml:space="preserve">
+    <value>Модуль %s '%s' не подходит по нации.</value>
+  </data>
+  <data name="connected" xml:space="preserve">
+    <value>Добро пожаловать на сервер '%s' World of Tanks!</value>
+  </data>
+  <data name="current_vehicle_changed" xml:space="preserve">
+    <value>Текущая машина изменена на '%s'.</value>
+  </data>
+  <data name="customization/added/camouflages" xml:space="preserve">
+    <value>Добавлен камуфляж</value>
+  </data>
+  <data name="customization/added/camouflagesValue" xml:space="preserve">
+    <value>Добавлен камуфляж (x%s).</value>
+  </data>
+  <data name="customization/added/emblems" xml:space="preserve">
+    <value>Добавлена эмблема</value>
+  </data>
+  <data name="customization/added/emblemsValue" xml:space="preserve">
+    <value>Добавлена эмблема (x%s).</value>
+  </data>
+  <data name="customization/added/inscriptions" xml:space="preserve">
+    <value>Добавлена надпись</value>
+  </data>
+  <data name="customization/added/inscriptionsValue" xml:space="preserve">
+    <value>Добавлена надпись (x%s).</value>
+  </data>
+  <data name="customization/camouflage_change_server_error" xml:space="preserve">
+    <value>Произошла серверная ошибка при смене камуфляжа. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="customization/camouflage_change_success/credits" xml:space="preserve">
+    <value>Камуфляж успешно изменён. Потрачено кредитов: %s.</value>
+  </data>
+  <data name="customization/camouflage_change_success/free" xml:space="preserve">
+    <value>Камуфляж успешно изменён.</value>
+  </data>
+  <data name="customization/camouflage_change_success/gold" xml:space="preserve">
+    <value>Камуфляж успешно изменён. Потрачено золота: %s.</value>
+  </data>
+  <data name="customization/camouflage_cost_not_found" xml:space="preserve">
+    <value>Смена камуфляжа невозможна. Невозможно определить стоимость камуфляжа.</value>
+  </data>
+  <data name="customization/camouflage_days_not_selected" xml:space="preserve">
+    <value>Смена камуфляжа невозможна. Выберите, пожалуйста, срок действия камуфляжа.</value>
+  </data>
+  <data name="customization/camouflage_drop_server_error" xml:space="preserve">
+    <value>Произошла серверная ошибка при удалении камуфляжа. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="customization/camouflage_drop_success" xml:space="preserve">
+    <value>Камуфляж успешно удалён.</value>
+  </data>
+  <data name="customization/camouflage_get_cost_server_error" xml:space="preserve">
+    <value>Произошла серверная ошибка при получении пакетов аренды камуфляжа, попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="customization/camouflage_not_found_to_drop" xml:space="preserve">
+    <value>Удалить камуфляж невозможно. Текущий камуфляж не назначен.</value>
+  </data>
+  <data name="customization/camouflage_not_selected" xml:space="preserve">
+    <value>Смена камуфляжа невозможна. Выберите камуфляж.</value>
+  </data>
+  <data name="customization/camouflage_stored_success" xml:space="preserve">
+    <value>Камуфляж с %(vehicle)s удалён.</value>
+  </data>
+  <data name="customization/credits_and_gold_not_enough" xml:space="preserve">
+    <value>Кастомизация невозможна. Недостаточно кредитов и золота.</value>
+  </data>
+  <data name="customization/credits_not_enough" xml:space="preserve">
+    <value>Кастомизация невозможна. Недостаточно кредитов.</value>
+  </data>
+  <data name="customization/emblem_change_server_error" xml:space="preserve">
+    <value>Произошла серверная ошибка при смене эмблемы. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="customization/emblem_change_success/credits" xml:space="preserve">
+    <value>Эмблема успешно изменена. Потрачено кредитов: %s.</value>
+  </data>
+  <data name="customization/emblem_change_success/free" xml:space="preserve">
+    <value>Эмблема успешно изменена.</value>
+  </data>
+  <data name="customization/emblem_change_success/gold" xml:space="preserve">
+    <value>Эмблема успешно изменена. Потрачено золота: %s.</value>
+  </data>
+  <data name="customization/emblem_cost_not_found" xml:space="preserve">
+    <value>Смена эмблемы невозможна. Невозможно определить стоимость эмблемы.</value>
+  </data>
+  <data name="customization/emblem_days_not_selected" xml:space="preserve">
+    <value>Смена эмблемы невозможна. Выберите, пожалуйста, срок действия эмблемы.</value>
+  </data>
+  <data name="customization/emblem_drop_server_error" xml:space="preserve">
+    <value>Произошла серверная ошибка при удалении эмблемы. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="customization/emblem_drop_success" xml:space="preserve">
+    <value>Эмблема успешно удалена.</value>
+  </data>
+  <data name="customization/emblem_get_cost_server_error" xml:space="preserve">
+    <value>Произошла серверная ошибка при получении пакетов аренды эмблем. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="customization/emblem_not_found_to_drop" xml:space="preserve">
+    <value>Удалить эмблему невозможно. Текущая эмблема не назначена.</value>
+  </data>
+  <data name="customization/emblem_not_selected" xml:space="preserve">
+    <value>Смена эмблемы невозможна. Выберите эмблему.</value>
+  </data>
+  <data name="customization/emblem_stored_success" xml:space="preserve">
+    <value>Эмблема с %(vehicle)s удалена.</value>
+  </data>
+  <data name="customization/gold_not_enough" xml:space="preserve">
+    <value>Кастомизация невозможна. Недостаточно золота.</value>
+  </data>
+  <data name="customization/igr_type_changed_error" xml:space="preserve">
+    <value>Статус IGR изменился, текущая операция отменена.</value>
+  </data>
+  <data name="customization/inscription_change_server_error" xml:space="preserve">
+    <value>Произошла серверная ошибка при смене надписи. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="customization/inscription_change_success/credits" xml:space="preserve">
+    <value>Надпись успешно изменена. Потрачено кредитов: %s.</value>
+  </data>
+  <data name="customization/inscription_change_success/free" xml:space="preserve">
+    <value>Надпись успешно изменена.</value>
+  </data>
+  <data name="customization/inscription_change_success/gold" xml:space="preserve">
+    <value>Надпись успешно изменена. Потрачено золота: %s.</value>
+  </data>
+  <data name="customization/inscription_cost_not_found" xml:space="preserve">
+    <value>Смена надписи невозможна. Невозможно определить стоимость надписи.</value>
+  </data>
+  <data name="customization/inscription_days_not_selected" xml:space="preserve">
+    <value>Смена надписи невозможна. Выберите, пожалуйста, срок действия надписи.</value>
+  </data>
+  <data name="customization/inscription_drop_server_error" xml:space="preserve">
+    <value>Произошла серверная ошибка при удалении надписи. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="customization/inscription_drop_success" xml:space="preserve">
+    <value>Надпись успешно удалена.</value>
+  </data>
+  <data name="customization/inscription_get_cost_server_error" xml:space="preserve">
+    <value>Произошла серверная ошибка при получении пакетов аренды эмблем. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="customization/inscription_not_found_to_drop" xml:space="preserve">
+    <value>Удалить надпись невозможно. Текущая надпись не назначена.</value>
+  </data>
+  <data name="customization/inscription_not_selected" xml:space="preserve">
+    <value>Смена надписи невозможна. Выберите надпись.</value>
+  </data>
+  <data name="customization/inscription_stored_success" xml:space="preserve">
+    <value>Надпись с %(vehicle)s удалена.</value>
+  </data>
+  <data name="customization/removed/camouflages" xml:space="preserve">
+    <value>Списан камуфляж</value>
+  </data>
+  <data name="customization/removed/emblems" xml:space="preserve">
+    <value>Списана эмблема</value>
+  </data>
+  <data name="customization/removed/inscriptions" xml:space="preserve">
+    <value>Списана надпись</value>
+  </data>
+  <data name="customization/vehicle_damaged" xml:space="preserve">
+    <value>Кастомизация невозможна. Машина повреждена. Необходим ремонт.</value>
+  </data>
+  <data name="customization/vehicle_destroyed" xml:space="preserve">
+    <value>Кастомизация невозможна. Машина разбита. Необходим ремонт.</value>
+  </data>
+  <data name="customization/vehicle_exploded" xml:space="preserve">
+    <value>Кастомизация невозможна. Машина взорвана. Необходим ремонт.</value>
+  </data>
+  <data name="customization/vehicle_locked" xml:space="preserve">
+    <value>Кастомизация невозможна. Машина заблокирована.</value>
+  </data>
+  <data name="denunciation/success" xml:space="preserve">
+    <value>Жалоба на %(name)s «%(topic)s» принята.</value>
+  </data>
+  <data name="disconnected" xml:space="preserve">
+    <value>Клиент отключён от сервера.</value>
+  </data>
+  <data name="dismiss_tankman/FORBIDDEN" xml:space="preserve">
+    <value>Невозможно демобилизовать члена экипажа: у танка уникальный постоянный экипаж.</value>
+  </data>
+  <data name="dismiss_tankman/invalid_vehicle" xml:space="preserve">
+    <value>Ошибка демобилизации члена экипажа. Неправильная машина.</value>
+  </data>
+  <data name="dismiss_tankman/server_error" xml:space="preserve">
+    <value>Не удалось демобилизовать члена экипажа. Попробуйте позже.</value>
+  </data>
+  <data name="dismiss_tankman/success" xml:space="preserve">
+    <value>Член экипажа демобилизован успешно.</value>
+  </data>
+  <data name="dismiss_tankman/vehicle_locked" xml:space="preserve">
+    <value>Ошибка демобилизации члена экипажа. Машина заблокирована.</value>
+  </data>
+  <data name="dismiss_tankman/vehicle_need_repair" xml:space="preserve">
+    <value>Ошибка демобилизации члена экипажа. Машине необходим ремонт.</value>
+  </data>
+  <data name="dossiers_unavailable" xml:space="preserve">
+    <value>Учётная запись не готова (DOSSIERS_UNAVAILABLE)</value>
+  </data>
+  <data name="drop_tankman_skill/invalid_vehicle" xml:space="preserve">
+    <value>Ошибка сброса умений. Неправильная машина.</value>
+  </data>
+  <data name="drop_tankman_skill/server_error" xml:space="preserve">
+    <value>Не удалось сбросить умения. Попробуйте позже.</value>
+  </data>
+  <data name="drop_tankman_skill/success" xml:space="preserve">
+    <value>Все умения и навыки успешно сброшены. Потрачено %(money)s</value>
+  </data>
+  <data name="drop_tankman_skill/vehicle_locked" xml:space="preserve">
+    <value>Ошибка сброса умений. Машина заблокирована.</value>
+  </data>
+  <data name="drop_tankman_skill/vehicle_need_repair" xml:space="preserve">
+    <value>Ошибка сброса умений. Машине необходим ремонт.</value>
+  </data>
+  <data name="drr_scale/step_down" xml:space="preserve">
+    <value>Динамическое разрешение уменьшено до %(scale)d%%.</value>
+  </data>
+  <data name="drr_scale/step_up" xml:space="preserve">
+    <value>Динамическое разрешение увеличено до %(scale)d%%.</value>
+  </data>
+  <data name="equip_tankman/FORBIDDEN" xml:space="preserve">
+    <value>Невозможно пересадить члена экипажа: у танка уникальный постоянный экипаж.</value>
+  </data>
+  <data name="equip_tankman/invalid_vehicle" xml:space="preserve">
+    <value>Ошибка перемещения члена экипажа на машину. Неправильная машина.</value>
+  </data>
+  <data name="equip_tankman/server_error" xml:space="preserve">
+    <value>Член экипажа не перемещён. Попробуйте позже.</value>
+  </data>
+  <data name="equip_tankman/success" xml:space="preserve">
+    <value>Пересадка члена экипажа выполнена успешно.</value>
+  </data>
+  <data name="equip_tankman/vehicle_locked" xml:space="preserve">
+    <value>Ошибка перемещения члена экипажа на машину. Машина заблокирована.</value>
+  </data>
+  <data name="equip_tankman/vehicle_need_repair" xml:space="preserve">
+    <value>Ошибка перемещения члена экипажа на машину. Необходим ремонт.</value>
+  </data>
+  <data name="exchange/not_enough_gold" xml:space="preserve">
+    <value>Недостаточно золота для обмена.</value>
+  </data>
+  <data name="exchange/server_error" xml:space="preserve">
+    <value>Ошибка обмена %(gold)s золота. Попробуйте позже.</value>
+  </data>
+  <data name="exchange/success" xml:space="preserve">
+    <value>Обмен %(gold)s золота успешно завершён. Получено %(credits)s.</value>
+  </data>
+  <data name="exchange/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="exchangeXP/not_enough_gold" xml:space="preserve">
+    <value>Недостаточно золота для перевода %(xp)s опыта.</value>
+  </data>
+  <data name="exchangeXP/server_error" xml:space="preserve">
+    <value>Ошибка перевода %(xp)s опыта. Попробуйте позже.</value>
+  </data>
+  <data name="exchangeXP/success" xml:space="preserve">
+    <value>Перевод %(xp)s опыта в свободный успешно завершён. Потрачено золота: %(gold)s.</value>
+  </data>
+  <data name="exchangeXP/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="fortification/addOrder" xml:space="preserve">
+    <value>Подготовка %(count)s резерва(ов) начата. До завершения: %(time)s.</value>
+  </data>
+  <data name="fortification/buildingProcess" xml:space="preserve">
+    <value>Начато возведение строения %(buildingName)s. Транспортируйте необходимое количество промресурса для бесперебойного строительства.</value>
+  </data>
+  <data name="fortification/created" xml:space="preserve">
+    <value>Поздравляем!
+Укрепрайон успешно основан.</value>
+  </data>
+  <data name="fortification/defenceHourDeactivated" xml:space="preserve">
+    <value>До отключения обороны вашего Укрепрайона осталось 48 часов. В течение этого времени вы можете отменить отключение в настройках Укрепрайона.</value>
+  </data>
+  <data name="fortification/defenceHourSet" xml:space="preserve">
+    <value>Период обороны будет изменён через 14 дней. Новый период обороны — %(defenceHour)s.</value>
+  </data>
+  <data name="fortification/defenceHourSet/noOffDay" xml:space="preserve">
+    <value>День прекращения огня будет изменён через 14 дней. Новый день прекращения огня не назначен.</value>
+  </data>
+  <data name="fortification/defenceHourSet/offDay" xml:space="preserve">
+    <value>День прекращения огня будет изменён через 14 дней. Новый день прекращения огня — %(offDay)s.</value>
+  </data>
+  <data name="fortification/demountBuilding" xml:space="preserve">
+    <value>Строение %(buildingName)s снесено.</value>
+  </data>
+  <data name="fortification/errors/ALREADY_ATTACHED" xml:space="preserve">
+    <value>Действие недоступно. Вы уже закреплены за данным строением.</value>
+  </data>
+  <data name="fortification/errors/ALREADY_CREATED" xml:space="preserve">
+    <value>Действие недоступно. Укрепрайон уже основан.</value>
+  </data>
+  <data name="fortification/errors/ALREADY_FAVORITE" xml:space="preserve">
+    <value>Действие недоступно. Клан уже в списке избранных.</value>
+  </data>
+  <data name="fortification/errors/ALREADY_PLANNED_ATTACK" xml:space="preserve">
+    <value>Действие недоступно. Можно запланировать только одну атаку на один и тот же клан.</value>
+  </data>
+  <data name="fortification/errors/ATTACKS_NOT_LOADED" xml:space="preserve">
+    <value>Действие недоступно. Информация об атаке не загружена.</value>
+  </data>
+  <data name="fortification/errors/ATTACK_COOLDOWN" xml:space="preserve">
+    <value>Действие недоступно. С момента предыдущей атаки на данный клан должна пройти неделя.</value>
+  </data>
+  <data name="fortification/errors/ATTACK_DIR_BUSY" xml:space="preserve">
+    <value>Действие недоступно. Плацдарм занят другим отрядом.</value>
+  </data>
+  <data name="fortification/errors/ATTACK_NOT_PLANNED" xml:space="preserve">
+    <value>Действие недоступно. Атака не запланирована.</value>
+  </data>
+  <data name="fortification/errors/ATTACK_PREORDER_FAILED" xml:space="preserve">
+    <value>Действие недоступно. Нельзя запланировать атаку, которая начнётся менее чем через 15 минут.</value>
+  </data>
+  <data name="fortification/errors/ATTACK_TOO_LATE" xml:space="preserve">
+    <value>Невозможно запланировать атаку на выбранную дату.</value>
+  </data>
+  <data name="fortification/errors/BAD_CLAN_DBID" xml:space="preserve">
+    <value>Действие недоступно. Неправильный ID клана.</value>
+  </data>
+  <data name="fortification/errors/BAD_DAY_VALUE" xml:space="preserve">
+    <value>Действие недоступно. Неправильное значение дня прекращения огня.</value>
+  </data>
+  <data name="fortification/errors/BAD_DMG" xml:space="preserve">
+    <value>Действие недоступно. Неправильная дата.</value>
+  </data>
+  <data name="fortification/errors/BAD_FORT_BATTLE_ID" xml:space="preserve">
+    <value>Действие недоступно. Неправильный ID Наступления.</value>
+  </data>
+  <data name="fortification/errors/BAD_HOUR_VALUE" xml:space="preserve">
+    <value>Действие недоступно. Неправильное значение периода обороны.</value>
+  </data>
+  <data name="fortification/errors/BAD_LEVEL_PLANNED_ATTACK" xml:space="preserve">
+    <value>Невозможно атаковать выбранный клан: разница между уровнями Укрепрайонов более 1. Выберите другой клан.</value>
+  </data>
+  <data name="fortification/errors/BAD_ORDERS_COUNT" xml:space="preserve">
+    <value>Действие недоступно. Неправильное количество резервов.</value>
+  </data>
+  <data name="fortification/errors/BAD_RESOURCE_COUNT" xml:space="preserve">
+    <value>Действие недоступно. Передано неправильное значение промресурса.</value>
+  </data>
+  <data name="fortification/errors/BAD_SORTIE_DIVISION" xml:space="preserve">
+    <value>Действие недоступно. Неправильный дивизион.</value>
+  </data>
+  <data name="fortification/errors/BAD_SORTIE_ID" xml:space="preserve">
+    <value>Действие недоступно. Данные по Вылазке не получены.</value>
+  </data>
+  <data name="fortification/errors/BAD_SORTIE_PERIPHERY_ID" xml:space="preserve">
+    <value>В настоящий момент бои на данном сервере запрещены.</value>
+  </data>
+  <data name="fortification/errors/BAD_VACATION_DURATION" xml:space="preserve">
+    <value>Действие недоступно. Неверный период нейтралитета.</value>
+  </data>
+  <data name="fortification/errors/BAD_VACATION_START" xml:space="preserve">
+    <value>Действие недоступно. Неправильная дата объявления нейтралитета.</value>
+  </data>
+  <data name="fortification/errors/BASE_DAMAGED" xml:space="preserve">
+    <value>Действие недоступно. Отремонтируйте командный центр.</value>
+  </data>
+  <data name="fortification/errors/BASE_DESTROYED" xml:space="preserve">
+    <value>Действие недоступно. Командный центр разрушен.</value>
+  </data>
+  <data name="fortification/errors/BASE_NOT_DAMAGED" xml:space="preserve">
+    <value>Действие недоступно. Командный центр не повреждён.</value>
+  </data>
+  <data name="fortification/errors/BATTLE_DOES_NOT_EXIST" xml:space="preserve">
+    <value>Действие недоступно. Битва не существует.</value>
+  </data>
+  <data name="fortification/errors/BATTLE_INFO_NOT_AVAILABLE" xml:space="preserve">
+    <value>Извините, подробные результаты боя недоступны.</value>
+  </data>
+  <data name="fortification/errors/BUILDINGS_STILL_PRESENT" xml:space="preserve">
+    <value>Удаление невозможно. В Укрепрайоне есть строения.</value>
+  </data>
+  <data name="fortification/errors/BUILDING_DAMAGED" xml:space="preserve">
+    <value>Действие недоступно. Строение повреждено.</value>
+  </data>
+  <data name="fortification/errors/BUILDING_NOT_READY" xml:space="preserve">
+    <value>Действие недоступно. Строение не возведено.</value>
+  </data>
+  <data name="fortification/errors/CANT_CREATE_CLAN" xml:space="preserve">
+    <value>Действие недоступно. Невозможно получить данные о клане.</value>
+  </data>
+  <data name="fortification/errors/CANT_LOOKUP_CLAN" xml:space="preserve">
+    <value>Действие недоступно. Невозможно найти клан.</value>
+  </data>
+  <data name="fortification/errors/CANT_TRANSPORT" xml:space="preserve">
+    <value>Действие недоступно. Транспортировка невозможна.</value>
+  </data>
+  <data name="fortification/errors/CANT_UPGRADE" xml:space="preserve">
+    <value>Действие недоступно. Строение невозможно модернизировать.</value>
+  </data>
+  <data name="fortification/errors/CENTER_NOT_AVAILABLE" xml:space="preserve">
+    <value>Операция отклонена. Сервер временно недоступен.</value>
+  </data>
+  <data name="fortification/errors/CLAN_HAS_OFF_DAY" xml:space="preserve">
+    <value>Действие недоступно. У клана день прекращения огня.</value>
+  </data>
+  <data name="fortification/errors/CLAN_ON_VACATION" xml:space="preserve">
+    <value>Действие недоступно. Клан соблюдает нейтралитет.</value>
+  </data>
+  <data name="fortification/errors/CURFEW_HOUR" xml:space="preserve">
+    <value>Действие недоступно. Невозможно установить период обороны в указанное время.</value>
+  </data>
+  <data name="fortification/errors/DEFENCE_DIR_BUSY" xml:space="preserve">
+    <value>Действие недоступно. Плацдарм занят другим отрядом.</value>
+  </data>
+  <data name="fortification/errors/DEFENCE_NOT_PLANNED" xml:space="preserve">
+    <value>Действие недоступно. Оборона не запланирована.</value>
+  </data>
+  <data name="fortification/errors/DEFENCE_NOT_POSSIBLE" xml:space="preserve">
+    <value>Действие недоступно. Неправильные данные.</value>
+  </data>
+  <data name="fortification/errors/DEF_HOUR_NOT_ACTIVE" xml:space="preserve">
+    <value>Действие недоступно. Оборона не организована.</value>
+  </data>
+  <data name="fortification/errors/DISCONNECTED_FROM_CENTER" xml:space="preserve">
+    <value>Укрепрайон временно недоступен.</value>
+  </data>
+  <data name="fortification/errors/DUPLICATE_BUILDING_TYPE" xml:space="preserve">
+    <value>Действие недоступно. Данное строение уже возведено.</value>
+  </data>
+  <data name="fortification/errors/EVENT_COOLDOWN" xml:space="preserve">
+    <value>Действие недоступно. Дождитесь завершения текущей операции.</value>
+  </data>
+  <data name="fortification/errors/FAILED_TO_BOOK_DIR" xml:space="preserve">
+    <value>Действие недоступно. В выбранное время вы атакуете другой клан.</value>
+  </data>
+  <data name="fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR" xml:space="preserve">
+    <value>В указанное время запланировать атаку на этот клан невозможно.</value>
+  </data>
+  <data name="fortification/errors/FORT_DISABLED" xml:space="preserve">
+    <value>Ошибка. Режим «Укрепрайон» временно недоступен.</value>
+  </data>
+  <data name="fortification/errors/FORT_LEVEL_TOO_LOW" xml:space="preserve">
+    <value>Действие недоступно. Недостаточный уровень Укрепрайона.</value>
+  </data>
+  <data name="fortification/errors/GLOBAL_PRODUCTION_SUSPEND" xml:space="preserve">
+    <value>Действие недоступно. Возведение всех строений приостановлено.</value>
+  </data>
+  <data name="fortification/errors/INSUFFICIENT_CLAN_ROLE" xml:space="preserve">
+    <value>Действие недоступно. Недостаточно полномочий.</value>
+  </data>
+  <data name="fortification/errors/JOIN_CTX_LOCKED" xml:space="preserve">
+    <value>Действие недоступно. Невозможно присоединиться к формированию.</value>
+  </data>
+  <data name="fortification/errors/METHOD_COOLDOWN" xml:space="preserve">
+    <value>Действие временно недоступно.</value>
+  </data>
+  <data name="fortification/errors/NON_ALIGNED_TIMESTAMP" xml:space="preserve">
+    <value>Действие недоступно. Время не синхронизировано.</value>
+  </data>
+  <data name="fortification/errors/NOT_ATTACHED_TO_BUILDING" xml:space="preserve">
+    <value>Действие недоступно. Вы не закреплены за данным строением.</value>
+  </data>
+  <data name="fortification/errors/NOT_A_CLAN_MEMBER" xml:space="preserve">
+    <value>Действие недоступно. Игрок не состоит в клане.</value>
+  </data>
+  <data name="fortification/errors/NOT_ENOUGH_CLAN_MEMBERS" xml:space="preserve">
+    <value>Действие недоступно. Недостаточно игроков в клане.</value>
+  </data>
+  <data name="fortification/errors/NOT_ENOUGH_RESOURCE" xml:space="preserve">
+    <value>Действие недоступно. Недостаточно промресурса на складе строения.</value>
+  </data>
+  <data name="fortification/errors/NOT_FAVORITE" xml:space="preserve">
+    <value>Действие недоступно. Клан отсутствует в списке избранных.</value>
+  </data>
+  <data name="fortification/errors/NO_BUILDING" xml:space="preserve">
+    <value>Действие недоступно. Данное строение не возведено.</value>
+  </data>
+  <data name="fortification/errors/NO_CLAN" xml:space="preserve">
+    <value>Действие недоступно. Вы не состоите в клане.</value>
+  </data>
+  <data name="fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER" xml:space="preserve">
+    <value>Действие недоступно. Невозможно активировать данный резерв в настоящее время.</value>
+  </data>
+  <data name="fortification/errors/NO_DEST_BUILDING" xml:space="preserve">
+    <value>Действие недоступно. Неправильное строение.</value>
+  </data>
+  <data name="fortification/errors/NO_ORDER" xml:space="preserve">
+    <value>Действие недоступно. Резерв отсутствует или не выбран.</value>
+  </data>
+  <data name="fortification/errors/NO_ORDER_DEF" xml:space="preserve">
+    <value>Действие недоступно. Неправильный резерв.</value>
+  </data>
+  <data name="fortification/errors/NO_ORDER_LEVEL" xml:space="preserve">
+    <value>Действие недоступно. Неправильный резерв.</value>
+  </data>
+  <data name="fortification/errors/NO_PRODUCTION_ORDER" xml:space="preserve">
+    <value>Действие недоступно. Строение уже возводится.</value>
+  </data>
+  <data name="fortification/errors/NO_SUCH_ATTACK" xml:space="preserve">
+    <value>Действие недоступно. Данная атака не существует.</value>
+  </data>
+  <data name="fortification/errors/ORDER_ALREADY_ACTIVATED" xml:space="preserve">
+    <value>Действие недоступно. Резерв уже использован.</value>
+  </data>
+  <data name="fortification/errors/ORDER_ALREADY_IN_PRODUCTION" xml:space="preserve">
+    <value>Действие недоступно. Резерв уже производится.</value>
+  </data>
+  <data name="fortification/errors/ORDER_ALREADY_SUSPENDED" xml:space="preserve">
+    <value>Действие недоступно. Строительство уже приостановлено.</value>
+  </data>
+  <data name="fortification/errors/ORDER_NOT_SUPPORTED" xml:space="preserve">
+    <value>Действие недоступно. Резерв не поддерживается.</value>
+  </data>
+  <data name="fortification/errors/ORDER_NOT_SUSPENDED" xml:space="preserve">
+    <value>Действие недоступно. Строительство не приостановлено.</value>
+  </data>
+  <data name="fortification/errors/PERIPHERY_NOT_CONNECTED" xml:space="preserve">
+    <value>Действие недоступно. Сервер отключён.</value>
+  </data>
+  <data name="fortification/errors/POSITION_OCCUPIED" xml:space="preserve">
+    <value>Действие недоступно. Место уже занято.</value>
+  </data>
+  <data name="fortification/errors/SHUTDOWN_ALREADY_REQUESTED" xml:space="preserve">
+    <value>Действие недоступно. Оборона уже отключена.</value>
+  </data>
+  <data name="fortification/errors/SHUTDOWN_NOT_REQUESTED" xml:space="preserve">
+    <value>Действие недоступно. Оборона ещё не отключена.</value>
+  </data>
+  <data name="fortification/errors/START_SCENARIO_NOT_DONE" xml:space="preserve">
+    <value>Действие недоступно. Вы не завершили обучение.</value>
+  </data>
+  <data name="fortification/errors/STORAGE_OVERFLOW" xml:space="preserve">
+    <value>Действие недоступно. Склад переполнен.</value>
+  </data>
+  <data name="fortification/errors/TOO_MANY_DEFENCES" xml:space="preserve">
+    <value>Действие недоступно. На этот день уже запланирована оборона.</value>
+  </data>
+  <data name="fortification/errors/TOO_MANY_FAVORITES" xml:space="preserve">
+    <value>Достигнут лимит кланов, отмеченных как избранные.</value>
+  </data>
+  <data name="fortification/errors/TOO_MANY_ORDERS" xml:space="preserve">
+    <value>Действие недоступно. Достигнут максимум подготовленных резервов.</value>
+  </data>
+  <data name="fortification/errors/TOO_MANY_PLAYERS_ATTACHED" xml:space="preserve">
+    <value>Действие недоступно. Гарнизон строения полностью укомплектован.</value>
+  </data>
+  <data name="fortification/errors/TOO_MANY_SORTIES" xml:space="preserve">
+    <value>Действие недоступно. Превышен лимит на создание Вылазки.</value>
+  </data>
+  <data name="fortification/errors/TRANSPORT_COOLDOWN" xml:space="preserve">
+    <value>Действие недоступно. Транспортировка временно невозможна.</value>
+  </data>
+  <data name="fortification/errors/TRANSPORT_LIMIT_EXCEEDED" xml:space="preserve">
+    <value>Действие недоступно. Превышен лимит транспортировки.</value>
+  </data>
+  <data name="fortification/errors/UNIT_NOT_READY" xml:space="preserve">
+    <value>Действие недоступно. Боец не готов.</value>
+  </data>
+  <data name="fortification/errors/WRONG_BUILDING" xml:space="preserve">
+    <value>Действие недоступно. Командный центр снести невозможно.</value>
+  </data>
+  <data name="fortification/errors/WRONG_CLAN" xml:space="preserve">
+    <value>Действие недоступно. Неправильный клан.</value>
+  </data>
+  <data name="fortification/errors/WRONG_PERIPHERY" xml:space="preserve">
+    <value>Действие недоступно. Неправильный сервер.</value>
+  </data>
+  <data name="fortification/errors/WRONG_POS" xml:space="preserve">
+    <value>Действие недоступно. Невозможно возвести строение в этой зоне.</value>
+  </data>
+  <data name="fortification/fixedPlayerToBuilding" xml:space="preserve">
+    <value>Вы закреплены за строением %(buildingName)s.</value>
+  </data>
+  <data name="fortification/fortBattleFinished" xml:space="preserve">
+    <value>Наступление принудительно остановлено из-за технических неполадок на сервере.</value>
+  </data>
+  <data name="fortification/modernizationBuilding" xml:space="preserve">
+    <value>Модернизация проведена успешно. Уровень строения %(buildingName)s повышен до %(buildingLevel)s.</value>
+  </data>
+  <data name="fortification/notification/turnedOff" xml:space="preserve">
+    <value>Укрепрайон временно недоступен. Повторите попытку позже.</value>
+  </data>
+  <data name="fortification/notification/turnedOn" xml:space="preserve">
+    <value>Режим «Укрепрайон: сражения» снова доступен.</value>
+  </data>
+  <data name="fortification/request/name/ACTIVATE_ORDER" xml:space="preserve">
+    <value>Активировать резерв</value>
+  </data>
+  <data name="fortification/request/name/ADD_BUILDING" xml:space="preserve">
+    <value>Возвести строение</value>
+  </data>
+  <data name="fortification/request/name/ADD_FAVORITE" xml:space="preserve">
+    <value>Добавление избранного клана</value>
+  </data>
+  <data name="fortification/request/name/ADD_ORDER" xml:space="preserve">
+    <value>Добавить резерв</value>
+  </data>
+  <data name="fortification/request/name/ATTACH" xml:space="preserve">
+    <value>Поместить игрока в гарнизон</value>
+  </data>
+  <data name="fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR" xml:space="preserve">
+    <value>Отмена отключения периода обороны</value>
+  </data>
+  <data name="fortification/request/name/CHANGE_DEF_HOUR" xml:space="preserve">
+    <value>Изменение периода обороны</value>
+  </data>
+  <data name="fortification/request/name/CHANGE_OFF_DAY" xml:space="preserve">
+    <value>Изменение времени прекращения огня</value>
+  </data>
+  <data name="fortification/request/name/CHANGE_PERIPHERY" xml:space="preserve">
+    <value>Изменение сервера</value>
+  </data>
+  <data name="fortification/request/name/CHANGE_SETTINGS" xml:space="preserve">
+    <value>Изменение настроек</value>
+  </data>
+  <data name="fortification/request/name/CHANGE_VACATION" xml:space="preserve">
+    <value>Изменение времени нейтралитета</value>
+  </data>
+  <data name="fortification/request/name/CREATE_FORT" xml:space="preserve">
+    <value>Создание Укрепрайона</value>
+  </data>
+  <data name="fortification/request/name/CREATE_SORTIE" xml:space="preserve">
+    <value>Создание отряда</value>
+  </data>
+  <data name="fortification/request/name/DELETE_BUILDING" xml:space="preserve">
+    <value>Удалить строение</value>
+  </data>
+  <data name="fortification/request/name/DELETE_FORT" xml:space="preserve">
+    <value>Удаление Укрепрайона</value>
+  </data>
+  <data name="fortification/request/name/PLAN_ATTACK" xml:space="preserve">
+    <value>Назначение атаки</value>
+  </data>
+  <data name="fortification/request/name/REMOVE_FAVORITE" xml:space="preserve">
+    <value>Удаление избранного клана</value>
+  </data>
+  <data name="fortification/request/name/REQUEST_CLAN_CARD" xml:space="preserve">
+    <value>Получение данных о клане</value>
+  </data>
+  <data name="fortification/request/name/REQUEST_PUBLIC_INFO" xml:space="preserve">
+    <value>Получение данных кланов</value>
+  </data>
+  <data name="fortification/request/name/REQUEST_SORTIE_UNIT" xml:space="preserve">
+    <value>Получение данных отряда</value>
+  </data>
+  <data name="fortification/request/name/SHUTDOWN_DEF_HOUR" xml:space="preserve">
+    <value>Отключение периода обороны</value>
+  </data>
+  <data name="fortification/request/name/TRANSPORTATION" xml:space="preserve">
+    <value>Транспортировка</value>
+  </data>
+  <data name="fortification/request/name/UPGRADE" xml:space="preserve">
+    <value>Модернизация строения</value>
+  </data>
+  <data name="fortification/transport" xml:space="preserve">
+    <value>Транспортировка выполнена успешно. Транспортировано %(res)s промресурса из строения %(fromBuilding)s в строение %(toBuilding)s.</value>
+  </data>
+  <data name="fortification/vacationSet" xml:space="preserve">
+    <value>Укрепрайон соблюдает нейтралитет %(vacationPeriod)s.</value>
+  </data>
+  <data name="free_xp_to_tman_skill/error/NOT_IMPLEMENTED" xml:space="preserve">
+    <value>Операция не поддерживается.</value>
+  </data>
+  <data name="free_xp_to_tman_skill/error/NO_FREE_XP" xml:space="preserve">
+    <value>Ошибка при обучении члена экипажа. Недостаточно свободного опыта.</value>
+  </data>
+  <data name="free_xp_to_tman_skill/error/No tankman with given id" xml:space="preserve">
+    <value>Ошибка при обучении члена экипажа. Указанного члена экипажа не существует.</value>
+  </data>
+  <data name="free_xp_to_tman_skill/error/SHOP_DESYNC" xml:space="preserve">
+    <value>Ошибка при обучении члена экипажа. Попробуйте позже.</value>
+  </data>
+  <data name="free_xp_to_tman_skill/error/WRONG_ARGS_TYPE" xml:space="preserve">
+    <value>Ошибка при обучении члена экипажа. Попробуйте позже.</value>
+  </data>
+  <data name="free_xp_to_tman_skill/server_error" xml:space="preserve">
+    <value>Не удалось обучить члена экипажа. Попробуйте позже.</value>
+  </data>
+  <data name="free_xp_to_tman_skill/success" xml:space="preserve">
+    <value>Член экипажа успешно обучен. Потрачено свободного опыта: %(freeXP)s.</value>
+  </data>
+  <data name="gameSessionControl/korea/midnightNotification" xml:space="preserve">
+    <value>Для предотвращения возникновения игровой зависимости у несовершеннолетних пользователей выход в бой после %(preBlockTime)s запрещён. В %(blockTime)s вы будете отключены от сервера.</value>
+  </data>
+  <data name="gameSessionControl/korea/note" xml:space="preserve">
+    <value>Чрезмерное нахождение в игре может навредить вашей повседневной жизни.</value>
+  </data>
+  <data name="gameSessionControl/korea/playTimeLeft" xml:space="preserve">
+    <value>Игрового времени осталось: %(timeLeft)s</value>
+  </data>
+  <data name="gameSessionControl/korea/playTimeNotification" xml:space="preserve">
+    <value>Ваше игровое время заканчивается. Нельзя начать новый бой. В %s вы будете отключены от сервера.</value>
+  </data>
+  <data name="gameSessionControl/korea/sessionTime" xml:space="preserve">
+    <value>Время игры: %(sessionTime)s</value>
+  </data>
+  <data name="gameSessionControl/korea/timeTillMidnight" xml:space="preserve">
+    <value>До полуночи осталось: %(timeLeft)s</value>
+  </data>
+  <data name="graficsOptionsFail" xml:space="preserve">
+    <value>Невозможно применить графические настройки: %s. Данные настройки несовместимы с вашей видеокартой.</value>
+  </data>
+  <data name="graficsPresetFail" xml:space="preserve">
+    <value>Невозможно применить выбранное качество графики по причине несовместимости с вашей видеокартой.</value>
+  </data>
+  <data name="igr/customization/begin" xml:space="preserve">
+    <value>В %(igrIcon)s вам доступны бесплатные виды камуфляжа, надписи и эмблемы.</value>
+  </data>
+  <data name="igr/customization/end" xml:space="preserve">
+    <value>Срок действия %(igrIcon)s истёк. Используемый бесплатный камуфляж, надписи и эмблемы будут сняты с машины.</value>
+  </data>
+  <data name="info/noAvailable" xml:space="preserve">
+    <value>Подробная информация недоступна.</value>
+  </data>
+  <data name="install_component" xml:space="preserve">
+    <value>Модуль %s '%s' установлен на машину.</value>
+  </data>
+  <data name="install_vehicle_broken" xml:space="preserve">
+    <value>Машина повреждена. Модуль %s '%s' не установлен. Отремонтируйте машину и повторите операцию.</value>
+  </data>
+  <data name="install_vehicle_locked" xml:space="preserve">
+    <value>Машина заблокирована, установка модуля %s '%s' не удалась.</value>
+  </data>
+  <data name="inventory/item/already_exists" xml:space="preserve">
+    <value>Модуль %(typeString)s '%(userString)s' уже имеется в наличии на Складе.</value>
+  </data>
+  <data name="inventory/item/equip_in_processing" xml:space="preserve">
+    <value>Запрос на установку модуля отправлен, ожидается ответ от сервера.</value>
+  </data>
+  <data name="inventory/item/not_found" xml:space="preserve">
+    <value>Модуль %(typeString)s '%(userString)s' на Складе не найден.</value>
+  </data>
+  <data name="inventory/vehicle/already_exists" xml:space="preserve">
+    <value>%(userString)s уже имеется в наличии на Складе.</value>
+  </data>
+  <data name="inventory/vehicle/not_found" xml:space="preserve">
+    <value>%(userString)s на Складе не найден.</value>
+  </data>
+  <data name="invite/status/LEGIONARIES_NOT_ALLOWED" xml:space="preserve">
+    <value>Приглашение легионеру %(name)s не может быть отправлено.</value>
+  </data>
+  <data name="invite/status/WRONG_CLAN" xml:space="preserve">
+    <value>Приглашение игроку %(name)s не может быть отправлено: неправильный клан.</value>
+  </data>
+  <data name="layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Невозможно пополнить снаряжение. Попробуйте позже.</value>
+  </data>
+  <data name="layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Невозможно пополнить снаряжение. Попробуйте позже.</value>
+  </data>
+  <data name="layout_apply/Cannot equip equipment" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Невозможно пополнить снаряжение. Попробуйте позже.</value>
+  </data>
+  <data name="layout_apply/Cannot equip shells" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Невозможно пополнить снаряды. Попробуйте позже.</value>
+  </data>
+  <data name="layout_apply/Cannot equip shells (maxAmmo limit exceeded)" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Невозможно пополнить снаряды. Максимальное количество снарядов загружено.</value>
+  </data>
+  <data name="layout_apply/Component is not in shop" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Невозможно пополнить снаряжение. Попробуйте позже.</value>
+  </data>
+  <data name="layout_apply/EQS_NO_CREDITS" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Недостаточно кредитов для покупки снаряжения.</value>
+  </data>
+  <data name="layout_apply/EQS_NO_CRYSTAL" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Недостаточно бон для покупки снаряжения.</value>
+  </data>
+  <data name="layout_apply/EQS_NO_GOLD" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Недостаточно золота для покупки снаряжения.</value>
+  </data>
+  <data name="layout_apply/EQS_NO_WALLET_SESSION" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="layout_apply/NOT_RESEARCHED_ITEM" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Невозможно пополнить снаряжение. Попробуйте позже.</value>
+  </data>
+  <data name="layout_apply/No vehicle with given id" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Неправильная машина.</value>
+  </data>
+  <data name="layout_apply/SHELLS_NO_CREDITS" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Недостаточно кредитов для покупки снарядов.</value>
+  </data>
+  <data name="layout_apply/SHELLS_NO_GOLD" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Недостаточно золота для покупки снарядов.</value>
+  </data>
+  <data name="layout_apply/SHELLS_NO_WALLET_SESSION" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="layout_apply/SHOP_DESYNC" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Попробуйте позже.</value>
+  </data>
+  <data name="layout_apply/Vehicle is locked" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Машина заблокирована.</value>
+  </data>
+  <data name="layout_apply/WRONG_ARGS_TYPE" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Попробуйте позже.</value>
+  </data>
+  <data name="layout_apply/WRONG_ARG_VALUE" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Попробуйте позже.</value>
+  </data>
+  <data name="layout_apply/invalid_vehicle" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Неправильная машина.</value>
+  </data>
+  <data name="layout_apply/server_error" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Попробуйте позже.</value>
+  </data>
+  <data name="layout_apply/success_money_spent" xml:space="preserve">
+    <value>Всего на пополнение боекомплекта потрачено %(money)s.</value>
+  </data>
+  <data name="layout_apply/vehicle_locked" xml:space="preserve">
+    <value>Ошибка при обслуживании '%(vehName)s'. Машина заблокирована.</value>
+  </data>
+  <data name="layout_apply/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="login_to_other_game_unknown" xml:space="preserve">
+    <value>текущая игровая сессия прервана. Ваш Wargaming.net&amp;nbsp;ID был использован для входа в другую игру</value>
+  </data>
+  <data name="login_to_other_game_web" xml:space="preserve">
+    <value>текущая игровая сессия прервана. Вы отключены от сервера через портал игры</value>
+  </data>
+  <data name="login_to_other_game_wot" xml:space="preserve">
+    <value>текущая игровая сессия прервана. Ваш Wargaming.net&amp;nbsp;ID был использован для входа в World&amp;nbsp;of&amp;nbsp;Tanks</value>
+  </data>
+  <data name="login_to_other_game_wotb" xml:space="preserve">
+    <value>текущая игровая сессия прервана. Ваш Wargaming.net&amp;nbsp;ID был использован для входа в World&amp;nbsp;of&amp;nbsp;Tanks&amp;nbsp;Blitz</value>
+  </data>
+  <data name="login_to_other_game_wotg" xml:space="preserve">
+    <value>текущая игровая сессия прервана. Ваш Wargaming.net&amp;nbsp;ID был использован для входа в World&amp;nbsp;of&amp;nbsp;Tanks&amp;nbsp;Generals</value>
+  </data>
+  <data name="login_to_other_game_wowp" xml:space="preserve">
+    <value>текущая игровая сессия прервана. Ваш Wargaming.net&amp;nbsp;ID был использован для входа в World&amp;nbsp;of&amp;nbsp;Warplanes</value>
+  </data>
+  <data name="login_to_other_game_wows" xml:space="preserve">
+    <value>текущая игровая сессия прервана. Ваш Wargaming.net&amp;nbsp;ID был использован для входа в World&amp;nbsp;of&amp;nbsp;Warships</value>
+  </data>
+  <data name="memberRosterChangedMain" xml:space="preserve">
+    <value>%s перевёл в основной состав %s.</value>
+  </data>
+  <data name="memberRosterChangedSecond" xml:space="preserve">
+    <value>%s перевёл в запасной состав %s.</value>
+  </data>
+  <data name="memory_critical/insufficient_memory_please_reboot" xml:space="preserve">
+    <value>Недостаточно памяти. Пожалуйста, перезапустите игру.</value>
+  </data>
+  <data name="memory_critical/tex_was_lowered_to_low" xml:space="preserve">
+    <value>Недостаточно памяти. Качество текстур снижено до низкого значения.</value>
+  </data>
+  <data name="memory_critical/tex_was_lowered_to_medium" xml:space="preserve">
+    <value>Недостаточно памяти. Качество текстур снижено до среднего значения.</value>
+  </data>
+  <data name="memory_critical/tex_was_lowered_to_min" xml:space="preserve">
+    <value>Недостаточно памяти. Настройки графики изменены. Рекомендуем перезапустить игру.</value>
+  </data>
+  <data name="module_apply/error_is_current" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' уже установлен.</value>
+  </data>
+  <data name="module_apply/error_need_gun" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' не может быть установлен на машину с текущим орудием.</value>
+  </data>
+  <data name="module_apply/error_need_turret" xml:space="preserve">
+    <value>%(kind)s '%(name)s' не устанавливается в текущую башню. Замените башню на совместимую.</value>
+  </data>
+  <data name="module_apply/error_no_gun" xml:space="preserve">
+    <value>%(kind)s '%(name)s' не установлена. На Складе нет подходящего орудия.</value>
+  </data>
+  <data name="module_apply/error_not_for_current_vehicle" xml:space="preserve">
+    <value>%(kind)s '%(name)s' не подходит для данной башни. Замените башню.</value>
+  </data>
+  <data name="module_apply/error_not_for_this_vehicle_type" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' не подходит для данной машины.</value>
+  </data>
+  <data name="module_apply/error_not_with_installed_equipment" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' несовместим со снаряжением '%s'.</value>
+  </data>
+  <data name="module_apply/error_too_heavy" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.</value>
+  </data>
+  <data name="module_apply/error_too_heavy_chassis" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' не подходит по массе. Попробуйте облегчить машину.</value>
+  </data>
+  <data name="module_apply/error_wrong_item_type" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' не подходит по типу.</value>
+  </data>
+  <data name="module_apply/error_wrong_nation" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' не подходит по нации.</value>
+  </data>
+  <data name="module_apply/incompatibleEqs" xml:space="preserve">
+    <value>Снаряжение '%(items)s' отправлено на Склад в связи с несовместимостью с устанавливаемым модулем.</value>
+  </data>
+  <data name="module_apply/invalid_vehicle" xml:space="preserve">
+    <value>Неправильная машина. Установка модуля %(kind)s '%(name)s' не удалась.</value>
+  </data>
+  <data name="module_apply/server_error" xml:space="preserve">
+    <value>Произошла серверная ошибка установки модуля %(kind)s '%(name)s'. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="module_apply/success" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' установлен на машину.</value>
+  </data>
+  <data name="module_apply/success_gun_change" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' установлен на машину с орудием '%(gun)s'.</value>
+  </data>
+  <data name="module_apply/vehicle_locked" xml:space="preserve">
+    <value>Машина заблокирована, установка модуля %(kind)s '%(name)s' не удалась.</value>
+  </data>
+  <data name="module_apply/vehicle_need_repair" xml:space="preserve">
+    <value>Машина повреждена. Модуль %(kind)s '%(name)s' не установлен. Отремонтируйте машину и повторите операцию.</value>
+  </data>
+  <data name="module_buy/error_is_current" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' уже установлен.</value>
+  </data>
+  <data name="module_buy/error_need_gun" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' не может быть установлен на машину с текущим орудием.</value>
+  </data>
+  <data name="module_buy/error_need_turret" xml:space="preserve">
+    <value>%(kind)s '%(name)s' не устанавливается в текущую башню. Замените башню на совместимую.</value>
+  </data>
+  <data name="module_buy/error_no_gun" xml:space="preserve">
+    <value>%(kind)s '%(name)s' не установлена. На Складе нет подходящего орудия.</value>
+  </data>
+  <data name="module_buy/error_not_for_current_vehicle" xml:space="preserve">
+    <value>%(kind)s '%(name)s' не подходит для данной башни. Замените башню.</value>
+  </data>
+  <data name="module_buy/error_not_for_this_vehicle_type" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' не подходит для данной машины.</value>
+  </data>
+  <data name="module_buy/error_not_with_installed_equipment" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' несовместим со снаряжением '%s'.</value>
+  </data>
+  <data name="module_buy/error_too_heavy" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.</value>
+  </data>
+  <data name="module_buy/error_too_heavy_chassis" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' не подходит по массе. Попробуйте облегчить машину.</value>
+  </data>
+  <data name="module_buy/error_wrong_item_type" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' не подходит по типу.</value>
+  </data>
+  <data name="module_buy/error_wrong_nation" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' не подходит по нации.</value>
+  </data>
+  <data name="module_buy/invalid_module" xml:space="preserve">
+    <value>Покупка %(kind)s '%(name)s' не удалась. Неправильный модуль.</value>
+  </data>
+  <data name="module_buy/invalid_vehicle" xml:space="preserve">
+    <value>Неправильная машина. Покупка и установка %(kind)s '%(name)s' не удалась.</value>
+  </data>
+  <data name="module_buy/not_enough_credits" xml:space="preserve">
+    <value>Покупка %(kind)s '%(name)s' не удалась. Недостаточно кредитов.</value>
+  </data>
+  <data name="module_buy/not_enough_gold" xml:space="preserve">
+    <value>Покупка %(kind)s '%(name)s' не удалась. Недостаточно золота.</value>
+  </data>
+  <data name="module_buy/server_error" xml:space="preserve">
+    <value>Покупка %(kind)s '%(name)s' не удалась. Попробуйте позже.</value>
+  </data>
+  <data name="module_buy/server_error_centerDown" xml:space="preserve">
+    <value>Покупка %(kind)s '%(name)s' не удалась. Сервис покупки модулей временно недоступен.</value>
+  </data>
+  <data name="module_buy/success" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' успешно приобретён (%(count)s шт.). Потрачено %(money)s.</value>
+  </data>
+  <data name="module_buy/vehicle_locked" xml:space="preserve">
+    <value>Машина заблокирована. Покупка и установка %(kind)s '%(name)s' не удалась.</value>
+  </data>
+  <data name="module_buy/vehicle_need_repair" xml:space="preserve">
+    <value>Покупка и установка %(kind)s '%(name)s' не удалась. Отремонтируйте машину и повторите операцию.</value>
+  </data>
+  <data name="module_buy/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="module_sell/invalid_module" xml:space="preserve">
+    <value>Продажа %(kind)s '%(name)s' не удалась. Неправильный модуль.</value>
+  </data>
+  <data name="module_sell/server_error" xml:space="preserve">
+    <value>Продажа %(kind)s '%(name)s' не удалась. Попробуйте позже.</value>
+  </data>
+  <data name="module_sell/success" xml:space="preserve">
+    <value>Модуль %(kind)s '%(name)s' успешно продан (%(count)s шт.). Получено %(money)s.</value>
+  </data>
+  <data name="periphery/errors/isNotAvailable" xml:space="preserve">
+    <value>Переход недоступен: невозможно определить сервер.</value>
+  </data>
+  <data name="potapovQuests/refuse/DISABLED" xml:space="preserve">
+    <value>Действие недоступно. Боевые задачи временно отключены.</value>
+  </data>
+  <data name="potapovQuests/refuse/no_quests" xml:space="preserve">
+    <value>Текущих выбранных задач нет.</value>
+  </data>
+  <data name="potapovQuests/refuse/quests" xml:space="preserve">
+    <value>Текущие выбранные задачи: %(questNames)s.</value>
+  </data>
+  <data name="potapovQuests/refuse/server_error" xml:space="preserve">
+    <value>Отказ от задачи не выполнен. Попробуйте позже.</value>
+  </data>
+  <data name="potapovQuests/refuse/server_error/LOCKED_BY_VEHICLE_QUEST" xml:space="preserve">
+    <value>Отказ от задачи временно невозможен. Дождитесь возвращения из боя машины данного типа.</value>
+  </data>
+  <data name="potapovQuests/refuse/server_error/fallout/LOCKED_BY_VEHICLE_QUEST" xml:space="preserve">
+    <value>Отказ от задачи временно невозможен. Дождитесь возвращения из боя группы машин.</value>
+  </data>
+  <data name="potapovQuests/refuse/success" xml:space="preserve">
+    <value>Отказ от боевых задач выполнен успешно.%(quests)s</value>
+  </data>
+  <data name="potapovQuests/reward/regular/server_error" xml:space="preserve">
+    <value>Не удалось получить награду. Попробуйте позже.</value>
+  </data>
+  <data name="potapovQuests/reward/regular/server_error/DISABLED" xml:space="preserve">
+    <value>Действие недоступно. Боевые задачи временно отключены.</value>
+  </data>
+  <data name="potapovQuests/reward/regular/server_error/INVALID_STATE" xml:space="preserve">
+    <value>Не удалось получить награду. Награда недоступна.</value>
+  </data>
+  <data name="potapovQuests/reward/regular/server_error/NO_REWARD" xml:space="preserve">
+    <value>Не удалось получить награду. Награда недоступна.</value>
+  </data>
+  <data name="potapovQuests/reward/regular/server_error/WRONG_ARGS_TYPE" xml:space="preserve">
+    <value>Не удалось получить награду. Некорректные данные.</value>
+  </data>
+  <data name="potapovQuests/reward/regular/success" xml:space="preserve">
+    <value>Награда успешно получена.</value>
+  </data>
+  <data name="potapovQuests/reward/tankwoman/server_error" xml:space="preserve">
+    <value>Не удалось получить награду. Попробуйте позже.</value>
+  </data>
+  <data name="potapovQuests/reward/tankwoman/server_error/DISABLED" xml:space="preserve">
+    <value>Действие недоступно. Боевые задачи временно отключены.</value>
+  </data>
+  <data name="potapovQuests/reward/tankwoman/server_error/INVALID_STATE" xml:space="preserve">
+    <value>Не удалось получить награду. Награда недоступна.</value>
+  </data>
+  <data name="potapovQuests/reward/tankwoman/server_error/NO_REWARD" xml:space="preserve">
+    <value>Не удалось получить награду. Награда недоступна.</value>
+  </data>
+  <data name="potapovQuests/reward/tankwoman/server_error/WRONG_ARGS_TYPE" xml:space="preserve">
+    <value>Не удалось получить награду. Некорректные данные.</value>
+  </data>
+  <data name="potapovQuests/reward/tankwoman/success" xml:space="preserve">
+    <value>Награда успешно получена.</value>
+  </data>
+  <data name="potapovQuests/select/DISABLED" xml:space="preserve">
+    <value>Действие недоступно. Боевые задачи временно отключены.</value>
+  </data>
+  <data name="potapovQuests/select/server_error" xml:space="preserve">
+    <value>Выбор боевых задач не выполнен: %(questNames)s. Попробуйте позже.</value>
+  </data>
+  <data name="potapovQuests/select/server_error/LOCKED_BY_VEHICLE_QUEST" xml:space="preserve">
+    <value>Выбор боевых задач не выполнен: %(questNames)s. Боевая задача заблокирована.</value>
+  </data>
+  <data name="potapovQuests/select/server_error/NOT_BOUGHT_TILE" xml:space="preserve">
+    <value>Боевые задачи не выбраны: %(questNames)s. Завершите предыдущую операцию.</value>
+  </data>
+  <data name="potapovQuests/select/server_error/NOT_ENOUGH_SLOTS" xml:space="preserve">
+    <value>Выбор боевых задач не выполнен: %(questNames)s. Недостаточно слотов.</value>
+  </data>
+  <data name="potapovQuests/select/server_error/NOT_GOTTEN_REWARD" xml:space="preserve">
+    <value>Боевые задачи не выбраны: %(questNames)s. Необходимо получить награду.</value>
+  </data>
+  <data name="potapovQuests/select/server_error/NOT_UNLOCKED_QUEST" xml:space="preserve">
+    <value>Выбор боевых задач не выполнен: %(questNames)s. Задача недоступна.</value>
+  </data>
+  <data name="potapovQuests/select/server_error/QUEST_ALREADY_COMPLETED" xml:space="preserve">
+    <value>Выбор боевых задач не выполнен: %(questNames)s. Задача уже завершена.</value>
+  </data>
+  <data name="potapovQuests/select/server_error/SEASON_LIMIT_THE_SAME_CLASS" xml:space="preserve">
+    <value>Боевые задачи не выбраны %(questNames)s.</value>
+  </data>
+  <data name="potapovQuests/select/server_error/TOO_MANY_QUESTS_IN_CHAIN" xml:space="preserve">
+    <value>Боевые задачи не выбраны: %(questNames)s. В данной ветке задача уже выбрана.</value>
+  </data>
+  <data name="potapovQuests/select/server_error/WRONG_ARGS" xml:space="preserve">
+    <value>Выбор боевых задач не выполнен: %(questNames)s. Некорректные данные.</value>
+  </data>
+  <data name="potapovQuests/select/server_error/WRONG_ARGS_TYPE" xml:space="preserve">
+    <value>Выбор боевых задач не выполнен: %(questNames)s. Некорректные данные.</value>
+  </data>
+  <data name="potapovQuests/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST" xml:space="preserve">
+    <value>Выбор задачи временно невозможен. Дождитесь возвращения из боя группы машин.</value>
+  </data>
+  <data name="potapovQuests/select/success" xml:space="preserve">
+    <value>Выбор боевых задач выполнен успешно. Текущие выбранные задачи: %(questNames)s.</value>
+  </data>
+  <data name="prebattle/hasLockedState" xml:space="preserve">
+    <value>Вы не можете принять приглашение, так как ожидаете боя. Выйдите из режима ожидания или завершите бой и повторите попытку.</value>
+  </data>
+  <data name="prebattle/invites/sendInvite" xml:space="preserve">
+    <value>Приглашение игроку отправлено.</value>
+  </data>
+  <data name="prebattle/invites/sendInvite/name" xml:space="preserve">
+    <value>Приглашение игроку %(name)s отправлено.</value>
+  </data>
+  <data name="prebattle/kick/reason/ARENA_CREATION_FAILURE" xml:space="preserve">
+    <value>Ошибка ARENA_CREATION_FAILURE.</value>
+  </data>
+  <data name="prebattle/kick/reason/AVATAR_CREATION_FAILURE" xml:space="preserve">
+    <value>Ошибка AVATAR_CREATION_FAILURE.</value>
+  </data>
+  <data name="prebattle/kick/reason/BASEAPP_CRASH" xml:space="preserve">
+    <value>Ошибка BASEAPP_CRASH.</value>
+  </data>
+  <data name="prebattle/kick/reason/CELLAPP_CRASH" xml:space="preserve">
+    <value>Ошибка CELLAPP_CRASH.</value>
+  </data>
+  <data name="prebattle/kick/reason/CREATOR_LEFT" xml:space="preserve">
+    <value>Командир покинул команду.</value>
+  </data>
+  <data name="prebattle/kick/reason/FINISHED" xml:space="preserve">
+    <value>Команда расформирована.</value>
+  </data>
+  <data name="prebattle/kick/reason/PLAYERKICK" xml:space="preserve">
+    <value>Демобилизация.</value>
+  </data>
+  <data name="prebattle/kick/reason/PREBATTLE_CREATION_FAILURE" xml:space="preserve">
+    <value>Ошибка PREBATTLE_CREATION_FAILURE.</value>
+  </data>
+  <data name="prebattle/kick/reason/TIMEOUT" xml:space="preserve">
+    <value>Время истекло.</value>
+  </data>
+  <data name="prebattle/kick/reason/UNKNOWN_FAILURE" xml:space="preserve">
+    <value>Неизвестная ошибка.</value>
+  </data>
+  <data name="prebattle/kick/reason/VEHICLE_CREATION_FAILURE" xml:space="preserve">
+    <value>Ошибка VEHICLE_CREATION_FAILURE.</value>
+  </data>
+  <data name="prebattle/kick/type/squad" xml:space="preserve">
+    <value>Вы исключены из взвода.</value>
+  </data>
+  <data name="prebattle/kick/type/unknown" xml:space="preserve">
+    <value>Вы исключены из команды.</value>
+  </data>
+  <data name="prebattle/request/name/CHANGE_ARENA_VOIP" xml:space="preserve">
+    <value>Смена голосового чата</value>
+  </data>
+  <data name="prebattle/request/name/CHANGE_DIVISION" xml:space="preserve">
+    <value>Смена дивизиона</value>
+  </data>
+  <data name="prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE" xml:space="preserve">
+    <value>Переключение режима</value>
+  </data>
+  <data name="prebattle/request/name/CHANGE_RATED" xml:space="preserve">
+    <value>Переключение режима</value>
+  </data>
+  <data name="prebattle/request/name/CHANGE_SETTINGS" xml:space="preserve">
+    <value>Смена настроек</value>
+  </data>
+  <data name="prebattle/request/name/CHANGE_UNIT_STATE" xml:space="preserve">
+    <value>Редактирование команды</value>
+  </data>
+  <data name="prebattle/request/name/CHANGE_USER_STATUS" xml:space="preserve">
+    <value>Смена режима наблюдателя</value>
+  </data>
+  <data name="prebattle/request/name/CLOSE_SLOT" xml:space="preserve">
+    <value>Блокировка слота</value>
+  </data>
+  <data name="prebattle/request/name/PREBATTLES_LIST" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="prebattle/request/name/SEND_INVITE" xml:space="preserve">
+    <value>Пригласить в команду</value>
+  </data>
+  <data name="prebattle/request/name/SET_PLAYER_STATE" xml:space="preserve">
+    <value>Подтверждение готовности</value>
+  </data>
+  <data name="prebattle/request/name/SET_TEAM_STATE" xml:space="preserve">
+    <value>Подтверждение готовности команды</value>
+  </data>
+  <data name="prebattle/request/name/SET_VEHICLE_LIST" xml:space="preserve">
+    <value>Выбор техники</value>
+  </data>
+  <data name="prebattle/request/name/SWAP_TEAMS" xml:space="preserve">
+    <value>Смена команд</value>
+  </data>
+  <data name="prebattle/request/name/UNITS_LIST" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="prebattle/teamInvalid/limit/minCount" xml:space="preserve">
+    <value>К бою допускаются только команды с минимальным количеством техники: %(minCount)d.</value>
+  </data>
+  <data name="prebattle/teamInvalid/limit/totalLevel" xml:space="preserve">
+    <value>К бою допускаются только команды с суммарным уровнем от %(minTotalLevel)d до %(maxTotalLevel)d.</value>
+  </data>
+  <data name="prebattle/teamInvalid/limits/level" xml:space="preserve">
+    <value>К бою допускается только техника в диапазоне уровней от %(minLevel)d до %(maxLevel)d.</value>
+  </data>
+  <data name="prebattle/teamInvalid/limits/vehicles" xml:space="preserve">
+    <value>Выбранная машина не подходит для данного боя.</value>
+  </data>
+  <data name="prebattle/teamInvalid/observers" xml:space="preserve">
+    <value>Команда не может состоять только из наблюдателей.</value>
+  </data>
+  <data name="prebattle/vehicleInvalid/falloutOnly" xml:space="preserve">
+    <value>Выбранная машина подходит только для режима «Бой до последнего».</value>
+  </data>
+  <data name="prebattle/vehicleInvalid/limits/ammo" xml:space="preserve">
+    <value>На выбранную машину загружены снаряды или снаряжение, не удовлетворяющие условиям боя.</value>
+  </data>
+  <data name="prebattle/vehicleInvalid/limits/classLevel" xml:space="preserve">
+    <value>Выбранная машина не подходит для данного боя по уровню. Минимальный уровень для данного типа: %s. Максимальный уровень для данного класса: %s.</value>
+  </data>
+  <data name="prebattle/vehicleInvalid/limits/classes" xml:space="preserve">
+    <value>Выбранная машина не подходит для данного боя по типу техники. Разрешённые типы: %s.</value>
+  </data>
+  <data name="prebattle/vehicleInvalid/limits/components" xml:space="preserve">
+    <value>На выбранную машину установлены компоненты, не удовлетворяющие условиям боя.</value>
+  </data>
+  <data name="prebattle/vehicleInvalid/limits/level" xml:space="preserve">
+    <value>Выбранная машина не подходит для данного боя по уровню. Минимальный уровень: %s. Максимальный уровень: %s.</value>
+  </data>
+  <data name="prebattle/vehicleInvalid/limits/nations" xml:space="preserve">
+    <value>Выбранная машина не подходит для данного боя по нации. Разрешённые нации: %s.</value>
+  </data>
+  <data name="prebattle/vehicleInvalid/limits/not_supported" xml:space="preserve">
+    <value>Неподходящая машина</value>
+  </data>
+  <data name="prebattle/vehicleInvalid/limits/shells" xml:space="preserve">
+    <value>На выбранную машину загружены снаряды, не удовлетворяющие условиям боя.</value>
+  </data>
+  <data name="prebattle/vehicleInvalid/limits/tags" xml:space="preserve">
+    <value>Неподходящая машина</value>
+  </data>
+  <data name="prebattle/vehicleInvalid/limits/vehicles" xml:space="preserve">
+    <value>Выбранная машина не подходит для данного боя.</value>
+  </data>
+  <data name="prebattle/vehicleInvalid/no_readyVehicle" xml:space="preserve">
+    <value>Выбранная машина не готова.</value>
+  </data>
+  <data name="prebattle/vehicleInvalid/no_selectedVehicle" xml:space="preserve">
+    <value>Необходимо купить машину.</value>
+  </data>
+  <data name="prebattle/vehicleInvalid/notSetReadyStatus" xml:space="preserve">
+    <value>Не удалось присоединиться к команде.</value>
+  </data>
+  <data name="prebattle/vehicleInvalid/vehicleNotSupported" xml:space="preserve">
+    <value>Неподходящая машина</value>
+  </data>
+  <data name="prebattle_start_failed/kickedFromQueue/deafult" xml:space="preserve">
+    <value>Невозможно подобрать соперников для данной команды. Попробуйте переформировать команду.</value>
+  </data>
+  <data name="prebattle_start_failed/kickedFromQueue/squad" xml:space="preserve">
+    <value>Невозможно подобрать соперников для данного взвода. Попробуйте переформировать команду.</value>
+  </data>
+  <data name="premium/buyingSuccess" xml:space="preserve">
+    <value>Премиум аккаунт куплен на %(period)d д. Потрачено %(money)s.</value>
+  </data>
+  <data name="premium/continueSuccess" xml:space="preserve">
+    <value>Премиум аккаунт продлён на %(period)d д. Потрачено %(money)s.</value>
+  </data>
+  <data name="premium/not_enough_gold" xml:space="preserve">
+    <value>Недостаточно золота для покупки премиум аккаунта на срок %(period)d д.</value>
+  </data>
+  <data name="premium/post_battle_premium" xml:space="preserve">
+    <value>Благодаря покупке премиум аккаунта вы дополнительно получаете %(xpDiff)d опыта и %(creditDiff)d кредитов за бой.</value>
+  </data>
+  <data name="premium/server_error" xml:space="preserve">
+    <value>Ошибка покупки премиум аккаунта на срок %(period)d д. Попробуйте позже.</value>
+  </data>
+  <data name="premium/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="prmp/notification/newEncyclopediaRecommendation" xml:space="preserve">
+    <value>В Учебном центре доступны новые материалы.</value>
+  </data>
+  <data name="quests/noQuestsWithGivenID" xml:space="preserve">
+    <value>Срок действия боевой задачи истёк. Подробное описание недоступно.</value>
+  </data>
+  <data name="queue/isInQueue" xml:space="preserve">
+    <value>В данный момент операция невозможна. Попробуйте позже.</value>
+  </data>
+  <data name="rally/leaveDisabled" xml:space="preserve">
+    <value>Операция недоступна
+Выйти из режима невозможно. Вы в основном составе и готовы к бою.</value>
+  </data>
+  <data name="ranked/notification/available" xml:space="preserve">
+    <value>Режим прекращения огня окончен: Ранговые бои снова доступны.</value>
+  </data>
+  <data name="ranked/notification/congratulations" xml:space="preserve">
+    <value>Поздравляем!</value>
+  </data>
+  <data name="ranked/notification/final/beforeCommonList" xml:space="preserve">
+    <value>Получены следующие награды:</value>
+  </data>
+  <data name="ranked/notification/notAvailable" xml:space="preserve">
+    <value>Режим «Ранговый бой» недоступен. Следите за информацией на портале игры.</value>
+  </data>
+  <data name="ranked/notification/primeTime" xml:space="preserve">
+    <value>Ранговые бои недоступны до окончания режима прекращения огня. Расписание смотрите в календаре.</value>
+  </data>
+  <data name="ranked/notifications/bonusName/credits" xml:space="preserve">
+    <value>Получено кредитов:</value>
+  </data>
+  <data name="ranked/notifications/bonusName/crystal" xml:space="preserve">
+    <value>Получено бон:</value>
+  </data>
+  <data name="ranked/notifications/bonusName/gold" xml:space="preserve">
+    <value>Получено золота:</value>
+  </data>
+  <data name="ranked/notifications/bonusName/other" xml:space="preserve">
+    <value>Начислено:</value>
+  </data>
+  <data name="ranked/notifications/bonusName/points" xml:space="preserve">
+    <value>Добавлено очков:</value>
+  </data>
+  <data name="ranked/notifications/bonusValue/premiumDay" xml:space="preserve">
+    <value>Премиум день</value>
+  </data>
+  <data name="ranked/notifications/bonusValue/premiumDays" xml:space="preserve">
+    <value>Премиум дней (x%(daysCount)s)</value>
+  </data>
+  <data name="ranked/notifications/cycleResults" xml:space="preserve">
+    <value>Результаты этапа %(number)s</value>
+  </data>
+  <data name="ranked/notifications/final/bonusName/credits" xml:space="preserve">
+    <value>Получено кредитов:</value>
+  </data>
+  <data name="ranked/notifications/final/bonusName/gold" xml:space="preserve">
+    <value>Получено золота:</value>
+  </data>
+  <data name="ranked/notifications/final/bonusName/league" xml:space="preserve">
+    <value>Итоговая лига:</value>
+  </data>
+  <data name="ranked/notifications/final/bonusName/league/cycle" xml:space="preserve">
+    <value>Текущая лига:</value>
+  </data>
+  <data name="ranked/notifications/final/bonusName/points" xml:space="preserve">
+    <value>Заработано очков:</value>
+  </data>
+  <data name="ranked/notifications/seasonResults" xml:space="preserve">
+    <value>Результаты сезона</value>
+  </data>
+  <data name="ranked/notifications/singleRank/text" xml:space="preserve">
+    <value>Вы заслужили %(rankName)s ранг
+%(awards)s</value>
+  </data>
+  <data name="ranked/notifications/singleVehRank/text" xml:space="preserve">
+    <value>Вы заслужили %(rankName)s
+%(awards)s</value>
+  </data>
+  <data name="recruit_window/FORBIDDEN" xml:space="preserve">
+    <value>Невозможно рекрутировать нового члена экипажа: у танка уникальный постоянный экипаж.</value>
+  </data>
+  <data name="recruit_window/disconnected_from_center" xml:space="preserve">
+    <value>Ошибка рекрутирования члена экипажа. Сервис временно недоступен.</value>
+  </data>
+  <data name="recruit_window/financial_success" xml:space="preserve">
+    <value>Член экипажа успешно рекрутирован. Потрачено %(price)s.</value>
+  </data>
+  <data name="recruit_window/free_tankmen_limit" xml:space="preserve">
+    <value>Вы исчерпали лимит бесплатных членов экипажа на сегодняшний день.</value>
+  </data>
+  <data name="recruit_window/not_enough_credits" xml:space="preserve">
+    <value>Ошибка рекрутирования члена экипажа. Недостаточно кредитов.</value>
+  </data>
+  <data name="recruit_window/not_enough_gold" xml:space="preserve">
+    <value>Ошибка рекрутирования члена экипажа. Недостаточно золота.</value>
+  </data>
+  <data name="recruit_window/not_enough_space" xml:space="preserve">
+    <value>Ошибка рекрутирования и посадки члена экипажа на выбранную машину. Для рекрутирования члена экипажа необходима свободная койка в Казарме. Пожалуйста, освободите одну койку или приобретите дополнительные койки в Казарме.</value>
+  </data>
+  <data name="recruit_window/server_error" xml:space="preserve">
+    <value>Ошибка рекрутирования члена экипажа. Попробуйте позже.</value>
+  </data>
+  <data name="recruit_window/success" xml:space="preserve">
+    <value>Член экипажа успешно рекрутирован.</value>
+  </data>
+  <data name="recruit_window/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="reequip_tankman/FORBIDDEN" xml:space="preserve">
+    <value>Невозможно пересадить члена экипажа: у танка уникальный постоянный экипаж.</value>
+  </data>
+  <data name="reequip_tankman/invalid_vehicle" xml:space="preserve">
+    <value>Ошибка замены члена экипажа. Неправильная машина.</value>
+  </data>
+  <data name="reequip_tankman/server_error" xml:space="preserve">
+    <value>Замена члена экипажа не выполнена. Попробуйте позже.</value>
+  </data>
+  <data name="reequip_tankman/success" xml:space="preserve">
+    <value>Замена члена экипажа выполнена успешно.</value>
+  </data>
+  <data name="reequip_tankman/vehicle_locked" xml:space="preserve">
+    <value>Ошибка замены члена экипажа. Машина заблокирована.</value>
+  </data>
+  <data name="reequip_tankman/vehicle_need_repair" xml:space="preserve">
+    <value>Ошибка замены члена экипажа. Необходим ремонт.</value>
+  </data>
+  <data name="remove_component" xml:space="preserve">
+    <value>Модуль %s '%s' снят с машины.</value>
+  </data>
+  <data name="remove_vehicle_broken" xml:space="preserve">
+    <value>Машина повреждена. Не удалось удалить %s '%s'. Отремонтируйте машину и повторите операцию.</value>
+  </data>
+  <data name="remove_vehicle_locked" xml:space="preserve">
+    <value>Машина заблокирована. Нельзя удалить %s '%s'.</value>
+  </data>
+  <data name="repair/credits_error" xml:space="preserve">
+    <value>Не хватает %s кредитов на ремонт %s.</value>
+  </data>
+  <data name="repair/server_error" xml:space="preserve">
+    <value>Ошибка ремонта '%s'. Попробуйте позже.</value>
+  </data>
+  <data name="repair/success" xml:space="preserve">
+    <value>Машина '%s' отремонтирована. Потрачено %s.</value>
+  </data>
+  <data name="replace_tankman/FORBIDDEN" xml:space="preserve">
+    <value>Невозможно сменить документы члену экипажа: у танка уникальный постоянный экипаж.</value>
+  </data>
+  <data name="replace_tankman/invalid_vehicle" xml:space="preserve">
+    <value>Ошибка смены документов члена экипажа. Неправильная машина.</value>
+  </data>
+  <data name="replace_tankman/not_enough_money" xml:space="preserve">
+    <value>Ошибка смены документов члена экипажа. Недостаточно средств.</value>
+  </data>
+  <data name="replace_tankman/server_error" xml:space="preserve">
+    <value>Смена документов члена экипажа не выполнена. Попробуйте позже.</value>
+  </data>
+  <data name="replace_tankman/success" xml:space="preserve">
+    <value>Смена документов члена экипажа выполнена успешно. Потрачено %(money)s</value>
+  </data>
+  <data name="replace_tankman/vehicle_locked" xml:space="preserve">
+    <value>Ошибка смены документов члена экипажа. Машина заблокирована.</value>
+  </data>
+  <data name="replace_tankman/vehicle_need_repair" xml:space="preserve">
+    <value>Ошибка смены документов члена экипажа. Машине необходим ремонт.</value>
+  </data>
+  <data name="request/isInCoolDown" xml:space="preserve">
+    <value>Операция "%(request)s" заморожена на %(coolDown)s с.</value>
+  </data>
+  <data name="restoreController/hasLimitedRestoreVehicles" xml:space="preserve">
+    <value>У вас ещё есть доступная для восстановления техника. Перейдите в Магазин, если хотите вернуть её в Ангар.</value>
+  </data>
+  <data name="restore_tankman/DISABLED" xml:space="preserve">
+    <value>Восстановление члена экипажа временно недоступно. Повторите попытку позже.</value>
+  </data>
+  <data name="restore_tankman/INVALID_TMAN_ID" xml:space="preserve">
+    <value>Невозможно восстановить данного члена экипажа.</value>
+  </data>
+  <data name="restore_tankman/NO_BERTH" xml:space="preserve">
+    <value>Ошибка восстановления члена экипажа. Недостаточно места в Казарме.</value>
+  </data>
+  <data name="restore_tankman/NO_GOLD" xml:space="preserve">
+    <value>Недостаточно золота для восстановления данного члена экипажа.</value>
+  </data>
+  <data name="restore_tankman/RESTORE_TIME_EXPIRED" xml:space="preserve">
+    <value>Ошибка восстановления члена экипажа. Отведённое на операцию время истекло.</value>
+  </data>
+  <data name="restore_tankman/WRONG_ARGS_TYPE" xml:space="preserve">
+    <value>Ошибка восстановления члена экипажа. Попробуйте позже.</value>
+  </data>
+  <data name="restore_tankman/disconnected_from_center" xml:space="preserve">
+    <value>Ошибка восстановления члена экипажа. Сервис восстановления танкистов временно недоступен</value>
+  </data>
+  <data name="restore_tankman/financial_success" xml:space="preserve">
+    <value>Член экипажа успешно восстановлен. Потрачено %(money)s.</value>
+  </data>
+  <data name="restore_tankman/not_enough_space" xml:space="preserve">
+    <value>Ошибка восстановления члена экипажа. Недостаточно места в Казарме.</value>
+  </data>
+  <data name="restore_tankman/server_error" xml:space="preserve">
+    <value>Ошибка восстановления члена экипажа. Попробуйте позже.</value>
+  </data>
+  <data name="restore_tankman/success" xml:space="preserve">
+    <value>Член экипажа успешно восстановлен.</value>
+  </data>
+  <data name="retraining_crew/FORBIDDEN" xml:space="preserve">
+    <value>Невозможно переобучить экипаж: у танка уникальный постоянный экипаж.</value>
+  </data>
+  <data name="retraining_crew/empty_list" xml:space="preserve">
+    <value>Ошибка переобучения экипажа. Члены экипажа не выбраны.</value>
+  </data>
+  <data name="retraining_crew/financial_success" xml:space="preserve">
+    <value>Переобучение экипажа выполнено успешно. Потрачено %(price)s.</value>
+  </data>
+  <data name="retraining_crew/invalid_operation" xml:space="preserve">
+    <value>Ошибка переобучения экипажа. Операция недоступна.</value>
+  </data>
+  <data name="retraining_crew/invalid_vehicle" xml:space="preserve">
+    <value>Ошибка переобучения экипажа. Неправильная машина.</value>
+  </data>
+  <data name="retraining_crew/server_error" xml:space="preserve">
+    <value>Переобучение экипажа не выполнено. Попробуйте позже.</value>
+  </data>
+  <data name="retraining_crew/success" xml:space="preserve">
+    <value>Переобучение экипажа выполнено успешно.</value>
+  </data>
+  <data name="retraining_crew/vehicle_locked" xml:space="preserve">
+    <value>Ошибка переобучения экипажа. Машина заблокирована.</value>
+  </data>
+  <data name="retraining_crew/vehicle_need_repair" xml:space="preserve">
+    <value>Ошибка переобучения экипажа. Машине необходим ремонт.</value>
+  </data>
+  <data name="retraining_tankman/FORBIDDEN" xml:space="preserve">
+    <value>Невозможно переобучить члена экипажа: у танка уникальный постоянный экипаж.</value>
+  </data>
+  <data name="retraining_tankman/financial_success" xml:space="preserve">
+    <value>Переобучение члена экипажа выполнено успешно. Потрачено %(price)s.</value>
+  </data>
+  <data name="retraining_tankman/invalid_operation" xml:space="preserve">
+    <value>Ошибка переобучения члена экипажа. Недоступная операция.</value>
+  </data>
+  <data name="retraining_tankman/invalid_vehicle" xml:space="preserve">
+    <value>Ошибка переобучения члена экипажа. Неправильная машина.</value>
+  </data>
+  <data name="retraining_tankman/server_error" xml:space="preserve">
+    <value>Переобучение члена экипажа не выполнено. Попробуйте позже.</value>
+  </data>
+  <data name="retraining_tankman/success" xml:space="preserve">
+    <value>Переобучение члена экипажа выполнено успешно.</value>
+  </data>
+  <data name="retraining_tankman/vehicle_locked" xml:space="preserve">
+    <value>Ошибка переобучения члена экипажа. Машина заблокирована.</value>
+  </data>
+  <data name="retraining_tankman/vehicle_need_repair" xml:space="preserve">
+    <value>Ошибка переобучения члена экипажа. Машине необходим ремонт.</value>
+  </data>
+  <data name="return_crew/FORBIDDEN" xml:space="preserve">
+    <value>Невозможно вернуть экипаж: у танка уникальный постоянный экипаж.</value>
+  </data>
+  <data name="return_crew/invalid_vehicle" xml:space="preserve">
+    <value>Ошибка возврата экипажа. Неправильная машина.</value>
+  </data>
+  <data name="return_crew/not_enough_space" xml:space="preserve">
+    <value>Для высаживаемого экипажа недостаточно места в Казарме.</value>
+  </data>
+  <data name="return_crew/server_error" xml:space="preserve">
+    <value>Возврат экипажа не выполнен. Попробуйте позже.</value>
+  </data>
+  <data name="return_crew/success" xml:space="preserve">
+    <value>Пересадка экипажа выполнена успешно.</value>
+  </data>
+  <data name="return_crew/vehicle_locked" xml:space="preserve">
+    <value>Ошибка возврата экипажа. Машина заблокирована.</value>
+  </data>
+  <data name="return_crew/vehicle_need_repair" xml:space="preserve">
+    <value>Ошибка возврата экипажа. Машине необходим ремонт.</value>
+  </data>
+  <data name="roaming_not_allowed" xml:space="preserve">
+    <value>В доступе на данный сервер отказано.</value>
+  </data>
+  <data name="rotation/lock" xml:space="preserve">
+    <value>Следующие группы заблокированы и более недоступны для боя: %(groupNum)s.</value>
+  </data>
+  <data name="rotation/unlock" xml:space="preserve">
+    <value>Следующие группы разблокированы и теперь доступны для боя: %(groupNum)s.</value>
+  </data>
+  <data name="rotation/vehicleIsLocked" xml:space="preserve">
+    <value>Машина заблокирована и недоступна для боя.</value>
+  </data>
+  <data name="securityMessage/bad_email" xml:space="preserve">
+    <value>Уважаемый пользователь! Ваш адрес электронной почты зарегистрирован на подозрительном сервере. Просим вас сменить email. %(link)s</value>
+  </data>
+  <data name="securityMessage/change_setings" xml:space="preserve">
+    <value>Изменить параметры безопасности</value>
+  </data>
+  <data name="securityMessage/no_phone" xml:space="preserve">
+    <value>Уважаемый пользователь! Рекомендуем выполнить привязку вашего аккаунта к телефону для обеспечения безопасности. %(link)s</value>
+  </data>
+  <data name="securityMessage/no_question" xml:space="preserve">
+    <value>Уважаемый пользователь! Рекомендуем указать в Личном кабинете секретный вопрос для восстановления пароля. %(link)s</value>
+  </data>
+  <data name="securityMessage/old_pass" xml:space="preserve">
+    <value>Уважаемый пользователь! Вы не меняли пароль уже 30 дней. Рекомендуем сменить пароль для обеспечения безопасности. %(link)s</value>
+  </data>
+  <data name="securityMessage/poor_pass" xml:space="preserve">
+    <value>Уважаемый пользователь! Сложность вашего пароля, указанного при создании аккаунта, слишком низкая. Рекомендуем сменить пароль. %(link)s</value>
+  </data>
+  <data name="sell_vehicle_broken" xml:space="preserve">
+    <value>Машина повреждена. Не удалось продать '%s'. Отремонтируйте машину и повторите операцию.</value>
+  </data>
+  <data name="sell_vehicle_locked" xml:space="preserve">
+    <value>Машина заблокирована. Нельзя продать '%s'.</value>
+  </data>
+  <data name="serverInstallError" xml:space="preserve">
+    <value>Произошла серверная ошибка установки модуля %s '%s'. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="serverRemoveError" xml:space="preserve">
+    <value>Произошла серверная ошибка удаления модуля %s '%s'. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="server_shut_down" xml:space="preserve">
+    <value>Перезагрузка игрового сервера</value>
+  </data>
+  <data name="session_tracker_kick" xml:space="preserve">
+    <value>Ваш Wargaming.net&amp;nbsp;ID использован для входа в другую игру, текущая игровая сессия прервана</value>
+  </data>
+  <data name="shell_buy/invalid_module" xml:space="preserve">
+    <value>Покупка %(name)s не удалась. Неправильный снаряд.</value>
+  </data>
+  <data name="shell_buy/not_enough_credits" xml:space="preserve">
+    <value>Покупка %(name)s не удалась. Недостаточно кредитов.</value>
+  </data>
+  <data name="shell_buy/not_enough_gold" xml:space="preserve">
+    <value>Покупка %(name)s не удалась. Недостаточно золота.</value>
+  </data>
+  <data name="shell_buy/server_error" xml:space="preserve">
+    <value>Покупка %(name)s не удалась. Попробуйте позже.</value>
+  </data>
+  <data name="shell_buy/server_error_centerDown" xml:space="preserve">
+    <value>Покупка %(name)s не удалась. Сервис покупки снарядов временно недоступен.</value>
+  </data>
+  <data name="shell_buy/success" xml:space="preserve">
+    <value>Снаряды %(name)s успешно приобретены (%(count)s шт.). Потрачено %(money)s.</value>
+  </data>
+  <data name="shell_buy/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="shell_sell/invalid_module" xml:space="preserve">
+    <value>Продажа '%(name)s' не удалась. Неправильный снаряд.</value>
+  </data>
+  <data name="shell_sell/server_error" xml:space="preserve">
+    <value>Продажа '%(name)s' не удалась. Попробуйте позже.</value>
+  </data>
+  <data name="shell_sell/success" xml:space="preserve">
+    <value>Снаряд '%(name)s' успешно продан (%(count)s шт.). Получено %(money)s.</value>
+  </data>
+  <data name="shop/item/buy_and_equip_in_processing" xml:space="preserve">
+    <value>Запрос на покупку и установку модуля отправлен, ожидается ответ от сервера.</value>
+  </data>
+  <data name="shop/item/buy_server_error" xml:space="preserve">
+    <value>Покупка модуля %(typeString)s '%(userString)s' не удалась. Попробуйте позже.</value>
+  </data>
+  <data name="shop/item/buy_success" xml:space="preserve">
+    <value>Модуль %(typeString)s '%(userString)s' успешно приобретён (%(count)d шт.). Потрачено %(price)s.</value>
+  </data>
+  <data name="shop/item/common_rent_or_buy_error" xml:space="preserve">
+    <value>В данный момент операция невозможна.</value>
+  </data>
+  <data name="shop/item/not_enough_money" xml:space="preserve">
+    <value>Для покупки %(typeString)s '%(userString)s' не хватает %(price)s.</value>
+  </data>
+  <data name="shop/item/not_found" xml:space="preserve">
+    <value>Модуль %(typeString)s '%(userString)s' в Магазине не найден. Попробуйте позже.</value>
+  </data>
+  <data name="shop/vehicle/common_rent_or_buy_error" xml:space="preserve">
+    <value>В данный момент операция невозможна.</value>
+  </data>
+  <data name="shop/vehicle/not_enough_money" xml:space="preserve">
+    <value>Для покупки %(userString)s не хватает %(price)s.</value>
+  </data>
+  <data name="shop/vehicle/not_enough_money_for_rent" xml:space="preserve">
+    <value>Для аренды %(userString)s не хватает %(price)s.</value>
+  </data>
+  <data name="shop/vehicle/not_found" xml:space="preserve">
+    <value>%(userString)s в Магазине не найден. Попробуйте позже.</value>
+  </data>
+  <data name="shop_resync" xml:space="preserve">
+    <value>%(date)s в %(time)s произошли серверные изменения, интерфейс обновлен.</value>
+  </data>
+  <data name="squad/createError" xml:space="preserve">
+    <value>Создание взводов доступно только игрокам с премиум аккаунтом.</value>
+  </data>
+  <data name="squad/kickedFromQueue" xml:space="preserve">
+    <value>Невозможно подобрать соперников для данного взвода. Попробуйте переформировать команду.</value>
+  </data>
+  <data name="squad/leaveDisabled" xml:space="preserve">
+    <value>Операция недоступна
+Выйти из взвода невозможно. Вы в основном составе и готовы к бою.</value>
+  </data>
+  <data name="squad/memberJoined" xml:space="preserve">
+    <value>%s присоединился к формированию.</value>
+  </data>
+  <data name="squad/memberLeave" xml:space="preserve">
+    <value>%s покинул формирование.</value>
+  </data>
+  <data name="squad/memberNotReady" xml:space="preserve">
+    <value>%s не готов.</value>
+  </data>
+  <data name="squad/memberOffline" xml:space="preserve">
+    <value>Связь с %s потеряна.</value>
+  </data>
+  <data name="squad/memberReady" xml:space="preserve">
+    <value>%s готов!</value>
+  </data>
+  <data name="squad/notSetReadyStatus" xml:space="preserve">
+    <value>Не удалось выйти в бой в составе взвода.</value>
+  </data>
+  <data name="squad/notValidDeleted" xml:space="preserve">
+    <value>Машина %(vehName)s исключена из состава взвода из-за несоответствия уровню машины командира взвода. Выберите машину такого же уровня.</value>
+  </data>
+  <data name="telecom/notifications/vehicleBlocked/comment" xml:space="preserve">
+    <value>%(vehicles)s</value>
+  </data>
+  <data name="telecom/notifications/vehicleBlocked/subcomment" xml:space="preserve">
+    <value>Причина: блокировка услуги провайдером. Проверьте статус услуги «Домашний интернет».</value>
+  </data>
+  <data name="telecom/notifications/vehicleBlocked/title" xml:space="preserve">
+    <value>Машина недоступна</value>
+  </data>
+  <data name="telecom/notifications/vehicleReceived/comment" xml:space="preserve">
+    <value>Дата: %(datetime)s
+Добавлена техника: %(vehicles)s
+Добавлены: слот в Ангаре,%(crew)s эксклюзивный камуфляж.</value>
+  </data>
+  <data name="telecom/notifications/vehicleReceived/crew" xml:space="preserve">
+    <value> 100%% экипаж%(skills)s,</value>
+  </data>
+  <data name="telecom/notifications/vehicleReceived/title" xml:space="preserve">
+    <value>Начислена техника</value>
+  </data>
+  <data name="telecom/notifications/vehicleRemoved/comment" xml:space="preserve">
+    <value>Дата: %(datetime)s
+Списано: %(vehicles)s, слот в Ангаре.</value>
+  </data>
+  <data name="telecom/notifications/vehicleRemoved/subcomment" xml:space="preserve">
+    <value>Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой».</value>
+  </data>
+  <data name="telecom/notifications/vehicleRemoved/title" xml:space="preserve">
+    <value>Списана машина</value>
+  </data>
+  <data name="telecom/notifications/vehicleUnblocked/comment" xml:space="preserve">
+    <value>%(vehicles)s</value>
+  </data>
+  <data name="telecom/notifications/vehicleUnblocked/subcomment" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="telecom/notifications/vehicleUnblocked/title" xml:space="preserve">
+    <value>Машина снова доступна</value>
+  </data>
+  <data name="tradingError/DECLINED_BY_DEST" xml:space="preserve">
+    <value>Перевод золота не выполнен. Принимающая сторона отклонила запрос.</value>
+  </data>
+  <data name="tradingError/NOT_ALLOWED" xml:space="preserve">
+    <value>Перевод золота недоступен.</value>
+  </data>
+  <data name="tradingError/NO_WARES" xml:space="preserve">
+    <value>Певерод золота невозможен. Недостаточно золота.</value>
+  </data>
+  <data name="tradingError/TOO_MANY_OUT_OFFERS" xml:space="preserve">
+    <value>Предел количества переводов достигнут. Вы не можете сегодня выполнить перевод золота.</value>
+  </data>
+  <data name="tradingError/UNEXPECTED_ERROR" xml:space="preserve">
+    <value>Перевод золота не выполнен. Попробуйте позже.</value>
+  </data>
+  <data name="training/error/AddPlayer" xml:space="preserve">
+    <value>Ошибка тренировочной комнаты. Превышено максимальное количество участников в команде.</value>
+  </data>
+  <data name="training/error/doAction" xml:space="preserve">
+    <value>Ошибка тренировочной комнаты. Попробуйте повторить действие позже.</value>
+  </data>
+  <data name="training/error/selectObserver" xml:space="preserve">
+    <value>Ошибка тренировочной комнаты. Максимальное количество игроков в команде - %(numPlayers)s.</value>
+  </data>
+  <data name="training/error/swapTeams" xml:space="preserve">
+    <value>Произошла серверная ошибка при попытке поменять команды игроков местами. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="unit/errors/ACCOUNT_RESTORED" xml:space="preserve">
+    <value>Действие недоступно. Аккаунт восстановлен.</value>
+  </data>
+  <data name="unit/errors/ADD_PLAYER_FAIL" xml:space="preserve">
+    <value>Невозможно принять игрока в команду.</value>
+  </data>
+  <data name="unit/errors/ALREADY_IN_SLOT" xml:space="preserve">
+    <value>Действие недоступно. Слот уже занят.</value>
+  </data>
+  <data name="unit/errors/ALREADY_JOINED_UNIT" xml:space="preserve">
+    <value>Игрок уже присоединился к команде.</value>
+  </data>
+  <data name="unit/errors/ASSIGN_MEMBER_FAIL" xml:space="preserve">
+    <value>Невозможно передать командование.</value>
+  </data>
+  <data name="unit/errors/BAD_ACCOUNT_TYPE" xml:space="preserve">
+    <value>Действие недоступно. Неправильный тип аккаунта.</value>
+  </data>
+  <data name="unit/errors/BAD_CLAN" xml:space="preserve">
+    <value>Действие недоступно. Неправильный клан.</value>
+  </data>
+  <data name="unit/errors/BAD_JOINING_ACC" xml:space="preserve">
+    <value>Нет возможности присоседиться к команде.</value>
+  </data>
+  <data name="unit/errors/BAD_POINTS_SUM" xml:space="preserve">
+    <value>Превышен суммарный уровень техники.</value>
+  </data>
+  <data name="unit/errors/BAD_ROSTER_PACK" xml:space="preserve">
+    <value>Действие недоступно. Неправильный состав отряда.</value>
+  </data>
+  <data name="unit/errors/BAD_SLOT_IDX" xml:space="preserve">
+    <value>Указан неправильный номер слота.</value>
+  </data>
+  <data name="unit/errors/BAD_VEHICLE_LEVEL" xml:space="preserve">
+    <value>Ошибка присоединения к команде. Неподходящий уровень машины.</value>
+  </data>
+  <data name="unit/errors/CANT_CHANGE_DIVISION" xml:space="preserve">
+    <value>В указанное время смена дивизиона запрещена.</value>
+  </data>
+  <data name="unit/errors/CANT_FIND_UNIT_MGR" xml:space="preserve">
+    <value>Невозможно найти команду.</value>
+  </data>
+  <data name="unit/errors/CANT_INVITE" xml:space="preserve">
+    <value>Нет возможности отправить приглашение.</value>
+  </data>
+  <data name="unit/errors/COOLDOWN" xml:space="preserve">
+    <value>Операция временно недоступна.</value>
+  </data>
+  <data name="unit/errors/FAIL_UNIT_METHOD" xml:space="preserve">
+    <value>Последняя операция с командой выполнена с ошибкой.</value>
+  </data>
+  <data name="unit/errors/GET_READY_VEHICLE_FAIL" xml:space="preserve">
+    <value>Машина не готова к бою или отсутствует в Ангаре.</value>
+  </data>
+  <data name="unit/errors/GET_VEHICLE_FAIL" xml:space="preserve">
+    <value>Невозможно установить машину в слот.</value>
+  </data>
+  <data name="unit/errors/HAS_IN_ARENA_MEMBERS" xml:space="preserve">
+    <value>Действие недоступно. Часть отряда ещё в бою.</value>
+  </data>
+  <data name="unit/errors/INSUFFICIENT_ROLE" xml:space="preserve">
+    <value>У вас нет прав на выполнение операции.</value>
+  </data>
+  <data name="unit/errors/JOIN_CTX_LOCK" xml:space="preserve">
+    <value>Аккаунт заблокирован.</value>
+  </data>
+  <data name="unit/errors/NOT_IDLE" xml:space="preserve">
+    <value>Команда в очереди или в поиске.</value>
+  </data>
+  <data name="unit/errors/NOT_INVITED" xml:space="preserve">
+    <value>Невозможно присоединиться к команде с закрытым доступом.</value>
+  </data>
+  <data name="unit/errors/NOT_IN_QUEUE" xml:space="preserve">
+    <value>Команда не в очереди.</value>
+  </data>
+  <data name="unit/errors/NOT_IN_SEARCH" xml:space="preserve">
+    <value>Команды нет в поиске.</value>
+  </data>
+  <data name="unit/errors/NOT_READY" xml:space="preserve">
+    <value>Команда не готова.</value>
+  </data>
+  <data name="unit/errors/NO_AVAILABLE_SLOTS" xml:space="preserve">
+    <value>Невозможно добавить этого игрока в боевой состав.</value>
+  </data>
+  <data name="unit/errors/NO_PLAYER" xml:space="preserve">
+    <value>Действие недоступно. Игрок не найден.</value>
+  </data>
+  <data name="unit/errors/NO_UNIT" xml:space="preserve">
+    <value>Команда не найдена.</value>
+  </data>
+  <data name="unit/errors/NO_UNIT_MGR" xml:space="preserve">
+    <value>Команды не существует.</value>
+  </data>
+  <data name="unit/errors/NO_VEHICLES" xml:space="preserve">
+    <value>Действие недоступно. Ошибка отображения списка техники.</value>
+  </data>
+  <data name="unit/errors/OFFLINE_PLAYER" xml:space="preserve">
+    <value>Действие недоступно. Игрок не в сети.</value>
+  </data>
+  <data name="unit/errors/PLAYER_IGNORED" xml:space="preserve">
+    <value>Вы находитесь в чёрном списке командира.</value>
+  </data>
+  <data name="unit/errors/PREV_RATED_BATTLE_IN_PROGRESS" xml:space="preserve">
+    <value>Действие недоступно. Предыдущий бой ещё не завершён.</value>
+  </data>
+  <data name="unit/errors/REMOVE_PLAYER_FAIL" xml:space="preserve">
+    <value>Невозможно исключить игрока из команды.</value>
+  </data>
+  <data name="unit/errors/RESTRICT_INVITED" xml:space="preserve">
+    <value>Действие недоступно. Игрок(и) ещё не принял(и) приглашение.</value>
+  </data>
+  <data name="unit/errors/RESTRICT_LEGIONARIES" xml:space="preserve">
+    <value>Действие недоступно для легионеров.</value>
+  </data>
+  <data name="unit/errors/SLOT_NOT_CLOSED" xml:space="preserve">
+    <value>Действие недоступно. Слот не заблокирован.</value>
+  </data>
+  <data name="unit/errors/SLOT_OCCUPIED" xml:space="preserve">
+    <value>Действие недоступно. Слот уже занят.</value>
+  </data>
+  <data name="unit/errors/SLOT_RESERVED" xml:space="preserve">
+    <value>Действие с данным слотом недоступно.</value>
+  </data>
+  <data name="unit/errors/SORTIES_FORBIDDEN" xml:space="preserve">
+    <value>В указанное время Вылазки запрещены.</value>
+  </data>
+  <data name="unit/errors/TIMEOUT" xml:space="preserve">
+    <value>Действие недоступно. Время вышло.</value>
+  </data>
+  <data name="unit/errors/TOO_MANY_CLOSED_SLOTS" xml:space="preserve">
+    <value>Действие недоступно. Заблокировано максимально допустимое количество слотов.</value>
+  </data>
+  <data name="unit/errors/TOO_MANY_LEGIONARIES" xml:space="preserve">
+    <value>Действие недоступно. Максимальное количество легионеров.</value>
+  </data>
+  <data name="unit/errors/UNIT_ADD_FAIL" xml:space="preserve">
+    <value>Невозможно создать команду или присоединиться к ней.</value>
+  </data>
+  <data name="unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL" xml:space="preserve">
+    <value>Невозможно создать команду.</value>
+  </data>
+  <data name="unit/errors/UNIT_RESTORED" xml:space="preserve">
+    <value>Действие недоступно. Отряд восстановлен.</value>
+  </data>
+  <data name="unit/errors/VEHICLE_MISMATCH" xml:space="preserve">
+    <value>Действие недоступно. Машина не соответствует требованиям.</value>
+  </data>
+  <data name="unit/errors/VEHICLE_NOT_CHOSEN" xml:space="preserve">
+    <value>Действие недоступно. Сначала выберите машину.</value>
+  </data>
+  <data name="unit/errors/WRONG_UNIT_REQUISITES" xml:space="preserve">
+    <value>Команды не существует.</value>
+  </data>
+  <data name="unit/notification/changeDivision" xml:space="preserve">
+    <value>Командир %(name)s выбрал %(division)s дивизион.</value>
+  </data>
+  <data name="unit/notification/divisionType/ABSOLUTE" xml:space="preserve">
+    <value>Абсолютный</value>
+  </data>
+  <data name="unit/notification/divisionType/CHAMPION" xml:space="preserve">
+    <value>Чемпионский</value>
+  </data>
+  <data name="unit/notification/divisionType/MIDDLE" xml:space="preserve">
+    <value>Средний</value>
+  </data>
+  <data name="unit/notification/giveLeadership" xml:space="preserve">
+    <value>%(userName)s был назначен командиром.</value>
+  </data>
+  <data name="unit/notification/playerAdded" xml:space="preserve">
+    <value>%(userName)s присоединился к отряду.</value>
+  </data>
+  <data name="unit/notification/playerOffline" xml:space="preserve">
+    <value>Связь с %(userName)s потеряна.</value>
+  </data>
+  <data name="unit/notification/playerOnline" xml:space="preserve">
+    <value>Связь с %(userName)s восстановлена.</value>
+  </data>
+  <data name="unit/notification/playerRemoved" xml:space="preserve">
+    <value>%(userName)s покинул отряд.</value>
+  </data>
+  <data name="unit/warnings/ALREADY_INVITED" xml:space="preserve">
+    <value>Приглашение игроку уже отправлено.</value>
+  </data>
+  <data name="unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER" xml:space="preserve">
+    <value>Командование передано другому игроку.</value>
+  </data>
+  <data name="unit/warnings/CANT_PICK_LEADER" xml:space="preserve">
+    <value>Вы исключены из состава отряда: отряд расформирован.</value>
+  </data>
+  <data name="unit/warnings/CLAN_CHANGED" xml:space="preserve">
+    <value>Вы исключены из отряда. Клан изменён.</value>
+  </data>
+  <data name="unit/warnings/FORT_BATTLE_END" xml:space="preserve">
+    <value>Действие недоступно. Истекло время ожидания боя.</value>
+  </data>
+  <data name="unit/warnings/INVITE_REMOVED" xml:space="preserve">
+    <value>Ошибка присоединения. Вы были исключены из команды.</value>
+  </data>
+  <data name="unit/warnings/KICKED_CANDIDATE" xml:space="preserve">
+    <value>Вы были автоматически исключены из добровольцев.</value>
+  </data>
+  <data name="unit/warnings/KICKED_FROM_UNIT_ASSEMBLER" xml:space="preserve">
+    <value>Время поиска истекло. Подходящей команды не найдено.</value>
+  </data>
+  <data name="unit/warnings/KICKED_PLAYER" xml:space="preserve">
+    <value>Вы были исключены командиром.</value>
+  </data>
+  <data name="unit/warnings/NO_CLAN_MEMBERS" xml:space="preserve">
+    <value>Вы исключены из состава отряда: отряд расформирован.</value>
+  </data>
+  <data name="unit/warnings/STRONGHOLDS_DIRECTION_CHANGED" xml:space="preserve">
+    <value>Выбран другой плацдарм для Наступления.</value>
+  </data>
+  <data name="unit/warnings/STRONGHOLDS_MODE_CHANGED" xml:space="preserve">
+    <value>Выбран другой режим.</value>
+  </data>
+  <data name="unit/warnings/UNIT_ASSEMBLER_TIMEOUT" xml:space="preserve">
+    <value>Время поиска истекло. Подходящие игроки не найдены.</value>
+  </data>
+  <data name="unit/warnings/WAITING_FOR_JOIN" xml:space="preserve">
+    <value>Идёт присоединение игроков. Пожалуйста, подождите.</value>
+  </data>
+  <data name="unitBrowser/errors/BAD_ACCEPT_CONTEXT" xml:space="preserve">
+    <value>Нет возможности подтвердить готовность присоединения к команде.</value>
+  </data>
+  <data name="unload_crew/FORBIDDEN" xml:space="preserve">
+    <value>Невозможно высадить экипаж в Казарму: у танка уникальный постоянный экипаж.</value>
+  </data>
+  <data name="unload_crew/invalid_vehicle" xml:space="preserve">
+    <value>Ошибка высадки экипажа в Казарму. Неправильная машина.</value>
+  </data>
+  <data name="unload_crew/not_enough_space" xml:space="preserve">
+    <value>Ошибка высадки экипажа в Казарму. Недостаточно места в Казарме.</value>
+  </data>
+  <data name="unload_crew/server_error" xml:space="preserve">
+    <value>Высадка экипажа в Казарму не выполнена. Попробуйте позже.</value>
+  </data>
+  <data name="unload_crew/success" xml:space="preserve">
+    <value>Высадка экипажа в Казарму выполнена успешно.</value>
+  </data>
+  <data name="unload_crew/vehicle_locked" xml:space="preserve">
+    <value>Ошибка высадки экипажа в Казарму. Машина заблокирована.</value>
+  </data>
+  <data name="unload_crew/vehicle_need_repair" xml:space="preserve">
+    <value>Ошибка высадки экипажа в Казарму. Машине необходим ремонт.</value>
+  </data>
+  <data name="unload_tankman/FORBIDDEN" xml:space="preserve">
+    <value>Невозможно высадить члена экипажа в Казарму: у танка уникальный постоянный экипаж.</value>
+  </data>
+  <data name="unload_tankman/invalid_vehicle" xml:space="preserve">
+    <value>Ошибка высадки члена экипажа в Казарму. Неправильная машина.</value>
+  </data>
+  <data name="unload_tankman/not_enough_space" xml:space="preserve">
+    <value>Ошибка высадки члена экипажа в Казарму. Недостаточно места в Казарме.</value>
+  </data>
+  <data name="unload_tankman/server_error" xml:space="preserve">
+    <value>Высадка члена экипажа в Казарму не выполнена. Попробуйте позже.</value>
+  </data>
+  <data name="unload_tankman/success" xml:space="preserve">
+    <value>Высадка члена экипажа в Казарму выполнена успешно.</value>
+  </data>
+  <data name="unload_tankman/vehicle_locked" xml:space="preserve">
+    <value>Ошибка высадки члена экипажа в Казарму. Машина заблокирована.</value>
+  </data>
+  <data name="unload_tankman/vehicle_need_repair" xml:space="preserve">
+    <value>Ошибка высадки члена экипажа в Казарму. Машине необходим ремонт.</value>
+  </data>
+  <data name="unlocks/drawFailed" xml:space="preserve">
+    <value>Невозможно отобразить Дерево исследований из-за неправильных настроек.</value>
+  </data>
+  <data name="unlocks/item/already_unlocked" xml:space="preserve">
+    <value>Модуль %(typeString)s '%(userString)s' исследован.</value>
+  </data>
+  <data name="unlocks/item/in_processing" xml:space="preserve">
+    <value>Запрос на исследование отправлен, ожидается ответ от сервера.</value>
+  </data>
+  <data name="unlocks/item/server_error" xml:space="preserve">
+    <value>Произошла серверная ошибка исследования модуля %(typeString)s '%(userString)s'. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="unlocks/item/unlock_success" xml:space="preserve">
+    <value>Модуль %(typeString)s '%(userString)s' исследован. Потрачено нераспределённого опыта %(vehXP)s, свободного опыта %(freeXP)s.</value>
+  </data>
+  <data name="unlocks/vehicle/already_unlocked" xml:space="preserve">
+    <value>%(userString)s исследован.</value>
+  </data>
+  <data name="unlocks/vehicle/in_processing" xml:space="preserve">
+    <value>Запрос на исследование отправлен, ожидается ответ от сервера.</value>
+  </data>
+  <data name="unlocks/vehicle/server_error" xml:space="preserve">
+    <value>Серверная ошибка исследования %(userString)s. Попробуйте повторить операцию позже.</value>
+  </data>
+  <data name="unlocks/vehicle/unlock_success" xml:space="preserve">
+    <value>%(userString)s исследован. Потрачено нераспределённого опыта %(vehXP)s, свободного опыта %(freeXP)s.</value>
+  </data>
+  <data name="upgradeTankman/server_error" xml:space="preserve">
+    <value>Ошибка обучения члена экипажа. Попробуйте позже.</value>
+  </data>
+  <data name="upgradeTankman/success" xml:space="preserve">
+    <value>Обучение выполнено успешно.</value>
+  </data>
+  <data name="vehicle/restore/finished" xml:space="preserve">
+    <value>Машина %(vehicleName)s недоступна для восстановления: закончилось отведённое на операцию время.</value>
+  </data>
+  <data name="vehicle/restoreDuration/days" xml:space="preserve">
+    <value>Машина будет доступна для восстановления в Магазине ещё %(time)s д.</value>
+  </data>
+  <data name="vehicle/restoreDuration/hours" xml:space="preserve">
+    <value>Машина будет доступна для восстановления в Магазине ещё %(time)s ч.</value>
+  </data>
+  <data name="vehicleCompare/disabled" xml:space="preserve">
+    <value>Операция временно недоступна. Попробуйте позже.</value>
+  </data>
+  <data name="vehicleCompare/previewNotAllowed" xml:space="preserve">
+    <value>Предпросмотр %(vehicle)s доступен только в полной версии клиента игры.</value>
+  </data>
+  <data name="vehicleComponents/equip_in_processing" xml:space="preserve">
+    <value>Запрос на установку модуля отправлен, ожидается ответ от сервера.</value>
+  </data>
+  <data name="vehicleComponents/module_buy_server_error" xml:space="preserve">
+    <value>Покупка модуля %(typeString)s '%(userString)s' не удалась. Попробуйте позже.</value>
+  </data>
+  <data name="vehicleComponents/module_buy_success" xml:space="preserve">
+    <value>Модуль %(typeString)s '%(userString)s' успешно приобретён (%(count)d шт.). Потрачено %(price)s.</value>
+  </data>
+  <data name="vehicleComponents/module_has_in_inventory" xml:space="preserve">
+    <value>Модуль %(typeString)s '%(userString)s' уже имеется в наличии на Складе.</value>
+  </data>
+  <data name="vehicleComponents/module_is_already_unlocked" xml:space="preserve">
+    <value>Модуль %(typeString)s '%(userString)s' исследован.</value>
+  </data>
+  <data name="vehicleComponents/module_not_enough_money" xml:space="preserve">
+    <value>Для покупки %(typeString)s '%(userString)s' не хватает %(price)s.</value>
+  </data>
+  <data name="vehicleComponents/module_not_found_in_inventory" xml:space="preserve">
+    <value>Модуль %(typeString)s '%(userString)s' на Складе не найден.</value>
+  </data>
+  <data name="vehicleComponents/module_not_found_in_shop" xml:space="preserve">
+    <value>Модуль %(typeString)s '%(userString)s' в Магазине не найден. Попробуйте позже.</value>
+  </data>
+  <data name="vehicleComponents/module_unlock_success" xml:space="preserve">
+    <value>Модуль %(typeString)s '%(userString)s' исследован. Потрачено нераспределённого опыта %(unspentXP)s, свободного опыта %(freeXP)s.</value>
+  </data>
+  <data name="vehicleComponents/unlock_in_processing" xml:space="preserve">
+    <value>Запрос на исследование отправлен, ожидается ответ от сервера.</value>
+  </data>
+  <data name="vehicleComponents/vehicle_has_in_inventory" xml:space="preserve">
+    <value>%(userString)s уже имеется в наличии на Складе.</value>
+  </data>
+  <data name="vehicleComponents/vehicle_is_already_unlocked" xml:space="preserve">
+    <value>%(userString)s исследован.</value>
+  </data>
+  <data name="vehicleComponents/vehicle_not_enough_money" xml:space="preserve">
+    <value>Для покупки %(userString)s не хватает %(price)s.</value>
+  </data>
+  <data name="vehicleComponents/vehicle_not_found_in_inventory" xml:space="preserve">
+    <value>%(userString)s на Складе не найден.</value>
+  </data>
+  <data name="vehicleComponents/vehicle_not_found_in_shop" xml:space="preserve">
+    <value>%(userString)s в Магазине не найден. Попробуйте позже.</value>
+  </data>
+  <data name="vehicleComponents/vehicle_unlock_success" xml:space="preserve">
+    <value>%(userString)s исследован. Потрачено нераспределённого опыта %(unspentXP)s, свободного опыта %(freeXP)s.</value>
+  </data>
+  <data name="vehicle_buy/invalid_vehicle" xml:space="preserve">
+    <value>Покупка '%(vehName)s' не удалась. Неправильная машина.</value>
+  </data>
+  <data name="vehicle_buy/not_enough_credits" xml:space="preserve">
+    <value>Покупка '%(vehName)s' не удалась. Недостаточно кредитов.</value>
+  </data>
+  <data name="vehicle_buy/not_enough_gold" xml:space="preserve">
+    <value>Покупка '%(vehName)s' не удалась. Недостаточно золота.</value>
+  </data>
+  <data name="vehicle_buy/server_error" xml:space="preserve">
+    <value>Покупка '%(vehName)s' не удалась. Ошибка сервера, повторите операцию позже.</value>
+  </data>
+  <data name="vehicle_buy/server_error_centerDown" xml:space="preserve">
+    <value>Покупка '%(vehName)s' не удалась. Сервис покупки техники временно недоступен.</value>
+  </data>
+  <data name="vehicle_buy/success" xml:space="preserve">
+    <value>'%(vehName)s' успешно приобретён. Потрачено %(price)s.</value>
+  </data>
+  <data name="vehicle_buy/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="vehicle_remove/invalid_vehicle" xml:space="preserve">
+    <value>Удаление '%(vehName)s' не удалось. Неправильная машина.</value>
+  </data>
+  <data name="vehicle_remove/not_enough_credits" xml:space="preserve">
+    <value>Удаление '%(vehName)s' не удалось. Недостаточно кредитов.</value>
+  </data>
+  <data name="vehicle_remove/not_enough_gold" xml:space="preserve">
+    <value>Удаление '%(vehName)s' не удалось. Недостаточно золота.</value>
+  </data>
+  <data name="vehicle_remove/not_enough_space" xml:space="preserve">
+    <value>Удаление '%(vehName)s' не удалось. Недостаточно места в Казарме.</value>
+  </data>
+  <data name="vehicle_remove/server_error" xml:space="preserve">
+    <value>Удаление '%(vehName)s' не удалось. Убедитесь, что машина не состоит в формировании, или попробуйте позже.</value>
+  </data>
+  <data name="vehicle_remove/success" xml:space="preserve">
+    <value>'%(vehName)s' успешно удалён. Получено %(money)s.</value>
+  </data>
+  <data name="vehicle_remove/success_dismantling" xml:space="preserve">
+    <value>'%(vehName)s' успешно удалён. Получено %(gainMoney)s. Потрачено %(spendMoney)s.</value>
+  </data>
+  <data name="vehicle_remove/vehicle_cannot_be_sold" xml:space="preserve">
+    <value>Удаление '%(vehName)s' не удалось. Машина будет списана автоматически.</value>
+  </data>
+  <data name="vehicle_remove/vehicle_locked" xml:space="preserve">
+    <value>Удаление '%(vehName)s' не удалось. Машина заблокирована.</value>
+  </data>
+  <data name="vehicle_remove/vehicle_need_repair" xml:space="preserve">
+    <value>Удаление '%(vehName)s' не удалось. Машине необходим ремонт.</value>
+  </data>
+  <data name="vehicle_remove/vehicle_sell_limit" xml:space="preserve">
+    <value>Удаление '%(vehName)s' не удалось. Вы исчерпали лимит продажи техники на сегодняшний день.</value>
+  </data>
+  <data name="vehicle_remove/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="vehicle_rent/invalid_vehicle" xml:space="preserve">
+    <value>Аренда '%(vehName)s' не удалась. Неправильная машина.</value>
+  </data>
+  <data name="vehicle_rent/not_enough_credits" xml:space="preserve">
+    <value>Аренда '%(vehName)s' не удалась. Недостаточно кредитов.</value>
+  </data>
+  <data name="vehicle_rent/not_enough_gold" xml:space="preserve">
+    <value>Аренда '%(vehName)s' не удалась. Недостаточно золота.</value>
+  </data>
+  <data name="vehicle_rent/server_error" xml:space="preserve">
+    <value>Аренда '%(vehName)s' не удалась. Ошибка сервера, повторите операцию позже.</value>
+  </data>
+  <data name="vehicle_rent/server_error_centerDown" xml:space="preserve">
+    <value>Аренда '%(vehName)s' не удалась. Сервис аренды техники временно недоступен.</value>
+  </data>
+  <data name="vehicle_rent/success" xml:space="preserve">
+    <value>Машина '%(vehName)s' арендована на %(days)d д. Потрачено %(price)s. Внимание! Последующая покупка арендованной машины обойдётся дешевле.</value>
+  </data>
+  <data name="vehicle_rent/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="vehicle_repair/not_enough_credits" xml:space="preserve">
+    <value>Не хватает %(needed)s на ремонт '%(vehName)s'.</value>
+  </data>
+  <data name="vehicle_repair/server_error" xml:space="preserve">
+    <value>Ошибка ремонта '%(vehName)s'. Попробуйте позже.</value>
+  </data>
+  <data name="vehicle_repair/success" xml:space="preserve">
+    <value>'%(vehName)s' отремонтирован. Потрачено %(money)s.</value>
+  </data>
+  <data name="vehicle_restore/DISABLED" xml:space="preserve">
+    <value>Восстановление техники временно недоступно. Повторите попытку позже.</value>
+  </data>
+  <data name="vehicle_restore/disconnected_from_center" xml:space="preserve">
+    <value>Не удалось восстановить '%(vehName)s'. Сервис восстановления техники временно недоступен.</value>
+  </data>
+  <data name="vehicle_restore/invalid_vehicle" xml:space="preserve">
+    <value>Не удалось восстановить '%(vehName)s'. Неправильная машина.</value>
+  </data>
+  <data name="vehicle_restore/not_enough_credits" xml:space="preserve">
+    <value>Не удалось восстановить '%(vehName)s'. Недостаточно кредитов.</value>
+  </data>
+  <data name="vehicle_restore/not_enough_gold" xml:space="preserve">
+    <value>Не удалось восстановить '%(vehName)s'. Недостаточно золота.</value>
+  </data>
+  <data name="vehicle_restore/server_error" xml:space="preserve">
+    <value>Не удалось восстановить '%(vehName)s'. Ошибка сервера, повторите операцию позже.</value>
+  </data>
+  <data name="vehicle_restore/server_error_centerDown" xml:space="preserve">
+    <value>Не удалось восстановить '%(vehName)s'. Сервис аренды техники временно недоступен.</value>
+  </data>
+  <data name="vehicle_restore/success" xml:space="preserve">
+    <value>Машина '%(vehName)s' восстановлена. Потрачено %(price)s.</value>
+  </data>
+  <data name="vehicle_restore/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="vehicle_sell/invalid_vehicle" xml:space="preserve">
+    <value>Продажа '%(vehName)s' не удалась. Неправильная машина.</value>
+  </data>
+  <data name="vehicle_sell/not_enough_credits" xml:space="preserve">
+    <value>Продажа '%(vehName)s' не удалась. Недостаточно кредитов.</value>
+  </data>
+  <data name="vehicle_sell/not_enough_gold" xml:space="preserve">
+    <value>Продажа '%(vehName)s' не удалась. Недостаточно золота.</value>
+  </data>
+  <data name="vehicle_sell/not_enough_space" xml:space="preserve">
+    <value>Продажа '%(vehName)s' не удалась. Недостаточно места в Казарме.</value>
+  </data>
+  <data name="vehicle_sell/server_error" xml:space="preserve">
+    <value>Продажа '%(vehName)s' не удалась. Убедитесь, что машина не состоит в формировании, или попробуйте позже.</value>
+  </data>
+  <data name="vehicle_sell/success" xml:space="preserve">
+    <value>'%(vehName)s' успешно продан. Получено %(money)s. %(restoreInfo)s</value>
+  </data>
+  <data name="vehicle_sell/success_dismantling" xml:space="preserve">
+    <value>'%(vehName)s' успешно продан. Получено %(gainMoney)s. Потрачено %(spendMoney)s. %(restoreInfo)s</value>
+  </data>
+  <data name="vehicle_sell/vehicle_cannot_be_sold" xml:space="preserve">
+    <value>Продажа '%(vehName)s' не удалась. Машина будет списана автоматически.</value>
+  </data>
+  <data name="vehicle_sell/vehicle_locked" xml:space="preserve">
+    <value>Продажа '%(vehName)s' не удалась. Машина заблокирована.</value>
+  </data>
+  <data name="vehicle_sell/vehicle_need_repair" xml:space="preserve">
+    <value>Продажа '%(vehName)s' не удалась. Машине необходим ремонт.</value>
+  </data>
+  <data name="vehicle_sell/vehicle_sell_limit" xml:space="preserve">
+    <value>Продажа '%(vehName)s' не удалась. Вы исчерпали лимит продажи техники на сегодняшний день.</value>
+  </data>
+  <data name="vehicle_sell/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="vehicle_slot_buy/not_enough_gold" xml:space="preserve">
+    <value>Ошибка покупки слота. Недостаточно золота.</value>
+  </data>
+  <data name="vehicle_slot_buy/server_error" xml:space="preserve">
+    <value>Ошибка покупки слота. Попробуйте позже.</value>
+  </data>
+  <data name="vehicle_slot_buy/success" xml:space="preserve">
+    <value>Куплен дополнительный слот в Ангаре. Потрачено %(money)s.</value>
+  </data>
+  <data name="vehicle_slot_buy/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="vehicle_tmenxp_accelerator/invalid_vehicle" xml:space="preserve">
+    <value>Ошибка изменения ускоренного обучения экипажа '%(vehName)s'. Неправильная машина.</value>
+  </data>
+  <data name="vehicle_tmenxp_accelerator/server_error" xml:space="preserve">
+    <value>Ошибка изменения ускоренного обучения экипажа '%(vehName)s'. Попробуйте позже.</value>
+  </data>
+  <data name="vehicle_tmenxp_accelerator/successFalse" xml:space="preserve">
+    <value>Ускоренное обучение экипажа '%(vehName)s' выключено.</value>
+  </data>
+  <data name="vehicle_tmenxp_accelerator/successTrue" xml:space="preserve">
+    <value>Ускоренное обучение экипажа '%(vehName)s' включено.</value>
+  </data>
+  <data name="vehicle_tmenxp_accelerator/vehicle_locked" xml:space="preserve">
+    <value>Ошибка изменения ускоренного обучения экипажа '%(vehName)s'. Машина заблокирована.</value>
+  </data>
+  <data name="vehicle_tmenxp_accelerator/vehicle_need_repair" xml:space="preserve">
+    <value>Ошибка изменения ускоренного обучения экипажа '%(vehName)s'. Машине необходим ремонт.</value>
+  </data>
+  <data name="vehicle_trade_in/invalid_vehicle" xml:space="preserve">
+    <value>Обмен на '%(vehName)s' не удался. Выбрана неправильная машина.</value>
+  </data>
+  <data name="vehicle_trade_in/not_enough_credits" xml:space="preserve">
+    <value>Обмен на '%(vehName)s' не удался. Недостаточно кредитов.</value>
+  </data>
+  <data name="vehicle_trade_in/not_enough_gold" xml:space="preserve">
+    <value>Обмен на '%(vehName)s' не удался. Недостаточно золота.</value>
+  </data>
+  <data name="vehicle_trade_in/not_enough_space" xml:space="preserve">
+    <value>Обменять '%(tradeOffVehName)s' не удалось. Недостаточно места в Казарме.</value>
+  </data>
+  <data name="vehicle_trade_in/server_error" xml:space="preserve">
+    <value>Обмен на '%(vehName)s' не удался. Ошибка сервера, повторите операцию позже.</value>
+  </data>
+  <data name="vehicle_trade_in/server_error_centerDown" xml:space="preserve">
+    <value>Обмен на '%(vehName)s' не удался. Сервис покупки/обмена техники временно недоступен.</value>
+  </data>
+  <data name="vehicle_trade_in/success" xml:space="preserve">
+    <value>Машина '%(tradeOffVehName)s' списана. Новая машина '%(vehName)s' куплена, потрачено %(price)s.</value>
+  </data>
+  <data name="vehicle_trade_in/vehicle_cannot_be_sold" xml:space="preserve">
+    <value>Обменять '%(tradeOffVehName)s' не удалось. Машина будет списана автоматически.</value>
+  </data>
+  <data name="vehicle_trade_in/vehicle_cannot_trade_in" xml:space="preserve">
+    <value>Обменять '%(vehName)s' не удалось. Машина не подлежит получению по обмену.</value>
+  </data>
+  <data name="vehicle_trade_in/vehicle_cannot_trade_off" xml:space="preserve">
+    <value>Обменять '%(tradeOffVehName)s' не удалось. Машина не подлежит обмену.</value>
+  </data>
+  <data name="vehicle_trade_in/vehicle_locked" xml:space="preserve">
+    <value>Обменять '%(tradeOffVehName)s' не удалось. Машина заблокирована.</value>
+  </data>
+  <data name="vehicle_trade_in/vehicle_need_repair" xml:space="preserve">
+    <value>Обменять '%(tradeOffVehName)s' не удалось. Машине необходим ремонт.</value>
+  </data>
+  <data name="vehicle_trade_in/vehicle_not_found_in_inventory" xml:space="preserve">
+    <value>Обменять '%(tradeOffVehName)s' не удалось. Машины нет на Складе.</value>
+  </data>
+  <data name="vehicle_trade_in/wallet_not_available" xml:space="preserve">
+    <value>Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="video/error" xml:space="preserve">
+    <value>Ошибка воспроизведения видео. Код ошибки: %(code)s.</value>
+  </data>
+  <data name="wallet/available" xml:space="preserve">
+    <value>Синхронизация Единого кошелька прошла успешно. Всё ваше золото и свободный опыт стали доступны.</value>
+  </data>
+  <data name="wallet/available_asia" xml:space="preserve">
+    <value>Синхронизация Единого кошелька прошла успешно. Всё ваше золото, кредиты и свободный опыт стали доступны.</value>
+  </data>
+  <data name="wallet/available_asia_freexp" xml:space="preserve">
+    <value>Синхронизация Единого кошелька прошла успешно. Весь ваш свободный опыт и кредиты стали доступны.</value>
+  </data>
+  <data name="wallet/available_asia_gold" xml:space="preserve">
+    <value>Синхронизация Единого кошелька прошла успешно. Всё ваше золото и кредиты стали доступны.</value>
+  </data>
+  <data name="wallet/available_freexp" xml:space="preserve">
+    <value>Синхронизация Единого кошелька прошла успешно. Весь ваш свободный опыт стал доступен.</value>
+  </data>
+  <data name="wallet/available_gold" xml:space="preserve">
+    <value>Синхронизация Единого кошелька прошла успешно. Всё ваше золото стало доступно.</value>
+  </data>
+  <data name="wallet/not_available" xml:space="preserve">
+    <value>Идёт получение данных о балансе. Всё ваше золото и свободный опыт станут доступны в ближайшее время.</value>
+  </data>
+  <data name="wallet/not_available_asia" xml:space="preserve">
+    <value>Идёт получение данных о балансе. Всё ваше золото, кредиты и свободный опыт станут доступны в ближайшее время.</value>
+  </data>
+  <data name="wallet/not_available_asia_freexp" xml:space="preserve">
+    <value>Идёт получение данных о балансе. Весь ваш свободный опыт и кредиты станут доступны в ближайшее время.</value>
+  </data>
+  <data name="wallet/not_available_asia_gold" xml:space="preserve">
+    <value>Идёт получение данных о балансе. Всё ваше золото и кредиты станут доступны в ближайшее время.</value>
+  </data>
+  <data name="wallet/not_available_freexp" xml:space="preserve">
+    <value>Идёт получение данных о балансе. Весь ваш свободный опыт станет доступен в ближайшее время.</value>
+  </data>
+  <data name="wallet/not_available_gold" xml:space="preserve">
+    <value>Идёт получение данных о балансе. Всё ваше золото станет доступно в ближайшее время.</value>
+  </data>
+  <data name="window/buttons/close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="wrong_slot" xml:space="preserve">
+    <value>Модуль %s '%s' не подходит для слота %s.</value>
+  </data>
+</root>

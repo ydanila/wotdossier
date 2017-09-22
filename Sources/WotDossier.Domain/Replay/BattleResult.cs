@@ -18,5 +18,8 @@ namespace WotDossier.Domain.Replay
         public Dictionary<long, Player> players { get; set; }
         [DataMember]
         public Dictionary<long, VehicleResult> vehicles { get; set; }
-    }
+	    [DataMember]
+	    public string raw { get; set; }
+
+	}
 }

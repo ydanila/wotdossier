@@ -108,8 +108,9 @@
     <Reference Include="System.Data.SQLite.Linq, Version=1.0.105.2, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Data.SQLite.Linq.1.0.105.2\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
     </Reference>
-    <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ValueTuple.4.4.0\lib\net461\System.ValueTuple.dll</HintPath>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ValueTuple, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
     </Reference>
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -146,6 +147,10 @@
     <EmbeddedResource Include="Patch\0.9.20\Resources\ussr_vehicles.resx" />
     <None Include="..\.tools\convert.bat">
       <Link>Tools\convert.bat</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\.tools\convert.cmd">
+      <Link>Tools\convert.cmd</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="..\WotDossier\App.config">
@@ -484,70 +489,22 @@
     <None Include="Replays\0.9.18\18.0.wotreplay">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Replays\0.9.19\19.0.wotreplay">
+    <None Include="Replays\0.9.19\20170821_2250_usa-A84_M48A1_10_hills.wotreplay">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Replays\0.9.1\14003587093213_ussr_Object_140_el_hallouf.wotreplay">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Replays\0.9.20\15050666609991_germany_G89_Leopard1_epic_random_valley.wotreplay">
+    <None Include="Replays\0.9.20\20170829_2233_china-Ch39_WZ120_1G_FT_47_canada_a.wotreplay">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Replays\0.9.20\15050948776929_germany_G42_Maus_caucasus.wotreplay">
+    <None Include="Replays\0.9.20\20170829_2252_czech-Cz04_T50_51_212_epic_random_valley.wotreplay">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Replays\0.9.20\20170906_2318_france-F38_Bat_Chatillon155_58_47_canada_a.wotreplay">
+    <None Include="Replays\0.9.20\20170901_0059_ussr-R134_Object_252U_84_winter.wotreplay">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Replays\0.9.20\20170912_0056_france-F38_Bat_Chatillon155_58_23_westfeld.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Replays\0.9.20\20170912_0105_uk-GB31_Conqueror_Gun_47_canada_a.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Replays\0.9.20\20170912_0114_usa-A84_M48A1_86_himmelsdorf_winter.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Replays\0.9.20\20170912_0125_czech-Cz04_T50_51_114_czech.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Replays\0.9.20\20170912_0130_czech-Cz04_T50_51_84_winter.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Replays\0.9.20\20170912_0137_czech-Cz04_T50_51_13_erlenberg.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Replays\0.9.20\20170912_0147_czech-Cz04_T50_51_29_el_hallouf.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Replays\0.9.20\20170912_0156_czech-Cz04_T50_51_11_murovanka.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Replays\0.9.20\20170912_0209_czech-Cz04_T50_51_07_lakeville.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Replays\0.9.20\20170912_0222_czech-Cz04_T50_51_33_fjord.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Replays\0.9.20\20170912_0238_czech-Cz04_T50_51_02_malinovka.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Replays\0.9.20\20170912_0247_usa-A84_M48A1_37_caucasus.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Replays\0.9.20\20170912_0256_czech-Cz04_T50_51_34_redshire.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Replays\0.9.20\20170912_2122_czech-Cz04_T50_51_212_epic_random_valley.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Replays\0.9.20\20170912_2135_czech-Cz04_T50_51_73_asia_korea.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Replays\0.9.20\20170912_2140_czech-Cz04_T50_51_112_eiffel_tower_ctf.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Replays\0.9.20\20170912_2147_czech-Cz04_T50_51_212_epic_random_valley.wotreplay">
+    <None Include="Replays\0.9.20\20170920_1215_france-F18_Bat_Chatillon25t_22_slough.wotreplay">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Replays\0.9.2\20140713_0042_usa-T57_58_73_asia_korea.wotreplay">

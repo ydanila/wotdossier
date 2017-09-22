@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chain/hint/buyVehicle" xml:space="preserve">
+    <value>PURCHASE A VEHICLE</value>
+  </data>
+  <data name="chain/hint/changeToPveOrRandom" xml:space="preserve">
+    <value>SELECT RANDOM BATTLE OR PROVING GROUND MODE</value>
+  </data>
+  <data name="chain/hint/changeVehicle" xml:space="preserve">
+    <value>VEHICLE UNAVAILABLE</value>
+  </data>
+  <data name="chain1/hint/goToBattle" xml:space="preserve">
+    <value>ENTER BATTLE</value>
+  </data>
+  <data name="chain2/hint/buyItem" xml:space="preserve">
+    <value>PURCHASE MODULE</value>
+  </data>
+  <data name="chain2/hint/goToResearch" xml:space="preserve">
+    <value>GO TO TECH TREE</value>
+  </data>
+  <data name="chain2/hint/noItemsToBuy" xml:space="preserve">
+    <value>ALL MODULES PURCHASED</value>
+  </data>
+  <data name="chain2/hint/noItemsToUnlock" xml:space="preserve">
+    <value>NO MODULES TO RESEARCH</value>
+  </data>
+  <data name="chain2/hint/unlockItem" xml:space="preserve">
+    <value>RESEARCH MODULE</value>
+  </data>
+  <data name="chain3/hint/buyVehicle1Level" xml:space="preserve">
+    <value>PURCHASE TIER I VEHICLE</value>
+  </data>
+  <data name="chain3/hint/buyVehicle2Level" xml:space="preserve">
+    <value>PURCHASE TIER II VEHICLE</value>
+  </data>
+  <data name="chain3/hint/buyVehicle3Level" xml:space="preserve">
+    <value>PURCHASE TIER III VEHICLE</value>
+  </data>
+  <data name="chain3/hint/goToResearch" xml:space="preserve">
+    <value>GO TO TECH TREE</value>
+  </data>
+  <data name="chain3/hint/nextLevel" xml:space="preserve">
+    <value>VEHICLES AVAILABLE FOR RESEARCH</value>
+  </data>
+  <data name="chain3/hint/noNextLevel" xml:space="preserve">
+    <value>NO HIGHER TIER VEHICLES</value>
+  </data>
+  <data name="chain3/hint/selectTankAcademy" xml:space="preserve">
+    <value>SELECT TANK ACADEMY</value>
+  </data>
+  <data name="chain3/hint/selectVehicle1Level" xml:space="preserve">
+    <value>SELECT TIER I VEHICLE</value>
+  </data>
+  <data name="chain3/hint/selectVehicle2Level" xml:space="preserve">
+    <value>SELECT TIER II VEHICLE</value>
+  </data>
+  <data name="chain3/hint/selectVehicle3Level" xml:space="preserve">
+    <value>SELECT TIER III VEHICLE</value>
+  </data>
+  <data name="chain4/hint/applyChanges" xml:space="preserve">
+    <value>CONFIRM CONSUMABLES</value>
+  </data>
+  <data name="chain4/hint/openEquipmentDropDown" xml:space="preserve">
+    <value>OPEN LIST OF CONSUMABLES</value>
+  </data>
+  <data name="chain4/hint/openMaintenanceWindow" xml:space="preserve">
+    <value>OPEN SERVICE WINDOW</value>
+  </data>
+  <data name="chain5/hint/openOptDevicesDropDown" xml:space="preserve">
+    <value>OPEN LIST OF EQUIPMENT</value>
+  </data>
+  <data name="chain6/hint/buyFreeSlot" xml:space="preserve">
+    <value>CLICK ON CORRESPONDING SLOT TO PURCHASE IT</value>
+  </data>
+  <data name="chain7/hint/clickToFightButton" xml:space="preserve">
+    <value>ENTER BATTLE</value>
+  </data>
+  <data name="chain7/hint/noPremiumVehicle" xml:space="preserve">
+    <value>NO PREMIUM VEHICLES</value>
+  </data>
+  <data name="chain7/hint/selectPremiumVehicle" xml:space="preserve">
+    <value>SELECT SPECIAL VEHICLE</value>
+  </data>
+  <data name="chain8/hint/openXPChange" xml:space="preserve">
+    <value>CLICK TO OPEN MENU</value>
+  </data>
+  <data name="chain8/hint/submit" xml:space="preserve">
+    <value>CLICK TO CONFIRM OPERATION</value>
+  </data>
+  <data name="chain9/hint/open" xml:space="preserve">
+    <value>CLICK TO OPEN MENU</value>
+  </data>
+  <data name="chain9/hint/select" xml:space="preserve">
+    <value>SELECT DURATION</value>
+  </data>
+  <data name="chain9/hint/submit" xml:space="preserve">
+    <value>CLICK TO CONFIRM OPERATION</value>
+  </data>
+  <data name="customization/slots" xml:space="preserve">
+    <value>CLICK
+GROUP SLOT</value>
+  </data>
+  <data name="hangarTutorial/customization/image" xml:space="preserve">
+    <value>VARIANTS</value>
+  </data>
+  <data name="hangarTutorial/customization/period" xml:space="preserve">
+    <value>DURATION</value>
+  </data>
+  <data name="hangarTutorial/customization/totalCost" xml:space="preserve">
+    <value>TOTAL COST</value>
+  </data>
+  <data name="hangarTutorial/customization/type" xml:space="preserve">
+    <value>SELECT ELEMENTS</value>
+  </data>
+  <data name="hangarTutorial/personalCase/actionButtons" xml:space="preserve">
+    <value>ACTION BUTTONS</value>
+  </data>
+  <data name="hangarTutorial/personalCase/addActions" xml:space="preserve">
+    <value>ADDITIONAL OPTIONS</value>
+  </data>
+  <data name="hangarTutorial/personalCase/characteristics" xml:space="preserve">
+    <value>MAIN CREW MEMBER CHARACTERISTICS</value>
+  </data>
+  <data name="hangarTutorial/personalCase/perks" xml:space="preserve">
+    <value>TRAINED CREW MEMBER SKILLS AND PERKS</value>
+  </data>
+  <data name="hangarTutorial/research/modules" xml:space="preserve">
+    <value>SELECTED VEHICLE MODULES</value>
+  </data>
+  <data name="hangarTutorial/research/nextVehicles" xml:space="preserve">
+    <value>NEXT VEHICLE(S) IN TECH TREE</value>
+  </data>
+  <data name="hangarTutorial/research/prevVehicles" xml:space="preserve">
+    <value>PREVIOUS VEHICLE(S) IN TECH TREE</value>
+  </data>
+  <data name="hangarTutorial/research/tankInfo" xml:space="preserve">
+    <value>SELECTED VEHICLE DETAILS</value>
+  </data>
+  <data name="hangarTutorial/researchPrem/premAdvantages" xml:space="preserve">
+    <value>PREMIUM VEHICLE BENEFITS</value>
+  </data>
+  <data name="hangarTutorial/researchPrem/tankInfo" xml:space="preserve">
+    <value>SELECTED VEHICLE DETAILS</value>
+  </data>
+  <data name="hangarTutorial/researchTree/researchTree" xml:space="preserve">
+    <value>TECH TREE</value>
+  </data>
+  <data name="hangarTutorial/technicalMaintenance/costAndApply" xml:space="preserve">
+    <value>TOTAL MAINTENANCE COST AND CONFIRMATION BUTTON</value>
+  </data>
+  <data name="hangarTutorial/technicalMaintenance/techAmmunition" xml:space="preserve">
+    <value>VEHICLE AMMUNITION</value>
+  </data>
+  <data name="hangarTutorial/technicalMaintenance/techEquipment" xml:space="preserve">
+    <value>VEHICLE CONSUMABLES</value>
+  </data>
+  <data name="hangarTutorial/technicalMaintenance/techRepair" xml:space="preserve">
+    <value>VEHICLE REPAIRS</value>
+  </data>
+  <data name="messages/request-bonus-failed" xml:space="preserve">
+    <value>An error occurred: unable to proceed to the next mission. Please contact Technical Support Service or try again later.</value>
+  </data>
+  <data name="messages/tutorial-disabled" xml:space="preserve">
+    <value>Unable to continue: tutorial is not available on this server.</value>
+  </data>
+  <data name="onceOnlyHints/falloutQuestsTab" xml:space="preserve">
+    <value>NEW CAMPAIGN
+OF PERSONAL MISSIONS</value>
+  </data>
+  <data name="pveChain/hint/selector" xml:space="preserve">
+    <value>BATTLE MODE SELECTOR</value>
+  </data>
+  <data name="tradeIn/shop" xml:space="preserve">
+    <value>NEW OPTION
+FOR PREMIUM VEHICLES</value>
+  </data>
+  <data name="tutorialQuest/award/quest14" xml:space="preserve">
+    <value>5 days of Premium Account (activated automatically)</value>
+  </data>
+  <data name="tutorialQuest/award/quest4" xml:space="preserve">
+    <value>A single-use 100% discount on purchasing a slot</value>
+  </data>
+  <data name="tutorialQuest/award/quest5" xml:space="preserve">
+    <value>The Tetrarch light tank for five battles with crew members trained to 100%</value>
+  </data>
+  <data name="tutorialQuest/award/quest5/altBonus" xml:space="preserve">
+    <value>You receive 10,000 credits, because you already have this vehicle.</value>
+  </data>
+  <data name="tutorialQuest/award/quest5/kr" xml:space="preserve">
+    <value>The T14 heavy tank for five battles with crew members trained to 100%</value>
+  </data>
+  <data name="tutorialQuest/award/quest6" xml:space="preserve">
+    <value>A single-use 100% discount on converting Combat Experience to Free Experience (up to 1,000 XP) with no time restrictions</value>
+  </data>
+  <data name="tutorialQuest/award/quest7" xml:space="preserve">
+    <value>A single-use 100% discount on Tank Academy for all crew members upon purchase of a new vehicle</value>
+  </data>
+  <data name="tutorialQuest/award/quest8" xml:space="preserve">
+    <value>A 100% discount on Premium Account for 3 days</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest10" xml:space="preserve">
+    <value>Congratulations! You have showed steady progress in the game. New missions and events are now available.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest11" xml:space="preserve">
+    <value>Congratulations! You have learned how to give first aid in battle. Remember that injured crew members are significantly less effective at performing their duties; therefore, you should try to heal them as soon as you can.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest12" xml:space="preserve">
+    <value>Congratulations! You have learned how to use Repair Kits. Remember that damaged or destroyed modules significantly reduce vehicle characteristics in battle and sometimes increase the chance of fire or ammo rack explosion.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest13" xml:space="preserve">
+    <value>Congratulations! You have learned how to use Fire Extinguishers. Remember that a vehicle on fire quickly loses its hit points and working modules; therefore, try to extinguish fire as fast as you can.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest14" xml:space="preserve">
+    <value>Congratulations! You have learned to mount equipment that can be demounted for free (simple equipment) or for a fee (complex equipment) if necessary, and then sent to the Depot or transferred to another vehicle.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest2" xml:space="preserve">
+    <value>Congratulations! You have fought your first battle and earned credits and Combat Experience. Now we will show you how you can spend them.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest3" xml:space="preserve">
+    <value>Congratulations! You have just upgraded your vehicle. Now try out the effectiveness of the newly mounted modules in a few battles.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest4" xml:space="preserve">
+    <value>Congratulations! You have purchased a vehicle of a higher tier. The higher the tier of the vehicle you drive into battle, the more credits you earn after the battle; however, the difficulty of the game will also increase.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest5" xml:space="preserve">
+    <value>Congratulations! Now you know how to enlarge the Garage. You can also purchase a slot when purchasing a new vehicle. To free up a slot, you can sell one of your vehicles.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest6" xml:space="preserve">
+    <value>Congratulations! You have fought the required number of battles in the %(vehName)s.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest7" xml:space="preserve">
+    <value>Congratulations! You have learned how to convert Combat Experience to Free Experience.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest8" xml:space="preserve">
+    <value>Congratulations! Now you have a wide selection of vehicles to research. Pick a high tier vehicle and research all vehicles leading to it.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/description/quest9" xml:space="preserve">
+    <value>Congratulations! Your Premium Account will be active for the selected duration. You can extend your Premium Account after it expires.</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/header" xml:space="preserve">
+    <value>Mission "%(qName)s" Completed!</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/nextQuest" xml:space="preserve">
+    <value>Display the next mission</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title" xml:space="preserve">
+    <value>Training Mission Completed</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest10" xml:space="preserve">
+    <value>Training Mission Completed</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest11" xml:space="preserve">
+    <value>Training Mission Completed</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest12" xml:space="preserve">
+    <value>Training Mission Completed</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest13" xml:space="preserve">
+    <value>Training Mission Completed</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest14" xml:space="preserve">
+    <value>Training Mission Completed</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest2" xml:space="preserve">
+    <value>First Battle Completed</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest3" xml:space="preserve">
+    <value>Training Mission Completed</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest4" xml:space="preserve">
+    <value>Training Mission Completed</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest5" xml:space="preserve">
+    <value>Training Mission Completed</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest6" xml:space="preserve">
+    <value>Training Mission Completed</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest7" xml:space="preserve">
+    <value>Training Mission Completed</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest8" xml:space="preserve">
+    <value>Training Mission Completed</value>
+  </data>
+  <data name="tutorialQuest/awardWindow/title/quest9" xml:space="preserve">
+    <value>Training Mission Completed</value>
+  </data>
+  <data name="tutorialQuest/condition/quest1" xml:space="preserve">
+    <value>Complete the Battle Tutorial to learn basic battle principles.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest10" xml:space="preserve">
+    <value>Research and purchase any Tier IV vehicle.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest11/chain" xml:space="preserve">
+    <value>Purchase a First Aid Kit and equip it in a consumable slot.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest11/video" xml:space="preserve">
+    <value>Use a First Aid Kit to heal an injured crew member.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest12/chain" xml:space="preserve">
+    <value>Purchase a Repair Kit and equip it in a consumable slot.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest12/video" xml:space="preserve">
+    <value>Use a Repair Kit to repair a damaged or destroyed module.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest13/chain" xml:space="preserve">
+    <value>Purchase a Fire Extinguisher and equip it in a consumable slot.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest13/video" xml:space="preserve">
+    <value>Enter a battle with a Fire Extinguisher equipped.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest14/chain" xml:space="preserve">
+    <value>Mount equipment on your vehicle.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest2" xml:space="preserve">
+    <value>Fight one battle against real enemies (in the Random Battle mode) or bots (in the Proving Ground mode).</value>
+  </data>
+  <data name="tutorialQuest/condition/quest3" xml:space="preserve">
+    <value>Research and mount a vehicle module.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest4" xml:space="preserve">
+    <value>Research and purchase any Tier II vehicle.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest5" xml:space="preserve">
+    <value>Purchase a slot for a vehicle.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest6" xml:space="preserve">
+    <value>Fight 5 battles in the %(vehName)s.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest7" xml:space="preserve">
+    <value>Convert Combat Experience earned on rented or Elite vehicles to Free Experience.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest8" xml:space="preserve">
+    <value>Research and purchase any Tier III vehicle.</value>
+  </data>
+  <data name="tutorialQuest/condition/quest9" xml:space="preserve">
+    <value>Use the 100% discount on purchasing Premium Account.</value>
+  </data>
+  <data name="tutorialQuest/description/quest1" xml:space="preserve">
+    <value>Welcome! This training will help you to quickly learn the basics of the game and join the united community of World of Tanks players.</value>
+  </data>
+  <data name="tutorialQuest/description/quest10" xml:space="preserve">
+    <value>The purpose of different vehicles becomes more obvious at higher tiers; some vehicles deal huge damage, others break through defensive lines and hold positions, and others are used as scouts. Try various types of vehicles in battle to find the one that matches your play style.</value>
+  </data>
+  <data name="tutorialQuest/description/quest11" xml:space="preserve">
+    <value>There is a category of game items called "Consumables". To view the list of Consumables available for purchase, click on the corresponding slot (or go to the Store). Small First Aid Kits heal one crew member. Large First Aid Kits add a bonus to protection from critical hits and heal all injured crew members.</value>
+  </data>
+  <data name="tutorialQuest/description/quest12" xml:space="preserve">
+    <value>Small Repair Kits are used for full and immediate repair of one damaged module or two damaged tracks. Large Repair Kits add a bonus to repair speed and repair all damaged modules.</value>
+  </data>
+  <data name="tutorialQuest/description/quest13" xml:space="preserve">
+    <value>There is a chance that a precise hit from the enemy will set your vehicle on fire. Fire inflicts serious harm and damages modules; therefore, it should be your priority to extinguish fires as quickly as possible. When used, Manual Fire Extinguishers put out fire. Automatic Fire Extinguishers reduce the chance of fire and are automatically activated when your vehicle is set on fire.</value>
+  </data>
+  <data name="tutorialQuest/description/quest14" xml:space="preserve">
+    <value>Additional equipment will help you to make your vehicle even more effective by improving its characteristics. Choose wisely, as only three equipment slots are available for each vehicle.</value>
+  </data>
+  <data name="tutorialQuest/description/quest2" xml:space="preserve">
+    <value>You are about to face a real enemy. It is time to join your first real battle.</value>
+  </data>
+  <data name="tutorialQuest/description/quest3" xml:space="preserve">
+    <value>When you purchase a vehicle, it is not as effective as it can be because it has standard modules mounted. To improve vehicle characteristics, research, purchase, and mount better modules.</value>
+  </data>
+  <data name="tutorialQuest/description/quest4" xml:space="preserve">
+    <value>Each nation in the game has various technical branches. When you start with a Tier I vehicle, you are free to select any branch you wish to reach the cherished vehicle of the maximum tier.</value>
+  </data>
+  <data name="tutorialQuest/description/quest5" xml:space="preserve">
+    <value>Slots in the Garage are used to store vehicles. Each vehicle in the Garage uses one slot, so make sure that there is a free slot before purchasing a vehicle.</value>
+  </data>
+  <data name="tutorialQuest/description/quest6" xml:space="preserve">
+    <value>Premium vehicles earn more credits and experience in each battle. You can purchase them in the Store or on the game portal, or rent some of them for a specified period.</value>
+  </data>
+  <data name="tutorialQuest/description/quest7" xml:space="preserve">
+    <value>Combat Experience earned in Elite or Premium vehicles can be converted to Free Experience that can be used to research any vehicle or module. In addition, about 5% of all experience earned in each battle is converted to Free Experience.</value>
+  </data>
+  <data name="tutorialQuest/description/quest8" xml:space="preserve">
+    <value>The higher the tier of your vehicle, the more obvious its role in battle. Spend Combat Experience to research new vehicles and join battles in them.</value>
+  </data>
+  <data name="tutorialQuest/description/quest9" xml:space="preserve">
+    <value>Premium Account allows you to earn more credits and experience in any vehicle, which saves time and speeds up research.</value>
+  </data>
+  <data name="tutorialQuest/helpBtn/hint" xml:space="preserve">
+    <value>CLICK TO VIEW TIP</value>
+  </data>
+  <data name="tutorialQuest/questsControl/hint" xml:space="preserve">
+    <value>TRAINING MISSIONS AVAILABLE</value>
+  </data>
+  <data name="tutorialQuest/title/quest1" xml:space="preserve">
+    <value>Training Camp</value>
+  </data>
+  <data name="tutorialQuest/title/quest10" xml:space="preserve">
+    <value>Further Research</value>
+  </data>
+  <data name="tutorialQuest/title/quest11" xml:space="preserve">
+    <value>First Aid</value>
+  </data>
+  <data name="tutorialQuest/title/quest12" xml:space="preserve">
+    <value>Field Repairs</value>
+  </data>
+  <data name="tutorialQuest/title/quest13" xml:space="preserve">
+    <value>Fire Safety</value>
+  </data>
+  <data name="tutorialQuest/title/quest14" xml:space="preserve">
+    <value>Improved Loadout</value>
+  </data>
+  <data name="tutorialQuest/title/quest2" xml:space="preserve">
+    <value>Trial by Fire</value>
+  </data>
+  <data name="tutorialQuest/title/quest3" xml:space="preserve">
+    <value>Improving Performance</value>
+  </data>
+  <data name="tutorialQuest/title/quest4" xml:space="preserve">
+    <value>New Research</value>
+  </data>
+  <data name="tutorialQuest/title/quest5" xml:space="preserve">
+    <value>Enlarging Garage</value>
+  </data>
+  <data name="tutorialQuest/title/quest6" xml:space="preserve">
+    <value>Battle Continues</value>
+  </data>
+  <data name="tutorialQuest/title/quest7" xml:space="preserve">
+    <value>Converting Experience</value>
+  </data>
+  <data name="tutorialQuest/title/quest8" xml:space="preserve">
+    <value>Design Bureau</value>
+  </data>
+  <data name="tutorialQuest/title/quest9" xml:space="preserve">
+    <value>Faster Research</value>
+  </data>
+  <data name="tutorialQuest/video/fireExtinguisherHelp" xml:space="preserve">
+    <value>Using Manual Fire Extinguisher</value>
+  </data>
+  <data name="tutorialQuest/video/medkitHelp" xml:space="preserve">
+    <value>Using First Aid Kit</value>
+  </data>
+  <data name="tutorialQuest/video/repairkitHelp" xml:space="preserve">
+    <value>Using Repair Kit</value>
+  </data>
+</root>

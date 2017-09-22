@@ -1835,6 +1835,9 @@ Lieutenant General of Tank Forces, Nikolay Popel, a Soviet military leader and p
   <data name="BattleType_Ctf30x30" xml:space="preserve">
     <value>Grand Battle</value>
   </data>
+  <data name="BattleType_Ranked" xml:space="preserve">
+    <value>Ranked Battle</value>
+  </data>
   <data name="ChartLegend_AvgDamage" xml:space="preserve">
     <value>Avg damage</value>
   </data>

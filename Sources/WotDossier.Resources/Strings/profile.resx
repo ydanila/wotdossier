@@ -1,0 +1,1560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="profile/dropdown/battlesType" xml:space="preserve">
+    <value>Battle Mode:</value>
+  </data>
+  <data name="profile/dropdown/existence" xml:space="preserve">
+    <value>Available:</value>
+  </data>
+  <data name="profile/dropdown/labels/all" xml:space="preserve">
+    <value>Random, Tank Company</value>
+  </data>
+  <data name="profile/dropdown/labels/clan" xml:space="preserve">
+    <value>Global Map</value>
+  </data>
+  <data name="profile/dropdown/labels/epicRandom" xml:space="preserve">
+    <value>Grand Battle</value>
+  </data>
+  <data name="profile/dropdown/labels/fallout" xml:space="preserve">
+    <value>Rampage</value>
+  </data>
+  <data name="profile/dropdown/labels/fortifications" xml:space="preserve">
+    <value>Stronghold: Battles</value>
+  </data>
+  <data name="profile/dropdown/labels/fortifications/battles" xml:space="preserve">
+    <value>Advance</value>
+  </data>
+  <data name="profile/dropdown/labels/fortifications/sorties" xml:space="preserve">
+    <value>Skirmishes</value>
+  </data>
+  <data name="profile/dropdown/labels/historical" xml:space="preserve">
+    <value>Historical Battle</value>
+  </data>
+  <data name="profile/dropdown/labels/random" xml:space="preserve">
+    <value>Random Battle</value>
+  </data>
+  <data name="profile/dropdown/labels/ranked" xml:space="preserve">
+    <value>Ranked</value>
+  </data>
+  <data name="profile/dropdown/labels/staticTeam" xml:space="preserve">
+    <value>Team: Ranked Battles</value>
+  </data>
+  <data name="profile/dropdown/labels/staticTeam/season" xml:space="preserve">
+    <value>Team: Ranked Battles</value>
+  </data>
+  <data name="profile/dropdown/labels/team" xml:space="preserve">
+    <value>Team: Unranked Battles</value>
+  </data>
+  <data name="profile/params/tooltip/achievementsCount/body" xml:space="preserve">
+    <value>Awards received in Battlefield category</value>
+  </data>
+  <data name="profile/params/tooltip/achievementsCount/header" xml:space="preserve">
+    <value>Awards</value>
+  </data>
+  <data name="profile/params/tooltip/armorUsing/body" xml:space="preserve">
+    <value>Ratio of damage blocked by armor to damage received, from non-penetrating hits and ricochets of AP, HEAT, and APCR shells. Potential damage from HE and HESH shells is not counted.
+• Average damage blocked by armor from these types of shells: %(value_0)s</value>
+  </data>
+  <data name="profile/params/tooltip/armorUsing/header" xml:space="preserve">
+    <value>Armor-Use Efficiency</value>
+  </data>
+  <data name="profile/params/tooltip/assistedStunDamage/body" xml:space="preserve">
+    <value>Total amount of damage caused to stunned enemy vehicles</value>
+  </data>
+  <data name="profile/params/tooltip/assistedStunDamage/header" xml:space="preserve">
+    <value>Damage to Enemy Vehicles Stunned by You</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedDamage/body" xml:space="preserve">
+    <value>Including:
+• Damage upon your spotting
+• Damage upon your destroying a track</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedDamage/header" xml:space="preserve">
+    <value>Average Damage Caused with Your Assistance</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedDamage/shortOther/body" xml:space="preserve">
+    <value>Including:
+• Damage upon player's spotting
+• Damage upon player's destroying a track</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedDamage/shortOther/header" xml:space="preserve">
+    <value>Damage Caused with Player's Assistance</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedDamage/shortSelf/body" xml:space="preserve">
+    <value>Including:
+• Damage upon your spotting
+• Damage upon your destroying a track</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedDamage/shortSelf/header" xml:space="preserve">
+    <value>Damage Caused with Your Assistance</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedStunDamage/body" xml:space="preserve">
+    <value>Ratio of total amount of damage caused to stunned enemy vehicles to the number of battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedStunDamage/header" xml:space="preserve">
+    <value>Damage to Enemy Vehicles Stunned by You</value>
+  </data>
+  <data name="profile/params/tooltip/avgDamage/body" xml:space="preserve">
+    <value>Ratio of total damage caused to number of battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/avgDamage/header" xml:space="preserve">
+    <value>Average Damage per Battle</value>
+  </data>
+  <data name="profile/params/tooltip/avgDestroyedVehicles/body" xml:space="preserve">
+    <value>Ratio of total number of enemy vehicles destroyed to number of battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/avgDestroyedVehicles/header" xml:space="preserve">
+    <value>Enemy Vehicles Destroyed</value>
+  </data>
+  <data name="profile/params/tooltip/avgDetectedEnemies/body" xml:space="preserve">
+    <value>Ratio of total number of enemy vehicles spotted to number of battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/avgDetectedEnemies/header" xml:space="preserve">
+    <value>Enemy Vehicles Spotted</value>
+  </data>
+  <data name="profile/params/tooltip/avgDmg/short/body" xml:space="preserve">
+    <value>Ratio of total damage caused to number of battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/avgDmg/short/header" xml:space="preserve">
+    <value>Damage Caused</value>
+  </data>
+  <data name="profile/params/tooltip/avgEx/short/body" xml:space="preserve">
+    <value>Ratio of total experience points earned to number of battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/avgEx/short/header" xml:space="preserve">
+    <value>Experience</value>
+  </data>
+  <data name="profile/params/tooltip/avgExp/body" xml:space="preserve">
+    <value>Ratio of total experience points earned to number of battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/avgExp/header" xml:space="preserve">
+    <value>Average Experience per Battle</value>
+  </data>
+  <data name="profile/params/tooltip/avgReceivedDamage/body" xml:space="preserve">
+    <value>Ratio of total damage received to number of battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/avgReceivedDamage/header" xml:space="preserve">
+    <value>Damage Received</value>
+  </data>
+  <data name="profile/params/tooltip/avgStunNumber/body" xml:space="preserve">
+    <value>Ratio of total number of hits that stunned the enemy crew to the number of battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/avgStunNumber/header" xml:space="preserve">
+    <value>Number of Stuns</value>
+  </data>
+  <data name="profile/params/tooltip/avgVictoryPoints/body" xml:space="preserve">
+    <value>Ratio of total victory points earned to number of battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/avgVictoryPoints/header" xml:space="preserve">
+    <value>Average Number of Victory Points</value>
+  </data>
+  <data name="profile/params/tooltip/battlesCount/body" xml:space="preserve">
+    <value>Total number of battles fought, including:
+• Victories: %(value_0)s
+• Defeats: %(value_1)s
+• Draws: %(value_2)s</value>
+  </data>
+  <data name="profile/params/tooltip/battlesCount/header" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="profile/params/tooltip/capturePoints/body" xml:space="preserve">
+    <value>Number of enemy base capture points earned</value>
+  </data>
+  <data name="profile/params/tooltip/capturePoints/header" xml:space="preserve">
+    <value>Base Capture Points</value>
+  </data>
+  <data name="profile/params/tooltip/clan/summaryDamageCoefficient/body" xml:space="preserve">
+    <value>Ratio of "Damage caused" to "Damage received" for all battle levels, considering that:
+• Damage caused: %(value_0)s
+• Damage received: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/clan/summaryDamageCoefficient/header" xml:space="preserve">
+    <value>Average Damage Ratio</value>
+  </data>
+  <data name="profile/params/tooltip/damageCoeff/body" xml:space="preserve">
+    <value>Ratio of "Damage caused" to "Damage received," considering that:
+• Damage caused: %(value_0)s
+• Damage received: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/damageCoeff/header" xml:space="preserve">
+    <value>Damage Ratio</value>
+  </data>
+  <data name="profile/params/tooltip/destroyCoeff/body" xml:space="preserve">
+    <value>Ratio of enemy vehicles destroyed to number of times the player's vehicle was destroyed, considering that:
+• Enemy vehicles destroyed: %(value_0)s
+• Player's vehicle destroyed: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/destroyCoeff/header" xml:space="preserve">
+    <value>Destruction Ratio</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/armorUsing/body" xml:space="preserve">
+    <value>Ratio of damage blocked by armor to damage received, from non-penetrating hits and ricochets of AP, HEAT, and APCR shells. Damage from Combat Reserves, HE and HESH shells is not counted. 
+• Average damage blocked by armor from these types of shells: %(value_0)s</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/armorUsing/header" xml:space="preserve">
+    <value>Armor-Use Efficiency</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDamage/body" xml:space="preserve">
+    <value>Ratio of total damage caused (including with Combat Reserves) to number of battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDamage/header" xml:space="preserve">
+    <value>Average Damage per Battle</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body" xml:space="preserve">
+    <value>Ratio of total number of enemy vehicles destroyed (including by Combat Reserves) to number of battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header" xml:space="preserve">
+    <value>Enemy Vehicles Destroyed</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body" xml:space="preserve">
+    <value>Ratio of total number of enemy vehicles destroyed (not including Combat Reserves) to number of battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header" xml:space="preserve">
+    <value>Enemy Vehicles Destroyed</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDmg/short/body" xml:space="preserve">
+    <value>Ratio of total damage caused (including by Combat Reserves) to number of battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDmg/short/header" xml:space="preserve">
+    <value>Damage Caused</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body" xml:space="preserve">
+    <value>Ratio of total damage caused (not including Combat Reserves) to number of battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header" xml:space="preserve">
+    <value>Damage Caused</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgReceivedDamage/body" xml:space="preserve">
+    <value>Ratio of total damage received (including by Combat Reserves) to number of battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgReceivedDamage/header" xml:space="preserve">
+    <value>Damage Received</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/battlesCount/body" xml:space="preserve">
+    <value>Total number of battles fought, including: 
+• Victories: %(value_0)s</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/battlesCount/header" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/damageCoeff/body" xml:space="preserve">
+    <value>Ratio of "Damage caused" to "Damage received" (including by Combat Reserves), considering that: 
+• Damage caused by your vehicles: %(value_0)s
+• Damage caused by Combat Reserves: %(value_2)s
+• Damage received from enemy vehicles and Combat Reserves: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/damageCoeff/header" xml:space="preserve">
+    <value>Damage Ratio</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body" xml:space="preserve">
+    <value>Ratio of "Damage caused" to "Damage received" (not including Combat Reserves), considering that:
+• Damage caused: %(value_0)s
+• Damage received: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header" xml:space="preserve">
+    <value>Damage Ratio</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/destroyCoeff/body" xml:space="preserve">
+    <value>Ratio of enemy vehicles destroyed to number of times the player's vehicle was destroyed (including by Combat Reserves), considering that:
+• Enemy vehicles destroyed by your vehicles: %(value_0)s
+• Enemy vehicles destroyed by Combat Reserves: %(value_2)s
+• Player's vehicles destroyed by enemy vehicles and Combat Reserves: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/destroyCoeff/header" xml:space="preserve">
+    <value>Destruction Ratio</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body" xml:space="preserve">
+    <value>Ratio of enemy vehicles destroyed to number of times the player's vehicle was destroyed (not including Combat Reserves), considering that:
+• Enemy vehicles destroyed: %(value_0)s
+• Player's vehicles destroyed: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header" xml:space="preserve">
+    <value>Destruction Ratio</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/hits/body" xml:space="preserve">
+    <value>Accuracy of firing at enemy vehicles (not including Combat Reserves)</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/hits/header" xml:space="preserve">
+    <value>Hits</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/maxDamage/body" xml:space="preserve">
+    <value>Achieved record includes Combat Reserves.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/maxDamage/header" xml:space="preserve">
+    <value>Most Damage in a Battle</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/maxDamage/vehicle/body" xml:space="preserve">
+    <value>Achieved record does not include Combat Reserves.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/maxDamage/vehicle/header" xml:space="preserve">
+    <value>Most Damage in a Battle</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/maxDestroyed/body" xml:space="preserve">
+    <value>Achieved record includes Combat Reserves.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/maxDestroyed/header" xml:space="preserve">
+    <value>Most Vehicles Destroyed in a Battle</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body" xml:space="preserve">
+    <value>Achieved record does not include Combat Reserves.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header" xml:space="preserve">
+    <value>Most Vehicles Destroyed in a Battle</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/wins/body" xml:space="preserve">
+    <value>Total number of victories</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/wins/header" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fort/battlesCount/body" xml:space="preserve">
+    <value>Total number of battles fought, including:
+• Victories: %(value_0)s
+• Defeats: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fort/battlesCount/header" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="profile/params/tooltip/droppedCapturePoints/body" xml:space="preserve">
+    <value>Number of ally base defense points earned</value>
+  </data>
+  <data name="profile/params/tooltip/droppedCapturePoints/header" xml:space="preserve">
+    <value>Base Defense Points</value>
+  </data>
+  <data name="profile/params/tooltip/flagsAbsorbed/body" xml:space="preserve">
+    <value>Total number of flags destroyed</value>
+  </data>
+  <data name="profile/params/tooltip/flagsAbsorbed/header" xml:space="preserve">
+    <value>Flags Destroyed</value>
+  </data>
+  <data name="profile/params/tooltip/flagsDelivered/body" xml:space="preserve">
+    <value>Total number of flags delivered to your base</value>
+  </data>
+  <data name="profile/params/tooltip/flagsDelivered/header" xml:space="preserve">
+    <value>Flags Delivered</value>
+  </data>
+  <data name="profile/params/tooltip/fort/battles/body" xml:space="preserve">
+    <value>Total Advances, including:
+• Victories: %(value_0)s
+• Defeats: %(value_1)s
+• Draws: %(value_2)s.</value>
+  </data>
+  <data name="profile/params/tooltip/fort/battles/header" xml:space="preserve">
+    <value>Advances</value>
+  </data>
+  <data name="profile/params/tooltip/fort/battlesWinsEfficiency/body" xml:space="preserve">
+    <value>Total rate of victories in Advances</value>
+  </data>
+  <data name="profile/params/tooltip/fort/battlesWinsEfficiency/header" xml:space="preserve">
+    <value>Victories in Advances</value>
+  </data>
+  <data name="profile/params/tooltip/fort/looting/body" xml:space="preserve">
+    <value>Total number of enemy Strongholds successfully pillaged</value>
+  </data>
+  <data name="profile/params/tooltip/fort/looting/header" xml:space="preserve">
+    <value>Pillages</value>
+  </data>
+  <data name="profile/params/tooltip/fort/resource/body" xml:space="preserve">
+    <value>Ratio of total Industrial Resource earned to the number of Skirmishes conducted</value>
+  </data>
+  <data name="profile/params/tooltip/fort/resource/header" xml:space="preserve">
+    <value>Average Plunder per Skirmish</value>
+  </data>
+  <data name="profile/params/tooltip/fort/sortie/body" xml:space="preserve">
+    <value>Total number of Skirmishes conducted, including:
+• Victories: %(value_0)s
+• Defeats: %(value_1)s
+• Draws: %(value_2)s</value>
+  </data>
+  <data name="profile/params/tooltip/fort/sortie/header" xml:space="preserve">
+    <value>Skirmishes</value>
+  </data>
+  <data name="profile/params/tooltip/fort/sortieWinsEfficiency/body" xml:space="preserve">
+    <value>Total rate of victories in Skirmishes</value>
+  </data>
+  <data name="profile/params/tooltip/fort/sortieWinsEfficiency/header" xml:space="preserve">
+    <value>Victories in Skirmishes</value>
+  </data>
+  <data name="profile/params/tooltip/fortBattles/attacks/body" xml:space="preserve">
+    <value>Total number of attacks on enemy Strongholds.
+Counted only if you fought at least one clash during the attack.</value>
+  </data>
+  <data name="profile/params/tooltip/fortBattles/attacks/header" xml:space="preserve">
+    <value>Attacks</value>
+  </data>
+  <data name="profile/params/tooltip/fortBattles/defences/body" xml:space="preserve">
+    <value>Total number of defensive actions in your Stronghold.
+Counted only if you fought at least one clash during the Defense Period.</value>
+  </data>
+  <data name="profile/params/tooltip/fortBattles/defences/header" xml:space="preserve">
+    <value>Defensive Actions</value>
+  </data>
+  <data name="profile/params/tooltip/fortBattlesWins/body" xml:space="preserve">
+    <value>Total rate of victories in Advances</value>
+  </data>
+  <data name="profile/params/tooltip/fortBattlesWins/header" xml:space="preserve">
+    <value>Victories in Advances</value>
+  </data>
+  <data name="profile/params/tooltip/fortSortieWins/body" xml:space="preserve">
+    <value>Total rate of victories in Skirmishes</value>
+  </data>
+  <data name="profile/params/tooltip/fortSortieWins/header" xml:space="preserve">
+    <value>Victories in Skirmishes</value>
+  </data>
+  <data name="profile/params/tooltip/fortSorties/avgResources/body" xml:space="preserve">
+    <value>Ratio of total Industrial Resource earned to the number of Skirmishes conducted</value>
+  </data>
+  <data name="profile/params/tooltip/fortSorties/avgResources/header" xml:space="preserve">
+    <value>Average Amount of Plunder per Skirmish</value>
+  </data>
+  <data name="profile/params/tooltip/fortSorties/totalResources/body" xml:space="preserve">
+    <value>Total amount of Industrial Resource earned in all Skirmishes conducted</value>
+  </data>
+  <data name="profile/params/tooltip/fortSorties/totalResources/header" xml:space="preserve">
+    <value>Total Amount of Plunder Earned in All Skirmishes</value>
+  </data>
+  <data name="profile/params/tooltip/hits/body" xml:space="preserve">
+    <value>Accuracy of firing at enemy vehicles</value>
+  </data>
+  <data name="profile/params/tooltip/hits/header" xml:space="preserve">
+    <value>Hit Ratio</value>
+  </data>
+  <data name="profile/params/tooltip/kdr/body" xml:space="preserve">
+    <value>Ratio of enemy vehicles destroyed to number of times the player's vehicle was destroyed (including Combat Reserves), considering that:
+• Enemy vehicles destroyed by your vehicles: %(value_0)s
+• Enemy vehicles destroyed by Combat Reserves: %(value_1)s
+• Player's vehicles destroyed by enemy vehicles and Combat Reserves: %(value_2)s</value>
+  </data>
+  <data name="profile/params/tooltip/kdr/header" xml:space="preserve">
+    <value>Destruction Ratio</value>
+  </data>
+  <data name="profile/params/tooltip/markOfMastery/body" xml:space="preserve">
+    <value>Ace Tanker Mastery Badges received in all relevant battle modes / Number of vehicles that have fought in at least one Random Battle</value>
+  </data>
+  <data name="profile/params/tooltip/markOfMastery/header" xml:space="preserve">
+    <value>Mastery Badge: Ace Tanker</value>
+  </data>
+  <data name="profile/params/tooltip/markOfMasteryDisabled/body" xml:space="preserve">
+    <value>Mastery Badges are not granted in this battle mode.</value>
+  </data>
+  <data name="profile/params/tooltip/markOfMasteryDisabled/header" xml:space="preserve">
+    <value>Mastery Badge: Ace Tanker</value>
+  </data>
+  <data name="profile/params/tooltip/maxDamage/body" xml:space="preserve">
+    <value>Record achieved in %(value_0)s</value>
+  </data>
+  <data name="profile/params/tooltip/maxDamage/header" xml:space="preserve">
+    <value>Maximum Damage in a Battle</value>
+  </data>
+  <data name="profile/params/tooltip/maxDamage/vehicle/body" xml:space="preserve">
+    <value>Most damage caused to enemy vehicles in a battle.</value>
+  </data>
+  <data name="profile/params/tooltip/maxDamage/vehicle/header" xml:space="preserve">
+    <value>Most Damage</value>
+  </data>
+  <data name="profile/params/tooltip/maxDestroyed/body" xml:space="preserve">
+    <value>Record achieved in %(value_0)s</value>
+  </data>
+  <data name="profile/params/tooltip/maxDestroyed/header" xml:space="preserve">
+    <value>Maximum Destroyed in a Battle</value>
+  </data>
+  <data name="profile/params/tooltip/maxDestroyed/vehicle/body" xml:space="preserve">
+    <value>Most enemy vehicles destroyed in a battle.</value>
+  </data>
+  <data name="profile/params/tooltip/maxDestroyed/vehicle/header" xml:space="preserve">
+    <value>Most Vehicles Destroyed</value>
+  </data>
+  <data name="profile/params/tooltip/maxExp/body" xml:space="preserve">
+    <value>Record achieved in %(value_0)s</value>
+  </data>
+  <data name="profile/params/tooltip/maxExp/header" xml:space="preserve">
+    <value>Maximum Experience in a Battle</value>
+  </data>
+  <data name="profile/params/tooltip/maxExp/vehicle/body" xml:space="preserve">
+    <value>Most experience earned in a battle, including Premium Account.</value>
+  </data>
+  <data name="profile/params/tooltip/maxExp/vehicle/header" xml:space="preserve">
+    <value>Most Experience</value>
+  </data>
+  <data name="profile/params/tooltip/maxExpDisabled/body" xml:space="preserve">
+    <value>Maximum experience is not displayed in this battle mode.</value>
+  </data>
+  <data name="profile/params/tooltip/maxExpDisabled/header" xml:space="preserve">
+    <value>Maximum Experience in a Battle</value>
+  </data>
+  <data name="profile/params/tooltip/maxVictoryPoints/body" xml:space="preserve">
+    <value>Most victory points earned in a battle across all battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/maxVictoryPoints/header" xml:space="preserve">
+    <value>Most Victory Points Earned in a Battle</value>
+  </data>
+  <data name="profile/params/tooltip/maxWinPoints/body" xml:space="preserve">
+    <value>Most victory points earned in a battle across all battles fought</value>
+  </data>
+  <data name="profile/params/tooltip/maxWinPoints/header" xml:space="preserve">
+    <value>Most Victory Points Earned in a Battle</value>
+  </data>
+  <data name="profile/params/tooltip/ranked/avgFrags/body" xml:space="preserve">
+    <value>Average number of enemy vehicles destroyed in a battle</value>
+  </data>
+  <data name="profile/params/tooltip/ranked/avgFrags/header" xml:space="preserve">
+    <value>Average number of vehicles destroyed</value>
+  </data>
+  <data name="profile/params/tooltip/ranked/avgPoints/body" xml:space="preserve">
+    <value>The ratio of battles where a chevron was received to the total number of battles in the mode, where:
+• Battles where a chevron was received: %(value_0)s
+• Total number of battles: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/ranked/avgPoints/header" xml:space="preserve">
+    <value>Ranked Battles Efficiency</value>
+  </data>
+  <data name="profile/params/tooltip/ranked/points/body" xml:space="preserve">
+    <value>Total number of points earned</value>
+  </data>
+  <data name="profile/params/tooltip/ranked/points/header" xml:space="preserve">
+    <value>Rank Points</value>
+  </data>
+  <data name="profile/params/tooltip/stunNumber/body" xml:space="preserve">
+    <value>Total number of hits that stunned the enemy crew</value>
+  </data>
+  <data name="profile/params/tooltip/stunNumber/header" xml:space="preserve">
+    <value>Number of Stuns</value>
+  </data>
+  <data name="profile/params/tooltip/survival/body" xml:space="preserve">
+    <value>Percentage of battles in which player's vehicle was not destroyed</value>
+  </data>
+  <data name="profile/params/tooltip/survival/header" xml:space="preserve">
+    <value>Battles Survived</value>
+  </data>
+  <data name="profile/params/tooltip/totalVehs/body" xml:space="preserve">
+    <value>Total number of different vehicles used</value>
+  </data>
+  <data name="profile/params/tooltip/totalVehs/header" xml:space="preserve">
+    <value>Vehicles Used</value>
+  </data>
+  <data name="profile/params/tooltip/unavailable/fort/battles/body" xml:space="preserve">
+    <value>Total number of Advances.
+
+Parameter is unavailable in the current update.</value>
+  </data>
+  <data name="profile/params/tooltip/unavailable/fort/battles/header" xml:space="preserve">
+    <value>Advances</value>
+  </data>
+  <data name="profile/params/tooltip/unavailable/fort/winsEfficiency/body" xml:space="preserve">
+    <value>Total percentage of victories in Advances.
+
+Parameter is unavailable in the current update.</value>
+  </data>
+  <data name="profile/params/tooltip/unavailable/fort/winsEfficiency/header" xml:space="preserve">
+    <value>Victories in Advances</value>
+  </data>
+  <data name="profile/params/tooltip/unavailableMaxDamage/body" xml:space="preserve">
+    <value>No battles since introduction of the parameter</value>
+  </data>
+  <data name="profile/params/tooltip/unavailableMaxDamage/header" xml:space="preserve">
+    <value>Data Unavailable</value>
+  </data>
+  <data name="profile/params/tooltip/usedTechnics/body" xml:space="preserve">
+    <value>Vehicles that have fought at least one Historical Battle.</value>
+  </data>
+  <data name="profile/params/tooltip/usedTechnics/header" xml:space="preserve">
+    <value>Vehicles Used</value>
+  </data>
+  <data name="profile/params/tooltip/wins/body" xml:space="preserve">
+    <value>Total rate of victories</value>
+  </data>
+  <data name="profile/params/tooltip/wins/header" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="profile/ranked/seasonsdropdown/all" xml:space="preserve">
+    <value>All seasons</value>
+  </data>
+  <data name="profile/ranked/seasonsdropdown/current" xml:space="preserve">
+    <value>Current season</value>
+  </data>
+  <data name="profile/ranked/seasonsdropdown/previous" xml:space="preserve">
+    <value>Previous season</value>
+  </data>
+  <data name="profile/seasonsdropdown/all" xml:space="preserve">
+    <value>All seasons</value>
+  </data>
+  <data name="profile/seasonsdropdown/current" xml:space="preserve">
+    <value>Current season</value>
+  </data>
+  <data name="profile/seasonsdropdown/specific" xml:space="preserve">
+    <value>Season %(date1)s – %(date2)s</value>
+  </data>
+  <data name="profile/summary/clan/btnLabel" xml:space="preserve">
+    <value>Clan Profile</value>
+  </data>
+  <data name="profile/summary/clan/joinDate" xml:space="preserve">
+    <value>Join Date:</value>
+  </data>
+  <data name="profile/summary/clan/post" xml:space="preserve">
+    <value>Position:</value>
+  </data>
+  <data name="profile/summary/club/btnLabel" xml:space="preserve">
+    <value>Team Profile</value>
+  </data>
+  <data name="profile/summary/club/ladder" xml:space="preserve">
+    <value>Leaderboard:</value>
+  </data>
+  <data name="profile/summary/club/ladderInfo" xml:space="preserve">
+    <value>Ladder %(league)s, Division %(division)s</value>
+  </data>
+  <data name="profile/summary/club/post" xml:space="preserve">
+    <value>Position:</value>
+  </data>
+  <data name="profile/summary/nextAwards/tooltip/body" xml:space="preserve">
+    <value>Upcoming awards are attached to the ribbon.</value>
+  </data>
+  <data name="profile/summary/nextAwards/tooltip/header" xml:space="preserve">
+    <value>Subsequent Awards</value>
+  </data>
+  <data name="profile/summary/noGroups" xml:space="preserve">
+    <value>The player has no permanent tactical units.</value>
+  </data>
+  <data name="profile/summary/significantAwards/tooltip/body" xml:space="preserve">
+    <value>The player's most significant awards are attached to the ribbon.</value>
+  </data>
+  <data name="profile/summary/significantAwards/tooltip/header" xml:space="preserve">
+    <value>Valuable Awards</value>
+  </data>
+  <data name="profile/tabs/tooltip/awards/body" xml:space="preserve">
+    <value>View awards and their descriptions.</value>
+  </data>
+  <data name="profile/tabs/tooltip/awards/header" xml:space="preserve">
+    <value>Awards</value>
+  </data>
+  <data name="profile/tabs/tooltip/formations/body" xml:space="preserve">
+    <value>View details about the tactical units in which you were a member.</value>
+  </data>
+  <data name="profile/tabs/tooltip/formations/header" xml:space="preserve">
+    <value>Tactical Units</value>
+  </data>
+  <data name="profile/tabs/tooltip/hof/body" xml:space="preserve">
+    <value>View ratings in the Hall of Fame</value>
+  </data>
+  <data name="profile/tabs/tooltip/hof/header" xml:space="preserve">
+    <value>Hall of Fame</value>
+  </data>
+  <data name="profile/tabs/tooltip/hofDisabled/body" xml:space="preserve">
+    <value>The Hall of Fame is temporarily unavailable. Please try again later.</value>
+  </data>
+  <data name="profile/tabs/tooltip/hofDisabled/header" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="profile/tabs/tooltip/statistics/body" xml:space="preserve">
+    <value>View battle statistics in vehicles of all types.</value>
+  </data>
+  <data name="profile/tabs/tooltip/statistics/header" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="profile/tabs/tooltip/summary/body" xml:space="preserve">
+    <value>View battle performance.</value>
+  </data>
+  <data name="profile/tabs/tooltip/summary/header" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="profile/tabs/tooltip/technique/body" xml:space="preserve">
+    <value>View battle statistics on each vehicle.</value>
+  </data>
+  <data name="profile/tabs/tooltip/technique/header" xml:space="preserve">
+    <value>Vehicles</value>
+  </data>
+  <data name="profile/title" xml:space="preserve">
+    <value>Player's Statistics %s</value>
+  </data>
+  <data name="section/awards/dropdown/labels/all" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="section/awards/dropdown/labels/inProcess" xml:space="preserve">
+    <value>Received</value>
+  </data>
+  <data name="section/awards/dropdown/labels/none" xml:space="preserve">
+    <value>Not received</value>
+  </data>
+  <data name="section/awards/dropdown/tooltip/body" xml:space="preserve">
+    <value>Enable filter to view either all awards or awards received, or awards not received.</value>
+  </data>
+  <data name="section/awards/dropdown/tooltip/header" xml:space="preserve">
+    <value>Award Sorting</value>
+  </data>
+  <data name="section/awards/labels/battleHeroes" xml:space="preserve">
+    <value>Battle Heroes</value>
+  </data>
+  <data name="section/awards/labels/epic" xml:space="preserve">
+    <value>Epic Medals</value>
+  </data>
+  <data name="section/awards/labels/group" xml:space="preserve">
+    <value>Group Awards</value>
+  </data>
+  <data name="section/awards/labels/honorary" xml:space="preserve">
+    <value>Honorary Ranks</value>
+  </data>
+  <data name="section/awards/labels/marksOnGun" xml:space="preserve">
+    <value>Marks of Excellence</value>
+  </data>
+  <data name="section/awards/labels/memory" xml:space="preserve">
+    <value>Commemorative Tokens</value>
+  </data>
+  <data name="section/awards/labels/special" xml:space="preserve">
+    <value>Special</value>
+  </data>
+  <data name="section/awards/labels/stage" xml:space="preserve">
+    <value>Stage Awards</value>
+  </data>
+  <data name="section/awards/title" xml:space="preserve">
+    <value>Awards</value>
+  </data>
+  <data name="section/formations/clan/none" xml:space="preserve">
+    <value>You are not a member of any clan.</value>
+  </data>
+  <data name="section/formations/clan/none/thirdperson" xml:space="preserve">
+    <value>The player is not a member of any clan.</value>
+  </data>
+  <data name="section/formations/clan/type" xml:space="preserve">
+    <value>Clan</value>
+  </data>
+  <data name="section/formations/fort/battles" xml:space="preserve">
+    <value>Advances</value>
+  </data>
+  <data name="section/formations/fort/create" xml:space="preserve">
+    <value>Create Stronghold</value>
+  </data>
+  <data name="section/formations/fort/level" xml:space="preserve">
+    <value>Stronghold level: %s</value>
+  </data>
+  <data name="section/formations/fort/link" xml:space="preserve">
+    <value>Stronghold achievements</value>
+  </data>
+  <data name="section/formations/fort/none" xml:space="preserve">
+    <value>Stronghold not created</value>
+  </data>
+  <data name="section/formations/fort/none/thirdperson" xml:space="preserve">
+    <value>Player's clan does not have a Stronghold.</value>
+  </data>
+  <data name="section/formations/fort/resourceRating" xml:space="preserve">
+    <value>Resource hunter rating</value>
+  </data>
+  <data name="section/formations/fort/sorties" xml:space="preserve">
+    <value>Skirmishes</value>
+  </data>
+  <data name="section/formations/history/battles" xml:space="preserve">
+    <value>Battles as Member</value>
+  </data>
+  <data name="section/formations/history/dates" xml:space="preserve">
+    <value>Joined/Left Date</value>
+  </data>
+  <data name="section/formations/history/datesPattern" xml:space="preserve">
+    <value>%(date1)s – %(date2)s</value>
+  </data>
+  <data name="section/formations/history/team" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="section/formations/history/title" xml:space="preserve">
+    <value>Player's Teams Log</value>
+  </data>
+  <data name="section/formations/joinDate" xml:space="preserve">
+    <value>Join date: %s</value>
+  </data>
+  <data name="section/formations/rank" xml:space="preserve">
+    <value>Player's position: %s</value>
+  </data>
+  <data name="section/formations/team/completedSeason" xml:space="preserve">
+    <value>Season %s (ended)</value>
+  </data>
+  <data name="section/formations/team/find" xml:space="preserve">
+    <value>Go to Permanent Team search</value>
+  </data>
+  <data name="section/formations/team/league" xml:space="preserve">
+    <value>Ladder: %(league)s. Division: %(division)s. Place: %(position)s.</value>
+  </data>
+  <data name="section/formations/team/none" xml:space="preserve">
+    <value>You have no Permanent Teams.</value>
+  </data>
+  <data name="section/formations/team/none/thirdperson" xml:space="preserve">
+    <value>The player has no Permanent Teams.</value>
+  </data>
+  <data name="section/formations/team/season" xml:space="preserve">
+    <value>Season %s</value>
+  </data>
+  <data name="section/formations/team/seasonBattles" xml:space="preserve">
+    <value>Ranked Battles</value>
+  </data>
+  <data name="section/formations/team/seasonWinRate" xml:space="preserve">
+    <value>Victories in the season</value>
+  </data>
+  <data name="section/formations/team/title" xml:space="preserve">
+    <value>Team "%s"</value>
+  </data>
+  <data name="section/formations/team/type" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="section/formations/title" xml:space="preserve">
+    <value>Tactical Units</value>
+  </data>
+  <data name="section/formations/tooltip/fort/battles/body" xml:space="preserve">
+    <value>Total number of Advances, including:
+• Victories: %(wins)s
+• Defeats: %(losses)s
+• Draws: %(draws)s</value>
+  </data>
+  <data name="section/formations/tooltip/fort/battles/header" xml:space="preserve">
+    <value>Advances</value>
+  </data>
+  <data name="section/formations/tooltip/fort/level/body" xml:space="preserve">
+    <value>The level of the Stronghold is equal to the level of its Command Center.</value>
+  </data>
+  <data name="section/formations/tooltip/fort/level/header" xml:space="preserve">
+    <value>Stronghold Level</value>
+  </data>
+  <data name="section/formations/tooltip/fort/link/body" xml:space="preserve">
+    <value>Click to view the clan's Stronghold achievements.</value>
+  </data>
+  <data name="section/formations/tooltip/fort/link/header" xml:space="preserve">
+    <value>Stronghold Achievements</value>
+  </data>
+  <data name="section/formations/tooltip/fort/resourceRating/body" xml:space="preserve">
+    <value>Your place</value>
+  </data>
+  <data name="section/formations/tooltip/fort/resourceRating/header" xml:space="preserve">
+    <value>Resource Hunter Rating</value>
+  </data>
+  <data name="section/formations/tooltip/fort/sorties/body" xml:space="preserve">
+    <value>Total number of Skirmishes conducted, including:
+• Victories: %(wins)s
+• Defeats: %(losses)s
+• Draws: %(draws)s</value>
+  </data>
+  <data name="section/formations/tooltip/fort/sorties/header" xml:space="preserve">
+    <value>Skirmishes</value>
+  </data>
+  <data name="section/formations/tooltip/team/link/body" xml:space="preserve">
+    <value>Click to view the team profile.</value>
+  </data>
+  <data name="section/formations/tooltip/team/link/header" xml:space="preserve">
+    <value>Team Profile</value>
+  </data>
+  <data name="section/formations/tooltip/team/seasonBattles/body" xml:space="preserve">
+    <value>Total number of Ranked Battles fought as a member of this team, including:
+• Victories: %(wins)s
+• Defeats: %(losses)s
+• Draws: %(draws)s</value>
+  </data>
+  <data name="section/formations/tooltip/team/seasonBattles/header" xml:space="preserve">
+    <value>Ranked Battles</value>
+  </data>
+  <data name="section/formations/tooltip/team/seasonWinRate/body" xml:space="preserve">
+    <value>Total rate of victories in Ranked Battles</value>
+  </data>
+  <data name="section/formations/tooltip/team/seasonWinRate/header" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="section/hof/BrowserView/closeBtn" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="section/hof/achievementsRatingsBtn)" xml:space="preserve">
+    <value>Go to Ratings</value>
+  </data>
+  <data name="section/hof/achievementsRatingsTitle)" xml:space="preserve">
+    <value>Achievements
+in Random Battles</value>
+  </data>
+  <data name="section/hof/betaBtn" xml:space="preserve">
+    <value>BETA</value>
+  </data>
+  <data name="section/hof/betaTooltip" xml:space="preserve">
+    <value>The Hall of Fame and World of Tanks Rating
+are in BETA testing</value>
+  </data>
+  <data name="section/hof/mainDescription" xml:space="preserve">
+    <value>View your battle performance and position in the ratings among other players for the selected periods.</value>
+  </data>
+  <data name="section/hof/mainTitle" xml:space="preserve">
+    <value>Hall of Fame</value>
+  </data>
+  <data name="section/hof/notAvailable/tooltip/body" xml:space="preserve">
+    <value>The Hall of Fame is temporarily unavailable. Please try again later.</value>
+  </data>
+  <data name="section/hof/notAvailable/tooltip/header" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="section/hof/statusBtn/hideResults" xml:space="preserve">
+    <value>Show Results</value>
+  </data>
+  <data name="section/hof/statusBtn/showResults" xml:space="preserve">
+    <value>Hide Results</value>
+  </data>
+  <data name="section/hof/statusDescription/exclusion" xml:space="preserve">
+    <value>The application for hiding your results in the ratings has been submitted and will be processed during the next adjustment of results.</value>
+  </data>
+  <data name="section/hof/statusDescription/hideResults" xml:space="preserve">
+    <value>Your rating results are now hidden from other players.</value>
+  </data>
+  <data name="section/hof/statusDescription/inclusion" xml:space="preserve">
+    <value>The application has been submitted and will be processed during the next adjustment of rating positions. Your rating results are now displayed to other players.</value>
+  </data>
+  <data name="section/hof/statusDescription/showResults" xml:space="preserve">
+    <value>Your rating results are displayed to all players, friends, and clan members.</value>
+  </data>
+  <data name="section/hof/title" xml:space="preserve">
+    <value>Hall of Fame</value>
+  </data>
+  <data name="section/hof/vehiclesRatingsBtn)" xml:space="preserve">
+    <value>Go to Ratings</value>
+  </data>
+  <data name="section/hof/vehiclesRatingsTitle)" xml:space="preserve">
+    <value>Vehicles
+in Random Battles</value>
+  </data>
+  <data name="section/statistics/bodyBar/label/charts" xml:space="preserve">
+    <value>Infographics</value>
+  </data>
+  <data name="section/statistics/bodyBar/label/clan10" xml:space="preserve">
+    <value>Tier X</value>
+  </data>
+  <data name="section/statistics/bodyBar/label/clan6" xml:space="preserve">
+    <value>Tier VI</value>
+  </data>
+  <data name="section/statistics/bodyBar/label/clan8" xml:space="preserve">
+    <value>Tier VIII</value>
+  </data>
+  <data name="section/statistics/bodyBar/label/detailed" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="section/statistics/bodyBar/label/fortBattles" xml:space="preserve">
+    <value>Details on Advances</value>
+  </data>
+  <data name="section/statistics/bodyBar/label/fortSortie" xml:space="preserve">
+    <value>Details on Skirmishes</value>
+  </data>
+  <data name="section/statistics/bodyBar/label/specific" xml:space="preserve">
+    <value>Special</value>
+  </data>
+  <data name="section/statistics/bodyParams/label/average" xml:space="preserve">
+    <value>Average Score per Battle</value>
+  </data>
+  <data name="section/statistics/bodyParams/label/common" xml:space="preserve">
+    <value>General Parameters</value>
+  </data>
+  <data name="section/statistics/bodyParams/label/fortBattles" xml:space="preserve">
+    <value>Advances</value>
+  </data>
+  <data name="section/statistics/bodyParams/label/fortSortie" xml:space="preserve">
+    <value>Skirmishes</value>
+  </data>
+  <data name="section/statistics/bodyParams/label/record" xml:space="preserve">
+    <value>Record Score</value>
+  </data>
+  <data name="section/statistics/bodyParams/label/resource" xml:space="preserve">
+    <value>Industrial Resource</value>
+  </data>
+  <data name="section/statistics/chart/level/tooltip/body" xml:space="preserve">
+    <value>Number of battles in vehicles of this tier</value>
+  </data>
+  <data name="section/statistics/chart/level/tooltip/header" xml:space="preserve">
+    <value>Vehicle Tier: %(value)s</value>
+  </data>
+  <data name="section/statistics/chart/levelDisabled7x7/tooltip/body" xml:space="preserve">
+    <value>Only Tier VI–VIII vehicles can fight in this battle mode.</value>
+  </data>
+  <data name="section/statistics/chart/levelDisabled7x7/tooltip/header" xml:space="preserve">
+    <value>Vehicle Tier: %(value)s</value>
+  </data>
+  <data name="section/statistics/chart/levelDisabledFallout/tooltip/body" xml:space="preserve">
+    <value>Only Tier VIII-X vehicles can fight in this battle mode.</value>
+  </data>
+  <data name="section/statistics/chart/levelDisabledFallout/tooltip/header" xml:space="preserve">
+    <value>Vehicle Tier: %(value)s</value>
+  </data>
+  <data name="section/statistics/chart/nation/tooltip/body" xml:space="preserve">
+    <value>Number of battles in vehicles of this nation</value>
+  </data>
+  <data name="section/statistics/chart/nation/tooltip/header" xml:space="preserve">
+    <value>Vehicle Nation: %(value)s</value>
+  </data>
+  <data name="section/statistics/chart/type/tooltip/body" xml:space="preserve">
+    <value>Number of battles in vehicles of this type</value>
+  </data>
+  <data name="section/statistics/chart/type/tooltip/header" xml:space="preserve">
+    <value>Vehicle Type: %(value)s</value>
+  </data>
+  <data name="section/statistics/charts/byLevelLabel" xml:space="preserve">
+    <value>By tier</value>
+  </data>
+  <data name="section/statistics/charts/byNationLabel" xml:space="preserve">
+    <value>By nation</value>
+  </data>
+  <data name="section/statistics/charts/byTypeLabel" xml:space="preserve">
+    <value>By type</value>
+  </data>
+  <data name="section/statistics/detailed/avgAssistedStunDamage" xml:space="preserve">
+    <value>Damage to enemy vehicles stunned by you</value>
+  </data>
+  <data name="section/statistics/detailed/avgDamage" xml:space="preserve">
+    <value>Damage caused to enemy vehicles</value>
+  </data>
+  <data name="section/statistics/detailed/avgDestroyedVehicles" xml:space="preserve">
+    <value>Enemy vehicles destroyed</value>
+  </data>
+  <data name="section/statistics/detailed/avgDetectedEnemies" xml:space="preserve">
+    <value>Enemy vehicles spotted</value>
+  </data>
+  <data name="section/statistics/detailed/avgReceivedDamage" xml:space="preserve">
+    <value>Damage received</value>
+  </data>
+  <data name="section/statistics/detailed/damageCoefficient" xml:space="preserve">
+    <value>Damage ratio</value>
+  </data>
+  <data name="section/statistics/detailed/dealOutDamage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="section/statistics/detailed/destroyed" xml:space="preserve">
+    <value>Destroyed</value>
+  </data>
+  <data name="section/statistics/detailed/destructionCoefficient" xml:space="preserve">
+    <value>Destruction ratio</value>
+  </data>
+  <data name="section/statistics/detailed/killed" xml:space="preserve">
+    <value>Enemy vehicles destroyed</value>
+  </data>
+  <data name="section/statistics/detailed/maxDestroyedVehicles" xml:space="preserve">
+    <value>Maximum destroyed in a battle</value>
+  </data>
+  <data name="section/statistics/detailed/receivedDamage" xml:space="preserve">
+    <value>Damage received</value>
+  </data>
+  <data name="section/statistics/detailed/stunNumber" xml:space="preserve">
+    <value>Number of stuns</value>
+  </data>
+  <data name="section/statistics/headerText/all" xml:space="preserve">
+    <value>Random and tank Company</value>
+  </data>
+  <data name="section/statistics/headerText/clan" xml:space="preserve">
+    <value>Global Map</value>
+  </data>
+  <data name="section/statistics/headerText/epicRandom" xml:space="preserve">
+    <value>Grand Battle</value>
+  </data>
+  <data name="section/statistics/headerText/fallout" xml:space="preserve">
+    <value>Rampage</value>
+  </data>
+  <data name="section/statistics/headerText/fortifications" xml:space="preserve">
+    <value>Stronghold: Battles</value>
+  </data>
+  <data name="section/statistics/headerText/historical" xml:space="preserve">
+    <value>Historical Battles</value>
+  </data>
+  <data name="section/statistics/headerText/ranked" xml:space="preserve">
+    <value>Ranked Battle</value>
+  </data>
+  <data name="section/statistics/headerText/staticTeam" xml:space="preserve">
+    <value>Team: Ranked Battles</value>
+  </data>
+  <data name="section/statistics/headerText/team" xml:space="preserve">
+    <value>Team: Unranked Battles</value>
+  </data>
+  <data name="section/statistics/labels/battlesOnTech" xml:space="preserve">
+    <value>Battles Fought in Vehicles</value>
+  </data>
+  <data name="section/statistics/scores/achievementsCount" xml:space="preserve">
+    <value>Awards</value>
+  </data>
+  <data name="section/statistics/scores/armorUsing" xml:space="preserve">
+    <value>Armor-use efficiency</value>
+  </data>
+  <data name="section/statistics/scores/avgAssistedDamage" xml:space="preserve">
+    <value>Average damage caused with your assistance</value>
+  </data>
+  <data name="section/statistics/scores/avgAssistedDamage/shortOther" xml:space="preserve">
+    <value>Damage caused with player's assistance</value>
+  </data>
+  <data name="section/statistics/scores/avgAssistedDamage/shortSelf" xml:space="preserve">
+    <value>Damage caused with your assistance</value>
+  </data>
+  <data name="section/statistics/scores/avgDamage" xml:space="preserve">
+    <value>Average damage per battle</value>
+  </data>
+  <data name="section/statistics/scores/avgExperience" xml:space="preserve">
+    <value>Average experience per battle</value>
+  </data>
+  <data name="section/statistics/scores/avgExperience/short" xml:space="preserve">
+    <value>Experience</value>
+  </data>
+  <data name="section/statistics/scores/avgVictoryPoints" xml:space="preserve">
+    <value>Average number of victory points</value>
+  </data>
+  <data name="section/statistics/scores/capturePoints" xml:space="preserve">
+    <value>Base capture points</value>
+  </data>
+  <data name="section/statistics/scores/clan/summaryDamageCoefficient" xml:space="preserve">
+    <value>Average damage coefficient</value>
+  </data>
+  <data name="section/statistics/scores/coolSigns" xml:space="preserve">
+    <value>Mastery Badges: Ace Tanker</value>
+  </data>
+  <data name="section/statistics/scores/droppedCapturePoints" xml:space="preserve">
+    <value>Base defense points</value>
+  </data>
+  <data name="section/statistics/scores/flagsAbsorbed" xml:space="preserve">
+    <value>Flags destroyed</value>
+  </data>
+  <data name="section/statistics/scores/flagsDelivered" xml:space="preserve">
+    <value>Flags delivered</value>
+  </data>
+  <data name="section/statistics/scores/fort/battles" xml:space="preserve">
+    <value>Advances</value>
+  </data>
+  <data name="section/statistics/scores/fort/battlesWinsEfficiency" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="section/statistics/scores/fort/resource" xml:space="preserve">
+    <value>Average amount of plunder per Skirmish</value>
+  </data>
+  <data name="section/statistics/scores/fort/sortie" xml:space="preserve">
+    <value>Skirmishes</value>
+  </data>
+  <data name="section/statistics/scores/fort/sortieWinsEfficiency" xml:space="preserve">
+    <value>Victories in Skirmishes</value>
+  </data>
+  <data name="section/statistics/scores/fortBattles/attacks" xml:space="preserve">
+    <value>Attacks</value>
+  </data>
+  <data name="section/statistics/scores/fortBattles/defences" xml:space="preserve">
+    <value>Defensive actions</value>
+  </data>
+  <data name="section/statistics/scores/fortBattlesTotalWins" xml:space="preserve">
+    <value>Victories in Advances</value>
+  </data>
+  <data name="section/statistics/scores/fortSortie" xml:space="preserve">
+    <value>Skirmishes</value>
+  </data>
+  <data name="section/statistics/scores/fortSortieTotalWins" xml:space="preserve">
+    <value>Victories in Skirmishes</value>
+  </data>
+  <data name="section/statistics/scores/fortSorties/AvgResources" xml:space="preserve">
+    <value>Average amount of plunder per Skirmish</value>
+  </data>
+  <data name="section/statistics/scores/fortSorties/totalResources" xml:space="preserve">
+    <value>Total amount of plunder earned in Skirmishes</value>
+  </data>
+  <data name="section/statistics/scores/fortTotalBattles" xml:space="preserve">
+    <value>Advances</value>
+  </data>
+  <data name="section/statistics/scores/hits" xml:space="preserve">
+    <value>Hits</value>
+  </data>
+  <data name="section/statistics/scores/killDeathRatio" xml:space="preserve">
+    <value>Destruction ratio</value>
+  </data>
+  <data name="section/statistics/scores/looting" xml:space="preserve">
+    <value>Pillages</value>
+  </data>
+  <data name="section/statistics/scores/maxDamage" xml:space="preserve">
+    <value>Maximum damage in a battle</value>
+  </data>
+  <data name="section/statistics/scores/maxExperience" xml:space="preserve">
+    <value>Maximum experience in a battle</value>
+  </data>
+  <data name="section/statistics/scores/maxVictoryPoints" xml:space="preserve">
+    <value>Most victory points earned in a battle</value>
+  </data>
+  <data name="section/statistics/scores/ranked/avgFrags" xml:space="preserve">
+    <value>Average number of destroyed vehicles</value>
+  </data>
+  <data name="section/statistics/scores/ranked/avgPoints" xml:space="preserve">
+    <value>Ranked Battles Efficiency</value>
+  </data>
+  <data name="section/statistics/scores/ranked/points" xml:space="preserve">
+    <value>Rank Points</value>
+  </data>
+  <data name="section/statistics/scores/survival" xml:space="preserve">
+    <value>Battles survived</value>
+  </data>
+  <data name="section/statistics/scores/totalBattles" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="section/statistics/scores/totalVehs" xml:space="preserve">
+    <value>Vehicles</value>
+  </data>
+  <data name="section/statistics/scores/totalWins" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="section/statistics/scores/usedTechnics" xml:space="preserve">
+    <value>Vehicles used</value>
+  </data>
+  <data name="section/statistics/title" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="section/summary/errorText/nextAwards" xml:space="preserve">
+    <value>No Subsequent Awards</value>
+  </data>
+  <data name="section/summary/errorText/significantAwards" xml:space="preserve">
+    <value>No Valuable Awards</value>
+  </data>
+  <data name="section/summary/labels/nextAwards" xml:space="preserve">
+    <value>Subsequent Awards</value>
+  </data>
+  <data name="section/summary/labels/significantAwards" xml:space="preserve">
+    <value>Valuable Awards</value>
+  </data>
+  <data name="section/summary/scores/avgDamage" xml:space="preserve">
+    <value>Average damage per battle</value>
+  </data>
+  <data name="section/summary/scores/avgExperience" xml:space="preserve">
+    <value>Average experience per battle</value>
+  </data>
+  <data name="section/summary/scores/coolSigns" xml:space="preserve">
+    <value>Mastery Badges: Ace Tanker</value>
+  </data>
+  <data name="section/summary/scores/hits" xml:space="preserve">
+    <value>Hit ratio</value>
+  </data>
+  <data name="section/summary/scores/maxDestroyed" xml:space="preserve">
+    <value>Maximum destroyed in a battle</value>
+  </data>
+  <data name="section/summary/scores/maxExperience" xml:space="preserve">
+    <value>Maximum experience in a battle</value>
+  </data>
+  <data name="section/summary/scores/personalScore" xml:space="preserve">
+    <value>Personal Rating</value>
+  </data>
+  <data name="section/summary/scores/totalBattles" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="section/summary/scores/totalWins" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="section/summary/title" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="section/summary/warning/personalScore" xml:space="preserve">
+    <value>Not enough data to calculate Personal Rating &lt;font color='#c1ba9c'&gt;Fight&lt;/font&gt;&lt;font color='#cbad78'&gt; %(count)s &lt;/font&gt;&lt;font color='#c1ba9c'&gt;battles&lt;/font&gt;</value>
+  </data>
+  <data name="section/technique/awards/noAchievements" xml:space="preserve">
+    <value>No awards received yet</value>
+  </data>
+  <data name="section/technique/buttonBar/avgExperience" xml:space="preserve">
+    <value>Average XP
+per Battle</value>
+  </data>
+  <data name="section/technique/buttonBar/classiness" xml:space="preserve">
+    <value>Mastery</value>
+  </data>
+  <data name="section/technique/buttonBar/totalBattles" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="section/technique/buttonBar/totalWins" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="section/technique/buttonBar/vehicleName" xml:space="preserve">
+    <value>Vehicle's Name</value>
+  </data>
+  <data name="section/technique/checkBoxHangarVehicles/tooltip/body" xml:space="preserve">
+    <value>View vehicles in Garage.</value>
+  </data>
+  <data name="section/technique/checkBoxHangarVehicles/tooltip/header" xml:space="preserve">
+    <value>Available in Garage</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/all" xml:space="preserve">
+    <value>No vehicles in the Garage that have fought in Random and Tank Company Battles.</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/epicRandom" xml:space="preserve">
+    <value>No vehicles in the Garage have fought in the Grand Battle mode</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/fallout" xml:space="preserve">
+    <value>No vehicles in your Garage have fought in the Rampage mode.</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/fortBattles" xml:space="preserve">
+    <value>No vehicles in the Garage that have fought in Advances</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/fortSorties" xml:space="preserve">
+    <value>No vehicles in the Garage that have engaged in Skirmishes.</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/globalMap" xml:space="preserve">
+    <value>No vehicles in the Garage that have fought on the Global Map.</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/historical" xml:space="preserve">
+    <value>No vehicles in the Garage that have fought in Historical Battles.</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/ranked" xml:space="preserve">
+    <value>No vehicles in the Garage that have fought in Ranked Battles</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/staticTeam" xml:space="preserve">
+    <value>No vehicles in the Garage that have fought Ranked Battles.</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/team" xml:space="preserve">
+    <value>No vehicles in the Garage that have fought in Team Battles.</value>
+  </data>
+  <data name="section/technique/sort/tooltip/avgexp/body" xml:space="preserve">
+    <value>Sort by average experience per battle.</value>
+  </data>
+  <data name="section/technique/sort/tooltip/avgexp/header" xml:space="preserve">
+    <value>Average Experience</value>
+  </data>
+  <data name="section/technique/sort/tooltip/battlesCount/body" xml:space="preserve">
+    <value>Sort by number of battles.</value>
+  </data>
+  <data name="section/technique/sort/tooltip/battlesCount/header" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="section/technique/sort/tooltip/lvl/body" xml:space="preserve">
+    <value>Sort by vehicles' tier.</value>
+  </data>
+  <data name="section/technique/sort/tooltip/lvl/header" xml:space="preserve">
+    <value>Tier</value>
+  </data>
+  <data name="section/technique/sort/tooltip/marksofmastery/body" xml:space="preserve">
+    <value>Sort by Mastery Badges.</value>
+  </data>
+  <data name="section/technique/sort/tooltip/marksofmastery/header" xml:space="preserve">
+    <value>Mastery</value>
+  </data>
+  <data name="section/technique/sort/tooltip/name/body" xml:space="preserve">
+    <value>Sort by vehicles' names.</value>
+  </data>
+  <data name="section/technique/sort/tooltip/name/header" xml:space="preserve">
+    <value>Vehicle's Name</value>
+  </data>
+  <data name="section/technique/sort/tooltip/nation/body" xml:space="preserve">
+    <value>Sort by nation.</value>
+  </data>
+  <data name="section/technique/sort/tooltip/nation/header" xml:space="preserve">
+    <value>Nation</value>
+  </data>
+  <data name="section/technique/sort/tooltip/technique/body" xml:space="preserve">
+    <value>Sort by vehicles' type.</value>
+  </data>
+  <data name="section/technique/sort/tooltip/technique/header" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="section/technique/sort/tooltip/winRate/body" xml:space="preserve">
+    <value>Sort by rate of victories.</value>
+  </data>
+  <data name="section/technique/sort/tooltip/winRate/header" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="section/technique/sort/tooltip/wins/body" xml:space="preserve">
+    <value>Sort by number of victories.</value>
+  </data>
+  <data name="section/technique/sort/tooltip/wins/header" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="section/technique/statistics/accuracy" xml:space="preserve">
+    <value>Hits</value>
+  </data>
+  <data name="section/technique/statistics/assistedStunDamage" xml:space="preserve">
+    <value>Damage to enemy vehicles stunned by you</value>
+  </data>
+  <data name="section/technique/statistics/avgAssistedStunDamage" xml:space="preserve">
+    <value>Damage to enemy vehicles stunned by you</value>
+  </data>
+  <data name="section/technique/statistics/avgDamage" xml:space="preserve">
+    <value>Damage caused to enemy vehicles</value>
+  </data>
+  <data name="section/technique/statistics/avgDestroyedVehicles" xml:space="preserve">
+    <value>Enemy vehicles destroyed</value>
+  </data>
+  <data name="section/technique/statistics/avgDetectedEnemies" xml:space="preserve">
+    <value>Enemy vehicles spotted</value>
+  </data>
+  <data name="section/technique/statistics/avgExperience" xml:space="preserve">
+    <value>Experience</value>
+  </data>
+  <data name="section/technique/statistics/avgReceivedDamage" xml:space="preserve">
+    <value>Damage received</value>
+  </data>
+  <data name="section/technique/statistics/avgScoutingDamage" xml:space="preserve">
+    <value>Damage caused with player's assistance</value>
+  </data>
+  <data name="section/technique/statistics/avgStats" xml:space="preserve">
+    <value>Average score per battle</value>
+  </data>
+  <data name="section/technique/statistics/avgStunNumber" xml:space="preserve">
+    <value>Number of stuns</value>
+  </data>
+  <data name="section/technique/statistics/common" xml:space="preserve">
+    <value>General parameters</value>
+  </data>
+  <data name="section/technique/statistics/damageCoefficient" xml:space="preserve">
+    <value>Damage ratio</value>
+  </data>
+  <data name="section/technique/statistics/destructionCoefficient" xml:space="preserve">
+    <value>Destruction ratio</value>
+  </data>
+  <data name="section/technique/statistics/maxDamage" xml:space="preserve">
+    <value>Maximum damage in a battle</value>
+  </data>
+  <data name="section/technique/statistics/maxDestroyedVehicles" xml:space="preserve">
+    <value>Maximum destroyed in a battle</value>
+  </data>
+  <data name="section/technique/statistics/maxExperience" xml:space="preserve">
+    <value>Maximum experience in a battle</value>
+  </data>
+  <data name="section/technique/statistics/records" xml:space="preserve">
+    <value>Record score</value>
+  </data>
+  <data name="section/technique/statistics/stunNumber" xml:space="preserve">
+    <value>Number of stuns</value>
+  </data>
+  <data name="section/technique/statistics/survival" xml:space="preserve">
+    <value>Battles survived</value>
+  </data>
+  <data name="section/technique/statistics/tankingCoefficient" xml:space="preserve">
+    <value>Armor-use efficiency</value>
+  </data>
+  <data name="section/technique/statistics/totalBattles" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="section/technique/statistics/totalWins" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="section/technique/tabBtn/achievements" xml:space="preserve">
+    <value>Awards</value>
+  </data>
+  <data name="section/technique/tabBtn/awards/tooltip/body" xml:space="preserve">
+    <value>View awards for selected vehicle.</value>
+  </data>
+  <data name="section/technique/tabBtn/awards/tooltip/header" xml:space="preserve">
+    <value>Awards</value>
+  </data>
+  <data name="section/technique/tabBtn/statistic" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="section/technique/tabBtn/statistic/tooltip/body" xml:space="preserve">
+    <value>View statistics for selected vehicle.</value>
+  </data>
+  <data name="section/technique/tabBtn/statistic/tooltip/header" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="section/technique/title" xml:space="preserve">
+    <value>Vehicles</value>
+  </data>
+  <data name="section/technique/window/hangarVehiclesLabel" xml:space="preserve">
+    <value>Available in Garage</value>
+  </data>
+  <data name="tooltip/dropdown/battleType/body" xml:space="preserve">
+    <value>Enable filter to view statistics on battle modes.</value>
+  </data>
+  <data name="tooltip/dropdown/battleType/header" xml:space="preserve">
+    <value>Sort by Battle Modes</value>
+  </data>
+</root>

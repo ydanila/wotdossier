@@ -1,0 +1,3685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Column_Battles_Battles" xml:space="preserve">
+    <value>Боёв</value>
+  </data>
+  <data name="Column_Battles_Draws" xml:space="preserve">
+    <value>Ничьих</value>
+  </data>
+  <data name="Column_Battles_DrawsPercent" xml:space="preserve">
+    <value>Ничьих %</value>
+  </data>
+  <data name="Column_Battles_Lost" xml:space="preserve">
+    <value>Поражений</value>
+  </data>
+  <data name="Column_Battles_LostPercent" xml:space="preserve">
+    <value>Поражений %</value>
+  </data>
+  <data name="Column_Battles_Survived" xml:space="preserve">
+    <value>Выжил в боях</value>
+  </data>
+  <data name="Column_Battles_SurvivedAndWon" xml:space="preserve">
+    <value>Выжил в победных боях</value>
+  </data>
+  <data name="Column_Battles_SurvivedAndWonPercent" xml:space="preserve">
+    <value>Выжил в победных боях %</value>
+  </data>
+  <data name="Column_Battles_SurvivedPercent" xml:space="preserve">
+    <value>Выжил в боях %</value>
+  </data>
+  <data name="Column_Battles_Won" xml:space="preserve">
+    <value>Побед</value>
+  </data>
+  <data name="Column_Battles_WonPercent" xml:space="preserve">
+    <value>Побед %</value>
+  </data>
+  <data name="Column_Header_Icon" xml:space="preserve">
+    <value>Иконка</value>
+  </data>
+  <data name="Column_Header_Tank" xml:space="preserve">
+    <value>Танк</value>
+  </data>
+  <data name="Column_Header_Tier" xml:space="preserve">
+    <value>Уровень</value>
+  </data>
+  <data name="Column_XP_AverageXP" xml:space="preserve">
+    <value>Средний опыт за бой</value>
+  </data>
+  <data name="Column_XP_MaximumXP" xml:space="preserve">
+    <value>Максимальный опыт за бой</value>
+  </data>
+  <data name="Column_XP_TotalXP" xml:space="preserve">
+    <value>Суммарный опыт</value>
+  </data>
+  <data name="Common_AvgExperience" xml:space="preserve">
+    <value>Средний опыт за бой: </value>
+  </data>
+  <data name="Common_BattlePerformance" xml:space="preserve">
+    <value>Боевая эффективность</value>
+  </data>
+  <data name="Common_BattlesParticipated" xml:space="preserve">
+    <value>Проведено боёв: </value>
+  </data>
+  <data name="Common_BattlesSurvived" xml:space="preserve">
+    <value>Выжил в боях:</value>
+  </data>
+  <data name="Common_CapturePoints" xml:space="preserve">
+    <value>Очки захвата базы: </value>
+  </data>
+  <data name="Common_Clan_DaysInClan" xml:space="preserve">
+    <value>Количество дней в клане: </value>
+  </data>
+  <data name="Common_Clan_Enrolled" xml:space="preserve">
+    <value>Дата вступления: </value>
+  </data>
+  <data name="Common_Clan_Position" xml:space="preserve">
+    <value>Должность: </value>
+  </data>
+  <data name="Common_DamageCaused" xml:space="preserve">
+    <value>Нанесённые повреждения: </value>
+  </data>
+  <data name="Common_DataUpdate" xml:space="preserve">
+    <value>Данные по состоянию на: </value>
+  </data>
+  <data name="Common_Defeats" xml:space="preserve">
+    <value>Поражений:</value>
+  </data>
+  <data name="Common_DefensePoints" xml:space="preserve">
+    <value>Очки защиты базы: </value>
+  </data>
+  <data name="Common_Destroyed" xml:space="preserve">
+    <value>Танков уничтожено: </value>
+  </data>
+  <data name="Common_Detected" xml:space="preserve">
+    <value>Танков обнаружено: </value>
+  </data>
+  <data name="Common_Experience" xml:space="preserve">
+    <value>Опыт</value>
+  </data>
+  <data name="Common_HitRatio" xml:space="preserve">
+    <value>Процент попадания: </value>
+  </data>
+  <data name="Common_MaxExperience" xml:space="preserve">
+    <value>Максимальный опыт за бой: </value>
+  </data>
+  <data name="Common_OverallResults" xml:space="preserve">
+    <value>Общие результаты</value>
+  </data>
+  <data name="Common_RatingHeader_Place" xml:space="preserve">
+    <value>Место</value>
+  </data>
+  <data name="Common_RatingHeader_Rating" xml:space="preserve">
+    <value>Рейтинг</value>
+  </data>
+  <data name="Common_RatingHeader_Value" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="Common_Rating_AvgExperience" xml:space="preserve">
+    <value>Средний опыт</value>
+  </data>
+  <data name="Common_Rating_BattlesParticipated" xml:space="preserve">
+    <value>Проведено боёв</value>
+  </data>
+  <data name="Common_Rating_CapturePoints" xml:space="preserve">
+    <value>Захват базы</value>
+  </data>
+  <data name="Common_Rating_DamageCaused" xml:space="preserve">
+    <value>Нанесённые повреждения</value>
+  </data>
+  <data name="Common_Rating_DefensePoints" xml:space="preserve">
+    <value>Защита базы</value>
+  </data>
+  <data name="Common_Rating_GlobalRating" xml:space="preserve">
+    <value>Общий рейтинг</value>
+  </data>
+  <data name="Common_Rating_TargetsDestroyed" xml:space="preserve">
+    <value>Уничтожено врагов</value>
+  </data>
+  <data name="Common_Rating_TargetsDetected" xml:space="preserve">
+    <value>Обнаружено врагов</value>
+  </data>
+  <data name="Common_Rating_TotalExperience" xml:space="preserve">
+    <value>Общий опыт</value>
+  </data>
+  <data name="Common_Rating_Victories" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="Common_Rating_VictoriesBattles" xml:space="preserve">
+    <value>Процент побед</value>
+  </data>
+  <data name="Common_RegisterDate" xml:space="preserve">
+    <value>Дата регистрации: </value>
+  </data>
+  <data name="Common_TotalExperience" xml:space="preserve">
+    <value>Суммарный опыт: </value>
+  </data>
+  <data name="Common_Victories" xml:space="preserve">
+    <value>Побед:</value>
+  </data>
+  <data name="MenuItem_Header_Load" xml:space="preserve">
+    <value>_Загрузить</value>
+  </data>
+  <data name="MenuItem_Header_Settings" xml:space="preserve">
+    <value>_Настройки</value>
+  </data>
+  <data name="Tab_Header_BattleAwards" xml:space="preserve">
+    <value>Боевые награды</value>
+  </data>
+  <data name="Tab_Header_Battles" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="Tab_Header_Chart" xml:space="preserve">
+    <value>Графики</value>
+  </data>
+  <data name="Tab_Header_Common" xml:space="preserve">
+    <value>Общая информация</value>
+  </data>
+  <data name="Tab_Header_Damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="Tab_Header_Epics" xml:space="preserve">
+    <value>Эпические достижения</value>
+  </data>
+  <data name="Tab_Header_FragCounts" xml:space="preserve">
+    <value>Уничтоженные танки</value>
+  </data>
+  <data name="Tab_Header_Frags" xml:space="preserve">
+    <value>Фраги</value>
+  </data>
+  <data name="Tab_Header_MasterTanker" xml:space="preserve">
+    <value>Эксперт</value>
+  </data>
+  <data name="Tab_Header_Medals" xml:space="preserve">
+    <value>Медали</value>
+  </data>
+  <data name="Tab_Header_Performance" xml:space="preserve">
+    <value>Эффективность</value>
+  </data>
+  <data name="Tab_Header_Ratings" xml:space="preserve">
+    <value>Рейтинг</value>
+  </data>
+  <data name="Tab_Header_Series" xml:space="preserve">
+    <value>Серии</value>
+  </data>
+  <data name="Tab_Header_SpecialAwards" xml:space="preserve">
+    <value>Специальные награды</value>
+  </data>
+  <data name="Tab_Header_Time" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="Tab_Header_XP" xml:space="preserve">
+    <value>Опыт</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_BattleHero" xml:space="preserve">
+    <value>Награды этой категории выдаются исключительно по результатам боя. </value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_BrothersInArms" xml:space="preserve">
+    <value>Каждый игрок взвода должен уничтожить не менее 3 машин противника.
+    • Взвод должен выжить в бою.
+    • Выдаётся всем игрокам взвода.
+    • Выдаётся только в Случайных боях.
+</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Confederate" xml:space="preserve">
+    <value>Нанести урон или сбить гусеницу наибольшему количеству машин противника, но не менее 6.
+    • Засчитываются цели, которые впоследствии были уничтожены другими игроками или самоуничтожились.
+    • Рикошеты и непробития не учитываются.
+    • Выдаётся только в Случайных боях.
+</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_CrucialContribution" xml:space="preserve">
+    <value>Взвод должен уничтожить не менее 12 машин противника.
+    • Выдаётся всем игрокам взвода.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Defender" xml:space="preserve">
+    <value>Защитить базу, сбив наибольшее количество очков захвата, но не менее 70.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Invader" xml:space="preserve">
+    <value>Получить наибольшее количество очков захвата, но не менее 80.
+    • Выиграть бой захватом базы.
+    • Засчитываются только очки, обеспечившие захват.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_PatrolDuty" xml:space="preserve">
+    <value>Предоставить разведданные, обеспечившие повреждение союзниками не менее 6 машин противника.
+    • Засчитываются цели, разведданные по которым в момент их повреждения передавал только один игрок.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Scout" xml:space="preserve">
+    <value>Обнаружить наибольшее количество машин противника, но не менее 9.
+    • Победить в бою.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Sniper" xml:space="preserve">
+    <value>Произвести не менее 85% попаданий по противнику, сделав не менее 10 выстрелов с потенциальным уроном не менее 1 000 единиц.
+    • Непробитие засчитывалось.
+    • Нельзя задевать союзников прямыми выстрелами.
+    • При равном проценте попаданий награждался игрок, попавший по противнику большее количество раз.
+    • При равном количестве попаданий награждался игрок, получивший больше опыта за бой.
+    • Выдавалась только одна награда за бой.
+    • Выдавалась только в Случайных боях.
+    • Выдавалась до выхода обновления 0.8.11.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Sniper2" xml:space="preserve">
+    <value>Нанести наибольшее количество урона за бой с дистанции не менее 300 метров.
+    • Произвести не менее 8 выстрелов.
+    • Общая точность стрельбы за бой — не менее 85%.
+    • Не менее 80% попаданий должны быть с нанесением урона, учитывается урон технике противника и повреждения модулей.
+    • Нанесённого урона должно быть больше очков прочности машины игрока и не менее 1000.
+    • Нельзя задевать союзников прямыми выстрелами.
+    • Не выдаётся при игре на САУ.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_MainGun" xml:space="preserve">
+    <value>Нанести наибольшее количество урона за бой.
+    • Нанесённый урон должен составлять не менее 20% от суммарной прочности техники противника.
+    • Нанесённый урон должен составлять не менее 1000 единиц.
+    • Нельзя задевать союзников прямыми выстрелами.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_SteelWall" xml:space="preserve">
+    <value>Получить наибольшее количество единиц урона, в том числе заблокированного бронёй, но не менее 1000.
+    • Выжить в бою.
+    • Получить не менее 11 попаданий и наибольшее количество заблокированного бронёй урона.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Warrior" xml:space="preserve">
+    <value>Уничтожить наибольшее количество машин противника, но не менее 6.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Column_BattleAwards_BattleHero" xml:space="preserve">
+    <value>Герой битвы</value>
+  </data>
+  <data name="Column_Damage_DamageDealt" xml:space="preserve">
+    <value>Нанесено урона</value>
+  </data>
+  <data name="Column_Damage_DamageTaken" xml:space="preserve">
+    <value>Получено урона</value>
+  </data>
+  <data name="Column_Damage_DamageRatio" xml:space="preserve">
+    <value>Отношение нанесенного урона к полученному</value>
+  </data>
+  <data name="Column_Damage_AverageDamageDealt" xml:space="preserve">
+    <value>Средний урон</value>
+  </data>
+  <data name="Column_Damage_DamagePerHit" xml:space="preserve">
+    <value>Урон за выстрел</value>
+  </data>
+  <data name="Column_MasterTanker_IsPremium" xml:space="preserve">
+    <value>Премиумный танк</value>
+  </data>
+  <data name="Column_Frags_Battles" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="Column_Frags_BeastFrags" xml:space="preserve">
+    <value>Фрагов "Зверобой"</value>
+  </data>
+  <data name="Column_Frags_Frags" xml:space="preserve">
+    <value>Фраги</value>
+  </data>
+  <data name="Column_Frags_AvgFrags" xml:space="preserve">
+    <value>Фрагов за бой</value>
+  </data>
+  <data name="Column_Frags_KillDeathRatio" xml:space="preserve">
+    <value>Отношение убил/умер</value>
+  </data>
+  <data name="Column_Frags_MaxFrags" xml:space="preserve">
+    <value>Макс. фрагов</value>
+  </data>
+  <data name="Column_Frags_SinaiFrags" xml:space="preserve">
+    <value>Фрагов "Лев синая"</value>
+  </data>
+  <data name="Column_Frags_Tier8Frags" xml:space="preserve">
+    <value>Фрагов 8 уровня</value>
+  </data>
+  <data name="Column_Time_AverageBattleTime" xml:space="preserve">
+    <value>Среднее время боя</value>
+  </data>
+  <data name="Column_Time_LastBattle" xml:space="preserve">
+    <value>Последний бой</value>
+  </data>
+  <data name="Column_Time_PlayTime" xml:space="preserve">
+    <value>Время боя</value>
+  </data>
+  <data name="Column_Time_CommonPlayTime" xml:space="preserve">
+    <value>Общее время боев</value>
+  </data>
+  <data name="Settings_PlayerName" xml:space="preserve">
+    <value>Имя игрока</value>
+  </data>
+  <data name="Settings_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Settings_Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="Column_Performance_CapturePoints" xml:space="preserve">
+    <value>Очки захвата</value>
+  </data>
+  <data name="Column_Performance_DefencePoints" xml:space="preserve">
+    <value>Очки защиты</value>
+  </data>
+  <data name="Column_Performance_HitRatio" xml:space="preserve">
+    <value>% попаданий</value>
+  </data>
+  <data name="Column_Performance_Hits" xml:space="preserve">
+    <value>Попаданий</value>
+  </data>
+  <data name="Column_Performance_Shots" xml:space="preserve">
+    <value>Выстрелов</value>
+  </data>
+  <data name="Column_Performance_TanksSpotted" xml:space="preserve">
+    <value>Обнаружено танков</value>
+  </data>
+  <data name="Column_Ratings_AverageDamage" xml:space="preserve">
+    <value>Средний урон</value>
+  </data>
+  <data name="Column_Ratings_Battles" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="Column_Ratings_DamageRatingRev1" xml:space="preserve">
+    <value>Рейтинг урона Rev1</value>
+  </data>
+  <data name="Column_Ratings_EffRating" xml:space="preserve">
+    <value>РЭ</value>
+  </data>
+  <data name="Column_Ratings_KievArmorRating" xml:space="preserve">
+    <value>Рейтинг Броне-сайта</value>
+  </data>
+  <data name="Column_Ratings_KillDeathRatio" xml:space="preserve">
+    <value>Отношение убил/умер</value>
+  </data>
+  <data name="Column_Ratings_MarkOfMastery" xml:space="preserve">
+    <value>Знак классности</value>
+  </data>
+  <data name="Column_Ratings_Winrate" xml:space="preserve">
+    <value>% побед</value>
+  </data>
+  <data name="Column_Series_InvincibleLongest" xml:space="preserve">
+    <value>Неуязвимый макс.</value>
+  </data>
+  <data name="Column_Series_InvincibleProgress" xml:space="preserve">
+    <value>Неуязвимый текущая</value>
+  </data>
+  <data name="Column_Series_MasterGunnerLongest" xml:space="preserve">
+    <value>Бронебойщий макс.</value>
+  </data>
+  <data name="Column_Series_MasterGunnerProgress" xml:space="preserve">
+    <value>Бронебойщик текущая</value>
+  </data>
+  <data name="Column_Series_ReaperLongest" xml:space="preserve">
+    <value>Коса Смерти макс.</value>
+  </data>
+  <data name="Column_Series_ReaperProgress" xml:space="preserve">
+    <value>Коса Смерти текущая</value>
+  </data>
+  <data name="Column_Series_SharpshooterLongest" xml:space="preserve">
+    <value>Стрелок макс.</value>
+  </data>
+  <data name="Column_Series_SharpshooterProgress" xml:space="preserve">
+    <value>Стрелок текущая</value>
+  </data>
+  <data name="Column_Series_SurvivorLongest" xml:space="preserve">
+    <value>Живучий макс.</value>
+  </data>
+  <data name="Column_Series_SurvivorProgress" xml:space="preserve">
+    <value>Живучий текущая</value>
+  </data>
+  <data name="Tooltip_MarkOfMastery_1" xml:space="preserve">
+    <value>Присваивается игроку за мастерство владения боевой машиной. 
+Для получения награды необходимо заработать больше опыта за бой, 
+чем средний максимальный опыт за неделю у 50% игроков на данной технике. 
+Не выдается в клановых войнах.</value>
+  </data>
+  <data name="Tooltip_MarkOfMastery_2" xml:space="preserve">
+    <value>Присваивается игроку за мастерство владения боевой машиной. 
+Для получения награды необходимо заработать больше опыта за бой, 
+чем средний максимальный опыт за неделю у 80% игроков на данной технике. 
+Не выдается в клановых войнах.</value>
+  </data>
+  <data name="Tooltip_MarkOfMastery_3" xml:space="preserve">
+    <value>Присваивается игроку за мастерство владения боевой машиной. 
+Для получения награды необходимо заработать больше опыта за бой, 
+чем средний максимальный опыт за неделю у 95% игроков на данной технике. 
+Не выдается в клановых войнах.</value>
+  </data>
+  <data name="Tooltip_MarkOfMastery_4" xml:space="preserve">
+    <value>Присваивается игроку за мастерство владения боевой машиной. 
+Для получения награды необходимо заработать больше опыта за бой, 
+чем средний максимальный опыт за неделю у 99% игроков на данной технике. 
+Не выдается в клановых войнах.</value>
+  </data>
+  <data name="ButtonOk" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="ButtonSysInfo" xml:space="preserve">
+    <value>Системная информация</value>
+  </data>
+  <data name="WindowTitle_AboutWindow" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="MenuItem_Header_About" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="Common_EffectivityRating" xml:space="preserve">
+    <value>Рейтинг эффективности</value>
+  </data>
+  <data name="Common_KievArmorRating" xml:space="preserve">
+    <value>Рейтинг Бронесайта</value>
+  </data>
+  <data name="Common_Wn6Rating" xml:space="preserve">
+    <value>WN6 рейтинг</value>
+  </data>
+  <data name="Tab_Header_Overall" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="Tab_Header_Recent" xml:space="preserve">
+    <value>Недавние</value>
+  </data>
+  <data name="Common_AvgCapturePoints" xml:space="preserve">
+    <value>В среднем очков захвата базы:</value>
+  </data>
+  <data name="Common_AvgDamageCaused" xml:space="preserve">
+    <value>В среднем урона:</value>
+  </data>
+  <data name="Common_AvgDefensePoints" xml:space="preserve">
+    <value>В среднем очков защиты базы:</value>
+  </data>
+  <data name="Common_AvgDestroyed" xml:space="preserve">
+    <value>В среднем уничтожено за бой:</value>
+  </data>
+  <data name="Common_AvgDetected" xml:space="preserve">
+    <value>В среднем обнаружено за бой:</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_IronMan" xml:space="preserve">
+    <value>Получить подряд не менее 10 рикошетов и непробитий от противника.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Lucky" xml:space="preserve">
+    <value>Находиться на расстоянии не более 10 метров от техники противника в момент её уничтожения прямым выстрелом игрока команды противника.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Sturdy" xml:space="preserve">
+    <value>Получить рикошет или непробитие от противника при прочности техники менее 10%.
+    • Выжить в бою.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Billotte" xml:space="preserve">
+    <value>Уничтожить 2 машины противника, получив 5 разных повреждений и потеряв 80% прочности.
+    • Победить в бою.
+    • Выжить в бою.
+    • Учёт уничтоженных машин противника начинается после получения всех перечисленных повреждений.
+    • Выдаётся только в Случайных боях.
+
+Пьер Бийот — капитан французской армии, в ходе боя 16 мая 1940 г. уничтоживший на B1 bis два PzKpfw IV, одиннадцать PzKpfw III и два орудия.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Boelter" xml:space="preserve">
+    <value>Уничтожить не менее 7 машин противника на танке или ПТ-САУ либо не менее 10 на САУ.
+    • IV-X уровни уничтоженной техники.
+    • Выдавалась до выхода обновления 0.8.0.
+
+Ганс Бёльтер — один из наиболее успешных немецких танковых асов 
+Второй мировой войны. Участвовал в боевых действиях в Польше, Франции, 
+Греции, на территории СССР и в Нормандии.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_BrunoPietro" xml:space="preserve">
+    <value>Уничтожить 3-4 машины противника, получив 5 разных повреждений и потеряв 80% прочности.
+    • Победить в бою.
+    • Выжить в бою.
+    • Учёт уничтоженных машин противника начинается после получения всех перечисленных повреждений.
+    • Выдаётся только в Случайных боях.
+
+Пьетро Бруно — итальянский офицер, танкист. Кавалер высшей награды Италии за подвиг на поле боя — золотой медали «За воинскую доблесть».</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Burda" xml:space="preserve">
+    <value>Уничтожить 5 САУ противника в одном бою.
+    • Управлять танком или ПТ-САУ.
+    • Выдаётся только в Случайных боях.
+
+Александр Фёдорович Бурда — советский танковый ас, Герой Советского Союза, гвардии подполковник. 4 октября 1941 г. организовал засаду, 
+в результате которой была разгромлена колонна противника, в том числе десять средних и лёгких танков, два тягача с ПТ-орудиями, пять автомашин с пехотой.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_DeLanglade" xml:space="preserve">
+    <value>Уничтожить не менее 4 машин противника, захватывающих базу в одном бою.
+    • Противник должен находиться в кругу захвата базы.
+    • Захват может быть как последовательным, так и одновременным.
+    • Выдаётся только в Случайных боях.
+
+Поль де Ланглад — во время Второй мировой войны подполковник, а с сентября 1943 года полковник французской армии, 
+воевал в составе 2-й бронетанковой дивизии генерала Леклерка. В бою у г. Домпэр (Франция) 12-13 сентября 1944 года 
+боевая тактическая группа под командованием де Ланглада почти полностью уничтожила 112-ю панцербригаду. После боя из 45 «Пантер» осталось всего 4 танка.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Dumitru" xml:space="preserve">
+    <value>Уничтожить 4 САУ противника в одном бою.
+    • Управлять танком или ПТ-САУ.
+    • Выдаётся только в Случайных боях.
+
+Ион С. Думитру — румынский танковый ас. Участвовал во Второй мировой
+ войне в течение всего двадцати пяти дней. Из них пять дней он воевал на
+ стороне Германии и двадцать — в составе советской 27-й танковой 
+бригады. 26 марта 1945 г. подразделение, в составе которого был Думитру,
+ уничтожило шесть немецких противотанковых орудий и захватило батарею 
+15-см гаубиц.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Fadin" xml:space="preserve">
+    <value>Уничтожить последним снарядом последнюю машину противника.
+    • Если противник уничтожен пожаром, вызванным попаданием последнего снаряда, медаль также выдаётся.
+    • При стрельбе из автоматических пушек и пулемётов противник должен быть уничтожен последним снарядом в очереди.
+    • Выдаётся только в Случайных боях.
+
+Александр Михайлович Фадин — командир Т-34. Одним танком, при 
+поддержке взвода пехоты, захватил и удерживал с. Дашуковка в течение 
+пяти часов, уничтожив при этом один танк, одну САУ, восемнадцать 
+пулемётных точек, до 50 солдат и офицеров противника. Также сумел сбить 
+самолёт противника выстрелом из орудия.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Halonen" xml:space="preserve">
+    <value>Уничтожить не менее 3 танков или ПТ-САУ противника в одном бою, управляя ПТ-САУ.
+    • Уничтоженная техника должна превосходить ПТ-САУ игрока как минимум на 2 уровня.
+    • Выдаётся только в Случайных боях.
+
+Эркки Халонен — танковый ас, сержант финской армии. В ходе боёв в 
+июне — июле 1944 г. на StuG III уничтожил три Т-34, два КВ-1 и два 
+ИСУ-152.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_HeroesOfRaseiniai" xml:space="preserve">
+    <value>Уничтожить не менее 14 машин противника в одном бою.
+    • Выдаётся только в Случайных боях.
+
+В июне 1941 года под литовским городом Расейняй произошло 
+столкновение между частями немецкой 6-й танковой дивизии и танками КВ 
+3-го мехкорпуса. В сражении участвовали около двадцати советских и ста 
+немецких танков. Несмотря на поддержку артиллерии и пехоты, немецкие 
+войска понесли большие потери. Один из танков КВ сумел более чем на 
+сутки перерезать немецкие коммуникации.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Kolobanov" xml:space="preserve">
+    <value>Победить в бою, оставшись в одиночку против 5 машин противника.
+    • Выдаётся только в Случайных боях.
+
+Зиновий Григорьевич Колобанов — советский танкист-ас, подполковник. В
+ бою 19 августа 1941 г. на КВ-1 уничтожил двадцать два немецких танка, 
+два орудия и два бронетранспортёра.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_LafayettePool" xml:space="preserve">
+    <value>Уничтожить 10-13 машин противника в одном бою.
+    • Управлять техникой V уровня и выше.
+    • Выдаётся только в Случайных боях.
+
+Лафайет Дж. Пул — американский танковый ас. За время участия в 
+боевых действиях подбил и уничтожил 258 немецких бронемашин и 
+автомобилей.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Lehvaslaiho" xml:space="preserve">
+    <value>Уничтожить 2 танка или ПТ-САУ противника в одном бою, управляя средним танком.
+    • Уничтоженная техника должна превосходить танк игрока как минимум на 2 уровня.
+    • Выдаётся только в Случайных боях.
+
+Рейно Лехвеслайхо — сержант танковой бригады финской танковой дивизии. Подбил семь танков и ПТ-САУ.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Nikolas" xml:space="preserve">
+    <value>Уничтожить не менее 4 танков или ПТ-САУ противника в одном бою, управляя средним танком.
+    • Уничтоженная техника должна превосходить танк игрока как минимум на 2 уровня.
+    • Выдаётся только в Случайных боях.
+
+Элфи Николс — английский танковый снайпер. За один день битвы при 
+Эль-Аламейне уничтожил девять немецких танков. Всего в ходе битвы подбил
+ четырнадцать танков противника.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Orlik" xml:space="preserve">
+    <value>Уничтожить не менее 3 танков или ПТ-САУ противника в одном бою, управляя лёгким танком.
+    • Уничтоженная техника должна превосходить танк игрока как минимум на 2 уровня.
+    • Выдаётся только в Случайных боях.
+
+Роман Эдмунд Орлик — танковый ас, сержант польской армии. За 
+сентябрь 1939 г., сражаясь на танкетке TKS, подбил тринадцать немецких 
+танков.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Oskin" xml:space="preserve">
+    <value>Уничтожить 3 танка или ПТ-САУ противника в одном бою, управляя средним танком.
+    • Уничтоженная техника должна превосходить танк игрока как минимум на 2 уровня.
+    • Выдаётся только в Случайных боях.
+
+Александр Петрович Оськин — командир танка, Герой Советского Союза. 
+11 августа 1944 г., находясь в разведке у Оглендува, уничтожил три 
+«Королевских тигра» на Т-34.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Pascucci" xml:space="preserve">
+    <value>Уничтожить 3 САУ противника в одном бою.
+    • Управлять танком или ПТ-САУ.
+    • Выдаётся только в Случайных боях.
+
+Луиджи Арбиб Паскуччи — итальянский танковый ас. Командир 10-го 
+танкового взвода 132-го танкового полка 132-й танковой дивизии Ariete. 
+Во время второго сражения при Эль-Аламейне возглавил контратаку, в 
+результате которой британские войска понесли существенные потери.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_RadleyWalters" xml:space="preserve">
+    <value>Уничтожить 8-9 машин противника в одном бою.
+    • Управлять техникой V уровня и выше.
+    • Выдаётся только в Случайных боях.
+
+Сидней Валпи Рэдли Уолтерс — канадский танковый ас 27-ого танкового 
+полка. На танке Sherman Firefly уничтожил восемнадцать немецких танков в
+ 1944–1945 гг.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_TamadaYoshio" xml:space="preserve">
+    <value>Уничтожить не менее 3 САУ противника в одном бою, управляя лёгким танком.
+    • Выжить в бою.
+    • Уничтоженная техника должна превосходить танк игрока как минимум на 2 уровня.
+    • Выдаётся только в Случайных боях.
+
+Тамада Йошио - полковник, командующий 4-м танковым полком Квантунской армии, который во время ночной операции 2-3 июля 1939 г. 
+у реки Халхин-Гол уничтожил 4 батареи 122-мм гаубиц, 107-мм пушек, 76,2-мм полевых орудий, 10 бронемашин, 2 бронетранспортера, 
+7 противотанковых орудий, 5 пехотных минометов и 20 грузовиков противника.
+    </value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Tarczay" xml:space="preserve">
+    <value>Уничтожить 5 машин противника, получив 5 разных повреждений и потеряв 80% прочности.
+    • Победить в бою.
+    • Выжить в бою.
+    • Учёт уничтоженных машин противника начинается после получения всех перечисленных повреждений.
+    • Выдаётся только в Случайных боях.
+
+Эрвин Тарцай — венгерский танковый ас. Служил во 2-й венгерской танковой дивизии, уничтожил около десяти танков.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Bombardier" xml:space="preserve">
+    <value>Уничтожить одним снарядом не менее 2 машин противника.
+• Засчитывается сумма результатов по всем машинам.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Hunter" xml:space="preserve">
+    <value>Уничтожить 100 машин семейства кошачьих.
+Засчитываются:
+    • Aufklärungspanzer Panther
+    • PzKpfw V Panther
+    • Panther II
+    • Panther-M10
+    • Jagdpanther
+    • Jagdpanther II
+    • GW Panther
+
+    • PzKpfw VI Tiger
+    • PzKpfw VI Tiger (P)
+    • PzKpfw VI Ausf. B Tiger II
+    • Jagdtiger
+    • 8.8 cm Pak43 JagdTiger
+    • GW Tiger
+    • GW Tiger (P)
+
+    • Löwe
+
+    • Leopard prototyp A
+    • Leopard 1
+
+    • Засчитывается сумма результатов по всем машинам.
+    • В общем зачёте повторно полученные награды суммируются.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Invincible" xml:space="preserve">
+    <value>Не получить никакого урона в течение 5 боёв подряд.
+    • Серия ведётся для каждой машины отдельно и может продолжиться в следующем бою на этой же машине.
+    • В общий зачёт идёт максимальная серия.
+    • Бои на САУ не засчитываются.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Kamikaze" xml:space="preserve">
+    <value>Уничтожить противника тараном.
+    • Машина противника должна быть выше уровнем.
+    • Не более одной награды на игрока за бой.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_MasterGunner" xml:space="preserve">
+    <value>Присваивается игроку, пробившему 5 и 
+более раз подряд броню вражеского танка. Если 
+серия не прервалась непробитием, рикошетом или промахом, 
+то в зачет пойдут также результаты следующего боя на 
+любой машине (иконка отображает самую длинную серию).</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_MouseTrap" xml:space="preserve">
+    <value>Уничтожить 10 танков PzKpfw VIII Maus.
+    • Засчитывается сумма результатов по всем машинам.
+    • В общем зачёте повторно полученные награды суммируются.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_PattonValley" xml:space="preserve">
+    <value>Уничтожить 100 танков Patton.
+Засчитываются:
+    • M46 Patton
+    • M48A1 Patton III
+    • M60
+    
+    • Засчитывается сумма результатов по всем машинам.
+    • В общем зачёте повторно полученные награды суммируются.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Raider" xml:space="preserve">
+    <value>В одиночку захватить базу противника, не будучи обнаруженным в ходе боя.
+    • Находиться в момент захвата в кругу базы противника.
+    • Случайные попадания и повреждения машины не являются препятствием.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Huntsman" xml:space="preserve">
+    <value>Уничтожить все лёгкие танки противника в одном бою, но не менее 3.
+    • Выдаётся только в Случайных боях.
+
+Григорий Николаевич Найдин — сержант, командир танка БТ-7, Герой Советского Союза. 25 июня 1941 года 
+у местечка Рудишкяй (Литва) разгромил колонну бронетехники противника, уничтожив в общей сложности 15 танков и 10 орудий 
+передового отряда 19-й танковой дивизии Вермахта, задержав тем самым наступление немцев на двое суток, что позволило тщательно организовать оборону Вильно.
+    </value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Reaper" xml:space="preserve">
+    <value>Присваивается игроку, уничтожившему 3 и более 
+вражеские машины подряд, затратив на уничтожение 
+каждой не более одного снаряда. Серия может продолжаться 
+в следующем бою — гибель танка игрока не учитывается. 
+Звание присваивается в тот момент, когда игрок совершил 
+промах, не пробил броню или не добил танк и, таким 
+образом, прервал серию (иконка отображает самую длинную 
+серию). Серия ведется для каждого танка отдельно. 
+В общий зачет идет максимальная серия.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Sharpshooter" xml:space="preserve">
+    <value>Попасть в противника не менее 10 раз подряд.
+    • Серия прерывается промахом.
+    • Серия ведётся для каждой машины отдельно и может продолжиться в следующем бою на этой же машине.
+    • В общий зачёт идёт максимальная серия.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Sinai" xml:space="preserve">
+    <value>Уничтожить 100 танков ИС или машин на их базе.
+Засчитываются:
+    • ИС
+    • ИС-3
+    • ИС-4
+    • ИС-6
+    • ИС-7
+    • ИС-8
+
+    • ИСУ-152
+
+    • Объект 261
+    • Объект 263
+    • Объект 268
+    • Объект 704
+
+    • Учитывается техника только из дерева исследований СССР.
+    • Засчитывается сумма результатов по всем машинам.
+    • В общем зачёте повторно полученные награды суммируются.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Survivor" xml:space="preserve">
+    <value>Выжить 20 боёв подряд на одной машине.
+    • Серия ведётся для каждой машины отдельно и может продолжиться в следующем бою на этой же машине.
+    • В общий зачёт идёт максимальная серия.
+    • Бои на САУ не засчитываются.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Abrams" xml:space="preserve">
+    <value>Выдается за суммарное количество побед, 
+одержанных командой в 5/50/500/5000 боях. 
+Необходимое условие — выживание игрока.
+
+Крейтон Абрамс — генерал, командовавший бронетанковыми соединениями армии США в ходе Второй мировой и Вьетнамской войн. 
+Завоевал репутацию агрессивного и удачливого командира.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Carius" xml:space="preserve">
+    <value>Присваивается игроку, уничтожившему 10/100/1000/10000 
+вражеских танков и САУ.
+
+Отто Кариус — один из наиболее результативных танкистов-асов Второй мировой войны. Воевал на PzKpfw 38(t), PzKpfw VI Tiger и на ПТ-САУ Jagdtiger.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Ekins" xml:space="preserve">
+    <value>Присваивается игроку, уничтожившему 3/30/300/3000 
+вражеских танков и САУ восьмого уровня и выше.
+
+Джой Экинс — рядовой Нортгемптонширского подразделения британской Территориальной Армии. 
+Ряд источников приписывает Экинсу уничтожение знаменитого танкового аса Михаэля Виттмана.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Kay" xml:space="preserve">
+    <value>Присваивается игроку, получившему звание 
+«Герой битвы» 1/10/100/1000 раз.
+
+Дуглас Кей — сержант британской армии, стрелок танка Sherman Firefly, участник высадки союзников в Нормандии. 
+Широко известен как популяризатор и пропагандист истории танковой войны.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Knispel" xml:space="preserve">
+    <value>Присваивается игроку, суммарно получившему 
+и нанесшему 10К/100К/1000К/10000К повреждений.
+
+Курт Книспель — немецкий танкист-ас Второй мировой войны, принимавший участие в боях на Западном и Восточном фронтах. 
+Воевал на PzKpfw II, PzKpfw III, PzKpfw IV, PzKpfw VI Tiger и PzKpfw VI Ausf. B Tiger II.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Lavrinenko" xml:space="preserve">
+    <value>Присваивается игроку, суммарно сбросившему 30/300/3000/30000 
+очков захвата базы (не более 100 очков за 1 бой) 
+суммарно за все проведенные битвы.
+
+Дмитрий Фёдорович Лавриненко — советский танковый ас, Герой Советского Союза, гвардии старший лейтенант. 
+Признан наиболее результативным советским танкистом — за два с половиной месяца уничтожил пятьдесят два танка в двадцати восьми боях.
+</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Leclerk" xml:space="preserve">
+    <value>Присваивается игроку, набравшему 30/300/3000/30000 
+очков захвата базы суммарно за все бои. 
+В зачет идут только успешные захваты базы, 
+сбитые очки захвата не засчитываются.
+
+Жак-Филипп Леклерк в ходе Второй мировой войны — генерал сил Свободной Франции, один из разработчиков операции по освобождению Парижа.
+</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Poppel" xml:space="preserve">
+    <value>Присваивается игроку, обнаружившему 20/200/2000/20000 
+танков и САУ противника суммарно за все бои.
+
+Николай Кириллович Попель — генерал-лейтенант танковых войск, советский военачальник и политработник. 
+Во время сражения под Дубно (Украина) летом 1941 г. организовал рейд по тылам противника на захваченной бронетехнике.
+</value>
+  </data>
+  <data name="Tooltip_MasteryBadges" xml:space="preserve">
+    <value>Знаки классности присваиваются игроку 
+за мастерство владения боевой машиной. Для получения 
+знака отличия необходимо заработать больше опыта за бой, 
+чем у определенного числа играющих на данной технике 
+за последнее время. </value>
+  </data>
+  <data name="Column_FragCounts_Count" xml:space="preserve">
+    <value>Кол-во</value>
+  </data>
+  <data name="Column_Header_Map" xml:space="preserve">
+    <value>Карта</value>
+  </data>
+  <data name="Tab_Header_Replays" xml:space="preserve">
+    <value>Менеджер Реплеев</value>
+  </data>
+  <data name="WindowTitle_BattleResults" xml:space="preserve">
+    <value>Результаты боя</value>
+  </data>
+  <data name="Replay_Tab_Header_PersonalScore" xml:space="preserve">
+    <value>Личный результат</value>
+  </data>
+  <data name="Replay_Tab_Header_TeamScore" xml:space="preserve">
+    <value>Командный результат</value>
+  </data>
+  <data name="Replay_Tab_Header_DetailedReport" xml:space="preserve">
+    <value>Подробный отчет</value>
+  </data>
+  <data name="Label_Replay_WithoutPremium" xml:space="preserve">
+    <value>Без премиума</value>
+  </data>
+  <data name="Label_Replay_WithPremium" xml:space="preserve">
+    <value>С премиумом</value>
+  </data>
+  <data name="Label_Replay_Credits" xml:space="preserve">
+    <value>Кредиты</value>
+  </data>
+  <data name="Label_Replay_BattleEfficiency" xml:space="preserve">
+    <value>Боевая эффективность</value>
+  </data>
+  <data name="BattleStatus_Victory" xml:space="preserve">
+    <value>Победа</value>
+  </data>
+  <data name="BattleStatus_Defeat" xml:space="preserve">
+    <value>Поражение</value>
+  </data>
+  <data name="BattleStatus_Draw" xml:space="preserve">
+    <value>Ничья</value>
+  </data>
+  <data name="Label_Replay_OurTeam" xml:space="preserve">
+    <value>Наши</value>
+  </data>
+  <data name="Label_Replay_EnemyTeam" xml:space="preserve">
+    <value>Враги</value>
+  </data>
+  <data name="Label_ReplayDetail_ShotsFired" xml:space="preserve">
+    <value>Произведено выстрелов</value>
+  </data>
+  <data name="Label_ReplayDetail_DirectHits" xml:space="preserve">
+    <value>прямых попаданий/пробитий</value>
+  </data>
+  <data name="Label_ReplayDetail_HEDamage" xml:space="preserve">
+    <value>осколочно-фугасных повреждений</value>
+  </data>
+  <data name="Label_ReplayDetail_Penetrations" xml:space="preserve">
+    <value>пробитий</value>
+  </data>
+  <data name="Label_ReplayDetail_Damage" xml:space="preserve">
+    <value>Нанесено урона</value>
+  </data>
+  <data name="Label_ReplayDetail_HitsReceived" xml:space="preserve">
+    <value>Получено попаданий</value>
+  </data>
+  <data name="Label_ReplayDetail_AlliesDamage" xml:space="preserve">
+    <value>Урон союзникам (уничтожено/повреждений)</value>
+  </data>
+  <data name="Label_ReplayDetail_Detected" xml:space="preserve">
+    <value>Обнаружено машин противника</value>
+  </data>
+  <data name="Label_ReplayDetail_DamagedDestroyed" xml:space="preserve">
+    <value>Повреждено/уничтожено машин противника</value>
+  </data>
+  <data name="Label_ReplayDetail_DamageAssistedStun" xml:space="preserve">
+    <value>Урон по оглушённым игроком целям</value>
+  </data>
+  <data name="Label_ReplayDetail_DamageUponDetecting" xml:space="preserve">
+    <value>Урон, нанесённый с помощью данного игрока</value>
+  </data>
+  <data name="Label_ReplayDetail_StunNum" xml:space="preserve">
+    <value>Нанесено оглушений</value>
+  </data>
+  <data name="Label_ReplayDetail_CaptureDefensePoints" xml:space="preserve">
+    <value>Очки захвата/защиты базы</value>
+  </data>
+  <data name="Label_ReplayDetail_Traveled" xml:space="preserve">
+    <value>Пройдено километров</value>
+  </data>
+  <data name="Label_ReplayDetail_CreditsReceived" xml:space="preserve">
+    <value>Начислено за бой</value>
+  </data>
+  <data name="Label_ReplayDetail_ActionCredits" xml:space="preserve">
+    <value>за участие в акции</value>
+  </data>
+  <data name="Label_ReplayDetail_OutContribution" xml:space="preserve">
+    <value>Штраф за урон союзникам</value>
+  </data>
+  <data name="Label_ReplayDetail_InContribution" xml:space="preserve">
+    <value>Компенсация за урон от союзников</value>
+  </data>
+  <data name="Label_ReplayDetail_AutoRepair" xml:space="preserve">
+    <value>Автоматический ремонт техники</value>
+  </data>
+  <data name="Label_ReplayDetail_AutoLoad" xml:space="preserve">
+    <value>Автопополнение боекомплекта</value>
+  </data>
+  <data name="Label_ReplayDetail_AutoEquip" xml:space="preserve">
+    <value>Автопополнение снаряжения</value>
+  </data>
+  <data name="Label_ReplayDetail_CreditsTotal" xml:space="preserve">
+    <value>Итого</value>
+  </data>
+  <data name="Label_ReplayDetail_BattleStartTime" xml:space="preserve">
+    <value>Начало боя</value>
+  </data>
+  <data name="Label_ReplayDetail_BattleDuration" xml:space="preserve">
+    <value>Продолжительность боя</value>
+  </data>
+  <data name="Label_ReplayDetail_LifeTime" xml:space="preserve">
+    <value>Время в бою до уничтожения</value>
+  </data>
+  <data name="Label_ReplayDetail_ForTheFirstVictory" xml:space="preserve">
+    <value>за первую победу в день</value>
+  </data>
+  <data name="Label_ReplayDetail_XpTotal" xml:space="preserve">
+    <value>Итого:</value>
+  </data>
+  <data name="Label_ReplayDetail_Credits" xml:space="preserve">
+    <value>Кредиты</value>
+  </data>
+  <data name="Label_ReplayDetail_WithPremium" xml:space="preserve">
+    <value>С премиумом</value>
+  </data>
+  <data name="Label_ReplayDetail_Time" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="Label_ReplayDetail_XP" xml:space="preserve">
+    <value>Опыт</value>
+  </data>
+  <data name="Label_ReplayDetail_Statistic" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="ReplaysTab_UploadBtn" xml:space="preserve">
+    <value>Загрузить реплей на сервер</value>
+  </data>
+  <data name="ClanImageUrlToSourceConverter_Convert_Can_t_get_or_save_player_clan_icon_from_server" xml:space="preserve">
+    <value>Не удалось загрузить иконку клана с сервера</value>
+  </data>
+  <data name="ReplaysTab_DeleteBtn" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Column_Replay_BattleResult" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="Column_Replay_Credits" xml:space="preserve">
+    <value>Кредиты</value>
+  </data>
+  <data name="Column_Replay_Crystal" xml:space="preserve">
+    <value>Боны</value>
+  </data>
+  <data name="Column_Replay_Damaged" xml:space="preserve">
+    <value>Повреждено</value>
+  </data>
+  <data name="Column_Replay_DamageDealt" xml:space="preserve">
+    <value>Нанесено урона</value>
+  </data>
+  <data name="Column_Replay_DamageReceived" xml:space="preserve">
+    <value>Получено урона</value>
+  </data>
+  <data name="Column_Replay_Frags" xml:space="preserve">
+    <value>Уничтожено</value>
+  </data>
+  <data name="Column_Replay_XP" xml:space="preserve">
+    <value>Опыт</value>
+  </data>
+  <data name="Column_Replay_Stun" xml:space="preserve">
+    <value>Количество оглушений</value>
+  </data>
+  <data name="Replay_TeamMember_HideResultButton" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="TankFilterPanel_Levels" xml:space="preserve">
+    <value>Уровни</value>
+  </data>
+  <data name="TankFilterPanel_Types" xml:space="preserve">
+    <value>Типы</value>
+  </data>
+  <data name="TankFilterPanel_Country" xml:space="preserve">
+    <value>Страны</value>
+  </data>
+  <data name="TankType_LT" xml:space="preserve">
+    <value>ЛТ</value>
+  </data>
+  <data name="TankType_MT" xml:space="preserve">
+    <value>СТ</value>
+  </data>
+  <data name="TankType_HT" xml:space="preserve">
+    <value>ТТ</value>
+  </data>
+  <data name="TankType_TD" xml:space="preserve">
+    <value>ПТ-САУ</value>
+  </data>
+  <data name="TankType_SPG" xml:space="preserve">
+    <value>САУ</value>
+  </data>
+  <data name="Country_Ussr" xml:space="preserve">
+    <value>СССР</value>
+  </data>
+  <data name="Country_Germany" xml:space="preserve">
+    <value>Германия</value>
+  </data>
+  <data name="Country_Usa" xml:space="preserve">
+    <value>США</value>
+  </data>
+  <data name="Country_China" xml:space="preserve">
+    <value>Китай</value>
+  </data>
+  <data name="Country_France" xml:space="preserve">
+    <value>Франция</value>
+  </data>
+  <data name="Country_Uk" xml:space="preserve">
+    <value>Британия</value>
+  </data>
+  <data name="Settings_ReplaysFolder" xml:space="preserve">
+    <value>Папка с реплеями</value>
+  </data>
+  <data name="Tab_Header_Achievements" xml:space="preserve">
+    <value>Достижения</value>
+  </data>
+  <data name="Label_Achievements_BattleHero" xml:space="preserve">
+    <value>Герой битвы</value>
+  </data>
+  <data name="Label_Achievements_Epic" xml:space="preserve">
+    <value>Эпические достижения</value>
+  </data>
+  <data name="Label_Achievements_Special" xml:space="preserve">
+    <value>Особые</value>
+  </data>
+  <data name="Label_Achievements_CommemorativeAchievements" xml:space="preserve">
+    <value>Памятные знаки</value>
+  </data>
+  <data name="Tab_Header_Session" xml:space="preserve">
+    <value>Сессия</value>
+  </data>
+  <data name="Msg_ExceptionOccurred" xml:space="preserve">
+    <value>Произошла ошибка во время работы программы</value>
+  </data>
+  <data name="Msg_SqlExceptionOccurred" xml:space="preserve">
+    <value>Произошла ошибка доступа к базе данных во время работы программы</value>
+  </data>
+  <data name="Settings_CheckForUpdatesOnStart" xml:space="preserve">
+    <value>Проверять обновления на старте</value>
+  </data>
+  <data name="Settings_TryFindTankAnalog" xml:space="preserve">
+    <value>Пытаться подобрать аналогичный танк для рейтингов</value>
+  </data>
+  <data name="WindowCaption_Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Column_Replay_Link" xml:space="preserve">
+    <value>Ссылка</value>
+  </data>
+  <data name="Label_AddReplayFolder_Name" xml:space="preserve">
+    <value>Имя папки</value>
+  </data>
+  <data name="WindowTitle_AddReplayFolder" xml:space="preserve">
+    <value>Добавление папки</value>
+  </data>
+  <data name="Common_NoobmeterPerformanceRating" xml:space="preserve">
+    <value>Рейтинг нагиба</value>
+  </data>
+  <data name="Settings_Period" xml:space="preserve">
+    <value>Период</value>
+  </data>
+  <data name="Chart_EffByType" xml:space="preserve">
+    <value>WN8 по типам техники</value>
+  </data>
+  <data name="Chart_EffByTier" xml:space="preserve">
+    <value>WN8 по уровням</value>
+  </data>
+  <data name="Chart_EffectivityRating" xml:space="preserve">
+    <value>Рейтинг Эффективности</value>
+  </data>
+  <data name="Chart_WN6Rating" xml:space="preserve">
+    <value>Рейтинг WN6</value>
+  </data>
+  <data name="Chart_WinPercent" xml:space="preserve">
+    <value>Процент побед</value>
+  </data>
+  <data name="Chart_SurvivePercent" xml:space="preserve">
+    <value>Выжил в боях %</value>
+  </data>
+  <data name="Chart_AvgXp" xml:space="preserve">
+    <value>Средний опыт за бой</value>
+  </data>
+  <data name="Chart_AvgDamage" xml:space="preserve">
+    <value>Средний урон</value>
+  </data>
+  <data name="Chart_KillDeathRatio" xml:space="preserve">
+    <value>Отношение уничтожил/убит</value>
+  </data>
+  <data name="Medal_15x15_Warrior" xml:space="preserve">
+    <value>Воин</value>
+  </data>
+  <data name="Medal_15x15_Sniper" xml:space="preserve">
+    <value>Снайпер</value>
+  </data>
+  <data name="Medal_15x15_Confederate" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="Medal_15x15_PatrolDuty" xml:space="preserve">
+    <value>Дозорный</value>
+  </data>
+  <data name="Medal_15x15_SteelWall" xml:space="preserve">
+    <value>Стальная Стена</value>
+  </data>
+  <data name="Medal_15x15_Defender" xml:space="preserve">
+    <value>Защитник</value>
+  </data>
+  <data name="Medal_15x15_Invader" xml:space="preserve">
+    <value>Захватчик</value>
+  </data>
+  <data name="Medal_15x15_Scout" xml:space="preserve">
+    <value>Разведчик</value>
+  </data>
+  <data name="Medal_15x15_Huntsman" xml:space="preserve">
+    <value>Медаль Найдина</value>
+  </data>
+  <data name="Medal_15x15_IronMan" xml:space="preserve">
+    <value>Невозмутимый</value>
+  </data>
+  <data name="Medal_15x15_Sturdy" xml:space="preserve">
+    <value>Спартанец</value>
+  </data>
+  <data name="Medal_15x15_LuckyDevil" xml:space="preserve">
+    <value>Счастливчик</value>
+  </data>
+  <data name="Medal_15x15_Sharpshooter" xml:space="preserve">
+    <value>Стрелок</value>
+  </data>
+  <data name="Medal_15x15_MasterGunner" xml:space="preserve">
+    <value>Бронебойщик</value>
+  </data>
+  <data name="Medal_15x15_Sinai" xml:space="preserve">
+    <value>Лев Синая</value>
+  </data>
+  <data name="Medal_15x15_Hunter" xml:space="preserve">
+    <value>Зверобой</value>
+  </data>
+  <data name="Medal_15x15_PattonValley" xml:space="preserve">
+    <value>Долина Паттонов</value>
+  </data>
+  <data name="Medal_15x15_MouseTrap" xml:space="preserve">
+    <value>Гроза Мышей</value>
+  </data>
+  <data name="Medal_15x15_Reaper" xml:space="preserve">
+    <value>Коса Смерти</value>
+  </data>
+  <data name="Medal_15x15_Bombardier" xml:space="preserve">
+    <value>Бомбардир</value>
+  </data>
+  <data name="Medal_15x15_Raider" xml:space="preserve">
+    <value>Рейдер</value>
+  </data>
+  <data name="Medal_15x15_Invincible" xml:space="preserve">
+    <value>Неуязвимый</value>
+  </data>
+  <data name="Medal_15x15_Kamikaze" xml:space="preserve">
+    <value>Камикадзе</value>
+  </data>
+  <data name="Medal_15x15_Survivor" xml:space="preserve">
+    <value>Живучий</value>
+  </data>
+  <data name="Medal_15x15_Billotte" xml:space="preserve">
+    <value>Медаль Бийота</value>
+  </data>
+  <data name="Medal_15x15_Bruno" xml:space="preserve">
+    <value>Медаль Бруно</value>
+  </data>
+  <data name="Medal_15x15_Tarczay" xml:space="preserve">
+    <value>Медаль Тарцая</value>
+  </data>
+  <data name="Medal_15x15_Fadin" xml:space="preserve">
+    <value>Медаль Фадина</value>
+  </data>
+  <data name="Medal_15x15_Boelter" xml:space="preserve">
+    <value>Медаль Бёлтера</value>
+  </data>
+  <data name="Medal_15x15_TamadaYoshio" xml:space="preserve">
+    <value>Медаль Тамада Йошио</value>
+  </data>
+  <data name="Medal_15x15_Pascucci" xml:space="preserve">
+    <value>Медаль Паскуччи</value>
+  </data>
+  <data name="Medal_15x15_Dumitru" xml:space="preserve">
+    <value>Медаль Думитру</value>
+  </data>
+  <data name="Medal_15x15_Burda" xml:space="preserve">
+    <value>Медаль Бурды</value>
+  </data>
+  <data name="Medal_15x15_DeLanglade" xml:space="preserve">
+    <value>Медаль Де Лагланда</value>
+  </data>
+  <data name="Medal_15x15_Lehvaslaiho" xml:space="preserve">
+    <value>Медаль Лехвеслайхо</value>
+  </data>
+  <data name="Medal_15x15_Halonen" xml:space="preserve">
+    <value>Медаль Халонена</value>
+  </data>
+  <data name="Medal_15x15_Oskin" xml:space="preserve">
+    <value>Медаль Оськина</value>
+  </data>
+  <data name="Medal_15x15_Orlik" xml:space="preserve">
+    <value>Медаль Орлика</value>
+  </data>
+  <data name="Medal_15x15_Nikolas" xml:space="preserve">
+    <value>Медаль Николса</value>
+  </data>
+  <data name="Medal_15x15_Kolobanov" xml:space="preserve">
+    <value>Медаль Колобанова</value>
+  </data>
+  <data name="Medal_15x15_BrothersInArms" xml:space="preserve">
+    <value>Братья по оружию</value>
+  </data>
+  <data name="Medal_15x15_CrucialContribution" xml:space="preserve">
+    <value>Решающий вклад</value>
+  </data>
+  <data name="Medal_15x15_RadleyWalters" xml:space="preserve">
+    <value>Медаль Редли-Уолтерса</value>
+  </data>
+  <data name="Medal_15x15_LafayettePool" xml:space="preserve">
+    <value>Медаль Пула</value>
+  </data>
+  <data name="Medal_15x15_HeroesOfRassenay" xml:space="preserve">
+    <value>Медаль Героев Расейняи</value>
+  </data>
+  <data name="Medal_15x15_BattleHero" xml:space="preserve">
+    <value>Герой битвы</value>
+  </data>
+  <data name="Medal_15x15_Kay" xml:space="preserve">
+    <value>Медаль Кея</value>
+  </data>
+  <data name="Medal_15x15_Carius" xml:space="preserve">
+    <value>Медаль Кариуса</value>
+  </data>
+  <data name="Medal_15x15_Knispel" xml:space="preserve">
+    <value>Медаль Книспеля</value>
+  </data>
+  <data name="Medal_15x15_Poppel" xml:space="preserve">
+    <value>Медаль Поппеля</value>
+  </data>
+  <data name="Medal_15x15_Abrams" xml:space="preserve">
+    <value>Медаль Абрамса</value>
+  </data>
+  <data name="Medal_15x15_Leclerk" xml:space="preserve">
+    <value>Медаль ЛеКлерка</value>
+  </data>
+  <data name="Medal_15x15_Lavrinenko" xml:space="preserve">
+    <value>Медаль Лавриненко</value>
+  </data>
+  <data name="Medal_15x15_Ekins" xml:space="preserve">
+    <value>Медаль Экинса</value>
+  </data>
+  <data name="Chart_Tooltip_Battles" xml:space="preserve">
+    <value>Боёв:</value>
+  </data>
+  <data name="Chart_Tooltip_Tank" xml:space="preserve">
+    <value>Танк:</value>
+  </data>
+  <data name="Chart_Tooltip_WinPercent" xml:space="preserve">
+    <value>% побед:</value>
+  </data>
+  <data name="Chart_AvgSpotted" xml:space="preserve">
+    <value>Обнаружено в среднем за бой</value>
+  </data>
+  <data name="Chart_EffByCountry" xml:space="preserve">
+    <value>WN8 по нациям</value>
+  </data>
+  <data name="Chart_ReplaysCountByMap" xml:space="preserve">
+    <value>Количество реплеев</value>
+  </data>
+  <data name="Chart_WinReplaysPercentByMap" xml:space="preserve">
+    <value>Процент победных реплеев</value>
+  </data>
+  <data name="Common_DamageRatio" xml:space="preserve">
+    <value>Нанесено/получено:</value>
+  </data>
+  <data name="Common_KillDeathRatio" xml:space="preserve">
+    <value>Уничтожил/убит:</value>
+  </data>
+  <data name="PeriodTab_CompareHeader" xml:space="preserve">
+    <value>Сравнение с данными за </value>
+  </data>
+  <data name="Common_WGRating" xml:space="preserve">
+    <value>Рейтинг WG</value>
+  </data>
+  <data name="Common_AverageTier" xml:space="preserve">
+    <value>Средний уровень</value>
+  </data>
+  <data name="Common_WotNoobsRating" xml:space="preserve">
+    <value>Рейтинг wot-noobs.ru</value>
+  </data>
+  <data name="Column_Performance_BattlesCount88" xml:space="preserve">
+    <value>Боёв после 8.8</value>
+  </data>
+  <data name="Column_Performance_BattlesCountBefore88" xml:space="preserve">
+    <value>Боёв до 8.8</value>
+  </data>
+  <data name="Column_Performance_DamageAssistedRadio" xml:space="preserve">
+    <value>Урон по засвету(радио)</value>
+  </data>
+  <data name="Column_Performance_DamageAssistedTrack" xml:space="preserve">
+    <value>Урон по засвету(гусли)</value>
+  </data>
+  <data name="Column_Performance_DamageAssistedStun" xml:space="preserve">
+    <value>Урон по оглушенным</value>
+  </data>
+  <data name="Column_Performance_HeHits" xml:space="preserve">
+    <value>Фугасных попаданий</value>
+  </data>
+  <data name="Column_Performance_HeHitsReceived" xml:space="preserve">
+    <value>Фугасных попаданий получено</value>
+  </data>
+  <data name="Column_Performance_Mileage" xml:space="preserve">
+    <value>Пройдено, км</value>
+  </data>
+  <data name="Column_Performance_NoDamageShotsReceived" xml:space="preserve">
+    <value>Попаданий без урона получено</value>
+  </data>
+  <data name="Column_Performance_OriginalXP" xml:space="preserve">
+    <value>Чистый опыт</value>
+  </data>
+  <data name="Column_Performance_Pierced" xml:space="preserve">
+    <value>Пробитий</value>
+  </data>
+  <data name="Column_Performance_PiercedReceived" xml:space="preserve">
+    <value>Пробитий получено</value>
+  </data>
+  <data name="Column_Performance_ShotsReceived" xml:space="preserve">
+    <value>Попаданий получено</value>
+  </data>
+  <data name="Column_Performance_XpBefore88" xml:space="preserve">
+    <value>Опыт до 8.8</value>
+  </data>
+  <data name="Tab_Header_Performance88" xml:space="preserve">
+    <value>Эффективность 8.8</value>
+  </data>
+  <data name="Command_AddFolder" xml:space="preserve">
+    <value>Добавить папку</value>
+  </data>
+  <data name="Command_AddToFavorites" xml:space="preserve">
+    <value>Добавить в избранное</value>
+  </data>
+  <data name="Command_DeleteFolder" xml:space="preserve">
+    <value>Удалить папку</value>
+  </data>
+  <data name="Command_RemoveFromFavorites" xml:space="preserve">
+    <value>Удалить из избранного</value>
+  </data>
+  <data name="ReplaysTab_CopyToClipboard" xml:space="preserve">
+    <value>Скопировать ссылку в буфер</value>
+  </data>
+  <data name="ReplaysTab_Play" xml:space="preserve">
+    <value>Воспроизвести</value>
+  </data>
+  <data name="TankFilterPanel_Premium" xml:space="preserve">
+    <value>Премиумная техника</value>
+  </data>
+  <data name="TankFilterPanel_Favorite" xml:space="preserve">
+    <value>Избранная техника</value>
+  </data>
+  <data name="Operation_Gt" xml:space="preserve">
+    <value>от</value>
+  </data>
+  <data name="Operation_Lt" xml:space="preserve">
+    <value>до</value>
+  </data>
+  <data name="Clan_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Clan_Role" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="Clan_Since" xml:space="preserve">
+    <value>Дата вступления</value>
+  </data>
+  <data name="WindowCaption_Clan" xml:space="preserve">
+    <value>Клан</value>
+  </data>
+  <data name="WindowCaption_ComparePlayers" xml:space="preserve">
+    <value>Сравнение игроков</value>
+  </data>
+  <data name="Difference" xml:space="preserve">
+    <value>Разница</value>
+  </data>
+  <data name="Btn_ComparePlayers" xml:space="preserve">
+    <value>Сравнить</value>
+  </data>
+  <data name="Btn_Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="MenuItem_Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="MenuItem_SearchClans" xml:space="preserve">
+    <value>Кланов</value>
+  </data>
+  <data name="MenuItem_SearchPlayers" xml:space="preserve">
+    <value>Игроков</value>
+  </data>
+  <data name="MenuItem_Compare" xml:space="preserve">
+    <value>Сравнить</value>
+  </data>
+  <data name="Column_Performance_AvgDamageAssisted" xml:space="preserve">
+    <value>Ср. урон по засвету</value>
+  </data>
+  <data name="Column_Performance_AvgDamageAssistedRadio" xml:space="preserve">
+    <value>Ср. урон по засвету(радио)</value>
+  </data>
+  <data name="Column_Performance_AvgDamageAssistedTrack" xml:space="preserve">
+    <value>Ср. урон по засвету(гусли)</value>
+  </data>
+  <data name="Column_Performance_AvgDamageAssistedStun" xml:space="preserve">
+    <value>Ср. урон по оглушенным</value>
+  </data>
+  <data name="Column_Performance_AvgOriginalXP" xml:space="preserve">
+    <value>Ср. чистый опыт</value>
+  </data>
+  <data name="Column_Performance_DamageAssisted" xml:space="preserve">
+    <value>Урон по засвету</value>
+  </data>
+  <data name="ReplaysFilter_Player" xml:space="preserve">
+    <value>Игрок</value>
+  </data>
+  <data name="ReplaysFilter_ByColumns" xml:space="preserve">
+    <value>Фильтр по колонкам</value>
+  </data>
+  <data name="Country_Japan" xml:space="preserve">
+    <value>Япония</value>
+  </data>
+  <data name="Common_BattlesPerDay" xml:space="preserve">
+    <value>Боёв в день</value>
+  </data>
+  <data name="Common_PlayTime" xml:space="preserve">
+    <value>Время в игре</value>
+  </data>
+  <data name="Column_Respawn" xml:space="preserve">
+    <value>Респ</value>
+  </data>
+  <data name="Chart_BattlesByCountry" xml:space="preserve">
+    <value>Боёв по нациям</value>
+  </data>
+  <data name="Chart_BattlesByTier" xml:space="preserve">
+    <value>Боёв по уровням</value>
+  </data>
+  <data name="Chart_BattlesByType" xml:space="preserve">
+    <value>Боёв по типам техники</value>
+  </data>
+  <data name="MenuItem_Export" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="Btn_Clear" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="Label_PotentialDamageReceived" xml:space="preserve">
+    <value>Потенциально полученный урон</value>
+  </data>
+  <data name="Column_Replay_Platoon" xml:space="preserve">
+    <value>Взвод</value>
+  </data>
+  <data name="Column_Replay_PlayerName" xml:space="preserve">
+    <value>Игрок</value>
+  </data>
+  <data name="TankFilterPanel_Tank" xml:space="preserve">
+    <value>Танк</value>
+  </data>
+  <data name="TankFilterPanel_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Column_Damage_MaxDamage" xml:space="preserve">
+    <value>Макс. урон</value>
+  </data>
+  <data name="Tab_Header_Vehicles" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="Chart_Label_AllBases" xml:space="preserve">
+    <value>Все базы</value>
+  </data>
+  <data name="Chart_Label_Base1" xml:space="preserve">
+    <value>База 1</value>
+  </data>
+  <data name="Chart_Label_Base2" xml:space="preserve">
+    <value>База 2</value>
+  </data>
+  <data name="Chart_Label_Settings" xml:space="preserve">
+    <value>Настройка</value>
+  </data>
+  <data name="MenuItem_Export_Frags_Csv" xml:space="preserve">
+    <value>Уничтоженные танки в CSV</value>
+  </data>
+  <data name="DatePicker_SelectDate" xml:space="preserve">
+    <value>Выберите дату</value>
+  </data>
+  <data name="Medal_15x15_MainGun" xml:space="preserve">
+    <value>Основной калибр</value>
+  </data>
+  <data name="Medal_15x15_Sniper2" xml:space="preserve">
+    <value>Танкист-Снайпер</value>
+  </data>
+  <data name="ButtonCheckUpdate" xml:space="preserve">
+    <value>Проверить обновления</value>
+  </data>
+  <data name="Settings_BattleMode" xml:space="preserve">
+    <value>Режим боя</value>
+  </data>
+  <data name="Medal_7x7_ArmoredFist" xml:space="preserve">
+    <value>Бронетанковый кулак</value>
+  </data>
+  <data name="Medal_7x7_KingOfTheHill" xml:space="preserve">
+    <value>Царь Горы</value>
+  </data>
+  <data name="Medal_7x7_TacticalBreakthrough" xml:space="preserve">
+    <value>Тактик</value>
+  </data>
+  <data name="Column_Ratings_PerformanceRating" xml:space="preserve">
+    <value>Рейтинг Нагиба</value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_ArmoredFist" xml:space="preserve">
+    <value>Уничтожить всю технику противника, потеряв при этом не более 1 машины.
+  • Победить в бою.
+  • Выдаётся всем членам команды.
+  • Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_KingOfTheHill" xml:space="preserve">
+    <value>Остаться единственным выжившим в бою, управляя танком или ПТ-САУ.
+  • Победить в бою.
+  • Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="TankFilterPanel_Map" xml:space="preserve">
+    <value>Карта</value>
+  </data>
+  <data name="ReplaysFilter_Result" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="BattleStatus_Unknown" xml:space="preserve">
+    <value>Нет данных</value>
+  </data>
+  <data name="Common_Rating_HitsPercent" xml:space="preserve">
+    <value>Процент попаданий</value>
+  </data>
+  <data name="Common_Rating_MaxXP" xml:space="preserve">
+    <value>Максимальный опыт</value>
+  </data>
+  <data name="Column_Damage_AvgDamageTaken" xml:space="preserve">
+    <value>В ср. получено урона</value>
+  </data>
+  <data name="Label_Achievements_GroupAchievements" xml:space="preserve">
+    <value>Групповые достижения</value>
+  </data>
+  <data name="ReplaysTab_PackBtn" xml:space="preserve">
+    <value>Упаковать</value>
+  </data>
+  <data name="Command_ZipFolder" xml:space="preserve">
+    <value>Упаковать</value>
+  </data>
+  <data name="ReplaysTab_UploadMultipleBtn" xml:space="preserve">
+    <value>Загрузить выбранные реплеи на сервер</value>
+  </data>
+  <data name="Common_Rating_Personal" xml:space="preserve">
+    <value>Личный рейтинг</value>
+  </data>
+  <data name="Hyperlink_Download_Text" xml:space="preserve">
+    <value>Скачать</value>
+  </data>
+  <data name="Hyperlink_Forum_Text" xml:space="preserve">
+    <value>Форум</value>
+  </data>
+  <data name="Btn_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Label_Achievements_TeamBattle" xml:space="preserve">
+    <value>Командный бой</value>
+  </data>
+  <data name="Column_Frags_MauseFrags" xml:space="preserve">
+    <value>Фрагов "Маус"</value>
+  </data>
+  <data name="Column_Frags_PattonFrags" xml:space="preserve">
+    <value>Фрагов "Паттон"</value>
+  </data>
+  <data name="BattleMode_HistoricalBattle" xml:space="preserve">
+    <value>Исторический бой</value>
+  </data>
+  <data name="BattleMode_RandomCompany" xml:space="preserve">
+    <value>Случайный, Ротный</value>
+  </data>
+  <data name="BattleMode_TeamBattle" xml:space="preserve">
+    <value>Командный бой</value>
+  </data>
+  <data name="BattleType_ClanWar" xml:space="preserve">
+    <value>Клановый бой</value>
+  </data>
+  <data name="BattleType_CompanyWar" xml:space="preserve">
+    <value>Ротный бой</value>
+  </data>
+  <data name="BattleType_CyberSport" xml:space="preserve">
+    <value>Командный бой</value>
+  </data>
+  <data name="BattleType_Historical" xml:space="preserve">
+    <value>Исторический бой</value>
+  </data>
+  <data name="BattleType_Regular" xml:space="preserve">
+    <value>Случайный бой</value>
+  </data>
+  <data name="BattleType_Tournament" xml:space="preserve">
+    <value>Турнир</value>
+  </data>
+  <data name="BattleType_Training" xml:space="preserve">
+    <value>Тренировка</value>
+  </data>
+  <data name="BattleType_Tutorial" xml:space="preserve">
+    <value>Обучающий бой</value>
+  </data>
+  <data name="BattleType_Ctf30x30" xml:space="preserve">
+    <value>Генеральное сражение</value>
+  </data>
+  <data name="BattleType_Ranked" xml:space="preserve">
+    <value>Ранговый бой</value>
+  </data>
+  <data name="ChartLegend_AvgDamage" xml:space="preserve">
+    <value>Средний урон</value>
+  </data>
+  <data name="ChartLegend_ER" xml:space="preserve">
+    <value>РЭ</value>
+  </data>
+  <data name="ChartLegend_WinPercent" xml:space="preserve">
+    <value>% побед</value>
+  </data>
+  <data name="ChartTooltipFormat_AvgDamage" xml:space="preserve">
+    <value>Боев: {0}
+Средний урон: {1:0.00}
+Дата: {2:dd.MM.yyyy}</value>
+  </data>
+  <data name="ChartTooltipFormat_Rating" xml:space="preserve">
+    <value>Боев: {0}
+Рейтинг: {1:0.00}
+Дата: {2:dd.MM.yyyy}</value>
+  </data>
+  <data name="ChartTooltipFormat_WinPercent" xml:space="preserve">
+    <value>Боев: {0}
+% побед: {1:0.00}
+Дата: {2:dd.MM.yyyy}</value>
+  </data>
+  <data name="Chart_Tooltip_AvgSpotted" xml:space="preserve">
+    <value>Боев: {0}
+В среднем обнаружено: {1:0.00}
+Дата: {2:dd.MM.yyyy}</value>
+  </data>
+  <data name="Chart_Tooltip_AvgXp" xml:space="preserve">
+    <value>Боев: {0}
+Средний опыт: {1:0.00}
+Дата: {2:dd.MM.yyyy}</value>
+  </data>
+  <data name="Chart_Tooltip_KillDeathRatio" xml:space="preserve">
+    <value>Боев: {0}
+Уничтожил/убит: {1:0.00}
+Дата: {2:dd.MM.yyyy}</value>
+  </data>
+  <data name="Chart_Tooltip_Survive" xml:space="preserve">
+    <value>Боев: {0}
+Вижил %: {1:0.00}
+Дата: {2:dd.MM.yyyy}</value>
+  </data>
+  <data name="ExtendedTimeFormat" xml:space="preserve">
+    <value>m' м 's' с'</value>
+  </data>
+  <data name="Label_Experience" xml:space="preserve">
+    <value>Опыт</value>
+  </data>
+  <data name="Label_Replay_MapMode_Assault" xml:space="preserve">
+    <value>Штурм</value>
+  </data>
+  <data name="Label_Replay_MapMode_domination" xml:space="preserve">
+    <value>Встречный бой</value>
+  </data>
+  <data name="Label_Replay_MapMode_Standart" xml:space="preserve">
+    <value>Стандартный бой</value>
+  </data>
+  <data name="Label_Replay_XpFactorFormat" xml:space="preserve">
+    <value>Опыт (x{0} за первую победу в день)</value>
+  </data>
+  <data name="Msg_CantFindPlayerData" xml:space="preserve">
+    <value>Не удалось получить информацию об игроке - {0}</value>
+  </data>
+  <data name="Msg_CantFindReplaysDirectory" xml:space="preserve">
+    <value>Не удалось найти папку с реплеями - '{0}'.</value>
+  </data>
+  <data name="Msg_CantGetClanDataFromServer" xml:space="preserve">
+    <value>Не удалось получить данные о клане с сервера</value>
+  </data>
+  <data name="Msg_ErrorOnDataLoad" xml:space="preserve">
+    <value>Ошибка при загрузке данных</value>
+  </data>
+  <data name="Msg_ErrorOnFileDeletion" xml:space="preserve">
+    <value>Произошла ошибка при удалении файла({0})</value>
+  </data>
+  <data name="Msg_ErrorOnFilesDeletion" xml:space="preserve">
+    <value>Произошла ошибка при удалении одного или нескольких файлов, проверьте что у вас есть необходимые права на совершение операции</value>
+  </data>
+  <data name="Msg_ErrorOnGetLocalPlayerInfo" xml:space="preserve">
+    <value>Не найдено данных об игроке [{0}] в локальной базе приложения</value>
+  </data>
+  <data name="Msg_ErrorOnPlayReplay" xml:space="preserve">
+    <value>Ошибка при воспроизведении</value>
+  </data>
+  <data name="Msg_Error_on_replay_file_read" xml:space="preserve">
+    <value>Ошибка при чтении файла</value>
+  </data>
+  <data name="Msg_File_incomplete_or_not_supported" xml:space="preserve">
+    <value>Не удалось загрузить файл реплея. Файл неполный или не поддерживается</value>
+  </data>
+  <data name="Msg_GetPlayerData" xml:space="preserve">
+    <value>Ошибка при получении данных пользователя с сервера - [{0}]</value>
+  </data>
+  <data name="Msg_NewVersion" xml:space="preserve">
+    <value>Доступна новая версия - {0}. Скачать и установить ее?</value>
+  </data>
+  <data name="Msg_ReplaysDelete" xml:space="preserve">
+    <value>Удалить файлы и сохранить результаты локально? Да - сохранить. Нет - удалить окончательно.</value>
+  </data>
+  <data name="Msg_ReplayUpload_AuthentificationFailure" xml:space="preserve">
+    <value>Вход на сайт реплеев не выполнен. Выполните вход в браузере IE. Открыть сайт в IE для входа?</value>
+  </data>
+  <data name="Msg_ServerNotSelected" xml:space="preserve">
+    <value>Не выбран сервер</value>
+  </data>
+  <data name="ProgressLabel_Processing_file_format" xml:space="preserve">
+    <value>Обработка файла {0}/{1} - {2}...</value>
+  </data>
+  <data name="ProgressTitle_Loading_replays" xml:space="preserve">
+    <value>Загрузка реплеев</value>
+  </data>
+  <data name="ReplaysFolders_Deleted" xml:space="preserve">
+    <value>Удаленные</value>
+  </data>
+  <data name="Role_commander" xml:space="preserve">
+    <value>Боевой офицер</value>
+  </data>
+  <data name="Role_diplomat" xml:space="preserve">
+    <value>Офицер разведки</value>
+  </data>
+  <data name="Role_leader" xml:space="preserve">
+    <value>Командующий</value>
+  </data>
+  <data name="Role_private" xml:space="preserve">
+    <value>Рядовой</value>
+  </data>
+  <data name="Role_recruit" xml:space="preserve">
+    <value>Новобранец</value>
+  </data>
+  <data name="Role_recruiter" xml:space="preserve">
+    <value>Офицер по рекрутингу</value>
+  </data>
+  <data name="Role_treasurer" xml:space="preserve">
+    <value>Офицер снабжения</value>
+  </data>
+  <data name="Role_vice_leader" xml:space="preserve">
+    <value>Старший офицер</value>
+  </data>
+  <data name="StatisticPeriod_AllObservationPeriod" xml:space="preserve">
+    <value>Весь период</value>
+  </data>
+  <data name="StatisticPeriod_Custom" xml:space="preserve">
+    <value>Результаты с {0}</value>
+  </data>
+  <data name="StatisticPeriod_Custom_ComboItem" xml:space="preserve">
+    <value>Свой</value>
+  </data>
+  <data name="StatisticPeriod_LastNBattles" xml:space="preserve">
+    <value>Результаты последних {0} боев</value>
+  </data>
+  <data name="StatisticPeriod_LastNBattles_ComboItem" xml:space="preserve">
+    <value>Последние N боев</value>
+  </data>
+  <data name="StatisticPeriod_LastWeek" xml:space="preserve">
+    <value>Последняя неделя</value>
+  </data>
+  <data name="StatisticPeriod_Recent" xml:space="preserve">
+    <value>Недавние</value>
+  </data>
+  <data name="TabHeader_AllObservationPeriod" xml:space="preserve">
+    <value>Результаты за все время наблюдения</value>
+  </data>
+  <data name="TabHeader_Custom" xml:space="preserve">
+    <value>Результаты с {0}</value>
+  </data>
+  <data name="TabHeader_LastNBattles" xml:space="preserve">
+    <value>Результаты последних {0} боев</value>
+  </data>
+  <data name="TabHeader_LastWeek" xml:space="preserve">
+    <value>Результаты за неделю</value>
+  </data>
+  <data name="TabHeader_Recent" xml:space="preserve">
+    <value>Результаты за последний день</value>
+  </data>
+  <data name="TankFilterPanel_All1" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Tooltip_Replay_DamageAssisted" xml:space="preserve">
+    <value>По вашим разведданным союзники нанесли очков урона: {0}</value>
+  </data>
+  <data name="Tooltip_Replay_CriticalDamage" xml:space="preserve">
+    <value>Вы нанесли критических повреждений: {0}</value>
+  </data>
+  <data name="Tooltip_Replay_Damage" xml:space="preserve">
+    <value>Вы нанесли урона: {0}</value>
+  </data>
+  <data name="Tooltip_Replay_AssistedStun" xml:space="preserve">
+    <value>Урон по оглушённым вами целям: {0}</value>
+  </data>
+  <data name="Tooltip_Replay_Detected" xml:space="preserve">
+    <value>Вы обнаружили этот танк противника</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Всего</value>
+  </data>
+  <data name="Traveled_Format" xml:space="preserve">
+    <value>{0:0.00} км</value>
+  </data>
+  <data name="WarningMsg_CanntFindPlayerDataInDossierCache" xml:space="preserve">
+    <value>Для указанного игрока не найдено данных по танкам в локальном кэше игры</value>
+  </data>
+  <data name="WarningMsg_SpecifyPlayerName" xml:space="preserve">
+    <value>Укажите имя игрока в настройках приложения</value>
+  </data>
+  <data name="WindowCaption_AuthFailure" xml:space="preserve">
+    <value>Ошибка входа</value>
+  </data>
+  <data name="WindowCaption_Information" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="WindowCaption_Pack" xml:space="preserve">
+    <value>Упаковка</value>
+  </data>
+  <data name="WindowCaption_SearchClan" xml:space="preserve">
+    <value>Поиск клана</value>
+  </data>
+  <data name="WindowCaption_SearchPlayer" xml:space="preserve">
+    <value>Поиск игрока</value>
+  </data>
+  <data name="WindowCaption_SelectPathToWorldOfTanksExecutable" xml:space="preserve">
+    <value>Укажите путь к WorldOfTanks.exe</value>
+  </data>
+  <data name="WindowCaption_Warning" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="WondowCaption_Export" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="Map_00_tank_tutorial" xml:space="preserve">
+    <value>Тренировочная миссия</value>
+  </data>
+  <data name="Map_01_karelia" xml:space="preserve">
+    <value>Карелия</value>
+  </data>
+  <data name="Map_02_malinovka" xml:space="preserve">
+    <value>Малиновка</value>
+  </data>
+  <data name="Map_03_campania" xml:space="preserve">
+    <value>Провинция</value>
+  </data>
+  <data name="Map_04_himmelsdorf" xml:space="preserve">
+    <value>Химмельсдорф</value>
+  </data>
+  <data name="Map_05_prohorovka" xml:space="preserve">
+    <value>Прохоровка</value>
+  </data>
+  <data name="Map_06_ensk" xml:space="preserve">
+    <value>Энск</value>
+  </data>
+  <data name="Map_07_lakeville" xml:space="preserve">
+    <value>Ласвилль</value>
+  </data>
+  <data name="Map_08_ruinberg" xml:space="preserve">
+    <value>Руинберг</value>
+  </data>
+  <data name="Map_10_hills" xml:space="preserve">
+    <value>Рудники</value>
+  </data>
+  <data name="Map_11_murovanka" xml:space="preserve">
+    <value>Мурованка</value>
+  </data>
+  <data name="Map_13_erlenberg" xml:space="preserve">
+    <value>Эрленберг</value>
+  </data>
+  <data name="Map_14_siegfried_line" xml:space="preserve">
+    <value>Линия Зигфрида</value>
+  </data>
+  <data name="Map_15_komarin" xml:space="preserve">
+    <value>Комарин</value>
+  </data>
+  <data name="Map_17_munchen" xml:space="preserve">
+    <value>Уайдпарк</value>
+  </data>
+  <data name="Map_18_cliff" xml:space="preserve">
+    <value>Утес</value>
+  </data>
+  <data name="Map_19_monastery" xml:space="preserve">
+    <value>Монастырь</value>
+  </data>
+  <data name="Map_22_slough" xml:space="preserve">
+    <value>Топь</value>
+  </data>
+  <data name="Map_23_westfeld" xml:space="preserve">
+    <value>Вестфилд</value>
+  </data>
+  <data name="Map_28_desert" xml:space="preserve">
+    <value>Песчаная река</value>
+  </data>
+  <data name="Map_29_el_hallouf" xml:space="preserve">
+    <value>Эль-Халлуф</value>
+  </data>
+  <data name="Map_31_airfield" xml:space="preserve">
+    <value>Аэродром</value>
+  </data>
+  <data name="Map_33_fjord" xml:space="preserve">
+    <value>Фьорды</value>
+  </data>
+  <data name="Map_34_redshire" xml:space="preserve">
+    <value>Редшир</value>
+  </data>
+  <data name="Map_35_steppes" xml:space="preserve">
+    <value>Степи</value>
+  </data>
+  <data name="Map_36_fishing_bay" xml:space="preserve">
+    <value>Рыбацкая бухта</value>
+  </data>
+  <data name="Map_37_caucasus" xml:space="preserve">
+    <value>Перевал</value>
+  </data>
+  <data name="Map_38_mannerheim_line" xml:space="preserve">
+    <value>Заполярье</value>
+  </data>
+  <data name="Map_39_crimea" xml:space="preserve">
+    <value>Южный Берег</value>
+  </data>
+  <data name="Map_42_north_america" xml:space="preserve">
+    <value>Порт</value>
+  </data>
+  <data name="Map_43_north_america" xml:space="preserve">
+    <value>Северо-Запад</value>
+  </data>
+  <data name="Map_44_north_america" xml:space="preserve">
+    <value>Лайв Окс</value>
+  </data>
+  <data name="Map_45_north_america" xml:space="preserve">
+    <value>Хайвей</value>
+  </data>
+  <data name="Map_47_canada_a" xml:space="preserve">
+    <value>Тихий берег</value>
+  </data>
+  <data name="Map_51_asia" xml:space="preserve">
+    <value>Хребет Дракона</value>
+  </data>
+  <data name="Map_53_japan" xml:space="preserve">
+    <value>Скрытая Деревня</value>
+  </data>
+  <data name="Map_60_asia_miao" xml:space="preserve">
+    <value>Жемчужная Река</value>
+  </data>
+  <data name="Map_63_tundra" xml:space="preserve">
+    <value>Тундра</value>
+  </data>
+  <data name="Map_73_asia_korea" xml:space="preserve">
+    <value>Священная Долина</value>
+  </data>
+  <data name="Map_84_winter" xml:space="preserve">
+    <value>Виндсторм</value>
+  </data>
+  <data name="Map_85_winter" xml:space="preserve">
+    <value>Северогорск</value>
+  </data>
+  <data name="Map_86_himmelsdorf_winter" xml:space="preserve">
+    <value>Зимний Химмельсдорф</value>
+  </data>
+  <data name="Map_87_ruinberg_on_fire" xml:space="preserve">
+    <value>Руинберг в огне</value>
+  </data>
+  <data name="Progress_CommonStatLoading" xml:space="preserve">
+    <value>Загрузка общей статистики игрока</value>
+  </data>
+  <data name="Progress_CommonStatLoadingCompleted" xml:space="preserve">
+    <value>Загрузка общей статистики игрока завершена</value>
+  </data>
+  <data name="Progress_VehiclesStatLoading" xml:space="preserve">
+    <value>Загрузка статистики по технике</value>
+  </data>
+  <data name="Progress_VehiclesStatLoadingCompleted" xml:space="preserve">
+    <value>Загрузка статистики по технике завершена</value>
+  </data>
+  <data name="Progress_ChartsInitialization" xml:space="preserve">
+    <value>Инициализация графиков</value>
+  </data>
+  <data name="Progress_ChartsInitializationCompleted" xml:space="preserve">
+    <value>Инициализация графиков завершена</value>
+  </data>
+  <data name="Progress_LoadLastUsedVehiclesList" xml:space="preserve">
+    <value>Инициализация списка последней использованой техники</value>
+  </data>
+  <data name="Progress_LoadLastUsedVehiclesListCompleted" xml:space="preserve">
+    <value>Инициализация списка последней использованой техники завершена</value>
+  </data>
+  <data name="Progress_DataLoadCompleted" xml:space="preserve">
+    <value>Загрузка данных завершена</value>
+  </data>
+  <data name="WindowTitleFormat_Replay" xml:space="preserve">
+    <value>{0}, {1}, уровень боя - {2}, версия - {3}</value>
+  </data>
+  <data name="Medal_7x7_FightingReconnaissanceMedal" xml:space="preserve">
+    <value>Разведка боем</value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_FightingReconnaissanceMedal" xml:space="preserve">
+    <value>50 раз выполнить следующие условия:
+  • Обнаружить не менее 2 машин противника
+  • Занять 3 и выше место по нанесенному урону
+  • В общем зачете повтовно полученные награды не суммируются
+    </value>
+  </data>
+  <data name="Medal_7x7_WillToWinSpirit" xml:space="preserve">
+    <value>За волю к победе</value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_WillToWinSpirit" xml:space="preserve">
+    <value>Победить в бою оставшись в одиночку против 3 
+и более машин противника
+  • В общем зачете повтовно полученные награды не суммируются
+    </value>
+  </data>
+  <data name="Medal_7x7_CrucialShotMedal" xml:space="preserve">
+    <value>Решающий выстрел</value>
+  </data>
+  <data name="Tooltip_Achievements_7x7" xml:space="preserve">
+    <value>20 раз уничтожить последнюю машину противника
+  • Победить в бою
+  • В общем зачете повтовно полученные награды не суммируются
+    </value>
+  </data>
+  <data name="Medal_7x7_GodOfWar" xml:space="preserve">
+    <value>Бог войны</value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_GodOfWar" xml:space="preserve">
+    <value>Победить в бою на САУ оставшись единственным выжившим
+  • Победить в бою
+  • В общем зачете повтовно полученные награды не суммируются
+    </value>
+  </data>
+  <data name="Medal_7x7_WolfAmongSheepMedal" xml:space="preserve">
+    <value>За отличную стрельбу</value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_WolfAmongSheepMedal" xml:space="preserve">
+    <value>Занять 100 раз первое место по количеству нанесенного урона в победном бою
+  • В общем зачете повтовно полученные награды не суммируются
+    </value>
+  </data>
+  <data name="Medal_7x7_GeniusForWarMedal" xml:space="preserve">
+    <value>Отличник боевой подготовки</value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_GeniusForWarMedal" xml:space="preserve">
+    <value>Занять 100 раз первое место по количеству заработанного опыта за бой
+  • Победить в бою
+  • В общем зачете повтовно полученные награды не суммируются
+    </value>
+  </data>
+  <data name="Medal_7x7_FireAndSteelMedal" xml:space="preserve">
+    <value>Закалённый в боях</value>
+  </data>
+  <data name="Medal_7x7_ForTacticalOperations" xml:space="preserve">
+    <value>За тактические операции</value>
+  </data>
+  <data name="Medal_7x7_HeavyFireMedal" xml:space="preserve">
+    <value>Снайперский резерв</value>
+  </data>
+  <data name="Medal_7x7_NoMansLand" xml:space="preserve">
+    <value>Бой до последнего</value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_FireAndSteelMedal" xml:space="preserve">
+    <value>25 раз получить наибольшую сумму 
+полученного и заблокированного броней урона 
+за бой
+    • Выжить в бою
+    • В общем зачете повторно полученные награды не суммируются
+    • Защитываются только победные бои
+    • Выдается только в командных боях
+    </value>
+  </data>
+  <data name="Medal_7x7_PromisingFighterMedal" xml:space="preserve">
+    <value>Перспективный боец</value>
+  </data>
+  <data name="Medal_7x7_PyromaniacMedal" xml:space="preserve">
+    <value>Пироман</value>
+  </data>
+  <data name="Medal_7x7_RangerMedal" xml:space="preserve">
+    <value>Егерь</value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_ForTacticalOperations" xml:space="preserve">
+    <value>Выдаётся за суммарное количество побед, 
+одержанных в составе случайной команды 
+в 10/100/1000/2500 боях. 
+    • Выдаётся только в командных боях.
+    </value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_HeavyFireMedal" xml:space="preserve">
+    <value>Занять 100 раз 1,2 или 3 место по количеству
+нанесенного урона за бой
+    • В общем зачете повторно полученные награды не суммируются
+    • Защитываются только победные бои
+    • Выдается только в командных боях
+    </value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_NoMansLand" xml:space="preserve">
+    <value>Провести бой, в котором будет уничтожена вся 
+техника обеих команд.
+    • Выдается обеим сторонам
+    • Выдается только в командных боях
+    </value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_PromisingFighterMedal" xml:space="preserve">
+    <value>Занять 100 раз 1,2 или 3 место по количеству
+заработанного опыта за бой
+    • В общем зачете повторно полученные награды не суммируются
+    • Защитываются только победные бои
+    • Выдается только в командных боях
+</value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_PyromaniacMedal" xml:space="preserve">
+    <value>10 раз поджечь противника
+    • В общем зачете повторно полученные награды не суммируются
+    • Выдается только в командных боях
+</value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_RangerMedal" xml:space="preserve">
+    <value>10 раз повредить или уничтожить противника, 
+который невидим для игрока.
+    • В общем зачете повторно полученные награды не суммируются
+    • Защитываются только попадания нанесшие урон
+    • Выдается только в командных боях
+    </value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_TacticalBreakthrough" xml:space="preserve">
+    <value>Победить не менее 3 раз подряд в составе случайной команды.
+    • Серия ведётся для каждой машины отдельно и может продолжиться в следующем бою на этой же машине.
+    • Выдаётся только в Командных боях.
+    </value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_CrucialShotMedal" xml:space="preserve">
+    <value>Присуждается игроку, 20 раз уничтожившему последнюю 
+машину противника и победившему в бою. 
+    • В общем зачёте повторно полученные награды суммируются. 
+    • Выдаётся только в командных боях. 
+    </value>
+  </data>
+  <data name="Label_Achievements_HistoricalBattle" xml:space="preserve">
+    <value>Исторический бой</value>
+  </data>
+  <data name="Medal_15x15_MedalMonolith" xml:space="preserve">
+    <value>Монолит</value>
+  </data>
+  <data name="Medal_15x15_MedalAntiSpgFire" xml:space="preserve">
+    <value>За контрбатарейную стрельбу</value>
+  </data>
+  <data name="Medal_15x15_MedalGore" xml:space="preserve">
+    <value>Медаль Гора</value>
+  </data>
+  <data name="Medal_15x15_MedalCoolBlood" xml:space="preserve">
+    <value>Хладнокровный</value>
+  </data>
+  <data name="Medal_15x15_MedalStark" xml:space="preserve">
+    <value>Медаль Старка</value>
+  </data>
+  <data name="Medal_HistoricalBattle_GuardsMan" xml:space="preserve">
+    <value>Гвардеец</value>
+  </data>
+  <data name="Medal_HistoricalBattle_MakerOfHistory" xml:space="preserve">
+    <value>Вершитель истории</value>
+  </data>
+  <data name="Map_83_kharkiv" xml:space="preserve">
+    <value>Харьков</value>
+  </data>
+  <data name="Settings_AutoLoadStatistic" xml:space="preserve">
+    <value>Автозагрузка статистики</value>
+  </data>
+  <data name="Tooltip_Achievements_HistoricalBattle_GuardsMan" xml:space="preserve">
+    <value>Выдаётся за суммарное количество побед, 
+одержанных на вспомогательной технике в 5/50/500/1500 боях. 
+В роли вспомогательной техники в разных исторических 
+боях могут выступать разные машины. 
+Например, играя в команде, состоящей из танков Т-34 и БТ-7, 
+необходимо управлять танком БТ-7. 
+    • Выдаётся только в исторических боях. 
+    </value>
+  </data>
+  <data name="Tooltip_Achievements_HistoricalBattle_MakerOfHistory" xml:space="preserve">
+    <value>Выдаётся за суммарное количество побед, 
+одержанных за каждую из сторон конфликта 
+в 5/50/500/2500 боях. 
+    • Выдаётся только в исторических боях. </value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_MedalAntiSpgFire" xml:space="preserve">
+    <value>Управляя САУ, уничтожить все САУ противника в одном бою, но не менее 3.
+    • Уничтожение союзников недопустимо.
+    • Выдаётся только в Случайных боях.
+</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_MedalCoolBlood" xml:space="preserve">
+    <value>Уничтожить не менее 2 лёгких танков противника с расстояния не более 100 метров.
+    • Управлять САУ IV уровня и выше.
+    • Уничтожение союзников недопустимо.
+    • Выдаётся только в Случайных боях.
+    </value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_MedalGore" xml:space="preserve">
+    <value>Управляя САУ, нанести урон, десятикратно превышающий значение прочности собственной машины.
+    • Уничтожение союзников недопустимо.
+    • Попадания по союзникам не учитываются.
+    • Выдаётся только в Случайных боях.
+</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_MedalMonolith" xml:space="preserve">
+    <value>Выжить на САУ после фатального для противника тарана.
+    • Скорость собственной САУ не должна превышать 10 км/ч.
+    • Уничтожение союзников недопустимо.
+    • Выдаётся только в Случайных боях.
+</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_MedalStark" xml:space="preserve">
+    <value>Управляя САУ, уничтожить не менее 2 машин противника, получив не менее 2 попаданий от противника, нанёсших урон или заблокированных бронёй.
+    • Выжить в бою.
+    • Сумма полученного и заблокированного бронёй урона должна составлять не менее 2/3 от очков прочности собственной машины.
+    • Уничтожение союзников недопустимо.
+    • Выдаётся только в Случайных боях.
+</value>
+  </data>
+  <data name="Label_ColorScheme" xml:space="preserve">
+    <value>Цветовая схема</value>
+  </data>
+  <data name="DossierTheme_Black" xml:space="preserve">
+    <value>Черная</value>
+  </data>
+  <data name="DossierTheme_Silver" xml:space="preserve">
+    <value>Серебряная</value>
+  </data>
+  <data name="Label_ReplayDetail_IsAlive" xml:space="preserve">
+    <value>Выжил</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Replay_Tab_Header_Equipment" xml:space="preserve">
+    <value>Оборудование</value>
+  </data>
+  <data name="artefacts_afterburning_descr" xml:space="preserve">
+    <value>+15% к мощности двигателя на одну минуту</value>
+  </data>
+  <data name="artefacts_afterburning_name" xml:space="preserve">
+    <value>Форсаж</value>
+  </data>
+  <data name="artefacts_aimingStabilizer_descr" xml:space="preserve">
+    <value>-20% к разбросу при движении и повороте башни</value>
+  </data>
+  <data name="artefacts_aimingStabilizer_Mk1_name" xml:space="preserve">
+    <value>Стабилизатор вертикальной наводки Mk 1</value>
+  </data>
+  <data name="artefacts_aimingStabilizer_Mk2_name" xml:space="preserve">
+    <value>Стабилизатор вертикальной наводки Mk 2</value>
+  </data>
+  <data name="artefacts_antifragmentationLining_heavy_descr" xml:space="preserve">
+    <value>+30% к абсорбции повреждений от взрывов и тарана 
++30% к защите экипажа от ранений</value>
+  </data>
+  <data name="artefacts_antifragmentationLining_heavy_name" xml:space="preserve">
+    <value>Тяжёлый противоосколочный подбой</value>
+  </data>
+  <data name="artefacts_antifragmentationLining_light_descr" xml:space="preserve">
+    <value>+20% к абсорбции повреждений от взрывов и тарана 
++20% к защите экипажа от ранений</value>
+  </data>
+  <data name="artefacts_antifragmentationLining_light_name" xml:space="preserve">
+    <value>Лёгкий противоосколочный подбой</value>
+  </data>
+  <data name="artefacts_antifragmentationLining_medium_descr" xml:space="preserve">
+    <value>+25% к абсорбции повреждений от взрывов и тарана 
++25% к защите экипажа от ранений</value>
+  </data>
+  <data name="artefacts_antifragmentationLining_medium_name" xml:space="preserve">
+    <value>Средний противоосколочный подбой</value>
+  </data>
+  <data name="artefacts_antifragmentationLining_superheavy_descr" xml:space="preserve">
+    <value>+50% к абсорбции повреждений от взрывов и тарана 
++50% к защите экипажа от ранений</value>
+  </data>
+  <data name="artefacts_antifragmentationLining_superheavy_name" xml:space="preserve">
+    <value>Сверхтяжёлый противоосколочный подбой</value>
+  </data>
+  <data name="artefacts_autoExtinguishers/always" xml:space="preserve">
+    <value>+10% защите от пожара.</value>
+  </data>
+  <data name="artefacts_autoExtinguishers/restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_autoExtinguishers_descr" xml:space="preserve">
+    <value>Автоматическое тушение пожара в 
+собственной машине.</value>
+  </data>
+  <data name="artefacts_autoExtinguishers_name" xml:space="preserve">
+    <value>Автоматический огнетушитель</value>
+  </data>
+  <data name="artefacts_autoExtinguishers_onUse" xml:space="preserve">
+    <value>автоматическое тушение пожара в 
+собственной машине. 
+Используется однократно.</value>
+  </data>
+  <data name="artefacts_camouflageNet_descr" xml:space="preserve">
+    <value>Значительно снижает заметность неподвижной машины</value>
+  </data>
+  <data name="artefacts_camouflageNet_name" xml:space="preserve">
+    <value>Маскировочная сеть</value>
+  </data>
+  <data name="artefacts_carbonDioxide_descr" xml:space="preserve">
+    <value>+50% к прочности бака</value>
+  </data>
+  <data name="artefacts_carbonDioxide_name" xml:space="preserve">
+    <value>Заполнение баков СО2</value>
+  </data>
+  <data name="artefacts_chocolate_always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
+  </data>
+  <data name="artefacts_chocolate_descr" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа.</value>
+  </data>
+  <data name="artefacts_chocolate_name" xml:space="preserve">
+    <value>Шоколад</value>
+  </data>
+  <data name="artefacts_chocolate_onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_chocolate_restriction" xml:space="preserve">
+    <value>Только для техники Германии.</value>
+  </data>
+  <data name="artefacts_coatedOptics_descr" xml:space="preserve">
+    <value>+10% к радиусу обзора, но не более 500 м</value>
+  </data>
+  <data name="artefacts_coatedOptics_name" xml:space="preserve">
+    <value>Просветлённая оптика</value>
+  </data>
+  <data name="artefacts_cocacola_always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
+  </data>
+  <data name="artefacts_cocacola_descr" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа.</value>
+  </data>
+  <data name="artefacts_cocacola_name" xml:space="preserve">
+    <value>Ящик Колы</value>
+  </data>
+  <data name="artefacts_cocacola_onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_cocacola_restriction" xml:space="preserve">
+    <value>Только для техники США.</value>
+  </data>
+  <data name="artefacts_enhancedAimDrives_descr" xml:space="preserve">
+    <value>+10% к скорости сведения</value>
+  </data>
+  <data name="artefacts_enhancedAimDrives_name" xml:space="preserve">
+    <value>Усиленные приводы наводки</value>
+  </data>
+  <data name="artefacts_enhancedBelwillWashers_name" xml:space="preserve">
+    <value>Усиленные шайбы Бельвилля</value>
+  </data>
+  <data name="artefacts_enhancedHorizontal_elastic_elements_descr" xml:space="preserve">
+    <value>+10% к грузоподъёмности ходовой
++20% к прочности ходовой
+ -50% к урону, передаваемому корпусу через ходовую при падении</value>
+  </data>
+  <data name="artefacts_enhancedHorizontal_elastic_elements_name" xml:space="preserve">
+    <value>Усиленные горизонтальные рессоры</value>
+  </data>
+  <data name="artefacts_enhancedHorizontal_springs_class2_descr" xml:space="preserve">
+    <value>+10% к грузоподъёмности ходовой
++20% к прочности ходовой
+ -50% к урону, передаваемому корпусу через ходовую при падении</value>
+  </data>
+  <data name="artefacts_enhancedHorizontal_springs_class2_name" xml:space="preserve">
+    <value>Усиленные пружины 2-го класса</value>
+  </data>
+  <data name="artefacts_enhancedHorizontal_springs_class3_descr" xml:space="preserve">
+    <value>+10% к грузоподъёмности ходовой
++20% к прочности ходовой
+ -50% к урону, передаваемому корпусу через ходовую при падении</value>
+  </data>
+  <data name="artefacts_enhancedHorizontal_springs_class3_name" xml:space="preserve">
+    <value>Усиленные пружины 3-го класса</value>
+  </data>
+  <data name="artefacts_enhancedHorizontal_springs_descr" xml:space="preserve">
+    <value>+10% к грузоподъёмности ходовой
++20% к прочности ходовой
+ -50% к урону, передаваемому корпусу через ходовую при падении</value>
+  </data>
+  <data name="artefacts_enhancedHorizontal_springs_name" xml:space="preserve">
+    <value>Усиленные пружины 1-го класса</value>
+  </data>
+  <data name="artefacts_enhancedLevers_name" xml:space="preserve">
+    <value>Усиленные балансиры</value>
+  </data>
+  <data name="artefacts_enhancedLongitudinalTorsions_name" xml:space="preserve">
+    <value>Усиленные продольные торсионы</value>
+  </data>
+  <data name="artefacts_enhancedSprings_class2_descr" xml:space="preserve">
+    <value>+10% к грузоподъёмности ходовой
++20% к прочности ходовой
+ -50% к урону, передаваемому корпусу через ходовую при падении</value>
+  </data>
+  <data name="artefacts_enhancedSprings_class2_name" xml:space="preserve">
+    <value>Усиленные рессоры 2-го класса</value>
+  </data>
+  <data name="artefacts_enhancedSprings_class3_descr" xml:space="preserve">
+    <value>+10% к грузоподъёмности ходовой
++20% к прочности ходовой
+ -50% к урону, передаваемому корпусу через ходовую при падении</value>
+  </data>
+  <data name="artefacts_enhancedSprings_class3_name" xml:space="preserve">
+    <value>Усиленные рессоры 3-го класса</value>
+  </data>
+  <data name="artefacts_enhancedSprings_name" xml:space="preserve">
+    <value>Усиленные рессоры</value>
+  </data>
+  <data name="artefacts_enhancedSuspension_candle_name" xml:space="preserve">
+    <value>Усиленная свечная подвеска</value>
+  </data>
+  <data name="artefacts_enhancedSuspension_Christie_name" xml:space="preserve">
+    <value>Усиленная подвеска Кристи</value>
+  </data>
+  <data name="artefacts_enhancedSuspension_descr" xml:space="preserve">
+    <value>+10% к грузоподъёмности ходовой
++20% к прочности ходовой
+ -50% к урону, передаваемому корпусу через ходовую при падении</value>
+  </data>
+  <data name="artefacts_enhancedSuspension_Vikkers_name" xml:space="preserve">
+    <value>Усиленная подвеска Виккерса</value>
+  </data>
+  <data name="artefacts_enhancedTorsions1t_name" xml:space="preserve">
+    <value>Усиленные торсионы 1 т класса</value>
+  </data>
+  <data name="artefacts_enhancedTorsions3t_name" xml:space="preserve">
+    <value>Усиленные торсионы 3 т класса</value>
+  </data>
+  <data name="artefacts_enhancedTorsions5t_name" xml:space="preserve">
+    <value>Усиленные торсионы 5+ т класса</value>
+  </data>
+  <data name="artefacts_enhancedVertical_elastic_elements_descr" xml:space="preserve">
+    <value>+10% к грузоподъёмности ходовой
++20% к прочности ходовой
+ -50% к урону, передаваемому корпусу через ходовую при падении</value>
+  </data>
+  <data name="artefacts_enhancedVertical_elastic_elements_name" xml:space="preserve">
+    <value>Усиленные вертикальные рессоры</value>
+  </data>
+  <data name="artefacts_enhancedVertical_springs_class2_descr" xml:space="preserve">
+    <value>+10% к грузоподъёмности ходовой
++20% к прочности ходовой
+ -50% к урону, передаваемому корпусу через ходовую при падении</value>
+  </data>
+  <data name="artefacts_enhancedVertical_springs_class2_name" xml:space="preserve">
+    <value>Усил. вертикальные пружины 2-го класса</value>
+  </data>
+  <data name="artefacts_enhancedVertical_springs_class3_descr" xml:space="preserve">
+    <value>+10% к грузоподъёмности ходовой
++20% к прочности ходовой
+ -50% к урону, передаваемому корпусу через ходовую при падении</value>
+  </data>
+  <data name="artefacts_enhancedVertical_springs_class3_name" xml:space="preserve">
+    <value>Усил. вертикальные пружины 3-го класса</value>
+  </data>
+  <data name="artefacts_enhancedVertical_springs_descr" xml:space="preserve">
+    <value>+10% к грузоподъёмности ходовой
++20% к прочности ходовой
+ -50% к урону, передаваемому корпусу через ходовую при падении</value>
+  </data>
+  <data name="artefacts_enhancedVertical_springs_name" xml:space="preserve">
+    <value>Усиленные вертикальные пружины 1-го класса</value>
+  </data>
+  <data name="artefacts_filterCyclone_descr" xml:space="preserve">
+    <value>+50% к прочности двигателя</value>
+  </data>
+  <data name="artefacts_filterCyclone_name" xml:space="preserve">
+    <value>Фильтр «Циклон»</value>
+  </data>
+  <data name="artefacts_gasoline100_always" xml:space="preserve">
+    <value>+5% к мощности двигателя и скорости вращения башни. Расходуется за один бой.</value>
+  </data>
+  <data name="artefacts_gasoline100_descr" xml:space="preserve">
+    <value>+5% к мощности двигателя и скорости вращения башни.</value>
+  </data>
+  <data name="artefacts_gasoline100_name" xml:space="preserve">
+    <value>100-октановый бензин</value>
+  </data>
+  <data name="artefacts_gasoline100_onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_gasoline100_restriction" xml:space="preserve">
+    <value>Только для бензиновых двигателей Германии, США, Великобритании и Франции.</value>
+  </data>
+  <data name="artefacts_gasoline105_always" xml:space="preserve">
+    <value>+10% к мощности двигателя и скорости вращения башни. Расходуется за один бой.</value>
+  </data>
+  <data name="artefacts_gasoline105_descr" xml:space="preserve">
+    <value>+10% к мощности двигателя и скорости вращения башни.</value>
+  </data>
+  <data name="artefacts_gasoline105_name" xml:space="preserve">
+    <value>105-октановый бензин</value>
+  </data>
+  <data name="artefacts_gasoline105_onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_gasoline105_restriction" xml:space="preserve">
+    <value>Только для бензиновых двигателей Германии, США, Великобритании и Франции.</value>
+  </data>
+  <data name="artefacts_grousers_descr" xml:space="preserve">
+    <value>+10% к проходимости по слабым грунтам,
++5% к проходимости по средним грунтам</value>
+  </data>
+  <data name="artefacts_grousers_name" xml:space="preserve">
+    <value>Дополнительные грунтозацепы</value>
+  </data>
+  <data name="artefacts_handExtinguishers_always" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_handExtinguishers_descr" xml:space="preserve">
+    <value>Тушение пожара в собственной машине.</value>
+  </data>
+  <data name="artefacts_handExtinguishers_name" xml:space="preserve">
+    <value>Ручной огнетушитель</value>
+  </data>
+  <data name="artefacts_handExtinguishers_onUse" xml:space="preserve">
+    <value>тушение пожара в собственной машине. Используется однократно.</value>
+  </data>
+  <data name="artefacts_handExtinguishers_restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_hotCoffee_always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
+  </data>
+  <data name="artefacts_hotCoffee_descr" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа.</value>
+  </data>
+  <data name="artefacts_hotCoffee_name" xml:space="preserve">
+    <value>Крепкий кофе</value>
+  </data>
+  <data name="artefacts_hotCoffee_onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_hotCoffee_restriction" xml:space="preserve">
+    <value>Только для техники Франции.</value>
+  </data>
+  <data name="artefacts_improvedVentilation_class1_name" xml:space="preserve">
+    <value>Улучшенная вентиляция Класс 1</value>
+  </data>
+  <data name="artefacts_improvedVentilation_class2_name" xml:space="preserve">
+    <value>Улучшенная вентиляция Класс 2</value>
+  </data>
+  <data name="artefacts_improvedVentilation_class3_name" xml:space="preserve">
+    <value>Улучшенная вентиляция Класс 3</value>
+  </data>
+  <data name="artefacts_improvedVentilation_descr" xml:space="preserve">
+    <value>+5% ко всем умениям всего экипажа</value>
+  </data>
+  <data name="artefacts_largeCaliberHowitzerRammer_name" xml:space="preserve">
+    <value>Гаубичный досылатель крупного калибра</value>
+  </data>
+  <data name="artefacts_largeCaliberTankRammer_name" xml:space="preserve">
+    <value>Орудийный досылатель крупного калибра</value>
+  </data>
+  <data name="artefacts_largeMedkit_always" xml:space="preserve">
+    <value>+15% к защите экипажа от ранений.</value>
+  </data>
+  <data name="artefacts_largeMedkit_descr" xml:space="preserve">
+    <value>Лечение всех раненых членов экипажа.</value>
+  </data>
+  <data name="artefacts_largeMedkit_name" xml:space="preserve">
+    <value>Большая аптечка</value>
+  </data>
+  <data name="artefacts_largeMedkit_onUse" xml:space="preserve">
+    <value>лечение всех раненых членов экипажа. Используется однократно.</value>
+  </data>
+  <data name="artefacts_largeMedkit_restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_largeRepairkit_always" xml:space="preserve">
+    <value>+10% к скорости ремонта модулей.</value>
+  </data>
+  <data name="artefacts_largeRepairkit_descr" xml:space="preserve">
+    <value>Починка всех повреждённых модулей.</value>
+  </data>
+  <data name="artefacts_largeRepairkit_name" xml:space="preserve">
+    <value>Большой ремкомплект</value>
+  </data>
+  <data name="artefacts_largeRepairkit_onUse" xml:space="preserve">
+    <value>Починка всех повреждённых модулей. Используется однократно.</value>
+  </data>
+  <data name="artefacts_largeRepairkit_restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_lendLeaseOil_always" xml:space="preserve">
+    <value>+5% к мощности двигателя. Расходуется за один бой.</value>
+  </data>
+  <data name="artefacts_lendLeaseOil_descr" xml:space="preserve">
+    <value>+5% к мощности двигателя.</value>
+  </data>
+  <data name="artefacts_lendLeaseOil_name" xml:space="preserve">
+    <value>Ленд-лизовское масло</value>
+  </data>
+  <data name="artefacts_lendLeaseOil_onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_lendLeaseOil_restriction" xml:space="preserve">
+    <value>Только для техники СССР.</value>
+  </data>
+  <data name="artefacts_mediumCaliberHowitzerRammer_name" xml:space="preserve">
+    <value>Гаубичный досылатель среднего калибра</value>
+  </data>
+  <data name="artefacts_mediumCaliberTankRammer_name" xml:space="preserve">
+    <value>Орудийный досылатель среднего калибра</value>
+  </data>
+  <data name="artefacts_qualityOil_always" xml:space="preserve">
+    <value>+5% к мощности двигателя. Расходуется за один бой.</value>
+  </data>
+  <data name="artefacts_qualityOil_descr" xml:space="preserve">
+    <value>+5% к мощности двигателя.</value>
+  </data>
+  <data name="artefacts_qualityOil_name" xml:space="preserve">
+    <value>Качественное масло</value>
+  </data>
+  <data name="artefacts_qualityOil_onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_qualityOil_restriction" xml:space="preserve">
+    <value>Только для техники Китая и Японии.</value>
+  </data>
+  <data name="artefacts_rammer_descr" xml:space="preserve">
+    <value>-10% к времени заряжания</value>
+  </data>
+  <data name="artefacts_ration_always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
+  </data>
+  <data name="artefacts_ration_china_always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
+  </data>
+  <data name="artefacts_ration_china_descr" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа.</value>
+  </data>
+  <data name="artefacts_ration_china_name" xml:space="preserve">
+    <value>Улучшенный рацион</value>
+  </data>
+  <data name="artefacts_ration_china_onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_ration_china_restriction" xml:space="preserve">
+    <value>Только для техники Китая.</value>
+  </data>
+  <data name="artefacts_ration_descr" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа.</value>
+  </data>
+  <data name="artefacts_ration_japan_always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
+  </data>
+  <data name="artefacts_ration_japan_descr" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа.</value>
+  </data>
+  <data name="artefacts_ration_japan_name" xml:space="preserve">
+    <value>Онигири</value>
+  </data>
+  <data name="artefacts_ration_japan_onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_ration_japan_restriction" xml:space="preserve">
+    <value>Только для техники Японии.</value>
+  </data>
+  <data name="artefacts_ration_name" xml:space="preserve">
+    <value>Доппаёк</value>
+  </data>
+  <data name="artefacts_ration_onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_ration_restriction" xml:space="preserve">
+    <value>Только для техники СССР.</value>
+  </data>
+  <data name="artefacts_ration_uk_always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
+  </data>
+  <data name="artefacts_ration_uk_descr" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа.</value>
+  </data>
+  <data name="artefacts_ration_uk_name" xml:space="preserve">
+    <value>Пудинг с чаем</value>
+  </data>
+  <data name="artefacts_ration_uk_onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_ration_uk_restriction" xml:space="preserve">
+    <value>Только для техники Великобритании.</value>
+  </data>
+  <data name="artefacts_removedRpmLimiter_always" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_removedRpmLimiter_descr" xml:space="preserve">
+    <value>Повышает мощность двигателя на 10%, но повреждает его.</value>
+  </data>
+  <data name="artefacts_removedRpmLimiter_name" xml:space="preserve">
+    <value>Подкрученный регулятор оборотов двигателя</value>
+  </data>
+  <data name="artefacts_removedRpmLimiter_onUse" xml:space="preserve">
+    <value>повышает мощность двигателя на 10%, но повреждает его. Используется многократно.</value>
+  </data>
+  <data name="artefacts_removedRpmLimiter_restriction" xml:space="preserve">
+    <value>Только для техники СССР и Китая.</value>
+  </data>
+  <data name="artefacts_smallMedkit_always" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_smallMedkit_descr" xml:space="preserve">
+    <value>Лечение раненого члена экипажа.</value>
+  </data>
+  <data name="artefacts_smallMedkit_name" xml:space="preserve">
+    <value>Малая аптечка</value>
+  </data>
+  <data name="artefacts_smallMedkit_onUse" xml:space="preserve">
+    <value>лечение раненого члена экипажа. 
+Используется однократно.</value>
+  </data>
+  <data name="artefacts_smallMedkit_restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_smallRepairkit_always" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_smallRepairkit_descr" xml:space="preserve">
+    <value>Починка одного повреждённого модуля
+или двух повреждённых гусениц.</value>
+  </data>
+  <data name="artefacts_smallRepairkit_name" xml:space="preserve">
+    <value>Малый ремкомплект</value>
+  </data>
+  <data name="artefacts_smallRepairkit_onUse" xml:space="preserve">
+    <value>починка одного повреждённого модуля 
+или двух повреждённых гусениц. 
+Используется однократно.</value>
+  </data>
+  <data name="artefacts_smallRepairkit_restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="artefacts_stereoscope_descr" xml:space="preserve">
+    <value>+25% к радиусу обзора из неподвижного танка,
+но не более 500 м</value>
+  </data>
+  <data name="artefacts_stereoscope_name" xml:space="preserve">
+    <value>Стереотруба</value>
+  </data>
+  <data name="artefacts_toolbox_descr" xml:space="preserve">
+    <value>+25% к скорости ремонта</value>
+  </data>
+  <data name="artefacts_toolbox_name" xml:space="preserve">
+    <value>Ящик с инструментами</value>
+  </data>
+  <data name="artefacts_wetCombatPack_class1_name" xml:space="preserve">
+    <value>«Мокрая» боеукладка Kласс 1</value>
+  </data>
+  <data name="artefacts_wetCombatPack_class2_name" xml:space="preserve">
+    <value>«Мокрая» боеукладка Kласс 2</value>
+  </data>
+  <data name="artefacts_wetCombatPack_descr" xml:space="preserve">
+    <value>+50% к прочности боеукладки</value>
+  </data>
+  <data name="Settings_Region" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="Settings_ShowEntendedReplaysData" xml:space="preserve">
+    <value>Показывать расширенные данные по реплею</value>
+  </data>
+  <data name="Label_Achievements_HonoraryRanks" xml:space="preserve">
+    <value>Почетные звания</value>
+  </data>
+  <data name="Tab_Awards" xml:space="preserve">
+    <value>Награды</value>
+  </data>
+  <data name="Common_Chat" xml:space="preserve">
+    <value>Чат</value>
+  </data>
+  <data name="Common_Consumables" xml:space="preserve">
+    <value>Расходники</value>
+  </data>
+  <data name="Common_Equipment" xml:space="preserve">
+    <value>Оборудование</value>
+  </data>
+  <data name="Replay_Tab_Header_ExtendedInfo" xml:space="preserve">
+    <value>Расширенные данные</value>
+  </data>
+  <data name="Column_Ratings_DamageRating" xml:space="preserve">
+    <value>Рейтинг урона</value>
+  </data>
+  <data name="Tab_Header_ClanBattles" xml:space="preserve">
+    <value>Бои клана</value>
+  </data>
+  <data name="Column_Header_Provinces" xml:space="preserve">
+    <value>Провинции</value>
+  </data>
+  <data name="Column_Header_Time" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="Column_Header_Type" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="ClanBattleType_for_province" xml:space="preserve">
+    <value>Бой за провинцию</value>
+  </data>
+  <data name="ClanBattleType_landing" xml:space="preserve">
+    <value>Бой за высадку</value>
+  </data>
+  <data name="ClanBattleType_meeting_engagement" xml:space="preserve">
+    <value>Встречный бой</value>
+  </data>
+  <data name="BattleType" xml:space="preserve">
+    <value>Тип боя</value>
+  </data>
+  <data name="Map_96_prohorovka_defense" xml:space="preserve">
+    <value>Огненная дуга</value>
+  </data>
+  <data name="Map_99_himmelball" xml:space="preserve">
+    <value>Чемпионат Химмельсдорфа</value>
+  </data>
+  <data name="Chart_WinPercentByCountry" xml:space="preserve">
+    <value>% побед по нациям</value>
+  </data>
+  <data name="Chart_WinPercentByTier" xml:space="preserve">
+    <value>% побед по уровням</value>
+  </data>
+  <data name="Chart_WinPercentByType" xml:space="preserve">
+    <value>% побед по типам</value>
+  </data>
+  <data name="BattleMode_Clan" xml:space="preserve">
+    <value>Клан</value>
+  </data>
+  <data name="BattleMode_FortBattles" xml:space="preserve">
+    <value>Битва за Укрепрайон</value>
+  </data>
+  <data name="BattleMode_FortSorties" xml:space="preserve">
+    <value>Вылазка</value>
+  </data>
+  <data name="BattleType_Sorties" xml:space="preserve">
+    <value>Вылазка</value>
+  </data>
+  <data name="Btn_Refresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="Column_Header_GlobalMap" xml:space="preserve">
+    <value>Идентификатор глобальной карты</value>
+  </data>
+  <data name="Label_DamageBlockedByArmor" xml:space="preserve">
+    <value>Урон, заблокированный броней</value>
+  </data>
+  <data name="ReplaysTab_CopyPlayerName" xml:space="preserve">
+    <value>Копировать имя</value>
+  </data>
+  <data name="Achievement_MarkOfMastery" xml:space="preserve">
+    <value>Знак классности</value>
+  </data>
+  <data name="Achievement_MarksOnGun" xml:space="preserve">
+    <value>Отметки на стволе</value>
+  </data>
+  <data name="Medal_15x15_Arsonist" xml:space="preserve">
+    <value>Поджигатель</value>
+  </data>
+  <data name="Medal_15x15_Bonecrusher" xml:space="preserve">
+    <value>Костолом</value>
+  </data>
+  <data name="Medal_15x15_Charmed" xml:space="preserve">
+    <value>Заговорённый</value>
+  </data>
+  <data name="Medal_15x15_Demolition" xml:space="preserve">
+    <value>Взрывотехник</value>
+  </data>
+  <data name="Medal_15x15_Duelist" xml:space="preserve">
+    <value>Дуэлянт</value>
+  </data>
+  <data name="Medal_15x15_Even" xml:space="preserve">
+    <value>В расчёте!</value>
+  </data>
+  <data name="Medal_15x15_Fighter" xml:space="preserve">
+    <value>Боец</value>
+  </data>
+  <data name="Medal_15x15_Impenetrable" xml:space="preserve">
+    <value>Непробиваемый</value>
+  </data>
+  <data name="Medal_15x15_MaxAimerSeries" xml:space="preserve">
+    <value>Целеуказатель</value>
+  </data>
+  <data name="Medal_15x15_ShootToKill" xml:space="preserve">
+    <value>Огонь на поражение</value>
+  </data>
+  <data name="Medal_Clan_Rotmistrov" xml:space="preserve">
+    <value>Медаль Ротмистрова</value>
+  </data>
+  <data name="Medal_Fort_Conqueror" xml:space="preserve">
+    <value>Завоеватель</value>
+  </data>
+  <data name="Medal_Fort_Counterblow" xml:space="preserve">
+    <value>Контрудар</value>
+  </data>
+  <data name="Medal_Fort_Crusher" xml:space="preserve">
+    <value>Сокрушитель крепостей</value>
+  </data>
+  <data name="Medal_Fort_FireAndSword" xml:space="preserve">
+    <value>За решающие сражения</value>
+  </data>
+  <data name="Medal_Fort_Kampfer" xml:space="preserve">
+    <value>Ратник</value>
+  </data>
+  <data name="Medal_Fort_SoldierOfFortune" xml:space="preserve">
+    <value>Солдат удачи</value>
+  </data>
+  <data name="Medal_7x7_BattleTested" xml:space="preserve">
+    <value>Проверенный боем</value>
+  </data>
+  <data name="Medal_7x7_BruteForceMedal" xml:space="preserve">
+    <value>Силовой приём</value>
+  </data>
+  <data name="Medal_7x7_GuerrillaMedal" xml:space="preserve">
+    <value>Мастер засады</value>
+  </data>
+  <data name="Medal_7x7_InfiltratorMedal" xml:space="preserve">
+    <value>Знаменосец</value>
+  </data>
+  <data name="Medal_7x7_PrematureDetonationMedal" xml:space="preserve">
+    <value>Смертельный удар</value>
+  </data>
+  <data name="Medal_7x7_SentinelMedal" xml:space="preserve">
+    <value>Честь флага</value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_BattleTested" xml:space="preserve">
+    <value>За количество наград, полученных в Командных боях.
+• Выдаётся только в Командных боях.
+    </value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_BruteForceMedal" xml:space="preserve">
+    <value>10 раз уничтожить противника тараном.
+• В общем зачёте повторно полученные награды суммируются.
+• Выдаётся только в Командных боях.        
+    </value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_GuerrillaMedal" xml:space="preserve">
+    <value>10 раз уничтожить противника, не будучи при этом обнаруженным.
+• Противник должен быть в прямой видимости.
+• В общем зачёте повторно полученные награды суммируются.
+• Выдаётся только в Командных боях.        
+    </value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_InfiltratorMedal" xml:space="preserve">
+    <value>Получить 1000 очков захвата базы.
+• Засчитываются только очки, обеспечившие захват.
+• В общем зачёте повторно полученные награды суммируются.
+• Выдаётся только в Командных боях.        
+    </value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_PrematureDetonationMedal" xml:space="preserve">
+    <value>10 раз уничтожить противника подрывом боеукладки.
+• В общем зачёте повторно полученные награды суммируются.
+• В зачёт идут все случаи уничтожения противника подрывом боеукладки.
+• Выдаётся только в Командных боях.        
+    </value>
+  </data>
+  <data name="Tooltip_Achievements_7x7_SentinelMedal" xml:space="preserve">
+    <value>Получить 1000 очков защиты базы.
+• Очки засчитываются только в победных боях.
+• В общем зачёте повторно полученные награды суммируются.
+• Выдаётся только в Командных боях.        
+    </value>
+  </data>
+  <data name="Column_Performance_DamageBlockedByArmor" xml:space="preserve">
+    <value>Урон заблокированный броней</value>
+  </data>
+  <data name="Column_Performance_PotentialDamageReceived" xml:space="preserve">
+    <value>Потенциальный полученный урон</value>
+  </data>
+  <data name="Column_Performance_AvgDamageBlockedByArmor" xml:space="preserve">
+    <value>Ср. Урон заблокированный броней</value>
+  </data>
+  <data name="Column_Performance_AvgPotentialDamageReceived" xml:space="preserve">
+    <value>Ср. Потенциальный полученный урон</value>
+  </data>
+  <data name="Chart_Replays_Total_Count" xml:space="preserve">
+    <value>Всего: {0:0}</value>
+  </data>
+  <data name="Chart_Replays_Total_Win_Percent" xml:space="preserve">
+    <value>Всего: {0:0.0}%</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Arsonist" xml:space="preserve">
+    <value>Уничтожить противника поджогом.
+    • Не более одной награды на игрока за бой.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Bonecrusher" xml:space="preserve">
+    <value>Повредить в бою не менее 5 модулей или членов экипажа противника.
+    • Засчитываются также модули, повреждённые в результате пожара.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Charmed" xml:space="preserve">
+    <value>Выжить в победном бою, получив повреждения от не менее чем 4 разных игроков команды противника.
+    • Засчитываются только попадания, нанёсшие урон.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Demolition" xml:space="preserve">
+    <value>Уничтожить противника подрывом боекомплекта.
+    • Не более одной награды на игрока за бой.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Duelist" xml:space="preserve">
+    <value>Уничтожить в бою не менее 2 машин противника, нанёсших вам урон.
+    • Повреждения модулей засчитываются.
+    • Рикошеты и непробития не засчитываются.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Even" xml:space="preserve">
+    <value>Уничтожить противника и быть уничтоженным им же.
+    • Учитывается также уничтожение пожаром или тараном.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Fighter" xml:space="preserve">
+    <value>Уничтожить 4-5 машин противника в одном бою.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_Impenetrable" xml:space="preserve">
+    <value>Получить заблокированного бронёй урона больше, чем прочность собственной машины.
+    • Выжить в бою.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_ShootToKill" xml:space="preserve">
+    <value>Нанести противнику урона больше, чем прочность собственной машины.
+    • Засчитывается также урон, нанесённый тараном и поджогом.
+    • Не выдаётся при игре на САУ.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Tooltip_Achievements_15x15_MaxAimerSeries" xml:space="preserve">
+    <value>Обеспечить передачу разведданных для нанесения союзниками 1000 единиц урона за один бой.
+    • Победить в бою.
+    • Серия увеличивается за каждую 1000 урона, нанесённого союзниками по вашим разведданным в течение одного боя.
+    • Серия ведётся для каждой машины отдельно.
+    • В общий зачёт идёт максимальная серия.
+    • Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="Map_94_battlecity" xml:space="preserve">
+    <value>8-битные истории</value>
+  </data>
+  <data name="ReplaysTab_PlayWith" xml:space="preserve">
+    <value>Воспроизвести с помощью...</value>
+  </data>
+  <data name="ReplaysTab_ShowFileInFolder" xml:space="preserve">
+    <value>Показать файл в папке на диске</value>
+  </data>
+  <data name="Role_junior_officer" xml:space="preserve">
+    <value>Младший офицер</value>
+  </data>
+  <data name="Role_personnel_officer" xml:space="preserve">
+    <value>Штабной офицер</value>
+  </data>
+  <data name="Role_reservist" xml:space="preserve">
+    <value>Резервист</value>
+  </data>
+  <data name="Map_102_deathtrack" xml:space="preserve">
+    <value>Танковые Гонки</value>
+  </data>
+  <data name="Medal_15x15_DeathTrack" xml:space="preserve">
+    <value>Гонщик 2014</value>
+  </data>
+  <data name="ReplaysTab_ShowDetails" xml:space="preserve">
+    <value>Подробная информация о бое</value>
+  </data>
+  <data name="ReplaysTab_CopyFileNameToClipboard" xml:space="preserve">
+    <value>Копировать имя файла</value>
+  </data>
+  <data name="Column_Replay_CreditsEarned" xml:space="preserve">
+    <value>Заработано</value>
+  </data>
+  <data name="BattleType_Event" xml:space="preserve">
+    <value>Ивент</value>
+  </data>
+  <data name="Column_Ratings_Platoon" xml:space="preserve">
+    <value>Взвод</value>
+  </data>
+  <data name="ARMOR_PIERCING" xml:space="preserve">
+    <value>Бронебойный</value>
+  </data>
+  <data name="ARMOR_PIERCING_CR" xml:space="preserve">
+    <value>Подкалиберный</value>
+  </data>
+  <data name="ARMOR_PIERCING_HE" xml:space="preserve">
+    <value>Бронебойный каморный</value>
+  </data>
+  <data name="HIGH_EXPLOSIVE" xml:space="preserve">
+    <value>Осколочно-фугасный</value>
+  </data>
+  <data name="HIGH_EXPLOSIVE_PREMIUM" xml:space="preserve">
+    <value>Осколочно-фугасный</value>
+  </data>
+  <data name="HOLLOW_CHARGE" xml:space="preserve">
+    <value>Кумулятивный</value>
+  </data>
+  <data name="Common_Shells" xml:space="preserve">
+    <value>Боекомплект</value>
+  </data>
+  <data name="Settings_Add" xml:space="preserve">
+    <value>Добавить клиент</value>
+  </data>
+  <data name="TankFilterPanel_Default" xml:space="preserve">
+    <value>По-умолчанию</value>
+  </data>
+  <data name="BattleType_assault" xml:space="preserve">
+    <value>Штурм</value>
+  </data>
+  <data name="BattleType_ctf" xml:space="preserve">
+    <value>Стандартный бой</value>
+  </data>
+  <data name="BattleType_domination" xml:space="preserve">
+    <value>Встречный бой</value>
+  </data>
+  <data name="BattleType_nations" xml:space="preserve">
+    <value>Противостояние</value>
+  </data>
+  <data name="Column_Settings_Path" xml:space="preserve">
+    <value>Путь</value>
+  </data>
+  <data name="Column_Settings_Version" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="Settings_Auto" xml:space="preserve">
+    <value>Автоматически</value>
+  </data>
+  <data name="Settings_PlayWithSelected" xml:space="preserve">
+    <value>Воспроизвести выделенным</value>
+  </data>
+  <data name="FinishReason_BaseCapture" xml:space="preserve">
+    <value>Захват базы</value>
+  </data>
+  <data name="FinishReason_Extermination" xml:space="preserve">
+    <value>Уничтожение техники</value>
+  </data>
+  <data name="FinishReason_Failure" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="FinishReason_Technical" xml:space="preserve">
+    <value>Техническая проблема</value>
+  </data>
+  <data name="FinishReason_Timeout" xml:space="preserve">
+    <value>Время боя истекло</value>
+  </data>
+  <data name="FinishReason_Unknown" xml:space="preserve">
+    <value>Неизвестен</value>
+  </data>
+  <data name="DeathReason_Alive" xml:space="preserve">
+    <value>Выжил</value>
+  </data>
+  <data name="DeathReason_Crashed" xml:space="preserve">
+    <value>Разбился</value>
+  </data>
+  <data name="DeathReason_DestroyedByDeathZone" xml:space="preserve">
+    <value>Уничтожен смертельной зоной</value>
+  </data>
+  <data name="DeathReason_DestroyedByFire" xml:space="preserve">
+    <value>Уничтожен пожаром</value>
+  </data>
+  <data name="DeathReason_DestroyedByRamming" xml:space="preserve">
+    <value>Уничтожен тараном</value>
+  </data>
+  <data name="DeathReason_DestroyedByShot" xml:space="preserve">
+    <value>Уничтожен выстрелом</value>
+  </data>
+  <data name="DeathReason_VehicleDrowned" xml:space="preserve">
+    <value>Утонул</value>
+  </data>
+  <data name="WindowCaption_ReplayViewersSettings" xml:space="preserve">
+    <value>Настройки воспроизведения</value>
+  </data>
+  <data name="WindowCaption_Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Map_92_stalingrad" xml:space="preserve">
+    <value>Сталинград</value>
+  </data>
+  <data name="BattleType_assault2" xml:space="preserve">
+    <value>Штурм</value>
+  </data>
+  <data name="ReplaysFilterGroupHeader_Maps" xml:space="preserve">
+    <value>Карты</value>
+  </data>
+  <data name="ReplaysFilterGroupHeader_Tanks" xml:space="preserve">
+    <value>Танки</value>
+  </data>
+  <data name="ReplaysFilterGroupHeader_Other" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="Tooltip_Replay_DamageAssistedRadio" xml:space="preserve">
+    <value>- радио: {0}</value>
+  </data>
+  <data name="Tooltip_Replay_DamageAssistedTrack" xml:space="preserve">
+    <value>- гусеницы: {0}</value>
+  </data>
+  <data name="DeathReason_Dead" xml:space="preserve">
+    <value>Не выжил</value>
+  </data>
+  <data name="Label_ReplayDetail_FinishReason" xml:space="preserve">
+    <value>Причина окончания боя</value>
+  </data>
+  <data name="Replay_Tab_Header_BattleSimulator" xml:space="preserve">
+    <value>Симулятор боя</value>
+  </data>
+  <data name="Btn_Play" xml:space="preserve">
+    <value>Симуляция</value>
+  </data>
+  <data name="Map_100_thepit" xml:space="preserve">
+    <value>Миттенгард</value>
+  </data>
+  <data name="Map_103_ruinberg_winter" xml:space="preserve">
+    <value>Зимний Руинберг</value>
+  </data>
+  <data name="Map_95_lost_city" xml:space="preserve">
+    <value>Затерянный Город</value>
+  </data>
+  <data name="ViewerSpeed_Normal" xml:space="preserve">
+    <value>Нормально</value>
+  </data>
+  <data name="ViewerSpeed_Fast" xml:space="preserve">
+    <value>Быстрее</value>
+  </data>
+  <data name="ViewerSpeed_Ludicrous" xml:space="preserve">
+    <value>Очень быстро</value>
+  </data>
+  <data name="Map_109_battlecity_ny" xml:space="preserve">
+    <value>Зимняя битва</value>
+  </data>
+  <data name="DeathReason_Unknown" xml:space="preserve">
+    <value>Нет данных</value>
+  </data>
+  <data name="StatusBar_SelectedCount" xml:space="preserve">
+    <value>Выбрано реплеев: </value>
+  </data>
+  <data name="CritType_DamagedDevice" xml:space="preserve">
+    <value>Повреждено</value>
+  </data>
+  <data name="CritType_DestroyedDevice" xml:space="preserve">
+    <value>Выведено из строя</value>
+  </data>
+  <data name="CritType_DestroyedTankmen" xml:space="preserve">
+    <value>Ранения экипажа</value>
+  </data>
+  <data name="CrewMember_commander" xml:space="preserve">
+    <value>Командир</value>
+  </data>
+  <data name="CrewMember_driver" xml:space="preserve">
+    <value>Механник-водитель</value>
+  </data>
+  <data name="CrewMember_gunner" xml:space="preserve">
+    <value>Наводчик</value>
+  </data>
+  <data name="CrewMember_loader" xml:space="preserve">
+    <value>Заряжающий</value>
+  </data>
+  <data name="CrewMember_radioman" xml:space="preserve">
+    <value>Радист</value>
+  </data>
+  <data name="Device_ammoBay" xml:space="preserve">
+    <value>Боеукладка</value>
+  </data>
+  <data name="Device_engine" xml:space="preserve">
+    <value>Двигатель</value>
+  </data>
+  <data name="Device_fuelTank" xml:space="preserve">
+    <value>Топливный бак</value>
+  </data>
+  <data name="Device_gun" xml:space="preserve">
+    <value>Орудие</value>
+  </data>
+  <data name="Device_radio" xml:space="preserve">
+    <value>Радио</value>
+  </data>
+  <data name="Device_surveyingDevice" xml:space="preserve">
+    <value>Приборы наблюдения</value>
+  </data>
+  <data name="Device_track" xml:space="preserve">
+    <value>Гусеница</value>
+  </data>
+  <data name="Device_turretRotator" xml:space="preserve">
+    <value>Башня</value>
+  </data>
+  <data name="Gauge_WinsFormat" xml:space="preserve">
+    <value>Побед: 0.0</value>
+  </data>
+  <data name="Gauge_DamageRatioFormat" xml:space="preserve">
+    <value>Коэфф урона: 0.00</value>
+  </data>
+  <data name="Gauge_EffFormat" xml:space="preserve">
+    <value>РЭ: 0</value>
+  </data>
+  <data name="Gauge_KillDeathFormat" xml:space="preserve">
+    <value>Уничтожил/убит: 0.00</value>
+  </data>
+  <data name="Gauge_Wn8Format" xml:space="preserve">
+    <value>WN8: 0</value>
+  </data>
+  <data name="Tab_Header_MapsStatistic" xml:space="preserve">
+    <value>Статистика карт</value>
+  </data>
+  <data name="Tab_Header_OverallPerformance" xml:space="preserve">
+    <value>Общая эффективность</value>
+  </data>
+  <data name="Tab_Header_PerformanceProgress" xml:space="preserve">
+    <value>Прогресс</value>
+  </data>
+  <data name="Tab_Header_WinRate" xml:space="preserve">
+    <value>Процент побед</value>
+  </data>
+  <data name="Tab_Header_WN8" xml:space="preserve">
+    <value>WN8</value>
+  </data>
+  <data name="DeathReason_CrewDead" xml:space="preserve">
+    <value>Экипаж уничтожен</value>
+  </data>
+  <data name="Tab_Header_AveragePerformance" xml:space="preserve">
+    <value>Средняя эффективность</value>
+  </data>
+  <data name="Platoon_Platoon" xml:space="preserve">
+    <value>Взвод</value>
+  </data>
+  <data name="Platoon_Solo" xml:space="preserve">
+    <value>Соло</value>
+  </data>
+  <data name="MenuItem_FavoritePlayers" xml:space="preserve">
+    <value>Избранные игроки</value>
+  </data>
+  <data name="Chart_TrackerFormatString_Eff" xml:space="preserve">
+    <value>РЭ: {4:0.0}
+{1}: {2:0}
+Дата: {Date:dd.MM.yyyy}</value>
+  </data>
+  <data name="Chart_TrackerFormatString_Wn8" xml:space="preserve">
+    <value>WN8: {4:0.0}
+{1}: {2:0}
+Дата: {Date:dd.MM.yyyy}</value>
+  </data>
+  <data name="Chart_TrackerFormatString_WinRate" xml:space="preserve">
+    <value>Процент побед: {4:0.00}
+{1}: {2:0}
+Дата: {Date:dd.MM.yyyy}</value>
+  </data>
+  <data name="Chart_TrackerFormatString_SurvivePercent" xml:space="preserve">
+    <value>Выживаемость: {4:0.00}
+{1}: {2:0}
+Дата: {Date:dd.MM.yyyy}</value>
+  </data>
+  <data name="Chart_TrackerFormatString_AvgXp" xml:space="preserve">
+    <value>Средний опыт: {4:0.0}
+{1}: {2:0}
+Дата: {Date:dd.MM.yyyy}</value>
+  </data>
+  <data name="Chart_TrackerFormatString_AvgDamage" xml:space="preserve">
+    <value>Средний урон: {4:0}
+{1}: {2:0}
+Дата: {Date:dd.MM.yyyy}</value>
+  </data>
+  <data name="Chart_TrackerFormatString_KillDeathRatio" xml:space="preserve">
+    <value>Уничтожил/убит: {4:0.00}
+{1}: {2:0}
+Дата: {Date:dd.MM.yyyy}</value>
+  </data>
+  <data name="Chart_TrackerFormatString_AvgSpotted" xml:space="preserve">
+    <value>Обнаружено: {4:0.00}
+{1}: {2:0}
+Дата: {Date:dd.MM.yyyy}</value>
+  </data>
+  <data name="BattleType_FortBattles" xml:space="preserve">
+    <value>Битва за Укрепрайон</value>
+  </data>
+  <data name="BattleType_Ladder" xml:space="preserve">
+    <value>Ладдер</value>
+  </data>
+  <data name="Settings_CacheFolder" xml:space="preserve">
+    <value>Путь к игровому кэшу</value>
+  </data>
+  <data name="Settings_WotFolder" xml:space="preserve">
+    <value>Каталог World of Tanks</value>
+  </data>
+  <data name="Total_ForSelected" xml:space="preserve">
+    <value>Для выделенных</value>
+  </data>
+  <data name="Country_Czech" xml:space="preserve">
+    <value>Чехия</value>
+  </data>
+  <data name="Column_Header_Attacker" xml:space="preserve">
+    <value>Нападающий</value>
+  </data>
+  <data name="Column_Header_Defender" xml:space="preserve">
+    <value>Защитник</value>
+  </data>
+  <data name="Map_105_germany" xml:space="preserve">
+    <value>Берлин</value>
+  </data>
+  <data name="Map_111_paris" xml:space="preserve">
+    <value>Париж</value>
+  </data>
+  <data name="Map_114_czech" xml:space="preserve">
+    <value>Промзона</value>
+  </data>
+  <data name="Map_101_dday" xml:space="preserve">
+    <value>Оверлорд</value>
+  </data>
+  <data name="Country_Sweden" xml:space="preserve">
+    <value>Швеция</value>
+  </data>
+  <data name="Tab_Header_Balancer" xml:space="preserve">
+    <value>Балансер</value>
+  </data>
+  <data name="ReplaysFilterGroupBy" xml:space="preserve">
+    <value>Группировка по</value>
+  </data>
+  <data name="Column_Top_3_5_7" xml:space="preserve">
+    <value>Топ 3-5-7</value>
+  </data>
+  <data name="Column_Top_5_10" xml:space="preserve">
+    <value>Топ 5-10</value>
+  </data>
+  <data name="Column_One_Level" xml:space="preserve">
+    <value>Одноуровневый</value>
+  </data>
+  <data name="Column_Bottom_5_10" xml:space="preserve">
+    <value>Низ 5-10</value>
+  </data>
+  <data name="Column_Bottom_3_5_7" xml:space="preserve">
+    <value>Низ 3-5-7</value>
+  </data>
+  <data name="Country_Poland" xml:space="preserve">
+    <value>Польша</value>
+  </data>
+  <data name="BattleType_GrandBattle" xml:space="preserve">
+    <value>Генеральное сражение</value>
+  </data>
+  <data name="BattleMode_GrandBattle" xml:space="preserve">
+    <value>Генеральное сражение</value>
+  </data>
+  <data name="Tooltip_Replay_DamageBlockedByArmor" xml:space="preserve">
+    <value>Рикошетов: {0}, Непробитий: {1}, Заблокировано броней: {2}</value>
+  </data>
+  <data name="Column_Replay_Achievements" xml:space="preserve">
+    <value>Медали</value>
+  </data>
+  <data name="Label_ReplayDetail_SniperDamage" xml:space="preserve">
+    <value>с дистанции свыше 300м</value>
+  </data>
+  <data name="Label_ReplayDetail_NonPenetration" xml:space="preserve">
+    <value>не нанесших урон</value>
+  </data>
+  <data name="Label_ReplayDetail_HEReceived" xml:space="preserve">
+    <value>Получено попаданий осколками</value>
+  </data>
+  <data name="Column_Top" xml:space="preserve">
+    <value>Топ</value>
+  </data>
+  <data name="Column_Bottom" xml:space="preserve">
+    <value>Низ (не топ)</value>
+  </data>
+  <data name="Column_Middle_3_5_7" xml:space="preserve">
+    <value>Середина 3-5-7</value>
+  </data>
+</root>

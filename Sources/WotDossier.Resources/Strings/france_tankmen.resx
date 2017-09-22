@@ -1,0 +1,4851 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="names/fra1" xml:space="preserve">
+    <value>Abadie</value>
+  </data>
+  <data name="names/fra10" xml:space="preserve">
+    <value>Amiot</value>
+  </data>
+  <data name="names/fra100" xml:space="preserve">
+    <value>Blaise</value>
+  </data>
+  <data name="names/fra1000" xml:space="preserve">
+    <value>Trouvé</value>
+  </data>
+  <data name="names/fra1001" xml:space="preserve">
+    <value>Truong</value>
+  </data>
+  <data name="names/fra1002" xml:space="preserve">
+    <value>Turpin</value>
+  </data>
+  <data name="names/fra1003" xml:space="preserve">
+    <value>Vacher</value>
+  </data>
+  <data name="names/fra1004" xml:space="preserve">
+    <value>Vaillant</value>
+  </data>
+  <data name="names/fra1005" xml:space="preserve">
+    <value>Valentin</value>
+  </data>
+  <data name="names/fra1006" xml:space="preserve">
+    <value>Valette</value>
+  </data>
+  <data name="names/fra1007" xml:space="preserve">
+    <value>Vallée</value>
+  </data>
+  <data name="names/fra1008" xml:space="preserve">
+    <value>Vallet</value>
+  </data>
+  <data name="names/fra1009" xml:space="preserve">
+    <value>Vannier</value>
+  </data>
+  <data name="names/fra101" xml:space="preserve">
+    <value>Blanc</value>
+  </data>
+  <data name="names/fra1010" xml:space="preserve">
+    <value>Varin</value>
+  </data>
+  <data name="names/fra1011" xml:space="preserve">
+    <value>Varlet</value>
+  </data>
+  <data name="names/fra1012" xml:space="preserve">
+    <value>Vasseur</value>
+  </data>
+  <data name="names/fra1013" xml:space="preserve">
+    <value>Vautier</value>
+  </data>
+  <data name="names/fra1014" xml:space="preserve">
+    <value>Vautrin</value>
+  </data>
+  <data name="names/fra1015" xml:space="preserve">
+    <value>Verdier</value>
+  </data>
+  <data name="names/fra1016" xml:space="preserve">
+    <value>Verger</value>
+  </data>
+  <data name="names/fra1017" xml:space="preserve">
+    <value>Vernet</value>
+  </data>
+  <data name="names/fra1018" xml:space="preserve">
+    <value>Vernier</value>
+  </data>
+  <data name="names/fra1019" xml:space="preserve">
+    <value>Véron</value>
+  </data>
+  <data name="names/fra102" xml:space="preserve">
+    <value>Blanchard</value>
+  </data>
+  <data name="names/fra1020" xml:space="preserve">
+    <value>Verrier</value>
+  </data>
+  <data name="names/fra1021" xml:space="preserve">
+    <value>Vial</value>
+  </data>
+  <data name="names/fra1022" xml:space="preserve">
+    <value>Viard</value>
+  </data>
+  <data name="names/fra1023" xml:space="preserve">
+    <value>Viaud</value>
+  </data>
+  <data name="names/fra1024" xml:space="preserve">
+    <value>Vidal</value>
+  </data>
+  <data name="names/fra1025" xml:space="preserve">
+    <value>Viel</value>
+  </data>
+  <data name="names/fra1026" xml:space="preserve">
+    <value>Vigier</value>
+  </data>
+  <data name="names/fra1027" xml:space="preserve">
+    <value>Vignal</value>
+  </data>
+  <data name="names/fra1028" xml:space="preserve">
+    <value>Vigneron</value>
+  </data>
+  <data name="names/fra1029" xml:space="preserve">
+    <value>Vignon</value>
+  </data>
+  <data name="names/fra103" xml:space="preserve">
+    <value>Blanchet</value>
+  </data>
+  <data name="names/fra1030" xml:space="preserve">
+    <value>Vigouroux</value>
+  </data>
+  <data name="names/fra1031" xml:space="preserve">
+    <value>Viguier</value>
+  </data>
+  <data name="names/fra1032" xml:space="preserve">
+    <value>Vilain</value>
+  </data>
+  <data name="names/fra1033" xml:space="preserve">
+    <value>Villain</value>
+  </data>
+  <data name="names/fra1034" xml:space="preserve">
+    <value>Villard</value>
+  </data>
+  <data name="names/fra1035" xml:space="preserve">
+    <value>Villeneuve</value>
+  </data>
+  <data name="names/fra1036" xml:space="preserve">
+    <value>Villette</value>
+  </data>
+  <data name="names/fra1037" xml:space="preserve">
+    <value>Vincent</value>
+  </data>
+  <data name="names/fra1038" xml:space="preserve">
+    <value>Vivier</value>
+  </data>
+  <data name="names/fra1039" xml:space="preserve">
+    <value>Voisin</value>
+  </data>
+  <data name="names/fra104" xml:space="preserve">
+    <value>Blandin</value>
+  </data>
+  <data name="names/fra1040" xml:space="preserve">
+    <value>Wagner</value>
+  </data>
+  <data name="names/fra1041" xml:space="preserve">
+    <value>Walter</value>
+  </data>
+  <data name="names/fra1042" xml:space="preserve">
+    <value>Waffenschmidt</value>
+  </data>
+  <data name="names/fra1043" xml:space="preserve">
+    <value>Weiss</value>
+  </data>
+  <data name="names/fra1044" xml:space="preserve">
+    <value>Balzac</value>
+  </data>
+  <data name="names/fra1045" xml:space="preserve">
+    <value>Descartes</value>
+  </data>
+  <data name="names/fra1046" xml:space="preserve">
+    <value>Alesi</value>
+  </data>
+  <data name="names/fra1047" xml:space="preserve">
+    <value>Ampère</value>
+  </data>
+  <data name="names/fra1048" xml:space="preserve">
+    <value>Becquere</value>
+  </data>
+  <data name="names/fra1049" xml:space="preserve">
+    <value>Parson</value>
+  </data>
+  <data name="names/fra105" xml:space="preserve">
+    <value>Blin</value>
+  </data>
+  <data name="names/fra1050" xml:space="preserve">
+    <value>Curie</value>
+  </data>
+  <data name="names/fra1051" xml:space="preserve">
+    <value>Debussy</value>
+  </data>
+  <data name="names/fra1052" xml:space="preserve">
+    <value>Diderot</value>
+  </data>
+  <data name="names/fra1053" xml:space="preserve">
+    <value>Binoche</value>
+  </data>
+  <data name="names/fra1054" xml:space="preserve">
+    <value>Fourier</value>
+  </data>
+  <data name="names/fra1055" xml:space="preserve">
+    <value>Fresnel</value>
+  </data>
+  <data name="names/fra1056" xml:space="preserve">
+    <value>Laffite</value>
+  </data>
+  <data name="names/fra1057" xml:space="preserve">
+    <value>Mandelbrot</value>
+  </data>
+  <data name="names/fra1058" xml:space="preserve">
+    <value>Marat</value>
+  </data>
+  <data name="names/fra1059" xml:space="preserve">
+    <value>Mariotte</value>
+  </data>
+  <data name="names/fra106" xml:space="preserve">
+    <value>Bloch</value>
+  </data>
+  <data name="names/fra1060" xml:space="preserve">
+    <value>Shirin</value>
+  </data>
+  <data name="names/fra1061" xml:space="preserve">
+    <value>Mitterrand</value>
+  </data>
+  <data name="names/fra1062" xml:space="preserve">
+    <value>Offenbach</value>
+  </data>
+  <data name="names/fra1063" xml:space="preserve">
+    <value>Pescarolo</value>
+  </data>
+  <data name="names/fra1064" xml:space="preserve">
+    <value>Lumière</value>
+  </data>
+  <data name="names/fra1065" xml:space="preserve">
+    <value>Poincaré</value>
+  </data>
+  <data name="names/fra1066" xml:space="preserve">
+    <value>Robespierre</value>
+  </data>
+  <data name="names/fra1067" xml:space="preserve">
+    <value>Verne</value>
+  </data>
+  <data name="names/fra1068" xml:space="preserve">
+    <value>Zola</value>
+  </data>
+  <data name="names/fra1069" xml:space="preserve">
+    <value>Dornier</value>
+  </data>
+  <data name="names/fra107" xml:space="preserve">
+    <value>Blondeau</value>
+  </data>
+  <data name="names/fra1070" xml:space="preserve">
+    <value>Altéry</value>
+  </data>
+  <data name="names/fra1071" xml:space="preserve">
+    <value>Clémenceau</value>
+  </data>
+  <data name="names/fra1072" xml:space="preserve">
+    <value>Minier</value>
+  </data>
+  <data name="names/fra1073" xml:space="preserve">
+    <value>Baïleche</value>
+  </data>
+  <data name="names/fra1074" xml:space="preserve">
+    <value>Morato</value>
+  </data>
+  <data name="names/fra1075" xml:space="preserve">
+    <value>Lenorman</value>
+  </data>
+  <data name="names/fra1076" xml:space="preserve">
+    <value>Fiori</value>
+  </data>
+  <data name="names/fra1077" xml:space="preserve">
+    <value>Carné</value>
+  </data>
+  <data name="names/fra108" xml:space="preserve">
+    <value>Blondel</value>
+  </data>
+  <data name="names/fra109" xml:space="preserve">
+    <value>Blot</value>
+  </data>
+  <data name="names/fra11" xml:space="preserve">
+    <value>André</value>
+  </data>
+  <data name="names/fra110" xml:space="preserve">
+    <value>Bob</value>
+  </data>
+  <data name="names/fra11001" xml:space="preserve">
+    <value>Dupuis</value>
+  </data>
+  <data name="names/fra11002" xml:space="preserve">
+    <value>Durand</value>
+  </data>
+  <data name="names/fra11003" xml:space="preserve">
+    <value>Dubois</value>
+  </data>
+  <data name="names/fra11004" xml:space="preserve">
+    <value>Moreau</value>
+  </data>
+  <data name="names/fra11005" xml:space="preserve">
+    <value>Lefebvre</value>
+  </data>
+  <data name="names/fra11006" xml:space="preserve">
+    <value>Leroy</value>
+  </data>
+  <data name="names/fra11007" xml:space="preserve">
+    <value>Roux</value>
+  </data>
+  <data name="names/fra11008" xml:space="preserve">
+    <value>Morel</value>
+  </data>
+  <data name="names/fra11009" xml:space="preserve">
+    <value>Fournier</value>
+  </data>
+  <data name="names/fra11010" xml:space="preserve">
+    <value>Bonnet</value>
+  </data>
+  <data name="names/fra11011" xml:space="preserve">
+    <value>Girard</value>
+  </data>
+  <data name="names/fra11012" xml:space="preserve">
+    <value>Lambert</value>
+  </data>
+  <data name="names/fra11013" xml:space="preserve">
+    <value>Dupont</value>
+  </data>
+  <data name="names/fra11014" xml:space="preserve">
+    <value>Rousseau</value>
+  </data>
+  <data name="names/fra11015" xml:space="preserve">
+    <value>Faure</value>
+  </data>
+  <data name="names/fra11016" xml:space="preserve">
+    <value>Blanc</value>
+  </data>
+  <data name="names/fra11017" xml:space="preserve">
+    <value>Fontaine</value>
+  </data>
+  <data name="names/fra11018" xml:space="preserve">
+    <value>Moulin</value>
+  </data>
+  <data name="names/fra11019" xml:space="preserve">
+    <value>Guérin</value>
+  </data>
+  <data name="names/fra11020" xml:space="preserve">
+    <value>Mercier</value>
+  </data>
+  <data name="names/fra111" xml:space="preserve">
+    <value>Bocquet</value>
+  </data>
+  <data name="names/fra112" xml:space="preserve">
+    <value>Bodin</value>
+  </data>
+  <data name="names/fra113" xml:space="preserve">
+    <value>Bois</value>
+  </data>
+  <data name="names/fra114" xml:space="preserve">
+    <value>Boisseau</value>
+  </data>
+  <data name="names/fra115" xml:space="preserve">
+    <value>Boisson</value>
+  </data>
+  <data name="names/fra116" xml:space="preserve">
+    <value>Boivin</value>
+  </data>
+  <data name="names/fra117" xml:space="preserve">
+    <value>Bon</value>
+  </data>
+  <data name="names/fra118" xml:space="preserve">
+    <value>Bonhomme</value>
+  </data>
+  <data name="names/fra119" xml:space="preserve">
+    <value>Bonin</value>
+  </data>
+  <data name="names/fra12" xml:space="preserve">
+    <value>Andrieu</value>
+  </data>
+  <data name="names/fra120" xml:space="preserve">
+    <value>Bonnard</value>
+  </data>
+  <data name="names/fra121" xml:space="preserve">
+    <value>Bonnaud</value>
+  </data>
+  <data name="names/fra122" xml:space="preserve">
+    <value>Bonneau</value>
+  </data>
+  <data name="names/fra123" xml:space="preserve">
+    <value>Bonnefoy</value>
+  </data>
+  <data name="names/fra124" xml:space="preserve">
+    <value>Bonnin</value>
+  </data>
+  <data name="names/fra125" xml:space="preserve">
+    <value>Bonnot</value>
+  </data>
+  <data name="names/fra126" xml:space="preserve">
+    <value>Bontemps</value>
+  </data>
+  <data name="names/fra127" xml:space="preserve">
+    <value>Bordes</value>
+  </data>
+  <data name="names/fra128" xml:space="preserve">
+    <value>Borel</value>
+  </data>
+  <data name="names/fra129" xml:space="preserve">
+    <value>Bossard</value>
+  </data>
+  <data name="names/fra13" xml:space="preserve">
+    <value>Andrieux</value>
+  </data>
+  <data name="names/fra130" xml:space="preserve">
+    <value>Bouchard</value>
+  </data>
+  <data name="names/fra131" xml:space="preserve">
+    <value>Bouche</value>
+  </data>
+  <data name="names/fra132" xml:space="preserve">
+    <value>Boucher</value>
+  </data>
+  <data name="names/fra133" xml:space="preserve">
+    <value>Bouchet</value>
+  </data>
+  <data name="names/fra134" xml:space="preserve">
+    <value>Bouchez</value>
+  </data>
+  <data name="names/fra135" xml:space="preserve">
+    <value>Boudet</value>
+  </data>
+  <data name="names/fra136" xml:space="preserve">
+    <value>Bouet</value>
+  </data>
+  <data name="names/fra137" xml:space="preserve">
+    <value>Bouillon</value>
+  </data>
+  <data name="names/fra138" xml:space="preserve">
+    <value>Boulanger</value>
+  </data>
+  <data name="names/fra139" xml:space="preserve">
+    <value>Boulay</value>
+  </data>
+  <data name="names/fra14" xml:space="preserve">
+    <value>Antoine</value>
+  </data>
+  <data name="names/fra140" xml:space="preserve">
+    <value>Boulet</value>
+  </data>
+  <data name="names/fra141" xml:space="preserve">
+    <value>Bouquet</value>
+  </data>
+  <data name="names/fra142" xml:space="preserve">
+    <value>Bour</value>
+  </data>
+  <data name="names/fra143" xml:space="preserve">
+    <value>Bourbon</value>
+  </data>
+  <data name="names/fra144" xml:space="preserve">
+    <value>Bourdin</value>
+  </data>
+  <data name="names/fra145" xml:space="preserve">
+    <value>Bourdon</value>
+  </data>
+  <data name="names/fra146" xml:space="preserve">
+    <value>Bourgeois</value>
+  </data>
+  <data name="names/fra147" xml:space="preserve">
+    <value>Bourgoin</value>
+  </data>
+  <data name="names/fra148" xml:space="preserve">
+    <value>Bourguignon</value>
+  </data>
+  <data name="names/fra149" xml:space="preserve">
+    <value>Bousquet</value>
+  </data>
+  <data name="names/fra15" xml:space="preserve">
+    <value>Armand</value>
+  </data>
+  <data name="names/fra150" xml:space="preserve">
+    <value>Boutet</value>
+  </data>
+  <data name="names/fra151" xml:space="preserve">
+    <value>Boutin</value>
+  </data>
+  <data name="names/fra152" xml:space="preserve">
+    <value>Bouton</value>
+  </data>
+  <data name="names/fra153" xml:space="preserve">
+    <value>Bouvard</value>
+  </data>
+  <data name="names/fra154" xml:space="preserve">
+    <value>Bouvet</value>
+  </data>
+  <data name="names/fra155" xml:space="preserve">
+    <value>Bouvier</value>
+  </data>
+  <data name="names/fra156" xml:space="preserve">
+    <value>Boyer</value>
+  </data>
+  <data name="names/fra157" xml:space="preserve">
+    <value>Braud</value>
+  </data>
+  <data name="names/fra158" xml:space="preserve">
+    <value>Brault</value>
+  </data>
+  <data name="names/fra159" xml:space="preserve">
+    <value>Bresson</value>
+  </data>
+  <data name="names/fra16" xml:space="preserve">
+    <value>Arnaud</value>
+  </data>
+  <data name="names/fra160" xml:space="preserve">
+    <value>Bret</value>
+  </data>
+  <data name="names/fra161" xml:space="preserve">
+    <value>Breton</value>
+  </data>
+  <data name="names/fra162" xml:space="preserve">
+    <value>Briand</value>
+  </data>
+  <data name="names/fra163" xml:space="preserve">
+    <value>Brière</value>
+  </data>
+  <data name="names/fra164" xml:space="preserve">
+    <value>Brisset</value>
+  </data>
+  <data name="names/fra165" xml:space="preserve">
+    <value>Brochard</value>
+  </data>
+  <data name="names/fra166" xml:space="preserve">
+    <value>Brossard</value>
+  </data>
+  <data name="names/fra167" xml:space="preserve">
+    <value>Brousse</value>
+  </data>
+  <data name="names/fra168" xml:space="preserve">
+    <value>Bru</value>
+  </data>
+  <data name="names/fra169" xml:space="preserve">
+    <value>Brule</value>
+  </data>
+  <data name="names/fra17" xml:space="preserve">
+    <value>Arnould</value>
+  </data>
+  <data name="names/fra170" xml:space="preserve">
+    <value>Brun</value>
+  </data>
+  <data name="names/fra171" xml:space="preserve">
+    <value>Bruneau</value>
+  </data>
+  <data name="names/fra172" xml:space="preserve">
+    <value>Brunel</value>
+  </data>
+  <data name="names/fra173" xml:space="preserve">
+    <value>Brunet</value>
+  </data>
+  <data name="names/fra174" xml:space="preserve">
+    <value>Bruyère</value>
+  </data>
+  <data name="names/fra175" xml:space="preserve">
+    <value>Buisson</value>
+  </data>
+  <data name="names/fra176" xml:space="preserve">
+    <value>Bureau</value>
+  </data>
+  <data name="names/fra177" xml:space="preserve">
+    <value>Burel</value>
+  </data>
+  <data name="names/fra178" xml:space="preserve">
+    <value>Busson</value>
+  </data>
+  <data name="names/fra179" xml:space="preserve">
+    <value>Cabrol</value>
+  </data>
+  <data name="names/fra18" xml:space="preserve">
+    <value>Arnoux</value>
+  </data>
+  <data name="names/fra180" xml:space="preserve">
+    <value>Cadet</value>
+  </data>
+  <data name="names/fra181" xml:space="preserve">
+    <value>Cadiou</value>
+  </data>
+  <data name="names/fra182" xml:space="preserve">
+    <value>Caillaud</value>
+  </data>
+  <data name="names/fra183" xml:space="preserve">
+    <value>Caillet</value>
+  </data>
+  <data name="names/fra184" xml:space="preserve">
+    <value>Calvet</value>
+  </data>
+  <data name="names/fra185" xml:space="preserve">
+    <value>Calvez</value>
+  </data>
+  <data name="names/fra186" xml:space="preserve">
+    <value>Camus</value>
+  </data>
+  <data name="names/fra187" xml:space="preserve">
+    <value>Cano</value>
+  </data>
+  <data name="names/fra188" xml:space="preserve">
+    <value>Capelle</value>
+  </data>
+  <data name="names/fra189" xml:space="preserve">
+    <value>Cardon</value>
+  </data>
+  <data name="names/fra19" xml:space="preserve">
+    <value>Astier</value>
+  </data>
+  <data name="names/fra190" xml:space="preserve">
+    <value>Cariou</value>
+  </data>
+  <data name="names/fra191" xml:space="preserve">
+    <value>Carlier</value>
+  </data>
+  <data name="names/fra192" xml:space="preserve">
+    <value>Caron</value>
+  </data>
+  <data name="names/fra193" xml:space="preserve">
+    <value>Carpentier</value>
+  </data>
+  <data name="names/fra194" xml:space="preserve">
+    <value>Carré</value>
+  </data>
+  <data name="names/fra195" xml:space="preserve">
+    <value>Carrier</value>
+  </data>
+  <data name="names/fra196" xml:space="preserve">
+    <value>Carrière</value>
+  </data>
+  <data name="names/fra197" xml:space="preserve">
+    <value>Cartier</value>
+  </data>
+  <data name="names/fra198" xml:space="preserve">
+    <value>Castel</value>
+  </data>
+  <data name="names/fra199" xml:space="preserve">
+    <value>Causse</value>
+  </data>
+  <data name="names/fra2" xml:space="preserve">
+    <value>Adam</value>
+  </data>
+  <data name="names/fra20" xml:space="preserve">
+    <value>Aubert</value>
+  </data>
+  <data name="names/fra200" xml:space="preserve">
+    <value>Chabert</value>
+  </data>
+  <data name="names/fra201" xml:space="preserve">
+    <value>Chabot</value>
+  </data>
+  <data name="names/fra202" xml:space="preserve">
+    <value>Chaillou</value>
+  </data>
+  <data name="names/fra203" xml:space="preserve">
+    <value>Chambon</value>
+  </data>
+  <data name="names/fra204" xml:space="preserve">
+    <value>Champion</value>
+  </data>
+  <data name="names/fra205" xml:space="preserve">
+    <value>Chapelle</value>
+  </data>
+  <data name="names/fra206" xml:space="preserve">
+    <value>Chapuis</value>
+  </data>
+  <data name="names/fra207" xml:space="preserve">
+    <value>Charbonnier</value>
+  </data>
+  <data name="names/fra208" xml:space="preserve">
+    <value>Chardon</value>
+  </data>
+  <data name="names/fra209" xml:space="preserve">
+    <value>Charles</value>
+  </data>
+  <data name="names/fra21" xml:space="preserve">
+    <value>Aubertin</value>
+  </data>
+  <data name="names/fra210" xml:space="preserve">
+    <value>Charlet</value>
+  </data>
+  <data name="names/fra211" xml:space="preserve">
+    <value>Charlier</value>
+  </data>
+  <data name="names/fra212" xml:space="preserve">
+    <value>Charlot</value>
+  </data>
+  <data name="names/fra213" xml:space="preserve">
+    <value>Charpentier</value>
+  </data>
+  <data name="names/fra214" xml:space="preserve">
+    <value>Charrier</value>
+  </data>
+  <data name="names/fra215" xml:space="preserve">
+    <value>Charron</value>
+  </data>
+  <data name="names/fra216" xml:space="preserve">
+    <value>Chartier</value>
+  </data>
+  <data name="names/fra217" xml:space="preserve">
+    <value>Charton</value>
+  </data>
+  <data name="names/fra218" xml:space="preserve">
+    <value>Chateau</value>
+  </data>
+  <data name="names/fra219" xml:space="preserve">
+    <value>Chatelain</value>
+  </data>
+  <data name="names/fra22" xml:space="preserve">
+    <value>Aubin</value>
+  </data>
+  <data name="names/fra220" xml:space="preserve">
+    <value>Chaumont</value>
+  </data>
+  <data name="names/fra221" xml:space="preserve">
+    <value>Chauveau</value>
+  </data>
+  <data name="names/fra222" xml:space="preserve">
+    <value>Chauvel</value>
+  </data>
+  <data name="names/fra223" xml:space="preserve">
+    <value>Chauvet</value>
+  </data>
+  <data name="names/fra224" xml:space="preserve">
+    <value>Chauvin</value>
+  </data>
+  <data name="names/fra225" xml:space="preserve">
+    <value>Chemin</value>
+  </data>
+  <data name="names/fra226" xml:space="preserve">
+    <value>Chêne</value>
+  </data>
+  <data name="names/fra227" xml:space="preserve">
+    <value>Chenu</value>
+  </data>
+  <data name="names/fra228" xml:space="preserve">
+    <value>Chevalier</value>
+  </data>
+  <data name="names/fra229" xml:space="preserve">
+    <value>Chevrier</value>
+  </data>
+  <data name="names/fra23" xml:space="preserve">
+    <value>Aubry</value>
+  </data>
+  <data name="names/fra230" xml:space="preserve">
+    <value>Chiron</value>
+  </data>
+  <data name="names/fra231" xml:space="preserve">
+    <value>Chollet</value>
+  </data>
+  <data name="names/fra232" xml:space="preserve">
+    <value>Chopin</value>
+  </data>
+  <data name="names/fra233" xml:space="preserve">
+    <value>Chrétien</value>
+  </data>
+  <data name="names/fra234" xml:space="preserve">
+    <value>Claude</value>
+  </data>
+  <data name="names/fra235" xml:space="preserve">
+    <value>Claudel</value>
+  </data>
+  <data name="names/fra236" xml:space="preserve">
+    <value>Clément</value>
+  </data>
+  <data name="names/fra237" xml:space="preserve">
+    <value>Clerc</value>
+  </data>
+  <data name="names/fra238" xml:space="preserve">
+    <value>Cochet</value>
+  </data>
+  <data name="names/fra239" xml:space="preserve">
+    <value>Cohen</value>
+  </data>
+  <data name="names/fra24" xml:space="preserve">
+    <value>Auffret</value>
+  </data>
+  <data name="names/fra240" xml:space="preserve">
+    <value>Colas</value>
+  </data>
+  <data name="names/fra241" xml:space="preserve">
+    <value>Colin</value>
+  </data>
+  <data name="names/fra242" xml:space="preserve">
+    <value>Collet</value>
+  </data>
+  <data name="names/fra243" xml:space="preserve">
+    <value>Collignon</value>
+  </data>
+  <data name="names/fra244" xml:space="preserve">
+    <value>Collin</value>
+  </data>
+  <data name="names/fra245" xml:space="preserve">
+    <value>Colson</value>
+  </data>
+  <data name="names/fra246" xml:space="preserve">
+    <value>Combe</value>
+  </data>
+  <data name="names/fra247" xml:space="preserve">
+    <value>Combes</value>
+  </data>
+  <data name="names/fra248" xml:space="preserve">
+    <value>Comte</value>
+  </data>
+  <data name="names/fra249" xml:space="preserve">
+    <value>Constant</value>
+  </data>
+  <data name="names/fra25" xml:space="preserve">
+    <value>Augé</value>
+  </data>
+  <data name="names/fra250" xml:space="preserve">
+    <value>Conte</value>
+  </data>
+  <data name="names/fra251" xml:space="preserve">
+    <value>Cordier</value>
+  </data>
+  <data name="names/fra252" xml:space="preserve">
+    <value>Cormier</value>
+  </data>
+  <data name="names/fra253" xml:space="preserve">
+    <value>Cornet</value>
+  </data>
+  <data name="names/fra254" xml:space="preserve">
+    <value>Cornu</value>
+  </data>
+  <data name="names/fra255" xml:space="preserve">
+    <value>Corre</value>
+  </data>
+  <data name="names/fra256" xml:space="preserve">
+    <value>Costa</value>
+  </data>
+  <data name="names/fra257" xml:space="preserve">
+    <value>Coste</value>
+  </data>
+  <data name="names/fra258" xml:space="preserve">
+    <value>Cottin</value>
+  </data>
+  <data name="names/fra259" xml:space="preserve">
+    <value>Couderc</value>
+  </data>
+  <data name="names/fra26" xml:space="preserve">
+    <value>Auger</value>
+  </data>
+  <data name="names/fra260" xml:space="preserve">
+    <value>Coudert</value>
+  </data>
+  <data name="names/fra261" xml:space="preserve">
+    <value>Coulon</value>
+  </data>
+  <data name="names/fra262" xml:space="preserve">
+    <value>Courtin</value>
+  </data>
+  <data name="names/fra263" xml:space="preserve">
+    <value>Courtois</value>
+  </data>
+  <data name="names/fra264" xml:space="preserve">
+    <value>Cousin</value>
+  </data>
+  <data name="names/fra265" xml:space="preserve">
+    <value>Coutant</value>
+  </data>
+  <data name="names/fra266" xml:space="preserve">
+    <value>Couturier</value>
+  </data>
+  <data name="names/fra267" xml:space="preserve">
+    <value>Crépin</value>
+  </data>
+  <data name="names/fra268" xml:space="preserve">
+    <value>Cros</value>
+  </data>
+  <data name="names/fra269" xml:space="preserve">
+    <value>Crouzet</value>
+  </data>
+  <data name="names/fra27" xml:space="preserve">
+    <value>Auvray</value>
+  </data>
+  <data name="names/fra270" xml:space="preserve">
+    <value>Cuny</value>
+  </data>
+  <data name="names/fra271" xml:space="preserve">
+    <value>Cuvelier</value>
+  </data>
+  <data name="names/fra272" xml:space="preserve">
+    <value>Da costa</value>
+  </data>
+  <data name="names/fra273" xml:space="preserve">
+    <value>Daniel</value>
+  </data>
+  <data name="names/fra274" xml:space="preserve">
+    <value>Darras</value>
+  </data>
+  <data name="names/fra275" xml:space="preserve">
+    <value>Dauphin</value>
+  </data>
+  <data name="names/fra276" xml:space="preserve">
+    <value>Daval</value>
+  </data>
+  <data name="names/fra277" xml:space="preserve">
+    <value>David</value>
+  </data>
+  <data name="names/fra278" xml:space="preserve">
+    <value>Davy</value>
+  </data>
+  <data name="names/fra279" xml:space="preserve">
+    <value>Lebelle</value>
+  </data>
+  <data name="names/fra28" xml:space="preserve">
+    <value>Avril</value>
+  </data>
+  <data name="names/fra280" xml:space="preserve">
+    <value>De sousa</value>
+  </data>
+  <data name="names/fra281" xml:space="preserve">
+    <value>Debray</value>
+  </data>
+  <data name="names/fra282" xml:space="preserve">
+    <value>Dédé</value>
+  </data>
+  <data name="names/fra283" xml:space="preserve">
+    <value>Defrance</value>
+  </data>
+  <data name="names/fra284" xml:space="preserve">
+    <value>Dejean</value>
+  </data>
+  <data name="names/fra285" xml:space="preserve">
+    <value>Delacroix</value>
+  </data>
+  <data name="names/fra286" xml:space="preserve">
+    <value>Delage</value>
+  </data>
+  <data name="names/fra287" xml:space="preserve">
+    <value>Delahaye</value>
+  </data>
+  <data name="names/fra288" xml:space="preserve">
+    <value>Delalande</value>
+  </data>
+  <data name="names/fra289" xml:space="preserve">
+    <value>Delamare</value>
+  </data>
+  <data name="names/fra29" xml:space="preserve">
+    <value>Bachelet</value>
+  </data>
+  <data name="names/fra290" xml:space="preserve">
+    <value>Delannoy</value>
+  </data>
+  <data name="names/fra291" xml:space="preserve">
+    <value>Delaporte</value>
+  </data>
+  <data name="names/fra292" xml:space="preserve">
+    <value>Delarue</value>
+  </data>
+  <data name="names/fra293" xml:space="preserve">
+    <value>Delattre</value>
+  </data>
+  <data name="names/fra294" xml:space="preserve">
+    <value>Delaunay</value>
+  </data>
+  <data name="names/fra295" xml:space="preserve">
+    <value>Delcroix</value>
+  </data>
+  <data name="names/fra296" xml:space="preserve">
+    <value>Delhaye</value>
+  </data>
+  <data name="names/fra297" xml:space="preserve">
+    <value>Delmas</value>
+  </data>
+  <data name="names/fra298" xml:space="preserve">
+    <value>Delorme</value>
+  </data>
+  <data name="names/fra299" xml:space="preserve">
+    <value>Demange</value>
+  </data>
+  <data name="names/fra3" xml:space="preserve">
+    <value>Albert</value>
+  </data>
+  <data name="names/fra30" xml:space="preserve">
+    <value>Bailleul</value>
+  </data>
+  <data name="names/fra300" xml:space="preserve">
+    <value>Demay</value>
+  </data>
+  <data name="names/fra301" xml:space="preserve">
+    <value>Denis</value>
+  </data>
+  <data name="names/fra302" xml:space="preserve">
+    <value>Derrien</value>
+  </data>
+  <data name="names/fra303" xml:space="preserve">
+    <value>Desbois</value>
+  </data>
+  <data name="names/fra304" xml:space="preserve">
+    <value>Descamps</value>
+  </data>
+  <data name="names/fra305" xml:space="preserve">
+    <value>Deschamps</value>
+  </data>
+  <data name="names/fra306" xml:space="preserve">
+    <value>Deshayes</value>
+  </data>
+  <data name="names/fra307" xml:space="preserve">
+    <value>Després</value>
+  </data>
+  <data name="names/fra308" xml:space="preserve">
+    <value>Devaux</value>
+  </data>
+  <data name="names/fra309" xml:space="preserve">
+    <value>Deville</value>
+  </data>
+  <data name="names/fra31" xml:space="preserve">
+    <value>Bailly</value>
+  </data>
+  <data name="names/fra310" xml:space="preserve">
+    <value>Devos</value>
+  </data>
+  <data name="names/fra311" xml:space="preserve">
+    <value>Didier</value>
+  </data>
+  <data name="names/fra312" xml:space="preserve">
+    <value>Diot</value>
+  </data>
+  <data name="names/fra313" xml:space="preserve">
+    <value>Doré</value>
+  </data>
+  <data name="names/fra314" xml:space="preserve">
+    <value>Dos santos</value>
+  </data>
+  <data name="names/fra315" xml:space="preserve">
+    <value>Doucet</value>
+  </data>
+  <data name="names/fra316" xml:space="preserve">
+    <value>Doyen</value>
+  </data>
+  <data name="names/fra317" xml:space="preserve">
+    <value>Drouet</value>
+  </data>
+  <data name="names/fra318" xml:space="preserve">
+    <value>Drouin</value>
+  </data>
+  <data name="names/fra319" xml:space="preserve">
+    <value>Dubois</value>
+  </data>
+  <data name="names/fra32" xml:space="preserve">
+    <value>Ballet</value>
+  </data>
+  <data name="names/fra320" xml:space="preserve">
+    <value>Dubos</value>
+  </data>
+  <data name="names/fra321" xml:space="preserve">
+    <value>Dubost</value>
+  </data>
+  <data name="names/fra322" xml:space="preserve">
+    <value>Dubreuil</value>
+  </data>
+  <data name="names/fra323" xml:space="preserve">
+    <value>Dubuc</value>
+  </data>
+  <data name="names/fra324" xml:space="preserve">
+    <value>Dubus</value>
+  </data>
+  <data name="names/fra325" xml:space="preserve">
+    <value>Duc</value>
+  </data>
+  <data name="names/fra326" xml:space="preserve">
+    <value>Duchemin</value>
+  </data>
+  <data name="names/fra327" xml:space="preserve">
+    <value>Duchêne</value>
+  </data>
+  <data name="names/fra328" xml:space="preserve">
+    <value>Duchesne</value>
+  </data>
+  <data name="names/fra329" xml:space="preserve">
+    <value>Duclos</value>
+  </data>
+  <data name="names/fra33" xml:space="preserve">
+    <value>Barbe</value>
+  </data>
+  <data name="names/fra330" xml:space="preserve">
+    <value>Ducrocq</value>
+  </data>
+  <data name="names/fra331" xml:space="preserve">
+    <value>Duez</value>
+  </data>
+  <data name="names/fra332" xml:space="preserve">
+    <value>Dufour</value>
+  </data>
+  <data name="names/fra333" xml:space="preserve">
+    <value>Duhamel</value>
+  </data>
+  <data name="names/fra334" xml:space="preserve">
+    <value>Dujardin</value>
+  </data>
+  <data name="names/fra335" xml:space="preserve">
+    <value>Dumas</value>
+  </data>
+  <data name="names/fra336" xml:space="preserve">
+    <value>Dumont</value>
+  </data>
+  <data name="names/fra337" xml:space="preserve">
+    <value>Dumortier</value>
+  </data>
+  <data name="names/fra338" xml:space="preserve">
+    <value>Dumoulin</value>
+  </data>
+  <data name="names/fra339" xml:space="preserve">
+    <value>Dupin</value>
+  </data>
+  <data name="names/fra34" xml:space="preserve">
+    <value>Barbier</value>
+  </data>
+  <data name="names/fra340" xml:space="preserve">
+    <value>Dupond</value>
+  </data>
+  <data name="names/fra341" xml:space="preserve">
+    <value>Dupont</value>
+  </data>
+  <data name="names/fra342" xml:space="preserve">
+    <value>Duprat</value>
+  </data>
+  <data name="names/fra343" xml:space="preserve">
+    <value>Dupré</value>
+  </data>
+  <data name="names/fra344" xml:space="preserve">
+    <value>Dupuis</value>
+  </data>
+  <data name="names/fra345" xml:space="preserve">
+    <value>Dupuy</value>
+  </data>
+  <data name="names/fra346" xml:space="preserve">
+    <value>Durand</value>
+  </data>
+  <data name="names/fra347" xml:space="preserve">
+    <value>Durant</value>
+  </data>
+  <data name="names/fra348" xml:space="preserve">
+    <value>Duret</value>
+  </data>
+  <data name="names/fra349" xml:space="preserve">
+    <value>Durieux</value>
+  </data>
+  <data name="names/fra35" xml:space="preserve">
+    <value>Barbot</value>
+  </data>
+  <data name="names/fra350" xml:space="preserve">
+    <value>Duriez</value>
+  </data>
+  <data name="names/fra351" xml:space="preserve">
+    <value>Dussart</value>
+  </data>
+  <data name="names/fra352" xml:space="preserve">
+    <value>Dutertre</value>
+  </data>
+  <data name="names/fra353" xml:space="preserve">
+    <value>Esnault</value>
+  </data>
+  <data name="names/fra354" xml:space="preserve">
+    <value>Estève</value>
+  </data>
+  <data name="names/fra355" xml:space="preserve">
+    <value>Étienne</value>
+  </data>
+  <data name="names/fra356" xml:space="preserve">
+    <value>Evrard</value>
+  </data>
+  <data name="names/fra357" xml:space="preserve">
+    <value>Fabre</value>
+  </data>
+  <data name="names/fra358" xml:space="preserve">
+    <value>Faivre</value>
+  </data>
+  <data name="names/fra359" xml:space="preserve">
+    <value>Faucher</value>
+  </data>
+  <data name="names/fra36" xml:space="preserve">
+    <value>Bardet</value>
+  </data>
+  <data name="names/fra360" xml:space="preserve">
+    <value>Faure</value>
+  </data>
+  <data name="names/fra361" xml:space="preserve">
+    <value>Favier</value>
+  </data>
+  <data name="names/fra362" xml:space="preserve">
+    <value>Favre</value>
+  </data>
+  <data name="names/fra363" xml:space="preserve">
+    <value>Favreau</value>
+  </data>
+  <data name="names/fra364" xml:space="preserve">
+    <value>Faye</value>
+  </data>
+  <data name="names/fra365" xml:space="preserve">
+    <value>Fayolle</value>
+  </data>
+  <data name="names/fra366" xml:space="preserve">
+    <value>Félix</value>
+  </data>
+  <data name="names/fra367" xml:space="preserve">
+    <value>Fernandes</value>
+  </data>
+  <data name="names/fra368" xml:space="preserve">
+    <value>Fernandez</value>
+  </data>
+  <data name="names/fra369" xml:space="preserve">
+    <value>Féron</value>
+  </data>
+  <data name="names/fra37" xml:space="preserve">
+    <value>Baron</value>
+  </data>
+  <data name="names/fra370" xml:space="preserve">
+    <value>Ferrand</value>
+  </data>
+  <data name="names/fra371" xml:space="preserve">
+    <value>Ferré</value>
+  </data>
+  <data name="names/fra372" xml:space="preserve">
+    <value>Ferreira</value>
+  </data>
+  <data name="names/fra373" xml:space="preserve">
+    <value>Ferrer</value>
+  </data>
+  <data name="names/fra374" xml:space="preserve">
+    <value>Ferrier</value>
+  </data>
+  <data name="names/fra375" xml:space="preserve">
+    <value>Ferry</value>
+  </data>
+  <data name="names/fra376" xml:space="preserve">
+    <value>Fèvre</value>
+  </data>
+  <data name="names/fra377" xml:space="preserve">
+    <value>Février</value>
+  </data>
+  <data name="names/fra378" xml:space="preserve">
+    <value>Fiévet</value>
+  </data>
+  <data name="names/fra379" xml:space="preserve">
+    <value>Fischer</value>
+  </data>
+  <data name="names/fra38" xml:space="preserve">
+    <value>Barraud</value>
+  </data>
+  <data name="names/fra380" xml:space="preserve">
+    <value>Flament</value>
+  </data>
+  <data name="names/fra381" xml:space="preserve">
+    <value>Fleury</value>
+  </data>
+  <data name="names/fra382" xml:space="preserve">
+    <value>Floch</value>
+  </data>
+  <data name="names/fra383" xml:space="preserve">
+    <value>Fontaine</value>
+  </data>
+  <data name="names/fra384" xml:space="preserve">
+    <value>Fonteneau</value>
+  </data>
+  <data name="names/fra385" xml:space="preserve">
+    <value>Forestier</value>
+  </data>
+  <data name="names/fra386" xml:space="preserve">
+    <value>Forget</value>
+  </data>
+  <data name="names/fra387" xml:space="preserve">
+    <value>Fort</value>
+  </data>
+  <data name="names/fra388" xml:space="preserve">
+    <value>Fortin</value>
+  </data>
+  <data name="names/fra389" xml:space="preserve">
+    <value>Foucault</value>
+  </data>
+  <data name="names/fra39" xml:space="preserve">
+    <value>Barre</value>
+  </data>
+  <data name="names/fra390" xml:space="preserve">
+    <value>Foucher</value>
+  </data>
+  <data name="names/fra391" xml:space="preserve">
+    <value>Foulon</value>
+  </data>
+  <data name="names/fra392" xml:space="preserve">
+    <value>Fouquet</value>
+  </data>
+  <data name="names/fra393" xml:space="preserve">
+    <value>Fourcade</value>
+  </data>
+  <data name="names/fra394" xml:space="preserve">
+    <value>Fournet</value>
+  </data>
+  <data name="names/fra395" xml:space="preserve">
+    <value>Fournier</value>
+  </data>
+  <data name="names/fra396" xml:space="preserve">
+    <value>Fraisse</value>
+  </data>
+  <data name="names/fra397" xml:space="preserve">
+    <value>Franco</value>
+  </data>
+  <data name="names/fra398" xml:space="preserve">
+    <value>Frémont</value>
+  </data>
+  <data name="names/fra399" xml:space="preserve">
+    <value>Froment</value>
+  </data>
+  <data name="names/fra4" xml:space="preserve">
+    <value>Alexandre</value>
+  </data>
+  <data name="names/fra40" xml:space="preserve">
+    <value>Barreau</value>
+  </data>
+  <data name="names/fra400" xml:space="preserve">
+    <value>Fuchs</value>
+  </data>
+  <data name="names/fra401" xml:space="preserve">
+    <value>Gaillard</value>
+  </data>
+  <data name="names/fra402" xml:space="preserve">
+    <value>Gallais</value>
+  </data>
+  <data name="names/fra403" xml:space="preserve">
+    <value>Gallet</value>
+  </data>
+  <data name="names/fra404" xml:space="preserve">
+    <value>Gallois</value>
+  </data>
+  <data name="names/fra405" xml:space="preserve">
+    <value>Garcia</value>
+  </data>
+  <data name="names/fra406" xml:space="preserve">
+    <value>Garin</value>
+  </data>
+  <data name="names/fra407" xml:space="preserve">
+    <value>Garnier</value>
+  </data>
+  <data name="names/fra408" xml:space="preserve">
+    <value>Garreau</value>
+  </data>
+  <data name="names/fra409" xml:space="preserve">
+    <value>Gasnier</value>
+  </data>
+  <data name="names/fra41" xml:space="preserve">
+    <value>Barret</value>
+  </data>
+  <data name="names/fra410" xml:space="preserve">
+    <value>Gaubert</value>
+  </data>
+  <data name="names/fra411" xml:space="preserve">
+    <value>Gaudin</value>
+  </data>
+  <data name="names/fra412" xml:space="preserve">
+    <value>Gaultier</value>
+  </data>
+  <data name="names/fra413" xml:space="preserve">
+    <value>Gauthier</value>
+  </data>
+  <data name="names/fra414" xml:space="preserve">
+    <value>Gautier</value>
+  </data>
+  <data name="names/fra415" xml:space="preserve">
+    <value>Gay</value>
+  </data>
+  <data name="names/fra416" xml:space="preserve">
+    <value>Geffroy</value>
+  </data>
+  <data name="names/fra417" xml:space="preserve">
+    <value>Genet</value>
+  </data>
+  <data name="names/fra418" xml:space="preserve">
+    <value>Genty</value>
+  </data>
+  <data name="names/fra419" xml:space="preserve">
+    <value>Geoffroy</value>
+  </data>
+  <data name="names/fra42" xml:space="preserve">
+    <value>Barrier</value>
+  </data>
+  <data name="names/fra420" xml:space="preserve">
+    <value>Georges</value>
+  </data>
+  <data name="names/fra421" xml:space="preserve">
+    <value>Girgl</value>
+  </data>
+  <data name="names/fra422" xml:space="preserve">
+    <value>Gerardin</value>
+  </data>
+  <data name="names/fra423" xml:space="preserve">
+    <value>Germain</value>
+  </data>
+  <data name="names/fra424" xml:space="preserve">
+    <value>Gervais</value>
+  </data>
+  <data name="names/fra425" xml:space="preserve">
+    <value>Gibert</value>
+  </data>
+  <data name="names/fra426" xml:space="preserve">
+    <value>Gicquel</value>
+  </data>
+  <data name="names/fra427" xml:space="preserve">
+    <value>Gil</value>
+  </data>
+  <data name="names/fra428" xml:space="preserve">
+    <value>Gilbert</value>
+  </data>
+  <data name="names/fra429" xml:space="preserve">
+    <value>Gilles</value>
+  </data>
+  <data name="names/fra43" xml:space="preserve">
+    <value>Barrière</value>
+  </data>
+  <data name="names/fra430" xml:space="preserve">
+    <value>Gillet</value>
+  </data>
+  <data name="names/fra431" xml:space="preserve">
+    <value>Gillot</value>
+  </data>
+  <data name="names/fra432" xml:space="preserve">
+    <value>Giménez</value>
+  </data>
+  <data name="names/fra433" xml:space="preserve">
+    <value>Girard</value>
+  </data>
+  <data name="names/fra434" xml:space="preserve">
+    <value>Giraud</value>
+  </data>
+  <data name="names/fra435" xml:space="preserve">
+    <value>Girault</value>
+  </data>
+  <data name="names/fra436" xml:space="preserve">
+    <value>Girod</value>
+  </data>
+  <data name="names/fra437" xml:space="preserve">
+    <value>Gobert</value>
+  </data>
+  <data name="names/fra438" xml:space="preserve">
+    <value>Godard</value>
+  </data>
+  <data name="names/fra439" xml:space="preserve">
+    <value>Godart</value>
+  </data>
+  <data name="names/fra44" xml:space="preserve">
+    <value>Barthe</value>
+  </data>
+  <data name="names/fra440" xml:space="preserve">
+    <value>Godefroy</value>
+  </data>
+  <data name="names/fra441" xml:space="preserve">
+    <value>Godet</value>
+  </data>
+  <data name="names/fra442" xml:space="preserve">
+    <value>Godin</value>
+  </data>
+  <data name="names/fra443" xml:space="preserve">
+    <value>Gonsalve</value>
+  </data>
+  <data name="names/fra444" xml:space="preserve">
+    <value>Gosselin</value>
+  </data>
+  <data name="names/fra445" xml:space="preserve">
+    <value>Gosset</value>
+  </data>
+  <data name="names/fra446" xml:space="preserve">
+    <value>Goujon</value>
+  </data>
+  <data name="names/fra447" xml:space="preserve">
+    <value>Grand</value>
+  </data>
+  <data name="names/fra448" xml:space="preserve">
+    <value>Grandjean</value>
+  </data>
+  <data name="names/fra449" xml:space="preserve">
+    <value>Grange</value>
+  </data>
+  <data name="names/fra45" xml:space="preserve">
+    <value>Barthélémy</value>
+  </data>
+  <data name="names/fra450" xml:space="preserve">
+    <value>Granger</value>
+  </data>
+  <data name="names/fra451" xml:space="preserve">
+    <value>Granier</value>
+  </data>
+  <data name="names/fra452" xml:space="preserve">
+    <value>Gras</value>
+  </data>
+  <data name="names/fra453" xml:space="preserve">
+    <value>Grégoire</value>
+  </data>
+  <data name="names/fra454" xml:space="preserve">
+    <value>Grenier</value>
+  </data>
+  <data name="names/fra455" xml:space="preserve">
+    <value>Grimaud</value>
+  </data>
+  <data name="names/fra456" xml:space="preserve">
+    <value>Grondin</value>
+  </data>
+  <data name="names/fra457" xml:space="preserve">
+    <value>Gros</value>
+  </data>
+  <data name="names/fra458" xml:space="preserve">
+    <value>Grosjean</value>
+  </data>
+  <data name="names/fra459" xml:space="preserve">
+    <value>Guegan</value>
+  </data>
+  <data name="names/fra46" xml:space="preserve">
+    <value>Basset</value>
+  </data>
+  <data name="names/fra460" xml:space="preserve">
+    <value>Gueguen</value>
+  </data>
+  <data name="names/fra461" xml:space="preserve">
+    <value>Guérin</value>
+  </data>
+  <data name="names/fra462" xml:space="preserve">
+    <value>Guerry</value>
+  </data>
+  <data name="names/fra463" xml:space="preserve">
+    <value>Guibert</value>
+  </data>
+  <data name="names/fra464" xml:space="preserve">
+    <value>Guichard</value>
+  </data>
+  <data name="names/fra465" xml:space="preserve">
+    <value>Guignard</value>
+  </data>
+  <data name="names/fra466" xml:space="preserve">
+    <value>Guilbaud</value>
+  </data>
+  <data name="names/fra467" xml:space="preserve">
+    <value>Guilbert</value>
+  </data>
+  <data name="names/fra468" xml:space="preserve">
+    <value>Guillard</value>
+  </data>
+  <data name="names/fra469" xml:space="preserve">
+    <value>Guillaume</value>
+  </data>
+  <data name="names/fra47" xml:space="preserve">
+    <value>Bastien</value>
+  </data>
+  <data name="names/fra470" xml:space="preserve">
+    <value>Guillemin</value>
+  </data>
+  <data name="names/fra471" xml:space="preserve">
+    <value>Guillemot</value>
+  </data>
+  <data name="names/fra472" xml:space="preserve">
+    <value>Guillet</value>
+  </data>
+  <data name="names/fra473" xml:space="preserve">
+    <value>Guillon</value>
+  </data>
+  <data name="names/fra474" xml:space="preserve">
+    <value>Guillot</value>
+  </data>
+  <data name="names/fra475" xml:space="preserve">
+    <value>Guillou</value>
+  </data>
+  <data name="names/fra476" xml:space="preserve">
+    <value>Guilloux</value>
+  </data>
+  <data name="names/fra477" xml:space="preserve">
+    <value>Guiot</value>
+  </data>
+  <data name="names/fra478" xml:space="preserve">
+    <value>Guiraud</value>
+  </data>
+  <data name="names/fra479" xml:space="preserve">
+    <value>Guitton</value>
+  </data>
+  <data name="names/fra48" xml:space="preserve">
+    <value>Bataille</value>
+  </data>
+  <data name="names/fra480" xml:space="preserve">
+    <value>Guy</value>
+  </data>
+  <data name="names/fra481" xml:space="preserve">
+    <value>Guyard</value>
+  </data>
+  <data name="names/fra482" xml:space="preserve">
+    <value>Guyon</value>
+  </data>
+  <data name="names/fra483" xml:space="preserve">
+    <value>Guyot</value>
+  </data>
+  <data name="names/fra484" xml:space="preserve">
+    <value>Haas</value>
+  </data>
+  <data name="names/fra485" xml:space="preserve">
+    <value>Haddad</value>
+  </data>
+  <data name="names/fra486" xml:space="preserve">
+    <value>Hamel</value>
+  </data>
+  <data name="names/fra487" xml:space="preserve">
+    <value>Hamelin</value>
+  </data>
+  <data name="names/fra488" xml:space="preserve">
+    <value>Hamon</value>
+  </data>
+  <data name="names/fra489" xml:space="preserve">
+    <value>Hardouin</value>
+  </data>
+  <data name="names/fra49" xml:space="preserve">
+    <value>Baud</value>
+  </data>
+  <data name="names/fra490" xml:space="preserve">
+    <value>Hardy</value>
+  </data>
+  <data name="names/fra491" xml:space="preserve">
+    <value>Hebert</value>
+  </data>
+  <data name="names/fra492" xml:space="preserve">
+    <value>Henry</value>
+  </data>
+  <data name="names/fra493" xml:space="preserve">
+    <value>Hérault</value>
+  </data>
+  <data name="names/fra494" xml:space="preserve">
+    <value>Hernandez</value>
+  </data>
+  <data name="names/fra495" xml:space="preserve">
+    <value>Hervé</value>
+  </data>
+  <data name="names/fra496" xml:space="preserve">
+    <value>Hoarau</value>
+  </data>
+  <data name="names/fra497" xml:space="preserve">
+    <value>Hubert</value>
+  </data>
+  <data name="names/fra498" xml:space="preserve">
+    <value>Huchet</value>
+  </data>
+  <data name="names/fra499" xml:space="preserve">
+    <value>Huet</value>
+  </data>
+  <data name="names/fra5" xml:space="preserve">
+    <value>Alix</value>
+  </data>
+  <data name="names/fra50" xml:space="preserve">
+    <value>Baudet</value>
+  </data>
+  <data name="names/fra500" xml:space="preserve">
+    <value>Hugues</value>
+  </data>
+  <data name="names/fra501" xml:space="preserve">
+    <value>Huguet</value>
+  </data>
+  <data name="names/fra502" xml:space="preserve">
+    <value>Humbert</value>
+  </data>
+  <data name="names/fra503" xml:space="preserve">
+    <value>Husson</value>
+  </data>
+  <data name="names/fra504" xml:space="preserve">
+    <value>Imbert</value>
+  </data>
+  <data name="names/fra505" xml:space="preserve">
+    <value>Jacob</value>
+  </data>
+  <data name="names/fra506" xml:space="preserve">
+    <value>Jacq</value>
+  </data>
+  <data name="names/fra507" xml:space="preserve">
+    <value>Jacquemin</value>
+  </data>
+  <data name="names/fra508" xml:space="preserve">
+    <value>Jacques</value>
+  </data>
+  <data name="names/fra509" xml:space="preserve">
+    <value>Jacquet</value>
+  </data>
+  <data name="names/fra51" xml:space="preserve">
+    <value>Baudin</value>
+  </data>
+  <data name="names/fra510" xml:space="preserve">
+    <value>Jacquin</value>
+  </data>
+  <data name="names/fra511" xml:space="preserve">
+    <value>Jacquot</value>
+  </data>
+  <data name="names/fra512" xml:space="preserve">
+    <value>Jaffre</value>
+  </data>
+  <data name="names/fra513" xml:space="preserve">
+    <value>Jamet</value>
+  </data>
+  <data name="names/fra514" xml:space="preserve">
+    <value>Janin</value>
+  </data>
+  <data name="names/fra515" xml:space="preserve">
+    <value>Janvier</value>
+  </data>
+  <data name="names/fra516" xml:space="preserve">
+    <value>Jaouen</value>
+  </data>
+  <data name="names/fra517" xml:space="preserve">
+    <value>Jardin</value>
+  </data>
+  <data name="names/fra518" xml:space="preserve">
+    <value>Jarry</value>
+  </data>
+  <data name="names/fra519" xml:space="preserve">
+    <value>Jean</value>
+  </data>
+  <data name="names/fra52" xml:space="preserve">
+    <value>Baudoin</value>
+  </data>
+  <data name="names/fra520" xml:space="preserve">
+    <value>Jeanne</value>
+  </data>
+  <data name="names/fra521" xml:space="preserve">
+    <value>Jeannin</value>
+  </data>
+  <data name="names/fra522" xml:space="preserve">
+    <value>Jégou</value>
+  </data>
+  <data name="names/fra523" xml:space="preserve">
+    <value>Jiménez</value>
+  </data>
+  <data name="names/fra524" xml:space="preserve">
+    <value>Jolivet</value>
+  </data>
+  <data name="names/fra525" xml:space="preserve">
+    <value>Jolly</value>
+  </data>
+  <data name="names/fra526" xml:space="preserve">
+    <value>Joseph</value>
+  </data>
+  <data name="names/fra527" xml:space="preserve">
+    <value>Jouan</value>
+  </data>
+  <data name="names/fra528" xml:space="preserve">
+    <value>Joubert</value>
+  </data>
+  <data name="names/fra529" xml:space="preserve">
+    <value>Jourdain</value>
+  </data>
+  <data name="names/fra53" xml:space="preserve">
+    <value>Baudouin</value>
+  </data>
+  <data name="names/fra530" xml:space="preserve">
+    <value>Jourdan</value>
+  </data>
+  <data name="names/fra531" xml:space="preserve">
+    <value>Jouve</value>
+  </data>
+  <data name="names/fra532" xml:space="preserve">
+    <value>Julien</value>
+  </data>
+  <data name="names/fra533" xml:space="preserve">
+    <value>Jullien</value>
+  </data>
+  <data name="names/fra534" xml:space="preserve">
+    <value>Jung</value>
+  </data>
+  <data name="names/fra535" xml:space="preserve">
+    <value>Keller</value>
+  </data>
+  <data name="names/fra536" xml:space="preserve">
+    <value>Kieffer</value>
+  </data>
+  <data name="names/fra537" xml:space="preserve">
+    <value>Klein</value>
+  </data>
+  <data name="names/fra538" xml:space="preserve">
+    <value>Labat</value>
+  </data>
+  <data name="names/fra539" xml:space="preserve">
+    <value>Labbé</value>
+  </data>
+  <data name="names/fra54" xml:space="preserve">
+    <value>Baudry</value>
+  </data>
+  <data name="names/fra540" xml:space="preserve">
+    <value>Laborde</value>
+  </data>
+  <data name="names/fra541" xml:space="preserve">
+    <value>Lacaze</value>
+  </data>
+  <data name="names/fra542" xml:space="preserve">
+    <value>Lacombe</value>
+  </data>
+  <data name="names/fra543" xml:space="preserve">
+    <value>Lacour</value>
+  </data>
+  <data name="names/fra544" xml:space="preserve">
+    <value>Lacroix</value>
+  </data>
+  <data name="names/fra545" xml:space="preserve">
+    <value>Laffont</value>
+  </data>
+  <data name="names/fra546" xml:space="preserve">
+    <value>Lafon</value>
+  </data>
+  <data name="names/fra547" xml:space="preserve">
+    <value>Lafond</value>
+  </data>
+  <data name="names/fra548" xml:space="preserve">
+    <value>Lafont</value>
+  </data>
+  <data name="names/fra549" xml:space="preserve">
+    <value>Lagarde</value>
+  </data>
+  <data name="names/fra55" xml:space="preserve">
+    <value>Bauer</value>
+  </data>
+  <data name="names/fra550" xml:space="preserve">
+    <value>Lagrange</value>
+  </data>
+  <data name="names/fra551" xml:space="preserve">
+    <value>Laine</value>
+  </data>
+  <data name="names/fra552" xml:space="preserve">
+    <value>Lair</value>
+  </data>
+  <data name="names/fra553" xml:space="preserve">
+    <value>Lalanne</value>
+  </data>
+  <data name="names/fra554" xml:space="preserve">
+    <value>Lallemand</value>
+  </data>
+  <data name="names/fra555" xml:space="preserve">
+    <value>Lallement</value>
+  </data>
+  <data name="names/fra556" xml:space="preserve">
+    <value>Lambert</value>
+  </data>
+  <data name="names/fra557" xml:space="preserve">
+    <value>Lamotte</value>
+  </data>
+  <data name="names/fra558" xml:space="preserve">
+    <value>Lamour</value>
+  </data>
+  <data name="names/fra559" xml:space="preserve">
+    <value>Lamy</value>
+  </data>
+  <data name="names/fra56" xml:space="preserve">
+    <value>Bayle</value>
+  </data>
+  <data name="names/fra560" xml:space="preserve">
+    <value>Landais</value>
+  </data>
+  <data name="names/fra561" xml:space="preserve">
+    <value>Lang</value>
+  </data>
+  <data name="names/fra562" xml:space="preserve">
+    <value>Langlais</value>
+  </data>
+  <data name="names/fra563" xml:space="preserve">
+    <value>Langlois</value>
+  </data>
+  <data name="names/fra564" xml:space="preserve">
+    <value>Lapeyre</value>
+  </data>
+  <data name="names/fra565" xml:space="preserve">
+    <value>Lapierre</value>
+  </data>
+  <data name="names/fra566" xml:space="preserve">
+    <value>Laporte</value>
+  </data>
+  <data name="names/fra567" xml:space="preserve">
+    <value>Larcher</value>
+  </data>
+  <data name="names/fra568" xml:space="preserve">
+    <value>Laroche</value>
+  </data>
+  <data name="names/fra569" xml:space="preserve">
+    <value>Larue</value>
+  </data>
+  <data name="names/fra57" xml:space="preserve">
+    <value>Bazin</value>
+  </data>
+  <data name="names/fra570" xml:space="preserve">
+    <value>Lassalle</value>
+  </data>
+  <data name="names/fra571" xml:space="preserve">
+    <value>Lasserre</value>
+  </data>
+  <data name="names/fra572" xml:space="preserve">
+    <value>Latour</value>
+  </data>
+  <data name="names/fra573" xml:space="preserve">
+    <value>Launay</value>
+  </data>
+  <data name="names/fra574" xml:space="preserve">
+    <value>Laurent</value>
+  </data>
+  <data name="names/fra575" xml:space="preserve">
+    <value>Laval</value>
+  </data>
+  <data name="names/fra576" xml:space="preserve">
+    <value>Lavaud</value>
+  </data>
+  <data name="names/fra577" xml:space="preserve">
+    <value>Lavergne</value>
+  </data>
+  <data name="names/fra578" xml:space="preserve">
+    <value>Lavigne</value>
+  </data>
+  <data name="names/fra579" xml:space="preserve">
+    <value>Chabrol</value>
+  </data>
+  <data name="names/fra58" xml:space="preserve">
+    <value>Beal</value>
+  </data>
+  <data name="names/fra580" xml:space="preserve">
+    <value>Le Bars</value>
+  </data>
+  <data name="names/fra581" xml:space="preserve">
+    <value>Le Berre</value>
+  </data>
+  <data name="names/fra582" xml:space="preserve">
+    <value>Le Bihan</value>
+  </data>
+  <data name="names/fra583" xml:space="preserve">
+    <value>Le Borgne</value>
+  </data>
+  <data name="names/fra584" xml:space="preserve">
+    <value>Le Bras</value>
+  </data>
+  <data name="names/fra585" xml:space="preserve">
+    <value>Le Breton</value>
+  </data>
+  <data name="names/fra586" xml:space="preserve">
+    <value>Le Bris</value>
+  </data>
+  <data name="names/fra587" xml:space="preserve">
+    <value>Le Corre</value>
+  </data>
+  <data name="names/fra588" xml:space="preserve">
+    <value>Le Dû</value>
+  </data>
+  <data name="names/fra589" xml:space="preserve">
+    <value>Le Floch</value>
+  </data>
+  <data name="names/fra59" xml:space="preserve">
+    <value>Beau</value>
+  </data>
+  <data name="names/fra590" xml:space="preserve">
+    <value>Le Gac</value>
+  </data>
+  <data name="names/fra591" xml:space="preserve">
+    <value>Le Gal</value>
+  </data>
+  <data name="names/fra592" xml:space="preserve">
+    <value>Le Gall</value>
+  </data>
+  <data name="names/fra593" xml:space="preserve">
+    <value>Le Goff</value>
+  </data>
+  <data name="names/fra594" xml:space="preserve">
+    <value>Le Guen</value>
+  </data>
+  <data name="names/fra595" xml:space="preserve">
+    <value>Le Meur</value>
+  </data>
+  <data name="names/fra596" xml:space="preserve">
+    <value>Le Roux</value>
+  </data>
+  <data name="names/fra597" xml:space="preserve">
+    <value>Le Roy</value>
+  </data>
+  <data name="names/fra598" xml:space="preserve">
+    <value>Lebas</value>
+  </data>
+  <data name="names/fra599" xml:space="preserve">
+    <value>Lebeau</value>
+  </data>
+  <data name="names/fra6" xml:space="preserve">
+    <value>Allain</value>
+  </data>
+  <data name="names/fra60" xml:space="preserve">
+    <value>Beaufils</value>
+  </data>
+  <data name="names/fra600" xml:space="preserve">
+    <value>Leblanc</value>
+  </data>
+  <data name="names/fra601" xml:space="preserve">
+    <value>Leblond</value>
+  </data>
+  <data name="names/fra602" xml:space="preserve">
+    <value>Lebon</value>
+  </data>
+  <data name="names/fra603" xml:space="preserve">
+    <value>Lebreton</value>
+  </data>
+  <data name="names/fra604" xml:space="preserve">
+    <value>Lebrun</value>
+  </data>
+  <data name="names/fra605" xml:space="preserve">
+    <value>Lechat</value>
+  </data>
+  <data name="names/fra606" xml:space="preserve">
+    <value>Leclerc</value>
+  </data>
+  <data name="names/fra607" xml:space="preserve">
+    <value>Leclercq</value>
+  </data>
+  <data name="names/fra608" xml:space="preserve">
+    <value>Leclère</value>
+  </data>
+  <data name="names/fra609" xml:space="preserve">
+    <value>Lecocq</value>
+  </data>
+  <data name="names/fra61" xml:space="preserve">
+    <value>Beaulieu</value>
+  </data>
+  <data name="names/fra610" xml:space="preserve">
+    <value>Lecoeur</value>
+  </data>
+  <data name="names/fra611" xml:space="preserve">
+    <value>Lecomte</value>
+  </data>
+  <data name="names/fra612" xml:space="preserve">
+    <value>Leconte</value>
+  </data>
+  <data name="names/fra613" xml:space="preserve">
+    <value>Lecoq</value>
+  </data>
+  <data name="names/fra614" xml:space="preserve">
+    <value>Lecourt</value>
+  </data>
+  <data name="names/fra615" xml:space="preserve">
+    <value>Lécuyer</value>
+  </data>
+  <data name="names/fra616" xml:space="preserve">
+    <value>Ledoux</value>
+  </data>
+  <data name="names/fra617" xml:space="preserve">
+    <value>Ledru</value>
+  </data>
+  <data name="names/fra618" xml:space="preserve">
+    <value>Leduc</value>
+  </data>
+  <data name="names/fra619" xml:space="preserve">
+    <value>Lefebvre</value>
+  </data>
+  <data name="names/fra62" xml:space="preserve">
+    <value>Beaumont</value>
+  </data>
+  <data name="names/fra620" xml:space="preserve">
+    <value>Lefeuvre</value>
+  </data>
+  <data name="names/fra621" xml:space="preserve">
+    <value>Lefèvre</value>
+  </data>
+  <data name="names/fra622" xml:space="preserve">
+    <value>Lefort</value>
+  </data>
+  <data name="names/fra623" xml:space="preserve">
+    <value>Lefranc</value>
+  </data>
+  <data name="names/fra624" xml:space="preserve">
+    <value>Lefrancois</value>
+  </data>
+  <data name="names/fra625" xml:space="preserve">
+    <value>Legay</value>
+  </data>
+  <data name="names/fra626" xml:space="preserve">
+    <value>Legendre</value>
+  </data>
+  <data name="names/fra627" xml:space="preserve">
+    <value>Léger</value>
+  </data>
+  <data name="names/fra628" xml:space="preserve">
+    <value>Legrand</value>
+  </data>
+  <data name="names/fra629" xml:space="preserve">
+    <value>Legras</value>
+  </data>
+  <data name="names/fra63" xml:space="preserve">
+    <value>Beauvais</value>
+  </data>
+  <data name="names/fra630" xml:space="preserve">
+    <value>Legros</value>
+  </data>
+  <data name="names/fra631" xml:space="preserve">
+    <value>Lejeune</value>
+  </data>
+  <data name="names/fra632" xml:space="preserve">
+    <value>Leleu</value>
+  </data>
+  <data name="names/fra633" xml:space="preserve">
+    <value>Lelièvre</value>
+  </data>
+  <data name="names/fra634" xml:space="preserve">
+    <value>Lelong</value>
+  </data>
+  <data name="names/fra635" xml:space="preserve">
+    <value>Leloup</value>
+  </data>
+  <data name="names/fra636" xml:space="preserve">
+    <value>Lemaire</value>
+  </data>
+  <data name="names/fra637" xml:space="preserve">
+    <value>Lemaitre</value>
+  </data>
+  <data name="names/fra638" xml:space="preserve">
+    <value>Lemarchand</value>
+  </data>
+  <data name="names/fra639" xml:space="preserve">
+    <value>Lemercier</value>
+  </data>
+  <data name="names/fra64" xml:space="preserve">
+    <value>Beck</value>
+  </data>
+  <data name="names/fra640" xml:space="preserve">
+    <value>Lemoine</value>
+  </data>
+  <data name="names/fra641" xml:space="preserve">
+    <value>Lemonnier</value>
+  </data>
+  <data name="names/fra642" xml:space="preserve">
+    <value>Lenglet</value>
+  </data>
+  <data name="names/fra643" xml:space="preserve">
+    <value>Lenoir</value>
+  </data>
+  <data name="names/fra644" xml:space="preserve">
+    <value>Léon</value>
+  </data>
+  <data name="names/fra645" xml:space="preserve">
+    <value>Léonard</value>
+  </data>
+  <data name="names/fra646" xml:space="preserve">
+    <value>Lepage</value>
+  </data>
+  <data name="names/fra647" xml:space="preserve">
+    <value>Lépine</value>
+  </data>
+  <data name="names/fra648" xml:space="preserve">
+    <value>Leprêtre</value>
+  </data>
+  <data name="names/fra649" xml:space="preserve">
+    <value>Leray</value>
+  </data>
+  <data name="names/fra65" xml:space="preserve">
+    <value>Becker</value>
+  </data>
+  <data name="names/fra650" xml:space="preserve">
+    <value>Leriche</value>
+  </data>
+  <data name="names/fra651" xml:space="preserve">
+    <value>Leroux</value>
+  </data>
+  <data name="names/fra652" xml:space="preserve">
+    <value>Leroy</value>
+  </data>
+  <data name="names/fra653" xml:space="preserve">
+    <value>Lesage</value>
+  </data>
+  <data name="names/fra654" xml:space="preserve">
+    <value>Lesueur</value>
+  </data>
+  <data name="names/fra655" xml:space="preserve">
+    <value>Letellier</value>
+  </data>
+  <data name="names/fra656" xml:space="preserve">
+    <value>Levasseur</value>
+  </data>
+  <data name="names/fra657" xml:space="preserve">
+    <value>Lévêque</value>
+  </data>
+  <data name="names/fra658" xml:space="preserve">
+    <value>Lévy</value>
+  </data>
+  <data name="names/fra659" xml:space="preserve">
+    <value>Lhomme</value>
+  </data>
+  <data name="names/fra66" xml:space="preserve">
+    <value>Bègue</value>
+  </data>
+  <data name="names/fra660" xml:space="preserve">
+    <value>Lienard</value>
+  </data>
+  <data name="names/fra661" xml:space="preserve">
+    <value>Loiseau</value>
+  </data>
+  <data name="names/fra662" xml:space="preserve">
+    <value>Loisel</value>
+  </data>
+  <data name="names/fra663" xml:space="preserve">
+    <value>Loison</value>
+  </data>
+  <data name="names/fra664" xml:space="preserve">
+    <value>Lombard</value>
+  </data>
+  <data name="names/fra665" xml:space="preserve">
+    <value>Lopez</value>
+  </data>
+  <data name="names/fra666" xml:space="preserve">
+    <value>Louis</value>
+  </data>
+  <data name="names/fra667" xml:space="preserve">
+    <value>Louvet</value>
+  </data>
+  <data name="names/fra668" xml:space="preserve">
+    <value>Loyer</value>
+  </data>
+  <data name="names/fra669" xml:space="preserve">
+    <value>Lucas</value>
+  </data>
+  <data name="names/fra67" xml:space="preserve">
+    <value>Beguin</value>
+  </data>
+  <data name="names/fra670" xml:space="preserve">
+    <value>Ly</value>
+  </data>
+  <data name="names/fra671" xml:space="preserve">
+    <value>Macé</value>
+  </data>
+  <data name="names/fra672" xml:space="preserve">
+    <value>Madec</value>
+  </data>
+  <data name="names/fra673" xml:space="preserve">
+    <value>Magne</value>
+  </data>
+  <data name="names/fra674" xml:space="preserve">
+    <value>Magnier</value>
+  </data>
+  <data name="names/fra675" xml:space="preserve">
+    <value>Magnin</value>
+  </data>
+  <data name="names/fra676" xml:space="preserve">
+    <value>Mahé</value>
+  </data>
+  <data name="names/fra677" xml:space="preserve">
+    <value>Mahieu</value>
+  </data>
+  <data name="names/fra678" xml:space="preserve">
+    <value>Maillard</value>
+  </data>
+  <data name="names/fra679" xml:space="preserve">
+    <value>Maillet</value>
+  </data>
+  <data name="names/fra68" xml:space="preserve">
+    <value>Belin</value>
+  </data>
+  <data name="names/fra680" xml:space="preserve">
+    <value>Maillot</value>
+  </data>
+  <data name="names/fra681" xml:space="preserve">
+    <value>Maire</value>
+  </data>
+  <data name="names/fra682" xml:space="preserve">
+    <value>Maisonneuve</value>
+  </data>
+  <data name="names/fra683" xml:space="preserve">
+    <value>Maître</value>
+  </data>
+  <data name="names/fra684" xml:space="preserve">
+    <value>Malherbe</value>
+  </data>
+  <data name="names/fra685" xml:space="preserve">
+    <value>Mallet</value>
+  </data>
+  <data name="names/fra686" xml:space="preserve">
+    <value>Manceau</value>
+  </data>
+  <data name="names/fra687" xml:space="preserve">
+    <value>Mangin</value>
+  </data>
+  <data name="names/fra688" xml:space="preserve">
+    <value>Marais</value>
+  </data>
+  <data name="names/fra689" xml:space="preserve">
+    <value>Marc</value>
+  </data>
+  <data name="names/fra69" xml:space="preserve">
+    <value>Bellanger</value>
+  </data>
+  <data name="names/fra690" xml:space="preserve">
+    <value>Marcel</value>
+  </data>
+  <data name="names/fra691" xml:space="preserve">
+    <value>Marchal</value>
+  </data>
+  <data name="names/fra692" xml:space="preserve">
+    <value>Marchand</value>
+  </data>
+  <data name="names/fra693" xml:space="preserve">
+    <value>Maréchal</value>
+  </data>
+  <data name="names/fra694" xml:space="preserve">
+    <value>Marie</value>
+  </data>
+  <data name="names/fra695" xml:space="preserve">
+    <value>Marin</value>
+  </data>
+  <data name="names/fra696" xml:space="preserve">
+    <value>Marion</value>
+  </data>
+  <data name="names/fra697" xml:space="preserve">
+    <value>Marot</value>
+  </data>
+  <data name="names/fra698" xml:space="preserve">
+    <value>Marques</value>
+  </data>
+  <data name="names/fra699" xml:space="preserve">
+    <value>Marquet</value>
+  </data>
+  <data name="names/fra7" xml:space="preserve">
+    <value>Allard</value>
+  </data>
+  <data name="names/fra70" xml:space="preserve">
+    <value>Bellec</value>
+  </data>
+  <data name="names/fra700" xml:space="preserve">
+    <value>Marquis</value>
+  </data>
+  <data name="names/fra701" xml:space="preserve">
+    <value>Marteau</value>
+  </data>
+  <data name="names/fra702" xml:space="preserve">
+    <value>Martel</value>
+  </data>
+  <data name="names/fra703" xml:space="preserve">
+    <value>Marti</value>
+  </data>
+  <data name="names/fra704" xml:space="preserve">
+    <value>Martin</value>
+  </data>
+  <data name="names/fra705" xml:space="preserve">
+    <value>Martineau</value>
+  </data>
+  <data name="names/fra706" xml:space="preserve">
+    <value>Martinet</value>
+  </data>
+  <data name="names/fra707" xml:space="preserve">
+    <value>Martini</value>
+  </data>
+  <data name="names/fra708" xml:space="preserve">
+    <value>Martins</value>
+  </data>
+  <data name="names/fra709" xml:space="preserve">
+    <value>Marty</value>
+  </data>
+  <data name="names/fra71" xml:space="preserve">
+    <value>Bellet</value>
+  </data>
+  <data name="names/fra710" xml:space="preserve">
+    <value>Mary</value>
+  </data>
+  <data name="names/fra711" xml:space="preserve">
+    <value>Mas</value>
+  </data>
+  <data name="names/fra712" xml:space="preserve">
+    <value>Masse</value>
+  </data>
+  <data name="names/fra713" xml:space="preserve">
+    <value>Masson</value>
+  </data>
+  <data name="names/fra714" xml:space="preserve">
+    <value>Mathieu</value>
+  </data>
+  <data name="names/fra715" xml:space="preserve">
+    <value>Mathis</value>
+  </data>
+  <data name="names/fra716" xml:space="preserve">
+    <value>Mathon</value>
+  </data>
+  <data name="names/fra717" xml:space="preserve">
+    <value>Mauger</value>
+  </data>
+  <data name="names/fra718" xml:space="preserve">
+    <value>Maurel</value>
+  </data>
+  <data name="names/fra719" xml:space="preserve">
+    <value>Maurice</value>
+  </data>
+  <data name="names/fra72" xml:space="preserve">
+    <value>Ben</value>
+  </data>
+  <data name="names/fra720" xml:space="preserve">
+    <value>Maurin</value>
+  </data>
+  <data name="names/fra721" xml:space="preserve">
+    <value>Maury</value>
+  </data>
+  <data name="names/fra722" xml:space="preserve">
+    <value>Luis</value>
+  </data>
+  <data name="names/fra723" xml:space="preserve">
+    <value>Mazé</value>
+  </data>
+  <data name="names/fra724" xml:space="preserve">
+    <value>Mazet</value>
+  </data>
+  <data name="names/fra725" xml:space="preserve">
+    <value>Menard</value>
+  </data>
+  <data name="names/fra726" xml:space="preserve">
+    <value>Mendès</value>
+  </data>
+  <data name="names/fra727" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="names/fra728" xml:space="preserve">
+    <value>Mercier</value>
+  </data>
+  <data name="names/fra729" xml:space="preserve">
+    <value>Merle</value>
+  </data>
+  <data name="names/fra73" xml:space="preserve">
+    <value>Benard</value>
+  </data>
+  <data name="names/fra730" xml:space="preserve">
+    <value>Merlet</value>
+  </data>
+  <data name="names/fra731" xml:space="preserve">
+    <value>Merlin</value>
+  </data>
+  <data name="names/fra732" xml:space="preserve">
+    <value>Métais</value>
+  </data>
+  <data name="names/fra733" xml:space="preserve">
+    <value>Métayer</value>
+  </data>
+  <data name="names/fra734" xml:space="preserve">
+    <value>Métivier</value>
+  </data>
+  <data name="names/fra735" xml:space="preserve">
+    <value>Meunier</value>
+  </data>
+  <data name="names/fra736" xml:space="preserve">
+    <value>Meyer</value>
+  </data>
+  <data name="names/fra737" xml:space="preserve">
+    <value>Michaud</value>
+  </data>
+  <data name="names/fra738" xml:space="preserve">
+    <value>Michaux</value>
+  </data>
+  <data name="names/fra739" xml:space="preserve">
+    <value>Michel</value>
+  </data>
+  <data name="names/fra74" xml:space="preserve">
+    <value>Benoist</value>
+  </data>
+  <data name="names/fra740" xml:space="preserve">
+    <value>Michelet</value>
+  </data>
+  <data name="names/fra741" xml:space="preserve">
+    <value>Michon</value>
+  </data>
+  <data name="names/fra742" xml:space="preserve">
+    <value>Mignot</value>
+  </data>
+  <data name="names/fra743" xml:space="preserve">
+    <value>Mille</value>
+  </data>
+  <data name="names/fra744" xml:space="preserve">
+    <value>Millet</value>
+  </data>
+  <data name="names/fra745" xml:space="preserve">
+    <value>Millot</value>
+  </data>
+  <data name="names/fra746" xml:space="preserve">
+    <value>Moi</value>
+  </data>
+  <data name="names/fra747" xml:space="preserve">
+    <value>Moine</value>
+  </data>
+  <data name="names/fra748" xml:space="preserve">
+    <value>Molina</value>
+  </data>
+  <data name="names/fra749" xml:space="preserve">
+    <value>Mollet</value>
+  </data>
+  <data name="names/fra75" xml:space="preserve">
+    <value>Benoît</value>
+  </data>
+  <data name="names/fra750" xml:space="preserve">
+    <value>Monfort</value>
+  </data>
+  <data name="names/fra751" xml:space="preserve">
+    <value>Monier</value>
+  </data>
+  <data name="names/fra752" xml:space="preserve">
+    <value>Monin</value>
+  </data>
+  <data name="names/fra753" xml:space="preserve">
+    <value>Monnet</value>
+  </data>
+  <data name="names/fra754" xml:space="preserve">
+    <value>Monnier</value>
+  </data>
+  <data name="names/fra755" xml:space="preserve">
+    <value>Montagne</value>
+  </data>
+  <data name="names/fra756" xml:space="preserve">
+    <value>Monteil</value>
+  </data>
+  <data name="names/fra757" xml:space="preserve">
+    <value>Mora</value>
+  </data>
+  <data name="names/fra758" xml:space="preserve">
+    <value>Morand</value>
+  </data>
+  <data name="names/fra759" xml:space="preserve">
+    <value>Moreau</value>
+  </data>
+  <data name="names/fra76" xml:space="preserve">
+    <value>Berard</value>
+  </data>
+  <data name="names/fra760" xml:space="preserve">
+    <value>Moreira</value>
+  </data>
+  <data name="names/fra761" xml:space="preserve">
+    <value>Morel</value>
+  </data>
+  <data name="names/fra762" xml:space="preserve">
+    <value>Moreno</value>
+  </data>
+  <data name="names/fra763" xml:space="preserve">
+    <value>Moret</value>
+  </data>
+  <data name="names/fra764" xml:space="preserve">
+    <value>Morice</value>
+  </data>
+  <data name="names/fra765" xml:space="preserve">
+    <value>Morin</value>
+  </data>
+  <data name="names/fra766" xml:space="preserve">
+    <value>Morvan</value>
+  </data>
+  <data name="names/fra767" xml:space="preserve">
+    <value>Motte</value>
+  </data>
+  <data name="names/fra768" xml:space="preserve">
+    <value>Moulin</value>
+  </data>
+  <data name="names/fra769" xml:space="preserve">
+    <value>Mounier</value>
+  </data>
+  <data name="names/fra77" xml:space="preserve">
+    <value>Berger</value>
+  </data>
+  <data name="names/fra770" xml:space="preserve">
+    <value>Mouton</value>
+  </data>
+  <data name="names/fra771" xml:space="preserve">
+    <value>Muller</value>
+  </data>
+  <data name="names/fra772" xml:space="preserve">
+    <value>Munier</value>
+  </data>
+  <data name="names/fra773" xml:space="preserve">
+    <value>Munoz</value>
+  </data>
+  <data name="names/fra774" xml:space="preserve">
+    <value>Murat</value>
+  </data>
+  <data name="names/fra775" xml:space="preserve">
+    <value>Navarro</value>
+  </data>
+  <data name="names/fra776" xml:space="preserve">
+    <value>Nédélec</value>
+  </data>
+  <data name="names/fra777" xml:space="preserve">
+    <value>Neveu</value>
+  </data>
+  <data name="names/fra778" xml:space="preserve">
+    <value>Nguyen</value>
+  </data>
+  <data name="names/fra779" xml:space="preserve">
+    <value>Nicolas</value>
+  </data>
+  <data name="names/fra78" xml:space="preserve">
+    <value>Bernard</value>
+  </data>
+  <data name="names/fra780" xml:space="preserve">
+    <value>Nicolle</value>
+  </data>
+  <data name="names/fra781" xml:space="preserve">
+    <value>Noël</value>
+  </data>
+  <data name="names/fra782" xml:space="preserve">
+    <value>Nogues</value>
+  </data>
+  <data name="names/fra783" xml:space="preserve">
+    <value>Normand</value>
+  </data>
+  <data name="names/fra784" xml:space="preserve">
+    <value>Nowak</value>
+  </data>
+  <data name="names/fra785" xml:space="preserve">
+    <value>Oger</value>
+  </data>
+  <data name="names/fra786" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="names/fra787" xml:space="preserve">
+    <value>Olivier</value>
+  </data>
+  <data name="names/fra788" xml:space="preserve">
+    <value>Ollier</value>
+  </data>
+  <data name="names/fra789" xml:space="preserve">
+    <value>Ollivier</value>
+  </data>
+  <data name="names/fra79" xml:space="preserve">
+    <value>Bernier</value>
+  </data>
+  <data name="names/fra790" xml:space="preserve">
+    <value>Oudin</value>
+  </data>
+  <data name="names/fra791" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="names/fra792" xml:space="preserve">
+    <value>Paillard</value>
+  </data>
+  <data name="names/fra793" xml:space="preserve">
+    <value>Pain</value>
+  </data>
+  <data name="names/fra794" xml:space="preserve">
+    <value>Papin</value>
+  </data>
+  <data name="names/fra795" xml:space="preserve">
+    <value>Paquet</value>
+  </data>
+  <data name="names/fra796" xml:space="preserve">
+    <value>Parent</value>
+  </data>
+  <data name="names/fra797" xml:space="preserve">
+    <value>Paris</value>
+  </data>
+  <data name="names/fra798" xml:space="preserve">
+    <value>Parisot</value>
+  </data>
+  <data name="names/fra799" xml:space="preserve">
+    <value>Parmentier</value>
+  </data>
+  <data name="names/fra8" xml:space="preserve">
+    <value>Alvès</value>
+  </data>
+  <data name="names/fra80" xml:space="preserve">
+    <value>Berry</value>
+  </data>
+  <data name="names/fra800" xml:space="preserve">
+    <value>Pascal</value>
+  </data>
+  <data name="names/fra801" xml:space="preserve">
+    <value>Pasquet</value>
+  </data>
+  <data name="names/fra802" xml:space="preserve">
+    <value>Pasquier</value>
+  </data>
+  <data name="names/fra803" xml:space="preserve">
+    <value>Pastor</value>
+  </data>
+  <data name="names/fra804" xml:space="preserve">
+    <value>Paul</value>
+  </data>
+  <data name="names/fra805" xml:space="preserve">
+    <value>Payen</value>
+  </data>
+  <data name="names/fra806" xml:space="preserve">
+    <value>Payet</value>
+  </data>
+  <data name="names/fra807" xml:space="preserve">
+    <value>Pélissier</value>
+  </data>
+  <data name="names/fra808" xml:space="preserve">
+    <value>Pelletier</value>
+  </data>
+  <data name="names/fra809" xml:space="preserve">
+    <value>Peltier</value>
+  </data>
+  <data name="names/fra81" xml:space="preserve">
+    <value>Berthe</value>
+  </data>
+  <data name="names/fra810" xml:space="preserve">
+    <value>Pereira</value>
+  </data>
+  <data name="names/fra811" xml:space="preserve">
+    <value>Pérès</value>
+  </data>
+  <data name="names/fra812" xml:space="preserve">
+    <value>Perez</value>
+  </data>
+  <data name="names/fra813" xml:space="preserve">
+    <value>Périn</value>
+  </data>
+  <data name="names/fra814" xml:space="preserve">
+    <value>Pernot</value>
+  </data>
+  <data name="names/fra815" xml:space="preserve">
+    <value>Péron</value>
+  </data>
+  <data name="names/fra816" xml:space="preserve">
+    <value>Perrault</value>
+  </data>
+  <data name="names/fra817" xml:space="preserve">
+    <value>Perret</value>
+  </data>
+  <data name="names/fra818" xml:space="preserve">
+    <value>Perrier</value>
+  </data>
+  <data name="names/fra819" xml:space="preserve">
+    <value>Perrin</value>
+  </data>
+  <data name="names/fra82" xml:space="preserve">
+    <value>Berthelot</value>
+  </data>
+  <data name="names/fra820" xml:space="preserve">
+    <value>Perrot</value>
+  </data>
+  <data name="names/fra821" xml:space="preserve">
+    <value>Petit</value>
+  </data>
+  <data name="names/fra822" xml:space="preserve">
+    <value>Petitjean</value>
+  </data>
+  <data name="names/fra823" xml:space="preserve">
+    <value>Peyre</value>
+  </data>
+  <data name="names/fra824" xml:space="preserve">
+    <value>Pham</value>
+  </data>
+  <data name="names/fra825" xml:space="preserve">
+    <value>Philibert</value>
+  </data>
+  <data name="names/fra826" xml:space="preserve">
+    <value>Philippe</value>
+  </data>
+  <data name="names/fra827" xml:space="preserve">
+    <value>Philippon</value>
+  </data>
+  <data name="names/fra828" xml:space="preserve">
+    <value>Philippot</value>
+  </data>
+  <data name="names/fra829" xml:space="preserve">
+    <value>Picard</value>
+  </data>
+  <data name="names/fra83" xml:space="preserve">
+    <value>Berthet</value>
+  </data>
+  <data name="names/fra830" xml:space="preserve">
+    <value>Pichard</value>
+  </data>
+  <data name="names/fra831" xml:space="preserve">
+    <value>Pichon</value>
+  </data>
+  <data name="names/fra832" xml:space="preserve">
+    <value>Picot</value>
+  </data>
+  <data name="names/fra833" xml:space="preserve">
+    <value>Pierre</value>
+  </data>
+  <data name="names/fra834" xml:space="preserve">
+    <value>Pierron</value>
+  </data>
+  <data name="names/fra835" xml:space="preserve">
+    <value>Pillet</value>
+  </data>
+  <data name="names/fra836" xml:space="preserve">
+    <value>Pineau</value>
+  </data>
+  <data name="names/fra837" xml:space="preserve">
+    <value>Pinel</value>
+  </data>
+  <data name="names/fra838" xml:space="preserve">
+    <value>Pinson</value>
+  </data>
+  <data name="names/fra839" xml:space="preserve">
+    <value>Pinto</value>
+  </data>
+  <data name="names/fra84" xml:space="preserve">
+    <value>Berthier</value>
+  </data>
+  <data name="names/fra840" xml:space="preserve">
+    <value>Piot</value>
+  </data>
+  <data name="names/fra841" xml:space="preserve">
+    <value>Piquet</value>
+  </data>
+  <data name="names/fra842" xml:space="preserve">
+    <value>Pirès</value>
+  </data>
+  <data name="names/fra843" xml:space="preserve">
+    <value>Poirier</value>
+  </data>
+  <data name="names/fra844" xml:space="preserve">
+    <value>Poirot</value>
+  </data>
+  <data name="names/fra845" xml:space="preserve">
+    <value>Poisson</value>
+  </data>
+  <data name="names/fra846" xml:space="preserve">
+    <value>Pollet</value>
+  </data>
+  <data name="names/fra847" xml:space="preserve">
+    <value>Pommier</value>
+  </data>
+  <data name="names/fra848" xml:space="preserve">
+    <value>Poncet</value>
+  </data>
+  <data name="names/fra849" xml:space="preserve">
+    <value>Pons</value>
+  </data>
+  <data name="names/fra85" xml:space="preserve">
+    <value>Bertin</value>
+  </data>
+  <data name="names/fra850" xml:space="preserve">
+    <value>Porte</value>
+  </data>
+  <data name="names/fra851" xml:space="preserve">
+    <value>Portier</value>
+  </data>
+  <data name="names/fra852" xml:space="preserve">
+    <value>Potier</value>
+  </data>
+  <data name="names/fra853" xml:space="preserve">
+    <value>Pottier</value>
+  </data>
+  <data name="names/fra854" xml:space="preserve">
+    <value>Pouget</value>
+  </data>
+  <data name="names/fra855" xml:space="preserve">
+    <value>Poulain</value>
+  </data>
+  <data name="names/fra856" xml:space="preserve">
+    <value>Poulet</value>
+  </data>
+  <data name="names/fra857" xml:space="preserve">
+    <value>Pouliquen</value>
+  </data>
+  <data name="names/fra858" xml:space="preserve">
+    <value>Prat</value>
+  </data>
+  <data name="names/fra859" xml:space="preserve">
+    <value>Prevost</value>
+  </data>
+  <data name="names/fra86" xml:space="preserve">
+    <value>Berton</value>
+  </data>
+  <data name="names/fra860" xml:space="preserve">
+    <value>Prévôt</value>
+  </data>
+  <data name="names/fra861" xml:space="preserve">
+    <value>Prieur</value>
+  </data>
+  <data name="names/fra862" xml:space="preserve">
+    <value>Prigent</value>
+  </data>
+  <data name="names/fra863" xml:space="preserve">
+    <value>Prost</value>
+  </data>
+  <data name="names/fra864" xml:space="preserve">
+    <value>Proust</value>
+  </data>
+  <data name="names/fra865" xml:space="preserve">
+    <value>Provost</value>
+  </data>
+  <data name="names/fra866" xml:space="preserve">
+    <value>Pruvost</value>
+  </data>
+  <data name="names/fra867" xml:space="preserve">
+    <value>Puech</value>
+  </data>
+  <data name="names/fra868" xml:space="preserve">
+    <value>Pujol</value>
+  </data>
+  <data name="names/fra869" xml:space="preserve">
+    <value>Raffin</value>
+  </data>
+  <data name="names/fra87" xml:space="preserve">
+    <value>Bertrand</value>
+  </data>
+  <data name="names/fra870" xml:space="preserve">
+    <value>Ragot</value>
+  </data>
+  <data name="names/fra871" xml:space="preserve">
+    <value>Raimbault</value>
+  </data>
+  <data name="names/fra872" xml:space="preserve">
+    <value>Rambaud</value>
+  </data>
+  <data name="names/fra873" xml:space="preserve">
+    <value>Ramos</value>
+  </data>
+  <data name="names/fra874" xml:space="preserve">
+    <value>Rault</value>
+  </data>
+  <data name="names/fra875" xml:space="preserve">
+    <value>Raymond</value>
+  </data>
+  <data name="names/fra876" xml:space="preserve">
+    <value>Raynal</value>
+  </data>
+  <data name="names/fra877" xml:space="preserve">
+    <value>Raynaud</value>
+  </data>
+  <data name="names/fra878" xml:space="preserve">
+    <value>Reboul</value>
+  </data>
+  <data name="names/fra879" xml:space="preserve">
+    <value>Redon</value>
+  </data>
+  <data name="names/fra88" xml:space="preserve">
+    <value>Besançon</value>
+  </data>
+  <data name="names/fra880" xml:space="preserve">
+    <value>Regnier</value>
+  </data>
+  <data name="names/fra881" xml:space="preserve">
+    <value>Remond</value>
+  </data>
+  <data name="names/fra882" xml:space="preserve">
+    <value>Rémy</value>
+  </data>
+  <data name="names/fra883" xml:space="preserve">
+    <value>Renard</value>
+  </data>
+  <data name="names/fra884" xml:space="preserve">
+    <value>Renaud</value>
+  </data>
+  <data name="names/fra885" xml:space="preserve">
+    <value>Renault</value>
+  </data>
+  <data name="names/fra886" xml:space="preserve">
+    <value>Renou</value>
+  </data>
+  <data name="names/fra887" xml:space="preserve">
+    <value>Revel</value>
+  </data>
+  <data name="names/fra888" xml:space="preserve">
+    <value>Rey</value>
+  </data>
+  <data name="names/fra889" xml:space="preserve">
+    <value>Reynaud</value>
+  </data>
+  <data name="names/fra89" xml:space="preserve">
+    <value>Besnard</value>
+  </data>
+  <data name="names/fra890" xml:space="preserve">
+    <value>Ribeiro</value>
+  </data>
+  <data name="names/fra891" xml:space="preserve">
+    <value>Ricard</value>
+  </data>
+  <data name="names/fra892" xml:space="preserve">
+    <value>Richard</value>
+  </data>
+  <data name="names/fra893" xml:space="preserve">
+    <value>Richer</value>
+  </data>
+  <data name="names/fra894" xml:space="preserve">
+    <value>Richet</value>
+  </data>
+  <data name="names/fra895" xml:space="preserve">
+    <value>Rigaud</value>
+  </data>
+  <data name="names/fra896" xml:space="preserve">
+    <value>Riou</value>
+  </data>
+  <data name="names/fra897" xml:space="preserve">
+    <value>Rivet</value>
+  </data>
+  <data name="names/fra898" xml:space="preserve">
+    <value>Rivière</value>
+  </data>
+  <data name="names/fra899" xml:space="preserve">
+    <value>Robert</value>
+  </data>
+  <data name="names/fra9" xml:space="preserve">
+    <value>Amar</value>
+  </data>
+  <data name="names/fra90" xml:space="preserve">
+    <value>Besse</value>
+  </data>
+  <data name="names/fra900" xml:space="preserve">
+    <value>Robin</value>
+  </data>
+  <data name="names/fra901" xml:space="preserve">
+    <value>Robinet</value>
+  </data>
+  <data name="names/fra902" xml:space="preserve">
+    <value>Roche</value>
+  </data>
+  <data name="names/fra903" xml:space="preserve">
+    <value>Rocher</value>
+  </data>
+  <data name="names/fra904" xml:space="preserve">
+    <value>Rochette</value>
+  </data>
+  <data name="names/fra905" xml:space="preserve">
+    <value>Rodier</value>
+  </data>
+  <data name="names/fra906" xml:space="preserve">
+    <value>Rodrigues</value>
+  </data>
+  <data name="names/fra907" xml:space="preserve">
+    <value>Rodriguez</value>
+  </data>
+  <data name="names/fra908" xml:space="preserve">
+    <value>Roger</value>
+  </data>
+  <data name="names/fra909" xml:space="preserve">
+    <value>Roland</value>
+  </data>
+  <data name="names/fra91" xml:space="preserve">
+    <value>Besson</value>
+  </data>
+  <data name="names/fra910" xml:space="preserve">
+    <value>Rolland</value>
+  </data>
+  <data name="names/fra911" xml:space="preserve">
+    <value>Rollet</value>
+  </data>
+  <data name="names/fra912" xml:space="preserve">
+    <value>Rollin</value>
+  </data>
+  <data name="names/fra913" xml:space="preserve">
+    <value>Rondeau</value>
+  </data>
+  <data name="names/fra914" xml:space="preserve">
+    <value>Roques</value>
+  </data>
+  <data name="names/fra915" xml:space="preserve">
+    <value>Rose</value>
+  </data>
+  <data name="names/fra916" xml:space="preserve">
+    <value>Rossi</value>
+  </data>
+  <data name="names/fra917" xml:space="preserve">
+    <value>Rossignol</value>
+  </data>
+  <data name="names/fra918" xml:space="preserve">
+    <value>Roth</value>
+  </data>
+  <data name="names/fra919" xml:space="preserve">
+    <value>Rouanet</value>
+  </data>
+  <data name="names/fra92" xml:space="preserve">
+    <value>Bidault</value>
+  </data>
+  <data name="names/fra920" xml:space="preserve">
+    <value>Rougier</value>
+  </data>
+  <data name="names/fra921" xml:space="preserve">
+    <value>Rousseau</value>
+  </data>
+  <data name="names/fra922" xml:space="preserve">
+    <value>Roussel</value>
+  </data>
+  <data name="names/fra923" xml:space="preserve">
+    <value>Rousselle</value>
+  </data>
+  <data name="names/fra924" xml:space="preserve">
+    <value>Rousset</value>
+  </data>
+  <data name="names/fra925" xml:space="preserve">
+    <value>Roux</value>
+  </data>
+  <data name="names/fra926" xml:space="preserve">
+    <value>Rouxel</value>
+  </data>
+  <data name="names/fra927" xml:space="preserve">
+    <value>Rouyer</value>
+  </data>
+  <data name="names/fra928" xml:space="preserve">
+    <value>Roy</value>
+  </data>
+  <data name="names/fra929" xml:space="preserve">
+    <value>Royer</value>
+  </data>
+  <data name="names/fra93" xml:space="preserve">
+    <value>Bigot</value>
+  </data>
+  <data name="names/fra930" xml:space="preserve">
+    <value>Ruiz</value>
+  </data>
+  <data name="names/fra931" xml:space="preserve">
+    <value>Sabatier</value>
+  </data>
+  <data name="names/fra932" xml:space="preserve">
+    <value>Salaun</value>
+  </data>
+  <data name="names/fra933" xml:space="preserve">
+    <value>Salles</value>
+  </data>
+  <data name="names/fra934" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="names/fra935" xml:space="preserve">
+    <value>Samson</value>
+  </data>
+  <data name="names/fra936" xml:space="preserve">
+    <value>Sanchez</value>
+  </data>
+  <data name="names/fra937" xml:space="preserve">
+    <value>Sarrazin</value>
+  </data>
+  <data name="names/fra938" xml:space="preserve">
+    <value>Saulnier</value>
+  </data>
+  <data name="names/fra939" xml:space="preserve">
+    <value>Saunier</value>
+  </data>
+  <data name="names/fra94" xml:space="preserve">
+    <value>Billard</value>
+  </data>
+  <data name="names/fra940" xml:space="preserve">
+    <value>Sauvage</value>
+  </data>
+  <data name="names/fra941" xml:space="preserve">
+    <value>Savary</value>
+  </data>
+  <data name="names/fra942" xml:space="preserve">
+    <value>Schaeffer</value>
+  </data>
+  <data name="names/fra943" xml:space="preserve">
+    <value>Resnais</value>
+  </data>
+  <data name="names/fra944" xml:space="preserve">
+    <value>Schmitt</value>
+  </data>
+  <data name="names/fra945" xml:space="preserve">
+    <value>Schneider</value>
+  </data>
+  <data name="names/fra946" xml:space="preserve">
+    <value>Ségard</value>
+  </data>
+  <data name="names/fra947" xml:space="preserve">
+    <value>Seguin</value>
+  </data>
+  <data name="names/fra948" xml:space="preserve">
+    <value>Segura</value>
+  </data>
+  <data name="names/fra949" xml:space="preserve">
+    <value>Sellier</value>
+  </data>
+  <data name="names/fra95" xml:space="preserve">
+    <value>Billet</value>
+  </data>
+  <data name="names/fra950" xml:space="preserve">
+    <value>Sénéchal</value>
+  </data>
+  <data name="names/fra951" xml:space="preserve">
+    <value>Sergent</value>
+  </data>
+  <data name="names/fra952" xml:space="preserve">
+    <value>Serra</value>
+  </data>
+  <data name="names/fra953" xml:space="preserve">
+    <value>Serrano</value>
+  </data>
+  <data name="names/fra954" xml:space="preserve">
+    <value>Serre</value>
+  </data>
+  <data name="names/fra955" xml:space="preserve">
+    <value>Serres</value>
+  </data>
+  <data name="names/fra956" xml:space="preserve">
+    <value>Sevin</value>
+  </data>
+  <data name="names/fra957" xml:space="preserve">
+    <value>Sicard</value>
+  </data>
+  <data name="names/fra958" xml:space="preserve">
+    <value>Simon</value>
+  </data>
+  <data name="names/fra959" xml:space="preserve">
+    <value>Simonin</value>
+  </data>
+  <data name="names/fra96" xml:space="preserve">
+    <value>Billon</value>
+  </data>
+  <data name="names/fra960" xml:space="preserve">
+    <value>Simonnet</value>
+  </data>
+  <data name="names/fra961" xml:space="preserve">
+    <value>Soares</value>
+  </data>
+  <data name="names/fra962" xml:space="preserve">
+    <value>Soler</value>
+  </data>
+  <data name="names/fra963" xml:space="preserve">
+    <value>Soulard</value>
+  </data>
+  <data name="names/fra964" xml:space="preserve">
+    <value>Soulié</value>
+  </data>
+  <data name="names/fra965" xml:space="preserve">
+    <value>Soulier</value>
+  </data>
+  <data name="names/fra966" xml:space="preserve">
+    <value>Stephan</value>
+  </data>
+  <data name="names/fra967" xml:space="preserve">
+    <value>Tanguy</value>
+  </data>
+  <data name="names/fra968" xml:space="preserve">
+    <value>Tardy</value>
+  </data>
+  <data name="names/fra969" xml:space="preserve">
+    <value>Tavernier</value>
+  </data>
+  <data name="names/fra97" xml:space="preserve">
+    <value>Binet</value>
+  </data>
+  <data name="names/fra970" xml:space="preserve">
+    <value>Teissier</value>
+  </data>
+  <data name="names/fra971" xml:space="preserve">
+    <value>Tellier</value>
+  </data>
+  <data name="names/fra972" xml:space="preserve">
+    <value>Terrien</value>
+  </data>
+  <data name="names/fra973" xml:space="preserve">
+    <value>Terrier</value>
+  </data>
+  <data name="names/fra974" xml:space="preserve">
+    <value>Tessier</value>
+  </data>
+  <data name="names/fra975" xml:space="preserve">
+    <value>Texier</value>
+  </data>
+  <data name="names/fra976" xml:space="preserve">
+    <value>Teyssier</value>
+  </data>
+  <data name="names/fra977" xml:space="preserve">
+    <value>Thébault</value>
+  </data>
+  <data name="names/fra978" xml:space="preserve">
+    <value>Théry</value>
+  </data>
+  <data name="names/fra979" xml:space="preserve">
+    <value>Thévenet</value>
+  </data>
+  <data name="names/fra98" xml:space="preserve">
+    <value>Bisson</value>
+  </data>
+  <data name="names/fra980" xml:space="preserve">
+    <value>Thévenin</value>
+  </data>
+  <data name="names/fra981" xml:space="preserve">
+    <value>Thibaud</value>
+  </data>
+  <data name="names/fra982" xml:space="preserve">
+    <value>Thibault</value>
+  </data>
+  <data name="names/fra983" xml:space="preserve">
+    <value>Thibaut</value>
+  </data>
+  <data name="names/fra984" xml:space="preserve">
+    <value>Thiebaut</value>
+  </data>
+  <data name="names/fra985" xml:space="preserve">
+    <value>Thierry</value>
+  </data>
+  <data name="names/fra986" xml:space="preserve">
+    <value>Thiery</value>
+  </data>
+  <data name="names/fra987" xml:space="preserve">
+    <value>Thiriet</value>
+  </data>
+  <data name="names/fra988" xml:space="preserve">
+    <value>Thirion</value>
+  </data>
+  <data name="names/fra989" xml:space="preserve">
+    <value>Thomas</value>
+  </data>
+  <data name="names/fra99" xml:space="preserve">
+    <value>Bizet</value>
+  </data>
+  <data name="names/fra990" xml:space="preserve">
+    <value>Thouvenin</value>
+  </data>
+  <data name="names/fra991" xml:space="preserve">
+    <value>Tison</value>
+  </data>
+  <data name="names/fra992" xml:space="preserve">
+    <value>Tisserand</value>
+  </data>
+  <data name="names/fra993" xml:space="preserve">
+    <value>Tissier</value>
+  </data>
+  <data name="names/fra994" xml:space="preserve">
+    <value>Tissot</value>
+  </data>
+  <data name="names/fra995" xml:space="preserve">
+    <value>Tixier</value>
+  </data>
+  <data name="names/fra996" xml:space="preserve">
+    <value>Torrès</value>
+  </data>
+  <data name="names/fra997" xml:space="preserve">
+    <value>Tournier</value>
+  </data>
+  <data name="names/fra998" xml:space="preserve">
+    <value>Toussaint</value>
+  </data>
+  <data name="names/fra999" xml:space="preserve">
+    <value>Tran</value>
+  </data>
+  <data name="names/fran1" xml:space="preserve">
+    <value>Adrian</value>
+  </data>
+  <data name="names/fran10" xml:space="preserve">
+    <value>Adnot</value>
+  </data>
+  <data name="names/fran100" xml:space="preserve">
+    <value>Cain</value>
+  </data>
+  <data name="names/fran101" xml:space="preserve">
+    <value>Camille</value>
+  </data>
+  <data name="names/fran102" xml:space="preserve">
+    <value>Campion</value>
+  </data>
+  <data name="names/fran103" xml:space="preserve">
+    <value>Célestin</value>
+  </data>
+  <data name="names/fran104" xml:space="preserve">
+    <value>Cerf</value>
+  </data>
+  <data name="names/fran105" xml:space="preserve">
+    <value>Césaire</value>
+  </data>
+  <data name="names/fran106" xml:space="preserve">
+    <value>César</value>
+  </data>
+  <data name="names/fran107" xml:space="preserve">
+    <value>Chandler</value>
+  </data>
+  <data name="names/fran108" xml:space="preserve">
+    <value>Charlemagne</value>
+  </data>
+  <data name="names/fran109" xml:space="preserve">
+    <value>Charles</value>
+  </data>
+  <data name="names/fran11" xml:space="preserve">
+    <value>Adolphe</value>
+  </data>
+  <data name="names/fran110" xml:space="preserve">
+    <value>Charlot</value>
+  </data>
+  <data name="names/fran11001" xml:space="preserve">
+    <value>Élodie</value>
+  </data>
+  <data name="names/fran11002" xml:space="preserve">
+    <value>Françoise</value>
+  </data>
+  <data name="names/fran11003" xml:space="preserve">
+    <value>Monique</value>
+  </data>
+  <data name="names/fran11004" xml:space="preserve">
+    <value>Jacqueline</value>
+  </data>
+  <data name="names/fran11005" xml:space="preserve">
+    <value>Jeannine</value>
+  </data>
+  <data name="names/fran11006" xml:space="preserve">
+    <value>Josette</value>
+  </data>
+  <data name="names/fran11007" xml:space="preserve">
+    <value>Colette</value>
+  </data>
+  <data name="names/fran11008" xml:space="preserve">
+    <value>Danielle</value>
+  </data>
+  <data name="names/fran11009" xml:space="preserve">
+    <value>Jeanne</value>
+  </data>
+  <data name="names/fran11010" xml:space="preserve">
+    <value>Liliane</value>
+  </data>
+  <data name="names/fran11011" xml:space="preserve">
+    <value>Thérèse</value>
+  </data>
+  <data name="names/fran11012" xml:space="preserve">
+    <value>Christiane</value>
+  </data>
+  <data name="names/fran11013" xml:space="preserve">
+    <value>Nicole</value>
+  </data>
+  <data name="names/fran11014" xml:space="preserve">
+    <value>Madeleine</value>
+  </data>
+  <data name="names/fran11015" xml:space="preserve">
+    <value>Renée</value>
+  </data>
+  <data name="names/fran11016" xml:space="preserve">
+    <value>Yvonne</value>
+  </data>
+  <data name="names/fran11017" xml:space="preserve">
+    <value>Marie</value>
+  </data>
+  <data name="names/fran11018" xml:space="preserve">
+    <value>Paulette</value>
+  </data>
+  <data name="names/fran11019" xml:space="preserve">
+    <value>Denise</value>
+  </data>
+  <data name="names/fran11020" xml:space="preserve">
+    <value>Suzanne</value>
+  </data>
+  <data name="names/fran11021" xml:space="preserve">
+    <value>Adèle</value>
+  </data>
+  <data name="names/fran11022" xml:space="preserve">
+    <value>Amélie</value>
+  </data>
+  <data name="names/fran11023" xml:space="preserve">
+    <value>Béatrice</value>
+  </data>
+  <data name="names/fran11024" xml:space="preserve">
+    <value>Bernardine</value>
+  </data>
+  <data name="names/fran11025" xml:space="preserve">
+    <value>Blanche</value>
+  </data>
+  <data name="names/fran11026" xml:space="preserve">
+    <value>Camille</value>
+  </data>
+  <data name="names/fran11027" xml:space="preserve">
+    <value>Claire</value>
+  </data>
+  <data name="names/fran11028" xml:space="preserve">
+    <value>Cécile</value>
+  </data>
+  <data name="names/fran11029" xml:space="preserve">
+    <value>Chloé</value>
+  </data>
+  <data name="names/fran11030" xml:space="preserve">
+    <value>Édith</value>
+  </data>
+  <data name="names/fran11031" xml:space="preserve">
+    <value>Estelle</value>
+  </data>
+  <data name="names/fran11032" xml:space="preserve">
+    <value>Eugénie</value>
+  </data>
+  <data name="names/fran11033" xml:space="preserve">
+    <value>Geneviève</value>
+  </data>
+  <data name="names/fran11034" xml:space="preserve">
+    <value>Joséphine</value>
+  </data>
+  <data name="names/fran11035" xml:space="preserve">
+    <value>Julie</value>
+  </data>
+  <data name="names/fran11036" xml:space="preserve">
+    <value>Justine</value>
+  </data>
+  <data name="names/fran11037" xml:space="preserve">
+    <value>Laure</value>
+  </data>
+  <data name="names/fran11038" xml:space="preserve">
+    <value>Michèle</value>
+  </data>
+  <data name="names/fran11039" xml:space="preserve">
+    <value>Patricia</value>
+  </data>
+  <data name="names/fran11040" xml:space="preserve">
+    <value>Sandrine</value>
+  </data>
+  <data name="names/fran11041" xml:space="preserve">
+    <value>Simone</value>
+  </data>
+  <data name="names/fran11042" xml:space="preserve">
+    <value>Sylvie</value>
+  </data>
+  <data name="names/fran11043" xml:space="preserve">
+    <value>Valérie</value>
+  </data>
+  <data name="names/fran11044" xml:space="preserve">
+    <value>Vanessa</value>
+  </data>
+  <data name="names/fran11045" xml:space="preserve">
+    <value>Viviane</value>
+  </data>
+  <data name="names/fran111" xml:space="preserve">
+    <value>Chrestien</value>
+  </data>
+  <data name="names/fran112" xml:space="preserve">
+    <value>Chrétien</value>
+  </data>
+  <data name="names/fran113" xml:space="preserve">
+    <value>Christophe</value>
+  </data>
+  <data name="names/fran114" xml:space="preserve">
+    <value>Claude</value>
+  </data>
+  <data name="names/fran115" xml:space="preserve">
+    <value>Clément</value>
+  </data>
+  <data name="names/fran116" xml:space="preserve">
+    <value>Clotaire</value>
+  </data>
+  <data name="names/fran117" xml:space="preserve">
+    <value>Clovis</value>
+  </data>
+  <data name="names/fran118" xml:space="preserve">
+    <value>Colombain</value>
+  </data>
+  <data name="names/fran119" xml:space="preserve">
+    <value>Colombe</value>
+  </data>
+  <data name="names/fran12" xml:space="preserve">
+    <value>Adrien</value>
+  </data>
+  <data name="names/fran120" xml:space="preserve">
+    <value>Come</value>
+  </data>
+  <data name="names/fran121" xml:space="preserve">
+    <value>Constantin</value>
+  </data>
+  <data name="names/fran122" xml:space="preserve">
+    <value>Corbin</value>
+  </data>
+  <data name="names/fran123" xml:space="preserve">
+    <value>Corin</value>
+  </data>
+  <data name="names/fran124" xml:space="preserve">
+    <value>Corneille</value>
+  </data>
+  <data name="names/fran125" xml:space="preserve">
+    <value>Cosme</value>
+  </data>
+  <data name="names/fran126" xml:space="preserve">
+    <value>Cupidon</value>
+  </data>
+  <data name="names/fran127" xml:space="preserve">
+    <value>Cyprien</value>
+  </data>
+  <data name="names/fran128" xml:space="preserve">
+    <value>Cyrille</value>
+  </data>
+  <data name="names/fran129" xml:space="preserve">
+    <value>Damien</value>
+  </data>
+  <data name="names/fran13" xml:space="preserve">
+    <value>Aillard</value>
+  </data>
+  <data name="names/fran130" xml:space="preserve">
+    <value>Degare</value>
+  </data>
+  <data name="names/fran131" xml:space="preserve">
+    <value>Denis</value>
+  </data>
+  <data name="names/fran132" xml:space="preserve">
+    <value>Déodat</value>
+  </data>
+  <data name="names/fran133" xml:space="preserve">
+    <value>Désiré</value>
+  </data>
+  <data name="names/fran134" xml:space="preserve">
+    <value>Devereux</value>
+  </data>
+  <data name="names/fran135" xml:space="preserve">
+    <value>Didier</value>
+  </data>
+  <data name="names/fran136" xml:space="preserve">
+    <value>Dieudonné</value>
+  </data>
+  <data name="names/fran137" xml:space="preserve">
+    <value>Diodore</value>
+  </data>
+  <data name="names/fran138" xml:space="preserve">
+    <value>Dion</value>
+  </data>
+  <data name="names/fran139" xml:space="preserve">
+    <value>Dominique</value>
+  </data>
+  <data name="names/fran14" xml:space="preserve">
+    <value>Aimé</value>
+  </data>
+  <data name="names/fran140" xml:space="preserve">
+    <value>Donatien</value>
+  </data>
+  <data name="names/fran141" xml:space="preserve">
+    <value>Edgard</value>
+  </data>
+  <data name="names/fran142" xml:space="preserve">
+    <value>Edmond</value>
+  </data>
+  <data name="names/fran143" xml:space="preserve">
+    <value>Édouard</value>
+  </data>
+  <data name="names/fran144" xml:space="preserve">
+    <value>Élie</value>
+  </data>
+  <data name="names/fran145" xml:space="preserve">
+    <value>Élliot</value>
+  </data>
+  <data name="names/fran146" xml:space="preserve">
+    <value>Éloi</value>
+  </data>
+  <data name="names/fran147" xml:space="preserve">
+    <value>Éloy</value>
+  </data>
+  <data name="names/fran148" xml:space="preserve">
+    <value>Emaurri</value>
+  </data>
+  <data name="names/fran149" xml:space="preserve">
+    <value>Émile</value>
+  </data>
+  <data name="names/fran15" xml:space="preserve">
+    <value>Aimeri</value>
+  </data>
+  <data name="names/fran150" xml:space="preserve">
+    <value>Émilien</value>
+  </data>
+  <data name="names/fran151" xml:space="preserve">
+    <value>Emmanuel</value>
+  </data>
+  <data name="names/fran152" xml:space="preserve">
+    <value>Énéas</value>
+  </data>
+  <data name="names/fran153" xml:space="preserve">
+    <value>Érec</value>
+  </data>
+  <data name="names/fran154" xml:space="preserve">
+    <value>Herménégilde</value>
+  </data>
+  <data name="names/fran155" xml:space="preserve">
+    <value>Esclados</value>
+  </data>
+  <data name="names/fran156" xml:space="preserve">
+    <value>Esmé</value>
+  </data>
+  <data name="names/fran157" xml:space="preserve">
+    <value>Étienne</value>
+  </data>
+  <data name="names/fran158" xml:space="preserve">
+    <value>Eudes</value>
+  </data>
+  <data name="names/fran159" xml:space="preserve">
+    <value>Eudo</value>
+  </data>
+  <data name="names/fran16" xml:space="preserve">
+    <value>Aimeric</value>
+  </data>
+  <data name="names/fran160" xml:space="preserve">
+    <value>Eudon</value>
+  </data>
+  <data name="names/fran161" xml:space="preserve">
+    <value>Eugène</value>
+  </data>
+  <data name="names/fran162" xml:space="preserve">
+    <value>Eustache</value>
+  </data>
+  <data name="names/fran163" xml:space="preserve">
+    <value>Évariste</value>
+  </data>
+  <data name="names/fran164" xml:space="preserve">
+    <value>Everard</value>
+  </data>
+  <data name="names/fran165" xml:space="preserve">
+    <value>Evrard</value>
+  </data>
+  <data name="names/fran166" xml:space="preserve">
+    <value>Fabien</value>
+  </data>
+  <data name="names/fran167" xml:space="preserve">
+    <value>Fabrice</value>
+  </data>
+  <data name="names/fran168" xml:space="preserve">
+    <value>Félicien</value>
+  </data>
+  <data name="names/fran169" xml:space="preserve">
+    <value>Félicité</value>
+  </data>
+  <data name="names/fran17" xml:space="preserve">
+    <value>Alain</value>
+  </data>
+  <data name="names/fran170" xml:space="preserve">
+    <value>Félix</value>
+  </data>
+  <data name="names/fran171" xml:space="preserve">
+    <value>Fernand</value>
+  </data>
+  <data name="names/fran172" xml:space="preserve">
+    <value>Ferrand</value>
+  </data>
+  <data name="names/fran173" xml:space="preserve">
+    <value>Ferrant</value>
+  </data>
+  <data name="names/fran174" xml:space="preserve">
+    <value>Fiacre</value>
+  </data>
+  <data name="names/fran175" xml:space="preserve">
+    <value>Filibert</value>
+  </data>
+  <data name="names/fran176" xml:space="preserve">
+    <value>Filimor</value>
+  </data>
+  <data name="names/fran177" xml:space="preserve">
+    <value>Firmin</value>
+  </data>
+  <data name="names/fran178" xml:space="preserve">
+    <value>Florence</value>
+  </data>
+  <data name="names/fran179" xml:space="preserve">
+    <value>Florentin</value>
+  </data>
+  <data name="names/fran18" xml:space="preserve">
+    <value>Alaire</value>
+  </data>
+  <data name="names/fran180" xml:space="preserve">
+    <value>Folque</value>
+  </data>
+  <data name="names/fran181" xml:space="preserve">
+    <value>Foulques</value>
+  </data>
+  <data name="names/fran182" xml:space="preserve">
+    <value>Franc</value>
+  </data>
+  <data name="names/fran183" xml:space="preserve">
+    <value>Franck</value>
+  </data>
+  <data name="names/fran184" xml:space="preserve">
+    <value>François</value>
+  </data>
+  <data name="names/fran185" xml:space="preserve">
+    <value>Fraser</value>
+  </data>
+  <data name="names/fran186" xml:space="preserve">
+    <value>Frédéric</value>
+  </data>
+  <data name="names/fran187" xml:space="preserve">
+    <value>Fréry</value>
+  </data>
+  <data name="names/fran188" xml:space="preserve">
+    <value>Fulbert</value>
+  </data>
+  <data name="names/fran189" xml:space="preserve">
+    <value>Gaël</value>
+  </data>
+  <data name="names/fran19" xml:space="preserve">
+    <value>Alard</value>
+  </data>
+  <data name="names/fran190" xml:space="preserve">
+    <value>Gaetan</value>
+  </data>
+  <data name="names/fran191" xml:space="preserve">
+    <value>Gahariet</value>
+  </data>
+  <data name="names/fran192" xml:space="preserve">
+    <value>Galehot</value>
+  </data>
+  <data name="names/fran193" xml:space="preserve">
+    <value>Garland</value>
+  </data>
+  <data name="names/fran194" xml:space="preserve">
+    <value>Gascon</value>
+  </data>
+  <data name="names/fran195" xml:space="preserve">
+    <value>Gaspard</value>
+  </data>
+  <data name="names/fran196" xml:space="preserve">
+    <value>Gaston</value>
+  </data>
+  <data name="names/fran197" xml:space="preserve">
+    <value>Gauthier</value>
+  </data>
+  <data name="names/fran198" xml:space="preserve">
+    <value>Gautier</value>
+  </data>
+  <data name="names/fran199" xml:space="preserve">
+    <value>Gauvain</value>
+  </data>
+  <data name="names/fran2" xml:space="preserve">
+    <value>Absolon</value>
+  </data>
+  <data name="names/fran20" xml:space="preserve">
+    <value>Albain</value>
+  </data>
+  <data name="names/fran200" xml:space="preserve">
+    <value>Geoffroi</value>
+  </data>
+  <data name="names/fran201" xml:space="preserve">
+    <value>Georges</value>
+  </data>
+  <data name="names/fran202" xml:space="preserve">
+    <value>Gérald</value>
+  </data>
+  <data name="names/fran203" xml:space="preserve">
+    <value>Girgl</value>
+  </data>
+  <data name="names/fran204" xml:space="preserve">
+    <value>Géraud</value>
+  </data>
+  <data name="names/fran205" xml:space="preserve">
+    <value>Germain</value>
+  </data>
+  <data name="names/fran206" xml:space="preserve">
+    <value>Gervais</value>
+  </data>
+  <data name="names/fran207" xml:space="preserve">
+    <value>Gervaise</value>
+  </data>
+  <data name="names/fran208" xml:space="preserve">
+    <value>Gilebert</value>
+  </data>
+  <data name="names/fran209" xml:space="preserve">
+    <value>Gilles</value>
+  </data>
+  <data name="names/fran21" xml:space="preserve">
+    <value>Alberi</value>
+  </data>
+  <data name="names/fran210" xml:space="preserve">
+    <value>Gisbert</value>
+  </data>
+  <data name="names/fran211" xml:space="preserve">
+    <value>Godard</value>
+  </data>
+  <data name="names/fran212" xml:space="preserve">
+    <value>Goddard</value>
+  </data>
+  <data name="names/fran213" xml:space="preserve">
+    <value>Godefrei</value>
+  </data>
+  <data name="names/fran214" xml:space="preserve">
+    <value>Godefrey</value>
+  </data>
+  <data name="names/fran215" xml:space="preserve">
+    <value>Gorlois</value>
+  </data>
+  <data name="names/fran216" xml:space="preserve">
+    <value>Gosse</value>
+  </data>
+  <data name="names/fran217" xml:space="preserve">
+    <value>Gratien</value>
+  </data>
+  <data name="names/fran218" xml:space="preserve">
+    <value>Grégoire</value>
+  </data>
+  <data name="names/fran219" xml:space="preserve">
+    <value>Gregory</value>
+  </data>
+  <data name="names/fran22" xml:space="preserve">
+    <value>Albert</value>
+  </data>
+  <data name="names/fran220" xml:space="preserve">
+    <value>Gringolet</value>
+  </data>
+  <data name="names/fran221" xml:space="preserve">
+    <value>Grosvenor</value>
+  </data>
+  <data name="names/fran222" xml:space="preserve">
+    <value>Guarin</value>
+  </data>
+  <data name="names/fran223" xml:space="preserve">
+    <value>Guarinot</value>
+  </data>
+  <data name="names/fran224" xml:space="preserve">
+    <value>Guilbert</value>
+  </data>
+  <data name="names/fran225" xml:space="preserve">
+    <value>Guillaume</value>
+  </data>
+  <data name="names/fran226" xml:space="preserve">
+    <value>Gul</value>
+  </data>
+  <data name="names/fran227" xml:space="preserve">
+    <value>Gustave</value>
+  </data>
+  <data name="names/fran228" xml:space="preserve">
+    <value>Guy</value>
+  </data>
+  <data name="names/fran229" xml:space="preserve">
+    <value>Gwenael</value>
+  </data>
+  <data name="names/fran23" xml:space="preserve">
+    <value>Alexandre</value>
+  </data>
+  <data name="names/fran230" xml:space="preserve">
+    <value>Gy</value>
+  </data>
+  <data name="names/fran231" xml:space="preserve">
+    <value>Gysbert</value>
+  </data>
+  <data name="names/fran232" xml:space="preserve">
+    <value>Hamblin</value>
+  </data>
+  <data name="names/fran233" xml:space="preserve">
+    <value>Hamelet</value>
+  </data>
+  <data name="names/fran234" xml:space="preserve">
+    <value>Hamelin</value>
+  </data>
+  <data name="names/fran235" xml:space="preserve">
+    <value>Hamlin</value>
+  </data>
+  <data name="names/fran236" xml:space="preserve">
+    <value>Hamnet</value>
+  </data>
+  <data name="names/fran237" xml:space="preserve">
+    <value>Hamon</value>
+  </data>
+  <data name="names/fran238" xml:space="preserve">
+    <value>Henri</value>
+  </data>
+  <data name="names/fran239" xml:space="preserve">
+    <value>Hercule</value>
+  </data>
+  <data name="names/fran24" xml:space="preserve">
+    <value>Alfonse</value>
+  </data>
+  <data name="names/fran240" xml:space="preserve">
+    <value>Herluin</value>
+  </data>
+  <data name="names/fran241" xml:space="preserve">
+    <value>Hervé</value>
+  </data>
+  <data name="names/fran242" xml:space="preserve">
+    <value>Hilaire</value>
+  </data>
+  <data name="names/fran243" xml:space="preserve">
+    <value>Honoré</value>
+  </data>
+  <data name="names/fran244" xml:space="preserve">
+    <value>Horace</value>
+  </data>
+  <data name="names/fran245" xml:space="preserve">
+    <value>Hrodger</value>
+  </data>
+  <data name="names/fran246" xml:space="preserve">
+    <value>Hubert</value>
+  </data>
+  <data name="names/fran247" xml:space="preserve">
+    <value>Hugon</value>
+  </data>
+  <data name="names/fran248" xml:space="preserve">
+    <value>Hugues</value>
+  </data>
+  <data name="names/fran249" xml:space="preserve">
+    <value>Ignace</value>
+  </data>
+  <data name="names/fran25" xml:space="preserve">
+    <value>Allard</value>
+  </data>
+  <data name="names/fran250" xml:space="preserve">
+    <value>Ilbert</value>
+  </data>
+  <data name="names/fran251" xml:space="preserve">
+    <value>Irène</value>
+  </data>
+  <data name="names/fran252" xml:space="preserve">
+    <value>Isaïe</value>
+  </data>
+  <data name="names/fran253" xml:space="preserve">
+    <value>Ives</value>
+  </data>
+  <data name="names/fran254" xml:space="preserve">
+    <value>Ivon</value>
+  </data>
+  <data name="names/fran255" xml:space="preserve">
+    <value>Jacques</value>
+  </data>
+  <data name="names/fran256" xml:space="preserve">
+    <value>James</value>
+  </data>
+  <data name="names/fran257" xml:space="preserve">
+    <value>Jean</value>
+  </data>
+  <data name="names/fran258" xml:space="preserve">
+    <value>Jean-baptiste</value>
+  </data>
+  <data name="names/fran259" xml:space="preserve">
+    <value>Jeannot</value>
+  </data>
+  <data name="names/fran26" xml:space="preserve">
+    <value>Aloys</value>
+  </data>
+  <data name="names/fran260" xml:space="preserve">
+    <value>Jehan</value>
+  </data>
+  <data name="names/fran261" xml:space="preserve">
+    <value>Jérémie</value>
+  </data>
+  <data name="names/fran262" xml:space="preserve">
+    <value>Jérôme</value>
+  </data>
+  <data name="names/fran263" xml:space="preserve">
+    <value>Joël</value>
+  </data>
+  <data name="names/fran264" xml:space="preserve">
+    <value>Jori</value>
+  </data>
+  <data name="names/fran265" xml:space="preserve">
+    <value>Josse</value>
+  </data>
+  <data name="names/fran266" xml:space="preserve">
+    <value>Josselin</value>
+  </data>
+  <data name="names/fran267" xml:space="preserve">
+    <value>Josue</value>
+  </data>
+  <data name="names/fran268" xml:space="preserve">
+    <value>Jourdain</value>
+  </data>
+  <data name="names/fran269" xml:space="preserve">
+    <value>Jules</value>
+  </data>
+  <data name="names/fran27" xml:space="preserve">
+    <value>Alfons</value>
+  </data>
+  <data name="names/fran270" xml:space="preserve">
+    <value>Julien</value>
+  </data>
+  <data name="names/fran271" xml:space="preserve">
+    <value>Juste</value>
+  </data>
+  <data name="names/fran272" xml:space="preserve">
+    <value>Lammert</value>
+  </data>
+  <data name="names/fran273" xml:space="preserve">
+    <value>Caspar</value>
+  </data>
+  <data name="names/fran274" xml:space="preserve">
+    <value>Lancelot</value>
+  </data>
+  <data name="names/fran275" xml:space="preserve">
+    <value>Launce</value>
+  </data>
+  <data name="names/fran276" xml:space="preserve">
+    <value>Launcelot</value>
+  </data>
+  <data name="names/fran277" xml:space="preserve">
+    <value>Laurent</value>
+  </data>
+  <data name="names/fran278" xml:space="preserve">
+    <value>Laurentin</value>
+  </data>
+  <data name="names/fran279" xml:space="preserve">
+    <value>Lazare</value>
+  </data>
+  <data name="names/fran28" xml:space="preserve">
+    <value>Alvère</value>
+  </data>
+  <data name="names/fran280" xml:space="preserve">
+    <value>Léandre</value>
+  </data>
+  <data name="names/fran281" xml:space="preserve">
+    <value>Léger</value>
+  </data>
+  <data name="names/fran282" xml:space="preserve">
+    <value>Lemoine</value>
+  </data>
+  <data name="names/fran283" xml:space="preserve">
+    <value>Léolin</value>
+  </data>
+  <data name="names/fran284" xml:space="preserve">
+    <value>Léon</value>
+  </data>
+  <data name="names/fran285" xml:space="preserve">
+    <value>Léonard</value>
+  </data>
+  <data name="names/fran286" xml:space="preserve">
+    <value>Leonce</value>
+  </data>
+  <data name="names/fran287" xml:space="preserve">
+    <value>Leonide</value>
+  </data>
+  <data name="names/fran288" xml:space="preserve">
+    <value>Leopold</value>
+  </data>
+  <data name="names/fran289" xml:space="preserve">
+    <value>Leroy</value>
+  </data>
+  <data name="names/fran29" xml:space="preserve">
+    <value>Alvin</value>
+  </data>
+  <data name="names/fran290" xml:space="preserve">
+    <value>Lionel</value>
+  </data>
+  <data name="names/fran291" xml:space="preserve">
+    <value>Loois</value>
+  </data>
+  <data name="names/fran292" xml:space="preserve">
+    <value>Looys</value>
+  </data>
+  <data name="names/fran293" xml:space="preserve">
+    <value>Lothair</value>
+  </data>
+  <data name="names/fran294" xml:space="preserve">
+    <value>Lothaire</value>
+  </data>
+  <data name="names/fran295" xml:space="preserve">
+    <value>Louie</value>
+  </data>
+  <data name="names/fran296" xml:space="preserve">
+    <value>Louis</value>
+  </data>
+  <data name="names/fran297" xml:space="preserve">
+    <value>Loup</value>
+  </data>
+  <data name="names/fran298" xml:space="preserve">
+    <value>Louvel</value>
+  </data>
+  <data name="names/fran299" xml:space="preserve">
+    <value>Luc</value>
+  </data>
+  <data name="names/fran3" xml:space="preserve">
+    <value>Ace</value>
+  </data>
+  <data name="names/fran30" xml:space="preserve">
+    <value>Amable</value>
+  </data>
+  <data name="names/fran300" xml:space="preserve">
+    <value>Lucien</value>
+  </data>
+  <data name="names/fran301" xml:space="preserve">
+    <value>Macaire</value>
+  </data>
+  <data name="names/fran302" xml:space="preserve">
+    <value>Mainard</value>
+  </data>
+  <data name="names/fran303" xml:space="preserve">
+    <value>Mainfred</value>
+  </data>
+  <data name="names/fran304" xml:space="preserve">
+    <value>Malgier</value>
+  </data>
+  <data name="names/fran305" xml:space="preserve">
+    <value>Marc</value>
+  </data>
+  <data name="names/fran306" xml:space="preserve">
+    <value>Marceau</value>
+  </data>
+  <data name="names/fran307" xml:space="preserve">
+    <value>Marcel</value>
+  </data>
+  <data name="names/fran308" xml:space="preserve">
+    <value>Marcellin</value>
+  </data>
+  <data name="names/fran309" xml:space="preserve">
+    <value>Marcelon</value>
+  </data>
+  <data name="names/fran31" xml:space="preserve">
+    <value>Amadieu</value>
+  </data>
+  <data name="names/fran310" xml:space="preserve">
+    <value>Marin</value>
+  </data>
+  <data name="names/fran311" xml:space="preserve">
+    <value>Marrok</value>
+  </data>
+  <data name="names/fran312" xml:space="preserve">
+    <value>Martin</value>
+  </data>
+  <data name="names/fran313" xml:space="preserve">
+    <value>Mathieu</value>
+  </data>
+  <data name="names/fran314" xml:space="preserve">
+    <value>Mathis</value>
+  </data>
+  <data name="names/fran315" xml:space="preserve">
+    <value>Matthieu</value>
+  </data>
+  <data name="names/fran316" xml:space="preserve">
+    <value>Mauger</value>
+  </data>
+  <data name="names/fran317" xml:space="preserve">
+    <value>Maugier</value>
+  </data>
+  <data name="names/fran318" xml:space="preserve">
+    <value>Maurice</value>
+  </data>
+  <data name="names/fran319" xml:space="preserve">
+    <value>Maxence</value>
+  </data>
+  <data name="names/fran32" xml:space="preserve">
+    <value>Amadour</value>
+  </data>
+  <data name="names/fran320" xml:space="preserve">
+    <value>Maxime</value>
+  </data>
+  <data name="names/fran321" xml:space="preserve">
+    <value>Maximilien</value>
+  </data>
+  <data name="names/fran322" xml:space="preserve">
+    <value>Michel</value>
+  </data>
+  <data name="names/fran323" xml:space="preserve">
+    <value>Milun</value>
+  </data>
+  <data name="names/fran324" xml:space="preserve">
+    <value>Modeste</value>
+  </data>
+  <data name="names/fran325" xml:space="preserve">
+    <value>Moïse</value>
+  </data>
+  <data name="names/fran326" xml:space="preserve">
+    <value>Napoleon</value>
+  </data>
+  <data name="names/fran327" xml:space="preserve">
+    <value>Narcisse</value>
+  </data>
+  <data name="names/fran328" xml:space="preserve">
+    <value>Nazaire</value>
+  </data>
+  <data name="names/fran329" xml:space="preserve">
+    <value>Nel</value>
+  </data>
+  <data name="names/fran33" xml:space="preserve">
+    <value>Amauger</value>
+  </data>
+  <data name="names/fran330" xml:space="preserve">
+    <value>Nicolas</value>
+  </data>
+  <data name="names/fran331" xml:space="preserve">
+    <value>Nihel</value>
+  </data>
+  <data name="names/fran332" xml:space="preserve">
+    <value>Noe</value>
+  </data>
+  <data name="names/fran333" xml:space="preserve">
+    <value>Noël</value>
+  </data>
+  <data name="names/fran334" xml:space="preserve">
+    <value>Norbert</value>
+  </data>
+  <data name="names/fran335" xml:space="preserve">
+    <value>Oda</value>
+  </data>
+  <data name="names/fran336" xml:space="preserve">
+    <value>Odilon</value>
+  </data>
+  <data name="names/fran337" xml:space="preserve">
+    <value>Olivier</value>
+  </data>
+  <data name="names/fran338" xml:space="preserve">
+    <value>Onesime</value>
+  </data>
+  <data name="names/fran339" xml:space="preserve">
+    <value>Onfroi</value>
+  </data>
+  <data name="names/fran34" xml:space="preserve">
+    <value>Amauri</value>
+  </data>
+  <data name="names/fran340" xml:space="preserve">
+    <value>Otes</value>
+  </data>
+  <data name="names/fran341" xml:space="preserve">
+    <value>Papillion</value>
+  </data>
+  <data name="names/fran342" xml:space="preserve">
+    <value>Pascal</value>
+  </data>
+  <data name="names/fran343" xml:space="preserve">
+    <value>Paschal</value>
+  </data>
+  <data name="names/fran344" xml:space="preserve">
+    <value>Patrice</value>
+  </data>
+  <data name="names/fran345" xml:space="preserve">
+    <value>Paul</value>
+  </data>
+  <data name="names/fran346" xml:space="preserve">
+    <value>Pépin</value>
+  </data>
+  <data name="names/fran347" xml:space="preserve">
+    <value>Perceval</value>
+  </data>
+  <data name="names/fran348" xml:space="preserve">
+    <value>Perrin</value>
+  </data>
+  <data name="names/fran349" xml:space="preserve">
+    <value>Philbert</value>
+  </data>
+  <data name="names/fran35" xml:space="preserve">
+    <value>Amaury</value>
+  </data>
+  <data name="names/fran350" xml:space="preserve">
+    <value>Philibert</value>
+  </data>
+  <data name="names/fran351" xml:space="preserve">
+    <value>Philippe</value>
+  </data>
+  <data name="names/fran352" xml:space="preserve">
+    <value>Pierre</value>
+  </data>
+  <data name="names/fran353" xml:space="preserve">
+    <value>Pierres</value>
+  </data>
+  <data name="names/fran354" xml:space="preserve">
+    <value>Pons</value>
+  </data>
+  <data name="names/fran355" xml:space="preserve">
+    <value>Quentin</value>
+  </data>
+  <data name="names/fran356" xml:space="preserve">
+    <value>Raimond</value>
+  </data>
+  <data name="names/fran357" xml:space="preserve">
+    <value>Raimund</value>
+  </data>
+  <data name="names/fran358" xml:space="preserve">
+    <value>Rainier</value>
+  </data>
+  <data name="names/fran359" xml:space="preserve">
+    <value>Raoul</value>
+  </data>
+  <data name="names/fran36" xml:space="preserve">
+    <value>Ambroise</value>
+  </data>
+  <data name="names/fran360" xml:space="preserve">
+    <value>Raphaël</value>
+  </data>
+  <data name="names/fran361" xml:space="preserve">
+    <value>Raulf</value>
+  </data>
+  <data name="names/fran362" xml:space="preserve">
+    <value>Régis</value>
+  </data>
+  <data name="names/fran363" xml:space="preserve">
+    <value>Reinald</value>
+  </data>
+  <data name="names/fran364" xml:space="preserve">
+    <value>Rémi</value>
+  </data>
+  <data name="names/fran365" xml:space="preserve">
+    <value>Rémy</value>
+  </data>
+  <data name="names/fran366" xml:space="preserve">
+    <value>Renard</value>
+  </data>
+  <data name="names/fran367" xml:space="preserve">
+    <value>Renart</value>
+  </data>
+  <data name="names/fran368" xml:space="preserve">
+    <value>Renaud</value>
+  </data>
+  <data name="names/fran369" xml:space="preserve">
+    <value>René</value>
+  </data>
+  <data name="names/fran37" xml:space="preserve">
+    <value>Ame</value>
+  </data>
+  <data name="names/fran370" xml:space="preserve">
+    <value>Reynaud</value>
+  </data>
+  <data name="names/fran371" xml:space="preserve">
+    <value>Reynold</value>
+  </data>
+  <data name="names/fran372" xml:space="preserve">
+    <value>Richaud</value>
+  </data>
+  <data name="names/fran373" xml:space="preserve">
+    <value>Riche</value>
+  </data>
+  <data name="names/fran374" xml:space="preserve">
+    <value>Robert</value>
+  </data>
+  <data name="names/fran375" xml:space="preserve">
+    <value>Roch</value>
+  </data>
+  <data name="names/fran376" xml:space="preserve">
+    <value>Rodolphe</value>
+  </data>
+  <data name="names/fran377" xml:space="preserve">
+    <value>Rodrigue</value>
+  </data>
+  <data name="names/fran378" xml:space="preserve">
+    <value>Rogier</value>
+  </data>
+  <data name="names/fran379" xml:space="preserve">
+    <value>Roland</value>
+  </data>
+  <data name="names/fran38" xml:space="preserve">
+    <value>Amédée</value>
+  </data>
+  <data name="names/fran380" xml:space="preserve">
+    <value>Rolande</value>
+  </data>
+  <data name="names/fran381" xml:space="preserve">
+    <value>Romain</value>
+  </data>
+  <data name="names/fran382" xml:space="preserve">
+    <value>Roul</value>
+  </data>
+  <data name="names/fran383" xml:space="preserve">
+    <value>Rousel</value>
+  </data>
+  <data name="names/fran384" xml:space="preserve">
+    <value>Sacha</value>
+  </data>
+  <data name="names/fran385" xml:space="preserve">
+    <value>Sacheverell</value>
+  </data>
+  <data name="names/fran386" xml:space="preserve">
+    <value>Salomon</value>
+  </data>
+  <data name="names/fran387" xml:space="preserve">
+    <value>Sébastien</value>
+  </data>
+  <data name="names/fran388" xml:space="preserve">
+    <value>Séraphin</value>
+  </data>
+  <data name="names/fran389" xml:space="preserve">
+    <value>Serge</value>
+  </data>
+  <data name="names/fran39" xml:space="preserve">
+    <value>Anastase</value>
+  </data>
+  <data name="names/fran390" xml:space="preserve">
+    <value>Sévère</value>
+  </data>
+  <data name="names/fran391" xml:space="preserve">
+    <value>Séverin</value>
+  </data>
+  <data name="names/fran392" xml:space="preserve">
+    <value>Simon</value>
+  </data>
+  <data name="names/fran393" xml:space="preserve">
+    <value>Stéphane</value>
+  </data>
+  <data name="names/fran394" xml:space="preserve">
+    <value>Stuart</value>
+  </data>
+  <data name="names/fran395" xml:space="preserve">
+    <value>Sylvain</value>
+  </data>
+  <data name="names/fran396" xml:space="preserve">
+    <value>Sylvestre</value>
+  </data>
+  <data name="names/fran397" xml:space="preserve">
+    <value>Télesphore</value>
+  </data>
+  <data name="names/fran398" xml:space="preserve">
+    <value>Théo</value>
+  </data>
+  <data name="names/fran399" xml:space="preserve">
+    <value>Théodore</value>
+  </data>
+  <data name="names/fran4" xml:space="preserve">
+    <value>Acelet</value>
+  </data>
+  <data name="names/fran40" xml:space="preserve">
+    <value>Anatole</value>
+  </data>
+  <data name="names/fran400" xml:space="preserve">
+    <value>Théophile</value>
+  </data>
+  <data name="names/fran401" xml:space="preserve">
+    <value>Thibauld</value>
+  </data>
+  <data name="names/fran402" xml:space="preserve">
+    <value>Thibault</value>
+  </data>
+  <data name="names/fran403" xml:space="preserve">
+    <value>Thierri</value>
+  </data>
+  <data name="names/fran404" xml:space="preserve">
+    <value>Thierry</value>
+  </data>
+  <data name="names/fran405" xml:space="preserve">
+    <value>Timothée</value>
+  </data>
+  <data name="names/fran406" xml:space="preserve">
+    <value>Toussaint</value>
+  </data>
+  <data name="names/fran407" xml:space="preserve">
+    <value>Tristan</value>
+  </data>
+  <data name="names/fran408" xml:space="preserve">
+    <value>Tristand</value>
+  </data>
+  <data name="names/fran409" xml:space="preserve">
+    <value>Tristram</value>
+  </data>
+  <data name="names/fran41" xml:space="preserve">
+    <value>Albin</value>
+  </data>
+  <data name="names/fran410" xml:space="preserve">
+    <value>Urbain</value>
+  </data>
+  <data name="names/fran411" xml:space="preserve">
+    <value>Valentin</value>
+  </data>
+  <data name="names/fran412" xml:space="preserve">
+    <value>Valère</value>
+  </data>
+  <data name="names/fran413" xml:space="preserve">
+    <value>Valérian</value>
+  </data>
+  <data name="names/fran414" xml:space="preserve">
+    <value>Valéry</value>
+  </data>
+  <data name="names/fran415" xml:space="preserve">
+    <value>Veillantif</value>
+  </data>
+  <data name="names/fran416" xml:space="preserve">
+    <value>Vincens</value>
+  </data>
+  <data name="names/fran417" xml:space="preserve">
+    <value>Vivien</value>
+  </data>
+  <data name="names/fran418" xml:space="preserve">
+    <value>Waltier</value>
+  </data>
+  <data name="names/fran419" xml:space="preserve">
+    <value>Willelm</value>
+  </data>
+  <data name="names/fran42" xml:space="preserve">
+    <value>André</value>
+  </data>
+  <data name="names/fran420" xml:space="preserve">
+    <value>Yvain</value>
+  </data>
+  <data name="names/fran421" xml:space="preserve">
+    <value>Yves</value>
+  </data>
+  <data name="names/fran422" xml:space="preserve">
+    <value>Yvon</value>
+  </data>
+  <data name="names/fran423" xml:space="preserve">
+    <value>Zacharie</value>
+  </data>
+  <data name="names/fran43" xml:space="preserve">
+    <value>Andrien</value>
+  </data>
+  <data name="names/fran44" xml:space="preserve">
+    <value>Andrion</value>
+  </data>
+  <data name="names/fran45" xml:space="preserve">
+    <value>Ange</value>
+  </data>
+  <data name="names/fran46" xml:space="preserve">
+    <value>Ansel</value>
+  </data>
+  <data name="names/fran47" xml:space="preserve">
+    <value>Anselme</value>
+  </data>
+  <data name="names/fran48" xml:space="preserve">
+    <value>Antoine</value>
+  </data>
+  <data name="names/fran49" xml:space="preserve">
+    <value>Antonin</value>
+  </data>
+  <data name="names/fran5" xml:space="preserve">
+    <value>Acelin</value>
+  </data>
+  <data name="names/fran50" xml:space="preserve">
+    <value>Aousten</value>
+  </data>
+  <data name="names/fran51" xml:space="preserve">
+    <value>Apollinaire</value>
+  </data>
+  <data name="names/fran52" xml:space="preserve">
+    <value>Archimbaud</value>
+  </data>
+  <data name="names/fran53" xml:space="preserve">
+    <value>Aristide</value>
+  </data>
+  <data name="names/fran54" xml:space="preserve">
+    <value>Arluin</value>
+  </data>
+  <data name="names/fran55" xml:space="preserve">
+    <value>Arman</value>
+  </data>
+  <data name="names/fran56" xml:space="preserve">
+    <value>Armand</value>
+  </data>
+  <data name="names/fran57" xml:space="preserve">
+    <value>Armel</value>
+  </data>
+  <data name="names/fran58" xml:space="preserve">
+    <value>Arnaud</value>
+  </data>
+  <data name="names/fran59" xml:space="preserve">
+    <value>Asce</value>
+  </data>
+  <data name="names/fran6" xml:space="preserve">
+    <value>Achille</value>
+  </data>
+  <data name="names/fran60" xml:space="preserve">
+    <value>Astor</value>
+  </data>
+  <data name="names/fran61" xml:space="preserve">
+    <value>Athanase</value>
+  </data>
+  <data name="names/fran62" xml:space="preserve">
+    <value>Auben</value>
+  </data>
+  <data name="names/fran63" xml:space="preserve">
+    <value>Aubéron</value>
+  </data>
+  <data name="names/fran64" xml:space="preserve">
+    <value>Aubert</value>
+  </data>
+  <data name="names/fran65" xml:space="preserve">
+    <value>Aubin</value>
+  </data>
+  <data name="names/fran66" xml:space="preserve">
+    <value>Audric</value>
+  </data>
+  <data name="names/fran67" xml:space="preserve">
+    <value>Auguste</value>
+  </data>
+  <data name="names/fran68" xml:space="preserve">
+    <value>Augustin</value>
+  </data>
+  <data name="names/fran69" xml:space="preserve">
+    <value>Aurèle</value>
+  </data>
+  <data name="names/fran7" xml:space="preserve">
+    <value>Adalard</value>
+  </data>
+  <data name="names/fran70" xml:space="preserve">
+    <value>Aurélien</value>
+  </data>
+  <data name="names/fran71" xml:space="preserve">
+    <value>Avery</value>
+  </data>
+  <data name="names/fran72" xml:space="preserve">
+    <value>Aymeric</value>
+  </data>
+  <data name="names/fran73" xml:space="preserve">
+    <value>Baldoin</value>
+  </data>
+  <data name="names/fran74" xml:space="preserve">
+    <value>Baptiste</value>
+  </data>
+  <data name="names/fran75" xml:space="preserve">
+    <value>Barnabé</value>
+  </data>
+  <data name="names/fran76" xml:space="preserve">
+    <value>Barthelmy</value>
+  </data>
+  <data name="names/fran77" xml:space="preserve">
+    <value>Bartholomieu</value>
+  </data>
+  <data name="names/fran78" xml:space="preserve">
+    <value>Barthomieu</value>
+  </data>
+  <data name="names/fran79" xml:space="preserve">
+    <value>Basile</value>
+  </data>
+  <data name="names/fran8" xml:space="preserve">
+    <value>Adélard</value>
+  </data>
+  <data name="names/fran80" xml:space="preserve">
+    <value>Bastien</value>
+  </data>
+  <data name="names/fran81" xml:space="preserve">
+    <value>Baudouin</value>
+  </data>
+  <data name="names/fran82" xml:space="preserve">
+    <value>Bayard</value>
+  </data>
+  <data name="names/fran83" xml:space="preserve">
+    <value>Beaumont</value>
+  </data>
+  <data name="names/fran84" xml:space="preserve">
+    <value>Beauregard</value>
+  </data>
+  <data name="names/fran85" xml:space="preserve">
+    <value>Bédoier</value>
+  </data>
+  <data name="names/fran86" xml:space="preserve">
+    <value>Bénédict</value>
+  </data>
+  <data name="names/fran87" xml:space="preserve">
+    <value>Beneoit</value>
+  </data>
+  <data name="names/fran88" xml:space="preserve">
+    <value>Bénézet</value>
+  </data>
+  <data name="names/fran89" xml:space="preserve">
+    <value>Benjamin</value>
+  </data>
+  <data name="names/fran9" xml:space="preserve">
+    <value>Adnet</value>
+  </data>
+  <data name="names/fran90" xml:space="preserve">
+    <value>Benoît</value>
+  </data>
+  <data name="names/fran91" xml:space="preserve">
+    <value>Bérenger</value>
+  </data>
+  <data name="names/fran92" xml:space="preserve">
+    <value>Bernard</value>
+  </data>
+  <data name="names/fran93" xml:space="preserve">
+    <value>Bertrand</value>
+  </data>
+  <data name="names/fran94" xml:space="preserve">
+    <value>Blaise</value>
+  </data>
+  <data name="names/fran95" xml:space="preserve">
+    <value>Brian</value>
+  </data>
+  <data name="names/fran96" xml:space="preserve">
+    <value>Briant</value>
+  </data>
+  <data name="names/fran97" xml:space="preserve">
+    <value>Brice</value>
+  </data>
+  <data name="names/fran98" xml:space="preserve">
+    <value>Briefbras</value>
+  </data>
+  <data name="names/fran99" xml:space="preserve">
+    <value>Bruce</value>
+  </data>
+  <data name="ranksGER/gefreiter" xml:space="preserve">
+    <value>Gefreiter</value>
+  </data>
+  <data name="ranksfra/adjudant" xml:space="preserve">
+    <value>Adjudant</value>
+  </data>
+  <data name="ranksfra/adjudant-chef" xml:space="preserve">
+    <value>Adjudant-chef</value>
+  </data>
+  <data name="ranksfra/capitaine" xml:space="preserve">
+    <value>Capitaine</value>
+  </data>
+  <data name="ranksfra/caporal" xml:space="preserve">
+    <value>Brigadier</value>
+  </data>
+  <data name="ranksfra/caporal-chef" xml:space="preserve">
+    <value>Brigadier-chef</value>
+  </data>
+  <data name="ranksfra/commandant" xml:space="preserve">
+    <value>Chef d'escadrons</value>
+  </data>
+  <data name="ranksfra/lieutenant" xml:space="preserve">
+    <value>Lieutenant</value>
+  </data>
+  <data name="ranksfra/premiere_classe" xml:space="preserve">
+    <value>Cuirassier</value>
+  </data>
+  <data name="ranksfra/sergent" xml:space="preserve">
+    <value>Maréchal des logis</value>
+  </data>
+  <data name="ranksfra/sergent-chef" xml:space="preserve">
+    <value>Maréchal des logis-chef</value>
+  </data>
+  <data name="ranksfra/sous-lieutenant" xml:space="preserve">
+    <value>Sous-lieutenant</value>
+  </data>
+</root>

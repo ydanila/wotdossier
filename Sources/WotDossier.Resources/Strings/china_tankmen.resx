@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="names/beijing_opera1" xml:space="preserve">
+    <value>Guan</value>
+  </data>
+  <data name="names/beijing_opera2" xml:space="preserve">
+    <value>Wu</value>
+  </data>
+  <data name="names/beijing_opera3" xml:space="preserve">
+    <value>Mu</value>
+  </data>
+  <data name="names/beijing_opera4" xml:space="preserve">
+    <value>Cao</value>
+  </data>
+  <data name="names/beijing_operan1" xml:space="preserve">
+    <value>Zhengjing</value>
+  </data>
+  <data name="names/beijing_operan2" xml:space="preserve">
+    <value>Sheng</value>
+  </data>
+  <data name="names/beijing_operan3" xml:space="preserve">
+    <value>Huadan</value>
+  </data>
+  <data name="names/beijing_operan4" xml:space="preserve">
+    <value>Fujing</value>
+  </data>
+  <data name="names/chin1" xml:space="preserve">
+    <value>Bei</value>
+  </data>
+  <data name="names/chin10" xml:space="preserve">
+    <value>Feng</value>
+  </data>
+  <data name="names/chin11" xml:space="preserve">
+    <value>Fu</value>
+  </data>
+  <data name="names/chin11001" xml:space="preserve">
+    <value>Zhu</value>
+  </data>
+  <data name="names/chin11002" xml:space="preserve">
+    <value>Qin</value>
+  </data>
+  <data name="names/chin11003" xml:space="preserve">
+    <value>Cai</value>
+  </data>
+  <data name="names/chin11004" xml:space="preserve">
+    <value>Yang</value>
+  </data>
+  <data name="names/chin11005" xml:space="preserve">
+    <value>Chen</value>
+  </data>
+  <data name="names/chin11006" xml:space="preserve">
+    <value>Zhang</value>
+  </data>
+  <data name="names/chin11007" xml:space="preserve">
+    <value>Li</value>
+  </data>
+  <data name="names/chin11008" xml:space="preserve">
+    <value>Wang</value>
+  </data>
+  <data name="names/chin11009" xml:space="preserve">
+    <value>Ding</value>
+  </data>
+  <data name="names/chin11010" xml:space="preserve">
+    <value>Shen</value>
+  </data>
+  <data name="names/chin11011" xml:space="preserve">
+    <value>Tang</value>
+  </data>
+  <data name="names/chin11012" xml:space="preserve">
+    <value>Luo</value>
+  </data>
+  <data name="names/chin11013" xml:space="preserve">
+    <value>Jiang</value>
+  </data>
+  <data name="names/chin11014" xml:space="preserve">
+    <value>Kuang</value>
+  </data>
+  <data name="names/chin11015" xml:space="preserve">
+    <value>Fang</value>
+  </data>
+  <data name="names/chin11016" xml:space="preserve">
+    <value>Wu</value>
+  </data>
+  <data name="names/chin11017" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="names/chin11018" xml:space="preserve">
+    <value>Liu</value>
+  </data>
+  <data name="names/chin11019" xml:space="preserve">
+    <value>Gao</value>
+  </data>
+  <data name="names/chin11020" xml:space="preserve">
+    <value>Xu</value>
+  </data>
+  <data name="names/chin12" xml:space="preserve">
+    <value>Gan</value>
+  </data>
+  <data name="names/chin13" xml:space="preserve">
+    <value>Ge</value>
+  </data>
+  <data name="names/chin14" xml:space="preserve">
+    <value>Gong</value>
+  </data>
+  <data name="names/chin15" xml:space="preserve">
+    <value>Gongsun</value>
+  </data>
+  <data name="names/chin16" xml:space="preserve">
+    <value>Gu</value>
+  </data>
+  <data name="names/chin17" xml:space="preserve">
+    <value>Han</value>
+  </data>
+  <data name="names/chin18" xml:space="preserve">
+    <value>Hang</value>
+  </data>
+  <data name="names/chin19" xml:space="preserve">
+    <value>Hao</value>
+  </data>
+  <data name="names/chin2" xml:space="preserve">
+    <value>Cao</value>
+  </data>
+  <data name="names/chin20" xml:space="preserve">
+    <value>He</value>
+  </data>
+  <data name="names/chin21" xml:space="preserve">
+    <value>Huo</value>
+  </data>
+  <data name="names/chin22" xml:space="preserve">
+    <value>Ji</value>
+  </data>
+  <data name="names/chin23" xml:space="preserve">
+    <value>Jia</value>
+  </data>
+  <data name="names/chin24" xml:space="preserve">
+    <value>Jiang</value>
+  </data>
+  <data name="names/chin25" xml:space="preserve">
+    <value>Jing</value>
+  </data>
+  <data name="names/chin26" xml:space="preserve">
+    <value>Kong</value>
+  </data>
+  <data name="names/chin27" xml:space="preserve">
+    <value>Lan</value>
+  </data>
+  <data name="names/chin28" xml:space="preserve">
+    <value>Li</value>
+  </data>
+  <data name="names/chin29" xml:space="preserve">
+    <value>Lian</value>
+  </data>
+  <data name="names/chin3" xml:space="preserve">
+    <value>Chen</value>
+  </data>
+  <data name="names/chin30" xml:space="preserve">
+    <value>Lin</value>
+  </data>
+  <data name="names/chin31" xml:space="preserve">
+    <value>Liu</value>
+  </data>
+  <data name="names/chin32" xml:space="preserve">
+    <value>Lu</value>
+  </data>
+  <data name="names/chin33" xml:space="preserve">
+    <value>Lou</value>
+  </data>
+  <data name="names/chin34" xml:space="preserve">
+    <value>Ma</value>
+  </data>
+  <data name="names/chin35" xml:space="preserve">
+    <value>Mi</value>
+  </data>
+  <data name="names/chin36" xml:space="preserve">
+    <value>Miao</value>
+  </data>
+  <data name="names/chin37" xml:space="preserve">
+    <value>Niu</value>
+  </data>
+  <data name="names/chin38" xml:space="preserve">
+    <value>Nong</value>
+  </data>
+  <data name="names/chin39" xml:space="preserve">
+    <value>Ouyang</value>
+  </data>
+  <data name="names/chin4" xml:space="preserve">
+    <value>Chi</value>
+  </data>
+  <data name="names/chin40" xml:space="preserve">
+    <value>Pang</value>
+  </data>
+  <data name="names/chin41" xml:space="preserve">
+    <value>Qiao</value>
+  </data>
+  <data name="names/chin42" xml:space="preserve">
+    <value>Qin</value>
+  </data>
+  <data name="names/chin43" xml:space="preserve">
+    <value>Qu</value>
+  </data>
+  <data name="names/chin44" xml:space="preserve">
+    <value>Quan</value>
+  </data>
+  <data name="names/chin45" xml:space="preserve">
+    <value>Shangguan</value>
+  </data>
+  <data name="names/chin46" xml:space="preserve">
+    <value>Shen</value>
+  </data>
+  <data name="names/chin47" xml:space="preserve">
+    <value>Shi</value>
+  </data>
+  <data name="names/chin48" xml:space="preserve">
+    <value>Sima</value>
+  </data>
+  <data name="names/chin49" xml:space="preserve">
+    <value>Su</value>
+  </data>
+  <data name="names/chin5" xml:space="preserve">
+    <value>Chu</value>
+  </data>
+  <data name="names/chin50" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="names/chin51" xml:space="preserve">
+    <value>Wan</value>
+  </data>
+  <data name="names/chin52" xml:space="preserve">
+    <value>Wang</value>
+  </data>
+  <data name="names/chin53" xml:space="preserve">
+    <value>Wei</value>
+  </data>
+  <data name="names/chin54" xml:space="preserve">
+    <value>Wen</value>
+  </data>
+  <data name="names/chin55" xml:space="preserve">
+    <value>Wu</value>
+  </data>
+  <data name="names/chin56" xml:space="preserve">
+    <value>Xi</value>
+  </data>
+  <data name="names/chin57" xml:space="preserve">
+    <value>Xie</value>
+  </data>
+  <data name="names/chin58" xml:space="preserve">
+    <value>Ximen</value>
+  </data>
+  <data name="names/chin59" xml:space="preserve">
+    <value>Yan</value>
+  </data>
+  <data name="names/chin6" xml:space="preserve">
+    <value>Dai</value>
+  </data>
+  <data name="names/chin60" xml:space="preserve">
+    <value>Yin</value>
+  </data>
+  <data name="names/chin61" xml:space="preserve">
+    <value>You</value>
+  </data>
+  <data name="names/chin62" xml:space="preserve">
+    <value>Yu</value>
+  </data>
+  <data name="names/chin63" xml:space="preserve">
+    <value>Yuchi</value>
+  </data>
+  <data name="names/chin64" xml:space="preserve">
+    <value>Zeng</value>
+  </data>
+  <data name="names/chin65" xml:space="preserve">
+    <value>Zhang</value>
+  </data>
+  <data name="names/chin66" xml:space="preserve">
+    <value>Zhao</value>
+  </data>
+  <data name="names/chin67" xml:space="preserve">
+    <value>Zhong</value>
+  </data>
+  <data name="names/chin68" xml:space="preserve">
+    <value>Zhou</value>
+  </data>
+  <data name="names/chin69" xml:space="preserve">
+    <value>Zhuge</value>
+  </data>
+  <data name="names/chin7" xml:space="preserve">
+    <value>Duan</value>
+  </data>
+  <data name="names/chin8" xml:space="preserve">
+    <value>Fang</value>
+  </data>
+  <data name="names/chin9" xml:space="preserve">
+    <value>Fei</value>
+  </data>
+  <data name="names/chinn1" xml:space="preserve">
+    <value>Delong</value>
+  </data>
+  <data name="names/chinn10" xml:space="preserve">
+    <value>Shusheng</value>
+  </data>
+  <data name="names/chinn11" xml:space="preserve">
+    <value>Weiyong</value>
+  </data>
+  <data name="names/chinn11001" xml:space="preserve">
+    <value>Wan Zhen</value>
+  </data>
+  <data name="names/chinn11002" xml:space="preserve">
+    <value>Hong Yu</value>
+  </data>
+  <data name="names/chinn11003" xml:space="preserve">
+    <value>Wen Jun</value>
+  </data>
+  <data name="names/chinn11004" xml:space="preserve">
+    <value>Hui Xian</value>
+  </data>
+  <data name="names/chinn11005" xml:space="preserve">
+    <value>Yi Jing</value>
+  </data>
+  <data name="names/chinn11006" xml:space="preserve">
+    <value>Jin</value>
+  </data>
+  <data name="names/chinn11007" xml:space="preserve">
+    <value>Shan Shan</value>
+  </data>
+  <data name="names/chinn11008" xml:space="preserve">
+    <value>Shu Fen</value>
+  </data>
+  <data name="names/chinn11009" xml:space="preserve">
+    <value>Feng</value>
+  </data>
+  <data name="names/chinn11010" xml:space="preserve">
+    <value>Jia</value>
+  </data>
+  <data name="names/chinn11011" xml:space="preserve">
+    <value>Yan</value>
+  </data>
+  <data name="names/chinn11012" xml:space="preserve">
+    <value>Xue Ping</value>
+  </data>
+  <data name="names/chinn11013" xml:space="preserve">
+    <value>Ting Ting</value>
+  </data>
+  <data name="names/chinn11014" xml:space="preserve">
+    <value>Xuan</value>
+  </data>
+  <data name="names/chinn11015" xml:space="preserve">
+    <value>Yu Qin</value>
+  </data>
+  <data name="names/chinn11016" xml:space="preserve">
+    <value>Xiu Lan</value>
+  </data>
+  <data name="names/chinn11017" xml:space="preserve">
+    <value>Mei Feng</value>
+  </data>
+  <data name="names/chinn11018" xml:space="preserve">
+    <value>Jia Yan</value>
+  </data>
+  <data name="names/chinn11019" xml:space="preserve">
+    <value>Ke Xin</value>
+  </data>
+  <data name="names/chinn11020" xml:space="preserve">
+    <value>Ling</value>
+  </data>
+  <data name="names/chinn11021" xml:space="preserve">
+    <value>Wang Fang</value>
+  </data>
+  <data name="names/chinn11022" xml:space="preserve">
+    <value>Li Na</value>
+  </data>
+  <data name="names/chinn11023" xml:space="preserve">
+    <value>Zhang Min</value>
+  </data>
+  <data name="names/chinn11024" xml:space="preserve">
+    <value>Li Jing</value>
+  </data>
+  <data name="names/chinn11025" xml:space="preserve">
+    <value>Zhang Li</value>
+  </data>
+  <data name="names/chinn11026" xml:space="preserve">
+    <value>Wang Jing</value>
+  </data>
+  <data name="names/chinn11027" xml:space="preserve">
+    <value>Wang Li</value>
+  </data>
+  <data name="names/chinn11028" xml:space="preserve">
+    <value>Zhang Jing</value>
+  </data>
+  <data name="names/chinn11029" xml:space="preserve">
+    <value>Li Min</value>
+  </data>
+  <data name="names/chinn11030" xml:space="preserve">
+    <value>Wang Min</value>
+  </data>
+  <data name="names/chinn11031" xml:space="preserve">
+    <value>Liu Yang</value>
+  </data>
+  <data name="names/chinn11032" xml:space="preserve">
+    <value>Wang Yan</value>
+  </data>
+  <data name="names/chinn11033" xml:space="preserve">
+    <value>Li Juan</value>
+  </data>
+  <data name="names/chinn11034" xml:space="preserve">
+    <value>Zhang Yan</value>
+  </data>
+  <data name="names/chinn11035" xml:space="preserve">
+    <value>Li Yan</value>
+  </data>
+  <data name="names/chinn11036" xml:space="preserve">
+    <value>Wang Juan</value>
+  </data>
+  <data name="names/chinn11037" xml:space="preserve">
+    <value>Li Xia</value>
+  </data>
+  <data name="names/chinn11038" xml:space="preserve">
+    <value>Liu Min</value>
+  </data>
+  <data name="names/chinn11039" xml:space="preserve">
+    <value>Li Li</value>
+  </data>
+  <data name="names/chinn11040" xml:space="preserve">
+    <value>Liu Fang</value>
+  </data>
+  <data name="names/chinn12" xml:space="preserve">
+    <value>Bingjun</value>
+  </data>
+  <data name="names/chinn13" xml:space="preserve">
+    <value>Daosheng</value>
+  </data>
+  <data name="names/chinn14" xml:space="preserve">
+    <value>Zhiguang</value>
+  </data>
+  <data name="names/chinn15" xml:space="preserve">
+    <value>Tong</value>
+  </data>
+  <data name="names/chinn16" xml:space="preserve">
+    <value>Dapeng</value>
+  </data>
+  <data name="names/chinn17" xml:space="preserve">
+    <value>Xiangdong</value>
+  </data>
+  <data name="names/chinn18" xml:space="preserve">
+    <value>Guoyuan</value>
+  </data>
+  <data name="names/chinn19" xml:space="preserve">
+    <value>Ke</value>
+  </data>
+  <data name="names/chinn2" xml:space="preserve">
+    <value>Yueqiao</value>
+  </data>
+  <data name="names/chinn20" xml:space="preserve">
+    <value>Dawei</value>
+  </data>
+  <data name="names/chinn3" xml:space="preserve">
+    <value>Wei</value>
+  </data>
+  <data name="names/chinn4" xml:space="preserve">
+    <value>Anbang</value>
+  </data>
+  <data name="names/chinn5" xml:space="preserve">
+    <value>Ting</value>
+  </data>
+  <data name="names/chinn6" xml:space="preserve">
+    <value>Yihu</value>
+  </data>
+  <data name="names/chinn7" xml:space="preserve">
+    <value>Kemeng</value>
+  </data>
+  <data name="names/chinn8" xml:space="preserve">
+    <value>Fei</value>
+  </data>
+  <data name="names/chinn9" xml:space="preserve">
+    <value>Ran</value>
+  </data>
+  <data name="ranksCHI/captain" xml:space="preserve">
+    <value>Da Wei</value>
+  </data>
+  <data name="ranksCHI/junior_lieutenant" xml:space="preserve">
+    <value>Shao Wei</value>
+  </data>
+  <data name="ranksCHI/junior_sergeant" xml:space="preserve">
+    <value>Xia Shi</value>
+  </data>
+  <data name="ranksCHI/lance_corporal" xml:space="preserve">
+    <value>Shang Deng Bing</value>
+  </data>
+  <data name="ranksCHI/lieutenant" xml:space="preserve">
+    <value>Zhong Wei</value>
+  </data>
+  <data name="ranksCHI/major" xml:space="preserve">
+    <value>Shao Xiao</value>
+  </data>
+  <data name="ranksCHI/private" xml:space="preserve">
+    <value>Lie Bing</value>
+  </data>
+  <data name="ranksCHI/senior_lieutenant" xml:space="preserve">
+    <value>Shang Wei</value>
+  </data>
+  <data name="ranksCHI/senior_sergeant" xml:space="preserve">
+    <value>Shang Shi</value>
+  </data>
+  <data name="ranksCHI/sergeant" xml:space="preserve">
+    <value>Zhong Shi</value>
+  </data>
+  <data name="ranksCHI/sergeant_major" xml:space="preserve">
+    <value>Zhun Wei</value>
+  </data>
+</root>

@@ -1,0 +1,787 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CSAnimation/applyBtn/label" xml:space="preserve">
+    <value>Так точно!</value>
+  </data>
+  <data name="CSAnimation/description" xml:space="preserve">
+    <value>Поздравляем, ваша команда перешла в следующий дивизион. Так держать!</value>
+  </data>
+  <data name="CSAnimation/header" xml:space="preserve">
+    <value>Смена дивизиона</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/accepted" xml:space="preserve">
+    <value>Принято</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/cancelled" xml:space="preserve">
+    <value>Отменено</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/officerDescription" xml:space="preserve">
+    <value>Штат команды — вручную сформированный состав из друзей и подходящих игроков.</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/onlyInvitesCheckbox" xml:space="preserve">
+    <value>Показывать только отправленные</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/ownerDescription" xml:space="preserve">
+    <value>Штат команды — вручную сформированный состав из друзей и подходящих игроков.</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/playerName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/rejected" xml:space="preserve">
+    <value>Отказ</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/title" xml:space="preserve">
+    <value>Отправленные приглашения и поданные заявки на вступление</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/windowTitle" xml:space="preserve">
+    <value>Заявки и приглашения</value>
+  </data>
+  <data name="StaticFormationStatsView/seasonFilter" xml:space="preserve">
+    <value>Статистика за:</value>
+  </data>
+  <data name="TextLoading/loading" xml:space="preserve">
+    <value>Загрузка</value>
+  </data>
+  <data name="button/chooseVehicles/info/tooltip/description/notSelected" xml:space="preserve">
+    <value>Не выбрано ни одной машины. Автопоиск невозможен.</value>
+  </data>
+  <data name="button/chooseVehicles/info/tooltip/description/notValid" xml:space="preserve">
+    <value>Выбранная машина не готова к бою. Автопоиск невозможен.</value>
+  </data>
+  <data name="button/chooseVehicles/info/tooltip/description/valid" xml:space="preserve">
+    <value>Выбрана подходящая техника. Можно запустить автопоиск.</value>
+  </data>
+  <data name="button/chooseVehicles/info/tooltip/title" xml:space="preserve">
+    <value>Выбор техники</value>
+  </data>
+  <data name="button/chooseVehicles/selected" xml:space="preserve">
+    <value>Выбранная техника</value>
+  </data>
+  <data name="button/medallion/addSlotSettings" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="button/medallion/availableQuantity" xml:space="preserve">
+    <value>Подходит:</value>
+  </data>
+  <data name="button/medallion/chooseVehicle" xml:space="preserve">
+    <value>Выбрать технику</value>
+  </data>
+  <data name="introView/leftBlock/btnLabel" xml:space="preserve">
+    <value>Найти</value>
+  </data>
+  <data name="introView/leftBlock/descr" xml:space="preserve">
+    <value>Подбор подходящей вам команды из списка уже созданных. Вам необходимо соответствовать требованиям командира.</value>
+  </data>
+  <data name="introView/leftBlock/header" xml:space="preserve">
+    <value>Поиск команды</value>
+  </data>
+  <data name="introView/rightBlock/btnLabel" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="introView/rightBlock/descr" xml:space="preserve">
+    <value>Создание команды для игры с друзьями, а также игроками, чья техника соответствует вашим требованиям.</value>
+  </data>
+  <data name="introView/rightBlock/header" xml:space="preserve">
+    <value>Создание команды</value>
+  </data>
+  <data name="rallyInfo/profileBtn/Label" xml:space="preserve">
+    <value>Профиль команды</value>
+  </data>
+  <data name="respawn/chatHeader" xml:space="preserve">
+    <value>Канал связи</value>
+  </data>
+  <data name="respawn/enemyTeamStatus/Header" xml:space="preserve">
+    <value>Команда противника:</value>
+  </data>
+  <data name="respawn/enemyTeamStatus/notReady" xml:space="preserve">
+    <value>Не готова</value>
+  </data>
+  <data name="respawn/enemyTeamStatus/ready" xml:space="preserve">
+    <value>Готова!</value>
+  </data>
+  <data name="respawn/fight/label" xml:space="preserve">
+    <value>Команда готова!</value>
+  </data>
+  <data name="respawn/fight/status/commander" xml:space="preserve">
+    <value>Подтвердить готовность всей команды.</value>
+  </data>
+  <data name="respawn/fight/status/private" xml:space="preserve">
+    <value>Ожидайте выхода в бой...</value>
+  </data>
+  <data name="respawn/status/info" xml:space="preserve">
+    <value>Выберите машину за отведённое время.</value>
+  </data>
+  <data name="respawn/status/ready" xml:space="preserve">
+    <value>Ожидайте начала боя...</value>
+  </data>
+  <data name="respawn/status/warning" xml:space="preserve">
+    <value>Подтвердите готовность.</value>
+  </data>
+  <data name="respawn/team/points" xml:space="preserve">
+    <value>Суммарный уровень:</value>
+  </data>
+  <data name="respawn/team/teamMembers" xml:space="preserve">
+    <value>Состав: %(current)s / %(max)s</value>
+  </data>
+  <data name="respawn/team/teamVehiclesStub" xml:space="preserve">
+    <value>Техника: VI–VIII</value>
+  </data>
+  <data name="selectedFormation/JoinUnitSection/header" xml:space="preserve">
+    <value>Выбранная боевая комната</value>
+  </data>
+  <data name="squadWindow/waitingForBattle" xml:space="preserve">
+    <value>Взвод в очереди на выход в бой</value>
+  </data>
+  <data name="unitView/header" xml:space="preserve">
+    <value>Боевая комната</value>
+  </data>
+  <data name="window/autoSearch/confirmation/cancelLbl" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="window/autoSearch/confirmation/ctxMessage" xml:space="preserve">
+    <value>Осталось времени на подтверждение:</value>
+  </data>
+  <data name="window/autoSearch/confirmation/ctxSeconds" xml:space="preserve">
+    <value>с</value>
+  </data>
+  <data name="window/autoSearch/confirmation/headerText" xml:space="preserve">
+    <value>Команда найдена</value>
+  </data>
+  <data name="window/autoSearch/confirmation/mainText" xml:space="preserve">
+    <value>Подтвердите готовность</value>
+  </data>
+  <data name="window/autoSearch/confirmation/submitlLbl" xml:space="preserve">
+    <value>Готов!</value>
+  </data>
+  <data name="window/autoSearch/errorState/cancelLbl" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="window/autoSearch/errorState/ctxMessage" xml:space="preserve">
+    <value>Найти новую команду?</value>
+  </data>
+  <data name="window/autoSearch/errorState/headerText" xml:space="preserve">
+    <value>Время истекло</value>
+  </data>
+  <data name="window/autoSearch/errorState/mainText" xml:space="preserve">
+    <value>Команда была найдена,
+но вы не подтвердили готовность.</value>
+  </data>
+  <data name="window/autoSearch/errorState/submitlLbl" xml:space="preserve">
+    <value>Найти</value>
+  </data>
+  <data name="window/autoSearch/searchCommand/cancelLbl" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="window/autoSearch/searchCommand/ctxMessage" xml:space="preserve">
+    <value>Среднее время ожидания:</value>
+  </data>
+  <data name="window/autoSearch/searchCommand/cxtDnmMessage" xml:space="preserve">
+    <value>%d мин</value>
+  </data>
+  <data name="window/autoSearch/searchCommand/mainText" xml:space="preserve">
+    <value>Поиск подходящей команды</value>
+  </data>
+  <data name="window/autoSearch/searchEnemy/mainText" xml:space="preserve">
+    <value>Ожидание боя...</value>
+  </data>
+  <data name="window/autoSearch/searchEnemyRespawn/mainText" xml:space="preserve">
+    <value>Ожидание противника...</value>
+  </data>
+  <data name="window/autoSearch/waitingPlayers/mainText" xml:space="preserve">
+    <value>Ожидание игроков...</value>
+  </data>
+  <data name="window/backBtnLbl" xml:space="preserve">
+    <value>НАЗАД</value>
+  </data>
+  <data name="window/intro/auto/btn" xml:space="preserve">
+    <value>Автопоиск</value>
+  </data>
+  <data name="window/intro/auto/btn/tooltip/description/disabled" xml:space="preserve">
+    <value>Поиск команды невозможен. Техника не выбрана или не готова к бою.</value>
+  </data>
+  <data name="window/intro/auto/btn/tooltip/description/enabled" xml:space="preserve">
+    <value>Нажмите, чтобы автоматически найти команду и сразу выйти в бой.</value>
+  </data>
+  <data name="window/intro/auto/btn/tooltip/title" xml:space="preserve">
+    <value>Автопоиск</value>
+  </data>
+  <data name="window/intro/auto/btnLbl" xml:space="preserve">
+    <value>Запуск автопоиска</value>
+  </data>
+  <data name="window/intro/auto/description" xml:space="preserve">
+    <value>Команда будет подобрана автоматически.</value>
+  </data>
+  <data name="window/intro/auto/title" xml:space="preserve">
+    <value>Автопоиск по рейтингу</value>
+  </data>
+  <data name="window/intro/auto/vehicleLbl" xml:space="preserve">
+    <value>Выбранная техника:</value>
+  </data>
+  <data name="window/intro/create/btn/addPlayers" xml:space="preserve">
+    <value>Пригласить</value>
+  </data>
+  <data name="window/intro/create/btn/assembleTeam" xml:space="preserve">
+    <value>Собрать команду</value>
+  </data>
+  <data name="window/intro/create/btn/joinTeam" xml:space="preserve">
+    <value>Присоединиться</value>
+  </data>
+  <data name="window/intro/create/btn/look" xml:space="preserve">
+    <value>Список команд</value>
+  </data>
+  <data name="window/intro/create/btn/private/seeStaff" xml:space="preserve">
+    <value>Штат команды</value>
+  </data>
+  <data name="window/intro/description" xml:space="preserve">
+    <value>В командных боях с каждой из сторон участвуют равные по мастерству команды по 7 игроков в каждой.
+Уровни техники: VI–VIII. Необходимый суммарный уровень техники — 54.</value>
+  </data>
+  <data name="window/intro/search/btn" xml:space="preserve">
+    <value>Найти</value>
+  </data>
+  <data name="window/intro/search/description" xml:space="preserve">
+    <value>Подбор подходящей вам команды из списка уже созданных. Вам необходимо соответствовать требованиям командира.</value>
+  </data>
+  <data name="window/intro/search/title" xml:space="preserve">
+    <value>Поиск команды</value>
+  </data>
+  <data name="window/intro/team/description/createBattleRoom" xml:space="preserve">
+    <value>Создать боевую комнату</value>
+  </data>
+  <data name="window/intro/title" xml:space="preserve">
+    <value>Командный бой</value>
+  </data>
+  <data name="window/intro/unavailableWaiting" xml:space="preserve">
+    <value>Ожидание...</value>
+  </data>
+  <data name="window/rosterSlotSettings/bottomResult" xml:space="preserve">
+    <value>Выбрано:</value>
+  </data>
+  <data name="window/rosterSlotSettings/tabBtnLbl/range" xml:space="preserve">
+    <value>Диапазон</value>
+  </data>
+  <data name="window/rosterSlotSettings/tabBtnLbl/vehicle" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="window/rosterSlotSettings/title" xml:space="preserve">
+    <value>Настройка требований</value>
+  </data>
+  <data name="window/rosterSlotSettings/vehicleTab/cancelBtn" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="window/rosterSlotSettings/vehicleTab/headerText" xml:space="preserve">
+    <value>Укажите требования, которым должна соответствовать техника вашего будущего сокомандника.</value>
+  </data>
+  <data name="window/rosterSlotSettings/vehicleTab/nationFieldSet" xml:space="preserve">
+    <value>Нация</value>
+  </data>
+  <data name="window/rosterSlotSettings/vehicleTab/submitBtn" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="window/rosterSlotSettings/vehicleTab/vehicleLevel" xml:space="preserve">
+    <value>Уровень техники</value>
+  </data>
+  <data name="window/rosterSlotSettings/vehicleTab/vehicleType" xml:space="preserve">
+    <value>Тип техники</value>
+  </data>
+  <data name="window/staticRallyInfo/cancelBtnLabel" xml:space="preserve">
+    <value>Отозвать</value>
+  </data>
+  <data name="window/staticRallyInfo/joinBtnLabel" xml:space="preserve">
+    <value>Подать заявку</value>
+  </data>
+  <data name="window/staticRallyInfo/joinInfo/alreadyJoined" xml:space="preserve">
+    <value>Вы уже состоите в команде</value>
+  </data>
+  <data name="window/staticRallyInfo/joinInfo/applicationCooldown" xml:space="preserve">
+    <value>Подать заявку невозможно</value>
+  </data>
+  <data name="window/staticRallyInfo/joinInfo/inProcess" xml:space="preserve">
+    <value>Заявка на рассмотрении</value>
+  </data>
+  <data name="window/staticRallyInfo/joinInfo/inProcessOther" xml:space="preserve">
+    <value>Заявка на вступление уже подана</value>
+  </data>
+  <data name="window/staticRallyInfo/joinInfo/join" xml:space="preserve">
+    <value>Подача заявки на вступление</value>
+  </data>
+  <data name="window/staticRallyInfo/ladderInfo" xml:space="preserve">
+    <value>Лига %(league)s. Дивизион %(division)s</value>
+  </data>
+  <data name="window/staticRallyInfo/noAwards" xml:space="preserve">
+    <value>Наград нет</value>
+  </data>
+  <data name="window/staticRallyInfo/noRallySelected" xml:space="preserve">
+    <value>Выберите команду из списка слева,
+чтобы увидеть подробное описание.</value>
+  </data>
+  <data name="window/staticRallyInfo/staticRally/statsWinsPercent" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="window/staticRallyInfo/statsBattlesCount" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="window/title" xml:space="preserve">
+    <value>Командный бой</value>
+  </data>
+  <data name="window/unit/applySlotsSettings" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="window/unit/autoRecruit" xml:space="preserve">
+    <value>Донабрать</value>
+  </data>
+  <data name="window/unit/cancelSlotSettings" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="window/unit/candidates" xml:space="preserve">
+    <value>Добровольцы</value>
+  </data>
+  <data name="window/unit/candidates/legionaries" xml:space="preserve">
+    <value>Легионеры</value>
+  </data>
+  <data name="window/unit/candidates/team" xml:space="preserve">
+    <value>Команда</value>
+  </data>
+  <data name="window/unit/chat" xml:space="preserve">
+    <value>Канал связи</value>
+  </data>
+  <data name="window/unit/closeRoom" xml:space="preserve">
+    <value>— Комната видима</value>
+  </data>
+  <data name="window/unit/description" xml:space="preserve">
+    <value>C каждой из сторон участвуют равные по мастерству команды по 7 игроков в каждой.
+Уровни техники: VI–VIII. Необходимый суммарный уровень техники в команде — 54.</value>
+  </data>
+  <data name="window/unit/descriptionDefault" xml:space="preserve">
+    <value>Добавить описание —</value>
+  </data>
+  <data name="window/unit/fight" xml:space="preserve">
+    <value>В бой!</value>
+  </data>
+  <data name="window/unit/inviteFriend" xml:space="preserve">
+    <value>Пригласить игроков</value>
+  </data>
+  <data name="window/unit/leave" xml:space="preserve">
+    <value>Покинуть комнату</value>
+  </data>
+  <data name="window/unit/lockSlot" xml:space="preserve">
+    <value>Заблокировать место</value>
+  </data>
+  <data name="window/unit/message/candidate" xml:space="preserve">
+    <value>Командир присоединит вас к боевому составу</value>
+  </data>
+  <data name="window/unit/message/curfew" xml:space="preserve">
+    <value>Комендантский час</value>
+  </data>
+  <data name="window/unit/message/falloutGroupNotReady" xml:space="preserve">
+    <value>Одна из машин не готова к бою</value>
+  </data>
+  <data name="window/unit/message/falloutLevel" xml:space="preserve">
+    <value>Необходима как минимум 1 машина %(level)s уровня</value>
+  </data>
+  <data name="window/unit/message/falloutMin/levelRange" xml:space="preserve">
+    <value>Дополните группу техникой %(level)s уровней</value>
+  </data>
+  <data name="window/unit/message/falloutMin/requiredLevel" xml:space="preserve">
+    <value>Выберите машину %(level)s уровня</value>
+  </data>
+  <data name="window/unit/message/fortificationNotAvailable" xml:space="preserve">
+    <value>Режим «Укрепрайон: сражения» временно недоступен</value>
+  </data>
+  <data name="window/unit/message/getNotReady" xml:space="preserve">
+    <value>Нажмите, чтобы отменить готовность</value>
+  </data>
+  <data name="window/unit/message/getReady" xml:space="preserve">
+    <value>Подтвердите готовность выйти в бой</value>
+  </data>
+  <data name="window/unit/message/inactivePeriphery" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="window/unit/message/inactivePeripheryBattle" xml:space="preserve">
+    <value>Сообщить о готовности можно за 10 минут до Наступления</value>
+  </data>
+  <data name="window/unit/message/inactivePeripherySortie" xml:space="preserve">
+    <value>Сообщить о готовности можно за 10 минут до начала Вылазок</value>
+  </data>
+  <data name="window/unit/message/invalidLevelError/6" xml:space="preserve">
+    <value>В команде может быть только 1 машина VI уровня.</value>
+  </data>
+  <data name="window/unit/message/invalidLevelError/6_7" xml:space="preserve">
+    <value>В команде не может одновременно быть техника VI и VII уровней.</value>
+  </data>
+  <data name="window/unit/message/invalidLevelError/7" xml:space="preserve">
+    <value>В команде не может быть более 2 машин VII уровня.</value>
+  </data>
+  <data name="window/unit/message/invalidLevelError/unresolved" xml:space="preserve">
+    <value>Не соблюдены требования по уровню техники.</value>
+  </data>
+  <data name="window/unit/message/level" xml:space="preserve">
+    <value>Суммарный уровень техники не соответствует %(level)d</value>
+  </data>
+  <data name="window/unit/message/maintenance" xml:space="preserve">
+    <value>Режим временно недоступен</value>
+  </data>
+  <data name="window/unit/message/minSlots" xml:space="preserve">
+    <value>Неполный состав</value>
+  </data>
+  <data name="window/unit/message/ready" xml:space="preserve">
+    <value>Все готовы</value>
+  </data>
+  <data name="window/unit/message/squadInBattle" xml:space="preserve">
+    <value>Взвод в бою</value>
+  </data>
+  <data name="window/unit/message/unitIsFull" xml:space="preserve">
+    <value>Командир присоединит вас к боевому составу</value>
+  </data>
+  <data name="window/unit/message/unitIsLocked" xml:space="preserve">
+    <value>Вы не в штате команды. Состав заморожен.</value>
+  </data>
+  <data name="window/unit/message/vehicleInNotReady/broken" xml:space="preserve">
+    <value>Машина не готова к бою: требуется ремонт.</value>
+  </data>
+  <data name="window/unit/message/vehicleInNotReady/crewNotFull" xml:space="preserve">
+    <value>Машина не готова к бою: неполный экипаж.</value>
+  </data>
+  <data name="window/unit/message/vehicleInNotReady/isInBattle" xml:space="preserve">
+    <value>Машина в бою</value>
+  </data>
+  <data name="window/unit/message/vehicleInNotReady/rentIsOver" xml:space="preserve">
+    <value>Машина не готова к бою: аренда завершена.</value>
+  </data>
+  <data name="window/unit/message/vehicleInNotReady/rotationGroupLocked" xml:space="preserve">
+    <value>Машина не готова к бою: группа %(groupNum)s заблокирована.</value>
+  </data>
+  <data name="window/unit/message/vehicleInNotReady/wrongMode" xml:space="preserve">
+    <value>Выбранная машина не подходит для данного режима боёв</value>
+  </data>
+  <data name="window/unit/message/vehicleNotSelected" xml:space="preserve">
+    <value>Выберите машину, на которой собираетесь выйти в бой.</value>
+  </data>
+  <data name="window/unit/message/vehicleNotValid" xml:space="preserve">
+    <value>Машина не готова к бою</value>
+  </data>
+  <data name="window/unit/message/waitCommander" xml:space="preserve">
+    <value>Ожидание решения капитана команды...</value>
+  </data>
+  <data name="window/unit/message/waiting" xml:space="preserve">
+    <value>Ожидание готовности игроков...</value>
+  </data>
+  <data name="window/unit/notReady" xml:space="preserve">
+    <value>Не готов</value>
+  </data>
+  <data name="window/unit/openRoom" xml:space="preserve">
+    <value>— Комната невидима</value>
+  </data>
+  <data name="window/unit/rangeValue" xml:space="preserve">
+    <value>%(minVal)s – %(maxVal)s</value>
+  </data>
+  <data name="window/unit/ready" xml:space="preserve">
+    <value>Готов!</value>
+  </data>
+  <data name="window/unit/rosterSettingsView/or" xml:space="preserve">
+    <value>или</value>
+  </data>
+  <data name="window/unit/slot/emptySlot" xml:space="preserve">
+    <value>Свободно</value>
+  </data>
+  <data name="window/unit/slot/freezed" xml:space="preserve">
+    <value>Заморожено</value>
+  </data>
+  <data name="window/unit/slot/locked" xml:space="preserve">
+    <value>Заблокировано</value>
+  </data>
+  <data name="window/unit/slot/notAllowed" xml:space="preserve">
+    <value>Заблокировано</value>
+  </data>
+  <data name="window/unit/slot/notAvailable" xml:space="preserve">
+    <value>Заблокировано</value>
+  </data>
+  <data name="window/unit/slot/required" xml:space="preserve">
+    <value>Пригласите игроков</value>
+  </data>
+  <data name="window/unit/slot/takePlace" xml:space="preserve">
+    <value>Занять место</value>
+  </data>
+  <data name="window/unit/slotHeaderText" xml:space="preserve">
+    <value>Настройка требований</value>
+  </data>
+  <data name="window/unit/slotSecondText" xml:space="preserve">
+    <value>Добавьте требования с указанием техники, которую желаете видеть в команде. При донаборе установленные к технике требования не учитываются.</value>
+  </data>
+  <data name="window/unit/team" xml:space="preserve">
+    <value>Штат команды</value>
+  </data>
+  <data name="window/unit/teamMembers" xml:space="preserve">
+    <value>Состав: %(current)s / %(max)s</value>
+  </data>
+  <data name="window/unit/teamPoints" xml:space="preserve">
+    <value>Суммарный уровень:</value>
+  </data>
+  <data name="window/unit/teamVehicles" xml:space="preserve">
+    <value>Техника:</value>
+  </data>
+  <data name="window/unit/teamVehiclesLbl" xml:space="preserve">
+    <value>Техника: %(levelsRange)s</value>
+  </data>
+  <data name="window/unit/teamVehiclesStub" xml:space="preserve">
+    <value>Техника: VI–VIII</value>
+  </data>
+  <data name="window/unit/unitListView/captain" xml:space="preserve">
+    <value>Капитан команды</value>
+  </data>
+  <data name="window/unit/unitListView/clubName" xml:space="preserve">
+    <value>Название команды</value>
+  </data>
+  <data name="window/unit/unitListView/commander" xml:space="preserve">
+    <value>Командир</value>
+  </data>
+  <data name="window/unit/unitListView/description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="window/unit/unitListView/paginationDown" xml:space="preserve">
+    <value>Слабее</value>
+  </data>
+  <data name="window/unit/unitListView/paginationUp" xml:space="preserve">
+    <value>Сильнее</value>
+  </data>
+  <data name="window/unit/unitListView/players" xml:space="preserve">
+    <value>Состав</value>
+  </data>
+  <data name="window/unit/unitName" xml:space="preserve">
+    <value>Команда %(commanderName)s</value>
+  </data>
+  <data name="window/unit/unlockSlot" xml:space="preserve">
+    <value>Разблокировать место</value>
+  </data>
+  <data name="window/unitListView/create/btn" xml:space="preserve">
+    <value>Создать комнату</value>
+  </data>
+  <data name="window/unitListView/enterBtn/common" xml:space="preserve">
+    <value>Записаться добровольцем</value>
+  </data>
+  <data name="window/unitListView/enterBtn/legionary" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="window/unitListView/enterBtn/member" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="window/unitListView/enterText/legionary" xml:space="preserve">
+    <value>Войти в роли легионера</value>
+  </data>
+  <data name="window/unitListView/enterText/member" xml:space="preserve">
+    <value>Присоединиться к команде</value>
+  </data>
+  <data name="window/unitListView/foundTeamsDescription" xml:space="preserve">
+    <value>В указанных ниже командах открыт набор на вступление и есть свободные места.</value>
+  </data>
+  <data name="window/unitListView/noItems" xml:space="preserve">
+    <value>Команды не найдены</value>
+  </data>
+  <data name="window/unitListView/noSearchResults/btn" xml:space="preserve">
+    <value>Вернуться к списку</value>
+  </data>
+  <data name="window/unitListView/noSearchResults/description" xml:space="preserve">
+    <value>Команды с таким названием не найдены.</value>
+  </data>
+  <data name="window/unitListView/noSearchResults/header" xml:space="preserve">
+    <value>Поиск не дал результатов</value>
+  </data>
+  <data name="window/unitListView/noTeams/description" xml:space="preserve">
+    <value>В настоящий момент нет команд, удовлетворяющих условиям поиска. Попробуйте позже.</value>
+  </data>
+  <data name="window/unitListView/noTeams/header" xml:space="preserve">
+    <value>Команды не найдены</value>
+  </data>
+  <data name="window/unitListView/noUnitSelected" xml:space="preserve">
+    <value>Выберите команду из списка слева,
+чтобы увидеть подробное описание.</value>
+  </data>
+  <data name="window/unitListView/refreshList" xml:space="preserve">
+    <value>Обновить список</value>
+  </data>
+  <data name="window/unitListView/renderer/next" xml:space="preserve">
+    <value>Следующие</value>
+  </data>
+  <data name="window/unitListView/renderer/previous" xml:space="preserve">
+    <value>Предыдущие</value>
+  </data>
+  <data name="window/unitListView/renderer/requiredVehicles" xml:space="preserve">
+    <value>Подходящая техника</value>
+  </data>
+  <data name="window/unitListView/renderer/showMore" xml:space="preserve">
+    <value>Показать ещё 20</value>
+  </data>
+  <data name="window/unitListView/selectedTeam" xml:space="preserve">
+    <value>Команда</value>
+  </data>
+  <data name="window/unitListView/sort/label" xml:space="preserve">
+    <value>Рейтинг:</value>
+  </data>
+  <data name="window/unitListView/team" xml:space="preserve">
+    <value>Состав</value>
+  </data>
+  <data name="window/unitListView/teamDescription" xml:space="preserve">
+    <value>Здесь находится описание команды</value>
+  </data>
+  <data name="window/unitListView/title" xml:space="preserve">
+    <value>Боевые комнаты</value>
+  </data>
+  <data name="window/unitListView/vehicles" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="window/vehicleSelector/buttons/cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="window/vehicleSelector/buttons/select" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="window/vehicleSelector/filters/all" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="window/vehicleSelector/filters/allLevels" xml:space="preserve">
+    <value>Все уровни</value>
+  </data>
+  <data name="window/vehicleSelector/filters/level" xml:space="preserve">
+    <value>%(levelNum)d уровень</value>
+  </data>
+  <data name="window/vehicleSelector/filters/matches" xml:space="preserve">
+    <value>Отображать только подходящую технику</value>
+  </data>
+  <data name="window/vehicleSelector/info/intro" xml:space="preserve">
+    <value>Вы выйдете в бой на одной из отмеченных машин. Допустимые уровни техники: VI–VIII
+
+Для комфортной игры выберите лёгкий, средний или тяжёлый танк.</value>
+  </data>
+  <data name="window/vehicleSelector/info/respawn" xml:space="preserve">
+    <value>Выберите машину VI–VIII уровня, на которой хотели бы выйти в бой.</value>
+  </data>
+  <data name="window/vehicleSelector/info/search" xml:space="preserve">
+    <value>Вы выйдете в бой на одной из отмеченных машин. Допустимые уровни техники: VI–VIII</value>
+  </data>
+  <data name="window/vehicleSelector/info/unit" xml:space="preserve">
+    <value>Выберите машину VI–VIII уровня, на которой хотели бы выйти в бой.</value>
+  </data>
+  <data name="window/vehicleSelector/title" xml:space="preserve">
+    <value>Выбор техники</value>
+  </data>
+</root>

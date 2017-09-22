@@ -132,8 +132,15 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         public int AutoRepairCost { get; set; }
 
-        public int ActionCredits { get; set; }
-        public int ActionXp { get; set; }
+        public int EventCredits { get; set; }
+	    public int BoosterCredits { get; set; }
+	    public int BattlePayments { get; set; }
+
+	    public int EventCreditsPremium { get; set; }
+	    public int BoosterCreditsPremium { get; set; }
+	    public int BattlePaymentsPremium { get; set; }
+
+		public int ActionXp { get; set; }
 
         public string XpTitle { get; set; }
 
@@ -165,7 +172,9 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int StunNum { get; set; }
         public int PiercingsReceived { get; set; }
 
-        public string HitsPenetrations => $"{Hits}/{Pierced}";
+	    public string Raw { get; set; }
+
+		public string HitsPenetrations => $"{Hits}/{Pierced}";
 
         public string DamagedDestroyed => $"{Damaged}/{Killed}";
 
@@ -375,7 +384,9 @@ namespace WotDossier.Applications.ViewModel.Replay
             
             if (replay.datablock_battle_result != null)
             {
-                MapDescription = GetMapDescription(replay);
+	            Raw = replay.datablock_battle_result.raw;
+
+				MapDescription = GetMapDescription(replay);
 
                 var tankDescription = Dictionaries.Instance.GetTankDescription(replay.datablock_battle_result.personal.typeCompDescr);
 
@@ -437,7 +448,7 @@ namespace WotDossier.Applications.ViewModel.Replay
                 }
                 else
                 {
-                    premiumCredits = (int)(replay.datablock_battle_result.personal.credits * premiumFactor);
+                    premiumCredits = (int)(replay.datablock_battle_result.personal.originalCredits * premiumFactor);
                 }
 
                 Xp = replay.datablock_battle_result.vehicles[ReplayUser.Id].xp;
@@ -448,10 +459,17 @@ namespace WotDossier.Applications.ViewModel.Replay
                 CreditsContributionOut = (int)Math.Round((PremiumCreditsContributionOut / premiumFactor), 0);
                 CreditsContributionIn = (int)Math.Round((PremiumCreditsContributionIn / premiumFactor), 0);
 
-                Credits = (int)Math.Round((PremiumCredits / premiumFactor), 0);
-                
-                ActionCredits = replay.datablock_battle_result.personal.eventCredits;
-                ActionXp = replay.datablock_battle_result.personal.eventXP;
+                //Credits = (int)Math.Round((PremiumCredits / premiumFactor), 0);
+	            Credits = replay.datablock_battle_result.personal.originalCredits;
+
+				EventCredits = replay.datablock_battle_result.personal.eventCredits;
+
+				var temp = replay.datablock_battle_result.personal.boosterCredits;
+
+				BoosterCreditsPremium = IsPremium ? temp : (int) Math.Round(temp * premiumFactor, 0);
+	            BoosterCredits = IsPremium ? (int) Math.Round((temp / premiumFactor), 0) : temp;
+
+	            ActionXp = replay.datablock_battle_result.personal.eventXP;
 
                 XpPenalty = replay.datablock_battle_result.personal.xpPenalty;
                 XpTitle = GetXpTitle(XpFactor);

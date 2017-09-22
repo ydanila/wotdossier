@@ -5,11 +5,14 @@ using System.Xml;
 using Common.Logging;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using WotDossier.Common;
+using WotDossier.Domain;
 using System.Linq;
 using WotDossier.Domain.Rating;
 using WotDossier.Domain.Tank;
+using Country = WotDossier.Domain.Country;
 
-namespace WotDossier.Domain
+namespace WotDossier.Dal
 {
     /// <summary>
     /// Common app dictionaries
@@ -407,12 +410,12 @@ namespace WotDossier.Domain
                     tankDescription = IconTanks[tankIcon];
 
                     //t49 renamed to t67 in 9.3
-                    if (tankDescription.UniqueId == 20071 && clientVersion < new Version("0.9.3.0"))
+                    if (tankDescription.UniqueId() == 20071 && clientVersion < new Version("0.9.3.0"))
                     {
                         tankDescription = _tanks[20041];
                     }
                     //kv-1s renamed to kv-85 in 9.3
-                    if (tankDescription.UniqueId == 73 && clientVersion < new Version("0.9.3.0"))
+                    if (tankDescription.UniqueId() == 73 && clientVersion < new Version("0.9.3.0"))
                     {
                         tankDescription = _tanks[11];
                     }
@@ -428,7 +431,7 @@ namespace WotDossier.Domain
                 return TankDescription.Unknown();
             }
 
-            var uniqueId = DossierUtils.ToUniqueId(typeCompDescr.Value);
+            var uniqueId = Utils.ToUniqueId(typeCompDescr.Value);
 
             if (!Tanks.ContainsKey(uniqueId))
             {
@@ -483,9 +486,9 @@ namespace WotDossier.Domain
                 }
             }
 
-            _notExistsedTanksList = tanks.Where(x => !x.Active).Select(x => x.UniqueId).ToList();
+            _notExistsedTanksList = tanks.Where(x => !x.Active).Select(x => x.UniqueId()).ToList();
 
-            return tanks.ToDictionary(x => x.UniqueId);
+            return tanks.ToDictionary(x => x.UniqueId());
         }
 
         private RatingExpectancy GetNearestExpectationsByTypeAndLevel(TankDescription tank)
@@ -640,12 +643,12 @@ namespace WotDossier.Domain
         {
             List<Medal> list = new List<Medal>();
 
-            foreach (int achievement in achievements)
+            foreach (var achievement in achievements)
             {
-                if (Medals.ContainsKey(achievement))
-                {
-                    list.Add(Medals[achievement]);
-                }
+	            if (Medals.ContainsKey(achievement))
+	            {
+	                list.Add(Medals[achievement]);
+	            }
             }
             return list;
         }

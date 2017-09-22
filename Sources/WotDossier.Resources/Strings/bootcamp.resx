@@ -1,0 +1,760 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AWARD_OPTIONS" xml:space="preserve">
+    <value>Change Reward</value>
+  </data>
+  <data name="AWARD_OPTIONS_DESCRIPTION_GE" xml:space="preserve">
+    <value>Light German tank with a relatively powerful and accurate gun. Frontal armor is rather sturdy and can endure quite a few hits.</value>
+  </data>
+  <data name="AWARD_OPTIONS_DESCRIPTION_US" xml:space="preserve">
+    <value>Medium U.S. tank with a wide variety of guns, high dynamics, but weak armor. Excellent for active reconnaissance and supporting an attack.</value>
+  </data>
+  <data name="AWARD_OPTIONS_DESCRIPTION_USSR" xml:space="preserve">
+    <value>Light U.S.S.R. tank with average speed and weak armor. Its powerful gun and great dynamics enable effective medium-range performance.</value>
+  </data>
+  <data name="AWARD_OPTIONS_NAME_GE" xml:space="preserve">
+    <value>Pz.Kpfw. 35 (t)</value>
+  </data>
+  <data name="AWARD_OPTIONS_NAME_US" xml:space="preserve">
+    <value>T2 Medium Tank</value>
+  </data>
+  <data name="AWARD_OPTIONS_NAME_USSR" xml:space="preserve">
+    <value>T-26</value>
+  </data>
+  <data name="AWARD_OPTIONS_NATION_GE" xml:space="preserve">
+    <value>GERMANY</value>
+  </data>
+  <data name="AWARD_OPTIONS_NATION_US" xml:space="preserve">
+    <value>U.S.A.</value>
+  </data>
+  <data name="AWARD_OPTIONS_NATION_USSR" xml:space="preserve">
+    <value>U.S.S.R.</value>
+  </data>
+  <data name="AWARD_OPTIONS_TITLE" xml:space="preserve">
+    <value>CHOOSE YOUR FIRST VEHICLE</value>
+  </data>
+  <data name="BATTLE_RESULT_ASSISTED" xml:space="preserve">
+    <value>Damage upon Your Spotting</value>
+  </data>
+  <data name="BATTLE_RESULT_BLOCKED" xml:space="preserve">
+    <value>Damage Blocked</value>
+  </data>
+  <data name="BATTLE_RESULT_DAMAGE" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="BATTLE_RESULT_DESCRIPTION_ASSISTED" xml:space="preserve">
+    <value>Damage upon your spotting and upon your destroying a track is counted.</value>
+  </data>
+  <data name="BATTLE_RESULT_DESCRIPTION_BLOCKED" xml:space="preserve">
+    <value>Total damage blocked by the armor of your vehicle including hits on external modules, non-penetrating hits, and ricochets.</value>
+  </data>
+  <data name="BATTLE_RESULT_DESCRIPTION_DAMAGE" xml:space="preserve">
+    <value>Total damage caused to enemy vehicles.</value>
+  </data>
+  <data name="BATTLE_RESULT_DESCRIPTION_DESTROYED" xml:space="preserve">
+    <value>Number of enemy vehicles destroyed by you.</value>
+  </data>
+  <data name="BATTLE_RESULT_DESCRIPTION_DETECTED" xml:space="preserve">
+    <value>Number of enemy vehicles spotted by you.</value>
+  </data>
+  <data name="BATTLE_RESULT_DESTROYED" xml:space="preserve">
+    <value>Destroyed</value>
+  </data>
+  <data name="BATTLE_RESULT_DETECTED" xml:space="preserve">
+    <value>Spotted</value>
+  </data>
+  <data name="BTN_CONTINUE" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="BTN_CONTINUE_PREBATTLE" xml:space="preserve">
+    <value>Battle!</value>
+  </data>
+  <data name="BTN_SELECT" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="GAME_MODE" xml:space="preserve">
+    <value>Game mode</value>
+  </data>
+  <data name="HINT_ADVANCED_SNIPER_BEFORE" xml:space="preserve">
+    <value>The Sniper mode provides for better aiming at the weak spots of enemy vehicles</value>
+  </data>
+  <data name="HINT_ADVANCED_SNIPER_MAIN" xml:space="preserve">
+    <value>A green marker indicates a high chance of causing damage</value>
+  </data>
+  <data name="HINT_ALLY_SHOOT" xml:space="preserve">
+    <value>Do not fire at your allies!</value>
+  </data>
+  <data name="HINT_CAMERA_CONTROLS" xml:space="preserve">
+    <value>Inspect your vehicle by clicking and holding LMB</value>
+  </data>
+  <data name="HINT_EXIT_GAME_AREA" xml:space="preserve">
+    <value>You are leaving the battlefield.
+Get back!</value>
+  </data>
+  <data name="HINT_HEAL_CREW" xml:space="preserve">
+    <value>Gunner injured, accuracy reduced. Use the First Aid Kit</value>
+  </data>
+  <data name="HINT_LOW_HP" xml:space="preserve">
+    <value>Your vehicle is seriously damaged!</value>
+  </data>
+  <data name="HINT_MESSAGE_AVOID" xml:space="preserve">
+    <value>Flank and destroy the enemy vehicle; try to avoid being hit</value>
+  </data>
+  <data name="HINT_MISSION3_CAPTUREBASE" xml:space="preserve">
+    <value>Capturing an enemy base is one of the ways to secure victory</value>
+  </data>
+  <data name="HINT_MISSION3_CAPTUREHELP" xml:space="preserve">
+    <value>Get back and help your ally capture the base</value>
+  </data>
+  <data name="HINT_MISSION3_CAPTUREINPROGRESS" xml:space="preserve">
+    <value>Base capture in progress</value>
+  </data>
+  <data name="HINT_MISSION3_CAPTURELOST" xml:space="preserve">
+    <value>When you take damage, your capture progress is reset</value>
+  </data>
+  <data name="HINT_MISSION3_CAPTURETOGETHER" xml:space="preserve">
+    <value>Several vehicles capture the base faster</value>
+  </data>
+  <data name="HINT_MISSION3_FALLBACK" xml:space="preserve">
+    <value>There are too many of them! Fall back!</value>
+  </data>
+  <data name="HINT_MISSION3_FLANKENEMIES" xml:space="preserve">
+    <value>Flank the enemy</value>
+  </data>
+  <data name="HINT_MISSION3_FLANKINGFAILS" xml:space="preserve">
+    <value>You have been spotted! Remember: firing reveals your position</value>
+  </data>
+  <data name="HINT_MISSION3_FLANKINGWAIT" xml:space="preserve">
+    <value>They are leaving! Stay alert and watch the area</value>
+  </data>
+  <data name="HINT_MISSION3_FOLIAGEINTROA" xml:space="preserve">
+    <value>Hold your fire; otherwise, the enemy will spot you</value>
+  </data>
+  <data name="HINT_MISSION3_FOLIAGEINTROB" xml:space="preserve">
+    <value>Bushes will hide you from enemies as long as you hold your fire</value>
+  </data>
+  <data name="HINT_MISSION3_PLAYERDETECTED" xml:space="preserve">
+    <value>You have been spotted! Get ready to fight</value>
+  </data>
+  <data name="HINT_MOVE" xml:space="preserve">
+    <value>Vehicle controls</value>
+  </data>
+  <data name="HINT_MOVE_TURRET" xml:space="preserve">
+    <value>Turret and aiming controls</value>
+  </data>
+  <data name="HINT_NO_MOVE" xml:space="preserve">
+    <value>Vehicle movement controls: WASD</value>
+  </data>
+  <data name="HINT_REPAIR_TRACK" xml:space="preserve">
+    <value>Track destroyed. Use the Repair Kit</value>
+  </data>
+  <data name="HINT_SECONDARY_SNIPER" xml:space="preserve">
+    <value>Scroll the mouse wheel to enter the Sniper mode</value>
+  </data>
+  <data name="HINT_SHOOT" xml:space="preserve">
+    <value>Aim at an enemy vehicle and fire</value>
+  </data>
+  <data name="HINT_SHOOT_WHILE_MOVING" xml:space="preserve">
+    <value>Movement decreases gun accuracy</value>
+  </data>
+  <data name="HINT_SNIPER" xml:space="preserve">
+    <value>Scroll the mouse wheel to enter Sniper mode</value>
+  </data>
+  <data name="HINT_SNIPER_ON_DISTANCE_EXIT" xml:space="preserve">
+    <value>Scroll the mouse wheel to leave Sniper mode</value>
+  </data>
+  <data name="HINT_SNIPER_ON_DISTANCE_MAIN" xml:space="preserve">
+    <value>Scroll the mouse wheel to enter Sniper mode</value>
+  </data>
+  <data name="HINT_TARGET_UNLOCK" xml:space="preserve">
+    <value>Auto-aim enabled. Disable it with RMB</value>
+  </data>
+  <data name="HINT_USELESS_CONSUMABLES" xml:space="preserve">
+    <value>No need to use consumables</value>
+  </data>
+  <data name="HINT_USE_EXTINGUISHER" xml:space="preserve">
+    <value>Vehicle on fire! Use the Fire Extinguisher</value>
+  </data>
+  <data name="HINT_WAIT_RELOAD" xml:space="preserve">
+    <value>Loading gun</value>
+  </data>
+  <data name="LOADING_TIP_CROSSHAIR_HEADER_1" xml:space="preserve">
+    <value>Higher Dispersion on the Move</value>
+  </data>
+  <data name="LOADING_TIP_CROSSHAIR_HEADER_2" xml:space="preserve">
+    <value>Minimum Dispersion When Fully Aimed</value>
+  </data>
+  <data name="LOADING_TIP_EQUIPMENT_DESCRIPTION_1" xml:space="preserve">
+    <value>Fire extinguishing</value>
+  </data>
+  <data name="LOADING_TIP_EQUIPMENT_DESCRIPTION_2" xml:space="preserve">
+    <value>Treatment of crew members</value>
+  </data>
+  <data name="LOADING_TIP_EQUIPMENT_DESCRIPTION_3" xml:space="preserve">
+    <value>Repair of damaged modules</value>
+  </data>
+  <data name="LOADING_TIP_EQUIPMENT_HEADER_1" xml:space="preserve">
+    <value>Fire Extinguisher</value>
+  </data>
+  <data name="LOADING_TIP_EQUIPMENT_HEADER_2" xml:space="preserve">
+    <value>First Aid Kit</value>
+  </data>
+  <data name="LOADING_TIP_EQUIPMENT_HEADER_3" xml:space="preserve">
+    <value>Repair Kit</value>
+  </data>
+  <data name="LOADING_TIP_MODULES_DESCRIPTION_2" xml:space="preserve">
+    <value>Critical hit</value>
+  </data>
+  <data name="LOADING_TIP_MODULES_DESCRIPTION_3" xml:space="preserve">
+    <value>Critical hit</value>
+  </data>
+  <data name="LOADING_TIP_MODULES_HEADER_1" xml:space="preserve">
+    <value>Damaging external modules does not cause damage to the vehicle</value>
+  </data>
+  <data name="LOADING_TIP_MODULES_HEADER_2" xml:space="preserve">
+    <value>Unable to Fire</value>
+  </data>
+  <data name="LOADING_TIP_MODULES_HEADER_3" xml:space="preserve">
+    <value>Immobilized</value>
+  </data>
+  <data name="LOADING_TIP_PENETRATION_DESCRIPTION_1" xml:space="preserve">
+    <value>High chance of penetration</value>
+  </data>
+  <data name="LOADING_TIP_PENETRATION_DESCRIPTION_2" xml:space="preserve">
+    <value>Damage will be blocked</value>
+  </data>
+  <data name="LOADING_TIP_PENETRATION_HEADER_1" xml:space="preserve">
+    <value>Green Marker</value>
+  </data>
+  <data name="LOADING_TIP_PENETRATION_HEADER_2" xml:space="preserve">
+    <value>Red Marker</value>
+  </data>
+  <data name="LOADING_TIP_SNIPER_DESCRIPTION_1" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="LOADING_TIP_SNIPER_DESCRIPTION_2" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="LOADING_TIP_SNIPER_HEADER_1" xml:space="preserve">
+    <value>Sniper Mode</value>
+  </data>
+  <data name="LOADING_TIP_SNIPER_HEADER_2" xml:space="preserve">
+    <value>Chance of Penetration</value>
+  </data>
+  <data name="LOADING_TIP_VICTORY_DESCRIPTION_1" xml:space="preserve">
+    <value>Enemy base captured</value>
+  </data>
+  <data name="LOADING_TIP_VICTORY_DESCRIPTION_2" xml:space="preserve">
+    <value>All enemy vehicles destroyed</value>
+  </data>
+  <data name="LOADING_TIP_VICTORY_HEADER_1" xml:space="preserve">
+    <value>Victory!</value>
+  </data>
+  <data name="LOADING_TIP_VICTORY_HEADER_2" xml:space="preserve">
+    <value>OR</value>
+  </data>
+  <data name="LOADING_TIP_VISIBILITY_DESCRIPTION_1" xml:space="preserve">
+    <value>Hidden by an object</value>
+  </data>
+  <data name="LOADING_TIP_VISIBILITY_DESCRIPTION_2" xml:space="preserve">
+    <value>Hidden by bushes</value>
+  </data>
+  <data name="LOADING_TIP_VISIBILITY_DESCRIPTION_3" xml:space="preserve">
+    <value>Spotted after firing</value>
+  </data>
+  <data name="LOADING_TIP_VISIBILITY_DESCRIPTION_4" xml:space="preserve">
+    <value>Moves across open terrain</value>
+  </data>
+  <data name="LOADING_TIP_VISIBILITY_HEADER_1" xml:space="preserve">
+    <value>Concealed</value>
+  </data>
+  <data name="LOADING_TIP_VISIBILITY_HEADER_2" xml:space="preserve">
+    <value>Spotted</value>
+  </data>
+  <data name="LOADING_TIP_WASD_HEADER_1" xml:space="preserve">
+    <value>Movement</value>
+  </data>
+  <data name="LOADING_TIP_WASD_HEADER_2" xml:space="preserve">
+    <value>Firing</value>
+  </data>
+  <data name="LOADING_TIP_WASD_HEADER_3" xml:space="preserve">
+    <value>Turret Traverse</value>
+  </data>
+  <data name="MARKER_BLOCKED" xml:space="preserve">
+    <value>Armor was not penetrated</value>
+  </data>
+  <data name="MARKER_CRITICAL" xml:space="preserve">
+    <value>Critical damage</value>
+  </data>
+  <data name="MARKER_RICOCHET" xml:space="preserve">
+    <value>Ricochet</value>
+  </data>
+  <data name="MESSAGE_BONUS_EQUIPMENT_LABEL" xml:space="preserve">
+    <value>Toolbox</value>
+  </data>
+  <data name="MESSAGE_BONUS_EQUIPMENT_TEXT" xml:space="preserve">
+    <value>Accelerates repairs to damaged modules</value>
+  </data>
+  <data name="MESSAGE_BONUS_PREMIUM_DAYS" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="MESSAGE_BONUS_PREMIUM_HOURS" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="MESSAGE_BOOTCAMP_GRADUATE_LABEL" xml:space="preserve">
+    <value>CONGRATULATIONS!</value>
+  </data>
+  <data name="MESSAGE_BOOTCAMP_GRADUATE_TEXT" xml:space="preserve">
+    <value>You successfully completed the tutorial</value>
+  </data>
+  <data name="MESSAGE_CONSUMABLES_LABEL" xml:space="preserve">
+    <value>CONSUMABLES</value>
+  </data>
+  <data name="MESSAGE_CONSUMABLES_TEXT" xml:space="preserve">
+    <value>Used to repair damaged modules and treat injured crew members</value>
+  </data>
+  <data name="MESSAGE_CREDITS_LABEL" xml:space="preserve">
+    <value>CREDITS</value>
+  </data>
+  <data name="MESSAGE_CREDITS_TEXT" xml:space="preserve">
+    <value>Used to purchase vehicles and equipment</value>
+  </data>
+  <data name="MESSAGE_EQUIPMENT_LABEL" xml:space="preserve">
+    <value>EQUIPMENT</value>
+  </data>
+  <data name="MESSAGE_EQUIPMENT_TEXT" xml:space="preserve">
+    <value>Improves particular characteristics of a vehicle</value>
+  </data>
+  <data name="MESSAGE_EXPERIENCE_LABEL" xml:space="preserve">
+    <value>COMBAT EXPERIENCE</value>
+  </data>
+  <data name="MESSAGE_EXPERIENCE_TEXT" xml:space="preserve">
+    <value>Used to research modules and vehicles</value>
+  </data>
+  <data name="MESSAGE_EXTRA_AWARD_OPTIONS" xml:space="preserve">
+    <value>Change Reward</value>
+  </data>
+  <data name="MESSAGE_FIRE_EXTINGUISHER_LABEL" xml:space="preserve">
+    <value>Manual Fire Extinguisher</value>
+  </data>
+  <data name="MESSAGE_FIRST_AID_KIT_LABEL" xml:space="preserve">
+    <value>Large First Aid Kit</value>
+  </data>
+  <data name="MESSAGE_GOLD_LABEL" xml:space="preserve">
+    <value>GOLD</value>
+  </data>
+  <data name="MESSAGE_GOLD_TEXT" xml:space="preserve">
+    <value>Used to purchase Premium Account</value>
+  </data>
+  <data name="MESSAGE_INTRO_LESSON_III_CREW_LABEL" xml:space="preserve">
+    <value>Crew</value>
+  </data>
+  <data name="MESSAGE_INTRO_LESSON_III_LABEL" xml:space="preserve">
+    <value>Receiving a New Vehicle</value>
+  </data>
+  <data name="MESSAGE_INTRO_LESSON_II_LABEL" xml:space="preserve">
+    <value>Improving a Vehicle</value>
+  </data>
+  <data name="MESSAGE_INTRO_LESSON_IV_LABEL" xml:space="preserve">
+    <value>Equipment and Consumables</value>
+  </data>
+  <data name="MESSAGE_INTRO_LESSON_V_LABEL" xml:space="preserve">
+    <value>Gold and Premium</value>
+  </data>
+  <data name="MESSAGE_MISSION_ACCOMPLISHED_LABEL" xml:space="preserve">
+    <value>MISSION COMPLETED</value>
+  </data>
+  <data name="MESSAGE_MISSION_ACCOMPLISHED_TEXT" xml:space="preserve">
+    <value>Reward</value>
+  </data>
+  <data name="MESSAGE_NEW_MODULE_LABEL" xml:space="preserve">
+    <value>MODULE PURCHASED</value>
+  </data>
+  <data name="MESSAGE_NEW_MODULE_TEXT" xml:space="preserve">
+    <value>It will be mounted automatically</value>
+  </data>
+  <data name="MESSAGE_PREMIUM_LABEL" xml:space="preserve">
+    <value>PREMIUM ACCOUNT</value>
+  </data>
+  <data name="MESSAGE_PREMIUM_TEXT" xml:space="preserve">
+    <value>Increases experience and credits earned</value>
+  </data>
+  <data name="MESSAGE_REPAIR_KIT_LABEL" xml:space="preserve">
+    <value>Large Repair Kit</value>
+  </data>
+  <data name="MESSAGE_SECOND_VEHICLE_TEXT_NATION_0" xml:space="preserve">
+    <value>Vehicle in the Garage</value>
+  </data>
+  <data name="MESSAGE_SECOND_VEHICLE_TEXT_NATION_1" xml:space="preserve">
+    <value>Vehicle in the Garage</value>
+  </data>
+  <data name="MESSAGE_SECOND_VEHICLE_TEXT_NATION_2" xml:space="preserve">
+    <value>Vehicle in the Garage</value>
+  </data>
+  <data name="MESSAGE_SIX_SENSE_PERK_LABEL" xml:space="preserve">
+    <value>The Sixth Sense Perk</value>
+  </data>
+  <data name="MESSAGE_SIX_SENSE_PERK_TEXT" xml:space="preserve">
+    <value>A very important perk that allows the Commander to determine whether the vehicle has been spotted</value>
+  </data>
+  <data name="MESSAGE_SKILLS_AND_PERKS_LABEL" xml:space="preserve">
+    <value>SKILLS AND PERKS</value>
+  </data>
+  <data name="MESSAGE_SKILLS_AND_PERKS_TEXT" xml:space="preserve">
+    <value>The crew improves the vehicle characteristics</value>
+  </data>
+  <data name="MESSAGE_UNLOCK_MODULE_LABEL" xml:space="preserve">
+    <value>MODULE RESEARCHED</value>
+  </data>
+  <data name="MESSAGE_UNLOCK_MODULE_TEXT" xml:space="preserve">
+    <value>Now you can purchase and mount it</value>
+  </data>
+  <data name="MESSAGE_UNLOCK_VEHICLE_LABEL" xml:space="preserve">
+    <value>VEHICLE RESEARCHED</value>
+  </data>
+  <data name="MESSAGE_UNLOCK_VEHICLE_TEXT" xml:space="preserve">
+    <value>Now you can purchase it</value>
+  </data>
+  <data name="MESSAGE_VEHICLE_AWARDED_LABEL" xml:space="preserve">
+    <value>NEW VEHICLE RECEIVED</value>
+  </data>
+  <data name="MESSAGE_VEHICLE_AWARDED_TEXT" xml:space="preserve">
+    <value>Click Continue to proceed</value>
+  </data>
+  <data name="PREBATTLE_HINT_CONSUMABLES" xml:space="preserve">
+    <value>Consumables</value>
+  </data>
+  <data name="PREBATTLE_HINT_CREW" xml:space="preserve">
+    <value>Crew</value>
+  </data>
+  <data name="PREBATTLE_HINT_HP" xml:space="preserve">
+    <value>Vehicle HP</value>
+  </data>
+  <data name="PREBATTLE_HINT_MINIMAP" xml:space="preserve">
+    <value>Minimap</value>
+  </data>
+  <data name="PREBATTLE_HINT_MODULES" xml:space="preserve">
+    <value>Modules</value>
+  </data>
+  <data name="PREBATTLE_HINT_PENETRATION_CHANCE" xml:space="preserve">
+    <value>Chance of Penetration</value>
+  </data>
+  <data name="PREBATTLE_HINT_PENETRATION_HIGH" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="PREBATTLE_HINT_PENETRATION_LOW" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="PREBATTLE_HINT_SCORE" xml:space="preserve">
+    <value>Team score</value>
+  </data>
+  <data name="QUEST_CONDITION" xml:space="preserve">
+    <value>Fight in the Random Battle mode in a Tier III vehicle and apply your knowledge to battling real players</value>
+  </data>
+  <data name="QUEST_GAMEMODE" xml:space="preserve">
+    <value>Random Battle</value>
+  </data>
+  <data name="QUEST_NAME" xml:space="preserve">
+    <value>Random Battle</value>
+  </data>
+  <data name="QUEST_TITLE" xml:space="preserve">
+    <value>Trial by Fire</value>
+  </data>
+  <data name="REQUEST_BOOTCAMP_FINISH" xml:space="preserve">
+    <value>Leave Bootcamp</value>
+  </data>
+  <data name="REQUEST_BOOTCAMP_RETURN" xml:space="preserve">
+    <value>Return to Bootcamp</value>
+  </data>
+  <data name="REQUEST_BOOTCAMP_START" xml:space="preserve">
+    <value>Enter Bootcamp</value>
+  </data>
+  <data name="RESULT_AWARD_CADET_LABEL" xml:space="preserve">
+    <value>Bootcamp High Caliber</value>
+  </data>
+  <data name="RESULT_AWARD_CADET_TEXT" xml:space="preserve">
+    <value>Cause the highest damage in a tutorial battle.</value>
+  </data>
+  <data name="RESULT_AWARD_CREW_LABEL" xml:space="preserve">
+    <value>Crew Management Available</value>
+  </data>
+  <data name="RESULT_AWARD_CREW_TEXT" xml:space="preserve">
+    <value>You can now manage your vehicle's crew.</value>
+  </data>
+  <data name="RESULT_AWARD_DUEL_LABEL" xml:space="preserve">
+    <value>Bootcamp Duelist</value>
+  </data>
+  <data name="RESULT_AWARD_DUEL_TEXT" xml:space="preserve">
+    <value>Destroy at least two enemy vehicles that caused damage to your vehicle in the battle.</value>
+  </data>
+  <data name="RESULT_AWARD_EXTINGUISHER_LABEL" xml:space="preserve">
+    <value>Manual Fire Extinguisher</value>
+  </data>
+  <data name="RESULT_AWARD_EXTINGUISHER_TEXT" xml:space="preserve">
+    <value>Extinguish fires in your vehicle. Can be used multiple times in a battle. The consumable is removed after a battle if it was used at least once.</value>
+  </data>
+  <data name="RESULT_AWARD_GOLD_LABEL" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="RESULT_AWARD_GOLD_TEXT" xml:space="preserve">
+    <value>You received some valuable in-game currency, which can be used for multiple purposes.</value>
+  </data>
+  <data name="RESULT_AWARD_INVADER_LABEL" xml:space="preserve">
+    <value>Bootcamp Invader</value>
+  </data>
+  <data name="RESULT_AWARD_INVADER_TEXT" xml:space="preserve">
+    <value>Participate in a successful capture of a base in a tutorial battle.</value>
+  </data>
+  <data name="RESULT_AWARD_MEDICALKIT_LABEL" xml:space="preserve">
+    <value>Large First Aid Kit</value>
+  </data>
+  <data name="RESULT_AWARD_MEDICALKIT_TEXT" xml:space="preserve">
+    <value>Treatment of all injured crew members and removing the stun effect. Can be used multiple times in a battle. The consumable is removed after a battle if it was used at least once.</value>
+  </data>
+  <data name="RESULT_AWARD_MISSION_LABEL" xml:space="preserve">
+    <value>Trial by Fire</value>
+  </data>
+  <data name="RESULT_AWARD_MISSION_TEXT" xml:space="preserve">
+    <value>Mission completed!</value>
+  </data>
+  <data name="RESULT_AWARD_PREMIUM_LABEL" xml:space="preserve">
+    <value>Premium Account</value>
+  </data>
+  <data name="RESULT_AWARD_PREMIUM_TEXT" xml:space="preserve">
+    <value>You received days of Premium Account. In addition to extra experience and credits, Premium Account also gets you a nice clean Garage.</value>
+  </data>
+  <data name="RESULT_AWARD_REPAIRKIT_LABEL" xml:space="preserve">
+    <value>Large Repair Kit</value>
+  </data>
+  <data name="RESULT_AWARD_REPAIRKIT_TEXT" xml:space="preserve">
+    <value>Repair of all damaged modules. Can be used multiple times in a battle. The consumable is removed after a battle if it was used at least once.</value>
+  </data>
+  <data name="RESULT_AWARD_SHOOT_LABEL" xml:space="preserve">
+    <value>Bootcamp Fire for Effect</value>
+  </data>
+  <data name="RESULT_AWARD_SHOOT_TEXT" xml:space="preserve">
+    <value>Cause more damage to enemy vehicles than the hit points of your vehicle.</value>
+  </data>
+  <data name="RESULT_AWARD_SNIPER_LABEL" xml:space="preserve">
+    <value>Bootcamp Sniper</value>
+  </data>
+  <data name="RESULT_AWARD_SNIPER_TEXT" xml:space="preserve">
+    <value>Fire and hit an enemy vehicle with at least 8 shots in a tutorial battle (non-penetrations and ricochets are counted).</value>
+  </data>
+  <data name="RESULT_AWARD_TANK_LABEL" xml:space="preserve">
+    <value>Here Come the Reinforcements!</value>
+  </data>
+  <data name="RESULT_AWARD_TANK_TEXT" xml:space="preserve">
+    <value>Commander! You won the battle and received a new vehicle as reward. Remember that you can purchase new vehicles as you progress in the game.</value>
+  </data>
+  <data name="RESULT_AWARD_TOOLBOX_LABEL" xml:space="preserve">
+    <value>Toolbox</value>
+  </data>
+  <data name="RESULT_AWARD_TOOLBOX_TEXT" xml:space="preserve">
+    <value>+25% to repair speed.</value>
+  </data>
+  <data name="WELLCOME_BOOTCAMP" xml:space="preserve">
+    <value>World of Tanks</value>
+  </data>
+  <data name="WELLCOME_BOOTCAMP_DESCRIPTION" xml:space="preserve">
+    <value>Welcome!</value>
+  </data>
+  <data name="WITH_PREMIUM" xml:space="preserve">
+    <value>With Premium Account:</value>
+  </data>
+  <data name="invitation/note/CLAN" xml:space="preserve">
+    <value>Clan Battle will be available after you complete training.</value>
+  </data>
+  <data name="invitation/note/CLUBS" xml:space="preserve">
+    <value>Team Battle will be available after you complete training.</value>
+  </data>
+  <data name="invitation/note/COMPANY" xml:space="preserve">
+    <value>Tank Company will be available after you complete training.</value>
+  </data>
+  <data name="invitation/note/EVENT" xml:space="preserve">
+    <value>Playing in a Platoon will be available after you complete training.</value>
+  </data>
+  <data name="invitation/note/EXTERNAL" xml:space="preserve">
+    <value>Skirmishes will be available after you complete training.</value>
+  </data>
+  <data name="invitation/note/FALLOUT" xml:space="preserve">
+    <value>Playing in a Platoon will be available after you complete training.</value>
+  </data>
+  <data name="invitation/note/FORT_BATTLE" xml:space="preserve">
+    <value>Advances will be available after you complete training.</value>
+  </data>
+  <data name="invitation/note/SORTIE" xml:space="preserve">
+    <value>Skirmishes will be available after you complete training.</value>
+  </data>
+  <data name="invitation/note/SQUAD" xml:space="preserve">
+    <value>Playing in a Platoon will be available after you complete training.</value>
+  </data>
+  <data name="invitation/note/TOURNAMENT" xml:space="preserve">
+    <value>Tournaments will be available after you complete training.</value>
+  </data>
+  <data name="invitation/note/TRAINING" xml:space="preserve">
+    <value>Team Training will be available after you complete training.</value>
+  </data>
+  <data name="invitation/note/UNIT" xml:space="preserve">
+    <value>Team Battle will be available after you complete training.</value>
+  </data>
+  <data name="queue/cancel_queue" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="queue/message" xml:space="preserve">
+    <value>Assembling teams...</value>
+  </data>
+  <data name="queue/more_n_minutes" xml:space="preserve">
+    <value>over %(minutes)s min</value>
+  </data>
+  <data name="queue/player-waiting-time" xml:space="preserve">
+    <value>In queue: </value>
+  </data>
+  <data name="queue/queue_too_long" xml:space="preserve">
+    <value>The queue is full. Please wait for your turn in the queue or skip the tutorial.</value>
+  </data>
+  <data name="queue/skip_tutorial" xml:space="preserve">
+    <value>Skip tutorial</value>
+  </data>
+  <data name="queue/title" xml:space="preserve">
+    <value>Please wait until a proper server is selected</value>
+  </data>
+  <data name="queue/units" xml:space="preserve">
+    <value>%(units)s s</value>
+  </data>
+  <data name="resultlabel/ended" xml:space="preserve">
+    <value>BATTLE ENDED</value>
+  </data>
+  <data name="resultlabel/lose" xml:space="preserve">
+    <value>DEFEAT</value>
+  </data>
+  <data name="resultlabel/techWin" xml:space="preserve">
+    <value>TECHNICAL VICTORY</value>
+  </data>
+  <data name="resultlabel/tie" xml:space="preserve">
+    <value>DRAW</value>
+  </data>
+  <data name="resultlabel/win" xml:space="preserve">
+    <value>VICTORY!</value>
+  </data>
+  <data name="transition/title" xml:space="preserve">
+    <value>Connecting to Server</value>
+  </data>
+</root>
