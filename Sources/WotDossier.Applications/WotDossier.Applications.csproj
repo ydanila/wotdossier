@@ -176,6 +176,7 @@
     <Compile Include="ViewModel\BalancerDataViewModel.cs" />
     <Compile Include="ViewModel\Balancer\BaseBalanceViewModel.cs" />
     <Compile Include="ViewModel\Balancer\TankBalanceViewModel.cs" />
+    <Compile Include="ViewModel\Balancer\TypeBalanceViewModel.cs" />
     <Compile Include="ViewModel\Balancer\TierBalanceViewModel.cs" />
     <Compile Include="ViewModel\Chart\CommonChartsViewModel.cs" />
     <Compile Include="ViewModel\Chart\DateDataPoint.cs" />

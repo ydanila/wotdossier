@@ -12,6 +12,7 @@ using WotDossier.Domain.Tank;
 using WotDossier.Framework.Forms.ProgressDialog;
 using WotDossier.Applications.ViewModel.Filter;
 using WotDossier.Domain.Replay;
+using WotDossier.Domain;
 
 namespace WotDossier.Applications.ViewModel
 {
@@ -28,6 +29,9 @@ namespace WotDossier.Applications.ViewModel
 
         private IEnumerable<TierBalanceViewModel> _tiersStat;
         private IEnumerable<TierBalanceViewModel> _tiersSummary;
+
+        private IEnumerable<TypeBalanceViewModel> _typesStat;
+        private IEnumerable<TypeBalanceViewModel> _typesSummary;
 
         public ReplaysManager ReplaysManager { get; set; }
 
@@ -72,6 +76,26 @@ namespace WotDossier.Applications.ViewModel
             {
                 _tiersSummary = value;
                 OnPropertyChanged(nameof(TiersSummary));
+            }
+        }
+
+        public IEnumerable<TypeBalanceViewModel> TypesStat
+        {
+            get { return _typesStat; }
+            set
+            {
+                _typesStat = value;
+                OnPropertyChanged(nameof(TypesStat));
+            }
+        }
+
+        public IEnumerable<TypeBalanceViewModel> TypesSummary
+        {
+            get { return _typesSummary; }
+            set
+            {
+                _typesSummary = value;
+                OnPropertyChanged(nameof(TypesSummary));
             }
         }
 
@@ -138,6 +162,14 @@ namespace WotDossier.Applications.ViewModel
                 ProcessBalancerGroups(groupByTier, tiers, tiersSummary, CreateTierBalanceViewModel);
                 TiersStat = from t in tiers where t.BattlesCount > 0 orderby t.Tier descending select t;
                 TiersSummary = new List<TierBalanceViewModel>() { tiersSummary };
+
+                //  types
+                var groupByType = from r in _replays group r by r.Tank.Type;
+                var types = new List<TypeBalanceViewModel>();
+                var typesSummary = new TypeBalanceViewModel();
+                ProcessBalancerGroups(groupByType, types, typesSummary, CreateTypeBalanceViewModel);
+                TypesStat = from t in types where t.BattlesCount > 0 orderby t.BattlesCount descending select t;
+                TypesSummary = new List<TypeBalanceViewModel>() { typesSummary };
             }
             catch (Exception ex)
             {
@@ -148,8 +180,7 @@ namespace WotDossier.Applications.ViewModel
                 _processing = false;
             }
         }
-               
-
+        
         private static void ProcessBalancerGroups<TKey, TView>(IEnumerable<IGrouping<TKey, ReplayFile>> groups, List<TView> tanks, TView tanksSummary, Func<ReplayFile, TView> createBalanceViewModel) where TView : BaseBalanceViewModel
         {
             foreach (var entries in groups)
@@ -248,6 +279,14 @@ namespace WotDossier.Applications.ViewModel
             return new TierBalanceViewModel
             {
                 Tier = replay.Tank.Tier
+            };
+        }
+
+        private TypeBalanceViewModel CreateTypeBalanceViewModel(ReplayFile replay)
+        {
+            return new TypeBalanceViewModel
+            {
+                Type = (TankType)replay.Tank.Type
             };
         }
 
