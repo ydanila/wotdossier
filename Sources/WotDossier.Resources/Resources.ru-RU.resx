@@ -3670,4 +3670,7 @@
   <data name="Label_ReplayDetail_HEReceived" xml:space="preserve">
     <value>Получено попаданий осколками</value>
   </data>
+  <data name="Column_Top" xml:space="preserve">
+    <value>Топ</value>
+  </data>
 </root>

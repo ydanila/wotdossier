@@ -21,7 +21,8 @@
         <Label Grid.Row="0" Content="{x:Static resources:Resources.ReplaysFilterGroupBy}" Style="{StaticResource office2007SilverLabel}"/>
         <TabControl Grid.Row="1" TabStripPlacement="Top" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
             <TabItem Header="{x:Static resources:Resources.ReplaysFilterGroupHeader_Tanks}" Style="{StaticResource office2007SilverTabItemLeft}">
-                <dataGrid:FooterDataGrid TabIndex="0" Grid.Row="2" ItemsSource="{Binding TanksStat}" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"
+                <dataGrid:FooterDataGrid TabIndex="0" Grid.Row="2" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"
+                                         ItemsSource="{Binding TanksStat}" FooterItemsSource="{Binding TanksSummary}"
                                             VerticalAlignment="Stretch" IsReadOnly="True" Style="{StaticResource office2007SilverFooterDataGrid}" 
                                             HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" 
                                             AutoGenerateColumns="False" MinColumnWidth="40">
@@ -33,6 +34,7 @@
                         <DataGridTextColumn Header="{x:Static resources:Resources.Column_Ratings_Winrate}" CellStyle="{StaticResource DataGridCellWinPercentStyle}" Binding="{Binding WinsPercent, Converter={x:Static converters:PercentFormater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
                         <DataGridTextColumn Header="{x:Static resources:Resources.Column_Top_3_5_7}" Binding="{Binding Top357Percent, Converter={x:Static converters:PercentFormater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
                         <DataGridTextColumn Header="{x:Static resources:Resources.Column_Top_5_10}" Binding="{Binding Top510Percent, Converter={x:Static converters:PercentFormater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="{x:Static resources:Resources.Column_Top}" Binding="{Binding TopPercent, Converter={x:Static converters:PercentFormater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
                         <DataGridTextColumn Header="{x:Static resources:Resources.Column_One_Level}" Binding="{Binding OneLevelPercent, Converter={x:Static converters:PercentFormater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
                         <DataGridTextColumn Header="{x:Static resources:Resources.Column_Bottom_5_10}" Binding="{Binding Bottom510Percent, Converter={x:Static converters:PercentFormater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
                         <DataGridTextColumn Header="{x:Static resources:Resources.Column_Bottom_3_5_7}" Binding="{Binding Bottom357Percent, Converter={x:Static converters:PercentFormater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
@@ -40,20 +42,23 @@
                 </dataGrid:FooterDataGrid>
             </TabItem>
             <TabItem Header="{x:Static resources:Resources.TankFilterPanel_Levels}" Style="{StaticResource office2007SilverTabItemLeft}">
-                <DataGrid TabIndex="0" Grid.Row="2" ItemsSource="{Binding MapsStat}" HorizontalScrollBarVisibility="Auto" VerticalAlignment="Stretch"
-                            IsReadOnly="True" AutoGenerateColumns="False" Style="{StaticResource office2007SilverDataGrid}"
-                            HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" MinColumnWidth="40" CanUserResizeColumns="True">
-                    <DataGrid.Columns>
-                        <DataGridTextColumn Width="*" Header="{x:Static resources:Resources.Column_Header_Tier}" ElementStyle="{StaticResource CTextBlock}" Binding="{Binding Tier, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='0.##'}"></DataGridTextColumn>
-                        <DataGridTextColumn Width="*" Header="{x:Static resources:Resources.Column_Ratings_Battles}" Binding="{Binding BattlesCount}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
-                        <DataGridTextColumn Width="*" Header="{x:Static resources:Resources.Column_Ratings_Winrate}" CellStyle="{StaticResource DataGridCellWinPercentStyle}" Binding="{Binding WinsPercent, Converter={x:Static converters:PercentFormater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
-                        <DataGridTextColumn Width="*" Header="{x:Static resources:Resources.Column_Top_3_5_7}" Binding="{Binding AvgDamageDealt, Converter={x:Static converters:Double2Formater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
-                        <DataGridTextColumn Width="*" Header="{x:Static resources:Resources.Column_Top_5_10}" Binding="{Binding KillDeathRatio, Converter={x:Static converters:Double2Formater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
-                        <DataGridTextColumn Width="*" Header="{x:Static resources:Resources.Column_One_Level}" CellStyle="{StaticResource DataGridCellEffStyle}" Binding="{Binding EffRating, StringFormat='0.'}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
-                        <DataGridTextColumn Width="*" Header="{x:Static resources:Resources.Column_Bottom_5_10}" Binding="{Binding KillDeathRatio, Converter={x:Static converters:Double2Formater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
-                        <DataGridTextColumn Width="*" Header="{x:Static resources:Resources.Column_Bottom_3_5_7}" Binding="{Binding AvgDamageDealt, Converter={x:Static converters:Double2Formater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
-                    </DataGrid.Columns>
-                </DataGrid>
+                <dataGrid:FooterDataGrid TabIndex="0" Grid.Row="2" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"
+                                         ItemsSource="{Binding TiersStat}" FooterItemsSource="{Binding TiersSummary}"
+                                            VerticalAlignment="Stretch" IsReadOnly="True" Style="{StaticResource office2007SilverFooterDataGrid}" 
+                                            HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" 
+                                            AutoGenerateColumns="False" MinColumnWidth="40">
+                    <dataGrid:FooterDataGrid.Columns>
+                        <DataGridTextColumn Header="{x:Static resources:Resources.Column_Header_Tier}" ElementStyle="{StaticResource CTextBlock}" Binding="{Binding Tier, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='0.##'}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="{x:Static resources:Resources.Column_Ratings_Battles}" Binding="{Binding BattlesCount}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="{x:Static resources:Resources.Column_Ratings_Winrate}" CellStyle="{StaticResource DataGridCellWinPercentStyle}" Binding="{Binding WinsPercent, Converter={x:Static converters:PercentFormater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="{x:Static resources:Resources.Column_Top_3_5_7}" Binding="{Binding Top357Percent, Converter={x:Static converters:PercentFormater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="{x:Static resources:Resources.Column_Top_5_10}" Binding="{Binding Top510Percent, Converter={x:Static converters:PercentFormater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="{x:Static resources:Resources.Column_Top}" Binding="{Binding TopPercent, Converter={x:Static converters:PercentFormater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="{x:Static resources:Resources.Column_One_Level}" Binding="{Binding OneLevelPercent, Converter={x:Static converters:PercentFormater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="{x:Static resources:Resources.Column_Bottom_5_10}" Binding="{Binding Bottom510Percent, Converter={x:Static converters:PercentFormater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="{x:Static resources:Resources.Column_Bottom_3_5_7}" Binding="{Binding Bottom357Percent, Converter={x:Static converters:PercentFormater.Default}}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
+                    </dataGrid:FooterDataGrid.Columns>
+                </dataGrid:FooterDataGrid>
             </TabItem>
             <TabItem Header="{x:Static resources:Resources.TankFilterPanel_Types}" Style="{StaticResource office2007SilverTabItemLeft}">
                 <DataGrid TabIndex="0" Grid.Row="2" ItemsSource="{Binding MapsStat}" HorizontalScrollBarVisibility="Auto" VerticalAlignment="Stretch"

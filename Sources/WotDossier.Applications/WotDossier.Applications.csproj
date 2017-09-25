@@ -174,7 +174,9 @@
     <Compile Include="ThemesManager.cs" />
     <Compile Include="Model\ClanMemberModel.cs" />
     <Compile Include="ViewModel\BalancerDataViewModel.cs" />
+    <Compile Include="ViewModel\Balancer\BaseBalanceViewModel.cs" />
     <Compile Include="ViewModel\Balancer\TankBalanceViewModel.cs" />
+    <Compile Include="ViewModel\Balancer\TierBalanceViewModel.cs" />
     <Compile Include="ViewModel\Chart\CommonChartsViewModel.cs" />
     <Compile Include="ViewModel\Chart\DateDataPoint.cs" />
     <Compile Include="ViewModel\Chart\LocalizedGenericPoint.cs" />
