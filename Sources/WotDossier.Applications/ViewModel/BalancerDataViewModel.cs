@@ -10,6 +10,8 @@ using WotDossier.Applications.ViewModel.Replay;
 using WotDossier.Dal;
 using WotDossier.Domain.Tank;
 using WotDossier.Framework.Forms.ProgressDialog;
+using WotDossier.Applications.ViewModel.Filter;
+using WotDossier.Domain.Replay;
 
 namespace WotDossier.Applications.ViewModel
 {
@@ -104,6 +106,16 @@ namespace WotDossier.Applications.ViewModel
 
                     foreach (var entry in entries)
                     {
+                        //  ignore not regular
+                        if(!ReplaysFilterViewModel.CheckRegularBattle(entry, BattleType.ctf) &&
+                            !ReplaysFilterViewModel.CheckRegularBattle(entry, BattleType.Ctf30x30) &&
+                            !ReplaysFilterViewModel.CheckRegularBattle(entry, BattleType.domination) &&
+                            !ReplaysFilterViewModel.CheckRegularBattle(entry, BattleType.assault) &&
+                            !ReplaysFilterViewModel.CheckRegularBattle(entry, BattleType.nations))
+                        {
+                            continue;
+                        }
+
                         tanksEntry.BattlesCount++;
                         switch (entry.IsWinner)
                         {
@@ -156,7 +168,7 @@ namespace WotDossier.Applications.ViewModel
                         {
                             tanksEntry.Bottom510++;
                         }
-                        else if (max - tier >= 2)
+                        else if (max > tier && max - min >= 2)
                         {
                             tanksEntry.Bottom357++;
                         }
@@ -165,7 +177,7 @@ namespace WotDossier.Applications.ViewModel
                     tanks.Add(tanksEntry);
                 }
 
-                TanksStat = from t in tanks orderby t.BattlesCount descending select t;
+                TanksStat = from t in tanks where t.BattlesCount > 0 orderby t.BattlesCount descending select t;
             }
             catch (Exception ex)
             {
