@@ -534,7 +534,8 @@ namespace WotDossier.Applications.ViewModel.Filter
             {
                 new ListItem<BattleType>(BattleType.Unknown, Resources.Resources.TankFilterPanel_All), 
                 new ListItem<BattleType>(BattleType.Regular, Resources.Resources.BattleType_Regular), 
-                new ListItem<BattleType>(BattleType.ctf, " - " + Resources.Resources.BattleType_ctf), 
+                new ListItem<BattleType>(BattleType.ctf, " - " + Resources.Resources.BattleType_ctf),
+                new ListItem<BattleType>(BattleType.Ctf30x30, " - " + Resources.Resources.BattleType_Ctf30x30),
                 new ListItem<BattleType>(BattleType.domination, " - " + Resources.Resources.BattleType_domination), 
                 new ListItem<BattleType>(BattleType.assault, " - " + Resources.Resources.BattleType_assault), 
                 new ListItem<BattleType>(BattleType.nations, " - " + Resources.Resources.BattleType_nations), 
@@ -863,11 +864,15 @@ namespace WotDossier.Applications.ViewModel.Filter
             return false;
         }
 
-        private bool CheckRegularBattle(ReplayFile replay, BattleType battleType)
+        internal static bool CheckRegularBattle(ReplayFile replay, BattleType battleType)
         {
             if (battleType == BattleType.ctf)
             {
                 return replay.Gameplay == Gameplay.ctf && replay.BattleType == BattleType.Regular;
+            }
+            if (battleType == BattleType.Ctf30x30)
+            {
+                return replay.Gameplay == Gameplay.ctf30x30 && replay.BattleType == BattleType.Regular;
             }
             if (battleType == BattleType.domination)
             {
