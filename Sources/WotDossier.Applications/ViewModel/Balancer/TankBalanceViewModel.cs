@@ -54,7 +54,7 @@ namespace WotDossier.Applications.ViewModel.Balancer
                 return 0;
             }
 
-            return val * 100 / total / 100.0d;
+            return val * 10000 / total / 100.0d;
         }
     }
 }

@@ -130,13 +130,13 @@ namespace WotDossier.Applications.ViewModel
                             var description = Dictionaries.Instance.GetReplayTankDescription(member.vehicleType,
                                 entry.ClientVersion);
 
-                            if (description.Title.Equals(TankDescription.UNKNOWN) || description.LevelRange == null)
+                            if (description.Title.Equals(TankDescription.UNKNOWN))
                             {
                                 continue;
                             }
 
-                            min = min > description.LevelRange.Min ? description.LevelRange.Min : min;
-                            max = max < description.LevelRange.Max ? description.LevelRange.Max : max;
+                            min = min > description.Tier ? description.Tier : min;
+                            max = max < description.Tier ? description.Tier : max;
                         }
 
                         //  top 3-5-7
