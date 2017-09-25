@@ -64,6 +64,10 @@ namespace WotDossier.Applications.BattleModeStrategies
             where T : StatisticEntity
         {
             List<T> statisticEntities = DossierRepository.GetPlayerStatistic<T>(player.AccountId).ToList();
+            if (!statisticEntities.Any())
+            {
+                return null;
+            }
 
             T currentStatistic = statisticEntities.OrderByDescending(x => x.BattlesCount).First();
             List<StatisticSlice> oldStatisticEntities = statisticEntities.Where(x => x.Id != currentStatistic.Id)

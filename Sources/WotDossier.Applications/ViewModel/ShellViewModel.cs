@@ -697,10 +697,17 @@ namespace WotDossier.Applications.ViewModel
                             {
                                 _log.Trace("InitPlayerStatistic start");
                                 PlayerStatistic = strategy.GetPlayerStatistic(player, new List<TankJson>(), serverStatistic);
-                                //init previous dates list
-                                PeriodSelector.PeriodSettingsUpdated -= PeriodSelectorOnPropertyChanged;
-                                PeriodSelector.PrevDates = GetPreviousDates(PlayerStatistic);
-                                PeriodSelector.PeriodSettingsUpdated += PeriodSelectorOnPropertyChanged;
+                                if (PlayerStatistic != null)
+                                {
+                                    //init previous dates list
+                                    PeriodSelector.PeriodSettingsUpdated -= PeriodSelectorOnPropertyChanged;
+                                    PeriodSelector.PrevDates = GetPreviousDates(PlayerStatistic);
+                                    PeriodSelector.PeriodSettingsUpdated += PeriodSelectorOnPropertyChanged;                                    
+                                }
+                                else
+                                {
+                                    _log.Trace("PlayerStatistic is null");
+                                }
                                 _log.Trace("InitPlayerStatistic end");
 
                                 ProgressView.Report(bw, 25, Resources.Resources.Progress_CommonStatLoadingCompleted);
