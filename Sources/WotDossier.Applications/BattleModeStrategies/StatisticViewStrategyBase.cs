@@ -4,6 +4,7 @@ using System.Linq;
 using WotDossier.Applications.ViewModel.Rows;
 using WotDossier.Applications.ViewModel.Statistic;
 using WotDossier.Dal;
+using WotDossier.Domain;
 using WotDossier.Domain.Entities;
 using WotDossier.Domain.Server;
 using WotDossier.Domain.Tank;
@@ -194,7 +195,7 @@ namespace WotDossier.Applications.BattleModeStrategies
 
             if (!statisticSlices.Any())
             {
-                statisticSlices.Add(new StatisticSlice(DateTime.MinValue, (PeriodStatisticViewModel)ToTankStatisticRow( TankJson.Initial)));
+                statisticSlices.Add(new StatisticSlice(DateTime.MinValue, (PeriodStatisticViewModel)ToTankStatisticRow( TankJson.Initial.Value)));
             }
 
             return statisticSlices;
@@ -225,7 +226,7 @@ namespace WotDossier.Applications.BattleModeStrategies
         /// <returns></returns>
         private bool IsExistedtank(TankDescription tankDescription)
         {
-            return !Dictionaries.Instance.NotExistsedTanksList.Contains(tankDescription.UniqueId());
+            return !Dictionaries.Instance.NotExistsedTanksList.Contains(tankDescription.UniqueId);
         }
 
         /// <summary>

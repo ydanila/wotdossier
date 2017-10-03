@@ -4,6 +4,7 @@ using WotDossier.Applications.Logic.Adapter;
 using WotDossier.Applications.View;
 using WotDossier.Applications.ViewModel.Statistic;
 using WotDossier.Dal;
+using WotDossier.Domain;
 using WotDossier.Domain.Entities;
 using WotDossier.Domain.Server;
 using WotDossier.Framework;

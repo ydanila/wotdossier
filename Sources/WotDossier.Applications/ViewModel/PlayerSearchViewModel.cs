@@ -6,6 +6,7 @@ using Common.Logging;
 using WotDossier.Applications.Events;
 using WotDossier.Applications.View;
 using WotDossier.Dal;
+using WotDossier.Domain;
 using WotDossier.Domain.Server;
 using WotDossier.Framework;
 using WotDossier.Framework.Applications;

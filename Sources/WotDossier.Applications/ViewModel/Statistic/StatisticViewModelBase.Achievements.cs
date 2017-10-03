@@ -248,6 +248,8 @@
         public int SoldierOfFortune { get; set; }
         public int Kampfer { get; set; }
 
+        public int FortWins { get; set; }
+
         /// <summary>
         /// Gets or sets the captured bases in attack.
         /// </summary>

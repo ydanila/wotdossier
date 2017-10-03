@@ -523,6 +523,8 @@ def main():
 				tank['rawdata'] = rawdata
 			
 			tanks[tanktitle] = tank
+			#finalfile1 = open(os.path.splitext(filename_source)[0] + '.' + str(tankitem[0][1]) + '.raw', 'w')
+			#finalfile1.write(json.dumps(rawdata))
 			#tanks = sorted(tanks.values())
 
 	

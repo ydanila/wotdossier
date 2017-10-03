@@ -1,4 +1,6 @@
-﻿namespace WotDossier.Domain
+﻿using WotDossier.Domain.Tank;
+
+namespace WotDossier.Domain
 {
     public class DossierUtils
     {

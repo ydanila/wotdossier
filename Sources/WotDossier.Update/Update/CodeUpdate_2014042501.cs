@@ -2,6 +2,7 @@
 using System.Data;
 using System.Data.SQLite;
 using WotDossier.Dal;
+using WotDossier.Domain;
 using WotDossier.Domain.Entities;
 using WotDossier.Domain.Tank;
 

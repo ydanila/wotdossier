@@ -9,6 +9,7 @@ using WotDossier.Applications;
 using WotDossier.Common;
 using WotDossier.Dal;
 using WotDossier.Dal.NHibernate;
+using WotDossier.Domain;
 using WotDossier.Update.Update;
 
 namespace WotDossier.Test

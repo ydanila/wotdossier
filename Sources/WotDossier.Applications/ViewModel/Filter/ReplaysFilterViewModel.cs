@@ -9,7 +9,6 @@ using WotDossier.Applications.ViewModel.Replay;
 using WotDossier.Common;
 using WotDossier.Dal;
 using WotDossier.Domain;
-using WotDossier.Domain.Dossier.AppSpot;
 using WotDossier.Domain.Replay;
 using WotDossier.Domain.Server;
 using WotDossier.Domain.Tank;
@@ -695,7 +694,7 @@ namespace WotDossier.Applications.ViewModel.Filter
             var tanks = Dictionaries.Instance.Tanks.Values
                 .Where(description => TankFilter(description) && description.Active)
                 .OrderBy(x => x.Title)
-                .Select(x => new ListItem<int>(x.UniqueId(), x.Title))
+                .Select(x => new ListItem<int>(x.UniqueId, x.Title))
                 .ToList();
             tanks.Insert(0, new ListItem<int>(KEY_ALL_VALUES, Resources.Resources.TankFilterPanel_All));
             return tanks;
@@ -791,7 +790,7 @@ namespace WotDossier.Applications.ViewModel.Filter
                 //or apply filter
                  x.Tank != null
                 &&
-                 (SelectedTank == null || SelectedTank.Id == KEY_ALL_VALUES || x.Tank.UniqueId() == SelectedTank.Id)
+                 (SelectedTank == null || SelectedTank.Id == KEY_ALL_VALUES || x.Tank.UniqueId == SelectedTank.Id)
                 &&
                  VersionFilter(versions, x)
                 &&

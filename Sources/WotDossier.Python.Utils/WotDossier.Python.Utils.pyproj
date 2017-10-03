@@ -13,7 +13,7 @@
     <InterpreterId>Global|PythonCore|2.7-32</InterpreterId>
     <IsWindowsApplication>False</IsWindowsApplication>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>..\..\WotDossier.Test\CacheFiles\0.9.20\NRXWO2LOGIXHAMROO5XXE3DEN5THIYLONNZS43TFOQ5DEMBQGE2DWTLDJBQXE3TZHNIGYYLZMVZECY3DN52W45A=.dat -f</CommandLineArguments>
+    <CommandLineArguments>..\..\WotDossier.Test\CacheFiles\0.9.20\NRXWO2LOGIXHAMROO5XXE3DEN5THIYLONNZS43TFOQ5DEMBQGE2DWTLDJBQXE3TZHNIGYYLZMVZECY3DN52W45A=.dat -f -r</CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

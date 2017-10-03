@@ -7,6 +7,7 @@ using System.Windows.Input;
 using WotDossier.Applications.Events;
 using WotDossier.Applications.View;
 using WotDossier.Dal;
+using WotDossier.Domain;
 using WotDossier.Framework;
 using WotDossier.Framework.EventAggregator;
 

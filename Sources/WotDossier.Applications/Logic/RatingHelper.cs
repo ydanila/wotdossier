@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using WotDossier.Applications.ViewModel.Rows;
 using WotDossier.Dal;
+using WotDossier.Domain;
 using WotDossier.Domain.Interfaces;
 using WotDossier.Domain.Rating;
 using WotDossier.Domain.Tank;
@@ -390,7 +391,7 @@ namespace WotDossier.Applications.Logic
         /// <returns></returns>
         private static List<ITankDescription> Filter(IEnumerable<ITankDescription> tanks)
         {
-            return tanks.Where(x => !Dictionaries.Instance.NotExistsedTanksList.Contains(x.Description.UniqueId())).ToList();
+            return tanks.Where(x => !Dictionaries.Instance.NotExistsedTanksList.Contains(x.Description.UniqueId)).ToList();
         }
 
         /// <summary>

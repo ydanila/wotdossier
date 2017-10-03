@@ -215,6 +215,8 @@
 {"category": "achievements", "length": 2, "name": "charmed", "offset": 155, "version": 99},
 {"category": "achievements", "length": 2, "name": "even", "offset": 157, "version": 99},
 
+{"category": "vehTypeFrags", "length": 1, "offset": 0, "version": 99},
+
 {"category": "total", "length": 4, "name": "creationTime", "offset": 0, "version": 99},
 {"category": "total", "length": 4, "name": "lastBattleTime", "offset": 4, "version": 99},
 {"category": "total", "length": 4, "name": "battleLifeTime", "offset": 8, "version": 99},
@@ -229,7 +231,10 @@
 {"category": "max7x7", "length": 1, "name": "maxFrags", "offset": 2, "version": 99},
 {"category": "max7x7", "length": 2, "name": "maxDamage", "offset": 3, "version": 99},
 
-{"category": "compensation", "length": 4, "name": "gold", "offset": 0, "version": 99},
+{"category": "playerInscriptions", "length": 2, "version": 85, "name": "playerInscriptions", "offset": 0},
+{"category": "playerEmblems", "length": 2, "version": 85, "name": "playerEmblems", "offset": 0},
+{"category": "camouflages", "length": 2, "version": 85, "name": "camouflages", "offset": 0},
+{"category": "compensation", "length": 4, "version": 85, "name": "gold", "offset": 0},
 
 {"category": "achievements7x7", "length": 2, "name": "wolfAmongSheep", "offset": 0, "version": 99},
 {"category": "achievements7x7", "length": 2, "name": "wolfAmongSheepMedal", "offset": 2, "version": 99},
@@ -578,6 +583,9 @@
 {"category": "a30x30", "length": 4, "name": "battlesOnStunningVehicles", "offset": 104, "version": 99},
 {"category": "a30x30", "length": 4, "name": "stunNum", "offset": 108, "version": 99},
 {"category": "a30x30", "length": 4, "name": "damageAssistedStun", "offset": 112, "version": 99},
+
+{"category": "rankedSeasons", "length": 2, "name": "rankedSeasons", "offset": 0, "version": 99},
+{"category": "uniqueVehAchievement", "length": 2, "version": 88},
 
 {"category": "max30x30", "length": 2, "name": "maxXP", "offset": 0, "version": 99},
 {"category": "max30x30", "length": 1, "name": "maxFrags", "offset": 2, "version": 99},

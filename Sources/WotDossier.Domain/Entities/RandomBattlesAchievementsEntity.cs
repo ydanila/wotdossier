@@ -529,6 +529,9 @@ namespace WotDossier.Domain.Entities
         public virtual int Kampfer { get; set; }
 
         [DataMember]
+        public virtual int FortWins { get; set; }
+
+        [DataMember]
         public virtual int CapturedBasesInAttack { get; set; }
 
         [DataMember]

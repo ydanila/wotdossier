@@ -36,6 +36,11 @@ namespace WotDossier.Domain.Interfaces
         int Kampfer { get; set; }
 
         /// <summary>
+        /// Gets or sets the wins.
+        /// </summary>
+        int FortWins { get; set; }
+
+        /// <summary>
         /// Gets or sets the captured bases in attack.
         /// </summary>
         int CapturedBasesInAttack { get; set; }

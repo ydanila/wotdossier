@@ -6,6 +6,7 @@ using WotDossier.Applications;
 using WotDossier.Applications.ViewModel.Rows;
 using WotDossier.Applications.ViewModel.Statistic;
 using WotDossier.Dal;
+using WotDossier.Domain;
 using WotDossier.Domain.Entities;
 using WotDossier.Domain.Server;
 using WotDossier.Domain.Tank;
@@ -200,7 +201,7 @@ namespace TournamentStat.Applications.BattleModeStrategies
         /// <returns></returns>
         private bool IsExistedtank(TankDescription tankDescription)
         {
-            return !Dictionaries.Instance.NotExistsedTanksList.Contains(tankDescription.UniqueId());
+            return !Dictionaries.Instance.NotExistsedTanksList.Contains(tankDescription.UniqueId);
         }
 
         /// <summary>

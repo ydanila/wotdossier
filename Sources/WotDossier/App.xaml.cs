@@ -14,6 +14,7 @@ using WotDossier.Applications.ViewModel.Replay;
 using WotDossier.Common;
 using WotDossier.Dal;
 using WotDossier.Dal.NHibernate;
+using WotDossier.Domain;
 using WotDossier.Framework;
 using WotDossier.Framework.Applications.Services;
 using WotDossier.Framework.Presentation.Services;

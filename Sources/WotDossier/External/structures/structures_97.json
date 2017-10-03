@@ -33,6 +33,8 @@
 {"category": "a15x15_2", "length": 4, "name": "stunNum", "offset": 48, "version": 97},
 {"category": "a15x15_2", "length": 4, "name": "damageAssistedStun", "offset": 52, "version": 97},
 
+{"category": "uniqueVehAchievement", "length": 2, "version": 88},
+
 {"category": "clan", "length": 4, "name": "xp", "offset": 0, "version": 97},
 {"category": "clan", "length": 4, "name": "battlesCount", "offset": 4, "version": 97},
 {"category": "clan", "length": 4, "name": "wins", "offset": 8, "version": 97},
@@ -216,6 +218,8 @@
 {"category": "achievements", "length": 2, "name": "even", "offset": 157, "version": 97},
 {"category": "achievements", "length": 2, "name": "testartilleryman", "offset": 159, "version": 97},
 
+{"category": "vehTypeFrags", "length": 1, "offset": 0, "version": 97},
+
 {"category": "total", "length": 4, "name": "creationTime", "offset": 0, "version": 97},
 {"category": "total", "length": 4, "name": "lastBattleTime", "offset": 4, "version": 97},
 {"category": "total", "length": 4, "name": "battleLifeTime", "offset": 8, "version": 97},
@@ -230,7 +234,10 @@
 {"category": "max7x7", "length": 1, "name": "maxFrags", "offset": 2, "version": 97},
 {"category": "max7x7", "length": 2, "name": "maxDamage", "offset": 3, "version": 97},
 
-{"category": "compensation", "length": 4, "name": "gold", "offset": 0, "version": 97},
+{"category": "playerInscriptions", "length": 2, "version": 85, "name": "playerInscriptions", "offset": 0},
+{"category": "playerEmblems", "length": 2, "version": 85, "name": "playerEmblems", "offset": 0},
+{"category": "camouflages", "length": 2, "version": 85, "name": "camouflages", "offset": 0},
+{"category": "compensation", "length": 4, "version": 85, "name": "gold", "offset": 0},
 
 {"category": "achievements7x7", "length": 2, "name": "wolfAmongSheep", "offset": 0, "version": 97},
 {"category": "achievements7x7", "length": 2, "name": "wolfAmongSheepMedal", "offset": 2, "version": 97},
@@ -562,6 +569,8 @@
 {"category": "ranked", "length": 4, "name": "battlesOnStunningVehicles", "offset": 104, "version": 97},
 {"category": "ranked", "length": 4, "name": "stunNum", "offset": 108, "version": 97},
 {"category": "ranked", "length": 4, "name": "damageAssistedStun", "offset": 112, "version": 97},
+
+{"category": "rankedSeasons", "length": 2, "name": "rankedSeasons", "offset": 0, "version": 97},
 
 {"category": "maxRanked", "length": 2, "name": "maxXP", "offset": 0, "version": 97},
 {"category": "maxRanked", "length": 1, "name": "maxFrags", "offset": 2, "version": 97},

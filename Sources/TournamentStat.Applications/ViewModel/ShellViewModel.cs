@@ -278,8 +278,10 @@ namespace TournamentStat.Applications.ViewModel
         private void UpdateLocalDatabase(FileInfo cacheFile, PlayerEntity player)
         {
             //convert dossier cache file to json
-            string jsonFile = CacheFileHelper.BinaryCacheToJson(cacheFile);
-            var tanksCache = CacheFileHelper.ReadTanksCache(jsonFile);
+            //string jsonFile = CacheFileHelper.BinaryCacheToJson(cacheFile);
+            //var tanksCache = CacheFileHelper.ReadTanksCache(jsonFile);
+
+            var tanksCache = CacheFileHelper.InternalBinaryCacheToJson(cacheFile);
 
             StatisticViewStrategyBase strategy = new RandomStatisticViewStrategy(_dossierRepository);
 
