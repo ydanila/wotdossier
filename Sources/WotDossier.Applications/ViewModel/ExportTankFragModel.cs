@@ -1,4 +1,5 @@
 ﻿using WotDossier.Dal;
+using WotDossier.Domain;
 using WotDossier.Domain.Tank;
 
 namespace WotDossier.Applications.ViewModel

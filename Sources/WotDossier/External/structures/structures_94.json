@@ -203,6 +203,8 @@
 {"category": "achievements", "length": 2, "name": "charmed", "offset": 155, "version": 94},
 {"category": "achievements", "length": 2, "name": "even", "offset": 157, "version": 94},
 
+{"category": "vehTypeFrags", "length": 1, "offset": 0, "version": 94},
+
 {"category": "total", "length": 4, "name": "creationTime", "offset": 0, "version": 94},
 {"category": "total", "length": 4, "name": "lastBattleTime", "offset": 4, "version": 94},
 {"category": "total", "length": 4, "name": "battleLifeTime", "offset": 8, "version": 94},
@@ -217,7 +219,10 @@
 {"category": "max7x7", "length": 1, "name": "maxFrags", "offset": 2, "version": 94},
 {"category": "max7x7", "length": 2, "name": "maxDamage", "offset": 3, "version": 94},
 
-{"category": "compensation", "length": 4, "name": "gold", "offset": 0, "version": 94},
+{"category": "playerInscriptions", "length": 2, "version": 85, "name": "playerInscriptions", "offset": 0},
+{"category": "playerEmblems", "length": 2, "version": 85, "name": "playerEmblems", "offset": 0},
+{"category": "camouflages", "length": 2, "version": 85, "name": "camouflages", "offset": 0},
+{"category": "compensation", "length": 4, "version": 85, "name": "gold", "offset": 0},
 
 {"category": "achievements7x7", "length": 2, "name": "wolfAmongSheep", "offset": 0, "version": 94},
 {"category": "achievements7x7", "length": 2, "name": "wolfAmongSheepMedal", "offset": 2, "version": 94},
@@ -474,6 +479,8 @@
 {"category": "maxFallout", "length": 2, "version": 94, "name": "maxDamage", "offset": 3, "version": 94},
 {"category": "maxFallout", "length": 2, "version": 94, "name": "maxWinPoints", "offset": 5, "version": 94},
 {"category": "maxFallout", "length": 2, "version": 94, "name": "maxCoins", "offset": 7, "version": 94},
+
+{"category": "uniqueVehAchievement", "length": 2, "version": 88},
  
 {"category": "falloutAchievements", "length": 2, "version": 94, "name": "shoulderToShoulder", "offset": 0, "version": 94},
 {"category": "falloutAchievements", "length": 2, "version": 94, "name": "aloneInTheField", "offset": 2, "version": 94},

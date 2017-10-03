@@ -38,6 +38,11 @@ namespace WotDossier.Domain.Tank
         public int Kampfer { get; set; }
 
         /// <summary>
+        /// Gets or sets the Wins.
+        /// </summary>
+        public int FortWins { get; set; }
+
+        /// <summary>
         /// Gets or sets the captured bases in attack.
         /// </summary>
         public int CapturedBasesInAttack { get; set; }

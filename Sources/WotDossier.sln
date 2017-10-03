@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WotDossier", "WotDossier\WotDossier.csproj", "{A4EF480B-49B6-42C4-8ACE-6127B15699F8}"
 EndProject
@@ -56,8 +56,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tools", ".tools", "{3BA1A1
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External projects", "External projects", "{25C628B0-39A0-4732-A640-6B44FFF007F3}"
-EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WotDossier.Python.Utils", "WotDossier.Python.Utils\WotDossier.Python.Utils.pyproj", "{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}"
 EndProject
 Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "WotDossier.Setup", "WotDossier.Setup\WotDossier.Setup.aiproj", "{DC386B46-39DF-48A0-A4AE-8CDC82682538}"
 EndProject
@@ -493,24 +491,6 @@ Global
 		{723973C8-E27A-422D-A178-73058BB42059}.TournamentStat|Mixed Platforms.Build.0 = TournamentStat|Any CPU
 		{723973C8-E27A-422D-A178-73058BB42059}.TournamentStat|x86.ActiveCfg = TournamentStat|Any CPU
 		{723973C8-E27A-422D-A178-73058BB42059}.TournamentStat|x86.Build.0 = TournamentStat|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.DefaultBuild|Any CPU.ActiveCfg = Debug|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.DefaultBuild|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.DefaultBuild|x86.ActiveCfg = Debug|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Full|Any CPU.ActiveCfg = Release|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Full|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Full|x86.ActiveCfg = Release|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Lite|Any CPU.ActiveCfg = Release|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Lite|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Lite|x86.ActiveCfg = Release|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.Release|x86.ActiveCfg = Release|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.TournamentStat|Any CPU.ActiveCfg = Release|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.TournamentStat|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{E8457EF3-A18C-4B8E-8532-D7C7AFD90888}.TournamentStat|x86.ActiveCfg = Release|Any CPU
 		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Debug|Any CPU.ActiveCfg = DefaultBuild
 		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Debug|Any CPU.Build.0 = DefaultBuild
 		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Debug|Mixed Platforms.ActiveCfg = DefaultBuild

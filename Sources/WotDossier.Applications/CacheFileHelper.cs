@@ -10,9 +10,8 @@ using Newtonsoft.Json.Linq;
 using WotDossier.Common;
 using WotDossier.Common.Python;
 using WotDossier.Dal;
+using WotDossier.Domain;
 using WotDossier.Domain.Dossier;
-using WotDossier.Domain.Dossier.AppSpot;
-using WotDossier.Domain.Dossier.Utils;
 using WotDossier.Domain.Tank;
 
 namespace WotDossier.Applications
@@ -80,7 +79,7 @@ namespace WotDossier.Applications
             _log.Trace("GetCacheFile end");
             return cacheFile;
         }
-
+        /*
         /// <summary>
         /// Binary dossier cache to plain json.
         /// -f - By setting f the JSON will be formatted for better human readability
@@ -105,7 +104,7 @@ namespace WotDossier.Applications
             _log.Trace("BinaryCacheToJson end");
             return cacheFile.FullName.Replace(".dat", ".json");
         }
-
+        */
         /// <summary>
         /// Reads the tanks from cache.
         /// </summary>
@@ -114,9 +113,9 @@ namespace WotDossier.Applications
         public static List<TankJson> InternalBinaryCacheToJson(FileInfo cacheFile)
         {
             var result = DossierReader.Read(cacheFile);
-            return result.tanks_v2;
+            return result;
         }
-
+        /*
         /// <summary>
         /// Reads the tanks from cache.
         /// </summary>
@@ -155,7 +154,7 @@ namespace WotDossier.Applications
             _log.Trace("ReadTanksCache end");
             return tanks;
         }
-
+        */
         #region [ Obsolete ]
 
         // Obsolete
@@ -204,7 +203,7 @@ namespace WotDossier.Applications
                             {
                                 int countryId = Convert.ToInt32(x[0]);
                                 int tankId = Convert.ToInt32(x[1]);
-                                int uniqueId = Utils.ToUniqueId(countryId, tankId);
+                                int uniqueId = DossierUtils.ToUniqueId(countryId, tankId);
 
 
                                 TankDescription tankDescription = Dictionaries.Instance.Tanks.ContainsKey(uniqueId) 

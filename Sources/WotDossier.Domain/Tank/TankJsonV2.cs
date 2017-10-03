@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using WotDossier.Domain.Interfaces;
 
 namespace WotDossier.Domain.Tank
@@ -8,7 +9,7 @@ namespace WotDossier.Domain.Tank
     /// </summary>
     public class TankJson : ITankDescription
     {
-        public static TankJson Initial = new TankJson
+        public static readonly Lazy<TankJson> Initial = new Lazy<TankJson>(()=>new TankJson
         {
             A15x15 = new StatisticJson(),
             Clan = new StatisticJson(),
@@ -34,7 +35,7 @@ namespace WotDossier.Domain.Tank
             FortBattles = new StatisticJsonFort(),
             FortAchievements = new AchievementsFort(),
             FortSorties = new StatisticJsonSortie()
-        };
+        });
 
         /// <summary>
         /// Gets or sets the clan achievements.

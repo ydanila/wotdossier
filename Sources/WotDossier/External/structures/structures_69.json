@@ -175,6 +175,8 @@
 {"category": "achievements", "length": 2, "version": 69, "name": "sniper2", "offset": 126},
 {"category": "achievements", "length": 2, "version": 69, "name": "mainGun", "offset": 128},
 
+{"category": "vehTypeFrags", "length": 1, "version": 69, "offset": 0},
+
 {"category": "total", "length": 4, "version": 69, "name": "creationTime", "offset": 0},
 {"category": "total", "length": 4, "version": 69, "name": "lastBattleTime", "offset": 4},
 {"category": "total", "length": 4, "version": 69, "name": "battleLifeTime", "offset": 8},

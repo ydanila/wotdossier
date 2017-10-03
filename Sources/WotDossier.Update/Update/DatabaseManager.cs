@@ -8,6 +8,7 @@ using System.Reflection;
 using Common.Logging;
 using WotDossier.Common;
 using WotDossier.Dal;
+using WotDossier.Domain;
 
 namespace WotDossier.Update.Update
 {

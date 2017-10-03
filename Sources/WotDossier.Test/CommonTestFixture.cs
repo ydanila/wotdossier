@@ -102,7 +102,7 @@ namespace WotDossier.Test
         {
             CsvExportProvider provider = new CsvExportProvider();
             FileInfo cacheFile = CacheTestFixture.GetCacheFile("_rembel__ru", @"\CacheFiles\0.8.9\");
-            List<TankJson> tanks = CacheFileHelper.ReadTanksCache(CacheFileHelper.BinaryCacheToJson(cacheFile));
+            List<TankJson> tanks = CacheFileHelper.InternalBinaryCacheToJson(cacheFile);
             List<RandomBattlesTankStatisticRowViewModel> list = tanks.Select(x => new RandomBattlesTankStatisticRowViewModel(x, new List<StatisticSlice>())).ToList();
             Console.WriteLine(provider.Export(list, new List<Type>{typeof(IStatisticBattles), typeof(IStatisticFrags)}));
         }
@@ -292,9 +292,9 @@ namespace WotDossier.Test
                         Country country = (Country)Enum.Parse(typeof(Country), info.Directory.Name);
 	                    var countryid = (int)country;
                         tankDescription["countryid"] = countryid;
-                        var typeCompDesc = Utils.TypeCompDesc(countryid, tankid);
+                        var typeCompDesc = DossierUtils.TypeCompDesc(countryid, tankid);
                         tankDescription["compDescr"] = typeCompDesc;
-                        var uniqueId = Utils.ToUniqueId(countryid, tankid);
+                        var uniqueId = DossierUtils.ToUniqueId(countryid, tankid);
                         tankDescription["active"] = Dictionaries.Instance.Tanks.ContainsKey(uniqueId) && !Dictionaries.Instance.Tanks[uniqueId].Active ? 0 : 1;
                         var tankType = GetVehicleTypeByTag(tank.Value["tags"].Value<string>());
                         tankDescription["type"] = (int)tankType;

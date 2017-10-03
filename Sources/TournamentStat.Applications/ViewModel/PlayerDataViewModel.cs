@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using TournamentStat.Applications.View;
 using WotDossier.Dal;
+using WotDossier.Domain;
 using WotDossier.Framework.Applications;
 using WotDossier.Framework.Forms.Commands;
 

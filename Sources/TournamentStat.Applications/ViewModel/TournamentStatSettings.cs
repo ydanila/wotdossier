@@ -108,7 +108,7 @@ namespace TournamentStat.Applications.ViewModel
             Tier = tankDescription.Tier;
             Tank = tankDescription.Title;
             TankId = tankDescription.TankId;
-            TankUniqueId = tankDescription.UniqueId();
+            TankUniqueId = tankDescription.UniqueId;
             CountryId = tankDescription.CountryId;
             Type = tankDescription.Type;
             IsPremium = tankDescription.Premium == 1;

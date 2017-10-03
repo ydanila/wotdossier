@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace WotDossier.Common.Extensions
@@ -88,14 +89,7 @@ namespace WotDossier.Common.Extensions
         }
         */
 
-        /// <summary>
-        /// Convert a byte array into an array of objects based on Python's "struct.unpack" protocol.
-        /// </summary>
-        /// <param name="fmt">A "struct.pack"-compatible format string</param>
-        /// <param name="bytes">An array of bytes to convert to objects</param>
-        /// <returns>Array of objects.</returns>
-        /// <remarks>You are responsible for casting the objects in the array back to their proper types.</remarks>
-        public static object[] Unpack(this byte[] bytes, string fmt)
+        private static List<(char Type, int Length)> ProcessFormat(string fmt)
         {
             // First we parse the format string to make sure it's proper.
             if (fmt.Length < 1) throw new ArgumentException("Format string cannot be empty.");
@@ -115,91 +109,31 @@ namespace WotDossier.Common.Extensions
                 if (BitConverter.IsLittleEndian == true) endianFlip = true;
                 fmt = fmt.Substring(1);
             }
+            var validChars = new char[]
+                {'x', 'c', 'b', 'B', '?', 'h', 'H', 'i', 'I', 'l', 'L', 'q', 'Q', 'f', 'd', 's', 'p', 'P'};
 
-            // Now, we find out how long the byte array needs to be
-            int totalByteLength = 0;
-            foreach (char c in fmt.ToCharArray())
+            var formats = new List<(char Type, int Length)>();
+
+            var curlen = "";
+            foreach (var c in fmt)
             {
-                switch (c)
+                if (c >= '0' & c <= '9')
                 {
-                    case 'q':
-                    case 'Q':
-                        totalByteLength += 8;
-                        break;
-                    case 'i':
-                    case 'I':
-                        totalByteLength += 4;
-                        break;
-                    case 'h':
-                    case 'H':
-                        totalByteLength += 2;
-                        break;
-                    case 'b':
-                    case 'B':
-                    case 'x':
-                        totalByteLength += 1;
-                        break;
-                    default:
-                        throw new ArgumentException("Invalid character found in format string.");
+                    curlen += c;
+                    continue;
                 }
-            }
-
-            // Test the byte array length to see if it contains as many bytes as is needed for the string.
-            if (bytes.Length != totalByteLength) throw new ArgumentException("The number of bytes provided does not match the total length of the format string.");
-
-            // Ok, we can go ahead and start parsing bytes!
-            int byteArrayPosition = 0;
-            List<object> outputList = new List<object>();
-            byte[] buf;
-
-            foreach (char c in fmt.ToCharArray())
-            {
-                switch (c)
+                if (!validChars.Contains(c))
+                    throw new ArgumentException("Invalid character found in format string.");
+                var len = 1;
+                if (!string.IsNullOrEmpty(curlen))
                 {
-                    case 'q':
-                        outputList.Add((object)(long)BitConverter.ToInt64(bytes, byteArrayPosition));
-                        byteArrayPosition += 8;
-                        break;
-                    case 'Q':
-                        outputList.Add((object)(ulong)BitConverter.ToUInt64(bytes, byteArrayPosition));
-                        byteArrayPosition += 8;
-                        break;
-                    case 'l':
-                        outputList.Add((object)(int)BitConverter.ToInt32(bytes, byteArrayPosition));
-                        byteArrayPosition += 4;
-                        break;
-                    case 'L':
-                        outputList.Add((object)(uint)BitConverter.ToUInt32(bytes, byteArrayPosition));
-                        byteArrayPosition += 4;
-                        break;
-                    case 'h':
-                        outputList.Add((object)(short)BitConverter.ToInt16(bytes, byteArrayPosition));
-                        byteArrayPosition += 2;
-                        break;
-                    case 'H':
-                        outputList.Add((object)(ushort)BitConverter.ToUInt16(bytes, byteArrayPosition));
-                        byteArrayPosition += 2;
-                        break;
-                    case 'b':
-                        buf = new byte[1];
-                        Array.Copy(bytes, byteArrayPosition, buf, 0, 1);
-                        outputList.Add((object)(sbyte)buf[0]);
-                        byteArrayPosition++;
-                        break;
-                    case 'B':
-                        buf = new byte[1];
-                        Array.Copy(bytes, byteArrayPosition, buf, 0, 1);
-                        outputList.Add((object)(byte)buf[0]);
-                        byteArrayPosition++;
-                        break;
-                    case 'x':
-                        byteArrayPosition++;
-                        break;
-                    default:
-                        throw new ArgumentException("You should not be here.");
+                    len = Convert.ToInt32(curlen);
+                    curlen = String.Empty;
                 }
+
+                formats.Add((c, len));
             }
-            return outputList.ToArray();
+            return formats;
         }
 
         /// <summary>
@@ -210,11 +144,113 @@ namespace WotDossier.Common.Extensions
         /// <param name="startoffset">offset to convert to objects</param>
         /// <returns>Array of objects.</returns>
         /// <remarks>You are responsible for casting the objects in the array back to their proper types.</remarks>
-        public static object[] UnpackFrom(this byte[] bytes, string fmt, int startoffset)
+        public static object[] Unpack(this byte[] bytes, string fmt, int startoffset = 0)
         {
-            var tgt = new byte[bytes.Length - startoffset];
-            bytes.CopyTo(tgt, startoffset);
-            return tgt.Unpack(fmt);
+            var formats = ProcessFormat(fmt);
+            
+            // Ok, we can go ahead and start parsing bytes!
+            var byteArrayPosition = startoffset;
+            var outputList = new List<object>();
+            foreach (var format in formats)
+            {
+                if (format.Type == 's')
+                {
+                    outputList.Add(GetString(format.Length));
+                    byteArrayPosition += format.Length;
+                    continue;
+                }
+                if(format.Type == 'p' || format.Type == 'P')
+                    throw new ArgumentException("NOT SUPPORTED character found in format string.");
+
+                for (var i = 0; i < format.Length; i++)
+                {
+                    (object value, int offset ) = GetValue(format.Type, byteArrayPosition);
+
+                    if (value != null)
+                        outputList.Add(value);
+
+                    byteArrayPosition += offset;
+                }
+            }
+            return outputList.ToArray();
+
+            string GetString(int length)
+            {
+                var buf = new byte[length];
+                Array.Copy(bytes, byteArrayPosition, buf, 0, length);
+                return Encoding.UTF8.GetString(buf);
+            }
+
+            (object, int) GetValue(char format, int position)
+            {
+                var buf = new byte[1];
+                switch (format)
+                {
+                    case 'q':
+                        return (BitConverter.ToInt64(bytes, byteArrayPosition), 8);
+                    case 'Q':
+                        return (BitConverter.ToUInt64(bytes, byteArrayPosition), 8);
+                    case 'l':
+                    case 'i':
+                        return (BitConverter.ToInt32(bytes, byteArrayPosition), 4);
+                    case 'L':
+                    case 'I':
+                        return (BitConverter.ToUInt32(bytes, byteArrayPosition), 4);
+                    case 'h':
+                        return (BitConverter.ToInt16(bytes, byteArrayPosition), 2);
+                    case 'H':
+                        return (BitConverter.ToUInt16(bytes, byteArrayPosition), 2);
+                    case 'f':
+                        return (BitConverter.ToSingle(bytes, byteArrayPosition), 4);
+                    case 'd':
+                        return (BitConverter.ToDouble(bytes, byteArrayPosition), 8);
+                    case 'b':
+                        Array.Copy(bytes, byteArrayPosition, buf, 0, 1);
+                        return ((sbyte) buf[0], 1);
+                    case 'c':
+                        Array.Copy(bytes, byteArrayPosition, buf, 0, 1);
+                        return ((char)buf[0], 1);
+                    case 'B':
+                        Array.Copy(bytes, byteArrayPosition, buf, 0, 1);
+                        return ((byte) buf[0], 1);
+                    case 'x':
+                        return (null, 1);
+                }
+                throw new ArgumentException("NOT SUPPORTED character found in format string.");
+            }
+        }
+
+        public static int CalcSize(string fmt)
+        {
+            return ProcessFormat(fmt).Sum(tp => GetSize(tp.Type) * tp.Length);
+
+            int GetSize(char format)
+            {
+                switch (format)
+                {
+                    case 'q':
+                    case 'Q':
+                        return 8;
+                    case 'l':
+                    case 'i':
+                    case 'L':
+                    case 'I':
+                        return 4;
+                    case 'h':
+                    case 'H':
+                        return 2;
+                    case 'f':
+                        return 4;
+                    case 'd':
+                        return 8;
+                    case 'b':
+                    case 'c':
+                    case 'B':
+                    case 'x':
+                        return 1;
+                }
+                throw new ArgumentException("NOT SUPPORTED character found in format string.");
+            }
         }
 
         public static byte[] Xor(byte[] result, byte[] matchValue)

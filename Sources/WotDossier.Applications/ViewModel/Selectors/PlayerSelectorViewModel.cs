@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using WotDossier.Dal;
+using WotDossier.Domain;
 
 namespace WotDossier.Applications.ViewModel.Selectors
 {

@@ -5,6 +5,7 @@
         xmlns:dal="clr-namespace:WotDossier.Dal;assembly=WotDossier.Dal"
         xmlns:framework="clr-namespace:WotDossier.Framework;assembly=WotDossier.Framework"
         xmlns:Converters="clr-namespace:WotDossier.Converters"
+        xmlns:domain="clr-namespace:WotDossier.Domain;assembly=WotDossier.Domain"
         Title="{x:Static resources:Resources.WindowTitle_AboutWindow}" Height="195" Width="450" 
         ResizeMode="NoResize" WindowStartupLocation="CenterOwner" ShowInTaskbar="False" WindowStyle="None"
         Style="{StaticResource office2007SilverWindow}" Background="{StaticResource PanelBackground}">
@@ -29,12 +30,12 @@
             <TextBlock  Margin="6,0,0,0" Name="Version" Text="{x:Static services:ApplicationInfo.Version}" />
         </StackPanel>
         <TextBlock Margin="12,12,0,0" Grid.Row="2" HorizontalAlignment="Left">
-            <Hyperlink Command="{x:Static framework:ApplicationStaticCommands.OpenLinkCommand}" CommandParameter="{x:Static dal:AppConfigSettings.DownloadUri}">
+            <Hyperlink Command="{x:Static framework:ApplicationStaticCommands.OpenLinkCommand}" CommandParameter="{x:Static domain:AppConfigSettings.DownloadUri}">
                 <TextBlock Text="{x:Static resources:Resources.Hyperlink_Download_Text}"></TextBlock>
             </Hyperlink>
         </TextBlock>
         <TextBlock Margin="12,12,0,0" Grid.Row="3" HorizontalAlignment="Left">
-            <Hyperlink Command="{x:Static framework:ApplicationStaticCommands.OpenLinkCommand}" CommandParameter="{x:Static dal:AppConfigSettings.ForumUri}">
+            <Hyperlink Command="{x:Static framework:ApplicationStaticCommands.OpenLinkCommand}" CommandParameter="{x:Static domain:AppConfigSettings.ForumUri}">
                 <TextBlock Text="{x:Static resources:Resources.Hyperlink_Forum_Text}"></TextBlock>
             </Hyperlink>
         </TextBlock>

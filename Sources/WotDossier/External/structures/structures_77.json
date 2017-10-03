@@ -197,6 +197,8 @@
 {"category": "achievements", "length": 2, "name": "medalCoolBlood", "offset": 139, "version": 77}, 
 {"category": "achievements", "length": 2, "name": "medalStark", "offset": 141, "version": 77}, 
 
+{"category": "vehTypeFrags", "length": 1, "offset": 0, "version": 77},
+
 {"category": "total", "length": 4, "name": "creationTime", "offset": 0, "version": 77}, 
 {"category": "total", "length": 4, "name": "lastBattleTime", "offset": 4, "version": 77}, 
 {"category": "total", "length": 4, "name": "battleLifeTime", "offset": 8, "version": 77}, 
@@ -214,7 +216,10 @@
 {"category": "max7x7", "length": 1, "name": "maxFrags", "offset": 7, "version": 77}, 
 {"category": "max7x7", "length": 2, "name": "maxDamage", "offset": 8, "version": 77}, 
 
-{"category": "compensation", "length": 4, "name": "gold", "offset": 0, "version": 77}, 
+{"category": "playerInscriptions", "length": 2, "version": 77, "name": "playerInscriptions", "offset": 0},
+{"category": "playerEmblems", "length": 2, "version": 77, "name": "playerEmblems", "offset": 0},
+{"category": "camouflages", "length": 2, "version": 77, "name": "camouflages", "offset": 0},
+{"category": "compensation", "length": 4, "version": 77, "name": "gold", "offset": 0},
 
 {"category": "achievements7x7", "length": 2, "name": "wolfAmongSheep", "offset": 0, "version": 77}, 
 {"category": "achievements7x7", "length": 2, "name": "wolfAmongSheepMedal", "offset": 2, "version": 77}, 

@@ -9,6 +9,7 @@ using Newtonsoft.Json;
 using WotDossier.Common;
 using WotDossier.Common.Extensions;
 using WotDossier.Dal;
+using WotDossier.Domain;
 
 namespace WotDossier.Applications.Logic
 {

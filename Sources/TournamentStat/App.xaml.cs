@@ -13,6 +13,7 @@ using WotDossier.Applications.ViewModel;
 using WotDossier.Applications.ViewModel.Replay;
 using WotDossier.Dal;
 using WotDossier.Dal.NHibernate;
+using WotDossier.Domain;
 using WotDossier.Framework;
 using WotDossier.Framework.Presentation.Services;
 using WotDossier.Update.Update;

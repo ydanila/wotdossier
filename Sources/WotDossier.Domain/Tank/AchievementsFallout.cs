@@ -15,5 +15,6 @@ namespace WotDossier.Domain.Tank
         public int Champion { get; set; }
         public int Bannerman { get; set; }
         public int FalloutDieHard { get; set; }
+        public int SauronEye { get; set; }
     }
 }

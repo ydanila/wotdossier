@@ -728,9 +728,9 @@ namespace WotDossier.Applications.ViewModel
         {
             //convert dossier cache file to json
 
-            string jsonFile = CacheFileHelper.BinaryCacheToJson(cacheFile);
-            var tanksCache = CacheFileHelper.ReadTanksCache(jsonFile);
-            //var tanksCache = CacheFileHelper.InternalBinaryCacheToJson(cacheFile);
+            //string jsonFile = CacheFileHelper.BinaryCacheToJson(cacheFile);
+            //var tanksCache = CacheFileHelper.ReadTanksCache(jsonFile);
+            var tanksCache = CacheFileHelper.InternalBinaryCacheToJson(cacheFile);
 
 
             AppSettings settings = SettingsReader.Get();

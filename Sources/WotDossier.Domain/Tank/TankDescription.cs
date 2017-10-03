@@ -122,16 +122,20 @@ namespace WotDossier.Domain.Tank
         }
 
         private int _uniqueId = -1;
+
         /// <summary>
         /// Uniques the id.
         /// </summary>
-        public int UniqueId()
+        public int UniqueId
         {
-            if (_uniqueId == -1)
+            get
             {
-                _uniqueId = DossierUtils.ToUniqueId(CountryId, TankId);
+                if (_uniqueId == -1)
+                {
+                    _uniqueId = DossierUtils.ToUniqueId(CountryId, TankId);
+                }
+                return _uniqueId;
             }
-            return _uniqueId;
         }
 
         /// <summary>
