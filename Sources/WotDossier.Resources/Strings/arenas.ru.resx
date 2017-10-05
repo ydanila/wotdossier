@@ -112,16 +112,16 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="00_tank_tutorial/description" xml:space="preserve">
+  <data name="00_planb_testsite/description" xml:space="preserve">
     <value>?empty?</value>
   </data>
-  <data name="00_tank_tutorial/name" xml:space="preserve">
-    <value>Танковый полигон</value>
+  <data name="00_planb_testsite/name" xml:space="preserve">
+    <value>Полигон</value>
   </data>
   <data name="01_karelia/description" xml:space="preserve">
     <value>Два направления для атаки разделяет болото. Восточное направление идеально для ведения позиционной войны, западное — для боевых манёвров. Через болото можно организовать внезапную атаку на базу противника.</value>
@@ -134,6 +134,18 @@
   </data>
   <data name="02_malinovka/name" xml:space="preserve">
     <value>Малиновка</value>
+  </data>
+  <data name="02_malinovka_4CT_mode/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="02_malinovka_4CT_mode/name" xml:space="preserve">
+    <value>Малиновка 4 базы</value>
+  </data>
+  <data name="03_campania/description" xml:space="preserve">
+    <value>Возвышенности, расположенные по краям этой карты, застроены многочисленными домами. Извилистые улочки позволяют наносить неожиданные удары. Через лежащий между базами пустырь можно совершить внезапное нападение.</value>
+  </data>
+  <data name="03_campania/name" xml:space="preserve">
+    <value>Провинция</value>
   </data>
   <data name="04_himmelsdorf/description" xml:space="preserve">
     <value>Лабиринт улиц и площадей, крайне неудобный для артиллерии и противотанковых САУ, но идеальный для быстрых прорывов и обходов лёгких и средних танков. Обходные пути — через господствующий над местностью холм с замком и по путям железнодорожного вокзала — помогут выбраться из образовавшегося позиционного тупика.</value>
@@ -165,41 +177,11 @@
   <data name="08_ruinberg/name" xml:space="preserve">
     <value>Руинберг</value>
   </data>
-  <data name="100_thepit/description" xml:space="preserve">
-    <value>Городок в лощине является ареной для жарких боёв стальных машин, передвигающихся между развалинами разрушенных домов в попытках укрыться от навесного огня артиллерии противника и проложить свой путь к победе.</value>
-  </data>
-  <data name="100_thepit/name" xml:space="preserve">
-    <value>Миттенгард</value>
-  </data>
-  <data name="101_dday/description" xml:space="preserve">
-    <value>Береговая линия отлично подойдёт для быстрой техники. Она является подходящим местом для атак с тыла. Центральная и восточная части карты позволят вести наступательные действия на тяжёлой технике при поддержке союзников.</value>
-  </data>
-  <data name="101_dday/name" xml:space="preserve">
-    <value>Оверлорд</value>
-  </data>
-  <data name="103_ruinberg_winter/description" xml:space="preserve">
-    <value>Концентрическая система улиц города, густые деревья и кусты в парке позволяют производить скрытые манёвры и оперативно перебрасывать резервы. Действия артиллерии в городской части сильно затруднены, но высокая степень разрушений в городе позволяет оказывать своим войскам эффективную поддержку.</value>
-  </data>
-  <data name="103_ruinberg_winter/name" xml:space="preserve">
-    <value>Винтерберг</value>
-  </data>
   <data name="10_hills/description" xml:space="preserve">
     <value>Высокий холм в центре является ключевой точкой карты. Холм трудно занять, но в случае успеха позиция занявшей его команды резко улучшается. Деревня к северо-востоку от холма и остров на западе, несмотря на ряд преимуществ, остаются уязвимыми для огня c центра.</value>
   </data>
   <data name="10_hills/name" xml:space="preserve">
     <value>Рудники</value>
-  </data>
-  <data name="112_eiffel_tower_ctf/description" xml:space="preserve">
-    <value>Плотно застроенные улицы города надёжно укрывают тяжёлую технику союзников. Центральная площадь опасна и контролируется со всех сторон, а набережная Сены с недостроенным фонтаном подходит для боёв на быстрых и манёвренных машинах.</value>
-  </data>
-  <data name="112_eiffel_tower_ctf/name" xml:space="preserve">
-    <value>Париж</value>
-  </data>
-  <data name="114_czech/description" xml:space="preserve">
-    <value>Последние разведданные указывают на то, что атаку стоит осуществлять по флангам. Завод в центре может оказаться ловушкой для наших бойцов. Разведка рекомендует использовать его в конце боя для быстрых прорывов.</value>
-  </data>
-  <data name="114_czech/name" xml:space="preserve">
-    <value>Промзона</value>
   </data>
   <data name="11_murovanka/description" xml:space="preserve">
     <value>Тактика боя определяется наличием болот, оврагов и холмов. Небольшое количество зданий даёт ощутимое преимущество артиллерии. Сконцентрируйте ваши силы на одном направлении, ограничившись обороной на остальных.</value>
@@ -207,17 +189,35 @@
   <data name="11_murovanka/name" xml:space="preserve">
     <value>Мурованка</value>
   </data>
+  <data name="12_scorched_earth/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="12_scorched_earth/name" xml:space="preserve">
+    <value>Выжженная земля</value>
+  </data>
   <data name="13_erlenberg/description" xml:space="preserve">
     <value>Разделённая рекой пополам, карта имеет три вероятные линии атак. Центральный мост расположен среди руин небольшого города. Местность около северного и южного мостов характеризуется небольшим количеством укрытий. В качестве огневых позиций можно использовать замок и линию холмов на противоположной части карты.</value>
   </data>
   <data name="13_erlenberg/name" xml:space="preserve">
     <value>Эрленберг</value>
   </data>
+  <data name="13_erlenberg_winter/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="13_erlenberg_winter/name" xml:space="preserve">
+    <value>С Новым годом, Эрленберг!</value>
+  </data>
   <data name="14_siegfried_line/description" xml:space="preserve">
     <value>Удачное сочетание открытых пространств и городских кварталов является особенностью данной карты. Извилистые улочки позволяют проникнуть в тыл противника, а многочисленные доты могут быть использованы в качестве укрытий.</value>
   </data>
   <data name="14_siegfried_line/name" xml:space="preserve">
     <value>Линия Зигфрида</value>
+  </data>
+  <data name="15_komarin/description" xml:space="preserve">
+    <value>Карта условно разделена на три направления. Удерживая центральное направление, команда получит стратегическое преимущество, так как именно оттуда можно поддерживать фланговые атаки, которые могут значительно влиять на исход боя.</value>
+  </data>
+  <data name="15_komarin/name" xml:space="preserve">
+    <value>Комарин</value>
   </data>
   <data name="17_munchen/description" xml:space="preserve">
     <value>Заводские кварталы, разрушенные дома, товарные составы являются особенностями данной карты. Насыпь с железной дорогой, разделяющая карту пополам, позволит сконцентрировать силы для контрудара.</value>
@@ -237,13 +237,6 @@
   <data name="19_monastery/name" xml:space="preserve">
     <value>Монастырь</value>
   </data>
-  <data name="212_epic_random_valley/description" xml:space="preserve">
-    <value>Две величественные горы возвышаются над этой тихой долиной. Развалины замка находятся на берегу озера возле леса. Бескрайние поля предоставляют отличную возможность для быстрого и незаметного обхода противника.
-Через небольшую деревню лежит путь для тех, кто предпочитает более открытый подход к бою.</value>
-  </data>
-  <data name="212_epic_random_valley/name" xml:space="preserve">
-    <value>Небельбург</value>
-  </data>
   <data name="22_slough/description" xml:space="preserve">
     <value>Два основных направления лежат по обе стороны болота. Господствующие высоты дают стратегическое преимущество и являются отличными точками для разведки и атак. В центре карты находится труднопроходимое болото, контроль над которым поможет предотвратить любые перемещения противника.</value>
   </data>
@@ -256,6 +249,24 @@
   <data name="23_westfeld/name" xml:space="preserve">
     <value>Вестфилд</value>
   </data>
+  <data name="24_canyon/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="24_canyon/name" xml:space="preserve">
+    <value>zFrozen Каньон</value>
+  </data>
+  <data name="26_river_valley/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="26_river_valley/name" xml:space="preserve">
+    <value>zFrozen Речная долина</value>
+  </data>
+  <data name="27_ardennes/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="27_ardennes/name" xml:space="preserve">
+    <value>Арденны</value>
+  </data>
   <data name="28_desert/description" xml:space="preserve">
     <value>На первый взгляд данная карта кажется очень открытой, но это не так. Несмотря на то, что глиняные дома в деревнях легко разрушаются, их с успехом можно использовать в качестве защиты. Фланги неплохо прикрыты скальными массивами и высокими дюнами, что позволяет наступать с неожиданных направлений.</value>
   </data>
@@ -267,6 +278,12 @@
   </data>
   <data name="29_el_hallouf/name" xml:space="preserve">
     <value>Эль-Халлуф</value>
+  </data>
+  <data name="30_africa_airfield/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="30_africa_airfield/name" xml:space="preserve">
+    <value>zFrozen Аэродром</value>
   </data>
   <data name="31_airfield/description" xml:space="preserve">
     <value>Карта изобилует удобными местами для засад и многочисленными путями для прорывов и манёвров. В верхней части карты расположен большой аэродром. В центре находится скалистая возвышенность, позволяющая контролировать окружающие просторы и выход к базам.</value>
@@ -310,6 +327,30 @@
   <data name="38_mannerheim_line/name" xml:space="preserve">
     <value>Заполярье</value>
   </data>
+  <data name="39_crimea/description" xml:space="preserve">
+    <value>Данная карта характеризуется сильнопересечённой местностью, позволяющей использовать различные методики боя: тактику обхода, засад или прямого наступления. Между скальными массивами можно сосредоточить превосходящие силы для успешного наступления.</value>
+  </data>
+  <data name="39_crimea/name" xml:space="preserve">
+    <value>Южный берег</value>
+  </data>
+  <data name="40_boundless/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="40_boundless/name" xml:space="preserve">
+    <value>Беспределье</value>
+  </data>
+  <data name="42_midtown/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="42_midtown/name" xml:space="preserve">
+    <value>Мидтаун</value>
+  </data>
+  <data name="43_north_america/description" xml:space="preserve">
+    <value>Карта отличается скалистой местностью и обилием леса. Почти на каждом открытом участке можно найти и использовать в качестве укрытия огромный валун, дом или скалу. Многочисленные посёлки и рудничные комплексы позволяют создать успешный узел обороны.</value>
+  </data>
+  <data name="43_north_america/name" xml:space="preserve">
+    <value>Северо-Запад</value>
+  </data>
   <data name="44_north_america/description" xml:space="preserve">
     <value>В центре карты расположено большое озеро с заболоченными берегами. На одном фланге находятся узкий железнодорожный мост и брод, которые позволяют оставить немногочисленные силы для обороны, а основные усилия сконцентрировать на другом фланге.</value>
   </data>
@@ -322,11 +363,74 @@
   <data name="45_north_america/name" xml:space="preserve">
     <value>Хайвей</value>
   </data>
-  <data name="47_canada_a/description" xml:space="preserve">
-    <value>Карта условно разделена на несколько направлений, каждое из которых в равной степени важно для команды. Тяжёлой и медленной технике необходимо сконцентрироваться на участках вдоль железной дороги. Быстрая техника сможет вести бои в центре карты с полуострова и с господствующих высот.</value>
+  <data name="53_japan/description" xml:space="preserve">
+    <value>Наиболее прикрытым является направление у подножия горы, которое прекрасно подходит для тяжёлой техники. Быстрые и манёвренные машины могут быть использованы при штурме деревни, однако стоит опасаться притаившегося на холме противника. Контроль высоты даёт ощутимое тактическое преимущество.</value>
   </data>
-  <data name="47_canada_a/name" xml:space="preserve">
-    <value>Тихий берег</value>
+  <data name="type/assault/description1" xml:space="preserve">
+    <value>Задача: предотвратить захват базы или уничтожить всю технику противника.</value>
+  </data>
+  <data name="type/assault/description2" xml:space="preserve">
+    <value>Задача: захватить базу противника или уничтожить всю его технику.</value>
+  </data>
+  <data name="type/assault/name" xml:space="preserve">
+    <value>Штурм</value>
+  </data>
+  <data name="type/ctf/description" xml:space="preserve">
+    <value>Задача: захватить базу противника или уничтожить всю его технику.</value>
+  </data>
+  <data name="type/ctf/name" xml:space="preserve">
+    <value>Стандартный бой</value>
+  </data>
+  <data name="type/domination/description" xml:space="preserve">
+    <value>Задача: захватить базу или уничтожить всю технику противника.</value>
+  </data>
+  <data name="type/domination/name" xml:space="preserve">
+    <value>Встречный бой</value>
+  </data>
+  <data name="41_north_america/description" xml:space="preserve">
+    <value>На этой карте можно проводить глубокие обходы по дну каньона к вражеской базе или быстро атаковать через плато. На самом плато тоже имеется возможность применить несколько различных тактик ведения боя.</value>
+  </data>
+  <data name="41_north_america/name" xml:space="preserve">
+    <value>Каньон</value>
+  </data>
+  <data name="42_north_america/description" xml:space="preserve">
+    <value>Карта предназначена для решительных боевых действий, изобилие укрытий на железной дороге не спасает от огня с флангов. Общий характер местности не подходит для оборонительных действий.</value>
+  </data>
+  <data name="42_north_america/name" xml:space="preserve">
+    <value>Порт</value>
+  </data>
+  <data name="46_north_america/description" xml:space="preserve">
+    <value>Особенностью данной карты является изрезанный ландшафт. Холмы и овраги, пересекающие местность, удобны для манёвренного боя. Часто встречающиеся скальные массивы позволяют выбирать места для обороны и засады.</value>
+  </data>
+  <data name="46_north_america/name" xml:space="preserve">
+    <value>Гран Камино</value>
+  </data>
+  <data name="47_canada_b/description" xml:space="preserve">
+    <value>Grimtown</value>
+  </data>
+  <data name="47_canada_b/name" xml:space="preserve">
+    <value>Гримтаун</value>
+  </data>
+  <data name="49_africa/description" xml:space="preserve">
+    <value>Эта карта характерна открытыми пространствами и плавными переходами ландшафта. Русло реки и невысокие холмы позволят выбрать удобное место для наступления. В качестве укрытия или места для засады, можно использовать немногочисленные хижины и выходы скальных массивов на поверхность.</value>
+  </data>
+  <data name="49_africa/name" xml:space="preserve">
+    <value>Саванна</value>
+  </data>
+  <data name="52_australia/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="52_australia/name" xml:space="preserve">
+    <value>Каменный лес</value>
+  </data>
+  <data name="53_japan/name" xml:space="preserve">
+    <value>Скрытая деревня</value>
+  </data>
+  <data name="55_south_america/description" xml:space="preserve">
+    <value>Прибрежная холмистая местность с густой тропической растительностью граничит с водным пространством. Данный рельеф удобен для засад и внезапных атак. Базы противников расположены на полуострове в непосредственной близости друг от друга. Заняв невысокий холм между ними, команда получит отличную позицию для ведения огня по обеим базам. Противники начинают бой вдалеке от своих баз, что стимулирует их к активному старту.</value>
+  </data>
+  <data name="55_south_america/name" xml:space="preserve">
+    <value>Забытая гавань</value>
   </data>
   <data name="59_asia_great_wall/description" xml:space="preserve">
     <value>На карте много горных дорог и каньонов, поэтому важную роль играют разведка и артиллерия. Проход в стене может использоваться быстрыми танками для неожиданных атак. Остальная техника подойдёт для атаки в выбранном направлении.</value>
@@ -334,11 +438,104 @@
   <data name="59_asia_great_wall/name" xml:space="preserve">
     <value>Граница империи</value>
   </data>
-  <data name="63_tundra/description" xml:space="preserve">
-    <value>Гора на востоке даёт серьёзное боевое преимущество, в то время как контроль над центральной частью карты обеспечивает тактическое преимущество. На западе расположен посёлок с объездной дорогой. Это направление может быть использовано для неожиданных манёвров и тактических приёмов.</value>
+  <data name="60_asia_miao/description" xml:space="preserve">
+    <value>Изрезанный ландшафт открывает огромные возможности для использования различных тактик боя — засад, внезапных обходов, столкновений на небольших участках. Движение вдоль русла реки позволяет быстро добраться до базы противника и вступить в бой. Помните, что на этой карте нельзя забывать о своих тылах.</value>
+  </data>
+  <data name="60_asia_miao/name" xml:space="preserve">
+    <value>Жемчужная река</value>
+  </data>
+  <data name="type/ctf2/description" xml:space="preserve">
+    <value>Задача: захватить хотя бы одну базу противника или уничтожить всю его технику.</value>
+  </data>
+  <data name="type/ctf2/name" xml:space="preserve">
+    <value>Завоевание</value>
+  </data>
+  <data name="type/escort/description1" xml:space="preserve">
+    <value>Задача: предотвратить захват базы или уничтожить три первых по списку машины противника.</value>
+  </data>
+  <data name="type/escort/description2" xml:space="preserve">
+    <value>Задача: захватить базу противника или уничтожить всю технику противника при условии, что хотя бы одна из трёх первых по списку союзных машин не была уничтожена.</value>
+  </data>
+  <data name="type/escort/name" xml:space="preserve">
+    <value>Эскорт</value>
+  </data>
+  <data name="51_asia/description" xml:space="preserve">
+    <value>Сложный изрезанный ландшафт невольно завораживает своей красотой. Озеро, многочисленные бамбуковые заросли и скалы ярко подчёркивают уникальность этой карты. Вы можете выбрать любое из возможных направлений для наступления, и каждое из них будет иметь свои преимущества.</value>
+  </data>
+  <data name="51_asia/name" xml:space="preserve">
+    <value>Хребет Дракона</value>
+  </data>
+  <data name="47_canada_a/description" xml:space="preserve">
+    <value>Карта условно разделена на несколько направлений, каждое из которых в равной степени важно для команды. Тяжёлой и медленной технике необходимо сконцентрироваться на участках вдоль железной дороги. Быстрая техника сможет вести бои в центре карты с полуострова и с господствующих высот.</value>
+  </data>
+  <data name="47_canada_a/name" xml:space="preserve">
+    <value>Тихий берег</value>
+  </data>
+  <data name="48_south_america/description" xml:space="preserve">
+    <value>Река с высокими берегами делит данную местность на несколько частей. Высокие холмы, деревья и болотистые броды позволяют построить оборону или сосредоточить силы для атаки.</value>
+  </data>
+  <data name="58_asia_xinjiang/description" xml:space="preserve">
+    <value>Mekyar</value>
+  </data>
+  <data name="58_asia_xinjiang/name" xml:space="preserve">
+    <value>Мекъяр</value>
+  </data>
+  <data name="62_asia_huangshan/description" xml:space="preserve">
+    <value>empty</value>
+  </data>
+  <data name="62_asia_huangshan/name" xml:space="preserve">
+    <value>Парящие скалы</value>
   </data>
   <data name="63_tundra/name" xml:space="preserve">
     <value>Тундра</value>
+  </data>
+  <data name="64_antarctica_shore/description" xml:space="preserve">
+    <value>Cape Helbert</value>
+  </data>
+  <data name="64_antarctica_shore/name" xml:space="preserve">
+    <value>Мыс Гельберта</value>
+  </data>
+  <data name="65_asia_vietnam/description" xml:space="preserve">
+    <value>White cliffs</value>
+  </data>
+  <data name="65_asia_vietnam/name" xml:space="preserve">
+    <value>Белые скалы</value>
+  </data>
+  <data name="66_asia_vietnam/description" xml:space="preserve">
+    <value>Nong Ten</value>
+  </data>
+  <data name="66_asia_vietnam/name" xml:space="preserve">
+    <value>Нонг Тэн</value>
+  </data>
+  <data name="68_asia_iraq/description" xml:space="preserve">
+    <value>Kasbah</value>
+  </data>
+  <data name="68_asia_iraq/name" xml:space="preserve">
+    <value>Цитадель</value>
+  </data>
+  <data name="69_rocky_island/description" xml:space="preserve">
+    <value>Rocky Island</value>
+  </data>
+  <data name="69_rocky_island/name" xml:space="preserve">
+    <value>Роки Айленд</value>
+  </data>
+  <data name="70_pearl_harbor/description" xml:space="preserve">
+    <value>Nanaluu dock</value>
+  </data>
+  <data name="70_pearl_harbor/name" xml:space="preserve">
+    <value>Док Наналуу</value>
+  </data>
+  <data name="71_asia_bali/description" xml:space="preserve">
+    <value>Kechari</value>
+  </data>
+  <data name="71_asia_bali/name" xml:space="preserve">
+    <value>Кечари</value>
+  </data>
+  <data name="72_quarry_a/description" xml:space="preserve">
+    <value>Quarry</value>
+  </data>
+  <data name="72_quarry_a/name" xml:space="preserve">
+    <value>Карьер</value>
   </data>
   <data name="73_asia_korea/description" xml:space="preserve">
     <value>Большую часть местности занимает затерянная в горах лощина. Наличие многочисленных деревушек, высоких скал, деревьев и кустов позволяет выбрать оптимальную тактику ведения боя.</value>
@@ -346,11 +543,107 @@
   <data name="73_asia_korea/name" xml:space="preserve">
     <value>Священная долина</value>
   </data>
-  <data name="83_kharkiv/description" xml:space="preserve">
-    <value>Городская застройка в центре карты является наиболее важным стратегическим участком. На карте выделяются ещё два направления: городская площадь, на которой можно вести бои на дальних дистанциях, и участок за городской чертой, на котором лучше всего может проявить себя манёвренная техника.</value>
+  <data name="75_dam/description" xml:space="preserve">
+    <value>Дамба</value>
   </data>
-  <data name="83_kharkiv/name" xml:space="preserve">
-    <value>Харьков</value>
+  <data name="75_dam/name" xml:space="preserve">
+    <value>Дамба</value>
+  </data>
+  <data name="76_asia_armenia/description" xml:space="preserve">
+    <value>Армения, Гарни</value>
+  </data>
+  <data name="76_asia_armenia/name" xml:space="preserve">
+    <value>Пик Гарна</value>
+  </data>
+  <data name="77_pacific_island/description" xml:space="preserve">
+    <value>Pacific island</value>
+  </data>
+  <data name="77_pacific_island/name" xml:space="preserve">
+    <value>Атолл Луару</value>
+  </data>
+  <data name="78_asia_valley/description" xml:space="preserve">
+    <value>Израиль, Цфат</value>
+  </data>
+  <data name="78_asia_valley/name" xml:space="preserve">
+    <value>Батгиль</value>
+  </data>
+  <data name="79_asia/description" xml:space="preserve">
+    <value>Caldera</value>
+  </data>
+  <data name="79_asia/name" xml:space="preserve">
+    <value>Кальдера</value>
+  </data>
+  <data name="valley_66_asia_vietnam/description" xml:space="preserve">
+    <value>valley_66_asia_vietnam</value>
+  </data>
+  <data name="valley_66_asia_vietnam/name" xml:space="preserve">
+    <value>Луанунг</value>
+  </data>
+  <data name="09_stalingrad_k/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="09_stalingrad_k/name" xml:space="preserve">
+    <value>Сталинград</value>
+  </data>
+  <data name="48_south_america/name" xml:space="preserve">
+    <value>Чёрная река</value>
+  </data>
+  <data name="54_south_america/description" xml:space="preserve">
+    <value>Rio Marcella possible: Rio Marcus, Rio Puebla, San romero</value>
+  </data>
+  <data name="54_south_america/name" xml:space="preserve">
+    <value>Рио Марсель</value>
+  </data>
+  <data name="61_asia/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="61_asia/name" xml:space="preserve">
+    <value>Хампи</value>
+  </data>
+  <data name="64_antarctica_inland/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="64_antarctica_inland/name" xml:space="preserve">
+    <value>Антарктида</value>
+  </data>
+  <data name="67_asia_ruins/description" xml:space="preserve">
+    <value>Jovian Foothold, Jovian ground, Jovian something, Трибунал юпитера, террасы юпитера, мегалит юпитера.</value>
+  </data>
+  <data name="67_asia_ruins/name" xml:space="preserve">
+    <value>Плацдарм Юпитера</value>
+  </data>
+  <data name="74_asia_afghanistan/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="74_asia_afghanistan/name" xml:space="preserve">
+    <value>Шелковый путь</value>
+  </data>
+  <data name="82_salar/description" xml:space="preserve">
+    <value>Salar</value>
+  </data>
+  <data name="82_salar/name" xml:space="preserve">
+    <value>Саляр</value>
+  </data>
+  <data name="85_winter/description" xml:space="preserve">
+    <value>Городок является основным направлением для боевых действий, а использование горных дорог может дать команде преимущество в бою. Быстрым танкам необходимо поддерживать артиллерию, которая появляется рядом с базой.</value>
+  </data>
+  <data name="85_winter/name" xml:space="preserve">
+    <value>Северогорск</value>
+  </data>
+  <data name="test_boundless/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="test_boundless/name" xml:space="preserve">
+    <value>Беспределье</value>
+  </data>
+  <data name="00_tank_tutorial/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="00_tank_tutorial/name" xml:space="preserve">
+    <value>Танковый полигон</value>
+  </data>
+  <data name="63_tundra/description" xml:space="preserve">
+    <value>Гора на востоке даёт серьёзное боевое преимущество, в то время как контроль над центральной частью карты обеспечивает тактическое преимущество. На западе расположен посёлок с объездной дорогой. Это направление может быть использовано для неожиданных манёвров и тактических приёмов.</value>
   </data>
   <data name="84_winter/description" xml:space="preserve">
     <value>Путь через город является наиболее защищённым и позволяет вести позиционный бой. На севере расположен открытый маршрут для прорыва в тыл к базе противника и ведения манёвренного боя на скоростной технике.</value>
@@ -364,17 +657,41 @@
   <data name="86_himmelsdorf_winter/name" xml:space="preserve">
     <value>Зимний Химмельсдорф</value>
   </data>
-  <data name="92_stalingrad/description" xml:space="preserve">
-    <value>Плотная городская застройка в центре карты позволяет использовать различные тактики. Открытая набережная хорошо подойдёт для быстрых сражений и манёвренной техники.</value>
+  <data name="87_ruinberg_on_fire/description" xml:space="preserve">
+    <value>Концентрическая система улиц города, густые деревья и кусты в парке позволяют производить скрытые манёвры и оперативно перебрасывать резервы. Действия артиллерии в городской части сильно затруднены, но высокая степень разрушений в городе позволяет оказывать своим войскам эффективную поддержку.</value>
   </data>
-  <data name="92_stalingrad/name" xml:space="preserve">
-    <value>Сталинград</value>
+  <data name="87_ruinberg_on_fire/name" xml:space="preserve">
+    <value>Руинберг в огне</value>
   </data>
-  <data name="95_lost_city/description" xml:space="preserve">
-    <value>Военный городок в знойных песках идеально подойдёт для фронтальных столкновений тяжёлой бронетехники, а его окрестности — для внезапных атак с флангов на манёвренных танках.</value>
+  <data name="94_battlecity/description" xml:space="preserve">
+    <value>Сложный изрезанный ландшафт невольно завораживает своей красотой. Озеро, многочисленные бамбуковые заросли и скалы ярко подчёркивают уникальность этой карты. Вы можете выбрать любое из возможных направлений для наступления, и каждое из них будет иметь свои преимущества.</value>
   </data>
-  <data name="95_lost_city/name" xml:space="preserve">
-    <value>Затерянный город</value>
+  <data name="94_battlecity/name" xml:space="preserve">
+    <value>Восьмибитная история</value>
+  </data>
+  <data name="type/nations/description" xml:space="preserve">
+    <value>Задача: захватить базу или уничтожить всю его технику.</value>
+  </data>
+  <data name="type/nations/name" xml:space="preserve">
+    <value>Противостояние</value>
+  </data>
+  <data name="83_kharkiv/description" xml:space="preserve">
+    <value>Городская застройка в центре карты является наиболее важным стратегическим участком. На карте выделяются ещё два направления: городская площадь, на которой можно вести бои на дальних дистанциях, и участок за городской чертой, на котором лучше всего может проявить себя манёвренная техника.</value>
+  </data>
+  <data name="83_kharkiv/name" xml:space="preserve">
+    <value>Харьков</value>
+  </data>
+  <data name="99_himmelball/description" xml:space="preserve">
+    <value>Сразись в честном бою за первенство в чемпионате Химмельсдорфа!</value>
+  </data>
+  <data name="99_himmelball/name" xml:space="preserve">
+    <value>Чемпионат Химмельсдорфа</value>
+  </data>
+  <data name="type/football/description" xml:space="preserve">
+    <value>Задача: забить 3 мяча в ворота противника. Продолжительность матча — 5 минут.</value>
+  </data>
+  <data name="type/football/name" xml:space="preserve">
+    <value>Футбольный матч</value>
   </data>
   <data name="96_prohorovka_defense/description" xml:space="preserve">
     <value>Открытая холмистая местность, разделённая железнодорожной насыпью. Группы деревьев являются отличным укрытием для противотанковых САУ. Атакуя, следите за флангами. Обороняясь, атакуйте фланги противника. Артиллерия обладает свободой действий, но крайне уязвима для рейда скоростных лёгких сил.</value>
@@ -382,14 +699,17 @@
   <data name="96_prohorovka_defense/name" xml:space="preserve">
     <value>Огненная дуга</value>
   </data>
-  <data name="type/assault/description1" xml:space="preserve">
-    <value>Задача: предотвратить захват базы или уничтожить всю технику противника.</value>
+  <data name="102_deathtrack/description" xml:space="preserve">
+    <value>На старт! Внимание! Марш! И не забудь пристегнуть ремень безопасности.</value>
   </data>
-  <data name="type/assault/description2" xml:space="preserve">
-    <value>Задача: захватить базу противника или уничтожить всю его технику.</value>
+  <data name="102_deathtrack/name" xml:space="preserve">
+    <value>Танковые гонки</value>
   </data>
-  <data name="type/assault/name" xml:space="preserve">
-    <value>Штурм</value>
+  <data name="92_stalingrad/description" xml:space="preserve">
+    <value>Плотная городская застройка в центре карты позволяет использовать различные тактики. Открытая набережная хорошо подойдёт для быстрых сражений и манёвренной техники.</value>
+  </data>
+  <data name="92_stalingrad/name" xml:space="preserve">
+    <value>Сталинград</value>
   </data>
   <data name="type/assault2/description1" xml:space="preserve">
     <value>Задача: предотвратить захват баз или уничтожить всю технику противника.</value>
@@ -400,68 +720,53 @@
   <data name="type/assault2/name" xml:space="preserve">
     <value>Атака/Оборона</value>
   </data>
-  <data name="type/bootcamp/description0" xml:space="preserve">
-    <value>Чтобы завершить задание, следуйте подсказкам</value>
+  <data name="100_thepit/description" xml:space="preserve">
+    <value>Городок в лощине является ареной для жарких боёв стальных машин, передвигающихся между развалинами разрушенных домов в попытках укрыться от навесного огня артиллерии противника и проложить свой путь к победе.</value>
   </data>
-  <data name="type/bootcamp/description1" xml:space="preserve">
-    <value>Найдите и уничтожьте всю технику противника</value>
+  <data name="100_thepit/name" xml:space="preserve">
+    <value>Миттенгард</value>
   </data>
-  <data name="type/bootcamp/description2" xml:space="preserve">
-    <value>Обнаружьте технику противника</value>
+  <data name="103_ruinberg_winter/description" xml:space="preserve">
+    <value>Концентрическая система улиц города, густые деревья и кусты в парке позволяют производить скрытые манёвры и оперативно перебрасывать резервы. Действия артиллерии в городской части сильно затруднены, но высокая степень разрушений в городе позволяет оказывать своим войскам эффективную поддержку.</value>
   </data>
-  <data name="type/bootcamp/description3" xml:space="preserve">
-    <value>Захватите базу или уничтожьте всю технику противника</value>
+  <data name="103_ruinberg_winter/name" xml:space="preserve">
+    <value>Винтерберг</value>
   </data>
-  <data name="type/bootcamp/description4" xml:space="preserve">
-    <value>Захватите базу или уничтожьте всю технику противника</value>
+  <data name="109_battlecity_ny/description" xml:space="preserve">
+    <value>Сложный изрезанный ландшафт невольно завораживает своей красотой. Озеро, многочисленные бамбуковые заросли и скалы ярко подчёркивают уникальность этой карты. Вы можете выбрать любое из возможных направлений для наступления, и каждое из них будет иметь свои преимущества.</value>
   </data>
-  <data name="type/bootcamp/description5" xml:space="preserve">
-    <value>Захватите базу или уничтожьте всю технику противника</value>
+  <data name="109_battlecity_ny/name" xml:space="preserve">
+    <value>Зимняя битва</value>
   </data>
-  <data name="type/ctf/description" xml:space="preserve">
-    <value>Задача: захватить базу противника или уничтожить всю его технику.</value>
+  <data name="95_lost_city/description" xml:space="preserve">
+    <value>Военный городок в знойных песках идеально подойдёт для фронтальных столкновений тяжёлой бронетехники, а его окрестности — для внезапных атак с флангов на манёвренных танках.</value>
   </data>
-  <data name="type/ctf/name" xml:space="preserve">
-    <value>Стандартный бой</value>
+  <data name="95_lost_city/name" xml:space="preserve">
+    <value>Затерянный город</value>
   </data>
-  <data name="type/ctf2/description" xml:space="preserve">
-    <value>Задача: захватить хотя бы одну базу противника или уничтожить всю его технику.</value>
+  <data name="101_dday/description" xml:space="preserve">
+    <value>Береговая линия отлично подойдёт для быстрой техники. Она является подходящим местом для атак с тыла. Центральная и восточная части карты позволят вести наступательные действия на тяжёлой технике при поддержке союзников.</value>
   </data>
-  <data name="type/ctf2/name" xml:space="preserve">
-    <value>Завоевание</value>
+  <data name="101_dday/name" xml:space="preserve">
+    <value>Оверлорд</value>
   </data>
-  <data name="type/ctf30x30/description" xml:space="preserve">
-    <value>Задача: захватить базу противника или уничтожить всю его технику.</value>
+  <data name="111_paris/description" xml:space="preserve">
+    <value>Монте-Роза</value>
   </data>
-  <data name="type/ctf30x30/name" xml:space="preserve">
-    <value>Генеральное сражение</value>
-  </data>
-  <data name="type/domination/description" xml:space="preserve">
-    <value>Задача: захватить базу или уничтожить всю технику противника.</value>
-  </data>
-  <data name="type/domination/name" xml:space="preserve">
-    <value>Встречный бой</value>
-  </data>
-  <data name="type/domination30x30/description" xml:space="preserve">
-    <value>Задача: захватить базу или уничтожить всю технику противника.</value>
-  </data>
-  <data name="type/domination30x30/name" xml:space="preserve">
-    <value>Встречный бой</value>
-  </data>
-  <data name="type/escort/description1" xml:space="preserve">
-    <value>Задача: предотвратить захват базы или уничтожить три первых по списку машины противника.</value>
-  </data>
-  <data name="type/escort/description2" xml:space="preserve">
-    <value>Задача: захватить базу противника или уничтожить всю технику противника при условии, что хотя бы одна из трёх первых по списку союзных машин не была уничтожена.</value>
-  </data>
-  <data name="type/escort/name" xml:space="preserve">
-    <value>Эскорт</value>
+  <data name="111_paris/name" xml:space="preserve">
+    <value>Монте-Роза</value>
   </data>
   <data name="type/fallout/description" xml:space="preserve">
     <value>Задача: заработать наибольшее количество очков победы.</value>
   </data>
   <data name="type/fallout/name" xml:space="preserve">
     <value>«Стальная охота»</value>
+  </data>
+  <data name="96_prohorovka_defense_test/description" xml:space="preserve">
+    <value>Открытая холмистая местность, разделённая железнодорожной насыпью. Группы деревьев являются отличным укрытием для противотанковых САУ. Атакуя, следите за флангами. Обороняясь, атакуйте фланги противника. Артиллерия обладает свободой действий, но крайне уязвима для рейда скоростных лёгких сил.</value>
+  </data>
+  <data name="96_prohorovka_defense_test/name" xml:space="preserve">
+    <value>Огненная дуга (ТЕСТ)</value>
   </data>
   <data name="type/fallout1/description" xml:space="preserve">
     <value>Задача: заработать наибольшее количество очков победы.</value>
@@ -502,13 +807,80 @@
   <data name="type/falloutMutliteam/description" xml:space="preserve">
     <value>Задача: заработать наибольшее количество очков победы.</value>
   </data>
-  <data name="type/nations/description" xml:space="preserve">
-    <value>Задача: захватить базу или уничтожить всю его технику.</value>
+  <data name="105_germany/description" xml:space="preserve">
+    <value>Берлин</value>
   </data>
-  <data name="type/nations/name" xml:space="preserve">
-    <value>Противостояние</value>
+  <data name="105_germany/name" xml:space="preserve">
+    <value>Берлин</value>
+  </data>
+  <data name="112_eiffel_tower/description" xml:space="preserve">
+    <value>Париж</value>
+  </data>
+  <data name="112_eiffel_tower/name" xml:space="preserve">
+    <value>Париж</value>
   </data>
   <data name="type/sandbox/description1" xml:space="preserve">
     <value>Задача: захватить базу противника или уничтожить всю его технику.</value>
+  </data>
+  <data name="114_czech/description" xml:space="preserve">
+    <value>Последние разведданные указывают на то, что атаку стоит осуществлять по флангам. Завод в центре может оказаться ловушкой для наших бойцов. Разведка рекомендует использовать его в конце боя для быстрых прорывов.</value>
+  </data>
+  <data name="114_czech/name" xml:space="preserve">
+    <value>Промзона</value>
+  </data>
+  <data name="119_moon_pool/description" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="119_moon_pool/name" xml:space="preserve">
+    <value>Лунопарк</value>
+  </data>
+  <data name="type/event/description" xml:space="preserve">
+    <value>Задача: уничтожить наибольшее количество машин противника. Любым удобным способом.</value>
+  </data>
+  <data name="type/event/name" xml:space="preserve">
+    <value>Тёмная сторона Луны</value>
+  </data>
+  <data name="112_eiffel_tower_ctf/description" xml:space="preserve">
+    <value>Плотно застроенные улицы города надёжно укрывают тяжёлую технику союзников. Центральная площадь опасна и контролируется со всех сторон, а набережная Сены с недостроенным фонтаном подходит для боёв на быстрых и манёвренных машинах.</value>
+  </data>
+  <data name="112_eiffel_tower_ctf/name" xml:space="preserve">
+    <value>Париж</value>
+  </data>
+  <data name="type/bootcamp/description0" xml:space="preserve">
+    <value>Чтобы завершить задание, следуйте подсказкам</value>
+  </data>
+  <data name="type/bootcamp/description1" xml:space="preserve">
+    <value>Найдите и уничтожьте всю технику противника</value>
+  </data>
+  <data name="type/bootcamp/description2" xml:space="preserve">
+    <value>Обнаружьте технику противника</value>
+  </data>
+  <data name="type/bootcamp/description3" xml:space="preserve">
+    <value>Захватите базу или уничтожьте всю технику противника</value>
+  </data>
+  <data name="type/bootcamp/description4" xml:space="preserve">
+    <value>Захватите базу или уничтожьте всю технику противника</value>
+  </data>
+  <data name="type/bootcamp/description5" xml:space="preserve">
+    <value>Захватите базу или уничтожьте всю технику противника</value>
+  </data>
+  <data name="212_epic_random_valley/description" xml:space="preserve">
+    <value>Две величественные горы возвышаются над этой тихой долиной. Развалины замка находятся на берегу озера возле леса. Бескрайние поля предоставляют отличную возможность для быстрого и незаметного обхода противника.
+Через небольшую деревню лежит путь для тех, кто предпочитает более открытый подход к бою.</value>
+  </data>
+  <data name="212_epic_random_valley/name" xml:space="preserve">
+    <value>Небельбург</value>
+  </data>
+  <data name="type/ctf30x30/description" xml:space="preserve">
+    <value>Задача: захватить базу противника или уничтожить всю его технику.</value>
+  </data>
+  <data name="type/ctf30x30/name" xml:space="preserve">
+    <value>Генеральное сражение</value>
+  </data>
+  <data name="type/domination30x30/description" xml:space="preserve">
+    <value>Задача: захватить базу или уничтожить всю технику противника.</value>
+  </data>
+  <data name="type/domination30x30/name" xml:space="preserve">
+    <value>Встречный бой</value>
   </data>
 </root>

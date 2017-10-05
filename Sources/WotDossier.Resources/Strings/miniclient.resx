@@ -112,14 +112,11 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="accountPopover/warning" xml:space="preserve">
-    <value>Clans will be available after downloading the full game.</value>
-  </data>
   <data name="ammunition_panel/warn_tooltip" xml:space="preserve">
     <value>Available after downloading the full game</value>
   </data>
@@ -131,9 +128,6 @@
   </data>
   <data name="buy_vehicle/title" xml:space="preserve">
     <value>Confirm Purchase</value>
-  </data>
-  <data name="communicationCenter/warning" xml:space="preserve">
-    <value>Clans will be available after downloading the full game.</value>
   </data>
   <data name="continue_download_dialog/message" xml:space="preserve">
     <value>To complete the download, the game must be closed. Download will start automatically.</value>
@@ -150,9 +144,6 @@
   <data name="hangar/miniclient_description_window/title" xml:space="preserve">
     <value>Attention</value>
   </data>
-  <data name="hangar/sabdbox_platform_message" xml:space="preserve">
-    <value>Unavailable in the current client version</value>
-  </data>
   <data name="hangar/unavailable" xml:space="preserve">
     <value>Available after downloading the full game</value>
   </data>
@@ -162,14 +153,11 @@
   <data name="invitation/note/CLAN" xml:space="preserve">
     <value>Clan Battle will be available after downloading the full game.</value>
   </data>
-  <data name="invitation/note/EVENT" xml:space="preserve">
-    <value>Playing in a Platoon will be available after downloading the full game.</value>
+  <data name="invitation/note/CLUBS" xml:space="preserve">
+    <value>Team Battle will be available after downloading the full game.</value>
   </data>
-  <data name="invitation/note/EXTERNAL" xml:space="preserve">
-    <value>Skirmishes will be available after downloading the full game.</value>
-  </data>
-  <data name="invitation/note/FALLOUT" xml:space="preserve">
-    <value>Playing in a Platoon will be available after downloading the full game.</value>
+  <data name="invitation/note/COMPANY" xml:space="preserve">
+    <value>Tank Company Battle will be available after downloading the full game.</value>
   </data>
   <data name="invitation/note/FORT_BATTLE" xml:space="preserve">
     <value>Advances will be available after downloading the full game.</value>
@@ -195,20 +183,8 @@
   <data name="personal_quests_welcome_view/description" xml:space="preserve">
     <value>Personal missions will be available after downloading the full game.</value>
   </data>
-  <data name="profile/warning" xml:space="preserve">
-    <value>Clans will be available after downloading the full game.</value>
-  </data>
-  <data name="restore_vehicle/message" xml:space="preserve">
-    <value>You will need to download the full game to join the battle in high-tier vehicles. Confirm recovery?</value>
-  </data>
-  <data name="restore_vehicle/title" xml:space="preserve">
-    <value>Confirm Recovery</value>
-  </data>
   <data name="shop_vehicle_item_renderer/warn_message" xml:space="preserve">
     <value>Available after downloading the full game</value>
-  </data>
-  <data name="squad_promo_window/btn" xml:space="preserve">
-    <value>Close</value>
   </data>
   <data name="squad_promo_window/description" xml:space="preserve">
     <value>You will be able to play in tactical units after downloading the full game.</value>
@@ -224,5 +200,35 @@
   </data>
   <data name="tutorial/video/title" xml:space="preserve">
     <value>Battle Training</value>
+  </data>
+  <data name="accountPopover/warning" xml:space="preserve">
+    <value>Clans will be available after downloading the full game.</value>
+  </data>
+  <data name="communicationCenter/warning" xml:space="preserve">
+    <value>Clans will be available after downloading the full game.</value>
+  </data>
+  <data name="profile/warning" xml:space="preserve">
+    <value>Clans will be available after downloading the full game.</value>
+  </data>
+  <data name="squad_promo_window/btn" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="invitation/note/FALLOUT" xml:space="preserve">
+    <value>Playing in a Platoon will be available after downloading the full game.</value>
+  </data>
+  <data name="invitation/note/EVENT" xml:space="preserve">
+    <value>Playing in a Platoon will be available after downloading the full game.</value>
+  </data>
+  <data name="restore_vehicle/message" xml:space="preserve">
+    <value>You will need to download the full game to join the battle in high-tier vehicles. Confirm recovery?</value>
+  </data>
+  <data name="restore_vehicle/title" xml:space="preserve">
+    <value>Confirm Recovery</value>
+  </data>
+  <data name="invitation/note/EXTERNAL" xml:space="preserve">
+    <value>Skirmishes will be available after downloading the full game.</value>
+  </data>
+  <data name="hangar/sabdbox_platform_message" xml:space="preserve">
+    <value>Unavailable in the current client version</value>
   </data>
 </root>

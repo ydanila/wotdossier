@@ -112,176 +112,22 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="battle/hints/changeReceiver" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="battle/history/downMessage" xml:space="preserve">
-    <value>перейти к новым сообщениям</value>
-  </data>
-  <data name="battle/history/header" xml:space="preserve">
-    <value>Противник</value>
-  </data>
-  <data name="battle/history/latestMessage" xml:space="preserve">
-    <value>перейти к последнему сообщению</value>
-  </data>
-  <data name="battle/history/title" xml:space="preserve">
-    <value>История чата:</value>
-  </data>
-  <data name="battle/history/upMessage" xml:space="preserve">
-    <value>перейти к предыдущим сообщениям</value>
-  </data>
-  <data name="battle/receivers/chatIsLocked" xml:space="preserve">
-    <value>%(open)sЧАТ ОТКЛЮЧЁН%(close)s</value>
-  </data>
-  <data name="battle/receivers/chatIsLockedToolTip" xml:space="preserve">
-    <value>Включить боевой чат можно в настройках игры.</value>
-  </data>
-  <data name="battle/receivers/common" xml:space="preserve">
-    <value>ВСЕМ</value>
-  </data>
-  <data name="battle/receivers/squad" xml:space="preserve">
-    <value>ВЗВОДУ</value>
-  </data>
-  <data name="battle/receivers/team" xml:space="preserve">
+  <data name="battle/buttons/send" xml:space="preserve">
     <value>КОМАНДЕ</value>
   </data>
-  <data name="battle/toolTips/cancel" xml:space="preserve">
-    <value>отменить</value>
-  </data>
-  <data name="battle/toolTips/changeReceiver" xml:space="preserve">
-    <value>смена адресата</value>
-  </data>
-  <data name="battle/toolTips/default" xml:space="preserve">
-    <value>с предыдущим адресатом</value>
-  </data>
-  <data name="battle/toolTips/duringChat" xml:space="preserve">
-    <value>Во время чата:</value>
-  </data>
-  <data name="battle/toolTips/mutePlayer" xml:space="preserve">
-    <value>Можно отключить приём сообщений от выбранного игрока,
-нажав на кнопку в чате возле его сообщения.</value>
+  <data name="battle/buttons/sendAll" xml:space="preserve">
+    <value>ВСЕМ</value>
   </data>
   <data name="battle/toolTips/send" xml:space="preserve">
     <value>отправить сообщение</value>
   </data>
-  <data name="battle/toolTips/startChat" xml:space="preserve">
-    <value>Начать чат:</value>
-  </data>
-  <data name="battle/toolTips/toxicMessage" xml:space="preserve">
-    <value>Вы можете пожаловаться на сообщение, нажав на него и выбрав причину жалобы. Настройка также позволяет полностью отключить весь чат или оставить только чат вашей команды.</value>
-  </data>
-  <data name="battle/toolTips/usingChat" xml:space="preserve">
-    <value>Использование чата</value>
-  </data>
-  <data name="battle/toolTips/withSquad" xml:space="preserve">
-    <value>со своим взводом</value>
-  </data>
-  <data name="battle/unknown/ally" xml:space="preserve">
-    <value>Союзник</value>
-  </data>
-  <data name="battle/unknown/enemy" xml:space="preserve">
-    <value>Противник</value>
-  </data>
-  <data name="chat/postBattleSharing/label" xml:space="preserve">
-    <value>Результаты боя</value>
-  </data>
-  <data name="chat/toxicMessages/blockedMessage" xml:space="preserve">
-    <value>Сообщение от %(playerName)s заблокировано.</value>
-  </data>
-  <data name="chat_action/BROADCAST_BATTLE_MESSAGE" xml:space="preserve">
-    <value>Отправить сообщение</value>
-  </data>
-  <data name="chat_action/BROADCAST_UNIT_MESSAGE" xml:space="preserve">
-    <value>Отправить сообщение</value>
-  </data>
-  <data name="chat_action/FIND_USERS_BY_NAME" xml:space="preserve">
-    <value>Поиск игроков</value>
-  </data>
-  <data name="chat_action/GET_VOIP_CREDENTIALS" xml:space="preserve">
-    <value>Настройки голосового чата</value>
-  </data>
-  <data name="chat_error/CANNOT_BAN_ONESELF" xml:space="preserve">
-    <value>нельзя забанить самого себя.</value>
-  </data>
-  <data name="chat_error/GENERIC_ERROR" xml:space="preserve">
-    <value>Ошибка выполнения «%(actionName)s».</value>
-  </data>
-  <data name="chat_error/IS_BUSY" xml:space="preserve">
-    <value>Сервер занят.</value>
-  </data>
-  <data name="chat_error/NOT_ALLOWED" xml:space="preserve">
-    <value>недостаточно прав для выполнения операции.</value>
-  </data>
-  <data name="chat_error/NOT_READY" xml:space="preserve">
-    <value>Действие «%(actionName)s» недоступно.</value>
-  </data>
-  <data name="chat_error/USER_NOT_FOUND" xml:space="preserve">
-    <value>пользователь не существует.</value>
-  </data>
-  <data name="chat_error/WRONG_ARGS" xml:space="preserve">
-    <value>неправильный аргумент.</value>
-  </data>
-  <data name="client/dynSquad/created/allies" xml:space="preserve">
-    <value>Cоюзники сформировали взвод %(squadNum)s.</value>
-  </data>
-  <data name="client/dynSquad/created/enemies" xml:space="preserve">
-    <value>Противник сформировал взвод %(squadNum)s.</value>
-  </data>
-  <data name="client/dynSquad/created/owner/disableVOIP" xml:space="preserve">
-    <value>Взвод %(squadNum)s сформирован. Доступны чат взвода и голосовая связь (чтобы отключить голосовую связь, нажмите %(keyName)s).</value>
-  </data>
-  <data name="client/dynSquad/created/owner/enableVOIP" xml:space="preserve">
-    <value>Взвод %(squadNum)s сформирован. Доступны чат взвода и голосовая связь (чтобы включить голосовую связь, нажмите %(keyName)s).</value>
-  </data>
-  <data name="client/dynSquad/created/owner/specifyVOIP" xml:space="preserve">
-    <value>Взвод %(squadNum)s сформирован. Доступны чат взвода и голосовая связь. Необходимо назначить клавишу для включения/отключения голосовой связи.</value>
-  </data>
-  <data name="client/dynSquad/created/owner/withoutVOIP" xml:space="preserve">
-    <value>Взвод %(squadNum)s сформирован. Доступен взводный чат.</value>
-  </data>
-  <data name="client/dynSquad/created/recruit/disableVOIP" xml:space="preserve">
-    <value>Вы присоединились ко взводу %(squadNum)s. Доступны чат взвода и голосовая связь (чтобы отключить голосовую связь, нажмите %(keyName)s).</value>
-  </data>
-  <data name="client/dynSquad/created/recruit/enableVOIP" xml:space="preserve">
-    <value>Вы присоединились ко взводу %(squadNum)s. Доступны чат взвода и голосовая связь (чтобы включить голосовую связь, нажмите %(keyName)s).</value>
-  </data>
-  <data name="client/dynSquad/created/recruit/specifyVOIP" xml:space="preserve">
-    <value>Вы присоединились ко взводу %(squadNum)s. Доступны чат взвода и голосовая связь. Необходимо назначить клавишу для включения/отключения голосовой связи.</value>
-  </data>
-  <data name="client/dynSquad/created/recruit/withoutVOIP" xml:space="preserve">
-    <value>Вы присоединились ко взводу %(squadNum)s. Доступен взводный чат.</value>
-  </data>
-  <data name="client/dynSquad/disableVOIP" xml:space="preserve">
-    <value>Голосовая связь отключена. Чтобы общаться и слышать совзводных, включите голосовую связь (нажмите %(keyName)s).</value>
-  </data>
-  <data name="client/dynSquad/enableVOIP" xml:space="preserve">
-    <value>Голосовая связь включена.</value>
-  </data>
-  <data name="client/dynSquad/inviteAccepted/myself/disableVOIP" xml:space="preserve">
-    <value>Вы присоединились ко взводу %(squadNum)s. Доступны чат взвода и голосовая связь (чтобы отключить голосовую связь, нажмите %(keyName)s).</value>
-  </data>
-  <data name="client/dynSquad/inviteAccepted/myself/enableVOIP" xml:space="preserve">
-    <value>Вы присоединились ко взводу %(squadNum)s. Доступны чат взвода и голосовая связь (чтобы включить голосовую связь, нажмите %(keyName)s).</value>
-  </data>
-  <data name="client/dynSquad/inviteAccepted/myself/specifyVOIP" xml:space="preserve">
-    <value>Вы присоединились ко взводу %(squadNum)s. Доступны чат взвода и голосовая связь. Необходимо назначить клавишу для включения/отключения голосовой связи.</value>
-  </data>
-  <data name="client/dynSquad/inviteAccepted/myself/withoutVOIP" xml:space="preserve">
-    <value>Вы присоединились ко взводу %(squadNum)s. Доступен взводный чат.</value>
-  </data>
-  <data name="client/dynSquad/inviteAccepted/user" xml:space="preserve">
-    <value>%(receiver)s присоединился ко взводу %(squadNum)s.</value>
-  </data>
-  <data name="client/dynSquad/inviteReceived" xml:space="preserve">
-    <value>%(creator)s пригласил вас во взвод.</value>
-  </data>
-  <data name="client/dynSquad/inviteSent" xml:space="preserve">
-    <value>%(receiver)s приглашён во взвод.</value>
+  <data name="battle/toolTips/sendAll" xml:space="preserve">
+    <value>Ctrl + Enter</value>
   </data>
   <data name="client/error/broadcastInCooldown" xml:space="preserve">
     <value>Отправка сообщений заморожена на %s с.</value>
@@ -298,9 +144,6 @@
   <data name="client/information/addToIgnored/message" xml:space="preserve">
     <value>%s добавлен в «Чёрный список», связь в чате с ним полностью отключена, сообщения скрыты.</value>
   </data>
-  <data name="client/information/addToTmpIgnored/message" xml:space="preserve">
-    <value>Чат с %s заблокирован, сообщения в текущем бою скрыты.</value>
-  </data>
   <data name="client/information/emptySearchResult/message" xml:space="preserve">
     <value>Поиск не дал результатов.</value>
   </data>
@@ -310,230 +153,29 @@
   <data name="client/information/removeFromIgnored/message" xml:space="preserve">
     <value>%s удалён из «Чёрного списка», связь в чате с ним полностью восстановлена.</value>
   </data>
-  <data name="client/information/removeFromTmpIgnored/message" xml:space="preserve">
-    <value>Чат c %s вновь доступен.</value>
-  </data>
   <data name="client/information/setMuted/message" xml:space="preserve">
     <value>%s не может отправлять вам голосовые сообщения.</value>
   </data>
   <data name="client/information/unsetMuted/message" xml:space="preserve">
     <value>%s может отправлять вам голосовые сообщения.</value>
   </data>
-  <data name="client/warning/emptyUserSearchToken/message" xml:space="preserve">
+  <data name="client/warnning/emptyUserSearchToken/message" xml:space="preserve">
     <value>Задан пустой запрос</value>
   </data>
-  <data name="client/warning/emptyUserSearchToken/title" xml:space="preserve">
+  <data name="client/warnning/emptyUserSearchToken/title" xml:space="preserve">
     <value>Поиск пользователей</value>
   </data>
-  <data name="client/warning/invalidUserSearchToken/message" xml:space="preserve">
-    <value>Неправильная длина либо недопустимый символ в строке поиска. Допустимая длина от %d до %d символов.</value>
+  <data name="client/warnning/invalidUserSearchToken/message" xml:space="preserve">
+    <value>Неверная длина либо недопустимый символ в строке поиска. Допустимая длина от %d до %d символов.</value>
   </data>
-  <data name="client/warning/invalidUserSearchToken/title" xml:space="preserve">
+  <data name="client/warnning/invalidUserSearchToken/title" xml:space="preserve">
     <value>Поиск пользователей</value>
   </data>
-  <data name="client_action/ADD_FRIEND" xml:space="preserve">
-    <value>Добавить игрока в «Друзья»</value>
-  </data>
-  <data name="client_action/ADD_GROUP" xml:space="preserve">
-    <value>Создать группу</value>
-  </data>
-  <data name="client_action/ADD_IGNORED" xml:space="preserve">
-    <value>Добавить игрока в «Чёрный список»</value>
-  </data>
-  <data name="client_action/APPROVE_FRIENDSHIP" xml:space="preserve">
-    <value>Подтвердить запрос на добавление в «Друзья»</value>
-  </data>
-  <data name="client_action/CANCEL_FRIENDSHIP" xml:space="preserve">
-    <value>Отклонить запрос на добавление в «Друзья»</value>
-  </data>
-  <data name="client_action/CHANGE_GROUP" xml:space="preserve">
-    <value>Изменить группу</value>
-  </data>
-  <data name="client_action/CREATE_USER_ROOM" xml:space="preserve">
-    <value>Создать пользовательский канал</value>
-  </data>
-  <data name="client_action/FIND_USERS_BY_PREFIX" xml:space="preserve">
-    <value>Поиск игроков</value>
-  </data>
-  <data name="client_action/JOIN_USER_ROOM" xml:space="preserve">
-    <value>Присоединиться к пользовательскому каналу</value>
-  </data>
-  <data name="client_action/LEAVE_USER_ROOM" xml:space="preserve">
-    <value>Покинуть пользовательский канал</value>
-  </data>
-  <data name="client_action/REMOVE_FRIEND" xml:space="preserve">
-    <value>Удалить игрока из «Друзей»</value>
-  </data>
-  <data name="client_action/REMOVE_IGNORED" xml:space="preserve">
-    <value>Удалить игрока из «Чёрного списка»</value>
-  </data>
-  <data name="client_action/REMOVE_NOTE" xml:space="preserve">
-    <value>Удалить заметку</value>
-  </data>
-  <data name="client_action/RQ_FRIENDSHIP" xml:space="preserve">
-    <value>Отправить запрос на добавление в «Друзья»</value>
-  </data>
-  <data name="client_action/RQ_HISTORY" xml:space="preserve">
-    <value>Получить историю сообщений</value>
-  </data>
-  <data name="client_action/SEARCH_USER_ROOM" xml:space="preserve">
-    <value>Поиск пользовательских каналов</value>
-  </data>
-  <data name="client_action/SEND_MESSAGE" xml:space="preserve">
-    <value>Отправить сообщение</value>
-  </data>
-  <data name="client_action/SET_MUTE" xml:space="preserve">
-    <value>Отключить голосовые сообщения</value>
-  </data>
-  <data name="client_action/SET_NOTE" xml:space="preserve">
-    <value>Создать/редактировать заметку</value>
-  </data>
-  <data name="client_action/UNSET_MUTE" xml:space="preserve">
-    <value>Включить голосовые сообщения</value>
-  </data>
-  <data name="client_error/action/in_cooldown" xml:space="preserve">
-    <value>Действие «%(actionName)s» заморожено на %(floatArg1)s с.</value>
-  </data>
-  <data name="client_error/action/in_cooldown_wo_period" xml:space="preserve">
-    <value>Действие «%(actionName)s» временно недоступно. Попробуйте позже.</value>
-  </data>
-  <data name="client_error/channel/LIMIT_REACHED" xml:space="preserve">
-    <value>Превышено ограничение на создание каналов. Пожалуйста, закройте ненужные каналы и попробуйте снова.</value>
-  </data>
-  <data name="client_error/channel/NAME_ALREADY_EXISTS" xml:space="preserve">
-    <value>Канал «%(strArg1)s» уже существует.</value>
-  </data>
-  <data name="client_error/channel/NAME_EMPTY" xml:space="preserve">
-    <value>Не указано имя канала.</value>
-  </data>
-  <data name="client_error/channel/NAME_INVALID" xml:space="preserve">
-    <value>Неправильное имя канала «%(strArg1)s».</value>
-  </data>
-  <data name="client_error/channel/PASSWORDS_NOT_EQUALS" xml:space="preserve">
-    <value>Текст подтверждения пароля не совпадает с введённым текстом пароля.</value>
-  </data>
-  <data name="client_error/channel/PASSWORD_EMPTY" xml:space="preserve">
-    <value>Не указан пароль канала.</value>
-  </data>
-  <data name="client_error/channel/PASSWORD_INVALID" xml:space="preserve">
-    <value>Неправильный пароль канала.</value>
-  </data>
-  <data name="client_error/channel/RETYPE_EMPTY" xml:space="preserve">
-    <value>Не указано подтверждение пароля.</value>
-  </data>
-  <data name="client_error/channel/RETYPE_INVALID" xml:space="preserve">
-    <value>Неправильное подтверждение пароля.</value>
-  </data>
-  <data name="client_error/command/generic_error" xml:space="preserve">
-    <value>Ошибка выполнения команды «%(strArg1)s».</value>
-  </data>
-  <data name="client_error/command/in_cooldown_wo_name" xml:space="preserve">
-    <value>команда заморожена на %(floatArg1)s.</value>
-  </data>
-  <data name="client_error/command/not_supported" xml:space="preserve">
-    <value>команда %(strArg1)s не поддерживается клиентом.</value>
-  </data>
-  <data name="client_error/command/wrong_ban_period" xml:space="preserve">
-    <value>неправильный период бана %(int64Arg1)s.</value>
-  </data>
-  <data name="client_error/command/wrong_ban_type" xml:space="preserve">
-    <value>неправильный тип бана %(int32Arg1)s.</value>
-  </data>
-  <data name="client_error/command/wrong_player_name" xml:space="preserve">
-    <value>неправильное имя игрока %(strArg1)s.</value>
-  </data>
-  <data name="client_error/contact/BLOCK_ITEM_EXISTS" xml:space="preserve">
-    <value>Игрок «%(strArg1)s» находится в «Чёрном списке».</value>
-  </data>
-  <data name="client_error/contact/BLOCK_ITEM_NOT_FOUND" xml:space="preserve">
-    <value>Игрок «%(strArg1)s» не найден в «Чёрном списке».</value>
-  </data>
-  <data name="client_error/contact/CONTACT_ITEM_NOT_FOUND" xml:space="preserve">
-    <value>Игрок не найден.</value>
-  </data>
-  <data name="client_error/contact/FRIENDSHIP_APPROVED" xml:space="preserve">
-    <value>Вы уже подтвердили запрос на добавление в «Друзья» от «%(strArg1)s».</value>
-  </data>
-  <data name="client_error/contact/FRIENDSHIP_CANCELED" xml:space="preserve">
-    <value>Вы уже отклонили запрос на добавление в «Друзья» от «%(strArg1)s».</value>
-  </data>
-  <data name="client_error/contact/FRIENDSHIP_RQ_PROCESS" xml:space="preserve">
-    <value>Ваш запрос на добавление в «Друзья» от «%(strArg1)s» обрабатывается.</value>
-  </data>
-  <data name="client_error/contact/GROUP_EMPTY" xml:space="preserve">
-    <value>Не указано имя группы.</value>
-  </data>
-  <data name="client_error/contact/GROUP_EXISTS" xml:space="preserve">
-    <value>Группа «%(strArg1)s» уже существует.</value>
-  </data>
-  <data name="client_error/contact/GROUP_INVALID_NAME" xml:space="preserve">
-    <value>Неправильное имя группы «%(strArg1)s».</value>
-  </data>
-  <data name="client_error/contact/GROUP_NOT_FOUND" xml:space="preserve">
-    <value>Группа «%(strArg1)s» не найдена.</value>
-  </data>
-  <data name="client_error/contact/MUTED_ITEM_NOT_FOUND" xml:space="preserve">
-    <value>Игроку «%(strArg1)s» включены голосовые сообщения.</value>
-  </data>
-  <data name="client_error/contact/NOTE_EMPTY" xml:space="preserve">
-    <value>Не указан текст заметки.</value>
-  </data>
-  <data name="client_error/contact/NOTE_NOT_FOUND" xml:space="preserve">
-    <value>Для игрока «%(strArg1)s» нет заметки.</value>
-  </data>
-  <data name="client_error/contact/ROSTER_ITEM_EXISTS" xml:space="preserve">
-    <value>Игрок «%(strArg1)s» находится в «Друзьях».</value>
-  </data>
-  <data name="client_error/contact/ROSTER_ITEM_NOT_FOUND" xml:space="preserve">
-    <value>Игрок «%(strArg1)s» не найден в «Друзьях».</value>
-  </data>
-  <data name="client_error/limit/CHANNEL_INVALID_LENGTH" xml:space="preserve">
-    <value>Имя канала должно содержать %(int32Arg1)s–%(int32Arg2)s символа.</value>
-  </data>
-  <data name="client_error/limit/GROUP_INVALID_LENGTH" xml:space="preserve">
-    <value>Имя группы не должно превышать %(int32Arg2)s символов.</value>
-  </data>
-  <data name="client_error/limit/MAX_BLOCK_ITEMS" xml:space="preserve">
-    <value>Максимальное количество игроков в «Чёрном списке» %(int32Arg2)s.</value>
-  </data>
-  <data name="client_error/limit/MAX_GROUP" xml:space="preserve">
-    <value>Создано максимальное количество групп %(int32Arg2)s.</value>
-  </data>
-  <data name="client_error/limit/MAX_ROSTER_ITEMS" xml:space="preserve">
-    <value>К сожалению, вы не можете добавлять больше %(int32Arg2)s друзей. Возможно, вам стоит пересмотреть список друзей и удалить тех, с кем вы не играете.</value>
-  </data>
-  <data name="client_error/limit/NOTE_INVALID_LENGTH" xml:space="preserve">
-    <value>Текст заметки не должен превышать %(int32Arg2)s символов.</value>
-  </data>
-  <data name="client_error/limit/PWD_INVALID_LENGTH" xml:space="preserve">
-    <value>Допустимый пароль %(int32Arg1)s-%(int32Arg2)s символов.</value>
-  </data>
-  <data name="client_error/shared/DBID_INVALID" xml:space="preserve">
-    <value>Неправильный идентификатор игрока.</value>
-  </data>
-  <data name="client_error/shared/GENERIC" xml:space="preserve">
-    <value>Ошибка выполнения «%(actionName)s».</value>
-  </data>
-  <data name="client_error/shared/LOCKED" xml:space="preserve">
-    <value>Действие «%(actionName)s» временно заморожено. Попробуйте позже.</value>
-  </data>
-  <data name="client_error/shared/NAME_EMPTY" xml:space="preserve">
-    <value>Не указано имя игрока.</value>
-  </data>
-  <data name="client_error/shared/NAME_INVALID" xml:space="preserve">
-    <value>Неправильное имя игрока %(strArg1)s.</value>
-  </data>
-  <data name="client_error/shared/NOT_CONNECTED" xml:space="preserve">
-    <value>Вы не подключены к серверу чата. Попробуйте позже.</value>
-  </data>
-  <data name="client_error/shared/NOT_SUPPORTED" xml:space="preserve">
-    <value>Действие «%(actionName)s» не поддерживается клиентом игры.</value>
-  </data>
-  <data name="client_error/shared/WAITING_BEFORE_START" xml:space="preserve">
-    <value>До начала отсчёта некоторые функции недоступны</value>
-  </data>
-  <data name="client_error/shared/WRONG_ARGS" xml:space="preserve">
-    <value>Заданы неправильные данные.</value>
+  <data name="command/ATTACKENEMY/arg0" xml:space="preserve">
+    <value>Имя противника</value>
+  </data>
+  <data name="command/ATTENTIONTOCELL/arg0" xml:space="preserve">
+    <value>&amp;lt;Квадрат на миникарте&amp;gt;</value>
   </data>
   <data name="command/acceptInvite" xml:space="preserve">
     <value>Принять приглашение</value>
@@ -559,7 +201,7 @@
   <data name="command/findChatChannels" xml:space="preserve">
     <value>Поиск каналов</value>
   </data>
-  <data name="command/findUser" xml:space="preserve">
+  <data name="command/findUsers" xml:space="preserve">
     <value>Поиск игроков</value>
   </data>
   <data name="command/getActiveInvites" xml:space="preserve">
@@ -592,119 +234,11 @@
   <data name="command/setMuted" xml:space="preserve">
     <value>Отключить голосовые сообщения</value>
   </data>
-  <data name="command/success/USERBAN" xml:space="preserve">
-    <value>%(strArg1)s забанен.</value>
-  </data>
-  <data name="command/success/USERUNBAN" xml:space="preserve">
-    <value>Бан c %(strArg1)s снят.</value>
-  </data>
   <data name="command/unsetMuted" xml:space="preserve">
     <value>Включить голосовые сообщения</value>
   </data>
-  <data name="contacts/createGroupView/tooltips/btns/apply/body" xml:space="preserve">
-    <value>Нажмите, чтобы сохранить созданную группу контактов.</value>
-  </data>
-  <data name="contacts/createGroupView/tooltips/btns/apply/header" xml:space="preserve">
-    <value>Создать</value>
-  </data>
-  <data name="contacts/createGroupView/tooltips/btns/close/body" xml:space="preserve">
-    <value>Нажмите, чтобы отменить создание и вернуться к списку контактов.</value>
-  </data>
-  <data name="contacts/createGroupView/tooltips/btns/close/header" xml:space="preserve">
-    <value>Закрыть</value>
-  </data>
-  <data name="contacts/groupDeleteView/tooltips/btns/apply/body" xml:space="preserve">
-    <value>Нажмите, чтобы удалить группу контактов.</value>
-  </data>
-  <data name="contacts/groupDeleteView/tooltips/btns/apply/header" xml:space="preserve">
-    <value>Удалить</value>
-  </data>
-  <data name="contacts/groupDeleteView/tooltips/btns/close/body" xml:space="preserve">
-    <value>Нажмите, чтобы отменить удаление и вернуться к списку контактов.</value>
-  </data>
-  <data name="contacts/groupDeleteView/tooltips/btns/close/header" xml:space="preserve">
-    <value>Отменить</value>
-  </data>
-  <data name="contacts/groupRenameView/tooltips/btns/apply/body" xml:space="preserve">
-    <value>Нажмите, чтобы сохранить группу контактов под новым названием.</value>
-  </data>
-  <data name="contacts/groupRenameView/tooltips/btns/apply/header" xml:space="preserve">
-    <value>Сохранить</value>
-  </data>
-  <data name="contacts/groupRenameView/tooltips/btns/close/body" xml:space="preserve">
-    <value>Нажмите, чтобы отменить редактирование и вернуться к списку контактов.</value>
-  </data>
-  <data name="contacts/groupRenameView/tooltips/btns/close/header" xml:space="preserve">
-    <value>Закрыть</value>
-  </data>
-  <data name="contacts/manageGroupView/tooltips/input" xml:space="preserve">
-    <value>Название не должно превышать %(maxChars)s символов.</value>
-  </data>
-  <data name="contacts/searchView/tooltips/btns/add/body" xml:space="preserve">
-    <value>Нажмите, чтобы добавить игрока в список друзей.</value>
-  </data>
-  <data name="contacts/searchView/tooltips/btns/add/header" xml:space="preserve">
-    <value>Добавить</value>
-  </data>
-  <data name="contacts/searchView/tooltips/btns/close/body" xml:space="preserve">
-    <value>Нажмите, чтобы отменить поиск игроков и вернуться к списку контактов.</value>
-  </data>
-  <data name="contacts/searchView/tooltips/btns/close/header" xml:space="preserve">
-    <value>Закрыть</value>
-  </data>
-  <data name="contacts/searchView/tooltips/btns/search/body" xml:space="preserve">
-    <value>Нажмите, чтобы начать поиск по имени игрока.</value>
-  </data>
-  <data name="contacts/searchView/tooltips/btns/search/header" xml:space="preserve">
-    <value>Искать</value>
-  </data>
-  <data name="contacts/searchView/tooltips/searchCredentials/body" xml:space="preserve">
-    <value>Имя должно содержать от %(minChars)s до %(maxChars)s букв или цифры.</value>
-  </data>
-  <data name="contacts/searchView/tooltips/searchDisabled/body" xml:space="preserve">
-    <value>Из-за слишком частого обращения, поиск заморожен на %(time)s секунд.</value>
-  </data>
-  <data name="contacts/settingsView/tooltips/btns/apply/body" xml:space="preserve">
-    <value>Нажмите, чтобы сохранить установленные настройки.</value>
-  </data>
-  <data name="contacts/settingsView/tooltips/btns/apply/header" xml:space="preserve">
-    <value>Применить</value>
-  </data>
-  <data name="contacts/settingsView/tooltips/btns/close/body" xml:space="preserve">
-    <value>Нажмите, чтобы отменить изменения и вернуться к списку контактов.</value>
-  </data>
-  <data name="contacts/settingsView/tooltips/btns/close/header" xml:space="preserve">
-    <value>Отменить</value>
-  </data>
-  <data name="contacts/tooltips/btns/addGroup/body" xml:space="preserve">
-    <value>Нажмите, чтобы создать группу в списке контактов.</value>
-  </data>
-  <data name="contacts/tooltips/btns/addGroup/header" xml:space="preserve">
-    <value>Создание группы</value>
-  </data>
-  <data name="contacts/tooltips/btns/externalSearch/body" xml:space="preserve">
-    <value>Нажмите, чтобы запустить поиск по имени игрока, отсутствующего в списке контактов.</value>
-  </data>
-  <data name="contacts/tooltips/btns/externalSearch/header" xml:space="preserve">
-    <value>Искать вне контактов</value>
-  </data>
-  <data name="contacts/tooltips/btns/search/body" xml:space="preserve">
-    <value>Нажмите, чтобы найти и добавить игрока в список контактов.</value>
-  </data>
-  <data name="contacts/tooltips/btns/search/header" xml:space="preserve">
-    <value>Поиск игроков</value>
-  </data>
-  <data name="contacts/tooltips/btns/settings/body" xml:space="preserve">
-    <value>Нажмите, чтобы настроить список контактов.</value>
-  </data>
-  <data name="contacts/tooltips/btns/settings/header" xml:space="preserve">
-    <value>Настройка</value>
-  </data>
-  <data name="contacts/tooltips/searchInput/credentials" xml:space="preserve">
-    <value>Имя должно содержать до %(maxChars)s символов.</value>
-  </data>
-  <data name="custom_client_action/ADMIN_CHAT_COMMAND" xml:space="preserve">
-    <value>Отправить команду</value>
+  <data name="dialogs/bsChannel/buttons/leave" xml:space="preserve">
+    <value>Выйти</value>
   </data>
   <data name="dialogs/bsChannel/context/kickPlayer" xml:space="preserve">
     <value>Исключить из команды</value>
@@ -748,9 +282,6 @@
   <data name="dialogs/contacts/buttons/close" xml:space="preserve">
     <value>_</value>
   </data>
-  <data name="dialogs/contacts/contact/addToClan" xml:space="preserve">
-    <value>Пригласить в клан</value>
-  </data>
   <data name="dialogs/contacts/contact/addToFriends" xml:space="preserve">
     <value>Добавить в «Друзья»</value>
   </data>
@@ -790,9 +321,6 @@
   <data name="dialogs/contacts/tree/friends" xml:space="preserve">
     <value>Друзья</value>
   </data>
-  <data name="dialogs/contacts/tree/friendship_request" xml:space="preserve">
-    <value>Запросы на добавление в друзья</value>
-  </data>
   <data name="dialogs/contacts/tree/ignored" xml:space="preserve">
     <value>Чёрный список</value>
   </data>
@@ -804,6 +332,36 @@
   </data>
   <data name="dialogs/createChannel/buttons/create" xml:space="preserve">
     <value>Создать</value>
+  </data>
+  <data name="dialogs/createChannel/errors/activeChannelLimitReached/message" xml:space="preserve">
+    <value>Превышено ограничение на создание каналов. Пожалуйста, закройте ненужные каналы и попробуйте снова.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/activeChannelLimitReached/title" xml:space="preserve">
+    <value>Превышено ограничение на создание каналов.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/invalidName/message" xml:space="preserve">
+    <value>Имя канала должно содержать %d–%d символа.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/invalidName/title" xml:space="preserve">
+    <value>Неправильное имя канала.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/invalidPassword/message" xml:space="preserve">
+    <value>Допустимый пароль %d–%d символов.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/invalidPassword/title" xml:space="preserve">
+    <value>Неправильный пароль.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/invalidRetypePassword/message" xml:space="preserve">
+    <value>Подтверждение пароля %d–%d символов.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/invalidRetypePassword/title" xml:space="preserve">
+    <value>Неправильный пароль.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/notEqualsPasswords/message" xml:space="preserve">
+    <value>Текст подтверждения пароля не совпадает с введённым текстом пароля.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/notEqualsPasswords/title" xml:space="preserve">
+    <value>Неправильный пароль.</value>
   </data>
   <data name="dialogs/createChannel/labels/fillPassword" xml:space="preserve">
     <value>Введите пароль</value>
@@ -823,35 +381,11 @@
   <data name="dialogs/createChannel/title" xml:space="preserve">
     <value>Создание канала</value>
   </data>
-  <data name="dialogs/eventSquad/vehicle" xml:space="preserve">
-    <value>Выберите %(vehName)s</value>
+  <data name="dialogs/invitations/squad/title" xml:space="preserve">
+    <value>Пригласить во взвод</value>
   </data>
-  <data name="dialogs/falloutSquadChannel/vehicleNotify" xml:space="preserve">
-    <value>Выберите машину %(level)s уровня</value>
-  </data>
-  <data name="dialogs/falloutSquadChannel/vehicleNotifyMultiteam" xml:space="preserve">
-    <value>Выберите технику</value>
-  </data>
-  <data name="dialogs/falloutSquadChannel/vehicleNotifyRange" xml:space="preserve">
-    <value>Выберите машину %(level)s уровня</value>
-  </data>
-  <data name="dialogs/falloutSquadChannel/vehicles" xml:space="preserve">
-    <value>Техника: %s</value>
-  </data>
-  <data name="dialogs/falloutSquadChannel/vehicles/domination" xml:space="preserve">
-    <value>VIII-X</value>
-  </data>
-  <data name="dialogs/falloutSquadChannel/vehicles/steelHunting" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="dialogs/falloutSquadChannel/vehiclesRequired/domination/max" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="dialogs/falloutSquadChannel/vehiclesRequired/domination/min" xml:space="preserve">
-    <value>VIII-X</value>
-  </data>
-  <data name="dialogs/falloutSquadChannel/vehiclesRequired/steelHunting" xml:space="preserve">
-    <value>X</value>
+  <data name="dialogs/invitations/team/title" xml:space="preserve">
+    <value>Пригласить в роту</value>
   </data>
   <data name="dialogs/searchChannel/buttons/close" xml:space="preserve">
     <value>Закрыть</value>
@@ -898,45 +432,6 @@
   <data name="dialogs/serviceChannel/title" xml:space="preserve">
     <value>Служебный канал</value>
   </data>
-  <data name="dialogs/simpleSquad/recommendationLevel" xml:space="preserve">
-    <value>Рекомендовать игроков</value>
-  </data>
-  <data name="dialogs/simpleSquad/vehicle/recommendationLevel" xml:space="preserve">
-    <value>Выберите машину %(level)s уровня</value>
-  </data>
-  <data name="dialogs/simpleSquad/vehicleLevel" xml:space="preserve">
-    <value>Выберите машину %(level)s уровня</value>
-  </data>
-  <data name="dialogs/squad/event/vehicle" xml:space="preserve">
-    <value>Выберите %(tankName)s</value>
-  </data>
-  <data name="dialogs/squad/message/allReady" xml:space="preserve">
-    <value>Нажмите, чтобы отменить готовность.</value>
-  </data>
-  <data name="dialogs/squad/message/getNotReady" xml:space="preserve">
-    <value>Нажмите, чтобы отменить готовность.</value>
-  </data>
-  <data name="dialogs/squad/message/getReady" xml:space="preserve">
-    <value>Подтвердите готовность выйти в бой</value>
-  </data>
-  <data name="dialogs/squad/message/invalidVehicleLevel" xml:space="preserve">
-    <value>Неподходящий уровень</value>
-  </data>
-  <data name="dialogs/squad/message/spgForbidden" xml:space="preserve">
-    <value>Невозможно взять САУ во взвод</value>
-  </data>
-  <data name="dialogs/squad/message/spgFull" xml:space="preserve">
-    <value>Достигнут максимум количества САУ во взводе</value>
-  </data>
-  <data name="dialogs/squad/message/vehicles/differentLevels" xml:space="preserve">
-    <value>Штраф к опыту из-за некорректного состава взвода!</value>
-  </data>
-  <data name="dialogs/squadChannel/battleType" xml:space="preserve">
-    <value>Режим боя:</value>
-  </data>
-  <data name="dialogs/squadChannel/battleTypeDomination" xml:space="preserve">
-    <value>Случайный бой</value>
-  </data>
   <data name="dialogs/squadChannel/buttons/afk" xml:space="preserve">
     <value>Перерыв</value>
   </data>
@@ -955,41 +450,13 @@
   <data name="dialogs/squadChannel/buttons/ready" xml:space="preserve">
     <value>Готов!</value>
   </data>
-  <data name="dialogs/squadChannel/buttons/recommend" xml:space="preserve">
-    <value>Рекомендовать игроков</value>
-  </data>
-  <data name="dialogs/squadChannel/chatName" xml:space="preserve">
-    <value>Канал связи:</value>
-  </data>
   <data name="dialogs/squadChannel/context/kickPlayer" xml:space="preserve">
     <value>Исключить из взвода</value>
-  </data>
-  <data name="dialogs/squadChannel/headerMsg/dynSquad" xml:space="preserve">
-    <value>Продолжайте играть взводом на технике
-IV уровня и выше, чтобы получать больше опыта</value>
-  </data>
-  <data name="dialogs/squadChannel/headerMsg/eventFormationRestriction" xml:space="preserve">
-    <value>+++ event +++
-+++ event +++</value>
-  </data>
-  <data name="dialogs/squadChannel/headerMsg/squadFormation" xml:space="preserve">
-    <value>Дополнительный опыт за бой
-при игре на технике IV уровня и выше</value>
-  </data>
-  <data name="dialogs/squadChannel/headerMsg/squadFormationRestriction" xml:space="preserve">
-    <value>Играйте на технике одного уровня
-начиная с IV и получайте больше опыта</value>
-  </data>
-  <data name="dialogs/squadChannel/members" xml:space="preserve">
-    <value>Состав:</value>
   </data>
   <data name="dialogs/squadChannel/messege/noPremium" xml:space="preserve">
     <value>Пригласить во взвод третьего
 игрока возможно только при
 действующем премиум аккаунте.</value>
-  </data>
-  <data name="dialogs/squadChannel/simpleChatName" xml:space="preserve">
-    <value>Канал связи</value>
   </data>
   <data name="dialogs/squadChannel/tooltips/status/afk" xml:space="preserve">
     <value>Статус: Ушёл на перерыв</value>
@@ -1006,17 +473,20 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="dialogs/squadChannel/tooltips/status/ready" xml:space="preserve">
     <value>Статус: Готов</value>
   </data>
-  <data name="dialogs/squadChannel/vehicles" xml:space="preserve">
-    <value>Техника:</value>
-  </data>
-  <data name="dialogs/squadChannel/vehiclesLbl" xml:space="preserve">
-    <value>Техника</value>
-  </data>
   <data name="dialogs/teamChannel/buttons/dismiss" xml:space="preserve">
     <value>Распустить</value>
   </data>
-  <data name="dialogs/teamChannel/buttons/invite" xml:space="preserve">
-    <value>Пригласить</value>
+  <data name="dialogs/teamChannel/buttons/leave" xml:space="preserve">
+    <value>Выйти из роты</value>
+  </data>
+  <data name="dialogs/teamChannel/buttons/notReady" xml:space="preserve">
+    <value>Не готов</value>
+  </data>
+  <data name="dialogs/teamChannel/buttons/ready" xml:space="preserve">
+    <value>Готов!</value>
+  </data>
+  <data name="dialogs/teamChannel/context/kickPlayer" xml:space="preserve">
+    <value>Исключить из роты</value>
   </data>
   <data name="dialogs/userInfo/ban_reason/guilty" xml:space="preserve">
     <value>виновен</value>
@@ -1069,32 +539,32 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="keyboardChat" xml:space="preserve">
     <value>Чат</value>
   </data>
-  <data name="listView/emptyList/info" xml:space="preserve">
-    <value>Информационных уведомлений</value>
+  <data name="lobby/bsChannel/title/arenaType" xml:space="preserve">
+    <value>Карта:</value>
   </data>
-  <data name="listView/emptyList/invite" xml:space="preserve">
-    <value>Приглашений</value>
+  <data name="lobby/bsChannel/title/battlesLimit" xml:space="preserve">
+    <value>Боёв/Побед:</value>
   </data>
-  <data name="listView/emptyList/offer" xml:space="preserve">
-    <value>Специальных предложений</value>
+  <data name="lobby/bsChannel/title/comment" xml:space="preserve">
+    <value>Описание:</value>
   </data>
-  <data name="listView/emptyList/template" xml:space="preserve">
-    <value>%(listType)s пока не поступало.</value>
+  <data name="lobby/bsChannel/title/startTime" xml:space="preserve">
+    <value>До старта боя:</value>
   </data>
-  <data name="listView/title" xml:space="preserve">
-    <value>Центр уведомлений</value>
+  <data name="lobby/bsChannels/stats/commonLevel" xml:space="preserve">
+    <value>Уровень:</value>
   </data>
   <data name="lobby/bsChannels/title/startTime" xml:space="preserve">
     <value>Время боя: %s</value>
-  </data>
-  <data name="lobby/buttons/cancel" xml:space="preserve">
-    <value>Отправить</value>
   </data>
   <data name="lobby/buttons/channels" xml:space="preserve">
     <value>Каналы</value>
   </data>
   <data name="lobby/buttons/contacts" xml:space="preserve">
     <value>Контакты</value>
+  </data>
+  <data name="lobby/buttons/createTeam" xml:space="preserve">
+    <value>Создать роту</value>
   </data>
   <data name="lobby/buttons/send" xml:space="preserve">
     <value>Отправить</value>
@@ -1114,6 +584,64 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="lobby/faq/title" xml:space="preserve">
     <value>FAQ</value>
   </data>
+  <data name="lobby/teamChannel/defaultComment" xml:space="preserve">
+    <value>Нажмите для изменения текста...</value>
+  </data>
+  <data name="lobby/teamChannel/division/ABSOLUTE" xml:space="preserve">
+    <value>Абсолютная</value>
+  </data>
+  <data name="lobby/teamChannel/division/ALL" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="lobby/teamChannel/division/CHAMPION" xml:space="preserve">
+    <value>Чемпионская</value>
+  </data>
+  <data name="lobby/teamChannel/division/JUNIOR" xml:space="preserve">
+    <value>Юниорская</value>
+  </data>
+  <data name="lobby/teamChannel/division/MIDDLE" xml:space="preserve">
+    <value>Средняя</value>
+  </data>
+  <data name="lobby/teamChannel/isOpen" xml:space="preserve">
+    <value>Открытая рота</value>
+  </data>
+  <data name="lobby/teamChannel/notInBattle" xml:space="preserve">
+    <value>Не в бою</value>
+  </data>
+  <data name="lobby/teamChannel/playersBottomLabel" xml:space="preserve">
+    <value>Нажмите,
+чтобы присоединиться</value>
+  </data>
+  <data name="lobby/teamChannel/playersTopLabel" xml:space="preserve">
+    <value>Личный состав</value>
+  </data>
+  <data name="lobby/teamChannel/queue" xml:space="preserve">
+    <value>Очередь</value>
+  </data>
+  <data name="lobby/teamChannel/stats/commonLevel" xml:space="preserve">
+    <value>Суммарный уровень:</value>
+  </data>
+  <data name="lobby/teamChannel/stats/count" xml:space="preserve">
+    <value>Состав роты:</value>
+  </data>
+  <data name="lobby/teamChannel/stats/maxPlayers" xml:space="preserve">
+    <value>Игроков:</value>
+  </data>
+  <data name="lobby/teamChannel/stats/vehicleLevel" xml:space="preserve">
+    <value>Максимальный уровень танков:</value>
+  </data>
+  <data name="lobby/teamChannel/stats/vehicleSPGLevel" xml:space="preserve">
+    <value>Максимальный уровень САУ:</value>
+  </data>
+  <data name="lobby/teamChannel/title/level" xml:space="preserve">
+    <value>Уровень</value>
+  </data>
+  <data name="lobby/teamChannel/title/player" xml:space="preserve">
+    <value>Игрок</value>
+  </data>
+  <data name="lobby/teamChannel/title/vehicle" xml:space="preserve">
+    <value>Танк</value>
+  </data>
   <data name="lobby/users/actions/addToFriends" xml:space="preserve">
     <value>Добавить игрока в «Друзья»</value>
   </data>
@@ -1128,231 +656,6 @@ IV уровня и выше, чтобы получать больше опыта
   </data>
   <data name="lobby/users/actions/showInfo" xml:space="preserve">
     <value>Посмотреть данные об игроке</value>
-  </data>
-  <data name="messenger/contacts/buttons/externalSearch" xml:space="preserve">
-    <value>Искать вне контактов</value>
-  </data>
-  <data name="messenger/contacts/buttons/externalSearchCancel" xml:space="preserve">
-    <value>Отменить</value>
-  </data>
-  <data name="messenger/contacts/contextmenu/editGroup" xml:space="preserve">
-    <value>Редактировать группу</value>
-  </data>
-  <data name="messenger/contacts/contextmenu/removeFromGroup" xml:space="preserve">
-    <value>Удалить из группы</value>
-  </data>
-  <data name="messenger/contacts/contextmenu/removeGroup" xml:space="preserve">
-    <value>Удалить группу</value>
-  </data>
-  <data name="messenger/contacts/createNote/tooltips/btns/close/body" xml:space="preserve">
-    <value>Нажмите, чтобы отменить создание и вернуться к списку контактов.</value>
-  </data>
-  <data name="messenger/contacts/createNote/tooltips/btns/close/header" xml:space="preserve">
-    <value>Закрыть</value>
-  </data>
-  <data name="messenger/contacts/createNote/tooltips/btns/ok/body" xml:space="preserve">
-    <value>Нажмите, чтобы сохранить созданную заметку об игроке.</value>
-  </data>
-  <data name="messenger/contacts/createNote/tooltips/btns/ok/header" xml:space="preserve">
-    <value>Создать</value>
-  </data>
-  <data name="messenger/contacts/dropContactPrompt" xml:space="preserve">
-    <value>Перетащите контакты сюда</value>
-  </data>
-  <data name="messenger/contacts/editNote/tooltips/btns/close/body" xml:space="preserve">
-    <value>Нажмите, чтобы отменить редактирование и вернуться к списку контактов.</value>
-  </data>
-  <data name="messenger/contacts/editNote/tooltips/btns/close/header" xml:space="preserve">
-    <value>Закрыть</value>
-  </data>
-  <data name="messenger/contacts/editNote/tooltips/btns/ok/body" xml:space="preserve">
-    <value>Нажмите, чтобы сохранить изменения в заметке об игроке.</value>
-  </data>
-  <data name="messenger/contacts/editNote/tooltips/btns/ok/header" xml:space="preserve">
-    <value>Сохранить</value>
-  </data>
-  <data name="messenger/contacts/externalSearch/emptySearchResultPrompt" xml:space="preserve">
-    <value>По вашему запросу ничего не найдено.</value>
-  </data>
-  <data name="messenger/contacts/mainGrops/Formations" xml:space="preserve">
-    <value>Постоянные формирования</value>
-  </data>
-  <data name="messenger/contacts/mainGrops/Friends" xml:space="preserve">
-    <value>Друзья</value>
-  </data>
-  <data name="messenger/contacts/mainGrops/Other" xml:space="preserve">
-    <value>Прочее</value>
-  </data>
-  <data name="messenger/contacts/mainGrops/Other/Ignored" xml:space="preserve">
-    <value>Чёрный список</value>
-  </data>
-  <data name="messenger/contacts/mainGrops/Other/friendshipRequest" xml:space="preserve">
-    <value>Запросы на добавление в «Друзья»</value>
-  </data>
-  <data name="messenger/contacts/mainGroups/other/referrals" xml:space="preserve">
-    <value>Рекруты</value>
-  </data>
-  <data name="messenger/contacts/mainGroups/other/referrers" xml:space="preserve">
-    <value>Рекрутёры</value>
-  </data>
-  <data name="messenger/contacts/searchInputPrompt" xml:space="preserve">
-    <value>Найти игрока в списке</value>
-  </data>
-  <data name="messenger/contacts/searchUsers/listEmptyPrompt/descr" xml:space="preserve">
-    <value>Вы ещё не добавили игроков.</value>
-  </data>
-  <data name="messenger/contacts/searchUsers/listEmptyPrompt/title" xml:space="preserve">
-    <value>Список контактов пуст</value>
-  </data>
-  <data name="messenger/contacts/searchUsers/noOnlineContacts/descr" xml:space="preserve">
-    <value>В данный момент никого из ваших контактов нет в сети.</value>
-  </data>
-  <data name="messenger/contacts/searchUsers/noOnlineContacts/title" xml:space="preserve">
-    <value> </value>
-  </data>
-  <data name="messenger/contacts/searchUsers/searchFail/descr" xml:space="preserve">
-    <value>Попробуйте найти вне списка контактов.</value>
-  </data>
-  <data name="messenger/contacts/searchUsers/searchFail/title" xml:space="preserve">
-    <value>Совпадений нет</value>
-  </data>
-  <data name="messenger/contacts/searchUsers/searchInputPrompt" xml:space="preserve">
-    <value>Введите имя игрока</value>
-  </data>
-  <data name="messenger/contacts/title" xml:space="preserve">
-    <value>Контакты</value>
-  </data>
-  <data name="messenger/contacts/view/addUser/btnCancel/Label" xml:space="preserve">
-    <value>Закрыть</value>
-  </data>
-  <data name="messenger/contacts/view/addUser/btnOk/Label" xml:space="preserve">
-    <value>Добавить</value>
-  </data>
-  <data name="messenger/contacts/view/addUser/error/groupAlreadyExist" xml:space="preserve">
-    <value>Такая группа уже существует</value>
-  </data>
-  <data name="messenger/contacts/view/addUser/title" xml:space="preserve">
-    <value>Поиск игроков</value>
-  </data>
-  <data name="messenger/contacts/view/createNote/btnCancel/Label" xml:space="preserve">
-    <value>Закрыть</value>
-  </data>
-  <data name="messenger/contacts/view/createNote/btnOk/Label" xml:space="preserve">
-    <value>Создать</value>
-  </data>
-  <data name="messenger/contacts/view/createNote/mainLabel" xml:space="preserve">
-    <value>Создание заметки</value>
-  </data>
-  <data name="messenger/contacts/view/editNote/btnCancel/Label" xml:space="preserve">
-    <value>Закрыть</value>
-  </data>
-  <data name="messenger/contacts/view/editNote/btnOk/Label" xml:space="preserve">
-    <value>Сохранить</value>
-  </data>
-  <data name="messenger/contacts/view/editNote/input/tooltip" xml:space="preserve">
-    <value>Название не должно превышать %(maxChars)s символов.</value>
-  </data>
-  <data name="messenger/contacts/view/editNote/mainLabel" xml:space="preserve">
-    <value>Редактирование заметки</value>
-  </data>
-  <data name="messenger/contacts/view/editNote/userName" xml:space="preserve">
-    <value>для </value>
-  </data>
-  <data name="messenger/contacts/view/manageGroup/createGroup/btnCancel/Label" xml:space="preserve">
-    <value>Закрыть</value>
-  </data>
-  <data name="messenger/contacts/view/manageGroup/createGroup/btnOk/Label" xml:space="preserve">
-    <value>Создать</value>
-  </data>
-  <data name="messenger/contacts/view/manageGroup/createGroup/mainLabel" xml:space="preserve">
-    <value>Создание группы</value>
-  </data>
-  <data name="messenger/contacts/view/manageGroup/createGroup/searchInputPrompt" xml:space="preserve">
-    <value>Введите название (до %(symbols)s символов)</value>
-  </data>
-  <data name="messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label" xml:space="preserve">
-    <value>Включая контакты внутри группы</value>
-  </data>
-  <data name="messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label" xml:space="preserve">
-    <value>Отменить</value>
-  </data>
-  <data name="messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label" xml:space="preserve">
-    <value>Удалить</value>
-  </data>
-  <data name="messenger/contacts/view/manageGroup/deleteGroup/groupName/Label" xml:space="preserve">
-    <value>«%(groupName)s»</value>
-  </data>
-  <data name="messenger/contacts/view/manageGroup/deleteGroup/mainLabel" xml:space="preserve">
-    <value>Удаление группы</value>
-  </data>
-  <data name="messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label" xml:space="preserve">
-    <value>Закрыть</value>
-  </data>
-  <data name="messenger/contacts/view/manageGroup/renameGroup/btnOk/Label" xml:space="preserve">
-    <value>Сохранить</value>
-  </data>
-  <data name="messenger/contacts/view/manageGroup/renameGroup/mainLabel" xml:space="preserve">
-    <value>Редактирование группы</value>
-  </data>
-  <data name="messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt" xml:space="preserve">
-    <value>Введите название (до %(symbols)s символов)</value>
-  </data>
-  <data name="messenger/contacts/view/manageNote/input/prompt" xml:space="preserve">
-    <value>Введите описание (до %(symbols)s символов)</value>
-  </data>
-  <data name="messenger/contacts/view/manageNote/input/tooltip" xml:space="preserve">
-    <value>Описание не должно превышать %(maxChars)s символов.</value>
-  </data>
-  <data name="messenger/contacts/view/searchUser/title" xml:space="preserve">
-    <value>Поиск игроков</value>
-  </data>
-  <data name="messenger/contacts/view/settings/GroupMessages/Label" xml:space="preserve">
-    <value>Принимать группой в одном окне</value>
-  </data>
-  <data name="messenger/contacts/view/settings/IsShowOfflineUsers/Label" xml:space="preserve">
-    <value>Показывать игроков не в сети</value>
-  </data>
-  <data name="messenger/contacts/view/settings/IsShowOthers/Label" xml:space="preserve">
-    <value>Показывать категорию «Прочее»</value>
-  </data>
-  <data name="messenger/contacts/view/settings/Label" xml:space="preserve">
-    <value>Сообщения не из списка контактов:</value>
-  </data>
-  <data name="messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label" xml:space="preserve">
-    <value>Принимать в отдельном окне</value>
-  </data>
-  <data name="messenger/contacts/view/settings/btnCancel/Label" xml:space="preserve">
-    <value>Отменить</value>
-  </data>
-  <data name="messenger/contacts/view/settings/btnOk/Label" xml:space="preserve">
-    <value>Применить</value>
-  </data>
-  <data name="messenger/contacts/view/settings/mainLabel" xml:space="preserve">
-    <value>Настройки</value>
-  </data>
-  <data name="prebattle/addAllBtn/tooltip/body" xml:space="preserve">
-    <value>Добавить все контакты в список адресатов.</value>
-  </data>
-  <data name="prebattle/addAllBtn/tooltip/header" xml:space="preserve">
-    <value> </value>
-  </data>
-  <data name="prebattle/addBtn/tooltip/body" xml:space="preserve">
-    <value>Добавить выбранный контакт.</value>
-  </data>
-  <data name="prebattle/addBtn/tooltip/header" xml:space="preserve">
-    <value> </value>
-  </data>
-  <data name="prebattle/removeAllBtn/tooltip/body" xml:space="preserve">
-    <value>Убрать все контакты из списка адресатов.</value>
-  </data>
-  <data name="prebattle/removeAllBtn/tooltip/header" xml:space="preserve">
-    <value> </value>
-  </data>
-  <data name="prebattle/removeBtn/tooltip/body" xml:space="preserve">
-    <value>Убрать выбранный контакт из списка адресатов.</value>
-  </data>
-  <data name="prebattle/removeBtn/tooltip/header" xml:space="preserve">
-    <value> </value>
   </data>
   <data name="server/errors/actionInCooldown/message" xml:space="preserve">
     <value>Действие %(action)s заморожено на %(cooldownPeriod)s с.</value>
@@ -1450,12 +753,6 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="server/errors/internalError/title" xml:space="preserve">
     <value>Ошибка при создании канала</value>
   </data>
-  <data name="server/errors/invalidChannelName/message" xml:space="preserve">
-    <value>Недопустимое имя канала.</value>
-  </data>
-  <data name="server/errors/invalidChannelName/title" xml:space="preserve">
-    <value>Ошибка чата</value>
-  </data>
   <data name="server/errors/inviteCommandError/message" xml:space="preserve">
     <value>Ошибка выполнения команды «Пригласить».</value>
   </data>
@@ -1534,56 +831,8 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="server/errors/usersRosterLimitReached/title" xml:space="preserve">
     <value>Ошибка</value>
   </data>
-  <data name="server_error/user_room_creation/LIMIT_COUNT" xml:space="preserve">
-    <value>Превышено ограничение на создание каналов.</value>
-  </data>
-  <data name="server_error/user_room_creation/LIMIT_NAME" xml:space="preserve">
-    <value>Превышено ограничение на длину имени канала.</value>
-  </data>
-  <data name="server_error/user_room_creation/LIMIT_PASS" xml:space="preserve">
-    <value>Превышено ограничение на длину пароля.</value>
-  </data>
-  <data name="server_error/user_room_creation/NAME_EXISTS" xml:space="preserve">
-    <value>Канал «%(strArg1)s» уже существует.</value>
-  </data>
-  <data name="server_error/user_room_creation/WRONG_SYMBOL" xml:space="preserve">
-    <value>Некорректные символы в имени канала.</value>
-  </data>
-  <data name="server_error/user_room_creation/WRONG_WORD" xml:space="preserve">
-    <value>Запрещённые слова в имени канала.</value>
-  </data>
-  <data name="serviceChannelMessages/achievementReceived/message" xml:space="preserve">
-    <value>Достижения</value>
-  </data>
-  <data name="serviceChannelMessages/actionBegin" xml:space="preserve">
-    <value>Акция</value>
-  </data>
-  <data name="serviceChannelMessages/actionEnd" xml:space="preserve">
-    <value>Акция завершена.</value>
-  </data>
-  <data name="serviceChannelMessages/autoBoosterErrorNoWallet" xml:space="preserve">
-    <value>Не удалось пополнить снаряжение на %s. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
-  </data>
-  <data name="serviceChannelMessages/autoEquipBoosterDisabledOption" xml:space="preserve">
-    <value>Не удалось пополнить снаряжение на %s. Купите снаряжение за золото.</value>
-  </data>
-  <data name="serviceChannelMessages/autoEquipBoosterError" xml:space="preserve">
-    <value>Не удалось пополнить предбоевую инструкцию на %s. Недостаточно средств.</value>
-  </data>
-  <data name="serviceChannelMessages/autoEquipBoosterSkipped" xml:space="preserve">
-    <value>Не выполнено автоматическое пополнение предбоевой инструкции на %s. Установите предбоевую инструкцию вручную.</value>
-  </data>
-  <data name="serviceChannelMessages/autoEquipBoosterSuccess" xml:space="preserve">
-    <value>Снаряжение на %s пополнено успешно. Потрачено </value>
-  </data>
-  <data name="serviceChannelMessages/autoEquipDisabledOption" xml:space="preserve">
-    <value>Не удалось пополнить снаряжение на %s. Купите снаряжение за золото.</value>
-  </data>
   <data name="serviceChannelMessages/autoEquipError" xml:space="preserve">
     <value>Не удалось пополнить снаряжение на %s. Недостаточно средств.</value>
-  </data>
-  <data name="serviceChannelMessages/autoEquipErrorNoWallet" xml:space="preserve">
-    <value>Не удалось пополнить снаряжение на %s. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
   </data>
   <data name="serviceChannelMessages/autoEquipSkipped" xml:space="preserve">
     <value>Не выполнено автоматическое пополнение снаряжения на %s. Загрузите снаряжение вручную.</value>
@@ -1591,14 +840,8 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="serviceChannelMessages/autoEquipSuccess" xml:space="preserve">
     <value>Снаряжение на %s пополнено успешно. Потрачено </value>
   </data>
-  <data name="serviceChannelMessages/autoLoadDisabledOption" xml:space="preserve">
-    <value>Не удалось пополнить боекомплект на %s. Купите снаряды за золото.</value>
-  </data>
   <data name="serviceChannelMessages/autoLoadError" xml:space="preserve">
     <value>Не удалось пополнить боекомплект на %s. Недостаточно средств.</value>
-  </data>
-  <data name="serviceChannelMessages/autoLoadErrorNoWallet" xml:space="preserve">
-    <value>Не удалось пополнить боекомплект на %s. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
   </data>
   <data name="serviceChannelMessages/autoLoadSkipped" xml:space="preserve">
     <value>Не выполнено автоматическое пополнение боекомплекта на %s. Загрузите боекомплект вручную.</value>
@@ -1606,23 +849,14 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="serviceChannelMessages/autoLoadSuccess" xml:space="preserve">
     <value>Боекомплект на %s пополнен успешно. Потрачено </value>
   </data>
-  <data name="serviceChannelMessages/autoRepairDisabledOption" xml:space="preserve">
-    <value>Не удалось отремонтировать %s.</value>
-  </data>
   <data name="serviceChannelMessages/autoRepairError" xml:space="preserve">
     <value>Не удалось отремонтировать %s. Недостаточно средств.</value>
-  </data>
-  <data name="serviceChannelMessages/autoRepairErrorNoWallet" xml:space="preserve">
-    <value>Не удалось отремонтировать %s. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
   </data>
   <data name="serviceChannelMessages/autoRepairSkipped" xml:space="preserve">
     <value>Не выполнен автоматический ремонт %s. Отремонтируйте машину вручную.</value>
   </data>
   <data name="serviceChannelMessages/autoRepairSuccess" xml:space="preserve">
     <value>Ремонт %s выполнен успешно. Потрачено </value>
-  </data>
-  <data name="serviceChannelMessages/badgeAchievement" xml:space="preserve">
-    <value>Добавлено нашивок</value>
   </data>
   <data name="serviceChannelMessages/battleResults/achieves" xml:space="preserve">
     <value>Достижения в бою</value>
@@ -1636,9 +870,6 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="serviceChannelMessages/battleResults/actionsResultsCredits" xml:space="preserve">
     <value>%s кредитов</value>
   </data>
-  <data name="serviceChannelMessages/battleResults/actionsResultsCrystal" xml:space="preserve">
-    <value>%s бон</value>
-  </data>
   <data name="serviceChannelMessages/battleResults/actionsResultsFreeXP" xml:space="preserve">
     <value>%s свободного опыта</value>
   </data>
@@ -1648,17 +879,11 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="serviceChannelMessages/battleResults/battle" xml:space="preserve">
     <value>Бой</value>
   </data>
-  <data name="serviceChannelMessages/battleResults/button" xml:space="preserve">
-    <value>Подробнее</value>
-  </data>
   <data name="serviceChannelMessages/battleResults/contributionForDamageAllies" xml:space="preserve">
     <value>компенсация за урон от союзников: %s</value>
   </data>
   <data name="serviceChannelMessages/battleResults/credits" xml:space="preserve">
     <value>Получено кредитов</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/crystal" xml:space="preserve">
-    <value>Получено бон</value>
   </data>
   <data name="serviceChannelMessages/battleResults/defeat" xml:space="preserve">
     <value>Поражение</value>
@@ -1669,144 +894,17 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="serviceChannelMessages/battleResults/drawGame" xml:space="preserve">
     <value>Ничья</value>
   </data>
-  <data name="serviceChannelMessages/battleResults/ended" xml:space="preserve">
-    <value>Бой окончен</value>
-  </data>
   <data name="serviceChannelMessages/battleResults/experience" xml:space="preserve">
     <value>Получено опыта</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/fort/clan" xml:space="preserve">
-    <value>Наступление</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/fortBuilding" xml:space="preserve">
-    <value>Строение</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/fortResource" xml:space="preserve">
-    <value>Получено промресурса</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/fortResource/clan" xml:space="preserve">
-    <value>кланом</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/fortResource/player" xml:space="preserve">
-    <value>игроком</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/freeXP" xml:space="preserve">
-    <value>Получено свободного опыта</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/gold" xml:space="preserve">
-    <value>Получено золота</value>
   </data>
   <data name="serviceChannelMessages/battleResults/penaltyForDamageAllies" xml:space="preserve">
     <value>штраф за нанесение урона союзникам: %s</value>
   </data>
-  <data name="serviceChannelMessages/battleResults/potapovQuests" xml:space="preserve">
-    <value>Поздравляем!
-За успешное выполнение личных боевых задач вам присвоены следующие награды</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/quests" xml:space="preserve">
-    <value>Боевая задача выполнена! Награда</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/quests/achievements" xml:space="preserve">
-    <value>Достижения</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/quests/berths" xml:space="preserve">
-    <value>Добавлено коек в Казарму</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/quests/credits" xml:space="preserve">
-    <value>Добавлено кредитов</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/quests/crystal" xml:space="preserve">
-    <value>Добавлено бон</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/quests/freeXP" xml:space="preserve">
-    <value>Добавлено свободного опыта</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/quests/gold" xml:space="preserve">
-    <value>Добавлено золота</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/quests/items" xml:space="preserve">
-    <value>Добавлено</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/quests/items/name" xml:space="preserve">
-    <value>%(name)s (x%(count)s)</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/quests/premium" xml:space="preserve">
-    <value>Добавлено дней премиум аккаунта</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/quests/vehicleSlots" xml:space="preserve">
-    <value>Добавлено слотов</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/rankedState/nothingChanged" xml:space="preserve">
-    <value>шеврон не получен</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/rankedState/rankEarned" xml:space="preserve">
-    <value>получен ранг</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/rankedState/rankLost" xml:space="preserve">
-    <value>потерян ранг</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/rankedState/stepEarned" xml:space="preserve">
-    <value>получен шеврон</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/rankedState/stepLost" xml:space="preserve">
-    <value>потерян шеврон</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/refSystemBoughtVehicle" xml:space="preserve">
-    <value>Поздравляем!
-Ваш рекрут %(userName)s купил машину Х уровня.</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/refSystemContributeXp" xml:space="preserve">
-    <value>Поздравляем!
-Ваш рекрут %(userName)s принёс вам %(xp)s опыта.</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/refSystemQuests" xml:space="preserve">
-    <value>Поздравляем!
-В награду за успехи ваших рекрутов вы получаете</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/tanks" xml:space="preserve">
-    <value>Техника</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/techDefeat" xml:space="preserve">
-    <value>Техническое поражение</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/techVictory" xml:space="preserve">
-    <value>Техническая победа</value>
-  </data>
-  <data name="serviceChannelMessages/battleResults/training_battle" xml:space="preserve">
-    <value>Учебный бой</value>
+  <data name="serviceChannelMessages/battleResults/tank" xml:space="preserve">
+    <value>Машина</value>
   </data>
   <data name="serviceChannelMessages/battleResults/victory" xml:space="preserve">
     <value>Победа</value>
-  </data>
-  <data name="serviceChannelMessages/battleTutorial/reasons/extermination" xml:space="preserve">
-    <value>Машина уничтожена</value>
-  </data>
-  <data name="serviceChannelMessages/battleTutorial/reasons/failed" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="serviceChannelMessages/battleTutorial/reasons/finished" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="serviceChannelMessages/battleTutorial/reasons/timeout" xml:space="preserve">
-    <value>Время истекло</value>
-  </data>
-  <data name="serviceChannelMessages/battleTutorial/results/failed" xml:space="preserve">
-    <value>Обучение провалено.</value>
-  </data>
-  <data name="serviceChannelMessages/battleTutorial/results/finished" xml:space="preserve">
-    <value>Обучение завершено!</value>
-  </data>
-  <data name="serviceChannelMessages/boosterDisabled" xml:space="preserve">
-    <value>Личный резерв «%(boosterName)s» был отключён по техническим причинам.</value>
-  </data>
-  <data name="serviceChannelMessages/boosterExpired" xml:space="preserve">
-    <value>Время действия личного резерва «%(boosterName)s» закончилось. Резерв списан.</value>
-  </data>
-  <data name="serviceChannelMessages/buttons/close" xml:space="preserve">
-    <value>Закрыть</value>
-  </data>
-  <data name="serviceChannelMessages/clan/LEFT_CLAN" xml:space="preserve">
-    <value>Вы вышли или были исключены из клана:</value>
   </data>
   <data name="serviceChannelMessages/creditsAndGoldReceivedAsGift" xml:space="preserve">
     <value>От администрации получено золота: %(gold)s, кредитов: %(credits)s.</value>
@@ -1816,123 +914,6 @@ IV уровня и выше, чтобы получать больше опыта
   </data>
   <data name="serviceChannelMessages/durationOfPremiumAccounExpires" xml:space="preserve">
     <value>Срок действия премиум аккаунта истекает %(expiryTime)s.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/ATTACK_PLANNED" xml:space="preserve">
-    <value>Война клану %(clan)s объявлена!
-Наступление начнётся %(date)s в %(time)s.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/BASE_DESTROYED" xml:space="preserve">
-    <value>Оборона сломлена!
-Все нападения отменены! Заполните шкалу прочности командного центра для нормального функционирования Укрепрайона.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/BATTLE_DELETED" xml:space="preserve">
-    <value>Запланированное сражение с кланом %(clan)s было отменено.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/BATTLE_DELETED_LEVEL" xml:space="preserve">
-    <value>Наступление %(date)s в %(time)s на клан %(clan)s отменено: разница между уровнями Укрепрайонов составляет более 1 уровня.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/BUILDING_DAMAGED" xml:space="preserve">
-    <value>Строение %(building)s разрушено! Для возобновления функционирования заполните шкалу его прочности.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE" xml:space="preserve">
-    <value>Частичное разрушение командного центра! Заполните его шкалу прочности для нормального функционирования Укрепрайона. Дальнейшее разрушение командного центра сломает оборону.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/DEFENCE_PLANNED" xml:space="preserve">
-    <value>Клан %(clan)s объявил вам войну!
-Наступление начнётся %(date)s в %(time)s.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/DEF_HOUR_ACTIVATED" xml:space="preserve">
-    <value>Назначен период обороны: %(defenceHour)s</value>
-  </data>
-  <data name="serviceChannelMessages/fort/DEF_HOUR_CHANGED" xml:space="preserve">
-    <value>Период обороны изменён. Новый период обороны: %(defenceHour)s</value>
-  </data>
-  <data name="serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN" xml:space="preserve">
-    <value>Оборона вашего Укрепрайона отключена. Уровень всех строений и резервов понижен до IV.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/FORT_GOT_8_LEVEL" xml:space="preserve">
-    <value>Поздравляем! Вы развили Укрепрайон до VIII уровня.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/FORT_READY" xml:space="preserve">
-    <value>Поздравляем! Укрепрайон полностью готов к работе на благо клана.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED" xml:space="preserve">
-    <value>День прекращения огня изменён. Новый день прекращения огня назначен не был.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/OFF_DAY_ACTIVATED" xml:space="preserve">
-    <value>Назначен день прекращения огня: %(offDay)s</value>
-  </data>
-  <data name="serviceChannelMessages/fort/ORDER_CANCELED" xml:space="preserve">
-    <value>Уровень строения %(building)s был повышен.
-Готовящийся резерв %(order)s преобразован в промресурс, который зачислен на склад строения.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/ORDER_COMPENSATED" xml:space="preserve">
-    <value>Резерв %(orderTypeName)s компенсирован и доступен для активации.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/PERIPHERY_CHANGED" xml:space="preserve">
-    <value>Домашний сервер изменён на %(peripheryName)s.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/PROM_RESOURCE_EARNED" xml:space="preserve">
-    <value>Начислено промресурса: %(promresource)d</value>
-  </data>
-  <data name="serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN" xml:space="preserve">
-    <value>Списано промресурса: %(promresource)d</value>
-  </data>
-  <data name="serviceChannelMessages/fort/REATTACHED_TO_BASE" xml:space="preserve">
-    <value>Вы закреплены за строением %(building)s.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/RESERVES_EARNED" xml:space="preserve">
-    <value>Добавлены резервы: %(reserves)d</value>
-  </data>
-  <data name="serviceChannelMessages/fort/RESERVES_WITHDRAWN" xml:space="preserve">
-    <value>Списаны резервы: %(reserves)d</value>
-  </data>
-  <data name="serviceChannelMessages/fort/RESERVE_ACTIVATED" xml:space="preserve">
-    <value>До завершения действия резерва %(order)s: %(timeLeft)s</value>
-  </data>
-  <data name="serviceChannelMessages/fort/RESERVE_ACTIVATED/title" xml:space="preserve">
-    <value>Резерв активирован</value>
-  </data>
-  <data name="serviceChannelMessages/fort/RESERVE_EXPIRED" xml:space="preserve">
-    <value>Действие резерва %(order)s завершено.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/RESERVE_PRODUCED" xml:space="preserve">
-    <value>Подготовка %(count)s резерва(ов) %(order)s завершена.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION" xml:space="preserve">
-    <value>Действие резерва «Эвакуация» закончилось.
-
-%(additional)s
-Итоговый результат для нашего клана: %(resTotal)s</value>
-  </data>
-  <data name="serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL" xml:space="preserve">
-    <value>Противник использовал резерв «Реквизиция» и дополнительно награбил: %(resDec)s
-Нашим кланом дополнительно сохранено: %(resInc)s</value>
-  </data>
-  <data name="serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION" xml:space="preserve">
-    <value>Действие резерва «Реквизиция» закончилось.
-
-%(additional)s
-Итоговый результат для нашего клана: %(resTotal)s</value>
-  </data>
-  <data name="serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL" xml:space="preserve">
-    <value>Противник использовал резерв «Эвакуация» и дополнительно сохранил: %(resDec)s
-Нашим кланом дополнительно награблено: %(resInc)s</value>
-  </data>
-  <data name="serviceChannelMessages/fort/STORAGE_OVERFLOW" xml:space="preserve">
-    <value>Склад строения %(building)s переполнен.
-Используйте промресурс для подготовки резервов или транспортируйте его в другое строение.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/VACATION_FINISHED" xml:space="preserve">
-    <value>Период нейтралитета вашего Укрепрайона завершён.
-Другие кланы вновь могут напасть на вас — будьте наготове.</value>
-  </data>
-  <data name="serviceChannelMessages/fort/VACATION_STARTED" xml:space="preserve">
-    <value>Ваш Укрепрайон объявил нейтралитет.
-Другие кланы не могут на вас нападать. Завершение периода нейтралитета %(finish)s.</value>
-  </data>
-  <data name="serviceChannelMessages/fortificationStartUp" xml:space="preserve">
-    <value>На склад командного центра зачислено %(defResCount)s единиц промресурса.</value>
   </data>
   <data name="serviceChannelMessages/goldReceived/date" xml:space="preserve">
     <value>Дата</value>
@@ -1946,59 +927,11 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="serviceChannelMessages/goldReceivedAsGift" xml:space="preserve">
     <value>От администрации получено золота: %(gold)s.</value>
   </data>
-  <data name="serviceChannelMessages/invoiceReceived/berthsAccrued" xml:space="preserve">
-    <value>Добавлены койки в Казарму</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/berthsDebited" xml:space="preserve">
-    <value>Списаны койки из Казармы</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/boosters" xml:space="preserve">
-    <value>Личные резервы</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/compensation" xml:space="preserve">
-    <value>Компенсация за</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/compensation/credits" xml:space="preserve">
-    <value>кредитами</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/compensation/crystal" xml:space="preserve">
-    <value>бонами</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/compensation/gold" xml:space="preserve">
-    <value>золотом</value>
-  </data>
   <data name="serviceChannelMessages/invoiceReceived/creditsAccrued" xml:space="preserve">
     <value>Начислено кредитов</value>
   </data>
   <data name="serviceChannelMessages/invoiceReceived/creditsDebited" xml:space="preserve">
     <value>С вашего счёта списано кредитов</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/crewDroppedToBarracks" xml:space="preserve">
-    <value>экипаж помещён в Казарму</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/crewOnVehicle" xml:space="preserve">
-    <value>экипаж %d%%</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks" xml:space="preserve">
-    <value>экипаж %d%% помещён в Казарму</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/crewWithdrawn" xml:space="preserve">
-    <value>экипаж списан</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/crystalAccrued" xml:space="preserve">
-    <value>Начислено бон</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/crystalDebited" xml:space="preserve">
-    <value>Списано бон</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/discounts" xml:space="preserve">
-    <value>Персональные скидки</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/dossiersAccrued" xml:space="preserve">
-    <value>Добавлены награды</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/dossiersDebited" xml:space="preserve">
-    <value>Списаны награды</value>
   </data>
   <data name="serviceChannelMessages/invoiceReceived/freeXp" xml:space="preserve">
     <value>Свободный опыт</value>
@@ -2036,32 +969,11 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="serviceChannelMessages/invoiceReceived/premium_account" xml:space="preserve">
     <value>Премиум</value>
   </data>
-  <data name="serviceChannelMessages/invoiceReceived/rentDays" xml:space="preserve">
-    <value>дней аренды: </value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/slotsAccrued" xml:space="preserve">
-    <value>Добавлены слоты</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/slotsDebited" xml:space="preserve">
-    <value>Списаны слоты</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/tankmen" xml:space="preserve">
-    <value>Новобранцы</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued" xml:space="preserve">
-    <value>Начислено нераспределённого опыта членам экипажа</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited" xml:space="preserve">
-    <value>Списано нераспределённого опыта с членов экипажа</value>
-  </data>
   <data name="serviceChannelMessages/invoiceReceived/vehiclesAccrued" xml:space="preserve">
     <value>Добавлена техника</value>
   </data>
   <data name="serviceChannelMessages/invoiceReceived/vehiclesDebited" xml:space="preserve">
     <value>Списана техника</value>
-  </data>
-  <data name="serviceChannelMessages/invoiceReceived/vehiclesRented" xml:space="preserve">
-    <value>Добавлена арендованная техника</value>
   </data>
   <data name="serviceChannelMessages/itemReceivedAsGift" xml:space="preserve">
     <value>От администрации получено снаряжение: %(typeName)s "%(itemName)s" – %(amount)d шт.</value>
@@ -2111,9 +1023,6 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="serviceChannelMessages/prebattle/finish/timeout" xml:space="preserve">
     <value>Время ожидания истекло</value>
   </data>
-  <data name="serviceChannelMessages/prebattle/finishedTime" xml:space="preserve">
-    <value>Завершено</value>
-  </data>
   <data name="serviceChannelMessages/prebattle/numberOfBattle" xml:space="preserve">
     <value>(сражение %s)</value>
   </data>
@@ -2138,22 +1047,169 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="serviceChannelMessages/priorityMessageTitle" xml:space="preserve">
     <value>Внимание!</value>
   </data>
-  <data name="serviceChannelMessages/rentCompensation/compensation" xml:space="preserve">
-    <value>Компенсация</value>
+  <data name="serviceChannelMessages/serverReboot" xml:space="preserve">
+    <value>Игровой сервер будет отключён %(date)s.</value>
   </data>
-  <data name="serviceChannelMessages/rentCompensation/creditsReceived" xml:space="preserve">
-    <value>Начислено кредитов за неиспользованное время аренды %(vehicleName)s</value>
+  <data name="serviceChannelMessages/serverRebootCancelled" xml:space="preserve">
+    <value>Отключение игрового сервера, запланированное %(date)s, отменено.</value>
   </data>
-  <data name="serviceChannelMessages/rentCompensation/goldReceived" xml:space="preserve">
-    <value>Начислено золота за неиспользованное время аренды %(vehicleName)s</value>
+  <data name="serviceChannelMessages/sysMsg/titles/customization" xml:space="preserve">
+    <value>Кастомизация:</value>
   </data>
-  <data name="serviceChannelMessages/rentalsExpired" xml:space="preserve">
-    <value>Срок действия аренды %(vehicleName)s истёк.</value>
+  <data name="serviceChannelMessages/sysMsg/titles/dismantling" xml:space="preserve">
+    <value>Демонтировано:</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/error" xml:space="preserve">
+    <value>Ошибка:</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/financialTransaction" xml:space="preserve">
+    <value>Финансовая операция:</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/powerlevel" xml:space="preserve">
+    <value>Исследовано:</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/purchase" xml:space="preserve">
+    <value>Куплено:</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/repair" xml:space="preserve">
+    <value>Ремонт:</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/selling" xml:space="preserve">
+    <value>Продано:</value>
+  </data>
+  <data name="serviceChannelMessages/vehCamouflageTimedOut" xml:space="preserve">
+    <value>Срок действия камуфляжа на %(vehicleName)s истёк.</value>
+  </data>
+  <data name="serviceChannelMessages/vehicleLock" xml:space="preserve">
+    <value>Машина уничтожена. %(vehicleName)s недоступен для кланового боя до %(expireTime)s.</value>
+  </data>
+  <data name="serviceChannelMessages/vehicleLockExpired" xml:space="preserve">
+    <value>Время блокировки истекло. %(vehicleName)s доступен для кланового боя.</value>
+  </data>
+  <data name="serviceChannelMessages/vehicleReceivedAsGift" xml:space="preserve">
+    <value>От администрации получена премиум машина: %(vehicleName)s</value>
+  </data>
+  <data name="serviceChannelMessages/waresBoughtAsGold" xml:space="preserve">
+    <value>От игрока %(srcName)s получено золота: %(srcWares)s.</value>
+  </data>
+  <data name="serviceChannelMessages/waresSoldAsGold" xml:space="preserve">
+    <value>%(srcWares)s золота отправлено игроку %(dstName)s. Комиссия составила %(fee)s.</value>
+  </data>
+  <data name="serviceChannelMessages/xpReceivedAsGift" xml:space="preserve">
+    <value>От администрации получен свободный опыт: %(freeXP)s.</value>
+  </data>
+  <data name="status/offline" xml:space="preserve">
+    <value>Не в сети</value>
+  </data>
+  <data name="status/online" xml:space="preserve">
+    <value>В сети</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/creditsCompensation" xml:space="preserve">
+    <value>Компенсация кредитами</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/goldCompensation" xml:space="preserve">
+    <value>Компенсация золотом</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/vehiclesInHangar" xml:space="preserve">
+    <value>Танки в Ангаре</value>
+  </data>
+  <data name="serviceChannelMessages/vehiclesAllLockExpired" xml:space="preserve">
+    <value>Блокировка закончилась. Вся техника доступна для кланового боя.</value>
+  </data>
+  <data name="dialogs/teamChannel/buttons/invite" xml:space="preserve">
+    <value>Пригласить</value>
+  </data>
+  <data name="lobby/teamChannel/limitsLabel" xml:space="preserve">
+    <value>Ограничения уровня техники:</value>
+  </data>
+  <data name="server/errors/invalidChannelName/message" xml:space="preserve">
+    <value>Недопустимое имя канала.</value>
+  </data>
+  <data name="server/errors/invalidChannelName/title" xml:space="preserve">
+    <value>Ошибка чата</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/gold" xml:space="preserve">
+    <value>Получено золота</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation" xml:space="preserve">
+    <value>Компенсация за</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/credits" xml:space="preserve">
+    <value>кредитами</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/gold" xml:space="preserve">
+    <value>золотом</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/crewLvl" xml:space="preserve">
+    <value>%d%%</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/slotsAccrued" xml:space="preserve">
+    <value>Добавлены слоты</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/slotsDebited" xml:space="preserve">
+    <value>Списаны слоты</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/tankmen" xml:space="preserve">
+    <value>Новобранцы</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/finishedTime" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="battle/hints/changeReceiver" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="battle/receivers/common" xml:space="preserve">
+    <value>ВСЕМ</value>
+  </data>
+  <data name="battle/receivers/squad" xml:space="preserve">
+    <value>ВЗВОДУ</value>
+  </data>
+  <data name="battle/receivers/team" xml:space="preserve">
+    <value>КОМАНДЕ</value>
+  </data>
+  <data name="battle/toolTips/cancel" xml:space="preserve">
+    <value>отменить</value>
+  </data>
+  <data name="battle/toolTips/changeReceiver" xml:space="preserve">
+    <value>смена адресата</value>
+  </data>
+  <data name="battle/toolTips/duringChat" xml:space="preserve">
+    <value>Во время чата:</value>
+  </data>
+  <data name="battle/toolTips/startChat" xml:space="preserve">
+    <value>Начать чат:</value>
+  </data>
+  <data name="battle/toolTips/usingChat" xml:space="preserve">
+    <value>Использование чата</value>
+  </data>
+  <data name="battle/toolTips/withAll" xml:space="preserve">
+    <value>со всеми</value>
+  </data>
+  <data name="battle/toolTips/withCommand" xml:space="preserve">
+    <value>со своей командой</value>
+  </data>
+  <data name="battle/toolTips/withSquad" xml:space="preserve">
+    <value>со своим взводом</value>
+  </data>
+  <data name="battle/unknown/ally" xml:space="preserve">
+    <value>Союзник</value>
+  </data>
+  <data name="battle/unknown/enemy" xml:space="preserve">
+    <value>Противник</value>
+  </data>
+  <data name="serviceChannelMessages/achievementReceived/message" xml:space="preserve">
+    <value>Достижения</value>
+  </data>
+  <data name="serviceChannelMessages/actionBegin" xml:space="preserve">
+    <value>Акция</value>
+  </data>
+  <data name="serviceChannelMessages/actionEnd" xml:space="preserve">
+    <value>Акция завершена.</value>
   </data>
   <data name="serviceChannelMessages/serverDowntimeCompensation" xml:space="preserve">
     <value>В связи с проведением технических работ действие %s продлено.</value>
   </data>
-  <data name="serviceChannelMessages/serverDowntimeCompensation/camouflages" xml:space="preserve">
+  <data name="serviceChannelMessages/serverDowntimeCompensation/camouflage" xml:space="preserve">
     <value>камуфляжа</value>
   </data>
   <data name="serviceChannelMessages/serverDowntimeCompensation/playerEmblems" xml:space="preserve">
@@ -2165,14 +1221,44 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="serviceChannelMessages/serverDowntimeCompensation/premium" xml:space="preserve">
     <value>премиум аккаунта</value>
   </data>
-  <data name="serviceChannelMessages/serverDowntimeCompensation/rentals" xml:space="preserve">
-    <value>аренды</value>
+  <data name="battle/toolTips/default" xml:space="preserve">
+    <value>с предыдущим адресатом</value>
   </data>
-  <data name="serviceChannelMessages/serverReboot" xml:space="preserve">
-    <value>Игровой сервер будет отключён %(date)s.</value>
+  <data name="command/FOLLOWME/arg0" xml:space="preserve">
+    <value>Имя союзника</value>
   </data>
-  <data name="serviceChannelMessages/serverRebootCancelled" xml:space="preserve">
-    <value>Отключение игрового сервера, запланированное %(date)s, отменено.</value>
+  <data name="command/HELPMEEX/arg0" xml:space="preserve">
+    <value>Имя союзника</value>
+  </data>
+  <data name="command/STOP/arg0" xml:space="preserve">
+    <value>Имя союзника</value>
+  </data>
+  <data name="command/SUPPORTMEWITHFIRE/arg0" xml:space="preserve">
+    <value>Имя противника</value>
+  </data>
+  <data name="command/TURNBACK/arg0" xml:space="preserve">
+    <value>Имя союзника</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/button" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
+  <data name="serviceChannelMessages/serverDowntimeCompensation/camouflages" xml:space="preserve">
+    <value>камуфляжа</value>
+  </data>
+  <data name="serviceChannelMessages/vehEmblemTimedOut" xml:space="preserve">
+    <value>Срок действия эмблемы на %(vehicleName)s истёк.</value>
+  </data>
+  <data name="serviceChannelMessages/vehInscriptionTimedOut" xml:space="preserve">
+    <value>Срок действия надписи на %(vehicleName)s истёк.</value>
+  </data>
+  <data name="serviceChannelMessages/autoEquipDisabledOption" xml:space="preserve">
+    <value>Не удалось пополнить снаряжение на %s. Купите снаряжение за золото.</value>
+  </data>
+  <data name="serviceChannelMessages/autoLoadDisabledOption" xml:space="preserve">
+    <value>Не удалось пополнить боекомплект на %s. Купите снаряды за золото.</value>
+  </data>
+  <data name="serviceChannelMessages/autoRepairDisabledOption" xml:space="preserve">
+    <value>Не удалось отремонтировать %s.</value>
   </data>
   <data name="serviceChannelMessages/sysMsg/converter/camouflages" xml:space="preserve">
     <value>Изменён камуфляж</value>
@@ -2182,12 +1268,6 @@ IV уровня и выше, чтобы получать больше опыта
   </data>
   <data name="serviceChannelMessages/sysMsg/converter/creditsWithdrawn" xml:space="preserve">
     <value>Списано кредитов: %(credits)s</value>
-  </data>
-  <data name="serviceChannelMessages/sysMsg/converter/crystalReceived" xml:space="preserve">
-    <value>Боны: %(crystal)s</value>
-  </data>
-  <data name="serviceChannelMessages/sysMsg/converter/crystalWithdrawn" xml:space="preserve">
-    <value>Боны: %(crystal)s</value>
   </data>
   <data name="serviceChannelMessages/sysMsg/converter/emblems" xml:space="preserve">
     <value>Изменены эмблемы</value>
@@ -2222,80 +1302,843 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn" xml:space="preserve">
     <value>Списана техника: %(vehicles)s</value>
   </data>
-  <data name="serviceChannelMessages/sysMsg/titles/customization" xml:space="preserve">
-    <value>Кастомизация:</value>
+  <data name="lobby/bsChannels/stats/required" xml:space="preserve">
+    <value>Требуется:</value>
   </data>
-  <data name="serviceChannelMessages/sysMsg/titles/dismantling" xml:space="preserve">
-    <value>Демонтировано:</value>
+  <data name="lobby/bsChannels/stats/vehicleType" xml:space="preserve">
+    <value>Тип:</value>
   </data>
-  <data name="serviceChannelMessages/sysMsg/titles/error" xml:space="preserve">
-    <value>Ошибка:</value>
+  <data name="serviceChannelMessages/battleResults/freeXP" xml:space="preserve">
+    <value>Получено свободного опыта</value>
   </data>
-  <data name="serviceChannelMessages/sysMsg/titles/financialTransaction" xml:space="preserve">
-    <value>Финансовая операция:</value>
+  <data name="serviceChannelMessages/battleResults/quests" xml:space="preserve">
+    <value>Боевая задача выполнена! Награда</value>
   </data>
-  <data name="serviceChannelMessages/sysMsg/titles/powerlevel" xml:space="preserve">
-    <value>Исследовано:</value>
+  <data name="serviceChannelMessages/battleResults/quests/berths" xml:space="preserve">
+    <value>Добавлено коек в Казарму</value>
   </data>
-  <data name="serviceChannelMessages/sysMsg/titles/primeTime" xml:space="preserve">
-    <value>Прекращения огня</value>
+  <data name="serviceChannelMessages/battleResults/quests/items" xml:space="preserve">
+    <value>Добавлено</value>
   </data>
-  <data name="serviceChannelMessages/sysMsg/titles/purchase" xml:space="preserve">
-    <value>Куплено:</value>
+  <data name="serviceChannelMessages/battleResults/quests/items/name" xml:space="preserve">
+    <value>%(name)s (x%(count)s)</value>
   </data>
-  <data name="serviceChannelMessages/sysMsg/titles/rankedBattlesAvailable" xml:space="preserve">
-    <value>Ранговые бои доступны</value>
+  <data name="serviceChannelMessages/battleResults/quests/premium" xml:space="preserve">
+    <value>Добавлено дней премиум аккаунта</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests/vehicleSlots" xml:space="preserve">
+    <value>Добавлено слотов</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/training_battle" xml:space="preserve">
+    <value>Учебный бой</value>
+  </data>
+  <data name="serviceChannelMessages/battleTutorial/reasons/extermination" xml:space="preserve">
+    <value>Машина уничтожена</value>
+  </data>
+  <data name="serviceChannelMessages/battleTutorial/reasons/failed" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="serviceChannelMessages/battleTutorial/reasons/finished" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="serviceChannelMessages/battleTutorial/reasons/timeout" xml:space="preserve">
+    <value>Время истекло</value>
+  </data>
+  <data name="serviceChannelMessages/battleTutorial/results/failed" xml:space="preserve">
+    <value>Обучение провалено.</value>
+  </data>
+  <data name="serviceChannelMessages/battleTutorial/results/finished" xml:space="preserve">
+    <value>Обучение завершено!</value>
+  </data>
+  <data name="client/warning/emptyUserSearchToken/message" xml:space="preserve">
+    <value>Задан пустой запрос</value>
+  </data>
+  <data name="client/warning/emptyUserSearchToken/title" xml:space="preserve">
+    <value>Поиск пользователей</value>
+  </data>
+  <data name="client/warning/invalidUserSearchToken/message" xml:space="preserve">
+    <value>Неправильная длина либо недопустимый символ в строке поиска. Допустимая длина от %d до %d символов.</value>
+  </data>
+  <data name="client/warning/invalidUserSearchToken/title" xml:space="preserve">
+    <value>Поиск пользователей</value>
+  </data>
+  <data name="command/findUser" xml:space="preserve">
+    <value>Поиск игроков</value>
+  </data>
+  <data name="serviceChannelMessages/buttons/close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="serviceChannelMessages/autoEquipErrorNoWallet" xml:space="preserve">
+    <value>Не удалось пополнить снаряжение на %s. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="serviceChannelMessages/autoLoadErrorNoWallet" xml:space="preserve">
+    <value>Не удалось пополнить боекомплект на %s. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="serviceChannelMessages/autoRepairErrorNoWallet" xml:space="preserve">
+    <value>Не удалось отремонтировать %s. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests/credits" xml:space="preserve">
+    <value>Добавлено кредитов</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests/freeXP" xml:space="preserve">
+    <value>Добавлено свободного опыта</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests/gold" xml:space="preserve">
+    <value>Добавлено золота</value>
+  </data>
+  <data name="battle/history/downMessage" xml:space="preserve">
+    <value>перейти к новым сообщениям</value>
+  </data>
+  <data name="battle/history/header" xml:space="preserve">
+    <value>Противник</value>
+  </data>
+  <data name="battle/history/latestMessage" xml:space="preserve">
+    <value>перейти к последнему сообщению</value>
+  </data>
+  <data name="battle/history/title" xml:space="preserve">
+    <value>История чата:</value>
+  </data>
+  <data name="battle/history/upMessage" xml:space="preserve">
+    <value>перейти к предыдущим сообщениям</value>
+  </data>
+  <data name="battle/receivers/chatIsLocked" xml:space="preserve">
+    <value>%(open)sЧАТ ОТКЛЮЧЁН%(close)s</value>
+  </data>
+  <data name="battle/receivers/chatIsLockedToolTip" xml:space="preserve">
+    <value>Включить боевой чат можно в настройках игры.</value>
+  </data>
+  <data name="command/RELOADINGGUN/rTime" xml:space="preserve">
+    <value>&amp;lt;Время перезарядки&amp;gt;</value>
+  </data>
+  <data name="command/RELOADING_CASSETE/ammoQuantityLeft" xml:space="preserve">
+    <value>&amp;lt;Количество снарядов&amp;gt;</value>
+  </data>
+  <data name="command/RELOADING_CASSETE/rTime" xml:space="preserve">
+    <value>&amp;lt;Время перезарядки&amp;gt;</value>
+  </data>
+  <data name="command/RELOADING_READY_CASSETE/ammoInCassete" xml:space="preserve">
+    <value>&amp;lt;Количество снарядов&amp;gt;</value>
+  </data>
+  <data name="command/RELOADING_READY_CASSETE/rTime" xml:space="preserve">
+    <value>&amp;lt;Время перезарядки&amp;gt;</value>
+  </data>
+  <data name="listView/title" xml:space="preserve">
+    <value>Центр уведомлений</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests/achievements" xml:space="preserve">
+    <value>Достижения</value>
+  </data>
+  <data name="serviceChannelMessages/historicalCostsReserved/creditsDebited" xml:space="preserve">
+    <value>Списано кредитов за боекомплект</value>
+  </data>
+  <data name="serviceChannelMessages/historicalCostsReserved/creditsReturn" xml:space="preserve">
+    <value>Компенсация кредитами за неиспользованный боекомплект</value>
+  </data>
+  <data name="serviceChannelMessages/historicalCostsReserved/goldDebited" xml:space="preserve">
+    <value>Списано золота за боекомплект</value>
+  </data>
+  <data name="serviceChannelMessages/historicalCostsReserved/goldReturn" xml:space="preserve">
+    <value>Компенсация золотом за неиспользованный боекомплект</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/historicalCostsReserved" xml:space="preserve">
+    <value>Исторический бой:</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/fortResource" xml:space="preserve">
+    <value>Получено промресурса</value>
+  </data>
+  <data name="serviceChannelMessages/clan/LEFT_CLAN" xml:space="preserve">
+    <value>Вы вышли или были исключены из клана:</value>
+  </data>
+  <data name="serviceChannelMessages/fort/FORT_READY" xml:space="preserve">
+    <value>Поздравляем! Укрепрайон полностью готов к работе на благо клана.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/RESERVE_ACTIVATED" xml:space="preserve">
+    <value>До завершения действия резерва %(order)s: %(timeLeft)s</value>
+  </data>
+  <data name="serviceChannelMessages/fort/RESERVE_EXPIRED" xml:space="preserve">
+    <value>Действие резерва %(order)s завершено.</value>
+  </data>
+  <data name="serviceChannelMessages/fortificationStartUp" xml:space="preserve">
+    <value>На склад командного центра зачислено %(defResCount)s единиц промресурса.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/ORDER_CANCELED" xml:space="preserve">
+    <value>Уровень строения %(building)s был повышен.
+Готовящийся резерв %(order)s преобразован в промресурс, который зачислен на склад строения.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/REATTACHED_TO_BASE" xml:space="preserve">
+    <value>Вы закреплены за строением %(building)s.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/RESERVE_PRODUCED" xml:space="preserve">
+    <value>Подготовка %(count)s резерва(ов) %(order)s завершена.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/STORAGE_OVERFLOW" xml:space="preserve">
+    <value>Склад строения %(building)s переполнен.
+Используйте промресурс для подготовки резервов или транспортируйте его в другое строение.</value>
+  </data>
+  <data name="dialogs/squad/message/allReady" xml:space="preserve">
+    <value>Нажмите, чтобы отменить готовность.</value>
+  </data>
+  <data name="dialogs/squad/message/getNotReady" xml:space="preserve">
+    <value>Нажмите, чтобы отменить готовность.</value>
+  </data>
+  <data name="dialogs/squad/message/getReady" xml:space="preserve">
+    <value>Подтвердите готовность выйти в бой</value>
+  </data>
+  <data name="dialogs/squadChannel/battleType" xml:space="preserve">
+    <value>Режим боя:</value>
+  </data>
+  <data name="dialogs/squadChannel/buttons/recommend" xml:space="preserve">
+    <value>Рекомендовать игроков</value>
+  </data>
+  <data name="dialogs/squadChannel/chatName" xml:space="preserve">
+    <value>Канал связи:</value>
+  </data>
+  <data name="dialogs/squadChannel/members" xml:space="preserve">
+    <value>Состав:</value>
+  </data>
+  <data name="dialogs/squadChannel/vehicles" xml:space="preserve">
+    <value>Техника:</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/fort/clan" xml:space="preserve">
+    <value>Наступление</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/fortBuilding" xml:space="preserve">
+    <value>Строение</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/fortResource/clan" xml:space="preserve">
+    <value>кланом</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/fortResource/player" xml:space="preserve">
+    <value>игроком</value>
+  </data>
+  <data name="serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN" xml:space="preserve">
+    <value>Оборона вашего Укрепрайона отключена. Уровень всех строений и резервов понижен до IV.</value>
+  </data>
+  <data name="chat_action/BROADCAST_BATTLE_MESSAGE" xml:space="preserve">
+    <value>Отправить сообщение</value>
+  </data>
+  <data name="chat_action/BROADCAST_UNIT_MESSAGE" xml:space="preserve">
+    <value>Отправить сообщение</value>
+  </data>
+  <data name="chat_action/FIND_USERS_BY_NAME" xml:space="preserve">
+    <value>Поиск игроков</value>
+  </data>
+  <data name="chat_action/GET_VOIP_CREDENTIALS" xml:space="preserve">
+    <value>Настройки голосового чата</value>
+  </data>
+  <data name="chat_error/CANNOT_BAN_ONESELF" xml:space="preserve">
+    <value>нельзя забанить самого себя.</value>
+  </data>
+  <data name="chat_error/GENERIC_ERROR" xml:space="preserve">
+    <value>Ошибка выполнения «%(actionName)s».</value>
+  </data>
+  <data name="chat_error/IS_BUSY" xml:space="preserve">
+    <value>Сервер занят.</value>
+  </data>
+  <data name="chat_error/NOT_ALLOWED" xml:space="preserve">
+    <value>недостаточно прав для выполнения операции.</value>
+  </data>
+  <data name="chat_error/NOT_READY" xml:space="preserve">
+    <value>Действие «%(actionName)s» недоступно.</value>
+  </data>
+  <data name="chat_error/USER_NOT_FOUND" xml:space="preserve">
+    <value>пользователь не существует.</value>
+  </data>
+  <data name="chat_error/WRONG_ARGS" xml:space="preserve">
+    <value>неправильный аргумент.</value>
+  </data>
+  <data name="client_error/action/in_cooldown" xml:space="preserve">
+    <value>Действие «%(actionName)s» заморожено на %(floatArg1)s с.</value>
+  </data>
+  <data name="client_error/action/in_cooldown_wo_period" xml:space="preserve">
+    <value>Действие «%(actionName)s» временно недоступно. Попробуйте позже.</value>
+  </data>
+  <data name="client_error/command/generic_error" xml:space="preserve">
+    <value>Ошибка выполнения команды «%(strArg1)s».</value>
+  </data>
+  <data name="client_error/command/in_cooldown_wo_name" xml:space="preserve">
+    <value>команда заморожена на %(floatArg1)s.</value>
+  </data>
+  <data name="client_error/command/not_supported" xml:space="preserve">
+    <value>команда %(strArg1)s не поддерживается клиентом.</value>
+  </data>
+  <data name="client_error/command/wrong_ban_period" xml:space="preserve">
+    <value>неправильный период бана %(int64Arg1)s.</value>
+  </data>
+  <data name="client_error/command/wrong_ban_type" xml:space="preserve">
+    <value>неправильный тип бана %(int32Arg1)s.</value>
+  </data>
+  <data name="client_error/command/wrong_player_name" xml:space="preserve">
+    <value>неправильное имя игрока %(strArg1)s.</value>
+  </data>
+  <data name="command/success/USERBAN" xml:space="preserve">
+    <value>%(strArg1)s забанен.</value>
+  </data>
+  <data name="command/success/USERUNBAN" xml:space="preserve">
+    <value>Бан c %(strArg1)s снят.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/refSystemBoughtVehicle" xml:space="preserve">
+    <value>Поздравляем!
+Ваш рекрут %(userName)s купил машину Х уровня.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/refSystemContributeXp" xml:space="preserve">
+    <value>Поздравляем!
+Ваш рекрут %(userName)s принёс вам %(xp)s опыта.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/refSystemQuests" xml:space="preserve">
+    <value>Поздравляем!
+В награду за успехи ваших рекрутов вы получаете</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/techDefeat" xml:space="preserve">
+    <value>Техническое поражение</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/techVictory" xml:space="preserve">
+    <value>Техническая победа</value>
+  </data>
+  <data name="serviceChannelMessages/fort/ATTACK_PLANNED" xml:space="preserve">
+    <value>Война клану %(clan)s объявлена!
+Наступление начнётся %(date)s в %(time)s.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/BASE_DESTROYED" xml:space="preserve">
+    <value>Оборона сломлена!
+Все нападения отменены! Заполните шкалу прочности командного центра для нормального функционирования Укрепрайона.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/BATTLE_DELETED" xml:space="preserve">
+    <value>Запланированное сражение с кланом %(clan)s было отменено.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/BUILDING_DAMAGED" xml:space="preserve">
+    <value>Строение %(building)s разрушено! Для возобновления функционирования заполните шкалу его прочности.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE" xml:space="preserve">
+    <value>Частичное разрушение командного центра! Заполните его шкалу прочности для нормального функционирования Укрепрайона. Дальнейшее разрушение командного центра сломает оборону.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/DEFENCE_PLANNED" xml:space="preserve">
+    <value>Клан %(clan)s объявил вам войну!
+Наступление начнётся %(date)s в %(time)s.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/DEF_HOUR_ACTIVATED" xml:space="preserve">
+    <value>Назначен период обороны: %(defenceHour)s</value>
+  </data>
+  <data name="serviceChannelMessages/fort/DEF_HOUR_CHANGED" xml:space="preserve">
+    <value>Период обороны изменён. Новый период обороны: %(defenceHour)s</value>
+  </data>
+  <data name="serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED" xml:space="preserve">
+    <value>День прекращения огня изменён. Новый день прекращения огня назначен не был.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/OFF_DAY_ACTIVATED" xml:space="preserve">
+    <value>Назначен день прекращения огня: %(offDay)s</value>
+  </data>
+  <data name="serviceChannelMessages/fort/ORDER_COMPENSATED" xml:space="preserve">
+    <value>Резерв %(orderTypeName)s компенсирован и доступен для активации.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/PERIPHERY_CHANGED" xml:space="preserve">
+    <value>Домашний сервер изменён на %(peripheryName)s.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/PERMANENT_RESERVE_ACTIVATED" xml:space="preserve">
+    <value>Резерв %(order)s будет использован в ближайшем Наступлении.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/VACATION_STARTED" xml:space="preserve">
+    <value>Ваш Укрепрайон объявил нейтралитет.
+Другие кланы не могут на вас нападать. Завершение периода нейтралитета %(finish)s.</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/vehiclesRented" xml:space="preserve">
+    <value>Добавлена арендованная техника</value>
+  </data>
+  <data name="serviceChannelMessages/rentCompensation/compensation" xml:space="preserve">
+    <value>Компенсация</value>
+  </data>
+  <data name="serviceChannelMessages/rentCompensation/creditsReceived" xml:space="preserve">
+    <value>Начислено кредитов за неиспользованное время аренды %(vehicleName)s</value>
+  </data>
+  <data name="serviceChannelMessages/rentCompensation/goldReceived" xml:space="preserve">
+    <value>Начислено золота за неиспользованное время аренды %(vehicleName)s</value>
+  </data>
+  <data name="serviceChannelMessages/rentalsExpired" xml:space="preserve">
+    <value>Срок действия аренды %(vehicleName)s истёк.</value>
+  </data>
+  <data name="serviceChannelMessages/serverDowntimeCompensation/rentals" xml:space="preserve">
+    <value>аренды</value>
   </data>
   <data name="serviceChannelMessages/sysMsg/titles/remove" xml:space="preserve">
     <value>Удаление из Ангара:</value>
   </data>
-  <data name="serviceChannelMessages/sysMsg/titles/repair" xml:space="preserve">
-    <value>Ремонт:</value>
-  </data>
-  <data name="serviceChannelMessages/sysMsg/titles/restore" xml:space="preserve">
-    <value>Восстановлено:</value>
-  </data>
-  <data name="serviceChannelMessages/sysMsg/titles/selling" xml:space="preserve">
-    <value>Продано:</value>
-  </data>
-  <data name="serviceChannelMessages/vehCamouflageTimedOut" xml:space="preserve">
-    <value>Срок действия камуфляжа на %(vehicleName)s истёк.</value>
-  </data>
-  <data name="serviceChannelMessages/vehEmblemTimedOut" xml:space="preserve">
-    <value>Срок действия эмблемы на %(vehicleName)s истёк.</value>
-  </data>
-  <data name="serviceChannelMessages/vehInscriptionTimedOut" xml:space="preserve">
-    <value>Срок действия надписи на %(vehicleName)s истёк.</value>
-  </data>
-  <data name="serviceChannelMessages/vehicleLock" xml:space="preserve">
-    <value>Машина уничтожена. %(vehicleName)s недоступен для кланового боя до %(expireTime)s.</value>
-  </data>
-  <data name="serviceChannelMessages/vehicleLockExpired" xml:space="preserve">
-    <value>Время блокировки истекло. %(vehicleName)s доступен для кланового боя.</value>
-  </data>
-  <data name="serviceChannelMessages/vehicleReceivedAsGift" xml:space="preserve">
-    <value>От администрации получена премиум машина: %(vehicleName)s</value>
-  </data>
   <data name="serviceChannelMessages/vehicleRented" xml:space="preserve">
     <value>Машина %(vehicleName)s арендована. Срок действия истекает %(expiryTime)s.</value>
   </data>
-  <data name="serviceChannelMessages/vehiclesAllLockExpired" xml:space="preserve">
-    <value>Блокировка закончилась. Вся техника доступна для кланового боя.</value>
+  <data name="dialogs/contacts/tree/friendship_request" xml:space="preserve">
+    <value>Запросы на добавление в друзья</value>
   </data>
-  <data name="serviceChannelMessages/waresBoughtAsGold" xml:space="preserve">
-    <value>От игрока %(srcName)s получено золота: %(srcWares)s.</value>
+  <data name="serviceChannelMessages/battleResults/potapovQuests" xml:space="preserve">
+    <value>Поздравляем!
+За успешное выполнение личных боевых задач вам присвоены следующие награды</value>
   </data>
-  <data name="serviceChannelMessages/waresSoldAsGold" xml:space="preserve">
-    <value>%(srcWares)s золота отправлено игроку %(dstName)s. Комиссия составила %(fee)s.</value>
+  <data name="serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION" xml:space="preserve">
+    <value>Действие резерва «Эвакуация» закончилось.
+
+%(additional)s
+Итоговый результат для нашего клана: %(resTotal)s</value>
   </data>
-  <data name="serviceChannelMessages/xpReceivedAsGift" xml:space="preserve">
-    <value>От администрации получен свободный опыт: %(freeXP)s.</value>
+  <data name="serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL" xml:space="preserve">
+    <value>Противник использовал резерв «Реквизиция» и дополнительно награбил: %(resDec)s
+Нашим кланом дополнительно сохранено: %(resInc)s</value>
   </data>
-  <data name="status/offline" xml:space="preserve">
-    <value>Не в сети</value>
+  <data name="serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION" xml:space="preserve">
+    <value>Действие резерва «Реквизиция» закончилось.
+
+%(additional)s
+Итоговый результат для нашего клана: %(resTotal)s</value>
   </data>
-  <data name="status/online" xml:space="preserve">
-    <value>В сети</value>
+  <data name="serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL" xml:space="preserve">
+    <value>Противник использовал резерв «Эвакуация» и дополнительно сохранил: %(resDec)s
+Нашим кланом дополнительно награблено: %(resInc)s</value>
+  </data>
+  <data name="serviceChannelMessages/fort/VACATION_FINISHED" xml:space="preserve">
+    <value>Период нейтралитета вашего Укрепрайона завершён.
+Другие кланы вновь могут напасть на вас — будьте наготове.</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/berthsAccrued" xml:space="preserve">
+    <value>Добавлены койки в Казарму</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/berthsDebited" xml:space="preserve">
+    <value>Списаны койки из Казармы</value>
+  </data>
+  <data name="chat/postBattleSharing/label" xml:space="preserve">
+    <value>Результаты боя</value>
+  </data>
+  <data name="client_action/ADD_FRIEND" xml:space="preserve">
+    <value>Добавить игрока в «Друзья»</value>
+  </data>
+  <data name="client_action/ADD_GROUP" xml:space="preserve">
+    <value>Создать группу</value>
+  </data>
+  <data name="client_action/ADD_IGNORED" xml:space="preserve">
+    <value>Добавить игрока в «Чёрный список»</value>
+  </data>
+  <data name="client_action/APPROVE_FRIENDSHIP" xml:space="preserve">
+    <value>Подтвердить запрос на добавление в «Друзья»</value>
+  </data>
+  <data name="client_action/CANCEL_FRIENDSHIP" xml:space="preserve">
+    <value>Отклонить запрос на добавление в «Друзья»</value>
+  </data>
+  <data name="client_action/CHANGE_GROUP" xml:space="preserve">
+    <value>Изменить группу</value>
+  </data>
+  <data name="client_action/REMOVE_FRIEND" xml:space="preserve">
+    <value>Удалить игрока из «Друзей»</value>
+  </data>
+  <data name="client_action/REMOVE_IGNORED" xml:space="preserve">
+    <value>Удалить игрока из «Чёрного списка»</value>
+  </data>
+  <data name="client_action/REMOVE_NOTE" xml:space="preserve">
+    <value>Удалить заметку</value>
+  </data>
+  <data name="client_action/RQ_FRIENDSHIP" xml:space="preserve">
+    <value>Отправить запрос на добавление в «Друзья»</value>
+  </data>
+  <data name="client_action/SEND_MESSAGE" xml:space="preserve">
+    <value>Отправить сообщение</value>
+  </data>
+  <data name="client_action/SET_MUTE" xml:space="preserve">
+    <value>Отключить голосовые сообщения</value>
+  </data>
+  <data name="client_action/SET_NOTE" xml:space="preserve">
+    <value>Создать/редактировать заметку</value>
+  </data>
+  <data name="client_action/UNSET_MUTE" xml:space="preserve">
+    <value>Включить голосовые сообщения</value>
+  </data>
+  <data name="client_error/contact/BLOCK_ITEM_EXISTS" xml:space="preserve">
+    <value>Игрок «%(strArg1)s» находится в «Чёрном списке».</value>
+  </data>
+  <data name="client_error/contact/BLOCK_ITEM_NOT_FOUND" xml:space="preserve">
+    <value>Игрок «%(strArg1)s» не найден в «Чёрном списке».</value>
+  </data>
+  <data name="client_error/contact/CONTACT_ITEM_NOT_FOUND" xml:space="preserve">
+    <value>Игрок не найден.</value>
+  </data>
+  <data name="client_error/contact/FRIENDSHIP_APPROVED" xml:space="preserve">
+    <value>Вы уже подтвердили запрос на добавление в «Друзья» от «%(strArg1)s».</value>
+  </data>
+  <data name="client_error/contact/FRIENDSHIP_CANCELED" xml:space="preserve">
+    <value>Вы уже отклонили запрос на добавление в «Друзья» от «%(strArg1)s».</value>
+  </data>
+  <data name="client_error/contact/FRIENDSHIP_RQ_PROCESS" xml:space="preserve">
+    <value>Ваш запрос на добавление в «Друзья» от «%(strArg1)s» обрабатывается.</value>
+  </data>
+  <data name="client_error/contact/GROUP_EMPTY" xml:space="preserve">
+    <value>Не указано имя группы.</value>
+  </data>
+  <data name="client_error/contact/GROUP_EXISTS" xml:space="preserve">
+    <value>Группа «%(strArg1)s» уже существует.</value>
+  </data>
+  <data name="client_error/contact/GROUP_INVALID_NAME" xml:space="preserve">
+    <value>Неправильное имя группы «%(strArg1)s».</value>
+  </data>
+  <data name="client_error/contact/GROUP_NOT_FOUND" xml:space="preserve">
+    <value>Группа «%(strArg1)s» не найдена.</value>
+  </data>
+  <data name="client_error/contact/MUTED_ITEM_NOT_FOUND" xml:space="preserve">
+    <value>Игроку «%(strArg1)s» включены голосовые сообщения.</value>
+  </data>
+  <data name="client_error/contact/NOTE_EMPTY" xml:space="preserve">
+    <value>Не указан текст заметки.</value>
+  </data>
+  <data name="client_error/contact/NOTE_NOT_FOUND" xml:space="preserve">
+    <value>Для игрока «%(strArg1)s» нет заметки.</value>
+  </data>
+  <data name="client_error/contact/ROSTER_ITEM_EXISTS" xml:space="preserve">
+    <value>Игрок «%(strArg1)s» находится в «Друзьях».</value>
+  </data>
+  <data name="client_error/contact/ROSTER_ITEM_NOT_FOUND" xml:space="preserve">
+    <value>Игрок «%(strArg1)s» не найден в «Друзьях».</value>
+  </data>
+  <data name="client_error/limit/GROUP_INVALID_LENGTH" xml:space="preserve">
+    <value>Имя группы не должно превышать %(int32Arg2)s символов.</value>
+  </data>
+  <data name="client_error/limit/MAX_BLOCK_ITEMS" xml:space="preserve">
+    <value>Максимальное количество игроков в «Чёрном списке» %(int32Arg2)s.</value>
+  </data>
+  <data name="client_error/limit/MAX_GROUP" xml:space="preserve">
+    <value>Создано максимальное количество групп %(int32Arg2)s.</value>
+  </data>
+  <data name="client_error/limit/MAX_ROSTER_ITEMS" xml:space="preserve">
+    <value>К сожалению, вы не можете добавлять больше %(int32Arg2)s друзей. Возможно, вам стоит пересмотреть список друзей и удалить тех, с кем вы не играете.</value>
+  </data>
+  <data name="client_error/limit/NOTE_INVALID_LENGTH" xml:space="preserve">
+    <value>Текст заметки не должен превышать %(int32Arg2)s символов.</value>
+  </data>
+  <data name="client_error/shared/DBID_INVALID" xml:space="preserve">
+    <value>Неправильный идентификатор игрока.</value>
+  </data>
+  <data name="client_error/shared/GENERIC" xml:space="preserve">
+    <value>Ошибка выполнения «%(actionName)s».</value>
+  </data>
+  <data name="client_error/shared/LOCKED" xml:space="preserve">
+    <value>Действие «%(actionName)s» временно заморожено. Попробуйте позже.</value>
+  </data>
+  <data name="client_error/shared/NAME_EMPTY" xml:space="preserve">
+    <value>Не указано имя игрока.</value>
+  </data>
+  <data name="client_error/shared/NAME_INVALID" xml:space="preserve">
+    <value>Неправильное имя игрока %(strArg1)s.</value>
+  </data>
+  <data name="client_error/shared/NOT_CONNECTED" xml:space="preserve">
+    <value>Вы не подключены к серверу чата. Попробуйте позже.</value>
+  </data>
+  <data name="client_error/shared/NOT_SUPPORTED" xml:space="preserve">
+    <value>Действие «%(actionName)s» не поддерживается клиентом игры.</value>
+  </data>
+  <data name="client_error/shared/WRONG_ARGS" xml:space="preserve">
+    <value>Заданы неправильные данные.</value>
+  </data>
+  <data name="contacts/createGroupView/tooltips/btns/apply/body" xml:space="preserve">
+    <value>Нажмите, чтобы сохранить созданную группу контактов.</value>
+  </data>
+  <data name="contacts/createGroupView/tooltips/btns/apply/header" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="contacts/createGroupView/tooltips/btns/close/body" xml:space="preserve">
+    <value>Нажмите, чтобы отменить создание и вернуться к списку контактов.</value>
+  </data>
+  <data name="contacts/createGroupView/tooltips/btns/close/header" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="contacts/groupDeleteView/tooltips/btns/apply/body" xml:space="preserve">
+    <value>Нажмите, чтобы удалить группу контактов.</value>
+  </data>
+  <data name="contacts/groupDeleteView/tooltips/btns/apply/header" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="contacts/groupDeleteView/tooltips/btns/close/body" xml:space="preserve">
+    <value>Нажмите, чтобы отменить удаление и вернуться к списку контактов.</value>
+  </data>
+  <data name="contacts/groupDeleteView/tooltips/btns/close/header" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="contacts/groupRenameView/tooltips/btns/apply/body" xml:space="preserve">
+    <value>Нажмите, чтобы сохранить группу контактов под новым названием.</value>
+  </data>
+  <data name="contacts/groupRenameView/tooltips/btns/apply/header" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="contacts/groupRenameView/tooltips/btns/close/body" xml:space="preserve">
+    <value>Нажмите, чтобы отменить редактирование и вернуться к списку контактов.</value>
+  </data>
+  <data name="contacts/groupRenameView/tooltips/btns/close/header" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="contacts/manageGroupView/tooltips/input" xml:space="preserve">
+    <value>Название не должно превышать %(maxChars)s символов.</value>
+  </data>
+  <data name="contacts/searchView/tooltips/btns/add/body" xml:space="preserve">
+    <value>Нажмите, чтобы добавить игрока в список друзей.</value>
+  </data>
+  <data name="contacts/searchView/tooltips/btns/add/header" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="contacts/searchView/tooltips/btns/close/body" xml:space="preserve">
+    <value>Нажмите, чтобы отменить поиск игроков и вернуться к списку контактов.</value>
+  </data>
+  <data name="contacts/searchView/tooltips/btns/close/header" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="contacts/searchView/tooltips/btns/search/body" xml:space="preserve">
+    <value>Нажмите, чтобы начать поиск по имени игрока.</value>
+  </data>
+  <data name="contacts/searchView/tooltips/btns/search/header" xml:space="preserve">
+    <value>Искать</value>
+  </data>
+  <data name="contacts/searchView/tooltips/searchCredentials/body" xml:space="preserve">
+    <value>Имя должно содержать от %(minChars)s до %(maxChars)s букв или цифры.</value>
+  </data>
+  <data name="contacts/searchView/tooltips/searchCredentials/header" xml:space="preserve">
+    <value>contacts/searchView/tooltips/searchCredentials/header</value>
+  </data>
+  <data name="contacts/searchView/tooltips/searchDisabled/body" xml:space="preserve">
+    <value>Из-за слишком частого обращения, поиск заморожен на %(time)s секунд.</value>
+  </data>
+  <data name="contacts/searchView/tooltips/searchDisabled/header" xml:space="preserve">
+    <value>contacts/searchView/tooltips/searchDisabled/header</value>
+  </data>
+  <data name="contacts/settingsView/tooltips/btns/apply/body" xml:space="preserve">
+    <value>Нажмите, чтобы сохранить установленные настройки.</value>
+  </data>
+  <data name="contacts/settingsView/tooltips/btns/apply/header" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="contacts/settingsView/tooltips/btns/close/body" xml:space="preserve">
+    <value>Нажмите, чтобы отменить изменения и вернуться к списку контактов.</value>
+  </data>
+  <data name="contacts/settingsView/tooltips/btns/close/header" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="contacts/tooltips/btns/addGroup/body" xml:space="preserve">
+    <value>Нажмите, чтобы создать группу в списке контактов.</value>
+  </data>
+  <data name="contacts/tooltips/btns/addGroup/header" xml:space="preserve">
+    <value>Создание группы</value>
+  </data>
+  <data name="contacts/tooltips/btns/externalSearch/body" xml:space="preserve">
+    <value>Нажмите, чтобы запустить поиск по имени игрока, отсутствующего в списке контактов.</value>
+  </data>
+  <data name="contacts/tooltips/btns/externalSearch/header" xml:space="preserve">
+    <value>Искать вне контактов</value>
+  </data>
+  <data name="contacts/tooltips/btns/search/body" xml:space="preserve">
+    <value>Нажмите, чтобы найти и добавить игрока в список контактов.</value>
+  </data>
+  <data name="contacts/tooltips/btns/search/header" xml:space="preserve">
+    <value>Поиск игроков</value>
+  </data>
+  <data name="contacts/tooltips/btns/settings/body" xml:space="preserve">
+    <value>Нажмите, чтобы настроить список контактов.</value>
+  </data>
+  <data name="contacts/tooltips/btns/settings/header" xml:space="preserve">
+    <value>Настройка</value>
+  </data>
+  <data name="contacts/tooltips/searchInput/credentials" xml:space="preserve">
+    <value>Имя должно содержать до %(maxChars)s символов.</value>
+  </data>
+  <data name="lobby/buttons/cancel" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="messenger/contacts/buttons/externalSearch" xml:space="preserve">
+    <value>Искать вне контактов</value>
+  </data>
+  <data name="messenger/contacts/buttons/externalSearchCancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="messenger/contacts/contextmenu/editGroup" xml:space="preserve">
+    <value>Редактировать группу</value>
+  </data>
+  <data name="messenger/contacts/contextmenu/removeFromGroup" xml:space="preserve">
+    <value>Удалить из группы</value>
+  </data>
+  <data name="messenger/contacts/contextmenu/removeGroup" xml:space="preserve">
+    <value>Удалить группу</value>
+  </data>
+  <data name="messenger/contacts/dropContactPrompt" xml:space="preserve">
+    <value>Перетащите контакты сюда</value>
+  </data>
+  <data name="messenger/contacts/externalSearch/emptySearchResultPrompt" xml:space="preserve">
+    <value>По вашему запросу ничего не найдено.</value>
+  </data>
+  <data name="messenger/contacts/mainGrops/Formations" xml:space="preserve">
+    <value>Постоянные формирования</value>
+  </data>
+  <data name="messenger/contacts/mainGrops/Friends" xml:space="preserve">
+    <value>Друзья</value>
+  </data>
+  <data name="messenger/contacts/mainGrops/Other" xml:space="preserve">
+    <value>Прочее</value>
+  </data>
+  <data name="messenger/contacts/mainGrops/Other/Ignored" xml:space="preserve">
+    <value>Чёрный список</value>
+  </data>
+  <data name="messenger/contacts/mainGrops/Other/friendshipRequest" xml:space="preserve">
+    <value>Запросы на добавление в «Друзья»</value>
+  </data>
+  <data name="messenger/contacts/mainGroups/other/referrals" xml:space="preserve">
+    <value>Рекруты</value>
+  </data>
+  <data name="messenger/contacts/mainGroups/other/referrers" xml:space="preserve">
+    <value>Рекрутёры</value>
+  </data>
+  <data name="messenger/contacts/searchInputPrompt" xml:space="preserve">
+    <value>Найти игрока в списке</value>
+  </data>
+  <data name="messenger/contacts/searchUsers/listEmptyPrompt/descr" xml:space="preserve">
+    <value>Вы ещё не добавили игроков.</value>
+  </data>
+  <data name="messenger/contacts/searchUsers/listEmptyPrompt/title" xml:space="preserve">
+    <value>Список контактов пуст</value>
+  </data>
+  <data name="messenger/contacts/searchUsers/noOnlineContacts/descr" xml:space="preserve">
+    <value>В данный момент никого из ваших контактов нет в сети.</value>
+  </data>
+  <data name="messenger/contacts/searchUsers/noOnlineContacts/title" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="messenger/contacts/searchUsers/searchFail/descr" xml:space="preserve">
+    <value>Попробуйте найти вне списка контактов.</value>
+  </data>
+  <data name="messenger/contacts/searchUsers/searchFail/title" xml:space="preserve">
+    <value>Совпадений нет</value>
+  </data>
+  <data name="messenger/contacts/searchUsers/searchInputPrompt" xml:space="preserve">
+    <value>Введите имя игрока</value>
+  </data>
+  <data name="messenger/contacts/title" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="messenger/contacts/view/addUser/btnCancel/Label" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="messenger/contacts/view/addUser/btnOk/Label" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="messenger/contacts/view/addUser/error/groupAlreadyExist" xml:space="preserve">
+    <value>Такая группа уже существует</value>
+  </data>
+  <data name="messenger/contacts/view/addUser/title" xml:space="preserve">
+    <value>Поиск игроков</value>
+  </data>
+  <data name="messenger/contacts/view/editNote/userName" xml:space="preserve">
+    <value>для </value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createGroup/btnCancel/Label" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createGroup/btnOk/Label" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createGroup/mainLabel" xml:space="preserve">
+    <value>Создание группы</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createGroup/searchInputPrompt" xml:space="preserve">
+    <value>Введите название (до %(symbols)s символов)</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createNote/btnCancel/Label" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createNote/btnOk/Label" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createNote/mainLabel" xml:space="preserve">
+    <value>Создание заметки</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label" xml:space="preserve">
+    <value>Включая контакты внутри группы</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/groupName/Label" xml:space="preserve">
+    <value>«%(groupName)s»</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/mainLabel" xml:space="preserve">
+    <value>Удаление группы</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/editNote/btnCancel/Label" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/editNote/btnOk/Label" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/editNote/mainLabel" xml:space="preserve">
+    <value>Редактирование заметки</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/renameGroup/btnOk/Label" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/renameGroup/mainLabel" xml:space="preserve">
+    <value>Редактирование группы</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt" xml:space="preserve">
+    <value>Введите название (до %(symbols)s символов)</value>
+  </data>
+  <data name="messenger/contacts/view/searchUser/title" xml:space="preserve">
+    <value>Поиск игроков</value>
+  </data>
+  <data name="messenger/contacts/view/settings/GroupMessages/Label" xml:space="preserve">
+    <value>Принимать группой в одном окне</value>
+  </data>
+  <data name="messenger/contacts/view/settings/IsShowOfflineUsers/Label" xml:space="preserve">
+    <value>Показывать игроков не в сети</value>
+  </data>
+  <data name="messenger/contacts/view/settings/IsShowOthers/Label" xml:space="preserve">
+    <value>Показывать категорию «Прочее»</value>
+  </data>
+  <data name="messenger/contacts/view/settings/Label" xml:space="preserve">
+    <value>Сообщения не из списка контактов:</value>
+  </data>
+  <data name="messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label" xml:space="preserve">
+    <value>Принимать в отдельном окне</value>
+  </data>
+  <data name="messenger/contacts/view/settings/btnCancel/Label" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="messenger/contacts/view/settings/btnOk/Label" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="messenger/contacts/view/settings/mainLabel" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="prebattle/addAllBtn/tooltip/body" xml:space="preserve">
+    <value>Добавить все контакты в список адресатов.</value>
+  </data>
+  <data name="prebattle/addAllBtn/tooltip/header" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="prebattle/addBtn/tooltip/body" xml:space="preserve">
+    <value>Добавить выбранный контакт.</value>
+  </data>
+  <data name="prebattle/addBtn/tooltip/header" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="prebattle/removeAllBtn/tooltip/body" xml:space="preserve">
+    <value>Убрать все контакты из списка адресатов.</value>
+  </data>
+  <data name="prebattle/removeAllBtn/tooltip/header" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="prebattle/removeBtn/tooltip/body" xml:space="preserve">
+    <value>Убрать выбранный контакт из списка адресатов.</value>
+  </data>
+  <data name="prebattle/removeBtn/tooltip/header" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/droppedCrewsToBarracks" xml:space="preserve">
+    <value>помещён в Казарму</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/rentDays" xml:space="preserve">
+    <value>дней аренды: </value>
   </data>
   <data name="xmpp_error/action" xml:space="preserve">
     <value>Невозможно выполнить «%(actionName)s». Код ошибки: %(strArg1)s. Попробуйте позже.</value>
@@ -2303,7 +2146,505 @@ IV уровня и выше, чтобы получать больше опыта
   <data name="xmpp_error/simple" xml:space="preserve">
     <value>Код ошибки: %(strArg1)s. Попробуйте позже.</value>
   </data>
+  <data name="chat_action/BROADCAST_CLUB_MESSAGE" xml:space="preserve">
+    <value>Отправить сообщение</value>
+  </data>
+  <data name="dialogs/contacts/tree/club" xml:space="preserve">
+    <value>Команда</value>
+  </data>
+  <data name="messenger/contacts/createNote/tooltips/btns/close/body" xml:space="preserve">
+    <value>Нажмите, чтобы отменить создание и вернуться к списку контактов.</value>
+  </data>
+  <data name="messenger/contacts/createNote/tooltips/btns/close/header" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="messenger/contacts/createNote/tooltips/btns/ok/body" xml:space="preserve">
+    <value>Нажмите, чтобы сохранить созданную заметку об игроке.</value>
+  </data>
+  <data name="messenger/contacts/createNote/tooltips/btns/ok/header" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="messenger/contacts/editNote/tooltips/btns/close/body" xml:space="preserve">
+    <value>Нажмите, чтобы отменить редактирование и вернуться к списку контактов.</value>
+  </data>
+  <data name="messenger/contacts/editNote/tooltips/btns/close/header" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="messenger/contacts/editNote/tooltips/btns/ok/body" xml:space="preserve">
+    <value>Нажмите, чтобы сохранить изменения в заметке об игроке.</value>
+  </data>
+  <data name="messenger/contacts/editNote/tooltips/btns/ok/header" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="messenger/contacts/view/createNote/btnCancel/Label" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="messenger/contacts/view/createNote/btnOk/Label" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="messenger/contacts/view/createNote/mainLabel" xml:space="preserve">
+    <value>Создание заметки</value>
+  </data>
+  <data name="messenger/contacts/view/editNote/btnCancel/Label" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="messenger/contacts/view/editNote/btnOk/Label" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="messenger/contacts/view/editNote/input/tooltip" xml:space="preserve">
+    <value>Название не должно превышать %(maxChars)s символов.</value>
+  </data>
+  <data name="messenger/contacts/view/editNote/mainLabel" xml:space="preserve">
+    <value>Редактирование заметки</value>
+  </data>
+  <data name="messenger/contacts/view/manageNote/input/prompt" xml:space="preserve">
+    <value>Введите описание (до %(symbols)s символов)</value>
+  </data>
+  <data name="messenger/contacts/view/manageNote/input/tooltip" xml:space="preserve">
+    <value>Описание не должно превышать %(maxChars)s символов.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/battleCanceled" xml:space="preserve">
+    <value>Ошибка сервера. Вы были возвращены в Ангар.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/club/division/new" xml:space="preserve">
+    <value>Команда перешла в дивизион</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/club/league/new" xml:space="preserve">
+    <value>Команда перешла в лигу</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/club/rating/down" xml:space="preserve">
+    <value>Потеряно очков Ладдера</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/club/rating/up" xml:space="preserve">
+    <value>Заработано очков Ладдера</value>
+  </data>
+  <data name="client/dynSquad/created/allies" xml:space="preserve">
+    <value>Cоюзники сформировали взвод %(squadNum)s.</value>
+  </data>
+  <data name="client/dynSquad/created/enemies" xml:space="preserve">
+    <value>Противник сформировал взвод %(squadNum)s.</value>
+  </data>
+  <data name="client/dynSquad/created/owner" xml:space="preserve">
+    <value>Взвод %(squadNum)s сформирован. Доступны чат взвода и голосовая связь.</value>
+  </data>
+  <data name="client/dynSquad/created/owner/withoutVOIP" xml:space="preserve">
+    <value>Взвод %(squadNum)s сформирован. Доступен взводный чат.</value>
+  </data>
+  <data name="client/dynSquad/created/recruit" xml:space="preserve">
+    <value>Вы присоединились ко взводу %(squadNum)s. Доступны чат взвода и голосовая связь.</value>
+  </data>
+  <data name="client/dynSquad/created/recruit/withoutVOIP" xml:space="preserve">
+    <value>Вы присоединились ко взводу %(squadNum)s. Доступен взводный чат.</value>
+  </data>
+  <data name="client/dynSquad/inviteAccepted/myself" xml:space="preserve">
+    <value>Вы присоединились ко взводу %(squadNum)s. Доступны чат взвода и голосовая связь.</value>
+  </data>
+  <data name="client/dynSquad/inviteAccepted/myself/withoutVOIP" xml:space="preserve">
+    <value>Вы присоединились ко взводу %(squadNum)s. Доступен взводный чат.</value>
+  </data>
+  <data name="client/dynSquad/inviteAccepted/user" xml:space="preserve">
+    <value>%(receiver)s присоединился ко взводу %(squadNum)s.</value>
+  </data>
+  <data name="client/dynSquad/inviteReceived" xml:space="preserve">
+    <value>%(creator)s пригласил вас во взвод.</value>
+  </data>
+  <data name="client/dynSquad/inviteSent" xml:space="preserve">
+    <value>%(receiver)s приглашён во взвод.</value>
+  </data>
+  <data name="client_error/shared/WAITING_BEFORE_START" xml:space="preserve">
+    <value>До начала отсчёта некоторые функции недоступны</value>
+  </data>
+  <data name="dialogs/squadChannel/battleTypeDomination" xml:space="preserve">
+    <value>Случайный бой</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/tanks" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="serviceChannelMessages/boosterExpired" xml:space="preserve">
+    <value>Время действия личного резерва «%(boosterName)s» закончилось. Резерв списан.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/PROM_RESOURCE_EARNED" xml:space="preserve">
+    <value>Начислено промресурса: %(promresource)d</value>
+  </data>
+  <data name="serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN" xml:space="preserve">
+    <value>Списано промресурса: %(promresource)d</value>
+  </data>
+  <data name="serviceChannelMessages/fort/RESERVES_EARNED" xml:space="preserve">
+    <value>Добавлены резервы: %(reserves)d</value>
+  </data>
+  <data name="serviceChannelMessages/fort/RESERVES_WITHDRAWN" xml:space="preserve">
+    <value>Списаны резервы: %(reserves)d</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/boosters" xml:space="preserve">
+    <value>Личные резервы</value>
+  </data>
+  <data name="client_action/RQ_HISTORY" xml:space="preserve">
+    <value>Получить историю сообщений</value>
+  </data>
+  <data name="custom_client_action/ADMIN_CHAT_COMMAND" xml:space="preserve">
+    <value>Отправить команду</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/ended" xml:space="preserve">
+    <value>Бой окончен</value>
+  </data>
+  <data name="serviceChannelMessages/fortificationStartUp/title" xml:space="preserve">
+    <value>Помощь из тыла</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehicleNotify" xml:space="preserve">
+    <value>Выберите машину %(level)s уровня</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehicleNotifyMultiteam" xml:space="preserve">
+    <value>Выберите технику</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehicleNotifyRange" xml:space="preserve">
+    <value>Выберите машину %(level)s уровня</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehicles" xml:space="preserve">
+    <value>Техника: %s</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehicles/domination" xml:space="preserve">
+    <value>VIII-X</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehicles/steelHunting" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehiclesRequired/domination/max" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehiclesRequired/domination/min" xml:space="preserve">
+    <value>VIII-X</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehiclesRequired/steelHunting" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="client/dynSquad/created/owner/disableVOIP" xml:space="preserve">
+    <value>Взвод %(squadNum)s сформирован. Доступны чат взвода и голосовая связь (чтобы отключить голосовую связь, нажмите %(keyName)s).</value>
+  </data>
+  <data name="client/dynSquad/created/owner/enableVOIP" xml:space="preserve">
+    <value>Взвод %(squadNum)s сформирован. Доступны чат взвода и голосовая связь (чтобы включить голосовую связь, нажмите %(keyName)s).</value>
+  </data>
+  <data name="client/dynSquad/created/recruit/disableVOIP" xml:space="preserve">
+    <value>Вы присоединились ко взводу %(squadNum)s. Доступны чат взвода и голосовая связь (чтобы отключить голосовую связь, нажмите %(keyName)s).</value>
+  </data>
+  <data name="client/dynSquad/created/recruit/enableVOIP" xml:space="preserve">
+    <value>Вы присоединились ко взводу %(squadNum)s. Доступны чат взвода и голосовая связь (чтобы включить голосовую связь, нажмите %(keyName)s).</value>
+  </data>
+  <data name="client/dynSquad/disableVOIP" xml:space="preserve">
+    <value>Голосовая связь отключена. Чтобы общаться и слышать совзводных, включите голосовую связь (нажмите %(keyName)s).</value>
+  </data>
+  <data name="client/dynSquad/enableVOIP" xml:space="preserve">
+    <value>Голосовая связь включена.</value>
+  </data>
+  <data name="client/dynSquad/inviteAccepted/myself/disableVOIP" xml:space="preserve">
+    <value>Вы присоединились ко взводу %(squadNum)s. Доступны чат взвода и голосовая связь (чтобы отключить голосовую связь, нажмите %(keyName)s).</value>
+  </data>
+  <data name="client/dynSquad/inviteAccepted/myself/enableVOIP" xml:space="preserve">
+    <value>Вы присоединились ко взводу %(squadNum)s. Доступны чат взвода и голосовая связь (чтобы включить голосовую связь, нажмите %(keyName)s).</value>
+  </data>
+  <data name="dialogs/contacts/contact/addToClan" xml:space="preserve">
+    <value>Пригласить в клан</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/crew" xml:space="preserve">
+    <value>экипаж</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/vehicleCrewWithdrawn" xml:space="preserve">
+    <value>списан</value>
+  </data>
+  <data name="client/dynSquad/created/owner/specifyVOIP" xml:space="preserve">
+    <value>Взвод %(squadNum)s сформирован. Доступны чат взвода и голосовая связь. Необходимо назначить клавишу для включения/отключения голосовой связи.</value>
+  </data>
+  <data name="client/dynSquad/created/recruit/specifyVOIP" xml:space="preserve">
+    <value>Вы присоединились ко взводу %(squadNum)s. Доступны чат взвода и голосовая связь. Необходимо назначить клавишу для включения/отключения голосовой связи.</value>
+  </data>
+  <data name="client/dynSquad/inviteAccepted/myself/specifyVOIP" xml:space="preserve">
+    <value>Вы присоединились ко взводу %(squadNum)s. Доступны чат взвода и голосовая связь. Необходимо назначить клавишу для включения/отключения голосовой связи.</value>
+  </data>
+  <data name="client_action/CREATE_USER_ROOM" xml:space="preserve">
+    <value>Создать пользовательский канал</value>
+  </data>
+  <data name="client_action/JOIN_USER_ROOM" xml:space="preserve">
+    <value>Присоединиться к пользовательскому каналу</value>
+  </data>
+  <data name="client_action/LEAVE_USER_ROOM" xml:space="preserve">
+    <value>Покинуть пользовательский канал</value>
+  </data>
+  <data name="client_action/SEARCH_USER_ROOM" xml:space="preserve">
+    <value>Поиск пользовательских каналов</value>
+  </data>
+  <data name="client_error/channel/LIMIT_REACHED" xml:space="preserve">
+    <value>Превышено ограничение на создание каналов. Пожалуйста, закройте ненужные каналы и попробуйте снова.</value>
+  </data>
+  <data name="client_error/channel/NAME_ALREADY_EXISTS" xml:space="preserve">
+    <value>Канал «%(strArg1)s» уже существует.</value>
+  </data>
+  <data name="client_error/channel/NAME_EMPTY" xml:space="preserve">
+    <value>Не указано имя канала.</value>
+  </data>
+  <data name="client_error/channel/NAME_INVALID" xml:space="preserve">
+    <value>Неправильное имя канала «%(strArg1)s».</value>
+  </data>
+  <data name="client_error/channel/PASSWORDS_NOT_EQUALS" xml:space="preserve">
+    <value>Текст подтверждения пароля не совпадает с введённым текстом пароля.</value>
+  </data>
+  <data name="client_error/channel/PASSWORD_EMPTY" xml:space="preserve">
+    <value>Не указан пароль канала.</value>
+  </data>
+  <data name="client_error/channel/PASSWORD_INVALID" xml:space="preserve">
+    <value>Неправильный пароль канала.</value>
+  </data>
+  <data name="client_error/channel/RETYPE_EMPTY" xml:space="preserve">
+    <value>Не указано подтверждение пароля.</value>
+  </data>
+  <data name="client_error/channel/RETYPE_INVALID" xml:space="preserve">
+    <value>Неправильное подтверждение пароля.</value>
+  </data>
+  <data name="client_error/limit/CHANNEL_INVALID_LENGTH" xml:space="preserve">
+    <value>Имя канала должно содержать %(int32Arg1)s–%(int32Arg2)s символа.</value>
+  </data>
+  <data name="client_error/limit/PWD_INVALID_LENGTH" xml:space="preserve">
+    <value>Допустимый пароль %(int32Arg1)s-%(int32Arg2)s символов.</value>
+  </data>
+  <data name="dialogs/squad/event/vehicle" xml:space="preserve">
+    <value>Выберите %(tankName)s</value>
+  </data>
+  <data name="server_error/user_room_creation/LIMIT_COUNT" xml:space="preserve">
+    <value>Превышено ограничение на создание каналов.</value>
+  </data>
+  <data name="server_error/user_room_creation/LIMIT_NAME" xml:space="preserve">
+    <value>Превышено ограничение на длину имени канала.</value>
+  </data>
+  <data name="server_error/user_room_creation/LIMIT_PASS" xml:space="preserve">
+    <value>Превышено ограничение на длину пароля.</value>
+  </data>
+  <data name="server_error/user_room_creation/NAME_EXISTS" xml:space="preserve">
+    <value>Канал «%(strArg1)s» уже существует.</value>
+  </data>
+  <data name="server_error/user_room_creation/WRONG_SYMBOL" xml:space="preserve">
+    <value>Некорректные символы в имени канала.</value>
+  </data>
+  <data name="server_error/user_room_creation/WRONG_WORD" xml:space="preserve">
+    <value>Запрещённые слова в имени канала.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/FORT_GOT_8_LEVEL" xml:space="preserve">
+    <value>Поздравляем! Вы развили Укрепрайон до VIII уровня.</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/crewDroppedToBarracks" xml:space="preserve">
+    <value>экипаж помещён в Казарму</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/crewOnVehicle" xml:space="preserve">
+    <value>экипаж %d%%</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks" xml:space="preserve">
+    <value>экипаж %d%% помещён в Казарму</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/crewWithdrawn" xml:space="preserve">
+    <value>экипаж списан</value>
+  </data>
   <data name="xmpp_error/user_room_creation" xml:space="preserve">
     <value>Невозможно создать пользовательский канал %(strArg1)s.</value>
+  </data>
+  <data name="client_action/FIND_USERS_BY_PREFIX" xml:space="preserve">
+    <value>Поиск игроков</value>
+  </data>
+  <data name="dialogs/eventSquad/vehicle" xml:space="preserve">
+    <value>Выберите %(vehName)s</value>
+  </data>
+  <data name="dialogs/simpleSquad/recommendationLevel" xml:space="preserve">
+    <value>Рекомендовать игроков</value>
+  </data>
+  <data name="dialogs/simpleSquad/vehicle/recommendationLevel" xml:space="preserve">
+    <value>Выберите машину %(level)s уровня</value>
+  </data>
+  <data name="dialogs/simpleSquad/vehicleLevel" xml:space="preserve">
+    <value>Выберите машину %(level)s уровня</value>
+  </data>
+  <data name="dialogs/squad/message/invalidVehicleLevel" xml:space="preserve">
+    <value>Неподходящий уровень</value>
+  </data>
+  <data name="dialogs/squad/message/vehicles/differentLevels" xml:space="preserve">
+    <value>Штраф к опыту из-за некорректного состава взвода!</value>
+  </data>
+  <data name="dialogs/squadChannel/headerMsg/dynSquad" xml:space="preserve">
+    <value>Продолжайте играть взводом на технике
+IV уровня и выше, чтобы получать больше опыта</value>
+  </data>
+  <data name="dialogs/squadChannel/headerMsg/eventFormationRestriction" xml:space="preserve">
+    <value>+++ event +++
++++ event +++</value>
+  </data>
+  <data name="dialogs/squadChannel/headerMsg/squadFormation" xml:space="preserve">
+    <value>Дополнительный опыт за бой
+при игре на технике IV уровня и выше</value>
+  </data>
+  <data name="dialogs/squadChannel/headerMsg/squadFormationRestriction" xml:space="preserve">
+    <value>Играйте на технике одного уровня
+начиная с IV и получайте больше опыта</value>
+  </data>
+  <data name="dialogs/squadChannel/simpleChatName" xml:space="preserve">
+    <value>Канал связи</value>
+  </data>
+  <data name="dialogs/squadChannel/vehiclesLbl" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="serviceChannelMessages/boosterDisabled" xml:space="preserve">
+    <value>Личный резерв «%(boosterName)s» был отключён по техническим причинам.</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/dossiersAccrued" xml:space="preserve">
+    <value>Добавлены награды</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/dossiersDebited" xml:space="preserve">
+    <value>Списаны награды</value>
+  </data>
+  <data name="battle/toolTips/mutePlayer" xml:space="preserve">
+    <value>Можно отключить приём сообщений от выбранного игрока,
+нажав на кнопку в чате возле его сообщения.</value>
+  </data>
+  <data name="battle/toolTips/toxicMessage" xml:space="preserve">
+    <value>Вы можете пожаловаться на сообщение, нажав на него и выбрав причину жалобы. Настройка также позволяет полностью отключить весь чат или оставить только чат вашей команды.</value>
+  </data>
+  <data name="chat/toxicMessages/blockedMessage" xml:space="preserve">
+    <value>Сообщение от %(playerName)s заблокировано.</value>
+  </data>
+  <data name="client/information/addToTmpIgnored/message" xml:space="preserve">
+    <value>Чат с %s заблокирован, сообщения в текущем бою скрыты.</value>
+  </data>
+  <data name="client/information/removeFromTmpIgnored/message" xml:space="preserve">
+    <value>Чат c %s вновь доступен.</value>
+  </data>
+  <data name="listView/emptyList/info" xml:space="preserve">
+    <value>Информационных уведомлений</value>
+  </data>
+  <data name="listView/emptyList/invite" xml:space="preserve">
+    <value>Приглашений</value>
+  </data>
+  <data name="listView/emptyList/offer" xml:space="preserve">
+    <value>Специальных предложений</value>
+  </data>
+  <data name="listView/emptyList/template" xml:space="preserve">
+    <value>%(listType)s пока не поступало.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/christmasQuests" xml:space="preserve">
+    <value>Вот и всё! Новогоднее событие завершено, а ознакомиться с результатами можно на портале игры.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/BATTLE_DELETED_LEVEL" xml:space="preserve">
+    <value>Наступление %(date)s в %(time)s на клан %(clan)s отменено: разница между уровнями Укрепрайонов составляет более 1 уровня.</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/debitedToys" xml:space="preserve">
+    <value>Списаны новогодние украшения</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/discounts" xml:space="preserve">
+    <value>Персональные скидки</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/toys" xml:space="preserve">
+    <value>Начислены новогодние украшения</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/restore" xml:space="preserve">
+    <value>Восстановлено:</value>
+  </data>
+  <data name="serviceChannelMessages/fort/RESERVE_ACTIVATED/title" xml:space="preserve">
+    <value>Резерв активирован</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued" xml:space="preserve">
+    <value>Начислено нераспределённого опыта членам экипажа</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited" xml:space="preserve">
+    <value>Списано нераспределённого опыта с членов экипажа</value>
+  </data>
+  <data name="dialogs/squad/message/spgForbidden" xml:space="preserve">
+    <value>Невозможно взять САУ во взвод</value>
+  </data>
+  <data name="serviceChannelMessages/autoBoosterErrorNoWallet" xml:space="preserve">
+    <value>Не удалось пополнить снаряжение на %s. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.</value>
+  </data>
+  <data name="serviceChannelMessages/autoEquipBoosterDisabledOption" xml:space="preserve">
+    <value>Не удалось пополнить снаряжение на %s. Купите снаряжение за золото.</value>
+  </data>
+  <data name="serviceChannelMessages/autoEquipBoosterError" xml:space="preserve">
+    <value>Не удалось пополнить предбоевую инструкцию на %s. Недостаточно средств.</value>
+  </data>
+  <data name="serviceChannelMessages/autoEquipBoosterSkipped" xml:space="preserve">
+    <value>Не выполнено автоматическое пополнение предбоевой инструкции на %s. Установите предбоевую инструкцию вручную.</value>
+  </data>
+  <data name="serviceChannelMessages/autoEquipBoosterSuccess" xml:space="preserve">
+    <value>Снаряжение на %s пополнено успешно. Потрачено </value>
+  </data>
+  <data name="serviceChannelMessages/badgeAchievement" xml:space="preserve">
+    <value>Добавлено нашивок</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/actionsResultsCrystal" xml:space="preserve">
+    <value>%s бон</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/crystal" xml:space="preserve">
+    <value>Получено бон</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests/crystal" xml:space="preserve">
+    <value>Добавлено бон</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/nothingChanged" xml:space="preserve">
+    <value>шеврон не получен</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/rankEarned" xml:space="preserve">
+    <value>получен ранг</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/rankLost" xml:space="preserve">
+    <value>потерян ранг</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/stepEarned" xml:space="preserve">
+    <value>получен шеврон</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/stepLost" xml:space="preserve">
+    <value>потерян шеврон</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/crystal" xml:space="preserve">
+    <value>бонами</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/crystalAccrued" xml:space="preserve">
+    <value>Начислено бон</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/crystalDebited" xml:space="preserve">
+    <value>Списано бон</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/crystalReceived" xml:space="preserve">
+    <value>Боны: %(crystal)s</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/crystalWithdrawn" xml:space="preserve">
+    <value>Боны: %(crystal)s</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/primeTime" xml:space="preserve">
+    <value>Прекращения огня</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/rankedBattlesAvailable" xml:space="preserve">
+    <value>Ранговые бои доступны</value>
+  </data>
+  <data name="dialogs/squad/message/spgFull" xml:space="preserve">
+    <value>Достигнут максимум количества САУ во взводе</value>
+  </data>
+  <data name="personalMissions/completionTokenGain" xml:space="preserve">
+    <value>Добавлен модуль</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/personalMissions" xml:space="preserve">
+    <value>Поздравляем!
+За успешное выполнение личных боевых задач вам присвоены следующие награды</value>
+  </data>
+  <data name="serviceChannelMessages/bootcamp/awards" xml:space="preserve">
+    <value>Получена награда:</value>
+  </data>
+  <data name="serviceChannelMessages/bootcamp/crew" xml:space="preserve">
+    <value>Экипаж высажен в Казарму</value>
+  </data>
+  <data name="serviceChannelMessages/bootcamp/devices" xml:space="preserve">
+    <value>Перенесено на Склад:</value>
+  </data>
+  <data name="serviceChannelMessages/bootcamp/finished" xml:space="preserve">
+    <value>Вы прошли Учебный полигон</value>
+  </data>
+  <data name="serviceChannelMessages/bootcamp/no_awards" xml:space="preserve">
+    <value>Награда уже была получена</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/freeAwardListsAccrued" xml:space="preserve">
+    <value>Начислено бланков приказа</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/freeAwardListsDebited" xml:space="preserve">
+    <value>Списано бланков приказа</value>
   </data>
 </root>

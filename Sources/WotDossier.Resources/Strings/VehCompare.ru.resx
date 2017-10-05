@@ -1,0 +1,673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addVehPopover/btnAdd" xml:space="preserve">
+    <value>Добавить (%(count)d)</value>
+  </data>
+  <data name="addVehPopover/btnCancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="addVehPopover/header" xml:space="preserve">
+    <value>Выбор техники для сравнения</value>
+  </data>
+  <data name="addVehPopover/showOnlyMyVahicles" xml:space="preserve">
+    <value>Отображать только технику из Ангара</value>
+  </data>
+  <data name="addVehPopover/tooltips/addToCompare/body" xml:space="preserve">
+    <value>Добавить выбранную технику к сравнению.</value>
+  </data>
+  <data name="addVehPopover/tooltips/addToCompare/header" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="addVehPopover/tooltips/addToCompareDisabled/body" xml:space="preserve">
+    <value>Чтобы добавить машину к сравнению, удалите ненужную технику из списка сравнения.</value>
+  </data>
+  <data name="addVehPopover/tooltips/addToCompareDisabled/header" xml:space="preserve">
+    <value>Добавление невозможно</value>
+  </data>
+  <data name="addVehPopover/tooltips/inHangar/body" xml:space="preserve">
+    <value>Сортировать по наличию техники в Ангаре.</value>
+  </data>
+  <data name="addVehPopover/tooltips/inHangar/header" xml:space="preserve">
+    <value>Наличие техники в Ангаре</value>
+  </data>
+  <data name="addVehPopover/tooltips/level/body" xml:space="preserve">
+    <value>Сортировать по уровню техники.</value>
+  </data>
+  <data name="addVehPopover/tooltips/level/header" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="addVehPopover/tooltips/nation/body" xml:space="preserve">
+    <value>Сортировать по нации.</value>
+  </data>
+  <data name="addVehPopover/tooltips/nation/header" xml:space="preserve">
+    <value>Нация</value>
+  </data>
+  <data name="addVehPopover/tooltips/selectVehicle/body" xml:space="preserve">
+    <value>Сортировать по выбранной технике.</value>
+  </data>
+  <data name="addVehPopover/tooltips/selectVehicle/header" xml:space="preserve">
+    <value>Выбранная техника</value>
+  </data>
+  <data name="addVehPopover/tooltips/title/body" xml:space="preserve">
+    <value>Сортировать по названию машин.</value>
+  </data>
+  <data name="addVehPopover/tooltips/title/header" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="addVehPopover/tooltips/type/body" xml:space="preserve">
+    <value>Сортировать по типу техники.</value>
+  </data>
+  <data name="addVehPopover/tooltips/type/header" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="addVehPopover/vehicleName" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="cartPopover/fullBasketCmpBtn/tooltip/attention" xml:space="preserve">
+    <value>Чтобы добавить машину к сравнению, удалите ненужную технику из списка сравнения.</value>
+  </data>
+  <data name="cartPopover/fullBasketCmpBtn/tooltip/header" xml:space="preserve">
+    <value>Добавление невозможно</value>
+  </data>
+  <data name="cartPopover/gotoCompareBtn/label" xml:space="preserve">
+    <value>К сравнению (%(value)s)</value>
+  </data>
+  <data name="cartPopover/moduleType/basic" xml:space="preserve">
+    <value>Базовая</value>
+  </data>
+  <data name="cartPopover/moduleType/current" xml:space="preserve">
+    <value>Текущая</value>
+  </data>
+  <data name="cartPopover/moduleType/custom" xml:space="preserve">
+    <value>Выбранная</value>
+  </data>
+  <data name="cartPopover/moduleType/premium" xml:space="preserve">
+    <value>Премиум</value>
+  </data>
+  <data name="cartPopover/openCmpBtn/tooltip/body" xml:space="preserve">
+    <value>Нажмите, чтобы перейти к сравнению выбранной техники.</value>
+  </data>
+  <data name="cartPopover/openCmpBtn/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="cartPopover/removeAllBtn/label" xml:space="preserve">
+    <value>Очистить список</value>
+  </data>
+  <data name="cartPopover/removeAllBtn/tooltip/body" xml:space="preserve">
+    <value>Удалить всю технику из списка сравнения.</value>
+  </data>
+  <data name="cartPopover/removeAllBtn/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="cartPopover/removeBtn/tooltip/body" xml:space="preserve">
+    <value>Нажмите, чтобы удалить машину из списка сравнения.</value>
+  </data>
+  <data name="cartPopover/removeBtn/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="cartPopover/sorting/nation/body" xml:space="preserve">
+    <value>Показывает нации выбранных машин.</value>
+  </data>
+  <data name="cartPopover/sorting/nation/header" xml:space="preserve">
+    <value>Нация</value>
+  </data>
+  <data name="cartPopover/sorting/vehLvl/body" xml:space="preserve">
+    <value>Показывает уровни выбранных машин.</value>
+  </data>
+  <data name="cartPopover/sorting/vehLvl/header" xml:space="preserve">
+    <value>Уровень</value>
+  </data>
+  <data name="cartPopover/sorting/vehName" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="cartPopover/sorting/vehName/tooltip/body" xml:space="preserve">
+    <value>Показывает названия выбранных машин.</value>
+  </data>
+  <data name="cartPopover/sorting/vehName/tootlip/header" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="cartPopover/sorting/vehType/body" xml:space="preserve">
+    <value>Показывает типы выбранных машин.</value>
+  </data>
+  <data name="cartPopover/sorting/vehType/header" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="cartPopover/title" xml:space="preserve">
+    <value>Список сравнения</value>
+  </data>
+  <data name="compareVehicleBtn/tooltips/miniclient/attention" xml:space="preserve">
+    <value>Сравнение техники станет доступно после завершения загрузки. Завершите загрузку.</value>
+  </data>
+  <data name="header/backBtn/descrLabel/hangar" xml:space="preserve">
+    <value>В АНГАР</value>
+  </data>
+  <data name="header/backBtn/descrLabel/researchTree" xml:space="preserve">
+    <value>К ДЕРЕВУ РАЗВИТИЯ</value>
+  </data>
+  <data name="header/backBtn/descrLabel/shop" xml:space="preserve">
+    <value>В МАГАЗИН</value>
+  </data>
+  <data name="header/backBtn/label" xml:space="preserve">
+    <value>НАЗАД</value>
+  </data>
+  <data name="header/closeBtn/label" xml:space="preserve">
+    <value>ЗАКРЫТЬ</value>
+  </data>
+  <data name="menu/cloneForCompare" xml:space="preserve">
+    <value>Копировать для сравнения</value>
+  </data>
+  <data name="modulesView/closeBtnLabel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="modulesView/closeBtnLabel/tooltip/body" xml:space="preserve">
+    <value>Нажмите, чтобы отменить выбор модулей и вернуться к настройке техники.</value>
+  </data>
+  <data name="modulesView/closeBtnLabel/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="modulesView/compareBtnLabel" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="modulesView/compareBtnLabel/tooltip/body" xml:space="preserve">
+    <value>Нажмите, чтобы сохранить выбранные модули и вернуться к настройке техники.</value>
+  </data>
+  <data name="modulesView/compareBtnLabel/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="modulesView/description" xml:space="preserve">
+    <value>Выберите модули для сравнения</value>
+  </data>
+  <data name="modulesView/moduleSet/basic" xml:space="preserve">
+    <value>Базовая комплектация</value>
+  </data>
+  <data name="modulesView/moduleSet/current" xml:space="preserve">
+    <value>Текущая комплектация</value>
+  </data>
+  <data name="modulesView/moduleSet/custom" xml:space="preserve">
+    <value>Выбранная комплектация</value>
+  </data>
+  <data name="modulesView/resetBtnLabel" xml:space="preserve">
+    <value>Сбросить</value>
+  </data>
+  <data name="modulesView/resetBtnLabel/tooltip/body" xml:space="preserve">
+    <value>Нажмите, чтобы вернуть машину к базовой комплектации.</value>
+  </data>
+  <data name="modulesView/resetBtnLabel/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="modulesView/tooltips/attentionEquipment/body" xml:space="preserve">
+    <value>Увеличивающее грузоподъёмность ходовой оборудование не учитывается при сравнении техники. Подходящая для данной комплектации ходовая будет установлена автоматически.</value>
+  </data>
+  <data name="modulesView/tooltips/attentionEquipment/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="modulesView/vehicleStatus/inHangar" xml:space="preserve">
+    <value>Есть в Ангаре</value>
+  </data>
+  <data name="modulesView/vehicleStatus/readyToBuy" xml:space="preserve">
+    <value>Не куплен</value>
+  </data>
+  <data name="modulesView/vehicleStatus/readyToResearch" xml:space="preserve">
+    <value>Не исследован</value>
+  </data>
+  <data name="modulesView/windowTitle" xml:space="preserve">
+    <value>Комплектация %(vehName)s</value>
+  </data>
+  <data name="store/compareVehicleBtn/tooltips/addToCompare/body" xml:space="preserve">
+    <value>Добавить к сравнению</value>
+  </data>
+  <data name="store/compareVehicleBtn/tooltips/addToCompare/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="store/compareVehicleBtn/tooltips/canNotAddToCompare/body" xml:space="preserve">
+    <value>Данную машину нельзя добавить к сравнению.</value>
+  </data>
+  <data name="store/compareVehicleBtn/tooltips/canNotAddToCompare/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="store/compareVehicleBtn/tooltips/disabled/body" xml:space="preserve">
+    <value>Чтобы добавить машину к сравнению, удалите ненужную технику из списка сравнения.</value>
+  </data>
+  <data name="store/compareVehicleBtn/tooltips/disabled/header" xml:space="preserve">
+    <value>Добавление невозможно</value>
+  </data>
+  <data name="techTree/tooltips/addToCompare/body" xml:space="preserve">
+    <value>Добавить к сравнению</value>
+  </data>
+  <data name="techTree/tooltips/addToCompare/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehPreview/compareInfo/addToCompare" xml:space="preserve">
+    <value>Добавить к сравнению — </value>
+  </data>
+  <data name="vehPreview/compareVehicleBtn/tooltips/addToCompare/body" xml:space="preserve">
+    <value>Добавить к сравнению</value>
+  </data>
+  <data name="vehPreview/compareVehicleBtn/tooltips/addToCompare/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/body" xml:space="preserve">
+    <value>Данную машину нельзя добавить к сравнению.</value>
+  </data>
+  <data name="vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehPreview/compareVehicleBtn/tooltips/disabled/body" xml:space="preserve">
+    <value>Чтобы добавить машину к сравнению, удалите из списка сравнения ненужную технику.</value>
+  </data>
+  <data name="vehPreview/compareVehicleBtn/tooltips/disabled/header" xml:space="preserve">
+    <value>Добавление невозможно</value>
+  </data>
+  <data name="vehicleCompareView/btnAddVehicles" xml:space="preserve">
+    <value>Добавить к сравнению</value>
+  </data>
+  <data name="vehicleCompareView/crew/current" xml:space="preserve">
+    <value>Текущий экипаж</value>
+  </data>
+  <data name="vehicleCompareView/crew/skill100" xml:space="preserve">
+    <value>Экипаж 100%</value>
+  </data>
+  <data name="vehicleCompareView/crew/skill50" xml:space="preserve">
+    <value>Экипаж 50%</value>
+  </data>
+  <data name="vehicleCompareView/crew/skill75" xml:space="preserve">
+    <value>Экипаж 75%</value>
+  </data>
+  <data name="vehicleCompareView/header" xml:space="preserve">
+    <value>Сравнение техники</value>
+  </data>
+  <data name="vehicleCompareView/moduleType/basic" xml:space="preserve">
+    <value>Базовая</value>
+  </data>
+  <data name="vehicleCompareView/moduleType/current" xml:space="preserve">
+    <value>Текущая</value>
+  </data>
+  <data name="vehicleCompareView/moduleType/custom" xml:space="preserve">
+    <value>Выбранная</value>
+  </data>
+  <data name="vehicleCompareView/toHangar" xml:space="preserve">
+    <value>Показать в Ангаре</value>
+  </data>
+  <data name="vehicleCompareView/toPreview" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/addVehicles/body" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/addVehicles/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/attentionEquipment/body" xml:space="preserve">
+    <value>Увеличивающее грузоподъёмность ходовой оборудование не учитывается при сравнении техники. Подходящая для данной комплектации ходовая будет установлена автоматически.</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/attentionEquipment/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/btnModules/body" xml:space="preserve">
+    <value>Выбрать комплектацию машины.</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/btnModules/header" xml:space="preserve">
+    <value>Комплектация</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/crewDropDown/body" xml:space="preserve">
+    <value>Выбрать уровень экипажа.</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/crewDropDown/header" xml:space="preserve">
+    <value>Экипаж</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/differentModulesOrCrew/body" xml:space="preserve">
+    <value>Уровень экипажа и/или комплектация добавленной техники отличаются. Изменяя эти показатели, можно сравнить различные варианты одной и той же машины.</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/differentModulesOrCrew/header" xml:space="preserve">
+    <value>Экипаж и комплектация</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/info/body" xml:space="preserve">
+    <value>Установленные на машине оборудование и снаряжение не учитываются при сравнении техники.</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/info/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/removeAllVehicles/body" xml:space="preserve">
+    <value>Нажмите, чтобы удалить всю технику из сравнения.</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/removeAllVehicles/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/removeFromCompare/body" xml:space="preserve">
+    <value>Удалить из сравнения</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/removeFromCompare/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/toHangar/body" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/toHangar/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/toPreview/body" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/toPreview/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicleCompareView/topPanel/noVehicle" xml:space="preserve">
+    <value>Техника не выбрана</value>
+  </data>
+  <data name="vehicleCompareView/topPanel/premium" xml:space="preserve">
+    <value>Премиум</value>
+  </data>
+  <data name="vehicleCompareView/topPanel/vehiclesCount" xml:space="preserve">
+    <value>Машин для сравнения: %(count)s</value>
+  </data>
+  <data name="cartPopover/configurationType/basic" xml:space="preserve">
+    <value>Базовая</value>
+  </data>
+  <data name="cartPopover/configurationType/current" xml:space="preserve">
+    <value>Как в Ангаре</value>
+  </data>
+  <data name="cartPopover/configurationType/custom" xml:space="preserve">
+    <value>Настроенная</value>
+  </data>
+  <data name="cartPopover/configurationType/premium" xml:space="preserve">
+    <value>Премиум</value>
+  </data>
+  <data name="cartPopover/removeBtnLocked/tooltip/body" xml:space="preserve">
+    <value>Невозможно убрать технику из списка сравнения, пока вы находитесь в окне настройки конфигурации.</value>
+  </data>
+  <data name="cartPopover/removeBtnLocked/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="cartPopover/removeLockedBtn/tooltip/body" xml:space="preserve">
+    <value>Невозможно убрать машину из списка сравнения, пока вы находитесь в окне настройки конфигурации.</value>
+  </data>
+  <data name="cartPopover/removeLockedBtn/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="cartPopover/sorting/vehName/tooltip/header" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="modulesView/title" xml:space="preserve">
+    <value>Настройка модулей %(vehName)s</value>
+  </data>
+  <data name="vehConf/applyBtnLabel" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="vehConf/btnCleanUp" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="vehConf/cancelBtnLabel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="vehConf/cancelBtnLabel/tooltip/body" xml:space="preserve">
+    <value>Нажмите, чтобы отменить выбранные настройки и вернуться к сравнению техники.</value>
+  </data>
+  <data name="vehConf/cancelBtnLabel/tooltip/header" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="vehConf/compareBtnLabel/tooltip/body" xml:space="preserve">
+    <value>Нажмите, чтобы сохранить выбранные настройки и вернуться к сравнению техники.</value>
+  </data>
+  <data name="vehConf/compareBtnLabel/tooltip/header" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="vehConf/confAvailable" xml:space="preserve">
+    <value>ДОСТУПНА
+НАСТРОЙКА</value>
+  </data>
+  <data name="vehConf/crewTitle" xml:space="preserve">
+    <value>Навыки и умения, влияющие на ТТХ</value>
+  </data>
+  <data name="vehConf/doesntAffect" xml:space="preserve">
+    <value>Не влияет на упрощённые ТТХ</value>
+  </data>
+  <data name="vehConf/equipment" xml:space="preserve">
+    <value>Оснащение</value>
+  </data>
+  <data name="vehConf/header" xml:space="preserve">
+    <value>Конфигурация для %(vehName)s</value>
+  </data>
+  <data name="vehConf/modules" xml:space="preserve">
+    <value>Модули</value>
+  </data>
+  <data name="vehConf/resetBtnLabel" xml:space="preserve">
+    <value>Сбросить</value>
+  </data>
+  <data name="vehConf/resetBtnLabel/tooltip/body" xml:space="preserve">
+    <value>Нажмите, чтобы вернуть настройки машины к первоначальным значениям.</value>
+  </data>
+  <data name="vehConf/resetBtnLabel/tooltip/header" xml:space="preserve">
+    <value>Сбросить</value>
+  </data>
+  <data name="vehConf/skills/fadeText" xml:space="preserve">
+    <value>Назначение навыков и умений доступно при выборе 100% экипажа.</value>
+  </data>
+  <data name="vehConf/tooltips/attentionIconCrew/body" xml:space="preserve">
+    <value>Некоторые навыки и умения экипажа были включены для сравнения.</value>
+  </data>
+  <data name="vehConf/tooltips/attentionIconCrew/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehConf/tooltips/btnCleanUp/body" xml:space="preserve">
+    <value>Нажмите, чтобы убрать выбранное оборудование из конфигурации.</value>
+  </data>
+  <data name="vehConf/tooltips/btnCleanUp/header" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="vehConf/tooltips/camoInfo" xml:space="preserve">
+    <value>Чтобы получить прибавку к маскировке машины для каждого типа карт, нанесите летний, зимний и пустынный типы камуфляжа.</value>
+  </data>
+  <data name="vehConf/tooltips/camoInfoDisabled/body" xml:space="preserve">
+    <value>Данный всесезонный камуфляж — неотъемлемая часть машины. Его невозможно снять или нанести поверх него новый камуфляж.</value>
+  </data>
+  <data name="vehConf/tooltips/camoInfoDisabled/header" xml:space="preserve">
+    <value>Всесезонный камуфляж</value>
+  </data>
+  <data name="vehConf/tooltips/camoTitle" xml:space="preserve">
+    <value>Камуфляж</value>
+  </data>
+  <data name="vehConf/tooltips/deviceNotAffectedTTC" xml:space="preserve">
+    <value>Не влияет на расчёт ТТХ машины</value>
+  </data>
+  <data name="vehConf/tooltips/emptyEqSlot/body" xml:space="preserve">
+    <value>Нажмите, чтобы просмотреть список снаряжения. Вы можете установить доступное для данной машины снаряжение и просмотреть его влияние на расширенные ТТХ.</value>
+  </data>
+  <data name="vehConf/tooltips/emptyEqSlot/header" xml:space="preserve">
+    <value>Снаряжение</value>
+  </data>
+  <data name="vehConf/tooltips/emptyOptDeviceSlot/body" xml:space="preserve">
+    <value>Нажмите, чтобы просмотреть список оборудования. Вы можете установить доступное для данной машины оборудование и просмотреть его влияние на ТТХ.</value>
+  </data>
+  <data name="vehConf/tooltips/emptyOptDeviceSlot/header" xml:space="preserve">
+    <value>Оборудование</value>
+  </data>
+  <data name="vehConf/tooltips/revertBtn/body" xml:space="preserve">
+    <value>Нажмите, чтобы вернуть настройки машины к первоначальным значениям.</value>
+  </data>
+  <data name="vehConf/tooltips/revertBtn/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehConf/tooltips/skills/desc1" xml:space="preserve">
+    <value>Выбрать можно только те навыки и умения, которые %(influence)s на упрощённые ТТХ.</value>
+  </data>
+  <data name="vehConf/tooltips/skills/desc1/influence" xml:space="preserve">
+    <value>влияют</value>
+  </data>
+  <data name="vehConf/tooltips/skills/desc2" xml:space="preserve">
+    <value>Характеристики машины рассчитываются с учётом того, что выбранные навыки или умения развиты %(perc)s.</value>
+  </data>
+  <data name="vehConf/tooltips/skills/desc2/perc" xml:space="preserve">
+    <value>на 100%</value>
+  </data>
+  <data name="vehConf/tooltips/skills/descHeader" xml:space="preserve">
+    <value>Принцип работы</value>
+  </data>
+  <data name="vehConf/tooltips/skills/header" xml:space="preserve">
+    <value>Навыки и умения</value>
+  </data>
+  <data name="vehConf/tooltips/skills/skillsList" xml:space="preserve">
+    <value>Назначение навыков и умений</value>
+  </data>
+  <data name="vehConf/tooltips/topModulesLabel/body" xml:space="preserve">
+    <value>У данной машины нет исследуемых модулей: она поставляется сразу с неизменным набором модулей.</value>
+  </data>
+  <data name="vehConf/tooltips/topModulesLabel/header" xml:space="preserve">
+    <value>Лучшая комплектация</value>
+  </data>
+  <data name="vehConf/tooltips/topModulesOff/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать лучшие модули для данной машины.</value>
+  </data>
+  <data name="vehConf/tooltips/topModulesOff/header" xml:space="preserve">
+    <value>Лучшая комплектация</value>
+  </data>
+  <data name="vehConf/tooltips/topModulesOn/body" xml:space="preserve">
+    <value>Нажмите, чтобы отменить выбор лучших модулей для данной машины.</value>
+  </data>
+  <data name="vehConf/tooltips/topModulesOn/header" xml:space="preserve">
+    <value>Лучшая комплектация</value>
+  </data>
+  <data name="vehConf/topModulesBtnLabel" xml:space="preserve">
+    <value>Выбрать лучшую комплектацию</value>
+  </data>
+  <data name="vehConf/topModulesLabel" xml:space="preserve">
+    <value>Лучшая комплектация</value>
+  </data>
+  <data name="vehicleCompareView/configurationType/basic" xml:space="preserve">
+    <value>Базовая</value>
+  </data>
+  <data name="vehicleCompareView/configurationType/current" xml:space="preserve">
+    <value>Как в Ангаре</value>
+  </data>
+  <data name="vehicleCompareView/configurationType/custom" xml:space="preserve">
+    <value>Настроенная</value>
+  </data>
+  <data name="vehicleCompareView/configure" xml:space="preserve">
+    <value>Настроить</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/configure/body" xml:space="preserve">
+    <value>Нажмите, чтобы перейти к экрану настройки параметров, которые влияют на окончательные характеристики машины.</value>
+  </data>
+  <data name="vehicleCompareView/tooltips/configure/header" xml:space="preserve">
+    <value>Настроить параметры</value>
+  </data>
+  <data name="header/backBtn/descrLabel/personalAwards" xml:space="preserve">
+    <value>К НАГРАДАМ</value>
+  </data>
+</root>

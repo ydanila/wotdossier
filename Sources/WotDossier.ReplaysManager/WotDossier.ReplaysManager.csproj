@@ -473,6 +473,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="..\WotDossier\Tabs\Replay\RawData.xaml">
+      <Link>Tabs\Replay\RawData.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="..\WotDossier\Tabs\Replay\TeamMemberResult.xaml">
       <Link>Tabs\Replay\TeamMemberResult.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
@@ -587,8 +592,14 @@
     <Compile Include="..\WotDossier\Converters\Color\DeltaToColorConverter.cs">
       <Link>Converters\Color\DeltaToColorConverter.cs</Link>
     </Compile>
+    <Compile Include="..\WotDossier\Converters\Color\DeltaToColorConverterWithParams.cs">
+      <Link>Converters\Color\DeltaToColorConverterWithParams.cs</Link>
+    </Compile>
     <Compile Include="..\WotDossier\Converters\Color\FragsToColorConverter.cs">
       <Link>Converters\Color\FragsToColorConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\WotDossier\Converters\Color\NegativeToColorConverter.cs">
+      <Link>Converters\Color\NegativeToColorConverter.cs</Link>
     </Compile>
     <Compile Include="..\WotDossier\Converters\Color\SpottedToColorConverter.cs">
       <Link>Converters\Color\SpottedToColorConverter.cs</Link>
@@ -760,6 +771,9 @@
     <Compile Include="..\WotDossier\Tabs\Replay\PersonalResults.xaml.cs">
       <Link>Tabs\Replay\PersonalResults.xaml.cs</Link>
       <DependentUpon>PersonalResults.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\WotDossier\Tabs\Replay\RawData.xaml.cs">
+      <Link>Tabs\Replay\RawData.xaml.cs</Link>
     </Compile>
     <Compile Include="..\WotDossier\Tabs\Replay\TeamMemberResult.xaml.cs">
       <Link>Tabs\Replay\TeamMemberResult.xaml.cs</Link>

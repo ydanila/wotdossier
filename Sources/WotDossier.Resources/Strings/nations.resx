@@ -112,39 +112,39 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="china" xml:space="preserve">
-    <value>China</value>
-  </data>
-  <data name="czech" xml:space="preserve">
-    <value>Czechoslovakia</value>
-  </data>
   <data name="france" xml:space="preserve">
     <value>France</value>
   </data>
   <data name="germany" xml:space="preserve">
     <value>Germany</value>
   </data>
-  <data name="japan" xml:space="preserve">
-    <value>Japan</value>
-  </data>
-  <data name="poland" xml:space="preserve">
-    <value>Poland</value>
-  </data>
-  <data name="sweden" xml:space="preserve">
-    <value>Sweden</value>
-  </data>
-  <data name="uk" xml:space="preserve">
-    <value>U.K.</value>
-  </data>
   <data name="usa" xml:space="preserve">
     <value>U.S.A.</value>
   </data>
   <data name="ussr" xml:space="preserve">
     <value>U.S.S.R.</value>
+  </data>
+  <data name="uk" xml:space="preserve">
+    <value>U.K.</value>
+  </data>
+  <data name="japan" xml:space="preserve">
+    <value>Japan</value>
+  </data>
+  <data name="czech" xml:space="preserve">
+    <value>Czechoslovakia</value>
+  </data>
+  <data name="china" xml:space="preserve">
+    <value>China</value>
+  </data>
+  <data name="sweden" xml:space="preserve">
+    <value>Sweden</value>
+  </data>
+  <data name="poland" xml:space="preserve">
+    <value>Poland</value>
   </data>
 </root>

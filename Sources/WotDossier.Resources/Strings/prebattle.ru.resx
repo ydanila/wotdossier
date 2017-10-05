@@ -112,16 +112,16 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="buttons/battleSession/leave" xml:space="preserve">
     <value>Выйти</value>
   </data>
-  <data name="companyListView/filterButton/label" xml:space="preserve">
-    <value>Поиск</value>
+  <data name="buttons/company/create" xml:space="preserve">
+    <value>Создать роту</value>
   </data>
   <data name="dialogs/buttons/notReady" xml:space="preserve">
     <value>Не готов</value>
@@ -129,14 +129,54 @@
   <data name="dialogs/buttons/ready" xml:space="preserve">
     <value>Готов!</value>
   </data>
+  <data name="labels/company/defaultComment" xml:space="preserve">
+    <value>Добавить описание —</value>
+  </data>
+  <data name="labels/company/defaultText" xml:space="preserve">
+    <value>Нажмите для изменения текста...</value>
+  </data>
+  <data name="labels/company/division/ABSOLUTE" xml:space="preserve">
+    <value>Абсолютная</value>
+  </data>
+  <data name="labels/company/division/ALL" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="labels/company/division/CHAMPION" xml:space="preserve">
+    <value>Чемпионская</value>
+  </data>
+  <data name="labels/company/division/JUNIOR" xml:space="preserve">
+    <value>Юниорская</value>
+  </data>
+  <data name="labels/company/division/MIDDLE" xml:space="preserve">
+    <value>Средняя</value>
+  </data>
+  <data name="labels/company/division/NA" xml:space="preserve">
+    <value>Не определён</value>
+  </data>
+  <data name="labels/company/isOpen" xml:space="preserve">
+    <value>Открытая рота</value>
+  </data>
+  <data name="labels/company/limits" xml:space="preserve">
+    <value>Ограничения уровня техники:</value>
+  </data>
+  <data name="labels/company/notInBattle" xml:space="preserve">
+    <value>Не в бою</value>
+  </data>
+  <data name="labels/company/players/bottom" xml:space="preserve">
+    <value>Нажмите,
+чтобы присоединиться</value>
+  </data>
+  <data name="labels/company/players/top" xml:space="preserve">
+    <value>Личный состав</value>
+  </data>
   <data name="labels/company/queue" xml:space="preserve">
     <value>Очередь</value>
   </data>
+  <data name="labels/company/stats/count" xml:space="preserve">
+    <value>Состав роты: %(playersCount)s/%(maxCount)s</value>
+  </data>
   <data name="labels/level" xml:space="preserve">
     <value>Уровень</value>
-  </data>
-  <data name="labels/members" xml:space="preserve">
-    <value>Состав: %(membersCount)d [%(maxMembersCount)d]</value>
   </data>
   <data name="labels/player" xml:space="preserve">
     <value>Игрок</value>
@@ -162,9 +202,6 @@
   <data name="labels/vehicle" xml:space="preserve">
     <value>Машина</value>
   </data>
-  <data name="memberList/empty/label" xml:space="preserve">
-    <value>Выберите игроков из очереди и переместите их в основной состав.</value>
-  </data>
   <data name="stats/battleSession/commonLevel" xml:space="preserve">
     <value>Уровень:</value>
   </data>
@@ -173,30 +210,6 @@
   </data>
   <data name="stats/battleSession/vehicleType" xml:space="preserve">
     <value>Тип:</value>
-  </data>
-  <data name="switchPeripheryWindow/fort/applySwitchLabel" xml:space="preserve">
-    <value>Для планирования и осуществления Вылазки перейдите на сервер %(server)s.</value>
-  </data>
-  <data name="switchPeripheryWindow/fort/description" xml:space="preserve">
-    <value>Вы находитесь на сервере %(server)s, где действует ограничение на осуществление Вылазок.</value>
-  </data>
-  <data name="switchPeripheryWindow/fort/header" xml:space="preserve">
-    <value>Внимание!</value>
-  </data>
-  <data name="switchPeripheryWindow/fort/selectServerLabel" xml:space="preserve">
-    <value>Для планирования и осуществления Вылазки перейдите на другой сервер:</value>
-  </data>
-  <data name="switchPeripheryWindow/ranked/applySwitchLabel" xml:space="preserve">
-    <value>Перейдите на другой сервер, чтобы продолжить играть в Ранговые бои.</value>
-  </data>
-  <data name="switchPeripheryWindow/ranked/description" xml:space="preserve">
-    <value>На сервере %(server)s наступил режим прекращения огня. Ранговые бои недоступны.</value>
-  </data>
-  <data name="switchPeripheryWindow/ranked/header" xml:space="preserve">
-    <value>Боец!</value>
-  </data>
-  <data name="switchPeripheryWindow/ranked/selectServerLabel" xml:space="preserve">
-    <value>Перейдите на другой сервер, чтобы продолжить играть в Ранговые бои:</value>
   </data>
   <data name="title/battleSession/arenaType" xml:space="preserve">
     <value>Карта:</value>
@@ -212,5 +225,65 @@
   </data>
   <data name="title/battleSession/startTime" xml:space="preserve">
     <value>Начало боя в:</value>
+  </data>
+  <data name="labels/members" xml:space="preserve">
+    <value>Состав: %(membersCount)d [%(maxMembersCount)d]</value>
+  </data>
+  <data name="Company/header/fallout/requiredVehiclesCount" xml:space="preserve">
+    <value>Парк: %(vehiclesCount)s машин.</value>
+  </data>
+  <data name="Company/header/fallout/requirementsTitle" xml:space="preserve">
+    <value>Требования к технике для события «Превосходство: Стальная ярость»:</value>
+  </data>
+  <data name="labels/company/division/EVENT" xml:space="preserve">
+    <value>Превосходство: Стальная ярость 15x15</value>
+  </data>
+  <data name="labels/company/division/EVENT_10x10" xml:space="preserve">
+    <value>Превосходство: Стальная ярость 10x10</value>
+  </data>
+  <data name="labels/company/restriction" xml:space="preserve">
+    <value>Подходящая техника отмечена индексом (П).</value>
+  </data>
+  <data name="switchPeripheryWindow/company/applySwitchLabel" xml:space="preserve">
+    <value>Для создания ротного боя перейдите на сервер %(server)s.</value>
+  </data>
+  <data name="switchPeripheryWindow/company/description" xml:space="preserve">
+    <value>Вы находитесь на сервере %(server)s, где действует ограничение на проведение ротных боёв.</value>
+  </data>
+  <data name="switchPeripheryWindow/company/header" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="switchPeripheryWindow/company/selectServerLabel" xml:space="preserve">
+    <value>Для создания ротного боя перейдите на один из предлагаемых серверов:</value>
+  </data>
+  <data name="switchPeripheryWindow/fort/applySwitchLabel" xml:space="preserve">
+    <value>Для планирования и осуществления Вылазки перейдите на сервер %(server)s.</value>
+  </data>
+  <data name="switchPeripheryWindow/fort/description" xml:space="preserve">
+    <value>Вы находитесь на сервере %(server)s, где действует ограничение на осуществление Вылазок.</value>
+  </data>
+  <data name="switchPeripheryWindow/fort/header" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="switchPeripheryWindow/fort/selectServerLabel" xml:space="preserve">
+    <value>Для планирования и осуществления Вылазки перейдите на другой сервер:</value>
+  </data>
+  <data name="companyListView/filterButton/label" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="memberList/empty/label" xml:space="preserve">
+    <value>Выберите игроков из очереди и переместите их в основной состав.</value>
+  </data>
+  <data name="switchPeripheryWindow/ranked/applySwitchLabel" xml:space="preserve">
+    <value>Перейдите на другой сервер, чтобы продолжить играть в Ранговые бои.</value>
+  </data>
+  <data name="switchPeripheryWindow/ranked/description" xml:space="preserve">
+    <value>На сервере %(server)s наступил режим прекращения огня. Ранговые бои недоступны.</value>
+  </data>
+  <data name="switchPeripheryWindow/ranked/header" xml:space="preserve">
+    <value>Боец!</value>
+  </data>
+  <data name="switchPeripheryWindow/ranked/selectServerLabel" xml:space="preserve">
+    <value>Перейдите на другой сервер, чтобы продолжить играть в Ранговые бои:</value>
   </data>
 </root>

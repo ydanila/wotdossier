@@ -112,13 +112,13 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="accountPopover/badge/tooltip/body" xml:space="preserve">
-    <value>Нажмите, чтобы выбрать нашивку, которая будет отображаться в бою рядом с вашим именем. Нашивка демонстрирует ваши достижения в Ранговых боях, и её видят игроки обеих команд.</value>
+    <value>Нажмите, чтобы выбрать нашивку, которая будет отображаться в бою рядом с вашим именем. Нашивки можно заработать в Ранговых боях, а также выполняя личные боевые задачи.</value>
   </data>
   <data name="accountPopover/badge/tooltip/header" xml:space="preserve">
     <value>?empty?</value>
@@ -184,7 +184,7 @@
     <value>Попасть в третью лигу 2 сезона в режиме «Ранговый бой».</value>
   </data>
   <data name="badge_note" xml:space="preserve">
-    <value>Нашивка демонстрирует ваши достижения в Ранговых боях, и её видят игроки обеих команд.</value>
+    <value>Нашивка демонстрирует ваши достижения в игре, и её видят игроки обеих команд.</value>
   </data>
   <data name="badgesPage/body/uncollected/title" xml:space="preserve">
     <value>Неполученные нашивки</value>
@@ -206,5 +206,134 @@
   </data>
   <data name="titleText" xml:space="preserve">
     <value>Нашивки</value>
+  </data>
+  <data name="badge_10" xml:space="preserve">
+    <value>StuG IV: нашивка II степени</value>
+  </data>
+  <data name="badge_10_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение достаточного количества задач для получения ПТ-САУ StuG IV.</value>
+  </data>
+  <data name="badge_10_short" xml:space="preserve">
+    <value>StuG IV II степени</value>
+  </data>
+  <data name="badge_11" xml:space="preserve">
+    <value>StuG IV: нашивка I степени</value>
+  </data>
+  <data name="badge_11_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение всех задач операции «StuG IV» с отличием.</value>
+  </data>
+  <data name="badge_11_short" xml:space="preserve">
+    <value>StuG IV I степени</value>
+  </data>
+  <data name="badge_12" xml:space="preserve">
+    <value>T28 HTC: нашивка II степени</value>
+  </data>
+  <data name="badge_12_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение достаточного количества задач для получения ПТ-САУ T28 HTC.</value>
+  </data>
+  <data name="badge_12_short" xml:space="preserve">
+    <value>T28 HTC II степени</value>
+  </data>
+  <data name="badge_13" xml:space="preserve">
+    <value>T28 HTC: нашивка I степени</value>
+  </data>
+  <data name="badge_13_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение всех задач операции «T28 Heavy Tank Concept» с отличием.</value>
+  </data>
+  <data name="badge_13_short" xml:space="preserve">
+    <value>T28 HTC I степени</value>
+  </data>
+  <data name="badge_14" xml:space="preserve">
+    <value>T 55A: нашивка II степени</value>
+  </data>
+  <data name="badge_14_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение достаточного количества задач для получения среднего танка Т 55А.</value>
+  </data>
+  <data name="badge_14_short" xml:space="preserve">
+    <value>T 55A II степени</value>
+  </data>
+  <data name="badge_15" xml:space="preserve">
+    <value>T 55A: нашивка I степени</value>
+  </data>
+  <data name="badge_15_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение всех задач операции «T 55А» с отличием.</value>
+  </data>
+  <data name="badge_15_short" xml:space="preserve">
+    <value>T 55A I степени</value>
+  </data>
+  <data name="badge_16" xml:space="preserve">
+    <value>Объект 260: нашивка II степени</value>
+  </data>
+  <data name="badge_16_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение достаточного количества задач для получения тяжёлого танка Объект 260.</value>
+  </data>
+  <data name="badge_16_short" xml:space="preserve">
+    <value>Объект 260 II степени</value>
+  </data>
+  <data name="badge_17" xml:space="preserve">
+    <value>Объект 260: нашивка I степени</value>
+  </data>
+  <data name="badge_17_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение всех задач операции «Объект 260» с отличием.</value>
+  </data>
+  <data name="badge_17_short" xml:space="preserve">
+    <value>Объект 260 I степени</value>
+  </data>
+  <data name="badge_18" xml:space="preserve">
+    <value>Чемпион I кампании</value>
+  </data>
+  <data name="badge_18_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение всех личных боевых задач всех операций I кампании с отличием.</value>
+  </data>
+  <data name="badge_19" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_19_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_20" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_20_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_21" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_21_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_22" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_22_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_23" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_23_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_24" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_24_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_25" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_25_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_26" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_26_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badgesPage/header/descr" xml:space="preserve">
+    <value>Нашивка демонстрирует ваши определённые достижения в игре, и её видят игроки обеих команд.</value>
   </data>
 </root>

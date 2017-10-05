@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="afterburning/descr" xml:space="preserve">
     <value>+15% к мощности двигателя на одну минуту</value>
@@ -126,64 +126,23 @@
   <data name="aimingStabilizer/descr" xml:space="preserve">
     <value>{colorTagOpen}-20%{colorTagClose} от разброса при движении и повороте башни</value>
   </data>
-  <data name="aimingStabilizerBattleBooster/descr" xml:space="preserve">
-    <value>%s от разброса при движении и повороте башни при установленном оборудовании «Стабилизатор вертикальной наводки» (Mk1 и Mk2) или «Комплекс стабилизационного оборудования».</value>
-  </data>
-  <data name="aimingStabilizerBattleBooster/gain/deluxe" xml:space="preserve">
-    <value>-5%</value>
-  </data>
-  <data name="aimingStabilizerBattleBooster/gain/simple" xml:space="preserve">
-    <value>-5%</value>
-  </data>
-  <data name="aimingStabilizerBattleBooster/name" xml:space="preserve">
-    <value>Смазка стабилизаторов</value>
-  </data>
   <data name="aimingStabilizer_Mk1/name" xml:space="preserve">
     <value>Стабилизатор вертикальной наводки Mk 1</value>
   </data>
   <data name="aimingStabilizer_Mk2/name" xml:space="preserve">
     <value>Стабилизатор вертикальной наводки Mk 2</value>
   </data>
-  <data name="antifragmentationLining_heavy/descr" xml:space="preserve">
-    <value>{colorTagOpen}+30%{colorTagClose} к абсорбции повреждений от взрывов и тарана
-{colorTagOpen}+30%{colorTagClose} к защите экипажа от ранений
-{colorTagOpen}-10%{colorTagClose} от времени оглушения</value>
+  <data name="antifragmentationLining/descr" xml:space="preserve">
+    <value>+15% к абсорбции повреждений от взрывов и тарана</value>
   </data>
   <data name="antifragmentationLining_heavy/name" xml:space="preserve">
     <value>Тяжёлый противоосколочный подбой</value>
   </data>
-  <data name="antifragmentationLining_light/descr" xml:space="preserve">
-    <value>{colorTagOpen}+20%{colorTagClose} к абсорбции повреждений от взрывов и тарана
-{colorTagOpen}+20%{colorTagClose} к защите экипажа от ранений
-{colorTagOpen}-10%{colorTagClose} от времени оглушения</value>
-  </data>
   <data name="antifragmentationLining_light/name" xml:space="preserve">
     <value>Лёгкий противоосколочный подбой</value>
   </data>
-  <data name="antifragmentationLining_medium/descr" xml:space="preserve">
-    <value>{colorTagOpen}+25%{colorTagClose} к абсорбции повреждений от взрывов и тарана
-{colorTagOpen}+25%{colorTagClose} к защите экипажа от ранений
-{colorTagOpen}-10%{colorTagClose} от времени оглушения</value>
-  </data>
   <data name="antifragmentationLining_medium/name" xml:space="preserve">
     <value>Средний противоосколочный подбой</value>
-  </data>
-  <data name="antifragmentationLining_superheavy/descr" xml:space="preserve">
-    <value>{colorTagOpen}+50%{colorTagClose} к абсорбции повреждений от взрывов и тарана
-{colorTagOpen}+50%{colorTagClose} к защите экипажа от ранений
-{colorTagOpen}-10%{colorTagClose} от времени оглушения</value>
-  </data>
-  <data name="antifragmentationLining_superheavy/name" xml:space="preserve">
-    <value>Сверхтяжёлый противоосколочный подбой</value>
-  </data>
-  <data name="artillery/descr" xml:space="preserve">
-    <value>При использовании даёт артбатарее команду произвести залп в указанный квадрат карты.</value>
-  </data>
-  <data name="artillery/name" xml:space="preserve">
-    <value>Артобстрел</value>
-  </data>
-  <data name="autoExtinguishers/always" xml:space="preserve">
-    <value>+10% к защите от пожара.</value>
   </data>
   <data name="autoExtinguishers/descr" xml:space="preserve">
     <value>Автоматическое тушение пожара в собственной машине.</value>
@@ -191,26 +150,12 @@
   <data name="autoExtinguishers/name" xml:space="preserve">
     <value>Автоматический огнетушитель</value>
   </data>
-  <data name="autoExtinguishers/onUse" xml:space="preserve">
-    <value>Автоматическое тушение пожара в собственной машине. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
+  <data name="breakfast/descr" xml:space="preserve">
+    <value>+10% ко всем умениям всего экипажа до конца боя
+Ограничение: французские танки</value>
   </data>
-  <data name="autoExtinguishers/restriction" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="bomber/descr" xml:space="preserve">
-    <value>При использовании даёт бомбардировщику команду взлететь и произвести бомбометание в указанном квадрате карты.</value>
-  </data>
-  <data name="bomber/name" xml:space="preserve">
-    <value>Авиаудар</value>
-  </data>
-  <data name="camouflageBattleBooster/action/boost" xml:space="preserve">
-    <value>Добавляет дополнительные 10% к незаметности машины</value>
-  </data>
-  <data name="camouflageBattleBooster/action/perk" xml:space="preserve">
-    <value>Даёт 100% умение «Маскировка» всему экипажу</value>
-  </data>
-  <data name="camouflageBattleBooster/name" xml:space="preserve">
-    <value>Укрытия на местности</value>
+  <data name="breakfast/name" xml:space="preserve">
+    <value>Лёгкий завтрак</value>
   </data>
   <data name="camouflageNet/descr" xml:space="preserve">
     <value>Значительно увеличивает незаметность неподвижной машины</value>
@@ -224,14 +169,325 @@
   <data name="carbonDioxide/name" xml:space="preserve">
     <value>Заполнение баков СО2</value>
   </data>
-  <data name="chocolate/always" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
-  </data>
   <data name="chocolate/descr" xml:space="preserve">
     <value>+10% ко всем навыкам и умениям экипажа.</value>
   </data>
   <data name="chocolate/name" xml:space="preserve">
     <value>Шоколад</value>
+  </data>
+  <data name="coatedOptics/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} к радиусу обзора, но не более 445 м</value>
+  </data>
+  <data name="coatedOptics/name" xml:space="preserve">
+    <value>Просветлённая оптика</value>
+  </data>
+  <data name="cocacola/descr" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа.</value>
+  </data>
+  <data name="cocacola/name" xml:space="preserve">
+    <value>Ящик Колы</value>
+  </data>
+  <data name="enhancedAimDrives/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} к скорости сведения</value>
+  </data>
+  <data name="enhancedAimDrives/name" xml:space="preserve">
+    <value>Усиленные приводы наводки</value>
+  </data>
+  <data name="enhancedBelwillWashers/name" xml:space="preserve">
+    <value>Усиленные шайбы Бельвилля</value>
+  </data>
+  <data name="enhancedLevers/name" xml:space="preserve">
+    <value>Усиленные балансиры</value>
+  </data>
+  <data name="enhancedLongitudinalTorsions/name" xml:space="preserve">
+    <value>Усиленные продольные торсионы</value>
+  </data>
+  <data name="enhancedSprings/name" xml:space="preserve">
+    <value>Усиленные рессоры</value>
+  </data>
+  <data name="enhancedSuspension/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
+{colorTagOpen}+20%{colorTagClose} к прочности ходовой
+{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
+  </data>
+  <data name="enhancedSuspension_Christie/name" xml:space="preserve">
+    <value>Усиленная подвеска Кристи</value>
+  </data>
+  <data name="enhancedSuspension_Vikkers/name" xml:space="preserve">
+    <value>Усиленная подвеска Виккерса</value>
+  </data>
+  <data name="enhancedSuspension_candle/name" xml:space="preserve">
+    <value>Усиленная свечная подвеска</value>
+  </data>
+  <data name="enhancedTorsions1t/name" xml:space="preserve">
+    <value>Усиленные торсионы 1 т класса</value>
+  </data>
+  <data name="enhancedTorsions3t/name" xml:space="preserve">
+    <value>Усиленные торсионы 3 т класса</value>
+  </data>
+  <data name="enhancedTorsions5t/name" xml:space="preserve">
+    <value>Усиленные торсионы 5+ т класса</value>
+  </data>
+  <data name="filterCyclone/descr" xml:space="preserve">
+    <value>{colorTagOpen}+50%{colorTagClose} к прочности двигателя</value>
+  </data>
+  <data name="filterCyclone/name" xml:space="preserve">
+    <value>Фильтр «Циклон»</value>
+  </data>
+  <data name="gasoline100/descr" xml:space="preserve">
+    <value>+5% к мощности двигателя и скорости вращения башни.</value>
+  </data>
+  <data name="gasoline100/name" xml:space="preserve">
+    <value>100-октановый бензин</value>
+  </data>
+  <data name="gasoline105/descr" xml:space="preserve">
+    <value>+10% к мощности двигателя и скорости вращения башни.</value>
+  </data>
+  <data name="gasoline105/name" xml:space="preserve">
+    <value>105-октановый бензин</value>
+  </data>
+  <data name="grousers/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} к проходимости по слабым грунтам,
+{colorTagOpen}+5%{colorTagClose} к проходимости по средним грунтам</value>
+  </data>
+  <data name="grousers/name" xml:space="preserve">
+    <value>Дополнительные грунтозацепы</value>
+  </data>
+  <data name="handExtinguishers/descr" xml:space="preserve">
+    <value>Тушение пожара в собственной машине.</value>
+  </data>
+  <data name="handExtinguishers/name" xml:space="preserve">
+    <value>Ручной огнетушитель</value>
+  </data>
+  <data name="improvedVentilation/descr" xml:space="preserve">
+    <value>{colorTagOpen}+5%{colorTagClose} ко всем умениям всего экипажа</value>
+  </data>
+  <data name="improvedVentilation_class1/name" xml:space="preserve">
+    <value>Улучшенная вентиляция Класс 1</value>
+  </data>
+  <data name="improvedVentilation_class2/name" xml:space="preserve">
+    <value>Улучшенная вентиляция Класс 2</value>
+  </data>
+  <data name="improvedVentilation_class3/name" xml:space="preserve">
+    <value>Улучшенная вентиляция Класс 3</value>
+  </data>
+  <data name="largeCaliberHowitzerRammer/name" xml:space="preserve">
+    <value>Гаубичный досылатель крупного калибра</value>
+  </data>
+  <data name="largeCaliberTankRammer/name" xml:space="preserve">
+    <value>Орудийный досылатель крупного калибра</value>
+  </data>
+  <data name="largeMedkit/descr" xml:space="preserve">
+    <value>Лечение всех раненых членов экипажа и снятие эффекта оглушения.</value>
+  </data>
+  <data name="largeMedkit/name" xml:space="preserve">
+    <value>Большая аптечка</value>
+  </data>
+  <data name="largeRepairkit/descr" xml:space="preserve">
+    <value>Починка всех повреждённых модулей.</value>
+  </data>
+  <data name="largeRepairkit/name" xml:space="preserve">
+    <value>Большой ремкомплект</value>
+  </data>
+  <data name="lendLeaseOil/descr" xml:space="preserve">
+    <value>+5% к мощности двигателя.</value>
+  </data>
+  <data name="lendLeaseOil/name" xml:space="preserve">
+    <value>Ленд-лизовское масло</value>
+  </data>
+  <data name="mediumCaliberHowitzerRammer/name" xml:space="preserve">
+    <value>Гаубичный досылатель среднего калибра</value>
+  </data>
+  <data name="mediumCaliberTankRammer/name" xml:space="preserve">
+    <value>Орудийный досылатель среднего калибра</value>
+  </data>
+  <data name="qualityOil/descr" xml:space="preserve">
+    <value>+5% к мощности двигателя.</value>
+  </data>
+  <data name="qualityOil/name" xml:space="preserve">
+    <value>Качественное масло</value>
+  </data>
+  <data name="rammer/descr" xml:space="preserve">
+    <value>{colorTagOpen}-10%{colorTagClose} от времени заряжания</value>
+  </data>
+  <data name="ration/descr" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа.</value>
+  </data>
+  <data name="ration/name" xml:space="preserve">
+    <value>Доппаёк</value>
+  </data>
+  <data name="ration_china/descr" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа.</value>
+  </data>
+  <data name="ration_china/name" xml:space="preserve">
+    <value>Улучшенный рацион</value>
+  </data>
+  <data name="removedRpmLimiter/descr" xml:space="preserve">
+    <value>Повышает мощность двигателя на 10%, но повреждает его.</value>
+  </data>
+  <data name="removedRpmLimiter/name" xml:space="preserve">
+    <value>Подкрученный регулятор оборотов двигателя</value>
+  </data>
+  <data name="smallMedkit/descr" xml:space="preserve">
+    <value>Лечение раненого члена экипажа и снятие эффекта оглушения.</value>
+  </data>
+  <data name="smallMedkit/name" xml:space="preserve">
+    <value>Малая аптечка</value>
+  </data>
+  <data name="smallRepairkit/descr" xml:space="preserve">
+    <value>Починка одного повреждённого модуля или обеих гусениц.</value>
+  </data>
+  <data name="smallRepairkit/name" xml:space="preserve">
+    <value>Малый ремкомплект</value>
+  </data>
+  <data name="stereoscope/descr" xml:space="preserve">
+    <value>{colorTagOpen}+25%{colorTagClose} к радиусу обзора из неподвижной машины,
+но не более 445 м</value>
+  </data>
+  <data name="stereoscope/name" xml:space="preserve">
+    <value>Стереотруба</value>
+  </data>
+  <data name="toolbox/descr" xml:space="preserve">
+    <value>{colorTagOpen}+25%{colorTagClose} к скорости ремонта</value>
+  </data>
+  <data name="toolbox/name" xml:space="preserve">
+    <value>Ящик с инструментами</value>
+  </data>
+  <data name="wetCombatPack/descr" xml:space="preserve">
+    <value>{colorTagOpen}+50%{colorTagClose} к прочности боеукладки</value>
+  </data>
+  <data name="wetCombatPack_class1/name" xml:space="preserve">
+    <value>«Мокрая» боеукладка Kласс 1</value>
+  </data>
+  <data name="wetCombatPack_class2/name" xml:space="preserve">
+    <value>«Мокрая» боеукладка Kласс 2</value>
+  </data>
+  <data name="hotCoffee/descr" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа.</value>
+  </data>
+  <data name="hotCoffee/name" xml:space="preserve">
+    <value>Крепкий кофе</value>
+  </data>
+  <data name="ration_uk/descr" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа.</value>
+  </data>
+  <data name="ration_uk/name" xml:space="preserve">
+    <value>Пудинг с чаем</value>
+  </data>
+  <data name="enhancedHorizontal_elastic_elements/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
+{colorTagOpen}+20%{colorTagClose} к прочности ходовой
+{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
+  </data>
+  <data name="enhancedHorizontal_elastic_elements/name" xml:space="preserve">
+    <value>Усиленные горизонтальные рессоры</value>
+  </data>
+  <data name="enhancedHorizontal_springs/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
+{colorTagOpen}+20%{colorTagClose} к прочности ходовой
+{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
+  </data>
+  <data name="enhancedHorizontal_springs/name" xml:space="preserve">
+    <value>Усиленные пружины 1-го класса</value>
+  </data>
+  <data name="enhancedHorizontal_springs_class2/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
+{colorTagOpen}+20%{colorTagClose} к прочности ходовой
+{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
+  </data>
+  <data name="enhancedHorizontal_springs_class2/name" xml:space="preserve">
+    <value>Усиленные пружины 2-го класса</value>
+  </data>
+  <data name="enhancedHorizontal_springs_class3/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
+{colorTagOpen}+20%{colorTagClose} к прочности ходовой
+{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
+  </data>
+  <data name="enhancedHorizontal_springs_class3/name" xml:space="preserve">
+    <value>Усиленные пружины 3-го класса</value>
+  </data>
+  <data name="enhancedSprings_class2/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
+{colorTagOpen}+20%{colorTagClose} к прочности ходовой
+{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
+  </data>
+  <data name="enhancedSprings_class2/name" xml:space="preserve">
+    <value>Усиленные рессоры 2-го класса</value>
+  </data>
+  <data name="enhancedSprings_class3/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
+{colorTagOpen}+20%{colorTagClose} к прочности ходовой
+{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
+  </data>
+  <data name="enhancedSprings_class3/name" xml:space="preserve">
+    <value>Усиленные рессоры 3-го класса</value>
+  </data>
+  <data name="enhancedVertical_elastic_elements/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
+{colorTagOpen}+20%{colorTagClose} к прочности ходовой
+{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
+  </data>
+  <data name="enhancedVertical_elastic_elements/name" xml:space="preserve">
+    <value>Усиленные вертикальные рессоры</value>
+  </data>
+  <data name="enhancedVertical_springs/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
+{colorTagOpen}+20%{colorTagClose} к прочности ходовой
+{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
+  </data>
+  <data name="enhancedVertical_springs/name" xml:space="preserve">
+    <value>Усиленные вертикальные пружины 1-го класса</value>
+  </data>
+  <data name="enhancedVertical_springs_class2/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
+{colorTagOpen}+20%{colorTagClose} к прочности ходовой
+{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
+  </data>
+  <data name="enhancedVertical_springs_class2/name" xml:space="preserve">
+    <value>Усил. вертикальные пружины 2-го класса</value>
+  </data>
+  <data name="enhancedVertical_springs_class3/descr" xml:space="preserve">
+    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
+{colorTagOpen}+20%{colorTagClose} к прочности ходовой
+{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
+  </data>
+  <data name="enhancedVertical_springs_class3/name" xml:space="preserve">
+    <value>Усил. вертикальные пружины 3-го класса</value>
+  </data>
+  <data name="antifragmentationLining_heavy/descr" xml:space="preserve">
+    <value>{colorTagOpen}+30%{colorTagClose} к абсорбции повреждений от взрывов и тарана
+{colorTagOpen}+30%{colorTagClose} к защите экипажа от ранений
+{colorTagOpen}-10%{colorTagClose} от времени оглушения</value>
+  </data>
+  <data name="antifragmentationLining_light/descr" xml:space="preserve">
+    <value>{colorTagOpen}+20%{colorTagClose} к абсорбции повреждений от взрывов и тарана
+{colorTagOpen}+20%{colorTagClose} к защите экипажа от ранений
+{colorTagOpen}-10%{colorTagClose} от времени оглушения</value>
+  </data>
+  <data name="antifragmentationLining_medium/descr" xml:space="preserve">
+    <value>{colorTagOpen}+25%{colorTagClose} к абсорбции повреждений от взрывов и тарана
+{colorTagOpen}+25%{colorTagClose} к защите экипажа от ранений
+{colorTagOpen}-10%{colorTagClose} от времени оглушения</value>
+  </data>
+  <data name="antifragmentationLining_superheavy/descr" xml:space="preserve">
+    <value>{colorTagOpen}+50%{colorTagClose} к абсорбции повреждений от взрывов и тарана
+{colorTagOpen}+50%{colorTagClose} к защите экипажа от ранений
+{colorTagOpen}-10%{colorTagClose} от времени оглушения</value>
+  </data>
+  <data name="antifragmentationLining_superheavy/name" xml:space="preserve">
+    <value>Сверхтяжёлый противоосколочный подбой</value>
+  </data>
+  <data name="autoExtinguishers/always" xml:space="preserve">
+    <value>+10% к защите от пожара.</value>
+  </data>
+  <data name="autoExtinguishers/onUse" xml:space="preserve">
+    <value>Автоматическое тушение пожара в собственной машине. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
+  </data>
+  <data name="autoExtinguishers/restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="chocolate/always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
   </data>
   <data name="chocolate/onUse" xml:space="preserve">
     <value>?empty?</value>
@@ -239,11 +495,237 @@
   <data name="chocolate/restriction" xml:space="preserve">
     <value>Только для техники Германии.</value>
   </data>
-  <data name="coatedOptics/descr" xml:space="preserve">
-    <value>{colorTagOpen}+10%{colorTagClose} к радиусу обзора, но не более 445 м</value>
+  <data name="cocacola/always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
   </data>
-  <data name="coatedOptics/name" xml:space="preserve">
-    <value>Просветлённая оптика</value>
+  <data name="cocacola/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="cocacola/restriction" xml:space="preserve">
+    <value>Только для техники США.</value>
+  </data>
+  <data name="gasoline100/always" xml:space="preserve">
+    <value>+5% к мощности двигателя и скорости вращения башни. Расходуется за один бой.</value>
+  </data>
+  <data name="gasoline100/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="gasoline100/restriction" xml:space="preserve">
+    <value>Только для бензиновых двигателей Германии, США, Великобритании, Франции, Чехословакии, Швеции, Польши.</value>
+  </data>
+  <data name="gasoline105/always" xml:space="preserve">
+    <value>+10% к мощности двигателя и скорости вращения башни. Расходуется за один бой.</value>
+  </data>
+  <data name="gasoline105/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="gasoline105/restriction" xml:space="preserve">
+    <value>Только для бензиновых двигателей Германии, США, Великобритании, Франции, Чехословакии, Швеции, Польши.</value>
+  </data>
+  <data name="handExtinguishers/always" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="handExtinguishers/onUse" xml:space="preserve">
+    <value>Тушение пожара в собственной машине. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
+  </data>
+  <data name="handExtinguishers/restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="hotCoffee/always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
+  </data>
+  <data name="hotCoffee/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="hotCoffee/restriction" xml:space="preserve">
+    <value>Только для техники Франции.</value>
+  </data>
+  <data name="largeMedkit/always" xml:space="preserve">
+    <value>-5% от времени оглушения.
++15% к защите экипажа от ранений.</value>
+  </data>
+  <data name="largeMedkit/onUse" xml:space="preserve">
+    <value>Лечение всех раненых членов экипажа. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
+  </data>
+  <data name="largeMedkit/restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="largeRepairkit/always" xml:space="preserve">
+    <value>+10% к скорости ремонта модулей.</value>
+  </data>
+  <data name="largeRepairkit/onUse" xml:space="preserve">
+    <value>Починка всех повреждённых модулей. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
+  </data>
+  <data name="largeRepairkit/restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="lendLeaseOil/always" xml:space="preserve">
+    <value>+5% к мощности двигателя. Расходуется за один бой.</value>
+  </data>
+  <data name="lendLeaseOil/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="lendLeaseOil/restriction" xml:space="preserve">
+    <value>Только для техники СССР.</value>
+  </data>
+  <data name="qualityOil/always" xml:space="preserve">
+    <value>+5% к мощности двигателя. Расходуется за один бой.</value>
+  </data>
+  <data name="qualityOil/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="qualityOil/restriction" xml:space="preserve">
+    <value>Только для техники Китая и Японии.</value>
+  </data>
+  <data name="ration/always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
+  </data>
+  <data name="ration/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="ration/restriction" xml:space="preserve">
+    <value>Только для техники СССР.</value>
+  </data>
+  <data name="ration_china/always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
+  </data>
+  <data name="ration_china/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="ration_china/restriction" xml:space="preserve">
+    <value>Только для техники Китая.</value>
+  </data>
+  <data name="ration_uk/always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
+  </data>
+  <data name="ration_uk/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="ration_uk/restriction" xml:space="preserve">
+    <value>Только для техники Великобритании.</value>
+  </data>
+  <data name="removedRpmLimiter/always" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="removedRpmLimiter/onUse" xml:space="preserve">
+    <value>Повышает мощность двигателя на 10%, но повреждает его. Используется многократно.</value>
+  </data>
+  <data name="removedRpmLimiter/restriction" xml:space="preserve">
+    <value>Только для техники СССР и Китая.</value>
+  </data>
+  <data name="smallMedkit/always" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="smallMedkit/onUse" xml:space="preserve">
+    <value>Лечение раненого члена экипажа. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
+  </data>
+  <data name="smallMedkit/restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="smallRepairkit/always" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="smallRepairkit/onUse" xml:space="preserve">
+    <value>Починка одного повреждённого модуля или двух повреждённых гусениц. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
+  </data>
+  <data name="smallRepairkit/restriction" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="ration_japan/always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
+  </data>
+  <data name="ration_japan/descr" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа.</value>
+  </data>
+  <data name="ration_japan/name" xml:space="preserve">
+    <value>Онигири</value>
+  </data>
+  <data name="ration_japan/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="ration_japan/restriction" xml:space="preserve">
+    <value>Только для техники Японии.</value>
+  </data>
+  <data name="artillery/descr" xml:space="preserve">
+    <value>При использовании даёт артбатарее команду произвести залп в указанный квадрат карты.</value>
+  </data>
+  <data name="artillery/name" xml:space="preserve">
+    <value>Артобстрел</value>
+  </data>
+  <data name="artillery_1april/descr" xml:space="preserve">
+    <value>Вызов сокрушительного удара артиллерии в указанную зону</value>
+  </data>
+  <data name="artillery_1april/name" xml:space="preserve">
+    <value>Секретное оружие</value>
+  </data>
+  <data name="bomber/descr" xml:space="preserve">
+    <value>При использовании даёт бомбардировщику команду взлететь и произвести бомбометание в указанном квадрате карты.</value>
+  </data>
+  <data name="bomber/name" xml:space="preserve">
+    <value>Авиаудар</value>
+  </data>
+  <data name="ration_czech/always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
+  </data>
+  <data name="ration_czech/descr" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа.</value>
+  </data>
+  <data name="ration_czech/name" xml:space="preserve">
+    <value>Бухты</value>
+  </data>
+  <data name="ration_czech/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="ration_czech/restriction" xml:space="preserve">
+    <value>Только для техники Чехословакии.</value>
+  </data>
+  <data name="ration_sweden/always" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
+  </data>
+  <data name="ration_sweden/descr" xml:space="preserve">
+    <value>+10% ко всем навыкам и умениям экипажа.</value>
+  </data>
+  <data name="ration_sweden/name" xml:space="preserve">
+    <value>Кофе с выпечкой</value>
+  </data>
+  <data name="ration_sweden/onUse" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="ration_sweden/restriction" xml:space="preserve">
+    <value>Только для техники Швеции.</value>
+  </data>
+  <data name="largeMedkit/removingStun/onUse" xml:space="preserve">
+    <value>Лечение всех раненых членов экипажа и снятие эффекта оглушения. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
+  </data>
+  <data name="largeMedkit/stunDisabled/descr" xml:space="preserve">
+    <value>Лечение всех раненых членов экипажа.</value>
+  </data>
+  <data name="smallMedkit/removingStun/onUse" xml:space="preserve">
+    <value>Лечение раненого члена экипажа и снятие эффекта оглушения. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
+  </data>
+  <data name="smallMedkit/stunDisabled/descr" xml:space="preserve">
+    <value>Лечение раненого члена экипажа.</value>
+  </data>
+  <data name="aimingStabilizerBattleBooster/descr" xml:space="preserve">
+    <value>%s от разброса при движении и повороте башни при установленном оборудовании «Стабилизатор вертикальной наводки» (Mk1 и Mk2) или «Комплекс стабилизационного оборудования».</value>
+  </data>
+  <data name="aimingStabilizerBattleBooster/gain/deluxe" xml:space="preserve">
+    <value>-5%</value>
+  </data>
+  <data name="aimingStabilizerBattleBooster/gain/simple" xml:space="preserve">
+    <value>-5%</value>
+  </data>
+  <data name="aimingStabilizerBattleBooster/name" xml:space="preserve">
+    <value>Смазка стабилизаторов</value>
+  </data>
+  <data name="camouflageBattleBooster/action/boost" xml:space="preserve">
+    <value>Добавляет дополнительные 10% к незаметности машины</value>
+  </data>
+  <data name="camouflageBattleBooster/action/perk" xml:space="preserve">
+    <value>Даёт 100% умение «Маскировка» всему экипажу</value>
+  </data>
+  <data name="camouflageBattleBooster/name" xml:space="preserve">
+    <value>Укрытия на местности</value>
   </data>
   <data name="coatedOpticsBattleBooster/descr" xml:space="preserve">
     <value>%s к радиусу обзора, но не более 445 м. при установленном оборудовании «Просветлённая оптика» или «Юстированная оптика».</value>
@@ -256,21 +738,6 @@
   </data>
   <data name="coatedOpticsBattleBooster/name" xml:space="preserve">
     <value>Калибровка оптики</value>
-  </data>
-  <data name="cocacola/always" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
-  </data>
-  <data name="cocacola/descr" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа.</value>
-  </data>
-  <data name="cocacola/name" xml:space="preserve">
-    <value>Ящик Колы</value>
-  </data>
-  <data name="cocacola/onUse" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="cocacola/restriction" xml:space="preserve">
-    <value>Только для техники США.</value>
   </data>
   <data name="crewBattleBooster/descr/boost" xml:space="preserve">
     <value>Усиливает</value>
@@ -323,12 +790,6 @@
   <data name="deluxToolbox/name" xml:space="preserve">
     <value>Расширенный набор ЗИП</value>
   </data>
-  <data name="enhancedAimDrives/descr" xml:space="preserve">
-    <value>{colorTagOpen}+10%{colorTagClose} к скорости сведения</value>
-  </data>
-  <data name="enhancedAimDrives/name" xml:space="preserve">
-    <value>Усиленные приводы наводки</value>
-  </data>
   <data name="enhancedAimDrivesBattleBooster/descr" xml:space="preserve">
     <value>%s к скорости сведения при установленном оборудовании «Усиленные приводы наводки» или «Износостойкие приводы наводки».</value>
   </data>
@@ -341,127 +802,6 @@
   <data name="enhancedAimDrivesBattleBooster/name" xml:space="preserve">
     <value>Настройка прицела</value>
   </data>
-  <data name="enhancedBelwillWashers/name" xml:space="preserve">
-    <value>Усиленные шайбы Бельвилля</value>
-  </data>
-  <data name="enhancedHorizontal_elastic_elements/descr" xml:space="preserve">
-    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
-  </data>
-  <data name="enhancedHorizontal_elastic_elements/name" xml:space="preserve">
-    <value>Усиленные горизонтальные рессоры</value>
-  </data>
-  <data name="enhancedHorizontal_springs/descr" xml:space="preserve">
-    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
-  </data>
-  <data name="enhancedHorizontal_springs/name" xml:space="preserve">
-    <value>Усиленные пружины 1-го класса</value>
-  </data>
-  <data name="enhancedHorizontal_springs_class2/descr" xml:space="preserve">
-    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
-  </data>
-  <data name="enhancedHorizontal_springs_class2/name" xml:space="preserve">
-    <value>Усиленные пружины 2-го класса</value>
-  </data>
-  <data name="enhancedHorizontal_springs_class3/descr" xml:space="preserve">
-    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
-  </data>
-  <data name="enhancedHorizontal_springs_class3/name" xml:space="preserve">
-    <value>Усиленные пружины 3-го класса</value>
-  </data>
-  <data name="enhancedLevers/name" xml:space="preserve">
-    <value>Усиленные балансиры</value>
-  </data>
-  <data name="enhancedLongitudinalTorsions/name" xml:space="preserve">
-    <value>Усиленные продольные торсионы</value>
-  </data>
-  <data name="enhancedSprings/name" xml:space="preserve">
-    <value>Усиленные рессоры</value>
-  </data>
-  <data name="enhancedSprings_class2/descr" xml:space="preserve">
-    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
-  </data>
-  <data name="enhancedSprings_class2/name" xml:space="preserve">
-    <value>Усиленные рессоры 2-го класса</value>
-  </data>
-  <data name="enhancedSprings_class3/descr" xml:space="preserve">
-    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
-  </data>
-  <data name="enhancedSprings_class3/name" xml:space="preserve">
-    <value>Усиленные рессоры 3-го класса</value>
-  </data>
-  <data name="enhancedSuspension/descr" xml:space="preserve">
-    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
-  </data>
-  <data name="enhancedSuspension_Christie/name" xml:space="preserve">
-    <value>Усиленная подвеска Кристи</value>
-  </data>
-  <data name="enhancedSuspension_Vikkers/name" xml:space="preserve">
-    <value>Усиленная подвеска Виккерса</value>
-  </data>
-  <data name="enhancedSuspension_candle/name" xml:space="preserve">
-    <value>Усиленная свечная подвеска</value>
-  </data>
-  <data name="enhancedTorsions1t/name" xml:space="preserve">
-    <value>Усиленные торсионы 1 т класса</value>
-  </data>
-  <data name="enhancedTorsions3t/name" xml:space="preserve">
-    <value>Усиленные торсионы 3 т класса</value>
-  </data>
-  <data name="enhancedTorsions5t/name" xml:space="preserve">
-    <value>Усиленные торсионы 5+ т класса</value>
-  </data>
-  <data name="enhancedVertical_elastic_elements/descr" xml:space="preserve">
-    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
-  </data>
-  <data name="enhancedVertical_elastic_elements/name" xml:space="preserve">
-    <value>Усиленные вертикальные рессоры</value>
-  </data>
-  <data name="enhancedVertical_springs/descr" xml:space="preserve">
-    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
-  </data>
-  <data name="enhancedVertical_springs/name" xml:space="preserve">
-    <value>Усиленные вертикальные пружины 1-го класса</value>
-  </data>
-  <data name="enhancedVertical_springs_class2/descr" xml:space="preserve">
-    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
-  </data>
-  <data name="enhancedVertical_springs_class2/name" xml:space="preserve">
-    <value>Усил. вертикальные пружины 2-го класса</value>
-  </data>
-  <data name="enhancedVertical_springs_class3/descr" xml:space="preserve">
-    <value>{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении</value>
-  </data>
-  <data name="enhancedVertical_springs_class3/name" xml:space="preserve">
-    <value>Усил. вертикальные пружины 3-го класса</value>
-  </data>
-  <data name="filterCyclone/descr" xml:space="preserve">
-    <value>{colorTagOpen}+50%{colorTagClose} к прочности двигателя</value>
-  </data>
-  <data name="filterCyclone/name" xml:space="preserve">
-    <value>Фильтр «Циклон»</value>
-  </data>
   <data name="fireFightingBattleBooster/action/boost" xml:space="preserve">
     <value>Ускоряет тушение пожара на дополнительные 50%</value>
   </data>
@@ -470,76 +810,6 @@
   </data>
   <data name="fireFightingBattleBooster/name" xml:space="preserve">
     <value>Искусство сбивать пламя</value>
-  </data>
-  <data name="gasoline100/always" xml:space="preserve">
-    <value>+5% к мощности двигателя и скорости вращения башни. Расходуется за один бой.</value>
-  </data>
-  <data name="gasoline100/descr" xml:space="preserve">
-    <value>+5% к мощности двигателя и скорости вращения башни.</value>
-  </data>
-  <data name="gasoline100/name" xml:space="preserve">
-    <value>100-октановый бензин</value>
-  </data>
-  <data name="gasoline100/onUse" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="gasoline100/restriction" xml:space="preserve">
-    <value>Только для бензиновых двигателей Германии, США, Великобритании, Франции, Чехословакии, Швеции, Польши.</value>
-  </data>
-  <data name="gasoline105/always" xml:space="preserve">
-    <value>+10% к мощности двигателя и скорости вращения башни. Расходуется за один бой.</value>
-  </data>
-  <data name="gasoline105/descr" xml:space="preserve">
-    <value>+10% к мощности двигателя и скорости вращения башни.</value>
-  </data>
-  <data name="gasoline105/name" xml:space="preserve">
-    <value>105-октановый бензин</value>
-  </data>
-  <data name="gasoline105/onUse" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="gasoline105/restriction" xml:space="preserve">
-    <value>Только для бензиновых двигателей Германии, США, Великобритании, Франции, Чехословакии, Швеции, Польши.</value>
-  </data>
-  <data name="grousers/descr" xml:space="preserve">
-    <value>{colorTagOpen}+10%{colorTagClose} к проходимости по слабым грунтам,
-{colorTagOpen}+5%{colorTagClose} к проходимости по средним грунтам</value>
-  </data>
-  <data name="grousers/name" xml:space="preserve">
-    <value>Дополнительные грунтозацепы</value>
-  </data>
-  <data name="handExtinguishers/always" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="handExtinguishers/descr" xml:space="preserve">
-    <value>Тушение пожара в собственной машине.</value>
-  </data>
-  <data name="handExtinguishers/name" xml:space="preserve">
-    <value>Ручной огнетушитель</value>
-  </data>
-  <data name="handExtinguishers/onUse" xml:space="preserve">
-    <value>Тушение пожара в собственной машине. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
-  </data>
-  <data name="handExtinguishers/restriction" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="hotCoffee/always" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
-  </data>
-  <data name="hotCoffee/descr" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа.</value>
-  </data>
-  <data name="hotCoffee/name" xml:space="preserve">
-    <value>Крепкий кофе</value>
-  </data>
-  <data name="hotCoffee/onUse" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="hotCoffee/restriction" xml:space="preserve">
-    <value>Только для техники Франции.</value>
-  </data>
-  <data name="improvedVentilation/descr" xml:space="preserve">
-    <value>{colorTagOpen}+5%{colorTagClose} ко всем умениям всего экипажа</value>
   </data>
   <data name="improvedVentilationBattleBooster/descr" xml:space="preserve">
     <value>%s ко всем умениям всего экипажа при установленном оборудовании «Улучшенная вентиляция» (любого класса) или «Система отвода пороховых газов».</value>
@@ -553,58 +823,6 @@
   <data name="improvedVentilationBattleBooster/name" xml:space="preserve">
     <value>Продувка воздуховодов</value>
   </data>
-  <data name="improvedVentilation_class1/name" xml:space="preserve">
-    <value>Улучшенная вентиляция Класс 1</value>
-  </data>
-  <data name="improvedVentilation_class2/name" xml:space="preserve">
-    <value>Улучшенная вентиляция Класс 2</value>
-  </data>
-  <data name="improvedVentilation_class3/name" xml:space="preserve">
-    <value>Улучшенная вентиляция Класс 3</value>
-  </data>
-  <data name="largeCaliberHowitzerRammer/name" xml:space="preserve">
-    <value>Гаубичный досылатель крупного калибра</value>
-  </data>
-  <data name="largeCaliberTankRammer/name" xml:space="preserve">
-    <value>Орудийный досылатель крупного калибра</value>
-  </data>
-  <data name="largeMedkit/always" xml:space="preserve">
-    <value>-5% от времени оглушения.
-+15% к защите экипажа от ранений.</value>
-  </data>
-  <data name="largeMedkit/descr" xml:space="preserve">
-    <value>Лечение всех раненых членов экипажа и снятие эффекта оглушения.</value>
-  </data>
-  <data name="largeMedkit/name" xml:space="preserve">
-    <value>Большая аптечка</value>
-  </data>
-  <data name="largeMedkit/onUse" xml:space="preserve">
-    <value>Лечение всех раненых членов экипажа. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
-  </data>
-  <data name="largeMedkit/removingStun/onUse" xml:space="preserve">
-    <value>Лечение всех раненых членов экипажа и снятие эффекта оглушения. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
-  </data>
-  <data name="largeMedkit/restriction" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="largeMedkit/stunDisabled/descr" xml:space="preserve">
-    <value>Лечение всех раненых членов экипажа.</value>
-  </data>
-  <data name="largeRepairkit/always" xml:space="preserve">
-    <value>+10% к скорости ремонта модулей.</value>
-  </data>
-  <data name="largeRepairkit/descr" xml:space="preserve">
-    <value>Починка всех повреждённых модулей.</value>
-  </data>
-  <data name="largeRepairkit/name" xml:space="preserve">
-    <value>Большой ремкомплект</value>
-  </data>
-  <data name="largeRepairkit/onUse" xml:space="preserve">
-    <value>Починка всех повреждённых модулей. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
-  </data>
-  <data name="largeRepairkit/restriction" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
   <data name="lastEffortBattleBooster/action/boost" xml:space="preserve">
     <value>Увеличивает время, в течение которого позволяет радисту, не выведенному из строя на момент уничтожения машины, передавать разведданные по технике противника на дополнительные 3 с к базовому времени действия навыка</value>
   </data>
@@ -614,27 +832,6 @@
   <data name="lastEffortBattleBooster/name" xml:space="preserve">
     <value>Долг превыше всего</value>
   </data>
-  <data name="lendLeaseOil/always" xml:space="preserve">
-    <value>+5% к мощности двигателя. Расходуется за один бой.</value>
-  </data>
-  <data name="lendLeaseOil/descr" xml:space="preserve">
-    <value>+5% к мощности двигателя.</value>
-  </data>
-  <data name="lendLeaseOil/name" xml:space="preserve">
-    <value>Ленд-лизовское масло</value>
-  </data>
-  <data name="lendLeaseOil/onUse" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="lendLeaseOil/restriction" xml:space="preserve">
-    <value>Только для техники СССР.</value>
-  </data>
-  <data name="mediumCaliberHowitzerRammer/name" xml:space="preserve">
-    <value>Гаубичный досылатель среднего калибра</value>
-  </data>
-  <data name="mediumCaliberTankRammer/name" xml:space="preserve">
-    <value>Орудийный досылатель среднего калибра</value>
-  </data>
   <data name="pedantBattleBooster/action/boost" xml:space="preserve">
     <value>Дополнительно увеличивает прочность боеукладки на 37,5%</value>
   </data>
@@ -643,24 +840,6 @@
   </data>
   <data name="pedantBattleBooster/name" xml:space="preserve">
     <value>Разложить снаряды</value>
-  </data>
-  <data name="qualityOil/always" xml:space="preserve">
-    <value>+5% к мощности двигателя. Расходуется за один бой.</value>
-  </data>
-  <data name="qualityOil/descr" xml:space="preserve">
-    <value>+5% к мощности двигателя.</value>
-  </data>
-  <data name="qualityOil/name" xml:space="preserve">
-    <value>Качественное масло</value>
-  </data>
-  <data name="qualityOil/onUse" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="qualityOil/restriction" xml:space="preserve">
-    <value>Только для техники Китая и Японии.</value>
-  </data>
-  <data name="rammer/descr" xml:space="preserve">
-    <value>{colorTagOpen}-10%{colorTagClose} от времени заряжания</value>
   </data>
   <data name="rammerBattleBooster/descr" xml:space="preserve">
     <value>%s от времени заряжания орудия при установленном оборудовании «Досылатель» (любого типа орудия и калибра) или «Экспериментальная система заряжания».</value>
@@ -683,66 +862,6 @@
   <data name="rancorousBattleBooster/name" xml:space="preserve">
     <value>Концентрация на цели</value>
   </data>
-  <data name="ration/always" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
-  </data>
-  <data name="ration/descr" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа.</value>
-  </data>
-  <data name="ration/name" xml:space="preserve">
-    <value>Доппаёк</value>
-  </data>
-  <data name="ration/onUse" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="ration/restriction" xml:space="preserve">
-    <value>Только для техники СССР.</value>
-  </data>
-  <data name="ration_china/always" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
-  </data>
-  <data name="ration_china/descr" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа.</value>
-  </data>
-  <data name="ration_china/name" xml:space="preserve">
-    <value>Улучшенный рацион</value>
-  </data>
-  <data name="ration_china/onUse" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="ration_china/restriction" xml:space="preserve">
-    <value>Только для техники Китая.</value>
-  </data>
-  <data name="ration_czech/always" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
-  </data>
-  <data name="ration_czech/descr" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа.</value>
-  </data>
-  <data name="ration_czech/name" xml:space="preserve">
-    <value>Бухты</value>
-  </data>
-  <data name="ration_czech/onUse" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="ration_czech/restriction" xml:space="preserve">
-    <value>Только для техники Чехословакии.</value>
-  </data>
-  <data name="ration_japan/always" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
-  </data>
-  <data name="ration_japan/descr" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа.</value>
-  </data>
-  <data name="ration_japan/name" xml:space="preserve">
-    <value>Онигири</value>
-  </data>
-  <data name="ration_japan/onUse" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="ration_japan/restriction" xml:space="preserve">
-    <value>Только для техники Японии.</value>
-  </data>
   <data name="ration_poland/always" xml:space="preserve">
     <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
   </data>
@@ -758,51 +877,6 @@
   <data name="ration_poland/restriction" xml:space="preserve">
     <value>Только для техники Польши.</value>
   </data>
-  <data name="ration_sweden/always" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
-  </data>
-  <data name="ration_sweden/descr" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа.</value>
-  </data>
-  <data name="ration_sweden/name" xml:space="preserve">
-    <value>Кофе с выпечкой</value>
-  </data>
-  <data name="ration_sweden/onUse" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="ration_sweden/restriction" xml:space="preserve">
-    <value>Только для техники Швеции.</value>
-  </data>
-  <data name="ration_uk/always" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.</value>
-  </data>
-  <data name="ration_uk/descr" xml:space="preserve">
-    <value>+10% ко всем навыкам и умениям экипажа.</value>
-  </data>
-  <data name="ration_uk/name" xml:space="preserve">
-    <value>Пудинг с чаем</value>
-  </data>
-  <data name="ration_uk/onUse" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="ration_uk/restriction" xml:space="preserve">
-    <value>Только для техники Великобритании.</value>
-  </data>
-  <data name="removedRpmLimiter/always" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="removedRpmLimiter/descr" xml:space="preserve">
-    <value>Повышает мощность двигателя на 10%, но повреждает его.</value>
-  </data>
-  <data name="removedRpmLimiter/name" xml:space="preserve">
-    <value>Подкрученный регулятор оборотов двигателя</value>
-  </data>
-  <data name="removedRpmLimiter/onUse" xml:space="preserve">
-    <value>Повышает мощность двигателя на 10%, но повреждает его. Используется многократно.</value>
-  </data>
-  <data name="removedRpmLimiter/restriction" xml:space="preserve">
-    <value>Только для техники СССР и Китая.</value>
-  </data>
   <data name="sixthSenseBattleBooster/action/boost" xml:space="preserve">
     <value>Уменьшает время срабатывания навыка «Шестое чувство» на 1 с</value>
   </data>
@@ -811,42 +885,6 @@
   </data>
   <data name="sixthSenseBattleBooster/name" xml:space="preserve">
     <value>Повышенное внимание</value>
-  </data>
-  <data name="smallMedkit/always" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="smallMedkit/descr" xml:space="preserve">
-    <value>Лечение раненого члена экипажа и снятие эффекта оглушения.</value>
-  </data>
-  <data name="smallMedkit/name" xml:space="preserve">
-    <value>Малая аптечка</value>
-  </data>
-  <data name="smallMedkit/onUse" xml:space="preserve">
-    <value>Лечение раненого члена экипажа. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
-  </data>
-  <data name="smallMedkit/removingStun/onUse" xml:space="preserve">
-    <value>Лечение раненого члена экипажа и снятие эффекта оглушения. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
-  </data>
-  <data name="smallMedkit/restriction" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="smallMedkit/stunDisabled/descr" xml:space="preserve">
-    <value>Лечение раненого члена экипажа.</value>
-  </data>
-  <data name="smallRepairkit/always" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="smallRepairkit/descr" xml:space="preserve">
-    <value>Починка одного повреждённого модуля или обеих гусениц.</value>
-  </data>
-  <data name="smallRepairkit/name" xml:space="preserve">
-    <value>Малый ремкомплект</value>
-  </data>
-  <data name="smallRepairkit/onUse" xml:space="preserve">
-    <value>Починка одного повреждённого модуля или двух повреждённых гусениц. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
-  </data>
-  <data name="smallRepairkit/restriction" xml:space="preserve">
-    <value>?empty?</value>
   </data>
   <data name="smoothDrivingBattleBooster/action/boost" xml:space="preserve">
     <value>Удваивает эффект от умения «Плавный ход»</value>
@@ -865,19 +903,6 @@
   </data>
   <data name="smoothTurretBattleBooster/name" xml:space="preserve">
     <value>Без резких движений</value>
-  </data>
-  <data name="stereoscope/descr" xml:space="preserve">
-    <value>{colorTagOpen}+25%{colorTagClose} к радиусу обзора из неподвижной машины,
-но не более 445 м</value>
-  </data>
-  <data name="stereoscope/name" xml:space="preserve">
-    <value>Стереотруба</value>
-  </data>
-  <data name="toolbox/descr" xml:space="preserve">
-    <value>{colorTagOpen}+25%{colorTagClose} к скорости ремонта</value>
-  </data>
-  <data name="toolbox/name" xml:space="preserve">
-    <value>Ящик с инструментами</value>
   </data>
   <data name="toolboxBattleBooster/descr" xml:space="preserve">
     <value>%s к скорости ремонта при установленном оборудовании «Ящик с инструментами» или «Расширенный набор ЗИП».</value>
@@ -899,14 +924,5 @@
   </data>
   <data name="virtuosoBattleBooster/name" xml:space="preserve">
     <value>Полоса препятствий</value>
-  </data>
-  <data name="wetCombatPack/descr" xml:space="preserve">
-    <value>{colorTagOpen}+50%{colorTagClose} к прочности боеукладки</value>
-  </data>
-  <data name="wetCombatPack_class1/name" xml:space="preserve">
-    <value>«Мокрая» боеукладка Kласс 1</value>
-  </data>
-  <data name="wetCombatPack_class2/name" xml:space="preserve">
-    <value>«Мокрая» боеукладка Kласс 2</value>
   </data>
 </root>

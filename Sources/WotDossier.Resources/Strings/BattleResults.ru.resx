@@ -1,0 +1,1187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="common/battleEfficiency/none" xml:space="preserve">
+    <value>Вы не обнаружили и не повредили ни одной машины противника.</value>
+  </data>
+  <data name="common/battleEfficiency/title" xml:space="preserve">
+    <value>Боевая эффективность</value>
+  </data>
+  <data name="common/details/buyPremiumBtn" xml:space="preserve">
+    <value>Купить премиум</value>
+  </data>
+  <data name="common/details/creditsTitle" xml:space="preserve">
+    <value>Кредиты</value>
+  </data>
+  <data name="common/details/detailedReportBtn" xml:space="preserve">
+    <value>Подробный отчёт</value>
+  </data>
+  <data name="common/details/noPremTitle" xml:space="preserve">
+    <value>Без премиума</value>
+  </data>
+  <data name="common/details/premTitle" xml:space="preserve">
+    <value>С премиумом</value>
+  </data>
+  <data name="common/details/xpTitle" xml:space="preserve">
+    <value>Опыт</value>
+  </data>
+  <data name="common/details/xpTitleFirstVictory" xml:space="preserve">
+    <value> (х%d за первую победу в день)</value>
+  </data>
+  <data name="common/tooltip/crits" xml:space="preserve">
+    <value>Вы нанесли критических повреждений: %s</value>
+  </data>
+  <data name="common/tooltip/damage" xml:space="preserve">
+    <value>Вы нанесли очков урона: %s</value>
+  </data>
+  <data name="common/tooltip/evil" xml:space="preserve">
+    <value>По вашим разведданным союзники нанесли очков урона: %s</value>
+  </data>
+  <data name="common/tooltip/kill" xml:space="preserve">
+    <value>Вы уничтожили этот танк противника.</value>
+  </data>
+  <data name="common/tooltip/spotted" xml:space="preserve">
+    <value>Вы обнаружили этот танк противника.</value>
+  </data>
+  <data name="common/tooltip/teamKill" xml:space="preserve">
+    <value>Вы уничтожили этот танк союзника.</value>
+  </data>
+  <data name="common/unknownPlayerName" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="common/unknownVehicleName" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="common/vehicleState/alive" xml:space="preserve">
+    <value>Выжил</value>
+  </data>
+  <data name="common/vehicleState/dead" xml:space="preserve">
+    <value>Уничтожен (%s)</value>
+  </data>
+  <data name="common/xpMultiplierSign" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="details/calculations/aogas" xml:space="preserve">
+    <value>Понижающий коэффициент (AOGAS)</value>
+  </data>
+  <data name="details/calculations/autoEquip" xml:space="preserve">
+    <value>Автопополнение снаряжения</value>
+  </data>
+  <data name="details/calculations/autoLoad" xml:space="preserve">
+    <value>Автопополнение боекомплекта</value>
+  </data>
+  <data name="details/calculations/autoRepair" xml:space="preserve">
+    <value>Автоматический ремонт техники</value>
+  </data>
+  <data name="details/calculations/base" xml:space="preserve">
+    <value>Начислено за бой</value>
+  </data>
+  <data name="details/calculations/event" xml:space="preserve">
+    <value>Награда за выполнение боевых задач</value>
+  </data>
+  <data name="details/calculations/firstWin" xml:space="preserve">
+    <value>Награда за первую победу в день</value>
+  </data>
+  <data name="details/calculations/friendlyFireCompensation" xml:space="preserve">
+    <value>Компенсация за урон от союзников</value>
+  </data>
+  <data name="details/calculations/friendlyFirePenalty" xml:space="preserve">
+    <value>Штраф за урон союзникам</value>
+  </data>
+  <data name="details/calculations/total" xml:space="preserve">
+    <value>Итого:</value>
+  </data>
+  <data name="details/calculations/xpRecord" xml:space="preserve">
+    <value>Начислено за бой (%(color_tag_open)sрекорд%(color_tag_close)s)</value>
+  </data>
+  <data name="details/credits" xml:space="preserve">
+    <value>Кредиты</value>
+  </data>
+  <data name="details/prem" xml:space="preserve">
+    <value>С премиумом</value>
+  </data>
+  <data name="details/stats" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="details/time" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="details/time/lbl" xml:space="preserve">
+    <value>Начало боя
+Продолжительность боя
+Время в бою до уничтожения</value>
+  </data>
+  <data name="details/time/value" xml:space="preserve">
+    <value>%d мин %d с</value>
+  </data>
+  <data name="details/xp" xml:space="preserve">
+    <value>Опыт</value>
+  </data>
+  <data name="finish/reason/0" xml:space="preserve">
+    <value>Причина неизвестна</value>
+  </data>
+  <data name="finish/reason/1lose" xml:space="preserve">
+    <value>Вся техника союзников уничтожена</value>
+  </data>
+  <data name="finish/reason/1tie" xml:space="preserve">
+    <value>Вся техника уничтожена</value>
+  </data>
+  <data name="finish/reason/1win" xml:space="preserve">
+    <value>Вся техника противника уничтожена</value>
+  </data>
+  <data name="finish/reason/2" xml:space="preserve">
+    <value>Захват базы</value>
+  </data>
+  <data name="finish/reason/3" xml:space="preserve">
+    <value>Время боя истекло</value>
+  </data>
+  <data name="finish/reason/4" xml:space="preserve">
+    <value>Бой прекращён по причине сбоя</value>
+  </data>
+  <data name="finish/reason/5" xml:space="preserve">
+    <value>Техническое поражение</value>
+  </data>
+  <data name="noData" xml:space="preserve">
+    <value>Извините, подробные результаты боя недоступны.</value>
+  </data>
+  <data name="tankSelector/next" xml:space="preserve">
+    <value>Следующая машина с</value>
+  </data>
+  <data name="team/fragHeader" xml:space="preserve">
+    <value>Тултип с описанием колонки фрагов</value>
+  </data>
+  <data name="team/healthHeader" xml:space="preserve">
+    <value>Тултип с описанием колонки HP</value>
+  </data>
+  <data name="team/medalHeader" xml:space="preserve">
+    <value>Тултип с описанием колонки медалей</value>
+  </data>
+  <data name="team/playerHeader" xml:space="preserve">
+    <value>Тултип с описанием колонки игроков</value>
+  </data>
+  <data name="team/squadHeader" xml:space="preserve">
+    <value>Тултип с описанием колонки взводов</value>
+  </data>
+  <data name="team/stats/close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="team/stats/enemyTeam" xml:space="preserve">
+    <value>Противник</value>
+  </data>
+  <data name="team/stats/labels" xml:space="preserve">
+    <value>Произведено выстрелов
+	прямых попаданий
+	фугасных повреждений
+	пробитий
+Нанесено урона
+Получено попаданий
+Урон союзникам (уничтожено/повреждений)
+Обнаружено противников
+Повреждено противников
+Уничтожено противников
+Урон по разведданным
+Очки захвата базы
+Очки защиты базы
+Пройдено</value>
+  </data>
+  <data name="team/stats/mileage" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="team/stats/ownTeam" xml:space="preserve">
+    <value>Союзники</value>
+  </data>
+  <data name="team/tankHeader" xml:space="preserve">
+    <value>Тултип с описанием колонки танков</value>
+  </data>
+  <data name="team/xpHeader" xml:space="preserve">
+    <value>Тултип с описанием колонки XP</value>
+  </data>
+  <data name="details/time/lbl_arenaCreateTimeOnlyStr" xml:space="preserve">
+    <value>Начало боя</value>
+  </data>
+  <data name="details/time/lbl_duration" xml:space="preserve">
+    <value>Продолжительность боя</value>
+  </data>
+  <data name="details/time/lbl_playerKilled" xml:space="preserve">
+    <value>Время в бою до уничтожения</value>
+  </data>
+  <data name="team/stats/labels_capturePoints" xml:space="preserve">
+    <value>Очки захвата базы</value>
+  </data>
+  <data name="team/stats/labels_damageAssisted" xml:space="preserve">
+    <value>Урон, нанесённый с помощью данного игрока</value>
+  </data>
+  <data name="team/stats/labels_damageDealt" xml:space="preserve">
+    <value>Всего нанесено урона:</value>
+  </data>
+  <data name="team/stats/labels_damaged" xml:space="preserve">
+    <value>Повреждено машин противника</value>
+  </data>
+  <data name="team/stats/labels_droppedCapturePoints" xml:space="preserve">
+    <value>Очки защиты базы</value>
+  </data>
+  <data name="team/stats/labels_he_hits" xml:space="preserve">
+    <value>	осколочно-фугасных повреждений</value>
+  </data>
+  <data name="team/stats/labels_hits" xml:space="preserve">
+    <value>	прямых попаданий/пробитий</value>
+  </data>
+  <data name="team/stats/labels_kills" xml:space="preserve">
+    <value>Уничтожено машин противника</value>
+  </data>
+  <data name="team/stats/labels_mileage" xml:space="preserve">
+    <value>Пройдено километров</value>
+  </data>
+  <data name="team/stats/labels_pierced" xml:space="preserve">
+    <value>	пробитий</value>
+  </data>
+  <data name="team/stats/labels_shots" xml:space="preserve">
+    <value>Произведено выстрелов</value>
+  </data>
+  <data name="team/stats/labels_shotsReceived" xml:space="preserve">
+    <value>Получено попаданий</value>
+  </data>
+  <data name="team/stats/labels_spotted" xml:space="preserve">
+    <value>Обнаружено машин противника</value>
+  </data>
+  <data name="team/stats/labels_teamHitsDamage" xml:space="preserve">
+    <value>Урон союзникам (уничтожено/повреждений)</value>
+  </data>
+  <data name="team/fragHeader/body" xml:space="preserve">
+    <value>Сортировать по количеству уничтоженных машин противника.</value>
+  </data>
+  <data name="team/fragHeader/header" xml:space="preserve">
+    <value>Уничтоженная техника противника</value>
+  </data>
+  <data name="team/healthHeader/body" xml:space="preserve">
+    <value>Сортировать по оставшейся прочности.</value>
+  </data>
+  <data name="team/healthHeader/header" xml:space="preserve">
+    <value>Прочность</value>
+  </data>
+  <data name="team/medalHeader/body" xml:space="preserve">
+    <value>Сортировать по количеству полученных наград.</value>
+  </data>
+  <data name="team/medalHeader/header" xml:space="preserve">
+    <value>Награды</value>
+  </data>
+  <data name="team/playerHeader/body" xml:space="preserve">
+    <value>Сортировать по имени игрока.</value>
+  </data>
+  <data name="team/playerHeader/header" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="team/squadHeader/body" xml:space="preserve">
+    <value>Сортировать по взводу.</value>
+  </data>
+  <data name="team/squadHeader/header" xml:space="preserve">
+    <value>Взвод</value>
+  </data>
+  <data name="team/tankHeader/body" xml:space="preserve">
+    <value>Сортировать по положению в панели состава команд.</value>
+  </data>
+  <data name="team/tankHeader/header" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="team/xpHeader/body" xml:space="preserve">
+    <value>Сортировать по количеству опыта.</value>
+  </data>
+  <data name="team/xpHeader/header" xml:space="preserve">
+    <value>Опыт</value>
+  </data>
+  <data name="team/stats/labels_potentialDamageReceived" xml:space="preserve">
+    <value>Потенциальный полученный урон</value>
+  </data>
+  <data name="common/battleEfficiency/allies" xml:space="preserve">
+    <value>Союзники:</value>
+  </data>
+  <data name="common/tooltip/assist" xml:space="preserve">
+    <value>По вашим разведданным союзники нанесли очков урона: %s</value>
+  </data>
+  <data name="team/damageHeader/body" xml:space="preserve">
+    <value>Сортировать по нанесённому урону.</value>
+  </data>
+  <data name="team/damageHeader/header" xml:space="preserve">
+    <value>Нанесённый урон</value>
+  </data>
+  <data name="team/stats/labels_damageAssistedSelf" xml:space="preserve">
+    <value>Урон, нанесённый с вашей помощью</value>
+  </data>
+  <data name="team/stats/labels_piercingsReceived" xml:space="preserve">
+    <value>	пробитий</value>
+  </data>
+  <data name="team/stats/labels_ricochetReceived" xml:space="preserve">
+    <value>	рикошетов</value>
+  </data>
+  <data name="common/tooltip/assist/discription" xml:space="preserve">
+    <value>Урон, нанесённый с вашей помощью</value>
+  </data>
+  <data name="common/tooltip/assist/header" xml:space="preserve">
+    <value>Помощь в уничтожении</value>
+  </data>
+  <data name="common/tooltip/assist/part1" xml:space="preserve">
+    <value>По вашим разведданным %(vals)s</value>
+  </data>
+  <data name="common/tooltip/assist/part2" xml:space="preserve">
+    <value>После попадания, сбившего гусеницу %(vals)s</value>
+  </data>
+  <data name="common/tooltip/assist/total" xml:space="preserve">
+    <value>Всего урона, нанесённого союзниками %(vals)s</value>
+  </data>
+  <data name="common/tooltip/crits/discription" xml:space="preserve">
+    <value>Повреждения и уничтожение модулей,
+ранения членов экипажа противника</value>
+  </data>
+  <data name="common/tooltip/crits/header" xml:space="preserve">
+    <value>Критический урон</value>
+  </data>
+  <data name="common/tooltip/crits/part1" xml:space="preserve">
+    <value>Повреждения:</value>
+  </data>
+  <data name="common/tooltip/crits/part2" xml:space="preserve">
+    <value>Выход из строя:</value>
+  </data>
+  <data name="common/tooltip/crits/part3" xml:space="preserve">
+    <value>Ранения экипажа:</value>
+  </data>
+  <data name="common/tooltip/crits/total" xml:space="preserve">
+    <value>Всего:</value>
+  </data>
+  <data name="common/tooltip/damage/discription" xml:space="preserve">
+    <value>Урон, нанесённый вами противнику</value>
+  </data>
+  <data name="common/tooltip/damage/header" xml:space="preserve">
+    <value>Нанесение урона</value>
+  </data>
+  <data name="common/tooltip/damage/part1" xml:space="preserve">
+    <value>Суммарный урон %(vals)s</value>
+  </data>
+  <data name="common/tooltip/damage/part2" xml:space="preserve">
+    <value>Всего пробитий</value>
+  </data>
+  <data name="common/tooltip/kill-1/discription" xml:space="preserve">
+    <value>Машина противника уничтожена</value>
+  </data>
+  <data name="common/tooltip/kill/header" xml:space="preserve">
+    <value>Уничтожение противника</value>
+  </data>
+  <data name="common/tooltip/kill0/discription" xml:space="preserve">
+    <value>Машина противника уничтожена выстрелом</value>
+  </data>
+  <data name="common/tooltip/kill1/discription" xml:space="preserve">
+    <value>Машина противника уничтожена пожаром</value>
+  </data>
+  <data name="common/tooltip/kill2/discription" xml:space="preserve">
+    <value>Машина противника уничтожена тараном</value>
+  </data>
+  <data name="common/tooltip/kill3/discription" xml:space="preserve">
+    <value>Машина противника разбита</value>
+  </data>
+  <data name="common/tooltip/kill4/discription" xml:space="preserve">
+    <value>Машина противника уничтожена запретной зоной</value>
+  </data>
+  <data name="common/tooltip/kill5/discription" xml:space="preserve">
+    <value>Машина противника потоплена</value>
+  </data>
+  <data name="common/tooltip/spotted/discription" xml:space="preserve">
+    <value>Передача союзникам разведданных 
+о противнике</value>
+  </data>
+  <data name="common/tooltip/spotted/header" xml:space="preserve">
+    <value>Обнаружение</value>
+  </data>
+  <data name="common/tooltip/teamKill-1/discription" xml:space="preserve">
+    <value>Машина союзника уничтожена</value>
+  </data>
+  <data name="common/tooltip/teamKill/header" xml:space="preserve">
+    <value>Уничтожение союзника</value>
+  </data>
+  <data name="common/tooltip/teamKill0/discription" xml:space="preserve">
+    <value>Машина союзника уничтожена выстрелом</value>
+  </data>
+  <data name="common/tooltip/teamKill1/discription" xml:space="preserve">
+    <value>Машина союзника уничтожена пожаром</value>
+  </data>
+  <data name="common/tooltip/teamKill2/discription" xml:space="preserve">
+    <value>Машина союзника уничтожена тараном</value>
+  </data>
+  <data name="common/tooltip/teamKill3/discription" xml:space="preserve">
+    <value>Машина союзника разбита</value>
+  </data>
+  <data name="common/tooltip/teamKill4/discription" xml:space="preserve">
+    <value>Машина союзника уничтожена запретной зоной</value>
+  </data>
+  <data name="common/tooltip/teamKill5/discription" xml:space="preserve">
+    <value>Машина союзника потоплена</value>
+  </data>
+  <data name="common/vehicleState/dead0" xml:space="preserve">
+    <value>Уничтожен выстрелом</value>
+  </data>
+  <data name="common/vehicleState/dead1" xml:space="preserve">
+    <value>Уничтожен пожаром</value>
+  </data>
+  <data name="common/vehicleState/dead2" xml:space="preserve">
+    <value>Уничтожен тараном</value>
+  </data>
+  <data name="common/vehicleState/dead3" xml:space="preserve">
+    <value>Разбит</value>
+  </data>
+  <data name="common/vehicleState/dead4" xml:space="preserve">
+    <value>Уничтожен запретной зоной</value>
+  </data>
+  <data name="common/vehicleState/dead5" xml:space="preserve">
+    <value>Затоплен</value>
+  </data>
+  <data name="team/stats/labels_heHitsReceived" xml:space="preserve">
+    <value>Получено попаданий осколками</value>
+  </data>
+  <data name="team/stats/labels_noDamageShotsReceived" xml:space="preserve">
+    <value>	не нанёсших урон</value>
+  </data>
+  <data name="team/stats/labels_piercedReceived" xml:space="preserve">
+    <value>	пробитий</value>
+  </data>
+  <data name="common/details/progress" xml:space="preserve">
+    <value>Прогресс по задачам и развитию</value>
+  </data>
+  <data name="common/quests/noprogress" xml:space="preserve">
+    <value>Не было новых событий по боевым задачам</value>
+  </data>
+  <data name="common/tooltip/assist/description" xml:space="preserve">
+    <value>Засчитывается урон союзников по противнику:
+• Нанесённый по вашим разведданным
+• После вашего попадания, сбившего противнику гусеницу</value>
+  </data>
+  <data name="common/tooltip/crits/critDamage" xml:space="preserve">
+    <value>Повреждения:</value>
+  </data>
+  <data name="common/tooltip/crits/critDestruction" xml:space="preserve">
+    <value>Выведения из строя:</value>
+  </data>
+  <data name="common/tooltip/crits/critWound" xml:space="preserve">
+    <value>Ранения экипажа:</value>
+  </data>
+  <data name="common/tooltip/crits/description" xml:space="preserve">
+    <value>Засчитывается:
+• Повреждение внешних и внутренних модулей противника
+• Выведение из строя внешних и внутренних модулей противника
+• Ранение членов экипажа противника.</value>
+  </data>
+  <data name="common/tooltip/damage/description" xml:space="preserve">
+    <value>Засчитывается урон:
+• Нанесённый выстрелом
+• Нанесённый тараном
+• Причинённый пожаром
+• В результате сильного удара</value>
+  </data>
+  <data name="common/tooltip/kill-1/description" xml:space="preserve">
+    <value>Засчитывается уничтожение:
+• Выстрелом
+• Поджогом
+• Тараном
+• Потоплением
+• В результате сильного удара
+• Переворотом</value>
+  </data>
+  <data name="common/tooltip/kill0/description" xml:space="preserve">
+    <value>Машина противника уничтожена выстрелом</value>
+  </data>
+  <data name="common/tooltip/kill1/description" xml:space="preserve">
+    <value>Машина противника уничтожена пожаром</value>
+  </data>
+  <data name="common/tooltip/kill2/description" xml:space="preserve">
+    <value>Машина противника уничтожена тараном</value>
+  </data>
+  <data name="common/tooltip/kill3/description" xml:space="preserve">
+    <value>Машина противника разбита</value>
+  </data>
+  <data name="common/tooltip/kill4/description" xml:space="preserve">
+    <value>Машина противника уничтожена запретной зоной</value>
+  </data>
+  <data name="common/tooltip/kill5/description" xml:space="preserve">
+    <value>Машина противника потоплена</value>
+  </data>
+  <data name="common/tooltip/spotted/description" xml:space="preserve">
+    <value>Засчитывается первое обнаружение машины противника.</value>
+  </data>
+  <data name="common/tooltip/teamKill-1/description" xml:space="preserve">
+    <value>Машина союзника уничтожена</value>
+  </data>
+  <data name="common/tooltip/teamKill0/description" xml:space="preserve">
+    <value>Машина союзника уничтожена выстрелом</value>
+  </data>
+  <data name="common/tooltip/teamKill1/description" xml:space="preserve">
+    <value>Машина союзника уничтожена пожаром</value>
+  </data>
+  <data name="common/tooltip/teamKill2/description" xml:space="preserve">
+    <value>Машина союзника уничтожена тараном</value>
+  </data>
+  <data name="common/tooltip/teamKill3/description" xml:space="preserve">
+    <value>Машина союзника разбита</value>
+  </data>
+  <data name="common/tooltip/teamKill4/description" xml:space="preserve">
+    <value>Машина союзника уничтожена запретной зоной</value>
+  </data>
+  <data name="common/tooltip/teamKill5/description" xml:space="preserve">
+    <value>Машина союзника потоплена</value>
+  </data>
+  <data name="details/calculations/igrBonus" xml:space="preserve">
+    <value>Награда за игру в %(igrIcon)s</value>
+  </data>
+  <data name="details/calculations/noPenalty" xml:space="preserve">
+    <value>За достойное сопротивление</value>
+  </data>
+  <data name="details/calculations/aogasFactor" xml:space="preserve">
+    <value>Понижающий коэффициент (AOGAS)</value>
+  </data>
+  <data name="common/vehicleState/prematureLeave" xml:space="preserve">
+    <value>Покинул бой до его завершения</value>
+  </data>
+  <data name="team/stats/labels_damageBlockedByArmor" xml:space="preserve">
+    <value>Урон, заблокированный бронёй</value>
+  </data>
+  <data name="team/stats/labels_directHits" xml:space="preserve">
+    <value>	прямых попаданий</value>
+  </data>
+  <data name="team/stats/labels_directHitsReceived" xml:space="preserve">
+    <value>Получено попаданий</value>
+  </data>
+  <data name="team/stats/labels_explosionHits" xml:space="preserve">
+    <value>	осколочно-фугасных повреждений</value>
+  </data>
+  <data name="team/stats/labels_explosionHitsReceived" xml:space="preserve">
+    <value>Получено попаданий осколками</value>
+  </data>
+  <data name="team/stats/labels_noDamageDirectHitsReceived" xml:space="preserve">
+    <value>	не нанёсших урон</value>
+  </data>
+  <data name="team/stats/labels_piercings" xml:space="preserve">
+    <value>	пробитий</value>
+  </data>
+  <data name="common/battleType/sortie" xml:space="preserve">
+    <value>Вылазка против клана </value>
+  </data>
+  <data name="common/clanAbbrev" xml:space="preserve">
+    <value>[%(clanAbbrev)s]</value>
+  </data>
+  <data name="common/details/resource" xml:space="preserve">
+    <value>Промресурс</value>
+  </data>
+  <data name="details/calculations/battlePayments" xml:space="preserve">
+    <value>Боевые выплаты</value>
+  </data>
+  <data name="details/calculations/fortOrder" xml:space="preserve">
+    <value>Надбавка за привлечённые резервы</value>
+  </data>
+  <data name="details/calculations/heavyTrucks" xml:space="preserve">
+    <value>Большегрузный транспорт</value>
+  </data>
+  <data name="details/calculations/intermediateTotal" xml:space="preserve">
+    <value>Итого за бой:</value>
+  </data>
+  <data name="details/calculations/militaryManeuvers" xml:space="preserve">
+    <value>За военные учения</value>
+  </data>
+  <data name="details/calculations/tacticalTraining" xml:space="preserve">
+    <value>За тактическую подготовку</value>
+  </data>
+  <data name="details/resource" xml:space="preserve">
+    <value>Промресурс</value>
+  </data>
+  <data name="team/resourceHeader/body" xml:space="preserve">
+    <value>Сортировать по количеству полученного промресурса.</value>
+  </data>
+  <data name="team/resourceHeader/header" xml:space="preserve">
+    <value>Промресурс</value>
+  </data>
+  <data name="team/stats/labels_capturePointsVal" xml:space="preserve">
+    <value>Очки захвата/защиты базы</value>
+  </data>
+  <data name="team/stats/labels_damageDealtRatio" xml:space="preserve">
+    <value>	снято очков прочности с команды противника</value>
+  </data>
+  <data name="team/stats/labels_damagedKilled" xml:space="preserve">
+    <value>Повреждено/уничтожено машин противника</value>
+  </data>
+  <data name="team/stats/labels_sniperDamageDealt" xml:space="preserve">
+    <value>	с дистанции свыше 300 м</value>
+  </data>
+  <data name="team/teamResourceTotal" xml:space="preserve">
+    <value>Промресурса заработано отрядом: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s</value>
+  </data>
+  <data name="details/calculations/fairPlayViolation/afk" xml:space="preserve">
+    <value>Штраф за бездействие в бою</value>
+  </data>
+  <data name="details/calculations/fairPlayViolation/deserter" xml:space="preserve">
+    <value>Штраф за дезертирство</value>
+  </data>
+  <data name="details/calculations/fairPlayViolation/suicide" xml:space="preserve">
+    <value>Штраф за умышленное самоуничтожение</value>
+  </data>
+  <data name="finish/clanBattle_reason_attack/1lose" xml:space="preserve">
+    <value>Строение %(buildingName)s не захвачено</value>
+  </data>
+  <data name="finish/clanBattle_reason_attack/1tie" xml:space="preserve">
+    <value>Строение %(buildingName)s захвачено</value>
+  </data>
+  <data name="finish/clanBattle_reason_attack/1win" xml:space="preserve">
+    <value>Захвачено строение: %(buildingName)s</value>
+  </data>
+  <data name="finish/clanBattle_reason_def/1lose" xml:space="preserve">
+    <value>Cтроение %(buildingName)s захвачено противником</value>
+  </data>
+  <data name="finish/clanBattle_reason_def/1tie" xml:space="preserve">
+    <value>Строение %(buildingName)s не захвачено</value>
+  </data>
+  <data name="finish/clanBattle_reason_def/1win" xml:space="preserve">
+    <value>Защищено строение: %(buildingName)s</value>
+  </data>
+  <data name="details/calculations/premiumVehicleXP" xml:space="preserve">
+    <value>Надбавка за уровень премиум машины</value>
+  </data>
+  <data name="details/calculations/referralBonus" xml:space="preserve">
+    <value>Награда за программу «Пригласи друга»</value>
+  </data>
+  <data name="team/stats/labels_healedHP" xml:space="preserve">
+    <value>Восстановлено ед. прочности (игроком/игроку)</value>
+  </data>
+  <data name="common/resultsShareBtn" xml:space="preserve">
+    <value>Получить ссылку</value>
+  </data>
+  <data name="players/enemy/unknown" xml:space="preserve">
+    <value>Противник</value>
+  </data>
+  <data name="players/teammate/unknown" xml:space="preserve">
+    <value>Игрок</value>
+  </data>
+  <data name="team/teamInfluenceTotal" xml:space="preserve">
+    <value>Влияния заработано отрядом: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s</value>
+  </data>
+  <data name="cyberSport/btnToTeamProfile" xml:space="preserve">
+    <value>Профиль команды</value>
+  </data>
+  <data name="cyberSport/points" xml:space="preserve">
+    <value>Очки:</value>
+  </data>
+  <data name="cyberSport/status/lose" xml:space="preserve">
+    <value>Поражение</value>
+  </data>
+  <data name="cyberSport/status/tie" xml:space="preserve">
+    <value>Ничья</value>
+  </data>
+  <data name="cyberSport/status/win" xml:space="preserve">
+    <value>Победа!</value>
+  </data>
+  <data name="team/playerNumber/body" xml:space="preserve">
+    <value>Сортировать по порядковому номеру.</value>
+  </data>
+  <data name="team/playerNumber/header" xml:space="preserve">
+    <value>Порядковый номер</value>
+  </data>
+  <data name="allVehicles" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="common/battleEfficiency/allyBase" xml:space="preserve">
+    <value>Защита базы</value>
+  </data>
+  <data name="common/battleEfficiency/bases" xml:space="preserve">
+    <value>Базы</value>
+  </data>
+  <data name="common/battleEfficiency/enemyBase" xml:space="preserve">
+    <value>Захват базы</value>
+  </data>
+  <data name="common/battleEfficiency/neutralBase" xml:space="preserve">
+    <value>Нейтральная база</value>
+  </data>
+  <data name="common/battleEfficiency/technique" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="common/crewMember/description" xml:space="preserve">
+    <value>%(role)s, %(name)s</value>
+  </data>
+  <data name="common/crewMember/newSkill" xml:space="preserve">
+    <value>Новое умение</value>
+  </data>
+  <data name="common/fitting/purchase" xml:space="preserve">
+    <value>Покупка модуля</value>
+  </data>
+  <data name="common/fitting/research" xml:space="preserve">
+    <value>Исследование модуля</value>
+  </data>
+  <data name="common/newSkillPrediction" xml:space="preserve">
+    <value>Примерно осталось боёв: %(battles)s</value>
+  </data>
+  <data name="common/noProgress" xml:space="preserve">
+    <value>Не было новых событий по боевым задачам, исследованию техники и развитию экипажа.</value>
+  </data>
+  <data name="common/progressTitle" xml:space="preserve">
+    <value>Исследование техники и прогресс по боевым задачам</value>
+  </data>
+  <data name="common/researchPrediction" xml:space="preserve">
+    <value>Примерно осталось боёв: %(battles)s</value>
+  </data>
+  <data name="common/tooltip/armor/description" xml:space="preserve">
+    <value>Засчитывается:
+• Рикошет от выстрелов противника
+• Непробитие
+
+Попадания осколочно-фугасными и HESH снарядами не учитываются.</value>
+  </data>
+  <data name="common/tooltip/armor/header" xml:space="preserve">
+    <value>Использование брони</value>
+  </data>
+  <data name="common/tooltip/armor/part1" xml:space="preserve">
+    <value>Рикошетов</value>
+  </data>
+  <data name="common/tooltip/armor/part2" xml:space="preserve">
+    <value>Непробитий</value>
+  </data>
+  <data name="common/tooltip/armor/part3" xml:space="preserve">
+    <value>Урона, заблокированного бронёй %(vals)s</value>
+  </data>
+  <data name="common/tooltip/capture/description" xml:space="preserve">
+    <value>Засчитываются:
+• Очки захвата базы противника
+• Очки захвата нейтральной базы</value>
+  </data>
+  <data name="common/tooltip/capture/header" xml:space="preserve">
+    <value>Захват базы</value>
+  </data>
+  <data name="common/tooltip/capture/totalPoints" xml:space="preserve">
+    <value>Суммарно очков захвата</value>
+  </data>
+  <data name="common/tooltip/counter" xml:space="preserve">
+    <value>Всего получено лент за бой: %(count)s</value>
+  </data>
+  <data name="common/tooltip/counter/forEnemy" xml:space="preserve">
+    <value>Лент за бой за данного противника: %(count)s</value>
+  </data>
+  <data name="common/tooltip/counter/noItems" xml:space="preserve">
+    <value>Лента не была получена в бою</value>
+  </data>
+  <data name="common/tooltip/defence/description" xml:space="preserve">
+    <value>Засчитываются:
+• Очки защиты базы союзников
+• Очки защиты нейтральной базы</value>
+  </data>
+  <data name="common/tooltip/defence/header" xml:space="preserve">
+    <value>Защита базы</value>
+  </data>
+  <data name="common/tooltip/defence/totalPoints" xml:space="preserve">
+    <value>Суммарно очков защиты</value>
+  </data>
+  <data name="common/tooltip/params/val" xml:space="preserve">
+    <value>(ед.)</value>
+  </data>
+  <data name="common/vehicle/details" xml:space="preserve">
+    <value>%(vehicle)s, %(type)s</value>
+  </data>
+  <data name="common/vehicle/purchase" xml:space="preserve">
+    <value>Покупка машины</value>
+  </data>
+  <data name="common/vehicle/research" xml:space="preserve">
+    <value>Исследование машины</value>
+  </data>
+  <data name="details/calculations/boosters" xml:space="preserve">
+    <value>Эффект от личных резервов</value>
+  </data>
+  <data name="fallout/lose/cap" xml:space="preserve">
+    <value>Цели не были достигнуты</value>
+  </data>
+  <data name="fallout/lose/points" xml:space="preserve">
+    <value>Цели не были достигнуты</value>
+  </data>
+  <data name="fallout/tie" xml:space="preserve">
+    <value>Обе команды заработали равное количество очков победы</value>
+  </data>
+  <data name="fallout/uniqueDamage" xml:space="preserve">
+    <value>Учитывается только факт уникального критического попадания</value>
+  </data>
+  <data name="fallout/win/cap" xml:space="preserve">
+    <value>Заработано наибольшее количество очков победы.</value>
+  </data>
+  <data name="fallout/win/points" xml:space="preserve">
+    <value>Заработано наибольшее количество очков победы.</value>
+  </data>
+  <data name="selectVehicle" xml:space="preserve">
+    <value>Выберите машину</value>
+  </data>
+  <data name="team/deaths/body" xml:space="preserve">
+    <value>Сортировать по количеству собственных машин, уничтоженных в бою.</value>
+  </data>
+  <data name="team/deaths/header" xml:space="preserve">
+    <value>Уничтоженные машины</value>
+  </data>
+  <data name="team/flags/body" xml:space="preserve">
+    <value>Сортировать по количеству доставленных флагов.</value>
+  </data>
+  <data name="team/flags/header" xml:space="preserve">
+    <value>Доставленные флаги</value>
+  </data>
+  <data name="team/stats/labels_deaths" xml:space="preserve">
+    <value>Количество уничтожений собственной машины</value>
+  </data>
+  <data name="team/stats/labels_flags" xml:space="preserve">
+    <value>Доставлено флагов</value>
+  </data>
+  <data name="team/victoryScore/body" xml:space="preserve">
+    <value>Сортировать по количеству очков победы.</value>
+  </data>
+  <data name="team/victoryScore/header" xml:space="preserve">
+    <value>Очки победы игрока</value>
+  </data>
+  <data name="victoryScore" xml:space="preserve">
+    <value>Очков победы заработано</value>
+  </data>
+  <data name="fallout/ended" xml:space="preserve">
+    <value>Цели не были достигнуты</value>
+  </data>
+  <data name="fallout/multiteam/noPlayerSelected" xml:space="preserve">
+    <value>Выберите игрока из списка,
+чтобы увидеть детальную информацию</value>
+  </data>
+  <data name="team/damageHeaderNoSort/header" xml:space="preserve">
+    <value>Нанесённый урон</value>
+  </data>
+  <data name="team/deathsNoSort/header" xml:space="preserve">
+    <value>Уничтоженные машины</value>
+  </data>
+  <data name="team/falloutResourcePoints/body" xml:space="preserve">
+    <value>Сортировать по количеству заработанных ресурсов.</value>
+  </data>
+  <data name="team/falloutResourcePoints/header" xml:space="preserve">
+    <value>Ресурсы</value>
+  </data>
+  <data name="team/flagsNoSort/header" xml:space="preserve">
+    <value>Захваченные флаги</value>
+  </data>
+  <data name="team/fragHeaderNoSort/header" xml:space="preserve">
+    <value>Уничтоженная техника противника</value>
+  </data>
+  <data name="team/playerHeaderNoSort/header" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="team/squadHeaderNoSort/header" xml:space="preserve">
+    <value>Взвод</value>
+  </data>
+  <data name="team/teamScore/body" xml:space="preserve">
+    <value>Сортировать по количеству очков победы.</value>
+  </data>
+  <data name="team/teamScore/header" xml:space="preserve">
+    <value>Очки победы команды</value>
+  </data>
+  <data name="team/victoryScoreNoSort/header" xml:space="preserve">
+    <value>Очки победы игрока</value>
+  </data>
+  <data name="team/xpHeaderNoSort/header" xml:space="preserve">
+    <value>Опыт</value>
+  </data>
+  <data name="common/battleEfficiencyWithoutOreders/title" xml:space="preserve">
+    <value>Боевая эффективность без учёта использованных резервов</value>
+  </data>
+  <data name="common/details/getPremBtn" xml:space="preserve">
+    <value>Получить</value>
+  </data>
+  <data name="exterminationVictory/allies" xml:space="preserve">
+    <value>Ваша команда уничтожила всю технику противника</value>
+  </data>
+  <data name="exterminationVictory/enemies" xml:space="preserve">
+    <value>Противник уничтожил всю технику вашей команды</value>
+  </data>
+  <data name="fallout/classic/lose/cap" xml:space="preserve">
+    <value>Команда противника заработала наибольшее количество очков победы</value>
+  </data>
+  <data name="fallout/classic/lose/extermination" xml:space="preserve">
+    <value>Противник уничтожил всю технику вашей команды</value>
+  </data>
+  <data name="fallout/classic/lose/points" xml:space="preserve">
+    <value>Команда противника заработала наибольшее количество очков победы</value>
+  </data>
+  <data name="fallout/classic/tie" xml:space="preserve">
+    <value>Обе команды заработали равное количество очков победы</value>
+  </data>
+  <data name="fallout/classic/win/cap" xml:space="preserve">
+    <value>Ваша команда заработала наибольшее количество очков победы</value>
+  </data>
+  <data name="fallout/classic/win/extermination" xml:space="preserve">
+    <value>Ваша команда уничтожила всю технику противника</value>
+  </data>
+  <data name="fallout/classic/win/points" xml:space="preserve">
+    <value>Ваша команда заработала наибольшее количество очков победы</value>
+  </data>
+  <data name="fallout/multiteam/ended" xml:space="preserve">
+    <value>Цели не были достигнуты</value>
+  </data>
+  <data name="fallout/multiteam/win/cap" xml:space="preserve">
+    <value>Заработано наибольшее количество очков победы</value>
+  </data>
+  <data name="fallout/multiteam/win/extermination" xml:space="preserve">
+    <value>Все отряды противника уничтожены</value>
+  </data>
+  <data name="fallout/multiteam/win/points" xml:space="preserve">
+    <value>Заработано наибольшее количество очков победы</value>
+  </data>
+  <data name="getPremiumPopover/actionBtn/label" xml:space="preserve">
+    <value>Выбрать срок действия</value>
+  </data>
+  <data name="getPremiumPopover/award" xml:space="preserve">
+    <value>+50% к кредитам и опыту</value>
+  </data>
+  <data name="getPremiumPopover/descriptionText" xml:space="preserve">
+    <value>Купите %(prem)s и за все последующие бои будете получать %(award)s</value>
+  </data>
+  <data name="getPremiumPopover/headerText" xml:space="preserve">
+    <value>За этот бой вы можете получить:</value>
+  </data>
+  <data name="getPremiumPopover/prem" xml:space="preserve">
+    <value>премиум аккаунт</value>
+  </data>
+  <data name="team/damageAndConsumablesHeader/body" xml:space="preserve">
+    <value>Сортировать по нанесённому урону,
+включая урон от боевых резервов.</value>
+  </data>
+  <data name="team/damageAndConsumablesHeader/header" xml:space="preserve">
+    <value>Нанесённый урон</value>
+  </data>
+  <data name="team/falloutFragHeader/body" xml:space="preserve">
+    <value>Сортировать по количеству уничтоженных машин противника,
+включая урон от боевых резервов.</value>
+  </data>
+  <data name="team/falloutFragHeader/header" xml:space="preserve">
+    <value>Уничтоженная техника противника</value>
+  </data>
+  <data name="team/stats/labels_damageDealtByOrder" xml:space="preserve">
+    <value>	В т.ч. боевыми резервами</value>
+  </data>
+  <data name="team/stats/labels_killed" xml:space="preserve">
+    <value>Уничтожено машин противника</value>
+  </data>
+  <data name="team/stats/labels_killsByOrder" xml:space="preserve">
+    <value>	В т.ч. боевыми резервами</value>
+  </data>
+  <data name="common/mainFinishReasonTitle" xml:space="preserve">
+    <value>Основной бой:</value>
+  </data>
+  <data name="common/noIncome/alert/text" xml:space="preserve">
+    <value>После 10 боя кредиты, награды и опыт в данном режиме начисляться не будут, а результаты не отразятся на общей статистике.</value>
+  </data>
+  <data name="common/noIncome/alert/title" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="common/overtimeFinishReasonTitle" xml:space="preserve">
+    <value>Овертайм:</value>
+  </data>
+  <data name="finish/overtime/lose" xml:space="preserve">
+    <value>Противник не был уничтожен</value>
+  </data>
+  <data name="finish/overtime/win" xml:space="preserve">
+    <value>Противник был уничтожен</value>
+  </data>
+  <data name="common/tooltip/kill-1/description/gasAttack" xml:space="preserve">
+    <value>• Огненным валом (в Стальной охоте)</value>
+  </data>
+  <data name="common/tooltip/kill6/description" xml:space="preserve">
+    <value>Уничтожен огненным валом</value>
+  </data>
+  <data name="details/calculations/multiplierInfo/body" xml:space="preserve">
+    <value>Увеличенный опыт за первую победу в день начислен на следующую технику:</value>
+  </data>
+  <data name="details/calculations/multiplierInfo/header" xml:space="preserve">
+    <value>Награда за первую победу в день</value>
+  </data>
+  <data name="details/calculations/multiplierInfo/vehicleSeparator" xml:space="preserve">
+    <value>• </value>
+  </data>
+  <data name="common/details/xpTitleSquad" xml:space="preserve">
+    <value>Опыт (%(img)s доп. опыт за игру взводом)</value>
+  </data>
+  <data name="common/vehicleState/dead6" xml:space="preserve">
+    <value>Уничтожен огненным валом</value>
+  </data>
+  <data name="common/vehicleState/dead7" xml:space="preserve">
+    <value>Уничтожен при перевороте</value>
+  </data>
+  <data name="details/calculations/squad/restrictions/title" xml:space="preserve">
+    <value>За игру взводом </value>
+  </data>
+  <data name="details/calculations/squadXP" xml:space="preserve">
+    <value>За игру взводом</value>
+  </data>
+  <data name="details/calculations/squadXPPenalty" xml:space="preserve">
+    <value>Штраф за некорректный состав взвода</value>
+  </data>
+  <data name="common/tooltip/stun/description" xml:space="preserve">
+    <value>Засчитывается урон:
+• Нанесённый союзниками по цели, оглушённой вашим снарядом.</value>
+  </data>
+  <data name="common/tooltip/stun/header" xml:space="preserve">
+    <value>Оглушение</value>
+  </data>
+  <data name="common/tooltip/stun/part1" xml:space="preserve">
+    <value>Суммарный урон %(vals)s</value>
+  </data>
+  <data name="common/tooltip/stun/part2" xml:space="preserve">
+    <value>Количество оглушений</value>
+  </data>
+  <data name="team/stats/labels_damageAssistedStun" xml:space="preserve">
+    <value>Урон по целям, оглушённым данным игроком</value>
+  </data>
+  <data name="team/stats/labels_damageAssistedStunSelf" xml:space="preserve">
+    <value>Урон по оглушённым вами целям</value>
+  </data>
+  <data name="team/stats/labels_stunNum" xml:space="preserve">
+    <value>Нанесено оглушений</value>
+  </data>
+  <data name="finish/reason/8" xml:space="preserve">
+    <value>Уничтожение союзника</value>
+  </data>
+  <data name="finish/reason/9" xml:space="preserve">
+    <value>Ваша машина уничтожена</value>
+  </data>
+  <data name="team/rankHeader/body" xml:space="preserve">
+    <value>Сортировка по рангу.</value>
+  </data>
+  <data name="team/rankHeader/header" xml:space="preserve">
+    <value>Ранг</value>
+  </data>
+  <data name="common/tooltip/params/val/seconds" xml:space="preserve">
+    <value>(с)</value>
+  </data>
+  <data name="common/tooltip/stun/part3" xml:space="preserve">
+    <value>Общее время нанесённого оглушения %(vals)s</value>
+  </data>
+  <data name="team/stats/labels_stunDuration" xml:space="preserve">
+    <value>Общее время нанесённого оглушения, секунд</value>
+  </data>
+  <data name="common/details/crystal" xml:space="preserve">
+    <value>Боны</value>
+  </data>
+  <data name="common/tooltip/kill7/description" xml:space="preserve">
+    <value>Машина противника перевёрнута</value>
+  </data>
+  <data name="details/calculations/crystal/achievement" xml:space="preserve">
+    <value>За получение наград</value>
+  </data>
+  <data name="details/calculations/crystal/total" xml:space="preserve">
+    <value>Начислено за бой</value>
+  </data>
+  <data name="details/crystal" xml:space="preserve">
+    <value>Боны</value>
+  </data>
+</root>

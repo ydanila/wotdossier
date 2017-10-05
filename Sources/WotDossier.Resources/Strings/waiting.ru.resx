@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Flash" xml:space="preserve">
     <value>Обновление...</value>
@@ -126,26 +126,11 @@
   <data name="applyModule" xml:space="preserve">
     <value>Производится операция...</value>
   </data>
-  <data name="browser/init" xml:space="preserve">
-    <value>Загрузка содержимого...</value>
-  </data>
-  <data name="buttons/autoSearch" xml:space="preserve">
-    <value>Автопоиск</value>
-  </data>
-  <data name="buttons/cancel" xml:space="preserve">
-    <value>Отмена</value>
-  </data>
   <data name="buttons/cease" xml:space="preserve">
     <value>Прекратить</value>
   </data>
-  <data name="buttons/exit" xml:space="preserve">
-    <value>Не ожидать</value>
-  </data>
   <data name="buttons/exitQueue" xml:space="preserve">
     <value>Покинуть очередь</value>
-  </data>
-  <data name="buyAndInstall" xml:space="preserve">
-    <value>Покупка и установка...</value>
   </data>
   <data name="buyBerths" xml:space="preserve">
     <value>Покупка коек...</value>
@@ -156,17 +141,8 @@
   <data name="buySlot" xml:space="preserve">
     <value>Покупка слота...</value>
   </data>
-  <data name="changingRole" xml:space="preserve">
-    <value>Смена специализации...</value>
-  </data>
-  <data name="clans/invites/send" xml:space="preserve">
-    <value>Отправка приглашения...</value>
-  </data>
-  <data name="crewRetraining" xml:space="preserve">
-    <value>Переобучение экипажа...</value>
-  </data>
-  <data name="crewReturning" xml:space="preserve">
-    <value>Возврат экипажа...</value>
+  <data name="createSquad" xml:space="preserve">
+    <value> ...</value>
   </data>
   <data name="customizationApply" xml:space="preserve">
     <value>Кастомизация...</value>
@@ -177,35 +153,11 @@
   <data name="deleting" xml:space="preserve">
     <value>Удаление...</value>
   </data>
-  <data name="disconnect" xml:space="preserve">
-    <value>Отключение...</value>
-  </data>
-  <data name="download/discounts" xml:space="preserve">
-    <value>Синхронизация скидок...</value>
-  </data>
-  <data name="download/dossier" xml:space="preserve">
-    <value>Синхронизация личного дела...</value>
-  </data>
-  <data name="download/inventory" xml:space="preserve">
-    <value>Синхронизация оборудования и снаряжения...</value>
-  </data>
-  <data name="download/ranked" xml:space="preserve">
-    <value>Синхронизация данных игрока...</value>
-  </data>
-  <data name="download/recycleBin" xml:space="preserve">
-    <value>Синхронизация техники в Ангаре...</value>
-  </data>
-  <data name="download/shop" xml:space="preserve">
-    <value>Синхронизация Магазина...</value>
-  </data>
-  <data name="draw_research_items" xml:space="preserve">
-    <value>Загружается...</value>
-  </data>
   <data name="enter" xml:space="preserve">
     <value>Вход в игру...</value>
   </data>
-  <data name="equipping" xml:space="preserve">
-    <value>Посадка...</value>
+  <data name="equiping" xml:space="preserve">
+    <value>...</value>
   </data>
   <data name="exchangeVehiclesXP" xml:space="preserve">
     <value>Перевод опыта</value>
@@ -213,89 +165,11 @@
   <data name="exit_battle" xml:space="preserve">
     <value>Выход в Ангар...</value>
   </data>
-  <data name="fort/activateConsumable" xml:space="preserve">
-    <value>Операция с резервом...</value>
-  </data>
-  <data name="fort/attack" xml:space="preserve">
-    <value>Подтверждение атаки...</value>
-  </data>
-  <data name="fort/building/add" xml:space="preserve">
-    <value>Создание...</value>
-  </data>
-  <data name="fort/building/attach" xml:space="preserve">
-    <value>Присоединение...</value>
-  </data>
-  <data name="fort/building/delete" xml:space="preserve">
-    <value>Удаление...</value>
-  </data>
-  <data name="fort/building/upgrade" xml:space="preserve">
-    <value>Обновление...</value>
-  </data>
-  <data name="fort/card/get" xml:space="preserve">
-    <value>Сбор информации...</value>
-  </data>
-  <data name="fort/create" xml:space="preserve">
-    <value>Создание...</value>
-  </data>
-  <data name="fort/delete" xml:space="preserve">
-    <value>Удаление...</value>
-  </data>
-  <data name="fort/direction/close" xml:space="preserve">
-    <value>Удаление...</value>
-  </data>
-  <data name="fort/direction/open" xml:space="preserve">
-    <value>Создание...</value>
-  </data>
-  <data name="fort/favorite/add" xml:space="preserve">
-    <value>Добавление в список...</value>
-  </data>
-  <data name="fort/favorite/remove" xml:space="preserve">
-    <value>Удаление из списка...</value>
-  </data>
-  <data name="fort/fortBattle/createOrJoin" xml:space="preserve">
-    <value>Подтверждение участия...</value>
-  </data>
-  <data name="fort/order/activate" xml:space="preserve">
-    <value>Применение...</value>
-  </data>
-  <data name="fort/order/add" xml:space="preserve">
-    <value>Создание...</value>
-  </data>
-  <data name="fort/returnConsumable" xml:space="preserve">
-    <value>Операция с резервом...</value>
-  </data>
-  <data name="fort/serverConnection" xml:space="preserve">
-    <value>Соединение с сервером...</value>
-  </data>
-  <data name="fort/settings" xml:space="preserve">
-    <value>Применение...</value>
-  </data>
-  <data name="fort/sortie/create" xml:space="preserve">
-    <value>Создание...</value>
-  </data>
-  <data name="fort/sortie/get" xml:space="preserve">
-    <value>Сбор информации...</value>
-  </data>
-  <data name="fort/subscribe" xml:space="preserve">
-    <value>Подключение...</value>
-  </data>
-  <data name="fort/transport" xml:space="preserve">
-    <value>Транспортировка...</value>
-  </data>
-  <data name="fort/unsubscribe" xml:space="preserve">
-    <value>Отключение...</value>
-  </data>
-  <data name="hof/loading" xml:space="preserve">
-    <value>Загрузка...</value>
-  </data>
   <data name="in_battle" xml:space="preserve">
     <value>Поиск комнаты...</value>
   </data>
   <data name="installEquipment" xml:space="preserve">
     <value>Установка оборудования...</value>
-  </data>
-  <data name="loadContent" xml:space="preserve">
-    <value>Загрузка содержимого...</value>
   </data>
   <data name="loadHangarSpace" xml:space="preserve">
     <value>Обновление Ангара...</value>
@@ -308,9 +182,6 @@
   </data>
   <data name="loadStats" xml:space="preserve">
     <value>Сбор информации...</value>
-  </data>
-  <data name="loadingData" xml:space="preserve">
-    <value>Получение данных...</value>
   </data>
   <data name="login" xml:space="preserve">
     <value>Подключение...</value>
@@ -327,17 +198,6 @@
 
 Ожидайте, пока клиент автоматически войдёт в игру.</value>
   </data>
-  <data name="message/auto_login_activating" xml:space="preserve">
-    <value>&lt;font color='#ff0000'&gt;Ваш аккаунт регистрируется.&lt;/font&gt;
-
-Ожидайте, пока клиент автоматически войдёт в игру.</value>
-  </data>
-  <data name="message/auto_login_query_failed" xml:space="preserve">
-    <value>&lt;font color='#ff0000'&gt;Сервер "%(server)s" недоступен.
-%(reason)s&lt;/font&gt;
-
-Ожидайте, пока клиент автоматически войдёт в игру.</value>
-  </data>
   <data name="message/checkout_error" xml:space="preserve">
     <value>&lt;font color='#ff0000'&gt;Ошибка сервера «%s» при получении информации об игроке.&lt;/font&gt;
 
@@ -350,81 +210,20 @@
 
 Ожидайте, пока клиент автоматически войдёт в игру.</value>
   </data>
-  <data name="message/useAutoSearch" xml:space="preserve">
-    <value>&lt;font color='#ff0000'&gt;Извините, сервер «%s» перегружен.&lt;/font&gt;
-
-Ваш номер в очереди: %s.
-
-Ожидайте входа на "%s" или воспользуйтесь автопоиском (подбор сервера с комфортными условиями игры).</value>
-  </data>
-  <data name="messenger/subscribe" xml:space="preserve">
-    <value>Подключение...</value>
-  </data>
-  <data name="prebattle/assign" xml:space="preserve">
-    <value>Перемещение...</value>
-  </data>
-  <data name="prebattle/auto_search" xml:space="preserve">
-    <value>Идёт поиск...</value>
-  </data>
-  <data name="prebattle/battle_queue" xml:space="preserve">
-    <value>Идёт поиск...</value>
-  </data>
-  <data name="prebattle/changeDivision" xml:space="preserve">
-    <value>Смена дивизиона...</value>
-  </data>
-  <data name="prebattle/change_arena_voip" xml:space="preserve">
-    <value>Изменение VOIP...</value>
-  </data>
-  <data name="prebattle/change_settings" xml:space="preserve">
-    <value>Изменение настроек...</value>
-  </data>
-  <data name="prebattle/change_user_status" xml:space="preserve">
-    <value>Изменение вашей роли в тренировке...</value>
-  </data>
-  <data name="prebattle/create" xml:space="preserve">
-    <value>Создание...</value>
-  </data>
-  <data name="prebattle/giveLeadership" xml:space="preserve">
-    <value>Передача командования...</value>
-  </data>
-  <data name="prebattle/join" xml:space="preserve">
-    <value>Присоединение...</value>
-  </data>
-  <data name="prebattle/kick" xml:space="preserve">
-    <value>Отсоединение...</value>
-  </data>
-  <data name="prebattle/leave" xml:space="preserve">
-    <value>Выход...</value>
-  </data>
-  <data name="prebattle/player_not_ready" xml:space="preserve">
-    <value>Не готов...</value>
-  </data>
-  <data name="prebattle/player_ready" xml:space="preserve">
-    <value>Подтверждение готовности...</value>
-  </data>
-  <data name="prebattle/swap" xml:space="preserve">
-    <value>Смена команд...</value>
-  </data>
-  <data name="prebattle/takeLeadership" xml:space="preserve">
-    <value>Передача командования...</value>
-  </data>
-  <data name="prebattle/team_not_ready" xml:space="preserve">
-    <value>Команда не готова...</value>
-  </data>
-  <data name="prebattle/team_ready" xml:space="preserve">
-    <value>Команда готова...</value>
-  </data>
   <data name="recruting" xml:space="preserve">
     <value>Рекрутирование...</value>
+  </data>
+  <data name="reloadCaptcha" xml:space="preserve">
+    <value> ...</value>
   </data>
   <data name="replacePassport" xml:space="preserve">
     <value>Смена документов...</value>
   </data>
+  <data name="requestCaptcha" xml:space="preserve">
+    <value> ...</value>
+  </data>
   <data name="requestCaptureDevices" xml:space="preserve">
     <value>Получение информации об устройствах...</value>
-  </data>
-  <data name="research" xml:space="preserve">
-    <value>Исследование...</value>
   </data>
   <data name="retraining" xml:space="preserve">
     <value>Переобучение...</value>
@@ -456,20 +255,20 @@
   <data name="titles/another_periphery" xml:space="preserve">
     <value>Не закончена сессия на другом сервере.</value>
   </data>
-  <data name="titles/auto_login_query_failed" xml:space="preserve">
-    <value>Автоматический выбор сервера…</value>
-  </data>
   <data name="titles/checkout_error" xml:space="preserve">
     <value>Ошибка идентификации</value>
   </data>
   <data name="titles/queue" xml:space="preserve">
     <value>Очередь на вход в игру</value>
   </data>
-  <data name="titles/registering" xml:space="preserve">
-    <value>Создание аккаунта...</value>
+  <data name="trainingAssigning" xml:space="preserve">
+    <value>...</value>
   </data>
   <data name="trainingCreate" xml:space="preserve">
     <value>Создание комнаты...</value>
+  </data>
+  <data name="trainingCreateMap" xml:space="preserve">
+    <value> </value>
   </data>
   <data name="trainingDestroy" xml:space="preserve">
     <value>Удаление комнаты...</value>
@@ -489,10 +288,49 @@
   <data name="transferMoney" xml:space="preserve">
     <value>Перевод золота</value>
   </data>
-  <data name="tutorial-chapter-loading" xml:space="preserve">
-    <value>Загрузка обучения...</value>
+  <data name="updateAmmo" xml:space="preserve">
+    <value>Обновление амуниции...</value>
   </data>
-  <data name="tutorial-queue" xml:space="preserve">
+  <data name="updateCurrentVehicle" xml:space="preserve">
+    <value>Обновление техники...</value>
+  </data>
+  <data name="updateFitting" xml:space="preserve">
+    <value>Обновление модулей...</value>
+  </data>
+  <data name="updateInventory" xml:space="preserve">
+    <value>Обновление Склада...</value>
+  </data>
+  <data name="updateMyVehicles" xml:space="preserve">
+    <value>Обновление техники...</value>
+  </data>
+  <data name="updateShop" xml:space="preserve">
+    <value>Обновление Магазина...</value>
+  </data>
+  <data name="updateTankmen" xml:space="preserve">
+    <value>Обновление экипажа...</value>
+  </data>
+  <data name="updateVehicle" xml:space="preserve">
+    <value>Обновление техники...</value>
+  </data>
+  <data name="updating" xml:space="preserve">
+    <value>Обновление...</value>
+  </data>
+  <data name="verifyCaptcha" xml:space="preserve">
+    <value> ...</value>
+  </data>
+  <data name="voiceChat" xml:space="preserve">
+    <value>Инициализация голосовой связи</value>
+  </data>
+  <data name="message/auto_login_query_failed" xml:space="preserve">
+    <value>&lt;font color='#ff0000'&gt;Сервер "%(server)s" недоступен.
+%(reason)s&lt;/font&gt;
+
+Ожидайте, пока клиент автоматически войдёт в игру.</value>
+  </data>
+  <data name="titles/auto_login_query_failed" xml:space="preserve">
+    <value>Автоматический выбор сервера…</value>
+  </data>
+  <data name="tutorial-chapter-loading" xml:space="preserve">
     <value>Загрузка обучения...</value>
   </data>
   <data name="tutorial-request-battle-count" xml:space="preserve">
@@ -543,40 +381,301 @@
   <data name="tutorial-update-scene" xml:space="preserve">
     <value>Обновление интерфейса...</value>
   </data>
-  <data name="unloading" xml:space="preserve">
-    <value>Высадка...</value>
+  <data name="buttons/exit" xml:space="preserve">
+    <value>Не ожидать</value>
   </data>
-  <data name="updateAmmo" xml:space="preserve">
-    <value>Обновление амуниции...</value>
+  <data name="download/dossier" xml:space="preserve">
+    <value>Синхронизация личного дела...</value>
   </data>
-  <data name="updateCurrentVehicle" xml:space="preserve">
-    <value>Обновление техники...</value>
+  <data name="download/inventory" xml:space="preserve">
+    <value>Синхронизация оборудования и снаряжения...</value>
   </data>
-  <data name="updateFitting" xml:space="preserve">
-    <value>Обновление модулей...</value>
+  <data name="download/shop" xml:space="preserve">
+    <value>Синхронизация Магазина...</value>
   </data>
-  <data name="updateInventory" xml:space="preserve">
-    <value>Обновление Склада...</value>
+  <data name="message/auto_login_activating" xml:space="preserve">
+    <value>&lt;font color='#ff0000'&gt;Ваш аккаунт регистрируется.&lt;/font&gt;
+
+Ожидайте, пока клиент автоматически войдёт в игру.</value>
   </data>
-  <data name="updateMyVehicles" xml:space="preserve">
-    <value>Обновление техники...</value>
+  <data name="titles/registering" xml:space="preserve">
+    <value>Создание аккаунта...</value>
   </data>
-  <data name="updateShop" xml:space="preserve">
-    <value>Обновление Магазина...</value>
+  <data name="waiting_ebank_response" xml:space="preserve">
+    <value>  Ebank...</value>
   </data>
-  <data name="updateTankmen" xml:space="preserve">
-    <value>Обновление экипажа...</value>
+  <data name="draw_research_items" xml:space="preserve">
+    <value>Загружается...</value>
   </data>
-  <data name="updateVehicle" xml:space="preserve">
-    <value>Обновление техники...</value>
-  </data>
-  <data name="updating" xml:space="preserve">
-    <value>Обновление...</value>
+  <data name="research" xml:space="preserve">
+    <value>Исследование...</value>
   </data>
   <data name="updatingSkillWindow" xml:space="preserve">
     <value>Обновление данных...</value>
   </data>
-  <data name="voiceChat" xml:space="preserve">
-    <value>Инициализация голосовой связи</value>
+  <data name="tutorial-queue" xml:space="preserve">
+    <value>Загрузка обучения...</value>
+  </data>
+  <data name="ebankBuyGold" xml:space="preserve">
+    <value> Vcoin  </value>
+  </data>
+  <data name="equipping" xml:space="preserve">
+    <value>Посадка...</value>
+  </data>
+  <data name="prebattle/assign" xml:space="preserve">
+    <value>Перемещение...</value>
+  </data>
+  <data name="prebattle/change_arena_voip" xml:space="preserve">
+    <value>Изменение VOIP...</value>
+  </data>
+  <data name="prebattle/change_settings" xml:space="preserve">
+    <value>Изменение настроек...</value>
+  </data>
+  <data name="prebattle/create" xml:space="preserve">
+    <value>Создание...</value>
+  </data>
+  <data name="prebattle/join" xml:space="preserve">
+    <value>Присоединение...</value>
+  </data>
+  <data name="prebattle/kick" xml:space="preserve">
+    <value>Отсоединение...</value>
+  </data>
+  <data name="prebattle/leave" xml:space="preserve">
+    <value>Выход...</value>
+  </data>
+  <data name="prebattle/player_not_ready" xml:space="preserve">
+    <value>Не готов...</value>
+  </data>
+  <data name="prebattle/player_ready" xml:space="preserve">
+    <value>Подтверждение готовности...</value>
+  </data>
+  <data name="prebattle/swap" xml:space="preserve">
+    <value>Смена команд...</value>
+  </data>
+  <data name="prebattle/team_not_ready" xml:space="preserve">
+    <value>Команда не готова...</value>
+  </data>
+  <data name="prebattle/team_ready" xml:space="preserve">
+    <value>Команда готова...</value>
+  </data>
+  <data name="unloading" xml:space="preserve">
+    <value>Высадка...</value>
+  </data>
+  <data name="prebattle/auto_search" xml:space="preserve">
+    <value>Идёт поиск...</value>
+  </data>
+  <data name="prebattle/battle_queue" xml:space="preserve">
+    <value>Идёт поиск...</value>
+  </data>
+  <data name="crewRetraining" xml:space="preserve">
+    <value>Переобучение экипажа...</value>
+  </data>
+  <data name="crewReturning" xml:space="preserve">
+    <value>Возврат экипажа...</value>
+  </data>
+  <data name="disconnect" xml:space="preserve">
+    <value>Отключение...</value>
+  </data>
+  <data name="fort/building/add" xml:space="preserve">
+    <value>Создание...</value>
+  </data>
+  <data name="fort/building/attach" xml:space="preserve">
+    <value>Присоединение...</value>
+  </data>
+  <data name="fort/building/delete" xml:space="preserve">
+    <value>Удаление...</value>
+  </data>
+  <data name="fort/building/upgrade" xml:space="preserve">
+    <value>Обновление...</value>
+  </data>
+  <data name="fort/create" xml:space="preserve">
+    <value>Создание...</value>
+  </data>
+  <data name="fort/delete" xml:space="preserve">
+    <value>Удаление...</value>
+  </data>
+  <data name="fort/direction/close" xml:space="preserve">
+    <value>Удаление...</value>
+  </data>
+  <data name="fort/direction/open" xml:space="preserve">
+    <value>Создание...</value>
+  </data>
+  <data name="fort/order/activate" xml:space="preserve">
+    <value>Применение...</value>
+  </data>
+  <data name="fort/order/add" xml:space="preserve">
+    <value>Создание...</value>
+  </data>
+  <data name="fort/sortie/create" xml:space="preserve">
+    <value>Создание...</value>
+  </data>
+  <data name="fort/sortie/get" xml:space="preserve">
+    <value>Сбор информации...</value>
+  </data>
+  <data name="fort/subscribe" xml:space="preserve">
+    <value>Подключение...</value>
+  </data>
+  <data name="fort/transport" xml:space="preserve">
+    <value>Транспортировка...</value>
+  </data>
+  <data name="fort/unsubscribe" xml:space="preserve">
+    <value>Отключение...</value>
+  </data>
+  <data name="prebattle/change_user_status" xml:space="preserve">
+    <value>Изменение вашей роли в тренировке...</value>
+  </data>
+  <data name="buttons/autoSearch" xml:space="preserve">
+    <value>Автопоиск</value>
+  </data>
+  <data name="buttons/cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="fort/attack" xml:space="preserve">
+    <value>Подтверждение атаки...</value>
+  </data>
+  <data name="fort/card/get" xml:space="preserve">
+    <value>Сбор информации...</value>
+  </data>
+  <data name="fort/favorite/add" xml:space="preserve">
+    <value>Добавление в список...</value>
+  </data>
+  <data name="fort/favorite/remove" xml:space="preserve">
+    <value>Удаление из списка...</value>
+  </data>
+  <data name="fort/fortBattle/createOrJoin" xml:space="preserve">
+    <value>Подтверждение участия...</value>
+  </data>
+  <data name="fort/settings" xml:space="preserve">
+    <value>Применение...</value>
+  </data>
+  <data name="message/useAutoSearch" xml:space="preserve">
+    <value>&lt;font color='#ff0000'&gt;Извините, сервер «%s» перегружен.&lt;/font&gt;
+
+Ваш номер в очереди: %s.
+
+Ожидайте входа на "%s" или воспользуйтесь автопоиском (подбор сервера с комфортными условиями игры).</value>
+  </data>
+  <data name="prebattle/giveLeadership" xml:space="preserve">
+    <value>Передача командования...</value>
+  </data>
+  <data name="fort/serverConnection" xml:space="preserve">
+    <value>Соединение с сервером...</value>
+  </data>
+  <data name="loadContent" xml:space="preserve">
+    <value>Загрузка содержимого...</value>
+  </data>
+  <data name="changingRole" xml:space="preserve">
+    <value>Смена специализации...</value>
+  </data>
+  <data name="fort/activateConsumable" xml:space="preserve">
+    <value>Операция с резервом...</value>
+  </data>
+  <data name="fort/returnConsumable" xml:space="preserve">
+    <value>Операция с резервом...</value>
+  </data>
+  <data name="messenger/subscribe" xml:space="preserve">
+    <value>Подключение...</value>
+  </data>
+  <data name="buyAndInstall" xml:space="preserve">
+    <value>Покупка и установка...</value>
+  </data>
+  <data name="clubs/app/revoke" xml:space="preserve">
+    <value>Отзыв заявки...</value>
+  </data>
+  <data name="clubs/app/send" xml:space="preserve">
+    <value>Отправка заявки...</value>
+  </data>
+  <data name="clubs/assignOfficer" xml:space="preserve">
+    <value>Повышение должности...</value>
+  </data>
+  <data name="clubs/assignPrivate" xml:space="preserve">
+    <value>Понижение должности...</value>
+  </data>
+  <data name="clubs/closeClub" xml:space="preserve">
+    <value>Закрытие набора игроков...</value>
+  </data>
+  <data name="clubs/club/create" xml:space="preserve">
+    <value>Создание команды...</value>
+  </data>
+  <data name="clubs/club/get" xml:space="preserve">
+    <value>Получение информации...</value>
+  </data>
+  <data name="clubs/club/list" xml:space="preserve">
+    <value>Получение информации...</value>
+  </data>
+  <data name="clubs/clubKickMember" xml:space="preserve">
+    <value>Исключение из команды...</value>
+  </data>
+  <data name="clubs/destroyClub" xml:space="preserve">
+    <value>Расформирование команды...</value>
+  </data>
+  <data name="clubs/invitations/list/change" xml:space="preserve">
+    <value>Применение изменений...</value>
+  </data>
+  <data name="clubs/invitations/requirements/change" xml:space="preserve">
+    <value>Применение изменений...</value>
+  </data>
+  <data name="clubs/invite/accept" xml:space="preserve">
+    <value>Принятие приглашения...</value>
+  </data>
+  <data name="clubs/invite/decline" xml:space="preserve">
+    <value>Отклонение приглашения...</value>
+  </data>
+  <data name="clubs/invite/revoke" xml:space="preserve">
+    <value>Отзыв приглашения...</value>
+  </data>
+  <data name="clubs/invite/send" xml:space="preserve">
+    <value>Отправка приглашения...</value>
+  </data>
+  <data name="clubs/invites/send" xml:space="preserve">
+    <value>Отправка приглашения...</value>
+  </data>
+  <data name="clubs/joinClubUnit" xml:space="preserve">
+    <value>Присоединение к команде...</value>
+  </data>
+  <data name="clubs/leaveClub" xml:space="preserve">
+    <value>Выход из команды...</value>
+  </data>
+  <data name="clubs/openClub" xml:space="preserve">
+    <value>Открытие набора игроков...</value>
+  </data>
+  <data name="clubs/transferOwnership" xml:space="preserve">
+    <value>Передача командования...</value>
+  </data>
+  <data name="getClubInfo" xml:space="preserve">
+    <value>Получение данных...</value>
+  </data>
+  <data name="prebattle/takeLeadership" xml:space="preserve">
+    <value>Передача командования...</value>
+  </data>
+  <data name="download/discounts" xml:space="preserve">
+    <value>Синхронизация скидок...</value>
+  </data>
+  <data name="prebattle/changeDivision" xml:space="preserve">
+    <value>Смена дивизиона...</value>
+  </data>
+  <data name="clans/invites/send" xml:space="preserve">
+    <value>Отправка приглашения...</value>
+  </data>
+  <data name="loadingData" xml:space="preserve">
+    <value>Получение данных...</value>
+  </data>
+  <data name="download/recycleBin" xml:space="preserve">
+    <value>Синхронизация техники в Ангаре...</value>
+  </data>
+  <data name="upgradingChristmasItem" xml:space="preserve">
+    <value>Улучшаем украшение...</value>
+  </data>
+  <data name="browser/init" xml:space="preserve">
+    <value>Загрузка содержимого...</value>
+  </data>
+  <data name="download/ranked" xml:space="preserve">
+    <value>Синхронизация данных игрока...</value>
+  </data>
+  <data name="hof/loading" xml:space="preserve">
+    <value>Загрузка...</value>
+  </data>
+  <data name="download/badges" xml:space="preserve">
+    <value>Синхронизация данных игрока...</value>
   </data>
 </root>

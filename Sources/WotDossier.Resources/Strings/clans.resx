@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="clan/header/chatChannelBtn" xml:space="preserve">
     <value>Clan Chat</value>
@@ -176,9 +176,6 @@
   </data>
   <data name="clan/post/reservist" xml:space="preserve">
     <value>Reservist</value>
-  </data>
-  <data name="clanInvite/notification/userNameError" xml:space="preserve">
-    <value>Error displaying the name</value>
   </data>
   <data name="clanInvitesWindow/dataUpdated" xml:space="preserve">
     <value>Data in the table has been updated.</value>
@@ -341,17 +338,11 @@ Try again later.</value>
   <data name="clanInvitesWindow/tooltips/request/requestDeclined" xml:space="preserve">
     <value>Application declined.</value>
   </data>
-  <data name="clanInvitesWindow/tooltips/request/requestExpired" xml:space="preserve">
-    <value>Application expired</value>
-  </data>
   <data name="clanInvitesWindow/tooltips/request/requestSent" xml:space="preserve">
     <value>Application submitted.</value>
   </data>
   <data name="clanInvitesWindow/tooltips/table/cantAcceptRequest/body" xml:space="preserve">
     <value>Unable to add new players: the clan is full.</value>
-  </data>
-  <data name="clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body" xml:space="preserve">
-    <value>The player has recently left a clan. You can accept them into the clan only after:</value>
   </data>
   <data name="clanInvitesWindow/tooltips/table/cantSendInvite/body" xml:space="preserve">
     <value>Unable to invite new players: the clan is full.</value>
@@ -493,9 +484,6 @@ An application can be pending, expired, or processed.</value>
   <data name="clanPersonalInvitesWindow/tooltips/refreshButton/enabled" xml:space="preserve">
     <value>Click to update the table.</value>
   </data>
-  <data name="clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body" xml:space="preserve">
-    <value>You have recently left a clan. You can accept clan invitations only after:</value>
-  </data>
   <data name="clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body" xml:space="preserve">
     <value>Average experience earned per battle by members of the clan that sent the invitation (weighted average across the Random Battle mode)</value>
   </data>
@@ -544,30 +532,6 @@ An application can be pending, expired, or processed.</value>
   <data name="clanPersonalInvitesWindow/tooltips/table/requests/actions/header" xml:space="preserve">
     <value>Actions</value>
   </data>
-  <data name="clanProfile/clanJoinAward/btnAction" xml:space="preserve">
-    <value>Clan Profile</value>
-  </data>
-  <data name="clanProfile/clanJoinAward/btnClose" xml:space="preserve">
-    <value>Close</value>
-  </data>
-  <data name="clanProfile/clanJoinAward/header" xml:space="preserve">
-    <value>Welcome to the Clan!</value>
-  </data>
-  <data name="clanProfile/clanJoinAward/secondaryText" xml:space="preserve">
-    <value>Now you can fight in battles on the Global Map, build and defend your Stronghold, and complete special missions.</value>
-  </data>
-  <data name="clanProfile/clanJoinAward/title" xml:space="preserve">
-    <value>Bulletin</value>
-  </data>
-  <data name="clanProfile/clanJoinAward/yourClan" xml:space="preserve">
-    <value>Your clan: [%(tag)s] %(clanName)s</value>
-  </data>
-  <data name="clanProfile/fortificationInfo/dummy/body" xml:space="preserve">
-    <value>We are sorry for the inconvenience. Please try again later.</value>
-  </data>
-  <data name="clanProfile/fortificationInfo/dummy/header" xml:space="preserve">
-    <value>Stronghold is temporarily unavailable</value>
-  </data>
   <data name="clanProfile/mainWindow/dummy/body" xml:space="preserve">
     <value>We are sorry for the inconvenience.
 Try again later.</value>
@@ -586,9 +550,6 @@ Try again later.</value>
   </data>
   <data name="clanProfile/mainWindowTab/personnel" xml:space="preserve">
     <value>Clan Members</value>
-  </data>
-  <data name="clanProfile/mainWindowTab/strongholds" xml:space="preserve">
-    <value>Stronghold</value>
   </data>
   <data name="clanProfile/mainWindowTab/summary" xml:space="preserve">
     <value>Summary</value>
@@ -649,7 +610,7 @@ No Provinces owned.</value>
     <value>Details</value>
   </data>
   <data name="clanProfile/summaryView/buttonLbl/navigation" xml:space="preserve">
-    <value>Details</value>
+    <value>Proceed</value>
   </data>
   <data name="clanProfile/summaryView/buttonLbl/request" xml:space="preserve">
     <value>Submit Application</value>
@@ -683,6 +644,9 @@ to join this clan.</value>
   <data name="clanProfile/summaryView/statusMsg/inviteLimit" xml:space="preserve">
     <value>%(icon)s Temporarily restricted</value>
   </data>
+  <data name="clanProfile/summaryView/statusMsg/isInCooldown" xml:space="preserve">
+    <value>%(icon)s Temporarily restricted</value>
+  </data>
   <data name="clanProfile/summaryView/statusMsg/requestLimit" xml:space="preserve">
     <value>%(icon)s Temporarily restricted</value>
   </data>
@@ -700,12 +664,6 @@ to join this clan.</value>
   </data>
   <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_10/header" xml:space="preserve">
     <value>Elo Rating X</value>
-  </data>
-  <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_6/body" xml:space="preserve">
-    <value>Clan's Elo rating in division VI</value>
-  </data>
-  <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_6/header" xml:space="preserve">
-    <value>Elo rating VI</value>
   </data>
   <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_8/body" xml:space="preserve">
     <value>Clan's Elo rating in division VIII</value>
@@ -760,6 +718,12 @@ to join this clan.</value>
   </data>
   <data name="clanProfile/summaryView/tooltip/gMap_province/header" xml:space="preserve">
     <value>Provinces</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/joinUnavailable/afterClanLeave/body" xml:space="preserve">
+    <value>The two-day penalty for leaving your previous clan has not yet expired.</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/joinUnavailable/afterClanLeave/header" xml:space="preserve">
+    <value>Unable to Submit Application</value>
   </data>
   <data name="clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body" xml:space="preserve">
     <value>Maximum number of applications submitted.</value>
@@ -1046,13 +1010,6 @@ to join this clan.</value>
   <data name="globalMapView/table/province/tooltip/header" xml:space="preserve">
     <value>Province</value>
   </data>
-  <data name="globalMapView/table/provinceRobbed/tooltip/noIncome" xml:space="preserve">
-    <value>The Province was pillaged and temporarily does not earn you income.</value>
-  </data>
-  <data name="globalMapView/table/provinceRobbed/tooltip/restoreTime" xml:space="preserve">
-    <value>Time before you start receiving income again:
-%(date)s</value>
-  </data>
   <data name="globalMapView/tabs/provinces" xml:space="preserve">
     <value>Provinces</value>
   </data>
@@ -1102,11 +1059,14 @@ number of battles</value>
   <data name="personnelView/clanStats/avgWins/tooltip/header" xml:space="preserve">
     <value>Average Rate of Victories Across Clan Members</value>
   </data>
+  <data name="personnelView/membersCount" xml:space="preserve">
+    <value>Clan members: %(count)s / %(max)s</value>
+  </data>
   <data name="personnelView/table/avgExp/tooltip/body" xml:space="preserve">
     <value>Ratio of total experience earned to the number of battles fought by the player in the Random Battle and Tank Company Battle modes</value>
   </data>
   <data name="personnelView/table/avgExp/tooltip/header" xml:space="preserve">
-    <value>Average Experience</value>
+    <value>Average experience</value>
   </data>
   <data name="personnelView/table/battlesCount/tooltip/body" xml:space="preserve">
     <value>Total number of Random Battles and Tank Company Battles fought by the player</value>
@@ -1150,9 +1110,6 @@ number of battles</value>
   <data name="personnelView/table/wins/tooltip/header" xml:space="preserve">
     <value>Victories</value>
   </data>
-  <data name="personnelView/title" xml:space="preserve">
-    <value>Clan Member Statistics Across Random Battles:</value>
-  </data>
   <data name="search/clansList" xml:space="preserve">
     <value>Listed Clans: %(value)s</value>
   </data>
@@ -1183,6 +1140,15 @@ number of battles</value>
   <data name="search/info/clanProfileBtn" xml:space="preserve">
     <value>Clan Profile</value>
   </data>
+  <data name="search/info/cooldown/tooltip/attention" xml:space="preserve">
+    <value>The two-day penalty for leaving your previous clan has not yet expired.</value>
+  </data>
+  <data name="search/info/cooldown/tooltip/header" xml:space="preserve">
+    <value>Unable to Submit Application</value>
+  </data>
+  <data name="search/info/creationDate" xml:space="preserve">
+    <value>Created: %(date)s</value>
+  </data>
   <data name="search/info/forbiddenAccountType/tooltip/body" xml:space="preserve">
     <value>Unable to submit the application to join the clan.</value>
   </data>
@@ -1203,9 +1169,6 @@ number of battles</value>
   </data>
   <data name="search/info/ratingDescription/tooltip/header" xml:space="preserve">
     <value>Total Rating</value>
-  </data>
-  <data name="search/info/ratingTitle" xml:space="preserve">
-    <value>Statistics Across All Battle Types:</value>
   </data>
   <data name="search/info/requestAlreadySent/tooltip/attention" xml:space="preserve">
     <value>You have already submitted your application to this clan.</value>
@@ -1289,18 +1252,6 @@ number of battles fought</value>
   <data name="search/promoText/header" xml:space="preserve">
     <value>Clan Search</value>
   </data>
-  <data name="search/requestTooShort/body" xml:space="preserve">
-    <value>To search for a clan, enter at least 2 characters in the field and try again.</value>
-  </data>
-  <data name="search/requestTooShort/button" xml:space="preserve">
-    <value>Back to List</value>
-  </data>
-  <data name="search/requestTooShort/button/tooltip/header" xml:space="preserve">
-    <value>Back to List</value>
-  </data>
-  <data name="search/requestTooShort/header" xml:space="preserve">
-    <value>Insufficient Data</value>
-  </data>
   <data name="search/searchBtn" xml:space="preserve">
     <value>Search</value>
   </data>
@@ -1379,6 +1330,114 @@ and submit your application to join. You can either search by clan name or tag.<
   <data name="section/fort/defence/notActivated" xml:space="preserve">
     <value>not set</value>
   </data>
+  <data name="section/fort/tooltips/absoluteBattlesCount/body" xml:space="preserve">
+    <value>Number of Tier X battles</value>
+  </data>
+  <data name="section/fort/tooltips/absoluteBattlesCount/header" xml:space="preserve">
+    <value>Absolute Division</value>
+  </data>
+  <data name="section/fort/tooltips/absoluteLvlBattles/body" xml:space="preserve">
+    <value>Total number of Tier X Advances fought</value>
+  </data>
+  <data name="section/fort/tooltips/absoluteLvlBattles/header" xml:space="preserve">
+    <value>Advances (Absolute Division)</value>
+  </data>
+  <data name="section/fort/tooltips/avgBattlesCount28/body" xml:space="preserve">
+    <value>Total number of Skirmishes across all divisions in the last 28 days</value>
+  </data>
+  <data name="section/fort/tooltips/avgBattlesCount28/header" xml:space="preserve">
+    <value>Skirmishes in All Divisions</value>
+  </data>
+  <data name="section/fort/tooltips/championBattlesCount/body" xml:space="preserve">
+    <value>Number of Tier VIII battles</value>
+  </data>
+  <data name="section/fort/tooltips/championBattlesCount/header" xml:space="preserve">
+    <value>Champion Division</value>
+  </data>
+  <data name="section/fort/tooltips/chempionLvlBattles/body" xml:space="preserve">
+    <value>Total number of Tier VIII Advances fought</value>
+  </data>
+  <data name="section/fort/tooltips/chempionLvlBattles/header" xml:space="preserve">
+    <value>Advances (Champion Division)</value>
+  </data>
+  <data name="section/fort/tooltips/countCapturedCommandCentres/body" xml:space="preserve">
+    <value>Total number of enemy Command Centers captured</value>
+  </data>
+  <data name="section/fort/tooltips/countCapturedCommandCentres/header" xml:space="preserve">
+    <value>Command Centers Captured</value>
+  </data>
+  <data name="section/fort/tooltips/countPlunderedAllyBuildings/body" xml:space="preserve">
+    <value>Total number of structures in your Stronghold pillaged by the enemy</value>
+  </data>
+  <data name="section/fort/tooltips/countPlunderedAllyBuildings/header" xml:space="preserve">
+    <value>Pillaged Structures in Your Stronghold</value>
+  </data>
+  <data name="section/fort/tooltips/countPlunderedEnemyBuildings/body" xml:space="preserve">
+    <value>Total number of pillaged structures in enemy Strongholds</value>
+  </data>
+  <data name="section/fort/tooltips/countPlunderedEnemyBuildings/header" xml:space="preserve">
+    <value>Pillaged Structures in Enemy Strongholds</value>
+  </data>
+  <data name="section/fort/tooltips/countPromres/body" xml:space="preserve">
+    <value>Total Industrial Resource earned in Advances</value>
+  </data>
+  <data name="section/fort/tooltips/countPromres/header" xml:space="preserve">
+    <value>Industrial Resource Earned</value>
+  </data>
+  <data name="section/fort/tooltips/efficiencyOfAttack/body" xml:space="preserve">
+    <value>Total number of attacks, in which at least one enemy structure was captured</value>
+  </data>
+  <data name="section/fort/tooltips/efficiencyOfAttack/header" xml:space="preserve">
+    <value>Efficient Attacks</value>
+  </data>
+  <data name="section/fort/tooltips/efficiencyOfDefence/body" xml:space="preserve">
+    <value>Total number of defensive actions, in which you did not lose a Stronghold structure</value>
+  </data>
+  <data name="section/fort/tooltips/efficiencyOfDefence/header" xml:space="preserve">
+    <value>Efficient Defensive Actions</value>
+  </data>
+  <data name="section/fort/tooltips/lootInSorties/body" xml:space="preserve">
+    <value>Total Industrial Resource earned in all Skirmishes across all divisions</value>
+  </data>
+  <data name="section/fort/tooltips/lootInSorties/header" xml:space="preserve">
+    <value>Total Industrial Resource Earned in Skirmishes</value>
+  </data>
+  <data name="section/fort/tooltips/lostPromres/body" xml:space="preserve">
+    <value>Total Industrial Resource lost in Advances</value>
+  </data>
+  <data name="section/fort/tooltips/lostPromres/header" xml:space="preserve">
+    <value>Industrial Resource Lost</value>
+  </data>
+  <data name="section/fort/tooltips/middleBattlesCount/body" xml:space="preserve">
+    <value>Number of Tier VI battles</value>
+  </data>
+  <data name="section/fort/tooltips/middleBattlesCount/header" xml:space="preserve">
+    <value>Medium Division</value>
+  </data>
+  <data name="section/fort/tooltips/profit/body" xml:space="preserve">
+    <value>Ratio of Industrial Resource earned to Industrial Resource lost</value>
+  </data>
+  <data name="section/fort/tooltips/profit/header" xml:space="preserve">
+    <value>Net Profit</value>
+  </data>
+  <data name="section/fort/tooltips/recordResource/body" xml:space="preserve">
+    <value>Most Industrial Resource earned in a single Skirmish</value>
+  </data>
+  <data name="section/fort/tooltips/recordResource/header" xml:space="preserve">
+    <value>Most Industrial Resource Earned</value>
+  </data>
+  <data name="section/fort/tooltips/recordWinSeries/body" xml:space="preserve">
+    <value>The most Skirmish victories in a row</value>
+  </data>
+  <data name="section/fort/tooltips/recordWinSeries/header" xml:space="preserve">
+    <value>Most Victories in a Row</value>
+  </data>
+  <data name="section/fort/tooltips/winsEfficiency28/body" xml:space="preserve">
+    <value>Victory rate in Skirmishes across all divisions in the last 28 days</value>
+  </data>
+  <data name="section/fort/tooltips/winsEfficiency28/header" xml:space="preserve">
+    <value>Victories Across All Divisions</value>
+  </data>
   <data name="section/fort/view/schema/labels/dayoff" xml:space="preserve">
     <value>Ceasefire:</value>
   </data>
@@ -1391,13 +1450,146 @@ and submit your application to join. You can either search by clan name or tag.<
   <data name="section/fort/view/schema/labels/totalBuildings" xml:space="preserve">
     <value>Structures built:</value>
   </data>
+  <data name="section/fort/view/schema/labels/totalDirections" xml:space="preserve">
+    <value>Open zones:</value>
+  </data>
   <data name="section/fort/view/schema/labels/vacation" xml:space="preserve">
     <value>Neutrality:</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/absoluteLvlBattles" xml:space="preserve">
+    <value>Advances in the Absolute division</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/chempionLvlBattles" xml:space="preserve">
+    <value>Advances in the Champion division</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/countCapturedCommandCentres" xml:space="preserve">
+    <value>Command Centers captured</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/countPlunderedAllyBuildings" xml:space="preserve">
+    <value>Pillaged structures in your Stronghold</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/countPlunderedEnemyBuildings" xml:space="preserve">
+    <value>Pillaged structures in enemy Strongholds</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/countPromres" xml:space="preserve">
+    <value>Industrial Resource earned</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/efficiencyOfAttack" xml:space="preserve">
+    <value>Efficient attacks</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/efficiencyOfDefence" xml:space="preserve">
+    <value>Efficient defensive actions</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/header" xml:space="preserve">
+    <value>General Statistics of Advances</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/lostPromres" xml:space="preserve">
+    <value>Industrial Resource lost</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/profit" xml:space="preserve">
+    <value>Net profit</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/header" xml:space="preserve">
+    <value>Advances</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/absoluteBattlesCount" xml:space="preserve">
+    <value>Absolute level</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/avgBattlesCount28" xml:space="preserve">
+    <value>Battles across all divisions in the last 28 days</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/championBattlesCount" xml:space="preserve">
+    <value>Champion level</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/header" xml:space="preserve">
+    <value>Battles by Division</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/lootInSorties" xml:space="preserve">
+    <value>Total Industrial Resource earned in Skirmishes</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/middleBattlesCount" xml:space="preserve">
+    <value>Medium level</value>
   </data>
   <data name="section/fort/view/statistics/sorties/detailed/recordResource" xml:space="preserve">
     <value>Most Industrial Resource earned</value>
   </data>
   <data name="section/fort/view/statistics/sorties/detailed/recordWinSeries" xml:space="preserve">
     <value>Most victories in a row</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/winsEfficiency28" xml:space="preserve">
+    <value>Victories across all divisions in the last 28 days</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/header" xml:space="preserve">
+    <value>Skirmishes</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/btnAction" xml:space="preserve">
+    <value>Clan Profile</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/btnClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/header" xml:space="preserve">
+    <value>Welcome to the Clan!</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/secondaryText" xml:space="preserve">
+    <value>Now you can fight in battles on the Global Map, build and defend your Stronghold, and complete special missions.</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/title" xml:space="preserve">
+    <value>Bulletin</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/yourClan" xml:space="preserve">
+    <value>Your clan: [%(tag)s] %(clanName)s</value>
+  </data>
+  <data name="globalMapView/table/provinceRobbed/tooltip/noIncome" xml:space="preserve">
+    <value>The Province was pillaged and temporarily does not earn you income.</value>
+  </data>
+  <data name="globalMapView/table/provinceRobbed/tooltip/restoreTime" xml:space="preserve">
+    <value>Time before you start receiving income again:
+%(date)s</value>
+  </data>
+  <data name="search/requestTooShort/body" xml:space="preserve">
+    <value>To search for a clan, enter at least 2 characters in the field and try again.</value>
+  </data>
+  <data name="search/requestTooShort/button" xml:space="preserve">
+    <value>Back to List</value>
+  </data>
+  <data name="search/requestTooShort/button/tooltip/header" xml:space="preserve">
+    <value>Back to List</value>
+  </data>
+  <data name="search/requestTooShort/header" xml:space="preserve">
+    <value>Insufficient Data</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body" xml:space="preserve">
+    <value>The player has recently left a clan. You can accept them into the clan only after:</value>
+  </data>
+  <data name="clanProfile/fortificationInfo/dummy/body" xml:space="preserve">
+    <value>We are sorry for the inconvenience. Please try again later.</value>
+  </data>
+  <data name="clanProfile/fortificationInfo/dummy/header" xml:space="preserve">
+    <value>Stronghold is temporarily unavailable</value>
+  </data>
+  <data name="personnelView/title" xml:space="preserve">
+    <value>Clan Member Statistics Across Random Battles:</value>
+  </data>
+  <data name="search/info/ratingTitle" xml:space="preserve">
+    <value>Statistics Across All Battle Types:</value>
+  </data>
+  <data name="clanInvite/notification/userNameError" xml:space="preserve">
+    <value>Error displaying the name</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/request/requestExpired" xml:space="preserve">
+    <value>Application expired</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body" xml:space="preserve">
+    <value>You have recently left a clan. You can accept clan invitations only after:</value>
+  </data>
+  <data name="clanProfile/mainWindowTab/strongholds" xml:space="preserve">
+    <value>Stronghold</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_6/body" xml:space="preserve">
+    <value>Clan's Elo rating in division VI</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_6/header" xml:space="preserve">
+    <value>Elo rating VI</value>
   </data>
 </root>

@@ -9,6 +9,8 @@ using System.Linq;
 using System.Reflection;
 using System.Resources;
 using System.Text;
+using System.Web;
+using System.Web.UI.WebControls;
 using System.Xml;
 using System.Xml.Linq;
 using Ionic.Zip;
@@ -21,6 +23,7 @@ using WotDossier.Applications.Logic.Export;
 using WotDossier.Applications.ViewModel.Rows;
 using WotDossier.Applications.ViewModel.Statistic;
 using WotDossier.Common;
+using WotDossier.Common.Extensions;
 using WotDossier.Dal;
 using WotDossier.Domain;
 using WotDossier.Domain.Interfaces;
@@ -42,14 +45,53 @@ namespace WotDossier.Test
 	    {
 		    public string ClientPath { get; set; }
 		    public string PatchVer { get; set; }
-		    public bool Packed { get; set; }
-		    public string EnglishClientPath { get; set; }
+		    public bool PackedScripts { get; set; }
+			public bool PackedImages { get; set; }
+			public string EnglishClientPath { get; set; }
 		}
 
 	    private List<ClientInfo> clients = new List<ClientInfo>
 	    {
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.0", PatchVer="0.7.0", PackedScripts=false, PackedImages=false, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.0"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.1.1", PatchVer="0.7.1", PackedScripts=false, PackedImages=false, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.1.1"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.2", PatchVer="0.7.2", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.2"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.3", PatchVer="0.7.3", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.3"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.4", PatchVer="0.7.4", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.4"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.5", PatchVer="0.7.5", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.5"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.0", PatchVer="0.8.0", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.0"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.1", PatchVer="0.8.1", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.1"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.2", PatchVer="0.8.2", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.2"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.3", PatchVer="0.8.3", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.3"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.4", PatchVer="0.8.4", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.4"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.5", PatchVer="0.8.5", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.5"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.6", PatchVer="0.8.6", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.6"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.7", PatchVer="0.8.7", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.7"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.8", PatchVer="0.8.8", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.8"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.9", PatchVer="0.8.9", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.9"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.10", PatchVer="0.8.10", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.10"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.11", PatchVer="0.8.11", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.11"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.0", PatchVer="0.9.0", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.0"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.1", PatchVer="0.9.1", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.1"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.2", PatchVer="0.9.2", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.2"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.3", PatchVer="0.9.3", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.3"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.4", PatchVer="0.9.4", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.4"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.5", PatchVer="0.9.5", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.5"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.6", PatchVer="0.9.6", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.6"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.7", PatchVer="0.9.7", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.7"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.8.1", PatchVer="0.9.8", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.8.1"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.9", PatchVer="0.9.9", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.9"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.10", PatchVer="0.9.10", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.10"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.12", PatchVer="0.9.12", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.12"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.13", PatchVer="0.9.13", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.13"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.14", PatchVer="0.9.14", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.14"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.15.1.1", PatchVer="0.9.15", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.15.1.1"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.16", PatchVer="0.9.16", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.16"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.17.1", PatchVer="0.9.17", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.17.1"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.18", PatchVer="0.9.18", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.18"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.19.1.2", PatchVer="0.9.19", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.19.1.2"},
 		    //new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.4", PatchVer="0.8.4", Packed=false, EnglishClientPath="ru-RU"},
-		    new ClientInfo{ClientPath= @"s:\WorldOfTanks", PatchVer="0.9.20", Packed=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.20"},
+		    new ClientInfo{ClientPath= @"s:\WorldOfTanks", PatchVer="0.9.20", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.20"},
+		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.20.1.CT", PatchVer="0.9.20.1", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.20.1.CT"},
 		};
 
 
@@ -121,7 +163,7 @@ namespace WotDossier.Test
         {
             CsvExportProvider provider = new CsvExportProvider();
             FileInfo cacheFile = CacheTestFixture.GetCacheFile("_rembel__ru", @"\CacheFiles\0.8.9\");
-            List<TankJson> tanks = CacheFileHelper.InternalBinaryCacheToJson(cacheFile);
+            List<TankJson> tanks = CacheFileHelper.ReadTanksCache(CacheFileHelper.BinaryCacheToJson(cacheFile));
             List<RandomBattlesTankStatisticRowViewModel> list = tanks.Select(x => new RandomBattlesTankStatisticRowViewModel(x, new List<StatisticSlice>())).ToList();
             Console.WriteLine(provider.Export(list, new List<Type>{typeof(IStatisticBattles), typeof(IStatisticFrags)}));
         }
@@ -228,6 +270,7 @@ namespace WotDossier.Test
             {
                 BigWorldXmlReader reader = new BigWorldXmlReader();
                 FileInfo info = new FileInfo(xml);
+
                 using (BinaryReader br = new BinaryReader(info.OpenRead()))
                 {
                     var xmlContent = reader.DecodePackedFile(br, "shell");
@@ -260,405 +303,424 @@ namespace WotDossier.Test
             }
         }
 
-        [Test]
-        public void ImportTanksXmlTest()
-        {
-            EnshureScriptsCopied();
+   //     [Test]
+   //     public void ImportTanksXmlTest()
+   //     {
+   //         EnshureScriptsCopied();
 
-            CopyGameTextResources();
+   //         CopyGameTextResources();
 
-            Console.WriteLine("Copy tanks definitions");
+   //         Console.WriteLine("Copy tanks definitions");
 
-            var scriptsPath = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Scripts");
-            var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Tanks");
-            var source = Path.Combine(scriptsPath, @"item_defs\vehicles");
+   //         var scriptsPath = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Scripts");
+   //         var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Tanks");
+   //         var source = Path.Combine(scriptsPath, @"item_defs\vehicles");
 
-            Directory.CreateDirectory(destination);
+   //         Directory.CreateDirectory(destination);
 
-            DirectoryCopy(source, destination, true);
+   //         DirectoryCopy(source, destination, true);
 
-            var strings = Directory.GetFiles(Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Tanks"), "list.xml", SearchOption.AllDirectories);
+   //         var strings = Directory.GetFiles(Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Tanks"), "list.xml", SearchOption.AllDirectories);
 
-            List<JObject> result = new List<JObject>();
+   //         List<JObject> result = new List<JObject>();
 
-            StringBuilder codegen = new StringBuilder();
+   //         StringBuilder codegen = new StringBuilder();
 
-            Dictionary<string, string> resources = new Dictionary<string, string>();
+   //         Dictionary<string, string> resources = new Dictionary<string, string>();
 
-            foreach (var xml in strings)
-            {
-                BigWorldXmlReader reader = new BigWorldXmlReader();
-                FileInfo info = new FileInfo(xml);
-                using (BinaryReader br = new BinaryReader(info.OpenRead()))
-                {
-                    var xmlContent = reader.DecodePackedFile(br, "vehicles");
-                    XmlDocument doc = new XmlDocument();
-                    doc.LoadXml(xmlContent);
-                    string jsonText = JsonConvert.SerializeXmlNode(doc, Formatting.Indented);
+   //         foreach (var xml in strings)
+   //         {
+   //             BigWorldXmlReader reader = new BigWorldXmlReader();
+   //             FileInfo info = new FileInfo(xml);
+   //             using (BinaryReader br = new BinaryReader(info.OpenRead()))
+   //             {
+   //                 var xmlContent = reader.DecodePackedFile(br, "vehicles");
+   //                 XmlDocument doc = new XmlDocument();
+   //                 doc.LoadXml(xmlContent);
+   //                 string jsonText = JsonConvert.SerializeXmlNode(doc, Formatting.Indented);
 
-                    var dictionary = JsonConvert.DeserializeObject<Dictionary<string, JObject>>(jsonText);
-                    dictionary = dictionary["vehicles"].ToObject<Dictionary<string, JObject>>();
+   //                 var dictionary = JsonConvert.DeserializeObject<Dictionary<string, JObject>>(jsonText);
+   //                 dictionary = dictionary["vehicles"].ToObject<Dictionary<string, JObject>>();
+
+			//		//{"tankid": 0, "countryid": 0, "compDescr": 1, "active": 1, "type": 2, 
+			//		//"type_name": "MT", "tier": 5, "premium": 0, "title": "T-34", "icon": "r04_t_34", "icon_orig": "R04_T-34"},
+					
+	  //              List<JObject> tanks = new List<JObject>();
+   //                 foreach (var tank in dictionary)
+   //                 {
+   //                     JObject tankDescription = new JObject();
+   //                     var tankid = tank.Value["id"].Value<int>();
+   //                     tankDescription["tankid"] = tankid;
+   //                     Country country = (Country)Enum.Parse(typeof(Country), info.Directory.Name);
+	  //                  var countryid = (int)country;
+   //                     tankDescription["countryid"] = countryid;
+   //                     var typeCompDesc = Utils.TypeCompDesc(countryid, tankid);
+   //                     tankDescription["compDescr"] = typeCompDesc;
+   //                     var uniqueId = Utils.ToUniqueId(countryid, tankid);
+   //                     tankDescription["active"] = Dictionaries.Instance.Tanks.ContainsKey(uniqueId) && !Dictionaries.Instance.Tanks[uniqueId].Active ? 0 : 1;
+   //                     var tankType = GetVehicleTypeByTag(tank.Value["tags"].Value<string>());
+   //                     tankDescription["type"] = (int)tankType;
+   //                     tankDescription["type_name"] = tankType.ToString();
+   //                     tankDescription["tier"] = tank.Value["level"].Value<int>();
+   //                     tankDescription["premium"] = Dictionaries.Instance.Tanks.ContainsKey(uniqueId) ? Dictionaries.Instance.Tanks[uniqueId].Premium :
+   //                     tank.Value["notInShop"] == null ? 0 : 1;
+   //                     var key = tank.Value["userString"].Value<string>().Split(':')[1];
+   //                     var value = GetString(key);
+   //                     tankDescription["title"] = value;
+   //                     var titleShort = tank.Value["shortUserString"];
+   //                     if (titleShort != null)
+   //                     {
+   //                         tankDescription["title_short"] = GetString(titleShort.Value<string>().Split(':')[1]);
+   //                     }
+   //                     var icon = tank.Key.Replace("-", "_").ToLower();
+
+   //                     if (countryid == 0)
+   //                     {
+   //                         resources.Add(icon, value);
+   //                     }
+
+   //                     tankDescription["icon"] = icon;
+   //                     tankDescription["icon_orig"] = tank.Key;
+
+   //                     if (!Dictionaries.Instance.Tanks.ContainsKey(uniqueId))
+   //                     {
+   //                         Console.WriteLine(tank.Value);
+   //                     }
+   //                     else
+   //                     {
+   //                         var description = Dictionaries.Instance.Tanks[uniqueId];
+   //                         if (description.Icon.Icon != (string)tankDescription["icon"])
+   //                         {
+   //                             string f = @"else if (iconId == ""{0}_{1}"")
+   //                             {{
+   //                                 //{4} replay tank name changed to {2}
+   //                                 tankDescription = tankDescriptions[{3}];
+   //                             }}";
+   //                             codegen.AppendFormat(f, country.ToString().ToLower(), description.Icon.Icon, tankDescription["icon"], uniqueId, Dictionaries.VersionRelease);
+   //                             codegen.AppendLine();
+   //                         }
+   //                     }
+
+   //                     JObject tankDef = GetTankDefinition(countryid, tank.Key);
+
+   //                     if (tankDef != null)
+   //                     {
+   //                         //Console.WriteLine(tankDef.ToString(Formatting.Indented));
+   //                         var health = tankDef.SelectToken("$.vehicles.hull.maxHealth").Value<int>() + tankDef.SelectTokens("$.vehicles.turrets0..maxHealth").First().Value<int>();
+   //                         tankDescription["health"] = health;
+   //                     }
+
+   //                     tanks.Add(tankDescription);
+   //                 }
+   //                 result.AddRange(tanks);
+   //             }
+   //         }
+			////Add Action tanks
+			//AddActionTanks(result);
+
+			//using (ResXResourceWriter writer = new ResXResourceWriter(Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Resources\ussr_vehicles_out.resx")))
+   //         {
+   //             foreach (var resource in resources)
+   //             {
+   //                 writer.AddResource(resource.Key, resource.Value);
+   //             }
+   //         }
+
+   //         var serializeObject = JsonConvert.SerializeObject(result
+   //             .OrderBy(x => GetOrder(x["countryid"].Value<int>()))
+   //             .ThenBy(x => x["tankid"].Value<int>()));
+   //         var tanksJson = serializeObject.Replace("{", "\n{").Replace(",\"", ", \"").Replace(":", ": ");
+
+   //         var path = Path.Combine(Environment.CurrentDirectory, @"Output\Externals");
+
+   //         if (!Directory.Exists(path))
+   //         {
+   //             Directory.CreateDirectory(path);
+   //         }
+
+   //         path = Path.Combine(path, "tanks.json");
+
+   //         var stream = File.OpenWrite(path);
+   //         using (StreamWriter writer = new StreamWriter(stream, Encoding.UTF8))
+   //         {
+   //             writer.Write(tanksJson);
+   //         }
+
+   //         Console.WriteLine(tanksJson);
+   //         Console.WriteLine(codegen);
+   //     }
+
+	    public void ImportTanksXml(ClientInfo client)
+		{
+			var scriptsPath = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\scripts");
+			var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Vehicles");
+			var source = Path.Combine(scriptsPath, @"item_defs\vehicles");
+
+			if(!Directory.Exists(destination))
+				Directory.CreateDirectory(destination);
+			if(!Directory.Exists(Path.Combine(destination, $@"Images\Vehicle")))
+				Directory.CreateDirectory(Path.Combine(destination, $@"Images\Vehicle"));
+
+			var resultDoc = new XDocument();
+			if (File.Exists(Path.Combine(destination, "Vehicles.xml")))
+				resultDoc = XDocument.Load(Path.Combine(destination, "Vehicles.xml"));
+			else
+			{
+				var mapNode = new XElement("vehicles");
+				resultDoc.Add(mapNode);
+			}
+
+			var patchNode = resultDoc.Root.Elements("patch").FirstOrDefault(e => e.Attribute("version").Value == client.PatchVer);
+			if (patchNode == null)
+			{
+				patchNode = new XElement("patch", new XAttribute("version", client.PatchVer));
+				resultDoc.Root.Add(patchNode);
+			}
+
+			var strings = Directory.GetFiles(source, "list.xml", SearchOption.AllDirectories);
+
+			BigWorldXmlReader reader = new BigWorldXmlReader();
+
+			foreach (var xml in strings)
+			{
+				FileInfo info = new FileInfo(xml);
+				using (BinaryReader br = new BinaryReader(info.OpenRead()))
+				{
+					var xmlContent = reader.DecodePackedFile(br, "vehicles");
+					var doc = XDocument.Parse(xmlContent);
+
+					foreach (var element in doc.Root.Elements())
+					{
+						var id = Convert.ToInt32(element.Element("id").Value.Trim(' ', '\t'));
+						var userString = element.Element("userString").Value.Trim(' ', '\t');
+						var description = element.Element("description").Value.Trim(' ', '\t');
+						var notInShop = (element.Element("notInShop") != null && element.Element("notInShop").Value.Trim(' ', '\t') == "true");
+						var goldPrice = element.Element("price").Elements("gold").Any();
+						var level = Convert.ToInt32(element.Element("level").Value.Trim(' ', '\t'));
+						var countryName = info.Directory.Name.Substring(0, 1).ToUpper() + info.Directory.Name.Substring(1);
+						
+						var country = (Country)Enum.Parse(typeof(Country), countryName);
+						var countryid = (int)country;
+						var typeCompDesc = Utils.TypeCompDesc(countryid, id);
+						var uniqueId = Utils.ToUniqueId(countryid, id);
+						var tags = element.Element("tags").Value.Trim(' ', '\t');
+						var tankType = GetVehicleTypeByTag(tags);
+						var secret = tags.Contains("secret");
+						//var key = userString.Split(':')[1];
+						var key = element.Name.LocalName;
+
+						var tankDef = LoadTankDefinition(countryid, key);
+						int health = 0;
+						if (tankDef != null)
+						{
+							health = Convert.ToInt32(tankDef.Element("hull").Element("maxHealth").Value.Trim(' ', '\t')) +
+							         Convert.ToInt32(tankDef.Element("turrets0").Elements().First().Element("maxHealth").Value
+								         .Trim(' ', '\t'));
+							//Console.WriteLine(tankDef.ToString(Formatting.Indented));
+							//var health = tankDef.SelectToken("$.vehicles.hull.maxHealth").Value<int>() + tankDef.SelectTokens("$.vehicles.turrets0..maxHealth").First().Value<int>();
+							//tankDescription["health"] = health;
+						}
+						patchNode.Element(element.Name.LocalName)?.Remove();
+						patchNode.Add(new XElement(element.Name.LocalName, 
+							new XAttribute("id", id),
+							new XAttribute("countryid", countryid),
+							new XAttribute("compDescr", typeCompDesc),
+							new XAttribute("type", (int)tankType),
+							new XAttribute("secret", secret),
+							new XAttribute("premium", goldPrice),
+							new XAttribute("tier", level),
+							new XAttribute("key", key),
+							new XAttribute("userString", userString),
+							new XAttribute("description", description),
+							new XAttribute("health", health)
+							));
+
+						//tankDescription["type"] = (int)tankType;
+						//tankDescription["type_name"] = tankType.ToString();
+						var icon = countryName.ToLower() + "-" + key + ".png";
+						var tgticon = countryName.ToLower() + "-" + key + "." + typeCompDesc + ".png";
+						if (!File.Exists(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\vehicle",
+							icon)))
+						{
+							if (File.Exists(Path.Combine(Environment.CurrentDirectory, $@"Patch\Images\vehicle", icon)))
+								File.Copy(Path.Combine(Environment.CurrentDirectory, $@"Patch\Images\vehicle", icon), Path.Combine(destination, $@"Images\Vehicle", tgticon), true);
+							else
+								Console.WriteLine(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\vehicle", icon));
+						}
+						else
+							File.Copy(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\vehicle", icon), Path.Combine(destination, $@"Images\Vehicle", tgticon), true);
+
+					}
 
 					//{"tankid": 0, "countryid": 0, "compDescr": 1, "active": 1, "type": 2, 
 					//"type_name": "MT", "tier": 5, "premium": 0, "title": "T-34", "icon": "r04_t_34", "icon_orig": "R04_T-34"},
-					
-	                List<JObject> tanks = new List<JObject>();
-                    foreach (var tank in dictionary)
-                    {
-                        JObject tankDescription = new JObject();
-                        var tankid = tank.Value["id"].Value<int>();
-                        tankDescription["tankid"] = tankid;
-                        Country country = (Country)Enum.Parse(typeof(Country), info.Directory.Name);
-	                    var countryid = (int)country;
-                        tankDescription["countryid"] = countryid;
-                        var typeCompDesc = DossierUtils.TypeCompDesc(countryid, tankid);
-                        tankDescription["compDescr"] = typeCompDesc;
-                        var uniqueId = DossierUtils.ToUniqueId(countryid, tankid);
-                        tankDescription["active"] = Dictionaries.Instance.Tanks.ContainsKey(uniqueId) && !Dictionaries.Instance.Tanks[uniqueId].Active ? 0 : 1;
-                        var tankType = GetVehicleTypeByTag(tank.Value["tags"].Value<string>());
-                        tankDescription["type"] = (int)tankType;
-                        tankDescription["type_name"] = tankType.ToString();
-                        tankDescription["tier"] = tank.Value["level"].Value<int>();
-                        tankDescription["premium"] = Dictionaries.Instance.Tanks.ContainsKey(uniqueId) ? Dictionaries.Instance.Tanks[uniqueId].Premium :
-                        tank.Value["notInShop"] == null ? 0 : 1;
-                        var key = tank.Value["userString"].Value<string>().Split(':')[1];
-                        var value = GetString(key);
-                        tankDescription["title"] = value;
-                        var titleShort = tank.Value["shortUserString"];
-                        if (titleShort != null)
-                        {
-                            tankDescription["title_short"] = GetString(titleShort.Value<string>().Split(':')[1]);
-                        }
-                        var icon = tank.Key.Replace("-", "_").ToLower();
 
-                        if (countryid == 0)
-                        {
-                            resources.Add(icon, value);
-                        }
+					//List<JObject> tanks = new List<JObject>();
+					//foreach (var tank in dictionary)
+					//{
+						
+						
+					//	tankDescription["active"] = Dictionaries.Instance.Tanks.ContainsKey(uniqueId) && !Dictionaries.Instance.Tanks[uniqueId].Active ? 0 : 1;
+						
+					//	tankDescription["premium"] = Dictionaries.Instance.Tanks.ContainsKey(uniqueId) ? Dictionaries.Instance.Tanks[uniqueId].Premium :
+					//	tank.Value["notInShop"] == null ? 0 : 1;
+					//	var key = tank.Value["userString"].Value<string>().Split(':')[1];
+					//	var value = GetString(key);
+					//	tankDescription["title"] = value;
+					//	var titleShort = tank.Value["shortUserString"];
+					//	if (titleShort != null)
+					//	{
+					//		tankDescription["title_short"] = GetString(titleShort.Value<string>().Split(':')[1]);
+					//	}
+					//	var icon = tank.Key.Replace("-", "_").ToLower();
 
-                        tankDescription["icon"] = icon;
-                        tankDescription["icon_orig"] = tank.Key;
+					//	if (countryid == 0)
+					//	{
+					//		resources.Add(icon, value);
+					//	}
 
-                        if (!Dictionaries.Instance.Tanks.ContainsKey(uniqueId))
-                        {
-                            Console.WriteLine(tank.Value);
-                        }
-                        else
-                        {
-                            var description = Dictionaries.Instance.Tanks[uniqueId];
-                            if (description.Icon.Icon != (string)tankDescription["icon"])
-                            {
-                                string f = @"else if (iconId == ""{0}_{1}"")
-                                {{
-                                    //{4} replay tank name changed to {2}
-                                    tankDescription = tankDescriptions[{3}];
-                                }}";
-                                codegen.AppendFormat(f, country.ToString().ToLower(), description.Icon.Icon, tankDescription["icon"], uniqueId, Dictionaries.VersionRelease);
-                                codegen.AppendLine();
-                            }
-                        }
+					//	tankDescription["icon"] = icon;
+					//	tankDescription["icon_orig"] = tank.Key;
 
-                        JObject tankDef = GetTankDefinition(countryid, tank.Key);
+					//	if (!Dictionaries.Instance.Tanks.ContainsKey(uniqueId))
+					//	{
+					//		Console.WriteLine(tank.Value);
+					//	}
+					//	else
+					//	{
+					//		var description = Dictionaries.Instance.Tanks[uniqueId];
+					//		if (description.Icon.Icon != (string)tankDescription["icon"])
+					//		{
+					//			string f = @"else if (iconId == ""{0}_{1}"")
+     //                           {{
+     //                               //{4} replay tank name changed to {2}
+     //                               tankDescription = tankDescriptions[{3}];
+     //                           }}";
+					//			codegen.AppendFormat(f, country.ToString().ToLower(), description.Icon.Icon, tankDescription["icon"], uniqueId, Dictionaries.VersionRelease);
+					//			codegen.AppendLine();
+					//		}
+					//	}
 
-                        if (tankDef != null)
-                        {
-                            //Console.WriteLine(tankDef.ToString(Formatting.Indented));
-                            var health = tankDef.SelectToken("$.vehicles.hull.maxHealth").Value<int>() + tankDef.SelectTokens("$.vehicles.turrets0..maxHealth").First().Value<int>();
-                            tankDescription["health"] = health;
-                        }
+					//	JObject tankDef = GetTankDefinition(countryid, tank.Key);
 
-                        tanks.Add(tankDescription);
-                    }
-                    result.AddRange(tanks);
-                }
-            }
+					//	if (tankDef != null)
+					//	{
+					//		//Console.WriteLine(tankDef.ToString(Formatting.Indented));
+					//		var health = tankDef.SelectToken("$.vehicles.hull.maxHealth").Value<int>() + tankDef.SelectTokens("$.vehicles.turrets0..maxHealth").First().Value<int>();
+					//		tankDescription["health"] = health;
+					//	}
+
+					//	tanks.Add(tankDescription);
+					//}
+					//result.AddRange(tanks);
+				}
+			}
+			resultDoc.Save(Path.Combine(destination, "Vehicles.xml"));
 			//Add Action tanks
-			AddActionTanks(result);
+			//AddActionTanks(result);
 
-			using (ResXResourceWriter writer = new ResXResourceWriter(Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Resources\ussr_vehicles_out.resx")))
-            {
-                foreach (var resource in resources)
-                {
-                    writer.AddResource(resource.Key, resource.Value);
-                }
-            }
+			//using (ResXResourceWriter writer = new ResXResourceWriter(Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Resources\ussr_vehicles_out.resx")))
+			//{
+			//	foreach (var resource in resources)
+			//	{
+			//		writer.AddResource(resource.Key, resource.Value);
+			//	}
+			//}
 
-            var serializeObject = JsonConvert.SerializeObject(result
-                .OrderBy(x => GetOrder(x["countryid"].Value<int>()))
-                .ThenBy(x => x["tankid"].Value<int>()));
-            var tanksJson = serializeObject.Replace("{", "\n{").Replace(",\"", ", \"").Replace(":", ": ");
+			//var serializeObject = JsonConvert.SerializeObject(result
+			//	.OrderBy(x => GetOrder(x["countryid"].Value<int>()))
+			//	.ThenBy(x => x["tankid"].Value<int>()));
+			//var tanksJson = serializeObject.Replace("{", "\n{").Replace(",\"", ", \"").Replace(":", ": ");
 
-            var path = Path.Combine(Environment.CurrentDirectory, @"Output\Externals");
+			//var path = Path.Combine(Environment.CurrentDirectory, @"Output\Externals");
 
-            if (!Directory.Exists(path))
-            {
-                Directory.CreateDirectory(path);
-            }
+			//if (!Directory.Exists(path))
+			//{
+			//	Directory.CreateDirectory(path);
+			//}
 
-            path = Path.Combine(path, "tanks.json");
+			//path = Path.Combine(path, "tanks.json");
 
-            var stream = File.OpenWrite(path);
-            using (StreamWriter writer = new StreamWriter(stream, Encoding.UTF8))
-            {
-                writer.Write(tanksJson);
-            }
+			//var stream = File.OpenWrite(path);
+			//using (StreamWriter writer = new StreamWriter(stream, Encoding.UTF8))
+			//{
+			//	writer.Write(tanksJson);
+			//}
 
-            Console.WriteLine(tanksJson);
-            Console.WriteLine(codegen);
-        }
+			//Console.WriteLine(tanksJson);
+			//Console.WriteLine(codegen);
+		}
 
-	    private void AddActionTanks(List<JObject> tanks)
+		private void ImportActionTanksXml()
 	    {
+		    var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Vehicles");
+		    if (!Directory.Exists(destination))
+			    Directory.CreateDirectory(destination);
+		    if (!Directory.Exists(Path.Combine(destination, $@"Images\Vehicle")))
+			    Directory.CreateDirectory(Path.Combine(destination, $@"Images\Vehicle"));
+
+		    var resultDoc = new XDocument();
+		    if (File.Exists(Path.Combine(destination, "Vehicles.xml")))
+			    resultDoc = XDocument.Load(Path.Combine(destination, "Vehicles.xml"));
+		    else
+		    {
+			    var mapNode = new XElement("vehicles");
+			    resultDoc.Add(mapNode);
+		    }
+
+		    var patchNode = resultDoc.Root.Elements("actionVehicles").FirstOrDefault();
+		    if (patchNode == null)
+		    {
+			    patchNode = new XElement("actionVehicles");
+			    resultDoc.Root.Add(patchNode);
+		    }
 			//Add Action tanks
 
-			#region Karl
-			tanks.Add( new JObject
-		    {
-			    ["tankid"] = 234,
-			    ["countryid"] = 1,
-			    ["compDescr"] = 59921,
-			    ["active"] = 0,
-			    ["type"] = 5,
-			    ["type_name"] = "SPG",
-			    ["tier"] = 1,
-			    ["premium"] = 0,
-			    ["title"] = "Karl",
-			    ["title_short"] = "Karl",
-			    ["icon"] = "karl",
-			    ["icon_orig"] = "karl",
-			    ["health"] = 1
-		    });
+			#region Lanchester
+			patchNode.Element("GB90_Lanchester_Armored_Car")?.Remove();
+		    patchNode.Add(new XElement("GB90_Lanchester_Armored_Car",
+			    new XAttribute("id", 234),
+			    new XAttribute("countryid", 5),
+			    new XAttribute("compDescr", 56913),
+			    new XAttribute("type", 5),
+			    new XAttribute("secret", true),
+			    new XAttribute("premium", true),
+			    new XAttribute("tier", 1),
+			    new XAttribute("key", "GB90_Lanchester_Armored_Car"),
+			    new XAttribute("userString", "#gb_vehicles:GB90_Lanchester_Armored_Car"),
+			    new XAttribute("description", "#gb_vehicles:GB90_Lanchester_Armored_Car_descr"),
+			    new XAttribute("health", 1)
+		    ));
 
-			#endregion
+		    resultDoc.Save(Path.Combine(destination, "Vehicles.xml"));
 
-			#region Leopard 1 (P)
-		    tanks.Add(new JObject
-		    {
-			    ["tankid"] = 253,
-			    ["countryid"] = 1,
-			    ["compDescr"] = 64785,
-			    ["active"] = 0,
-			    ["type"] = 2,
-			    ["type_name"] = "MT",
-			    ["tier"] = 10,
-			    ["premium"] = 1,
-			    ["title"] = "Leopard 1 (P)",
-			    ["title_short"] = "Leopard 1 (P)",
-			    ["icon"] = "g89_leopard1_fallout",
-			    ["icon_orig"] = "G89_Leopard1_fallout",
-			    ["health"] = 1950
-		    });
+			var icon = "uk-GB90_Lanchester_Armored_Car.png";
+		    var tgticon = "uk-GB90_Lanchester_Armored_Car." + 56913 + ".png";
+		    if (File.Exists(Path.Combine(Environment.CurrentDirectory, $@"Patch\Images\vehicle", icon)))
+				File.Copy(Path.Combine(Environment.CurrentDirectory, $@"Patch\Images\vehicle", icon), Path.Combine(destination, $@"Images\Vehicle", tgticon), true);
+			else
+				Console.WriteLine(icon);
+			#endregion
+		}
 
-			#endregion
+	    private static void CheckTankImages()
+	    {
+		    var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Vehicles");
 
-			#region Polar Bear
-			tanks.Add(new JObject
-		    {
-			    ["tankid"] = 254,
-			    ["countryid"] = 4,
-			    ["compDescr"] = 65089,
-			    ["active"] = 0,
-			    ["type"] = 3,
-			    ["type_name"] = "TD",
-			    ["tier"] = 1,
-			    ["premium"] = 1,
-			    ["title"] = "Polar Bear",
-			    ["title_short"] = "Polar Bear",
-			    ["icon"] = "f00_amx_50foch_155",
-			    ["icon_orig"] = "F00_AMX_50Foch_155",
-			    ["health"] = 1
-		    });
-			#endregion
+			if (!File.Exists(Path.Combine(destination, "Vehicles.xml")))
+			    return;
+			var resultDoc = XDocument.Load(Path.Combine(destination, "Vehicles.xml"));
 
-			#region Bat.-Chatillon 25 t (P)
-			tanks.Add(new JObject
+		    foreach (var element in resultDoc.Root.Elements("patch").Elements().Union(resultDoc.Elements("actionVehicles").Elements()))
 		    {
-			    ["tankid"] = 255,
-			    ["countryid"] = 4,
-			    ["compDescr"] = 65345,
-			    ["active"] = 0,
-			    ["type"] = 2,
-			    ["type_name"] = "MT",
-			    ["tier"] = 10,
-			    ["premium"] = 1,
-			    ["title"] = "Bat.-Chatillon 25 t (P)",
-			    ["title_short"] = "B-C 25 t (P)",
-			    ["icon"] = "bat_chatillon25t_fallout",
-			    ["icon_orig"] = "Bat_Chatillon25t_fallout",
-			    ["health"] = 1800
-		    });
-			#endregion
-		    
-		    #region Arctic Fox
-		    tanks.Add(new JObject
-		    {
-			    ["tankid"] = 253,
-			    ["countryid"] = 0,
-			    ["compDescr"] = 64769,
-			    ["active"] = 0,
-			    ["type"] = 1,
-			    ["type_name"] = "LT",
-			    ["tier"] = 1,
-			    ["premium"] = 1,
-			    ["title"] = "Arctic Fox",
-			    ["title_short"] = "Arctic Fox",
-			    ["icon"] = "r00_t_50_2",
-			    ["icon_orig"] = "R00_T_50_2",
-			    ["health"] = 1
-		    });
-			#endregion
+			    var key = element.Name.LocalName;
+			    var country = (Country) Convert.ToInt32(element.Attribute("countryid").Value);
+			    var compDescr = Convert.ToInt32(element.Attribute("compDescr").Value);
 
-			#region Sfera
-			tanks.Add(new JObject
-		    {
-			    ["tankid"] = 254,
-			    ["countryid"] = 0,
-			    ["compDescr"] = 65025,
-			    ["active"] = 0,
-			    ["type"] = 1,
-			    ["type_name"] = "LT",
-			    ["tier"] = 1,
-			    ["premium"] = 1,
-			    ["title"] = "Sfera",
-			    ["title_short"] = "Sfera",
-			    ["icon"] = "r00_sfera",
-			    ["icon_orig"] = "R00_Sfera",
-			    ["health"] = 1
-		    });
-			#endregion
-		    
-		    #region Объект 140 (P)
-		    tanks.Add(new JObject
-		    {
-			    ["tankid"] = 252,
-			    ["countryid"] = 0,
-			    ["compDescr"] = 64513,
-			    ["active"] = 0,
-			    ["type"] = 2,
-			    ["type_name"] = "MT",
-			    ["tier"] = 10,
-			    ["premium"] = 1,
-			    ["title"] = "Объект 140 (P)",
-			    ["title_short"] = "Об. 140 (P)",
-			    ["icon"] = "object_140_fallout",
-			    ["icon_orig"] = "Object_140_fallout",
-			    ["health"] = 1900
-		    });
-			#endregion
-		    
-		    #region Объект 268 (P)
-		    tanks.Add(new JObject
-		    {
-			    ["tankid"] = 248,
-			    ["countryid"] = 0,
-			    ["compDescr"] = 63489,
-			    ["active"] = 0,
-			    ["type"] = 4,
-			    ["type_name"] = "TD",
-			    ["tier"] = 10,
-			    ["premium"] = 1,
-			    ["title"] = "Объект 268 (P)",
-			    ["title_short"] = "Об. 268 (P)",
-			    ["icon"] = "object268_fallout",
-			    ["icon_orig"] = "Object268_fallout",
-			    ["health"] = 1950
-		    });
-			#endregion
-		    
-		    #region T57 Heavy Tank (P)
-		    tanks.Add(new JObject
-		    {
-			    ["tankid"] = 251,
-			    ["countryid"] = 2,
-			    ["compDescr"] = 64289,
-			    ["active"] = 0,
-			    ["type"] = 3,
-			    ["type_name"] = "HT",
-			    ["tier"] = 10,
-			    ["premium"] = 1,
-			    ["title"] = "T57 Heavy Tank (P)",
-			    ["title_short"] = "T57 Heavy (P)",
-			    ["icon"] = "t57_58_fallout",
-			    ["icon_orig"] = "T57_58_fallout",
-			    ["health"] = 2250
-		    });
-			#endregion
-		    
-		    #region T110E5 (P)
-		    tanks.Add(new JObject
-		    {
-			    ["tankid"] = 252,
-			    ["countryid"] = 2,
-			    ["compDescr"] = 64545,
-			    ["active"] = 0,
-			    ["type"] = 3,
-			    ["type_name"] = "HT",
-			    ["tier"] = 10,
-			    ["premium"] = 1,
-			    ["title"] = "T110E5 (P)",
-			    ["title_short"] = "T110E5 (P)",
-			    ["icon"] = "t110_fallout",
-			    ["icon_orig"] = "T110_fallout",
-			    ["health"] = 2200
-		    });
-			#endregion
-		    
-		    #region Mammoth
-		    tanks.Add(new JObject
-		    {
-			    ["tankid"] = 253,
-			    ["countryid"] = 2,
-			    ["compDescr"] = 64801,
-			    ["active"] = 0,
-			    ["type"] = 3,
-			    ["type_name"] = "HT",
-			    ["tier"] = 1,
-			    ["premium"] = 1,
-			    ["title"] = "Mammoth",
-			    ["title_short"] = "Mammoth",
-			    ["icon"] = "a00_t110e5",
-			    ["icon_orig"] = "A00_T110E5",
-			    ["health"] = 1
-		    });
-			#endregion
-		    
-		    #region M24 Chaffee Sport
-		    tanks.Add(new JObject
-		    {
-			    ["tankid"] = 255,
-			    ["countryid"] = 2,
-			    ["compDescr"] = 65313,
-			    ["active"] = 0,
-			    ["type"] = 1,
-			    ["type_name"] = "LT",
-			    ["tier"] = 1,
-			    ["premium"] = 1,
-			    ["title"] = "M24 Chaffee Sport",
-			    ["title_short"] = "M24 Chaffee Sport",
-			    ["icon"] = "m24_chaffee_gt",
-			    ["icon_orig"] = "M24_Chaffee_GT",
-			    ["health"] = 1
-		    });
-			#endregion
-		    
-		    #region Lanchester
-		    tanks.Add(new JObject
-		    {
-			    ["tankid"] = 222,
-			    ["countryid"] = 5,
-			    ["compDescr"] = 56913,
-			    ["active"] = 0,
-			    ["type"] = 1,
-			    ["type_name"] = "LT",
-			    ["tier"] = 1,
-			    ["premium"] = 1,
-			    ["title"] = "Lanchester",
-			    ["title_short"] = "Lanchester",
-			    ["icon"] = "gb90_lanchester_armored_car",
-			    ["icon_orig"] = "GB90_Llanchester_Armored_Car",
-			    ["health"] = 1
-		    });
-		    #endregion
+			    var tgticon = country.ToString().ToLower() + "-" + key + "." + compDescr + ".png";
+			    if (!File.Exists(Path.Combine(destination, $@"Images\Vehicle", tgticon)))
+					Console.WriteLine(tgticon);
+			}
 		}
 
 
@@ -698,7 +760,23 @@ namespace WotDossier.Test
             return TankType.Unknown;
         }
 
-        private JObject GetTankDefinition(int countryid, string tankName)
+	    private XElement LoadTankDefinition(int countryid, string tankName)
+	    {
+		    var fileName = Path.Combine(Environment.CurrentDirectory, $@"Output\{patchVer}\scripts\item_defs\vehicles", ((Country)countryid).ToString(), tankName + ".xml");
+		    if (File.Exists(fileName))
+		    {
+			    var file = new FileInfo(fileName);
+			    BigWorldXmlReader reader = new BigWorldXmlReader();
+			    using (BinaryReader br = new BinaryReader(file.OpenRead()))
+			    {
+				    var xmlContent = reader.DecodePackedFile(br, "vehicles");
+					return XElement.Parse(xmlContent);
+			    }
+		    }
+		    return null;
+	    }
+
+		private JObject GetTankDefinition(int countryid, string tankName)
         {
             var fileName = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Tanks", ((Country)countryid).ToString(), tankName + ".xml");
             if (File.Exists(fileName))
@@ -745,194 +823,247 @@ namespace WotDossier.Test
             return -1;
         }
 
-        [Test]
-        public void ImportMapsTest(ClientInfo client)
-        {
-            var configsPath = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\scripts\arena_defs");
-
-            if (!Directory.Exists(configsPath))
-            {
-                Assert.Fail("Folder not exists - [{0}]", configsPath);
-            }
-
-	        var path = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\Maps");
-
-	        if (!Directory.Exists(path))
-	        {
-		        Directory.CreateDirectory(path);
-	        }
-
-
-
-			var reader = new BigWorldXmlReader();
-
-            var resultDoc = new XDocument();
-	        var mapNode = new XElement("maps");
-			resultDoc.Add(mapNode);
-
-			using (ResXResourceWriter images = new ResXResourceWriter(Path.Combine(Environment.CurrentDirectory,
-		        $@"Output\{client.PatchVer}\Maps\Images.resx")))
-	        {
-		        using (ResXResourceWriter minimap = new ResXResourceWriter(Path.Combine(Environment.CurrentDirectory,
-			        $@"Output\{client.PatchVer}\Maps\Minimap.resx")))
-		        {
-			        foreach (var configFile in Directory.GetFiles(configsPath, "*.xml", SearchOption.AllDirectories))
-			        {
-				        var file = new FileInfo(configFile);
-
-				        using (var stream = new FileStream(configFile, FileMode.Open, FileAccess.Read))
-				        {
-					        using (var br = new BinaryReader(stream))
-					        {
-						        var xml = reader.DecodePackedFile(br, "map");
-						        var doc = XElement.Parse(xml);
-						        if (doc.Name != "map" || doc.Elements("name").FirstOrDefault() == null)
-							        continue;
-
-						        var mapKey = file.Name.Replace(file.Extension, string.Empty);
-
-						        var res = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\Resources\Text\arenas.ru-RU.resx");
-						        if (File.Exists(res))
-							        File.Copy(res, Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\Maps\Strings.ru-RU.resx"), true);
-
-								var img = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\map");
-						        if (File.Exists(Path.Combine(img, $@"stats\{mapKey}.png" )))
-									images.AddResource(mapKey, Image.FromFile(Path.Combine(img, $@"stats\{mapKey}.png")));
-
-						        if (File.Exists(Path.Combine(img, $@"{mapKey}.png")))
-							        minimap.AddResource(mapKey, Image.FromFile(Path.Combine(img, $@"{mapKey}.png")));
-
-								mapNode.Add(doc);
-					        }
-				        }
-			        }
-					minimap.Generate();
-		        }
-				images.Generate();
-	        }
-	        
-			path = Path.Combine(path, "Maps.xml");
-			resultDoc.Save(path);
-            Console.WriteLine(resultDoc);
-        }
-
-		public void ImportShellsXmlTest(ClientInfo client)
+	    public void ImportMapsXml(ClientInfo client)
 	    {
-		    var strings = Directory.GetFiles(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\scripts"), "shells.xml",
+		    var configsPath = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\scripts\arena_defs");
+
+		    if (!Directory.Exists(configsPath))
+		    {
+			    Assert.Fail("Folder not exists - [{0}]", configsPath);
+		    }
+
+		    var path = Path.Combine(Environment.CurrentDirectory, $@"Output\Maps");
+
+		    if (!Directory.Exists(path))
+		    {
+			    Directory.CreateDirectory(path);
+		    }
+
+
+
+		    var reader = new BigWorldXmlReader();
+
+		    var resultDoc = new XDocument();
+		    if (File.Exists(Path.Combine(path, "Maps.xml")))
+			    resultDoc = XDocument.Load(Path.Combine(path, "Maps.xml"));
+		    else
+		    {
+			    var mapNode = new XElement("maps");
+			    resultDoc.Add(mapNode);
+		    }
+
+		    var patchNode = resultDoc.Root.Elements("patch").FirstOrDefault(e => e.Attribute("version").Value == client.PatchVer);
+		    if (patchNode == null)
+		    {
+			    patchNode = new XElement("patch", new XAttribute("version", client.PatchVer));
+			    resultDoc.Root.Add(patchNode);
+
+			}
+
+		    foreach (var configFile in Directory.GetFiles(configsPath, "*.xml", SearchOption.AllDirectories))
+		    {
+			    var file = new FileInfo(configFile);
+
+
+			    using (var stream = new FileStream(configFile, FileMode.Open, FileAccess.Read))
+			    {
+				    using (var br = new BinaryReader(stream))
+				    {
+					    var xml = reader.DecodePackedFile(br, "map");
+					    var doc = XElement.Parse(xml);
+					    if (doc.Name != "map" || doc.Elements("name").FirstOrDefault() == null)
+						    continue;
+
+					    var mapKey = file.Name.Replace(file.Extension, string.Empty);
+						doc.Add(new XAttribute("key", mapKey));
+						patchNode.Add(doc);
+				    }
+			    }
+		    }
+		    resultDoc.Save(Path.Combine(path, "Maps.xml"));
+			DirectoryCopy(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\map\stats"), Path.Combine(path, @"Images\Stats"), false, "*.png");
+
+		}
+
+
+	    public void ImportMapMinimapsXml(ClientInfo client, string prev)
+	    {
+		    var path = Path.Combine(Environment.CurrentDirectory, $@"Output\Maps\Images\Minimap");
+
+		    if (!Directory.Exists(path))
+			    Directory.CreateDirectory(path);
+
+		    var srcPath = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\map");
+
+		    foreach (var srcFile in Directory.GetFiles(srcPath, "*.png", SearchOption.TopDirectoryOnly))
+		    {
+			    var fn = Path.GetFileName(srcFile);
+				var tgtFile = Path.Combine(path, fn);
+			    if (!File.Exists(tgtFile))
+			    {
+				    File.Copy(srcFile, tgtFile);
+					continue;
+			    }
+			    if(File.ReadAllBytes(srcFile).Compare(File.ReadAllBytes(tgtFile))) continue;
+
+				File.Move(tgtFile, Path.Combine(path, Path.GetFileNameWithoutExtension(srcFile) + $"-{prev}.png"));
+			    File.Copy(srcFile, tgtFile);
+			}
+	    }
+
+		public void ImportShellsXml(ClientInfo client)
+	    {
+		    var path = Path.Combine(Environment.CurrentDirectory, $@"Output\Vehicles");
+
+		    if (!Directory.Exists(path))
+		    {
+			    Directory.CreateDirectory(path);
+		    }
+
+		    var resultDoc = new XDocument();
+		    if (File.Exists(Path.Combine(path, "Shells.xml")))
+			    resultDoc = XDocument.Load(Path.Combine(path, "Shells.xml"));
+		    else
+		    {
+			    var mapNode = new XElement("shells");
+			    resultDoc.Add(mapNode);
+		    }
+
+			var strings = Directory.GetFiles(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\scripts"), "shells.xml",
 			    SearchOption.AllDirectories);
 
-		    List<JObject> result = new List<JObject>();
 
 		    foreach (var xml in strings)
 		    {
-			    BigWorldXmlReader reader = new BigWorldXmlReader();
+			    var arr = Path.GetDirectoryName(xml).Split(Path.DirectorySeparatorChar);
+			    var country = arr[arr.Length - 2].ToLower();
+
+			    var countryNode = resultDoc.Root.Elements(country).FirstOrDefault();
+			    if (countryNode == null)
+			    {
+				    countryNode = new XElement(country);
+				    resultDoc.Root.Add(countryNode);
+			    }
+
+				BigWorldXmlReader reader = new BigWorldXmlReader();
 			    FileInfo info = new FileInfo(xml);
 			    using (BinaryReader br = new BinaryReader(info.OpenRead()))
 			    {
 				    var xmlContent = reader.DecodePackedFile(br, "shell");
 					var doc = XDocument.Parse(xmlContent);
-					string jsonText = JsonConvert.SerializeXNode(doc, Formatting.Indented);
+				    doc.Root.Element("icons")?.Remove();
 
-				    var dictionary = JsonConvert.DeserializeObject<Dictionary<string, JObject>>(jsonText);
-				    dictionary = dictionary["shell"].ToObject<Dictionary<string, JObject>>();
-				    dictionary.Remove("icons");
-
-				    jsonText = JsonConvert.SerializeObject(dictionary, Formatting.Indented);
-
-				    var path = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\Tanks\Shells");
-
-				    if (!Directory.Exists(path))
+				    foreach (var elem in doc.Root.Elements())
 				    {
-					    Directory.CreateDirectory(path);
-				    }
-
-					path = Path.Combine(path, info.Directory.Parent.Name + "_" + info.Name.Replace(info.Extension, ".json"));
-
-				    var stream = File.OpenWrite(path.ToLower());
-				    using (var writer = new StreamWriter(stream))
-				    {
-					    writer.Write(jsonText);
-				    }
-
+					    countryNode.Element(elem.Name.LocalName)?.Remove();
+						countryNode.Add(elem);
+					}
 			    }
 		    }
+		    resultDoc.Save(Path.Combine(path, "Shells.xml"));
+
+		    DirectoryCopy(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\shell"), Path.Combine(path, @"Images\Shell"), false, "*.png");
+			
 	    }
 
-		public void ImportAchievementsXmlTest(ClientInfo client)
+		public void ImportArtefactXml(ClientInfo client)
 		{
-			var configsPath = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\scripts\item_defs\");
+			var path = Path.Combine(Environment.CurrentDirectory, $@"Output\Vehicles");
 
-			if (!Directory.Exists(configsPath))
+			if (!Directory.Exists(path))
 			{
-				Assert.Fail("Folder not exists - [{0}]", configsPath);
+				Directory.CreateDirectory(path);
 			}
-			if (!File.Exists(Path.Combine(configsPath, "achievements.xml")))
-				return;
 
-			throw new NotImplementedException();
-			//var reader = new BigWorldXmlReader();
+			var equDoc = new XDocument();
+			if (File.Exists(Path.Combine(path, "Equipments.xml")))
+				equDoc = XDocument.Load(Path.Combine(path, "Equipments.xml"));
+			else
+			{
+				var nd = new XElement("equipments");
+				equDoc.Add(nd);
+			}
 
-			//var array = new JArray();
+			BigWorldXmlReader reader = new BigWorldXmlReader();
 
-			//foreach (var configFile in Directory.GetFiles(configsPath, "*.xml", SearchOption.AllDirectories))
-			//{
-			//	var file = new FileInfo(configFile);
+			var fn = Path.Combine(Environment.CurrentDirectory,
+				$@"Output\{client.PatchVer}\scripts\item_defs\vehicles\common\equipments.xml");
+			if (File.Exists(fn))
+			{
+				var info = new FileInfo(fn);
+				using (BinaryReader br = new BinaryReader(info.OpenRead()))
+				{
+					var xmlContent = reader.DecodePackedFile(br, "equipment");
+					var doc = XDocument.Parse(xmlContent);
 
-			//	using (var stream = new FileStream(configFile, FileMode.Open, FileAccess.Read))
-			//	{
-			//		using (var br = new BinaryReader(stream))
-			//		{
-			//			var xml = reader.DecodePackedFile(br, "map");
-			//			var doc = XDocument.Parse(xml);
-			//			if (doc.Root == null || doc.Root.Name != "map" || doc.Root.Elements("name").FirstOrDefault() == null)
-			//				continue;
+					foreach (var elem in doc.Root.Elements())
+					{
+						equDoc.Root.Element(elem.Name.LocalName)?.Remove();
+						equDoc.Root.Add(elem);
+					}
+				}
+			}
 
-			//			var jsonText = JsonConvert.SerializeXNode(doc, Formatting.Indented);
+			equDoc.Save(Path.Combine(path, "Equipments.xml"));
 
-			//			var deserializeObject = JsonConvert.DeserializeObject<JObject>(jsonText);
+			var optDoc = new XDocument();
+			if (File.Exists(Path.Combine(path, "OptionalDevices.xml")))
+				optDoc = XDocument.Load(Path.Combine(path, "OptionalDevices.xml"));
+			else
+			{
+				var nd = new XElement("optionalDevices");
+				optDoc.Add(nd);
+			}
 
-			//			var jToken = deserializeObject["map"];
+			fn = Path.Combine(Environment.CurrentDirectory,
+				$@"Output\{client.PatchVer}\scripts\item_defs\vehicles\common\optional_devices.xml");
+			if (File.Exists(fn))
+			{
+				var info = new FileInfo(fn);
+				using (BinaryReader br = new BinaryReader(info.OpenRead()))
+				{
+					var xmlContent = reader.DecodePackedFile(br, "optionalDevices");
+					var doc = XDocument.Parse(xmlContent);
 
-			//			var mapKey = file.Name.Replace(file.Extension, string.Empty);
+					foreach (var elem in doc.Root.Elements())
+					{
+						optDoc.Root.Element(elem.Name.LocalName)?.Remove();
+						optDoc.Root.Add(elem);
+					}
+				}
+			}
 
-			//			//if (Dictionaries.Instance.Maps.ContainsKey(mapKey))
-			//			//{
-			//			// var target = Dictionaries.Instance.Maps[mapKey];
+			optDoc.Save(Path.Combine(path, "OptionalDevices.xml"));
 
-			//			// JsonConvert.PopulateObject(jToken["boundingBox"].ToString(), target);
-			//			//}
+			DirectoryCopy(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\artefact"), Path.Combine(path, @"Images\Artefact"), false, "*.png");
+		}
 
-			//			array.Add(jToken);
-			//		}
-			//	}
+		public void ImportAchievementsXml(ClientInfo client)
+		{
+			var xmlPath = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\scripts\item_defs\achievements.xml");
+			if (!File.Exists(xmlPath)) return;
 
-			//}
+			var path = Path.Combine(Environment.CurrentDirectory, $@"Output\Achievements");
 
-			////foreach (var key in Dictionaries.Instance.Maps.Keys)
-			////{
-			////    if (!File.Exists(Path.Combine(configsPath, key + ".xml")))
-			////    {
-			////        Console.WriteLine("Missed map: {0}", key);
-			////    }
-			////}
+			if (!Directory.Exists(path))
+			{
+				Directory.CreateDirectory(path);
+			}
 
-			//var path = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\Maps");
+			var equDoc = new XDocument();
 
-			//if (!Directory.Exists(path))
-			//{
-			//	Directory.CreateDirectory(path);
-			//}
+			var reader = new BigWorldXmlReader();
+			var info = new FileInfo(xmlPath);
+			using (BinaryReader br = new BinaryReader(info.OpenRead()))
+			{
+				var xmlContent = reader.DecodePackedFile(br, "achievements");
+				var doc = XElement.Parse(xmlContent);
+				equDoc.Add(doc);
+			}
+			equDoc.Save(Path.Combine(path, "Achievements.xml"));
 
-			//path = Path.Combine(path, "maps_description.json");
-
-			//var outputStream = File.OpenWrite(path);
-			//var mapsJson = array.ToString(Formatting.Indented);
-			//using (StreamWriter writer = new StreamWriter(outputStream))
-			//{
-			//	writer.Write(mapsJson);
-			//}
-
-			//Console.WriteLine(mapsJson);
+			DirectoryCopy(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\achievement"), Path.Combine(path, @"Images\Achievement"), false, "*.png");
+			
 		}
 
 	    [Test]
@@ -964,7 +1095,7 @@ namespace WotDossier.Test
 			    zip.ExtractSelectedEntries("name = *.*", @"gui/maps/icons/vehicle", destination, ExtractExistingFileAction.OverwriteSilently);
 			    zip.ExtractSelectedEntries("name = *.*", @"gui/maps/icons/achievement", destination, ExtractExistingFileAction.OverwriteSilently);
 			    zip.ExtractSelectedEntries("name = *.*", @"gui/maps/icons/artefact", destination, ExtractExistingFileAction.OverwriteSilently);
-				zip.ExtractSelectedEntries("name = *.*", @"gui/maps/icons/ammopanel/ammo", destination, ExtractExistingFileAction.OverwriteSilently);
+				zip.ExtractSelectedEntries("name = *.*", @"gui/maps/icons/shell", destination, ExtractExistingFileAction.OverwriteSilently);
 			}
 	    }
 
@@ -974,83 +1105,153 @@ namespace WotDossier.Test
             string destination;
             string source;
 
-
+	        var prevVer = "";
 	        foreach (var client in clients.Where(c => string.IsNullOrEmpty(processedPatch) || c.PatchVer == processedPatch))
 	        {
+				//CopyScriptsForDecompileCopied(client);
 		        EnshureScriptsCopied(client);
 		        EnshureGameTextResources(client);
-		        EnsureImportImages(client);
+				EnsureImportImages(client);
 
-				Console.WriteLine("Copy maps definitions");
+				Console.WriteLine("Generate string resources");
+		        GenerateStringResources(client);
 
-		        //destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Patch\{patchVer}\Maps");
+		        Console.WriteLine("Copy achievements definitions");
+		        //ImportAchievementsXml(client);
 
-		        //var scriptsPath = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\scripts");
-		        //source = Path.Combine(scriptsPath, @"arena_defs");
+				Console.WriteLine("Copy maps");
+				//ImportMapsXml(client);
+				//ImportMapMinimapsXml(client, prevVer);
 
-		        //Directory.CreateDirectory(destination);
+				Console.WriteLine("Copy tanks components");
+				//ImportShellsXml(client);
+				//ImportArtefactXml(client);
 
-		        //DirectoryCopy(source, destination, true);
+		        Console.WriteLine("Copy tanks definitions");
+		        //ImportTanksXml(client);
+		        //ImportActionTanksXml();
+		        //CheckTankImages();
 
-		        ImportMapsTest(client);
+				//destination = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Images");
 
-		        Console.WriteLine("Copy tanks components");
+				//string filepath = Path.Combine(clientPath, @"res\packages\gui.pkg");
+				//using (var zip = new ZipFile(filepath, Encoding.GetEncoding((int)CodePage.CyrillicDOS)))
+				//{
+				//    var achievement = @"gui/maps/icons/achievement";
+				//    zip.ExtractSelectedEntries("name = *.*", achievement, destination, ExtractExistingFileAction.OverwriteSilently);
 
-		        ImportShellsXmlTest(client);
+				//    var achievementsDestinationPath = Path.Combine(destination, "achievement");
 
-		        Console.WriteLine("import achievements xml");
+				//    if (Directory.Exists(achievementsDestinationPath))
+				//    {
+				//        Directory.Delete(achievementsDestinationPath, true);
+				//    }
 
-		        ImportAchievementsXmlTest(client);
+				//    Directory.Move(Path.Combine(destination, achievement), achievementsDestinationPath);
 
-		        Console.WriteLine("import images");
+				//    var vehicle = @"gui/maps/icons/vehicle";
+				//    zip.ExtractSelectedEntries("name = *.*", vehicle, destination, ExtractExistingFileAction.OverwriteSilently);
+				//    var vehiclesPath = Path.Combine(destination, @"vehicle");
 
+				//    if (Directory.Exists(vehiclesPath))
+				//    {
+				//        Directory.Delete(vehiclesPath, true);
+				//    }
 
-		        //destination = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Images");
+				//    Directory.Move(Path.Combine(destination, vehicle), vehiclesPath);
 
-		        //string filepath = Path.Combine(clientPath, @"res\packages\gui.pkg");
-		        //using (var zip = new ZipFile(filepath, Encoding.GetEncoding((int)CodePage.CyrillicDOS)))
-		        //{
-		        //    var achievement = @"gui/maps/icons/achievement";
-		        //    zip.ExtractSelectedEntries("name = *.*", achievement, destination, ExtractExistingFileAction.OverwriteSilently);
+				//    var files = Directory.GetFiles(vehiclesPath);
 
-		        //    var achievementsDestinationPath = Path.Combine(destination, "achievement");
-
-		        //    if (Directory.Exists(achievementsDestinationPath))
-		        //    {
-		        //        Directory.Delete(achievementsDestinationPath, true);
-		        //    }
-
-		        //    Directory.Move(Path.Combine(destination, achievement), achievementsDestinationPath);
-
-		        //    var vehicle = @"gui/maps/icons/vehicle";
-		        //    zip.ExtractSelectedEntries("name = *.*", vehicle, destination, ExtractExistingFileAction.OverwriteSilently);
-		        //    var vehiclesPath = Path.Combine(destination, @"vehicle");
-
-		        //    if (Directory.Exists(vehiclesPath))
-		        //    {
-		        //        Directory.Delete(vehiclesPath, true);
-		        //    }
-
-		        //    Directory.Move(Path.Combine(destination, vehicle), vehiclesPath);
-
-		        //    var files = Directory.GetFiles(vehiclesPath);
-
-		        //    foreach (var file in files)
-		        //    {
-		        //        FileInfo info = new FileInfo(file);
-		        //        var destFileName = file.Replace("-", "_");
-		        //        if (!File.Exists(destFileName))
-		        //        {
-		        //            info.MoveTo(destFileName);
-		        //        }
-		        //    }
-		        //}
+				//    foreach (var file in files)
+				//    {
+				//        FileInfo info = new FileInfo(file);
+				//        var destFileName = file.Replace("-", "_");
+				//        if (!File.Exists(destFileName))
+				//        {
+				//            info.MoveTo(destFileName);
+				//        }
+				//    }
+				//}
+				prevVer = client.PatchVer;
 	        }
 
 
-        }
+		}
 
-        private void EnshureScriptsCopied()
+	    public void GenerateStringResources(ClientInfo client)
+	    {
+		    var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Strings");
+		    if (!Directory.Exists(destination))
+			    Directory.CreateDirectory(destination);
+
+		    foreach (var src in Directory.GetFiles(
+			    Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\Resources\Text"), "*.resx"))
+		    {
+			    string locale = "";
+			    string fileName = Path.GetFileNameWithoutExtension(src);
+
+			    if (fileName.Contains(".ru"))
+			    {
+				    locale = ".ru";
+				    fileName = fileName.Replace(".ru", "");
+			    }
+			    var dict = new Dictionary<string, string>();
+
+			    var resultName = $"{fileName}{locale}.resx";
+			    var nmlist = resultName.ToCharArray();
+			    var capit = true;
+			    resultName = "";
+			    foreach (var ch in nmlist)
+			    {
+				    if (ch == '_')
+				    {
+					    capit = true;
+					    continue;
+				    }
+				    var c = ch.ToString();
+				    if (capit)
+					    c = c.ToUpper();
+				    resultName += c;
+				    capit = false;
+			    }
+			    if (resultName.Contains(".en."))
+			    {
+				    resultName = resultName.Replace(".en.", ".");
+			    }
+
+				if (File.Exists(Path.Combine(destination, resultName)))
+			    {
+				    using (var rr = new ResXResourceReader(Path.Combine(destination, resultName)))
+				    {
+					    foreach (DictionaryEntry d in rr)
+					    {
+						    dict.Add(d.Key.ToString(), d.Value.ToString());
+					    }
+				    }
+			    }
+			    using (var rr = new ResXResourceReader(src))
+			    {
+				    foreach (DictionaryEntry d in rr)
+				    {
+					    if (dict.ContainsKey(d.Key.ToString()))
+						    dict[d.Key.ToString()] = d.Value.ToString();
+						else
+							dict.Add(d.Key.ToString(), d.Value.ToString());
+				    }
+			    }
+				using (ResXResourceWriter strs = new ResXResourceWriter(Path.Combine(destination, resultName)))
+			    {
+				    foreach (var pair in dict)
+				    {
+					    strs.AddResource(pair.Key, pair.Value);
+					}
+					strs.Generate();   
+				}
+		    }
+	    }
+
+
+		private void EnshureScriptsCopied()
         {
             var destination = Path.Combine(Environment.CurrentDirectory, @"Output\Patch");
             var scriptsPath = Path.Combine(destination, @"scripts");
@@ -1073,8 +1274,8 @@ namespace WotDossier.Test
 
 		    if (!Directory.Exists(scriptsPath))
 		    {
-			    Directory.CreateDirectory(scriptsPath);
-			    if (client.Packed)
+				Directory.CreateDirectory(scriptsPath);
+			    if (client.PackedScripts)
 			    {
 				    string filepath = Path.Combine(client.ClientPath, @"res\packages\scripts.pkg");
 				    using (var zip = new ZipFile(filepath, Encoding.GetEncoding((int)CodePage.CyrillicDOS)))
@@ -1090,7 +1291,43 @@ namespace WotDossier.Test
 			}
 		}
 
-	    private void EnshureGameTextResources(ClientInfo client)
+
+
+	    private void CopyScriptsForDecompileCopied(ClientInfo client)
+	    {
+		    var destination = Path.Combine(Environment.CurrentDirectory, $@"C:\55\{client.PatchVer}");
+		    var scriptsPath = Path.Combine(destination, @"res\scripts");
+
+		    if (!Directory.Exists(scriptsPath))
+		    {
+			    Directory.CreateDirectory(scriptsPath);
+
+				File.Copy(Path.Combine(client.ClientPath,"version.xml"), Path.Combine(destination, "version.xml"));
+			    File.Copy(Path.Combine(client.ClientPath, "paths.xml"), Path.Combine(destination, "paths.xml"));
+
+				if(Directory.Exists(Path.Combine(client.ClientPath, "res_bw")))
+					DirectoryCopy(Path.Combine(client.ClientPath, "res_bw"), Path.Combine(destination, "res_bw"), true);
+
+			    if (Directory.Exists(Path.Combine(client.ClientPath, "res")))
+				    DirectoryCopy(Path.Combine(client.ClientPath, "res"), Path.Combine(destination, "res"), false, "*.xml");
+
+				if (client.PackedScripts)
+			    {
+				    string filepath = Path.Combine(client.ClientPath, @"res\packages\scripts.pkg");
+				    using (var zip = new ZipFile(filepath, Encoding.GetEncoding((int)CodePage.CyrillicDOS)))
+				    {
+					    zip.ExtractAll(destination, ExtractExistingFileAction.OverwriteSilently);
+				    }
+			    }
+			    else
+			    {
+				    string filepath = Path.Combine(client.ClientPath, @"res\scripts");
+				    DirectoryCopy(filepath, scriptsPath, true);
+			    }
+		    }
+	    }
+
+		private void EnshureGameTextResources(ClientInfo client)
 	    {
 		    string destination;
 		    string source;
@@ -1188,7 +1425,7 @@ namespace WotDossier.Test
             }
         }
 
-        private static void DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs, bool overwrite = true)
+        private static void DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs, string filemask = "*.*", bool overwrite = true)
         {
             // Get the subdirectories for the specified directory.
             DirectoryInfo dir = new DirectoryInfo(sourceDirName);
@@ -1208,7 +1445,7 @@ namespace WotDossier.Test
             }
 
             // Get the files in the directory and copy them to the new location.
-            FileInfo[] files = dir.GetFiles();
+            FileInfo[] files = dir.GetFiles(filemask);
             foreach (FileInfo file in files)
             {
                 string temppath = Path.Combine(destDirName, file.Name);
@@ -1221,12 +1458,51 @@ namespace WotDossier.Test
                 foreach (DirectoryInfo subdir in dirs)
                 {
                     string temppath = Path.Combine(destDirName, CultureInfo.CurrentCulture.TextInfo.ToTitleCase(subdir.Name));
-                    DirectoryCopy(subdir.FullName, temppath, true, overwrite);
+                    DirectoryCopy(subdir.FullName, temppath, true, filemask, overwrite);
                 }
             }
         }
 
-        [Test]
+		//[Flags]
+	 //   private enum DiffResult
+	 //   {
+		//    Equal = 0,
+		//	ElementValueDiff = 1,
+		//    SecondaryMore = 2,
+		//	SecondaryMore = 2,
+		//	SecondaryLess = 4
+	 //   }
+
+	 //   private static DiffResult XMLDiff(XElement primary, XElement secondary, bool compareCount = true, bool compareOnlyValues = false)
+	 //   {
+		//    var result = DiffResult.Equal;
+
+		//	if (primary.HasElements)
+		//    {
+		//	    if (primary.Elements().Count() > secondary.Elements().Count())
+		//	    {
+		//		    result = result | DiffResult.SecondaryLess;
+		//	    }
+		//	    else if (primary.Elements().Count() < secondary.Elements().Count())
+		//	    {
+		//		    result = result | DiffResult.SecondaryLess;
+		//	    }
+
+		//		foreach (var elem in primary.Elements())
+		//	    {
+		//		    if (secondary.Element(elem.Name.LocalName) == null)
+		//			    return false;
+		//		    if (!XMLCompare(elem, secondary.Element(elem.Name.LocalName), compareCount, compareOnlyValues))
+		//			    return false;
+		//	    }
+		//    }
+		//    else if (!string.Equals(primary.Value.Trim(' ', '\t'), secondary.Value.Trim(' ', '\t'), StringComparison.InvariantCultureIgnoreCase))
+		//	    return false;
+
+		//    return true;
+	 //   }
+
+		[Test]
         public void GetClanInfoTest()
         {
             var appSettings = SettingsReader.Get();

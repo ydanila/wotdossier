@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="answer_1" xml:space="preserve">
     <value>О: Перейдите в Aнгар и установите купленное оборудование в один из свободных слотов слева от слотов снарядов.</value>
@@ -141,8 +141,8 @@
   <data name="answer_16" xml:space="preserve">
     <value>О: Он ослабляет заброневое действие фугасного снаряда, если снаряд не пробил броню.</value>
   </data>
-  <data name="answer_17/contains_links" xml:space="preserve">
-    <value>О: {openSupportURL[openTag]:s}Центр поддержки пользователей{openSupportURL[closeTag]:s}</value>
+  <data name="answer_17" xml:space="preserve">
+    <value>О: Центр поддержки пользователей: https://ru.wargaming.net/support/</value>
   </data>
   <data name="answer_2" xml:space="preserve">
     <value>О: Через Склад, предварительно сняв с него всё необходимое.</value>
@@ -218,5 +218,8 @@
   </data>
   <data name="question_9" xml:space="preserve">
     <value>В: Почему мой лёгкий танк попадает к высокоуровневой технике, которую я не могу даже повредить?</value>
+  </data>
+  <data name="answer_17/contains_links" xml:space="preserve">
+    <value>О: {openSupportURL[openTag]:s}Центр поддержки пользователей{openSupportURL[closeTag]:s}</value>
   </data>
 </root>

@@ -112,19 +112,581 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="chain/hint/buyVehicle" xml:space="preserve">
-    <value>PURCHASE A VEHICLE</value>
+  <data name="buttons/cancel" xml:space="preserve">
+    <value>Cancel</value>
   </data>
-  <data name="chain/hint/changeToPveOrRandom" xml:space="preserve">
-    <value>SELECT RANDOM BATTLE OR PROVING GROUND MODE</value>
+  <data name="buttons/close" xml:space="preserve">
+    <value>Close</value>
   </data>
-  <data name="chain/hint/changeVehicle" xml:space="preserve">
-    <value>VEHICLE UNAVAILABLE</value>
+  <data name="buttons/continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="buttons/interrupt" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="buttons/perform" xml:space="preserve">
+    <value>Start!</value>
+  </data>
+  <data name="buttons/restart" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="buttons/start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="chapters/buy-crew/description" xml:space="preserve">
+    <value>Recruit Crew Member</value>
+  </data>
+  <data name="chapters/buy-slot-sell-tank/description" xml:space="preserve">
+    <value>Free Up Vehicle Slot</value>
+  </data>
+  <data name="chapters/buy-tank-1-level/description" xml:space="preserve">
+    <value>Buy Tier I Vehicle</value>
+  </data>
+  <data name="chapters/buy-tank-2-level/description" xml:space="preserve">
+    <value>Buy Tier II Vehicle</value>
+  </data>
+  <data name="chapters/buy-tank-2-level/title" xml:space="preserve">
+    <value>Mission 6 of 8</value>
+  </data>
+  <data name="chapters/buy-tank-3-level/description" xml:space="preserve">
+    <value>Buy Tier III Vehicle</value>
+  </data>
+  <data name="chapters/buy-tank-3-level/title" xml:space="preserve">
+    <value>Mission 7 of 8</value>
+  </data>
+  <data name="chapters/change-vehicle-ab/description" xml:space="preserve">
+    <value>Load Small Repair Kit</value>
+  </data>
+  <data name="chapters/change-vehicle/description" xml:space="preserve">
+    <value>Enter Battle in New Vehicle</value>
+  </data>
+  <data name="chapters/change-vehicle/title" xml:space="preserve">
+    <value>Mission 2 of 8</value>
+  </data>
+  <data name="chapters/elite-tank/description" xml:space="preserve">
+    <value>Research All Modules and Tech Branches of Tier I Tank</value>
+  </data>
+  <data name="chapters/elite-tank/title" xml:space="preserve">
+    <value>Mission 5 of 8</value>
+  </data>
+  <data name="chapters/greeting/description" xml:space="preserve">
+    <value>Start advancing your tank career with this tutorial. As a bonus, you will receive useful premium content for free.</value>
+  </data>
+  <data name="chapters/greeting/title" xml:space="preserve">
+    <value>Welcome!</value>
+  </data>
+  <data name="chapters/install-chassis/description" xml:space="preserve">
+    <value>Research and Mount Suspension</value>
+  </data>
+  <data name="chapters/install-chassis/title" xml:space="preserve">
+    <value>Mission 3 of 8</value>
+  </data>
+  <data name="chapters/install-gun/description" xml:space="preserve">
+    <value>Research and Mount Gun</value>
+  </data>
+  <data name="chapters/install-gun/title" xml:space="preserve">
+    <value>Mission 4 of 8</value>
+  </data>
+  <data name="chapters/start-battle/description" xml:space="preserve">
+    <value>Enter battle</value>
+  </data>
+  <data name="chapters/start-battle/title" xml:space="preserve">
+    <value>Mission 1 of 8</value>
+  </data>
+  <data name="chapters/sub-quest/title" xml:space="preserve">
+    <value>Additional Mission</value>
+  </data>
+  <data name="chapters/train-commander/description" xml:space="preserve">
+    <value>Train Commander to Use Skills and Perks</value>
+  </data>
+  <data name="chapters/train-commander/title" xml:space="preserve">
+    <value>Mission 8 of 8</value>
+  </data>
+  <data name="dialogs/buy-another-crew/text" xml:space="preserve">
+    <value>Recruit the rest of the crew.</value>
+  </data>
+  <data name="dialogs/buy-another-crew/title" xml:space="preserve">
+    <value>Recruit Crew Members</value>
+  </data>
+  <data name="dialogs/buy-crew-completed/text" xml:space="preserve">
+    <value>Now you have a full crew. Your tankers are ready and eager for battle.</value>
+  </data>
+  <data name="dialogs/buy-crew/text" xml:space="preserve">
+    <value>Your crew is incomplete. Recruit missing crew members to enter battle.</value>
+  </data>
+  <data name="dialogs/buy-crew/title" xml:space="preserve">
+    <value>Recruit Crew Member</value>
+  </data>
+  <data name="dialogs/buy-slot-sell-tank-completed/text" xml:space="preserve">
+    <value>A vacant slot is now available in the Garage. Proceed to the next mission.</value>
+  </data>
+  <data name="dialogs/buy-slot-sell-tank-quest/text" xml:space="preserve">
+    <value>No vacant slots left in the Garage. Please buy a slot or sell a vehicle to continue.</value>
+  </data>
+  <data name="dialogs/buy-slot-sell-tank-quest/title" xml:space="preserve">
+    <value>Free Up Vehicle Slot</value>
+  </data>
+  <data name="dialogs/buy-tank-1-level-completed/text" xml:space="preserve">
+    <value>A Tier I vehicle purchased successfully. Now you can proceed to the next mission.</value>
+  </data>
+  <data name="dialogs/buy-tank-1-level-quest/text" xml:space="preserve">
+    <value>A Tier I tank is required. Buy a Tier I vehicle to continue. If there is no space left in the Garage for another tank, please buy a slot or sell a vehicle.</value>
+  </data>
+  <data name="dialogs/buy-tank-1-level-quest/title" xml:space="preserve">
+    <value>Buy Tier I Vehicle</value>
+  </data>
+  <data name="dialogs/buy-tank-2-level-completed/hint" xml:space="preserve">
+    <value>A Large Repair Kit restores all damaged modules once per battle.</value>
+  </data>
+  <data name="dialogs/buy-tank-2-level-quest/step" xml:space="preserve">
+    <value>Mission 6 of 8</value>
+  </data>
+  <data name="dialogs/buy-tank-2-level-quest/text" xml:space="preserve">
+    <value>You can buy a vehicle together with a crew and standard ammunition. You need to research vehicles before purchase.</value>
+  </data>
+  <data name="dialogs/buy-tank-2-level-quest/title" xml:space="preserve">
+    <value>Buy Tier II Vehicle</value>
+  </data>
+  <data name="dialogs/buy-tank-3-level-completed/hint" xml:space="preserve">
+    <value>Commander of a higher qualification level makes the entire crew work more effective and provides a better view range to a vehicle.</value>
+  </data>
+  <data name="dialogs/buy-tank-3-level-quest/step" xml:space="preserve">
+    <value>Mission 7 of 8</value>
+  </data>
+  <data name="dialogs/buy-tank-3-level-quest/text" xml:space="preserve">
+    <value>Research modules, progressing through the technical branches of a vehicle to unlock more advanced modules and higher-tier vehicles. Go to Tech Tree to view all tech branches for vehicles of each nation.</value>
+  </data>
+  <data name="dialogs/buy-tank-3-level-quest/title" xml:space="preserve">
+    <value>Buy Tier III Vehicle</value>
+  </data>
+  <data name="dialogs/change-vehicle-completed/hint" xml:space="preserve">
+    <value>Use credits to buy vehicles, modules, equipment, and consumables.</value>
+  </data>
+  <data name="dialogs/change-vehicle-quest/step" xml:space="preserve">
+    <value>Mission 2 of 8</value>
+  </data>
+  <data name="dialogs/change-vehicle-quest/step/extension" xml:space="preserve">
+    <value>Mission 2 of 8 (continued)</value>
+  </data>
+  <data name="dialogs/change-vehicle-quest/text" xml:space="preserve">
+    <value>You can select any vehicle available in the Garage. Make sure the ammunition is fully loaded before you enter battle.</value>
+  </data>
+  <data name="dialogs/change-vehicle-quest/title" xml:space="preserve">
+    <value>Enter Battle in New Vehicle</value>
+  </data>
+  <data name="dialogs/completed/title" xml:space="preserve">
+    <value>Mission Accomplished!</value>
+  </data>
+  <data name="dialogs/elite-tank-completed/hint" xml:space="preserve">
+    <value>Free Experience is not bound to a particular vehicle and can be spent on researching any vehicles and modules.</value>
+  </data>
+  <data name="dialogs/equipments-info/text" xml:space="preserve">
+    <value>Consumables enhance various vehicle characteristics. A Small Repair Kit restores one damaged module once per battle.</value>
+  </data>
+  <data name="dialogs/equipments-info/title" xml:space="preserve">
+    <value>Load Small Repair Kit</value>
+  </data>
+  <data name="dialogs/finished/hint/side-01" xml:space="preserve">
+    <value>All missions accomplished successfully. Your award is</value>
+  </data>
+  <data name="dialogs/finished/hint/side-02" xml:space="preserve">
+    <value>a Premium vehicle and a crew with 100% level of major qualification</value>
+  </data>
+  <data name="dialogs/finished/hint/side-03" xml:space="preserve">
+    <value>. Premium vehicles do not require research. Experience earned on Premium vehicles can be converted to Free Experience.</value>
+  </data>
+  <data name="dialogs/finished/title" xml:space="preserve">
+    <value>Congratulations!
+Tutorial Completed</value>
+  </data>
+  <data name="dialogs/greeting/text/side-01" xml:space="preserve">
+    <value>Start advancing your tank career with this tutorial. As a bonus, you will receive useful premium content for free.</value>
+  </data>
+  <data name="dialogs/greeting/text/side-02" xml:space="preserve">
+    <value>You will retain all awards earned in missions.</value>
+  </data>
+  <data name="dialogs/greeting/title" xml:space="preserve">
+    <value>Welcome to World of Tanks!</value>
+  </data>
+  <data name="dialogs/install-chassis-completed/hint" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="dialogs/install-chassis-quest/step" xml:space="preserve">
+    <value>Mission 3 of 8</value>
+  </data>
+  <data name="dialogs/install-chassis-quest/text" xml:space="preserve">
+    <value>You need to research a module before purchasing and mounting it. Use experience earned on a vehicle to research a module for this vehicle.</value>
+  </data>
+  <data name="dialogs/install-chassis-quest/title" xml:space="preserve">
+    <value>Research and Mount Suspension</value>
+  </data>
+  <data name="dialogs/install-gun-completed/hint" xml:space="preserve">
+    <value>Armor-Piercing Composite Rigid shells are highly effective in close combat and significantly improve armor penetration.</value>
+  </data>
+  <data name="dialogs/install-gun-quest/step" xml:space="preserve">
+    <value>Mission 4 of 8</value>
+  </data>
+  <data name="dialogs/install-gun-quest/title" xml:space="preserve">
+    <value>Research and Mount Gun</value>
+  </data>
+  <data name="dialogs/installed-chassis-info/text" xml:space="preserve">
+    <value>Suspension determines vehicle rotation speed and maximum load capacity.</value>
+  </data>
+  <data name="dialogs/installed-chassis-info/title" xml:space="preserve">
+    <value>Suspension Mounted!</value>
+  </data>
+  <data name="dialogs/installed-gun-info/text" xml:space="preserve">
+    <value>Guns differ in penetration, damage, rate of fire, and accuracy.</value>
+  </data>
+  <data name="dialogs/installed-gun-info/title" xml:space="preserve">
+    <value>Gun Mounted!</value>
+  </data>
+  <data name="dialogs/start-battle-completed/hint" xml:space="preserve">
+    <value>Use experience to research modules and vehicles. Experience earned on a specific vehicle can be used to research modules for this vehicle only.</value>
+  </data>
+  <data name="dialogs/start-battle-quest/step" xml:space="preserve">
+    <value>Mission 1 of 8</value>
+  </data>
+  <data name="dialogs/start-battle-quest/text" xml:space="preserve">
+    <value>Now it is time to start your engine and roll out. Click Battle! to test your mettle in real tank clashes.</value>
+  </data>
+  <data name="dialogs/start-battle-quest/title" xml:space="preserve">
+    <value>Enter Battle</value>
+  </data>
+  <data name="dialogs/sub-quest" xml:space="preserve">
+    <value>Additional Mission</value>
+  </data>
+  <data name="dialogs/tank-become-elite/text" xml:space="preserve">
+    <value>Experience earned on Elite vehicles can be converted to Free Experience.</value>
+  </data>
+  <data name="dialogs/tank-become-elite/title" xml:space="preserve">
+    <value>Elite Status Acquired!</value>
+  </data>
+  <data name="dialogs/tank-elite-quest/step" xml:space="preserve">
+    <value>Mission 5 of 8</value>
+  </data>
+  <data name="dialogs/tank-elite-quest/text-01" xml:space="preserve">
+    <value>A vehicle with all technical branches fully researched is awarded</value>
+  </data>
+  <data name="dialogs/tank-elite-quest/text-02" xml:space="preserve">
+    <value>Elite status</value>
+  </data>
+  <data name="dialogs/tank-elite-quest/title" xml:space="preserve">
+    <value>Research All Modules and Tech Branches of Tier I Vehicle</value>
+  </data>
+  <data name="dialogs/tankman-learn/text" xml:space="preserve">
+    <value>The Commander's major qualification level is below 100%. Major qualification improves with each battle. To continue the mission, train the Commander to 100%.</value>
+  </data>
+  <data name="dialogs/tankman-learn/title" xml:space="preserve">
+    <value>Commander's Major Qualification</value>
+  </data>
+  <data name="dialogs/tankman-skill/text" xml:space="preserve">
+    <value>Skills and perks improve with each battle. Skills become effective immediately after training, while perks take effect only after reaching 100%.</value>
+  </data>
+  <data name="dialogs/tankman-skill/title" xml:space="preserve">
+    <value>Commander Trained Successfully!</value>
+  </data>
+  <data name="dialogs/tankman-train/text" xml:space="preserve">
+    <value>Each Commander has competence for a specific vehicle. Retrain the Commander for the current vehicle or select a Commander with the required competence.</value>
+  </data>
+  <data name="dialogs/tankman-train/title" xml:space="preserve">
+    <value>Commander's Competence</value>
+  </data>
+  <data name="dialogs/train-commander-completed/hint" xml:space="preserve">
+    <value>A Large First Aid Kit heals all injured crew members once per battle.</value>
+  </data>
+  <data name="dialogs/train-commander-quest/step" xml:space="preserve">
+    <value>Mission 8 of 8</value>
+  </data>
+  <data name="dialogs/train-commander-quest/text" xml:space="preserve">
+    <value>Skills and perks become available to crew members after they reach 100% of their major qualification.</value>
+  </data>
+  <data name="dialogs/train-commander-quest/title" xml:space="preserve">
+    <value>Train Commander to Use Skills and Perks</value>
+  </data>
+  <data name="dialogs/unlocked-at-spg-info/text" xml:space="preserve">
+    <value>Tank destroyers mount accurate, hard-hitting guns. However, tank destroyers have a reduced maneuverability.</value>
+  </data>
+  <data name="dialogs/unlocked-at-spg-info/title" xml:space="preserve">
+    <value>New Vehicle Type Researched!</value>
+  </data>
+  <data name="dialogs/unlocked-chassis-info/text" xml:space="preserve">
+    <value>Suspension determines vehicle rotation speed and maximum load capacity.</value>
+  </data>
+  <data name="dialogs/unlocked-chassis-info/title" xml:space="preserve">
+    <value>New Suspension Researched!</value>
+  </data>
+  <data name="dialogs/unlocked-engine-info/text" xml:space="preserve">
+    <value>Engine power determines vehicle maneuverability and acceleration.</value>
+  </data>
+  <data name="dialogs/unlocked-engine-info/title" xml:space="preserve">
+    <value>New Engine Researched!</value>
+  </data>
+  <data name="dialogs/unlocked-gun-info/text" xml:space="preserve">
+    <value>Guns differ in penetration, damage, rate of fire, and accuracy.</value>
+  </data>
+  <data name="dialogs/unlocked-gun-info/title" xml:space="preserve">
+    <value>New Gun Researched!</value>
+  </data>
+  <data name="dialogs/unlocked-lt-info/text" xml:space="preserve">
+    <value>Vehicles vary by tier. Vehicles of a higher tier have advanced technical characteristics and allow access to more sophisticated equipment.</value>
+  </data>
+  <data name="dialogs/unlocked-lt-info/title" xml:space="preserve">
+    <value>New Tier II Vehicle Researched!</value>
+  </data>
+  <data name="dialogs/unlocked-mt-info/text" xml:space="preserve">
+    <value>Medium tanks are designed to balance firepower, maneuverability, and armor.</value>
+  </data>
+  <data name="dialogs/unlocked-mt-info/title" xml:space="preserve">
+    <value>New Vehicle Type Researched!</value>
+  </data>
+  <data name="dialogs/unlocked-radio-info/text" xml:space="preserve">
+    <value>Radio determines vehicle signal range.</value>
+  </data>
+  <data name="dialogs/unlocked-radio-info/title" xml:space="preserve">
+    <value>New Radio Researched!</value>
+  </data>
+  <data name="dialogs/unlocked-spg-info/text" xml:space="preserve">
+    <value>SPGs (self-propelled guns) are capable of devastating long-range indirect fire but are vulnerable in close combat.</value>
+  </data>
+  <data name="dialogs/unlocked-spg-info/title" xml:space="preserve">
+    <value>New Vehicle Type Researched!</value>
+  </data>
+  <data name="dialogs/unlocked-turret-info/text" xml:space="preserve">
+    <value>Turrets differ in compatible guns, armor, view range, and traverse speed.</value>
+  </data>
+  <data name="dialogs/unlocked-turret-info/title" xml:space="preserve">
+    <value>New Turret Researched!</value>
+  </data>
+  <data name="help/vehicle-control/fire" xml:space="preserve">
+    <value>Fire</value>
+  </data>
+  <data name="help/vehicle-control/move" xml:space="preserve">
+    <value>Move vehicle</value>
+  </data>
+  <data name="help/vehicle-control/move-mouse" xml:space="preserve">
+    <value>(move mouse)</value>
+  </data>
+  <data name="help/vehicle-control/rotate-turret" xml:space="preserve">
+    <value>Rotate turret</value>
+  </data>
+  <data name="help/vehicle-control/title" xml:space="preserve">
+    <value>Vehicle Controls</value>
+  </data>
+  <data name="help/vehicle-control/zoom" xml:space="preserve">
+    <value>Scroll to zoom in/out</value>
+  </data>
+  <data name="hints/buy-slot-for-tank/text" xml:space="preserve">
+    <value>Buy a slot (if you have enough gold)</value>
+  </data>
+  <data name="hints/buy-vehicle-first-level/text" xml:space="preserve">
+    <value>Buy Tier I Vehicle</value>
+  </data>
+  <data name="hints/change-shell-slider-value/text" xml:space="preserve">
+    <value>Adjust the number of shells of each type</value>
+  </data>
+  <data name="hints/change-vehicle-maintenance/text" xml:space="preserve">
+    <value>Prepare the vehicle for battle</value>
+  </data>
+  <data name="hints/change-vehicle-optional/text" xml:space="preserve">
+    <value>Select a vehicle for the next battle</value>
+  </data>
+  <data name="hints/change-vehicle/text" xml:space="preserve">
+    <value>Select a vehicle for the next battle</value>
+  </data>
+  <data name="hints/choice-unlocked-vehicle/text" xml:space="preserve">
+    <value>The current vehicle is locked.
+Please select another vehicle or wait until the current battle on this vehicle is over.</value>
+  </data>
+  <data name="hints/click-auto-load-ammo-checkbox/text" xml:space="preserve">
+    <value>Resupply ammunition automatically after each battle</value>
+  </data>
+  <data name="hints/click-auto-load-equipments-checkbox/text" xml:space="preserve">
+    <value>Resupply consumables automatically after each battle</value>
+  </data>
+  <data name="hints/click-auto-repair-checkbox/text" xml:space="preserve">
+    <value>Repair the vehicle automatically after each battle</value>
+  </data>
+  <data name="hints/click-equipment-drop-down/text" xml:space="preserve">
+    <value>Select a slot to load consumables</value>
+  </data>
+  <data name="hints/click-equipment-item/text" xml:space="preserve">
+    <value>Load consumables</value>
+  </data>
+  <data name="hints/click-fight-button/credits-not-enough/chassis/text" xml:space="preserve">
+    <value>Enter battle to earn more credits</value>
+  </data>
+  <data name="hints/click-fight-button/credits-not-enough/gun/text" xml:space="preserve">
+    <value>Enter battle to earn more credits</value>
+  </data>
+  <data name="hints/click-fight-button/earn-credits/small-repair-kit/text" xml:space="preserve">
+    <value>Enter battle to earn more credits</value>
+  </data>
+  <data name="hints/click-fight-button/text" xml:space="preserve">
+    <value>Enter battle</value>
+  </data>
+  <data name="hints/click-fight-button/xp-not-enough/chassis/text" xml:space="preserve">
+    <value>Enter battle to earn more experience</value>
+  </data>
+  <data name="hints/click-fight-button/xp-not-enough/gun/text" xml:space="preserve">
+    <value>Enter battle to earn more experience</value>
+  </data>
+  <data name="hints/click-maintenance-apply-button/text" xml:space="preserve">
+    <value>Confirm changes</value>
+  </data>
+  <data name="hints/click-maintenance-button-install-repair-kit/text" xml:space="preserve">
+    <value>Load Small Repair Kit</value>
+  </data>
+  <data name="hints/click-maintenance-button/text" xml:space="preserve">
+    <value>Resupply ammunition after replacing the gun</value>
+  </data>
+  <data name="hints/click-module-drop-down/text" xml:space="preserve">
+    <value>View all available modules</value>
+  </data>
+  <data name="hints/click-research-button/text" xml:space="preserve">
+    <value>Research modules</value>
+  </data>
+  <data name="hints/click-research-chassis-item/text" xml:space="preserve">
+    <value>Select a module to research</value>
+  </data>
+  <data name="hints/click-select-skill-button/text" xml:space="preserve">
+    <value>Confirm selection</value>
+  </data>
+  <data name="hints/click-unlocked-chassis-item/text" xml:space="preserve">
+    <value>Buy and mount suspension</value>
+  </data>
+  <data name="hints/commander-bonus-requirement/text" xml:space="preserve">
+    <value>Select a Tier III vehicle to complete the mission</value>
+  </data>
+  <data name="hints/expand-commander-list/text" xml:space="preserve">
+    <value>View available Commanders</value>
+  </data>
+  <data name="hints/go-to-shop/text" xml:space="preserve">
+    <value>Go to Store</value>
+  </data>
+  <data name="hints/maintenance-window-close/text" xml:space="preserve">
+    <value>Back to Garage</value>
+  </data>
+  <data name="hints/recruit-commander/text" xml:space="preserve">
+    <value>Recruit Commander</value>
+  </data>
+  <data name="hints/recruit-new-tankman/text" xml:space="preserve">
+    <value>Recruit</value>
+  </data>
+  <data name="hints/research-window-close/text" xml:space="preserve">
+    <value>Back to Garage</value>
+  </data>
+  <data name="hints/select-commander/text" xml:space="preserve">
+    <value>Select Commander</value>
+  </data>
+  <data name="hints/select-skill/text" xml:space="preserve">
+    <value>Select a skill or perk</value>
+  </data>
+  <data name="hints/select-unhired/text" xml:space="preserve">
+    <value>View available crew members</value>
+  </data>
+  <data name="hints/select-vehicle-2-level/text" xml:space="preserve">
+    <value>Select a non-premium Tier II vehicle</value>
+  </data>
+  <data name="hints/select-vehicle-first-level-and-select-item/text" xml:space="preserve">
+    <value>Select a Tier I vehicle</value>
+  </data>
+  <data name="hints/select-vehicle-first-level/text" xml:space="preserve">
+    <value>Select a Tier I vehicle</value>
+  </data>
+  <data name="hints/select-vehicle-for-sale/text" xml:space="preserve">
+    <value>Select a vehicle to sell</value>
+  </data>
+  <data name="hints/sell-tank-to-release-slot/text" xml:space="preserve">
+    <value>Sell a vehicle to free up a slot</value>
+  </data>
+  <data name="hints/show-skill-list/text" xml:space="preserve">
+    <value>View available skills and perks</value>
+  </data>
+  <data name="labels/commander" xml:space="preserve">
+    <value>Commander</value>
+  </data>
+  <data name="labels/credits" xml:space="preserve">
+    <value>credits</value>
+  </data>
+  <data name="labels/crew-with-100-level" xml:space="preserve">
+    <value>and a crew with 100% major qualification</value>
+  </data>
+  <data name="labels/finished-bonus" xml:space="preserve">
+    <value>Completion
+Award:</value>
+  </data>
+  <data name="labels/free-xp" xml:space="preserve">
+    <value>Free
+Experience</value>
+  </data>
+  <data name="labels/hand-extinguishers" xml:space="preserve">
+    <value>Manual
+Fire Extinguishers</value>
+  </data>
+  <data name="labels/large-med-kit" xml:space="preserve">
+    <value>Large
+First Aid Kit</value>
+  </data>
+  <data name="labels/large-repair-kit" xml:space="preserve">
+    <value>Large
+Repair Kit</value>
+  </data>
+  <data name="labels/piercing-ammo" xml:space="preserve">
+    <value>APCR shells</value>
+  </data>
+  <data name="labels/premium-account-24-hours" xml:space="preserve">
+    <value>Premium Account
+for 24 hours</value>
+  </data>
+  <data name="labels/quest-bonus" xml:space="preserve">
+    <value>Mission
+Award:</value>
+  </data>
+  <data name="labels/received-bonus" xml:space="preserve">
+    <value>Award:</value>
+  </data>
+  <data name="labels/small-repair-kit" xml:space="preserve">
+    <value>Small
+Repair Kit</value>
+  </data>
+  <data name="labels/tankman-info" xml:space="preserve">
+    <value>Personal File</value>
+  </data>
+  <data name="labels/tankman-skill" xml:space="preserve">
+    <value>Skills and perks</value>
+  </data>
+  <data name="labels/vehicle-chassis-params" xml:space="preserve">
+    <value>Suspension Characteristics</value>
+  </data>
+  <data name="labels/vehicle-engine-params" xml:space="preserve">
+    <value>Engine Characteristics</value>
+  </data>
+  <data name="labels/vehicle-gun-params" xml:space="preserve">
+    <value>Gun Characteristics</value>
+  </data>
+  <data name="labels/vehicle-radio-params" xml:space="preserve">
+    <value>Radio Characteristics</value>
+  </data>
+  <data name="labels/vehicle-turret-params" xml:space="preserve">
+    <value>Turret Characteristics</value>
+  </data>
+  <data name="labels/xp" xml:space="preserve">
+    <value>XP</value>
+  </data>
+  <data name="messages/request-bonus-failed" xml:space="preserve">
+    <value>An error occurred: unable to proceed to the next mission. Please contact Technical Support Service or try again later.</value>
+  </data>
+  <data name="messages/tutorial-disabled" xml:space="preserve">
+    <value>Unable to continue: tutorial is not available on this server.</value>
+  </data>
+  <data name="tooltip/notes/restart" xml:space="preserve">
+    <value>(Left-click to resume)</value>
   </data>
   <data name="chain1/hint/goToBattle" xml:space="preserve">
     <value>ENTER BATTLE</value>
@@ -213,10 +775,6 @@
   <data name="chain9/hint/submit" xml:space="preserve">
     <value>CLICK TO CONFIRM OPERATION</value>
   </data>
-  <data name="customization/slots" xml:space="preserve">
-    <value>CLICK
-GROUP SLOT</value>
-  </data>
   <data name="hangarTutorial/customization/image" xml:space="preserve">
     <value>VARIANTS</value>
   </data>
@@ -274,23 +832,6 @@ GROUP SLOT</value>
   <data name="hangarTutorial/technicalMaintenance/techRepair" xml:space="preserve">
     <value>VEHICLE REPAIRS</value>
   </data>
-  <data name="messages/request-bonus-failed" xml:space="preserve">
-    <value>An error occurred: unable to proceed to the next mission. Please contact Technical Support Service or try again later.</value>
-  </data>
-  <data name="messages/tutorial-disabled" xml:space="preserve">
-    <value>Unable to continue: tutorial is not available on this server.</value>
-  </data>
-  <data name="onceOnlyHints/falloutQuestsTab" xml:space="preserve">
-    <value>NEW CAMPAIGN
-OF PERSONAL MISSIONS</value>
-  </data>
-  <data name="pveChain/hint/selector" xml:space="preserve">
-    <value>BATTLE MODE SELECTOR</value>
-  </data>
-  <data name="tradeIn/shop" xml:space="preserve">
-    <value>NEW OPTION
-FOR PREMIUM VEHICLES</value>
-  </data>
   <data name="tutorialQuest/award/quest14" xml:space="preserve">
     <value>5 days of Premium Account (activated automatically)</value>
   </data>
@@ -299,9 +840,6 @@ FOR PREMIUM VEHICLES</value>
   </data>
   <data name="tutorialQuest/award/quest5" xml:space="preserve">
     <value>The Tetrarch light tank for five battles with crew members trained to 100%</value>
-  </data>
-  <data name="tutorialQuest/award/quest5/altBonus" xml:space="preserve">
-    <value>You receive 10,000 credits, because you already have this vehicle.</value>
   </data>
   <data name="tutorialQuest/award/quest5/kr" xml:space="preserve">
     <value>The T14 heavy tank for five battles with crew members trained to 100%</value>
@@ -551,5 +1089,32 @@ FOR PREMIUM VEHICLES</value>
   </data>
   <data name="tutorialQuest/video/repairkitHelp" xml:space="preserve">
     <value>Using Repair Kit</value>
+  </data>
+  <data name="chain/hint/buyVehicle" xml:space="preserve">
+    <value>PURCHASE A VEHICLE</value>
+  </data>
+  <data name="chain/hint/changeToPveOrRandom" xml:space="preserve">
+    <value>SELECT RANDOM BATTLE OR PROVING GROUND MODE</value>
+  </data>
+  <data name="chain/hint/changeVehicle" xml:space="preserve">
+    <value>VEHICLE UNAVAILABLE</value>
+  </data>
+  <data name="onceOnlyHints/falloutQuestsTab" xml:space="preserve">
+    <value>NEW CAMPAIGN
+OF PERSONAL MISSIONS</value>
+  </data>
+  <data name="pveChain/hint/selector" xml:space="preserve">
+    <value>BATTLE MODE SELECTOR</value>
+  </data>
+  <data name="customization/slots" xml:space="preserve">
+    <value>CLICK
+GROUP SLOT</value>
+  </data>
+  <data name="tradeIn/shop" xml:space="preserve">
+    <value>NEW OPTION
+FOR PREMIUM VEHICLES</value>
+  </data>
+  <data name="tutorialQuest/award/quest5/altBonus" xml:space="preserve">
+    <value>You receive 10,000 credits, because you already have this vehicle.</value>
   </data>
 </root>

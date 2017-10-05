@@ -112,19 +112,22 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="keyboard/key_alt" xml:space="preserve">
+    <value>Left Alt</value>
+  </data>
   <data name="keyboard/key_backspace" xml:space="preserve">
     <value>Backspace</value>
   </data>
   <data name="keyboard/key_capslock" xml:space="preserve">
     <value>CapsLock</value>
   </data>
-  <data name="keyboard/key_ctrl_wo_referral" xml:space="preserve">
-    <value>Ctrl</value>
+  <data name="keyboard/key_ctrl" xml:space="preserve">
+    <value>Left Ctrl</value>
   </data>
   <data name="keyboard/key_delete" xml:space="preserve">
     <value>Delete</value>
@@ -147,15 +150,6 @@
   <data name="keyboard/key_insert" xml:space="preserve">
     <value>Insert</value>
   </data>
-  <data name="keyboard/key_left_alt" xml:space="preserve">
-    <value>Left Alt</value>
-  </data>
-  <data name="keyboard/key_left_ctrl" xml:space="preserve">
-    <value>Left Ctrl</value>
-  </data>
-  <data name="keyboard/key_left_shift" xml:space="preserve">
-    <value>Left Shift</value>
-  </data>
   <data name="keyboard/key_leftarrow" xml:space="preserve">
     <value>Left</value>
   </data>
@@ -168,17 +162,11 @@
   <data name="keyboard/key_print_screen" xml:space="preserve">
     <value>Print Screen</value>
   </data>
-  <data name="keyboard/key_right_alt" xml:space="preserve">
-    <value>Right Alt</value>
-  </data>
-  <data name="keyboard/key_right_ctrl" xml:space="preserve">
-    <value>Right Ctrl</value>
-  </data>
-  <data name="keyboard/key_right_shift" xml:space="preserve">
-    <value>Right Shift</value>
-  </data>
   <data name="keyboard/key_rightarrow" xml:space="preserve">
     <value>Right</value>
+  </data>
+  <data name="keyboard/key_shift" xml:space="preserve">
+    <value>Left Shift</value>
   </data>
   <data name="keyboard/key_space" xml:space="preserve">
     <value>Space</value>
@@ -189,8 +177,8 @@
   <data name="keyboard/key_uparrow" xml:space="preserve">
     <value>Up</value>
   </data>
-  <data name="keyboard/sequence_shift_enter" xml:space="preserve">
-    <value>RShift+Enter</value>
+  <data name="keyboard/sequence_ctrl_enter" xml:space="preserve">
+    <value>Ctrl+Enter</value>
   </data>
   <data name="mouse/key_4" xml:space="preserve">
     <value>DOWN_MB</value>
@@ -212,5 +200,29 @@
   </data>
   <data name="mouse/key_right" xml:space="preserve">
     <value>RMB</value>
+  </data>
+  <data name="keyboard/sequence_shift_enter" xml:space="preserve">
+    <value>RShift+Enter</value>
+  </data>
+  <data name="keyboard/key_ctrl_wo_referral" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="keyboard/key_left_alt" xml:space="preserve">
+    <value>Left Alt</value>
+  </data>
+  <data name="keyboard/key_left_ctrl" xml:space="preserve">
+    <value>Left Ctrl</value>
+  </data>
+  <data name="keyboard/key_left_shift" xml:space="preserve">
+    <value>Left Shift</value>
+  </data>
+  <data name="keyboard/key_right_alt" xml:space="preserve">
+    <value>Right Alt</value>
+  </data>
+  <data name="keyboard/key_right_ctrl" xml:space="preserve">
+    <value>Right Ctrl</value>
+  </data>
+  <data name="keyboard/key_right_shift" xml:space="preserve">
+    <value>Right Shift</value>
   </data>
 </root>
