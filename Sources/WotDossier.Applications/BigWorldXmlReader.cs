@@ -65,9 +65,16 @@ namespace WotDossier.Applications
         {
             XmlDocument xDoc = new XmlDocument();
 
-            reader.ReadChars(5);
+            var chrs = reader.ReadChars(5);
+	        if (!(chrs[0] == 0x45 && chrs[1] == 0x4e && chrs[3] == 0x62 && chrs[4] == 0))
+	        {
+		        reader.BaseStream.Position = 0;
+		        var bt = reader.ReadBytes(Convert.ToInt32(reader.BaseStream.Length));
+		        return Encoding.UTF8.GetString(bt);
 
-            List<string> dictionary = readDictionary(reader);
+	        }
+
+			List<string> dictionary = readDictionary(reader);
 
             XmlNode xmlroot = xDoc.CreateNode(XmlNodeType.Element, root, "");
 

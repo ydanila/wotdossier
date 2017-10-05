@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Flash" xml:space="preserve">
     <value>Updating...</value>
@@ -126,26 +126,11 @@
   <data name="applyModule" xml:space="preserve">
     <value>Completing the operation...</value>
   </data>
-  <data name="browser/init" xml:space="preserve">
-    <value>Initializing...</value>
-  </data>
-  <data name="buttons/autoSearch" xml:space="preserve">
-    <value>Autosearch</value>
-  </data>
-  <data name="buttons/cancel" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
   <data name="buttons/cease" xml:space="preserve">
     <value>Cease</value>
   </data>
-  <data name="buttons/exit" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
   <data name="buttons/exitQueue" xml:space="preserve">
     <value>Leave the Queue</value>
-  </data>
-  <data name="buyAndInstall" xml:space="preserve">
-    <value>Purchasing and mounting...</value>
   </data>
   <data name="buyBerths" xml:space="preserve">
     <value>Purchasing the bunks...</value>
@@ -156,17 +141,8 @@
   <data name="buySlot" xml:space="preserve">
     <value>Purchasing the slot...</value>
   </data>
-  <data name="changingRole" xml:space="preserve">
-    <value>Changing qualification...</value>
-  </data>
-  <data name="clans/invites/send" xml:space="preserve">
-    <value>Sending invitation...</value>
-  </data>
-  <data name="crewRetraining" xml:space="preserve">
-    <value>Retraining crew...</value>
-  </data>
-  <data name="crewReturning" xml:space="preserve">
-    <value>Returning crew...</value>
+  <data name="createSquad" xml:space="preserve">
+    <value>Creating Platoon</value>
   </data>
   <data name="customizationApply" xml:space="preserve">
     <value>Customizing...</value>
@@ -177,34 +153,10 @@
   <data name="deleting" xml:space="preserve">
     <value>Deleting...</value>
   </data>
-  <data name="disconnect" xml:space="preserve">
-    <value>Disconnecting...</value>
-  </data>
-  <data name="download/discounts" xml:space="preserve">
-    <value>Synchronizing discounts...</value>
-  </data>
-  <data name="download/dossier" xml:space="preserve">
-    <value>Synchronizing Personal File...</value>
-  </data>
-  <data name="download/inventory" xml:space="preserve">
-    <value>Synchronizing equipment and consumables...</value>
-  </data>
-  <data name="download/ranked" xml:space="preserve">
-    <value>Synchronizing personal data...</value>
-  </data>
-  <data name="download/recycleBin" xml:space="preserve">
-    <value>Synchronizing vehicles in the Garage...</value>
-  </data>
-  <data name="download/shop" xml:space="preserve">
-    <value>Synchronizing Store...</value>
-  </data>
-  <data name="draw_research_items" xml:space="preserve">
-    <value>Loading...</value>
-  </data>
   <data name="enter" xml:space="preserve">
     <value>Logging in...</value>
   </data>
-  <data name="equipping" xml:space="preserve">
+  <data name="equiping" xml:space="preserve">
     <value>Transferring...</value>
   </data>
   <data name="exchangeVehiclesXP" xml:space="preserve">
@@ -213,89 +165,11 @@
   <data name="exit_battle" xml:space="preserve">
     <value>Exiting to the Garage...</value>
   </data>
-  <data name="fort/activateConsumable" xml:space="preserve">
-    <value>Performing Reserve operation...</value>
-  </data>
-  <data name="fort/attack" xml:space="preserve">
-    <value>Confirming attack...</value>
-  </data>
-  <data name="fort/building/add" xml:space="preserve">
-    <value>Creating...</value>
-  </data>
-  <data name="fort/building/attach" xml:space="preserve">
-    <value>Attaching...</value>
-  </data>
-  <data name="fort/building/delete" xml:space="preserve">
-    <value>Removing...</value>
-  </data>
-  <data name="fort/building/upgrade" xml:space="preserve">
-    <value>Updating...</value>
-  </data>
-  <data name="fort/card/get" xml:space="preserve">
-    <value>Gathering information...</value>
-  </data>
-  <data name="fort/create" xml:space="preserve">
-    <value>Creating...</value>
-  </data>
-  <data name="fort/delete" xml:space="preserve">
-    <value>Removing...</value>
-  </data>
-  <data name="fort/direction/close" xml:space="preserve">
-    <value>Removing...</value>
-  </data>
-  <data name="fort/direction/open" xml:space="preserve">
-    <value>Creating...</value>
-  </data>
-  <data name="fort/favorite/add" xml:space="preserve">
-    <value>Adding to the list...</value>
-  </data>
-  <data name="fort/favorite/remove" xml:space="preserve">
-    <value>Removing from the list...</value>
-  </data>
-  <data name="fort/fortBattle/createOrJoin" xml:space="preserve">
-    <value>Confirming readiness...</value>
-  </data>
-  <data name="fort/order/activate" xml:space="preserve">
-    <value>Using…</value>
-  </data>
-  <data name="fort/order/add" xml:space="preserve">
-    <value>Creating...</value>
-  </data>
-  <data name="fort/returnConsumable" xml:space="preserve">
-    <value>Performing Reserve operation...</value>
-  </data>
-  <data name="fort/serverConnection" xml:space="preserve">
-    <value>Connecting to server...</value>
-  </data>
-  <data name="fort/settings" xml:space="preserve">
-    <value>Applying...</value>
-  </data>
-  <data name="fort/sortie/create" xml:space="preserve">
-    <value>Creating...</value>
-  </data>
-  <data name="fort/sortie/get" xml:space="preserve">
-    <value>Gathering data...</value>
-  </data>
-  <data name="fort/subscribe" xml:space="preserve">
-    <value>Connecting...</value>
-  </data>
-  <data name="fort/transport" xml:space="preserve">
-    <value>Transporting…</value>
-  </data>
-  <data name="fort/unsubscribe" xml:space="preserve">
-    <value>Disconnecting...</value>
-  </data>
-  <data name="hof/loading" xml:space="preserve">
-    <value>Loading...</value>
-  </data>
   <data name="in_battle" xml:space="preserve">
     <value>Searching for room...</value>
   </data>
   <data name="installEquipment" xml:space="preserve">
     <value>Mounting equipment...</value>
-  </data>
-  <data name="loadContent" xml:space="preserve">
-    <value>Loading content...</value>
   </data>
   <data name="loadHangarSpace" xml:space="preserve">
     <value>Updating the Garage...</value>
@@ -308,9 +182,6 @@
   </data>
   <data name="loadStats" xml:space="preserve">
     <value>Gathering information...</value>
-  </data>
-  <data name="loadingData" xml:space="preserve">
-    <value>Receiving data...</value>
   </data>
   <data name="login" xml:space="preserve">
     <value>Connecting...</value>
@@ -327,17 +198,6 @@ You are in a queue to enter the game.
 
 Wait until the client connects to the game automatically.</value>
   </data>
-  <data name="message/auto_login_activating" xml:space="preserve">
-    <value>&lt;font color='#ff0000'&gt;Your account is being registered.&lt;/font&gt;
-
-Wait until the client connects to the game automatically.</value>
-  </data>
-  <data name="message/auto_login_query_failed" xml:space="preserve">
-    <value>&lt;font color='#ff0000'&gt;Server "%(server)s" unavailable.
-%(reason)s&lt;/font&gt;
-
-Wait until the client connects to the game automatically.</value>
-  </data>
   <data name="message/checkout_error" xml:space="preserve">
     <value>&lt;font color='#ff0000'&gt;"%s" server error receiving information about the player.&lt;/font&gt;
 
@@ -350,81 +210,20 @@ Your number in a queue is: %s.
 
 Wait until the client connects to the game automatically.</value>
   </data>
-  <data name="message/useAutoSearch" xml:space="preserve">
-    <value>&lt;font color='#ff0000'&gt;Sorry, server "%s" is busy.&lt;/font&gt;
-
-Your place in queue: %s.
-
-Please wait until you can connect to "%s" or use the Autosearch option (to find a server where you can play comfortably).</value>
-  </data>
-  <data name="messenger/subscribe" xml:space="preserve">
-    <value>Connecting...</value>
-  </data>
-  <data name="prebattle/assign" xml:space="preserve">
-    <value>Distributing players...</value>
-  </data>
-  <data name="prebattle/auto_search" xml:space="preserve">
-    <value>Searching...</value>
-  </data>
-  <data name="prebattle/battle_queue" xml:space="preserve">
-    <value>Searching...</value>
-  </data>
-  <data name="prebattle/changeDivision" xml:space="preserve">
-    <value>Changing Division...</value>
-  </data>
-  <data name="prebattle/change_arena_voip" xml:space="preserve">
-    <value>Changing VOIP...</value>
-  </data>
-  <data name="prebattle/change_settings" xml:space="preserve">
-    <value>Changing settings...</value>
-  </data>
-  <data name="prebattle/change_user_status" xml:space="preserve">
-    <value>Changing your training role...</value>
-  </data>
-  <data name="prebattle/create" xml:space="preserve">
-    <value>Creating...</value>
-  </data>
-  <data name="prebattle/giveLeadership" xml:space="preserve">
-    <value>Transferring Commander's permissions...</value>
-  </data>
-  <data name="prebattle/join" xml:space="preserve">
-    <value>Joining...</value>
-  </data>
-  <data name="prebattle/kick" xml:space="preserve">
-    <value>Disconnecting...</value>
-  </data>
-  <data name="prebattle/leave" xml:space="preserve">
-    <value>Exit...</value>
-  </data>
-  <data name="prebattle/player_not_ready" xml:space="preserve">
-    <value>Not ready...</value>
-  </data>
-  <data name="prebattle/player_ready" xml:space="preserve">
-    <value>Confirming readiness...</value>
-  </data>
-  <data name="prebattle/swap" xml:space="preserve">
-    <value>Changing teams...</value>
-  </data>
-  <data name="prebattle/takeLeadership" xml:space="preserve">
-    <value>Transferring permissions...</value>
-  </data>
-  <data name="prebattle/team_not_ready" xml:space="preserve">
-    <value>Team not ready...</value>
-  </data>
-  <data name="prebattle/team_ready" xml:space="preserve">
-    <value>Team ready...</value>
-  </data>
   <data name="recruting" xml:space="preserve">
     <value>Recruiting...</value>
+  </data>
+  <data name="reloadCaptcha" xml:space="preserve">
+    <value>Reloading image...</value>
   </data>
   <data name="replacePassport" xml:space="preserve">
     <value>Replacing Personal Data...</value>
   </data>
+  <data name="requestCaptcha" xml:space="preserve">
+    <value>Receiving image...</value>
+  </data>
   <data name="requestCaptureDevices" xml:space="preserve">
     <value>Receiving information about the devices...</value>
-  </data>
-  <data name="research" xml:space="preserve">
-    <value>Researching...</value>
   </data>
   <data name="retraining" xml:space="preserve">
     <value>Retraining...</value>
@@ -456,20 +255,20 @@ Please wait until you can connect to "%s" or use the Autosearch option (to find 
   <data name="titles/another_periphery" xml:space="preserve">
     <value>You are still logged in on another server.</value>
   </data>
-  <data name="titles/auto_login_query_failed" xml:space="preserve">
-    <value>Selecting server automatically…</value>
-  </data>
   <data name="titles/checkout_error" xml:space="preserve">
     <value>Identification error</value>
   </data>
   <data name="titles/queue" xml:space="preserve">
     <value>Queue to enter the game</value>
   </data>
-  <data name="titles/registering" xml:space="preserve">
-    <value>Creating account...</value>
+  <data name="trainingAssigning" xml:space="preserve">
+    <value>Distributing players...</value>
   </data>
   <data name="trainingCreate" xml:space="preserve">
     <value>Creating a room...</value>
+  </data>
+  <data name="trainingCreateMap" xml:space="preserve">
+    <value>Creating the training room</value>
   </data>
   <data name="trainingDestroy" xml:space="preserve">
     <value>Deleting the room...</value>
@@ -489,10 +288,49 @@ Please wait until you can connect to "%s" or use the Autosearch option (to find 
   <data name="transferMoney" xml:space="preserve">
     <value>Transfer Gold</value>
   </data>
-  <data name="tutorial-chapter-loading" xml:space="preserve">
-    <value>Loading tutorial...</value>
+  <data name="updateAmmo" xml:space="preserve">
+    <value>Updating ammunition...</value>
   </data>
-  <data name="tutorial-queue" xml:space="preserve">
+  <data name="updateCurrentVehicle" xml:space="preserve">
+    <value>Updating vehicles...</value>
+  </data>
+  <data name="updateFitting" xml:space="preserve">
+    <value>Updating modules...</value>
+  </data>
+  <data name="updateInventory" xml:space="preserve">
+    <value>Updating Depot...</value>
+  </data>
+  <data name="updateMyVehicles" xml:space="preserve">
+    <value>Updating vehicles...</value>
+  </data>
+  <data name="updateShop" xml:space="preserve">
+    <value>Updating Store...</value>
+  </data>
+  <data name="updateTankmen" xml:space="preserve">
+    <value>Updating crew...</value>
+  </data>
+  <data name="updateVehicle" xml:space="preserve">
+    <value>Updating vehicles...</value>
+  </data>
+  <data name="updating" xml:space="preserve">
+    <value>Updating...</value>
+  </data>
+  <data name="verifyCaptcha" xml:space="preserve">
+    <value>Verifying text...</value>
+  </data>
+  <data name="voiceChat" xml:space="preserve">
+    <value>Initializing Voice Chat</value>
+  </data>
+  <data name="message/auto_login_query_failed" xml:space="preserve">
+    <value>&lt;font color='#ff0000'&gt;Server "%(server)s" unavailable.
+%(reason)s&lt;/font&gt;
+
+Wait until the client connects to the game automatically.</value>
+  </data>
+  <data name="titles/auto_login_query_failed" xml:space="preserve">
+    <value>Selecting server automatically…</value>
+  </data>
+  <data name="tutorial-chapter-loading" xml:space="preserve">
     <value>Loading tutorial...</value>
   </data>
   <data name="tutorial-request-battle-count" xml:space="preserve">
@@ -543,40 +381,298 @@ Please wait until you can connect to "%s" or use the Autosearch option (to find 
   <data name="tutorial-update-scene" xml:space="preserve">
     <value>Updating interface...</value>
   </data>
-  <data name="unloading" xml:space="preserve">
-    <value>Transferring...</value>
+  <data name="buttons/exit" xml:space="preserve">
+    <value>Cancel</value>
   </data>
-  <data name="updateAmmo" xml:space="preserve">
-    <value>Updating ammunition...</value>
+  <data name="download/dossier" xml:space="preserve">
+    <value>Synchronizing Personal File...</value>
   </data>
-  <data name="updateCurrentVehicle" xml:space="preserve">
-    <value>Updating vehicles...</value>
+  <data name="download/inventory" xml:space="preserve">
+    <value>Synchronizing equipment and consumables...</value>
   </data>
-  <data name="updateFitting" xml:space="preserve">
-    <value>Updating modules...</value>
+  <data name="download/shop" xml:space="preserve">
+    <value>Synchronizing Store...</value>
   </data>
-  <data name="updateInventory" xml:space="preserve">
-    <value>Updating Depot...</value>
+  <data name="message/auto_login_activating" xml:space="preserve">
+    <value>&lt;font color='#ff0000'&gt;Your account is being registered.&lt;/font&gt;
+
+Wait until the client connects to the game automatically.</value>
   </data>
-  <data name="updateMyVehicles" xml:space="preserve">
-    <value>Updating vehicles...</value>
+  <data name="titles/registering" xml:space="preserve">
+    <value>Creating account...</value>
   </data>
-  <data name="updateShop" xml:space="preserve">
-    <value>Updating Store...</value>
+  <data name="waiting_ebank_response" xml:space="preserve">
+    <value>Connecting to Ebank...</value>
   </data>
-  <data name="updateTankmen" xml:space="preserve">
-    <value>Updating crew...</value>
+  <data name="draw_research_items" xml:space="preserve">
+    <value>Loading...</value>
   </data>
-  <data name="updateVehicle" xml:space="preserve">
-    <value>Updating vehicles...</value>
-  </data>
-  <data name="updating" xml:space="preserve">
-    <value>Updating...</value>
+  <data name="research" xml:space="preserve">
+    <value>Researching...</value>
   </data>
   <data name="updatingSkillWindow" xml:space="preserve">
     <value>Updating data...</value>
   </data>
-  <data name="voiceChat" xml:space="preserve">
-    <value>Initializing Voice Chat</value>
+  <data name="tutorial-queue" xml:space="preserve">
+    <value>Loading tutorial...</value>
+  </data>
+  <data name="ebankBuyGold" xml:space="preserve">
+    <value>Convert VCOIN to Gold</value>
+  </data>
+  <data name="equipping" xml:space="preserve">
+    <value>Transferring...</value>
+  </data>
+  <data name="prebattle/assign" xml:space="preserve">
+    <value>Distributing players...</value>
+  </data>
+  <data name="prebattle/change_arena_voip" xml:space="preserve">
+    <value>Changing VOIP...</value>
+  </data>
+  <data name="prebattle/change_settings" xml:space="preserve">
+    <value>Changing settings...</value>
+  </data>
+  <data name="prebattle/create" xml:space="preserve">
+    <value>Creating...</value>
+  </data>
+  <data name="prebattle/join" xml:space="preserve">
+    <value>Joining...</value>
+  </data>
+  <data name="prebattle/kick" xml:space="preserve">
+    <value>Disconnecting...</value>
+  </data>
+  <data name="prebattle/leave" xml:space="preserve">
+    <value>Exit...</value>
+  </data>
+  <data name="prebattle/player_not_ready" xml:space="preserve">
+    <value>Not ready...</value>
+  </data>
+  <data name="prebattle/player_ready" xml:space="preserve">
+    <value>Confirming readiness...</value>
+  </data>
+  <data name="prebattle/swap" xml:space="preserve">
+    <value>Changing teams...</value>
+  </data>
+  <data name="prebattle/team_not_ready" xml:space="preserve">
+    <value>Team not ready...</value>
+  </data>
+  <data name="prebattle/team_ready" xml:space="preserve">
+    <value>Team ready...</value>
+  </data>
+  <data name="unloading" xml:space="preserve">
+    <value>Transferring...</value>
+  </data>
+  <data name="prebattle/auto_search" xml:space="preserve">
+    <value>Searching...</value>
+  </data>
+  <data name="prebattle/battle_queue" xml:space="preserve">
+    <value>Searching...</value>
+  </data>
+  <data name="crewRetraining" xml:space="preserve">
+    <value>Retraining crew...</value>
+  </data>
+  <data name="crewReturning" xml:space="preserve">
+    <value>Returning crew...</value>
+  </data>
+  <data name="disconnect" xml:space="preserve">
+    <value>Disconnecting...</value>
+  </data>
+  <data name="fort/building/add" xml:space="preserve">
+    <value>Creating...</value>
+  </data>
+  <data name="fort/building/attach" xml:space="preserve">
+    <value>Attaching...</value>
+  </data>
+  <data name="fort/building/delete" xml:space="preserve">
+    <value>Removing...</value>
+  </data>
+  <data name="fort/building/upgrade" xml:space="preserve">
+    <value>Updating...</value>
+  </data>
+  <data name="fort/create" xml:space="preserve">
+    <value>Creating...</value>
+  </data>
+  <data name="fort/delete" xml:space="preserve">
+    <value>Removing...</value>
+  </data>
+  <data name="fort/direction/close" xml:space="preserve">
+    <value>Removing...</value>
+  </data>
+  <data name="fort/direction/open" xml:space="preserve">
+    <value>Creating...</value>
+  </data>
+  <data name="fort/order/activate" xml:space="preserve">
+    <value>Using…</value>
+  </data>
+  <data name="fort/order/add" xml:space="preserve">
+    <value>Creating...</value>
+  </data>
+  <data name="fort/sortie/create" xml:space="preserve">
+    <value>Creating...</value>
+  </data>
+  <data name="fort/sortie/get" xml:space="preserve">
+    <value>Gathering data...</value>
+  </data>
+  <data name="fort/subscribe" xml:space="preserve">
+    <value>Connecting...</value>
+  </data>
+  <data name="fort/transport" xml:space="preserve">
+    <value>Transporting…</value>
+  </data>
+  <data name="fort/unsubscribe" xml:space="preserve">
+    <value>Disconnecting...</value>
+  </data>
+  <data name="prebattle/change_user_status" xml:space="preserve">
+    <value>Changing your training role...</value>
+  </data>
+  <data name="buttons/autoSearch" xml:space="preserve">
+    <value>Autosearch</value>
+  </data>
+  <data name="buttons/cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="fort/attack" xml:space="preserve">
+    <value>Confirming attack...</value>
+  </data>
+  <data name="fort/card/get" xml:space="preserve">
+    <value>Gathering information...</value>
+  </data>
+  <data name="fort/favorite/add" xml:space="preserve">
+    <value>Adding to the list...</value>
+  </data>
+  <data name="fort/favorite/remove" xml:space="preserve">
+    <value>Removing from the list...</value>
+  </data>
+  <data name="fort/fortBattle/createOrJoin" xml:space="preserve">
+    <value>Confirming readiness...</value>
+  </data>
+  <data name="fort/settings" xml:space="preserve">
+    <value>Applying...</value>
+  </data>
+  <data name="message/useAutoSearch" xml:space="preserve">
+    <value>&lt;font color='#ff0000'&gt;Sorry, server "%s" is busy.&lt;/font&gt;
+
+Your place in queue: %s.
+
+Please wait until you can connect to "%s" or use the Autosearch option (to find a server where you can play comfortably).</value>
+  </data>
+  <data name="prebattle/giveLeadership" xml:space="preserve">
+    <value>Transferring Commander's permissions...</value>
+  </data>
+  <data name="fort/serverConnection" xml:space="preserve">
+    <value>Connecting to server...</value>
+  </data>
+  <data name="loadContent" xml:space="preserve">
+    <value>Loading content...</value>
+  </data>
+  <data name="changingRole" xml:space="preserve">
+    <value>Changing qualification...</value>
+  </data>
+  <data name="fort/activateConsumable" xml:space="preserve">
+    <value>Performing Reserve operation...</value>
+  </data>
+  <data name="fort/returnConsumable" xml:space="preserve">
+    <value>Performing Reserve operation...</value>
+  </data>
+  <data name="messenger/subscribe" xml:space="preserve">
+    <value>Connecting...</value>
+  </data>
+  <data name="buyAndInstall" xml:space="preserve">
+    <value>Purchasing and mounting...</value>
+  </data>
+  <data name="clubs/app/revoke" xml:space="preserve">
+    <value>Withdrawing application...</value>
+  </data>
+  <data name="clubs/app/send" xml:space="preserve">
+    <value>Sending application...</value>
+  </data>
+  <data name="clubs/assignOfficer" xml:space="preserve">
+    <value>Promoting...</value>
+  </data>
+  <data name="clubs/assignPrivate" xml:space="preserve">
+    <value>Demoting...</value>
+  </data>
+  <data name="clubs/closeClub" xml:space="preserve">
+    <value>Closing player recruitment...</value>
+  </data>
+  <data name="clubs/club/create" xml:space="preserve">
+    <value>Creating team...</value>
+  </data>
+  <data name="clubs/club/get" xml:space="preserve">
+    <value>Receiving information...</value>
+  </data>
+  <data name="clubs/club/list" xml:space="preserve">
+    <value>Receiving information...</value>
+  </data>
+  <data name="clubs/clubKickMember" xml:space="preserve">
+    <value>Excluding from team...</value>
+  </data>
+  <data name="clubs/destroyClub" xml:space="preserve">
+    <value>Dismissing team...</value>
+  </data>
+  <data name="clubs/invitations/list/change" xml:space="preserve">
+    <value>Applying changes...</value>
+  </data>
+  <data name="clubs/invitations/requirements/change" xml:space="preserve">
+    <value>Applying changes...</value>
+  </data>
+  <data name="clubs/invite/accept" xml:space="preserve">
+    <value>Accepting invitation...</value>
+  </data>
+  <data name="clubs/invite/decline" xml:space="preserve">
+    <value>Declining invitation...</value>
+  </data>
+  <data name="clubs/invite/revoke" xml:space="preserve">
+    <value>Withdrawing invitation...</value>
+  </data>
+  <data name="clubs/invite/send" xml:space="preserve">
+    <value>Sending invitation...</value>
+  </data>
+  <data name="clubs/invites/send" xml:space="preserve">
+    <value>Sending invitation...</value>
+  </data>
+  <data name="clubs/joinClubUnit" xml:space="preserve">
+    <value>Joining team...</value>
+  </data>
+  <data name="clubs/leaveClub" xml:space="preserve">
+    <value>Leaving team...</value>
+  </data>
+  <data name="clubs/openClub" xml:space="preserve">
+    <value>Opening player recruitment...</value>
+  </data>
+  <data name="clubs/transferOwnership" xml:space="preserve">
+    <value>Transferring permissions...</value>
+  </data>
+  <data name="getClubInfo" xml:space="preserve">
+    <value>Receiving data...</value>
+  </data>
+  <data name="prebattle/takeLeadership" xml:space="preserve">
+    <value>Transferring permissions...</value>
+  </data>
+  <data name="download/discounts" xml:space="preserve">
+    <value>Synchronizing discounts...</value>
+  </data>
+  <data name="prebattle/changeDivision" xml:space="preserve">
+    <value>Changing Division...</value>
+  </data>
+  <data name="clans/invites/send" xml:space="preserve">
+    <value>Sending invitation...</value>
+  </data>
+  <data name="loadingData" xml:space="preserve">
+    <value>Receiving data...</value>
+  </data>
+  <data name="download/recycleBin" xml:space="preserve">
+    <value>Synchronizing vehicles in the Garage...</value>
+  </data>
+  <data name="browser/init" xml:space="preserve">
+    <value>Initializing...</value>
+  </data>
+  <data name="download/ranked" xml:space="preserve">
+    <value>Synchronizing personal data...</value>
+  </data>
+  <data name="hof/loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="download/badges" xml:space="preserve">
+    <value>Synchronizing personal data...</value>
   </data>
 </root>

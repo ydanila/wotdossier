@@ -22,14 +22,14 @@ namespace WotDossier.Resources.Strings {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class achievements {
+    public class Achievements {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal achievements() {
+        internal Achievements() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace WotDossier.Resources.Strings {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WotDossier.Resources.Strings.achievements", typeof(achievements).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WotDossier.Resources.Strings.Achievements", typeof(Achievements).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -178,6 +178,25 @@ namespace WotDossier.Resources.Strings {
         public static string aimer_descr {
             get {
                 return ResourceManager.GetString("aimer_descr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Alaric.
+        /// </summary>
+        public static string alaric {
+            get {
+                return ResourceManager.GetString("alaric", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 	• Destroy at least 2 enemy vehicles and demolish at least one monument.
+        ///	• You can get the award only if your team wins the game..
+        /// </summary>
+        public static string alaric_descr {
+            get {
+                return ResourceManager.GetString("alaric_descr", resourceCulture);
             }
         }
         
@@ -810,7 +829,7 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Destroy at least two enemy vehicles that caused damage to your vehicle in the battle..
+        ///   Looks up a localized string similar to Destroy at least 2 enemy vehicles that caused damage to your vehicle in the battle..
         /// </summary>
         public static string duelist_descr {
             get {
@@ -1323,7 +1342,7 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Complete the first personal mission in any set of an operation..
+        ///   Looks up a localized string similar to Complete any mission in any set of the selected operation..
         /// </summary>
         public static string firstMerit_descr {
             get {
@@ -1586,13 +1605,29 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Destroy enemy vehicles:
-        ///&lt;FONT COLOR=&quot;#FFFFFF&quot;&gt;14&lt;/FONT&gt; and more in Standard Battle, Assault and Encounter Battle.
-        ///&lt;FONT COLOR=&quot;#FFFFFF&quot;&gt;21&lt;/FONT&gt; and more in Grand Battle..
+        ///   Looks up a localized string similar to  and more.
+        /// </summary>
+        public static string heroesOfRassenay_condition_text {
+            get {
+                return ResourceManager.GetString("heroesOfRassenay_condition_text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Destroy enemy vehicles:.
         /// </summary>
         public static string heroesOfRassenay_descr {
             get {
                 return ResourceManager.GetString("heroesOfRassenay_descr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     %(condition)s — Grand Battle..
+        /// </summary>
+        public static string heroesOfRassenay_ext_descr {
+            get {
+                return ResourceManager.GetString("heroesOfRassenay_ext_descr", resourceCulture);
             }
         }
         
@@ -1602,6 +1637,15 @@ namespace WotDossier.Resources.Strings {
         public static string heroesOfRassenay_heroInfo {
             get {
                 return ResourceManager.GetString("heroesOfRassenay_heroInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     %(condition)s — Standard Battle, Assault, Encounter..
+        /// </summary>
+        public static string heroesOfRassenay_standard_descr {
+            get {
+                return ResourceManager.GetString("heroesOfRassenay_standard_descr", resourceCulture);
             }
         }
         
@@ -2238,6 +2282,25 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Lumberjack.
+        /// </summary>
+        public static string lumberjack {
+            get {
+                return ResourceManager.GetString("lumberjack", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 	• Destroy at least 3 enemy vehicles and bring down at least 30 trees.
+        ///	• You can get the award only if your team wins the game..
+        /// </summary>
+        public static string lumberjack_descr {
+            get {
+                return ResourceManager.GetString("lumberjack_descr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to High Caliber.
         /// </summary>
         public static string mainGun {
@@ -2428,6 +2491,42 @@ namespace WotDossier.Resources.Strings {
         public static string markOfMastery {
             get {
                 return ResourceManager.GetString("markOfMastery", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mastery Badge I Class.
+        /// </summary>
+        public static string markOfMastery1 {
+            get {
+                return ResourceManager.GetString("markOfMastery1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mastery Badge II Class.
+        /// </summary>
+        public static string markOfMastery2 {
+            get {
+                return ResourceManager.GetString("markOfMastery2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mastery Badge III Class.
+        /// </summary>
+        public static string markOfMastery3 {
+            get {
+                return ResourceManager.GetString("markOfMastery3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mastery Badge: Ace Tanker.
+        /// </summary>
+        public static string markOfMastery4 {
+            get {
+                return ResourceManager.GetString("markOfMastery4", resourceCulture);
             }
         }
         
@@ -2675,6 +2774,37 @@ namespace WotDossier.Resources.Strings {
         public static string marksOnGunHeader {
             get {
                 return ResourceManager.GetString("marksOnGunHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spotter.
+        /// </summary>
+        public static string maxAimerSeries {
+            get {
+                return ResourceManager.GetString("maxAimerSeries", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to • Win the battle.
+        ///• The series is extended for every 1,000 HP of damage caused by allies to enemy vehicles spotted by you in one battle.
+        ///• Every vehicle has its own series.
+        ///• Only the longest series is counted.
+        ///• Can be obtained in Random Battles only..
+        /// </summary>
+        public static string maxAimerSeries_condition {
+            get {
+                return ResourceManager.GetString("maxAimerSeries_condition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spot enemy vehicles, enabling your allies to cause 1,000 HP of damage in one battle..
+        /// </summary>
+        public static string maxAimerSeries_descr {
+            get {
+                return ResourceManager.GetString("maxAimerSeries_descr", resourceCulture);
             }
         }
         
@@ -3574,13 +3704,20 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Destroy enemy vehicles:
-        ///&lt;FONT COLOR=&quot;#FFFFFF&quot;&gt;10–13&lt;/FONT&gt; in Standard Battle, Assault and Encounter Battle.
-        ///&lt;FONT COLOR=&quot;#FFFFFF&quot;&gt;13–20&lt;/FONT&gt; in Grand Battle..
+        ///   Looks up a localized string similar to Destroy enemy vehicles:.
         /// </summary>
         public static string medalLafayettePool_descr {
             get {
                 return ResourceManager.GetString("medalLafayettePool_descr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     %(condition)s — Grand Battle..
+        /// </summary>
+        public static string medalLafayettePool_ext_descr {
+            get {
+                return ResourceManager.GetString("medalLafayettePool_ext_descr", resourceCulture);
             }
         }
         
@@ -3590,6 +3727,15 @@ namespace WotDossier.Resources.Strings {
         public static string medalLafayettePool_heroInfo {
             get {
                 return ResourceManager.GetString("medalLafayettePool_heroInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     %(condition)s — Standard Battle, Assault, Encounter..
+        /// </summary>
+        public static string medalLafayettePool_standard_descr {
+            get {
+                return ResourceManager.GetString("medalLafayettePool_standard_descr", resourceCulture);
             }
         }
         
@@ -3928,13 +4074,20 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Destroy enemy vehicles:
-        ///&lt;FONT COLOR=&quot;#FFFFFF&quot;&gt;8–9&lt;/FONT&gt; in Standard Battle, Assault and Encounter Battle.
-        ///&lt;FONT COLOR=&quot;#FFFFFF&quot;&gt;10–12&lt;/FONT&gt; in Grand Battle..
+        ///   Looks up a localized string similar to Destroy enemy vehicles:.
         /// </summary>
         public static string medalRadleyWalters_descr {
             get {
                 return ResourceManager.GetString("medalRadleyWalters_descr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     %(condition)s — Grand Battle..
+        /// </summary>
+        public static string medalRadleyWalters_ext_descr {
+            get {
+                return ResourceManager.GetString("medalRadleyWalters_ext_descr", resourceCulture);
             }
         }
         
@@ -3944,6 +4097,15 @@ namespace WotDossier.Resources.Strings {
         public static string medalRadleyWalters_heroInfo {
             get {
                 return ResourceManager.GetString("medalRadleyWalters_heroInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     %(condition)s — Standard Battle, Assault, Encounter..
+        /// </summary>
+        public static string medalRadleyWalters_standard_descr {
+            get {
+                return ResourceManager.GetString("medalRadleyWalters_standard_descr", resourceCulture);
             }
         }
         
@@ -4914,6 +5076,36 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sole Survivors.
+        /// </summary>
+        public static string sauronEye {
+            get {
+                return ResourceManager.GetString("sauronEye", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to • All enemy vehicles must be destroyed.
+        ///• At least one vehicle on your team must survive during overtime.
+        ///• Awarded to all members of the victorious team.
+        ///• Can only be obtained in a battle of Steel Hunt in the Rampage mode..
+        /// </summary>
+        public static string sauronEye_condition {
+            get {
+                return ResourceManager.GetString("sauronEye_condition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Win the battle during overtime. Do not lose your vehicle in the Firestorm..
+        /// </summary>
+        public static string sauronEye_descr {
+            get {
+                return ResourceManager.GetString("sauronEye_descr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Scout.
         /// </summary>
         public static string scout {
@@ -5628,7 +5820,8 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Recruit five female crew members..
+        ///   Looks up a localized string similar to Recruit five female crew members.
+        ///• Female crew members received for completing Personal Missions are counted..
         /// </summary>
         public static string tankwomen_descr {
             get {
@@ -5776,13 +5969,38 @@ namespace WotDossier.Resources.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Destroy enemy vehicles:
-        ///&lt;FONT COLOR=&quot;#FFFFFF&quot;&gt;6&lt;/FONT&gt; and more in Standard Battle, Assault and Encounter Battle.
-        ///&lt;FONT COLOR=&quot;#FFFFFF&quot;&gt;8&lt;/FONT&gt; and more in Grand Battle..
+        ///   Looks up a localized string similar to  and more.
+        /// </summary>
+        public static string warrior_condition_text {
+            get {
+                return ResourceManager.GetString("warrior_condition_text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Destroy enemy vehicles:.
         /// </summary>
         public static string warrior_descr {
             get {
                 return ResourceManager.GetString("warrior_descr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     %(condition)s — Grand Battle..
+        /// </summary>
+        public static string warrior_ext_descr {
+            get {
+                return ResourceManager.GetString("warrior_ext_descr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     %(condition)s — Standard Battle, Assault, Encounter..
+        /// </summary>
+        public static string warrior_standard_descr {
+            get {
+                return ResourceManager.GetString("warrior_standard_descr", resourceCulture);
             }
         }
         

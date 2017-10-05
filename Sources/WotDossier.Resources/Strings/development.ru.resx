@@ -112,11 +112,86 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="battle/create/buttons/close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="battle/create/buttons/create" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="battle/create/labels/maxPlayers" xml:space="preserve">
+    <value>Максимальное количество игроков:</value>
+  </data>
+  <data name="battle/create/labels/roundLength" xml:space="preserve">
+    <value>Длительность боя:</value>
+  </data>
+  <data name="battle/create/labels/selectArenaType" xml:space="preserve">
+    <value>Выбор карты:</value>
+  </data>
+  <data name="battle/create/title" xml:space="preserve">
+    <value>Создание битвы (development)</value>
+  </data>
+  <data name="battle/select/buttons/create" xml:space="preserve">
+    <value>Создать бой</value>
+  </data>
+  <data name="battle/select/buttons/repeat" xml:space="preserve">
+    <value>Повтор боя</value>
+  </data>
+  <data name="battle/select/labels/description" xml:space="preserve">
+    <value>Создание и присоединение к бою. Используется для разработки.</value>
+  </data>
+  <data name="battle/select/labels/map" xml:space="preserve">
+    <value>Карта</value>
+  </data>
+  <data name="battle/select/labels/roundLength" xml:space="preserve">
+    <value>Длительность боя</value>
+  </data>
+  <data name="battle/select/labels/roundStart" xml:space="preserve">
+    <value>Время со старта боя</value>
+  </data>
+  <data name="battle/select/title" xml:space="preserve">
+    <value>Выбор битвы (development)</value>
+  </data>
+  <data name="battle/settings/buttons/exit" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="battle/settings/buttons/join" xml:space="preserve">
+    <value>Присоединиться</value>
+  </data>
+  <data name="battle/settings/labels/firstTeam" xml:space="preserve">
+    <value>первая команда</value>
+  </data>
+  <data name="battle/settings/labels/maxPlayers" xml:space="preserve">
+    <value>Максимальное количество игроков в команде: &lt;font color="#FFFFFF"&gt;%(maxPlayersLength)&lt;/font&gt;</value>
+  </data>
+  <data name="battle/settings/labels/minPlayers" xml:space="preserve">
+    <value>Минимальное количество игроков в команде: &lt;font color="#FFFFFF"&gt;%(minPlayersLength)&lt;/font&gt;</value>
+  </data>
+  <data name="battle/settings/labels/numberTeam" xml:space="preserve">
+    <value>Выбранный номер комманды: &lt;font color="#FFFFFF"&gt;%(numberTeam)&lt;/font&gt;</value>
+  </data>
+  <data name="battle/settings/labels/roundLength" xml:space="preserve">
+    <value>Длительность боя: &lt;font color="#FFFFFF"&gt;%(roundLength)&lt;/font&gt;</value>
+  </data>
+  <data name="battle/settings/labels/secondTeam" xml:space="preserve">
+    <value>вторая команда</value>
+  </data>
+  <data name="battle/settings/labels/selectNumberTeam" xml:space="preserve">
+    <value>Выбор команды:</value>
+  </data>
+  <data name="battle/settings/labels/selectVehicleInventory" xml:space="preserve">
+    <value>Выбор танка из инвентаря:</value>
+  </data>
+  <data name="battle/settings/labels/selectedVehicle" xml:space="preserve">
+    <value>Выбранный танк: &lt;font color="#FFFFFF"&gt;%(vehicleName)&lt;/font&gt;</value>
+  </data>
+  <data name="battle/settings/title" xml:space="preserve">
+    <value>Настройки битвы (development)</value>
+  </data>
   <data name="bots/buttons/add" xml:space="preserve">
     <value>Добавить</value>
   </data>
@@ -135,11 +210,14 @@
   <data name="bots/title" xml:space="preserve">
     <value>Добавление ботов</value>
   </data>
-  <data name="editor/Pause" xml:space="preserve">
-    <value>Pause - (Ctrl+P)</value>
+  <data name="formats/minutesAndSeconds" xml:space="preserve">
+    <value>%M минут %S секунд</value>
   </data>
-  <data name="editor/Resume" xml:space="preserve">
-    <value>Resume - (Ctrl+P)</value>
+  <data name="formats/minutesNumber" xml:space="preserve">
+    <value>%02d минут</value>
+  </data>
+  <data name="messages/waiting" xml:space="preserve">
+    <value>Ждите...</value>
   </data>
   <data name="editor/contextMenu/close_editor" xml:space="preserve">
     <value>Close Editor</value>
@@ -168,23 +246,23 @@
   <data name="editor/contextMenu/undo" xml:space="preserve">
     <value>Undo</value>
   </data>
-  <data name="editor/goto" xml:space="preserve">
-    <value>goto</value>
-  </data>
-  <data name="editor/search" xml:space="preserve">
-    <value>search</value>
-  </data>
   <data name="messenger/contacts/addGroup/body" xml:space="preserve">
     <value>Нажмите, чтобы создать группу в списке контактов.</value>
   </data>
   <data name="messenger/contacts/addGroup/header" xml:space="preserve">
     <value>Создание группы</value>
   </data>
+  <data name="messenger/contacts/buttons/externalSearch" xml:space="preserve">
+    <value>Найти вне контактов</value>
+  </data>
   <data name="messenger/contacts/externalSearch/body" xml:space="preserve">
     <value>Нажмите, чтобы запустить поиск игрока по всему региону.</value>
   </data>
   <data name="messenger/contacts/externalSearch/header" xml:space="preserve">
     <value>Найти вне контактов</value>
+  </data>
+  <data name="messenger/contacts/list/searchInputPrompt" xml:space="preserve">
+    <value>Найти игрока</value>
   </data>
   <data name="messenger/contacts/searchContact/body" xml:space="preserve">
     <value>Нажмите, чтобы найти и добавить игрока в список контактов.</value>
@@ -198,6 +276,126 @@
   <data name="messenger/contacts/settings/header" xml:space="preserve">
     <value>Настройка</value>
   </data>
+  <data name="messenger/contacts/title" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="messenger/contacts/buttons/externalSearchCancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="messenger/contacts/contextmenu/editGroup" xml:space="preserve">
+    <value>Редактировать группу</value>
+  </data>
+  <data name="messenger/contacts/contextmenu/removeGroup" xml:space="preserve">
+    <value>Удалить группу</value>
+  </data>
+  <data name="messenger/contacts/dropContactPrompt" xml:space="preserve">
+    <value>Перетащите контакты сюда</value>
+  </data>
+  <data name="messenger/contacts/mainGrops/Formations" xml:space="preserve">
+    <value>Формирования</value>
+  </data>
+  <data name="messenger/contacts/mainGrops/Friends" xml:space="preserve">
+    <value>Друзья</value>
+  </data>
+  <data name="messenger/contacts/mainGrops/Other" xml:space="preserve">
+    <value>Прочее</value>
+  </data>
+  <data name="messenger/contacts/searchInputPrompt" xml:space="preserve">
+    <value>Найти игрока</value>
+  </data>
+  <data name="messenger/contacts/view/addUser/btnCancel/Label" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="messenger/contacts/view/addUser/btnOk/Label" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="messenger/contacts/view/addUser/error/groupAlreadyExist" xml:space="preserve">
+    <value>Такая группа уже существует</value>
+  </data>
+  <data name="messenger/contacts/view/addUser/title" xml:space="preserve">
+    <value>Добавление контакта</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createGroup/btnCancel/Label" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createGroup/btnOk/Label" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createGroup/mainLabel" xml:space="preserve">
+    <value>Создать группу</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createGroup/searchInputPrompt" xml:space="preserve">
+    <value>Введите название (до %(symbols)s символов)</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createNote/btnCancel/Label" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createNote/btnOk/Label" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createNote/mainLabel" xml:space="preserve">
+    <value>Создание заметки</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label" xml:space="preserve">
+    <value>Включая контакты этой группы</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/groupName/Label" xml:space="preserve">
+    <value>«%(groupName)s»</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/mainLabel" xml:space="preserve">
+    <value>Удаление группы</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/editNote/btnCancel/Label" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/editNote/btnOk/Label" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/editNote/mainLabel" xml:space="preserve">
+    <value>Редактирование заметки</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/renameGroup/btnOk/Label" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/renameGroup/mainLabel" xml:space="preserve">
+    <value>Редактировать группу</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt" xml:space="preserve">
+    <value>Введите название (до %(symbols)s символов)</value>
+  </data>
+  <data name="messenger/contacts/view/settings/GroupMessages/Label" xml:space="preserve">
+    <value>Группировать сообщения не из списка контактов в отдельное окно</value>
+  </data>
+  <data name="messenger/contacts/view/settings/IsShowOfflineUsers/Label" xml:space="preserve">
+    <value>Показывать пользователей не в сети</value>
+  </data>
+  <data name="messenger/contacts/view/settings/IsShowOthers/Label" xml:space="preserve">
+    <value>Показывать прочие контакты</value>
+  </data>
+  <data name="messenger/contacts/view/settings/Label" xml:space="preserve">
+    <value>Cообщения не из списка контактов:</value>
+  </data>
+  <data name="messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label" xml:space="preserve">
+    <value>Принимать личные сообщения только от списка контактов</value>
+  </data>
+  <data name="messenger/contacts/view/settings/btnCancel/Label" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="messenger/contacts/view/settings/btnOk/Label" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="messenger/contacts/view/settings/mainLabel" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
   <data name="messenger/contacts/settings/view/applyBtn/body" xml:space="preserve">
     <value>Нажмите, чтобы сохранить установленные настройки.</value>
   </data>
@@ -209,5 +407,17 @@
   </data>
   <data name="messenger/contacts/settings/view/cancelBtn/header" xml:space="preserve">
     <value>Отменить</value>
+  </data>
+  <data name="editor/Pause" xml:space="preserve">
+    <value>Pause - (Ctrl+P)</value>
+  </data>
+  <data name="editor/Resume" xml:space="preserve">
+    <value>Resume - (Ctrl+P)</value>
+  </data>
+  <data name="editor/goto" xml:space="preserve">
+    <value>goto</value>
+  </data>
+  <data name="editor/search" xml:space="preserve">
+    <value>search</value>
   </data>
 </root>

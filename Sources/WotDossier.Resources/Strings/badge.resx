@@ -112,13 +112,13 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="accountPopover/badge/tooltip/body" xml:space="preserve">
-    <value>Click to select a badge that will be displayed next to your nickname in battle. Badges show your achievements in Ranked Battles to players from both teams.</value>
+    <value>Click to select a badge that will be displayed next to your nickname in battle. You can earn badges in Ranked Battles and completing Personal Missions.</value>
   </data>
   <data name="accountPopover/badge/tooltip/header" xml:space="preserve">
     <value>?empty?</value>
@@ -184,7 +184,7 @@
     <value>Reach League III in Season 2 of the Ranked Battle mode.</value>
   </data>
   <data name="badge_note" xml:space="preserve">
-    <value>Badges show your achievements in Ranked Battles to players from both teams.</value>
+    <value>Badges show your achievements in the game to players from both teams.</value>
   </data>
   <data name="badgesPage/body/uncollected/title" xml:space="preserve">
     <value>Missing Badges</value>
@@ -193,7 +193,7 @@
     <value>Update</value>
   </data>
   <data name="badgesPage/dummy/descr" xml:space="preserve">
-    <value>We are sorry for the temporary inconvenience.</value>
+    <value>We are sorry for temporary inconvenience.</value>
   </data>
   <data name="badgesPage/dummy/title" xml:space="preserve">
     <value>Error Loading Data</value>
@@ -206,5 +206,134 @@
   </data>
   <data name="titleText" xml:space="preserve">
     <value>Badges</value>
+  </data>
+  <data name="badge_10" xml:space="preserve">
+    <value>StuG IV Badge II Class</value>
+  </data>
+  <data name="badge_10_descr" xml:space="preserve">
+    <value>Can be received for completing enough missions to earn the StuG IV tank destroyer.</value>
+  </data>
+  <data name="badge_10_short" xml:space="preserve">
+    <value>StuG IV, II Class</value>
+  </data>
+  <data name="badge_11" xml:space="preserve">
+    <value>StuG IV Badge I Class</value>
+  </data>
+  <data name="badge_11_descr" xml:space="preserve">
+    <value>Can be received for completing all missions in operation StuG IV with honors.</value>
+  </data>
+  <data name="badge_11_short" xml:space="preserve">
+    <value>StuG IV, I Class</value>
+  </data>
+  <data name="badge_12" xml:space="preserve">
+    <value>T28 HTC Badge II Class</value>
+  </data>
+  <data name="badge_12_descr" xml:space="preserve">
+    <value>Can be received for completing enough missions to earn the T28 HTC tank destroyer.</value>
+  </data>
+  <data name="badge_12_short" xml:space="preserve">
+    <value>T28 HTC, II Class</value>
+  </data>
+  <data name="badge_13" xml:space="preserve">
+    <value>T28 HTC Badge I Class</value>
+  </data>
+  <data name="badge_13_descr" xml:space="preserve">
+    <value>Can be received for completing all missions in operation T28 Heavy Tank Concept with honors.</value>
+  </data>
+  <data name="badge_13_short" xml:space="preserve">
+    <value>T28 HTC, I Class</value>
+  </data>
+  <data name="badge_14" xml:space="preserve">
+    <value>T 55A Badge II Class</value>
+  </data>
+  <data name="badge_14_descr" xml:space="preserve">
+    <value>Can be received for completing enough missions to earn the T 55A medium tank.</value>
+  </data>
+  <data name="badge_14_short" xml:space="preserve">
+    <value>T 55A, II Class</value>
+  </data>
+  <data name="badge_15" xml:space="preserve">
+    <value>T 55A Badge I Class</value>
+  </data>
+  <data name="badge_15_descr" xml:space="preserve">
+    <value>Can be received for completing all missions in operation T 55A with honors.</value>
+  </data>
+  <data name="badge_15_short" xml:space="preserve">
+    <value>T 55 A, I Class</value>
+  </data>
+  <data name="badge_16" xml:space="preserve">
+    <value>Object 260 Badge II Class</value>
+  </data>
+  <data name="badge_16_descr" xml:space="preserve">
+    <value>Can be received for completing enough missions to earn the Object 260 heavy tank.</value>
+  </data>
+  <data name="badge_16_short" xml:space="preserve">
+    <value>Object 260, II Class</value>
+  </data>
+  <data name="badge_17" xml:space="preserve">
+    <value>Object 260 Badge I Class</value>
+  </data>
+  <data name="badge_17_descr" xml:space="preserve">
+    <value>Can be received for completing all missions in operation Object 260 with honors.</value>
+  </data>
+  <data name="badge_17_short" xml:space="preserve">
+    <value>Object 260, I Class</value>
+  </data>
+  <data name="badge_18" xml:space="preserve">
+    <value>Campaign I Champion</value>
+  </data>
+  <data name="badge_18_descr" xml:space="preserve">
+    <value>Can be received for completing all personal missions in Campaign I with honors.</value>
+  </data>
+  <data name="badge_19" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_19_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_20" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_20_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_21" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_21_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_22" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_22_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_23" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_23_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_24" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_24_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_25" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_25_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_26" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_26_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badgesPage/header/descr" xml:space="preserve">
+    <value>Badges show your achievements in the game to players from both teams.</value>
   </data>
 </root>

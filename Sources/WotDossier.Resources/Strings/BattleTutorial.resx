@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bot_1" xml:space="preserve">
+    <value>Enemy</value>
+  </data>
+  <data name="bot_2" xml:space="preserve">
+    <value>Enemy</value>
+  </data>
+  <data name="bot_3" xml:space="preserve">
+    <value>Enemy</value>
+  </data>
+  <data name="buttons/cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="buttons/exit-queue" xml:space="preserve">
+    <value>Leave the Queue</value>
+  </data>
+  <data name="buttons/start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="chapters/destroy-bot-1/description" xml:space="preserve">
+    <value> Firing, Destroying Enemies</value>
+  </data>
+  <data name="chapters/destroy-bot-1/title" xml:space="preserve">
+    <value>2.</value>
+  </data>
+  <data name="chapters/destroy-bot-2/description" xml:space="preserve">
+    <value> Penetration Zones</value>
+  </data>
+  <data name="chapters/destroy-bot-2/title" xml:space="preserve">
+    <value>3.</value>
+  </data>
+  <data name="chapters/destroy-bot-3/description" xml:space="preserve">
+    <value> View Range. Leading Targets</value>
+  </data>
+  <data name="chapters/destroy-bot-3/title" xml:space="preserve">
+    <value>4.</value>
+  </data>
+  <data name="chapters/greeting/description" xml:space="preserve">
+    <value>Here you will learn to control your tank and destroy enemy vehicles</value>
+  </data>
+  <data name="chapters/greeting/title" xml:space="preserve">
+    <value>Welcome to battle training!</value>
+  </data>
+  <data name="chapters/offbattle/description" xml:space="preserve">
+    <value>Learn to control your tank and destroy enemy vehicles.</value>
+  </data>
+  <data name="chapters/offbattle/title" xml:space="preserve">
+    <value>Battle Training</value>
+  </data>
+  <data name="chapters/vehicle-control/description" xml:space="preserve">
+    <value> Vehicle Control Basics</value>
+  </data>
+  <data name="chapters/vehicle-control/title" xml:space="preserve">
+    <value>1.</value>
+  </data>
+  <data name="dialogs/greeting/notes/time" xml:space="preserve">
+    <value>Approximate completion time:</value>
+  </data>
+  <data name="dialogs/greeting/restart-hint/text" xml:space="preserve">
+    <value>You can resume training from the Battle Modes menu
+(to the right of the Battle button).</value>
+  </data>
+  <data name="dialogs/greeting/text/side-01" xml:space="preserve">
+    <value>Greetings!</value>
+  </data>
+  <data name="dialogs/greeting/text/side-02" xml:space="preserve">
+    <value>Mission:</value>
+  </data>
+  <data name="dialogs/greeting/text/side-03" xml:space="preserve">
+    <value>сomplete the battle tutorial to learn basic battle skills.</value>
+  </data>
+  <data name="dialogs/greeting/title" xml:space="preserve">
+    <value>Battle Training</value>
+  </data>
+  <data name="dialogs/queue/server-overloaded/text" xml:space="preserve">
+    <value>Sorry, server is busy.</value>
+  </data>
+  <data name="dialogs/queue/title" xml:space="preserve">
+    <value>Battle Tutorial Queue</value>
+  </data>
+  <data name="dialogs/queue/wait/text" xml:space="preserve">
+    <value>Tutorial will start automatically...</value>
+  </data>
+  <data name="dialogs/replenish-ammo/submit" xml:space="preserve">
+    <value>Resupply</value>
+  </data>
+  <data name="dialogs/replenish-ammo/text" xml:space="preserve">
+    <value>You can resupply ammunition in this tutorial, but you will not be able to do that in a real battle. Don't forget to resupply ammunition before you enter battle.</value>
+  </data>
+  <data name="dialogs/replenish-ammo/title" xml:space="preserve">
+    <value>No shells in the ammo</value>
+  </data>
+  <data name="dispatcher/statuses/refuse" xml:space="preserve">
+    <value>Quit
+battle tutorial</value>
+  </data>
+  <data name="dispatcher/statuses/restart" xml:space="preserve">
+    <value>Battle
+Tutorial</value>
+  </data>
+  <data name="gui/progress-bar/title" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="hints/aim-at-bot-1/text" xml:space="preserve">
+    <value>When you aim directly at the enemy vehicle, it is outlined in red.</value>
+  </data>
+  <data name="hints/auto-aim-at-bot-2/text" xml:space="preserve">
+    <value>To avoid being an easy target, in a real battle you will have to keep moving.
+
+Enable Auto-Aim for easier aiming on the move.
+
+
+&lt;font color='#FFA759'&gt;&lt;b&gt;Right-click&lt;/b&gt;&lt;/font&gt; (aiming at the enemy) — enable Auto-Aim.</value>
+  </data>
+  <data name="hints/camera-control/text" xml:space="preserve">
+    <value>Move the mouse left and right. The turret follows the camera as you move it.</value>
+  </data>
+  <data name="hints/destroy-bot-1-done/text" xml:space="preserve">
+    <value>Congratulations, you have destroyed your first enemy!</value>
+  </data>
+  <data name="hints/destroy-bot-1/text" xml:space="preserve">
+    <value>For better accuracy, wait for the aiming circle to shrink.
+
+Wait for the gun to reload before firing again.
+
+
+&lt;font color='#FFA759'&gt;&lt;b&gt;Left-click&lt;/b&gt;&lt;/font&gt; — fire.</value>
+  </data>
+  <data name="hints/destroy-bot-2-done/text" xml:space="preserve">
+    <value>Good job! You have destroyed a heavily armored enemy vehicle.</value>
+  </data>
+  <data name="hints/destroy-bot-2/text" xml:space="preserve">
+    <value>You do not need to take aim now. Auto-Aim will do the job for you.</value>
+  </data>
+  <data name="hints/destroy-bot-3-done/text" xml:space="preserve">
+    <value>Congratulations, your have learned to conceal your position and fire at long-range targets.
+
+Training completed successfully!</value>
+  </data>
+  <data name="hints/destroy-bot-3/text" xml:space="preserve">
+    <value>To hit a moving target at long range, aim at the front or ahead of the enemy tank.</value>
+  </data>
+  <data name="hints/disable-auto-aim/text" xml:space="preserve">
+    <value>Auto-Aim is not effective at hitting moving targets at long range. Turn it off.
+
+
+&lt;font color='#FFA759'&gt;&lt;b&gt;Right click&lt;/b&gt;&lt;/font&gt; (not aiming at the enemy) — disable Auto-Aim.</value>
+  </data>
+  <data name="hints/move-to-point-4/text" xml:space="preserve">
+    <value>Position is marked on the minimap in the bottom right corner of the screen.
+
+When crossing the swamp, note that difficult terrain reduces vehicle speed and maneuverability.</value>
+  </data>
+  <data name="hints/move-to-point-5/text" xml:space="preserve">
+    <value>Position is marked on the minimap in the bottom right corner of the screen.</value>
+  </data>
+  <data name="hints/move-to-point-6/text" xml:space="preserve">
+    <value>It is always harder to penetrate frontal armor.</value>
+  </data>
+  <data name="hints/move-to-point-8/text" xml:space="preserve">
+    <value>Find and destroy the last enemy tank. You can only detect enemy vehicles within your view range.</value>
+  </data>
+  <data name="hints/move-to-point-9/text" xml:space="preserve">
+    <value>Use bushes and foliage to make your tank harder to detect. Note that stationary vehicles are less visible.</value>
+  </data>
+  <data name="hints/shot-damage/text" xml:space="preserve">
+    <value>Aim at the sides and rear—these are the weaker parts of any vehicle.</value>
+  </data>
+  <data name="hints/shot-no-damage/text" xml:space="preserve">
+    <value>Hitting an enemy vehicle does not necessarily cause damage. The shell can ricochet or fail to penetrate the enemy's armor.</value>
+  </data>
+  <data name="hints/switch-to-spiner-mode/text" xml:space="preserve">
+    <value>Use Sniper mode to aim at long-range targets.
+
+
+&lt;font color='#FFA759'&gt;&lt;b&gt;Shift&lt;/b&gt;&lt;/font&gt; or &lt;font color='#FFA759'&gt;&lt;b&gt;Mouse Wheel&lt;/b&gt;&lt;/font&gt; — toggle Sniper Mode.</value>
+  </data>
+  <data name="hints/try-to-destroy-bot-2/text" xml:space="preserve">
+    <value>Before you fire, wait for the aiming circle to snap onto the target.</value>
+  </data>
+  <data name="hints/vehicle-control-done/text" xml:space="preserve">
+    <value>Congratulations, you have learned to control your tank!</value>
+  </data>
+  <data name="hints/vehicle-movement/text" xml:space="preserve">
+    <value>Movement controls:
+&lt;font color='#FFA759'&gt;&lt;b&gt;W&lt;/b&gt;&lt;/font&gt; — Forward 
+&lt;font color='#FFA759'&gt;&lt;b&gt;A&lt;/b&gt;&lt;/font&gt; — Left 
+&lt;font color='#FFA759'&gt;&lt;b&gt;S&lt;/b&gt;&lt;/font&gt; — Backward 
+&lt;font color='#FFA759'&gt;&lt;b&gt;D&lt;/b&gt;&lt;/font&gt; — Right</value>
+  </data>
+  <data name="hints/vehicle-on-soft-terrain/text" xml:space="preserve">
+    <value>You are crossing difficult terrain. It reduces vehicle speed and maneuverability.</value>
+  </data>
+  <data name="labels/avg-waiting-time" xml:space="preserve">
+    <value>(Average time in a queue: {0:&gt;s})</value>
+  </data>
+  <data name="labels/bonuses-receive-once" xml:space="preserve">
+    <value>You have already received a reward</value>
+  </data>
+  <data name="labels/credits" xml:space="preserve">
+    <value>credits</value>
+  </data>
+  <data name="labels/finish-reason/extermination" xml:space="preserve">
+    <value>Vehicle Destroyed</value>
+  </data>
+  <data name="labels/finish-reason/failed" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="labels/finish-reason/finished" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="labels/finish-reason/timeout" xml:space="preserve">
+    <value>Your time is up</value>
+  </data>
+  <data name="labels/free-xp" xml:space="preserve">
+    <value>XP</value>
+  </data>
+  <data name="labels/less_n_minutes" xml:space="preserve">
+    <value>less than %(minutes)s min</value>
+  </data>
+  <data name="labels/minutes" xml:space="preserve">
+    <value>%(units)s min</value>
+  </data>
+  <data name="labels/not-available" xml:space="preserve">
+    <value>not defined</value>
+  </data>
+  <data name="labels/player-waiting-time" xml:space="preserve">
+    <value>In queue:</value>
+  </data>
+  <data name="labels/training-result/failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="labels/training-result/finished" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="labels/tutorial-bonuses" xml:space="preserve">
+    <value>Reward
+for Completion</value>
+  </data>
+  <data name="labels/tutorial-no-bonuses" xml:space="preserve">
+    <value>No reward</value>
+  </data>
+  <data name="loading/hint/text" xml:space="preserve">
+    <value>Follow the instructions to successfully complete the tutorial.</value>
+  </data>
+  <data name="loading/hint/title" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="tasks-anim/done" xml:space="preserve">
+    <value>Completed!</value>
+  </data>
+  <data name="tasks-panel/aim-at-bot-1/text" xml:space="preserve">
+    <value>Use the mouse to aim your gun at the enemy</value>
+  </data>
+  <data name="tasks-panel/auto-aim-at-bot-2/text" xml:space="preserve">
+    <value>Enable Auto-Aim</value>
+  </data>
+  <data name="tasks-panel/destroy-bot-1/text" xml:space="preserve">
+    <value>Destroy the enemy vehicle</value>
+  </data>
+  <data name="tasks-panel/destroy-bot-2/text" xml:space="preserve">
+    <value>Destroy the enemy vehicle on the move</value>
+  </data>
+  <data name="tasks-panel/destroy-bot-3/text" xml:space="preserve">
+    <value>Destroy the enemy vehicle</value>
+  </data>
+  <data name="tasks-panel/disable-auto-aim/text" xml:space="preserve">
+    <value>Disable Auto-Aim</value>
+  </data>
+  <data name="tasks-panel/focus-on-object-1/text" xml:space="preserve">
+    <value>Point the camera at the military vehicle next to your tank</value>
+  </data>
+  <data name="tasks-panel/focus-on-object-2/text" xml:space="preserve">
+    <value>Point the camera at the ambulance next to your tank</value>
+  </data>
+  <data name="tasks-panel/move-to-point-2/text" xml:space="preserve">
+    <value>Move to the designated location</value>
+  </data>
+  <data name="tasks-panel/move-to-point-3/text" xml:space="preserve">
+    <value>Move along the road. Take care not to damage buildings or vehicles</value>
+  </data>
+  <data name="tasks-panel/move-to-point-4/text" xml:space="preserve">
+    <value>Move to the firing position</value>
+  </data>
+  <data name="tasks-panel/move-to-point-5/text" xml:space="preserve">
+    <value>Move to the firing position</value>
+  </data>
+  <data name="tasks-panel/move-to-point-6/text" xml:space="preserve">
+    <value>Move to a better firing position</value>
+  </data>
+  <data name="tasks-panel/move-to-point-8/text" xml:space="preserve">
+    <value>Move to the marked position and detect the enemy</value>
+  </data>
+  <data name="tasks-panel/move-to-point-9/text" xml:space="preserve">
+    <value>Hide in the bushes to conceal your position</value>
+  </data>
+  <data name="tasks-panel/return-to-point-1/text" xml:space="preserve">
+    <value>Return to your initial position</value>
+  </data>
+  <data name="tasks-panel/shot-damage/text" xml:space="preserve">
+    <value>Destroy the enemy vehicle</value>
+  </data>
+  <data name="tasks-panel/switch-to-spiner-mode/text" xml:space="preserve">
+    <value>Enable the Sniper Mode</value>
+  </data>
+  <data name="tasks-panel/try-to-destroy-bot-2/text" xml:space="preserve">
+    <value>Destroy the enemy vehicle</value>
+  </data>
+  <data name="windows/result/buttons/restart" xml:space="preserve">
+    <value>Replay tutorial</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/first" xml:space="preserve">
+    <value>Watch the video tutorial to improve your battle performance</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/second" xml:space="preserve">
+    <value>Press &lt;font color='#FFA759'&gt;&lt;b&gt;F1&lt;/b&gt;&lt;/font&gt; to access in-game help anytime during the battle</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/third" xml:space="preserve">
+    <value>Press &lt;font color='#FFA759'&gt;&lt;b&gt;Esc &gt; Back to Garage&lt;/b&gt;&lt;/font&gt; to return to the Garage if your vehicle is destroyed. You receive credits and experience when the battle is over.</value>
+  </data>
+  <data name="windows/result/labels/restart-hint" xml:space="preserve">
+    <value>Replay the tutorial to accomplish remaining tasks</value>
+  </data>
+  <data name="windows/result/table/column-1" xml:space="preserve">
+    <value>Tips</value>
+  </data>
+  <data name="windows/result/table/column-2" xml:space="preserve">
+    <value>Missions completed</value>
+  </data>
+  <data name="windows/result/title" xml:space="preserve">
+    <value>Training results</value>
+  </data>
+  <data name="buttons/watch" xml:space="preserve">
+    <value>Play Video</value>
+  </data>
+  <data name="labels/bonuses-already-received" xml:space="preserve">
+    <value>You have already received a reward</value>
+  </data>
+  <data name="labels/more_n_minutes" xml:space="preserve">
+    <value>more than %(minutes)s min</value>
+  </data>
+  <data name="labels/results-are-not-available" xml:space="preserve">
+    <value>Sorry, detailed results unavailable.</value>
+  </data>
+  <data name="buttons/no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="buttons/yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="dialogs/confirmRefuse/checkbox/label" xml:space="preserve">
+    <value>Offer training upon next game launch</value>
+  </data>
+  <data name="dialogs/confirmRefuse/message/text" xml:space="preserve">
+    <value>Are you sure you want to decline training?</value>
+  </data>
+  <data name="dialogs/confirmRefuse/title" xml:space="preserve">
+    <value>Decline Training</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/second1" xml:space="preserve">
+    <value>Press</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/second2" xml:space="preserve">
+    <value>F1</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/second3" xml:space="preserve">
+    <value>to access in-game help at any time during the battle.</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/third1" xml:space="preserve">
+    <value>Press</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/third2" xml:space="preserve">
+    <value>Esc &gt; Back to Garage</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/third3" xml:space="preserve">
+    <value> to return to the Garage if your vehicle is destroyed. You will receive credits and experience when the battle is over.</value>
+  </data>
+</root>

@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="common/congratulation" xml:space="preserve">
+    <value>Congratulations! You completed the mission and receive the following rewards</value>
+  </data>
+  <data name="common/requirements" xml:space="preserve">
+    <value>Available for completion in Tier IV vehicles or higher.</value>
+  </data>
+  <data name="g1/advice" xml:space="preserve">
+    <value>You can win the battle by destroying all enemy vehicles or capturing the enemy base. Be careful and do not rush ahead. Collaboration with your allies is key to avoiding destruction.</value>
+  </data>
+  <data name="g1/description" xml:space="preserve">
+    <value>Fulfilling the condition for 3 battles in a row is optional.</value>
+  </data>
+  <data name="g1/name" xml:space="preserve">
+    <value>Days of War</value>
+  </data>
+  <data name="g10/advice" xml:space="preserve">
+    <value>You can inflict huge damage regardless of your vehicle type. Choose targets that you can hit without fail, try to survive for as long as possible, and you will be pleasantly surprised by the "Damage caused" line on the Battle Results screen.</value>
+  </data>
+  <data name="g10/description" xml:space="preserve">
+    <value>Fulfilling the condition for 2 battles in a row is optional.</value>
+  </data>
+  <data name="g10/name" xml:space="preserve">
+    <value>Role Model: Damage</value>
+  </data>
+  <data name="g2/advice" xml:space="preserve">
+    <value>Heavy tanks have powerful guns and sturdy frontal armor that is hard to penetrate. However, this advantage is balanced by their poor maneuverability, which makes it easy to flank them and hit weak spots in the sides and rear.</value>
+  </data>
+  <data name="g2/description" xml:space="preserve">
+    <value>Results achieved in all battles in any vehicle are added together.</value>
+  </data>
+  <data name="g2/name" xml:space="preserve">
+    <value>Bull's Eye: Heavy Tanks</value>
+  </data>
+  <data name="g3/advice" xml:space="preserve">
+    <value>Medium tanks are versatile units that pursue a wide range of objectives on any battlefield—from covering main strike forces to performing flank attacks. Do not let them outflank you and destroy them while they are approaching.</value>
+  </data>
+  <data name="g3/description" xml:space="preserve">
+    <value>Results achieved in all battles in any vehicle are added together.</value>
+  </data>
+  <data name="g3/name" xml:space="preserve">
+    <value>Bull's Eye: Medium Tanks</value>
+  </data>
+  <data name="g4/advice" xml:space="preserve">
+    <value>Light tanks have weak armor and guns, but they compensate for this with excellent speed and concealment. The primary tasks for light tanks are spotting and distracting enemy vehicles.</value>
+  </data>
+  <data name="g4/description" xml:space="preserve">
+    <value>Results achieved in all battles in any vehicle are added together.</value>
+  </data>
+  <data name="g4/name" xml:space="preserve">
+    <value>Bull's Eye: Light Tanks</value>
+  </data>
+  <data name="g5/advice" xml:space="preserve">
+    <value>Tank destroyers are formidable opponents with heavy armament and excellent concealment, but—in most cases—mediocre maneuverability. Try to spot and destroy them as soon as possible.</value>
+  </data>
+  <data name="g5/description" xml:space="preserve">
+    <value>Results achieved in all battles in any vehicle are added together.</value>
+  </data>
+  <data name="g5/name" xml:space="preserve">
+    <value>Bull's Eye: Tank Destroyers</value>
+  </data>
+  <data name="g6/advice" xml:space="preserve">
+    <value>The fewer enemy vehicles left, the closer the victory. Act wisely, try to survive, and deal as much damage as possible. Use terrain to fire without exposing yourself.</value>
+  </data>
+  <data name="g6/description" xml:space="preserve">
+    <value>Results achieved in all battles in any vehicle are added together.</value>
+  </data>
+  <data name="g6/name" xml:space="preserve">
+    <value>Building a Collection</value>
+  </data>
+  <data name="g7/advice" xml:space="preserve">
+    <value>Every vehicle has internal and external modules and crew. Critical hits on them substantially reduce the battle performance of the enemy. Study vehicles' weak spots to be more effective in causing critical damage to enemy vehicles and hiding vulnerable points of your own vehicle.</value>
+  </data>
+  <data name="g7/description" xml:space="preserve">
+    <value>Results achieved in all battles in any vehicle are added together.</value>
+  </data>
+  <data name="g7/name" xml:space="preserve">
+    <value>Piercing Shots</value>
+  </data>
+  <data name="g8/advice" xml:space="preserve">
+    <value>One way to win a battle is to capture the enemy base. When enemy tanks are focused on fierce fighting, you can slip past them unnoticed and take the base. Remember that the more vehicles holding position within the base circle, the faster the capture. The maximum capture speed is achieved with 3 vehicles in the base circle.</value>
+  </data>
+  <data name="g8/name" xml:space="preserve">
+    <value>Backup Plan</value>
+  </data>
+  <data name="g9/advice" xml:space="preserve">
+    <value>You earn experience for spotting, causing damage and destroying enemy vehicles, capturing the enemy base, defending your base, and winning the battle.</value>
+  </data>
+  <data name="g9/description" xml:space="preserve">
+    <value>Fulfilling the condition for 2 battles in a row is optional.</value>
+  </data>
+  <data name="g9/name" xml:space="preserve">
+    <value>Role Model: Experience</value>
+  </data>
+  <data name="group" xml:space="preserve">
+    <value>Recruit Training</value>
+  </data>
+</root>

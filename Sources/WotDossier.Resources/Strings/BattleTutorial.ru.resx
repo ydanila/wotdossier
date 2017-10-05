@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bot_1" xml:space="preserve">
+    <value>Противник</value>
+  </data>
+  <data name="bot_2" xml:space="preserve">
+    <value>Противник</value>
+  </data>
+  <data name="bot_3" xml:space="preserve">
+    <value>Противник</value>
+  </data>
+  <data name="buttons/cancel" xml:space="preserve">
+    <value>Отказаться</value>
+  </data>
+  <data name="buttons/exit-queue" xml:space="preserve">
+    <value>Покинуть очередь</value>
+  </data>
+  <data name="buttons/start" xml:space="preserve">
+    <value>Начать</value>
+  </data>
+  <data name="chapters/destroy-bot-1/description" xml:space="preserve">
+    <value> Стрельба, уничтожение противника</value>
+  </data>
+  <data name="chapters/destroy-bot-1/title" xml:space="preserve">
+    <value>2.</value>
+  </data>
+  <data name="chapters/destroy-bot-2/description" xml:space="preserve">
+    <value> Зоны пробития</value>
+  </data>
+  <data name="chapters/destroy-bot-2/title" xml:space="preserve">
+    <value>3.</value>
+  </data>
+  <data name="chapters/destroy-bot-3/description" xml:space="preserve">
+    <value> Радиус обзора. Стрельба с упреждением</value>
+  </data>
+  <data name="chapters/destroy-bot-3/title" xml:space="preserve">
+    <value>4.</value>
+  </data>
+  <data name="chapters/greeting/description" xml:space="preserve">
+    <value>Здесь вы научитесь управлять танком и уничтожать технику противника</value>
+  </data>
+  <data name="chapters/greeting/title" xml:space="preserve">
+    <value>Добро пожаловать в боевое обучение!</value>
+  </data>
+  <data name="chapters/offbattle/description" xml:space="preserve">
+    <value>Здесь вы научитесь управлять танком и уничтожать технику
+противника.</value>
+  </data>
+  <data name="chapters/offbattle/title" xml:space="preserve">
+    <value>Боевое обучение</value>
+  </data>
+  <data name="chapters/vehicle-control/description" xml:space="preserve">
+    <value> Основы управления танком</value>
+  </data>
+  <data name="chapters/vehicle-control/title" xml:space="preserve">
+    <value>1.</value>
+  </data>
+  <data name="dialogs/greeting/notes/time" xml:space="preserve">
+    <value>Ориентировочное время прохождения:</value>
+  </data>
+  <data name="dialogs/greeting/restart-hint/text" xml:space="preserve">
+    <value>Возобновить обучение можно из меню выбора
+режима боя (справа от кнопки «В бой!»).</value>
+  </data>
+  <data name="dialogs/greeting/text/side-01" xml:space="preserve">
+    <value>Добро пожаловать в боевое обучение!</value>
+  </data>
+  <data name="dialogs/greeting/text/side-02" xml:space="preserve">
+    <value>Задание:</value>
+  </data>
+  <data name="dialogs/greeting/text/side-03" xml:space="preserve">
+    <value>пройдите боевое обучение, чтобы изучить базовые навыки ведения боя.</value>
+  </data>
+  <data name="dialogs/greeting/title" xml:space="preserve">
+    <value>Боевое обучение</value>
+  </data>
+  <data name="dialogs/queue/server-overloaded/text" xml:space="preserve">
+    <value>Извините, сервер перегружен.</value>
+  </data>
+  <data name="dialogs/queue/title" xml:space="preserve">
+    <value>Очередь на прохождение обучения</value>
+  </data>
+  <data name="dialogs/queue/wait/text" xml:space="preserve">
+    <value>Обучение начнётся автоматически...</value>
+  </data>
+  <data name="dialogs/replenish-ammo/submit" xml:space="preserve">
+    <value>Пополнить</value>
+  </data>
+  <data name="dialogs/replenish-ammo/text" xml:space="preserve">
+    <value>У вас закончились снаряды. Будьте внимательны, в обучении вы можете пополнить боекомплект, но в настоящем бою сделать это будет невозможно. Не забывайте пополнять боекомплект перед выходом в бой.</value>
+  </data>
+  <data name="dialogs/replenish-ammo/title" xml:space="preserve">
+    <value>Боекомплект пуст</value>
+  </data>
+  <data name="dispatcher/statuses/refuse" xml:space="preserve">
+    <value>Прервать
+боевое обучение</value>
+  </data>
+  <data name="dispatcher/statuses/restart" xml:space="preserve">
+    <value>Боевое
+обучение</value>
+  </data>
+  <data name="gui/progress-bar/title" xml:space="preserve">
+    <value>Прогресс</value>
+  </data>
+  <data name="hints/aim-at-bot-1/text" xml:space="preserve">
+    <value>Когда противник окажется в прицеле, контур его танка станет красным.</value>
+  </data>
+  <data name="hints/auto-aim-at-bot-2/text" xml:space="preserve">
+    <value>В реальном бою вам придётся постоянно двигаться, иначе вы станете лёгкой мишенью.
+
+Автоприцел поможет вам целиться на ходу.
+
+
+&lt;font color='#FFA759'&gt;&lt;b&gt;Правая кнопка мыши&lt;/b&gt;&lt;/font&gt; (орудие наведено на противника) — включить автоприцел.</value>
+  </data>
+  <data name="hints/camera-control/text" xml:space="preserve">
+    <value>Двигайте мышь влево или вправо. Башня танка поворачивается вслед за камерой.</value>
+  </data>
+  <data name="hints/destroy-bot-1-done/text" xml:space="preserve">
+    <value>Поздравляем, вы уничтожили первого противника!</value>
+  </data>
+  <data name="hints/destroy-bot-1/text" xml:space="preserve">
+    <value>Дождитесь, пока круг сведения станет минимальным, чтобы уменьшить разброс орудия.
+
+Подождите, пока орудие перезарядится, чтобы выстрелить снова.
+
+
+&lt;font color='#FFA759'&gt;&lt;b&gt;Левая кнопка мыши&lt;/b&gt;&lt;/font&gt; — выстрелить.</value>
+  </data>
+  <data name="hints/destroy-bot-2-done/text" xml:space="preserve">
+    <value>Поздравляем, вы уничтожили тяжелобронированного противника!</value>
+  </data>
+  <data name="hints/destroy-bot-2/text" xml:space="preserve">
+    <value>Прицеливаться вам уже не нужно — автоприцел сделает это за вас.</value>
+  </data>
+  <data name="hints/destroy-bot-3-done/text" xml:space="preserve">
+    <value>Поздравляем, вы научились использовать укрытия и стрелять по удалённым целям.
+
+Обучение успешно завершено!</value>
+  </data>
+  <data name="hints/destroy-bot-3/text" xml:space="preserve">
+    <value>По движущимся удалённым целям стреляйте с упреждением: в переднюю часть танка или перед ним по пути его движения.</value>
+  </data>
+  <data name="hints/disable-auto-aim/text" xml:space="preserve">
+    <value>Для стрельбы по движущимся удалённым целям автоприцел не подходит — выключите его.
+
+
+&lt;font color='#FFA759'&gt;&lt;b&gt;Правая кнопка мыши&lt;/b&gt;&lt;/font&gt; (орудие не наведено на противника) — выключить автоприцел.</value>
+  </data>
+  <data name="hints/move-to-point-4/text" xml:space="preserve">
+    <value>Указанная точка обозначена на миникарте в правом нижнем углу экрана.
+
+Будьте внимательны, пересекая болото: при движении по труднопроходимому грунту скорость и манёвренность танка снижаются.</value>
+  </data>
+  <data name="hints/move-to-point-5/text" xml:space="preserve">
+    <value>Указанная точка обозначена на миникарте в правом нижнем углу экрана.</value>
+  </data>
+  <data name="hints/move-to-point-6/text" xml:space="preserve">
+    <value>Атака в лоб не всегда эффективна, так как это самая бронированная часть танка.</value>
+  </data>
+  <data name="hints/move-to-point-8/text" xml:space="preserve">
+    <value>Чтобы уничтожить последний вражеский танк, сначала необходимо его найти. Противник может быть обнаружен, если находится в радиусе вашего обзора.</value>
+  </data>
+  <data name="hints/move-to-point-9/text" xml:space="preserve">
+    <value>Чтобы противнику было сложнее вас обнаружить, укрывайтесь за кустами и кронами деревьев. Кроме того, танк менее заметен, когда стоит неподвижно.</value>
+  </data>
+  <data name="hints/shot-damage/text" xml:space="preserve">
+    <value>Чтобы поразить цель, стреляйте в борт и корму. Это самые уязвимые места любого противника.</value>
+  </data>
+  <data name="hints/shot-no-damage/text" xml:space="preserve">
+    <value>Попасть по вражескому танку не всегда означает нанести урон. Снаряд может отскочить рикошетом или не пробить броню.</value>
+  </data>
+  <data name="hints/switch-to-spiner-mode/text" xml:space="preserve">
+    <value>Для стрельбы по удалённым целям лучше переключиться в снайперский режим.
+
+
+&lt;font color='#FFA759'&gt;&lt;b&gt;Shift&lt;/b&gt;&lt;/font&gt; или &lt;font color='#FFA759'&gt;&lt;b&gt;колёсико мыши&lt;/b&gt;&lt;/font&gt; — сменить режима прицела.</value>
+  </data>
+  <data name="hints/try-to-destroy-bot-2/text" xml:space="preserve">
+    <value>Перед выстрелом дождитесь, пока разброс орудия станет минимальным.</value>
+  </data>
+  <data name="hints/vehicle-control-done/text" xml:space="preserve">
+    <value>Поздравляем, вы научились управлять танком!</value>
+  </data>
+  <data name="hints/vehicle-movement/text" xml:space="preserve">
+    <value>Управление танком: 
+&lt;font color='#FFA759'&gt;&lt;b&gt;W&lt;/b&gt;&lt;/font&gt; — вперёд
+&lt;font color='#FFA759'&gt;&lt;b&gt;A&lt;/b&gt;&lt;/font&gt; — налево
+&lt;font color='#FFA759'&gt;&lt;b&gt;S&lt;/b&gt;&lt;/font&gt; — назад
+&lt;font color='#FFA759'&gt;&lt;b&gt;D&lt;/b&gt;&lt;/font&gt; — направо</value>
+  </data>
+  <data name="hints/vehicle-on-soft-terrain/text" xml:space="preserve">
+    <value>Вы двигаетесь по труднопроходимому грунту. Он снижает скорость и манёвренность танка.</value>
+  </data>
+  <data name="labels/avg-waiting-time" xml:space="preserve">
+    <value>(Среднее время ожидания: {0:&gt;s})</value>
+  </data>
+  <data name="labels/bonuses-receive-once" xml:space="preserve">
+    <value>Награда за выполнение задания
+уже была получена</value>
+  </data>
+  <data name="labels/credits" xml:space="preserve">
+    <value>кредитов</value>
+  </data>
+  <data name="labels/finish-reason/extermination" xml:space="preserve">
+    <value>Танк уничтожен</value>
+  </data>
+  <data name="labels/finish-reason/failed" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="labels/finish-reason/finished" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="labels/finish-reason/timeout" xml:space="preserve">
+    <value>Время истекло</value>
+  </data>
+  <data name="labels/free-xp" xml:space="preserve">
+    <value>опыта</value>
+  </data>
+  <data name="labels/less_n_minutes" xml:space="preserve">
+    <value>менее %(minutes)s мин.</value>
+  </data>
+  <data name="labels/minutes" xml:space="preserve">
+    <value>%(units)s мин.</value>
+  </data>
+  <data name="labels/not-available" xml:space="preserve">
+    <value>не определено</value>
+  </data>
+  <data name="labels/player-waiting-time" xml:space="preserve">
+    <value>Вы в очереди:</value>
+  </data>
+  <data name="labels/training-result/failed" xml:space="preserve">
+    <value>Обучение прервано</value>
+  </data>
+  <data name="labels/training-result/finished" xml:space="preserve">
+    <value>Обучение завершено</value>
+  </data>
+  <data name="labels/tutorial-bonuses" xml:space="preserve">
+    <value>Награда
+за выполнение</value>
+  </data>
+  <data name="labels/tutorial-no-bonuses" xml:space="preserve">
+    <value>Повторное прохождение</value>
+  </data>
+  <data name="loading/hint/text" xml:space="preserve">
+    <value>Для успешного прохождения боевого обучения постарайтесь выполнить все задания.</value>
+  </data>
+  <data name="loading/hint/title" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="tasks-anim/done" xml:space="preserve">
+    <value>Задание выполнено!</value>
+  </data>
+  <data name="tasks-panel/aim-at-bot-1/text" xml:space="preserve">
+    <value>Наведите орудие на вражеский танк с помощью мыши</value>
+  </data>
+  <data name="tasks-panel/auto-aim-at-bot-2/text" xml:space="preserve">
+    <value>Включите автоприцел</value>
+  </data>
+  <data name="tasks-panel/destroy-bot-1/text" xml:space="preserve">
+    <value>Уничтожьте вражеский танк</value>
+  </data>
+  <data name="tasks-panel/destroy-bot-2/text" xml:space="preserve">
+    <value>Уничтожьте вражеский танк, находясь в движении</value>
+  </data>
+  <data name="tasks-panel/destroy-bot-3/text" xml:space="preserve">
+    <value>Уничтожьте вражеский танк</value>
+  </data>
+  <data name="tasks-panel/disable-auto-aim/text" xml:space="preserve">
+    <value>Отключите автоприцел</value>
+  </data>
+  <data name="tasks-panel/focus-on-object-1/text" xml:space="preserve">
+    <value>Наведите камеру на автомобиль рядом с вашим танком</value>
+  </data>
+  <data name="tasks-panel/focus-on-object-2/text" xml:space="preserve">
+    <value>Наведите камеру на медицинский фургон рядом с вашим танком</value>
+  </data>
+  <data name="tasks-panel/move-to-point-2/text" xml:space="preserve">
+    <value>Двигайтесь в указанную точку</value>
+  </data>
+  <data name="tasks-panel/move-to-point-3/text" xml:space="preserve">
+    <value>Двигайтесь вдоль дороги, стараясь не повредить строения и технику</value>
+  </data>
+  <data name="tasks-panel/move-to-point-4/text" xml:space="preserve">
+    <value>Займите огневую позицию</value>
+  </data>
+  <data name="tasks-panel/move-to-point-5/text" xml:space="preserve">
+    <value>Займите огневую позицию</value>
+  </data>
+  <data name="tasks-panel/move-to-point-6/text" xml:space="preserve">
+    <value>Займите более подходящую огневую позицию</value>
+  </data>
+  <data name="tasks-panel/move-to-point-8/text" xml:space="preserve">
+    <value>Займите позицию для обнаружения противника</value>
+  </data>
+  <data name="tasks-panel/move-to-point-9/text" xml:space="preserve">
+    <value>Спрячьтесь за кустами для маскировки</value>
+  </data>
+  <data name="tasks-panel/return-to-point-1/text" xml:space="preserve">
+    <value>Вернитесь на начальную позицию</value>
+  </data>
+  <data name="tasks-panel/shot-damage/text" xml:space="preserve">
+    <value>Уничтожьте вражеский танк</value>
+  </data>
+  <data name="tasks-panel/switch-to-spiner-mode/text" xml:space="preserve">
+    <value>Включите снайперский режим прицела</value>
+  </data>
+  <data name="tasks-panel/try-to-destroy-bot-2/text" xml:space="preserve">
+    <value>Уничтожьте вражеский танк</value>
+  </data>
+  <data name="windows/result/buttons/restart" xml:space="preserve">
+    <value>Повторить обучение</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/first" xml:space="preserve">
+    <value>Посмотрите видеоинструктаж по эффективному ведению боя</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/second" xml:space="preserve">
+    <value>Нажмите &lt;font color='#FFA759'&gt;&lt;b&gt;F1&lt;/b&gt;&lt;/font&gt; во время боя, чтобы посмотреть справку об управлении и боевом интерфейсе</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/third" xml:space="preserve">
+    <value>Нажмите &lt;font color='#FFA759'&gt;&lt;b&gt;Esc &gt; Выйти в Ангар&lt;/b&gt;&lt;/font&gt;, чтобы выйти из боя после уничтожения вашего танка. Вы получите заработанные опыт и кредиты по окончании боя.</value>
+  </data>
+  <data name="windows/result/labels/restart-hint" xml:space="preserve">
+    <value>Вы можете вернуться к пропущенным заданиям и пройти обучение ещё раз.</value>
+  </data>
+  <data name="windows/result/table/column-1" xml:space="preserve">
+    <value>Дополнительные материалы</value>
+  </data>
+  <data name="windows/result/table/column-2" xml:space="preserve">
+    <value>Выполненные задачи</value>
+  </data>
+  <data name="windows/result/title" xml:space="preserve">
+    <value>Результаты обучения</value>
+  </data>
+  <data name="buttons/watch" xml:space="preserve">
+    <value>Смотреть</value>
+  </data>
+  <data name="labels/bonuses-already-received" xml:space="preserve">
+    <value>Награда уже была получена</value>
+  </data>
+  <data name="labels/more_n_minutes" xml:space="preserve">
+    <value>более %(minutes)s мин.</value>
+  </data>
+  <data name="labels/results-are-not-available" xml:space="preserve">
+    <value>Извините, подробные результаты обучения недоступны.</value>
+  </data>
+  <data name="buttons/no" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="buttons/yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="dialogs/confirmRefuse/checkbox/label" xml:space="preserve">
+    <value>Предложить обучение при следующем запуске игры</value>
+  </data>
+  <data name="dialogs/confirmRefuse/message/text" xml:space="preserve">
+    <value>Вы действительно хотите отказаться от обучения?</value>
+  </data>
+  <data name="dialogs/confirmRefuse/title" xml:space="preserve">
+    <value>Отказаться от обучения</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/second1" xml:space="preserve">
+    <value>Нажмите</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/second2" xml:space="preserve">
+    <value>F1</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/second3" xml:space="preserve">
+    <value>во время боя, чтобы посмотреть справку об управлении и боевом интерфейсе</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/third1" xml:space="preserve">
+    <value>Нажмите</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/third2" xml:space="preserve">
+    <value>Esc &gt; Выйти в Ангар</value>
+  </data>
+  <data name="windows/result/labels/battle-hints/third3" xml:space="preserve">
+    <value>, чтобы выйти из боя после уничтожения вашего танка. Вы получите заработанные опыт и кредиты по окончании боя.</value>
+  </data>
+</root>

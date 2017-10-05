@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="channels/battle/common" xml:space="preserve">
     <value>Общий</value>
@@ -129,6 +129,9 @@
   <data name="channels/common" xml:space="preserve">
     <value>Общий</value>
   </data>
+  <data name="channels/company" xml:space="preserve">
+    <value>Роты</value>
+  </data>
   <data name="channels/nubs" xml:space="preserve">
     <value>Новички</value>
   </data>
@@ -141,20 +144,11 @@
   <data name="channels/squad" xml:space="preserve">
     <value>Взвод</value>
   </data>
-  <data name="channels/squadNotReady/tooltip/body" xml:space="preserve">
-    <value>Взвод сформирован, ожидайте готовности игроков.</value>
-  </data>
-  <data name="channels/squadNotReady/tooltip/header" xml:space="preserve">
-    <value>Взвод</value>
-  </data>
-  <data name="channels/squadReady/tooltip/body" xml:space="preserve">
-    <value>Взвод сформирован, все готовы.</value>
-  </data>
-  <data name="channels/squadReady/tooltip/header" xml:space="preserve">
-    <value>Взвод</value>
-  </data>
   <data name="channels/system" xml:space="preserve">
     <value>Системный</value>
+  </data>
+  <data name="channels/team" xml:space="preserve">
+    <value>Ротный бой</value>
   </data>
   <data name="channels/tournament" xml:space="preserve">
     <value>Турнир</value>
@@ -215,5 +209,35 @@
   </data>
   <data name="messages/userbannedpermanent" xml:space="preserve">
     <value>Пользователь %(banedUser)s забанен пользователем %(banOwnerNick)s. Причина: %(banReason)s</value>
+  </data>
+  <data name="channels/squadNotReady/tooltip/body" xml:space="preserve">
+    <value>Взвод сформирован, ожидайте готовности игроков.</value>
+  </data>
+  <data name="channels/squadNotReady/tooltip/header" xml:space="preserve">
+    <value>Взвод</value>
+  </data>
+  <data name="channels/squadReady/tooltip/body" xml:space="preserve">
+    <value>Взвод сформирован, все готовы.</value>
+  </data>
+  <data name="channels/squadReady/tooltip/header" xml:space="preserve">
+    <value>Взвод</value>
+  </data>
+  <data name="channels/eventSquad" xml:space="preserve">
+    <value>Новогодний взвод</value>
+  </data>
+  <data name="channels/eventSquadNotReady/tooltip/body" xml:space="preserve">
+    <value>Новогодний взвод сформирован, ожидайте готовности игроков.</value>
+  </data>
+  <data name="channels/eventSquadNotReady/tooltip/header" xml:space="preserve">
+    <value>Новогодний взвод</value>
+  </data>
+  <data name="channels/eventSquadReady/tooltip/body" xml:space="preserve">
+    <value>Новогодний взвод сформирован, все готовы.</value>
+  </data>
+  <data name="channels/eventSquadReady/tooltip/header" xml:space="preserve">
+    <value>Новогодний взвод</value>
+  </data>
+  <data name="channels/club" xml:space="preserve">
+    <value>Команда</value>
   </data>
 </root>

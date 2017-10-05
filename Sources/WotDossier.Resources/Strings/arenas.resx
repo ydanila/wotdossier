@@ -112,16 +112,16 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="00_tank_tutorial/description" xml:space="preserve">
+  <data name="00_planb_testsite/description" xml:space="preserve">
     <value>?empty?</value>
   </data>
-  <data name="00_tank_tutorial/name" xml:space="preserve">
-    <value>Training area</value>
+  <data name="00_planb_testsite/name" xml:space="preserve">
+    <value>Training Area</value>
   </data>
   <data name="01_karelia/description" xml:space="preserve">
     <value>Two avenues of attack are divided by a swamp. The eastern side is ideal for trench warfare. The western side is favorable to a hard push. The swamp provides a risky but perhaps unexpected attack route.</value>
@@ -134,6 +134,18 @@
   </data>
   <data name="02_malinovka/name" xml:space="preserve">
     <value>Malinovka</value>
+  </data>
+  <data name="02_malinovka_4CT_mode/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="02_malinovka_4CT_mode/name" xml:space="preserve">
+    <value>Malinovka 4 Bases</value>
+  </data>
+  <data name="03_campania/description" xml:space="preserve">
+    <value>Hills on the periphery of the map are covered with numerous houses and winding streets, making these areas advantageous for surprise attacks and sniping. An open area between the bases is favorable for daring strikes.</value>
+  </data>
+  <data name="03_campania/name" xml:space="preserve">
+    <value>Province</value>
   </data>
   <data name="04_himmelsdorf/description" xml:space="preserve">
     <value>A labyrinth of streets and squares, impassable for artillery and tank destroyers, but ideal for speedy breakthrough and bypass by medium and light tanks. Access roads running by the hill, with the castle that dominates the area, and along the railway lines can help you out of the impasse.</value>
@@ -165,41 +177,11 @@
   <data name="08_ruinberg/name" xml:space="preserve">
     <value>Ruinberg</value>
   </data>
-  <data name="100_thepit/description" xml:space="preserve">
-    <value>The town in the hollow is an arena ravaged by the fierce clashes of steel-clad beasts. The vehicles are trying to shield themselves from the shelling of enemy artillery, while warily advancing to victory through the smoldering ruins.</value>
-  </data>
-  <data name="100_thepit/name" xml:space="preserve">
-    <value>Mittengard</value>
-  </data>
-  <data name="101_dday/description" xml:space="preserve">
-    <value>The shoreline can be used by maneuverable vehicles to execute lightning attacks into the enemy rear. The central and eastern parts of the map are well-suited for methodical attacks by heavy vehicles with the support of allies.</value>
-  </data>
-  <data name="101_dday/name" xml:space="preserve">
-    <value>Overlord</value>
-  </data>
-  <data name="103_ruinberg_winter/description" xml:space="preserve">
-    <value>Concentric city streets, along with dense forests and bushes in the overgrown park, allow for hidden movement and the redeployment of your troops. Artillery fire is of limited use in the city, as the debris provides effective cover for your team.</value>
-  </data>
-  <data name="103_ruinberg_winter/name" xml:space="preserve">
-    <value>Winterberg</value>
-  </data>
   <data name="10_hills/description" xml:space="preserve">
     <value>A high hill in the center of the map provides a perfect outpost for your attacks. A village to the north-east of the hill and an island to the west offer a wide range of tactical advantages, but lay open to fire from the center.</value>
   </data>
   <data name="10_hills/name" xml:space="preserve">
     <value>Mines</value>
-  </data>
-  <data name="112_eiffel_tower_ctf/description" xml:space="preserve">
-    <value>Tight winding streets provide great cover for allied heavy vehicles. The central square is dangerous because shots can come from all directions, while the embankment of the Seine is an ideal area for approaches in fast, maneuverable vehicles.</value>
-  </data>
-  <data name="112_eiffel_tower_ctf/name" xml:space="preserve">
-    <value>Paris</value>
-  </data>
-  <data name="114_czech/description" xml:space="preserve">
-    <value>Recent intelligence shows that the best tactic is to flank the enemy. The plant in the center may turn out to be a trap. Our reconnaissance units advise using it for a quick breakthrough at the end of the battle.</value>
-  </data>
-  <data name="114_czech/name" xml:space="preserve">
-    <value>Pilsen</value>
   </data>
   <data name="11_murovanka/description" xml:space="preserve">
     <value>Swamps, ravines, and hills determine your battle tactics. The scarcity of buildings gives a combat advantage to artillery. Concentrating all your attacks along one axis of attack may prove the best strategy.</value>
@@ -207,17 +189,35 @@
   <data name="11_murovanka/name" xml:space="preserve">
     <value>Murovanka</value>
   </data>
+  <data name="12_scorched_earth/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="12_scorched_earth/name" xml:space="preserve">
+    <value>Scorched Earth</value>
+  </data>
   <data name="13_erlenberg/description" xml:space="preserve">
     <value>Divided by a river, this map offers three main avenues of attack. A bridge in the center is situated among the ruins of a small town. Terrain around the northern and southern bridges offers a small amount of cover. Use the castle and the range of hills on the opposite side of the map as firing positions for your artillery.</value>
   </data>
   <data name="13_erlenberg/name" xml:space="preserve">
     <value>Erlenberg</value>
   </data>
+  <data name="13_erlenberg_winter/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="13_erlenberg_winter/name" xml:space="preserve">
+    <value>Happy New Year Erlenberg!</value>
+  </data>
   <data name="14_siegfried_line/description" xml:space="preserve">
     <value>The map is a combination of open spaces and city blocks. Meandering lanes will facilitate your surprise attacks from behind the enemy lines while numerous bunkers serve as cover.</value>
   </data>
   <data name="14_siegfried_line/name" xml:space="preserve">
     <value>Siegfried Line</value>
+  </data>
+  <data name="15_komarin/description" xml:space="preserve">
+    <value>This map is divided into three basic sectors: western, central, and eastern. Although attacks on one flank or the other may decide the outcome, the central sector offers tactical advantages and should not be ignored.</value>
+  </data>
+  <data name="15_komarin/name" xml:space="preserve">
+    <value>Komarin</value>
   </data>
   <data name="17_munchen/description" xml:space="preserve">
     <value>This map depicts an industrial city devastated by war. A railway embankment divides the map in two, making it possible to concentrate forces for an attack or counterattack.</value>
@@ -237,12 +237,6 @@
   <data name="19_monastery/name" xml:space="preserve">
     <value>Abbey</value>
   </data>
-  <data name="212_epic_random_valley/description" xml:space="preserve">
-    <value>Two massive mountains surround this peaceful valley. The space is watched over by the ruins of a castle, ruling over the nearby lake and woods. Vast fields are the perfect opportunity for fast and stealthy flanking, while a small village offers a more direct path into battle.</value>
-  </data>
-  <data name="212_epic_random_valley/name" xml:space="preserve">
-    <value>Nebelburg</value>
-  </data>
   <data name="22_slough/description" xml:space="preserve">
     <value>A swamp in the center of the map divides it into two major sectors. Control over the center makes it very difficult for enemy units to move around freely on the flanks. The hills offer additional key vantage points for spotting and firing.</value>
   </data>
@@ -255,6 +249,24 @@
   <data name="23_westfeld/name" xml:space="preserve">
     <value>Westfield</value>
   </data>
+  <data name="24_canyon/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="24_canyon/name" xml:space="preserve">
+    <value>zFrozen Canyon</value>
+  </data>
+  <data name="26_river_valley/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="26_river_valley/name" xml:space="preserve">
+    <value>zFrozen River Vale</value>
+  </data>
+  <data name="27_ardennes/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="27_ardennes/name" xml:space="preserve">
+    <value>Ardennes</value>
+  </data>
   <data name="28_desert/description" xml:space="preserve">
     <value>This map looks open, but appearances can be deceiving! The village houses can be used as cover for vehicles and artillery. Consider attacking on the enemy flanks safely protected from their fire by cliffs and dunes.</value>
   </data>
@@ -266,6 +278,12 @@
   </data>
   <data name="29_el_hallouf/name" xml:space="preserve">
     <value>El Halluf</value>
+  </data>
+  <data name="30_africa_airfield/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="30_africa_airfield/name" xml:space="preserve">
+    <value>zFrozen Airfield</value>
   </data>
   <data name="31_airfield/description" xml:space="preserve">
     <value>This map offers many great ambush spots, as well as possibilities for maneuvers and breakthroughs. A large airfield in the upper part of the map and a rocky highland in the center offer a major tactical challenge. Occupy the highland to get a perfect view of the surrounding terrain and dominate routes to the enemy base.</value>
@@ -309,6 +327,30 @@
   <data name="38_mannerheim_line/name" xml:space="preserve">
     <value>Arctic Region</value>
   </data>
+  <data name="39_crimea/description" xml:space="preserve">
+    <value>The rugged terrain of this map allows a variety of battle-tactics: flanking, ambushing, or frontal assaults. There are also numerous passages between the rocks that could provide routes for a decisive attack with concentrated forces.</value>
+  </data>
+  <data name="39_crimea/name" xml:space="preserve">
+    <value>South Coast</value>
+  </data>
+  <data name="40_boundless/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="40_boundless/name" xml:space="preserve">
+    <value>Land of Mayhem</value>
+  </data>
+  <data name="42_midtown/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="42_midtown/name" xml:space="preserve">
+    <value>Midtown</value>
+  </data>
+  <data name="43_north_america/description" xml:space="preserve">
+    <value>This map features abundant rocks and trees. Cliffs, houses, and huge boulders provide cover, even in the most open areas of the map. Several settlements and mines can be used as strongpoints for defensive operations.</value>
+  </data>
+  <data name="43_north_america/name" xml:space="preserve">
+    <value>Northwest</value>
+  </data>
   <data name="44_north_america/description" xml:space="preserve">
     <value>In the centre of the map there is a large, boggy lake. A railway bridge and a ford on the one flank are defensible with scant forces, making it possible to concentrate main forces on the other flank.</value>
   </data>
@@ -321,11 +363,74 @@
   <data name="45_north_america/name" xml:space="preserve">
     <value>Highway</value>
   </data>
-  <data name="47_canada_a/description" xml:space="preserve">
-    <value>This map offers several avenues of attack, each presenting certain advantages. Slow, heavy vehicles should concentrate along the railway. Fast vehicles should quickly seize key positions, such as the peninsula and high ground, in order to provide support for the rest of the team.</value>
+  <data name="53_japan/description" xml:space="preserve">
+    <value>The protected base of the mountain is the preferred route for heavy tanks. Fast and agile vehicles may consider a village assault. However, a hill in the center of the map provides a perfect vantage point to dominate the surrounding area. Control over this hill is often crucial.</value>
   </data>
-  <data name="47_canada_a/name" xml:space="preserve">
-    <value>Serene Coast</value>
+  <data name="type/assault/description1" xml:space="preserve">
+    <value>Mission: keep the friendly base secure or destroy all enemy vehicles.</value>
+  </data>
+  <data name="type/assault/description2" xml:space="preserve">
+    <value>Mission: capture the enemy base or destroy all enemy vehicles.</value>
+  </data>
+  <data name="type/assault/name" xml:space="preserve">
+    <value>Assault</value>
+  </data>
+  <data name="type/ctf/description" xml:space="preserve">
+    <value>Mission: capture the enemy base or destroy all enemy vehicles.</value>
+  </data>
+  <data name="type/ctf/name" xml:space="preserve">
+    <value>Standard Battle</value>
+  </data>
+  <data name="type/domination/description" xml:space="preserve">
+    <value>Mission: capture the base or destroy all enemy vehicles.</value>
+  </data>
+  <data name="type/domination/name" xml:space="preserve">
+    <value>Encounter Battle</value>
+  </data>
+  <data name="41_north_america/description" xml:space="preserve">
+    <value>Tactics on this map may include deep flanking maneuvers along the bottom of the canyon to the enemy base or a quick attack across the plateau. On the plateau, a variety of fighting styles can be effective.</value>
+  </data>
+  <data name="41_north_america/name" xml:space="preserve">
+    <value>Canyon</value>
+  </data>
+  <data name="42_north_america/description" xml:space="preserve">
+    <value>The map is ideal for highly aggressive maneuvers. Most locations in the rail yard are open to fire from the flanks. The terrain offers few good defensive positions.</value>
+  </data>
+  <data name="42_north_america/name" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="46_north_america/description" xml:space="preserve">
+    <value>Особенностью данной карты является изрезанный ландшафт. Холмы и овраги, пересекающие местность, удобны для манёвренного боя. Часто встречающиеся скальные массивы позволяют выбирать места для обороны и засады.</value>
+  </data>
+  <data name="46_north_america/name" xml:space="preserve">
+    <value>Gran Camino</value>
+  </data>
+  <data name="47_canada_b/description" xml:space="preserve">
+    <value>Grimtown</value>
+  </data>
+  <data name="47_canada_b/name" xml:space="preserve">
+    <value>Grimtown</value>
+  </data>
+  <data name="49_africa/description" xml:space="preserve">
+    <value>Эта карта характерна открытыми пространствами и плавными переходами ландшафта. Русло реки и невысокие холмы позволят выбрать удобное место для наступления. В качестве укрытия или места для засады, можно использовать немногочисленные хижины и выходы скальных массивов на поверхность.</value>
+  </data>
+  <data name="49_africa/name" xml:space="preserve">
+    <value>Savanna</value>
+  </data>
+  <data name="52_australia/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="52_australia/name" xml:space="preserve">
+    <value>Stone Forest</value>
+  </data>
+  <data name="53_japan/name" xml:space="preserve">
+    <value>Hidden Village</value>
+  </data>
+  <data name="55_south_america/description" xml:space="preserve">
+    <value>Прибрежная холмистая местность с густой тропической растительностью граничит с водным пространством. Данный рельеф удобен для засад и внезапных атак. Базы противников расположены на полуострове в непосредственной близости друг от друга. Заняв невысокий холм между ними, команда получит отличную позицию для ведения огня по обеим базам. Противники начинают бой вдалеке от своих баз, что стимулирует их к активному старту.</value>
+  </data>
+  <data name="55_south_america/name" xml:space="preserve">
+    <value>Abandoned Harbor</value>
   </data>
   <data name="59_asia_great_wall/description" xml:space="preserve">
     <value>This map offers many roads and canyons, giving great opportunities for light tanks and SPGs to excel. A gap in the wall is an ideal spot for fast tanks to deliver swift attacks. Other vehicles should focus on the main line of attack.</value>
@@ -333,11 +438,104 @@
   <data name="59_asia_great_wall/name" xml:space="preserve">
     <value>Empire's Border</value>
   </data>
-  <data name="63_tundra/description" xml:space="preserve">
-    <value>The mountain in the east offers the possibility of dominating from the high ground, while the central part of the map offers a wide range of tactical advantages. A village and a bypass road are located in the west, creating an opportunity for unexpected maneuvers and tactics.</value>
+  <data name="60_asia_miao/description" xml:space="preserve">
+    <value>Rugged terrain is favorable for various battle tactics—ambushes, unexpected flanking maneuvers, and close encounters. Moving along the riverbed allows to swiftly approach the enemy base and get into action. However, do not leave your rear undefended!</value>
+  </data>
+  <data name="60_asia_miao/name" xml:space="preserve">
+    <value>Pearl River</value>
+  </data>
+  <data name="type/ctf2/description" xml:space="preserve">
+    <value>Mission: capture at least one enemy base or destroy all enemy vehicles.</value>
+  </data>
+  <data name="type/ctf2/name" xml:space="preserve">
+    <value>Capture</value>
+  </data>
+  <data name="type/escort/description1" xml:space="preserve">
+    <value>Mission: keep the friendly base secure or destroy the top three enemy vehicles on the list.</value>
+  </data>
+  <data name="type/escort/description2" xml:space="preserve">
+    <value>Mission: capture the enemy base or destroy all enemy vehicles; however, at least one of the top three friendly vehicles on the list must survive.</value>
+  </data>
+  <data name="type/escort/name" xml:space="preserve">
+    <value>Escort</value>
+  </data>
+  <data name="51_asia/description" xml:space="preserve">
+    <value>This complex, jagged terrain is astonishingly beautiful. Features such as the lake, the lush bamboo thickets and the cliffs is what makes this map unique. Choose any attack direction you want, because they all have their advantages.</value>
+  </data>
+  <data name="51_asia/name" xml:space="preserve">
+    <value>Dragon Ridge</value>
+  </data>
+  <data name="47_canada_a/description" xml:space="preserve">
+    <value>This map offers several avenues of attack, each presenting certain advantages. Slow, heavy vehicles should concentrate along the railway. Fast vehicles should quickly seize key positions, such as the peninsula and high ground, in order to provide support for the rest of the team.</value>
+  </data>
+  <data name="47_canada_a/name" xml:space="preserve">
+    <value>Serene Coast</value>
+  </data>
+  <data name="48_south_america/description" xml:space="preserve">
+    <value>Река с высокими берегами делит данную местность на несколько частей. Высокие холмы, деревья и болотистые броды позволяют построить оборону или сосредоточить силы для атаки.</value>
+  </data>
+  <data name="58_asia_xinjiang/description" xml:space="preserve">
+    <value>Mekyar</value>
+  </data>
+  <data name="58_asia_xinjiang/name" xml:space="preserve">
+    <value>Мекъяр</value>
+  </data>
+  <data name="62_asia_huangshan/description" xml:space="preserve">
+    <value>empty</value>
+  </data>
+  <data name="62_asia_huangshan/name" xml:space="preserve">
+    <value>Парящие скалы</value>
   </data>
   <data name="63_tundra/name" xml:space="preserve">
     <value>Tundra</value>
+  </data>
+  <data name="64_antarctica_shore/description" xml:space="preserve">
+    <value>Cape Helbert</value>
+  </data>
+  <data name="64_antarctica_shore/name" xml:space="preserve">
+    <value>Мыс Гельберта</value>
+  </data>
+  <data name="65_asia_vietnam/description" xml:space="preserve">
+    <value>White cliffs</value>
+  </data>
+  <data name="65_asia_vietnam/name" xml:space="preserve">
+    <value>Белые скалы</value>
+  </data>
+  <data name="66_asia_vietnam/description" xml:space="preserve">
+    <value>Nong Ten</value>
+  </data>
+  <data name="66_asia_vietnam/name" xml:space="preserve">
+    <value>Нонг Тэн</value>
+  </data>
+  <data name="68_asia_iraq/description" xml:space="preserve">
+    <value>Kasbah</value>
+  </data>
+  <data name="68_asia_iraq/name" xml:space="preserve">
+    <value>Цитадель</value>
+  </data>
+  <data name="69_rocky_island/description" xml:space="preserve">
+    <value>Rocky Island</value>
+  </data>
+  <data name="69_rocky_island/name" xml:space="preserve">
+    <value>Роки Айленд</value>
+  </data>
+  <data name="70_pearl_harbor/description" xml:space="preserve">
+    <value>Nanaluu dock</value>
+  </data>
+  <data name="70_pearl_harbor/name" xml:space="preserve">
+    <value>Док Наналуу</value>
+  </data>
+  <data name="71_asia_bali/description" xml:space="preserve">
+    <value>Kechari</value>
+  </data>
+  <data name="71_asia_bali/name" xml:space="preserve">
+    <value>Кечари</value>
+  </data>
+  <data name="72_quarry_a/description" xml:space="preserve">
+    <value>Quarry</value>
+  </data>
+  <data name="72_quarry_a/name" xml:space="preserve">
+    <value>Карьер</value>
   </data>
   <data name="73_asia_korea/description" xml:space="preserve">
     <value>Major terrain of the map features a hidden vale in the midst of the mountains. Numerous villages, rocks, trees, and bushes influence battle tactics.</value>
@@ -345,11 +543,107 @@
   <data name="73_asia_korea/name" xml:space="preserve">
     <value>Sacred Valley</value>
   </data>
-  <data name="83_kharkiv/description" xml:space="preserve">
-    <value>City blocks in the center of the map bear the highest strategic importance. The map also offers two alternative options: the city square, perfect for long distance fighting; and an open area, excellent for fast vehicles.</value>
+  <data name="75_dam/description" xml:space="preserve">
+    <value>Дамба</value>
   </data>
-  <data name="83_kharkiv/name" xml:space="preserve">
-    <value>Kharkov</value>
+  <data name="75_dam/name" xml:space="preserve">
+    <value>Дамба</value>
+  </data>
+  <data name="76_asia_armenia/description" xml:space="preserve">
+    <value>Армения, Гарни</value>
+  </data>
+  <data name="76_asia_armenia/name" xml:space="preserve">
+    <value>Пик Гарна</value>
+  </data>
+  <data name="77_pacific_island/description" xml:space="preserve">
+    <value>Pacific island</value>
+  </data>
+  <data name="77_pacific_island/name" xml:space="preserve">
+    <value>Атолл Луару</value>
+  </data>
+  <data name="78_asia_valley/description" xml:space="preserve">
+    <value>Израиль, Цфат</value>
+  </data>
+  <data name="78_asia_valley/name" xml:space="preserve">
+    <value>Батгиль</value>
+  </data>
+  <data name="79_asia/description" xml:space="preserve">
+    <value>Caldera</value>
+  </data>
+  <data name="79_asia/name" xml:space="preserve">
+    <value>Кальдера</value>
+  </data>
+  <data name="valley_66_asia_vietnam/description" xml:space="preserve">
+    <value>valley_66_asia_vietnam</value>
+  </data>
+  <data name="valley_66_asia_vietnam/name" xml:space="preserve">
+    <value>Луанунг</value>
+  </data>
+  <data name="09_stalingrad_k/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="09_stalingrad_k/name" xml:space="preserve">
+    <value>Сталинград</value>
+  </data>
+  <data name="48_south_america/name" xml:space="preserve">
+    <value>Чёрная река</value>
+  </data>
+  <data name="54_south_america/description" xml:space="preserve">
+    <value>Rio Marcella possible: Rio Marcus, Rio Puebla, San romero</value>
+  </data>
+  <data name="54_south_america/name" xml:space="preserve">
+    <value>Рио Марсель</value>
+  </data>
+  <data name="61_asia/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="61_asia/name" xml:space="preserve">
+    <value>Хампи</value>
+  </data>
+  <data name="64_antarctica_inland/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="64_antarctica_inland/name" xml:space="preserve">
+    <value>Антарктида</value>
+  </data>
+  <data name="67_asia_ruins/description" xml:space="preserve">
+    <value>Jovian Foothold, Jovian ground, Jovian something, Трибунал юпитера, террасы юпитера, мегалит юпитера.</value>
+  </data>
+  <data name="67_asia_ruins/name" xml:space="preserve">
+    <value>Плацдарм Юпитера</value>
+  </data>
+  <data name="74_asia_afghanistan/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="74_asia_afghanistan/name" xml:space="preserve">
+    <value>Шелковый путь</value>
+  </data>
+  <data name="82_salar/description" xml:space="preserve">
+    <value>Salar</value>
+  </data>
+  <data name="82_salar/name" xml:space="preserve">
+    <value>Саляр</value>
+  </data>
+  <data name="85_winter/description" xml:space="preserve">
+    <value>A town provides cover and concealment, making it a good position for a rugged defense. The open area in the north offers great opportunities for fast vehicles to maneuver aggressively and break through to the enemy base.</value>
+  </data>
+  <data name="85_winter/name" xml:space="preserve">
+    <value>Severogorsk</value>
+  </data>
+  <data name="test_boundless/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="test_boundless/name" xml:space="preserve">
+    <value>Беспределье</value>
+  </data>
+  <data name="00_tank_tutorial/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="00_tank_tutorial/name" xml:space="preserve">
+    <value>Training area</value>
+  </data>
+  <data name="63_tundra/description" xml:space="preserve">
+    <value>The mountain in the east offers the possibility of dominating from the high ground, while the central part of the map offers a wide range of tactical advantages. A village and a bypass road are located in the west, creating an opportunity for unexpected maneuvers and tactics.</value>
   </data>
   <data name="84_winter/description" xml:space="preserve">
     <value>A town is the most protected environment that is ideal for a rugged defense. Open area in the north offers great opportunities for a breakthrough to the enemy base and aggressive maneuvers in light vehicles.</value>
@@ -363,17 +657,35 @@
   <data name="86_himmelsdorf_winter/name" xml:space="preserve">
     <value>Winter Himmelsdorf</value>
   </data>
-  <data name="92_stalingrad/description" xml:space="preserve">
-    <value>Dense urban conditions in the center of the map are the setting for close-quarters encounters, while the waterfront is suitable for fast-paced engagements and more maneuverable vehicles.</value>
+  <data name="87_ruinberg_on_fire/description" xml:space="preserve">
+    <value>Concentric city streets, along with dense forests and bushes in the overgrown park allow for hidden maneuvers and redeployment of your troops. Although artillery fire is of limited use in the city, the debris provides effective cover for your troops.</value>
   </data>
-  <data name="92_stalingrad/name" xml:space="preserve">
-    <value>Stalingrad</value>
+  <data name="87_ruinberg_on_fire/name" xml:space="preserve">
+    <value>Ruinberg on Fire</value>
   </data>
-  <data name="95_lost_city/description" xml:space="preserve">
-    <value>This presidio located in the desert sands is an ideal setting for head-on heavy vehicle encounters, while the more maneuverable vehicles can launch surprise attacks by flanking the enemy.</value>
+  <data name="type/nations/description" xml:space="preserve">
+    <value>Mission: capture the base or destroy all enemy vehicles.</value>
   </data>
-  <data name="95_lost_city/name" xml:space="preserve">
-    <value>Ghost Town</value>
+  <data name="type/nations/name" xml:space="preserve">
+    <value>Confrontation</value>
+  </data>
+  <data name="83_kharkiv/description" xml:space="preserve">
+    <value>City blocks in the center of the map bear the highest strategic importance. The map also offers two alternative options: the city square, perfect for long distance fighting; and an open area, excellent for fast vehicles.</value>
+  </data>
+  <data name="83_kharkiv/name" xml:space="preserve">
+    <value>Kharkov</value>
+  </data>
+  <data name="99_himmelball/description" xml:space="preserve">
+    <value>Fight an intense battle to win the Himmelsdorf Сhampionship!</value>
+  </data>
+  <data name="99_himmelball/name" xml:space="preserve">
+    <value>Himmelsdorf Championship</value>
+  </data>
+  <data name="type/football/description" xml:space="preserve">
+    <value>Mission: score 3 goals. Match time: 5 minutes.</value>
+  </data>
+  <data name="type/football/name" xml:space="preserve">
+    <value>Football Match</value>
   </data>
   <data name="96_prohorovka_defense/description" xml:space="preserve">
     <value>Generally open terrain featuring a large hill and a railway embankment. Scattered trees provide concealment for tank destroyers. On the offensive, strike against the enemy's flanks, but do not leave your own flanks unguarded. Artillery enjoys good fields of fire, but is still vulnerable to raids by light tanks.</value>
@@ -381,14 +693,17 @@
   <data name="96_prohorovka_defense/name" xml:space="preserve">
     <value>Fiery Salient</value>
   </data>
-  <data name="type/assault/description1" xml:space="preserve">
-    <value>Mission: keep the friendly base secure or destroy all enemy vehicles.</value>
+  <data name="102_deathtrack/description" xml:space="preserve">
+    <value>Fasten your seat belts! On your marks! Get set! Go!</value>
   </data>
-  <data name="type/assault/description2" xml:space="preserve">
-    <value>Mission: capture the enemy base or destroy all enemy vehicles.</value>
+  <data name="102_deathtrack/name" xml:space="preserve">
+    <value>Tank Rally</value>
   </data>
-  <data name="type/assault/name" xml:space="preserve">
-    <value>Assault</value>
+  <data name="92_stalingrad/description" xml:space="preserve">
+    <value>Dense urban conditions in the center of the map are the setting for close-quarters encounters, while the waterfront is suitable for fast-paced engagements and more maneuverable vehicles.</value>
+  </data>
+  <data name="92_stalingrad/name" xml:space="preserve">
+    <value>Stalingrad</value>
   </data>
   <data name="type/assault2/description1" xml:space="preserve">
     <value>Mission: keep the friendly bases secure or destroy all enemy vehicles.</value>
@@ -399,68 +714,53 @@
   <data name="type/assault2/name" xml:space="preserve">
     <value>Attack/Defense</value>
   </data>
-  <data name="type/bootcamp/description0" xml:space="preserve">
-    <value>Follow the tips to complete the mission</value>
+  <data name="100_thepit/description" xml:space="preserve">
+    <value>The town in the hollow is an arena ravaged by the fierce clashes of steel-clad beasts. The vehicles are trying to shield themselves from the shelling of enemy artillery, while warily advancing to victory through the smoldering ruins.</value>
   </data>
-  <data name="type/bootcamp/description1" xml:space="preserve">
-    <value>Find and destroy all enemy vehicles</value>
+  <data name="100_thepit/name" xml:space="preserve">
+    <value>Mittengard</value>
   </data>
-  <data name="type/bootcamp/description2" xml:space="preserve">
-    <value>Spot enemy vehicles</value>
+  <data name="103_ruinberg_winter/description" xml:space="preserve">
+    <value>Concentric city streets, along with dense forests and bushes in the overgrown park, allow for hidden movement and the redeployment of your troops. Artillery fire is of limited use in the city, as the debris provides effective cover for your team.</value>
   </data>
-  <data name="type/bootcamp/description3" xml:space="preserve">
-    <value>Capture the enemy base or destroy all enemy vehicles</value>
+  <data name="103_ruinberg_winter/name" xml:space="preserve">
+    <value>Winterberg</value>
   </data>
-  <data name="type/bootcamp/description4" xml:space="preserve">
-    <value>Capture the enemy base or destroy all enemy vehicles</value>
+  <data name="109_battlecity_ny/description" xml:space="preserve">
+    <value>This complex, jagged terrain is astonishingly beautiful. Features such as the lake, the lush bamboo thickets and the cliffs is what makes this map unique. Choose any attack direction you want, because they all have their advantages.</value>
   </data>
-  <data name="type/bootcamp/description5" xml:space="preserve">
-    <value>Capture the enemy base or destroy all enemy vehicles</value>
+  <data name="109_battlecity_ny/name" xml:space="preserve">
+    <value>Winter Showdown</value>
   </data>
-  <data name="type/ctf/description" xml:space="preserve">
-    <value>Mission: capture the enemy base or destroy all enemy vehicles.</value>
+  <data name="95_lost_city/description" xml:space="preserve">
+    <value>This presidio located in the desert sands is an ideal setting for head-on heavy vehicle encounters, while the more maneuverable vehicles can launch surprise attacks by flanking the enemy.</value>
   </data>
-  <data name="type/ctf/name" xml:space="preserve">
-    <value>Standard Battle</value>
+  <data name="95_lost_city/name" xml:space="preserve">
+    <value>Ghost Town</value>
   </data>
-  <data name="type/ctf2/description" xml:space="preserve">
-    <value>Mission: capture at least one enemy base or destroy all enemy vehicles.</value>
+  <data name="101_dday/description" xml:space="preserve">
+    <value>The shoreline can be used by maneuverable vehicles to execute lightning attacks into the enemy rear. The central and eastern parts of the map are well-suited for methodical attacks by heavy vehicles with the support of allies.</value>
   </data>
-  <data name="type/ctf2/name" xml:space="preserve">
-    <value>Capture</value>
+  <data name="101_dday/name" xml:space="preserve">
+    <value>Overlord</value>
   </data>
-  <data name="type/ctf30x30/description" xml:space="preserve">
-    <value>Mission: capture the enemy base or destroy all enemy vehicles.</value>
+  <data name="111_paris/description" xml:space="preserve">
+    <value>Icebound</value>
   </data>
-  <data name="type/ctf30x30/name" xml:space="preserve">
-    <value>Grand Battle</value>
-  </data>
-  <data name="type/domination/description" xml:space="preserve">
-    <value>Mission: capture the base or destroy all enemy vehicles.</value>
-  </data>
-  <data name="type/domination/name" xml:space="preserve">
-    <value>Encounter Battle</value>
-  </data>
-  <data name="type/domination30x30/description" xml:space="preserve">
-    <value>Mission: capture the base or destroy all enemy vehicles.</value>
-  </data>
-  <data name="type/domination30x30/name" xml:space="preserve">
-    <value>Encounter Battle</value>
-  </data>
-  <data name="type/escort/description1" xml:space="preserve">
-    <value>Mission: keep the friendly base secure or destroy the top three enemy vehicles on the list.</value>
-  </data>
-  <data name="type/escort/description2" xml:space="preserve">
-    <value>Mission: capture the enemy base or destroy all enemy vehicles; however, at least one of the top three friendly vehicles on the list must survive.</value>
-  </data>
-  <data name="type/escort/name" xml:space="preserve">
-    <value>Escort</value>
+  <data name="111_paris/name" xml:space="preserve">
+    <value>Icebound</value>
   </data>
   <data name="type/fallout/description" xml:space="preserve">
     <value>Mission: earn more victory points than the enemy.</value>
   </data>
   <data name="type/fallout/name" xml:space="preserve">
     <value>Steel Hunt</value>
+  </data>
+  <data name="96_prohorovka_defense_test/description" xml:space="preserve">
+    <value>Generally open terrain featuring a large hill and a railway embankment. Scattered trees provide concealment for tank destroyers. On the offensive, strike against the enemy's flanks, but do not leave your own flanks unguarded. Artillery enjoys good fields of fire, but is still vulnerable to raids by light tanks.</value>
+  </data>
+  <data name="96_prohorovka_defense_test/name" xml:space="preserve">
+    <value>Fiery Salient (TEST)</value>
   </data>
   <data name="type/fallout1/description" xml:space="preserve">
     <value>Mission: earn more victory points than the enemy.</value>
@@ -501,13 +801,67 @@
   <data name="type/falloutMutliteam/description" xml:space="preserve">
     <value>Mission: earn more victory points than the enemy.</value>
   </data>
-  <data name="type/nations/description" xml:space="preserve">
-    <value>Mission: capture the base or destroy all enemy vehicles.</value>
+  <data name="105_germany/description" xml:space="preserve">
+    <value>Berlin</value>
   </data>
-  <data name="type/nations/name" xml:space="preserve">
-    <value>Confrontation</value>
+  <data name="105_germany/name" xml:space="preserve">
+    <value>Berlin</value>
+  </data>
+  <data name="112_eiffel_tower/description" xml:space="preserve">
+    <value>Paris</value>
+  </data>
+  <data name="112_eiffel_tower/name" xml:space="preserve">
+    <value>Paris</value>
   </data>
   <data name="type/sandbox/description1" xml:space="preserve">
     <value>Mission: capture the enemy base or destroy all enemy vehicles.</value>
+  </data>
+  <data name="114_czech/description" xml:space="preserve">
+    <value>Recent intelligence shows that the best tactic is to flank the enemy. The plant in the center may turn out to be a trap. Our reconnaissance units advise using it for a quick breakthrough at the end of the battle.</value>
+  </data>
+  <data name="114_czech/name" xml:space="preserve">
+    <value>Pilsen</value>
+  </data>
+  <data name="112_eiffel_tower_ctf/description" xml:space="preserve">
+    <value>Tight winding streets provide great cover for allied heavy vehicles. The central square is dangerous because shots can come from all directions, while the embankment of the Seine is an ideal area for approaches in fast, maneuverable vehicles.</value>
+  </data>
+  <data name="112_eiffel_tower_ctf/name" xml:space="preserve">
+    <value>Paris</value>
+  </data>
+  <data name="type/bootcamp/description0" xml:space="preserve">
+    <value>Follow the tips to complete the mission</value>
+  </data>
+  <data name="type/bootcamp/description1" xml:space="preserve">
+    <value>Find and destroy all enemy vehicles</value>
+  </data>
+  <data name="type/bootcamp/description2" xml:space="preserve">
+    <value>Spot enemy vehicles</value>
+  </data>
+  <data name="type/bootcamp/description3" xml:space="preserve">
+    <value>Capture the enemy base or destroy all enemy vehicles</value>
+  </data>
+  <data name="type/bootcamp/description4" xml:space="preserve">
+    <value>Capture the enemy base or destroy all enemy vehicles</value>
+  </data>
+  <data name="type/bootcamp/description5" xml:space="preserve">
+    <value>Capture the enemy base or destroy all enemy vehicles</value>
+  </data>
+  <data name="212_epic_random_valley/description" xml:space="preserve">
+    <value>Two massive mountains surround this peaceful valley. The space is watched over by the ruins of a castle, ruling over the nearby lake and woods. Vast fields are the perfect opportunity for fast and stealthy flanking, while a small village offers a more direct path into battle.</value>
+  </data>
+  <data name="212_epic_random_valley/name" xml:space="preserve">
+    <value>Nebelburg</value>
+  </data>
+  <data name="type/ctf30x30/description" xml:space="preserve">
+    <value>Mission: capture the enemy base or destroy all enemy vehicles.</value>
+  </data>
+  <data name="type/ctf30x30/name" xml:space="preserve">
+    <value>Grand Battle</value>
+  </data>
+  <data name="type/domination30x30/description" xml:space="preserve">
+    <value>Mission: capture the base or destroy all enemy vehicles.</value>
+  </data>
+  <data name="type/domination30x30/name" xml:space="preserve">
+    <value>Encounter Battle</value>
   </data>
 </root>

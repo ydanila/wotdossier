@@ -1,0 +1,606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PersonalMissionAwardView/award/freeSheet" xml:space="preserve">
+    <value>  !</value>
+  </data>
+  <data name="PersonalMissionAwardView/bottomTabs/awards" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PersonalMissionAwardView/bottomTabs/awards/additionalAwards" xml:space="preserve">
+    <value>      </value>
+  </data>
+  <data name="PersonalMissionAwardView/bottomTabs/awards/mainAwards" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PersonalMissionAwardView/bottomTabs/stats" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PersonalMissionAwardView/subTitle" xml:space="preserve">
+    <value>    ,     .</value>
+  </data>
+  <data name="PersonalMissionAwardView/title" xml:space="preserve">
+    <value>    !</value>
+  </data>
+  <data name="PersonalMissionAwardView/title/one" xml:space="preserve">
+    <value>    %(vehicleName)s!</value>
+  </data>
+  <data name="PersonalMissionAwardView/title/perfect" xml:space="preserve">
+    <value>     !</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/acknowledgeBtn" xml:space="preserve">
+    <value> !</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/descr" xml:space="preserve">
+    <value>           .       .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item0/header" xml:space="preserve">
+    <value>    </value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item1/descr" xml:space="preserve">
+    <value>  (   )  .       :    .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item1/header" xml:space="preserve">
+    <value>    !</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/descr" xml:space="preserve">
+    <value>  ,  ,        .</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/item2/header" xml:space="preserve">
+    <value>   5 </value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/subTitle" xml:space="preserve">
+    <value>   9.20.1</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/title" xml:space="preserve">
+    <value>     ?</value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/videoBtnLabel" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PersonalMissionFirstEntryView/videoWindowHeader" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PersonalMissionOperationsPage/hintLabel" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/additionalAward" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PersonalMissionsPlanRegion/mainAward" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="awardCongratulationView/button/label" xml:space="preserve">
+    <value> !</value>
+  </data>
+  <data name="awardCongratulationView/subTitle" xml:space="preserve">
+    <value> %(title)s</value>
+  </data>
+  <data name="awardCongratulationView/title" xml:space="preserve">
+    <value>!</value>
+  </data>
+  <data name="awardsView/awardsProgress/completionTokens" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="awardsView/awardsProgress/credits" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="awardsView/awardsProgress/modules" xml:space="preserve">
+    <value />
+  </data>
+  <data name="awardsView/awardsProgress/questsCompleted" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="awardsView/awardsProgress/tankwomanBonus" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="awardsView/closeBtn/label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="awardsView/mainAwards/title" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="awardsView/vehicleAward/mainAward" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="detailedView/completeBtnLabel" xml:space="preserve">
+    <value>  %(count)d %(icon)s</value>
+  </data>
+  <data name="detailedView/conditionsFullylabel" xml:space="preserve">
+    <value> :</value>
+  </data>
+  <data name="detailedView/conditionslabel" xml:space="preserve">
+    <value> :</value>
+  </data>
+  <data name="detailedView/declineBtnLabel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="detailedView/infoPanel/header" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="detailedView/orCondition" xml:space="preserve">
+    <value />
+  </data>
+  <data name="detailedView/recommendedVehicles" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="detailedView/recommendedVehiclesTooltipHeader" xml:space="preserve">
+    <value>   :</value>
+  </data>
+  <data name="detailedView/recruitBtnLabel" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="detailedView/retryBtnLabel" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="detailedView/startBtnLabel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="detailedView/status/NA" xml:space="preserve">
+    <value />
+  </data>
+  <data name="detailedView/status/completed" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="detailedView/status/fullyCompleted" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="detailedView/status/inProgress" xml:space="preserve">
+    <value />
+  </data>
+  <data name="detailedView/status/returnSheet" xml:space="preserve">
+    <value>:%(icon)s1</value>
+  </data>
+  <data name="detailedView/status/sheetUsed" xml:space="preserve">
+    <value>   %(icon)s1</value>
+  </data>
+  <data name="detailedView/tooltips/additionalConditions/body" xml:space="preserve">
+    <value>  ,              .</value>
+  </data>
+  <data name="detailedView/tooltips/additionalConditions/header" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="detailedView/tooltips/commonConditions/body" xml:space="preserve">
+    <value>  ,            .</value>
+  </data>
+  <data name="detailedView/tooltips/commonConditions/header" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="detailedView/tooltips/declineBtn/body" xml:space="preserve">
+    <value>,     .</value>
+  </data>
+  <data name="detailedView/tooltips/declineBtn/header" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="detailedView/tooltips/holdAwardSheetBtn/body" xml:space="preserve">
+    <value>,     ,   .</value>
+  </data>
+  <data name="detailedView/tooltips/holdAwardSheetBtn/disabled/body" xml:space="preserve">
+    <value>          ,    .</value>
+  </data>
+  <data name="detailedView/tooltips/holdAwardSheetBtn/disabled/header" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="detailedView/tooltips/holdAwardSheetBtn/header" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="detailedView/tooltips/recruitBtn/body" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="detailedView/tooltips/recruitBtn/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="detailedView/tooltips/retryBtn/body" xml:space="preserve">
+    <value>,    ,     .</value>
+  </data>
+  <data name="detailedView/tooltips/retryBtn/header" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="detailedView/tooltips/returnAwardListBtn/body" xml:space="preserve">
+    <value>,     ,          .</value>
+  </data>
+  <data name="detailedView/tooltips/returnAwardListBtn/header" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="detailedView/tooltips/startBtn/body" xml:space="preserve">
+    <value>,     .        .</value>
+  </data>
+  <data name="detailedView/tooltips/startBtn/header" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="fourFreeSheetsObtainedPopup/button" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fourFreeSheetsObtainedPopup/descr1" xml:space="preserve">
+    <value> 4     %(questName)s     .</value>
+  </data>
+  <data name="fourFreeSheetsObtainedPopup/descr2" xml:space="preserve">
+    <value>        %(pawnedCount)s .,   4    %(questName)s     .</value>
+  </data>
+  <data name="fourFreeSheetsObtainedPopup/header" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="freeSheetObtainedPopup/descrLeft" xml:space="preserve">
+    <value>    
+   .</value>
+  </data>
+  <data name="freeSheetObtainedPopup/descrRight" xml:space="preserve">
+    <value>      .</value>
+  </data>
+  <data name="freeSheetObtainedPopup/title" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="freeSheetObtainedPopup/titleLeft" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="freeSheetObtainedPopup/titleRight" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="freeSheetPopover/freeSheetsInfo/descr" xml:space="preserve">
+    <value>   ,   .</value>
+  </data>
+  <data name="freeSheetPopover/freeSheetsInfo/title" xml:space="preserve">
+    <value> : %(count)d</value>
+  </data>
+  <data name="freeSheetPopover/pawnedSheetsInfo/descr" xml:space="preserve">
+    <value>    ,    .</value>
+  </data>
+  <data name="freeSheetPopover/pawnedSheetsInfo/descr/noOne" xml:space="preserve">
+    <value>    
+   .</value>
+  </data>
+  <data name="freeSheetPopover/pawnedSheetsInfo/title" xml:space="preserve">
+    <value>  : %(count)d</value>
+  </data>
+  <data name="freeSheetPopover/title" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="header/backBtn/descrLabel/campaign" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="header/backBtn/descrLabel/hangar" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="header/backBtn/label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="operationInfo/awardsButton/label" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="operationInfo/label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="operationInfo/title" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="operationTitle/label/done" xml:space="preserve">
+    <value> : %(icon)s%(count)s/%(total)s  %(infoIcon)s</value>
+  </data>
+  <data name="operationTitle/label/excellentDone" xml:space="preserve">
+    <value>    </value>
+  </data>
+  <data name="operationTitle/label/inProgress" xml:space="preserve">
+    <value> : %(count)s/%(total)s  %(infoIcon)s</value>
+  </data>
+  <data name="operationTitle/label/locked" xml:space="preserve">
+    <value>:   </value>
+  </data>
+  <data name="operationTitle/label/noVehicle" xml:space="preserve">
+    <value>:   </value>
+  </data>
+  <data name="operationTitle/label/toMaster" xml:space="preserve">
+    <value>  : %(count)s/%(total)s  %(infoIcon)s</value>
+  </data>
+  <data name="operationTitle/label/unlocked" xml:space="preserve">
+    <value>   </value>
+  </data>
+  <data name="operationTitle/title" xml:space="preserve">
+    <value>: %(title)s</value>
+  </data>
+  <data name="operationUnlockedWindow/awardText" xml:space="preserve">
+    <value>!        %(title)s.</value>
+  </data>
+  <data name="operationUnlockedWindow/descr" xml:space="preserve">
+    <value>  %(label)s,          .</value>
+  </data>
+  <data name="operationUnlockedWindow/header" xml:space="preserve">
+    <value> %(title)s</value>
+  </data>
+  <data name="operationUnlockedWindow/nextButton" xml:space="preserve">
+    <value />
+  </data>
+  <data name="operationUnlockedWindow/title" xml:space="preserve">
+    <value>   </value>
+  </data>
+  <data name="operations/completed/desc" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="operations/current/desc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="operations/fullyCompleted/desc" xml:space="preserve">
+    <value>
+ </value>
+  </data>
+  <data name="operations/locked/desc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="operations/title1" xml:space="preserve">
+    <value>StuG IV</value>
+  </data>
+  <data name="operations/title2" xml:space="preserve">
+    <value>T28 HTC</value>
+  </data>
+  <data name="operations/title3" xml:space="preserve">
+    <value>T55 A</value>
+  </data>
+  <data name="operations/title4" xml:space="preserve">
+    <value> 260</value>
+  </data>
+  <data name="operations/unlocked/desc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="personalMissions/tankgirlsPopover/recruitBtn" xml:space="preserve">
+    <value />
+  </data>
+  <data name="personalMissions/tankgirlsPopover/title" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="personalMissions/video/title" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="sidebar/completed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sidebar/fullCompleted" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="sidebar/notSelected" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="sidebar/vehicles/AT-SPG" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="sidebar/vehicles/SPG" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sidebar/vehicles/heavyTank" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="sidebar/vehicles/lightTank" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="sidebar/vehicles/mediumTank" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="statusPanel/freeSheetBtn/label" xml:space="preserve">
+    <value>  %(count)d %(icon)s</value>
+  </data>
+  <data name="statusPanel/freeSheets" xml:space="preserve">
+    <value> : %(count)s</value>
+  </data>
+  <data name="statusPanel/pawnedSheets" xml:space="preserve">
+    <value>  : %(count)s</value>
+  </data>
+  <data name="statusPanel/status/allDone" xml:space="preserve">
+    <value>   %(vehicleClass)s </value>
+  </data>
+  <data name="statusPanel/status/allExcellentDone" xml:space="preserve">
+    <value>   %(vehicleClass)s   </value>
+  </data>
+  <data name="statusPanel/status/freeSheet" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="statusPanel/status/improve" xml:space="preserve">
+    <value>( )</value>
+  </data>
+  <data name="statusPanel/status/locked" xml:space="preserve">
+    <value>:   </value>
+  </data>
+  <data name="statusPanel/status/noVehicle" xml:space="preserve">
+    <value>:      %(vehicleClass)s</value>
+  </data>
+  <data name="statusPanel/status/pawned" xml:space="preserve">
+    <value>( %(count)d %(icon)s)</value>
+  </data>
+  <data name="statusPanel/status/selectTask" xml:space="preserve">
+    <value>     </value>
+  </data>
+  <data name="tankmoduleTooltipData/help/body" xml:space="preserve">
+    <value>          %(vehType)s.</value>
+  </data>
+  <data name="tankmoduleTooltipData/help/title" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="tankmoduleTooltipData/info" xml:space="preserve">
+    <value>    %(vehName)s</value>
+  </data>
+  <data name="tankmoduleTooltipData/status/available" xml:space="preserve">
+    <value>  %(count)d %(img)s</value>
+  </data>
+  <data name="tankmoduleTooltipData/status/notObtained" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="tankmoduleTooltipData/status/obtained" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="tankwomanTooltipData/advantages/brotherhood" xml:space="preserve">
+    <value>   .</value>
+  </data>
+  <data name="tankwomanTooltipData/advantages/nation" xml:space="preserve">
+    <value>  ,    ,    100%.</value>
+  </data>
+  <data name="tankwomanTooltipData/advantages/newPerk" xml:space="preserve">
+    <value>     ,   100%.</value>
+  </data>
+  <data name="tankwomanTooltipData/advantages/title" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="tankwomanTooltipData/desc/body" xml:space="preserve">
+    <value>       ,   .</value>
+  </data>
+  <data name="tankwomanTooltipData/desc/title" xml:space="preserve">
+    <value> :</value>
+  </data>
+  <data name="tankwomanTooltipData/subTitle" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="tankwomanTooltipData/title" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="taskDetailsView/additionalConditions" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="taskDetailsView/btnLabel/returnAwardSheet" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="taskDetailsView/btnLabel/returnAwardSheets" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="taskDetailsView/mainConditions" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="useAwardSheetWindow/cancelBtn" xml:space="preserve">
+    <value />
+  </data>
+  <data name="useAwardSheetWindow/descr" xml:space="preserve">
+    <value>     </value>
+  </data>
+  <data name="useAwardSheetWindow/info" xml:space="preserve">
+    <value>      .</value>
+  </data>
+  <data name="useAwardSheetWindow/locked" xml:space="preserve">
+    <value>      .</value>
+  </data>
+  <data name="useAwardSheetWindow/needAmount" xml:space="preserve">
+    <value> : %(count)s</value>
+  </data>
+  <data name="useAwardSheetWindow/noVehicle" xml:space="preserve">
+    <value>    : %(vehicleClass)s.</value>
+  </data>
+  <data name="useAwardSheetWindow/sheetsTotal" xml:space="preserve">
+    <value>: %(count)s</value>
+  </data>
+  <data name="useAwardSheetWindow/submitBtn" xml:space="preserve">
+    <value />
+  </data>
+  <data name="useAwardSheetWindow/title" xml:space="preserve">
+    <value>   </value>
+  </data>
+</root>

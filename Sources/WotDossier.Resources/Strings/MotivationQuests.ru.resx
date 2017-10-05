@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="common/congratulation" xml:space="preserve">
+    <value>Поздравляем! Вы выполнили условия задачи и получили награду</value>
+  </data>
+  <data name="common/requirements" xml:space="preserve">
+    <value>Выполняется на любой машине IV уровня и выше.</value>
+  </data>
+  <data name="g1/advice" xml:space="preserve">
+    <value>Победить в бою можно уничтожив всю технику противника или захватив его базу. Старайтесь действовать аккуратно и не лезьте напролом. Совместные командные действия — залог выживания в бою.</value>
+  </data>
+  <data name="g1/description" xml:space="preserve">
+    <value>Выполнять условие в 3 боях подряд не обязательно.</value>
+  </data>
+  <data name="g1/name" xml:space="preserve">
+    <value>Боевые будни</value>
+  </data>
+  <data name="g10/advice" xml:space="preserve">
+    <value>Каким бы типом техники вы не управляли, всегда будет возможность нанести большое количество урона. Выбирайте такие цели, которые сможете поразить, и выживайте как можно дольше — к концу боя у вас будет солидное количество нанесённого урона.</value>
+  </data>
+  <data name="g10/description" xml:space="preserve">
+    <value>Выполнять условие в 2 боях подряд не обязательно.</value>
+  </data>
+  <data name="g10/name" xml:space="preserve">
+    <value>Пример для подражания: урон</value>
+  </data>
+  <data name="g2/advice" xml:space="preserve">
+    <value>Тяжёлые танки имеют неплохие орудия и крепкую лобовую броню, которую не так просто пробить. Однако за это они расплачиваются слабой подвижностью, что позволяет легко обойти их с борта или с тыла, где их броня легко поддастся вашим снарядам.</value>
+  </data>
+  <data name="g2/description" xml:space="preserve">
+    <value>Суммируется результат за все проведённые бои на любой машине.</value>
+  </data>
+  <data name="g2/name" xml:space="preserve">
+    <value>Точно в цель: тяжёлые танки</value>
+  </data>
+  <data name="g3/advice" xml:space="preserve">
+    <value>Средние танки — универсальные солдаты на любом поле боя, которые выполняют самый широкий спектр задач, начиная от прикрытия основных ударных сил и заканчивая стремительными фланговыми прорывами. Старайтесь не пропускать их в свой тыл, уничтожая ещё на подходе.</value>
+  </data>
+  <data name="g3/description" xml:space="preserve">
+    <value>Суммируется результат за все проведённые бои на любой машине.</value>
+  </data>
+  <data name="g3/name" xml:space="preserve">
+    <value>Точно в цель: средние танки</value>
+  </data>
+  <data name="g4/advice" xml:space="preserve">
+    <value>У лёгких танков слабая броня и орудия, однако прекрасные скорость и незаметность. Главная задача лёгких танков - передача разведданных и отвлечение внимания команды противника.</value>
+  </data>
+  <data name="g4/description" xml:space="preserve">
+    <value>Суммируется результат за все проведённые бои на любой машине.</value>
+  </data>
+  <data name="g4/name" xml:space="preserve">
+    <value>Точно в цель: лёгкие танки</value>
+  </data>
+  <data name="g5/advice" xml:space="preserve">
+    <value>Противотанковые самоходные установки — грозная сила, обладающая хорошим вооружением и маскировкой, за что расплачивается часто посредственными ходовыми характеристиками. Старайтесь обнаруживать и уничтожать их как можно раньше.</value>
+  </data>
+  <data name="g5/description" xml:space="preserve">
+    <value>Суммируется результат за все проведённые бои на любой машине.</value>
+  </data>
+  <data name="g5/name" xml:space="preserve">
+    <value>Точно в цель: ПТ-САУ</value>
+  </data>
+  <data name="g6/advice" xml:space="preserve">
+    <value>Чем меньше машин осталось у противника, тем ближе победа. Действуйте осмотрительно, старайтесь выжить и нанести как можно больше урона. Используйте особенности местности, чтобы вести огонь по противнику, не подставляясь под его выстрелы.</value>
+  </data>
+  <data name="g6/description" xml:space="preserve">
+    <value>Суммируется результат за все проведённые бои на любой машине.</value>
+  </data>
+  <data name="g6/name" xml:space="preserve">
+    <value>Пополняя копилку</value>
+  </data>
+  <data name="g7/advice" xml:space="preserve">
+    <value>В каждой машине есть ряд внутренних и внешних модулей, а также экипаж, критические попадания по которым могут существенно снизить эффективность машины в бою. Изучайте слабые места техники: это поможет и наносить эффективный урон прочности, модулям и экипажу, и не подставлять под выстрелы уязвимые места своей машины.</value>
+  </data>
+  <data name="g7/description" xml:space="preserve">
+    <value>Суммируется результат за все проведённые бои на любой машине.</value>
+  </data>
+  <data name="g7/name" xml:space="preserve">
+    <value>Бить навылет</value>
+  </data>
+  <data name="g8/advice" xml:space="preserve">
+    <value>Захват базы — один из способов победить. Зачастую, когда противник занят боем, вы можете незаметно проскочить на его базу и захватить её. Помните: чем больше машин находится в круге захвата — тем быстрее идёт захват. Максимальная скорость захвата достигается при 3 захватчиках.</value>
+  </data>
+  <data name="g8/name" xml:space="preserve">
+    <value>План «Б»</value>
+  </data>
+  <data name="g9/advice" xml:space="preserve">
+    <value>Опыт в бою начисляется за любые полезные действия: за обнаружение техники и передачу разведданных, нанесение урона и уничтожение машин противника, захват или защиту базы, а также за победу в бою.</value>
+  </data>
+  <data name="g9/description" xml:space="preserve">
+    <value>Выполнять условие в 2 боях подряд не обязательно.</value>
+  </data>
+  <data name="g9/name" xml:space="preserve">
+    <value>Пример для подражания: опыт</value>
+  </data>
+  <data name="group" xml:space="preserve">
+    <value>Курс молодого бойца</value>
+  </data>
+</root>

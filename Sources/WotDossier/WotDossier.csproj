@@ -203,6 +203,7 @@
     </Compile>
     <Compile Include="Converters\BoolToRowHeightConverter.cs" />
     <Compile Include="Converters\Color\AliveToColorConverter.cs" />
+    <Compile Include="Converters\Color\NegativeToColorConverter.cs" />
     <Compile Include="Converters\Color\FragsToColorConverter.cs" />
     <Compile Include="Converters\Ratings\PointsToPalleteConverter.cs" />
     <Compile Include="Converters\Color\SpottedToColorConverter.cs" />

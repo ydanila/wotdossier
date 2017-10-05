@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using System.Collections.Generic;
+using System.Runtime.Serialization;
 
 namespace WotDossier.Domain.Replay
 {
@@ -7,5 +8,7 @@ namespace WotDossier.Domain.Replay
     {
         [DataMember]
         public bool eligibleForCrystalRewards { get; set; }
-    }
+	    [DataMember]
+	    public List<int> fairplayViolations { get; set; }
+	}
 }

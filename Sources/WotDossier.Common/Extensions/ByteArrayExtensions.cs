@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace WotDossier.Common.Extensions
@@ -87,7 +88,14 @@ namespace WotDossier.Common.Extensions
             }
             return result;
         }
-        
+
+	    public static bool Compare(this byte[] source, byte[] target)
+	    {
+		    if (source == null && target == null) return true;
+		    if (source == null || target == null) return false;
+		    if (source.Length != target.Length) return false;
+		    return !source.Where((t, i) => t != target[i]).Any();
+	    }
 
         public static byte[] Xor(byte[] result, byte[] matchValue)
         {

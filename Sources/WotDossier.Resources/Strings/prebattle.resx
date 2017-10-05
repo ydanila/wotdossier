@@ -112,16 +112,16 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="buttons/battleSession/leave" xml:space="preserve">
     <value>Leave</value>
   </data>
-  <data name="companyListView/filterButton/label" xml:space="preserve">
-    <value>Search</value>
+  <data name="buttons/company/create" xml:space="preserve">
+    <value>Create Tank Company</value>
   </data>
   <data name="dialogs/buttons/notReady" xml:space="preserve">
     <value>Not Ready</value>
@@ -129,14 +129,53 @@
   <data name="dialogs/buttons/ready" xml:space="preserve">
     <value>Ready!</value>
   </data>
+  <data name="labels/company/defaultComment" xml:space="preserve">
+    <value>Add description—</value>
+  </data>
+  <data name="labels/company/defaultText" xml:space="preserve">
+    <value>Click to change the text...</value>
+  </data>
+  <data name="labels/company/division/ABSOLUTE" xml:space="preserve">
+    <value>Absolute</value>
+  </data>
+  <data name="labels/company/division/ALL" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="labels/company/division/CHAMPION" xml:space="preserve">
+    <value>Champion</value>
+  </data>
+  <data name="labels/company/division/JUNIOR" xml:space="preserve">
+    <value>Junior</value>
+  </data>
+  <data name="labels/company/division/MIDDLE" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="labels/company/division/NA" xml:space="preserve">
+    <value>Undefined</value>
+  </data>
+  <data name="labels/company/isOpen" xml:space="preserve">
+    <value>Open Tank Company</value>
+  </data>
+  <data name="labels/company/limits" xml:space="preserve">
+    <value>Tiers allowed:</value>
+  </data>
+  <data name="labels/company/notInBattle" xml:space="preserve">
+    <value>Not in battle</value>
+  </data>
+  <data name="labels/company/players/bottom" xml:space="preserve">
+    <value>Click to join</value>
+  </data>
+  <data name="labels/company/players/top" xml:space="preserve">
+    <value>Military Personnel</value>
+  </data>
   <data name="labels/company/queue" xml:space="preserve">
     <value>Queue</value>
   </data>
+  <data name="labels/company/stats/count" xml:space="preserve">
+    <value>Tank Company members: %(playersCount)s/%(maxCount)s</value>
+  </data>
   <data name="labels/level" xml:space="preserve">
     <value>Level</value>
-  </data>
-  <data name="labels/members" xml:space="preserve">
-    <value>Members: %(membersCount)d [%(maxMembersCount)d]</value>
   </data>
   <data name="labels/player" xml:space="preserve">
     <value>Player</value>
@@ -162,9 +201,6 @@
   <data name="labels/vehicle" xml:space="preserve">
     <value>Vehicle</value>
   </data>
-  <data name="memberList/empty/label" xml:space="preserve">
-    <value>Select players from the queue and transfer them to the regular team.</value>
-  </data>
   <data name="stats/battleSession/commonLevel" xml:space="preserve">
     <value>Tier:</value>
   </data>
@@ -173,30 +209,6 @@
   </data>
   <data name="stats/battleSession/vehicleType" xml:space="preserve">
     <value>Type:</value>
-  </data>
-  <data name="switchPeripheryWindow/fort/applySwitchLabel" xml:space="preserve">
-    <value>To plan and engage in Skirmishes, transfer to the %(server)s server.</value>
-  </data>
-  <data name="switchPeripheryWindow/fort/description" xml:space="preserve">
-    <value>You are currently connected to the %(server)s server. Skirmish restrictions are currently active on this server.</value>
-  </data>
-  <data name="switchPeripheryWindow/fort/header" xml:space="preserve">
-    <value>Attention!</value>
-  </data>
-  <data name="switchPeripheryWindow/fort/selectServerLabel" xml:space="preserve">
-    <value>To plan and engage in Skirmishes, transfer to another server:</value>
-  </data>
-  <data name="switchPeripheryWindow/ranked/applySwitchLabel" xml:space="preserve">
-    <value>To play in the Ranked Battle mode, please select another server.</value>
-  </data>
-  <data name="switchPeripheryWindow/ranked/description" xml:space="preserve">
-    <value>Ceasefire is now in effect on the %(server)s server. Ranked Battles are unavailable.</value>
-  </data>
-  <data name="switchPeripheryWindow/ranked/header" xml:space="preserve">
-    <value>Attention!</value>
-  </data>
-  <data name="switchPeripheryWindow/ranked/selectServerLabel" xml:space="preserve">
-    <value>To play in the Ranked Battle mode, please select another server:</value>
   </data>
   <data name="title/battleSession/arenaType" xml:space="preserve">
     <value>Map:</value>
@@ -212,5 +224,65 @@
   </data>
   <data name="title/battleSession/startTime" xml:space="preserve">
     <value>Starting time:</value>
+  </data>
+  <data name="labels/members" xml:space="preserve">
+    <value>Members: %(membersCount)d [%(maxMembersCount)d]</value>
+  </data>
+  <data name="Company/header/fallout/requiredVehiclesCount" xml:space="preserve">
+    <value>Vehicles: %(vehiclesCount)s</value>
+  </data>
+  <data name="Company/header/fallout/requirementsTitle" xml:space="preserve">
+    <value>Vehicle Requirements for Domination: Supply Swarm</value>
+  </data>
+  <data name="labels/company/division/EVENT" xml:space="preserve">
+    <value>Domination: Supply Swarm 15x15</value>
+  </data>
+  <data name="labels/company/division/EVENT_10x10" xml:space="preserve">
+    <value>Domination: Supply Swarm 10x10</value>
+  </data>
+  <data name="labels/company/restriction" xml:space="preserve">
+    <value>Suitable vehicles have (D) in their names.</value>
+  </data>
+  <data name="switchPeripheryWindow/company/applySwitchLabel" xml:space="preserve">
+    <value>To create a Tank Company Battle, transfer to the %(server)s server.</value>
+  </data>
+  <data name="switchPeripheryWindow/company/description" xml:space="preserve">
+    <value>You are currently connected to the %(server)s server. Tank Company Battle restrictions are currently active on this server.</value>
+  </data>
+  <data name="switchPeripheryWindow/company/header" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="switchPeripheryWindow/company/selectServerLabel" xml:space="preserve">
+    <value>To create a Tank Company Battle, transfer to one of the following servers:</value>
+  </data>
+  <data name="switchPeripheryWindow/fort/applySwitchLabel" xml:space="preserve">
+    <value>To plan and engage in Skirmishes, transfer to the %(server)s server.</value>
+  </data>
+  <data name="switchPeripheryWindow/fort/description" xml:space="preserve">
+    <value>You are currently connected to the %(server)s server. Skirmish restrictions are currently active on this server.</value>
+  </data>
+  <data name="switchPeripheryWindow/fort/header" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="switchPeripheryWindow/fort/selectServerLabel" xml:space="preserve">
+    <value>To plan and engage in Skirmishes, transfer to another server:</value>
+  </data>
+  <data name="companyListView/filterButton/label" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="memberList/empty/label" xml:space="preserve">
+    <value>Select players from the queue and transfer them to the regular team.</value>
+  </data>
+  <data name="switchPeripheryWindow/ranked/applySwitchLabel" xml:space="preserve">
+    <value>To play in the Ranked Battle mode, please select another server.</value>
+  </data>
+  <data name="switchPeripheryWindow/ranked/description" xml:space="preserve">
+    <value>Ceasefire is now in effect on the %(server)s server. Ranked Battles are unavailable.</value>
+  </data>
+  <data name="switchPeripheryWindow/ranked/header" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="switchPeripheryWindow/ranked/selectServerLabel" xml:space="preserve">
+    <value>To play in the Ranked Battle mode, please select another server:</value>
   </data>
 </root>

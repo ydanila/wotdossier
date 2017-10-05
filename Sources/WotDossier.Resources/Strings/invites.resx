@@ -112,11 +112,408 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="errors/creationNotAllowed" xml:space="preserve">
+    <value>Not enough permissions to create an invitation.</value>
+  </data>
+  <data name="errors/invalid" xml:space="preserve">
+    <value>Invalid invitation.</value>
+  </data>
+  <data name="errors/inviteNotSupported" xml:space="preserve">
+    <value>This type of invitation is not available at the moment. Try again later.</value>
+  </data>
+  <data name="errors/receiverIgnoreSender" xml:space="preserve">
+    <value>The invitation recipient added you to their Blacklist.</value>
+  </data>
+  <data name="errors/selfinvite" xml:space="preserve">
+    <value>You cannot invite yourself.</value>
+  </data>
+  <data name="errors/unknownuser" xml:space="preserve">
+    <value>This user has not registered in the system yet.</value>
+  </data>
+  <data name="errors/useroffline" xml:space="preserve">
+    <value>User is offline.</value>
+  </data>
+  <data name="errors/vehicleBrokenOrLocked" xml:space="preserve">
+    <value>The vehicle in the Garage is damaged or locked. Select another vehicle.</value>
+  </data>
+  <data name="gui/buttons/accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="gui/buttons/cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="gui/buttons/reject" xml:space="preserve">
+    <value>Decline</value>
+  </data>
+  <data name="gui/buttons/send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="gui/labels/additionalText" xml:space="preserve">
+    <value>Additional invitation text:</value>
+  </data>
+  <data name="gui/labels/inviteText" xml:space="preserve">
+    <value>Invitation text:</value>
+  </data>
+  <data name="gui/labels/receiver" xml:space="preserve">
+    <value>Recipient:</value>
+  </data>
+  <data name="gui/titles/barter" xml:space="preserve">
+    <value>Trade Invitation</value>
+  </data>
+  <data name="gui/titles/clan" xml:space="preserve">
+    <value>Clan Invitation</value>
+  </data>
+  <data name="gui/titles/company" xml:space="preserve">
+    <value>Team Invitation</value>
+  </data>
+  <data name="gui/titles/receivedInvites" xml:space="preserve">
+    <value>Invitations</value>
+  </data>
+  <data name="gui/titles/squad" xml:space="preserve">
+    <value>Platoon Invitation</value>
+  </data>
+  <data name="gui/titles/training" xml:space="preserve">
+    <value>Training Room Invitation</value>
+  </data>
+  <data name="invites/company/accept" xml:space="preserve">
+    <value>%(receiver)s accepted %(sender)s invitation to join the Tank Company.</value>
+  </data>
+  <data name="invites/company/invalidInvite/receiver-side" xml:space="preserve">
+    <value>You are unable to accept %(sender)s invitation to join the Tank Company.</value>
+  </data>
+  <data name="invites/company/invalidInvite/sender-side" xml:space="preserve">
+    <value>%(receiver)s was unable to accept %(sender)s invitation to join the Tank Company.</value>
+  </data>
+  <data name="invites/company/invite" xml:space="preserve">
+    <value>%(sender)s invites you to join the Tank Company.</value>
+  </data>
+  <data name="invites/company/reject" xml:space="preserve">
+    <value>%(receiver)s declined %(sender)s invitation to join the Tank Company.</value>
+  </data>
+  <data name="invites/prebattle/acceptNotAllowed/otherPeriphery" xml:space="preserve">
+    <value>You are unable to accept the invitation. To accept the invitation, please select server '%(host)s'.</value>
+  </data>
+  <data name="invites/prebattle/acceptNotAllowed/undefinedPeriphery" xml:space="preserve">
+    <value>You are unable to accept the invitation. To accept the invitation, please select another server.</value>
+  </data>
+  <data name="invites/squad/accept" xml:space="preserve">
+    <value>%(receiver)s accepted %(sender)s invitation to join the Platoon.</value>
+  </data>
+  <data name="invites/squad/invalidInvite/receiver-side" xml:space="preserve">
+    <value>You are unable to accept %(sender)s invitation to join the Platoon.</value>
+  </data>
+  <data name="invites/squad/invalidInvite/sender-side" xml:space="preserve">
+    <value>%(receiver)s ignored %(sender)s invitation to join the Platoon.</value>
+  </data>
+  <data name="invites/squad/invite" xml:space="preserve">
+    <value>%(sender)s invites you to join the Platoon.</value>
+  </data>
+  <data name="invites/squad/reject" xml:space="preserve">
+    <value>%(receiver)s declined %(sender)s invitation to join the Platoon.</value>
+  </data>
+  <data name="invites/training/accept" xml:space="preserve">
+    <value>%(receiver)s accepted %(sender)s invitation to join the training room.</value>
+  </data>
+  <data name="invites/training/invalidInvite/receiver-side" xml:space="preserve">
+    <value>You are unable to accept %(sender)s invitation to join the training room.</value>
+  </data>
+  <data name="invites/training/invalidInvite/sender-side" xml:space="preserve">
+    <value>%(receiver)s ignored %(sender)s invitation to join the training room.</value>
+  </data>
+  <data name="invites/training/invite" xml:space="preserve">
+    <value>%(sender)s invites you to join the training room.</value>
+  </data>
+  <data name="invites/training/reject" xml:space="preserve">
+    <value>%(receiver)s declined %(sender)s invitation to join the training room.</value>
+  </data>
+  <data name="gui/titles/invite" xml:space="preserve">
+    <value>Invitation</value>
+  </data>
+  <data name="invites/note/clan/leave" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the battle on the Global Map.</value>
+  </data>
+  <data name="invites/note/clan/leave_and_change" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the battle on the Global Map and transferred to %(host)s server.</value>
+  </data>
+  <data name="invites/note/company/leave" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the Tank Company.</value>
+  </data>
+  <data name="invites/note/company/leave_and_change" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the Tank Company and transferred to %(host)s server.</value>
+  </data>
+  <data name="invites/note/server_change" xml:space="preserve">
+    <value>You will be automatically transferred to %(host)s server.</value>
+  </data>
+  <data name="invites/note/squad/leave" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the Platoon.</value>
+  </data>
+  <data name="invites/note/squad/leave_and_change" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the Platoon and transferred to %(host)s server.</value>
+  </data>
+  <data name="invites/note/tournament/leave" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the tournament.</value>
+  </data>
+  <data name="invites/note/tournament/leave_and_change" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the tournament and transferred to %(host)s server.</value>
+  </data>
+  <data name="invites/note/training/leave" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the training room.</value>
+  </data>
+  <data name="invites/note/training/leave_and_change" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the training room and transferred to %(host)s server.</value>
+  </data>
+  <data name="invites/note/unit/leave" xml:space="preserve">
+    <value>Once you accept the invitation, you will exit Team Battle mode.</value>
+  </data>
+  <data name="invites/note/unit/leave_and_change" xml:space="preserve">
+    <value>Once you accept the invitation, you will exit Team Battle mode and you will be transferred to server %(host)s.</value>
+  </data>
+  <data name="invites/unit/accept" xml:space="preserve">
+    <value>%(receiver)s accepted %(sender)s invitation to join the team.</value>
+  </data>
+  <data name="invites/unit/invalidInvite/receiver-side" xml:space="preserve">
+    <value>You are unable to accept %(sender)s invitation to join the team.</value>
+  </data>
+  <data name="invites/unit/invalidInvite/sender-side" xml:space="preserve">
+    <value>%(receiver)s did not reply to %(sender)s invitation to join the team.</value>
+  </data>
+  <data name="invites/unit/invite" xml:space="preserve">
+    <value>%(sender)s invites you to join the team.</value>
+  </data>
+  <data name="invites/unit/reject" xml:space="preserve">
+    <value>%(receiver)s declined %(sender)s invitation to join the team.</value>
+  </data>
+  <data name="invites/prebattle/acceptNotAllowed/clanAlreadyJoined" xml:space="preserve">
+    <value>You have already joined the battle on the Global Map.</value>
+  </data>
+  <data name="invites/prebattle/acceptNotAllowed/companyAlreadyJoined" xml:space="preserve">
+    <value>You have already joined the Tank Company.</value>
+  </data>
+  <data name="invites/prebattle/acceptNotAllowed/squadAlreadyJoined" xml:space="preserve">
+    <value>You have already joined the Platoon.</value>
+  </data>
+  <data name="invites/prebattle/acceptNotAllowed/tournamentAlreadyJoined" xml:space="preserve">
+    <value>You have already joined the tournament.</value>
+  </data>
+  <data name="invites/prebattle/acceptNotAllowed/trainingAlreadyJoined" xml:space="preserve">
+    <value>You have already joined the training room.</value>
+  </data>
+  <data name="invites/prebattle/acceptNotAllowed/unitAlreadyJoined" xml:space="preserve">
+    <value>You have already joined the team.</value>
+  </data>
+  <data name="invites/comment" xml:space="preserve">
+    <value>"%(comment)s"</value>
+  </data>
+  <data name="invites/note/change_and_leave/CLAN" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the battle on the Global Map and transferred to %(host)s server.</value>
+  </data>
+  <data name="invites/note/change_and_leave/COMPANY" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the Tank Company and transferred to %(host)s server.</value>
+  </data>
+  <data name="invites/note/change_and_leave/HISTORICAL" xml:space="preserve">
+    <value>Once you accept the invitation, you will exit Historical Battle mode and you will be transferred to server %(host)s.</value>
+  </data>
+  <data name="invites/note/change_and_leave/SQUAD" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically removed from the Platoon and transferred to %(host)s server.</value>
+  </data>
+  <data name="invites/note/change_and_leave/TOURNAMENT" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the tournament and transferred to %(host)s server.</value>
+  </data>
+  <data name="invites/note/change_and_leave/TRAINING" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from team training and transferred to %(host)s server.</value>
+  </data>
+  <data name="invites/note/change_and_leave/UNIT" xml:space="preserve">
+    <value>Once you accept the invitation, you will exit the Team Battle mode and transferred to %(host)s server.</value>
+  </data>
+  <data name="invites/note/leave/CLAN" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the battle on the Global Map.</value>
+  </data>
+  <data name="invites/note/leave/COMPANY" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the Tank Company.</value>
+  </data>
+  <data name="invites/note/leave/HISTORICAL" xml:space="preserve">
+    <value>Once you accept the invitation, you will exit Historical Battle mode.</value>
+  </data>
+  <data name="invites/note/leave/SQUAD" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically removed from the Platoon.</value>
+  </data>
+  <data name="invites/note/leave/TOURNAMENT" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the tournament.</value>
+  </data>
+  <data name="invites/note/leave/TRAINING" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from team training.</value>
+  </data>
+  <data name="invites/note/leave/UNIT" xml:space="preserve">
+    <value>Once you accept the invitation, you will exit the Team Battle mode.</value>
+  </data>
+  <data name="invites/prebattle/alreadyJoined/CLAN" xml:space="preserve">
+    <value>You have already joined the battle on the Global Map.</value>
+  </data>
+  <data name="invites/prebattle/alreadyJoined/COMPANY" xml:space="preserve">
+    <value>You have already joined the Tank Company.</value>
+  </data>
+  <data name="invites/prebattle/alreadyJoined/SQUAD" xml:space="preserve">
+    <value>You have already joined the Platoon.</value>
+  </data>
+  <data name="invites/prebattle/alreadyJoined/TOURNAMENT" xml:space="preserve">
+    <value>You have already joined the tournament.</value>
+  </data>
+  <data name="invites/prebattle/alreadyJoined/TRAINING" xml:space="preserve">
+    <value>You have already joined team training.</value>
+  </data>
+  <data name="invites/prebattle/alreadyJoined/UNIT" xml:space="preserve">
+    <value>You have already joined the team.</value>
+  </data>
+  <data name="invites/state/ACCEPTED" xml:space="preserve">
+    <value>Invitation accepted.</value>
+  </data>
+  <data name="invites/state/ACTIVE" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="invites/state/DECLINED" xml:space="preserve">
+    <value>Invitation declined.</value>
+  </data>
+  <data name="invites/state/EXPIRED" xml:space="preserve">
+    <value>Invalid invitation.</value>
+  </data>
+  <data name="invites/text/COMPANY" xml:space="preserve">
+    <value>%(titleStartTag)sInvitation to Join the Tank Company%(titleEndTag)s</value>
+  </data>
+  <data name="invites/text/SQUAD" xml:space="preserve">
+    <value>%(titleStartTag)sInvitation to Join the Platoon%(titleEndTag)s</value>
+  </data>
+  <data name="invites/text/TRAINING" xml:space="preserve">
+    <value>%(titleStartTag)sInvitation to Join Team Training%(titleEndTag)s</value>
+  </data>
+  <data name="invites/text/UNIT" xml:space="preserve">
+    <value>%(titleStartTag)sInvitation to Join the Team%(titleEndTag)s</value>
+  </data>
+  <data name="invites/note/change_and_leave/SORTIE" xml:space="preserve">
+    <value>Once you accept the invitation, you will exit Strongholds: Battles mode and you will be transferred to server %(host)s.</value>
+  </data>
+  <data name="invites/note/leave/SORTIE" xml:space="preserve">
+    <value>Once you accept the invitation, you will exit Strongholds: Battles mode.</value>
+  </data>
+  <data name="invites/prebattle/alreadyJoined/SORTIE" xml:space="preserve">
+    <value>You have already joined the detachment.</value>
+  </data>
+  <data name="invites/text/SORTIE" xml:space="preserve">
+    <value>%(titleStartTag)sInvitation to Join the Detachment%(titleEndTag)s</value>
+  </data>
+  <data name="invites/note/change_and_leave/FORT_BATTLE" xml:space="preserve">
+    <value>Once you accept the invitation, you will leave Strongholds: Battles and will be transferred to %(host)s server.</value>
+  </data>
+  <data name="invites/note/leave/FORT_BATTLE" xml:space="preserve">
+    <value>Once you accept the invitation, you will leave Strongholds: Battles.</value>
+  </data>
+  <data name="invites/text/FORT_BATTLE" xml:space="preserve">
+    <value>%(titleStartTag)sInvitation to Battle%(titleEndTag)s</value>
+  </data>
+  <data name="invites/text/creatorName" xml:space="preserve">
+    <value>from %(nameStartTag)s%(name)s%(nameEndTag)s</value>
+  </data>
+  <data name="invites/text/fort/defence" xml:space="preserve">
+    <value>Defense Period</value>
+  </data>
+  <data name="invites/text/fort/direction" xml:space="preserve">
+    <value>Bridgehead</value>
+  </data>
+  <data name="invites/text/fort/offence" xml:space="preserve">
+    <value>Attack on</value>
+  </data>
+  <data name="invites/note/change_and_leave/EVENT_SQUAD" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the Special Platoon and transferred to %(host)s server.</value>
+  </data>
+  <data name="invites/note/leave/EVENT_SQUAD" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically excluded from the Special Platoon.</value>
+  </data>
+  <data name="invites/prebattle/alreadyJoined/EVENT_SQUAD" xml:space="preserve">
+    <value>You have already joined a Special Platoon.</value>
+  </data>
+  <data name="invites/text/EVENT_SQUAD" xml:space="preserve">
+    <value>%(titleStartTag)sInvitation to join the Special Platoon%(titleEndTag)s %(sender)s</value>
+  </data>
+  <data name="friendship/note/approved" xml:space="preserve">
+    <value>Player added to Friends list</value>
+  </data>
+  <data name="friendship/note/canceled" xml:space="preserve">
+    <value>Request declined</value>
+  </data>
+  <data name="friendship/note/maxRoster" xml:space="preserve">
+    <value>Maximum number of contacts on the list: %(rosterMaxCount)s. To add this player to your Friends list, remove someone from the list first.</value>
+  </data>
+  <data name="friendship/note/notConnected" xml:space="preserve">
+    <value>Unable to connect to the server. Please wait.</value>
+  </data>
+  <data name="friendship/note/process" xml:space="preserve">
+    <value>Awaiting server reply</value>
+  </data>
+  <data name="friendship/request/text" xml:space="preserve">
+    <value>%(titleStartTag)sFriend Request%(titleEndTag)s
+from %(nameStartTag)s%(name)s%(nameEndTag)s</value>
+  </data>
+  <data name="club/applications/buttons/details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="club/applications/comment" xml:space="preserve">
+    <value>Applications received: %(appsCount)s</value>
+  </data>
+  <data name="club/applications/title" xml:space="preserve">
+    <value>%(titleStartTag)sApplications%(titleEndTag)s</value>
+  </data>
+  <data name="clubs/state/ACCEPTED" xml:space="preserve">
+    <value>Invitation accepted.</value>
+  </data>
+  <data name="clubs/state/ACTIVE" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="clubs/state/CANCELLED" xml:space="preserve">
+    <value>Invitation invalid.</value>
+  </data>
+  <data name="clubs/state/DECLINED" xml:space="preserve">
+    <value>Invitation declined.</value>
+  </data>
+  <data name="invites/comment/club" xml:space="preserve">
+    <value>You are invited to join the team</value>
+  </data>
+  <data name="invites/comment/club/details" xml:space="preserve">
+    <value>Details...</value>
+  </data>
+  <data name="invites/text/club" xml:space="preserve">
+    <value>%(titleStartTag)sInvitation to Team%(titleEndTag)s</value>
+  </data>
+  <data name="invites/note/change_and_leave/CLUBS" xml:space="preserve">
+    <value>Once you accept the invitation, you will exit the Team Battle: Ranked mode and transferred to %(host)s server.</value>
+  </data>
+  <data name="invites/note/leave/CLUBS" xml:space="preserve">
+    <value>Once you accept the invitation, you will exit the Team Battle: Ranked mode.</value>
+  </data>
+  <data name="invites/state/ERROR" xml:space="preserve">
+    <value>Invitation invalid.</value>
+  </data>
+  <data name="invites/state/PENDING" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="invites/state/REVOKED" xml:space="preserve">
+    <value>Invitation withdrawn.</value>
+  </data>
+  <data name="invites/text/CLUBS" xml:space="preserve">
+    <value>%(titleStartTag)sInvitation to Join the Team%(titleEndTag)s</value>
+  </data>
+  <data name="invites/text/FALLOUT" xml:space="preserve">
+    <value>%(titleStartTag)sInvitation to Join the Platoon for %(battleType)s%(titleEndTag)s</value>
+  </data>
+  <data name="invites/text/fallout/1" xml:space="preserve">
+    <value>Domination</value>
+  </data>
+  <data name="invites/text/fallout/2" xml:space="preserve">
+    <value>Steel Hunt</value>
+  </data>
   <data name="clan/application/comment" xml:space="preserve">
     <value>%(linkStartTag)sView%(linkEndTag)s player details</value>
   </data>
@@ -158,9 +555,6 @@ from %(nameStartTag)s%(name)s%(nameEndTag)s</value>
   <data name="clans/state/app/declined" xml:space="preserve">
     <value>Application declined.</value>
   </data>
-  <data name="clans/state/app/error/inClanEnterCooldown" xml:space="preserve">
-    <value>The player's two-day penalty for leaving their previous clan has not yet expired.</value>
-  </data>
   <data name="clans/state/invite/accepted" xml:space="preserve">
     <value>You were accepted to the clan.</value>
   </data>
@@ -173,108 +567,8 @@ from %(nameStartTag)s%(name)s%(nameEndTag)s</value>
   <data name="clans/state/invite/error/inClanEnterCooldown" xml:space="preserve">
     <value>The two-day penalty for leaving your previous clan has not yet expired.</value>
   </data>
-  <data name="errors/creationNotAllowed" xml:space="preserve">
-    <value>Not enough permissions to create an invitation.</value>
-  </data>
-  <data name="errors/invalid" xml:space="preserve">
-    <value>Invalid invitation.</value>
-  </data>
-  <data name="errors/inviteNotSupported" xml:space="preserve">
-    <value>This type of invitation is not available at the moment. Try again later.</value>
-  </data>
-  <data name="errors/receiverIgnoreSender" xml:space="preserve">
-    <value>The invitation recipient added you to their Blacklist.</value>
-  </data>
-  <data name="errors/selfinvite" xml:space="preserve">
-    <value>You cannot invite yourself.</value>
-  </data>
-  <data name="errors/unknownuser" xml:space="preserve">
-    <value>This user has not registered in the system yet.</value>
-  </data>
-  <data name="errors/useroffline" xml:space="preserve">
-    <value>User is offline.</value>
-  </data>
-  <data name="errors/vehicleBrokenOrLocked" xml:space="preserve">
-    <value>The vehicle in the Garage is damaged or locked. Select another vehicle.</value>
-  </data>
-  <data name="friendship/note/approved" xml:space="preserve">
-    <value>Player added to Friends list</value>
-  </data>
-  <data name="friendship/note/canceled" xml:space="preserve">
-    <value>Request declined</value>
-  </data>
-  <data name="friendship/note/maxRoster" xml:space="preserve">
-    <value>Maximum number of contacts on the list: %(rosterMaxCount)s. To add this player to your Friends list, remove someone from the list first.</value>
-  </data>
-  <data name="friendship/note/notConnected" xml:space="preserve">
-    <value>Unable to connect to the server. Please wait.</value>
-  </data>
-  <data name="friendship/note/process" xml:space="preserve">
-    <value>Awaiting server reply</value>
-  </data>
-  <data name="friendship/request/text" xml:space="preserve">
-    <value>%(titleStartTag)sFriend Request%(titleEndTag)s
-from %(nameStartTag)s%(name)s%(nameEndTag)s</value>
-  </data>
-  <data name="gui/buttons/accept" xml:space="preserve">
-    <value>Accept</value>
-  </data>
-  <data name="gui/buttons/cancel" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
-  <data name="gui/buttons/reject" xml:space="preserve">
-    <value>Decline</value>
-  </data>
-  <data name="gui/buttons/send" xml:space="preserve">
-    <value>Send</value>
-  </data>
-  <data name="gui/labels/additionalText" xml:space="preserve">
-    <value>Additional invitation text:</value>
-  </data>
-  <data name="gui/labels/inviteText" xml:space="preserve">
-    <value>Invitation text:</value>
-  </data>
-  <data name="gui/labels/receiver" xml:space="preserve">
-    <value>Recipient:</value>
-  </data>
-  <data name="gui/titles/barter" xml:space="preserve">
-    <value>Trade Invitation</value>
-  </data>
-  <data name="gui/titles/clan" xml:space="preserve">
-    <value>Clan Invitation</value>
-  </data>
-  <data name="gui/titles/invite" xml:space="preserve">
-    <value>Invitation</value>
-  </data>
-  <data name="gui/titles/receivedInvites" xml:space="preserve">
-    <value>Invitations</value>
-  </data>
-  <data name="invites/comment" xml:space="preserve">
-    <value>"%(comment)s"</value>
-  </data>
-  <data name="invites/note/change_and_leave/CLAN" xml:space="preserve">
-    <value>Once you accept the invitation, you will be automatically excluded from the battle on the Global Map and transferred to %(host)s server.</value>
-  </data>
-  <data name="invites/note/change_and_leave/EVENT" xml:space="preserve">
-    <value>Приняв приглашение, вы покинете режим «+++Event battle+++» и будете перемещены на сервер %(host)s.</value>
-  </data>
   <data name="invites/note/change_and_leave/EVENT_BATTLES" xml:space="preserve">
     <value>You will be automatically transfered to the %(host)s server.</value>
-  </data>
-  <data name="invites/note/change_and_leave/EXTERNAL" xml:space="preserve">
-    <value>Once you accept the invitation, you will leave the current detachment and be transferred to the %(host)s server.</value>
-  </data>
-  <data name="invites/note/change_and_leave/E_SPORT_COMMON" xml:space="preserve">
-    <value>Once you accept the invitation, you will exit the Team Battle mode and transferred to %(host)s server.</value>
-  </data>
-  <data name="invites/note/change_and_leave/FALLOUT" xml:space="preserve">
-    <value>Once you accept the invitation, you will be automatically removed from the Platoon and transferred to %(host)s server.</value>
-  </data>
-  <data name="invites/note/change_and_leave/FORT_BATTLE" xml:space="preserve">
-    <value>Once you accept the invitation, you will leave Strongholds: Battles and will be transferred to %(host)s server.</value>
-  </data>
-  <data name="invites/note/change_and_leave/FORT_COMMON" xml:space="preserve">
-    <value>Once you accept the invitation, you will leave the Advances mode and be transferred to the %(host)s server.</value>
   </data>
   <data name="invites/note/change_and_leave/RANDOMS" xml:space="preserve">
     <value>You will be automatically transfered to the %(host)s server.</value>
@@ -282,41 +576,8 @@ from %(nameStartTag)s%(name)s%(nameEndTag)s</value>
   <data name="invites/note/change_and_leave/SANDBOX" xml:space="preserve">
     <value>Once you accept the invitation, you will exit the Proving Ground mode and will be transferred to the %(host)s server.</value>
   </data>
-  <data name="invites/note/change_and_leave/SORTIE" xml:space="preserve">
-    <value>Once you accept the invitation, you will exit Strongholds: Battles mode and you will be transferred to server %(host)s.</value>
-  </data>
-  <data name="invites/note/change_and_leave/SQUAD" xml:space="preserve">
-    <value>Once you accept the invitation, you will be automatically removed from the Platoon and transferred to %(host)s server.</value>
-  </data>
-  <data name="invites/note/change_and_leave/TOURNAMENT" xml:space="preserve">
-    <value>Once you accept the invitation, you will be automatically excluded from the tournament and transferred to %(host)s server.</value>
-  </data>
-  <data name="invites/note/change_and_leave/TRAINING" xml:space="preserve">
-    <value>Once you accept the invitation, you will be automatically excluded from team training and transferred to %(host)s server.</value>
-  </data>
-  <data name="invites/note/change_and_leave/UNIT" xml:space="preserve">
-    <value>Once you accept the invitation, you will exit the Team Battle mode and transferred to %(host)s server.</value>
-  </data>
-  <data name="invites/note/leave/CLAN" xml:space="preserve">
-    <value>Once you accept the invitation, you will be automatically excluded from the battle on the Global Map.</value>
-  </data>
-  <data name="invites/note/leave/EVENT" xml:space="preserve">
+  <data name="invites/note/leave/EVENT_BATTLES" xml:space="preserve">
     <value>?empty?</value>
-  </data>
-  <data name="invites/note/leave/EXTERNAL" xml:space="preserve">
-    <value>Once you accept the invitation, you will leave the current detachment.</value>
-  </data>
-  <data name="invites/note/leave/E_SPORT_COMMON" xml:space="preserve">
-    <value>Once you accept the invitation, you will exit the Team Battle mode.</value>
-  </data>
-  <data name="invites/note/leave/FALLOUT" xml:space="preserve">
-    <value>Once you accept the invitation, you will be automatically removed from the Platoon.</value>
-  </data>
-  <data name="invites/note/leave/FORT_BATTLE" xml:space="preserve">
-    <value>Once you accept the invitation, you will leave Strongholds: Battles.</value>
-  </data>
-  <data name="invites/note/leave/FORT_COMMON" xml:space="preserve">
-    <value>Once you accept the invitation, you will leave the Advances mode.</value>
   </data>
   <data name="invites/note/leave/RANDOMS" xml:space="preserve">
     <value>?empty?</value>
@@ -324,77 +585,14 @@ from %(nameStartTag)s%(name)s%(nameEndTag)s</value>
   <data name="invites/note/leave/SANDBOX" xml:space="preserve">
     <value>Once you accept the invitation, you will exit the Proving Ground mode.</value>
   </data>
-  <data name="invites/note/leave/SORTIE" xml:space="preserve">
-    <value>Once you accept the invitation, you will exit Strongholds: Battles mode.</value>
+  <data name="invites/note/change_and_leave/FALLOUT" xml:space="preserve">
+    <value>Once you accept the invitation, you will be automatically removed from the Platoon and transferred to %(host)s server.</value>
   </data>
-  <data name="invites/note/leave/SQUAD" xml:space="preserve">
+  <data name="invites/note/leave/FALLOUT" xml:space="preserve">
     <value>Once you accept the invitation, you will be automatically removed from the Platoon.</value>
-  </data>
-  <data name="invites/note/leave/TOURNAMENT" xml:space="preserve">
-    <value>Once you accept the invitation, you will be automatically excluded from the tournament.</value>
-  </data>
-  <data name="invites/note/leave/TRAINING" xml:space="preserve">
-    <value>Once you accept the invitation, you will be automatically excluded from team training.</value>
-  </data>
-  <data name="invites/note/leave/UNIT" xml:space="preserve">
-    <value>Once you accept the invitation, you will exit the Team Battle mode.</value>
-  </data>
-  <data name="invites/note/server_change" xml:space="preserve">
-    <value>You will be automatically transferred to %(host)s server.</value>
-  </data>
-  <data name="invites/prebattle/acceptNotAllowed/otherPeriphery" xml:space="preserve">
-    <value>You are unable to accept the invitation. To accept the invitation, please select server '%(host)s'.</value>
-  </data>
-  <data name="invites/prebattle/acceptNotAllowed/undefinedPeriphery" xml:space="preserve">
-    <value>You are unable to accept the invitation. To accept the invitation, please select another server.</value>
-  </data>
-  <data name="invites/prebattle/alreadyJoined/CLAN" xml:space="preserve">
-    <value>You have already joined the battle on the Global Map.</value>
   </data>
   <data name="invites/prebattle/alreadyJoined/FALLOUT" xml:space="preserve">
     <value>You have already joined the Platoon.</value>
-  </data>
-  <data name="invites/prebattle/alreadyJoined/SORTIE" xml:space="preserve">
-    <value>You have already joined the detachment.</value>
-  </data>
-  <data name="invites/prebattle/alreadyJoined/SQUAD" xml:space="preserve">
-    <value>You have already joined the Platoon.</value>
-  </data>
-  <data name="invites/prebattle/alreadyJoined/TOURNAMENT" xml:space="preserve">
-    <value>You have already joined the tournament.</value>
-  </data>
-  <data name="invites/prebattle/alreadyJoined/TRAINING" xml:space="preserve">
-    <value>You have already joined team training.</value>
-  </data>
-  <data name="invites/prebattle/alreadyJoined/UNIT" xml:space="preserve">
-    <value>You have already joined the team.</value>
-  </data>
-  <data name="invites/state/ACCEPTED" xml:space="preserve">
-    <value>Invitation accepted.</value>
-  </data>
-  <data name="invites/state/DECLINED" xml:space="preserve">
-    <value>Invitation declined.</value>
-  </data>
-  <data name="invites/state/ERROR" xml:space="preserve">
-    <value>Invitation invalid.</value>
-  </data>
-  <data name="invites/state/EXPIRED" xml:space="preserve">
-    <value>Invalid invitation.</value>
-  </data>
-  <data name="invites/state/PENDING" xml:space="preserve">
-    <value>?empty?</value>
-  </data>
-  <data name="invites/state/REVOKED" xml:space="preserve">
-    <value>Invitation withdrawn.</value>
-  </data>
-  <data name="invites/text/EVENT" xml:space="preserve">
-    <value>++%(titleStartTag)sПриглашение войти в состав взвода%(titleEndTag)s++</value>
-  </data>
-  <data name="invites/text/EXTERNAL" xml:space="preserve">
-    <value>%(titleStartTag)sInvitation to a detachment%(titleEndTag)s</value>
-  </data>
-  <data name="invites/text/FALLOUT" xml:space="preserve">
-    <value>%(titleStartTag)sInvitation to Join the Platoon for %(battleType)s%(titleEndTag)s</value>
   </data>
   <data name="invites/text/FALLOUT/FALLOUT_CLASSIC" xml:space="preserve">
     <value>Domination</value>
@@ -402,32 +600,38 @@ from %(nameStartTag)s%(name)s%(nameEndTag)s</value>
   <data name="invites/text/FALLOUT/FALLOUT_MULTITEAM" xml:space="preserve">
     <value>Steel Hunt</value>
   </data>
-  <data name="invites/text/FORT_BATTLE" xml:space="preserve">
-    <value>%(titleStartTag)sInvitation to Battle%(titleEndTag)s</value>
+  <data name="invites/note/change_and_leave/EVENT" xml:space="preserve">
+    <value>Приняв приглашение, вы покинете режим «+++Event battle+++» и будете перемещены на сервер %(host)s.</value>
   </data>
-  <data name="invites/text/SORTIE" xml:space="preserve">
-    <value>%(titleStartTag)sInvitation to Join the Detachment%(titleEndTag)s</value>
+  <data name="invites/note/leave/EVENT" xml:space="preserve">
+    <value>?empty?</value>
   </data>
-  <data name="invites/text/SQUAD" xml:space="preserve">
-    <value>%(titleStartTag)sInvitation to Join the Platoon%(titleEndTag)s</value>
+  <data name="invites/text/EVENT" xml:space="preserve">
+    <value>++%(titleStartTag)sПриглашение войти в состав взвода%(titleEndTag)s++</value>
   </data>
-  <data name="invites/text/TRAINING" xml:space="preserve">
-    <value>%(titleStartTag)sInvitation to Join Team Training%(titleEndTag)s</value>
+  <data name="clans/state/app/error/inClanEnterCooldown" xml:space="preserve">
+    <value>The player's two-day penalty for leaving their previous clan has not yet expired.</value>
   </data>
-  <data name="invites/text/UNIT" xml:space="preserve">
-    <value>%(titleStartTag)sInvitation to Join the Team%(titleEndTag)s</value>
+  <data name="invites/note/change_and_leave/EXTERNAL" xml:space="preserve">
+    <value>Once you accept the invitation, you will leave the current detachment and be transferred to the %(host)s server.</value>
   </data>
-  <data name="invites/text/creatorName" xml:space="preserve">
-    <value>from %(nameStartTag)s%(name)s%(nameEndTag)s</value>
+  <data name="invites/note/change_and_leave/E_SPORT_COMMON" xml:space="preserve">
+    <value>Once you accept the invitation, you will exit the Team Battle mode and transferred to %(host)s server.</value>
   </data>
-  <data name="invites/text/fort/defence" xml:space="preserve">
-    <value>Defense Period</value>
+  <data name="invites/note/change_and_leave/FORT_COMMON" xml:space="preserve">
+    <value>Once you accept the invitation, you will leave the Advances mode and be transferred to the %(host)s server.</value>
   </data>
-  <data name="invites/text/fort/direction" xml:space="preserve">
-    <value>Bridgehead</value>
+  <data name="invites/note/leave/EXTERNAL" xml:space="preserve">
+    <value>Once you accept the invitation, you will leave the current detachment.</value>
   </data>
-  <data name="invites/text/fort/offence" xml:space="preserve">
-    <value>Attack on</value>
+  <data name="invites/note/leave/E_SPORT_COMMON" xml:space="preserve">
+    <value>Once you accept the invitation, you will exit the Team Battle mode.</value>
+  </data>
+  <data name="invites/note/leave/FORT_COMMON" xml:space="preserve">
+    <value>Once you accept the invitation, you will leave the Advances mode.</value>
+  </data>
+  <data name="invites/text/EXTERNAL" xml:space="preserve">
+    <value>%(titleStartTag)sInvitation to a detachment%(titleEndTag)s</value>
   </data>
   <data name="stronghold/invite/sendInviteToUsername" xml:space="preserve">
     <value>Invitation sent to %(name)s.</value>
