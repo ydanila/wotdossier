@@ -1274,7 +1274,7 @@ to free space for another equipment item.</value>
     <value>View Range </value>
   </data>
   <data name="moduleInfo/params/damage" xml:space="preserve">
-    <value>Damage</value>
+    <value>Damage </value>
   </data>
   <data name="moduleInfo/params/dispertionRadius" xml:space="preserve">
     <value>Dispersion at 100 m </value>
@@ -5455,7 +5455,7 @@ with honors!</value>
     <value>Show Mission</value>
   </data>
   <data name="awardWindow/personalMission/nextButtonAward" xml:space="preserve">
-    <value>Recruit Female Crew Member</value>
+    <value>Recruit</value>
   </data>
   <data name="awardWindow/personalMission/nextButtonAward/tooltip/body" xml:space="preserve">
     <value>Click to recruit a female crew member for completing the main conditions of the last mission in the set.</value>
@@ -5913,7 +5913,7 @@ allows the vehicle to switch between Siege and Travel mode</value>
     <value>Bonds: General Information</value>
   </data>
   <data name="crystals/promoWindow/subDescr0" xml:space="preserve">
-    <value>For Grand Battles, Ranked and Random Battles, where only Tier X vehicles participate, and receiving certain awards.</value>
+    <value>For Grand Battles, Ranked and Random Battles where only Tier X vehicles participate, and receiving certain awards.</value>
   </data>
   <data name="crystals/promoWindow/subDescr1" xml:space="preserve">
     <value>If you have a Tier X vehicle—select the most suitable mode or battle type and earn bonds.</value>

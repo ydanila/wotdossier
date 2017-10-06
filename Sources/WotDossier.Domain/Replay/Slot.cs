@@ -1,3 +1,5 @@
+using WotDossier.Domain.Tank;
+
 namespace WotDossier.Domain.Replay
 {
     public class Slot
@@ -28,7 +30,7 @@ namespace WotDossier.Domain.Replay
             get { return string.Format("{0}/{1}", EndCount, Count); }
         }
 
-        public object Description { get; set; }
+        public ArtefactDescription Description { get; set; }
 
         public Slot(SlotItem item, int count, int rest)
         {

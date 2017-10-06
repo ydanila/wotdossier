@@ -36,7 +36,7 @@ namespace WotDossier.Converters
             if (mark > 0)
             {
                 var uriSource = new Uri(string.Format(@"pack://application:,,,/WotDossier.Resources;component/Images/Medals/MarkOfMastery{0}.png", mark));
-                BitmapImage bitmapImage = ImageCache.GetBitmapImage(uriSource);
+                var bitmapImage = ImageCache.GetBitmapImage(uriSource);
                 return bitmapImage;
             }
             return null;

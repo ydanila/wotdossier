@@ -34,7 +34,12 @@ namespace WotDossier.Applications.BattleModeStrategies
                 return new FortSortiesStatisticViewStrategy(dossierRepository);
             }
 
-            if (randomCompany == BattleMode.GrandBattle)
+	        if (randomCompany == BattleMode.Ranked)
+	        {
+		        return new RankedStatisticViewStrategy(dossierRepository);
+	        }
+
+			if (randomCompany == BattleMode.GrandBattle)
             {
                 return new GrandBattleStatisticViewStrategy(dossierRepository);
             }

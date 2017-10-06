@@ -160,13 +160,13 @@
     <value>Easier Missions, Better Rewards!</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item2/descr" xml:space="preserve">
-    <value>For completion of each last mission you receive one of five components for the award vehicle.</value>
+    <value>For completion of each last mission, you receive one of five components for the award vehicle.</value>
   </data>
   <data name="PersonalMissionFirstEntryView/item2/header" xml:space="preserve">
     <value>Earn 5 Components to Assemble the Vehicle</value>
   </data>
   <data name="PersonalMissionFirstEntryView/subTitle" xml:space="preserve">
-    <value>Changes in 9.20.1 Company</value>
+    <value>Changes in 9.20.1 Campaign</value>
   </data>
   <data name="PersonalMissionFirstEntryView/title" xml:space="preserve">
     <value>New Features in Personal Missions</value>
@@ -289,7 +289,7 @@
     <value>Cancel Mission</value>
   </data>
   <data name="detailedView/tooltips/holdAwardSheetBtn/body" xml:space="preserve">
-    <value>Click to commit an order to mission and complete primary conditions.</value>
+    <value>Click to commit an order to the mission and complete primary conditions.</value>
   </data>
   <data name="detailedView/tooltips/holdAwardSheetBtn/disabled/body" xml:space="preserve">
     <value>To receive orders, complete with honors the last missions in each set within any operation.</value>
@@ -313,10 +313,10 @@
     <value>Improve Result</value>
   </data>
   <data name="detailedView/tooltips/returnAwardListBtn/body" xml:space="preserve">
-    <value>Click to complete the primary and secondary conditions. If you complete the mission with honors, you will recommit your order.</value>
+    <value>Click to complete the primary and secondary conditions. If you complete the mission with honors, you will retrieve your order.</value>
   </data>
   <data name="detailedView/tooltips/returnAwardListBtn/header" xml:space="preserve">
-    <value>Recommit Order</value>
+    <value>Improve Result</value>
   </data>
   <data name="detailedView/tooltips/startBtn/body" xml:space="preserve">
     <value>Click to start the mission. Complete the conditions and claim your reward.</value>
@@ -331,7 +331,7 @@
     <value>Commit 4 orders to the %(questName)s mission and receive the missing vehicle component.</value>
   </data>
   <data name="fourFreeSheetsObtainedPopup/descr2" xml:space="preserve">
-    <value>Recommit %(pawnedCount)s orders from the mission, in order to commit 4 orders to the %(questName)s mission and receive the missing vehicle components.</value>
+    <value>Retrieve %(pawnedCount)s orders from the mission, in order to commit 4 orders to the %(questName)s mission and receive the missing vehicle components.</value>
   </data>
   <data name="fourFreeSheetsObtainedPopup/header" xml:space="preserve">
     <value>Vehicle Available</value>
@@ -366,7 +366,7 @@ any mission in a set.</value>
 any mission in a set.</value>
   </data>
   <data name="freeSheetPopover/pawnedSheetsInfo/title" xml:space="preserve">
-    <value>Committed to MIssion: %(count)d</value>
+    <value>Committed to Mission: %(count)d</value>
   </data>
   <data name="freeSheetPopover/title" xml:space="preserve">
     <value>Order</value>
@@ -414,7 +414,7 @@ any mission in a set.</value>
     <value>Operation: %(title)s</value>
   </data>
   <data name="operationUnlockedWindow/awardText" xml:space="preserve">
-    <value>Congratulations! You can now proceed to completing of %(title)s operation.</value>
+    <value>Congratulations! You can now proceed to completing the %(title)s operation.</value>
   </data>
   <data name="operationUnlockedWindow/descr" xml:space="preserve">
     <value>Press %(label)s to select a mission and try to claim a new reward.</value>
@@ -499,10 +499,10 @@ with honors</value>
     <value>Committed to missions: %(count)s</value>
   </data>
   <data name="statusPanel/status/allDone" xml:space="preserve">
-    <value>All missions in the %(vehicleClass)s set are completed</value>
+    <value>All missions in the %(vehicleClass)s set have been completed</value>
   </data>
   <data name="statusPanel/status/allExcellentDone" xml:space="preserve">
-    <value>All missions in the %(vehicleClass)s set are completed with honors</value>
+    <value>All missions in the %(vehicleClass)s set have been completed with honors</value>
   </data>
   <data name="statusPanel/status/freeSheet" xml:space="preserve">
     <value>An Order Committed</value>
@@ -517,13 +517,13 @@ with honors</value>
     <value>Unavailable: no suitable vehicles for the %(vehicleClass)s set</value>
   </data>
   <data name="statusPanel/status/pawned" xml:space="preserve">
-    <value>(Recommitting %(count)d %(icon)s)</value>
+    <value>(Retrieving %(count)d %(icon)s)</value>
   </data>
   <data name="statusPanel/status/selectTask" xml:space="preserve">
     <value>Select a mission on the map</value>
   </data>
   <data name="tankmoduleTooltipData/help/body" xml:space="preserve">
-    <value>Can be received for fulfilling primary conditions of the last mission in the %(vehType)s set.</value>
+    <value>Can be received for fulfilling the primary conditions of the last mission in the %(vehType)s set.</value>
   </data>
   <data name="tankmoduleTooltipData/help/title" xml:space="preserve">
     <value>How to Receive</value>
@@ -553,7 +553,7 @@ with honors</value>
     <value>Advantages:</value>
   </data>
   <data name="tankwomanTooltipData/desc/body" xml:space="preserve">
-    <value>Can be received for fulfilling primary conditions of the last mission in each set.</value>
+    <value>Can be received for fulfilling the primary conditions of the last mission in each set.</value>
   </data>
   <data name="tankwomanTooltipData/desc/title" xml:space="preserve">
     <value>How to receive:</value>
@@ -568,10 +568,10 @@ with honors</value>
     <value>Secondary conditions</value>
   </data>
   <data name="taskDetailsView/btnLabel/returnAwardSheet" xml:space="preserve">
-    <value>Recommit Order</value>
+    <value>Improve Result</value>
   </data>
   <data name="taskDetailsView/btnLabel/returnAwardSheets" xml:space="preserve">
-    <value>Recommit Orders</value>
+    <value>Improve Result</value>
   </data>
   <data name="taskDetailsView/mainConditions" xml:space="preserve">
     <value>Primary conditions</value>
@@ -583,16 +583,16 @@ with honors</value>
     <value>Complete the primary conditions of the mission:</value>
   </data>
   <data name="useAwardSheetWindow/info" xml:space="preserve">
-    <value>Complete the mission with honors to recommit an order.</value>
+    <value>Complete the mission with honors to retrieve an order.</value>
   </data>
   <data name="useAwardSheetWindow/locked" xml:space="preserve">
-    <value>Complete all missions in the set to recommit orders.</value>
+    <value>Complete all missions in the set to retrieve orders.</value>
   </data>
   <data name="useAwardSheetWindow/needAmount" xml:space="preserve">
     <value>orders: %(count)s</value>
   </data>
   <data name="useAwardSheetWindow/noVehicle" xml:space="preserve">
-    <value>Vehicles required to recommit the order: %(vehicleClass)s.</value>
+    <value>Vehicles required to retrieve the order: %(vehicleClass)s.</value>
   </data>
   <data name="useAwardSheetWindow/sheetsTotal" xml:space="preserve">
     <value>Total: %(count)s</value>

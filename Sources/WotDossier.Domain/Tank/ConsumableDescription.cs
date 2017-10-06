@@ -1,10 +1,10 @@
-﻿namespace WotDossier.Domain.Tank
+﻿using System.Runtime.Serialization;
+
+namespace WotDossier.Domain.Tank
 {
-    public class ConsumableDescription
+	[DataContract]
+    public class ConsumableDescription : ArtefactDescription
     {
-        public string icon { get; set; }
-        public string description { get; set; }
-        public string userString { get; set; }
-        public int? id { get; set; }
-    }
+	    
+	}
 }

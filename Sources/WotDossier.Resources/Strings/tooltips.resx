@@ -7810,7 +7810,7 @@ on the game portal.</value>
     <value>Vehicle List</value>
   </data>
   <data name="missions/vehicle_selector/select/body" xml:space="preserve">
-    <value>Select the vehicle suitable for completing the selected mission from the vehicle list.</value>
+    <value>Select a vehicle suitable for completing the selected mission from the vehicle list.</value>
   </data>
   <data name="missions/vehicle_selector/select/header" xml:space="preserve">
     <value>Select Vehicle</value>
@@ -8034,7 +8034,7 @@ and receive all the awards relevant for Random Battles.</value>
     <value>Payment for Each Reward: </value>
   </data>
   <data name="achievement/reward/tankLevels" xml:space="preserve">
-    <value>In Tiers %(range)s vehicles</value>
+    <value>In Tier %(range)s vehicles</value>
   </data>
   <data name="awardItem/completionTokens/body" xml:space="preserve">
     <value>A set of components required for award vehicle assembly.</value>
@@ -8169,7 +8169,7 @@ and receive all the awards relevant for Random Battles.</value>
     <value>Order</value>
   </data>
   <data name="elen/ancor/allGroups/body" xml:space="preserve">
-    <value>Click to go to this group's places.</value>
+    <value>Click to go to this group's positions.</value>
   </data>
   <data name="elen/ancor/allGroups/header" xml:space="preserve">
     <value>Group %(group)s (positions %(min)s-%(max)s)</value>
@@ -8228,25 +8228,25 @@ You can quit the competition until %(date)s</value>
     <value>Competition Schedule</value>
   </data>
   <data name="elen/excel/addParam/max/damageAssisted/body" xml:space="preserve">
-    <value>Time the best battle in the competition ended.</value>
+    <value>Time the player's best battle in the competition ended.</value>
   </data>
   <data name="elen/excel/addParam/max/damageAssisted/header" xml:space="preserve">
     <value>Time the Battle Ended</value>
   </data>
   <data name="elen/excel/addParam/max/damageDealt/body" xml:space="preserve">
-    <value>Time the best battle in the competition ended.</value>
+    <value>Time the player's best battle in the competition ended.</value>
   </data>
   <data name="elen/excel/addParam/max/damageDealt/header" xml:space="preserve">
     <value>Time the Battle Ended</value>
   </data>
   <data name="elen/excel/addParam/max/originalXP/body" xml:space="preserve">
-    <value>Time the best battle in the competition ended.</value>
+    <value>Time the player's best battle in the competition ended.</value>
   </data>
   <data name="elen/excel/addParam/max/originalXP/header" xml:space="preserve">
     <value>Time the Battle Ended</value>
   </data>
   <data name="elen/excel/addParam/max/xp/body" xml:space="preserve">
-    <value>Time the best battle in the competition ended.</value>
+    <value>Time the player's best battle in the competition ended.</value>
   </data>
   <data name="elen/excel/addParam/max/xp/header" xml:space="preserve">
     <value>Time the Battle Ended</value>
@@ -8288,56 +8288,56 @@ Extra experience from Premium Account is counted.</value>
     <value>Average Experience per Battle</value>
   </data>
   <data name="elen/excel/addParam/sumN/damageAssisted/body" xml:space="preserve">
-    <value>Amount of damage caused with player's assistance during the best battle of the competition.</value>
+    <value>Amount of damage caused with player's assistance during the player's best battle of the competition.</value>
   </data>
   <data name="elen/excel/addParam/sumN/damageAssisted/header" xml:space="preserve">
-    <value>Damage Caused With Player's Assistance During the Best Battle</value>
+    <value>Damage Caused With Player's Assistance During the player's Best Battle</value>
   </data>
   <data name="elen/excel/addParam/sumN/damageDealt/body" xml:space="preserve">
-    <value>Amount of damage caused during the best battle of the competition.</value>
+    <value>Amount of damage caused during the player's best battle of the competition.</value>
   </data>
   <data name="elen/excel/addParam/sumN/damageDealt/header" xml:space="preserve">
-    <value>Damage Caused During the Best Battle</value>
+    <value>Damage Caused During the Player's Best Battle</value>
   </data>
   <data name="elen/excel/addParam/sumN/originalXP/body" xml:space="preserve">
-    <value>Amount of base experience earned during the best battle of the competition.
+    <value>Amount of base experience earned during the player's best battle of the competition.
 The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/excel/addParam/sumN/originalXP/header" xml:space="preserve">
-    <value>Base Experience Earned During the Best Battle</value>
+    <value>Base Experience Earned During the Player's Best Battle</value>
   </data>
   <data name="elen/excel/addParam/sumN/xp/body" xml:space="preserve">
-    <value>Amount of experience earned during the best battle of the competition.
+    <value>Amount of experience earned during the player's best battle of the competition.
 The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/excel/addParam/sumN/xp/header" xml:space="preserve">
-    <value>Experience Earned During the Best Battle</value>
+    <value>Experience Earned During the Player's Best Battle</value>
   </data>
   <data name="elen/excel/addParam/sumSeqN/damageAssisted/body" xml:space="preserve">
-    <value>Amount of damage caused with player's assistance during the best battle in the best series of battles of the competition.</value>
+    <value>Amount of damage caused with player's assistance during the player's best battle in the player's best series of battles of the competition.</value>
   </data>
   <data name="elen/excel/addParam/sumSeqN/damageAssisted/header" xml:space="preserve">
-    <value>Damage Caused With Player's Assistance During the Best Battle</value>
+    <value>Damage Caused With Player's Assistance During the Player's Best Battle</value>
   </data>
   <data name="elen/excel/addParam/sumSeqN/damageDealt/body" xml:space="preserve">
-    <value>Amount of damage caused during the best battle in the best series of battles of the competition.</value>
+    <value>Amount of damage caused during the player's best battle in the player's best series of battles of the competition.</value>
   </data>
   <data name="elen/excel/addParam/sumSeqN/damageDealt/header" xml:space="preserve">
-    <value>Damage Caused During the Best Battle</value>
+    <value>Damage Caused During the Player's Best Battle</value>
   </data>
   <data name="elen/excel/addParam/sumSeqN/originalXP/body" xml:space="preserve">
-    <value>Amount of base experience earned during the best battle in the best series of battles of the competition.
+    <value>Amount of base experience earned during the player's best battle in the player's best series of battles of the competition.
 The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/excel/addParam/sumSeqN/originalXP/header" xml:space="preserve">
-    <value>Base Experience Earned During the Best Battle</value>
+    <value>Base Experience Earned During the Player's Best Battle</value>
   </data>
   <data name="elen/excel/addParam/sumSeqN/xp/body" xml:space="preserve">
-    <value>Amount of experience earned during the best battle in the best series of battles of the competition.
+    <value>Amount of experience earned during the player's best battle in the player's best series of battles of the competition.
 The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/excel/addParam/sumSeqN/xp/header" xml:space="preserve">
-    <value>Experience Earned During the Best Battle</value>
+    <value>Experience Earned During the Player's Best Battle</value>
   </data>
   <data name="elen/excel/infoParam/wins/class/body" xml:space="preserve">
     <value>Total battles fought in the competition on vehicles of this type.</value>
@@ -8355,26 +8355,26 @@ The amount of experience counted does not include any extra experience from Prem
     <value>Total battles fought in the competition on this vehicle.</value>
   </data>
   <data name="elen/excel/objParam/max/damageAssisted/body" xml:space="preserve">
-    <value>Amount of damage caused with player's assistance during the best battle of the competition.</value>
+    <value>Amount of damage caused with player's assistance during the player's best battle of the competition.</value>
   </data>
   <data name="elen/excel/objParam/max/damageAssisted/header" xml:space="preserve">
     <value>Damage Caused With Player's Assistance</value>
   </data>
   <data name="elen/excel/objParam/max/damageDealt/body" xml:space="preserve">
-    <value>Amount of damage caused during the best battle of the competition.</value>
+    <value>Amount of damage caused during the player's best battle of the competition.</value>
   </data>
   <data name="elen/excel/objParam/max/damageDealt/header" xml:space="preserve">
     <value>Damage</value>
   </data>
   <data name="elen/excel/objParam/max/originalXP/body" xml:space="preserve">
-    <value>Amount of base experience earned during the best battle of the competition.
+    <value>Amount of base experience earned during the player's best battle of the competition.
 The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/excel/objParam/max/originalXP/header" xml:space="preserve">
     <value>Base experience</value>
   </data>
   <data name="elen/excel/objParam/max/xp/body" xml:space="preserve">
-    <value>Amount of experience earned during the best battle of the competition.
+    <value>Amount of experience earned during the player's best battle of the competition.
 The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.
 Extra experience from Premium Account is counted.</value>
   </data>
@@ -8415,26 +8415,26 @@ Extra experience from Premium Account is counted.</value>
     <value>Total Experience</value>
   </data>
   <data name="elen/excel/objParam/sumN/damageAssisted/body" xml:space="preserve">
-    <value>Total damage caused with player's assistance during the best battles of the competition.</value>
+    <value>Total damage caused with player's assistance during the player's best battles of the competition.</value>
   </data>
   <data name="elen/excel/objParam/sumN/damageAssisted/header" xml:space="preserve">
     <value>Total Damage Caused With Player's Assistance</value>
   </data>
   <data name="elen/excel/objParam/sumN/damageDealt/body" xml:space="preserve">
-    <value>Total damage caused during the best battles of the competition.</value>
+    <value>Total damage caused during the player's best battles of the competition.</value>
   </data>
   <data name="elen/excel/objParam/sumN/damageDealt/header" xml:space="preserve">
     <value>Total Damage</value>
   </data>
   <data name="elen/excel/objParam/sumN/originalXP/body" xml:space="preserve">
-    <value>Total base experience earned during the best battles of the competition.
+    <value>Total base experience earned during the player's best battles of the competition.
 The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/excel/objParam/sumN/originalXP/header" xml:space="preserve">
     <value>Total Base Experience</value>
   </data>
   <data name="elen/excel/objParam/sumN/xp/body" xml:space="preserve">
-    <value>Total experience earned during the best battles of the competition.
+    <value>Total experience earned during the player's best battles of the competition.
 The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.
 Extra experience from Premium Account is counted.</value>
   </data>
@@ -8442,26 +8442,26 @@ Extra experience from Premium Account is counted.</value>
     <value>Total Experience</value>
   </data>
   <data name="elen/excel/objParam/sumSeqN/damageAssisted/body" xml:space="preserve">
-    <value>Total damage caused with player's assistance during the best series of battles of the competition.</value>
+    <value>Total damage caused with player's assistance during the player's best series of battles of the competition.</value>
   </data>
   <data name="elen/excel/objParam/sumSeqN/damageAssisted/header" xml:space="preserve">
     <value>Total Damage Caused With Player's Assistance</value>
   </data>
   <data name="elen/excel/objParam/sumSeqN/damageDealt/body" xml:space="preserve">
-    <value>Total damage caused during the best series of battles of the competition.</value>
+    <value>Total damage caused during the player's best series of battles of the competition.</value>
   </data>
   <data name="elen/excel/objParam/sumSeqN/damageDealt/header" xml:space="preserve">
     <value>Total Damage</value>
   </data>
   <data name="elen/excel/objParam/sumSeqN/originalXP/body" xml:space="preserve">
-    <value>Total base experience earned during the best series of battles of the competition.
+    <value>Total base experience earned during the player's best series of battles of the competition.
 The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/excel/objParam/sumSeqN/originalXP/header" xml:space="preserve">
     <value>Total Base Experience</value>
   </data>
   <data name="elen/excel/objParam/sumSeqN/xp/body" xml:space="preserve">
-    <value>Total experience earned during the best series of battles of the competition.
+    <value>Total experience earned during the player's best series of battles of the competition.
 The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.
 Extra experience from Premium Account is counted.</value>
   </data>
@@ -8495,7 +8495,7 @@ You can quit the competition until %(date)s</value>
     <value>Quit Competition</value>
   </data>
   <data name="elen/header/participate/notStarted/body" xml:space="preserve">
-    <value>The results of you battles will be counted once the competition starts. You will be able to get placed in the rating and receive a reward.</value>
+    <value>The results of your battles will be counted once the competition starts. You will be able to get placed in the rating and receive a reward.</value>
   </data>
   <data name="elen/header/participate/notStarted/header" xml:space="preserve">
     <value>You Have Joined</value>
@@ -8558,19 +8558,19 @@ You can quit the competition until %(date)s</value>
     <value>Total battles fought in the competition on this vehicle.</value>
   </data>
   <data name="elen/summary/objParam/max/damageAssisted/body" xml:space="preserve">
-    <value>Amount of damage caused during the best battle of the competition.</value>
+    <value>Amount of damage caused during the player's best battle of the competition.</value>
   </data>
   <data name="elen/summary/objParam/max/damageAssisted/header" xml:space="preserve">
     <value>Total Damage Caused With Player's Assistance</value>
   </data>
   <data name="elen/summary/objParam/max/damageDealt/body" xml:space="preserve">
-    <value>Amount of damage caused during the best battle of the competition.</value>
+    <value>Amount of damage caused during the player's best battle of the competition.</value>
   </data>
   <data name="elen/summary/objParam/max/damageDealt/header" xml:space="preserve">
     <value>Damage</value>
   </data>
   <data name="elen/summary/objParam/max/originalXP/body" xml:space="preserve">
-    <value>Amount of experience earned during the best battle of the competition.
+    <value>Amount of experience earned during the player's best battle of the competition.
 The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.
 Extra experience from Premium Account is counted.</value>
   </data>
@@ -8578,7 +8578,7 @@ Extra experience from Premium Account is counted.</value>
     <value>Base Experience</value>
   </data>
   <data name="elen/summary/objParam/max/xp/body" xml:space="preserve">
-    <value>Amount of experience earned during the best battle of the competition.
+    <value>Amount of experience earned during the player's best battle of the competition.
 The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.
 Extra experience from Premium Account is counted.</value>
   </data>
@@ -8613,26 +8613,26 @@ Extra experience from Premium Account is counted.</value>
     <value>Total Experience</value>
   </data>
   <data name="elen/summary/objParam/sumN/damageAssisted/body" xml:space="preserve">
-    <value>Total damage caused with player's assistance during the best battles of the competition.</value>
+    <value>Total damage caused with player's assistance during the player's best battles of the competition.</value>
   </data>
   <data name="elen/summary/objParam/sumN/damageAssisted/header" xml:space="preserve">
     <value>Total Damage Caused With Player's Assistance</value>
   </data>
   <data name="elen/summary/objParam/sumN/damageDealt/body" xml:space="preserve">
-    <value>Total damage caused during the best battles of the competition.</value>
+    <value>Total damage caused during the player's best battles of the competition.</value>
   </data>
   <data name="elen/summary/objParam/sumN/damageDealt/header" xml:space="preserve">
     <value>Total Damage</value>
   </data>
   <data name="elen/summary/objParam/sumN/originalXP/body" xml:space="preserve">
-    <value>Total base experience earned during the best battles of the competition.
+    <value>Total base experience earned during the player's best battles of the competition.
 The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/summary/objParam/sumN/originalXP/header" xml:space="preserve">
     <value>Total Base Experience</value>
   </data>
   <data name="elen/summary/objParam/sumN/xp/body" xml:space="preserve">
-    <value>Total experience earned during the best battles of the competition.
+    <value>Total experience earned during the player's best battles of the competition.
 The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.
 Extra experience from Premium Account is counted.</value>
   </data>
@@ -8640,26 +8640,26 @@ Extra experience from Premium Account is counted.</value>
     <value>Total Experience</value>
   </data>
   <data name="elen/summary/objParam/sumSeqN/damageAssisted/body" xml:space="preserve">
-    <value>Total damage caused with player's assistance during the best series of battles of the competition.</value>
+    <value>Total damage caused with player's assistance during the player's best series of battles of the competition.</value>
   </data>
   <data name="elen/summary/objParam/sumSeqN/damageAssisted/header" xml:space="preserve">
     <value>Total Damage Caused With Player's Assistance</value>
   </data>
   <data name="elen/summary/objParam/sumSeqN/damageDealt/body" xml:space="preserve">
-    <value>Total damage caused during the best series of battles of the competition.</value>
+    <value>Total damage caused during the player's best series of battles of the competition.</value>
   </data>
   <data name="elen/summary/objParam/sumSeqN/damageDealt/header" xml:space="preserve">
     <value>Total Damage</value>
   </data>
   <data name="elen/summary/objParam/sumSeqN/originalXP/body" xml:space="preserve">
-    <value>Total base experience earned during the best series of battles of the competition.
+    <value>Total base experience earned during the player's best series of battles of the competition.
 The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/summary/objParam/sumSeqN/originalXP/header" xml:space="preserve">
     <value>Total Base Experience</value>
   </data>
   <data name="elen/summary/objParam/sumSeqN/xp/body" xml:space="preserve">
-    <value>Total experience earned during the best series of battles of the competition.
+    <value>Total experience earned during the player's best series of battles of the competition.
 The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.
 Extra experience from Premium Account is counted.</value>
   </data>
@@ -8694,30 +8694,30 @@ Extra experience from Premium Account is counted.</value>
     <value>Experience Per Battle</value>
   </data>
   <data name="elen/summary/param/sumAll/damageAssisted/body" xml:space="preserve">
-    <value>Amount of damage caused with player's assistance during the best battle of the competition.</value>
+    <value>Amount of damage caused with player's assistance during the player's best battle of the competition.</value>
   </data>
   <data name="elen/summary/param/sumAll/damageAssisted/header" xml:space="preserve">
-    <value>Damage Caused With Player's Assistance During the Best Battle</value>
+    <value>Damage Caused With Player's Assistance During the Player's Best Battle</value>
   </data>
   <data name="elen/summary/param/sumAll/damageDealt/body" xml:space="preserve">
-    <value>Amount of damage caused during the best battle of the competition.</value>
+    <value>Amount of damage caused during the player's best battle of the competition.</value>
   </data>
   <data name="elen/summary/param/sumAll/damageDealt/header" xml:space="preserve">
-    <value>Damage Caused During the Best Battle</value>
+    <value>Damage Caused During the Player's Best Battle</value>
   </data>
   <data name="elen/summary/param/sumAll/originalXP/body" xml:space="preserve">
-    <value>Amount of base experience earned during the best battle of the competition.
+    <value>Amount of base experience earned during the player's best battle of the competition.
 The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/summary/param/sumAll/originalXP/header" xml:space="preserve">
-    <value>Base Experience Earned During the Best Battle</value>
+    <value>Base Experience Earned During the Player's Best Battle</value>
   </data>
   <data name="elen/summary/param/sumAll/xp/body" xml:space="preserve">
-    <value>Amount of experience earned during the best battle in the best series of battles of the competition.
+    <value>Amount of experience earned during the player's best battle in the player's best series of battles of the competition.
 The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="elen/summary/param/sumAll/xp/header" xml:space="preserve">
-    <value>Experience Earned During the Best Battle</value>
+    <value>Experience Earned During the Player's Best Battle</value>
   </data>
   <data name="elen/summary/rank/1" xml:space="preserve">
     <value>Group I</value>
@@ -8833,13 +8833,13 @@ Battles in the series: %(cardinality)s.</value>
     <value>Join as a participant to enable the tracking of your battle results in the competition.</value>
   </data>
   <data name="hangar/elen/bottom/noevents/body" xml:space="preserve">
-    <value>To view competition description, go to Missions.</value>
+    <value>To view the competition description, go to Missions.</value>
   </data>
   <data name="hangar/elen/bottom/noevents/header" xml:space="preserve">
     <value>Competitions are not available for the selected vehicles</value>
   </data>
   <data name="hangar/elen/bottom/regulations/header" xml:space="preserve">
-    <value>To view competition description, go to Missions</value>
+    <value>To view the competition description, go to Missions</value>
   </data>
   <data name="hangar/elen/bottom/unavailable" xml:space="preserve">
     <value>Unavailable for the selected server</value>
@@ -8875,7 +8875,7 @@ Battles in the series: %(cardinality)s.</value>
     <value>Personal Missions</value>
   </data>
   <data name="personalMissions/awards/camouflage/body" xml:space="preserve">
-    <value>A set of three Camouflage patterns (summer, winter, and desert). 
+    <value>A set of three Camouflage patterns (summer, winter, and desert).
 
 Awarded when completing all operations with honors and can be applied to any vehicle of the nation to which the reward vehicle belongs.
 
@@ -8897,16 +8897,41 @@ To find the unique Camouflage patterns, use the Missions filtering option in the
     <value>Unique Set of Camouflage</value>
   </data>
   <data name="personalMissions/awards/camouflageOnly/body" xml:space="preserve">
-    <value>A set of three Camouflage patterns (summer, winter, and desert).
-
-If main conditions of all 75 missions in the operation are completed: received for the award vehicle for free.
-
-If all 75 missions in the operation are completed with honor: can be purchased for all vehicles of the same nation as the award vehicle.
-
-You can find the unique Camouflage patterns using the Missions filter on the Exterior screen.</value>
+    <value>A set of three Camouflage patterns (summer, winter, and desert). Can be applied to any vehicle of the same nation as the award vehicle.</value>
   </data>
   <data name="personalMissions/awards/camouflageOnly/header" xml:space="preserve">
     <value>Unique Set of Camouflage</value>
+  </data>
+  <data name="personalMissions/awards/stats/completionTokens/body" xml:space="preserve">
+    <value>Required components received: %(acquired)d
+Total components required for completing operation "%(name)s": %(total)d</value>
+  </data>
+  <data name="personalMissions/awards/stats/completionTokens/header" xml:space="preserve">
+    <value>Components Received</value>
+  </data>
+  <data name="personalMissions/awards/stats/credits/body" xml:space="preserve">
+    <value>Credits earned in the operation: %(acquired)s
+Maximum credits that can be earned in operation "%(name)s": %(total)s
+Only credits rewarded for completing missions are counted.</value>
+  </data>
+  <data name="personalMissions/awards/stats/credits/header" xml:space="preserve">
+    <value>Credits Earned</value>
+  </data>
+  <data name="personalMissions/awards/stats/questsCompleted/body" xml:space="preserve">
+    <value>Missions completed in operation "%(name)s":
+Missions completed: %(acquired)d
+Missions completed with honors: %(excellentAcquired)d
+Total missions: %(total)d</value>
+  </data>
+  <data name="personalMissions/awards/stats/questsCompleted/header" xml:space="preserve">
+    <value>Missions Completed</value>
+  </data>
+  <data name="personalMissions/awards/stats/tankwomanBonus/body" xml:space="preserve">
+    <value>Crew members received in the operation: %(acquired)d
+You can receive a total of %(total)d crew members in operation "%(name)s".</value>
+  </data>
+  <data name="personalMissions/awards/stats/tankwomanBonus/header" xml:space="preserve">
+    <value>Female Crew Members</value>
   </data>
   <data name="personalMissions/badge/descr" xml:space="preserve">
     <value>A unique icon that will be displayed next to your nickname in battle. Players on both teams see your badge, which indicates your progress with personal missions.</value>
@@ -8915,16 +8940,16 @@ You can find the unique Camouflage patterns using the Missions filter on the Ext
     <value>Badge</value>
   </data>
   <data name="personalMissions/footer/pawnSheet/body" xml:space="preserve">
-    <value>The mission can be completed for orders. Primary conditions will be fulfilled and a reward will be claimed.</value>
+    <value>The mission can be completed using orders. Primary conditions will be fulfilled and a reward will be claimed.</value>
   </data>
   <data name="personalMissions/footer/pawnSheet/header" xml:space="preserve">
     <value>Complete with Order</value>
   </data>
   <data name="personalMissions/footer/pawnedSheet/body" xml:space="preserve">
-    <value>The mission is completed for an order. To recommit the order, complete the mission with honors (both primary and secondary conditions).</value>
+    <value>The mission was completed using an order. To retrieve the order, complete the mission with honors (both primary and secondary conditions).</value>
   </data>
   <data name="personalMissions/footer/pawnedSheet/header" xml:space="preserve">
-    <value>An Order Committed</value>
+    <value>An Order Was Committed</value>
   </data>
   <data name="personalMissions/freeSheet/howToGet/descr" xml:space="preserve">
     <value>Awarded for completing each final mission in a set with honors.</value>
@@ -8951,7 +8976,7 @@ You can find the unique Camouflage patterns using the Missions filter on the Ext
     <value>Committed Order:</value>
   </data>
   <data name="personalMissions/freeSheet/used/text" xml:space="preserve">
-    <value>To retrieve and recommit an order later, complete the primary and secondary conditions of the mission.</value>
+    <value>To retrieve and commit the order later, complete the primary and secondary conditions of the mission.</value>
   </data>
   <data name="personalMissions/mapRegion/awards/title/allReceived" xml:space="preserve">
     <value>All rewards received</value>
@@ -8990,7 +9015,7 @@ You can find the unique Camouflage patterns using the Missions filter on the Ext
     <value>Unavailable for Completion</value>
   </data>
   <data name="personalMissions/mapRegion/footer/title/sheetRecoveryInProgress" xml:space="preserve">
-    <value>Committed %(icon)sx%(count)s</value>
+    <value>Commited %(icon)sx%(count)s</value>
   </data>
   <data name="personalMissions/mapRegion/footer/title/spendedFreeSheet" xml:space="preserve">
     <value>Committed:</value>
@@ -9041,7 +9066,7 @@ You can find the unique Camouflage patterns using the Missions filter on the Ext
     <value>Operation %(name)s</value>
   </data>
   <data name="personalMissions/operationTitle/completeState/body" xml:space="preserve">
-    <value>Complete mission with honors, receive badges, and get an opportunity to purchase unique Camouflage patterns for your favorite vehicles.</value>
+    <value>Complete missions with honors, receive badges, and get an opportunity to purchase unique Camouflage patterns for your favorite vehicles.</value>
   </data>
   <data name="personalMissions/operationTitle/completeState/header" xml:space="preserve">
     <value>Missions With Honors</value>
@@ -9060,10 +9085,10 @@ You are awarded with one component for completing each final mission in a set.</
     <value>Complete all missions of the %(operationName)s operation: %(countLabel)s</value>
   </data>
   <data name="personalMissions/rareCamouflage/obtained/complete/add" xml:space="preserve">
-    <value>Unlocked for completing with honors the %(operationName)s operation of the I personal mission campaign.</value>
+    <value>Unlocked for completing with honors the %(operationName)s operation of the 1st personal mission campaign.</value>
   </data>
   <data name="personalMissions/rareCamouflage/obtained/complete/main" xml:space="preserve">
-    <value>Awarded for completing with honors the %(operationName)s operation of the I personal mission campaign.</value>
+    <value>Awarded for completing with honors the %(operationName)s operation of the 1st personal mission campaign.</value>
   </data>
   <data name="personalMissions/status/addInProgress/body" xml:space="preserve">
     <value>Improving all mission conditions. Fulfill all primary and secondary conditions to complete the mission with honors.</value>
@@ -9072,13 +9097,13 @@ You are awarded with one component for completing each final mission in a set.</
     <value>Result Improvement</value>
   </data>
   <data name="personalMissions/status/doneWithPawn/body" xml:space="preserve">
-    <value>The mission is completed; the reward for fulfilling the primary conditions was received. You can recommit the order by fulfilling all primary and secondary conditions. To do that, click Recommit an Order at the bottom of the card.</value>
+    <value>The mission was completed; the reward for fulfilling the primary conditions was received. You can retrieve the order by fulfilling all primary and secondary conditions. To do so, click Retrieve Order at the bottom of the card.</value>
   </data>
   <data name="personalMissions/status/doneWithPawn/header" xml:space="preserve">
     <value>Primary Conditions Fulfilled</value>
   </data>
   <data name="personalMissions/status/fullDone/body" xml:space="preserve">
-    <value>Congratulations! The mission is completed with honors and the reward for fulfilling the primary and secondary conditions was received.</value>
+    <value>Congratulations! The mission was completed with honors and the reward for fulfilling the primary and secondary conditions was received.</value>
   </data>
   <data name="personalMissions/status/fullDone/header" xml:space="preserve">
     <value>Mission Completed With Honors</value>
@@ -9108,19 +9133,19 @@ You are awarded with one component for completing each final mission in a set.</
     <value>No Suitable Vehicles</value>
   </data>
   <data name="personalMissions/status/mainDone/body" xml:space="preserve">
-    <value>The mission is completed; the reward for fulfilling the primary conditions was received. You can improve the result by completing the secondary conditions. To do that, click Improve Result at the bottom of the card.</value>
+    <value>The mission was completed; the reward for fulfilling the primary conditions was received. You can improve the result by completing the secondary conditions. To do so, click Improve Result at the bottom of the card.</value>
   </data>
   <data name="personalMissions/status/mainDone/header" xml:space="preserve">
     <value>Primary Conditions Fulfilled</value>
   </data>
   <data name="personalMissions/status/sheetRecoveryInProgress/body" xml:space="preserve">
-    <value>An order was committed to fulfill the primary conditions. To recommit it, fulfill the primary and secondary conditions of this mission.</value>
+    <value>An order was committed to fulfill the primary conditions. To retrieve it, fulfill the primary and secondary conditions of this mission.</value>
   </data>
   <data name="personalMissions/status/sheetRecoveryInProgress/header" xml:space="preserve">
-    <value>An Order Committed</value>
+    <value>An Order Was Committed</value>
   </data>
   <data name="personalMissions/tankgirlsBlock/body" xml:space="preserve">
-    <value>To add new crew members to the Barracks, assign the received crew members to required vehicles and qualifications.</value>
+    <value>To add new crew members to the Barracks, assign the received crew members to the required vehicles and qualifications.</value>
   </data>
   <data name="personalMissions/tankgirlsBlock/header" xml:space="preserve">
     <value>Non-Recruited Female Crew Members</value>

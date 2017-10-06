@@ -1144,11 +1144,15 @@ namespace WotDossier.Domain.Dossier.Processor
                 maxFrags = tankData.GetStaticSizeBlock("maxFallout").GetValue("maxFrags"),
                 maxDamage = tankData.GetStaticSizeBlock("maxFallout").GetValue("maxDamage"),
             };
-            #endregion
+			#endregion
 
-            //Ranked Seasons!!!!!
+			//Ranked Seasons!!!!!
+			result.AchievementsRanked = new AchievementsRanked
+			{
+				Rank = 0
+			};
 
-            return result;
+			return result;
         }
 
         /// <summary>
@@ -1158,8 +1162,8 @@ namespace WotDossier.Domain.Dossier.Processor
         {
             var result = Process97(tankData);
 
-            #region Ranked
-            result.A30x30 = new StatisticJson()
+			#region A30x30
+			result.A30x30 = new StatisticJson()
             {
                 xp = tankData.GetStaticSizeBlock("a30x30").GetValue("xp"),
                 battlesCount = tankData.GetStaticSizeBlock("a30x30").GetValue("battlesCount"),

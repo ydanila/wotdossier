@@ -4,7 +4,7 @@ using WotDossier.Domain.Tank;
 
 namespace WotDossier.Applications.ViewModel.Rows
 {
-    public interface ITankStatisticRow : IStatisticBase, IStatisticExtended, IStatisticRatings, IRandomBattlesAchievements, ITeamBattlesAchievements, IHistoricalBattlesAchievements, IClanBattlesAchievements, IFortAchievements, ITankFilterable, ITankDescription
+    public interface ITankStatisticRow : IStatisticBase, IStatisticExtended, IStatisticRatings, IRandomBattlesAchievements, ITeamBattlesAchievements, IHistoricalBattlesAchievements, IClanBattlesAchievements, IFortAchievements, ITankFilterable, ITankDescription, IRankedBattlesAchievements
     {
         int PlayerId { get; set; }
         string PlayerName { get; set; }

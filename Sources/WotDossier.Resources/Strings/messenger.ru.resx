@@ -2620,7 +2620,7 @@ IV уровня и выше, чтобы получать больше опыта
     <value>Достигнут максимум количества САУ во взводе</value>
   </data>
   <data name="personalMissions/completionTokenGain" xml:space="preserve">
-    <value>Добавлен модуль</value>
+    <value>Добавлен компонент</value>
   </data>
   <data name="serviceChannelMessages/battleResults/personalMissions" xml:space="preserve">
     <value>Поздравляем!

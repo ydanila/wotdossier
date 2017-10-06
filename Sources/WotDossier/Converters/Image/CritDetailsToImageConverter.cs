@@ -33,7 +33,7 @@ namespace WotDossier.Converters
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             CritDetails details = (CritDetails)value;
-            BitmapImage bitmapImage = null;
+	        BitmapSource bitmapImage = null;
             if (details != null)
             {
                 Uri uriSource = new Uri(string.Format(@"pack://application:,,,/WotDossier.Resources;component/Images/Crits/{0}{1}Small.png", details.CritObject, details.CritType == CritType.DamagedDevice ? "Critical" : "Destroyed"));

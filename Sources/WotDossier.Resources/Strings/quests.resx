@@ -708,7 +708,7 @@ the full description.</value>
     <value>Destroy an enemy vehicle</value>
   </data>
   <data name="details/conditions/vehiclesKills/all" xml:space="preserve">
-    <value>Destroy any vehicle</value>
+    <value>Destroy an enemy vehicle</value>
   </data>
   <data name="details/conditions/vehiclesKills/level" xml:space="preserve">
     <value>Destroy vehicles of Tier: %(level)s</value>
@@ -4465,19 +4465,19 @@ in the corresponding section of the Missions section.</value>
     <value>T28 HTC Radio</value>
   </data>
   <data name="bonusName/completionTokens_3_1" xml:space="preserve">
-    <value>T55 A Power Unit</value>
+    <value>T 55A Power Unit</value>
   </data>
   <data name="bonusName/completionTokens_3_2" xml:space="preserve">
-    <value>T55 A Hull and Turret</value>
+    <value>T 55A Hull and Turret</value>
   </data>
   <data name="bonusName/completionTokens_3_3" xml:space="preserve">
-    <value>T55 A Chassis</value>
+    <value>T 55A Chassis</value>
   </data>
   <data name="bonusName/completionTokens_3_4" xml:space="preserve">
-    <value>T55 A Gun</value>
+    <value>T 55A Gun</value>
   </data>
   <data name="bonusName/completionTokens_3_5" xml:space="preserve">
-    <value>T55 A Radio</value>
+    <value>T 55A Radio</value>
   </data>
   <data name="bonusName/completionTokens_4_1" xml:space="preserve">
     <value>Obj. 260 Power Unit</value>
@@ -4654,7 +4654,7 @@ in the corresponding section of the Missions section.</value>
     <value>Cause damage to any enemy vehicle by setting it on fire the indicated number of times</value>
   </data>
   <data name="details/conditions/fireDamage/eventCount/all/not" xml:space="preserve">
-    <value>Do not cause damage by setting vehicles on fire the indicated number of times</value>
+    <value>Do not cause damage to enemy vehicles by setting them on fire the indicated number of times</value>
   </data>
   <data name="details/conditions/fireDamage/eventCount/level" xml:space="preserve">
     <value>Cause damage to an enemy vehicle of Tier %(level)s by setting it on fire the indicated number of times</value>
@@ -4687,10 +4687,10 @@ in the corresponding section of the Missions section.</value>
     <value>Do not cause damage to enemy vehicles of nation: %(nation)s; type %(type)s; Tier %(level)s by setting them on fire the indicated number of times</value>
   </data>
   <data name="details/conditions/fireDamage/eventCount/not" xml:space="preserve">
-    <value>Do not cause damage to enemy vehicles by setting them on fire the indicated number of times </value>
+    <value>Do not cause damage to enemy vehicles by setting them on fire the indicated number of times</value>
   </data>
   <data name="details/conditions/fireDamage/eventCount/type" xml:space="preserve">
-    <value>Cause damage to an enemy vehicle of type: %(type)s by setting it on fire the indicated number of times </value>
+    <value>Cause damage to an enemy vehicle of type: %(type)s by setting it on fire the indicated number of times</value>
   </data>
   <data name="details/conditions/fireDamage/eventCount/type/not" xml:space="preserve">
     <value>Do not cause damage to enemy vehicles of type: %(type)s by setting them on fire the indicated number of times</value>
@@ -4765,10 +4765,10 @@ in the corresponding section of the Missions section.</value>
     <value>Do not destroy enemy vehicles of Tier %(level)s by setting them on fire</value>
   </data>
   <data name="details/conditions/fireKills/list" xml:space="preserve">
-    <value>Destroy the vehicles from the list: %(list)s by setting them on fire</value>
+    <value>Destroy the vehicles from the list by setting them on fire: %(list)s</value>
   </data>
   <data name="details/conditions/fireKills/list/not" xml:space="preserve">
-    <value>Do not destroy the vehicles from the list: %(list)s by setting them on fire</value>
+    <value>Do not destroy the vehicles from the list by setting them on fire: %(list)s</value>
   </data>
   <data name="details/conditions/fireKills/nation" xml:space="preserve">
     <value>Destroy an enemy vehicle of nation: %(nation)s by setting it on fire</value>
@@ -4864,7 +4864,7 @@ in the corresponding section of the Missions section.</value>
     <value>Do Not Stun</value>
   </data>
   <data name="details/conditions/noInstalledCamouflage" xml:space="preserve">
-    <value>Without applied Camouflage in battle</value>
+    <value>Without Camouflage applied in battle</value>
   </data>
   <data name="details/conditions/ramDamage" xml:space="preserve">
     <value>Cause damage to an enemy vehicle by ramming</value>
@@ -4990,10 +4990,10 @@ in the corresponding section of the Missions section.</value>
     <value>Do not destroy enemy vehicles of Tier %(level)s by ramming</value>
   </data>
   <data name="details/conditions/ramKills/list" xml:space="preserve">
-    <value>Destroy the vehicles from the list: %(list)s by ramming</value>
+    <value>Destroy the vehicles from the list by ramming: %(list)s</value>
   </data>
   <data name="details/conditions/ramKills/list/not" xml:space="preserve">
-    <value>Do not destroy the vehicles from the list: %(list)s by ramming</value>
+    <value>Do not destroy the vehicles from the list by ramming: %(list)s</value>
   </data>
   <data name="details/conditions/ramKills/nation" xml:space="preserve">
     <value>Destroy an enemy vehicle of nation: %(nation)s by ramming</value>
@@ -5023,7 +5023,7 @@ in the corresponding section of the Missions section.</value>
     <value>Do not destroy enemy vehicles by ramming</value>
   </data>
   <data name="details/conditions/ramKills/type" xml:space="preserve">
-    <value>Destroy an enemy vehicle of type: %(type)s by ramming </value>
+    <value>Destroy an enemy vehicle of type: %(type)s by ramming</value>
   </data>
   <data name="details/conditions/ramKills/type/not" xml:space="preserve">
     <value>Do not destroy enemy vehicles of type: %(type)s by ramming</value>
@@ -5107,7 +5107,7 @@ in the corresponding section of the Missions section.</value>
     <value>Competitions</value>
   </data>
   <data name="missions/tab/eventBoards/disabled/body" xml:space="preserve">
-    <value>Competitions temporarily unavailable due to scheduled maintenance.</value>
+    <value>Competitions are temporarily unavailable due to scheduled maintenance.</value>
   </data>
   <data name="missions/tab/eventBoards/disabled/header" xml:space="preserve">
     <value>Competitions</value>
@@ -5146,13 +5146,13 @@ in the corresponding section of the Missions section.</value>
     <value>Primary Conditions Fulfilled</value>
   </data>
   <data name="personalMission/status/sheetRecoveryInProgress" xml:space="preserve">
-    <value>Recommitting an order</value>
+    <value>Result Improvement</value>
   </data>
   <data name="personalMission/vehicleSelector/title" xml:space="preserve">
     <value>Select a Tier %(minLevel)s–%(maxLevel)s %(vehType)s</value>
   </data>
   <data name="quest/chain/hint/holdAwardSheet" xml:space="preserve">
-    <value>COMPLETE THE MISSION WITH ORDER</value>
+    <value>COMPLETE THE MISSION WITH AN ORDER</value>
   </data>
   <data name="quest/condition/dot" xml:space="preserve">
     <value>• </value>

@@ -10,10 +10,10 @@ namespace WotDossier.Domain.Entities
     public class RankedBattlesAchievementsEntity : EntityBase, IRankedBattlesAchievements, IRevised
     {
         /// <summary>
-        ///     Gets/Sets the field "Warrior".
+        ///     Gets/Sets the field "Rank".
         /// </summary>
         [DataMember]
-        public virtual int Season1Rank { get; set; }
+        public virtual int Rank { get; set; }
 
     }
 }

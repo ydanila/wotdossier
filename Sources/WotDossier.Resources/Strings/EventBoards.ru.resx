@@ -184,7 +184,7 @@
     <value>?empty?</value>
   </data>
   <data name="block/award" xml:space="preserve">
-    <value>Главная награда</value>
+    <value>Основная награда</value>
   </data>
   <data name="block/objective" xml:space="preserve">
     <value>Условия</value>
@@ -223,7 +223,7 @@
     <value>На указанных серверах</value>
   </data>
   <data name="condition/vehicle/chosen" xml:space="preserve">
-    <value>На указаной технике:</value>
+    <value>На указанной технике:</value>
   </data>
   <data name="condition/vehicle/exist" xml:space="preserve">
     <value>Есть в Ангаре</value>
@@ -274,7 +274,7 @@
     <value>К СОРЕВНОВАНИЯМ</value>
   </data>
   <data name="excel/header/reason/battlesLeft" xml:space="preserve">
-    <value>Для участия в рейтинге осталось провести боёв: %(number)s</value>
+    <value>Для попадания в рейтинг осталось провести боёв: %(number)s</value>
   </data>
   <data name="excel/noData" xml:space="preserve">
     <value>Призовые места ещё не заняты</value>
@@ -334,13 +334,13 @@
     <value>Соревнование завершено</value>
   </data>
   <data name="notification/eventJoin/afterStart/body" xml:space="preserve">
-    <value>Теперь результаты ваших боёв учитываются в соревновании, и вы сможете попасть в рейтинг и получить награду.</value>
+    <value>Теперь результаты ваших боёв учитываются в соревновании. Вы сможете попасть в рейтинг и получить награду.</value>
   </data>
   <data name="notification/eventJoin/afterStart/header" xml:space="preserve">
     <value>Вы записались в участники</value>
   </data>
   <data name="notification/eventJoin/beforeStart/body" xml:space="preserve">
-    <value>Результаты ваших боёв будут учитываться с началом соревнования, и вы сможете попасть в рейтинг и получить награду.</value>
+    <value>Результаты ваших боёв будут учитываться с началом соревнования. Вы сможете попасть в рейтинг и получить награду.</value>
   </data>
   <data name="notification/eventJoin/beforeStart/header" xml:space="preserve">
     <value>Вы записались в участники</value>
@@ -482,7 +482,7 @@
     <value>Урон с вашей помощью</value>
   </data>
   <data name="summary/damageblocked" xml:space="preserve">
-    <value>Заблокировано урона</value>
+    <value>Заблокированный урон</value>
   </data>
   <data name="summary/description/awards/title/award" xml:space="preserve">
     <value>НАГРАДА В КОНЦЕ СОРЕВНОВАНИЯ</value>
@@ -829,7 +829,7 @@
     <value>Позиция:</value>
   </data>
   <data name="top/reason/notfull" xml:space="preserve">
-    <value>Для участия в рейтинге осталось провести боёв:</value>
+    <value>Для попадания в рейтинг осталось провести боёв:</value>
   </data>
   <data name="vehicles/level" xml:space="preserve">
     <value>Техника %(level)s уровня</value>

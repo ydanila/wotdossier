@@ -5198,13 +5198,13 @@ In the post-war period, combinations of various shades of similar colors, along 
     <value>Project Valor: Remembrance</value>
   </data>
   <data name="bonusName/extended/camouflage/fixed" xml:space="preserve">
-    <value>%(bonus)d%% to concealment of stationary vehicle</value>
+    <value>%(bonus)d%% to the concealment of a stationary vehicle</value>
   </data>
   <data name="bonusName/extended/camouflage/inMove" xml:space="preserve">
-    <value>%(bonus)d%% to concealment of moving vehicle</value>
+    <value>%(bonus)d%% to the concealment of a moving vehicle</value>
   </data>
   <data name="camouflage/PM_desert_ob260/description" xml:space="preserve">
-    <value>The Amoeba camouflage pattern consists of brown, white, and black irregular-shaped spots. Designed in the second half of the 1920s and widely used by the Red Army.</value>
+    <value>The Amoeba camouflage pattern consists of brown, white, and black irregularly-shaped spots. Designed in the second half of the 1920s and widely used by the Red Army.</value>
   </data>
   <data name="camouflage/PM_desert_ob260/label" xml:space="preserve">
     <value>Amoeba: desert</value>
@@ -5212,7 +5212,7 @@ In the post-war period, combinations of various shades of similar colors, along 
   <data name="camouflage/PM_desert_stugiv/description" xml:space="preserve">
     <value>A desert variation of the "ambush" camouflage pattern introduced in the late summer–early fall of 1944.
 
-Small free form patches of brownish shades are applied over the light yellow base color.</value>
+Small free-form patches of brownish shades are applied over the light yellow base color.</value>
   </data>
   <data name="camouflage/PM_desert_stugiv/label" xml:space="preserve">
     <value>Ambush desert</value>
@@ -5235,7 +5235,7 @@ This pattern entailed changing the summer pattern colors to varying colors and s
     <value>Modern spotted desert</value>
   </data>
   <data name="camouflage/PM_summer_ob260/description" xml:space="preserve">
-    <value>The Amoeba camouflage pattern consists of irregular-shaped spots of varying shades of green. Designed in the second half of the 1920s and widely used by the Red Army.</value>
+    <value>The Amoeba camouflage pattern consists of irregularly-shaped spots of varying shades of green. Designed in the second half of the 1920s and widely used by the Red Army.</value>
   </data>
   <data name="camouflage/PM_summer_ob260/label" xml:space="preserve">
     <value>Amoeba: summer</value>
@@ -5266,7 +5266,7 @@ Large brown and dark green spots-stripes were applied over the base green color.
     <value>Modern spotted summer</value>
   </data>
   <data name="camouflage/PM_winter_ob260/description" xml:space="preserve">
-    <value>The Amoeba camouflage pattern consists of gray, white, and black irregular-shaped spots. Designed in the second half of the 1920s and widely used by the Red Army.</value>
+    <value>The Amoeba camouflage pattern consists of gray, white, and black irregularly-shaped spots. Designed in the second half of the 1920s and widely used by the Red Army.</value>
   </data>
   <data name="camouflage/PM_winter_ob260/label" xml:space="preserve">
     <value>Amoeba: winter</value>
@@ -5274,7 +5274,7 @@ Large brown and dark green spots-stripes were applied over the base green color.
   <data name="camouflage/PM_winter_stugiv/description" xml:space="preserve">
     <value>A winter variation of the "ambush" camouflage pattern introduced in the late summer–early fall of 1944.
 
-Small free form patches of white and black colors are applied over the base color. Ideally suited for conducting ambushes in urban warfare.</value>
+Small free-form patches of white and black are applied over the base color. Ideally suited for conducting ambushes in urban warfare.</value>
   </data>
   <data name="camouflage/PM_winter_stugiv/label" xml:space="preserve">
     <value>Ambush winter</value>
@@ -5289,9 +5289,9 @@ The Chocolate Chip uniforms were used by the U.S. Armed Forces from the early 19
     <value>Conceptual winter</value>
   </data>
   <data name="camouflage/PM_winter_t55a/description" xml:space="preserve">
-    <value>A winter variation of camouflage pattern for wheeled and tracked armored fighting vehicles of GDR Armed Forces, introduced in 1988.
+    <value>A winter variation of a camouflage pattern for wheeled and tracked armored fighting vehicles of GDR Armed Forces, introduced in 1988.
 
-In this variation light gray and black spots were painted over with white color.</value>
+In this variation, light gray and black spots were painted over with white.</value>
   </data>
   <data name="camouflage/PM_winter_t55a/label" xml:space="preserve">
     <value>Modern spotted winter</value>

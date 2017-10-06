@@ -60,7 +60,7 @@ namespace WotDossier.Common.Extensions
             Buffer.BlockCopy(str.ToCharArray(), 0, bytes, 0, bytes.Length);
             return bytes;
         }
-        /*
+		/*
         public static List<int> Unpack(this byte[] array, string format)
         {
             List<int> result = new List<int>();
@@ -89,7 +89,15 @@ namespace WotDossier.Common.Extensions
         }
         */
 
-        private static List<(char Type, int Length)> ProcessFormat(string fmt)
+		public static bool Compare(this byte[] source, byte[] target)
+		{
+			if (source == null && target == null) return true;
+			if (source == null || target == null) return false;
+			if (source.Length != target.Length) return false;
+			return !source.Where((t, i) => t != target[i]).Any();
+		}
+
+		private static List<(char Type, int Length)> ProcessFormat(string fmt)
         {
             // First we parse the format string to make sure it's proper.
             if (fmt.Length < 1) throw new ArgumentException("Format string cannot be empty.");

@@ -31,7 +31,8 @@ namespace WotDossier.Domain.Tank
             Achievements7x7 = new Achievements7x7(),
             AchievementsHistorical = new AchievementsHistorical(),
             AchievementsFallout = new AchievementsFallout(),
-            Historical = new StatisticJson(),
+	        AchievementsRanked = new AchievementsRanked(),
+			Historical = new StatisticJson(),
             FortBattles = new StatisticJsonFort(),
             FortAchievements = new AchievementsFort(),
             FortSorties = new StatisticJsonSortie()
@@ -114,10 +115,12 @@ namespace WotDossier.Domain.Tank
 
         public AchievementsFallout AchievementsFallout { get; set; }
 
-        /// <summary>
-        /// Gets or sets the achievements historical.
-        /// </summary>
-        public AchievementsHistorical AchievementsHistorical { get; set; }
+	    public AchievementsRanked AchievementsRanked { get; set; }
+
+		/// <summary>
+		/// Gets or sets the achievements historical.
+		/// </summary>
+		public AchievementsHistorical AchievementsHistorical { get; set; }
 
         /// <summary>
         /// Gets or sets the frags list.

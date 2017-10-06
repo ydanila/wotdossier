@@ -1104,7 +1104,7 @@ Ausf. G</value>
     <value>Valentine II</value>
   </data>
   <data name="Valentine_LL_IGR_descr" xml:space="preserve">
-    <value>A British tank supplied to the U.S.S.R. under Lend-Lease. To eliminate the necessity of imported shells and ammunition, the U.S.S.R. engineers re-equipped the Valentine with the 45 mm 20K gun and 7.62 mm DT machine gun. Despite the 45 mm gun had inferior penetration rates, the availability of HE shells significantly increased the firepower of the vehicle.</value>
+    <value>A British tank supplied to the U.S.S.R. under Lend-Lease. To eliminate the necessity of imported shells and ammunition, the U.S.S.R. engineers re-equipped the Valentine with the 45 mm 20K gun and 7.62 mm DT machine gun. Despite the 45 mm gun having inferior penetration rates, the availability of HE shells significantly increased the firepower of the vehicle.</value>
   </data>
   <data name="Vauxhall_Bedford_Twin_Six_IGR" xml:space="preserve">
     <value>Bedford Twin-Six</value>
@@ -1555,7 +1555,7 @@ verstärkteketten</value>
     <value>M48A5 Patton</value>
   </data>
   <data name="A120_M48A5_IGR_descr" xml:space="preserve">
-    <value>A modification of the M48 tank of the 1970s, developed to modernize the remaining M48 tanks in service up to the M60 tank's level. The modification featured a new engine, armament, and fire control system. Apart from armor protection, the 2,570 upgraded vehicles were practically indistinguishable from M60 that featured the same armament and engine.</value>
+    <value>A modification of the M48 tank from the 1970s, developed to modernize the remaining M48 tanks in service up to the M60 tank's level. The modification featured a new engine, armament, and fire control system. Apart from armor protection, the 2,570 upgraded vehicles were practically indistinguishable from the M60 that featured the same armament and engine.</value>
   </data>
   <data name="A120_M48A5_IGR_short" xml:space="preserve">
     <value>M48 Patton</value>

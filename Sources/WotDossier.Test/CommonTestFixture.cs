@@ -41,7 +41,10 @@ namespace WotDossier.Test
 
 	    private string processedPatch = "";
 
-	    public class ClientInfo
+	    private string ResourcePath = @"f:\Games\WotDossierPrepare";
+
+
+		public class ClientInfo
 	    {
 		    public string ClientPath { get; set; }
 		    public string PatchVer { get; set; }
@@ -52,46 +55,45 @@ namespace WotDossier.Test
 
 	    private List<ClientInfo> clients = new List<ClientInfo>
 	    {
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.0", PatchVer="0.7.0", PackedScripts=false, PackedImages=false, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.0"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.1.1", PatchVer="0.7.1", PackedScripts=false, PackedImages=false, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.1.1"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.2", PatchVer="0.7.2", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.2"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.3", PatchVer="0.7.3", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.3"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.4", PatchVer="0.7.4", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.4"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.5", PatchVer="0.7.5", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.5"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.0", PatchVer="0.8.0", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.0"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.1", PatchVer="0.8.1", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.1"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.2", PatchVer="0.8.2", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.2"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.3", PatchVer="0.8.3", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.3"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.4", PatchVer="0.8.4", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.4"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.5", PatchVer="0.8.5", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.5"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.0", PatchVer="0.7.0", PackedScripts=false, PackedImages=false, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.0"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.1.1", PatchVer="0.7.1", PackedScripts=false, PackedImages=false, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.1.1"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.2", PatchVer="0.7.2", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.2"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.3", PatchVer="0.7.3", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.3"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.4", PatchVer="0.7.4", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.4"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.7.5", PatchVer="0.7.5", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.7.5"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.0", PatchVer="0.8.0", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.0"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.1", PatchVer="0.8.1", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.1"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.2", PatchVer="0.8.2", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.2"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.3", PatchVer="0.8.3", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.3"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.4", PatchVer="0.8.4", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.4"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.5", PatchVer="0.8.5", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.5"},
 			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.6", PatchVer="0.8.6", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.6"},
 			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.7", PatchVer="0.8.7", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.7"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.8", PatchVer="0.8.8", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.8"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.9", PatchVer="0.8.9", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.9"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.10", PatchVer="0.8.10", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.10"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.11", PatchVer="0.8.11", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.11"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.0", PatchVer="0.9.0", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.0"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.1", PatchVer="0.9.1", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.1"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.2", PatchVer="0.9.2", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.2"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.3", PatchVer="0.9.3", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.3"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.4", PatchVer="0.9.4", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.4"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.5", PatchVer="0.9.5", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.5"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.6", PatchVer="0.9.6", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.6"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.7", PatchVer="0.9.7", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.7"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.8.1", PatchVer="0.9.8", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.8.1"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.9", PatchVer="0.9.9", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.9"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.10", PatchVer="0.9.10", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.10"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.12", PatchVer="0.9.12", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.12"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.13", PatchVer="0.9.13", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.13"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.14", PatchVer="0.9.14", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.14"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.15.1.1", PatchVer="0.9.15", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.15.1.1"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.16", PatchVer="0.9.16", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.16"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.17.1", PatchVer="0.9.17", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.17.1"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.18", PatchVer="0.9.18", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.18"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.19.1.2", PatchVer="0.9.19", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.19.1.2"},
-		    //new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.4", PatchVer="0.8.4", Packed=false, EnglishClientPath="ru-RU"},
-		    new ClientInfo{ClientPath= @"s:\WorldOfTanks", PatchVer="0.9.20", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.20"},
-		    new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.20.1.CT", PatchVer="0.9.20.1", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.20.1.CT"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.8", PatchVer="0.8.8", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.8"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.9", PatchVer="0.8.9", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.9"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.10", PatchVer="0.8.10", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.10"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.8.11", PatchVer="0.8.11", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.8.11"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.0", PatchVer="0.9.0", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.0"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.1", PatchVer="0.9.1", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.1"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.2", PatchVer="0.9.2", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.2"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.3", PatchVer="0.9.3", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.3"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.4", PatchVer="0.9.4", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.4"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.5", PatchVer="0.9.5", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.5"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.6", PatchVer="0.9.6", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.6"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.7", PatchVer="0.9.7", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.7"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.8.1", PatchVer="0.9.8", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.8.1"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.9", PatchVer="0.9.9", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.9"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.10", PatchVer="0.9.10", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.10"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.12", PatchVer="0.9.12", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.12"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.13", PatchVer="0.9.13", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.13"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.14", PatchVer="0.9.14", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.14"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.15.1.1", PatchVer="0.9.15", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.15.1.1"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.16", PatchVer="0.9.16", PackedScripts=false, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.16"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.17.1", PatchVer="0.9.17", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.17.1"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.18", PatchVer="0.9.18", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.18"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.19.1.2", PatchVer="0.9.19", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.19.1.2"},
+			new ClientInfo{ClientPath= @"s:\WorldOfTanks", PatchVer="0.9.20", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.20"},
+			new ClientInfo{ClientPath= @"f:\Games\WorldOfTanks_0.9.20.1.CT", PatchVer="0.9.20.1", PackedScripts=true, PackedImages=true, EnglishClientPath=@"c:\66\World_of_Tanks - 0.9.20.1.CT"},
 		};
 
 
@@ -158,15 +160,15 @@ namespace WotDossier.Test
             Console.WriteLine(JsonConvert.SerializeObject(xmlTanks.OrderBy(x => x.TankTitle), Formatting.Indented));
         }
 
-        [Test]
-        public void CsvExportProviderTest()
-        {
-            CsvExportProvider provider = new CsvExportProvider();
-            FileInfo cacheFile = CacheTestFixture.GetCacheFile("_rembel__ru", @"\CacheFiles\0.8.9\");
-            List<TankJson> tanks = CacheFileHelper.ReadTanksCache(CacheFileHelper.BinaryCacheToJson(cacheFile));
-            List<RandomBattlesTankStatisticRowViewModel> list = tanks.Select(x => new RandomBattlesTankStatisticRowViewModel(x, new List<StatisticSlice>())).ToList();
-            Console.WriteLine(provider.Export(list, new List<Type>{typeof(IStatisticBattles), typeof(IStatisticFrags)}));
-        }
+        //[Test]
+        //public void CsvExportProviderTest()
+        //{
+        //    CsvExportProvider provider = new CsvExportProvider();
+        //    FileInfo cacheFile = CacheTestFixture.GetCacheFile("_rembel__ru", @"\CacheFiles\0.8.9\");
+        //    List<TankJson> tanks = CacheFileHelper.ReadTanksCache(CacheFileHelper.BinaryCacheToJson(cacheFile));
+        //    List<RandomBattlesTankStatisticRowViewModel> list = tanks.Select(x => new RandomBattlesTankStatisticRowViewModel(x, new List<StatisticSlice>())).ToList();
+        //    Console.WriteLine(provider.Export(list, new List<Type>{typeof(IStatisticBattles), typeof(IStatisticFrags)}));
+        //}
 
         [Test]
         public void appSpotTest()
@@ -452,7 +454,7 @@ namespace WotDossier.Test
 
 	    public void ImportTanksXml(ClientInfo client)
 		{
-			var scriptsPath = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\scripts");
+			var scriptsPath = Path.Combine(ResourcePath, $@"{client.PatchVer}\scripts");
 			var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\Vehicles");
 			var source = Path.Combine(scriptsPath, @"item_defs\vehicles");
 
@@ -501,8 +503,8 @@ namespace WotDossier.Test
 						
 						var country = (Country)Enum.Parse(typeof(Country), countryName);
 						var countryid = (int)country;
-						var typeCompDesc = Utils.TypeCompDesc(countryid, id);
-						var uniqueId = Utils.ToUniqueId(countryid, id);
+						var typeCompDesc = DossierUtils.TypeCompDesc(countryid, id);
+						var uniqueId = DossierUtils.ToUniqueId(countryid, id);
 						var tags = element.Element("tags").Value.Trim(' ', '\t');
 						var tankType = GetVehicleTypeByTag(tags);
 						var secret = tags.Contains("secret");
@@ -539,116 +541,22 @@ namespace WotDossier.Test
 						//tankDescription["type_name"] = tankType.ToString();
 						var icon = countryName.ToLower() + "-" + key + ".png";
 						var tgticon = countryName.ToLower() + "-" + key + "." + typeCompDesc + ".png";
-						if (!File.Exists(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\vehicle",
+						if (!File.Exists(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\vehicle",
 							icon)))
 						{
 							if (File.Exists(Path.Combine(Environment.CurrentDirectory, $@"Patch\Images\vehicle", icon)))
 								File.Copy(Path.Combine(Environment.CurrentDirectory, $@"Patch\Images\vehicle", icon), Path.Combine(destination, $@"Images\Vehicle", tgticon), true);
 							else
-								Console.WriteLine(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\vehicle", icon));
+								Console.WriteLine(Path.Combine(ResourcePath, $@"\{client.PatchVer}\gui\maps\icons\vehicle", icon));
 						}
 						else
-							File.Copy(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\vehicle", icon), Path.Combine(destination, $@"Images\Vehicle", tgticon), true);
+							File.Copy(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\vehicle", icon), Path.Combine(destination, $@"Images\Vehicle", tgticon), true);
 
 					}
 
-					//{"tankid": 0, "countryid": 0, "compDescr": 1, "active": 1, "type": 2, 
-					//"type_name": "MT", "tier": 5, "premium": 0, "title": "T-34", "icon": "r04_t_34", "icon_orig": "R04_T-34"},
-
-					//List<JObject> tanks = new List<JObject>();
-					//foreach (var tank in dictionary)
-					//{
-						
-						
-					//	tankDescription["active"] = Dictionaries.Instance.Tanks.ContainsKey(uniqueId) && !Dictionaries.Instance.Tanks[uniqueId].Active ? 0 : 1;
-						
-					//	tankDescription["premium"] = Dictionaries.Instance.Tanks.ContainsKey(uniqueId) ? Dictionaries.Instance.Tanks[uniqueId].Premium :
-					//	tank.Value["notInShop"] == null ? 0 : 1;
-					//	var key = tank.Value["userString"].Value<string>().Split(':')[1];
-					//	var value = GetString(key);
-					//	tankDescription["title"] = value;
-					//	var titleShort = tank.Value["shortUserString"];
-					//	if (titleShort != null)
-					//	{
-					//		tankDescription["title_short"] = GetString(titleShort.Value<string>().Split(':')[1]);
-					//	}
-					//	var icon = tank.Key.Replace("-", "_").ToLower();
-
-					//	if (countryid == 0)
-					//	{
-					//		resources.Add(icon, value);
-					//	}
-
-					//	tankDescription["icon"] = icon;
-					//	tankDescription["icon_orig"] = tank.Key;
-
-					//	if (!Dictionaries.Instance.Tanks.ContainsKey(uniqueId))
-					//	{
-					//		Console.WriteLine(tank.Value);
-					//	}
-					//	else
-					//	{
-					//		var description = Dictionaries.Instance.Tanks[uniqueId];
-					//		if (description.Icon.Icon != (string)tankDescription["icon"])
-					//		{
-					//			string f = @"else if (iconId == ""{0}_{1}"")
-     //                           {{
-     //                               //{4} replay tank name changed to {2}
-     //                               tankDescription = tankDescriptions[{3}];
-     //                           }}";
-					//			codegen.AppendFormat(f, country.ToString().ToLower(), description.Icon.Icon, tankDescription["icon"], uniqueId, Dictionaries.VersionRelease);
-					//			codegen.AppendLine();
-					//		}
-					//	}
-
-					//	JObject tankDef = GetTankDefinition(countryid, tank.Key);
-
-					//	if (tankDef != null)
-					//	{
-					//		//Console.WriteLine(tankDef.ToString(Formatting.Indented));
-					//		var health = tankDef.SelectToken("$.vehicles.hull.maxHealth").Value<int>() + tankDef.SelectTokens("$.vehicles.turrets0..maxHealth").First().Value<int>();
-					//		tankDescription["health"] = health;
-					//	}
-
-					//	tanks.Add(tankDescription);
-					//}
-					//result.AddRange(tanks);
 				}
 			}
 			resultDoc.Save(Path.Combine(destination, "Vehicles.xml"));
-			//Add Action tanks
-			//AddActionTanks(result);
-
-			//using (ResXResourceWriter writer = new ResXResourceWriter(Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Resources\ussr_vehicles_out.resx")))
-			//{
-			//	foreach (var resource in resources)
-			//	{
-			//		writer.AddResource(resource.Key, resource.Value);
-			//	}
-			//}
-
-			//var serializeObject = JsonConvert.SerializeObject(result
-			//	.OrderBy(x => GetOrder(x["countryid"].Value<int>()))
-			//	.ThenBy(x => x["tankid"].Value<int>()));
-			//var tanksJson = serializeObject.Replace("{", "\n{").Replace(",\"", ", \"").Replace(":", ": ");
-
-			//var path = Path.Combine(Environment.CurrentDirectory, @"Output\Externals");
-
-			//if (!Directory.Exists(path))
-			//{
-			//	Directory.CreateDirectory(path);
-			//}
-
-			//path = Path.Combine(path, "tanks.json");
-
-			//var stream = File.OpenWrite(path);
-			//using (StreamWriter writer = new StreamWriter(stream, Encoding.UTF8))
-			//{
-			//	writer.Write(tanksJson);
-			//}
-
-			//Console.WriteLine(tanksJson);
-			//Console.WriteLine(codegen);
 		}
 
 		private void ImportActionTanksXml()
@@ -825,7 +733,7 @@ namespace WotDossier.Test
 
 	    public void ImportMapsXml(ClientInfo client)
 	    {
-		    var configsPath = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\scripts\arena_defs");
+		    var configsPath = Path.Combine(ResourcePath, $@"{client.PatchVer}\scripts\arena_defs");
 
 		    if (!Directory.Exists(configsPath))
 		    {
@@ -881,7 +789,7 @@ namespace WotDossier.Test
 			    }
 		    }
 		    resultDoc.Save(Path.Combine(path, "Maps.xml"));
-			DirectoryCopy(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\map\stats"), Path.Combine(path, @"Images\Stats"), false, "*.png");
+			DirectoryCopy(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\map\stats"), Path.Combine(path, @"Images\Stats"), false, "*.png");
 
 		}
 
@@ -893,7 +801,7 @@ namespace WotDossier.Test
 		    if (!Directory.Exists(path))
 			    Directory.CreateDirectory(path);
 
-		    var srcPath = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\map");
+		    var srcPath = Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\map");
 
 		    foreach (var srcFile in Directory.GetFiles(srcPath, "*.png", SearchOption.TopDirectoryOnly))
 		    {
@@ -929,7 +837,7 @@ namespace WotDossier.Test
 			    resultDoc.Add(mapNode);
 		    }
 
-			var strings = Directory.GetFiles(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\scripts"), "shells.xml",
+			var strings = Directory.GetFiles(Path.Combine(ResourcePath, $@"{client.PatchVer}\scripts"), "shells.xml",
 			    SearchOption.AllDirectories);
 
 
@@ -956,13 +864,18 @@ namespace WotDossier.Test
 				    foreach (var elem in doc.Root.Elements())
 				    {
 					    countryNode.Element(elem.Name.LocalName)?.Remove();
+
+						//Косяк ВГ с двумя элементами в "Development_Shot"
+						if (elem.Elements("notInShop").Count() > 1)
+							elem.Elements("notInShop").Last().Remove();
+
 						countryNode.Add(elem);
 					}
 			    }
 		    }
 		    resultDoc.Save(Path.Combine(path, "Shells.xml"));
 
-		    DirectoryCopy(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\shell"), Path.Combine(path, @"Images\Shell"), false, "*.png");
+		    DirectoryCopy(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\shell"), Path.Combine(path, @"Images\Shell"), false, "*.png");
 			
 	    }
 
@@ -986,8 +899,8 @@ namespace WotDossier.Test
 
 			BigWorldXmlReader reader = new BigWorldXmlReader();
 
-			var fn = Path.Combine(Environment.CurrentDirectory,
-				$@"Output\{client.PatchVer}\scripts\item_defs\vehicles\common\equipments.xml");
+			var fn = Path.Combine(ResourcePath,
+				$@"{client.PatchVer}\scripts\item_defs\vehicles\common\equipments.xml");
 			if (File.Exists(fn))
 			{
 				var info = new FileInfo(fn);
@@ -1015,8 +928,8 @@ namespace WotDossier.Test
 				optDoc.Add(nd);
 			}
 
-			fn = Path.Combine(Environment.CurrentDirectory,
-				$@"Output\{client.PatchVer}\scripts\item_defs\vehicles\common\optional_devices.xml");
+			fn = Path.Combine(ResourcePath,
+				$@"{client.PatchVer}\scripts\item_defs\vehicles\common\optional_devices.xml");
 			if (File.Exists(fn))
 			{
 				var info = new FileInfo(fn);
@@ -1035,12 +948,12 @@ namespace WotDossier.Test
 
 			optDoc.Save(Path.Combine(path, "OptionalDevices.xml"));
 
-			DirectoryCopy(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\artefact"), Path.Combine(path, @"Images\Artefact"), false, "*.png");
+			DirectoryCopy(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\artefact"), Path.Combine(path, @"Images\Artefact"), false, "*.png");
 		}
 
 		public void ImportAchievementsXml(ClientInfo client)
 		{
-			var xmlPath = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\scripts\item_defs\achievements.xml");
+			var xmlPath = Path.Combine(ResourcePath, $@"{client.PatchVer}\scripts\item_defs\achievements.xml");
 			if (!File.Exists(xmlPath)) return;
 
 			var path = Path.Combine(Environment.CurrentDirectory, $@"Output\Achievements");
@@ -1062,7 +975,7 @@ namespace WotDossier.Test
 			}
 			equDoc.Save(Path.Combine(path, "Achievements.xml"));
 
-			DirectoryCopy(Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\gui\maps\icons\achievement"), Path.Combine(path, @"Images\Achievement"), false, "*.png");
+			DirectoryCopy(Path.Combine(ResourcePath, $@"{client.PatchVer}\gui\maps\icons\achievement"), Path.Combine(path, @"Images\Achievement"), false, "*.png");
 			
 		}
 
@@ -1081,7 +994,7 @@ namespace WotDossier.Test
 
 	    public void EnsureImportImages(ClientInfo client)
 	    {
-			var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}");
+			var destination = Path.Combine(ResourcePath, $@"{client.PatchVer}");
 
 		    if (Directory.Exists(Path.Combine(destination, "gui")))
 			    return;
@@ -1117,20 +1030,20 @@ namespace WotDossier.Test
 		        GenerateStringResources(client);
 
 		        Console.WriteLine("Copy achievements definitions");
-		        //ImportAchievementsXml(client);
+		        ImportAchievementsXml(client);
 
 				Console.WriteLine("Copy maps");
-				//ImportMapsXml(client);
-				//ImportMapMinimapsXml(client, prevVer);
+				ImportMapsXml(client);
+				ImportMapMinimapsXml(client, prevVer);
 
 				Console.WriteLine("Copy tanks components");
-				//ImportShellsXml(client);
-				//ImportArtefactXml(client);
+				ImportShellsXml(client);
+				ImportArtefactXml(client);
 
 		        Console.WriteLine("Copy tanks definitions");
-		        //ImportTanksXml(client);
-		        //ImportActionTanksXml();
-		        //CheckTankImages();
+		        ImportTanksXml(client);
+		        ImportActionTanksXml();
+		        CheckTankImages();
 
 				//destination = Path.Combine(Environment.CurrentDirectory, @"Output\Patch\Images");
 
@@ -1185,7 +1098,7 @@ namespace WotDossier.Test
 			    Directory.CreateDirectory(destination);
 
 		    foreach (var src in Directory.GetFiles(
-			    Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\Resources\Text"), "*.resx"))
+			    Path.Combine(ResourcePath, $@"{client.PatchVer}\Resources\Text"), "*.resx"))
 		    {
 			    string locale = "";
 			    string fileName = Path.GetFileNameWithoutExtension(src);
@@ -1197,23 +1110,8 @@ namespace WotDossier.Test
 			    }
 			    var dict = new Dictionary<string, string>();
 
-			    var resultName = $"{fileName}{locale}.resx";
-			    var nmlist = resultName.ToCharArray();
-			    var capit = true;
-			    resultName = "";
-			    foreach (var ch in nmlist)
-			    {
-				    if (ch == '_')
-				    {
-					    capit = true;
-					    continue;
-				    }
-				    var c = ch.ToString();
-				    if (capit)
-					    c = c.ToUpper();
-				    resultName += c;
-				    capit = false;
-			    }
+				var resultName = ResourceHelper.CorrectResourceName($"{fileName}{locale}.resx");
+				
 			    if (resultName.Contains(".en."))
 			    {
 				    resultName = resultName.Replace(".en.", ".");
@@ -1269,7 +1167,7 @@ namespace WotDossier.Test
 
 	    private void EnshureScriptsCopied(ClientInfo client)
 	    {
-			var destination = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}");
+			var destination = Path.Combine(ResourcePath, $@"{client.PatchVer}");
 		    var scriptsPath = Path.Combine(destination, @"scripts");
 
 		    if (!Directory.Exists(scriptsPath))
@@ -1335,7 +1233,7 @@ namespace WotDossier.Test
 
 		    foreach(var lc in new List<(string path, string locale)> { (client.ClientPath, "ru"), (client.EnglishClientPath, "en") })
 			{
-				destination = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\text\{lc.locale}");
+				destination = Path.Combine(ResourcePath, $@"{client.PatchVer}\text\{lc.locale}");
 				source = Path.Combine(lc.path, @"res\text\lc_messages");
 
 				if (!Directory.Exists(destination))
@@ -1350,7 +1248,7 @@ namespace WotDossier.Test
 						info.CopyTo(Path.Combine(destination, info.Name), true);
 					}
 
-					var res = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}\Resources\Text\{lc.locale}");
+					var res = Path.Combine(ResourcePath, $@"{client.PatchVer}\Resources\Text\{lc.locale}");
 					if (!Directory.Exists(res))
 					{
 						Directory.CreateDirectory(res);
@@ -1364,7 +1262,7 @@ namespace WotDossier.Test
 						proc.StartInfo.RedirectStandardOutput = true;
 						proc.StartInfo.FileName = Path.Combine(Environment.CurrentDirectory, @"Tools\convert.cmd");
 						proc.StartInfo.StandardOutputEncoding = Encoding.ASCII;
-						proc.StartInfo.Arguments = Path.Combine(Environment.CurrentDirectory, $@"Output\{client.PatchVer}") + " " +
+						proc.StartInfo.Arguments = Path.Combine(ResourcePath, $@"{client.PatchVer}") + " " +
 						                           Path.Combine(Environment.CurrentDirectory, @"Tools") + " " + lc.locale;
 
 

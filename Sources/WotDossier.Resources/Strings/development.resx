@@ -193,7 +193,7 @@
     <value>Настройки битвы (development)</value>
   </data>
   <data name="bots/buttons/add" xml:space="preserve">
-    <value>Add</value>
+    <value>Добавить</value>
   </data>
   <data name="bots/buttons/close" xml:space="preserve">
     <value>Выйти</value>
@@ -247,10 +247,10 @@
     <value>Undo</value>
   </data>
   <data name="messenger/contacts/addGroup/body" xml:space="preserve">
-    <value>Click to create a group.</value>
+    <value>Нажмите, чтобы создать группу в списке контактов.</value>
   </data>
   <data name="messenger/contacts/addGroup/header" xml:space="preserve">
-    <value>Create Group</value>
+    <value>Создание группы</value>
   </data>
   <data name="messenger/contacts/buttons/externalSearch" xml:space="preserve">
     <value>Outside Contact Search</value>
@@ -265,16 +265,16 @@
     <value>Find a player</value>
   </data>
   <data name="messenger/contacts/searchContact/body" xml:space="preserve">
-    <value>Click to find and add a player to your Contact list.</value>
+    <value>Нажмите, чтобы найти и добавить игрока в список контактов.</value>
   </data>
   <data name="messenger/contacts/searchContact/header" xml:space="preserve">
-    <value>Player Search</value>
+    <value>Поиск игроков</value>
   </data>
   <data name="messenger/contacts/settings/body" xml:space="preserve">
-    <value>Click to change the Contact list settings.</value>
+    <value>Нажмите, чтобы настроить список контактов.</value>
   </data>
   <data name="messenger/contacts/settings/header" xml:space="preserve">
-    <value>Settings</value>
+    <value>Настройка</value>
   </data>
   <data name="messenger/contacts/title" xml:space="preserve">
     <value>Contacts</value>
@@ -397,16 +397,16 @@
     <value>Settings</value>
   </data>
   <data name="messenger/contacts/settings/view/applyBtn/body" xml:space="preserve">
-    <value>Click to save the selected settings.</value>
+    <value>Нажмите, чтобы сохранить установленные настройки.</value>
   </data>
   <data name="messenger/contacts/settings/view/applyBtn/header" xml:space="preserve">
-    <value>Apply</value>
+    <value>Применить</value>
   </data>
   <data name="messenger/contacts/settings/view/cancelBtn/body" xml:space="preserve">
-    <value>Click to cancel the changes and return to your Contact list.</value>
+    <value>Нажмите, чтобы отменить изменения и вернуться к списку контактов.</value>
   </data>
   <data name="messenger/contacts/settings/view/cancelBtn/header" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Отменить</value>
   </data>
   <data name="editor/Pause" xml:space="preserve">
     <value>Pause - (Ctrl+P)</value>

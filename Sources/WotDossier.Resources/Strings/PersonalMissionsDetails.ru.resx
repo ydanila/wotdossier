@@ -244,7 +244,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего лёгкого танка и любой другой техники.</value>
   </data>
   <data name="quest_1_1_13_condition_title_damage" xml:space="preserve">
-    <value>Нанести 1000 урона (суммарно взводом)</value>
+    <value>Нанести 1000 урона (лично/взвод)</value>
   </data>
   <data name="quest_1_1_14_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -303,7 +303,7 @@
     <value>• Обездвиженная вами машина должна получить урон от союзников.</value>
   </data>
   <data name="quest_1_1_4_condition_description_damageAssistedTrack" xml:space="preserve">
-    <value>Сбить гусеницу противнику. Союзники должны нанести ему урон</value>
+    <value>Сбить гусеницу противнику. Союзники должны нанести ему урон, пока он обездвижен</value>
   </data>
   <data name="quest_1_1_4_condition_main" xml:space="preserve">
     <value>• Cбить гусеницу машине противника.</value>
@@ -605,7 +605,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</value>
   </data>
   <data name="quest_1_3_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 2000 урона (суммарно взводом)</value>
+    <value>Нанести 2000 урона (лично/взвод)</value>
   </data>
   <data name="quest_1_3_14_condition_add" xml:space="preserve">
     <value>• Лично (или суммарно взводом) нанести не менее 1500 урона технике противника.</value>
@@ -615,10 +615,10 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</value>
   </data>
   <data name="quest_1_3_14_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 1500 урона (суммарно взводом)</value>
+    <value>Нанести 1500 урона (лично/взвод)</value>
   </data>
   <data name="quest_1_3_14_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 машины (суммарно взводом)</value>
+    <value>Уничтожить 3 машины (лично/взвод)</value>
   </data>
   <data name="quest_1_3_15_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -784,7 +784,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашей ПТ-САУ и любой другой техники.</value>
   </data>
   <data name="quest_1_4_13_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 3 машины (суммарно взводом)</value>
+    <value>Уничтожить 3 машины (лично/взвод)</value>
   </data>
   <data name="quest_1_4_14_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -962,10 +962,10 @@
     <value>• Лично или суммарно взводом не менее 4 раз нанести урон или не менее 6 раз оглушить технику противника. Выполнение возможно как лично, так и при игре взводом, состоящим из вашей САУ и любой другой техники.</value>
   </data>
   <data name="quest_1_5_13_condition_title_stunNum" xml:space="preserve">
-    <value>Оглушить 6 раз (суммарно взводом)</value>
+    <value>Оглушить 6 раз (лично/взвод)</value>
   </data>
   <data name="quest_1_5_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 4 раза (суммарно взводом)</value>
+    <value>Нанести урон 4 раза (лично/взвод)</value>
   </data>
   <data name="quest_1_5_14_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -977,7 +977,7 @@
     <value>• Лично или суммарно взводом оглушить технику противника в общей сложности на 70 и более секунд или помочь союзникам нанести не менее 400 урона, обездвижив технику противника. Выполнение возможно как лично, так и при игре взводом, состоящим из вашей САУ и любой другой техники.</value>
   </data>
   <data name="quest_1_5_14_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 70 секунд (можно взводом)</value>
+    <value>Оглушить суммарно на 70 секунд (лично/взвод)</value>
   </data>
   <data name="quest_1_5_15_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -1123,7 +1123,7 @@
     <value>ЛТ-8. Это наша база!</value>
   </data>
   <data name="quest_1_8_advise" xml:space="preserve">
-    <value>Если вы не уверены в том, что ваши снаряды пробьют броню захватчика и нанесут ему урон — заряжайте осколочно-фугасный снаряд, который с большей долей вероятности нанесёт урон противнику. Помните, что даже 1 единица нанесённого урона по захватчику собьёт захват. В случае захвата базы противника не попадите под обстрел сами.</value>
+    <value>Если вы не уверены в том, что ваши снаряды пробьют броню захватчика и нанесут ему урон — заряжайте осколочно-фугасный снаряд, который с большей долей вероятности нанесёт урон противнику. Помните, что даже 1 единица нанесённого урона по захватчику (или повреждение его внешнего модуля) собьёт захват. В случае захвата базы противника не попадите под обстрел сами.</value>
   </data>
   <data name="quest_1_8_descr" xml:space="preserve">
     <value>Иногда в пылу сражения команда союзников забывает о собственной или нейтральной базах, что позволяет противнику осуществить успешный захват. Помните, что скорости вашего танка хватает для того, чтобы бросив всё вернуться к базе, сбить захват удачным выстрелом или тараном и тем самым спасти команду от поражения.</value>
@@ -1261,7 +1261,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего лёгкого танка и любой другой техники.</value>
   </data>
   <data name="quest_2_1_13_condition_title_damage" xml:space="preserve">
-    <value>Нанести 1500 урона (суммарно взводом)</value>
+    <value>Нанести 1500 урона (лично/взвод)</value>
   </data>
   <data name="quest_2_1_14_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -1321,13 +1321,13 @@
     <value>• Союзниками должно быть уничтожено не менее 1 обездвиженной вами машины.</value>
   </data>
   <data name="quest_2_1_4_condition_description_assist_track" xml:space="preserve">
-    <value>Сбить гусеницу противнику. Союзники должны нанести ему 250 урона</value>
+    <value>Сбить гусеницу противнику. Союзники должны нанести ему 250 урона, пока он обездвижен</value>
   </data>
   <data name="quest_2_1_4_condition_description_damageAssistedTrack" xml:space="preserve">
-    <value>Сбить гусеницу противнику. Союзники должны нанести ему 250 урона</value>
+    <value>Сбить гусеницу противнику. Союзники должны нанести ему 250 урона, пока он обездвижен</value>
   </data>
   <data name="quest_2_1_4_condition_description_killsAssistedTrack" xml:space="preserve">
-    <value>Сбить гусеницу противнику. Союзники должны его уничтожить</value>
+    <value>Сбить гусеницу противнику. Союзники должны его уничтожить, пока он обездвижен</value>
   </data>
   <data name="quest_2_1_4_condition_main" xml:space="preserve">
     <value>• Cбить гусеницу машине противника.
@@ -1639,7 +1639,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</value>
   </data>
   <data name="quest_2_3_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 4000 урона (суммарно взводом)</value>
+    <value>Нанести 4000 урона (лично/взвод)</value>
   </data>
   <data name="quest_2_3_14_condition_add" xml:space="preserve">
     <value>• Лично (или суммарно взводом) нанести не менее 2000 урона технике противника.</value>
@@ -1649,10 +1649,10 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</value>
   </data>
   <data name="quest_2_3_14_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 2000 урона (суммарно взводом)</value>
+    <value>Нанести 2000 урона (лично/взвод)</value>
   </data>
   <data name="quest_2_3_14_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 4 машины (суммарно взводом)</value>
+    <value>Уничтожить 4 машины (лично/взвод)</value>
   </data>
   <data name="quest_2_3_15_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -1825,7 +1825,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашей ПТ-САУ и любой другой техники.</value>
   </data>
   <data name="quest_2_4_13_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 4 машины (суммарно взводом)</value>
+    <value>Уничтожить 4 машины (лично/взвод)</value>
   </data>
   <data name="quest_2_4_14_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -1951,7 +1951,7 @@
     <value>Точный выстрел в двигатель может обездвижить машину противника, а удачное попадание в его боеукладку решит исход даже самой безнадёжной дуэли. К внутренним модулям относятся: механизм поворота башни, двигатель, баки, боеукладка и радиостанция.</value>
   </data>
   <data name="quest_2_4_descr" xml:space="preserve">
-    <value>Опытный танкист должен знать слабые места машин противника. Изучайте технику, против которой вы можете оказаться в бою. Бейте по уязвимым местам. </value>
+    <value>Опытный танкист должен знать слабые места машин противника. Изучайте технику, против которой вы можете оказаться в бою. Бейте по уязвимым местам.</value>
   </data>
   <data name="quest_2_4_short" xml:space="preserve">
     <value>ТТ-4</value>
@@ -2003,10 +2003,10 @@
     <value>• Лично или суммарно взводом не менее 6 раз нанести урон или не менее 8 раз оглушить технику противника. Выполнение возможно как лично, так и при игре взводом, состоящим из вашей САУ и любой другой техники.</value>
   </data>
   <data name="quest_2_5_13_condition_title_stunNum" xml:space="preserve">
-    <value>Оглушить 8 раз (суммарно взводом)</value>
+    <value>Оглушить 8 раз (лично/взвод)</value>
   </data>
   <data name="quest_2_5_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 6 раз (суммарно взводом)</value>
+    <value>Нанести урон 6 раз (лично/взвод)</value>
   </data>
   <data name="quest_2_5_14_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -2018,7 +2018,7 @@
     <value>• Лично или суммарно взводом оглушить технику противника в общей сложности на 100 и более секунд, или помочь союзникам нанести не менее 600 урона, обездвижив технику противника. Выполнение возможно как лично, так и при игре взводом, состоящим из вашей САУ и любой другой техники.</value>
   </data>
   <data name="quest_2_5_14_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 100 секунд (можно взводом)</value>
+    <value>Оглушить суммарно на 100 секунд (лично/взвод)</value>
   </data>
   <data name="quest_2_5_15_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -2303,7 +2303,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего лёгкого танка и любой другой техники.</value>
   </data>
   <data name="quest_3_1_13_condition_title_damage" xml:space="preserve">
-    <value>Нанести 2000 урона (суммарно взводом)</value>
+    <value>Нанести 2000 урона (лично/взвод)</value>
   </data>
   <data name="quest_3_1_14_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -2367,13 +2367,13 @@
     <value>• Союзниками должно быть уничтожено не менее 2 обездвиженных вами машин.</value>
   </data>
   <data name="quest_3_1_4_condition_description_assist_track" xml:space="preserve">
-    <value>Сбить гусеницу противнику. Союзники должны нанести ему 250 урона</value>
+    <value>Сбить гусеницу противнику. Союзники должны нанести ему 250 урона, пока он обездвижен</value>
   </data>
   <data name="quest_3_1_4_condition_description_damageAssistedTrack" xml:space="preserve">
-    <value>Сбить гусеницу противнику. Союзники должны нанести ему 250 урона</value>
+    <value>Сбить гусеницу противнику. Союзники должны нанести ему 250 урона, пока он обездвижен</value>
   </data>
   <data name="quest_3_1_4_condition_description_killsAssistedTrack" xml:space="preserve">
-    <value>Сбить гусеницу 2 целям. Союзники должны их уничтожить</value>
+    <value>Сбить гусеницу 2 целям. Союзники должны их уничтожить, пока они обездвижены</value>
   </data>
   <data name="quest_3_1_4_condition_main" xml:space="preserve">
     <value>• Cбить гусеницу не менее 3 машинам противника.</value>
@@ -2692,7 +2692,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</value>
   </data>
   <data name="quest_3_3_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 6000 урона (суммарно взводом)</value>
+    <value>Нанести 6000 урона (лично/взвод)</value>
   </data>
   <data name="quest_3_3_14_condition_add" xml:space="preserve">
     <value>• Лично (или суммарно взводом) нанести не менее 3000 урона технике противника.</value>
@@ -2702,10 +2702,10 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</value>
   </data>
   <data name="quest_3_3_14_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 3000 урона (суммарно взводом)</value>
+    <value>Нанести 3000 урона (лично/взвод)</value>
   </data>
   <data name="quest_3_3_14_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 6 машин (суммарно взводом)</value>
+    <value>Уничтожить 6 машин (лично/взвод)</value>
   </data>
   <data name="quest_3_3_15_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -2887,7 +2887,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашей ПТ-САУ и любой другой техники.</value>
   </data>
   <data name="quest_3_4_13_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 5 машин (суммарно взводом)</value>
+    <value>Уничтожить 5 машин (лично/взвод)</value>
   </data>
   <data name="quest_3_4_14_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -2927,7 +2927,7 @@
 • Не иметь к моменту завершения боя повреждённых или выведенных из строя внутренних модулей или раненых членов экипажа.</value>
   </data>
   <data name="quest_3_4_2_condition_description_crit" xml:space="preserve">
-    <value>Вывести из строя суммарно 2 внутренних модуля или членов экипажа</value>
+    <value>Вывести из строя суммарно 2 внутренних модуля или члена экипажа</value>
   </data>
   <data name="quest_3_4_2_condition_main" xml:space="preserve">
     <value>• Нанести не менее 2000 урона и вывести из строя не менее 2 внутренних модулей или ранить членов экипажа противника.</value>
@@ -3069,10 +3069,10 @@
     <value>• Лично или суммарно взводом не менее 8 раз нанести урон или не менее 10 раз оглушить технику противника. Выполнение возможно как лично, так и при игре взводом, состоящим из вашей САУ и любой другой техники.</value>
   </data>
   <data name="quest_3_5_13_condition_title_stunNum" xml:space="preserve">
-    <value>Оглушить 10 раз (суммарно взводом)</value>
+    <value>Оглушить 10 раз (лично/взвод)</value>
   </data>
   <data name="quest_3_5_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 8 раз (суммарно взводом)</value>
+    <value>Нанести урон 8 раз (лично/взвод)</value>
   </data>
   <data name="quest_3_5_14_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -3084,7 +3084,7 @@
     <value>• Лично или суммарно взводом оглушить технику противника в общей сложности на 180 и более секунд, или помочь союзникам нанести не менее 800 урона, обездвижив технику противника. Выполнение возможно как лично, так и при игре взводом, состоящим из вашей САУ и любой другой техники.</value>
   </data>
   <data name="quest_3_5_14_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 180 секунд (можно взводом)</value>
+    <value>Оглушить суммарно на 180 секунд (лично/взвод)</value>
   </data>
   <data name="quest_3_5_15_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -3376,7 +3376,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего лёгкого танка и любой другой техники.</value>
   </data>
   <data name="quest_4_1_13_condition_title_damage" xml:space="preserve">
-    <value>Нанести 2500 урона (суммарно взводом)</value>
+    <value>Нанести 2500 урона (лично/взвод)</value>
   </data>
   <data name="quest_4_1_14_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -3440,13 +3440,13 @@
     <value>• Союзниками должно быть уничтожено не менее 2 обездвиженных вами машин.</value>
   </data>
   <data name="quest_4_1_4_condition_description_assist_track" xml:space="preserve">
-    <value>Сбить гусеницу противнику. Союзники должны нанести ему 500 урона</value>
+    <value>Сбить гусеницу противнику. Союзники должны нанести ему 500 урона, пока он обездвижен</value>
   </data>
   <data name="quest_4_1_4_condition_description_damageAssistedTrack" xml:space="preserve">
-    <value>Сбить гусеницу противнику. Союзники должны нанести ему 500 урона</value>
+    <value>Сбить гусеницу противнику. Союзники должны нанести ему 500 урона, пока он обездвижен</value>
   </data>
   <data name="quest_4_1_4_condition_description_killsAssistedTrack" xml:space="preserve">
-    <value>Сбить гусеницу 2 целям. Союзники должны их уничтожить</value>
+    <value>Сбить гусеницу 2 целям. Союзники должны их уничтожить, пока они обездвижены</value>
   </data>
   <data name="quest_4_1_4_condition_main" xml:space="preserve">
     <value>• Cбить гусеницу не менее 3 машинам противника.
@@ -3765,7 +3765,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</value>
   </data>
   <data name="quest_4_3_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 8000 урона (суммарно взводом)</value>
+    <value>Нанести 8000 урона (лично/взвод)</value>
   </data>
   <data name="quest_4_3_14_condition_add" xml:space="preserve">
     <value>• Лично (или суммарно взводом) нанести не менее 4000 урона технике противника.</value>
@@ -3775,10 +3775,10 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашего среднего танка и любой другой техники.</value>
   </data>
   <data name="quest_4_3_14_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести 4000 урона (суммарно взводом)</value>
+    <value>Нанести 4000 урона (лично/взвод)</value>
   </data>
   <data name="quest_4_3_14_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 8 машин (суммарно взводом)</value>
+    <value>Уничтожить 8 машин (лично/взвод)</value>
   </data>
   <data name="quest_4_3_15_condition_add" xml:space="preserve">
     <value>• Выжить в бою.
@@ -3955,7 +3955,7 @@
 • Выполнение возможно как лично, так и при игре взводом, состоящим из вашей ПТ-САУ и любой другой техники.</value>
   </data>
   <data name="quest_4_4_13_condition_title_vehicleKills" xml:space="preserve">
-    <value>Уничтожить 6 машин (суммарно взводом)</value>
+    <value>Уничтожить 6 машин (лично/взвод)</value>
   </data>
   <data name="quest_4_4_14_condition_add" xml:space="preserve">
     <value>• Лично выжить в бою.</value>
@@ -3995,7 +3995,7 @@
 • Не иметь к моменту завершения боя повреждённых или выведенных из строя внутренних модулей или раненых членов экипажа.</value>
   </data>
   <data name="quest_4_4_2_condition_description_crit" xml:space="preserve">
-    <value>Вывести из строя суммарно 3 внутренних модуля или членов экипажа</value>
+    <value>Вывести из строя суммарно 3 внутренних модуля или члена экипажа</value>
   </data>
   <data name="quest_4_4_2_condition_main" xml:space="preserve">
     <value>• Нанести не менее 5000 урона и вывести из строя не менее 3 внутренних модулей или ранить членов экипажа противника.</value>
@@ -4137,10 +4137,10 @@
     <value>• Лично или суммарно взводом не менее 10 раз нанести урон или не менее 12 раз оглушить технику противника. Выполнение возможно как лично, так и при игре взводом, состоящим из вашей САУ и любой другой техники.</value>
   </data>
   <data name="quest_4_5_13_condition_title_stunNum" xml:space="preserve">
-    <value>Оглушить 12 раз (суммарно взводом)</value>
+    <value>Оглушить 12 раз (лично/взвод)</value>
   </data>
   <data name="quest_4_5_13_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Нанести урон 10 раз (суммарно взводом)</value>
+    <value>Нанести урон 10 раз (лично/взвод)</value>
   </data>
   <data name="quest_4_5_14_condition_add" xml:space="preserve">
     <value>• Победить в бою.</value>
@@ -4152,7 +4152,7 @@
     <value>• Лично или суммарно взводом оглушить технику противника в общей сложности на 250 и более секунд, или помочь союзникам нанести не менее 1000 урона, обездвижив технику противника. Выполнение возможно как лично, так и при игре взводом, состоящим из вашей САУ и любой другой техники.</value>
   </data>
   <data name="quest_4_5_14_condition_title_stunDuration" xml:space="preserve">
-    <value>Оглушить суммарно на 250 секунд (можно взводом)</value>
+    <value>Оглушить суммарно на 250 секунд (лично/взвод)</value>
   </data>
   <data name="quest_4_5_15_condition_add" xml:space="preserve">
     <value>• Выжить в бою.</value>
@@ -4659,7 +4659,7 @@
     <value>?empty?</value>
   </data>
   <data name="quest_5_3_descr" xml:space="preserve">
-    <value>Скрытые и опасные ПТ-САУ, а также хорошо бронированные тяжёлые танки противника могут перевернуть бой в свою пользу, потому старайтесь уничтожать их (или помогать в их уничтожении) как можно чаще и быстрее. Чаще всего тяжёлые танки и ПТ-САУ медлительны, что облегчит прицеливание по ним.</value>
+    <value>Скрытые и опасные ПТ-САУ, а также хорошо бронированные тяжёлые танки противника могут перевернуть бой в свою пользу, потому старайтесь уничтожать их (или помогать в их уничтожении) как можно чаще и быстрее. Зачастую тяжёлые танки и ПТ-САУ медлительны, что облегчит прицеливание по ним.</value>
   </data>
   <data name="quest_5_3_short" xml:space="preserve">
     <value>САУ-3</value>
@@ -4881,7 +4881,7 @@
     <value>Для дальнего боя займите такую позицию, с которой можно простреливать несколько направлений: рано или поздно на одном из них появится противник. Для ближнего боя возьмите машину с магазинной системой заряжания — так будет проще нанести огромный урон без риска промахнуться по противнику. Кроме того, на один его выстрел придётся несколько ваших, что всегда выгоднее.</value>
   </data>
   <data name="quest_7_10_descr" xml:space="preserve">
-    <value>Эффективно вести огонь по противнику можно как с большого расстояния, так и в упор. В первом случае стоит полагаться на точность орудий, во втором — на маневренность и динамику своей машины.</value>
+    <value>Эффективно вести огонь по противнику можно как с большого расстояния, так и в упор. В первом случае стоит полагаться на точность орудий, во втором — на манёвренность и динамику своей машины.</value>
   </data>
   <data name="quest_7_11" xml:space="preserve">
     <value>П-11. Все средства хороши</value>
@@ -5085,13 +5085,13 @@
     <value>Обнаружение</value>
   </data>
   <data name="quest_common_condition_title_squad_assistedRadio" xml:space="preserve">
-    <value>Разведданные (можно взводом)</value>
+    <value>Разведданные (лично/взвод)</value>
   </data>
   <data name="quest_common_condition_title_squad_damage" xml:space="preserve">
-    <value>Урон (можно взводом)</value>
+    <value>Урон (лично/взвод)</value>
   </data>
   <data name="quest_common_condition_title_squad_vehicleKills" xml:space="preserve">
-    <value>Уничтожить (можно взводом)</value>
+    <value>Уничтожить (лично/взвод)</value>
   </data>
   <data name="quest_common_condition_title_stunAssist" xml:space="preserve">
     <value>Поддержка</value>
@@ -5100,7 +5100,7 @@
     <value>Выжить</value>
   </data>
   <data name="quest_common_condition_title_unit_damageAssistedTrack" xml:space="preserve">
-    <value>Обездвиживание (можно взводом)</value>
+    <value>Обездвиживание (лично/взвод)</value>
   </data>
   <data name="quest_common_condition_title_vehicleStun" xml:space="preserve">
     <value>Оглушить</value>

@@ -1647,14 +1647,14 @@
     <value>Перейти к рейтингу</value>
   </data>
   <data name="section/hof/achievementsRatingsTitle" xml:space="preserve">
-    <value>Рейтинг по достижениям
+    <value>Рейтинг достижений
 в Случайных боях</value>
   </data>
   <data name="section/hof/vehiclesRatingsBtn" xml:space="preserve">
     <value>Перейти к рейтингу</value>
   </data>
   <data name="section/hof/vehiclesRatingsTitle" xml:space="preserve">
-    <value>Рейтинг по технике
+    <value>Рейтинг техники
 в Случайных боях</value>
   </data>
 </root>

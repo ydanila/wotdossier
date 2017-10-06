@@ -989,7 +989,7 @@ Get back!</value>
     <value>Light German tank with a relatively powerful and accurate gun. Frontal armor is rather sturdy and can endure quite a few hits.</value>
   </data>
   <data name="award/options/description/us" xml:space="preserve">
-    <value>Medium U.S. tank with a wide variety of guns, high dynamics, but weak armor. Excellent for active reconnaissance and supporting an attack.</value>
+    <value>Medium U.S. tank with a wide variety of guns and high dynamics, but weak armor. Excellent for active reconnaissance and supporting an attack.</value>
   </data>
   <data name="award/options/description/ussr" xml:space="preserve">
     <value>Light U.S.S.R. tank with average speed and weak armor. Its powerful gun and great dynamics enable effective medium-range performance.</value>
@@ -1193,7 +1193,7 @@ Get back!</value>
     <value>Skirmishes will be available after you complete training.</value>
   </data>
   <data name="invitation/note/squad" xml:space="preserve">
-    <value>Playing in a Platoon will be available after you complete training. 	</value>
+    <value>Playing in a Platoon will be available after you complete training.</value>
   </data>
   <data name="invitation/note/tournament" xml:space="preserve">
     <value>Tournaments will be available after you complete training.</value>
@@ -1289,7 +1289,7 @@ Get back!</value>
     <value>Spotted after firing</value>
   </data>
   <data name="loading/tip/visibility/description/4" xml:space="preserve">
-    <value>Moves across open terrain</value>
+    <value>Moving across open terrain</value>
   </data>
   <data name="loading/tip/visibility/header/1" xml:space="preserve">
     <value>Concealed</value>
@@ -1325,7 +1325,7 @@ Get back!</value>
     <value>d</value>
   </data>
   <data name="message/bonus/premium/hours" xml:space="preserve">
-    <value>h.</value>
+    <value>h</value>
   </data>
   <data name="message/bootcamp/graduate/label" xml:space="preserve">
     <value>CONGRATULATIONS!</value>
@@ -1427,7 +1427,7 @@ Get back!</value>
     <value>SKILLS AND PERKS</value>
   </data>
   <data name="message/skills/and/perks/text" xml:space="preserve">
-    <value>The crew improves the vehicle characteristics</value>
+    <value>The crew affects the vehicle characteristics</value>
   </data>
   <data name="message/unlock/module/label" xml:space="preserve">
     <value>MODULE RESEARCHED</value>
@@ -1544,7 +1544,7 @@ Get back!</value>
     <value>Bootcamp Invader</value>
   </data>
   <data name="result/award/invader/text" xml:space="preserve">
-    <value>Participate in a successful capture of a base in a tutorial battle.</value>
+    <value>Participate in the successful capture of a base in a tutorial battle.</value>
   </data>
   <data name="result/award/medicalkit/label" xml:space="preserve">
     <value>Large First Aid Kit</value>
@@ -1604,6 +1604,6 @@ Get back!</value>
     <value>Welcome!</value>
   </data>
   <data name="with/premium" xml:space="preserve">
-    <value>With Premium</value>
+    <value>With Premium:</value>
   </data>
 </root>

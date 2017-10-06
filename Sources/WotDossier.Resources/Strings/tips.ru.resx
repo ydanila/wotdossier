@@ -1504,7 +1504,7 @@
     <value>О бонах</value>
   </data>
   <data name="ranked/11/body" xml:space="preserve">
-    <value>Первое получение каждого ранга в течение этапа, а также само завершение этапа поощряется наградами.</value>
+    <value>Первое получение каждого ранга в течение этапа, а также само завершение этапа поощряются наградами.</value>
   </data>
   <data name="ranked/11/title" xml:space="preserve">
     <value>Награды</value>

@@ -7390,7 +7390,7 @@
     <value>Орлиный глаз</value>
   </data>
   <data name="skills/driver_badRoadsKing/descr" xml:space="preserve">
-    <value>Снижает сопротивление средних и слабых грунтов при движении машины. Умение повышает маневренность и уменьшает время набора максимальной скорости. Эффект усиливается в сочетании с оборудованием «Дополнительные грунтозацепы».</value>
+    <value>Снижает сопротивление средних и слабых грунтов при движении машины. Умение повышает манёвренность и уменьшает время набора максимальной скорости. Эффект усиливается в сочетании с оборудованием «Дополнительные грунтозацепы».</value>
   </data>
   <data name="skills/driver_badRoadsKing/header" xml:space="preserve">
     <value>Король бездорожья</value>
@@ -8162,7 +8162,7 @@
     <value>Выплата за каждую награду: </value>
   </data>
   <data name="achievement/reward/tankLevels" xml:space="preserve">
-    <value>На танках %(range)s уровня</value>
+    <value>На технике %(range)s уровня</value>
   </data>
   <data name="awardItem/completionTokens/body" xml:space="preserve">
     <value>Набор компонентов, узлов и агрегатов для сборки наградной машины.</value>
@@ -8462,7 +8462,7 @@
   </data>
   <data name="elen/excel/addParam/sumSeqN/xp/body" xml:space="preserve">
     <value>Количество опыта, заработанного за лучший бой в лучшей серии боёв в соревновании.
-Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций. </value>
+Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.</value>
   </data>
   <data name="elen/excel/addParam/sumSeqN/xp/header" xml:space="preserve">
     <value>Опыт за лучший бой</value>
@@ -8700,7 +8700,7 @@
   <data name="elen/summary/objParam/max/originalXP/body" xml:space="preserve">
     <value>Количество опыта, заработанного за лучший бой в соревновании.
 Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других надбавок.
- Надбавка от премиум аккаунта учитывается.</value>
+Надбавка от премиум аккаунта учитывается.</value>
   </data>
   <data name="elen/summary/objParam/max/originalXP/header" xml:space="preserve">
     <value>Чистый опыт</value>
@@ -8708,7 +8708,7 @@
   <data name="elen/summary/objParam/max/xp/body" xml:space="preserve">
     <value>Количество опыта, заработанного за лучший бой в соревновании.
 Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других надбавок.
- Надбавка от премиум аккаунта учитывается.</value>
+Надбавка от премиум аккаунта учитывается.</value>
   </data>
   <data name="elen/summary/objParam/max/xp/header" xml:space="preserve">
     <value>Опыт</value>
@@ -8735,7 +8735,7 @@
   <data name="elen/summary/objParam/sumAll/xp/body" xml:space="preserve">
     <value>Сумма опыта, заработанного за бои в соревновании.
 Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.
- Надбавка от премиум аккаунта учитывается.</value>
+Надбавка от премиум аккаунта учитывается.</value>
   </data>
   <data name="elen/summary/objParam/sumAll/xp/header" xml:space="preserve">
     <value>Сумма опыта</value>
@@ -8762,7 +8762,7 @@
   <data name="elen/summary/objParam/sumN/xp/body" xml:space="preserve">
     <value>Сумма опыта, заработанного за лучшие бои в соревновании. 
 Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.
- Надбавка от премиум аккаунта учитывается.</value>
+Надбавка от премиум аккаунта учитывается.</value>
   </data>
   <data name="elen/summary/objParam/sumN/xp/header" xml:space="preserve">
     <value>Сумма опыта</value>
@@ -8789,7 +8789,7 @@
   <data name="elen/summary/objParam/sumSeqN/xp/body" xml:space="preserve">
     <value>Сумма опыта, заработанного за лучшую серию боёв в соревновании.
 Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.
- Надбавка от премиум аккаунта учитывается.</value>
+Надбавка от премиум аккаунта учитывается.</value>
   </data>
   <data name="elen/summary/objParam/sumSeqN/xp/header" xml:space="preserve">
     <value>Сумма опыта</value>
@@ -8842,7 +8842,7 @@
   </data>
   <data name="elen/summary/param/sumAll/xp/body" xml:space="preserve">
     <value>Количество опыта, заработанного за лучший бой в лучшей серии боёв в соревновании.
-Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций. </value>
+Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.</value>
   </data>
   <data name="elen/summary/param/sumAll/xp/header" xml:space="preserve">
     <value>Опыт за лучший бой</value>
@@ -8991,7 +8991,7 @@
     <value>До завершения регистрации:</value>
   </data>
   <data name="hangar/elen/primetime/invalid" xml:space="preserve">
-    <value>Бои будут учитыватся позже:</value>
+    <value>Бои будут учитываться позже:</value>
   </data>
   <data name="hangar/elen/primetime/valid" xml:space="preserve">
     <value>Бои учитываются:</value>
@@ -9003,9 +9003,11 @@
     <value>Личные боевые задачи</value>
   </data>
   <data name="personalMissions/awards/camouflage/body" xml:space="preserve">
-    <value>Набор из 3 камуфляжных схем (летняя, зимняя и пустынная) на наградную машину.
+    <value>Набор из 3 камуфляжных схем (летняя, зимняя и пустынная).
 
-При выполнении всей операции с отличием: право на покупку для всей техники той нации, которой принадлежит наградная машина.
+При выполнении основных условий всех 75 задач операции: выдаётся бесплатно для наградной машины.
+
+При выполнении с отличием всех 75 задач операции: право на покупку для всей техники той нации, которой принадлежит наградная машина.
 
 Найти уникальные схемы камуфляжа можно с помощью фильтра «Боевые задачи» на экране «Внешнего вида» машины.</value>
   </data>
@@ -9025,16 +9027,41 @@
     <value>Уникальный набор камуфляжных схем</value>
   </data>
   <data name="personalMissions/awards/camouflageOnly/body" xml:space="preserve">
-    <value>Набор из 3 камуфляжных схем (летняя, зимняя и пустынная).
-
-При выполнении основных условий всех 75 задач операции: выдаётся бесплатно для наградной машины.
-
-При выполнении с отличием всех 75 задач операции: право на покупку для всей техники той нации, которой принадлежит наградная машина.
-
-Найти уникальные схемы камуфляжа можно с помощью фильтра «Боевые задачи» на экране «Внешнего вида» машины.</value>
+    <value>Набор из 3 камуфляжных схем (летняя, зимняя и пустынная), доступный для бесплатного нанесения на наградную машину.</value>
   </data>
   <data name="personalMissions/awards/camouflageOnly/header" xml:space="preserve">
     <value>Уникальный набор камуфляжных схем</value>
+  </data>
+  <data name="personalMissions/awards/stats/completionTokens/body" xml:space="preserve">
+    <value>Собрано необходимых компонентов: %(acquired)d
+Всего нужно для завершения операции «%(name)s»: %(total)d</value>
+  </data>
+  <data name="personalMissions/awards/stats/completionTokens/header" xml:space="preserve">
+    <value>Получено компонентов</value>
+  </data>
+  <data name="personalMissions/awards/stats/credits/body" xml:space="preserve">
+    <value>Заработано кредитов за операцию: %(acquired)s
+Максимально возможно заработать за операцию «%(name)s»: %(total)s
+Учитываются кредиты, являющиеся наградой только за выполнение задач.</value>
+  </data>
+  <data name="personalMissions/awards/stats/credits/header" xml:space="preserve">
+    <value>Заработано кредитов</value>
+  </data>
+  <data name="personalMissions/awards/stats/questsCompleted/body" xml:space="preserve">
+    <value>Выполнено задач операции «%(name)s»:
+Выполнено задач: %(acquired)d
+Выполнено задач с отличием: %(excellentAcquired)d
+Всего задач: %(total)d</value>
+  </data>
+  <data name="personalMissions/awards/stats/questsCompleted/header" xml:space="preserve">
+    <value>Выполнено задач</value>
+  </data>
+  <data name="personalMissions/awards/stats/tankwomanBonus/body" xml:space="preserve">
+    <value>Получено членов экипажа за операцию: %(acquired)d
+Всего за операцию «%(name)s» можно получить: %(total)d</value>
+  </data>
+  <data name="personalMissions/awards/stats/tankwomanBonus/header" xml:space="preserve">
+    <value>Девушки-танкисты</value>
   </data>
   <data name="personalMissions/badge/descr" xml:space="preserve">
     <value>Особый значок, который будет отображаться в бою рядом с вашим именем. Нашивку видят игроки обеих команд, и она демонстрирует ваш прогресс выполнения личных боевых задач.</value>
@@ -9061,7 +9088,7 @@
     <value>Как получить:</value>
   </data>
   <data name="personalMissions/freeSheet/howToUse/descr" xml:space="preserve">
-    <value>Позволяет автоматически выполнить основные условия выбранной задачи и получить за них награду.</value>
+    <value>Можно заложить в задачу и получить награду за основные условия.</value>
   </data>
   <data name="personalMissions/freeSheet/howToUse/title" xml:space="preserve">
     <value>Как использовать:</value>
@@ -9194,7 +9221,7 @@
     <value>Выдаётся за выполнение операции «%(operationName)s» I кампании личных боевых задач.</value>
   </data>
   <data name="personalMissions/status/addInProgress/body" xml:space="preserve">
-    <value>Перевыполнение всех условий задачи. Выполните основные и дополнительные условия, чтобы задача считалась выполненной с отличием.</value>
+    <value>Выполните основные и дополнительные условия, чтобы задача считалась выполненной с отличием.</value>
   </data>
   <data name="personalMissions/status/addInProgress/header" xml:space="preserve">
     <value>Улучшение результата</value>

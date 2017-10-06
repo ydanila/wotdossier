@@ -2609,10 +2609,10 @@ starting from Tier IV and receive additional experience</value>
     <value>The Platoon has the maximum number of SPGs</value>
   </data>
   <data name="personalMissions/completionTokenGain" xml:space="preserve">
-    <value>Module added</value>
+    <value>Component added</value>
   </data>
   <data name="serviceChannelMessages/battleResults/personalMissions" xml:space="preserve">
-    <value>Congratulations! 
+    <value>Congratulations!
 For successful completion of personal missions you receive the following rewards</value>
   </data>
   <data name="serviceChannelMessages/bootcamp/awards" xml:space="preserve">

@@ -8,6 +8,6 @@
         /// <summary>
         /// Gets or sets the Season 1 Rank.
         /// </summary>
-        int Season1Rank { get; set; }
+        int Rank { get; set; }
     }
 }

@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Xml;
+using System.Xml.Linq;
 using Common.Logging;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Linq;
 using WotDossier.Domain.Rating;
 using WotDossier.Domain.Tank;
+using WotDossier.Resources;
 
 namespace WotDossier.Domain
 {
@@ -34,7 +35,6 @@ namespace WotDossier.Domain
         private static readonly List<Version> _versions = new List<Version>
         {
                 VersionRelease,
-                new Version("0.9.19.1"),
                 new Version("0.9.19.0"),
                 new Version("0.9.18.0"),
                 new Version("0.9.17.0"),
@@ -233,9 +233,6 @@ namespace WotDossier.Domain
 
         
 
-        public Dictionary<int, DeviceDescription> DeviceDescriptions { get; set; }
-        public Dictionary<int, ConsumableDescription> ConsumableDescriptions { get; set; }
-
         /// <summary>
         /// Gets or sets the medals dictionary.
         /// </summary>
@@ -274,10 +271,6 @@ namespace WotDossier.Domain
 
             _maps = ReadMaps();
             Medals = ReadMedals();
-
-            DeviceDescriptions = ReadDeviceDescriptions();
-            ConsumableDescriptions = ReadConsumableDescriptions();
-            Shells = ReadShellsDescriptions();
         }
 
         private static void UpdateMapsGeometry(Dictionary<string, Map> maps)
@@ -303,54 +296,71 @@ namespace WotDossier.Domain
             }
         }
 
-        private Dictionary<Country, Dictionary<int, ShellDescription>> ReadShellsDescriptions()
-        {
-            Dictionary<Country, Dictionary<int, ShellDescription>> result = new Dictionary<Country, Dictionary<int, ShellDescription>>();
-            foreach (Country country in Enum.GetValues(typeof(Country)))
-            {
-                string file = string.Format(@"External\shells\{0}_shells.json", country);
-                if (File.Exists(file))
-                {
-                    using (StreamReader re = new StreamReader(file))
-                    {
-                        JsonTextReader reader = new JsonTextReader(re);
-                        JsonSerializer se = new JsonSerializer();
-                        JObject parsedData = se.Deserialize<JObject>(reader);
-                        var readDeviceDescriptions = parsedData.ToObject<Dictionary<string, ShellDescription>>();
-                        result.Add(country, readDeviceDescriptions.Values.Where(x => x.id != null).ToDictionary(x => x.id.Value, y => y));
-                    }
-                }
-            }
-            return result;
-        }
+	    public bool TryGetShellDescription(Country country, int id, out ShellDescription shell)
+	    {
+		    shell = Shells.Value.OrderBy(vl=>vl.NotInShop).FirstOrDefault(vl => vl.Id == id && vl.Country == country);
+		    return shell != null;
+	    }
 
-        public Dictionary<Country, Dictionary<int, ShellDescription>> Shells { get; set; }
+	    public bool TryGetArtefactDescription<T>(int id, out T item) where T: ArtefactDescription
+		{
+		    List<ArtefactDescription> list;
 
-        private Dictionary<int, DeviceDescription> ReadDeviceDescriptions()
-        {
-            using (StreamReader re = new StreamReader(@"External\optional_devices.json"))
-            {
-                JsonTextReader reader = new JsonTextReader(re);
-                JsonSerializer se = new JsonSerializer();
-                JObject parsedData = se.Deserialize<JObject>(reader);
-                var readDeviceDescriptions = parsedData.ToObject<Dictionary<string, DeviceDescription>>();
-                return readDeviceDescriptions.Values.Where(x => x.id != null).ToDictionary(x => x.id.Value, y => y);
-            }
-        }
+			if (typeof(T) == typeof(DeviceDescription)) list = DeviceDescriptions.Value;
+			else if (typeof(T) == typeof(ConsumableDescription)) list = ConsumableDescriptions.Value;
+			else throw new ArgumentOutOfRangeException(nameof(item));
 
-        private Dictionary<int, ConsumableDescription> ReadConsumableDescriptions()
-        {
-            using (StreamReader re = new StreamReader(@"External\consumables.json"))
-            {
-                JsonTextReader reader = new JsonTextReader(re);
-                JsonSerializer se = new JsonSerializer();
-                JObject parsedData = se.Deserialize<JObject>(reader);
-                var readDeviceDescriptions = parsedData.ToObject<Dictionary<string, ConsumableDescription>>();
-                return readDeviceDescriptions.Values.Where(x => x.id != null).ToDictionary(x => x.id.Value, y => y);
-            }
-        }
+			item = (T)list.OrderBy(vl => vl.NotInShop).FirstOrDefault(vl => vl.Id == id);
+		    return item != null;
+	    }
 
-        /// <summary>
+		private Lazy<List<ShellDescription>> Shells { get; } = new Lazy<List<ShellDescription>>(() =>
+	    {
+			var result = new List<ShellDescription>();
+
+		    foreach (var element in XDocument.Load(
+			    typeof(ImageCache).Assembly.GetManifestResourceStream(
+				    $"{typeof(ImageCache).Namespace}.Vehicles.Shells.xml")).Root.Elements().Elements())
+		    {
+
+			    var jsonText = JsonConvert.SerializeXNode(element, Formatting.Indented);
+
+			    try
+			    {
+				    var item = JsonConvert.DeserializeObject<JObject>(jsonText.Replace("\\t", "").Trim()).First.First
+					    .ToObject<ShellDescription>();
+				    item.Country = element.Parent.Name.LocalName.ToCountry();
+				    result.Add(item);
+				}
+			    catch (Exception e)
+			    {
+				    Console.WriteLine(e);
+			    }
+			    
+		    }
+
+		    return result;
+		});
+
+	    private Lazy<List<ArtefactDescription>> DeviceDescriptions { get; } = new Lazy<List<ArtefactDescription>>(() =>
+	    {
+		    return XDocument.Load(typeof(ImageCache).Assembly.GetManifestResourceStream($"{typeof(ImageCache).Namespace}.Vehicles.OptionalDevices.xml"))
+			.Root.Elements()
+			.Select(element => JsonConvert.SerializeXNode(element, Formatting.Indented))
+			.Select(jsonText => JsonConvert.DeserializeObject<JObject>(jsonText.Replace("\\t", "")).First.First.ToObject<DeviceDescription>())
+			.Cast<ArtefactDescription>().ToList();
+	    });
+
+	    private Lazy<List<ArtefactDescription>> ConsumableDescriptions { get; } = new Lazy<List<ArtefactDescription>>(() =>
+	    {
+			return XDocument.Load(typeof(ImageCache).Assembly.GetManifestResourceStream($"{typeof(ImageCache).Namespace}.Vehicles.Equipments.xml"))
+				.Root.Elements()
+				.Select(element => JsonConvert.SerializeXNode(element, Formatting.Indented))
+				.Select(jsonText => JsonConvert.DeserializeObject<JObject>(jsonText.Replace("\\t", "")).First.First.ToObject<ConsumableDescription>())
+				.Cast<ArtefactDescription>().ToList();
+		});
+
+		/// <summary>
         /// Gets the instance.
         /// </summary>
         public static Dictionaries Instance
@@ -656,45 +666,46 @@ namespace WotDossier.Domain
         /// <returns></returns>
         public static Dictionary<int, Medal> ReadMedals()
         {
-            XmlDocument doc = new XmlDocument();
-            doc.Load(File.OpenRead(Path.Combine(Environment.CurrentDirectory, @"Data\Medals.xml")));
+            //XDocument doc = new XDocument();
+            //doc.Load(File.OpenRead(Path.Combine(Environment.CurrentDirectory, @"Data\Medals.xml")));
 
-            XmlNodeList nodes = doc.SelectNodes("Medals/node()/medal");
+            //XmlNodeList nodes = doc.SelectNodes("Medals/node()/medal");
 
             Dictionary<int, Medal> medals = new Dictionary<int, Medal>();
 
-            foreach (XmlNode node in nodes)
-            {
-                Medal medal = new Medal();
-                medal.Id = Convert.ToInt32(node.Attributes["id"].Value);
-                var attribute = node.Attributes["name"];
-                medal.Name = Resources.Resources.ResourceManager.GetString(attribute.Value) ?? attribute.Value;
-                medal.NameResourceId = attribute.Value;
-                medal.Icon = node.Attributes["icon"].Value;
-                medal.Type = int.Parse(node.Attributes["type"].Value);
-                var xmlAttribute = node.Attributes["showribbon"];
-                if (xmlAttribute != null)
-                {
-                    medal.ShowRibbon = bool.Parse(xmlAttribute.Value);
-                }
-                medal.Group = new MedalGroup();
+            //foreach (XmlNode node in nodes)
+            //{
+            //    Medal medal = new Medal();
+            //    medal.Id = Convert.ToInt32(node.Attributes["id"].Value);
+            //    var attribute = node.Attributes["name"];
+            //    medal.Name = Resources.Resources.ResourceManager.GetString(attribute.Value) ?? attribute.Value;
+            //    medal.NameResourceId = attribute.Value;
+            //    medal.Icon = node.Attributes["icon"].Value;
+            //    medal.Type = int.Parse(node.Attributes["type"].Value);
+            //    var xmlAttribute = node.Attributes["showribbon"];
+            //    if (xmlAttribute != null)
+            //    {
+            //        medal.ShowRibbon = bool.Parse(xmlAttribute.Value);
+            //    }
+            //    medal.Group = new MedalGroup();
 
-                attribute = node.ParentNode.Attributes["filter"];
-                medal.Group.Filter = attribute != null && bool.Parse(attribute.Value);
-                attribute = node.ParentNode.Attributes["name"];
-                if (attribute != null)
-                {
-                    medal.Group.Name = Resources.Resources.ResourceManager.GetString(attribute.Value) ?? attribute.Value;
-                }
-                else
-                {
-                    medal.Group.Name = node.ParentNode.Name;
-                }
+            //    attribute = node.ParentNode.Attributes["filter"];
+            //    medal.Group.Filter = attribute != null && bool.Parse(attribute.Value);
+            //    attribute = node.ParentNode.Attributes["name"];
+            //    if (attribute != null)
+            //    {
+            //        medal.Group.Name = Resources.Resources.ResourceManager.GetString(attribute.Value) ?? attribute.Value;
+            //    }
+            //    else
+            //    {
+            //        medal.Group.Name = node.ParentNode.Name;
+            //    }
 
-                medals.Add(medal.Id, medal);
-            }
+            //    medals.Add(medal.Id, medal);
+            //}
 
             return medals;
+
         }
 
         /// <summary>

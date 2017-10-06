@@ -3254,7 +3254,7 @@ Series 44T4L</value>
     <value>M48A5 Patton</value>
   </data>
   <data name="A120_M48A5_descr" xml:space="preserve">
-    <value>A modification of the M48 tank of the 1970s, developed to modernize the remaining M48 tanks in service up to the M60 tank's level. The modification featured a new engine, armament, and fire control system. Apart from armor protection, the 2,570 upgraded vehicles were practically indistinguishable from M60 that featured the same armament and engine.</value>
+    <value>A modification of the M48 tank of the 1970s, developed to modernize the remaining M48 tanks in service up to the M60 tank's level. The modification featured a new engine, armament, and fire control system. Apart from armor protection, the 2,570 upgraded vehicles were practically indistinguishable from the M60 that featured the same armament and engine.</value>
   </data>
   <data name="A120_M48A5_short" xml:space="preserve">
     <value>M48 Patton</value>

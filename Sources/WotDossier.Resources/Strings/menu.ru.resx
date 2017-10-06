@@ -5507,10 +5507,10 @@
     <value>Показать задачу</value>
   </data>
   <data name="awardWindow/personalMission/nextButtonAward" xml:space="preserve">
-    <value>Рекрутировать танкистку</value>
+    <value>Рекрутировать</value>
   </data>
   <data name="awardWindow/personalMission/nextButtonAward/tooltip/body" xml:space="preserve">
-    <value>Нажмите, чтобы рекрутировать девушку-танкиста за выполнение основных условий завершающей ветку задачи.</value>
+    <value>Нажмите, чтобы рекрутировать девушку-танкиста за выполнение основных условий задачи, завершающей ветку.</value>
   </data>
   <data name="awardWindow/personalMission/nextButtonAward/tooltip/header" xml:space="preserve">
     <value>Рекрутировать</value>

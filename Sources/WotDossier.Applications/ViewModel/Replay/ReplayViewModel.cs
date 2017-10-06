@@ -207,19 +207,9 @@ namespace WotDossier.Applications.ViewModel.Replay
             set { _devices = value; }
         }
 
-        private List<Slot> _consumables = new List<Slot>();
-        public List<Slot> Consumables
-        {
-            get { return _consumables; }
-            set { _consumables = value; }
-        }
+        public List<Slot> Consumables { get; } = new List<Slot>();
+	    public List<Slot> Shells { get; } = new List<Slot>();
 
-        private List<Slot> _shells = new List<Slot>();
-        public List<Slot> Shells
-        {
-            get { return _shells; }
-            set { _shells = value; }
-        }
 
         private TeamMember _alienTeamMember;
         public TeamMember AlienTeamMember
@@ -625,36 +615,35 @@ namespace WotDossier.Applications.ViewModel.Replay
                     {
                         var info = replay.datablock_advanced.roster[replay.datablock_1.playerName];
 
-                        if (Dictionaries.Instance.DeviceDescriptions.ContainsKey(info.vehicle.module_0))
-                        {
-                            _devices.Add(Dictionaries.Instance.DeviceDescriptions[info.vehicle.module_0]);
-                        }
+	                    DeviceDescription item;
 
-                        if (Dictionaries.Instance.DeviceDescriptions.ContainsKey(info.vehicle.module_1))
-                        {
-                            _devices.Add(Dictionaries.Instance.DeviceDescriptions[info.vehicle.module_1]);
-                        }
 
-                        if (Dictionaries.Instance.DeviceDescriptions.ContainsKey(info.vehicle.module_2))
+						if (Dictionaries.Instance.TryGetArtefactDescription(info.vehicle.module_0, out item))
                         {
-                            _devices.Add(Dictionaries.Instance.DeviceDescriptions[info.vehicle.module_2]);
+                            _devices.Add(item);
                         }
+	                    if (Dictionaries.Instance.TryGetArtefactDescription(info.vehicle.module_1, out item))
+	                    {
+		                    _devices.Add(item);
+	                    }
+	                    if (Dictionaries.Instance.TryGetArtefactDescription(info.vehicle.module_2, out item))
+	                    {
+		                    _devices.Add(item);
+	                    }
                     }
                     
                     foreach (Slot slot in replay.datablock_advanced.Slots)
                     {
                         if (TankIcon.CountryId != Country.Unknown)
                         {
-                            if (Dictionaries.Instance.ConsumableDescriptions.ContainsKey(slot.Item.Id) &&
-                                slot.Item.TypeId == SlotType.Equipment)
+                            if (slot.Item.TypeId == SlotType.Equipment && Dictionaries.Instance.TryGetArtefactDescription<ConsumableDescription>(slot.Item.Id, out var equipt))
                             {
-                                slot.Description = Dictionaries.Instance.ConsumableDescriptions[slot.Item.Id];
+                                slot.Description = equipt;
                                 Consumables.Add(slot);
                             }
-                            if (Dictionaries.Instance.Shells[TankIcon.CountryId].ContainsKey(slot.Item.Id) &&
-                                slot.Item.TypeId == SlotType.Shell)
+                            if (slot.Item.TypeId == SlotType.Shell && Dictionaries.Instance.TryGetShellDescription(TankIcon.CountryId, slot.Item.Id, out var shell))
                             {
-                                slot.Description = Dictionaries.Instance.Shells[TankIcon.CountryId][slot.Item.Id];
+                                slot.Description = shell;
                                 Shells.Add(slot);
                             }
                         }
