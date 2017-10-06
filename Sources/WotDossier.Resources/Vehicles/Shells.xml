@@ -1234,7 +1234,6 @@
         <armor>	10	</armor>
         <devices>	20	</devices>
       </damage>
-      <notInShop>	true	</notInShop>
     </Development_Shot>
     <_600mm_Sprg40>
       <id>	1000	</id>
@@ -5999,7 +5998,6 @@
         <armor>	10	</armor>
         <devices>	20	</devices>
       </damage>
-      <notInShop>	true	</notInShop>
     </Development_Shot>
     <R00_Sfera_AP>
       <id>	158	</id>
@@ -8841,7 +8839,6 @@
         <armor>	10	</armor>
         <devices>	20	</devices>
       </damage>
-      <notInShop>	true	</notInShop>
     </Development_Shot>
     <_105mm_APCR_OFL_E1_fallout>
       <id>	98	</id>

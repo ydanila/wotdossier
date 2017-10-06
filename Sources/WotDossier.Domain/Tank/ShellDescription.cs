@@ -1,11 +1,19 @@
-﻿namespace WotDossier.Domain.Tank
+﻿using System.Runtime.Serialization;
+using WotDossier.Resources;
+
+namespace WotDossier.Domain.Tank
 {
-    public class ShellDescription
+	[DataContract]
+	public class ShellDescription : ArtefactDescription
     {
-        public string icon { get; set; }
-        public string description { get; set; }
-        public string userString { get; set; }
-        public string kind { get; set; }
-        public int? id { get; set; }
-    }
+	    [DataMember(Name = "kind")]
+		public string Kind { get; set; }
+
+		[IgnoreDataMember]
+	    public override string Icon => $@"pack://application:,,,/WotDossier.Resources;component/Vehicles/Images/Shell/{Kind}.png";
+
+	    [IgnoreDataMember]
+	    public Country Country { get; set; }
+		
+	}
 }

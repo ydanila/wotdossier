@@ -1,10 +1,10 @@
-﻿namespace WotDossier.Domain.Tank
+﻿using System.Runtime.Serialization;
+
+namespace WotDossier.Domain.Tank
 {
-    public class DeviceDescription
+	[DataContract]
+    public class DeviceDescription : ArtefactDescription
     {
-        public string icon { get; set; }
-        public string description { get; set; }
-        public string userString { get; set; }
-        public int? id { get; set; }
-    }
+        
+	}
 }

@@ -122,20 +122,23 @@
     <Compile Include="..\WotDossier\Controls\LineChartControl.xaml.cs">
       <Link>Controls\LineChartControl.xaml.cs</Link>
     </Compile>
-    <Compile Include="..\WotDossier\Controls\PeriodTab.xaml.cs">
-      <Link>Controls\PeriodTab.xaml.cs</Link>
-    </Compile>
-    <Compile Include="..\WotDossier\Controls\TankFilterPanel.xaml.cs">
-      <Link>Controls\TankFilterPanel.xaml.cs</Link>
-    </Compile>
     <Compile Include="..\WotDossier\Converters\BattleModeToVisibilityConverter.cs">
       <Link>Converters\BattleModeToVisibilityConverter.cs</Link>
     </Compile>
     <Compile Include="..\WotDossier\Converters\BoolToRowHeightConverter.cs">
       <Link>Converters\BoolToRowHeightConverter.cs</Link>
     </Compile>
+    <Compile Include="..\WotDossier\Converters\Color\DeltaToColorConverterWithParams.cs">
+      <Link>Converters\DeltaToColorConverterWithParams.cs</Link>
+    </Compile>
+    <Compile Include="..\WotDossier\Converters\Color\NegativeToColorConverter.cs">
+      <Link>Converters\NegativeToColorConverter.cs</Link>
+    </Compile>
     <Compile Include="..\WotDossier\Converters\ResourceMultiValueFormatConverter.cs">
       <Link>Converters\ResourceMultiValueFormatConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\WotDossier\Tabs\Replay\RawData.xaml.cs">
+      <Link>Tabs\Replay\RawData.xaml.cs</Link>
     </Compile>
     <Compile Include="..\WotDossier\Views\TankStatisticWindow.xaml.cs">
       <Link>Views\TankStatisticWindow.xaml.cs</Link>
@@ -191,11 +194,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="..\WotDossier\Controls\PeriodTab.xaml">
-      <Link>Controls\PeriodTab.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="..\WotDossier\Controls\ReplaysFilterPanelNew.xaml">
       <Link>Controls\ReplaysFilterPanelNew.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
@@ -208,11 +206,6 @@
     </Page>
     <Page Include="..\WotDossier\Controls\StatisticView.xaml">
       <Link>Controls\StatisticView.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\WotDossier\Controls\TankFilterPanel.xaml">
-      <Link>Controls\TankFilterPanel.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -533,6 +526,11 @@
     </Page>
     <Page Include="..\WotDossier\Tabs\Replay\PersonalResults.xaml">
       <Link>Tabs\Replay\PersonalResults.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\WotDossier\Tabs\Replay\RawData.xaml">
+      <Link>Tabs\Replay\RawData.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -928,14 +926,6 @@
       <Link>External\tanks.json</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\WotDossier\External\wotdc2j.exe">
-      <Link>External\wotdc2j.exe</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\_hashlib.pyd">
-      <Link>External\_hashlib.pyd</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="..\WotDossier\External\consumables.json">
       <Link>External\consumables.json</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -1031,14 +1021,6 @@
   <ItemGroup>
     <Content Include="..\WotDossier\Data\Medals.xml">
       <Link>Data\Medals.xml</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\python27.dll">
-      <Link>External\python27.dll</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\wotrp2j.exe">
-      <Link>External\wotrp2j.exe</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <EmbeddedResource Include="..\WotDossier\Data\ReplaysCatalog.xml">

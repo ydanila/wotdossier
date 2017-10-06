@@ -346,7 +346,7 @@
     <value>When damaged, a gun locks up. Click on Repair Kit to make the gun function with full accuracy.</value>
   </data>
   <data name="tip5" xml:space="preserve">
-    <value>Suspension, radio, and engine are generally more important to a light tank than the gun and turret.</value>
+    <value>The suspension, radio, and engine are generally more important to a light tank than the gun and turret.</value>
   </data>
   <data name="tip50" xml:space="preserve">
     <value>Damage to the ammo rack may result in reduced loading speed, or, in some cases, immediate detonation.</value>
@@ -1519,7 +1519,7 @@
     <value>Vehicle ranks are unlimited. The more vehicle ranks you earn within a season, the higher the position on the Leaderboard you achieve.</value>
   </data>
   <data name="ranked/2/title" xml:space="preserve">
-    <value>Up and Forward</value>
+    <value>Up and Onward</value>
   </data>
   <data name="ranked/3/body" xml:space="preserve">
     <value>Keep track of the prime time: once it is over, Ranked Battles will become unavailable until the next day.</value>
@@ -1558,7 +1558,7 @@
     <value>Badges</value>
   </data>
   <data name="ranked/9/body" xml:space="preserve">
-    <value>The reward you receive at the end of a season depends on the League you reach. You earn points for each achieved rank. The more points you have, the higher your League.</value>
+    <value>The reward you receive at the end of a season depends on the League you reach. You earn points for each rank achieved. The more points you have, the higher your League.</value>
   </data>
   <data name="ranked/9/title" xml:space="preserve">
     <value>Awards</value>

@@ -127,7 +127,7 @@
     <value>LT-1: For Victory!</value>
   </data>
   <data name="quest_1_10" xml:space="preserve">
-    <value>LT-10: The Maximum Result</value>
+    <value>LT-10: The Best Result</value>
   </data>
   <data name="quest_1_10_advise" xml:space="preserve">
     <value>A good scout knows when to be cautious and when to be aggressive. Stay alert to the flow of battle.</value>
@@ -178,10 +178,10 @@
     <value>LT-14: The Battle Watch</value>
   </data>
   <data name="quest_1_14_advise" xml:space="preserve">
-    <value>The more experienced players fight alongside you in battle, the higher the combat efficiency of your team. Greatly increase the team's effectiveness by entering a battle in a Platoon. Alternatively, you can play alone if your are confident that you have high enough skill and that your allies will not let you down.</value>
+    <value>The more experienced players fighting alongside you in battle, the higher the combat efficiency of your team. Greatly increase the team's effectiveness by entering a battle in a Platoon. Alternatively, you can play alone if your are confident that you have high enough skill and that your allies will not let you down.</value>
   </data>
   <data name="quest_1_14_descr" xml:space="preserve">
-    <value>A light tank in a coordinated Platoon can spell disaster for the enemy team. Platoon with vehicles that complement your play style: you might want to go into battle platooned with SPGs, or you may prefer a fast-moving pack of light tanks. Do not be afraid to experiment with different lineups. This mission may be completed either as part of a Platoon or on your own; however, the latter is much more difficult.</value>
+    <value>A light tank in a coordinated Platoon can spell disaster for the enemy team. Platoon with vehicles that complement your playstyle: you might want to go into battle platooned with SPGs, or you may prefer a fast-moving pack of light tanks. Do not be afraid to experiment with different lineups. This mission may be completed either as part of a Platoon or on your own; however, the latter is much more difficult.</value>
   </data>
   <data name="quest_1_14_short" xml:space="preserve">
     <value>LT-14</value>
@@ -303,10 +303,10 @@
     <value>• Your allies must cause damage to the vehicle immobilized by you.</value>
   </data>
   <data name="quest_1_1_4_condition_description_damageAssistedTrack" xml:space="preserve">
-    <value>Destroy a track of an enemy vehicle. Your allies must cause damage to the vehicle immobilized by you</value>
+    <value>Destroy the track of an enemy vehicle. Your allies must cause damage to the vehicle immobilized by you</value>
   </data>
   <data name="quest_1_1_4_condition_main" xml:space="preserve">
-    <value>• Destroy a track of an enemy vehicle.</value>
+    <value>• Destroy the track of an enemy vehicle.</value>
   </data>
   <data name="quest_1_1_4_condition_title_crit_track" xml:space="preserve">
     <value>Destroy 1 track</value>
@@ -348,10 +348,10 @@
     <value>• Destroy an enemy vehicle by shooting or ramming it.</value>
   </data>
   <data name="quest_1_1_8_condition_description_base" xml:space="preserve">
-    <value>Participate in a successful capture of a base or reset enemy capture points of your/neutral base</value>
+    <value>Participate in the successful capture of a base or reset the enemy capture points of your/neutral base</value>
   </data>
   <data name="quest_1_1_8_condition_main" xml:space="preserve">
-    <value>• Participate in a successful capture of a base or reset enemy capture points of your/neutral base.
+    <value>• Participate in the successful capture of a base or reset the enemy capture points of your/neutral base.
 • Win the battle.</value>
   </data>
   <data name="quest_1_1_8_condition_title_kills" xml:space="preserve">
@@ -361,7 +361,7 @@
     <value>• Survive the battle.</value>
   </data>
   <data name="quest_1_1_9_condition_description_spottedBeforeWeBecameSpotted" xml:space="preserve">
-    <value>Spot an enemy vehicle remaining unspotted</value>
+    <value>Spot an enemy vehicle while remaining unspotted</value>
   </data>
   <data name="quest_1_1_9_condition_main" xml:space="preserve">
     <value>• Spot at least 2 enemy vehicles before any enemy vehicle spots you.</value>
@@ -405,7 +405,7 @@
 • Survive the battle.</value>
   </data>
   <data name="quest_1_2_12_condition_description_damageBlockedByArmor" xml:space="preserve">
-    <value>Have total damage blocked by armor equal or exceed the hit points of your vehicle</value>
+    <value>Have total damage blocked by armor equal to or exceeding the hit points of your vehicle</value>
   </data>
   <data name="quest_1_2_12_condition_main" xml:space="preserve">
     <value>• Damage blocked by armor must equal or exceed the HP of your vehicle.
@@ -438,10 +438,10 @@
     <value>• Win the battle.</value>
   </data>
   <data name="quest_1_2_15_condition_description_complex" xml:space="preserve">
-    <value>Cause, receive, and block a total of 4,000 HP of damage.</value>
+    <value>Cause, receive, and block a total of 4,000 HP of damage</value>
   </data>
   <data name="quest_1_2_15_condition_description_percentFromTotalTeamDamage" xml:space="preserve">
-    <value>Cause 20% of total amount of damage caused by your team</value>
+    <value>Cause 20% of the total amount of damage caused by your team</value>
   </data>
   <data name="quest_1_2_15_condition_main" xml:space="preserve">
     <value>• Damage caused, damage received, and damage blocked by armor must total at least 6,000 HP.</value>
@@ -518,7 +518,7 @@
     <value>• Destroy an enemy vehicle.</value>
   </data>
   <data name="quest_1_2_7_condition_main" xml:space="preserve">
-    <value>• Participate in the successful capture of a base or reset enemy capture points of your/neutral base.
+    <value>• Participate in the successful capture of a base or reset the enemy capture points of your/neutral base.
 • Win the battle.
 • Cause at least 1,000 HP of damage to enemy vehicles.</value>
   </data>
@@ -677,7 +677,7 @@
     <value>Cause damage to the immobilized vehicle</value>
   </data>
   <data name="quest_1_3_4_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy immobilized enemy vehicle</value>
+    <value>Destroy an immobilized enemy vehicle</value>
   </data>
   <data name="quest_1_3_5_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -686,7 +686,7 @@
     <value>• Cause damage to an enemy light tank by shooting or ramming it.</value>
   </data>
   <data name="quest_1_3_5_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause damage to light tank</value>
+    <value>Cause damage to a light tank</value>
   </data>
   <data name="quest_1_3_6_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -790,7 +790,7 @@
     <value>• Personally survive the battle.</value>
   </data>
   <data name="quest_1_4_14_condition_description_percentFromTotalTeamDamage" xml:space="preserve">
-    <value>Cause 20% of total amount of damage caused by your team</value>
+    <value>Cause 20% of the total amount of damage caused by your team</value>
   </data>
   <data name="quest_1_4_14_condition_main" xml:space="preserve">
     <value>• Cause at least 20% of the total damage caused to enemy vehicles by your team. Damage caused by Platoon mates counts toward this total.
@@ -907,7 +907,7 @@
     <value>Destroy an enemy vehicle</value>
   </data>
   <data name="quest_1_4_advise" xml:space="preserve">
-    <value>To destroy a track most effectively, target the drive wheel at the front or rear of the suspension. Remember that even if your gun is incapable of penetrating the armor of an enemy vehicle, it can always destroy the track. HE shells are best suited for this purpose. You will receive more experience if your allies cause damage to enemy vehicles immobilized by you.</value>
+    <value>To destroy a track effectively, target the drive wheel at the front or rear of the suspension. Remember that even if your gun is incapable of penetrating the armor of an enemy vehicle, it can always destroy the track. HE shells are best suited for this purpose. You will receive more experience if your allies cause damage to enemy vehicles immobilized by you.</value>
   </data>
   <data name="quest_1_4_descr" xml:space="preserve">
     <value>Destroy a track of an enemy vehicle, thus immobilizing it and exposing it to the fire of your teammates’ more powerful guns. When you destroy a track of an enemy vehicle you temporarily immobilize it. This will help you and your allies to take better aim.</value>
@@ -922,7 +922,7 @@
     <value>• Allies must destroy at least 1 enemy vehicle stunned or immobilized by you.</value>
   </data>
   <data name="quest_1_5_10_condition_description_complexDamageAssist" xml:space="preserve">
-    <value>Cause, or assist in causing of 1,000 HP of damage by stunning or immobilizing.</value>
+    <value>Cause, or assist in causing 1,000 HP of damage by stunning or immobilizing.</value>
   </data>
   <data name="quest_1_5_10_condition_description_complexKillAssist" xml:space="preserve">
     <value>Allies must destroy an enemy vehicle stunned or immobilized by you</value>
@@ -959,10 +959,10 @@
     <value>• Win the battle.</value>
   </data>
   <data name="quest_1_5_13_condition_main" xml:space="preserve">
-    <value>• Cause damage to enemy vehicles at least 4 times or stun them at least 6 times. Any damage or stun caused by Platoon mates count towards this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
+    <value>• Cause damage to enemy vehicles at least 4 times or stun them at least 6 times. Any damage or stun caused by Platoon mates counts toward this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
   </data>
   <data name="quest_1_5_13_condition_title_stunNum" xml:space="preserve">
-    <value>Stun 6 times (personal/Platoon)</value>
+    <value>Stun vehicles 6 times (personal/Platoon)</value>
   </data>
   <data name="quest_1_5_13_condition_title_vehicleDamage" xml:space="preserve">
     <value>Cause damage 4 times (personal/Platoon)</value>
@@ -974,7 +974,7 @@
     <value>Allies must cause 400 HP of damage to the immobilized enemy vehicle</value>
   </data>
   <data name="quest_1_5_14_condition_main" xml:space="preserve">
-    <value>• Stun enemy vehicles for at least 70 seconds in total or enable your allies to cause at least 400 damage to enemy vehicles by immobilizing them. Stun or immobilization caused by Platoon mates count towards this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
+    <value>• Stun enemy vehicles for at least 70 seconds in total or enable your allies to cause at least 400 HP of damage to enemy vehicles by immobilizing them. Stun or immobilization caused by Platoon mates counts toward this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
   </data>
   <data name="quest_1_5_14_condition_title_stunDuration" xml:space="preserve">
     <value>Stun for 70 seconds (personal/Platoon)</value>
@@ -1123,7 +1123,7 @@
     <value>LT-8: Get Out of Our Base!</value>
   </data>
   <data name="quest_1_8_advise" xml:space="preserve">
-    <value>If you are not 100% positive that your shells will penetrate the invader’s armor, load a High-Explosive shell instead. HE shells have a greater probability of causing damage to the enemy vehicle. Remember, all it takes is 1 HP of damage to the enemy vehicle or a damaged module to reset their capture points of your base. When you are attempting to capture a base, try to avoid enemy fire as much as possible.</value>
+    <value>If you are not 100% positive that your shells will penetrate the invader’s armor, load a High-Explosive shell instead. HE shells have a greater probability of causing damage to the enemy vehicle. Remember, all it takes is 1 HP of damage to the enemy vehicle or a damaged module to reset the capture points of your base. When you are attempting to capture a base, try to avoid enemy fire as much as possible.</value>
   </data>
   <data name="quest_1_8_descr" xml:space="preserve">
     <value>In the heat of battle, it is easy to forget about the defense of your own or the neutral base. Such imprudence may allow the enemy to gain the upper hand and seize the objective rapidly. Remember, your tank has enough speed to break contact and retreat to defend the base and fend off the invaders with precise shots or a daring ramming attack, thus saving your team from an imminent defeat.</value>
@@ -1210,7 +1210,7 @@
     <value>HT-15: Tempered Steel</value>
   </data>
   <data name="quest_2_15_advise" xml:space="preserve">
-    <value>Act carefully. Survive! Try to protect your side and rear armor from enemy fire. Heavy tank can carry almost every battle, that is why they are always high-value targets for enemy SPGs. Keep a cool head and do not let them pin you down.</value>
+    <value>Act carefully. Survive! Try to protect your side and rear armor from enemy fire. Heavy tanks can carry almost every battle, that is why they are always high-value targets for enemy SPGs. Keep a cool head and do not let them pin you down.</value>
   </data>
   <data name="quest_2_15_descr" xml:space="preserve">
     <value>A heavy tank can hit hard, but it can also take a hit and keep battling. Engage the enemy and keep the pressure on.</value>
@@ -1321,13 +1321,13 @@
     <value>• Your allies must destroy at least 1 vehicle immobilized by you.</value>
   </data>
   <data name="quest_2_1_4_condition_description_assist_track" xml:space="preserve">
-    <value>Destroy a track of an enemy vehicle. Your allies must cause 250 of damage to the vehicle immobilized by you</value>
+    <value>Destroy a track of an enemy vehicle. Your allies must cause 250 of damage to that vehicle while it is immobilized</value>
   </data>
   <data name="quest_2_1_4_condition_description_damageAssistedTrack" xml:space="preserve">
-    <value>Destroy a track of an enemy vehicle. Your allies must cause 250 of damage to the vehicle immobilized by you</value>
+    <value>Destroy a track of an enemy vehicle. Your allies must cause 250 of damage to that vehicle while it is immobilized</value>
   </data>
   <data name="quest_2_1_4_condition_description_killsAssistedTrack" xml:space="preserve">
-    <value>Destroy a track of an enemy vehicle. Your allies must destroy the vehicle immobilized by you</value>
+    <value>Destroy a track of an enemy vehicle. Your allies must destroy that vehicle while it is immobilized</value>
   </data>
   <data name="quest_2_1_4_condition_main" xml:space="preserve">
     <value>• Destroy a track of an enemy vehicle.
@@ -1367,7 +1367,7 @@
     <value>• Spot at least 2 enemy SPGs and cause damage or critical hits to them.</value>
   </data>
   <data name="quest_2_1_7_condition_title_spottedAndDamagedSPG" xml:space="preserve">
-    <value>Spot and cause damage to 1 SPGs</value>
+    <value>Spot and cause damage to 1 SPG</value>
   </data>
   <data name="quest_2_1_8_condition_add" xml:space="preserve">
     <value>• Destroy an enemy vehicle by shooting or ramming it.</value>
@@ -1386,7 +1386,7 @@
     <value>• Survive the battle.</value>
   </data>
   <data name="quest_2_1_9_condition_description_spottedBeforeWeBecameSpotted" xml:space="preserve">
-    <value>Spot 2 vehicles remaining unspotted</value>
+    <value>Spot 2 vehicles while remaining unspotted</value>
   </data>
   <data name="quest_2_1_9_condition_main" xml:space="preserve">
     <value>• Spot at least 4 enemy vehicles before any enemy vehicle spots you.</value>
@@ -1430,7 +1430,7 @@
 • Survive the battle.</value>
   </data>
   <data name="quest_2_2_12_condition_description_damageBlockedByArmor" xml:space="preserve">
-    <value>Have total damage blocked by armor 2 times exceed the hit points of your vehicle</value>
+    <value>Have total damage blocked by armor equal to or exceeding 2 times the hit points of your vehicle</value>
   </data>
   <data name="quest_2_2_12_condition_main" xml:space="preserve">
     <value>• Damage blocked by armor must be at least double the HP of your vehicle.
@@ -1466,7 +1466,7 @@
     <value>Cause, receive, and block a total of 6,000 HP of damage</value>
   </data>
   <data name="quest_2_2_15_condition_description_percentFromTotalTeamDamage" xml:space="preserve">
-    <value>Cause 20% of total amount of damage caused by your team</value>
+    <value>Cause 20% of the total amount of damage caused by your team</value>
   </data>
   <data name="quest_2_2_15_condition_main" xml:space="preserve">
     <value>• Damage caused, received, and blocked by armor must total at least 8,000 HP.</value>
@@ -1546,7 +1546,7 @@
     <value>• Destroy at least 2 enemy vehicles.</value>
   </data>
   <data name="quest_2_2_7_condition_main" xml:space="preserve">
-    <value>• Participate in the successful capture of a base or reset enemy capture points of your/neutral base.
+    <value>• Participate in the successful capture of a base or reset the enemy capture points of your/neutral base.
 • Win the battle.
 • Cause at least 2,000 HP of damage to enemy vehicles.</value>
   </data>
@@ -1664,7 +1664,7 @@
     <value>Cause damage to 6 vehicles</value>
   </data>
   <data name="quest_2_3_15_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 1,000 damage to tank destroyers</value>
+    <value>Cause 1,000 HP of damage to tank destroyers</value>
   </data>
   <data name="quest_2_3_15_condition_title_vehicleKills" xml:space="preserve">
     <value>Destroy 2 tank destroyers</value>
@@ -1696,7 +1696,7 @@
     <value>• Survive the battle.</value>
   </data>
   <data name="quest_2_3_3_condition_description_vehicleDamage" xml:space="preserve">
-    <value>Cause 750 damage during the first 2 minutes of the battle</value>
+    <value>Cause 750 HP of damage during the first 2 minutes of the battle</value>
   </data>
   <data name="quest_2_3_3_condition_main" xml:space="preserve">
     <value>• Cause at least 750 HP of damage to enemy vehicles during the first 2 minutes of the battle.</value>
@@ -1714,7 +1714,7 @@
     <value>Cause damage to an immobilized vehicle 2 times</value>
   </data>
   <data name="quest_2_3_4_condition_title_vehicleKills" xml:space="preserve">
-    <value>Destroy immobilized enemy vehicle</value>
+    <value>Destroy an immobilized enemy vehicle</value>
   </data>
   <data name="quest_2_3_5_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -1999,7 +1999,7 @@
     <value>• Win the battle.</value>
   </data>
   <data name="quest_2_5_13_condition_main" xml:space="preserve">
-    <value>• Cause damage to enemy vehicles at least 6 times or stun them at least 8 times. Damage or stun caused by Platoon mates count towards this total.• Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
+    <value>• Cause damage to enemy vehicles at least 6 times or stun them at least 8 times. Damage or stun caused by Platoon mates counts toward this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
   </data>
   <data name="quest_2_5_13_condition_title_stunNum" xml:space="preserve">
     <value>Stun 8 times (Personal/Platoon)</value>
@@ -2014,7 +2014,7 @@
     <value>Allies must cause 600 HP of damage to the enemy vehicle immobilized by you</value>
   </data>
   <data name="quest_2_5_14_condition_main" xml:space="preserve">
-    <value>• Stun enemy vehicles for a total of at least 100 seconds or enable your allies to cause at least 600 damage to enemy vehicles by immobilizing them. Stun or immobilization caused by Platoon mates count towards this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
+    <value>• Stun enemy vehicles for a total of at least 100 seconds or enable your allies to cause at least 600 HP of damage to enemy vehicles by immobilizing them. Stun or immobilization caused by Platoon mates counts toward this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
   </data>
   <data name="quest_2_5_14_condition_title_stunDuration" xml:space="preserve">
     <value>Stun for 100 seconds (personal/Platoon)</value>
@@ -2155,7 +2155,7 @@
     <value>Be careful when approaching the enemy base—get ready for a "warm" reception. If you prefer defensive tactics, make use of the terrain to find the best concealment and vantage points,  which you can use to defend your own base (or the neutral base in an Encounter Battle) against the approaching enemy.</value>
   </data>
   <data name="quest_2_7_descr" xml:space="preserve">
-    <value>Heavy tanks are great for the breakthrough tactics. Punch through the enemy defensive lines and capture their base. However, do not underestimate your enemy—they might employ the same strategy.</value>
+    <value>Heavy tanks are great for breakthrough tactics. Punch through the enemy defensive lines and capture their base. However, do not underestimate your enemy—they might employ the same strategy.</value>
   </data>
   <data name="quest_2_7_short" xml:space="preserve">
     <value>HT-7</value>
@@ -2164,7 +2164,7 @@
     <value>HT-8: With Guns Blazing</value>
   </data>
   <data name="quest_2_8_advise" xml:space="preserve">
-    <value>As a heavy tank, you are the backbone of your team. Enemy heavy tanks are just as important. Take on them and try to destroy them first off, or at least keep them busy as long as possible.</value>
+    <value>As a heavy tank, you are the backbone of your team. Enemy heavy tanks are just as important. Take them on and try to destroy them first, or at least keep them busy for as long as possible.</value>
   </data>
   <data name="quest_2_8_descr" xml:space="preserve">
     <value>Remember, your armor is your key strength. Cause as much damage as possible while your opponents enjoy the non-penetration messages over and over again.</value>
@@ -2176,7 +2176,7 @@
     <value>HT-9: A Crushing Blow</value>
   </data>
   <data name="quest_2_9_advise" xml:space="preserve">
-    <value>The driver's Controlled Impact skill and the Spall Liner equipment can significantly reduce the damage done to your vehicle by ramming, at the same time increasing the damage of your own ramming attacks.</value>
+    <value>The driver's Controlled Impact skill and the Spall Liner equipment can significantly reduce the damage done to your vehicle by ramming, and, at the same time, increase the damage of your own ramming attacks.</value>
   </data>
   <data name="quest_2_9_descr" xml:space="preserve">
     <value>Close-quarters engagements often render you unable to reload in time. In this situation, finish an enemy off by ramming them! The weaker the enemy vehicle's armor at the point of impact, the more damage you will cause.</value>
@@ -2191,10 +2191,10 @@
     <value>MT-10: A Versatile Warrior</value>
   </data>
   <data name="quest_3_10_advise" xml:space="preserve">
-    <value>Your vehicle is maneuverable. Try exploiting this advantage to outflank enemy vehicles and attack them from the rear or sides. Vehicles that have a weak armor can be destroyed by ramming attacks.</value>
+    <value>Your vehicle is maneuverable. Try exploiting this advantage to outflank enemy vehicles and attack them from the rear or sides. Vehicles that have weak armor can be destroyed by ramming attacks.</value>
   </data>
   <data name="quest_3_10_descr" xml:space="preserve">
-    <value>A medium tank can perform well on any type of map and against any type of enemy vehicles. Study the features of your own vehicles to understand how to emerge victorious in any situation.</value>
+    <value>A medium tank can perform well on any type of map and against any type of enemy vehicle. Study the features of your own vehicles to understand how to emerge victorious in any situation.</value>
   </data>
   <data name="quest_3_10_short" xml:space="preserve">
     <value>MT-10</value>
@@ -2230,7 +2230,7 @@
     <value>As soon as you destroy an enemy, move on to the next target. Your teammates most likely need your help somewhere else.</value>
   </data>
   <data name="quest_3_13_descr" xml:space="preserve">
-    <value>A Platoon of medium tanks can be of great help to the team on the entire battlefield. This mission may be completed either as part of a Platoon or on your own; however, the latter is more difficult.</value>
+    <value>A Platoon of medium tanks can be of great help to the team across the entire battlefield. This mission may be completed either as part of a Platoon or on your own; however, the latter is more difficult.</value>
   </data>
   <data name="quest_3_13_short" xml:space="preserve">
     <value>MT-13</value>
@@ -2297,7 +2297,7 @@
     <value>Enable your allies to cause 2,500 HP of damage</value>
   </data>
   <data name="quest_3_1_13_condition_main" xml:space="preserve">
-    <value>• Enable your allies to cause at least 2,500 HP of damage to enemy vehicles by spotting them. Damage caused after your Platoon mates spotting counts toward this total.
+    <value>• Enable your allies to cause at least 2,500 HP of damage to enemy vehicles by spotting them. Damage caused after your Platoon mates' spotting counts toward this total.
 • Cause at least 2,000 HP of damage to enemy vehicles. Damage caused by Platoon mates counts toward this total.
 • Can be completed either on your own or as part of a Platoon consisting of your light tank and any other vehicles.</value>
   </data>
@@ -2311,7 +2311,7 @@
     <value>Enable your allies to cause 5,000 HP of damage</value>
   </data>
   <data name="quest_3_1_14_condition_main" xml:space="preserve">
-    <value>• Enable your allies to cause at least 5,000 HP of damage to enemy vehicles by spotting them. Damage caused after your Platoon mates spotting counts toward this total.
+    <value>• Enable your allies to cause at least 5,000 HP of damage to enemy vehicles by spotting them. Damage caused after your Platoon mates' spotting counts toward this total.
 • Can be completed either on your own or as part of a Platoon consisting of your light tank and any other vehicles.</value>
   </data>
   <data name="quest_3_1_15_condition_add" xml:space="preserve">
@@ -2366,13 +2366,13 @@
     <value>• Your allies must destroy at least 2 vehicles immobilized by you.</value>
   </data>
   <data name="quest_3_1_4_condition_description_assist_track" xml:space="preserve">
-    <value>Destroy a track of an enemy vehicle. Your allies must cause 250 of damage to the vehicle immobilized by you</value>
+    <value>Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to that vehicle while it is immobilized</value>
   </data>
   <data name="quest_3_1_4_condition_description_damageAssistedTrack" xml:space="preserve">
-    <value>Destroy a track of an enemy vehicle. Your allies must cause 250 of damage to the vehicle immobilized by you</value>
+    <value>Destroy a track of an enemy vehicle. Your allies must cause 250 HP of damage to that vehicle while it is immobilized</value>
   </data>
   <data name="quest_3_1_4_condition_description_killsAssistedTrack" xml:space="preserve">
-    <value>Destroy tracks of 2 enemy vehicles. Your allies must destroy the vehicles immobilized by you</value>
+    <value>Destroy tracks of 2 enemy vehicles. Your allies must destroy the vehicles while they are immobilized</value>
   </data>
   <data name="quest_3_1_4_condition_main" xml:space="preserve">
     <value>• Destroy the tracks of at least 3 enemy vehicles.</value>
@@ -2413,7 +2413,7 @@
     <value>• Spot at least 3 enemy SPGs and cause damage or critical hits to them.</value>
   </data>
   <data name="quest_3_1_7_condition_title_spottedAndDamagedSPG" xml:space="preserve">
-    <value>Spot and cause damage to 1 SPGs</value>
+    <value>Spot and cause damage to 1 SPG</value>
   </data>
   <data name="quest_3_1_7_condition_title_vehicleKills" xml:space="preserve">
     <value>Destroy 1 SPG</value>
@@ -2422,10 +2422,10 @@
     <value>• Destroy at least 2 enemy vehicles by shooting or ramming them.</value>
   </data>
   <data name="quest_3_1_8_condition_description_base" xml:space="preserve">
-    <value>Participate in a successful capture of a base or reset enemy capture points of your/neutral base, earning 40 base points</value>
+    <value>Participate in a successful capture of a base or reset the enemy capture points of your/neutral base, earning 40 base points</value>
   </data>
   <data name="quest_3_1_8_condition_main" xml:space="preserve">
-    <value>• Participate in a successful capture of a base while earning at least 40 base capture points, or reset enemy capture points of your/neutral base while earning at least 40 base defense points.
+    <value>• Participate in a successful capture of a base while earning at least 40 base capture points, or reset the enemy capture points of your/neutral base while earning at least 40 base defense points.
 • Win the battle.</value>
   </data>
   <data name="quest_3_1_8_condition_title_kills" xml:space="preserve">
@@ -2436,7 +2436,7 @@
 • Win the battle.</value>
   </data>
   <data name="quest_3_1_9_condition_description_spottedBeforeWeBecameSpotted" xml:space="preserve">
-    <value>Spot 4 vehicles remaining unspotted</value>
+    <value>Spot 4 vehicles while remaining unspotted</value>
   </data>
   <data name="quest_3_1_9_condition_main" xml:space="preserve">
     <value>• Spot at least 6 enemy vehicles before any enemy vehicle spots you.</value>
@@ -2480,10 +2480,10 @@
 • Survive the battle.</value>
   </data>
   <data name="quest_3_2_12_condition_description_damageBlockedByArmor" xml:space="preserve">
-    <value>Have total damage blocked by armor 3 times exceed the hit points of your vehicle</value>
+    <value>Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle</value>
   </data>
   <data name="quest_3_2_12_condition_main" xml:space="preserve">
-    <value>• Damage blocked by armor must at least 3 times exceed the HP of your vehicle.
+    <value>• Damage blocked by armor must be at least triple the HP of your vehicle.
 • Cause at least 2,000 HP of damage to enemy vehicles.</value>
   </data>
   <data name="quest_3_2_12_condition_title_damageDealt" xml:space="preserve">
@@ -2552,8 +2552,7 @@
     <value>Destroy 4 enemy vehicles of 3 different types</value>
   </data>
   <data name="quest_3_2_3_condition_main" xml:space="preserve">
-    <value>• Destroy at least 4 enemy vehicles
-of 3 different types.</value>
+    <value>• Destroy at least 4 enemy vehicles of 3 different types.</value>
   </data>
   <data name="quest_3_2_3_condition_title_damageDealt" xml:space="preserve">
     <value>Cause 3,000 HP of damage</value>
@@ -2599,7 +2598,7 @@ of 3 different types.</value>
     <value>• Destroy at least 3 enemy vehicles.</value>
   </data>
   <data name="quest_3_2_7_condition_main" xml:space="preserve">
-    <value>• Participate in the successful capture of a base or reset enemy capture points of your/neutral base.
+    <value>• Participate in the successful capture of a base or reset the enemy capture points of your/neutral base.
 • Win the battle.
 • Cause at least 3,000 HP of damage to enemy vehicles.</value>
   </data>
@@ -2672,13 +2671,13 @@ of 3 different types.</value>
     <value>• Be among the top 3 players on your team by experience earned.</value>
   </data>
   <data name="quest_3_3_12_condition_description_fire" xml:space="preserve">
-    <value>Set an enemy vehicle of the same or higher tier on fire</value>
+    <value>Set an enemy vehicle of the same tier or higher on fire</value>
   </data>
   <data name="quest_3_3_12_condition_description_top_xp" xml:space="preserve">
     <value>Be among the top 3 players on your team by experience earned</value>
   </data>
   <data name="quest_3_3_12_condition_main" xml:space="preserve">
-    <value>• Set an enemy vehicle of the same or higher tier on fire.</value>
+    <value>• Set an enemy vehicle of the same tier or higher on fire.</value>
   </data>
   <data name="quest_3_3_13_condition_add" xml:space="preserve">
     <value>• Personally be among the top 3 players on your team by experience earned.</value>
@@ -2718,7 +2717,7 @@ of 3 different types.</value>
     <value>Cause damage to 7 vehicles</value>
   </data>
   <data name="quest_3_3_15_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 2,500 damage to tank destroyers</value>
+    <value>Cause 2,500 HP of damage to tank destroyers</value>
   </data>
   <data name="quest_3_3_1_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -3028,7 +3027,7 @@ of 3 different types.</value>
 • Allies must destroy at least 2 enemy vehicles stunned or immobilized by you.</value>
   </data>
   <data name="quest_3_5_10_condition_description_complexDamageAssist" xml:space="preserve">
-    <value>Cause, or assist in causing of 3,000 HP of damage by stunning or immobilizing</value>
+    <value>Cause, or assist in causing 3,000 HP of damage by stunning or immobilizing</value>
   </data>
   <data name="quest_3_5_10_condition_description_complexKillAssist" xml:space="preserve">
     <value>Allies must destroy 2 vehicles stunned or immobilized by you</value>
@@ -3065,7 +3064,7 @@ of 3 different types.</value>
     <value>• Win the battle.</value>
   </data>
   <data name="quest_3_5_13_condition_main" xml:space="preserve">
-    <value>• Cause damage to enemy vehicles at least 8 times or stun them at least 10 times. Damage or stun caused by Platoon mates count towards this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
+    <value>• Cause damage to enemy vehicles at least 8 times or stun them at least 10 times. Damage or stun caused by Platoon mates counts toward this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
   </data>
   <data name="quest_3_5_13_condition_title_stunNum" xml:space="preserve">
     <value>Stun 10 times (personal/Platoon)</value>
@@ -3080,7 +3079,7 @@ of 3 different types.</value>
     <value>Allies must cause 800 HP of damage to the enemy vehicle immobilized by you</value>
   </data>
   <data name="quest_3_5_14_condition_main" xml:space="preserve">
-    <value>• Stun enemy vehicles for a total of at least 180 seconds or enable your allies to cause at least 800 damage to enemy vehicles by immobilizing them. Stun or immobilization caused by Platoon mates count towards this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
+    <value>• Stun enemy vehicles for a total of at least 180 seconds or enable your allies to cause at least 800 HP of damage to enemy vehicles by immobilizing them. Stun or immobilization caused by Platoon mates counts toward this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
   </data>
   <data name="quest_3_5_14_condition_title_stunDuration" xml:space="preserve">
     <value>Stun for 180 seconds (personal/Platoon)</value>
@@ -3189,7 +3188,7 @@ of 3 different types.</value>
   <data name="quest_3_5_9_condition_add" xml:space="preserve">
     <value>• Survive the battle.
 • Win the battle.
-• Remain unspotted for the whole duration of a battle.</value>
+• Remain unspotted throughout the battle.</value>
   </data>
   <data name="quest_3_5_9_condition_description_crit" xml:space="preserve">
     <value>Destroy internal modules or injure crew members, totaling at least 8 modules or crew members</value>
@@ -3247,7 +3246,7 @@ of 3 different types.</value>
     <value>MT-9: A Worthy Opponent</value>
   </data>
   <data name="quest_3_9_advise" xml:space="preserve">
-    <value>Outflank enemy vehicles, shoot them from concealment, target their weak spots to pick them apart—whatever it takes. Remember that heavy tanks are slower than you, and their turrets have low traverse speed.</value>
+    <value>Outflank enemy vehicles, shoot them while concealed, target their weak spots to pick them apart—whatever it takes. Remember that heavy tanks are slower than you, and their turrets have low traverse speeds.</value>
   </data>
   <data name="quest_3_9_descr" xml:space="preserve">
     <value>Seeking and destroying enemy heavy tanks is a hard task to accomplish but very beneficial to the team's cause.</value>
@@ -3262,7 +3261,7 @@ of 3 different types.</value>
     <value>TD-10: A Hidden Menace</value>
   </data>
   <data name="quest_4_10_advise" xml:space="preserve">
-    <value>Use camouflage and Camouflage Net. Keep your distance and let your teammates do the spotting. You serve your team by staying out of sight, but in position to fire when the opportunity arises.</value>
+    <value>Use camouflage and Camouflage Net. Keep your distance and let your teammates do the spotting. You serve your team by staying out of sight, but be in a position to fire when the opportunity arises.</value>
   </data>
   <data name="quest_4_10_descr" xml:space="preserve">
     <value>If your tank destroyer is well-concealed, you can strike the unsuspecting enemy without them being able to respond.</value>
@@ -3439,13 +3438,13 @@ of 3 different types.</value>
     <value>• Your allies must destroy at least 2 vehicles immobilized by you.</value>
   </data>
   <data name="quest_4_1_4_condition_description_assist_track" xml:space="preserve">
-    <value>Destroy a track of an enemy vehicle. Your allies must cause 500 of damage to the vehicle immobilized by you</value>
+    <value>Destroy a track of an enemy vehicle. Your allies must cause 500 HP of damage to the vehicle immobilized by you</value>
   </data>
   <data name="quest_4_1_4_condition_description_damageAssistedTrack" xml:space="preserve">
-    <value>Destroy a track of an enemy vehicle. Your allies must cause 500 of damage to the vehicle immobilized by you</value>
+    <value>Destroy a track of an enemy vehicle. Your allies must cause 500 HP of damage to the vehicle immobilized by you</value>
   </data>
   <data name="quest_4_1_4_condition_description_killsAssistedTrack" xml:space="preserve">
-    <value>Destroy tracks of 2 enemy vehicles. Your allies must destroy the vehicles immobilized by you</value>
+    <value>Destroy tracks of 2 enemy vehicles. Your allies must destroy the vehicles while they are immobilized</value>
   </data>
   <data name="quest_4_1_4_condition_main" xml:space="preserve">
     <value>• Destroy the tracks of at least 3 enemy vehicles.
@@ -3494,10 +3493,10 @@ of 3 different types.</value>
     <value>• Destroy at least 2 enemy vehicles by shooting or ramming them.</value>
   </data>
   <data name="quest_4_1_8_condition_description_base" xml:space="preserve">
-    <value>Participate in a successful capture of a base or reset enemy capture points of your/neutral base, earning 60 base points</value>
+    <value>Participate in a successful capture of a base or reset the enemy capture points of your/neutral base, earning 60 base points</value>
   </data>
   <data name="quest_4_1_8_condition_main" xml:space="preserve">
-    <value>• Participate in a successful capture of a base while earning at least 60 base capture points, or reset enemy capture points of your/neutral base while earning at least 60 base defense points.
+    <value>• Participate in a successful capture of a base while earning at least 60 base capture points, or reset the enemy capture points of your/neutral base while earning at least 60 base defense points.
 • Win the battle.</value>
   </data>
   <data name="quest_4_1_8_condition_title_kills" xml:space="preserve">
@@ -3508,16 +3507,16 @@ of 3 different types.</value>
 • Win the battle.</value>
   </data>
   <data name="quest_4_1_9_condition_description_spottedBeforeWeBecameSpotted" xml:space="preserve">
-    <value>Spot 6 vehicles, remaining unspotted</value>
+    <value>Spot 6 vehicles while remaining unspotted</value>
   </data>
   <data name="quest_4_1_9_condition_main" xml:space="preserve">
     <value>• Spot at least 7 enemy vehicles before any enemy vehicle spots you.</value>
   </data>
   <data name="quest_4_1_advise" xml:space="preserve">
-    <value>Tank destroyers have serious firepower, but most are relatively fragile. Try engaging from long range—the accuracy of your gun allows for that.</value>
+    <value>Tank destroyers have serious firepower, but most are relatively fragile. Try engaging from long range—the accuracy of your gun allows for this.</value>
   </data>
   <data name="quest_4_1_descr" xml:space="preserve">
-    <value>Tank destroyers are a great choice for those players who like to destroy enemy vehicles from a distance.</value>
+    <value>Tank destroyers are a great choice for players who like to destroy enemy vehicles from a distance.</value>
   </data>
   <data name="quest_4_1_short" xml:space="preserve">
     <value>TD-1</value>
@@ -3552,7 +3551,7 @@ of 3 different types.</value>
 • Survive the battle.</value>
   </data>
   <data name="quest_4_2_12_condition_description_damageBlockedByArmor" xml:space="preserve">
-    <value>Have total damage blocked by armor 3 times exceed the hit points of your vehicle</value>
+    <value>Have total damage blocked by armor equal to or exceeding 3 times the hit points of your vehicle</value>
   </data>
   <data name="quest_4_2_12_condition_main" xml:space="preserve">
     <value>• Damage blocked by armor must be at least triple the HP of your vehicle.
@@ -3670,7 +3669,7 @@ of 3 different types.</value>
     <value>• Destroy at least 4 enemy vehicles.</value>
   </data>
   <data name="quest_4_2_7_condition_main" xml:space="preserve">
-    <value>• Participate in the successful capture of a base or reset enemy capture points of your/neutral base.
+    <value>• Participate in the successful capture of a base or reset the enemy capture points of your/neutral base.
 • Win the battle.
 • Cause at least 4,000 HP of damage to enemy vehicles.</value>
   </data>
@@ -3706,7 +3705,7 @@ of 3 different types.</value>
     <value>A successful hit can damage or destroy the enemy vehicle's modules or injure the crew. High-Explosive shells are sometimes effective for this purpose.</value>
   </data>
   <data name="quest_4_2_descr" xml:space="preserve">
-    <value>Destroying an enemy's vehicles modules and injuring crew members can render it almost useless.</value>
+    <value>Destroying an enemy vehicle's modules and injuring its crew members can render it almost useless.</value>
   </data>
   <data name="quest_4_2_short" xml:space="preserve">
     <value>TD-2</value>
@@ -3740,13 +3739,13 @@ of 3 different types.</value>
     <value>• Be among the top 3 players on your team by experience earned.</value>
   </data>
   <data name="quest_4_3_12_condition_description_fire" xml:space="preserve">
-    <value>Set an enemy vehicle of the same or higher tier on fire</value>
+    <value>Set an enemy vehicle of the same tier or higher on fire</value>
   </data>
   <data name="quest_4_3_12_condition_description_top_xp" xml:space="preserve">
     <value>Be among the top 3 players on your team by experience earned</value>
   </data>
   <data name="quest_4_3_12_condition_main" xml:space="preserve">
-    <value>• Set an enemy vehicle of the same or higher tier on fire.
+    <value>• Set an enemy vehicle of the same tier or higher on fire.
 • Cause at least 3,000 HP of damage to enemy vehicles.</value>
   </data>
   <data name="quest_4_3_12_condition_title_damageDealt" xml:space="preserve">
@@ -3789,7 +3788,7 @@ of 3 different types.</value>
     <value>Cause damage to 8 vehicles</value>
   </data>
   <data name="quest_4_3_15_condition_title_vehicleDamage" xml:space="preserve">
-    <value>Cause 3,500 damage to tank destroyers</value>
+    <value>Cause 3,500 HP of damage to tank destroyers</value>
   </data>
   <data name="quest_4_3_1_condition_add" xml:space="preserve">
     <value>• Survive the battle.</value>
@@ -3858,7 +3857,7 @@ of 3 different types.</value>
     <value>Destroy 6 vehicles of 3 different types</value>
   </data>
   <data name="quest_4_3_6_condition_main" xml:space="preserve">
-    <value>• Destroy a total of at least 6 enemy vehicles of 3 different types.</value>
+    <value>• Destroy at least 6 enemy vehicles of 3 different types.</value>
   </data>
   <data name="quest_4_3_7_condition_add" xml:space="preserve">
     <value>• Survive the battle.
@@ -3900,7 +3899,7 @@ of 3 different types.</value>
     <value>Destroy 2 heavy tanks</value>
   </data>
   <data name="quest_4_3_advise" xml:space="preserve">
-    <value>Many tank destroyers are lightly armored, and most lack turrets. Engaging at long range is usually the safest tactics.</value>
+    <value>Many tank destroyers are lightly armored, and most lack turrets. Engaging at long range is usually the safest tactic.</value>
   </data>
   <data name="quest_4_3_descr" xml:space="preserve">
     <value>The most important advantage of tank destroyers is their great firepower.</value>
@@ -4095,7 +4094,7 @@ of 3 different types.</value>
 • Allies must destroy at least 3 enemy vehicles stunned or immobilized by you.</value>
   </data>
   <data name="quest_4_5_10_condition_description_complexDamageAssist" xml:space="preserve">
-    <value>Cause, or assist in causing of 4,000 HP of damage by stunning or immobilizing</value>
+    <value>Cause, or assist in causing 4,000 HP of damage by stunning or immobilizing</value>
   </data>
   <data name="quest_4_5_10_condition_description_complexKillAssist" xml:space="preserve">
     <value>Allies must destroy 3 vehicles stunned or immobilized by you</value>
@@ -4123,7 +4122,7 @@ of 3 different types.</value>
   </data>
   <data name="quest_4_5_12_condition_main" xml:space="preserve">
     <value>• Stun enemy vehicles for at least 200 seconds in total.
-• Allies must destroy at least 3 enemy vehicle stunned or immobilized by you.</value>
+• Allies must destroy at least 3 enemy vehicles stunned or immobilized by you.</value>
   </data>
   <data name="quest_4_5_12_condition_title_stunDuration" xml:space="preserve">
     <value>Stun enemy vehicles for 200 seconds in total</value>
@@ -4132,7 +4131,7 @@ of 3 different types.</value>
     <value>• Win the battle.</value>
   </data>
   <data name="quest_4_5_13_condition_main" xml:space="preserve">
-    <value>• Cause damage to enemy vehicles at least 10 times or stun them at least 12 times. Damage or stun caused by Platoon mates count towards this total.• Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
+    <value>• Cause damage to enemy vehicles at least 10 times or stun them at least 12 times. Damage or stun caused by Platoon mates counts toward this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
   </data>
   <data name="quest_4_5_13_condition_title_stunNum" xml:space="preserve">
     <value>Stun 12 times (personal/Platoon)</value>
@@ -4147,7 +4146,7 @@ of 3 different types.</value>
     <value>Allies must cause 1,000 HP of damage to the vehicle immobilized by you</value>
   </data>
   <data name="quest_4_5_14_condition_main" xml:space="preserve">
-    <value>• Stun enemy vehicles for at least 250 seconds in total or enable your allies to cause at least 1,000 damage to enemy vehicles by immobilizing them. Stun or immobilization caused by Platoon mates count towards this total.• Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
+    <value>• Stun enemy vehicles for at least 250 seconds in total or enable your allies to cause at least 1,000 HP of damage to enemy vehicles by immobilizing them. Stun or immobilization caused by Platoon mates counts toward this total. Can be completed either on your own or as part of a Platoon consisting of your SPG and any other vehicles.</value>
   </data>
   <data name="quest_4_5_14_condition_title_stunDuration" xml:space="preserve">
     <value>Stun for 250 seconds in total (personal/Platoon)</value>
@@ -4163,7 +4162,7 @@ of 3 different types.</value>
   </data>
   <data name="quest_4_5_15_condition_main" xml:space="preserve">
     <value>• Finish the battle as the top player on both teams by experience earned.
-• Enable your allies to cause at least 3,500 damage to enemy vehicles by stunning or immobilizing them.</value>
+• Enable your allies to cause at least 3,500 HP of damage to enemy vehicles by stunning or immobilizing them.</value>
   </data>
   <data name="quest_4_5_15_condition_title_damageDealt" xml:space="preserve">
     <value>Cause 4,000 HP of damage</value>
@@ -4256,7 +4255,7 @@ of 3 different types.</value>
   <data name="quest_4_5_9_condition_add" xml:space="preserve">
     <value>• Survive the battle.
 • Win the battle.
-• Remain unspotted for the whole duration of a battle.</value>
+• Remain unspotted throughout the battle.</value>
   </data>
   <data name="quest_4_5_9_condition_description_crit" xml:space="preserve">
     <value>Destroy 10 internal modules or injure 10 crew members</value>
@@ -4305,7 +4304,7 @@ of 3 different types.</value>
     <value>Look for every chance to damage enemy vehicles, but at the same time, also try to survive.</value>
   </data>
   <data name="quest_4_8_descr" xml:space="preserve">
-    <value>As a tank destroyer driver, you will be expected to cause more damage to enemy than the amount of HP of your own vehicle.</value>
+    <value>As a tank destroyer driver, you will be expected to cause more damage to enemies than the amount of HP of your own vehicle.</value>
   </data>
   <data name="quest_4_8_short" xml:space="preserve">
     <value>TD-8</value>
@@ -4332,7 +4331,7 @@ of 3 different types.</value>
     <value>?empty?</value>
   </data>
   <data name="quest_5_10_descr" xml:space="preserve">
-    <value>Battle situation can change rapidly—always keep an eye on the minimap and make sure you have a clear view of enemy vehicles. You will have to move across the map all the time instead of staying at one position. Your allies rely on your SPG firepower, so do your best in the right time and place.</value>
+    <value>The battle situation can change rapidly—always keep an eye on the minimap and make sure you have a clear view of enemy vehicles. You will have to move across the map all the time instead of staying in one position. Your allies rely on your SPG firepower, so do your best in the right time and place.</value>
   </data>
   <data name="quest_5_10_short" xml:space="preserve">
     <value>SPG-10</value>
@@ -4344,7 +4343,7 @@ of 3 different types.</value>
     <value>?empty?</value>
   </data>
   <data name="quest_5_11_descr" xml:space="preserve">
-    <value>In addition to a considerable amount of damage caused with a well-placed shot, a High-Explosive shell can also stun all misplaced vehicles within the burst radius after the shell explosion. Many maps feature some spots where enemy vehicles are bunching together. Take your chance and send you highly "explosive" regards to them.</value>
+    <value>In addition to the considerable amount of damage caused by a well-placed shot, a High-Explosive shell can also stun all misplaced vehicles within the burst radius after the shell explosion. Many maps feature spots where enemy vehicles bunch together. Take your chance and send your highly "explosive" regards to them.</value>
   </data>
   <data name="quest_5_11_short" xml:space="preserve">
     <value>SPG-11</value>
@@ -4356,7 +4355,7 @@ of 3 different types.</value>
     <value>?empty?</value>
   </data>
   <data name="quest_5_12_descr" xml:space="preserve">
-    <value>Your allies destroyed the stunned enemy vehicle? Good news for you, since it is your contribution which makes the desired victory one step closer! Your objective is to provide fire support and assist your allies in the right place and moment.</value>
+    <value>Your allies destroyed the stunned enemy vehicle? Good news for you, since it is your contribution that brings the desired victory one step closer! Your objective is to provide fire support and assist your allies in the right place at the right time.</value>
   </data>
   <data name="quest_5_12_short" xml:space="preserve">
     <value>SPG-12</value>
@@ -4368,19 +4367,19 @@ of 3 different types.</value>
     <value>?empty?</value>
   </data>
   <data name="quest_5_13_descr" xml:space="preserve">
-    <value>Well-handled cooperation between SPGs and allies should make the enemy team extremely worried. Coordinate your actions and focus your fire on one enemy target at a time.</value>
+    <value>Strong cooperation between SPGs and allies should make the enemy team extremely worried. Coordinate your actions and focus your fire on one enemy target at a time.</value>
   </data>
   <data name="quest_5_13_short" xml:space="preserve">
     <value>SPG-13</value>
   </data>
   <data name="quest_5_14" xml:space="preserve">
-    <value>SPG-14: Part of the Crew, Part of the Ship!</value>
+    <value>SPG-14: One of Us!</value>
   </data>
   <data name="quest_5_14_advise" xml:space="preserve">
     <value>?empty?</value>
   </data>
   <data name="quest_5_14_descr" xml:space="preserve">
-    <value>Cooperation is key to victory of the whole team. Highlight the enemy vehicle you are aiming at for your allies to immediately bring down fire on it once it has been stunned or immobilized. Remember: a lone soldier can hardly make a battle.</value>
+    <value>Cooperation is the key to victory for the whole team. Highlight the enemy vehicle you are aiming at for your allies to immediately bring down fire on it once it has been stunned or immobilized. Remember: a lone soldier can hardly make a battle.</value>
   </data>
   <data name="quest_5_14_short" xml:space="preserve">
     <value>SPG-14</value>
@@ -4656,7 +4655,7 @@ of 3 different types.</value>
     <value>?empty?</value>
   </data>
   <data name="quest_5_3_descr" xml:space="preserve">
-    <value>Concealed and powerful enemy tank destroyers and well-armored heavy tanks can easily turn the tide of the battle. They are the first-priority targets, and causing damage to them (or assisting in their destruction) should be the primary objective for a player in an SPG. The heavies and tank destroyers are generally slow and hulking, which increases the chances for a successful shot.</value>
+    <value>Concealed and powerful enemy tank destroyers and well-armored heavy tanks can easily turn the tide of the battle. They are the first-priority targets, and causing damage to them (or assisting in their destruction) should be the primary objective for a player in an SPG. The majority of heavies and tank destroyers are slow and hulking, which increases the chances for a successful shot.</value>
   </data>
   <data name="quest_5_3_short" xml:space="preserve">
     <value>SPG-3</value>
@@ -4668,7 +4667,7 @@ of 3 different types.</value>
     <value>?empty?</value>
   </data>
   <data name="quest_5_4_descr" xml:space="preserve">
-    <value>Learn major routes of the enemy heavy tanks and positions where the cunning tank destroyers usually hide. Aiming at a particular map area in advance increases the chances for the most effective and devastating fire at enemy positions. These types of vehicles usually follow rather predictable tactics on certain maps. Be smart: analyze the setup of the enemy team and select the best suitable position from the very start of the battle.</value>
+    <value>Learn the major routes of the enemy heavy tanks and positions where the cunning tank destroyers usually hide. Aiming at a particular map area in advance increases the chances for effective and devastating fire at enemy positions. These types of vehicles usually follow rather predictable tactics on certain maps. Be smart: analyze the setup of the enemy team and select the most suitable position from the very start of the battle.</value>
   </data>
   <data name="quest_5_4_short" xml:space="preserve">
     <value>SPG-4</value>
@@ -4680,7 +4679,7 @@ of 3 different types.</value>
     <value>?empty?</value>
   </data>
   <data name="quest_5_5_descr" xml:space="preserve">
-    <value>Stunning of enemy vehicles not only makes your team one step closer to a victory, but also ensures you receive additional experience and credits if your allies cause damage to enemy vehicles stunned by you. Do not forget to mark the area you are aiming at (the T key by default) to notify and draw the attention of your allies.</value>
+    <value>Stunning enemy vehicles not only brings your team one step closer to victory, but also ensures you receive additional experience and credits if your allies cause damage to enemy vehicles stunned by you. Do not forget to mark the area you are aiming at (the T key by default) to notify and draw the attention of your allies.</value>
   </data>
   <data name="quest_5_5_short" xml:space="preserve">
     <value>SPG-5</value>
@@ -4704,7 +4703,7 @@ of 3 different types.</value>
     <value>?empty?</value>
   </data>
   <data name="quest_5_7_descr" xml:space="preserve">
-    <value>To complete this mission, use a selective approach for choosing your targets. Do not concentrate fire on one enemy vehicle, even if it is an easy target. The best strategy is to hit big groups of enemy vehicles with one shot. Study the maps and learn the basic routes of vehicles.</value>
+    <value>To complete this mission, use a selective approach to choosing your targets. Do not concentrate fire on one enemy vehicle, even if it is an easy target. The best strategy is to hit big groups of enemy vehicles with one shot. Study the maps and learn the basic routes of vehicles.</value>
   </data>
   <data name="quest_5_7_short" xml:space="preserve">
     <value>SPG-7</value>
@@ -4716,7 +4715,7 @@ of 3 different types.</value>
     <value>?empty?</value>
   </data>
   <data name="quest_5_8_descr" xml:space="preserve">
-    <value>You receive experience for all effective actions. Try to be the MVP: cause damage, assist in destroying enemy vehicles, and survive in the battle. Change your position after every shot; otherwise, the counter fire of enemy SPGs can destroy your vehicle.</value>
+    <value>You receive experience for all effective actions. Try to be the MVP: cause damage, assist in destroying enemy vehicles, and survive the battle. Change your position after every shot; otherwise, the counter fire of enemy SPGs can destroy your vehicle.</value>
   </data>
   <data name="quest_5_8_short" xml:space="preserve">
     <value>SPG-8</value>
@@ -4743,7 +4742,7 @@ of 3 different types.</value>
     <value>Watch your six: fast enemies can flank you, making your vehicle easy prey. Pay extra attention when crossing exposed areas, as tank destroyers can catch you under fire of their high-caliber guns.</value>
   </data>
   <data name="quest_6_10_descr" xml:space="preserve">
-    <value>Knowing the vulnerable spots for each type of vehicles is key to a successful encounter. Remember: heavy tanks use robust armor, tank destroyers rely on concealment, while light and medium tanks have high speed and maneuverability. Each type of enemy vehicles requires particular tactics to counter them.</value>
+    <value>Knowing the vulnerable spots for each type of vehicle is key to a successful encounter. Remember: heavy tanks use robust armor, tank destroyers rely on concealment, while light and medium tanks have high speed and maneuverability. Each type of enemy vehicle requires particular tactics to counter them.</value>
   </data>
   <data name="quest_6_11" xml:space="preserve">
     <value>SH-11: Return Fire Part 2</value>
@@ -4848,7 +4847,7 @@ of 3 different types.</value>
     <value>A reckless rush at the enemy will only get you destroyed faster than you can say "woops". Instead, sneak the flag out and retreat to deliver it safely to your base.</value>
   </data>
   <data name="quest_6_7_descr" xml:space="preserve">
-    <value>Conserve your hit points. Remember: a destroyed vehicle will neither deal damage nor deliver a flag to base.</value>
+    <value>Conserve your hit points. Remember: a destroyed vehicle will neither deal damage nor deliver a flag to the base.</value>
   </data>
   <data name="quest_6_8" xml:space="preserve">
     <value>SH-8: Wild Card</value>
@@ -4863,7 +4862,7 @@ of 3 different types.</value>
     <value>SH-9: Sabotage</value>
   </data>
   <data name="quest_6_9_advise" xml:space="preserve">
-    <value>The Deadeye perk increases the chance of a critical hit and can make life easier. Remember: internal vehicle modules include the turret ring, engine, fuel tanks, ammo rack and radio.</value>
+    <value>The Deadeye perk increases the chance of a critical hit and can make life easier. Remember: internal vehicle modules include the turret ring, engine, fuel tanks, ammo rack, and radio.</value>
   </data>
   <data name="quest_6_9_descr" xml:space="preserve">
     <value>You can harm enemy vehicles by causing damage or by damaging and destroying their modules. Each critical hit substantially reduces the battle performance of the enemy.</value>
@@ -4902,7 +4901,7 @@ of 3 different types.</value>
     <value>D-13: Hunting Giants</value>
   </data>
   <data name="quest_7_13_advise" xml:space="preserve">
-    <value>Do not forget to bring a few Premium shells to battle.</value>
+    <value>Do not forget to bring a few Premium shells into battle.</value>
   </data>
   <data name="quest_7_13_descr" xml:space="preserve">
     <value>Higher tier vehicles have better combat characteristics, which may be a problem when you try to destroy them. To succeed in battle, you need to know the weak spots of an enemy vehicle.</value>
@@ -5004,7 +5003,7 @@ of 3 different types.</value>
     <value>Thick sloped armor is a major obstacle for enemy shells. Hide your vehicle's weak spots, flank the enemy, and deliver the maximum amount of damage.</value>
   </data>
   <data name="quest_common_condition_description_base" xml:space="preserve">
-    <value>Participate in a successful capture of a base or reset enemy capture points of your/neutral base</value>
+    <value>Participate in a successful capture of a base or reset the enemy capture points of your/neutral base</value>
   </data>
   <data name="quest_common_condition_description_empty" xml:space="preserve">
     <value>?empty?</value>

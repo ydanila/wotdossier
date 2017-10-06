@@ -81,6 +81,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BattleResults.resx</DependentUpon>
     </Compile>
+    <Compile Include="Strings\Menu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Menu.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Strings\Profile.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Profile.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Strings\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Settings.resx</DependentUpon>
+    </Compile>
     <Compile Include="Tanks.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -985,7 +1000,10 @@
     <EmbeddedResource Include="Strings\LadderQuests.ru.resx" />
     <EmbeddedResource Include="Strings\LobbyHelp.resx" />
     <EmbeddedResource Include="Strings\LobbyHelp.ru.resx" />
-    <EmbeddedResource Include="Strings\Menu.resx" />
+    <EmbeddedResource Include="Strings\Menu.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Menu.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strings\Menu.ru.resx" />
     <EmbeddedResource Include="Strings\Messenger.resx" />
     <EmbeddedResource Include="Strings\Messenger.ru.resx" />
@@ -1007,7 +1025,10 @@
     <EmbeddedResource Include="Strings\PotapovQuests.ru.resx" />
     <EmbeddedResource Include="Strings\Prebattle.resx" />
     <EmbeddedResource Include="Strings\Prebattle.ru.resx" />
-    <EmbeddedResource Include="Strings\Profile.resx" />
+    <EmbeddedResource Include="Strings\Profile.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Profile.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strings\Profile.ru.resx" />
     <EmbeddedResource Include="Strings\Quests.resx" />
     <EmbeddedResource Include="Strings\Quests.ru.resx" />
@@ -1019,7 +1040,10 @@
     <EmbeddedResource Include="Strings\Recaptcha.ru.resx" />
     <EmbeddedResource Include="Strings\RetrainCrew.resx" />
     <EmbeddedResource Include="Strings\RetrainCrew.ru.resx" />
-    <EmbeddedResource Include="Strings\Settings.resx" />
+    <EmbeddedResource Include="Strings\Settings.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strings\Settings.ru.resx" />
     <EmbeddedResource Include="Strings\SwedenTankmen.resx" />
     <EmbeddedResource Include="Strings\SwedenTankmen.ru.resx" />
@@ -1041,7 +1065,9 @@
     <EmbeddedResource Include="Strings\UsaVehicles.ru.resx" />
     <EmbeddedResource Include="Strings\UssrTankmen.resx" />
     <EmbeddedResource Include="Strings\UssrTankmen.ru.resx" />
-    <EmbeddedResource Include="Strings\UssrVehicles.resx" />
+    <EmbeddedResource Include="Strings\UssrVehicles.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strings\UssrVehicles.ru.resx" />
     <EmbeddedResource Include="Strings\VehCompare.resx" />
     <EmbeddedResource Include="Strings\VehCompare.ru.resx" />
@@ -1456,7 +1482,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Achievements\Achievements.xml" />
+    <EmbeddedResource Include="Achievements\Achievements.xml" />
     <Resource Include="Achievements\Images\Achievement\aimer.png" />
     <Resource Include="Achievements\Images\Achievement\aloneInTheField.png" />
     <Resource Include="Achievements\Images\Achievement\armoredFist.png" />
@@ -2054,8 +2080,8 @@
     <Resource Include="Maps\Images\Stats\99_himmelball.png" />
     <Resource Include="Maps\Images\Stats\noImage.png" />
     <Resource Include="Maps\Images\Stats\overlay.png" />
-    <Resource Include="Maps\Maps.xml" />
-    <Resource Include="Vehicles\Equipments.xml" />
+    <EmbeddedResource Include="Maps\Maps.xml" />
+    <EmbeddedResource Include="Vehicles\Equipments.xml" />
     <Resource Include="Vehicles\Images\Artefact\addSlot.png" />
     <Resource Include="Vehicles\Images\Artefact\afterburning.png" />
     <Resource Include="Vehicles\Images\Artefact\aimingStabilizer.png" />
@@ -3186,9 +3212,9 @@
     <Resource Include="Vehicles\Images\Vehicle\ussr-T_50_2.9729.png" />
     <Resource Include="Vehicles\Images\Vehicle\ussr-Valentine_LL.52481.png" />
     <Resource Include="Vehicles\Images\Vehicle\ussr-Valentine_LL_IGR.40449.png" />
-    <Resource Include="Vehicles\OptionalDevices.xml" />
-    <Resource Include="Vehicles\Shells.xml" />
-    <Resource Include="Vehicles\Vehicles.xml" />
+    <EmbeddedResource Include="Vehicles\OptionalDevices.xml" />
+    <EmbeddedResource Include="Vehicles\Shells.xml" />
+    <EmbeddedResource Include="Vehicles\Vehicles.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

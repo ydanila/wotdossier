@@ -180,7 +180,7 @@
     <EmbeddedResource Include="Scripts\2016040600.sql" />
     <EmbeddedResource Include="Scripts\2017082500.sql" />
     <EmbeddedResource Include="Scripts\2017083100.sql" />
-    <None Include="Scripts\2017083100.sql.bak" />
+    <EmbeddedResource Include="Scripts\2017100600.sql" />
     <Content Include="x64\SQLite.Interop.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

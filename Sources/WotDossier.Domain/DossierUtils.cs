@@ -1,8 +1,9 @@
-﻿using WotDossier.Domain.Tank;
+﻿using System;
+using WotDossier.Domain.Tank;
 
 namespace WotDossier.Domain
 {
-    public class DossierUtils
+    public static class DossierUtils
     {
         public static int ToUniqueId(int typeCompDescr)
         {
@@ -36,5 +37,16 @@ namespace WotDossier.Domain
         {
             return countryId * 10000 + tankId;
         }
+
+	    public static int ToUniqueId(Country country, int tankId)
+	    {
+		    return ToUniqueId((int)country, tankId);
+	    }
+
+		public static Country ToCountry(this string country)
+	    {
+		    return (Country) Enum.Parse(typeof(Country), char.ToUpper(country[0]) + country.Substring(1));
+
+	    }
     }
 }

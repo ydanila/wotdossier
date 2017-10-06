@@ -1835,7 +1835,7 @@ In December 1941, one Matilda vehicle was equipped with the Soviet 76.2-mm ZiS-5
     <value>T-150</value>
   </data>
   <data name="T150_descr" xml:space="preserve">
-    <value>On July 17, 1940, the Council of People's Commissars of the U.S.S.R. and the Central Committee of the All-Union Communist Party of the Bolsheviks made a decision on developing new heavy tanks. By November 5, the Kirov Plant manufactured the T-150 prototype. The trials showed massive flaws in the engine and suspension of the vehicle. The plan was to organize its mass production in June 1941 as soon as the flaws would have been fixed. The tank was designated the KV-3, but the development was eventually discontinued. The reason was that Germany started working on a 45-ton heavy tank.</value>
+    <value>On July 17, 1940, the Council of People's Commissars of the U.S.S.R. and the Central Committee of the All-Union Communist Party of the Bolsheviks made a decision on developing new heavy tanks. By November 5, the Kirov Plant manufactured the T-150 prototype. The trials showed massive flaws in the engine and suspension of the vehicle. The plan was to organize its mass production in June 1941 as soon as the flaws would have been fixed. The tank was designated the KV-3, but the development was eventually discontinued. This was because Germany started working on a 45-ton heavy tank.</value>
   </data>
   <data name="Turret_1_A43" xml:space="preserve">
     <value>A-43</value>
@@ -2511,7 +2511,7 @@ W-670</value>
     <value>T-44-122</value>
   </data>
   <data name="T44_122_descr" xml:space="preserve">
-    <value>Developed in February 1944 based on the T-44. As compared to its predecessor, the vehicle featured a different hull, turret, armor, and armament. The powerful 122 mm D-25-44T gun mounted on the tank resulted in the reduction of ammo load and complications with loading a quick-firing round. The separate loading system was deemed redundant due to a low rate of fire, and the T-44-122 was re-equipped with a 85 mm gun.</value>
+    <value>Developed in February 1944, based on the T-44. As compared to its predecessor, the vehicle featured a different hull, turret, armor, and armament. The powerful 122 mm D-25-44T gun mounted on the tank resulted in the reduction of the ammo load and complications with loading a quick-firing round. The separate loading system was deemed redundant due to a low rate of fire, and the T-44-122 was re-equipped with a 85 mm gun.</value>
   </data>
   <data name="T44_85" xml:space="preserve">
     <value>T-44-85</value>
@@ -3814,7 +3814,7 @@ W-670</value>
     <value>Loza's M4-A2 Sherman</value>
   </data>
   <data name="R140_M4_Loza_descr" xml:space="preserve">
-    <value>A M4A2(76)W medium tank that in spring of 1945 was manned by the crew of Dmitriy Loza, a future Hero of the Soviet Union and commander of the 1st Tank Battalion of the 46th Guards Tank Brigade of the 9th Guards Mechanized Corps.</value>
+    <value>A M4A2(76)W medium tank that in the spring of 1945 was manned by the crew of Dmitriy Loza, a future Hero of the Soviet Union and commander of the 1st Tank Battalion of the 46th Guards Tank Brigade of the 9th Guards Mechanized Corps.</value>
   </data>
   <data name="R140_M4_Loza_short" xml:space="preserve">
     <value>Loza's M4-A2</value>

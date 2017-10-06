@@ -708,7 +708,7 @@
     <value>Уничтожить машину противника</value>
   </data>
   <data name="details/conditions/vehiclesKills/all" xml:space="preserve">
-    <value>Уничтожить любую машину</value>
+    <value>Уничтожить машину противника</value>
   </data>
   <data name="details/conditions/vehiclesKills/level" xml:space="preserve">
     <value>Уничтожить машину уровня: %(level)s</value>
@@ -3928,7 +3928,7 @@
     <value>Не нанести ни секунды оглушения технике нации: %(nation)s; типа: %(type)s; уровня: %(level)s</value>
   </data>
   <data name="details/conditions/vehicleStun/not" xml:space="preserve">
-    <value>Не наносить секунд оглушения технике противника</value>
+    <value>Не оглушать технику противника</value>
   </data>
   <data name="details/conditions/vehicleStun/title" xml:space="preserve">
     <value>Оглушить</value>
@@ -4478,19 +4478,19 @@
     <value>Радиостанция T28 HTC</value>
   </data>
   <data name="bonusName/completionTokens_3_1" xml:space="preserve">
-    <value>Силовая установка Т55 А</value>
+    <value>Силовая установка Т 55А</value>
   </data>
   <data name="bonusName/completionTokens_3_2" xml:space="preserve">
-    <value>Корпус и башня Т55 А</value>
+    <value>Корпус и башня Т 55А</value>
   </data>
   <data name="bonusName/completionTokens_3_3" xml:space="preserve">
-    <value>Ходовая Т55 А</value>
+    <value>Ходовая Т 55А</value>
   </data>
   <data name="bonusName/completionTokens_3_4" xml:space="preserve">
-    <value>Орудие Т55 А</value>
+    <value>Орудие Т 55А</value>
   </data>
   <data name="bonusName/completionTokens_3_5" xml:space="preserve">
-    <value>Радиостанция Т55 А</value>
+    <value>Радиостанция Т 55А</value>
   </data>
   <data name="bonusName/completionTokens_4_1" xml:space="preserve">
     <value>Силовая установка Об. 260</value>
@@ -4577,10 +4577,10 @@
     <value>Не выводить из строя двигатель</value>
   </data>
   <data name="details/conditions/crits/destroyed/fuelTank" xml:space="preserve">
-    <value>Поджечь топливные баки</value>
+    <value>Поджечь баки</value>
   </data>
   <data name="details/conditions/crits/destroyed/fuelTank/not" xml:space="preserve">
-    <value>Не поджигать топливные баки</value>
+    <value>Не поджигать баки</value>
   </data>
   <data name="details/conditions/crits/destroyed/gun" xml:space="preserve">
     <value>Вывести из строя орудие</value>
@@ -4589,10 +4589,10 @@
     <value>Не выводить из строя орудие</value>
   </data>
   <data name="details/conditions/crits/destroyed/radio" xml:space="preserve">
-    <value>Вывести из строя рацию</value>
+    <value>Вывести из строя радиостанцию</value>
   </data>
   <data name="details/conditions/crits/destroyed/radio/not" xml:space="preserve">
-    <value>Не выводить из строя рацию</value>
+    <value>Не выводить из строя радиостанцию</value>
   </data>
   <data name="details/conditions/crits/destroyed/surveyingDevice" xml:space="preserve">
     <value>Вывести из строя приборы наблюдения</value>
@@ -4655,10 +4655,10 @@
     <value>Обнаружить, оставаясь до этого невидимым</value>
   </data>
   <data name="details/conditions/fireDamage" xml:space="preserve">
-    <value>Нанести урон поджогом машине противника</value>
+    <value>Поджогом нанести урон противнику</value>
   </data>
   <data name="details/conditions/fireDamage/all" xml:space="preserve">
-    <value>Нанести урон поджогом любой машине противника</value>
+    <value>Поджогом нанести урон противнику</value>
   </data>
   <data name="details/conditions/fireDamage/eventCount" xml:space="preserve">
     <value>Указанное количество раз нанести урон поджогом машине противника</value>
@@ -4769,7 +4769,7 @@
     <value>Уничтожить машину противника поджогом</value>
   </data>
   <data name="details/conditions/fireKills/all" xml:space="preserve">
-    <value>Уничтожить любую машину поджогом</value>
+    <value>Уничтожить машину противника поджогом</value>
   </data>
   <data name="details/conditions/fireKills/level" xml:space="preserve">
     <value>Уничтожить поджогом машину уровня: %(level)s</value>
@@ -4868,7 +4868,7 @@
     <value>Без установленной башни %(moduleNames)s</value>
   </data>
   <data name="details/conditions/multiStunEvent" xml:space="preserve">
-    <value>Оглушить %(count)d и более машин противника одним выстрелом</value>
+    <value>Оглушить %(count)d+ машин противника одним выстрелом</value>
   </data>
   <data name="details/conditions/multiStunEvent/title" xml:space="preserve">
     <value>Оглушить</value>
@@ -4877,10 +4877,10 @@
     <value>Не оглушать</value>
   </data>
   <data name="details/conditions/noInstalledCamouflage" xml:space="preserve">
-    <value>Отсутсвие камуфляжа в бою</value>
+    <value>Отсутствие камуфляжа в бою</value>
   </data>
   <data name="details/conditions/ramDamage" xml:space="preserve">
-    <value>Нанести урон тараном машине противника тараном</value>
+    <value>Нанести урон машине противника тараном</value>
   </data>
   <data name="details/conditions/ramDamage/all" xml:space="preserve">
     <value>Нанести урон тараном любой машине противника</value>
@@ -4994,10 +4994,10 @@
     <value>Уничтожить машину противника тараном</value>
   </data>
   <data name="details/conditions/ramKills/all" xml:space="preserve">
-    <value>Уничтожить любую машину тараном</value>
+    <value>Уничтожить машину противника тараном</value>
   </data>
   <data name="details/conditions/ramKills/level" xml:space="preserve">
-    <value>Уничтожить тараном машину тараном уровня: %(level)s</value>
+    <value>Уничтожить тараном машину уровня: %(level)s</value>
   </data>
   <data name="details/conditions/ramKills/level/not" xml:space="preserve">
     <value>Не уничтожать тараном технику уровня: %(level)s</value>
@@ -5048,10 +5048,10 @@
     <value>Не уничтожать тараном технику типа: %(type)s; уровня: %(level)s</value>
   </data>
   <data name="details/conditions/vehicleDamage/eventCount" xml:space="preserve">
-    <value>Указанное количество раз нанести урон машине противника</value>
+    <value>Указанное количество раз нанести урон противнику</value>
   </data>
   <data name="details/conditions/vehicleDamage/eventCount/all" xml:space="preserve">
-    <value>Указанное количество раз нанести урон любой машине противника</value>
+    <value>Указанное количество раз нанести урон противнику</value>
   </data>
   <data name="details/conditions/vehicleDamage/eventCount/all/not" xml:space="preserve">
     <value>Указанное количество раз не наносить урон противнику</value>
@@ -5087,7 +5087,7 @@
     <value>Указанное количество раз не наносить урон технике нации: %(nation)s; типа: %(type)s; уровня: %(level)s</value>
   </data>
   <data name="details/conditions/vehicleDamage/eventCount/not" xml:space="preserve">
-    <value>Указанное количество раз не наносить урон технике</value>
+    <value>Указанное количество раз не наносить урон противнику</value>
   </data>
   <data name="details/conditions/vehicleDamage/eventCount/type" xml:space="preserve">
     <value>Указанное количество раз нанести урон машине типа: %(type)s</value>
@@ -5159,7 +5159,7 @@
     <value>Основные условия выполнены</value>
   </data>
   <data name="personalMission/status/sheetRecoveryInProgress" xml:space="preserve">
-    <value>Возврат бланка приказа</value>
+    <value>Улучшение результата</value>
   </data>
   <data name="personalMission/vehicleSelector/title" xml:space="preserve">
     <value>Выберите %(vehType)s с %(minLevel)s по %(maxLevel)s уровень</value>

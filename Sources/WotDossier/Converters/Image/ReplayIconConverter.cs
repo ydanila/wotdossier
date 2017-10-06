@@ -33,7 +33,7 @@ namespace WotDossier.Converters
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             MapVehicle member = (MapVehicle)value;
-            BitmapImage bitmapImage = null;
+            BitmapSource bitmapImage = null;
             if (member != null)
             {
                 var teamMate = member.TeamMate;

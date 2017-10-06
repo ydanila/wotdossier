@@ -667,9 +667,6 @@
     <Compile Include="..\WotDossier\Converters\Image\ReplayIconConverter.cs">
       <Link>Converters\Image\ReplayIconConverter.cs</Link>
     </Compile>
-    <Compile Include="..\WotDossier\Converters\Image\ShellDescriptionToImageConverter.cs">
-      <Link>Converters\Image\ShellDescriptionToImageConverter.cs</Link>
-    </Compile>
     <Compile Include="..\WotDossier\Converters\Image\TankIconToImageConverter.cs">
       <Link>Converters\Image\TankIconToImageConverter.cs</Link>
     </Compile>
@@ -871,74 +868,6 @@
     <EmbeddedResource Include="..\WotDossier\Data\init.s3db">
       <Link>Data\init.s3db</Link>
     </EmbeddedResource>
-    <Content Include="..\WotDossier\External\library.zip">
-      <Link>External\library.zip</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\maps.json">
-      <Link>External\maps.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\tanks.json">
-      <Link>External\tanks.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\_hashlib.pyd">
-      <Link>External\_hashlib.pyd</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\consumables.json">
-      <Link>External\consumables.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\optional_devices.json">
-      <Link>External\optional_devices.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <None Include="..\WotDossier\External\maps_description.json">
-      <Link>External\maps_description.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\china_shells.json">
-      <Link>External\shells\china_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\czech_shells.json">
-      <Link>External\shells\czech_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\france_shells.json">
-      <Link>External\shells\france_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\germany_shells.json">
-      <Link>External\shells\germany_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\japan_shells.json">
-      <Link>External\shells\japan_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\sweden_shells.json">
-      <Link>External\shells\sweden_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\uk_shells.json">
-      <Link>External\shells\uk_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\usa_shells.json">
-      <Link>External\shells\usa_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\ussr_shells.json">
-      <Link>External\shells\ussr_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\tanks_expectations.json">
-      <Link>External\tanks_expectations.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -979,14 +908,6 @@
   <ItemGroup>
     <Content Include="..\WotDossier\Data\Medals.xml">
       <Link>Data\Medals.xml</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\python27.dll">
-      <Link>External\python27.dll</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\wotrp2j.exe">
-      <Link>External\wotrp2j.exe</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <EmbeddedResource Include="..\WotDossier\Data\ReplaysCatalog.xml">

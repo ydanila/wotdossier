@@ -316,7 +316,7 @@
     <value>,     ,          .</value>
   </data>
   <data name="detailedView/tooltips/returnAwardListBtn/header" xml:space="preserve">
-    <value>  </value>
+    <value> </value>
   </data>
   <data name="detailedView/tooltips/startBtn/body" xml:space="preserve">
     <value>,     .        .</value>
@@ -448,7 +448,7 @@
     <value>T28 HTC</value>
   </data>
   <data name="operations/title3" xml:space="preserve">
-    <value>T55 A</value>
+    <value>T 55A</value>
   </data>
   <data name="operations/title4" xml:space="preserve">
     <value> 260</value>
@@ -568,10 +568,10 @@
     <value> </value>
   </data>
   <data name="taskDetailsView/btnLabel/returnAwardSheet" xml:space="preserve">
-    <value>  </value>
+    <value> </value>
   </data>
   <data name="taskDetailsView/btnLabel/returnAwardSheets" xml:space="preserve">
-    <value>  </value>
+    <value> </value>
   </data>
   <data name="taskDetailsView/mainConditions" xml:space="preserve">
     <value> </value>

@@ -4488,16 +4488,17 @@
     <value>Уникальный камуфляж для %(vehicleName)s доступен для всей техники нации %(nation)s.</value>
   </data>
   <data name="personalMissions/freeAwardListGain" xml:space="preserve">
-    <value>Начислено %(count)s бланков приказа.</value>
+    <value>Начислено бланков приказа: %(count)s</value>
   </data>
   <data name="personalMissions/freeAwardListReturn" xml:space="preserve">
-    <value>Бланк приказа возвращён и может быть использован снова.</value>
+    <value>Возвращено бланков приказа: %(count)s.
+Бланки приказа могут использоваться повторно.</value>
   </data>
   <data name="personalMissions/pawn/server_error" xml:space="preserve">
     <value>Ошибка. В данный момент бланк приказа не может быть заложен.</value>
   </data>
   <data name="personalMissions/pawn/success" xml:space="preserve">
-    <value>Бланк приказа заложен в задачу %(questName)s.</value>
+    <value>В задачу %(questName)s заложено бланков приказа: %(count)s</value>
   </data>
   <data name="personalMissions/refuse/DISABLED" xml:space="preserve">
     <value>Действие недоступно. Боевые задачи временно отключены.</value>
@@ -4535,9 +4536,6 @@
   <data name="personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE" xml:space="preserve">
     <value>Не удалось получить награду. Некорректные данные.</value>
   </data>
-  <data name="personalMissions/reward/regular/success" xml:space="preserve">
-    <value>Награда успешно получена.</value>
-  </data>
   <data name="personalMissions/reward/tankwoman/server_error" xml:space="preserve">
     <value>Не удалось получить награду. Попробуйте позже.</value>
   </data>
@@ -4552,9 +4550,6 @@
   </data>
   <data name="personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE" xml:space="preserve">
     <value>Не удалось получить награду. Некорректные данные.</value>
-  </data>
-  <data name="personalMissions/reward/tankwoman/success" xml:space="preserve">
-    <value>Награда успешно получена.</value>
   </data>
   <data name="personalMissions/select/DISABLED" xml:space="preserve">
     <value>Действие недоступно. Боевые задачи временно отключены.</value>

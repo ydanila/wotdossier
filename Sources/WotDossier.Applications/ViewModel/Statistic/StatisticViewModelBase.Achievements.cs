@@ -266,7 +266,13 @@
 
         public int MedalRotmistrov { get; set; }
 
-        #endregion
+		#endregion
 
-    }
+		#region Achievements Ranked
+
+	    public int Rank { get; set; }
+
+	    #endregion
+
+	}
 }

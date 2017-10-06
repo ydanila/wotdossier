@@ -136,7 +136,7 @@
     <value>Без премиума</value>
   </data>
   <data name="common/details/premTitle" xml:space="preserve">
-    <value>С премиумом</value>
+    <value>С премиум</value>
   </data>
   <data name="common/details/xpTitle" xml:space="preserve">
     <value>Опыт</value>
@@ -214,7 +214,7 @@
     <value>Кредиты</value>
   </data>
   <data name="details/prem" xml:space="preserve">
-    <value>С премиумом</value>
+    <value>С премиум</value>
   </data>
   <data name="details/stats" xml:space="preserve">
     <value>Статистика</value>

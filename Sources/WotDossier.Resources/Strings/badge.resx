@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="accountPopover/badge/tooltip/body" xml:space="preserve">
-    <value>Click to select a badge that will be displayed next to your nickname in battle. You can earn badges in Ranked Battles and completing Personal Missions.</value>
+    <value>Click to select a badge that will be displayed next to your nickname in battle. You can earn badges in Ranked Battles and for completing Personal Missions.</value>
   </data>
   <data name="accountPopover/badge/tooltip/header" xml:space="preserve">
     <value>?empty?</value>

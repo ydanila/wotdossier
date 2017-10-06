@@ -451,7 +451,7 @@
     <value>Vickers Medium Mk. I</value>
   </data>
   <data name="GB01_Medium_Mark_I_descr" xml:space="preserve">
-    <value>In 1921, Vickers-Armstrong developed a project for the Vickers Light Tank. The 1923–1924 trials showed that the tank was ready for the mass production. In 1924, the vehicle was renamed into the Vickers Medium Tank Mk. I. The same year, a total of 30 vehicles were produced and entered service. Another 50 vehicles of the Mk. IA modification were manufactured later. The Vickers Medium Tank remained in service until 1938.</value>
+    <value>In 1921, Vickers-Armstrong developed a project for the Vickers Light Tank. The 1923–1924 trials showed that the tank was ready for mass production. In 1924, the vehicle was renamed the Vickers Medium Tank Mk. I. The same year, a total of 30 vehicles were produced and entered service. Another 50 vehicles of the Mk. IA modification were manufactured later. The Vickers Medium Tank remained in service until 1938.</value>
   </data>
   <data name="GB01_Medium_Mark_I_short" xml:space="preserve">
     <value>Medium I</value>
@@ -466,7 +466,7 @@
     <value>Valentine</value>
   </data>
   <data name="GB04_Valentine_descr" xml:space="preserve">
-    <value>Designed in 1938 by Vickers-Armstrong, the tank was one of the best in its class. A total of 8275 vehicles in various modifications were manufactured from 1940 through 1944.</value>
+    <value>Designed in 1938 by Vickers-Armstrong, the tank was one of the best in its class. A total of 8,275 vehicles in various modifications were manufactured from 1940 through 1944.</value>
   </data>
   <data name="GB05_Vickers_Medium_Mk_II" xml:space="preserve">
     <value>Vickers Medium Mk. II</value>
@@ -508,7 +508,7 @@
     <value>Caernarvon</value>
   </data>
   <data name="GB11_Caernarvon_descr" xml:space="preserve">
-    <value>Development of this infantry support tank started in 1944. The first prototype was ready for trials in 1952. A total of 21 tanks were manufactured but never entered service. Some of the vehicles were later converted into the Conqueror heavy tanks.</value>
+    <value>Development of this infantry support tank started in 1944. The first prototype was ready for trials in 1952. A total of 21 tanks were manufactured but never entered service. Some of the vehicles were later converted into Conqueror heavy tanks.</value>
   </data>
   <data name="GB12_Conqueror" xml:space="preserve">
     <value>Conqueror</value>
@@ -2055,7 +2055,7 @@ R975 EC2</value>
     <value>Vickers Medium Mk. I</value>
   </data>
   <data name="GB01_Medium_Mark_I_bot_descr" xml:space="preserve">
-    <value>In 1921, Vickers-Armstrong developed a project for the Vickers Light Tank. The 1923–1924 trials showed that the tank was ready for the mass production. In 1924, the vehicle was renamed into the Vickers Medium Tank Mk. I. The same year, a total of 30 vehicles were produced and entered service. Another 50 vehicles of the Mk. IA modification were manufactured later. The Vickers Medium Tank remained in service until 1938.</value>
+    <value>In 1921, Vickers-Armstrong developed a project for the Vickers Light Tank. The 1923–1924 trials showed that the tank was ready for mass production. In 1924, the vehicle was renamed the Vickers Medium Tank Mk. I. The same year, a total of 30 vehicles were produced and entered service. Another 50 vehicles of the Mk. IA modification were manufactured later. The Vickers Medium Tank remained in service until 1938.</value>
   </data>
   <data name="GB01_Medium_Mark_I_bot_short" xml:space="preserve">
     <value>Medium I</value>

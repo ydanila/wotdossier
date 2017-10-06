@@ -108,9 +108,8 @@
     <Reference Include="System.Data.SQLite.Linq, Version=1.0.105.2, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Data.SQLite.Linq.1.0.105.2\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
     </Reference>
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.ValueTuple, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.4.0\lib\net461\System.ValueTuple.dll</HintPath>
     </Reference>
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -134,10 +133,6 @@
     <Compile Include="TestFixtureBase.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\.tools\convert.bat">
-      <Link>Tools\convert.bat</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="..\.tools\convert.cmd">
       <Link>Tools\convert.cmd</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -148,190 +143,6 @@
     <EmbeddedResource Include="..\WotDossier\Data\init.s3db">
       <Link>Data\init.s3db</Link>
     </EmbeddedResource>
-    <None Include="..\WotDossier\External\consumables.json">
-      <Link>External\consumables.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\expected_kttc.json">
-      <Link>External\expected_kttc.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\expected_tank_values.json">
-      <Link>External\expected_tank_values.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\expected_xvm.json">
-      <Link>External\expected_xvm.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\library.zip">
-      <Link>External\library.zip</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\maps.json">
-      <Link>External\maps.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\maps_description.json">
-      <Link>External\maps_description.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\optional_devices.json">
-      <Link>External\optional_devices.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\china_shells.json">
-      <Link>External\shells\china_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\czech_shells.json">
-      <Link>External\shells\czech_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\france_shells.json">
-      <Link>External\shells\france_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\germany_shells.json">
-      <Link>External\shells\germany_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\japan_shells.json">
-      <Link>External\shells\japan_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\poland_shells.json">
-      <Link>External\shells\poland_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\sweden_shells.json">
-      <Link>External\shells\sweden_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\uk_shells.json">
-      <Link>External\shells\uk_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\usa_shells.json">
-      <Link>External\shells\usa_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\ussr_shells.json">
-      <Link>External\shells\ussr_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_10.json">
-      <Link>External\structures\structures_10.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_17.json">
-      <Link>External\structures\structures_17.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_18.json">
-      <Link>External\structures\structures_18.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_20.json">
-      <Link>External\structures\structures_20.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_22.json">
-      <Link>External\structures\structures_22.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_24.json">
-      <Link>External\structures\structures_24.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_26.json">
-      <Link>External\structures\structures_26.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_27.json">
-      <Link>External\structures\structures_27.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_28.json">
-      <Link>External\structures\structures_28.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_29.json">
-      <Link>External\structures\structures_29.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_65.json">
-      <Link>External\structures\structures_65.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_69.json">
-      <Link>External\structures\structures_69.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_77.json">
-      <Link>External\structures\structures_77.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_81.json">
-      <Link>External\structures\structures_81.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_85.json">
-      <Link>External\structures\structures_85.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_87.json">
-      <Link>External\structures\structures_87.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_88.json">
-      <Link>External\structures\structures_88.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_89.json">
-      <Link>External\structures\structures_89.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_92.json">
-      <Link>External\structures\structures_92.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_94.json">
-      <Link>External\structures\structures_94.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_95.json">
-      <Link>External\structures\structures_95.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_96.json">
-      <Link>External\structures\structures_96.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_97.json">
-      <Link>External\structures\structures_97.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_98.json">
-      <Link>External\structures\structures_98.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\structures\structures_99.json">
-      <Link>External\structures\structures_99.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\tanks.json">
-      <Link>External\tanks.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\tanks_expectations.json">
-      <Link>External\tanks_expectations.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\_hashlib.pyd">
-      <Link>External\_hashlib.pyd</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="CacheFiles\0.8.10\NRXWO2LOFVRXILLQGIXHO33SNRSG6ZTUMFXGW4ZONZSXIORSGAYDCNJ3L5JGK3LCMVWF6X2SKU======.dat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -463,16 +274,16 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Replays\0.9.20\20170829_2233_china-Ch39_WZ120_1G_FT_47_canada_a.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Replays\0.9.20\20170829_2252_czech-Cz04_T50_51_212_epic_random_valley.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Replays\0.9.20\20170901_0059_ussr-R134_Object_252U_84_winter.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Replays\0.9.20\20170920_1215_france-F18_Bat_Chatillon25t_22_slough.wotreplay">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Replays\0.9.2\20140713_0042_usa-T57_58_73_asia_korea.wotreplay">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -571,19 +382,37 @@
       <Link>Data\Medals.xml</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\WotDossier\External\python27.dll">
-      <Link>External\python27.dll</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\wotdc2j.exe">
-      <Link>External\wotdc2j.exe</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\wotrp2j.exe">
-      <Link>External\wotrp2j.exe</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <None Include="Data\expected_tank_values.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Patch\Maps\*.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Patch\Tanks\China\*.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Patch\Tanks\France\*.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Patch\Tanks\Germany\*.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Patch\Tanks\Japan\*.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Patch\Tanks\Uk\*.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Patch\Tanks\Usa\*.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Patch\Tanks\Ussr\*.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Patch\Tanks\Czech\*.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Patch\Tanks\Sweden\*.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Patch\Tanks\Sweden\components\*.xml">
@@ -641,9 +470,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>

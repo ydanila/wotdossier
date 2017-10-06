@@ -121,7 +121,7 @@
     <value>Price in standard configuration</value>
   </data>
   <data name="buyingPanel/alertLabel" xml:space="preserve">
-    <value>Unique vehicle that cannot be purchased with credits</value>
+    <value>Unique vehicle that cannot be purchased using credits</value>
   </data>
   <data name="buyingPanel/buyBtn/label/buy" xml:space="preserve">
     <value>Purchase</value>

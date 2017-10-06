@@ -277,7 +277,7 @@
     <value>To get placed in the rating, fight more battles: %(number)s</value>
   </data>
   <data name="excel/noData" xml:space="preserve">
-    <value>No prize places are yet taken.</value>
+    <value>No prize places have been taken yet.</value>
   </data>
   <data name="excel/participate/join" xml:space="preserve">
     <value>Fight</value>
@@ -316,7 +316,7 @@
     <value>Ends in:</value>
   </data>
   <data name="maintenance/body" xml:space="preserve">
-    <value>We are sorry for temporary inconvenience.</value>
+    <value>We are sorry for the temporary inconvenience.</value>
   </data>
   <data name="maintenance/title" xml:space="preserve">
     <value>Error Loading Data</value>
@@ -337,37 +337,37 @@
     <value>The results of your battles are now counted toward the competition, so you can get placed in the rating and earn a reward.</value>
   </data>
   <data name="notification/eventJoin/afterStart/header" xml:space="preserve">
-    <value>You Have Joined As Participant</value>
+    <value>You Have Joined As a Participant</value>
   </data>
   <data name="notification/eventJoin/beforeStart/body" xml:space="preserve">
-    <value>The results of you battle will be counted once the competition starts, so you can get placed in the rating and earn a reward.</value>
+    <value>The results of your battle will be counted once the competition starts, so you can get placed in the rating and earn a reward.</value>
   </data>
   <data name="notification/eventJoin/beforeStart/header" xml:space="preserve">
-    <value>You Have Joined As Participant</value>
+    <value>You Have Joined As a Participant</value>
   </data>
   <data name="notification/eventJoin/conditionsFailed/body" xml:space="preserve">
-    <value>Unable to join as participant: the requirements are not met.</value>
+    <value>Unable to join as a participant: the requirements were not met.</value>
   </data>
   <data name="notification/eventJoin/registrationDeadline/body" xml:space="preserve">
-    <value>Unable to join as participant: the registration period has ended.</value>
+    <value>Unable to join as a participant: the registration period has ended.</value>
   </data>
   <data name="notification/eventLeave/afterStart/body" xml:space="preserve">
     <value>Your statistics in the competitions will be reset after the ratings are updated.</value>
   </data>
   <data name="notification/eventLeave/afterStart/header" xml:space="preserve">
-    <value>You Have Quit Competition</value>
+    <value>You Have Quit the Competition</value>
   </data>
   <data name="notification/eventLeave/beforeStart/body" xml:space="preserve">
     <value>Your statistics will not be counted toward this competition.</value>
   </data>
   <data name="notification/eventLeave/beforeStart/header" xml:space="preserve">
-    <value>You Have Quit Competition</value>
+    <value>You Have Quit the Competition</value>
   </data>
   <data name="notification/eventLeave/registrationDeadline/body" xml:space="preserve">
     <value>Unable to quit the competition: the allocated time has expired.</value>
   </data>
   <data name="notification/eventStarted/body" xml:space="preserve">
-    <value>Competition %(eventName)s has started! Players who will have taken prize places by the time the competition ends will earn valuable rewards.</value>
+    <value>Competition %(eventName)s has started! Players who have taken prize places by the time the competition ends will earn valuable rewards.</value>
   </data>
   <data name="notification/eventStarted/header" xml:space="preserve">
     <value>Competition Started</value>
@@ -403,7 +403,7 @@
     <value>Battle results will be counted next at: %(time)s on %(server)s. Competition schedule</value>
   </data>
   <data name="server/noSuitable/header" xml:space="preserve">
-    <value>Battle results are not counted toward competition at this time</value>
+    <value>Battle results are not counted toward the competition at this time</value>
   </data>
   <data name="status/bestResults/many" xml:space="preserve">
     <value>My Best Results</value>
@@ -424,22 +424,22 @@
     <value>you have not fought the required number of battles in the Random Battle mode: %(number)s</value>
   </data>
   <data name="status/cantJoin/reason/byWinRateHigh" xml:space="preserve">
-    <value>your win ratio in the Random Battle mode exceeds %(number)s%%</value>
+    <value>your rate of victories in the Random Battle mode exceeds %(number)s%%</value>
   </data>
   <data name="status/cantJoin/reason/byWinRateLow" xml:space="preserve">
-    <value>you have not reached the following win ratio in the Random Battle mode: %(number)s%%</value>
+    <value>you have not reached the following rate of victories in the Random Battle mode: %(number)s%%</value>
   </data>
   <data name="status/cantJoin/reason/endRegistration" xml:space="preserve">
     <value>Registration period ended</value>
   </data>
   <data name="status/cantJoin/reason/endRegistration/tooltip" xml:space="preserve">
-    <value>You cannot join this competition as participant.</value>
+    <value>You cannot join this competition as a participant.</value>
   </data>
   <data name="status/cantJoin/reason/leftEvent" xml:space="preserve">
     <value>You Have Quit This Competition</value>
   </data>
   <data name="status/cantJoin/reason/leftEvent/tooltip" xml:space="preserve">
-    <value>The results of your battles are no longer counted toward this competition. You will not be placed in the rating and earn a reward.
+    <value>The results of your battles are no longer counted toward this competition. You will not be placed in the rating or earn a reward.
 You cannot enter this competition again.</value>
   </data>
   <data name="status/cantJoin/reason/many" xml:space="preserve">
@@ -485,7 +485,7 @@ You cannot enter this competition again.</value>
     <value>Blocked damage</value>
   </data>
   <data name="summary/description/awards/title/award" xml:space="preserve">
-    <value>REWARD AT THE END OF COMPETITION</value>
+    <value>REWARD AT THE END OF THE COMPETITION</value>
   </data>
   <data name="summary/description/awards/title/group" xml:space="preserve">
     <value>GROUP</value>
@@ -494,16 +494,16 @@ You cannot enter this competition again.</value>
     <value>POSITION</value>
   </data>
   <data name="summary/description/max/class" xml:space="preserve">
-    <value>You fought your best battle in the %(value)s</value>
+    <value>Your best battle in the %(value)s</value>
   </data>
   <data name="summary/description/max/level" xml:space="preserve">
-    <value>You fought your best battle in a Tier %(value)s vehicle</value>
+    <value>Your best battle in a Tier %(value)s vehicle</value>
   </data>
   <data name="summary/description/max/nation" xml:space="preserve">
-    <value>You fought your best battle in a vehicle of the following nation: %(value)s</value>
+    <value>Your best battle in a vehicle of the following nation: %(value)s</value>
   </data>
   <data name="summary/description/max/vehicle" xml:space="preserve">
-    <value>You fought your best battle in the %(value)s</value>
+    <value>Your best battle in the %(value)s</value>
   </data>
   <data name="summary/description/sum/class" xml:space="preserve">
     <value>Your statistics in the competition in the %(value)s</value>
@@ -524,7 +524,7 @@ You cannot enter this competition again.</value>
     <value>Your best battles in Tier %(value)s vehicles</value>
   </data>
   <data name="summary/description/sumN/nation" xml:space="preserve">
-    <value>Your best battles in vehicle of the following nation: %(value)s</value>
+    <value>Your best battles in vehicles of the following nation: %(value)s</value>
   </data>
   <data name="summary/description/sumN/vehicle" xml:space="preserve">
     <value>Your best battles in the %(value)s</value>
@@ -545,10 +545,10 @@ You cannot enter this competition again.</value>
     <value>Enemy Vehicles Destroyed</value>
   </data>
   <data name="summary/fightInSquaad" xml:space="preserve">
-    <value>Battle in Platoon</value>
+    <value>Battle in a Platoon</value>
   </data>
   <data name="summary/fightNotInSquaad" xml:space="preserve">
-    <value>Battle not in Platoon</value>
+    <value>Battle not in a Platoon</value>
   </data>
   <data name="summary/originalXP" xml:space="preserve">
     <value>Base experience</value>
@@ -737,7 +737,7 @@ You cannot enter this competition again.</value>
     <value>d</value>
   </data>
   <data name="time/period/hour" xml:space="preserve">
-    <value>h.</value>
+    <value>h</value>
   </data>
   <data name="time/period/minute" xml:space="preserve">
     <value>min</value>
@@ -763,35 +763,35 @@ To see the list of all rewards in this competition, click All Rewards.</value>
 Extra experience from Premium Account is counted.</value>
   </data>
   <data name="tooltip/top/description/max/damageAssisted" xml:space="preserve">
-    <value>Damage caused with player's assistance of the player at the last prize place: %(number)s</value>
+    <value>Damage caused with player's assistance of the player in the last prize place: %(number)s</value>
   </data>
   <data name="tooltip/top/description/max/damageDealt" xml:space="preserve">
-    <value>Damaged caused by the player at the last prize place: %(number)s</value>
+    <value>Damaged caused by the player in the last prize place: %(number)s</value>
   </data>
   <data name="tooltip/top/description/max/originalXP" xml:space="preserve">
-    <value>Base experience earned by the player at the last prize place: %(number)s
+    <value>Base experience earned by the player in the last prize place: %(number)s
 The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="tooltip/top/description/max/xp" xml:space="preserve">
-    <value>Experience earned by the player at the last prize place: %(number)s
+    <value>Experience earned by the player in the last prize place: %(number)s
 The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.
 Extra experience from Premium Account is counted.</value>
   </data>
   <data name="tooltip/top/description/sum/damageAssisted" xml:space="preserve">
-    <value>Total damage caused with player's assistance at the last prize place: %(number)s</value>
+    <value>Total damage caused with player's assistance in the last prize place: %(number)s</value>
   </data>
   <data name="tooltip/top/description/sum/damageDealt" xml:space="preserve">
-    <value>Total damage caused by the player at the last prize place: %(number)s</value>
+    <value>Total damage caused by the player in the last prize place: %(number)s</value>
   </data>
   <data name="tooltip/top/description/sum/originalXP" xml:space="preserve">
-    <value>Total base experience earned by the player at the last prize place: %(number)s
+    <value>Total base experience earned by the player in the last prize place: %(number)s
 The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
   </data>
   <data name="tooltip/top/description/sum/wins" xml:space="preserve">
-    <value>Number of victories of the player at the last prize place: %(number)s</value>
+    <value>Number of victories of the player in the last prize place: %(number)s</value>
   </data>
   <data name="tooltip/top/description/sum/xp" xml:space="preserve">
-    <value>Total experience earned by the player at the last prize place: %(number)s
+    <value>Total experience earned by the player in the last prize place: %(number)s
 The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.
 Extra experience from Premium Account is counted.</value>
   </data>
@@ -802,7 +802,7 @@ Extra experience from Premium Account is counted.</value>
     <value>Group %(group)s (positions %(min)s-%(max)s)</value>
   </data>
   <data name="top/averageXP" xml:space="preserve">
-    <value>Average experience earned by the player at the last prize place:</value>
+    <value>Average experience earned by the player in the last prize place:</value>
   </data>
   <data name="top/objectiveParameter/damageAssisted" xml:space="preserve">
     <value>Total damage caused with your assistance</value>
@@ -823,7 +823,7 @@ Extra experience from Premium Account is counted.</value>
     <value>You did not get placed in the rating</value>
   </data>
   <data name="top/participation/notintop" xml:space="preserve">
-    <value>You are not currently at a prize place</value>
+    <value>You are not currently in a prize place</value>
   </data>
   <data name="top/position" xml:space="preserve">
     <value>Place:</value>
@@ -844,7 +844,7 @@ Extra experience from Premium Account is counted.</value>
     <value>Click to display vehicles of this nation that participate in the competition.</value>
   </data>
   <data name="vehicles/vehicle" xml:space="preserve">
-    <value>Vehicles in Competition</value>
+    <value>Vehicles in the Competition</value>
   </data>
   <data name="vehicles/vehicle/tooltip" xml:space="preserve">
     <value>Click to display the list of vehicles that are allowed in the competition.</value>

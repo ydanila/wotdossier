@@ -4438,13 +4438,14 @@ You cannot leave the Platoon. You are a Platoon member ready for battle.</value>
     <value>Orders received: %(count)s.</value>
   </data>
   <data name="personalMissions/freeAwardListReturn" xml:space="preserve">
-    <value>Order returned and can be used again.</value>
+    <value>Orders returned: %(count)s.
+They can be used again.</value>
   </data>
   <data name="personalMissions/pawn/server_error" xml:space="preserve">
     <value>Error. Unable to commit an order at the moment.</value>
   </data>
   <data name="personalMissions/pawn/success" xml:space="preserve">
-    <value>Order committed to the %(questName)s mission.</value>
+    <value>Orders committed to the %(questName)s mission: %(count)s.</value>
   </data>
   <data name="personalMissions/refuse/DISABLED" xml:space="preserve">
     <value>Action unavailable. Missions temporarily disabled.</value>
@@ -4482,9 +4483,6 @@ You cannot leave the Platoon. You are a Platoon member ready for battle.</value>
   <data name="personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE" xml:space="preserve">
     <value>Unable to claim reward. Incorrect data.</value>
   </data>
-  <data name="personalMissions/reward/regular/success" xml:space="preserve">
-    <value>Reward successfully claimed.</value>
-  </data>
   <data name="personalMissions/reward/tankwoman/server_error" xml:space="preserve">
     <value>Unable to claim reward. Please try again later.</value>
   </data>
@@ -4499,9 +4497,6 @@ You cannot leave the Platoon. You are a Platoon member ready for battle.</value>
   </data>
   <data name="personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE" xml:space="preserve">
     <value>Unable to claim reward. Incorrect data.</value>
-  </data>
-  <data name="personalMissions/reward/tankwoman/success" xml:space="preserve">
-    <value>Reward successfully claimed.</value>
   </data>
   <data name="personalMissions/select/DISABLED" xml:space="preserve">
     <value>Action unavailable. Missions temporarily disabled.</value>

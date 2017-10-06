@@ -37,7 +37,7 @@ namespace WotDossier.Converters
             {
                 var uriSource = new Uri(string.Format(@"pack://application:,,,/WotDossier.Resources;component/Images/Maps/Minimap/{0}.png", description.MapNameId));
 
-                BitmapImage bitmapImage = ImageCache.GetBitmapImage(uriSource);
+	            var bitmapImage = ImageCache.GetBitmapImage(uriSource);
 
                 return bitmapImage;
             }

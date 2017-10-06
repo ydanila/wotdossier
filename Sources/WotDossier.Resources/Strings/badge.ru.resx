@@ -184,7 +184,7 @@
     <value>Попасть в третью лигу 2 сезона в режиме «Ранговый бой».</value>
   </data>
   <data name="badge_note" xml:space="preserve">
-    <value>Нашивка демонстрирует ваши достижения в игре, и её видят игроки обеих команд.</value>
+    <value>Нашивка демонстрирует ваши определённые достижения в игре, и её видят игроки обеих команд.</value>
   </data>
   <data name="badgesPage/body/uncollected/title" xml:space="preserve">
     <value>Неполученные нашивки</value>

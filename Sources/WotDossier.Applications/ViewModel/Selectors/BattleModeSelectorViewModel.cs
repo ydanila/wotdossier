@@ -7,13 +7,17 @@ namespace WotDossier.Applications.ViewModel.Selectors
     {
         private List<ListItem<BattleMode>> _battleModes = new List<ListItem<BattleMode>>
         {
-            new ListItem<BattleMode>(BattleMode.RandomCompany, Resources.Resources.BattleMode_RandomCompany),
-            new ListItem<BattleMode>(BattleMode.TeamBattle, Resources.Resources.BattleMode_TeamBattle), 
-            new ListItem<BattleMode>(BattleMode.HistoricalBattle, Resources.Resources.BattleMode_HistoricalBattle), 
-            new ListItem<BattleMode>(BattleMode.Clan, Resources.Resources.BattleMode_Clan), 
-            new ListItem<BattleMode>(BattleMode.FortBattles, Resources.Resources.BattleMode_FortBattles), 
-            new ListItem<BattleMode>(BattleMode.FortSorties, Resources.Resources.BattleMode_FortSorties),
-            new ListItem<BattleMode>(BattleMode.GrandBattle, Resources.Resources.BattleMode_GrandBattle),
+            new ListItem<BattleMode>(BattleMode.RandomCompany, Resources.Strings.Profile.profile_dropdown_labels_random),
+            new ListItem<BattleMode>(BattleMode.TeamBattle, Resources.Strings.Profile.profile_dropdown_labels_team), 
+            new ListItem<BattleMode>(BattleMode.HistoricalBattle, Resources.Strings.Profile.profile_dropdown_labels_historical), 
+            new ListItem<BattleMode>(BattleMode.Clan, Resources.Strings.Profile.profile_dropdown_labels_clan),
+            new ListItem<BattleMode>(BattleMode.FortBattles, Resources.Strings.Profile.profile_dropdown_labels_fortifications_battles), 
+            new ListItem<BattleMode>(BattleMode.FortSorties, Resources.Strings.Profile.profile_dropdown_labels_fortifications_sorties),
+	        new ListItem<BattleMode>(BattleMode.TeamRated, Resources.Strings.Profile.profile_dropdown_labels_staticTeam),
+	        new ListItem<BattleMode>(BattleMode.GlobalMap, Resources.Strings.Profile.profile_dropdown_labels_clan),
+	        new ListItem<BattleMode>(BattleMode.Fallout, Resources.Strings.Profile.profile_dropdown_labels_fallout),
+	        new ListItem<BattleMode>(BattleMode.Ranked, Resources.Strings.Profile.profile_dropdown_labels_ranked),
+			new ListItem<BattleMode>(BattleMode.GrandBattle, Resources.Strings.Profile.profile_dropdown_labels_epicRandom),
         };
         
         public List<ListItem<BattleMode>> BattleModes
