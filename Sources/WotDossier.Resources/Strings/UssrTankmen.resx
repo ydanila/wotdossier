@@ -1,0 +1,4500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="names/rus1" xml:space="preserve">
+    <value>Ivanov</value>
+  </data>
+  <data name="names/rus10" xml:space="preserve">
+    <value>Nikolayev</value>
+  </data>
+  <data name="names/rus100" xml:space="preserve">
+    <value>Ipatov</value>
+  </data>
+  <data name="names/rus1000" xml:space="preserve">
+    <value>Tychina</value>
+  </data>
+  <data name="names/rus101" xml:space="preserve">
+    <value>Serov</value>
+  </data>
+  <data name="names/rus102" xml:space="preserve">
+    <value>Blokhin</value>
+  </data>
+  <data name="names/rus103" xml:space="preserve">
+    <value>Pogudin</value>
+  </data>
+  <data name="names/rus104" xml:space="preserve">
+    <value>Shuvalov</value>
+  </data>
+  <data name="names/rus105" xml:space="preserve">
+    <value>Korobov</value>
+  </data>
+  <data name="names/rus106" xml:space="preserve">
+    <value>Belskiy</value>
+  </data>
+  <data name="names/rus107" xml:space="preserve">
+    <value>Yusupov</value>
+  </data>
+  <data name="names/rus108" xml:space="preserve">
+    <value>Listov</value>
+  </data>
+  <data name="names/rus109" xml:space="preserve">
+    <value>Semyonov</value>
+  </data>
+  <data name="names/rus11" xml:space="preserve">
+    <value>Makarov</value>
+  </data>
+  <data name="names/rus110" xml:space="preserve">
+    <value>Kornilov</value>
+  </data>
+  <data name="names/rus111" xml:space="preserve">
+    <value>Arosyev</value>
+  </data>
+  <data name="names/rus112" xml:space="preserve">
+    <value>Belkin</value>
+  </data>
+  <data name="names/rus113" xml:space="preserve">
+    <value>Borovikov</value>
+  </data>
+  <data name="names/rus114" xml:space="preserve">
+    <value>Bykov</value>
+  </data>
+  <data name="names/rus115" xml:space="preserve">
+    <value>Baranov</value>
+  </data>
+  <data name="names/rus116" xml:space="preserve">
+    <value>Bystritskiy</value>
+  </data>
+  <data name="names/rus117" xml:space="preserve">
+    <value>Borodin</value>
+  </data>
+  <data name="names/rus118" xml:space="preserve">
+    <value>Baklanov</value>
+  </data>
+  <data name="names/rus119" xml:space="preserve">
+    <value>Barkov</value>
+  </data>
+  <data name="names/rus12" xml:space="preserve">
+    <value>Sergeyev</value>
+  </data>
+  <data name="names/rus120" xml:space="preserve">
+    <value>Belyaev</value>
+  </data>
+  <data name="names/rus121" xml:space="preserve">
+    <value>Berezhnoy</value>
+  </data>
+  <data name="names/rus122" xml:space="preserve">
+    <value>Bestuzhev</value>
+  </data>
+  <data name="names/rus123" xml:space="preserve">
+    <value>Matveyev</value>
+  </data>
+  <data name="names/rus124" xml:space="preserve">
+    <value>Vasin</value>
+  </data>
+  <data name="names/rus125" xml:space="preserve">
+    <value>Veresayev</value>
+  </data>
+  <data name="names/rus126" xml:space="preserve">
+    <value>Gushchin</value>
+  </data>
+  <data name="names/rus127" xml:space="preserve">
+    <value>Denisov</value>
+  </data>
+  <data name="names/rus128" xml:space="preserve">
+    <value>Vasilyev</value>
+  </data>
+  <data name="names/rus129" xml:space="preserve">
+    <value>Vnukov</value>
+  </data>
+  <data name="names/rus13" xml:space="preserve">
+    <value>Nikitin</value>
+  </data>
+  <data name="names/rus130" xml:space="preserve">
+    <value>Volin</value>
+  </data>
+  <data name="names/rus131" xml:space="preserve">
+    <value>Vavilov</value>
+  </data>
+  <data name="names/rus132" xml:space="preserve">
+    <value>Vaneyev</value>
+  </data>
+  <data name="names/rus133" xml:space="preserve">
+    <value>Vorobyov</value>
+  </data>
+  <data name="names/rus134" xml:space="preserve">
+    <value>Dyomin</value>
+  </data>
+  <data name="names/rus135" xml:space="preserve">
+    <value>Degtyaryov</value>
+  </data>
+  <data name="names/rus136" xml:space="preserve">
+    <value>Derzhavin</value>
+  </data>
+  <data name="names/rus137" xml:space="preserve">
+    <value>Dobrynev</value>
+  </data>
+  <data name="names/rus138" xml:space="preserve">
+    <value>Konev</value>
+  </data>
+  <data name="names/rus139" xml:space="preserve">
+    <value>Kramskoy</value>
+  </data>
+  <data name="names/rus14" xml:space="preserve">
+    <value>Anisimov</value>
+  </data>
+  <data name="names/rus140" xml:space="preserve">
+    <value>Konyukhov</value>
+  </data>
+  <data name="names/rus141" xml:space="preserve">
+    <value>Votyakov</value>
+  </data>
+  <data name="names/rus142" xml:space="preserve">
+    <value>Shpakov</value>
+  </data>
+  <data name="names/rus143" xml:space="preserve">
+    <value>Shpagin</value>
+  </data>
+  <data name="names/rus144" xml:space="preserve">
+    <value>Shpak</value>
+  </data>
+  <data name="names/rus145" xml:space="preserve">
+    <value>Sudayev</value>
+  </data>
+  <data name="names/rus146" xml:space="preserve">
+    <value>Kalashnikov</value>
+  </data>
+  <data name="names/rus147" xml:space="preserve">
+    <value>Myshkin</value>
+  </data>
+  <data name="names/rus148" xml:space="preserve">
+    <value>Nalivayko</value>
+  </data>
+  <data name="names/rus149" xml:space="preserve">
+    <value>Nebaba</value>
+  </data>
+  <data name="names/rus15" xml:space="preserve">
+    <value>Platonov</value>
+  </data>
+  <data name="names/rus150" xml:space="preserve">
+    <value>Grechko</value>
+  </data>
+  <data name="names/rus151" xml:space="preserve">
+    <value>Ustinov</value>
+  </data>
+  <data name="names/rus152" xml:space="preserve">
+    <value>Savitskiy</value>
+  </data>
+  <data name="names/rus153" xml:space="preserve">
+    <value>Tereshkov</value>
+  </data>
+  <data name="names/rus154" xml:space="preserve">
+    <value>Lugovoy</value>
+  </data>
+  <data name="names/rus155" xml:space="preserve">
+    <value>Zhivets</value>
+  </data>
+  <data name="names/rus156" xml:space="preserve">
+    <value>Sitnikov</value>
+  </data>
+  <data name="names/rus157" xml:space="preserve">
+    <value>Kovalyov</value>
+  </data>
+  <data name="names/rus158" xml:space="preserve">
+    <value>Mukhin</value>
+  </data>
+  <data name="names/rus159" xml:space="preserve">
+    <value>Obukhov</value>
+  </data>
+  <data name="names/rus16" xml:space="preserve">
+    <value>Kirillov</value>
+  </data>
+  <data name="names/rus160" xml:space="preserve">
+    <value>Gridnyov</value>
+  </data>
+  <data name="names/rus161" xml:space="preserve">
+    <value>Gurskiy</value>
+  </data>
+  <data name="names/rus162" xml:space="preserve">
+    <value>Tivunov</value>
+  </data>
+  <data name="names/rus163" xml:space="preserve">
+    <value>Pevtsov</value>
+  </data>
+  <data name="names/rus164" xml:space="preserve">
+    <value>Telitsyn</value>
+  </data>
+  <data name="names/rus165" xml:space="preserve">
+    <value>Komissarov</value>
+  </data>
+  <data name="names/rus166" xml:space="preserve">
+    <value>Prokurorov</value>
+  </data>
+  <data name="names/rus167" xml:space="preserve">
+    <value>Kapustin</value>
+  </data>
+  <data name="names/rus168" xml:space="preserve">
+    <value>Isayev</value>
+  </data>
+  <data name="names/rus169" xml:space="preserve">
+    <value>Grushin</value>
+  </data>
+  <data name="names/rus17" xml:space="preserve">
+    <value>Kharitonov</value>
+  </data>
+  <data name="names/rus170" xml:space="preserve">
+    <value>Rublyov</value>
+  </data>
+  <data name="names/rus171" xml:space="preserve">
+    <value>Kopeykin</value>
+  </data>
+  <data name="names/rus172" xml:space="preserve">
+    <value>Lunev</value>
+  </data>
+  <data name="names/rus173" xml:space="preserve">
+    <value>Zhukov</value>
+  </data>
+  <data name="names/rus174" xml:space="preserve">
+    <value>Nikiforov</value>
+  </data>
+  <data name="names/rus175" xml:space="preserve">
+    <value>Zvonaryov</value>
+  </data>
+  <data name="names/rus176" xml:space="preserve">
+    <value>Pervak</value>
+  </data>
+  <data name="names/rus177" xml:space="preserve">
+    <value>Petukhov</value>
+  </data>
+  <data name="names/rus178" xml:space="preserve">
+    <value>Plyushkin</value>
+  </data>
+  <data name="names/rus179" xml:space="preserve">
+    <value>Kuroyedov</value>
+  </data>
+  <data name="names/rus18" xml:space="preserve">
+    <value>Pavlov</value>
+  </data>
+  <data name="names/rus180" xml:space="preserve">
+    <value>Dyakonov</value>
+  </data>
+  <data name="names/rus181" xml:space="preserve">
+    <value>Dyachenko</value>
+  </data>
+  <data name="names/rus182" xml:space="preserve">
+    <value>Bogolyubov</value>
+  </data>
+  <data name="names/rus183" xml:space="preserve">
+    <value>Chernov</value>
+  </data>
+  <data name="names/rus184" xml:space="preserve">
+    <value>Reznikov</value>
+  </data>
+  <data name="names/rus185" xml:space="preserve">
+    <value>Gruzdev</value>
+  </data>
+  <data name="names/rus186" xml:space="preserve">
+    <value>Nechiporenko</value>
+  </data>
+  <data name="names/rus187" xml:space="preserve">
+    <value>Nepeyvoda</value>
+  </data>
+  <data name="names/rus188" xml:space="preserve">
+    <value>Shablyuka</value>
+  </data>
+  <data name="names/rus189" xml:space="preserve">
+    <value>Sinebryukhov</value>
+  </data>
+  <data name="names/rus19" xml:space="preserve">
+    <value>Nesterov</value>
+  </data>
+  <data name="names/rus190" xml:space="preserve">
+    <value>Kochubey</value>
+  </data>
+  <data name="names/rus191" xml:space="preserve">
+    <value>Krivonos</value>
+  </data>
+  <data name="names/rus192" xml:space="preserve">
+    <value>Lyulka</value>
+  </data>
+  <data name="names/rus193" xml:space="preserve">
+    <value>Bulba</value>
+  </data>
+  <data name="names/rus194" xml:space="preserve">
+    <value>Sirko</value>
+  </data>
+  <data name="names/rus195" xml:space="preserve">
+    <value>Myasoyed</value>
+  </data>
+  <data name="names/rus196" xml:space="preserve">
+    <value>Podoprigora</value>
+  </data>
+  <data name="names/rus197" xml:space="preserve">
+    <value>Nezovibatko</value>
+  </data>
+  <data name="names/rus198" xml:space="preserve">
+    <value>Perebeynos</value>
+  </data>
+  <data name="names/rus199" xml:space="preserve">
+    <value>Zakrividoroga</value>
+  </data>
+  <data name="names/rus2" xml:space="preserve">
+    <value>Petrov</value>
+  </data>
+  <data name="names/rus20" xml:space="preserve">
+    <value>Arsenyev</value>
+  </data>
+  <data name="names/rus200" xml:space="preserve">
+    <value>Sorokopud</value>
+  </data>
+  <data name="names/rus201" xml:space="preserve">
+    <value>Vyrvikhvost</value>
+  </data>
+  <data name="names/rus202" xml:space="preserve">
+    <value>Starokon</value>
+  </data>
+  <data name="names/rus203" xml:space="preserve">
+    <value>Tyagniryadno</value>
+  </data>
+  <data name="names/rus204" xml:space="preserve">
+    <value>Ryabokon</value>
+  </data>
+  <data name="names/rus205" xml:space="preserve">
+    <value>Opanasenko</value>
+  </data>
+  <data name="names/rus206" xml:space="preserve">
+    <value>Shevchenko</value>
+  </data>
+  <data name="names/rus207" xml:space="preserve">
+    <value>Petrenko</value>
+  </data>
+  <data name="names/rus208" xml:space="preserve">
+    <value>Nesterenko</value>
+  </data>
+  <data name="names/rus209" xml:space="preserve">
+    <value>Netudykhata</value>
+  </data>
+  <data name="names/rus21" xml:space="preserve">
+    <value>Alekseyev</value>
+  </data>
+  <data name="names/rus210" xml:space="preserve">
+    <value>Sinebryukh</value>
+  </data>
+  <data name="names/rus211" xml:space="preserve">
+    <value>Beloshtan</value>
+  </data>
+  <data name="names/rus212" xml:space="preserve">
+    <value>Kalivod</value>
+  </data>
+  <data name="names/rus213" xml:space="preserve">
+    <value>Leshchenko</value>
+  </data>
+  <data name="names/rus214" xml:space="preserve">
+    <value>Shchur</value>
+  </data>
+  <data name="names/rus215" xml:space="preserve">
+    <value>Ryabov</value>
+  </data>
+  <data name="names/rus216" xml:space="preserve">
+    <value>Gorobets</value>
+  </data>
+  <data name="names/rus217" xml:space="preserve">
+    <value>Stepanenko</value>
+  </data>
+  <data name="names/rus218" xml:space="preserve">
+    <value>Zakharchenko</value>
+  </data>
+  <data name="names/rus219" xml:space="preserve">
+    <value>Vitrenko</value>
+  </data>
+  <data name="names/rus22" xml:space="preserve">
+    <value>Stepanov</value>
+  </data>
+  <data name="names/rus220" xml:space="preserve">
+    <value>Goncharov</value>
+  </data>
+  <data name="names/rus221" xml:space="preserve">
+    <value>Goncharenko</value>
+  </data>
+  <data name="names/rus222" xml:space="preserve">
+    <value>Bondarenko</value>
+  </data>
+  <data name="names/rus223" xml:space="preserve">
+    <value>Rybalko</value>
+  </data>
+  <data name="names/rus224" xml:space="preserve">
+    <value>Serdyuk</value>
+  </data>
+  <data name="names/rus225" xml:space="preserve">
+    <value>Krivoruchenko</value>
+  </data>
+  <data name="names/rus226" xml:space="preserve">
+    <value>Gerasimovich</value>
+  </data>
+  <data name="names/rus227" xml:space="preserve">
+    <value>Gerasimov</value>
+  </data>
+  <data name="names/rus228" xml:space="preserve">
+    <value>Gerasimenko</value>
+  </data>
+  <data name="names/rus229" xml:space="preserve">
+    <value>Akulich</value>
+  </data>
+  <data name="names/rus23" xml:space="preserve">
+    <value>Fyodorov</value>
+  </data>
+  <data name="names/rus230" xml:space="preserve">
+    <value>Yankovskiy</value>
+  </data>
+  <data name="names/rus231" xml:space="preserve">
+    <value>Klimovskiy</value>
+  </data>
+  <data name="names/rus232" xml:space="preserve">
+    <value>Martinovich</value>
+  </data>
+  <data name="names/rus233" xml:space="preserve">
+    <value>Litvin</value>
+  </data>
+  <data name="names/rus234" xml:space="preserve">
+    <value>Golovenko</value>
+  </data>
+  <data name="names/rus235" xml:space="preserve">
+    <value>Golovach</value>
+  </data>
+  <data name="names/rus236" xml:space="preserve">
+    <value>Bliznyuk</value>
+  </data>
+  <data name="names/rus237" xml:space="preserve">
+    <value>Babushkin</value>
+  </data>
+  <data name="names/rus238" xml:space="preserve">
+    <value>Belobokov</value>
+  </data>
+  <data name="names/rus239" xml:space="preserve">
+    <value>Zubkov</value>
+  </data>
+  <data name="names/rus24" xml:space="preserve">
+    <value>Fedotov</value>
+  </data>
+  <data name="names/rus240" xml:space="preserve">
+    <value>Zbruyev</value>
+  </data>
+  <data name="names/rus241" xml:space="preserve">
+    <value>Zvyagintsev</value>
+  </data>
+  <data name="names/rus242" xml:space="preserve">
+    <value>Kokoryov</value>
+  </data>
+  <data name="names/rus243" xml:space="preserve">
+    <value>Korneyev</value>
+  </data>
+  <data name="names/rus244" xml:space="preserve">
+    <value>Korenev</value>
+  </data>
+  <data name="names/rus245" xml:space="preserve">
+    <value>Kovalchuk</value>
+  </data>
+  <data name="names/rus246" xml:space="preserve">
+    <value>Krasnov</value>
+  </data>
+  <data name="names/rus247" xml:space="preserve">
+    <value>Troshin</value>
+  </data>
+  <data name="names/rus248" xml:space="preserve">
+    <value>Trofimov</value>
+  </data>
+  <data name="names/rus249" xml:space="preserve">
+    <value>Sukhov</value>
+  </data>
+  <data name="names/rus25" xml:space="preserve">
+    <value>Kharlamov</value>
+  </data>
+  <data name="names/rus250" xml:space="preserve">
+    <value>Sukhorukov</value>
+  </data>
+  <data name="names/rus251" xml:space="preserve">
+    <value>Polynyev</value>
+  </data>
+  <data name="names/rus252" xml:space="preserve">
+    <value>Pisarenko</value>
+  </data>
+  <data name="names/rus253" xml:space="preserve">
+    <value>Kozlov</value>
+  </data>
+  <data name="names/rus254" xml:space="preserve">
+    <value>Tsvetov</value>
+  </data>
+  <data name="names/rus255" xml:space="preserve">
+    <value>Matrosov</value>
+  </data>
+  <data name="names/rus256" xml:space="preserve">
+    <value>Soldatov</value>
+  </data>
+  <data name="names/rus257" xml:space="preserve">
+    <value>Privalov</value>
+  </data>
+  <data name="names/rus258" xml:space="preserve">
+    <value>Poluyan</value>
+  </data>
+  <data name="names/rus259" xml:space="preserve">
+    <value>Pivovarov</value>
+  </data>
+  <data name="names/rus26" xml:space="preserve">
+    <value>Borisov</value>
+  </data>
+  <data name="names/rus260" xml:space="preserve">
+    <value>Shulga</value>
+  </data>
+  <data name="names/rus261" xml:space="preserve">
+    <value>Panasyuk</value>
+  </data>
+  <data name="names/rus262" xml:space="preserve">
+    <value>Fomenko</value>
+  </data>
+  <data name="names/rus263" xml:space="preserve">
+    <value>Sukhotskiy</value>
+  </data>
+  <data name="names/rus264" xml:space="preserve">
+    <value>Bundelev</value>
+  </data>
+  <data name="names/rus265" xml:space="preserve">
+    <value>Kostyukov</value>
+  </data>
+  <data name="names/rus266" xml:space="preserve">
+    <value>Mandrik</value>
+  </data>
+  <data name="names/rus267" xml:space="preserve">
+    <value>Sivchik</value>
+  </data>
+  <data name="names/rus268" xml:space="preserve">
+    <value>Voynitskiy</value>
+  </data>
+  <data name="names/rus269" xml:space="preserve">
+    <value>Bibik</value>
+  </data>
+  <data name="names/rus27" xml:space="preserve">
+    <value>Aleksandrov</value>
+  </data>
+  <data name="names/rus270" xml:space="preserve">
+    <value>Aniskov</value>
+  </data>
+  <data name="names/rus271" xml:space="preserve">
+    <value>Golub</value>
+  </data>
+  <data name="names/rus272" xml:space="preserve">
+    <value>Maltsev</value>
+  </data>
+  <data name="names/rus273" xml:space="preserve">
+    <value>Malkov</value>
+  </data>
+  <data name="names/rus274" xml:space="preserve">
+    <value>Moroz</value>
+  </data>
+  <data name="names/rus275" xml:space="preserve">
+    <value>Morozov</value>
+  </data>
+  <data name="names/rus276" xml:space="preserve">
+    <value>Sidorovich</value>
+  </data>
+  <data name="names/rus277" xml:space="preserve">
+    <value>Zhuk</value>
+  </data>
+  <data name="names/rus278" xml:space="preserve">
+    <value>Vorogushin</value>
+  </data>
+  <data name="names/rus279" xml:space="preserve">
+    <value>Murashko</value>
+  </data>
+  <data name="names/rus28" xml:space="preserve">
+    <value>Davydov</value>
+  </data>
+  <data name="names/rus280" xml:space="preserve">
+    <value>Mayevskiy</value>
+  </data>
+  <data name="names/rus281" xml:space="preserve">
+    <value>Ovechkin</value>
+  </data>
+  <data name="names/rus282" xml:space="preserve">
+    <value>Shvets</value>
+  </data>
+  <data name="names/rus283" xml:space="preserve">
+    <value>Bolshakov</value>
+  </data>
+  <data name="names/rus284" xml:space="preserve">
+    <value>Soroka</value>
+  </data>
+  <data name="names/rus285" xml:space="preserve">
+    <value>Konanovich</value>
+  </data>
+  <data name="names/rus286" xml:space="preserve">
+    <value>Chizhov</value>
+  </data>
+  <data name="names/rus287" xml:space="preserve">
+    <value>Solomin</value>
+  </data>
+  <data name="names/rus288" xml:space="preserve">
+    <value>Kuntsevich</value>
+  </data>
+  <data name="names/rus289" xml:space="preserve">
+    <value>Adamovich</value>
+  </data>
+  <data name="names/rus29" xml:space="preserve">
+    <value>Zakharov</value>
+  </data>
+  <data name="names/rus290" xml:space="preserve">
+    <value>Novogrodskiy</value>
+  </data>
+  <data name="names/rus291" xml:space="preserve">
+    <value>Tugay</value>
+  </data>
+  <data name="names/rus292" xml:space="preserve">
+    <value>Yushkevich</value>
+  </data>
+  <data name="names/rus293" xml:space="preserve">
+    <value>Tyshkevich</value>
+  </data>
+  <data name="names/rus294" xml:space="preserve">
+    <value>Sinyakov</value>
+  </data>
+  <data name="names/rus295" xml:space="preserve">
+    <value>Klimuk</value>
+  </data>
+  <data name="names/rus296" xml:space="preserve">
+    <value>Shevchuk</value>
+  </data>
+  <data name="names/rus297" xml:space="preserve">
+    <value>Matusevich</value>
+  </data>
+  <data name="names/rus298" xml:space="preserve">
+    <value>Kalinovskiy</value>
+  </data>
+  <data name="names/rus299" xml:space="preserve">
+    <value>Petrovskiy</value>
+  </data>
+  <data name="names/rus3" xml:space="preserve">
+    <value>Sidorov</value>
+  </data>
+  <data name="names/rus30" xml:space="preserve">
+    <value>Menshikov</value>
+  </data>
+  <data name="names/rus300" xml:space="preserve">
+    <value>Malinovskiy</value>
+  </data>
+  <data name="names/rus301" xml:space="preserve">
+    <value>Krasavin</value>
+  </data>
+  <data name="names/rus302" xml:space="preserve">
+    <value>Gubar</value>
+  </data>
+  <data name="names/rus303" xml:space="preserve">
+    <value>Belchikov</value>
+  </data>
+  <data name="names/rus304" xml:space="preserve">
+    <value>Ryzhkov</value>
+  </data>
+  <data name="names/rus305" xml:space="preserve">
+    <value>Kolobanov</value>
+  </data>
+  <data name="names/rus306" xml:space="preserve">
+    <value>Krivorogov</value>
+  </data>
+  <data name="names/rus307" xml:space="preserve">
+    <value>Vyazemskiy</value>
+  </data>
+  <data name="names/rus308" xml:space="preserve">
+    <value>Lopukhin</value>
+  </data>
+  <data name="names/rus309" xml:space="preserve">
+    <value>Pukhov</value>
+  </data>
+  <data name="names/rus31" xml:space="preserve">
+    <value>Golitsyn</value>
+  </data>
+  <data name="names/rus310" xml:space="preserve">
+    <value>Peshkov</value>
+  </data>
+  <data name="names/rus311" xml:space="preserve">
+    <value>Chyornyy</value>
+  </data>
+  <data name="names/rus312" xml:space="preserve">
+    <value>Belyy</value>
+  </data>
+  <data name="names/rus313" xml:space="preserve">
+    <value>Kluyev</value>
+  </data>
+  <data name="names/rus314" xml:space="preserve">
+    <value>Shushkevich</value>
+  </data>
+  <data name="names/rus315" xml:space="preserve">
+    <value>Sokolov</value>
+  </data>
+  <data name="names/rus316" xml:space="preserve">
+    <value>Orlov</value>
+  </data>
+  <data name="names/rus317" xml:space="preserve">
+    <value>Moskovitin</value>
+  </data>
+  <data name="names/rus318" xml:space="preserve">
+    <value>Chistyakov</value>
+  </data>
+  <data name="names/rus319" xml:space="preserve">
+    <value>Ryabtsevich</value>
+  </data>
+  <data name="names/rus32" xml:space="preserve">
+    <value>Krotov</value>
+  </data>
+  <data name="names/rus320" xml:space="preserve">
+    <value>Shumeyko</value>
+  </data>
+  <data name="names/rus321" xml:space="preserve">
+    <value>Samokhvalov</value>
+  </data>
+  <data name="names/rus322" xml:space="preserve">
+    <value>Tyurin</value>
+  </data>
+  <data name="names/rus323" xml:space="preserve">
+    <value>Klyshko</value>
+  </data>
+  <data name="names/rus324" xml:space="preserve">
+    <value>Kudrya</value>
+  </data>
+  <data name="names/rus325" xml:space="preserve">
+    <value>Rymar</value>
+  </data>
+  <data name="names/rus326" xml:space="preserve">
+    <value>Spivak</value>
+  </data>
+  <data name="names/rus327" xml:space="preserve">
+    <value>Stelmakh</value>
+  </data>
+  <data name="names/rus328" xml:space="preserve">
+    <value>Troitskiy</value>
+  </data>
+  <data name="names/rus329" xml:space="preserve">
+    <value>Tretyak</value>
+  </data>
+  <data name="names/rus33" xml:space="preserve">
+    <value>Kotov</value>
+  </data>
+  <data name="names/rus330" xml:space="preserve">
+    <value>Dolin</value>
+  </data>
+  <data name="names/rus331" xml:space="preserve">
+    <value>Polskikh</value>
+  </data>
+  <data name="names/rus332" xml:space="preserve">
+    <value>Timoshenko</value>
+  </data>
+  <data name="names/rus333" xml:space="preserve">
+    <value>Kulik</value>
+  </data>
+  <data name="names/rus334" xml:space="preserve">
+    <value>Grishchenko</value>
+  </data>
+  <data name="names/rus335" xml:space="preserve">
+    <value>Mishchenko</value>
+  </data>
+  <data name="names/rus336" xml:space="preserve">
+    <value>Tishchenko</value>
+  </data>
+  <data name="names/rus337" xml:space="preserve">
+    <value>Grin</value>
+  </data>
+  <data name="names/rus338" xml:space="preserve">
+    <value>Mishchuk</value>
+  </data>
+  <data name="names/rus339" xml:space="preserve">
+    <value>Gorbatov</value>
+  </data>
+  <data name="names/rus34" xml:space="preserve">
+    <value>Voronov</value>
+  </data>
+  <data name="names/rus340" xml:space="preserve">
+    <value>Skorobogatov</value>
+  </data>
+  <data name="names/rus341" xml:space="preserve">
+    <value>Polishchuk</value>
+  </data>
+  <data name="names/rus342" xml:space="preserve">
+    <value>Okov</value>
+  </data>
+  <data name="names/rus343" xml:space="preserve">
+    <value>Brozovskiy</value>
+  </data>
+  <data name="names/rus344" xml:space="preserve">
+    <value>Kibalchich</value>
+  </data>
+  <data name="names/rus345" xml:space="preserve">
+    <value>Kizhevatov</value>
+  </data>
+  <data name="names/rus346" xml:space="preserve">
+    <value>Kuzmin</value>
+  </data>
+  <data name="names/rus347" xml:space="preserve">
+    <value>Kuzin</value>
+  </data>
+  <data name="names/rus348" xml:space="preserve">
+    <value>Ipatyev</value>
+  </data>
+  <data name="names/rus349" xml:space="preserve">
+    <value>Iyevlev</value>
+  </data>
+  <data name="names/rus35" xml:space="preserve">
+    <value>Kamenskiy</value>
+  </data>
+  <data name="names/rus350" xml:space="preserve">
+    <value>Illarionov</value>
+  </data>
+  <data name="names/rus351" xml:space="preserve">
+    <value>Ignatov</value>
+  </data>
+  <data name="names/rus352" xml:space="preserve">
+    <value>Ignatenko</value>
+  </data>
+  <data name="names/rus353" xml:space="preserve">
+    <value>Ilyukhin</value>
+  </data>
+  <data name="names/rus354" xml:space="preserve">
+    <value>Lipatov</value>
+  </data>
+  <data name="names/rus355" xml:space="preserve">
+    <value>Lugov</value>
+  </data>
+  <data name="names/rus356" xml:space="preserve">
+    <value>Lozovskiy</value>
+  </data>
+  <data name="names/rus357" xml:space="preserve">
+    <value>Ligachyov</value>
+  </data>
+  <data name="names/rus358" xml:space="preserve">
+    <value>Larin</value>
+  </data>
+  <data name="names/rus359" xml:space="preserve">
+    <value>Laptev</value>
+  </data>
+  <data name="names/rus36" xml:space="preserve">
+    <value>Zubov</value>
+  </data>
+  <data name="names/rus360" xml:space="preserve">
+    <value>Lukin</value>
+  </data>
+  <data name="names/rus361" xml:space="preserve">
+    <value>Likhachyov</value>
+  </data>
+  <data name="names/rus362" xml:space="preserve">
+    <value>Zaduyviter</value>
+  </data>
+  <data name="names/rus363" xml:space="preserve">
+    <value>Muravyov</value>
+  </data>
+  <data name="names/rus364" xml:space="preserve">
+    <value>Babochkin</value>
+  </data>
+  <data name="names/rus365" xml:space="preserve">
+    <value>Dolgonosik</value>
+  </data>
+  <data name="names/rus366" xml:space="preserve">
+    <value>Osin</value>
+  </data>
+  <data name="names/rus367" xml:space="preserve">
+    <value>Pchyolkin</value>
+  </data>
+  <data name="names/rus368" xml:space="preserve">
+    <value>Zhukovets</value>
+  </data>
+  <data name="names/rus369" xml:space="preserve">
+    <value>Chervyakov</value>
+  </data>
+  <data name="names/rus37" xml:space="preserve">
+    <value>Sakharov</value>
+  </data>
+  <data name="names/rus370" xml:space="preserve">
+    <value>Ptitsyn</value>
+  </data>
+  <data name="names/rus371" xml:space="preserve">
+    <value>Sinitsyn</value>
+  </data>
+  <data name="names/rus372" xml:space="preserve">
+    <value>Kukushkin</value>
+  </data>
+  <data name="names/rus373" xml:space="preserve">
+    <value>Zazyulya</value>
+  </data>
+  <data name="names/rus374" xml:space="preserve">
+    <value>Korolkov</value>
+  </data>
+  <data name="names/rus375" xml:space="preserve">
+    <value>Chibisov</value>
+  </data>
+  <data name="names/rus376" xml:space="preserve">
+    <value>Ivolgin</value>
+  </data>
+  <data name="names/rus377" xml:space="preserve">
+    <value>Kurochkin</value>
+  </data>
+  <data name="names/rus378" xml:space="preserve">
+    <value>Chaykin</value>
+  </data>
+  <data name="names/rus379" xml:space="preserve">
+    <value>Chayka</value>
+  </data>
+  <data name="names/rus38" xml:space="preserve">
+    <value>Smirnov</value>
+  </data>
+  <data name="names/rus380" xml:space="preserve">
+    <value>Perepelitsa</value>
+  </data>
+  <data name="names/rus381" xml:space="preserve">
+    <value>Sobakin</value>
+  </data>
+  <data name="names/rus382" xml:space="preserve">
+    <value>Korovyak</value>
+  </data>
+  <data name="names/rus383" xml:space="preserve">
+    <value>Kabanets</value>
+  </data>
+  <data name="names/rus384" xml:space="preserve">
+    <value>Seleznyov</value>
+  </data>
+  <data name="names/rus385" xml:space="preserve">
+    <value>Cherepanov</value>
+  </data>
+  <data name="names/rus386" xml:space="preserve">
+    <value>Khomyakov</value>
+  </data>
+  <data name="names/rus387" xml:space="preserve">
+    <value>Radivil</value>
+  </data>
+  <data name="names/rus388" xml:space="preserve">
+    <value>Stakhevich</value>
+  </data>
+  <data name="names/rus389" xml:space="preserve">
+    <value>Stasov</value>
+  </data>
+  <data name="names/rus39" xml:space="preserve">
+    <value>Mironov</value>
+  </data>
+  <data name="names/rus390" xml:space="preserve">
+    <value>Protasov</value>
+  </data>
+  <data name="names/rus391" xml:space="preserve">
+    <value>Pervukhin</value>
+  </data>
+  <data name="names/rus392" xml:space="preserve">
+    <value>Pustomelin</value>
+  </data>
+  <data name="names/rus393" xml:space="preserve">
+    <value>Merinov</value>
+  </data>
+  <data name="names/rus394" xml:space="preserve">
+    <value>Lemekhov</value>
+  </data>
+  <data name="names/rus395" xml:space="preserve">
+    <value>Kobylyako</value>
+  </data>
+  <data name="names/rus396" xml:space="preserve">
+    <value>Zherebchenko</value>
+  </data>
+  <data name="names/rus397" xml:space="preserve">
+    <value>Zhigaryov</value>
+  </data>
+  <data name="names/rus398" xml:space="preserve">
+    <value>Volovich</value>
+  </data>
+  <data name="names/rus399" xml:space="preserve">
+    <value>Volokhovich</value>
+  </data>
+  <data name="names/rus4" xml:space="preserve">
+    <value>Antonov</value>
+  </data>
+  <data name="names/rus40" xml:space="preserve">
+    <value>Klimov</value>
+  </data>
+  <data name="names/rus400" xml:space="preserve">
+    <value>Roshchin</value>
+  </data>
+  <data name="names/rus401" xml:space="preserve">
+    <value>Telegin</value>
+  </data>
+  <data name="names/rus402" xml:space="preserve">
+    <value>Uzhikov</value>
+  </data>
+  <data name="names/rus403" xml:space="preserve">
+    <value>Yezhov</value>
+  </data>
+  <data name="names/rus404" xml:space="preserve">
+    <value>Lavrentyev</value>
+  </data>
+  <data name="names/rus405" xml:space="preserve">
+    <value>Chernenko</value>
+  </data>
+  <data name="names/rus406" xml:space="preserve">
+    <value>Sosnovskiy</value>
+  </data>
+  <data name="names/rus407" xml:space="preserve">
+    <value>Dubov</value>
+  </data>
+  <data name="names/rus408" xml:space="preserve">
+    <value>Romashkin</value>
+  </data>
+  <data name="names/rus409" xml:space="preserve">
+    <value>Konopelko</value>
+  </data>
+  <data name="names/rus41" xml:space="preserve">
+    <value>Lapshin</value>
+  </data>
+  <data name="names/rus410" xml:space="preserve">
+    <value>Makovskiy</value>
+  </data>
+  <data name="names/rus411" xml:space="preserve">
+    <value>Rozhkov</value>
+  </data>
+  <data name="names/rus412" xml:space="preserve">
+    <value>Mazyuk</value>
+  </data>
+  <data name="names/rus413" xml:space="preserve">
+    <value>Dokuchayev</value>
+  </data>
+  <data name="names/rus414" xml:space="preserve">
+    <value>Piskunov</value>
+  </data>
+  <data name="names/rus415" xml:space="preserve">
+    <value>Tabakov</value>
+  </data>
+  <data name="names/rus416" xml:space="preserve">
+    <value>Kruglov</value>
+  </data>
+  <data name="names/rus417" xml:space="preserve">
+    <value>Tolstikov</value>
+  </data>
+  <data name="names/rus418" xml:space="preserve">
+    <value>Kholmov</value>
+  </data>
+  <data name="names/rus419" xml:space="preserve">
+    <value>Perov</value>
+  </data>
+  <data name="names/rus42" xml:space="preserve">
+    <value>Ilyin</value>
+  </data>
+  <data name="names/rus420" xml:space="preserve">
+    <value>Shchegol</value>
+  </data>
+  <data name="names/rus421" xml:space="preserve">
+    <value>Sivyy</value>
+  </data>
+  <data name="names/rus422" xml:space="preserve">
+    <value>Sedov</value>
+  </data>
+  <data name="names/rus423" xml:space="preserve">
+    <value>Shchukin</value>
+  </data>
+  <data name="names/rus424" xml:space="preserve">
+    <value>Okunev</value>
+  </data>
+  <data name="names/rus425" xml:space="preserve">
+    <value>Yershov</value>
+  </data>
+  <data name="names/rus426" xml:space="preserve">
+    <value>Plotkin</value>
+  </data>
+  <data name="names/rus427" xml:space="preserve">
+    <value>Pugachyov</value>
+  </data>
+  <data name="names/rus428" xml:space="preserve">
+    <value>Shtukin</value>
+  </data>
+  <data name="names/rus429" xml:space="preserve">
+    <value>Surikov</value>
+  </data>
+  <data name="names/rus43" xml:space="preserve">
+    <value>Reshetov</value>
+  </data>
+  <data name="names/rus430" xml:space="preserve">
+    <value>Somov</value>
+  </data>
+  <data name="names/rus431" xml:space="preserve">
+    <value>Karas</value>
+  </data>
+  <data name="names/rus432" xml:space="preserve">
+    <value>Peskaryov</value>
+  </data>
+  <data name="names/rus433" xml:space="preserve">
+    <value>Rybakov</value>
+  </data>
+  <data name="names/rus434" xml:space="preserve">
+    <value>Nalimets</value>
+  </data>
+  <data name="names/rus435" xml:space="preserve">
+    <value>Taranko</value>
+  </data>
+  <data name="names/rus436" xml:space="preserve">
+    <value>Babets</value>
+  </data>
+  <data name="names/rus437" xml:space="preserve">
+    <value>Bobkov</value>
+  </data>
+  <data name="names/rus438" xml:space="preserve">
+    <value>Kuzovatov</value>
+  </data>
+  <data name="names/rus439" xml:space="preserve">
+    <value>Syroyezhkin</value>
+  </data>
+  <data name="names/rus44" xml:space="preserve">
+    <value>Losev</value>
+  </data>
+  <data name="names/rus440" xml:space="preserve">
+    <value>Lukoshkin</value>
+  </data>
+  <data name="names/rus441" xml:space="preserve">
+    <value>Ryzhik</value>
+  </data>
+  <data name="names/rus442" xml:space="preserve">
+    <value>Yolkin</value>
+  </data>
+  <data name="names/rus443" xml:space="preserve">
+    <value>Ogurtsov</value>
+  </data>
+  <data name="names/rus444" xml:space="preserve">
+    <value>Pechyonkin</value>
+  </data>
+  <data name="names/rus445" xml:space="preserve">
+    <value>Lozhkin</value>
+  </data>
+  <data name="names/rus446" xml:space="preserve">
+    <value>Korzhenevskiy</value>
+  </data>
+  <data name="names/rus447" xml:space="preserve">
+    <value>Kapitanets</value>
+  </data>
+  <data name="names/rus448" xml:space="preserve">
+    <value>Rotmistrov</value>
+  </data>
+  <data name="names/rus449" xml:space="preserve">
+    <value>Katukov</value>
+  </data>
+  <data name="names/rus45" xml:space="preserve">
+    <value>Medvedev</value>
+  </data>
+  <data name="names/rus450" xml:space="preserve">
+    <value>Knyazev</value>
+  </data>
+  <data name="names/rus451" xml:space="preserve">
+    <value>Druzhinin</value>
+  </data>
+  <data name="names/rus452" xml:space="preserve">
+    <value>Zheleznyak</value>
+  </data>
+  <data name="names/rus453" xml:space="preserve">
+    <value>Valuyev</value>
+  </data>
+  <data name="names/rus454" xml:space="preserve">
+    <value>Rozanov</value>
+  </data>
+  <data name="names/rus455" xml:space="preserve">
+    <value>Baluyev</value>
+  </data>
+  <data name="names/rus456" xml:space="preserve">
+    <value>Barinov</value>
+  </data>
+  <data name="names/rus457" xml:space="preserve">
+    <value>Shlyakhtyonok</value>
+  </data>
+  <data name="names/rus458" xml:space="preserve">
+    <value>Kostin</value>
+  </data>
+  <data name="names/rus459" xml:space="preserve">
+    <value>Bulygin</value>
+  </data>
+  <data name="names/rus46" xml:space="preserve">
+    <value>Volkov</value>
+  </data>
+  <data name="names/rus460" xml:space="preserve">
+    <value>Obraztsov</value>
+  </data>
+  <data name="names/rus461" xml:space="preserve">
+    <value>Novikov</value>
+  </data>
+  <data name="names/rus462" xml:space="preserve">
+    <value>Gorin</value>
+  </data>
+  <data name="names/rus463" xml:space="preserve">
+    <value>Rudnev</value>
+  </data>
+  <data name="names/rus464" xml:space="preserve">
+    <value>Rudakovskiy</value>
+  </data>
+  <data name="names/rus465" xml:space="preserve">
+    <value>Rudenko</value>
+  </data>
+  <data name="names/rus466" xml:space="preserve">
+    <value>Vershkov</value>
+  </data>
+  <data name="names/rus467" xml:space="preserve">
+    <value>Veshkin</value>
+  </data>
+  <data name="names/rus468" xml:space="preserve">
+    <value>Cherkasov</value>
+  </data>
+  <data name="names/rus469" xml:space="preserve">
+    <value>Shcherbakov</value>
+  </data>
+  <data name="names/rus47" xml:space="preserve">
+    <value>Lisitsyn</value>
+  </data>
+  <data name="names/rus470" xml:space="preserve">
+    <value>Lyubimov</value>
+  </data>
+  <data name="names/rus471" xml:space="preserve">
+    <value>Steklov</value>
+  </data>
+  <data name="names/rus472" xml:space="preserve">
+    <value>Steblov</value>
+  </data>
+  <data name="names/rus473" xml:space="preserve">
+    <value>Kolesnikov</value>
+  </data>
+  <data name="names/rus474" xml:space="preserve">
+    <value>Kolosov</value>
+  </data>
+  <data name="names/rus475" xml:space="preserve">
+    <value>Kolomiyets</value>
+  </data>
+  <data name="names/rus476" xml:space="preserve">
+    <value>Alyokhin</value>
+  </data>
+  <data name="names/rus477" xml:space="preserve">
+    <value>Perepelov</value>
+  </data>
+  <data name="names/rus478" xml:space="preserve">
+    <value>Barabanshchikov</value>
+  </data>
+  <data name="names/rus479" xml:space="preserve">
+    <value>Trubach</value>
+  </data>
+  <data name="names/rus48" xml:space="preserve">
+    <value>Zaytsev</value>
+  </data>
+  <data name="names/rus480" xml:space="preserve">
+    <value>Shtyk</value>
+  </data>
+  <data name="names/rus481" xml:space="preserve">
+    <value>Shlykov</value>
+  </data>
+  <data name="names/rus482" xml:space="preserve">
+    <value>Kutasov</value>
+  </data>
+  <data name="names/rus483" xml:space="preserve">
+    <value>Dragun</value>
+  </data>
+  <data name="names/rus484" xml:space="preserve">
+    <value>Mayorov</value>
+  </data>
+  <data name="names/rus485" xml:space="preserve">
+    <value>Streltsov</value>
+  </data>
+  <data name="names/rus486" xml:space="preserve">
+    <value>Preobrazhenskiy</value>
+  </data>
+  <data name="names/rus487" xml:space="preserve">
+    <value>Izmaylov</value>
+  </data>
+  <data name="names/rus488" xml:space="preserve">
+    <value>Sheremet</value>
+  </data>
+  <data name="names/rus489" xml:space="preserve">
+    <value>Ukhorezov</value>
+  </data>
+  <data name="names/rus49" xml:space="preserve">
+    <value>Trusov</value>
+  </data>
+  <data name="names/rus490" xml:space="preserve">
+    <value>Znamenskiy</value>
+  </data>
+  <data name="names/rus491" xml:space="preserve">
+    <value>Shapkin</value>
+  </data>
+  <data name="names/rus492" xml:space="preserve">
+    <value>Kaftanov</value>
+  </data>
+  <data name="names/rus493" xml:space="preserve">
+    <value>Shubin</value>
+  </data>
+  <data name="names/rus494" xml:space="preserve">
+    <value>Vorotnikov</value>
+  </data>
+  <data name="names/rus495" xml:space="preserve">
+    <value>Pugovkin</value>
+  </data>
+  <data name="names/rus496" xml:space="preserve">
+    <value>Blyakhin</value>
+  </data>
+  <data name="names/rus497" xml:space="preserve">
+    <value>Starshinov</value>
+  </data>
+  <data name="names/rus498" xml:space="preserve">
+    <value>Lyubomudrov</value>
+  </data>
+  <data name="names/rus499" xml:space="preserve">
+    <value>Polkovnikov</value>
+  </data>
+  <data name="names/rus5" xml:space="preserve">
+    <value>Yegorov</value>
+  </data>
+  <data name="names/rus50" xml:space="preserve">
+    <value>Khlebnikov</value>
+  </data>
+  <data name="names/rus500" xml:space="preserve">
+    <value>Generalov</value>
+  </data>
+  <data name="names/rus501" xml:space="preserve">
+    <value>Baystryukov</value>
+  </data>
+  <data name="names/rus502" xml:space="preserve">
+    <value>Biryukov</value>
+  </data>
+  <data name="names/rus503" xml:space="preserve">
+    <value>Kavalerov</value>
+  </data>
+  <data name="names/rus504" xml:space="preserve">
+    <value>Gubonin</value>
+  </data>
+  <data name="names/rus505" xml:space="preserve">
+    <value>Markov</value>
+  </data>
+  <data name="names/rus506" xml:space="preserve">
+    <value>Karaulov</value>
+  </data>
+  <data name="names/rus507" xml:space="preserve">
+    <value>Nevzorov</value>
+  </data>
+  <data name="names/rus508" xml:space="preserve">
+    <value>Malyshev</value>
+  </data>
+  <data name="names/rus509" xml:space="preserve">
+    <value>Chesnokov</value>
+  </data>
+  <data name="names/rus51" xml:space="preserve">
+    <value>Kononov</value>
+  </data>
+  <data name="names/rus510" xml:space="preserve">
+    <value>Stremennikov</value>
+  </data>
+  <data name="names/rus511" xml:space="preserve">
+    <value>Mazurov</value>
+  </data>
+  <data name="names/rus512" xml:space="preserve">
+    <value>Grishyn</value>
+  </data>
+  <data name="names/rus513" xml:space="preserve">
+    <value>Podgornyy</value>
+  </data>
+  <data name="names/rus514" xml:space="preserve">
+    <value>Antropov</value>
+  </data>
+  <data name="names/rus515" xml:space="preserve">
+    <value>Frolov</value>
+  </data>
+  <data name="names/rus516" xml:space="preserve">
+    <value>Malofeyev</value>
+  </data>
+  <data name="names/rus517" xml:space="preserve">
+    <value>Kravchuk</value>
+  </data>
+  <data name="names/rus518" xml:space="preserve">
+    <value>Avchuk</value>
+  </data>
+  <data name="names/rus519" xml:space="preserve">
+    <value>Polyanskiy</value>
+  </data>
+  <data name="names/rus52" xml:space="preserve">
+    <value>Sablin</value>
+  </data>
+  <data name="names/rus520" xml:space="preserve">
+    <value>Kapitonov</value>
+  </data>
+  <data name="names/rus521" xml:space="preserve">
+    <value>Nagibin</value>
+  </data>
+  <data name="names/rus522" xml:space="preserve">
+    <value>Shmatko</value>
+  </data>
+  <data name="names/rus523" xml:space="preserve">
+    <value>Zhdanov</value>
+  </data>
+  <data name="names/rus524" xml:space="preserve">
+    <value>Gorbach</value>
+  </data>
+  <data name="names/rus525" xml:space="preserve">
+    <value>Grobovskiy</value>
+  </data>
+  <data name="names/rus526" xml:space="preserve">
+    <value>Talyzin</value>
+  </data>
+  <data name="names/rus527" xml:space="preserve">
+    <value>Primakov</value>
+  </data>
+  <data name="names/rus528" xml:space="preserve">
+    <value>Kostrikov</value>
+  </data>
+  <data name="names/rus529" xml:space="preserve">
+    <value>Krymov</value>
+  </data>
+  <data name="names/rus53" xml:space="preserve">
+    <value>Kazakov</value>
+  </data>
+  <data name="names/rus530" xml:space="preserve">
+    <value>Moskalenko</value>
+  </data>
+  <data name="names/rus531" xml:space="preserve">
+    <value>Rostovtsev</value>
+  </data>
+  <data name="names/rus532" xml:space="preserve">
+    <value>Suzdalskiy</value>
+  </data>
+  <data name="names/rus533" xml:space="preserve">
+    <value>Novgorodtsev</value>
+  </data>
+  <data name="names/rus534" xml:space="preserve">
+    <value>Novodvorskiy</value>
+  </data>
+  <data name="names/rus535" xml:space="preserve">
+    <value>Staroselskiy</value>
+  </data>
+  <data name="names/rus536" xml:space="preserve">
+    <value>Yushenkov</value>
+  </data>
+  <data name="names/rus537" xml:space="preserve">
+    <value>Blinov</value>
+  </data>
+  <data name="names/rus538" xml:space="preserve">
+    <value>Dostigayev</value>
+  </data>
+  <data name="names/rus539" xml:space="preserve">
+    <value>Permyak</value>
+  </data>
+  <data name="names/rus54" xml:space="preserve">
+    <value>Gromov</value>
+  </data>
+  <data name="names/rus540" xml:space="preserve">
+    <value>Kazantsev</value>
+  </data>
+  <data name="names/rus541" xml:space="preserve">
+    <value>Rzhevskiy</value>
+  </data>
+  <data name="names/rus542" xml:space="preserve">
+    <value>Suzdaltsev</value>
+  </data>
+  <data name="names/rus543" xml:space="preserve">
+    <value>Kostromin</value>
+  </data>
+  <data name="names/rus544" xml:space="preserve">
+    <value>Kositsyn</value>
+  </data>
+  <data name="names/rus545" xml:space="preserve">
+    <value>Varshavskiy</value>
+  </data>
+  <data name="names/rus546" xml:space="preserve">
+    <value>Krivoglazov</value>
+  </data>
+  <data name="names/rus547" xml:space="preserve">
+    <value>Ordyntsev</value>
+  </data>
+  <data name="names/rus548" xml:space="preserve">
+    <value>Baskakov</value>
+  </data>
+  <data name="names/rus549" xml:space="preserve">
+    <value>Murzin</value>
+  </data>
+  <data name="names/rus55" xml:space="preserve">
+    <value>Vetrov</value>
+  </data>
+  <data name="names/rus550" xml:space="preserve">
+    <value>Korsakov</value>
+  </data>
+  <data name="names/rus551" xml:space="preserve">
+    <value>Korablyov</value>
+  </data>
+  <data name="names/rus552" xml:space="preserve">
+    <value>Kobets</value>
+  </data>
+  <data name="names/rus553" xml:space="preserve">
+    <value>Kirsanov</value>
+  </data>
+  <data name="names/rus554" xml:space="preserve">
+    <value>Kondratyev</value>
+  </data>
+  <data name="names/rus555" xml:space="preserve">
+    <value>Garkavyy</value>
+  </data>
+  <data name="names/rus556" xml:space="preserve">
+    <value>Laskavyy</value>
+  </data>
+  <data name="names/rus557" xml:space="preserve">
+    <value>Vinokur</value>
+  </data>
+  <data name="names/rus558" xml:space="preserve">
+    <value>Bragin</value>
+  </data>
+  <data name="names/rus559" xml:space="preserve">
+    <value>Vinnichenko</value>
+  </data>
+  <data name="names/rus56" xml:space="preserve">
+    <value>Polozov</value>
+  </data>
+  <data name="names/rus560" xml:space="preserve">
+    <value>Shinkaryov</value>
+  </data>
+  <data name="names/rus561" xml:space="preserve">
+    <value>Bukhalo</value>
+  </data>
+  <data name="names/rus562" xml:space="preserve">
+    <value>Shibanov</value>
+  </data>
+  <data name="names/rus563" xml:space="preserve">
+    <value>Klebanov</value>
+  </data>
+  <data name="names/rus564" xml:space="preserve">
+    <value>Chumakov</value>
+  </data>
+  <data name="names/rus565" xml:space="preserve">
+    <value>Bladyko</value>
+  </data>
+  <data name="names/rus566" xml:space="preserve">
+    <value>Kukhta</value>
+  </data>
+  <data name="names/rus567" xml:space="preserve">
+    <value>Kislyy</value>
+  </data>
+  <data name="names/rus568" xml:space="preserve">
+    <value>Lykov</value>
+  </data>
+  <data name="names/rus569" xml:space="preserve">
+    <value>Lysenko</value>
+  </data>
+  <data name="names/rus57" xml:space="preserve">
+    <value>Kalugin</value>
+  </data>
+  <data name="names/rus570" xml:space="preserve">
+    <value>Nepluyev</value>
+  </data>
+  <data name="names/rus571" xml:space="preserve">
+    <value>Titov</value>
+  </data>
+  <data name="names/rus572" xml:space="preserve">
+    <value>Leonov</value>
+  </data>
+  <data name="names/rus573" xml:space="preserve">
+    <value>Komarov</value>
+  </data>
+  <data name="names/rus574" xml:space="preserve">
+    <value>Brilyov</value>
+  </data>
+  <data name="names/rus575" xml:space="preserve">
+    <value>Yurasov</value>
+  </data>
+  <data name="names/rus576" xml:space="preserve">
+    <value>Dubasov</value>
+  </data>
+  <data name="names/rus577" xml:space="preserve">
+    <value>Shlyapnikov</value>
+  </data>
+  <data name="names/rus578" xml:space="preserve">
+    <value>Shelepin</value>
+  </data>
+  <data name="names/rus579" xml:space="preserve">
+    <value>Ostrovskiy</value>
+  </data>
+  <data name="names/rus58" xml:space="preserve">
+    <value>Stogov</value>
+  </data>
+  <data name="names/rus580" xml:space="preserve">
+    <value>Kholmogorov</value>
+  </data>
+  <data name="names/rus581" xml:space="preserve">
+    <value>Krylov</value>
+  </data>
+  <data name="names/rus582" xml:space="preserve">
+    <value>Khvostov</value>
+  </data>
+  <data name="names/rus583" xml:space="preserve">
+    <value>Nosov</value>
+  </data>
+  <data name="names/rus584" xml:space="preserve">
+    <value>Yazykov</value>
+  </data>
+  <data name="names/rus585" xml:space="preserve">
+    <value>Chub</value>
+  </data>
+  <data name="names/rus586" xml:space="preserve">
+    <value>Paltsev</value>
+  </data>
+  <data name="names/rus587" xml:space="preserve">
+    <value>Brovkin</value>
+  </data>
+  <data name="names/rus588" xml:space="preserve">
+    <value>Dolgopalets</value>
+  </data>
+  <data name="names/rus589" xml:space="preserve">
+    <value>Khrunov</value>
+  </data>
+  <data name="names/rus59" xml:space="preserve">
+    <value>Melnikov</value>
+  </data>
+  <data name="names/rus590" xml:space="preserve">
+    <value>Yeliseyev</value>
+  </data>
+  <data name="names/rus591" xml:space="preserve">
+    <value>Spiridonov</value>
+  </data>
+  <data name="names/rus592" xml:space="preserve">
+    <value>Pankratov</value>
+  </data>
+  <data name="names/rus593" xml:space="preserve">
+    <value>Sysoyev</value>
+  </data>
+  <data name="names/rus594" xml:space="preserve">
+    <value>Panteleymonov</value>
+  </data>
+  <data name="names/rus595" xml:space="preserve">
+    <value>Dukhov</value>
+  </data>
+  <data name="names/rus596" xml:space="preserve">
+    <value>Chernoivanenko</value>
+  </data>
+  <data name="names/rus597" xml:space="preserve">
+    <value>Stanukovich</value>
+  </data>
+  <data name="names/rus598" xml:space="preserve">
+    <value>Lyakhov</value>
+  </data>
+  <data name="names/rus599" xml:space="preserve">
+    <value>Glushko</value>
+  </data>
+  <data name="names/rus6" xml:space="preserve">
+    <value>Prokhorov</value>
+  </data>
+  <data name="names/rus60" xml:space="preserve">
+    <value>Kuznetsov</value>
+  </data>
+  <data name="names/rus600" xml:space="preserve">
+    <value>Barmin</value>
+  </data>
+  <data name="names/rus601" xml:space="preserve">
+    <value>Krapivin</value>
+  </data>
+  <data name="names/rus602" xml:space="preserve">
+    <value>Serebrov</value>
+  </data>
+  <data name="names/rus603" xml:space="preserve">
+    <value>Zolotaryov</value>
+  </data>
+  <data name="names/rus604" xml:space="preserve">
+    <value>Tereshchenko</value>
+  </data>
+  <data name="names/rus605" xml:space="preserve">
+    <value>Mikhnevich</value>
+  </data>
+  <data name="names/rus606" xml:space="preserve">
+    <value>Belevich</value>
+  </data>
+  <data name="names/rus607" xml:space="preserve">
+    <value>Yukhnevich</value>
+  </data>
+  <data name="names/rus608" xml:space="preserve">
+    <value>Belyashov</value>
+  </data>
+  <data name="names/rus609" xml:space="preserve">
+    <value>Kolbasyev</value>
+  </data>
+  <data name="names/rus61" xml:space="preserve">
+    <value>Bortnikov</value>
+  </data>
+  <data name="names/rus610" xml:space="preserve">
+    <value>Travkin</value>
+  </data>
+  <data name="names/rus611" xml:space="preserve">
+    <value>Vasilkov</value>
+  </data>
+  <data name="names/rus612" xml:space="preserve">
+    <value>Karetnikov</value>
+  </data>
+  <data name="names/rus613" xml:space="preserve">
+    <value>Kalitnikov</value>
+  </data>
+  <data name="names/rus614" xml:space="preserve">
+    <value>Gorshkov</value>
+  </data>
+  <data name="names/rus615" xml:space="preserve">
+    <value>Ozhegov</value>
+  </data>
+  <data name="names/rus616" xml:space="preserve">
+    <value>Portnov</value>
+  </data>
+  <data name="names/rus617" xml:space="preserve">
+    <value>Zhgun</value>
+  </data>
+  <data name="names/rus618" xml:space="preserve">
+    <value>Tsyganok</value>
+  </data>
+  <data name="names/rus619" xml:space="preserve">
+    <value>Pechorin</value>
+  </data>
+  <data name="names/rus62" xml:space="preserve">
+    <value>Durov</value>
+  </data>
+  <data name="names/rus620" xml:space="preserve">
+    <value>Lenskiy</value>
+  </data>
+  <data name="names/rus621" xml:space="preserve">
+    <value>Sobolev</value>
+  </data>
+  <data name="names/rus622" xml:space="preserve">
+    <value>Gaydukevich</value>
+  </data>
+  <data name="names/rus623" xml:space="preserve">
+    <value>Dymov</value>
+  </data>
+  <data name="names/rus624" xml:space="preserve">
+    <value>Vodorezov</value>
+  </data>
+  <data name="names/rus625" xml:space="preserve">
+    <value>Svetlov</value>
+  </data>
+  <data name="names/rus626" xml:space="preserve">
+    <value>Sotnikov</value>
+  </data>
+  <data name="names/rus627" xml:space="preserve">
+    <value>Khoruzhiy</value>
+  </data>
+  <data name="names/rus628" xml:space="preserve">
+    <value>Yesaulov</value>
+  </data>
+  <data name="names/rus629" xml:space="preserve">
+    <value>Pushkaryov</value>
+  </data>
+  <data name="names/rus63" xml:space="preserve">
+    <value>Vereshchagin</value>
+  </data>
+  <data name="names/rus630" xml:space="preserve">
+    <value>Chabanenko</value>
+  </data>
+  <data name="names/rus631" xml:space="preserve">
+    <value>Annenskiy</value>
+  </data>
+  <data name="names/rus632" xml:space="preserve">
+    <value>Yeletskiy</value>
+  </data>
+  <data name="names/rus633" xml:space="preserve">
+    <value>Anechkin</value>
+  </data>
+  <data name="names/rus634" xml:space="preserve">
+    <value>Aleksin</value>
+  </data>
+  <data name="names/rus635" xml:space="preserve">
+    <value>Protopopov</value>
+  </data>
+  <data name="names/rus636" xml:space="preserve">
+    <value>Chernetsov</value>
+  </data>
+  <data name="names/rus637" xml:space="preserve">
+    <value>Pinchuk</value>
+  </data>
+  <data name="names/rus638" xml:space="preserve">
+    <value>Yanchuk</value>
+  </data>
+  <data name="names/rus639" xml:space="preserve">
+    <value>Pribylov</value>
+  </data>
+  <data name="names/rus64" xml:space="preserve">
+    <value>Plotnikov</value>
+  </data>
+  <data name="names/rus640" xml:space="preserve">
+    <value>Afanasyev</value>
+  </data>
+  <data name="names/rus641" xml:space="preserve">
+    <value>Afonin</value>
+  </data>
+  <data name="names/rus642" xml:space="preserve">
+    <value>Tverikin</value>
+  </data>
+  <data name="names/rus643" xml:space="preserve">
+    <value>Bezrukov</value>
+  </data>
+  <data name="names/rus644" xml:space="preserve">
+    <value>Gubanov</value>
+  </data>
+  <data name="names/rus645" xml:space="preserve">
+    <value>Mogin</value>
+  </data>
+  <data name="names/rus646" xml:space="preserve">
+    <value>Smozhevskiy</value>
+  </data>
+  <data name="names/rus647" xml:space="preserve">
+    <value>Smolskiy</value>
+  </data>
+  <data name="names/rus648" xml:space="preserve">
+    <value>Tyulenev</value>
+  </data>
+  <data name="names/rus649" xml:space="preserve">
+    <value>Slashchyov</value>
+  </data>
+  <data name="names/rus65" xml:space="preserve">
+    <value>Bondarev</value>
+  </data>
+  <data name="names/rus650" xml:space="preserve">
+    <value>Kondrashyov</value>
+  </data>
+  <data name="names/rus651" xml:space="preserve">
+    <value>Sobakevich</value>
+  </data>
+  <data name="names/rus652" xml:space="preserve">
+    <value>Nozdryov</value>
+  </data>
+  <data name="names/rus653" xml:space="preserve">
+    <value>Ruslanov</value>
+  </data>
+  <data name="names/rus654" xml:space="preserve">
+    <value>Bezukhov</value>
+  </data>
+  <data name="names/rus655" xml:space="preserve">
+    <value>Khrennikov</value>
+  </data>
+  <data name="names/rus656" xml:space="preserve">
+    <value>Timokhin</value>
+  </data>
+  <data name="names/rus657" xml:space="preserve">
+    <value>Karatayev</value>
+  </data>
+  <data name="names/rus658" xml:space="preserve">
+    <value>Tamantsev</value>
+  </data>
+  <data name="names/rus659" xml:space="preserve">
+    <value>Trutchenko</value>
+  </data>
+  <data name="names/rus66" xml:space="preserve">
+    <value>Pirogov</value>
+  </data>
+  <data name="names/rus660" xml:space="preserve">
+    <value>Dolokhov</value>
+  </data>
+  <data name="names/rus661" xml:space="preserve">
+    <value>Chernous</value>
+  </data>
+  <data name="names/rus662" xml:space="preserve">
+    <value>Tolkunov</value>
+  </data>
+  <data name="names/rus663" xml:space="preserve">
+    <value>Khlestakov</value>
+  </data>
+  <data name="names/rus664" xml:space="preserve">
+    <value>Manilov</value>
+  </data>
+  <data name="names/rus665" xml:space="preserve">
+    <value>Skovoroda</value>
+  </data>
+  <data name="names/rus666" xml:space="preserve">
+    <value>Solokhin</value>
+  </data>
+  <data name="names/rus667" xml:space="preserve">
+    <value>Gannushkin</value>
+  </data>
+  <data name="names/rus668" xml:space="preserve">
+    <value>Galushko</value>
+  </data>
+  <data name="names/rus669" xml:space="preserve">
+    <value>Verkhaturov</value>
+  </data>
+  <data name="names/rus67" xml:space="preserve">
+    <value>Ponomaryov</value>
+  </data>
+  <data name="names/rus670" xml:space="preserve">
+    <value>Zoshchenko</value>
+  </data>
+  <data name="names/rus671" xml:space="preserve">
+    <value>Kirpichnikov</value>
+  </data>
+  <data name="names/rus672" xml:space="preserve">
+    <value>Gorelik</value>
+  </data>
+  <data name="names/rus673" xml:space="preserve">
+    <value>Dzys</value>
+  </data>
+  <data name="names/rus674" xml:space="preserve">
+    <value>Gryzlov</value>
+  </data>
+  <data name="names/rus675" xml:space="preserve">
+    <value>Svidrigaylo</value>
+  </data>
+  <data name="names/rus676" xml:space="preserve">
+    <value>Tikhomirov</value>
+  </data>
+  <data name="names/rus677" xml:space="preserve">
+    <value>Nebyshinets</value>
+  </data>
+  <data name="names/rus678" xml:space="preserve">
+    <value>Skirmunt</value>
+  </data>
+  <data name="names/rus679" xml:space="preserve">
+    <value>Lepekha</value>
+  </data>
+  <data name="names/rus68" xml:space="preserve">
+    <value>Popov</value>
+  </data>
+  <data name="names/rus680" xml:space="preserve">
+    <value>Grubin</value>
+  </data>
+  <data name="names/rus681" xml:space="preserve">
+    <value>Ovsyannikov</value>
+  </data>
+  <data name="names/rus682" xml:space="preserve">
+    <value>Toloknitskin</value>
+  </data>
+  <data name="names/rus683" xml:space="preserve">
+    <value>Brichkin</value>
+  </data>
+  <data name="names/rus684" xml:space="preserve">
+    <value>Spitsyn</value>
+  </data>
+  <data name="names/rus685" xml:space="preserve">
+    <value>Ogloblya</value>
+  </data>
+  <data name="names/rus686" xml:space="preserve">
+    <value>Lazhechnikov</value>
+  </data>
+  <data name="names/rus687" xml:space="preserve">
+    <value>Skazkin</value>
+  </data>
+  <data name="names/rus688" xml:space="preserve">
+    <value>Kadkin</value>
+  </data>
+  <data name="names/rus689" xml:space="preserve">
+    <value>Podushkin</value>
+  </data>
+  <data name="names/rus69" xml:space="preserve">
+    <value>Tsarkov</value>
+  </data>
+  <data name="names/rus690" xml:space="preserve">
+    <value>Kabushkin</value>
+  </data>
+  <data name="names/rus691" xml:space="preserve">
+    <value>Stukov</value>
+  </data>
+  <data name="names/rus692" xml:space="preserve">
+    <value>Kuskov</value>
+  </data>
+  <data name="names/rus693" xml:space="preserve">
+    <value>Gramoteyev</value>
+  </data>
+  <data name="names/rus694" xml:space="preserve">
+    <value>Pisarev</value>
+  </data>
+  <data name="names/rus695" xml:space="preserve">
+    <value>Garmata</value>
+  </data>
+  <data name="names/rus696" xml:space="preserve">
+    <value>Bugay</value>
+  </data>
+  <data name="names/rus697" xml:space="preserve">
+    <value>Pomortsev</value>
+  </data>
+  <data name="names/rus698" xml:space="preserve">
+    <value>Samus</value>
+  </data>
+  <data name="names/rus699" xml:space="preserve">
+    <value>Buyak</value>
+  </data>
+  <data name="names/rus7" xml:space="preserve">
+    <value>Osipov</value>
+  </data>
+  <data name="names/rus70" xml:space="preserve">
+    <value>Dubinin</value>
+  </data>
+  <data name="names/rus700" xml:space="preserve">
+    <value>Zadov</value>
+  </data>
+  <data name="names/rus701" xml:space="preserve">
+    <value>Sinyagin</value>
+  </data>
+  <data name="names/rus702" xml:space="preserve">
+    <value>Belousov</value>
+  </data>
+  <data name="names/rus703" xml:space="preserve">
+    <value>Revinskiy</value>
+  </data>
+  <data name="names/rus704" xml:space="preserve">
+    <value>Kopat</value>
+  </data>
+  <data name="names/rus705" xml:space="preserve">
+    <value>Potylitsin</value>
+  </data>
+  <data name="names/rus706" xml:space="preserve">
+    <value>Vylegzhanin</value>
+  </data>
+  <data name="names/rus707" xml:space="preserve">
+    <value>Voytko</value>
+  </data>
+  <data name="names/rus708" xml:space="preserve">
+    <value>Tynov</value>
+  </data>
+  <data name="names/rus709" xml:space="preserve">
+    <value>Abramov</value>
+  </data>
+  <data name="names/rus71" xml:space="preserve">
+    <value>Pastukhov</value>
+  </data>
+  <data name="names/rus710" xml:space="preserve">
+    <value>Bryagin</value>
+  </data>
+  <data name="names/rus711" xml:space="preserve">
+    <value>Prokofyev</value>
+  </data>
+  <data name="names/rus712" xml:space="preserve">
+    <value>Dudakov</value>
+  </data>
+  <data name="names/rus713" xml:space="preserve">
+    <value>Koronets</value>
+  </data>
+  <data name="names/rus714" xml:space="preserve">
+    <value>Brovchenko</value>
+  </data>
+  <data name="names/rus715" xml:space="preserve">
+    <value>Mendeleyev</value>
+  </data>
+  <data name="names/rus716" xml:space="preserve">
+    <value>Zyulin</value>
+  </data>
+  <data name="names/rus717" xml:space="preserve">
+    <value>Zelyukov</value>
+  </data>
+  <data name="names/rus718" xml:space="preserve">
+    <value>Zaikin</value>
+  </data>
+  <data name="names/rus719" xml:space="preserve">
+    <value>Zalutskiy</value>
+  </data>
+  <data name="names/rus72" xml:space="preserve">
+    <value>Rogov</value>
+  </data>
+  <data name="names/rus720" xml:space="preserve">
+    <value>Rozhnov</value>
+  </data>
+  <data name="names/rus721" xml:space="preserve">
+    <value>Zakrevskiy</value>
+  </data>
+  <data name="names/rus722" xml:space="preserve">
+    <value>Pavlyuchenko</value>
+  </data>
+  <data name="names/rus723" xml:space="preserve">
+    <value>Frantsuzov</value>
+  </data>
+  <data name="names/rus724" xml:space="preserve">
+    <value>Nemtsov</value>
+  </data>
+  <data name="names/rus725" xml:space="preserve">
+    <value>Shvedov</value>
+  </data>
+  <data name="names/rus726" xml:space="preserve">
+    <value>Khokhlov</value>
+  </data>
+  <data name="names/rus727" xml:space="preserve">
+    <value>Bulbash</value>
+  </data>
+  <data name="names/rus728" xml:space="preserve">
+    <value>Stasevich</value>
+  </data>
+  <data name="names/rus729" xml:space="preserve">
+    <value>Shilyaev</value>
+  </data>
+  <data name="names/rus73" xml:space="preserve">
+    <value>Rantsev</value>
+  </data>
+  <data name="names/rus730" xml:space="preserve">
+    <value>Abdulov</value>
+  </data>
+  <data name="names/rus731" xml:space="preserve">
+    <value>Razin</value>
+  </data>
+  <data name="names/rus732" xml:space="preserve">
+    <value>Mazin</value>
+  </data>
+  <data name="names/rus733" xml:space="preserve">
+    <value>Nepyanykh</value>
+  </data>
+  <data name="names/rus734" xml:space="preserve">
+    <value>Bogomaz</value>
+  </data>
+  <data name="names/rus735" xml:space="preserve">
+    <value>Golodnykh</value>
+  </data>
+  <data name="names/rus736" xml:space="preserve">
+    <value>Bachilo</value>
+  </data>
+  <data name="names/rus737" xml:space="preserve">
+    <value>Goloded</value>
+  </data>
+  <data name="names/rus738" xml:space="preserve">
+    <value>Cherginets</value>
+  </data>
+  <data name="names/rus739" xml:space="preserve">
+    <value>Semashko</value>
+  </data>
+  <data name="names/rus74" xml:space="preserve">
+    <value>Gusarov</value>
+  </data>
+  <data name="names/rus740" xml:space="preserve">
+    <value>Kozhemyako</value>
+  </data>
+  <data name="names/rus741" xml:space="preserve">
+    <value>Metyolkin</value>
+  </data>
+  <data name="names/rus742" xml:space="preserve">
+    <value>Vetkin</value>
+  </data>
+  <data name="names/rus743" xml:space="preserve">
+    <value>Vekshin</value>
+  </data>
+  <data name="names/rus744" xml:space="preserve">
+    <value>Shishkin</value>
+  </data>
+  <data name="names/rus745" xml:space="preserve">
+    <value>Bobrov</value>
+  </data>
+  <data name="names/rus746" xml:space="preserve">
+    <value>Latypov</value>
+  </data>
+  <data name="names/rus747" xml:space="preserve">
+    <value>Chugunkin</value>
+  </data>
+  <data name="names/rus748" xml:space="preserve">
+    <value>Kolosnikov</value>
+  </data>
+  <data name="names/rus749" xml:space="preserve">
+    <value>Pestrukhin</value>
+  </data>
+  <data name="names/rus75" xml:space="preserve">
+    <value>Lanskoy</value>
+  </data>
+  <data name="names/rus750" xml:space="preserve">
+    <value>Shatunov</value>
+  </data>
+  <data name="names/rus751" xml:space="preserve">
+    <value>Koval</value>
+  </data>
+  <data name="names/rus752" xml:space="preserve">
+    <value>Valkovich</value>
+  </data>
+  <data name="names/rus753" xml:space="preserve">
+    <value>Korzun</value>
+  </data>
+  <data name="names/rus754" xml:space="preserve">
+    <value>Ruzov</value>
+  </data>
+  <data name="names/rus755" xml:space="preserve">
+    <value>Ryabuzov</value>
+  </data>
+  <data name="names/rus756" xml:space="preserve">
+    <value>Buritskiy</value>
+  </data>
+  <data name="names/rus757" xml:space="preserve">
+    <value>Tynevitskiy</value>
+  </data>
+  <data name="names/rus758" xml:space="preserve">
+    <value>Krachkin</value>
+  </data>
+  <data name="names/rus759" xml:space="preserve">
+    <value>Chaldon</value>
+  </data>
+  <data name="names/rus76" xml:space="preserve">
+    <value>Ulanov</value>
+  </data>
+  <data name="names/rus760" xml:space="preserve">
+    <value>Skokov</value>
+  </data>
+  <data name="names/rus761" xml:space="preserve">
+    <value>Glazyev</value>
+  </data>
+  <data name="names/rus762" xml:space="preserve">
+    <value>Kolobkov</value>
+  </data>
+  <data name="names/rus763" xml:space="preserve">
+    <value>Zalesskiy</value>
+  </data>
+  <data name="names/rus764" xml:space="preserve">
+    <value>Smetanin</value>
+  </data>
+  <data name="names/rus765" xml:space="preserve">
+    <value>Doynikov</value>
+  </data>
+  <data name="names/rus766" xml:space="preserve">
+    <value>Dodonov</value>
+  </data>
+  <data name="names/rus767" xml:space="preserve">
+    <value>Kolodin</value>
+  </data>
+  <data name="names/rus768" xml:space="preserve">
+    <value>Asetskiy</value>
+  </data>
+  <data name="names/rus769" xml:space="preserve">
+    <value>Nekrasov</value>
+  </data>
+  <data name="names/rus77" xml:space="preserve">
+    <value>Lebedev</value>
+  </data>
+  <data name="names/rus770" xml:space="preserve">
+    <value>Savraskin</value>
+  </data>
+  <data name="names/rus771" xml:space="preserve">
+    <value>Savostyanov</value>
+  </data>
+  <data name="names/rus772" xml:space="preserve">
+    <value>Popovich</value>
+  </data>
+  <data name="names/rus773" xml:space="preserve">
+    <value>Boreyko</value>
+  </data>
+  <data name="names/rus774" xml:space="preserve">
+    <value>Koreyko</value>
+  </data>
+  <data name="names/rus775" xml:space="preserve">
+    <value>Baturin</value>
+  </data>
+  <data name="names/rus776" xml:space="preserve">
+    <value>Belotserkovets</value>
+  </data>
+  <data name="names/rus777" xml:space="preserve">
+    <value>Borzov</value>
+  </data>
+  <data name="names/rus778" xml:space="preserve">
+    <value>Buryskiy</value>
+  </data>
+  <data name="names/rus779" xml:space="preserve">
+    <value>Raspopov</value>
+  </data>
+  <data name="names/rus78" xml:space="preserve">
+    <value>Utkin</value>
+  </data>
+  <data name="names/rus780" xml:space="preserve">
+    <value>Aleynichev</value>
+  </data>
+  <data name="names/rus781" xml:space="preserve">
+    <value>Volobuyev</value>
+  </data>
+  <data name="names/rus782" xml:space="preserve">
+    <value>Vyskokov</value>
+  </data>
+  <data name="names/rus783" xml:space="preserve">
+    <value>Garkusha</value>
+  </data>
+  <data name="names/rus784" xml:space="preserve">
+    <value>Glazunov</value>
+  </data>
+  <data name="names/rus785" xml:space="preserve">
+    <value>Gordeyev</value>
+  </data>
+  <data name="names/rus786" xml:space="preserve">
+    <value>Gudz</value>
+  </data>
+  <data name="names/rus787" xml:space="preserve">
+    <value>Gudima</value>
+  </data>
+  <data name="names/rus788" xml:space="preserve">
+    <value>Metelitsa</value>
+  </data>
+  <data name="names/rus789" xml:space="preserve">
+    <value>Plakhov</value>
+  </data>
+  <data name="names/rus79" xml:space="preserve">
+    <value>Gusakov</value>
+  </data>
+  <data name="names/rus790" xml:space="preserve">
+    <value>Domyshev</value>
+  </data>
+  <data name="names/rus791" xml:space="preserve">
+    <value>Drykin</value>
+  </data>
+  <data name="names/rus792" xml:space="preserve">
+    <value>Dobroskokov</value>
+  </data>
+  <data name="names/rus793" xml:space="preserve">
+    <value>Zavadskiy</value>
+  </data>
+  <data name="names/rus794" xml:space="preserve">
+    <value>Zhelezkin</value>
+  </data>
+  <data name="names/rus795" xml:space="preserve">
+    <value>Nogovitsyn</value>
+  </data>
+  <data name="names/rus796" xml:space="preserve">
+    <value>Rukavishnikov</value>
+  </data>
+  <data name="names/rus797" xml:space="preserve">
+    <value>Kireyev</value>
+  </data>
+  <data name="names/rus798" xml:space="preserve">
+    <value>Kleymyonov</value>
+  </data>
+  <data name="names/rus799" xml:space="preserve">
+    <value>Kobzar</value>
+  </data>
+  <data name="names/rus8" xml:space="preserve">
+    <value>Mikhaylov</value>
+  </data>
+  <data name="names/rus80" xml:space="preserve">
+    <value>Beryozkin</value>
+  </data>
+  <data name="names/rus800" xml:space="preserve">
+    <value>Kostyuk</value>
+  </data>
+  <data name="names/rus801" xml:space="preserve">
+    <value>Stashkevich</value>
+  </data>
+  <data name="names/rus802" xml:space="preserve">
+    <value>Kuklachyov</value>
+  </data>
+  <data name="names/rus803" xml:space="preserve">
+    <value>Levchenko</value>
+  </data>
+  <data name="names/rus804" xml:space="preserve">
+    <value>Lesovets</value>
+  </data>
+  <data name="names/rus805" xml:space="preserve">
+    <value>Loban</value>
+  </data>
+  <data name="names/rus806" xml:space="preserve">
+    <value>Pankov</value>
+  </data>
+  <data name="names/rus807" xml:space="preserve">
+    <value>Zasyadko</value>
+  </data>
+  <data name="names/rus808" xml:space="preserve">
+    <value>Ognyov</value>
+  </data>
+  <data name="names/rus809" xml:space="preserve">
+    <value>Milovanov</value>
+  </data>
+  <data name="names/rus81" xml:space="preserve">
+    <value>Molotov</value>
+  </data>
+  <data name="names/rus810" xml:space="preserve">
+    <value>Lyubushkin</value>
+  </data>
+  <data name="names/rus811" xml:space="preserve">
+    <value>Mikhalchuk</value>
+  </data>
+  <data name="names/rus812" xml:space="preserve">
+    <value>Mamontov</value>
+  </data>
+  <data name="names/rus813" xml:space="preserve">
+    <value>Nezhivoy</value>
+  </data>
+  <data name="names/rus814" xml:space="preserve">
+    <value>Novosadov</value>
+  </data>
+  <data name="names/rus815" xml:space="preserve">
+    <value>Oshchepkov</value>
+  </data>
+  <data name="names/rus816" xml:space="preserve">
+    <value>Palyanitsa</value>
+  </data>
+  <data name="names/rus817" xml:space="preserve">
+    <value>Gostev</value>
+  </data>
+  <data name="names/rus818" xml:space="preserve">
+    <value>Petrushkin</value>
+  </data>
+  <data name="names/rus819" xml:space="preserve">
+    <value>Plyushchev</value>
+  </data>
+  <data name="names/rus82" xml:space="preserve">
+    <value>Mordvinov</value>
+  </data>
+  <data name="names/rus820" xml:space="preserve">
+    <value>Redchenko</value>
+  </data>
+  <data name="names/rus821" xml:space="preserve">
+    <value>Fedchenko</value>
+  </data>
+  <data name="names/rus822" xml:space="preserve">
+    <value>Ryashin</value>
+  </data>
+  <data name="names/rus823" xml:space="preserve">
+    <value>Sverchkov</value>
+  </data>
+  <data name="names/rus824" xml:space="preserve">
+    <value>Kasimov</value>
+  </data>
+  <data name="names/rus825" xml:space="preserve">
+    <value>Studyonyy</value>
+  </data>
+  <data name="names/rus826" xml:space="preserve">
+    <value>Pleshcheyev</value>
+  </data>
+  <data name="names/rus827" xml:space="preserve">
+    <value>Kleshch</value>
+  </data>
+  <data name="names/rus828" xml:space="preserve">
+    <value>Tulnov</value>
+  </data>
+  <data name="names/rus829" xml:space="preserve">
+    <value>Ulyanov</value>
+  </data>
+  <data name="names/rus83" xml:space="preserve">
+    <value>Litvinov</value>
+  </data>
+  <data name="names/rus830" xml:space="preserve">
+    <value>Tsibulya</value>
+  </data>
+  <data name="names/rus831" xml:space="preserve">
+    <value>Shkapenko</value>
+  </data>
+  <data name="names/rus832" xml:space="preserve">
+    <value>Fryazin</value>
+  </data>
+  <data name="names/rus833" xml:space="preserve">
+    <value>Yendovin</value>
+  </data>
+  <data name="names/rus834" xml:space="preserve">
+    <value>Masterkov</value>
+  </data>
+  <data name="names/rus835" xml:space="preserve">
+    <value>Bulyga</value>
+  </data>
+  <data name="names/rus836" xml:space="preserve">
+    <value>Semago</value>
+  </data>
+  <data name="names/rus837" xml:space="preserve">
+    <value>Syomushkin</value>
+  </data>
+  <data name="names/rus838" xml:space="preserve">
+    <value>Bosyakov</value>
+  </data>
+  <data name="names/rus839" xml:space="preserve">
+    <value>Bespamyatnykh</value>
+  </data>
+  <data name="names/rus84" xml:space="preserve">
+    <value>Ryazanov</value>
+  </data>
+  <data name="names/rus840" xml:space="preserve">
+    <value>Baryatinskiy</value>
+  </data>
+  <data name="names/rus841" xml:space="preserve">
+    <value>Gritsenko</value>
+  </data>
+  <data name="names/rus842" xml:space="preserve">
+    <value>Razumnyak</value>
+  </data>
+  <data name="names/rus843" xml:space="preserve">
+    <value>Mogilnyy</value>
+  </data>
+  <data name="names/rus844" xml:space="preserve">
+    <value>Taranov</value>
+  </data>
+  <data name="names/rus845" xml:space="preserve">
+    <value>Krestovskiy</value>
+  </data>
+  <data name="names/rus846" xml:space="preserve">
+    <value>Kozyulin</value>
+  </data>
+  <data name="names/rus847" xml:space="preserve">
+    <value>Plastunov</value>
+  </data>
+  <data name="names/rus848" xml:space="preserve">
+    <value>Makeyev</value>
+  </data>
+  <data name="names/rus849" xml:space="preserve">
+    <value>Svirin</value>
+  </data>
+  <data name="names/rus85" xml:space="preserve">
+    <value>Nevelskoy</value>
+  </data>
+  <data name="names/rus850" xml:space="preserve">
+    <value>Gorokh</value>
+  </data>
+  <data name="names/rus851" xml:space="preserve">
+    <value>Monakhov</value>
+  </data>
+  <data name="names/rus852" xml:space="preserve">
+    <value>Pogorelov</value>
+  </data>
+  <data name="names/rus853" xml:space="preserve">
+    <value>Karpenko</value>
+  </data>
+  <data name="names/rus854" xml:space="preserve">
+    <value>Prokopenko</value>
+  </data>
+  <data name="names/rus855" xml:space="preserve">
+    <value>Veryovkin</value>
+  </data>
+  <data name="names/rus856" xml:space="preserve">
+    <value>Petlyakov</value>
+  </data>
+  <data name="names/rus857" xml:space="preserve">
+    <value>Salamatin</value>
+  </data>
+  <data name="names/rus858" xml:space="preserve">
+    <value>Soloukhin</value>
+  </data>
+  <data name="names/rus859" xml:space="preserve">
+    <value>Kuzmichyov</value>
+  </data>
+  <data name="names/rus86" xml:space="preserve">
+    <value>Romanov</value>
+  </data>
+  <data name="names/rus860" xml:space="preserve">
+    <value>Shagoyko</value>
+  </data>
+  <data name="names/rus861" xml:space="preserve">
+    <value>Chertogon</value>
+  </data>
+  <data name="names/rus862" xml:space="preserve">
+    <value>Babich</value>
+  </data>
+  <data name="names/rus863" xml:space="preserve">
+    <value>Balabanov</value>
+  </data>
+  <data name="names/rus864" xml:space="preserve">
+    <value>Malikov</value>
+  </data>
+  <data name="names/rus865" xml:space="preserve">
+    <value>Dolgolyubov</value>
+  </data>
+  <data name="names/rus866" xml:space="preserve">
+    <value>Maryakhin</value>
+  </data>
+  <data name="names/rus867" xml:space="preserve">
+    <value>Koryagin</value>
+  </data>
+  <data name="names/rus868" xml:space="preserve">
+    <value>Polezhayev</value>
+  </data>
+  <data name="names/rus869" xml:space="preserve">
+    <value>Pustovoyt</value>
+  </data>
+  <data name="names/rus87" xml:space="preserve">
+    <value>Lopatin</value>
+  </data>
+  <data name="names/rus870" xml:space="preserve">
+    <value>Stradaltsev</value>
+  </data>
+  <data name="names/rus871" xml:space="preserve">
+    <value>Krutov</value>
+  </data>
+  <data name="names/rus872" xml:space="preserve">
+    <value>Pyzhikov</value>
+  </data>
+  <data name="names/rus873" xml:space="preserve">
+    <value>Gaykin</value>
+  </data>
+  <data name="names/rus874" xml:space="preserve">
+    <value>Bazhenov</value>
+  </data>
+  <data name="names/rus875" xml:space="preserve">
+    <value>Bessonov</value>
+  </data>
+  <data name="names/rus876" xml:space="preserve">
+    <value>Shirokov</value>
+  </data>
+  <data name="names/rus877" xml:space="preserve">
+    <value>Blaginykh</value>
+  </data>
+  <data name="names/rus878" xml:space="preserve">
+    <value>Vdovichenko</value>
+  </data>
+  <data name="names/rus879" xml:space="preserve">
+    <value>Gololobov</value>
+  </data>
+  <data name="names/rus88" xml:space="preserve">
+    <value>Zheglov</value>
+  </data>
+  <data name="names/rus880" xml:space="preserve">
+    <value>Golod</value>
+  </data>
+  <data name="names/rus881" xml:space="preserve">
+    <value>Gurtyak</value>
+  </data>
+  <data name="names/rus882" xml:space="preserve">
+    <value>Loginov</value>
+  </data>
+  <data name="names/rus883" xml:space="preserve">
+    <value>Kolodyazhnyy</value>
+  </data>
+  <data name="names/rus884" xml:space="preserve">
+    <value>Korabelshchikov</value>
+  </data>
+  <data name="names/rus885" xml:space="preserve">
+    <value>Korobeynikov</value>
+  </data>
+  <data name="names/rus886" xml:space="preserve">
+    <value>Krivoshlykov</value>
+  </data>
+  <data name="names/rus887" xml:space="preserve">
+    <value>Sudeykin</value>
+  </data>
+  <data name="names/rus888" xml:space="preserve">
+    <value>Tyolkin</value>
+  </data>
+  <data name="names/rus889" xml:space="preserve">
+    <value>Nikulin</value>
+  </data>
+  <data name="names/rus89" xml:space="preserve">
+    <value>Kopytin</value>
+  </data>
+  <data name="names/rus890" xml:space="preserve">
+    <value>Morgunov</value>
+  </data>
+  <data name="names/rus891" xml:space="preserve">
+    <value>Zadnepryanskiy</value>
+  </data>
+  <data name="names/rus892" xml:space="preserve">
+    <value>Nelyubin</value>
+  </data>
+  <data name="names/rus893" xml:space="preserve">
+    <value>Osadchiy</value>
+  </data>
+  <data name="names/rus894" xml:space="preserve">
+    <value>Kobelev</value>
+  </data>
+  <data name="names/rus895" xml:space="preserve">
+    <value>Pokhlebayev</value>
+  </data>
+  <data name="names/rus896" xml:space="preserve">
+    <value>Rastorguyev</value>
+  </data>
+  <data name="names/rus897" xml:space="preserve">
+    <value>Bazarov</value>
+  </data>
+  <data name="names/rus898" xml:space="preserve">
+    <value>Slesarchuk</value>
+  </data>
+  <data name="names/rus899" xml:space="preserve">
+    <value>Tregubov</value>
+  </data>
+  <data name="names/rus9" xml:space="preserve">
+    <value>Andreyev</value>
+  </data>
+  <data name="names/rus90" xml:space="preserve">
+    <value>Tarasov</value>
+  </data>
+  <data name="names/rus900" xml:space="preserve">
+    <value>Chashkin</value>
+  </data>
+  <data name="names/rus901" xml:space="preserve">
+    <value>Fedorin</value>
+  </data>
+  <data name="names/rus902" xml:space="preserve">
+    <value>Khromchenko</value>
+  </data>
+  <data name="names/rus903" xml:space="preserve">
+    <value>Nelogichnyy</value>
+  </data>
+  <data name="names/rus904" xml:space="preserve">
+    <value>Chernysh</value>
+  </data>
+  <data name="names/rus905" xml:space="preserve">
+    <value>Sapozhnikov</value>
+  </data>
+  <data name="names/rus906" xml:space="preserve">
+    <value>Yalovichnyy</value>
+  </data>
+  <data name="names/rus907" xml:space="preserve">
+    <value>Tyndryakov</value>
+  </data>
+  <data name="names/rus908" xml:space="preserve">
+    <value>Parkhayev</value>
+  </data>
+  <data name="names/rus909" xml:space="preserve">
+    <value>Barsukov</value>
+  </data>
+  <data name="names/rus91" xml:space="preserve">
+    <value>Sharapov</value>
+  </data>
+  <data name="names/rus910" xml:space="preserve">
+    <value>Khryakov</value>
+  </data>
+  <data name="names/rus911" xml:space="preserve">
+    <value>Gruzinov</value>
+  </data>
+  <data name="names/rus912" xml:space="preserve">
+    <value>Sibiryakov</value>
+  </data>
+  <data name="names/rus913" xml:space="preserve">
+    <value>Zhuravlyov</value>
+  </data>
+  <data name="names/rus914" xml:space="preserve">
+    <value>Vysotskiy</value>
+  </data>
+  <data name="names/rus915" xml:space="preserve">
+    <value>Busel</value>
+  </data>
+  <data name="names/rus916" xml:space="preserve">
+    <value>Ishutin</value>
+  </data>
+  <data name="names/rus917" xml:space="preserve">
+    <value>Shilov</value>
+  </data>
+  <data name="names/rus918" xml:space="preserve">
+    <value>Kvasnikov</value>
+  </data>
+  <data name="names/rus919" xml:space="preserve">
+    <value>Cheshebok</value>
+  </data>
+  <data name="names/rus92" xml:space="preserve">
+    <value>Sukharev</value>
+  </data>
+  <data name="names/rus920" xml:space="preserve">
+    <value>Saloyedov</value>
+  </data>
+  <data name="names/rus921" xml:space="preserve">
+    <value>Pokotylo</value>
+  </data>
+  <data name="names/rus922" xml:space="preserve">
+    <value>Rubtsov</value>
+  </data>
+  <data name="names/rus923" xml:space="preserve">
+    <value>Skvortsov</value>
+  </data>
+  <data name="names/rus924" xml:space="preserve">
+    <value>Gritsevets</value>
+  </data>
+  <data name="names/rus925" xml:space="preserve">
+    <value>Balyakin</value>
+  </data>
+  <data name="names/rus926" xml:space="preserve">
+    <value>Rogachyov</value>
+  </data>
+  <data name="names/rus927" xml:space="preserve">
+    <value>Bozhko</value>
+  </data>
+  <data name="names/rus928" xml:space="preserve">
+    <value>Galanin</value>
+  </data>
+  <data name="names/rus929" xml:space="preserve">
+    <value>Gnilitskiy</value>
+  </data>
+  <data name="names/rus93" xml:space="preserve">
+    <value>Savelyev</value>
+  </data>
+  <data name="names/rus930" xml:space="preserve">
+    <value>Glotov</value>
+  </data>
+  <data name="names/rus931" xml:space="preserve">
+    <value>Dolgopolov</value>
+  </data>
+  <data name="names/rus932" xml:space="preserve">
+    <value>Sasanyuk</value>
+  </data>
+  <data name="names/rus933" xml:space="preserve">
+    <value>Uvarov</value>
+  </data>
+  <data name="names/rus934" xml:space="preserve">
+    <value>Platov</value>
+  </data>
+  <data name="names/rus935" xml:space="preserve">
+    <value>Urusov</value>
+  </data>
+  <data name="names/rus936" xml:space="preserve">
+    <value>Khrenov</value>
+  </data>
+  <data name="names/rus937" xml:space="preserve">
+    <value>Krupnov</value>
+  </data>
+  <data name="names/rus938" xml:space="preserve">
+    <value>Kurlovich</value>
+  </data>
+  <data name="names/rus939" xml:space="preserve">
+    <value>Kutik</value>
+  </data>
+  <data name="names/rus94" xml:space="preserve">
+    <value>Dobrynin</value>
+  </data>
+  <data name="names/rus940" xml:space="preserve">
+    <value>Skryabin</value>
+  </data>
+  <data name="names/rus941" xml:space="preserve">
+    <value>Volodko</value>
+  </data>
+  <data name="names/rus942" xml:space="preserve">
+    <value>Lyskov</value>
+  </data>
+  <data name="names/rus943" xml:space="preserve">
+    <value>Martynenko</value>
+  </data>
+  <data name="names/rus944" xml:space="preserve">
+    <value>Makarevich</value>
+  </data>
+  <data name="names/rus945" xml:space="preserve">
+    <value>Melekhov</value>
+  </data>
+  <data name="names/rus946" xml:space="preserve">
+    <value>Mysin</value>
+  </data>
+  <data name="names/rus947" xml:space="preserve">
+    <value>Radko</value>
+  </data>
+  <data name="names/rus948" xml:space="preserve">
+    <value>Pechenyuk</value>
+  </data>
+  <data name="names/rus949" xml:space="preserve">
+    <value>Posulko</value>
+  </data>
+  <data name="names/rus95" xml:space="preserve">
+    <value>Dokhturov</value>
+  </data>
+  <data name="names/rus950" xml:space="preserve">
+    <value>Patsyuk</value>
+  </data>
+  <data name="names/rus951" xml:space="preserve">
+    <value>Pichul</value>
+  </data>
+  <data name="names/rus952" xml:space="preserve">
+    <value>Puchkov</value>
+  </data>
+  <data name="names/rus953" xml:space="preserve">
+    <value>Guchkov</value>
+  </data>
+  <data name="names/rus954" xml:space="preserve">
+    <value>Rodzyanko</value>
+  </data>
+  <data name="names/rus955" xml:space="preserve">
+    <value>Ruchkin</value>
+  </data>
+  <data name="names/rus956" xml:space="preserve">
+    <value>Nozhkin</value>
+  </data>
+  <data name="names/rus957" xml:space="preserve">
+    <value>Kutsepalov</value>
+  </data>
+  <data name="names/rus958" xml:space="preserve">
+    <value>Sereda</value>
+  </data>
+  <data name="names/rus959" xml:space="preserve">
+    <value>Subotin</value>
+  </data>
+  <data name="names/rus96" xml:space="preserve">
+    <value>Golovin</value>
+  </data>
+  <data name="names/rus960" xml:space="preserve">
+    <value>Voskresenskiy</value>
+  </data>
+  <data name="names/rus961" xml:space="preserve">
+    <value>Chetverikov</value>
+  </data>
+  <data name="names/rus962" xml:space="preserve">
+    <value>Stenyayev</value>
+  </data>
+  <data name="names/rus963" xml:space="preserve">
+    <value>Golopuzov</value>
+  </data>
+  <data name="names/rus964" xml:space="preserve">
+    <value>Fedulin</value>
+  </data>
+  <data name="names/rus965" xml:space="preserve">
+    <value>Zimin</value>
+  </data>
+  <data name="names/rus966" xml:space="preserve">
+    <value>Chelobanov</value>
+  </data>
+  <data name="names/rus967" xml:space="preserve">
+    <value>Chudinov</value>
+  </data>
+  <data name="names/rus968" xml:space="preserve">
+    <value>Chebotaryov</value>
+  </data>
+  <data name="names/rus969" xml:space="preserve">
+    <value>Shmelyov</value>
+  </data>
+  <data name="names/rus97" xml:space="preserve">
+    <value>Golubev</value>
+  </data>
+  <data name="names/rus970" xml:space="preserve">
+    <value>Shevelkov</value>
+  </data>
+  <data name="names/rus971" xml:space="preserve">
+    <value>Tarasyuk</value>
+  </data>
+  <data name="names/rus972" xml:space="preserve">
+    <value>Voytsekhovskiy</value>
+  </data>
+  <data name="names/rus973" xml:space="preserve">
+    <value>Zhikharyov</value>
+  </data>
+  <data name="names/rus974" xml:space="preserve">
+    <value>Zhigaylo</value>
+  </data>
+  <data name="names/rus975" xml:space="preserve">
+    <value>Kryukov</value>
+  </data>
+  <data name="names/rus976" xml:space="preserve">
+    <value>Kupriyanov</value>
+  </data>
+  <data name="names/rus977" xml:space="preserve">
+    <value>Naydyonov</value>
+  </data>
+  <data name="names/rus978" xml:space="preserve">
+    <value>Pchelikov</value>
+  </data>
+  <data name="names/rus979" xml:space="preserve">
+    <value>Stremaylo</value>
+  </data>
+  <data name="names/rus98" xml:space="preserve">
+    <value>Glebov</value>
+  </data>
+  <data name="names/rus980" xml:space="preserve">
+    <value>Strukov</value>
+  </data>
+  <data name="names/rus981" xml:space="preserve">
+    <value>Shamshulin</value>
+  </data>
+  <data name="names/rus982" xml:space="preserve">
+    <value>Bekteneyev</value>
+  </data>
+  <data name="names/rus983" xml:space="preserve">
+    <value>Bulatchikov</value>
+  </data>
+  <data name="names/rus984" xml:space="preserve">
+    <value>Balakhovich</value>
+  </data>
+  <data name="names/rus985" xml:space="preserve">
+    <value>Aksyonov</value>
+  </data>
+  <data name="names/rus986" xml:space="preserve">
+    <value>Astakhov</value>
+  </data>
+  <data name="names/rus987" xml:space="preserve">
+    <value>Ugryumov</value>
+  </data>
+  <data name="names/rus988" xml:space="preserve">
+    <value>Burmistrov</value>
+  </data>
+  <data name="names/rus989" xml:space="preserve">
+    <value>Uglov</value>
+  </data>
+  <data name="names/rus99" xml:space="preserve">
+    <value>Voropayev</value>
+  </data>
+  <data name="names/rus990" xml:space="preserve">
+    <value>Chervonnyy</value>
+  </data>
+  <data name="names/rus991" xml:space="preserve">
+    <value>Cherevichenko</value>
+  </data>
+  <data name="names/rus992" xml:space="preserve">
+    <value>Minin</value>
+  </data>
+  <data name="names/rus993" xml:space="preserve">
+    <value>Kolyshkin</value>
+  </data>
+  <data name="names/rus994" xml:space="preserve">
+    <value>Bogun</value>
+  </data>
+  <data name="names/rus995" xml:space="preserve">
+    <value>Kiryukhin</value>
+  </data>
+  <data name="names/rus996" xml:space="preserve">
+    <value>Gmyrya</value>
+  </data>
+  <data name="names/rus997" xml:space="preserve">
+    <value>Dudarev</value>
+  </data>
+  <data name="names/rus998" xml:space="preserve">
+    <value>Kolotov</value>
+  </data>
+  <data name="names/rus999" xml:space="preserve">
+    <value>Meshchaninov</value>
+  </data>
+  <data name="names/rusn1" xml:space="preserve">
+    <value>Aleksandr</value>
+  </data>
+  <data name="names/rusn10" xml:space="preserve">
+    <value>Bogdan</value>
+  </data>
+  <data name="names/rusn100" xml:space="preserve">
+    <value>Feliks</value>
+  </data>
+  <data name="names/rusn101" xml:space="preserve">
+    <value>Filipp</value>
+  </data>
+  <data name="names/rusn102" xml:space="preserve">
+    <value>Foma</value>
+  </data>
+  <data name="names/rusn103" xml:space="preserve">
+    <value>Eduard</value>
+  </data>
+  <data name="names/rusn104" xml:space="preserve">
+    <value>Yuriy</value>
+  </data>
+  <data name="names/rusn105" xml:space="preserve">
+    <value>Yakov</value>
+  </data>
+  <data name="names/rusn106" xml:space="preserve">
+    <value>Yaroslav</value>
+  </data>
+  <data name="names/rusn107" xml:space="preserve">
+    <value>Anton</value>
+  </data>
+  <data name="names/rusn11" xml:space="preserve">
+    <value>Boris</value>
+  </data>
+  <data name="names/rusn12" xml:space="preserve">
+    <value>Bronislav</value>
+  </data>
+  <data name="names/rusn13" xml:space="preserve">
+    <value>Vadim</value>
+  </data>
+  <data name="names/rusn14" xml:space="preserve">
+    <value>Valentin</value>
+  </data>
+  <data name="names/rusn15" xml:space="preserve">
+    <value>Valeriy</value>
+  </data>
+  <data name="names/rusn16" xml:space="preserve">
+    <value>Vasiliy</value>
+  </data>
+  <data name="names/rusn17" xml:space="preserve">
+    <value>Veniamin</value>
+  </data>
+  <data name="names/rusn18" xml:space="preserve">
+    <value>Victor</value>
+  </data>
+  <data name="names/rusn19" xml:space="preserve">
+    <value>Vissarion</value>
+  </data>
+  <data name="names/rusn2" xml:space="preserve">
+    <value>Aleksey</value>
+  </data>
+  <data name="names/rusn20" xml:space="preserve">
+    <value>Vitaliy</value>
+  </data>
+  <data name="names/rusn21" xml:space="preserve">
+    <value>Vladlen</value>
+  </data>
+  <data name="names/rusn22" xml:space="preserve">
+    <value>Vladimir</value>
+  </data>
+  <data name="names/rusn23" xml:space="preserve">
+    <value>Vladislav</value>
+  </data>
+  <data name="names/rusn24" xml:space="preserve">
+    <value>Vsevolod</value>
+  </data>
+  <data name="names/rusn25" xml:space="preserve">
+    <value>Vyacheslav</value>
+  </data>
+  <data name="names/rusn26" xml:space="preserve">
+    <value>Gavrila</value>
+  </data>
+  <data name="names/rusn27" xml:space="preserve">
+    <value>Gennadiy</value>
+  </data>
+  <data name="names/rusn28" xml:space="preserve">
+    <value>Georgiy</value>
+  </data>
+  <data name="names/rusn29" xml:space="preserve">
+    <value>Gerasim</value>
+  </data>
+  <data name="names/rusn3" xml:space="preserve">
+    <value>Anatoliy</value>
+  </data>
+  <data name="names/rusn30" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="names/rusn31" xml:space="preserve">
+    <value>Gleb</value>
+  </data>
+  <data name="names/rusn32" xml:space="preserve">
+    <value>Grigoriy</value>
+  </data>
+  <data name="names/rusn33" xml:space="preserve">
+    <value>Danila</value>
+  </data>
+  <data name="names/rusn34" xml:space="preserve">
+    <value>Dementiy</value>
+  </data>
+  <data name="names/rusn35" xml:space="preserve">
+    <value>Demid</value>
+  </data>
+  <data name="names/rusn36" xml:space="preserve">
+    <value>Demyan</value>
+  </data>
+  <data name="names/rusn37" xml:space="preserve">
+    <value>Denis</value>
+  </data>
+  <data name="names/rusn38" xml:space="preserve">
+    <value>Dmitriy</value>
+  </data>
+  <data name="names/rusn39" xml:space="preserve">
+    <value>Yevgeniy</value>
+  </data>
+  <data name="names/rusn4" xml:space="preserve">
+    <value>Andrey</value>
+  </data>
+  <data name="names/rusn40" xml:space="preserve">
+    <value>Yevdokim</value>
+  </data>
+  <data name="names/rusn41" xml:space="preserve">
+    <value>Yegor</value>
+  </data>
+  <data name="names/rusn42" xml:space="preserve">
+    <value>Yemelyan</value>
+  </data>
+  <data name="names/rusn43" xml:space="preserve">
+    <value>Yefim</value>
+  </data>
+  <data name="names/rusn44" xml:space="preserve">
+    <value>Yefrem</value>
+  </data>
+  <data name="names/rusn45" xml:space="preserve">
+    <value>Zakhar</value>
+  </data>
+  <data name="names/rusn46" xml:space="preserve">
+    <value>Zinoviy</value>
+  </data>
+  <data name="names/rusn47" xml:space="preserve">
+    <value>Ivan</value>
+  </data>
+  <data name="names/rusn48" xml:space="preserve">
+    <value>Ignatiy</value>
+  </data>
+  <data name="names/rusn49" xml:space="preserve">
+    <value>Igor</value>
+  </data>
+  <data name="names/rusn5" xml:space="preserve">
+    <value>Arkadiy</value>
+  </data>
+  <data name="names/rusn50" xml:space="preserve">
+    <value>Innokentiy</value>
+  </data>
+  <data name="names/rusn51" xml:space="preserve">
+    <value>Iosif</value>
+  </data>
+  <data name="names/rusn52" xml:space="preserve">
+    <value>Ippolit</value>
+  </data>
+  <data name="names/rusn53" xml:space="preserve">
+    <value>Kazimir</value>
+  </data>
+  <data name="names/rusn54" xml:space="preserve">
+    <value>Kirill</value>
+  </data>
+  <data name="names/rusn55" xml:space="preserve">
+    <value>Kliment</value>
+  </data>
+  <data name="names/rusn56" xml:space="preserve">
+    <value>Konstantin</value>
+  </data>
+  <data name="names/rusn57" xml:space="preserve">
+    <value>Kuzma</value>
+  </data>
+  <data name="names/rusn58" xml:space="preserve">
+    <value>Lavrentiy</value>
+  </data>
+  <data name="names/rusn59" xml:space="preserve">
+    <value>Lev</value>
+  </data>
+  <data name="names/rusn6" xml:space="preserve">
+    <value>Arseniy</value>
+  </data>
+  <data name="names/rusn60" xml:space="preserve">
+    <value>Leonid</value>
+  </data>
+  <data name="names/rusn61" xml:space="preserve">
+    <value>Leontiy</value>
+  </data>
+  <data name="names/rusn62" xml:space="preserve">
+    <value>Makar</value>
+  </data>
+  <data name="names/rusn63" xml:space="preserve">
+    <value>Maksim</value>
+  </data>
+  <data name="names/rusn64" xml:space="preserve">
+    <value>Mark</value>
+  </data>
+  <data name="names/rusn65" xml:space="preserve">
+    <value>Matvey</value>
+  </data>
+  <data name="names/rusn66" xml:space="preserve">
+    <value>Mechislav</value>
+  </data>
+  <data name="names/rusn67" xml:space="preserve">
+    <value>Miroslav</value>
+  </data>
+  <data name="names/rusn68" xml:space="preserve">
+    <value>Mikhail</value>
+  </data>
+  <data name="names/rusn69" xml:space="preserve">
+    <value>Mstislav</value>
+  </data>
+  <data name="names/rusn7" xml:space="preserve">
+    <value>Artyom</value>
+  </data>
+  <data name="names/rusn70" xml:space="preserve">
+    <value>Nikita</value>
+  </data>
+  <data name="names/rusn71" xml:space="preserve">
+    <value>Nikifor</value>
+  </data>
+  <data name="names/rusn72" xml:space="preserve">
+    <value>Nikolay</value>
+  </data>
+  <data name="names/rusn73" xml:space="preserve">
+    <value>Oleg</value>
+  </data>
+  <data name="names/rusn74" xml:space="preserve">
+    <value>Osip</value>
+  </data>
+  <data name="names/rusn75" xml:space="preserve">
+    <value>Ostap</value>
+  </data>
+  <data name="names/rusn76" xml:space="preserve">
+    <value>Pavel</value>
+  </data>
+  <data name="names/rusn77" xml:space="preserve">
+    <value>Pakhom</value>
+  </data>
+  <data name="names/rusn78" xml:space="preserve">
+    <value>Pyotr</value>
+  </data>
+  <data name="names/rusn79" xml:space="preserve">
+    <value>Platon</value>
+  </data>
+  <data name="names/rusn8" xml:space="preserve">
+    <value>Arkhip</value>
+  </data>
+  <data name="names/rusn80" xml:space="preserve">
+    <value>Potap</value>
+  </data>
+  <data name="names/rusn81" xml:space="preserve">
+    <value>Prokhor</value>
+  </data>
+  <data name="names/rusn82" xml:space="preserve">
+    <value>Rodion</value>
+  </data>
+  <data name="names/rusn83" xml:space="preserve">
+    <value>Roman</value>
+  </data>
+  <data name="names/rusn84" xml:space="preserve">
+    <value>Rostislav</value>
+  </data>
+  <data name="names/rusn85" xml:space="preserve">
+    <value>Ruslan</value>
+  </data>
+  <data name="names/rusn86" xml:space="preserve">
+    <value>Svyatoslav</value>
+  </data>
+  <data name="names/rusn87" xml:space="preserve">
+    <value>Semyon</value>
+  </data>
+  <data name="names/rusn88" xml:space="preserve">
+    <value>Sergey</value>
+  </data>
+  <data name="names/rusn89" xml:space="preserve">
+    <value>Sidor</value>
+  </data>
+  <data name="names/rusn9" xml:space="preserve">
+    <value>Afanasiy</value>
+  </data>
+  <data name="names/rusn90" xml:space="preserve">
+    <value>Stanislav</value>
+  </data>
+  <data name="names/rusn91" xml:space="preserve">
+    <value>Stepan</value>
+  </data>
+  <data name="names/rusn92" xml:space="preserve">
+    <value>Taras</value>
+  </data>
+  <data name="names/rusn93" xml:space="preserve">
+    <value>Timofey</value>
+  </data>
+  <data name="names/rusn94" xml:space="preserve">
+    <value>Timur</value>
+  </data>
+  <data name="names/rusn95" xml:space="preserve">
+    <value>Tikhon</value>
+  </data>
+  <data name="names/rusn96" xml:space="preserve">
+    <value>Trifon</value>
+  </data>
+  <data name="names/rusn97" xml:space="preserve">
+    <value>Trofim</value>
+  </data>
+  <data name="names/rusn98" xml:space="preserve">
+    <value>Fyodor</value>
+  </data>
+  <data name="names/rusn99" xml:space="preserve">
+    <value>Fedot</value>
+  </data>
+  <data name="ranksRUS/captain" xml:space="preserve">
+    <value>Kapitan</value>
+  </data>
+  <data name="ranksRUS/junior_lieutenant" xml:space="preserve">
+    <value>Mladshiy Leytenant</value>
+  </data>
+  <data name="ranksRUS/junior_sergeant" xml:space="preserve">
+    <value>Mladshiy Serzhant</value>
+  </data>
+  <data name="ranksRUS/lance_corporal" xml:space="preserve">
+    <value>Yefreytor</value>
+  </data>
+  <data name="ranksRUS/lieutenant" xml:space="preserve">
+    <value>Leytenant</value>
+  </data>
+  <data name="ranksRUS/major" xml:space="preserve">
+    <value>Mayor</value>
+  </data>
+  <data name="ranksRUS/private" xml:space="preserve">
+    <value>Ryadovoy</value>
+  </data>
+  <data name="ranksRUS/senior_lieutenant" xml:space="preserve">
+    <value>Starshiy Leytenant</value>
+  </data>
+  <data name="ranksRUS/senior_sergeant" xml:space="preserve">
+    <value>Starshiy Serzhant</value>
+  </data>
+  <data name="ranksRUS/sergeant" xml:space="preserve">
+    <value>Serzhant</value>
+  </data>
+  <data name="ranksRUS/sergeant_major" xml:space="preserve">
+    <value>Starshina</value>
+  </data>
+  <data name="names/rusn108" xml:space="preserve">
+    <value>Ilya</value>
+  </data>
+  <data name="names/rus1001" xml:space="preserve">
+    <value>Alyabyev</value>
+  </data>
+  <data name="names/rus1002" xml:space="preserve">
+    <value>Bogdanovich</value>
+  </data>
+  <data name="names/rus1003" xml:space="preserve">
+    <value>Veller</value>
+  </data>
+  <data name="names/rus1004" xml:space="preserve">
+    <value>Grebenshchikov</value>
+  </data>
+  <data name="names/rus1005" xml:space="preserve">
+    <value>Dovlatov</value>
+  </data>
+  <data name="names/rus1006" xml:space="preserve">
+    <value>Dunayevskiy</value>
+  </data>
+  <data name="names/rus1007" xml:space="preserve">
+    <value>Yemelyanenko</value>
+  </data>
+  <data name="names/rus1008" xml:space="preserve">
+    <value>Ivashkevich</value>
+  </data>
+  <data name="names/rus1009" xml:space="preserve">
+    <value>Makayonok</value>
+  </data>
+  <data name="names/rus1010" xml:space="preserve">
+    <value>Matyukhov</value>
+  </data>
+  <data name="names/rus1011" xml:space="preserve">
+    <value>Mayakovskiy</value>
+  </data>
+  <data name="names/rus1012" xml:space="preserve">
+    <value>Minenkov</value>
+  </data>
+  <data name="names/rus1013" xml:space="preserve">
+    <value>Mulyavin</value>
+  </data>
+  <data name="names/rus1014" xml:space="preserve">
+    <value>Protsko</value>
+  </data>
+  <data name="names/rus1015" xml:space="preserve">
+    <value>Rakhmaninov</value>
+  </data>
+  <data name="names/rus1016" xml:space="preserve">
+    <value>Sagdullayev</value>
+  </data>
+  <data name="names/rus1017" xml:space="preserve">
+    <value>Sapkovskiy</value>
+  </data>
+  <data name="names/rus1018" xml:space="preserve">
+    <value>Stezhenskiy</value>
+  </data>
+  <data name="names/rus1019" xml:space="preserve">
+    <value>Stravinskiy</value>
+  </data>
+  <data name="names/rus1020" xml:space="preserve">
+    <value>Titarenko</value>
+  </data>
+  <data name="names/rus1021" xml:space="preserve">
+    <value>Filatov</value>
+  </data>
+  <data name="names/rus1022" xml:space="preserve">
+    <value>Fomin</value>
+  </data>
+  <data name="names/rus1023" xml:space="preserve">
+    <value>Khachaturyan</value>
+  </data>
+  <data name="names/rus1024" xml:space="preserve">
+    <value>Chaykovskiy</value>
+  </data>
+  <data name="names/rus1025" xml:space="preserve">
+    <value>Shostakovich</value>
+  </data>
+  <data name="names/rus1026" xml:space="preserve">
+    <value>Yakovlev</value>
+  </data>
+  <data name="names/rus1027" xml:space="preserve">
+    <value>Lazarenko</value>
+  </data>
+  <data name="names/rus1028" xml:space="preserve">
+    <value>Novozhilov</value>
+  </data>
+  <data name="names/rus1029" xml:space="preserve">
+    <value>Urakov</value>
+  </data>
+  <data name="names/rus1030" xml:space="preserve">
+    <value>Ovchinnikov</value>
+  </data>
+  <data name="names/rus1031" xml:space="preserve">
+    <value>Saltsevich</value>
+  </data>
+  <data name="names/rus1032" xml:space="preserve">
+    <value>Eristov</value>
+  </data>
+  <data name="names/rus1033" xml:space="preserve">
+    <value>Borovoy</value>
+  </data>
+  <data name="names/rus1034" xml:space="preserve">
+    <value>Sivtsov</value>
+  </data>
+  <data name="names/rus1035" xml:space="preserve">
+    <value>Krysanov</value>
+  </data>
+  <data name="names/rus1036" xml:space="preserve">
+    <value>Rak</value>
+  </data>
+  <data name="names/rusn109" xml:space="preserve">
+    <value>Aram</value>
+  </data>
+  <data name="names/rusn110" xml:space="preserve">
+    <value>Rustam</value>
+  </data>
+  <data name="names/rusn111" xml:space="preserve">
+    <value>Kastus</value>
+  </data>
+  <data name="names/rusn112" xml:space="preserve">
+    <value>Marat</value>
+  </data>
+  <data name="names/rus1037" xml:space="preserve">
+    <value>Ageyev</value>
+  </data>
+  <data name="names/rus1038" xml:space="preserve">
+    <value>Adarichev</value>
+  </data>
+  <data name="names/rus1039" xml:space="preserve">
+    <value>Andriyesh</value>
+  </data>
+  <data name="names/rus1040" xml:space="preserve">
+    <value>Arkayev</value>
+  </data>
+  <data name="names/rus1041" xml:space="preserve">
+    <value>Artemyev</value>
+  </data>
+  <data name="names/rus1042" xml:space="preserve">
+    <value>Astapenko</value>
+  </data>
+  <data name="names/rus1043" xml:space="preserve">
+    <value>Balakhin</value>
+  </data>
+  <data name="names/rus1044" xml:space="preserve">
+    <value>Begun</value>
+  </data>
+  <data name="names/rus1045" xml:space="preserve">
+    <value>Bogunov</value>
+  </data>
+  <data name="names/rus1046" xml:space="preserve">
+    <value>Bochkovskiy</value>
+  </data>
+  <data name="names/rus1047" xml:space="preserve">
+    <value>Butusov</value>
+  </data>
+  <data name="names/rus1048" xml:space="preserve">
+    <value>Byankin</value>
+  </data>
+  <data name="names/rus1049" xml:space="preserve">
+    <value>Ganin</value>
+  </data>
+  <data name="names/rus1050" xml:space="preserve">
+    <value>Gvozdyov</value>
+  </data>
+  <data name="names/rus1051" xml:space="preserve">
+    <value>Gorelov</value>
+  </data>
+  <data name="names/rus1052" xml:space="preserve">
+    <value>Grinchenko</value>
+  </data>
+  <data name="names/rus1053" xml:space="preserve">
+    <value>Domeshek</value>
+  </data>
+  <data name="names/rus1054" xml:space="preserve">
+    <value>Dyakin</value>
+  </data>
+  <data name="names/rus1055" xml:space="preserve">
+    <value>Yermilov</value>
+  </data>
+  <data name="names/rus1056" xml:space="preserve">
+    <value>Zakharenkov</value>
+  </data>
+  <data name="names/rus1057" xml:space="preserve">
+    <value>Kabinetskiy</value>
+  </data>
+  <data name="names/rus1058" xml:space="preserve">
+    <value>Kiselyov</value>
+  </data>
+  <data name="names/rus1059" xml:space="preserve">
+    <value>Klimenko</value>
+  </data>
+  <data name="names/rus1060" xml:space="preserve">
+    <value>Klimchuk</value>
+  </data>
+  <data name="names/rus1061" xml:space="preserve">
+    <value>Kurnakov</value>
+  </data>
+  <data name="names/rus1062" xml:space="preserve">
+    <value>Kuchenkov</value>
+  </data>
+  <data name="names/rus1063" xml:space="preserve">
+    <value>Lavrinenko</value>
+  </data>
+  <data name="names/rus1064" xml:space="preserve">
+    <value>Lazarev</value>
+  </data>
+  <data name="names/rus1065" xml:space="preserve">
+    <value>Lobachyov</value>
+  </data>
+  <data name="names/rus1066" xml:space="preserve">
+    <value>Lunin</value>
+  </data>
+  <data name="names/rus1067" xml:space="preserve">
+    <value>Lychagin</value>
+  </data>
+  <data name="names/rus1068" xml:space="preserve">
+    <value>Maleshkin</value>
+  </data>
+  <data name="names/rus1069" xml:space="preserve">
+    <value>Maslov</value>
+  </data>
+  <data name="names/rus1070" xml:space="preserve">
+    <value>Pechenin</value>
+  </data>
+  <data name="names/rus1071" xml:space="preserve">
+    <value>Polyakov</value>
+  </data>
+  <data name="names/rus1072" xml:space="preserve">
+    <value>Pshenichnyy</value>
+  </data>
+  <data name="names/rus1073" xml:space="preserve">
+    <value>Samokhin</value>
+  </data>
+  <data name="names/rus1074" xml:space="preserve">
+    <value>Sevastyanov</value>
+  </data>
+  <data name="names/rus1075" xml:space="preserve">
+    <value>Semenyuk</value>
+  </data>
+  <data name="names/rus1076" xml:space="preserve">
+    <value>Talalayev</value>
+  </data>
+  <data name="names/rus1077" xml:space="preserve">
+    <value>Tarabuyev</value>
+  </data>
+  <data name="names/rus1078" xml:space="preserve">
+    <value>Tereshko</value>
+  </data>
+  <data name="names/rus1079" xml:space="preserve">
+    <value>Tkachyov</value>
+  </data>
+  <data name="names/rus1080" xml:space="preserve">
+    <value>Ushakov</value>
+  </data>
+  <data name="names/rus1081" xml:space="preserve">
+    <value>Khalimov</value>
+  </data>
+  <data name="names/rus1082" xml:space="preserve">
+    <value>Khamzin</value>
+  </data>
+  <data name="names/rus1083" xml:space="preserve">
+    <value>Tsvetkov</value>
+  </data>
+  <data name="names/rus1084" xml:space="preserve">
+    <value>Shneyder</value>
+  </data>
+  <data name="names/rus1085" xml:space="preserve">
+    <value>Shcherbak</value>
+  </data>
+  <data name="names/rus1086" xml:space="preserve">
+    <value>Yurchenko</value>
+  </data>
+  <data name="names/rus11001" xml:space="preserve">
+    <value>Lapshina</value>
+  </data>
+  <data name="names/rus11002" xml:space="preserve">
+    <value>Shemetova</value>
+  </data>
+  <data name="names/rus11003" xml:space="preserve">
+    <value>Kravchenko</value>
+  </data>
+  <data name="names/rus11004" xml:space="preserve">
+    <value>Kovalyova</value>
+  </data>
+  <data name="names/rus11005" xml:space="preserve">
+    <value>Zakharenko</value>
+  </data>
+  <data name="names/rus11006" xml:space="preserve">
+    <value>Blokhina</value>
+  </data>
+  <data name="names/rus11007" xml:space="preserve">
+    <value>Shebalina</value>
+  </data>
+  <data name="names/rus11008" xml:space="preserve">
+    <value>Merzlikina</value>
+  </data>
+  <data name="names/rus11009" xml:space="preserve">
+    <value>Yeryomina</value>
+  </data>
+  <data name="names/rus11010" xml:space="preserve">
+    <value>Litvinova</value>
+  </data>
+  <data name="names/rus11011" xml:space="preserve">
+    <value>Presnetsova</value>
+  </data>
+  <data name="names/rus11012" xml:space="preserve">
+    <value>Gerasimovich</value>
+  </data>
+  <data name="names/rus11013" xml:space="preserve">
+    <value>Sulimenko</value>
+  </data>
+  <data name="names/rus11014" xml:space="preserve">
+    <value>Zhilko</value>
+  </data>
+  <data name="names/rus11015" xml:space="preserve">
+    <value>Zaprudskaya</value>
+  </data>
+  <data name="names/rus11016" xml:space="preserve">
+    <value>Mikhalko</value>
+  </data>
+  <data name="names/rus11017" xml:space="preserve">
+    <value>Petrova</value>
+  </data>
+  <data name="names/rus11018" xml:space="preserve">
+    <value>Vasilyeva</value>
+  </data>
+  <data name="names/rus11019" xml:space="preserve">
+    <value>Anikina</value>
+  </data>
+  <data name="names/rus11020" xml:space="preserve">
+    <value>Samokhina</value>
+  </data>
+  <data name="names/rusn11001" xml:space="preserve">
+    <value>Olga</value>
+  </data>
+  <data name="names/rusn11002" xml:space="preserve">
+    <value>Natalya</value>
+  </data>
+  <data name="names/rusn11003" xml:space="preserve">
+    <value>Anna</value>
+  </data>
+  <data name="names/rusn11004" xml:space="preserve">
+    <value>Mariya</value>
+  </data>
+  <data name="names/rusn11005" xml:space="preserve">
+    <value>Zinaida</value>
+  </data>
+  <data name="names/rusn11006" xml:space="preserve">
+    <value>Irina</value>
+  </data>
+  <data name="names/rusn11007" xml:space="preserve">
+    <value>Svetlana</value>
+  </data>
+  <data name="names/rusn11008" xml:space="preserve">
+    <value>Zoya</value>
+  </data>
+  <data name="names/rusn11009" xml:space="preserve">
+    <value>Ludmila</value>
+  </data>
+  <data name="names/rusn11010" xml:space="preserve">
+    <value>Tatyana</value>
+  </data>
+  <data name="names/rusn11011" xml:space="preserve">
+    <value>Yelena</value>
+  </data>
+  <data name="names/rusn11012" xml:space="preserve">
+    <value>Aleksandra</value>
+  </data>
+  <data name="names/rusn11013" xml:space="preserve">
+    <value>Galina</value>
+  </data>
+  <data name="names/rusn11014" xml:space="preserve">
+    <value>Vera</value>
+  </data>
+  <data name="names/rusn11015" xml:space="preserve">
+    <value>Yekaterina</value>
+  </data>
+  <data name="names/rusn11016" xml:space="preserve">
+    <value>Valentina</value>
+  </data>
+  <data name="names/rusn11017" xml:space="preserve">
+    <value>Inna</value>
+  </data>
+  <data name="names/rusn11018" xml:space="preserve">
+    <value>Alla</value>
+  </data>
+  <data name="names/rusn11019" xml:space="preserve">
+    <value>Anastasiya</value>
+  </data>
+  <data name="names/rusn11020" xml:space="preserve">
+    <value>Nadezhda</value>
+  </data>
+  <data name="names/rus3001" xml:space="preserve">
+    <value>Kos</value>
+  </data>
+  <data name="names/rus3002" xml:space="preserve">
+    <value>Jeleń</value>
+  </data>
+  <data name="names/rus3003" xml:space="preserve">
+    <value>Saakaszwili</value>
+  </data>
+  <data name="names/rus3004" xml:space="preserve">
+    <value>Czereśniak</value>
+  </data>
+  <data name="names/rusn3001" xml:space="preserve">
+    <value>Jan</value>
+  </data>
+  <data name="names/rusn3002" xml:space="preserve">
+    <value>Gustaw</value>
+  </data>
+  <data name="names/rusn3003" xml:space="preserve">
+    <value>Grigorij</value>
+  </data>
+  <data name="names/rusn3004" xml:space="preserve">
+    <value>Tomasz</value>
+  </data>
+  <data name="names/rus11021" xml:space="preserve">
+    <value>Ostrovskaya</value>
+  </data>
+  <data name="names/rus11022" xml:space="preserve">
+    <value>Goncharova</value>
+  </data>
+  <data name="names/rus11023" xml:space="preserve">
+    <value>Klimovskaya</value>
+  </data>
+  <data name="names/rus11024" xml:space="preserve">
+    <value>Zvyagintseva</value>
+  </data>
+  <data name="names/rus11025" xml:space="preserve">
+    <value>Korneyeva</value>
+  </data>
+  <data name="names/rus11026" xml:space="preserve">
+    <value>Privalova</value>
+  </data>
+  <data name="names/rus11027" xml:space="preserve">
+    <value>Maltseva</value>
+  </data>
+  <data name="names/rus11028" xml:space="preserve">
+    <value>Belchikova</value>
+  </data>
+  <data name="names/rus11029" xml:space="preserve">
+    <value>Sokolova</value>
+  </data>
+  <data name="names/rus11030" xml:space="preserve">
+    <value>Glybina</value>
+  </data>
+  <data name="names/rus11031" xml:space="preserve">
+    <value>Larina</value>
+  </data>
+  <data name="names/rus11032" xml:space="preserve">
+    <value>Lavrentyeva</value>
+  </data>
+  <data name="names/rus11033" xml:space="preserve">
+    <value>Piskunova</value>
+  </data>
+  <data name="names/rus11034" xml:space="preserve">
+    <value>Surikova</value>
+  </data>
+  <data name="names/rus11035" xml:space="preserve">
+    <value>Vinogradova</value>
+  </data>
+  <data name="names/rus11036" xml:space="preserve">
+    <value>Korzhenevskaya</value>
+  </data>
+  <data name="names/rus11037" xml:space="preserve">
+    <value>Novikova</value>
+  </data>
+  <data name="names/rus11038" xml:space="preserve">
+    <value>Izmaylova</value>
+  </data>
+  <data name="names/rus11039" xml:space="preserve">
+    <value>Markova</value>
+  </data>
+  <data name="names/rus11040" xml:space="preserve">
+    <value>Dubasova</value>
+  </data>
+  <data name="names/rusn11021" xml:space="preserve">
+    <value>Antonina</value>
+  </data>
+  <data name="names/rusn11022" xml:space="preserve">
+    <value>Veronika</value>
+  </data>
+  <data name="names/rusn11023" xml:space="preserve">
+    <value>Darya</value>
+  </data>
+  <data name="names/rusn11024" xml:space="preserve">
+    <value>Yevgeniya</value>
+  </data>
+  <data name="names/rusn11025" xml:space="preserve">
+    <value>Yelizaveta</value>
+  </data>
+  <data name="names/rusn11026" xml:space="preserve">
+    <value>Klavdiya</value>
+  </data>
+  <data name="names/rusn11027" xml:space="preserve">
+    <value>Kseniya</value>
+  </data>
+  <data name="names/rusn11028" xml:space="preserve">
+    <value>Larisa</value>
+  </data>
+  <data name="names/rusn11029" xml:space="preserve">
+    <value>Lidiya</value>
+  </data>
+  <data name="names/rusn11030" xml:space="preserve">
+    <value>Lyubov</value>
+  </data>
+  <data name="names/rusn11031" xml:space="preserve">
+    <value>Maya</value>
+  </data>
+  <data name="names/rusn11032" xml:space="preserve">
+    <value>Margarita</value>
+  </data>
+  <data name="names/rusn11033" xml:space="preserve">
+    <value>Marina</value>
+  </data>
+  <data name="names/rusn11034" xml:space="preserve">
+    <value>Nina</value>
+  </data>
+  <data name="names/rusn11035" xml:space="preserve">
+    <value>Polina</value>
+  </data>
+  <data name="names/rusn11036" xml:space="preserve">
+    <value>Raisa</value>
+  </data>
+  <data name="names/rusn11037" xml:space="preserve">
+    <value>Sofiya</value>
+  </data>
+  <data name="names/rusn11038" xml:space="preserve">
+    <value>Tamara</value>
+  </data>
+  <data name="names/rusn11039" xml:space="preserve">
+    <value>Ulyana</value>
+  </data>
+  <data name="names/rusn11040" xml:space="preserve">
+    <value>Yuliya</value>
+  </data>
+  <data name="names/rus1087" xml:space="preserve">
+    <value>Shevtsov</value>
+  </data>
+  <data name="names/rus1088" xml:space="preserve">
+    <value>Agarkov</value>
+  </data>
+  <data name="names/rus1089" xml:space="preserve">
+    <value>Agopyan</value>
+  </data>
+  <data name="names/rus1090" xml:space="preserve">
+    <value>Alabayev</value>
+  </data>
+  <data name="names/rus1091" xml:space="preserve">
+    <value>Alibasov</value>
+  </data>
+  <data name="names/rus1092" xml:space="preserve">
+    <value>Alikhanov</value>
+  </data>
+  <data name="names/rus1093" xml:space="preserve">
+    <value>Arinbasarov</value>
+  </data>
+  <data name="names/rus1094" xml:space="preserve">
+    <value>Akhmetov</value>
+  </data>
+  <data name="names/rus1095" xml:space="preserve">
+    <value>Babadzhanyan</value>
+  </data>
+  <data name="names/rus1096" xml:space="preserve">
+    <value>Bagramyan</value>
+  </data>
+  <data name="names/rus1097" xml:space="preserve">
+    <value>Baratashvili</value>
+  </data>
+  <data name="names/rus1098" xml:space="preserve">
+    <value>Batrutdinov</value>
+  </data>
+  <data name="names/rus1099" xml:space="preserve">
+    <value>Bekmabetov</value>
+  </data>
+  <data name="names/rus1100" xml:space="preserve">
+    <value>Bregvadze</value>
+  </data>
+  <data name="names/rus1101" xml:space="preserve">
+    <value>Burchuladze</value>
+  </data>
+  <data name="names/rus1102" xml:space="preserve">
+    <value>Gevorkyan</value>
+  </data>
+  <data name="names/rus1103" xml:space="preserve">
+    <value>Goriavin</value>
+  </data>
+  <data name="names/rus1104" xml:space="preserve">
+    <value>Grigoryan</value>
+  </data>
+  <data name="names/rus11041" xml:space="preserve">
+    <value>Avilova</value>
+  </data>
+  <data name="names/rus11042" xml:space="preserve">
+    <value>Antipova</value>
+  </data>
+  <data name="names/rus11043" xml:space="preserve">
+    <value>Asmolova</value>
+  </data>
+  <data name="names/rus11044" xml:space="preserve">
+    <value>Bagirova</value>
+  </data>
+  <data name="names/rus11045" xml:space="preserve">
+    <value>Berezina</value>
+  </data>
+  <data name="names/rus11046" xml:space="preserve">
+    <value>Belkovets</value>
+  </data>
+  <data name="names/rus11047" xml:space="preserve">
+    <value>Blashchuk</value>
+  </data>
+  <data name="names/rus11048" xml:space="preserve">
+    <value>Boiko</value>
+  </data>
+  <data name="names/rus11049" xml:space="preserve">
+    <value>Boldyryova</value>
+  </data>
+  <data name="names/rus1105" xml:space="preserve">
+    <value>Dzhangirov</value>
+  </data>
+  <data name="names/rus11050" xml:space="preserve">
+    <value>Burko</value>
+  </data>
+  <data name="names/rus11051" xml:space="preserve">
+    <value>Valetskaya</value>
+  </data>
+  <data name="names/rus11052" xml:space="preserve">
+    <value>Verzhbalovich</value>
+  </data>
+  <data name="names/rus11053" xml:space="preserve">
+    <value>Volkova</value>
+  </data>
+  <data name="names/rus11054" xml:space="preserve">
+    <value>Vorontsova</value>
+  </data>
+  <data name="names/rus11055" xml:space="preserve">
+    <value>Gagarina</value>
+  </data>
+  <data name="names/rus11056" xml:space="preserve">
+    <value>Gareeva</value>
+  </data>
+  <data name="names/rus11057" xml:space="preserve">
+    <value>Gruzdeva</value>
+  </data>
+  <data name="names/rus11058" xml:space="preserve">
+    <value>Guseva</value>
+  </data>
+  <data name="names/rus11059" xml:space="preserve">
+    <value>Dmitriyenko</value>
+  </data>
+  <data name="names/rus1106" xml:space="preserve">
+    <value>Zurabov</value>
+  </data>
+  <data name="names/rus11060" xml:space="preserve">
+    <value>Dudyeva</value>
+  </data>
+  <data name="names/rus11061" xml:space="preserve">
+    <value>Egorova</value>
+  </data>
+  <data name="names/rus11062" xml:space="preserve">
+    <value>Yemelyanenko</value>
+  </data>
+  <data name="names/rus11063" xml:space="preserve">
+    <value>Ermakova</value>
+  </data>
+  <data name="names/rus11064" xml:space="preserve">
+    <value>Zhitnik</value>
+  </data>
+  <data name="names/rus11065" xml:space="preserve">
+    <value>Zakharchenko</value>
+  </data>
+  <data name="names/rus11066" xml:space="preserve">
+    <value>Zinchenko</value>
+  </data>
+  <data name="names/rus11067" xml:space="preserve">
+    <value>Ivanova</value>
+  </data>
+  <data name="names/rus11068" xml:space="preserve">
+    <value>Ilyina</value>
+  </data>
+  <data name="names/rus11069" xml:space="preserve">
+    <value>Kobrinskaya</value>
+  </data>
+  <data name="names/rus1107" xml:space="preserve">
+    <value>Kaydagarov</value>
+  </data>
+  <data name="names/rus11070" xml:space="preserve">
+    <value>Konovalova</value>
+  </data>
+  <data name="names/rus11071" xml:space="preserve">
+    <value>Krestovskaya</value>
+  </data>
+  <data name="names/rus11072" xml:space="preserve">
+    <value>Kuznetsova</value>
+  </data>
+  <data name="names/rus11073" xml:space="preserve">
+    <value>Kucherova</value>
+  </data>
+  <data name="names/rus11074" xml:space="preserve">
+    <value>Litvinchik</value>
+  </data>
+  <data name="names/rus11075" xml:space="preserve">
+    <value>Lorina</value>
+  </data>
+  <data name="names/rus11076" xml:space="preserve">
+    <value>Meyerson</value>
+  </data>
+  <data name="names/rus11077" xml:space="preserve">
+    <value>Merkel</value>
+  </data>
+  <data name="names/rus11078" xml:space="preserve">
+    <value>Mironova</value>
+  </data>
+  <data name="names/rus11079" xml:space="preserve">
+    <value>Moskvina</value>
+  </data>
+  <data name="names/rus1108" xml:space="preserve">
+    <value>Kuzembayev</value>
+  </data>
+  <data name="names/rus11080" xml:space="preserve">
+    <value>Novozhilova</value>
+  </data>
+  <data name="names/rus11081" xml:space="preserve">
+    <value>Orlova</value>
+  </data>
+  <data name="names/rus11082" xml:space="preserve">
+    <value>Perova</value>
+  </data>
+  <data name="names/rus11083" xml:space="preserve">
+    <value>Polishchuk</value>
+  </data>
+  <data name="names/rus11084" xml:space="preserve">
+    <value>Polikarpova</value>
+  </data>
+  <data name="names/rus11085" xml:space="preserve">
+    <value>Prilukina</value>
+  </data>
+  <data name="names/rus11086" xml:space="preserve">
+    <value>Prokudina</value>
+  </data>
+  <data name="names/rus11087" xml:space="preserve">
+    <value>Pugacheva</value>
+  </data>
+  <data name="names/rus11088" xml:space="preserve">
+    <value>Ramazanova</value>
+  </data>
+  <data name="names/rus11089" xml:space="preserve">
+    <value>Sakhovskaia</value>
+  </data>
+  <data name="names/rus1109" xml:space="preserve">
+    <value>Mikoian</value>
+  </data>
+  <data name="names/rus11090" xml:space="preserve">
+    <value>Semenova</value>
+  </data>
+  <data name="names/rus11091" xml:space="preserve">
+    <value>Simonova</value>
+  </data>
+  <data name="names/rus11092" xml:space="preserve">
+    <value>Smirnova</value>
+  </data>
+  <data name="names/rus11093" xml:space="preserve">
+    <value>Solovyova</value>
+  </data>
+  <data name="names/rus11094" xml:space="preserve">
+    <value>Sukhanova</value>
+  </data>
+  <data name="names/rus11095" xml:space="preserve">
+    <value>Tereschenkova</value>
+  </data>
+  <data name="names/rus11096" xml:space="preserve">
+    <value>Trikolich</value>
+  </data>
+  <data name="names/rus11097" xml:space="preserve">
+    <value>Filatova</value>
+  </data>
+  <data name="names/rus11098" xml:space="preserve">
+    <value>Halimova</value>
+  </data>
+  <data name="names/rus11099" xml:space="preserve">
+    <value>Chicherina</value>
+  </data>
+  <data name="names/rus1110" xml:space="preserve">
+    <value>Musabaev</value>
+  </data>
+  <data name="names/rus11100" xml:space="preserve">
+    <value>Chudaeva</value>
+  </data>
+  <data name="names/rus11101" xml:space="preserve">
+    <value>Shaletskaia</value>
+  </data>
+  <data name="names/rus11102" xml:space="preserve">
+    <value>Shepeleva</value>
+  </data>
+  <data name="names/rus11103" xml:space="preserve">
+    <value>Schukina</value>
+  </data>
+  <data name="names/rus11104" xml:space="preserve">
+    <value>Yurchenko</value>
+  </data>
+  <data name="names/rus11105" xml:space="preserve">
+    <value>Yurtaeva</value>
+  </data>
+  <data name="names/rus11106" xml:space="preserve">
+    <value>Yakovleva</value>
+  </data>
+  <data name="names/rus11107" xml:space="preserve">
+    <value>Yashina</value>
+  </data>
+  <data name="names/rus1111" xml:space="preserve">
+    <value>Musagaliev</value>
+  </data>
+  <data name="names/rus1112" xml:space="preserve">
+    <value>Nezhinskiy</value>
+  </data>
+  <data name="names/rus1113" xml:space="preserve">
+    <value>Samets</value>
+  </data>
+  <data name="names/rus1114" xml:space="preserve">
+    <value>Ragimov</value>
+  </data>
+  <data name="names/rus1115" xml:space="preserve">
+    <value>Serkebaev</value>
+  </data>
+  <data name="names/rus1116" xml:space="preserve">
+    <value>Simonov</value>
+  </data>
+  <data name="names/rus1117" xml:space="preserve">
+    <value>Simonian</value>
+  </data>
+  <data name="names/rus1118" xml:space="preserve">
+    <value>Sotkilava</value>
+  </data>
+  <data name="names/rus1119" xml:space="preserve">
+    <value>Tabidze</value>
+  </data>
+  <data name="names/rus1120" xml:space="preserve">
+    <value>Tankian</value>
+  </data>
+  <data name="names/rus1121" xml:space="preserve">
+    <value>Titkov</value>
+  </data>
+  <data name="names/rus1122" xml:space="preserve">
+    <value>Utiashev</value>
+  </data>
+  <data name="names/rus1123" xml:space="preserve">
+    <value>Habibulin</value>
+  </data>
+  <data name="names/rus1124" xml:space="preserve">
+    <value>Khazbulatov</value>
+  </data>
+  <data name="names/rus1125" xml:space="preserve">
+    <value>Tsirateli</value>
+  </data>
+  <data name="names/rus1126" xml:space="preserve">
+    <value>Chiaureli</value>
+  </data>
+  <data name="names/rus1127" xml:space="preserve">
+    <value>Chingizov</value>
+  </data>
+  <data name="names/rus1128" xml:space="preserve">
+    <value>Chubov</value>
+  </data>
+  <data name="names/rus1129" xml:space="preserve">
+    <value>Shakhnazarov</value>
+  </data>
+  <data name="names/rus1130" xml:space="preserve">
+    <value>Shkurskiy</value>
+  </data>
+  <data name="names/rus1131" xml:space="preserve">
+    <value>Antipov</value>
+  </data>
+  <data name="names/rus1132" xml:space="preserve">
+    <value>Belkovets</value>
+  </data>
+  <data name="names/rus1133" xml:space="preserve">
+    <value>Berezin</value>
+  </data>
+  <data name="names/rus1134" xml:space="preserve">
+    <value>Blashchuk</value>
+  </data>
+  <data name="names/rus1135" xml:space="preserve">
+    <value>Boiko</value>
+  </data>
+  <data name="names/rus1136" xml:space="preserve">
+    <value>Boldyrev</value>
+  </data>
+  <data name="names/rus1137" xml:space="preserve">
+    <value>Vorontsov</value>
+  </data>
+  <data name="names/rus1138" xml:space="preserve">
+    <value>Gusiev</value>
+  </data>
+  <data name="names/rus1139" xml:space="preserve">
+    <value>Ermakov</value>
+  </data>
+  <data name="names/rus1140" xml:space="preserve">
+    <value>Zinchenko</value>
+  </data>
+  <data name="names/rus1141" xml:space="preserve">
+    <value>Konovalov</value>
+  </data>
+  <data name="names/rus1142" xml:space="preserve">
+    <value>Krysanov</value>
+  </data>
+  <data name="names/rus1143" xml:space="preserve">
+    <value>Myrsanov</value>
+  </data>
+  <data name="names/rus1144" xml:space="preserve">
+    <value>Prokopiev</value>
+  </data>
+  <data name="names/rus1145" xml:space="preserve">
+    <value>Prohorchuk</value>
+  </data>
+  <data name="names/rus1146" xml:space="preserve">
+    <value>Soloviev</value>
+  </data>
+  <data name="names/rus1147" xml:space="preserve">
+    <value>Trikolich</value>
+  </data>
+  <data name="names/rus1148" xml:space="preserve">
+    <value>Usov</value>
+  </data>
+  <data name="names/rus1149" xml:space="preserve">
+    <value>Yurtaev</value>
+  </data>
+  <data name="names/rus1150" xml:space="preserve">
+    <value>Yadrihinskiy</value>
+  </data>
+  <data name="names/rus1151" xml:space="preserve">
+    <value>Sukhanov</value>
+  </data>
+  <data name="names/rus1152" xml:space="preserve">
+    <value>Ladanin</value>
+  </data>
+  <data name="names/rus1153" xml:space="preserve">
+    <value>Karapetian</value>
+  </data>
+  <data name="names/rus1154" xml:space="preserve">
+    <value>Teliaev</value>
+  </data>
+  <data name="names/rus1155" xml:space="preserve">
+    <value>Golubets</value>
+  </data>
+  <data name="names/rus1156" xml:space="preserve">
+    <value>Goleonko</value>
+  </data>
+  <data name="names/rusn11041" xml:space="preserve">
+    <value>Angelica</value>
+  </data>
+  <data name="names/rusn11042" xml:space="preserve">
+    <value>Varvara</value>
+  </data>
+  <data name="names/rusn11043" xml:space="preserve">
+    <value>Vasilisa</value>
+  </data>
+  <data name="names/rusn11044" xml:space="preserve">
+    <value>Victoria</value>
+  </data>
+  <data name="names/rusn11045" xml:space="preserve">
+    <value>Jeanne</value>
+  </data>
+  <data name="names/rusn11046" xml:space="preserve">
+    <value>Karina</value>
+  </data>
+  <data name="names/rusn11047" xml:space="preserve">
+    <value>Oksana</value>
+  </data>
+  <data name="names/rusn11048" xml:space="preserve">
+    <value>Faina</value>
+  </data>
+  <data name="names/rusn11049" xml:space="preserve">
+    <value>Christina</value>
+  </data>
+  <data name="names/rusn113" xml:space="preserve">
+    <value>Azamat</value>
+  </data>
+  <data name="names/rusn114" xml:space="preserve">
+    <value>Amayak</value>
+  </data>
+  <data name="names/rusn115" xml:space="preserve">
+    <value>Aslan</value>
+  </data>
+  <data name="names/rusn116" xml:space="preserve">
+    <value>Vakhtang</value>
+  </data>
+  <data name="names/rusn117" xml:space="preserve">
+    <value>Damir</value>
+  </data>
+  <data name="names/rusn118" xml:space="preserve">
+    <value>Dinar</value>
+  </data>
+  <data name="names/rusn119" xml:space="preserve">
+    <value>Zurab</value>
+  </data>
+  <data name="names/rusn120" xml:space="preserve">
+    <value>Karen</value>
+  </data>
+  <data name="names/rusn121" xml:space="preserve">
+    <value>Levon</value>
+  </data>
+  <data name="names/rusn122" xml:space="preserve">
+    <value>Leon</value>
+  </data>
+  <data name="names/rusn123" xml:space="preserve">
+    <value>Rinat</value>
+  </data>
+  <data name="names/rusn124" xml:space="preserve">
+    <value>Tigran</value>
+  </data>
+  <data name="names/rusn125" xml:space="preserve">
+    <value>Umar</value>
+  </data>
+  <data name="names/rusn126" xml:space="preserve">
+    <value>Genghis</value>
+  </data>
+  <data name="names/rusn127" xml:space="preserve">
+    <value>Shamil</value>
+  </data>
+  <data name="names/loza1" xml:space="preserve">
+    <value>Loza</value>
+  </data>
+  <data name="names/lozan1" xml:space="preserve">
+    <value>Dmitriy</value>
+  </data>
+</root>

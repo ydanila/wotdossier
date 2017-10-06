@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="emblem/animals" xml:space="preserve">
+    <value>动物徽章</value>
+  </data>
+  <data name="emblem/battle" xml:space="preserve">
+    <value>军备徽章</value>
+  </data>
+  <data name="emblem/chinese" xml:space="preserve">
+    <value>特色徽章</value>
+  </data>
+  <data name="emblem/cool" xml:space="preserve">
+    <value>另类徽章</value>
+  </data>
+  <data name="emblem/group0/chinese_1" xml:space="preserve">
+    <value>八卦</value>
+  </data>
+  <data name="emblem/group0/chinese_10" xml:space="preserve">
+    <value>灯笼1</value>
+  </data>
+  <data name="emblem/group0/chinese_11" xml:space="preserve">
+    <value>法国</value>
+  </data>
+  <data name="emblem/group0/chinese_12" xml:space="preserve">
+    <value>官印</value>
+  </data>
+  <data name="emblem/group0/chinese_13" xml:space="preserve">
+    <value>官印1</value>
+  </data>
+  <data name="emblem/group0/chinese_14" xml:space="preserve">
+    <value>国民党</value>
+  </data>
+  <data name="emblem/group0/chinese_15" xml:space="preserve">
+    <value>甲骨文</value>
+  </data>
+  <data name="emblem/group0/chinese_16" xml:space="preserve">
+    <value>剪纸</value>
+  </data>
+  <data name="emblem/group0/chinese_17" xml:space="preserve">
+    <value>剪纸1</value>
+  </data>
+  <data name="emblem/group0/chinese_18" xml:space="preserve">
+    <value>空中网</value>
+  </data>
+  <data name="emblem/group0/chinese_19" xml:space="preserve">
+    <value>脸谱</value>
+  </data>
+  <data name="emblem/group0/chinese_2" xml:space="preserve">
+    <value>八卦1</value>
+  </data>
+  <data name="emblem/group0/chinese_20" xml:space="preserve">
+    <value>脸谱1</value>
+  </data>
+  <data name="emblem/group0/chinese_21" xml:space="preserve">
+    <value>龙</value>
+  </data>
+  <data name="emblem/group0/chinese_22" xml:space="preserve">
+    <value>美国</value>
+  </data>
+  <data name="emblem/group0/chinese_23" xml:space="preserve">
+    <value>日本</value>
+  </data>
+  <data name="emblem/group0/chinese_24" xml:space="preserve">
+    <value>苏联</value>
+  </data>
+  <data name="emblem/group0/chinese_25" xml:space="preserve">
+    <value>铜钱</value>
+  </data>
+  <data name="emblem/group0/chinese_26" xml:space="preserve">
+    <value>铜钱1</value>
+  </data>
+  <data name="emblem/group0/chinese_27" xml:space="preserve">
+    <value>喜</value>
+  </data>
+  <data name="emblem/group0/chinese_28" xml:space="preserve">
+    <value>喜1</value>
+  </data>
+  <data name="emblem/group0/chinese_29" xml:space="preserve">
+    <value>熊猫</value>
+  </data>
+  <data name="emblem/group0/chinese_3" xml:space="preserve">
+    <value>翅膀</value>
+  </data>
+  <data name="emblem/group0/chinese_30" xml:space="preserve">
+    <value>熊猫1</value>
+  </data>
+  <data name="emblem/group0/chinese_31" xml:space="preserve">
+    <value>英国</value>
+  </data>
+  <data name="emblem/group0/chinese_32" xml:space="preserve">
+    <value>中国</value>
+  </data>
+  <data name="emblem/group0/chinese_33" xml:space="preserve">
+    <value>中国结</value>
+  </data>
+  <data name="emblem/group0/chinese_34" xml:space="preserve">
+    <value>中国结1</value>
+  </data>
+  <data name="emblem/group0/chinese_4" xml:space="preserve">
+    <value>翅膀1</value>
+  </data>
+  <data name="emblem/group0/chinese_5" xml:space="preserve">
+    <value>翅膀2</value>
+  </data>
+  <data name="emblem/group0/chinese_6" xml:space="preserve">
+    <value>翅膀3</value>
+  </data>
+  <data name="emblem/group0/chinese_7" xml:space="preserve">
+    <value>翅膀4</value>
+  </data>
+  <data name="emblem/group0/chinese_8" xml:space="preserve">
+    <value>德国</value>
+  </data>
+  <data name="emblem/group0/chinese_9" xml:space="preserve">
+    <value>灯笼</value>
+  </data>
+  <data name="emblem/group1/star" xml:space="preserve">
+    <value>星</value>
+  </data>
+  <data name="emblem/signs" xml:space="preserve">
+    <value>Flags and coats of arms</value>
+  </data>
+  <data name="inscription/china/inscription_01" xml:space="preserve">
+    <value>Hold住</value>
+  </data>
+  <data name="inscription/china/inscription_02" xml:space="preserve">
+    <value>WOT888888</value>
+  </data>
+  <data name="inscription/china/inscription_03" xml:space="preserve">
+    <value>班长</value>
+  </data>
+  <data name="inscription/china/inscription_04" xml:space="preserve">
+    <value>不要迷恋哥</value>
+  </data>
+  <data name="inscription/china/inscription_05" xml:space="preserve">
+    <value>苍山如海残阳如血</value>
+  </data>
+  <data name="inscription/china/inscription_06" xml:space="preserve">
+    <value>纯爷们</value>
+  </data>
+  <data name="inscription/china/inscription_07" xml:space="preserve">
+    <value>打倒帝国主义</value>
+  </data>
+  <data name="inscription/china/inscription_08" xml:space="preserve">
+    <value>打酱油</value>
+  </data>
+  <data name="inscription/china/inscription_09" xml:space="preserve">
+    <value>蹲坑</value>
+  </data>
+  <data name="inscription/china/inscription_10" xml:space="preserve">
+    <value>高富帅</value>
+  </data>
+  <data name="inscription/china/inscription_11" xml:space="preserve">
+    <value>功臣号</value>
+  </data>
+  <data name="inscription/china/inscription_12" xml:space="preserve">
+    <value>靓仔</value>
+  </data>
+  <data name="inscription/china/inscription_13" xml:space="preserve">
+    <value>囧</value>
+  </data>
+  <data name="inscription/china/inscription_14" xml:space="preserve">
+    <value>撸炮</value>
+  </data>
+  <data name="inscription/china/inscription_15" xml:space="preserve">
+    <value>妹纸</value>
+  </data>
+  <data name="inscription/china/inscription_16" xml:space="preserve">
+    <value>炮灰</value>
+  </data>
+  <data name="inscription/china/inscription_17" xml:space="preserve">
+    <value>求虐</value>
+  </data>
+  <data name="inscription/china/inscription_18" xml:space="preserve">
+    <value>人间大炮</value>
+  </data>
+  <data name="inscription/china/inscription_19" xml:space="preserve">
+    <value>伤不起</value>
+  </data>
+  <data name="inscription/china/inscription_20" xml:space="preserve">
+    <value>数风流人物还看今朝</value>
+  </data>
+  <data name="inscription/china/inscription_21" xml:space="preserve">
+    <value>坦克压倒一切</value>
+  </data>
+  <data name="inscription/china/inscription_22" xml:space="preserve">
+    <value>同志们辛苦了</value>
+  </data>
+  <data name="inscription/china/inscription_23" xml:space="preserve">
+    <value>为人民服务</value>
+  </data>
+  <data name="inscription/china/inscription_24" xml:space="preserve">
+    <value>我嘞个去</value>
+  </data>
+  <data name="inscription/china/inscription_25" xml:space="preserve">
+    <value>草泥马</value>
+  </data>
+  <data name="inscription/china/inscription_26" xml:space="preserve">
+    <value>元芳</value>
+  </data>
+  <data name="inscription/china/inscription_27" xml:space="preserve">
+    <value>坚挺</value>
+  </data>
+  <data name="inscription/china/inscription_28" xml:space="preserve">
+    <value>首长</value>
+  </data>
+  <data name="inscription/china/inscription_29" xml:space="preserve">
+    <value>威武</value>
+  </data>
+  <data name="inscription/china/inscription_30" xml:space="preserve">
+    <value>保钓</value>
+  </data>
+  <data name="inscription/china/inscription_31" xml:space="preserve">
+    <value>伤不起</value>
+  </data>
+  <data name="inscription/china/inscription_32" xml:space="preserve">
+    <value>浮云</value>
+  </data>
+  <data name="inscription/china/inscription_33" xml:space="preserve">
+    <value>敢死队</value>
+  </data>
+  <data name="inscription/france/inscription_01" xml:space="preserve">
+    <value>顶你个肺</value>
+  </data>
+  <data name="inscription/france/inscription_02" xml:space="preserve">
+    <value>独孤求败</value>
+  </data>
+  <data name="inscription/france/inscription_03" xml:space="preserve">
+    <value>抗美援朝 保家卫国</value>
+  </data>
+  <data name="inscription/france/inscription_04" xml:space="preserve">
+    <value>靠谱</value>
+  </data>
+  <data name="inscription/france/inscription_05" xml:space="preserve">
+    <value>闷骚</value>
+  </data>
+  <data name="inscription/france/inscription_06" xml:space="preserve">
+    <value>小样儿</value>
+  </data>
+  <data name="inscription/france/inscription_07" xml:space="preserve">
+    <value>小盆友</value>
+  </data>
+  <data name="inscription/france/inscription_08" xml:space="preserve">
+    <value>飘过</value>
+  </data>
+  <data name="inscription/germany/inscription_01" xml:space="preserve">
+    <value>办证</value>
+  </data>
+  <data name="inscription/germany/inscription_02" xml:space="preserve">
+    <value>城管</value>
+  </data>
+  <data name="inscription/germany/inscription_03" xml:space="preserve">
+    <value>向雷锋同志学习</value>
+  </data>
+  <data name="inscription/germany/inscription_04" xml:space="preserve">
+    <value>新手上路</value>
+  </data>
+  <data name="inscription/germany/inscription_05" xml:space="preserve">
+    <value>雄起</value>
+  </data>
+  <data name="inscription/germany/inscription_06" xml:space="preserve">
+    <value>羡慕嫉妒恨</value>
+  </data>
+  <data name="inscription/germany/inscription_07" xml:space="preserve">
+    <value>淡定</value>
+  </data>
+  <data name="inscription/germany/inscription_08" xml:space="preserve">
+    <value>忐忑</value>
+  </data>
+  <data name="inscription/uk/inscription_01" xml:space="preserve">
+    <value>白金会员</value>
+  </data>
+  <data name="inscription/uk/inscription_02" xml:space="preserve">
+    <value>拆迁队</value>
+  </data>
+  <data name="inscription/uk/inscription_03" xml:space="preserve">
+    <value>躲猫猫</value>
+  </data>
+  <data name="inscription/uk/inscription_04" xml:space="preserve">
+    <value>牛逼</value>
+  </data>
+  <data name="inscription/uk/inscription_05" xml:space="preserve">
+    <value>自力更生 艰苦奋斗</value>
+  </data>
+  <data name="inscription/uk/inscription_06" xml:space="preserve">
+    <value>给力</value>
+  </data>
+  <data name="inscription/uk/inscription_07" xml:space="preserve">
+    <value>天朝</value>
+  </data>
+  <data name="inscription/uk/inscription_08" xml:space="preserve">
+    <value>熊出没</value>
+  </data>
+  <data name="inscription/usa/inscription_01" xml:space="preserve">
+    <value>别摸我</value>
+  </data>
+  <data name="inscription/usa/inscription_02" xml:space="preserve">
+    <value>额滴神</value>
+  </data>
+  <data name="inscription/usa/inscription_03" xml:space="preserve">
+    <value>精忠报国</value>
+  </data>
+  <data name="inscription/usa/inscription_04" xml:space="preserve">
+    <value>我顶</value>
+  </data>
+  <data name="inscription/usa/inscription_05" xml:space="preserve">
+    <value>至尊</value>
+  </data>
+  <data name="inscription/usa/inscription_06" xml:space="preserve">
+    <value>你懂得</value>
+  </data>
+  <data name="inscription/usa/inscription_07" xml:space="preserve">
+    <value>马甲</value>
+  </data>
+  <data name="inscription/usa/inscription_08" xml:space="preserve">
+    <value>走召弓虽</value>
+  </data>
+  <data name="inscription/ussr/inscription_01" xml:space="preserve">
+    <value>VIP</value>
+  </data>
+  <data name="inscription/ussr/inscription_02" xml:space="preserve">
+    <value>靶子</value>
+  </data>
+  <data name="inscription/ussr/inscription_03" xml:space="preserve">
+    <value>白富美</value>
+  </data>
+  <data name="inscription/ussr/inscription_04" xml:space="preserve">
+    <value>屌丝</value>
+  </data>
+  <data name="inscription/ussr/inscription_05" xml:space="preserve">
+    <value>钉子户</value>
+  </data>
+  <data name="inscription/ussr/inscription_06" xml:space="preserve">
+    <value>秒杀</value>
+  </data>
+  <data name="inscription/ussr/inscription_07" xml:space="preserve">
+    <value>亲</value>
+  </data>
+  <data name="inscription/ussr/inscription_08" xml:space="preserve">
+    <value>喵了个咪</value>
+  </data>
+  <data name="inscription/japan/inscription_01" xml:space="preserve">
+    <value>万里挑一</value>
+  </data>
+  <data name="inscription/japan/inscription_02" xml:space="preserve">
+    <value>唯我独尊</value>
+  </data>
+  <data name="inscription/japan/inscription_03" xml:space="preserve">
+    <value>尚武</value>
+  </data>
+  <data name="inscription/japan/inscription_04" xml:space="preserve">
+    <value>所向无敌</value>
+  </data>
+  <data name="inscription/japan/inscription_05" xml:space="preserve">
+    <value>武功盖世</value>
+  </data>
+  <data name="inscription/japan/inscription_06" xml:space="preserve">
+    <value>特等射手</value>
+  </data>
+  <data name="inscription/japan/inscription_07" xml:space="preserve">
+    <value>百发百中</value>
+  </data>
+  <data name="inscription/japan/inscription_08" xml:space="preserve">
+    <value>虎</value>
+  </data>
+  <data name="inscription/japan/inscription_09" xml:space="preserve">
+    <value>豹</value>
+  </data>
+  <data name="inscription/japan/inscription_10" xml:space="preserve">
+    <value>龍</value>
+  </data>
+  <data name="emblem/group5/sticker_1001" xml:space="preserve">
+    <value>赞</value>
+  </data>
+  <data name="emblem/group5/sticker_1002" xml:space="preserve">
+    <value>火</value>
+  </data>
+  <data name="emblem/group5/sticker_1003" xml:space="preserve">
+    <value>禁止爆菊</value>
+  </data>
+  <data name="emblem/group5/sticker_1004" xml:space="preserve">
+    <value>捡肥皂</value>
+  </data>
+  <data name="emblem/group5/sticker_1005" xml:space="preserve">
+    <value>顶你</value>
+  </data>
+  <data name="emblem/group5/sticker_1006" xml:space="preserve">
+    <value>靶心</value>
+  </data>
+  <data name="inscription/IGR/administrator" xml:space="preserve">
+    <value>网管</value>
+  </data>
+  <data name="inscription/IGR/form" xml:space="preserve">
+    <value>开黑</value>
+  </data>
+  <data name="inscription/IGR/free" xml:space="preserve">
+    <value>免费</value>
+  </data>
+  <data name="inscription/IGR/hour" xml:space="preserve">
+    <value>每小时两元</value>
+  </data>
+  <data name="inscription/IGR/lame" xml:space="preserve">
+    <value>巨坑</value>
+  </data>
+  <data name="inscription/IGR/night" xml:space="preserve">
+    <value>通宵8元</value>
+  </data>
+  <data name="inscription/IGR/noodle" xml:space="preserve">
+    <value>方便面</value>
+  </data>
+  <data name="inscription/IGR/seat" xml:space="preserve">
+    <value>占座</value>
+  </data>
+  <data name="inscription/IGR/team" xml:space="preserve">
+    <value>三人黑</value>
+  </data>
+  <data name="emblem/group6/historical_emblem_1" xml:space="preserve">
+    <value>501独立重型坦克营</value>
+  </data>
+  <data name="emblem/group6/historical_emblem_10" xml:space="preserve">
+    <value>509独立重型坦克营</value>
+  </data>
+  <data name="emblem/group6/historical_emblem_11" xml:space="preserve">
+    <value>512重型驱逐战车营</value>
+  </data>
+  <data name="emblem/group6/historical_emblem_2" xml:space="preserve">
+    <value>507独立重型坦克营</value>
+  </data>
+  <data name="emblem/group6/historical_emblem_3" xml:space="preserve">
+    <value>503独立重型坦克营</value>
+  </data>
+  <data name="emblem/group6/historical_emblem_4" xml:space="preserve">
+    <value>504独立重型坦克营</value>
+  </data>
+  <data name="emblem/group6/historical_emblem_5" xml:space="preserve">
+    <value>505独立重型坦克营</value>
+  </data>
+  <data name="emblem/group6/historical_emblem_6" xml:space="preserve">
+    <value>505独立重型坦克营分部</value>
+  </data>
+  <data name="emblem/group6/historical_emblem_7" xml:space="preserve">
+    <value>506独立重型坦克营</value>
+  </data>
+  <data name="emblem/group6/historical_emblem_8" xml:space="preserve">
+    <value>“大德意志师”直属重型坦克营</value>
+  </data>
+  <data name="emblem/group6/historical_emblem_9" xml:space="preserve">
+    <value>508独立重型坦克营</value>
+  </data>
+  <data name="emblem/historical_emblems" xml:space="preserve">
+    <value>Historical Emblems</value>
+  </data>
+  <data name="inscription/usa/inscription_09" xml:space="preserve">
+    <value>Будь осторожен при спуске</value>
+  </data>
+  <data name="inscription/usa/inscription_10" xml:space="preserve">
+    <value>Три народных принципа объединят Китай</value>
+  </data>
+  <data name="inscription/usa/inscription_11" xml:space="preserve">
+    <value>Берегись шпионов</value>
+  </data>
+  <data name="inscription/usa/inscription_12" xml:space="preserve">
+    <value>Офицеры не научат ни вкалывать, ни лениться</value>
+  </data>
+  <data name="inscription/usa/inscription_13" xml:space="preserve">
+    <value>Офицеры научат только бездумно выполнять приказы</value>
+  </data>
+  <data name="inscription/usa/inscription_14" xml:space="preserve">
+    <value>Не забывай о Родине, отвоёвывай свои земли</value>
+  </data>
+  <data name="inscription/usa/inscription_15" xml:space="preserve">
+    <value>Вступай в Национальную армию и иди к успеху</value>
+  </data>
+  <data name="inscription/usa/inscription_16" xml:space="preserve">
+    <value>Неустанно обучай и направляй своих солдат</value>
+  </data>
+  <data name="inscription/usa/inscription_17" xml:space="preserve">
+    <value>Заботься о гражданских, своих солдатах, будь предан Родине и совершенствуйся</value>
+  </data>
+  <data name="inscription/special/special_110" xml:space="preserve">
+    <value>Китайская надпись 1</value>
+  </data>
+  <data name="inscription/special/special_111" xml:space="preserve">
+    <value>Китайская надпись 2</value>
+  </data>
+  <data name="inscription/special/special_112" xml:space="preserve">
+    <value>Китайская надпись 3</value>
+  </data>
+  <data name="inscription/special/special_113" xml:space="preserve">
+    <value>Китайская надпись 4</value>
+  </data>
+  <data name="inscription/special/special_114" xml:space="preserve">
+    <value>Китайская надпись 5</value>
+  </data>
+  <data name="inscription/special/special_115" xml:space="preserve">
+    <value>Китайская надпись 6</value>
+  </data>
+  <data name="inscription/special/special_116" xml:space="preserve">
+    <value>Китайская надпись 7</value>
+  </data>
+  <data name="inscription/special/special_117" xml:space="preserve">
+    <value>Китайская надпись 8</value>
+  </data>
+  <data name="inscription/special/special_118" xml:space="preserve">
+    <value>Китайская надпись 9</value>
+  </data>
+  <data name="inscription/special/special_119" xml:space="preserve">
+    <value>Китайская надпись 10</value>
+  </data>
+  <data name="inscription/special/special_120" xml:space="preserve">
+    <value>Китайская надпись 11</value>
+  </data>
+  <data name="inscription/special/special_121" xml:space="preserve">
+    <value>Китайская надпись 12</value>
+  </data>
+  <data name="inscription/special/special_122" xml:space="preserve">
+    <value>Китайская надпись 13</value>
+  </data>
+</root>

@@ -1,0 +1,2772 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EFFECTS_QUALITY" xml:space="preserve">
+    <value>Extra Effects Quality</value>
+  </data>
+  <data name="FAR_PLANE" xml:space="preserve">
+    <value>Draw Distance</value>
+  </data>
+  <data name="FLORA_DENSITY" xml:space="preserve">
+    <value>Flora Density</value>
+  </data>
+  <data name="MRT_DEPTH" xml:space="preserve">
+    <value>Advanced Post Processing</value>
+  </data>
+  <data name="OBJECT_LOD" xml:space="preserve">
+    <value>Object LOD</value>
+  </data>
+  <data name="POST_PROCESSING" xml:space="preserve">
+    <value>Post Processing</value>
+  </data>
+  <data name="SHADER_VERSION_CAP" xml:space="preserve">
+    <value>Shader version</value>
+  </data>
+  <data name="SHADOWS_QUALITY" xml:space="preserve">
+    <value>Shadow Quality</value>
+  </data>
+  <data name="SMOKE_ENABLED" xml:space="preserve">
+    <value>Smoke</value>
+  </data>
+  <data name="SNIPER_MODE_EFFECTS_QUALITY" xml:space="preserve">
+    <value>Extra Effects in Sniper Mode</value>
+  </data>
+  <data name="SNIPER_MODE_GRASS_ENABLED" xml:space="preserve">
+    <value>Grass in Sniper mode</value>
+  </data>
+  <data name="SNIPER_MODE_SWINGING_ENABLED" xml:space="preserve">
+    <value>Enable dynamic camera</value>
+  </data>
+  <data name="SPEEDTREE_QUALITY" xml:space="preserve">
+    <value>Foliage Quality</value>
+  </data>
+  <data name="TEXTURE_COMPRESSION" xml:space="preserve">
+    <value>Texture Compression</value>
+  </data>
+  <data name="TEXTURE_FILTERING" xml:space="preserve">
+    <value>Texture Filtering</value>
+  </data>
+  <data name="TEXTURE_QUALITY" xml:space="preserve">
+    <value>Texture Quality</value>
+  </data>
+  <data name="VEHICLE_DUST_ENABLED" xml:space="preserve">
+    <value>Enable track effects</value>
+  </data>
+  <data name="VEHICLE_TRACES_ENABLED" xml:space="preserve">
+    <value>Enable track traces</value>
+  </data>
+  <data name="WATER_QUALITY" xml:space="preserve">
+    <value>Water Quality</value>
+  </data>
+  <data name="WATER_SIMULATION" xml:space="preserve">
+    <value>Water Simulation</value>
+  </data>
+  <data name="WG_SHADOWS_QUALITY" xml:space="preserve">
+    <value>Enhanced shadows</value>
+  </data>
+  <data name="apply_button" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="aspectRatio" xml:space="preserve">
+    <value>Screen Aspect Ratio</value>
+  </data>
+  <data name="aspect_ratio" xml:space="preserve">
+    <value>Screen aspect ratio</value>
+  </data>
+  <data name="autodetectButton" xml:space="preserve">
+    <value>Recommended</value>
+  </data>
+  <data name="cancel_button" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="chat/censorshipMessages" xml:space="preserve">
+    <value>Censor offensive words in chat messages</value>
+  </data>
+  <data name="chat/enableStoreChannelsWindows" xml:space="preserve">
+    <value>Remember position of camera and channel windows</value>
+  </data>
+  <data name="chat/enableStoreManagementWindows" xml:space="preserve">
+    <value>Remember position of camera and other windows</value>
+  </data>
+  <data name="chat/invitesFromFriendsOnly" xml:space="preserve">
+    <value>Accept invitations from friends in the Garage</value>
+  </data>
+  <data name="chat/removeSpam" xml:space="preserve">
+    <value>Hide spam</value>
+  </data>
+  <data name="chat/showDateMessage" xml:space="preserve">
+    <value>Display date in messages</value>
+  </data>
+  <data name="chat/showJoinLeaveMessages" xml:space="preserve">
+    <value>Notify when users connect/disconnect</value>
+  </data>
+  <data name="chat/showTimeMessage" xml:space="preserve">
+    <value>Display time in messages</value>
+  </data>
+  <data name="cursor/ArcadeTitle" xml:space="preserve">
+    <value>Arcade</value>
+  </data>
+  <data name="cursor/centralTag" xml:space="preserve">
+    <value>Central Marker</value>
+  </data>
+  <data name="cursor/centralTag/type0" xml:space="preserve">
+    <value>V-shaped Marker I</value>
+  </data>
+  <data name="cursor/centralTag/type1" xml:space="preserve">
+    <value>V-shaped Marker II</value>
+  </data>
+  <data name="cursor/centralTag/type2" xml:space="preserve">
+    <value>V-shaped Marker III</value>
+  </data>
+  <data name="cursor/centralTag/type3" xml:space="preserve">
+    <value>V-shaped Marker IV</value>
+  </data>
+  <data name="cursor/centralTag/type4" xml:space="preserve">
+    <value>Crosshair I</value>
+  </data>
+  <data name="cursor/centralTag/type5" xml:space="preserve">
+    <value>Crosshair II</value>
+  </data>
+  <data name="cursor/centralTag/type6" xml:space="preserve">
+    <value>T-shaped Marker</value>
+  </data>
+  <data name="cursor/centralTag/type7" xml:space="preserve">
+    <value>I-shaped Marker</value>
+  </data>
+  <data name="cursor/centralTag/type8" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="cursor/condition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="cursor/gunTag" xml:space="preserve">
+    <value>Gun Marker</value>
+  </data>
+  <data name="cursor/gunTag/type0" xml:space="preserve">
+    <value>A-shaped Marker I (with armor penetration indicator)</value>
+  </data>
+  <data name="cursor/gunTag/type1" xml:space="preserve">
+    <value>A-shaped Marker II (with load indicator)</value>
+  </data>
+  <data name="cursor/gunTag/type2" xml:space="preserve">
+    <value>A-shaped Marker III</value>
+  </data>
+  <data name="cursor/gunTag/type3" xml:space="preserve">
+    <value>Crosshair I (with armor penetration indicator)</value>
+  </data>
+  <data name="cursor/gunTag/type4" xml:space="preserve">
+    <value>Crosshair II (with load indicator)</value>
+  </data>
+  <data name="cursor/gunTag/type5" xml:space="preserve">
+    <value>Crosshair III</value>
+  </data>
+  <data name="cursor/gunTag/type6" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="cursor/mixing" xml:space="preserve">
+    <value>Dispersion Indicator</value>
+  </data>
+  <data name="cursor/mixing/type0" xml:space="preserve">
+    <value>Circle I (with filling load indicator) </value>
+  </data>
+  <data name="cursor/mixing/type1" xml:space="preserve">
+    <value>Circle II (with shifting load indicator)</value>
+  </data>
+  <data name="cursor/mixing/type2" xml:space="preserve">
+    <value>Circle III (without load indicator)</value>
+  </data>
+  <data name="cursor/mixing/type3" xml:space="preserve">
+    <value>Crosshair (with shifting load indicator)</value>
+  </data>
+  <data name="cursor/mixing/type4" xml:space="preserve">
+    <value>Crosshair II</value>
+  </data>
+  <data name="cursor/mixing/type5" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="cursor/net" xml:space="preserve">
+    <value>Indicators</value>
+  </data>
+  <data name="cursor/net/type0" xml:space="preserve">
+    <value>Type I Indicators (diagonal)</value>
+  </data>
+  <data name="cursor/net/type1" xml:space="preserve">
+    <value>Type II Indicators (horizontal)</value>
+  </data>
+  <data name="cursor/net/type2" xml:space="preserve">
+    <value>Panzer Indicators</value>
+  </data>
+  <data name="cursor/net/type3" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="cursor/reloader" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="cursorTitle" xml:space="preserve">
+    <value>Reticle</value>
+  </data>
+  <data name="customAAMode/mode0" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="customAAMode/mode1" xml:space="preserve">
+    <value>FXAA</value>
+  </data>
+  <data name="customAAMode/mode2" xml:space="preserve">
+    <value>TSSAA-LQ</value>
+  </data>
+  <data name="customAAMode/mode3" xml:space="preserve">
+    <value>TSSAA-HQ</value>
+  </data>
+  <data name="customAAMode/mode4" xml:space="preserve">
+    <value>SSAAx2 + FXAA LQ</value>
+  </data>
+  <data name="defaultBtn" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="edgeDetectAA" xml:space="preserve">
+    <value>Edge detect AA</value>
+  </data>
+  <data name="fullScreenMode" xml:space="preserve">
+    <value>Full-screen mode</value>
+  </data>
+  <data name="game/enableMortalPostEffect" xml:space="preserve">
+    <value>Enable post-effect in Postmortem mode</value>
+  </data>
+  <data name="game/enableVoIP" xml:space="preserve">
+    <value>Voice Chat</value>
+  </data>
+  <data name="game/fieldset/headerChat" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="game/fieldset/headerMinimap" xml:space="preserve">
+    <value>Minimap</value>
+  </data>
+  <data name="game/fieldset/headerVehicleMarker" xml:space="preserve">
+    <value>Vehicle Markers</value>
+  </data>
+  <data name="game/playerPanelSettings" xml:space="preserve">
+    <value>Team Panel</value>
+  </data>
+  <data name="game/playersPanelState/large" xml:space="preserve">
+    <value>Full Panel</value>
+  </data>
+  <data name="game/playersPanelState/medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="game/playersPanelState/none" xml:space="preserve">
+    <value>No Panel</value>
+  </data>
+  <data name="game/playersPanelState/short" xml:space="preserve">
+    <value>Short Panel</value>
+  </data>
+  <data name="game/ppShowLevels" xml:space="preserve">
+    <value>Show vehicle tier</value>
+  </data>
+  <data name="game/ppShowTypes" xml:space="preserve">
+    <value>Show vehicle type</value>
+  </data>
+  <data name="game/ppStartStateLabel" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="game/replayEnabled" xml:space="preserve">
+    <value>Enable Battle Recording</value>
+  </data>
+  <data name="game/showExInfoForDestroyVehicle" xml:space="preserve">
+    <value>Show destroyed vehicles' info</value>
+  </data>
+  <data name="game/showLanguageBar" xml:space="preserve">
+    <value>Show Language Panel</value>
+  </data>
+  <data name="game/showVehicleIcon" xml:space="preserve">
+    <value>Show vehicle icon</value>
+  </data>
+  <data name="game/showVehicleLevel" xml:space="preserve">
+    <value>Show vehicle tier</value>
+  </data>
+  <data name="gameTitle" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="gamma" xml:space="preserve">
+    <value>Gamma</value>
+  </data>
+  <data name="graficTitle" xml:space="preserve">
+    <value>Graphics</value>
+  </data>
+  <data name="graphicsQuality/ANISOTROPIC_16X" xml:space="preserve">
+    <value>Anisotropic 16x</value>
+  </data>
+  <data name="graphicsQuality/ANISOTROPIC_2X" xml:space="preserve">
+    <value>Anisotropic 2x</value>
+  </data>
+  <data name="graphicsQuality/ANISOTROPIC_4X" xml:space="preserve">
+    <value>Anisotropic 4x</value>
+  </data>
+  <data name="graphicsQuality/ANISOTROPIC_8X" xml:space="preserve">
+    <value>Anisotropic 8x</value>
+  </data>
+  <data name="graphicsQuality/BILINEAR" xml:space="preserve">
+    <value>Bilinear</value>
+  </data>
+  <data name="graphicsQuality/CUSTOM" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="graphicsQuality/FAR" xml:space="preserve">
+    <value>Far</value>
+  </data>
+  <data name="graphicsQuality/HIGH" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="graphicsQuality/LOW" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="graphicsQuality/LOWEST" xml:space="preserve">
+    <value>Very Low</value>
+  </data>
+  <data name="graphicsQuality/MEDIUM" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="graphicsQuality/NEAR" xml:space="preserve">
+    <value>Near</value>
+  </data>
+  <data name="graphicsQuality/OFF" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="graphicsQuality/ON" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="graphicsQuality/POINT" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="graphicsQuality/SHADER_MODEL_0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="graphicsQuality/SHADER_MODEL_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="graphicsQuality/SHADER_MODEL_2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="graphicsQuality/SHADER_MODEL_3" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="graphicsQuality/TRILINEAR" xml:space="preserve">
+    <value>Trilinear</value>
+  </data>
+  <data name="graphicsQuality/VERYHIGH" xml:space="preserve">
+    <value>Very High</value>
+  </data>
+  <data name="graphicsQuality/VERY_HIGH" xml:space="preserve">
+    <value>Very High</value>
+  </data>
+  <data name="graphics_details" xml:space="preserve">
+    <value>Graphics Quality</value>
+  </data>
+  <data name="isColorBlind" xml:space="preserve">
+    <value>Colorblind mode</value>
+  </data>
+  <data name="keyboard/keyboard" xml:space="preserve">
+    <value>Keyboard</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/alternate_mode" xml:space="preserve">
+    <value>Switch Reticle Mode</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/attack" xml:space="preserve">
+    <value>Attack!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/auto_rotation" xml:space="preserve">
+    <value>Lock Hull / Switch Mode</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/backward" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/camera_down" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/camera_left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/camera_right" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/camera_up" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/fire" xml:space="preserve">
+    <value>Fire</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/follow_me" xml:space="preserve">
+    <value>Follow me!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/forward" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/help_me" xml:space="preserve">
+    <value>Help!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/item01" xml:space="preserve">
+    <value>Consumable 1</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/item02" xml:space="preserve">
+    <value>Consumable 2</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/item03" xml:space="preserve">
+    <value>Consumable 3</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/item04" xml:space="preserve">
+    <value>Consumable 4</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/item05" xml:space="preserve">
+    <value>Consumable 5</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/item06" xml:space="preserve">
+    <value>Consumable 6</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/item07" xml:space="preserve">
+    <value>Consumable 7</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/item08" xml:space="preserve">
+    <value>Consumable 8</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/lock_target" xml:space="preserve">
+    <value>Auto-Aim</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/lock_target_off" xml:space="preserve">
+    <value>Disable Auto-Aim</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/my_target" xml:space="preserve">
+    <value>Attacking!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/negative" xml:space="preserve">
+    <value>Negative!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/positive" xml:space="preserve">
+    <value>Affirmative!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/pushToTalk" xml:space="preserve">
+    <value>Push-to-Talk</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/right" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/sizeDown" xml:space="preserve">
+    <value>Zoom Out</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/sizeUp" xml:space="preserve">
+    <value>Zoom In</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/stop_fire" xml:space="preserve">
+    <value>Stop and Fire</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/switch_view" xml:space="preserve">
+    <value>Mode selection</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/to_base" xml:space="preserve">
+    <value>Defend the base!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/useHorn" xml:space="preserve">
+    <value>Set sound signal</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/visible" xml:space="preserve">
+    <value>Hide/Show</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/camera" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/cruis_control" xml:space="preserve">
+    <value>Cruise Control</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/equipment" xml:space="preserve">
+    <value>Consumables</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/firing" xml:space="preserve">
+    <value>Firing</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/minimap" xml:space="preserve">
+    <value>Minimap</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/movement" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/shortcuts" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/vehicle_other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/voicechat" xml:space="preserve">
+    <value>Voice Chat</value>
+  </data>
+  <data name="keyboard/mouse" xml:space="preserve">
+    <value>Mouse</value>
+  </data>
+  <data name="keyboardTitle" xml:space="preserve">
+    <value>Controls</value>
+  </data>
+  <data name="minimap/labels/alpha" xml:space="preserve">
+    <value>Minimap Transparency</value>
+  </data>
+  <data name="minimap/labels/size" xml:space="preserve">
+    <value>Maximum size</value>
+  </data>
+  <data name="monitor" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="mouse/sensitivity/art" xml:space="preserve">
+    <value>Artillery Aim</value>
+  </data>
+  <data name="mouse/sensitivity/header" xml:space="preserve">
+    <value>Sensitivity</value>
+  </data>
+  <data name="mouse/sensitivity/invertationHor" xml:space="preserve">
+    <value>Horizontal inversion</value>
+  </data>
+  <data name="mouse/sensitivity/invertationVert" xml:space="preserve">
+    <value>Vertical inversion</value>
+  </data>
+  <data name="mouse/sensitivity/main" xml:space="preserve">
+    <value>Arcade Aim</value>
+  </data>
+  <data name="mouse/sensitivity/sniper" xml:space="preserve">
+    <value>Sniper Aim</value>
+  </data>
+  <data name="mouse/startDist" xml:space="preserve">
+    <value>Camera position</value>
+  </data>
+  <data name="multisamplingType" xml:space="preserve">
+    <value>Antialiasing</value>
+  </data>
+  <data name="multisamplingType/type0" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="multisamplingType/type1032" xml:space="preserve">
+    <value>CSAA 8x</value>
+  </data>
+  <data name="multisamplingType/type1040" xml:space="preserve">
+    <value>CSAA 16x</value>
+  </data>
+  <data name="multisamplingType/type12" xml:space="preserve">
+    <value>12x</value>
+  </data>
+  <data name="multisamplingType/type16" xml:space="preserve">
+    <value>16x</value>
+  </data>
+  <data name="multisamplingType/type2" xml:space="preserve">
+    <value>2x</value>
+  </data>
+  <data name="multisamplingType/type2056" xml:space="preserve">
+    <value>CSAA 8xQ</value>
+  </data>
+  <data name="multisamplingType/type2064" xml:space="preserve">
+    <value>CSAA 16xQ</value>
+  </data>
+  <data name="multisamplingType/type4" xml:space="preserve">
+    <value>4x</value>
+  </data>
+  <data name="multisamplingType/type6" xml:space="preserve">
+    <value>6x</value>
+  </data>
+  <data name="multisamplingType/type8" xml:space="preserve">
+    <value>8x</value>
+  </data>
+  <data name="ok_button" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="resolution" xml:space="preserve">
+    <value>Screen Resolution</value>
+  </data>
+  <data name="sound/fieldset/header" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="sound/nationalVoices" xml:space="preserve">
+    <value>Crew members' voices</value>
+  </data>
+  <data name="sound/players_notifications" xml:space="preserve">
+    <value>Notifications from other players</value>
+  </data>
+  <data name="sound/vivox/buttons/capture_devices_refresh" xml:space="preserve">
+    <value>Refresh Devices</value>
+  </data>
+  <data name="sound/vivox/buttons/test_finish" xml:space="preserve">
+    <value>Finish Test</value>
+  </data>
+  <data name="sound/vivox/buttons/test_start" xml:space="preserve">
+    <value>Start Test</value>
+  </data>
+  <data name="sound/vivox/fade_volume" xml:space="preserve">
+    <value>Ambience Level During Chat</value>
+  </data>
+  <data name="sound/vivox/master_volume" xml:space="preserve">
+    <value>Voice Chat Volume</value>
+  </data>
+  <data name="sound/vivox/mic_sensitivity" xml:space="preserve">
+    <value>Microphone Sensitivity</value>
+  </data>
+  <data name="sound/vivox/vivox_test" xml:space="preserve">
+    <value>Vivox Test</value>
+  </data>
+  <data name="soundTitle" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="sounds/ambient" xml:space="preserve">
+    <value>Ambience</value>
+  </data>
+  <data name="sounds/arena" xml:space="preserve">
+    <value>Music in Battle</value>
+  </data>
+  <data name="sounds/effects" xml:space="preserve">
+    <value>Effects</value>
+  </data>
+  <data name="sounds/gui" xml:space="preserve">
+    <value>Interface</value>
+  </data>
+  <data name="sounds/masterVolume" xml:space="preserve">
+    <value>Master Volume</value>
+  </data>
+  <data name="sounds/vehicles" xml:space="preserve">
+    <value>Vehicles</value>
+  </data>
+  <data name="sounds/voice" xml:space="preserve">
+    <value>Voice Messages</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="tripleBuffered" xml:space="preserve">
+    <value>Triple buffering</value>
+  </data>
+  <data name="vertical_sync" xml:space="preserve">
+    <value>Vertical synchronization</value>
+  </data>
+  <data name="vertical_sync/Off" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="vertical_sync/On" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="vibro/device/state/connected" xml:space="preserve">
+    <value>Status: connected</value>
+  </data>
+  <data name="vibro/device/state/notConnected" xml:space="preserve">
+    <value>Status: disconnected</value>
+  </data>
+  <data name="vibro/fieldset/header" xml:space="preserve">
+    <value>Gametrix JetSeat</value>
+  </data>
+  <data name="vibro/labels/acceleration" xml:space="preserve">
+    <value>Acceleration</value>
+  </data>
+  <data name="vibro/labels/collisions" xml:space="preserve">
+    <value>Collisions</value>
+  </data>
+  <data name="vibro/labels/damage" xml:space="preserve">
+    <value>Damage to your modules</value>
+  </data>
+  <data name="vibro/labels/engine" xml:space="preserve">
+    <value>Engine</value>
+  </data>
+  <data name="vibro/labels/gain" xml:space="preserve">
+    <value>Effects intensity</value>
+  </data>
+  <data name="vibro/labels/gui" xml:space="preserve">
+    <value>Effects</value>
+  </data>
+  <data name="vibro/labels/hits" xml:space="preserve">
+    <value>Hits received</value>
+  </data>
+  <data name="vibro/labels/shots" xml:space="preserve">
+    <value>Gun loading and fire</value>
+  </data>
+  <data name="voice_chat/PTT" xml:space="preserve">
+    <value>Push-to-Talk</value>
+  </data>
+  <data name="voice_chat/fieldset/header" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="voice_chat/header/common" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="voice_chat/header/microphone" xml:space="preserve">
+    <value>Microphone</value>
+  </data>
+  <data name="voice_chat/header/speakers" xml:space="preserve">
+    <value>Headphones</value>
+  </data>
+  <data name="voice_chat/microphone" xml:space="preserve">
+    <value>Microphone</value>
+  </data>
+  <data name="voice_chat/microphoneEnabled" xml:space="preserve">
+    <value>Enable microphone</value>
+  </data>
+  <data name="voice_chat/voiceChatEnable" xml:space="preserve">
+    <value>Enable voice chat</value>
+  </data>
+  <data name="windowSize" xml:space="preserve">
+    <value>Window Size</value>
+  </data>
+  <data name="windowTitle" xml:space="preserve">
+    <value>WoT Client</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/reloadPartialClip" xml:space="preserve">
+    <value>Reload Shell Container</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/showHUD" xml:space="preserve">
+    <value>Hide Battle Interface</value>
+  </data>
+  <data name="arcade/cassette" xml:space="preserve">
+    <value>Containers</value>
+  </data>
+  <data name="arcade/centralTag" xml:space="preserve">
+    <value>Central Marker</value>
+  </data>
+  <data name="arcade/centralTag/type0" xml:space="preserve">
+    <value>A-shaped I</value>
+  </data>
+  <data name="arcade/centralTag/type1" xml:space="preserve">
+    <value>A-shaped II</value>
+  </data>
+  <data name="arcade/centralTag/type2" xml:space="preserve">
+    <value>A-shaped III</value>
+  </data>
+  <data name="arcade/centralTag/type3" xml:space="preserve">
+    <value>V-shaped</value>
+  </data>
+  <data name="arcade/centralTag/type4" xml:space="preserve">
+    <value>Crosshair I</value>
+  </data>
+  <data name="arcade/centralTag/type5" xml:space="preserve">
+    <value>Crosshair II</value>
+  </data>
+  <data name="arcade/centralTag/type6" xml:space="preserve">
+    <value>T-shaped</value>
+  </data>
+  <data name="arcade/centralTag/type7" xml:space="preserve">
+    <value>I-shaped</value>
+  </data>
+  <data name="arcade/centralTag/type8" xml:space="preserve">
+    <value>Aimpoint I</value>
+  </data>
+  <data name="arcade/condition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="arcade/gunTag" xml:space="preserve">
+    <value>Gun Marker</value>
+  </data>
+  <data name="arcade/gunTag/type0" xml:space="preserve">
+    <value>A-shaped I (with armor penetration indicator)</value>
+  </data>
+  <data name="arcade/gunTag/type1" xml:space="preserve">
+    <value>A-shaped II (with load indicator)</value>
+  </data>
+  <data name="arcade/gunTag/type2" xml:space="preserve">
+    <value>A-shaped III</value>
+  </data>
+  <data name="arcade/gunTag/type3" xml:space="preserve">
+    <value>Crosshair I (with armor penetration indicator)</value>
+  </data>
+  <data name="arcade/gunTag/type4" xml:space="preserve">
+    <value>Crosshair II (with load indicator)</value>
+  </data>
+  <data name="arcade/gunTag/type5" xml:space="preserve">
+    <value>Crosshair III</value>
+  </data>
+  <data name="arcade/gunTag/type6" xml:space="preserve">
+    <value>Aimpoint I (with armor penetration indicator)</value>
+  </data>
+  <data name="arcade/mixing" xml:space="preserve">
+    <value>Dispersion Indicator</value>
+  </data>
+  <data name="arcade/mixing/type0" xml:space="preserve">
+    <value>Circle I (with load indicator) </value>
+  </data>
+  <data name="arcade/mixing/type1" xml:space="preserve">
+    <value>Circle II (with shifting load indicator)</value>
+  </data>
+  <data name="arcade/mixing/type2" xml:space="preserve">
+    <value>Circle III (without load indicator)</value>
+  </data>
+  <data name="arcade/mixing/type3" xml:space="preserve">
+    <value>Crosshair (with shifting load indicator)</value>
+  </data>
+  <data name="arcade/mixing/type4" xml:space="preserve">
+    <value>Crosshair II</value>
+  </data>
+  <data name="arcade/mixing/type5" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="arcade/net" xml:space="preserve">
+    <value>Indicator</value>
+  </data>
+  <data name="arcade/net/type0" xml:space="preserve">
+    <value>Diagonal</value>
+  </data>
+  <data name="arcade/net/type1" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="arcade/net/type2" xml:space="preserve">
+    <value>Radial</value>
+  </data>
+  <data name="arcade/net/type3" xml:space="preserve">
+    <value>Dashed</value>
+  </data>
+  <data name="arcade/reloader" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="cursor/SnipperTitle" xml:space="preserve">
+    <value>Sniper</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/logitech_keyboard" xml:space="preserve">
+    <value>Logitech keyboard</value>
+  </data>
+  <data name="marker/alt" xml:space="preserve">
+    <value>Alternative</value>
+  </data>
+  <data name="marker/base" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="marker/dead" xml:space="preserve">
+    <value>Destroyed vehicles marker</value>
+  </data>
+  <data name="marker/hp" xml:space="preserve">
+    <value>Vehicle Health</value>
+  </data>
+  <data name="marker/hp/type0" xml:space="preserve">
+    <value>Percent %</value>
+  </data>
+  <data name="marker/hp/type1" xml:space="preserve">
+    <value>HP left / total</value>
+  </data>
+  <data name="marker/hp/type2" xml:space="preserve">
+    <value>HP left</value>
+  </data>
+  <data name="marker/hp/type3" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="marker/hpIndicator" xml:space="preserve">
+    <value>Health indicator</value>
+  </data>
+  <data name="marker/icon" xml:space="preserve">
+    <value>Vehicle icon</value>
+  </data>
+  <data name="marker/level" xml:space="preserve">
+    <value>Tier</value>
+  </data>
+  <data name="marker/name" xml:space="preserve">
+    <value>Vehicle model</value>
+  </data>
+  <data name="marker/name/type0" xml:space="preserve">
+    <value>Vehicle name</value>
+  </data>
+  <data name="marker/name/type1" xml:space="preserve">
+    <value>Player name</value>
+  </data>
+  <data name="marker/name/type2" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="markerTitle" xml:space="preserve">
+    <value>Marker</value>
+  </data>
+  <data name="sniper/snpCassette" xml:space="preserve">
+    <value>Containers</value>
+  </data>
+  <data name="sniper/snpCentralTag" xml:space="preserve">
+    <value>Central Marker</value>
+  </data>
+  <data name="sniper/snpCentralTag/type0" xml:space="preserve">
+    <value>A-shaped Marker I</value>
+  </data>
+  <data name="sniper/snpCentralTag/type1" xml:space="preserve">
+    <value>A-shaped Marker II</value>
+  </data>
+  <data name="sniper/snpCentralTag/type2" xml:space="preserve">
+    <value>A-shaped Marker III</value>
+  </data>
+  <data name="sniper/snpCentralTag/type3" xml:space="preserve">
+    <value>V-shaped Marker</value>
+  </data>
+  <data name="sniper/snpCentralTag/type4" xml:space="preserve">
+    <value>Crosshair I</value>
+  </data>
+  <data name="sniper/snpCentralTag/type5" xml:space="preserve">
+    <value>Crosshair II</value>
+  </data>
+  <data name="sniper/snpCentralTag/type6" xml:space="preserve">
+    <value>T-shaped Marker</value>
+  </data>
+  <data name="sniper/snpCentralTag/type7" xml:space="preserve">
+    <value>I-shaped Marker</value>
+  </data>
+  <data name="sniper/snpCentralTag/type8" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="sniper/snpCondition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="sniper/snpGunTag" xml:space="preserve">
+    <value>Gun Marker</value>
+  </data>
+  <data name="sniper/snpGunTag/type0" xml:space="preserve">
+    <value>A-shaped Marker I (with armor penetration indicator)</value>
+  </data>
+  <data name="sniper/snpGunTag/type1" xml:space="preserve">
+    <value>A-shaped Marker II (with load indicator)</value>
+  </data>
+  <data name="sniper/snpGunTag/type2" xml:space="preserve">
+    <value>A-shaped Marker III</value>
+  </data>
+  <data name="sniper/snpGunTag/type3" xml:space="preserve">
+    <value>Crosshair I (with armor penetration indicator)</value>
+  </data>
+  <data name="sniper/snpGunTag/type4" xml:space="preserve">
+    <value>Crosshair II (with load indicator)</value>
+  </data>
+  <data name="sniper/snpGunTag/type5" xml:space="preserve">
+    <value>Crosshair III</value>
+  </data>
+  <data name="sniper/snpMixing" xml:space="preserve">
+    <value>Dispersion Indicator</value>
+  </data>
+  <data name="sniper/snpMixing/type0" xml:space="preserve">
+    <value>Circle I (with load indicator)</value>
+  </data>
+  <data name="sniper/snpMixing/type1" xml:space="preserve">
+    <value>Circle II (with shifting load indicator)</value>
+  </data>
+  <data name="sniper/snpMixing/type2" xml:space="preserve">
+    <value>Circle III (without load indicator)</value>
+  </data>
+  <data name="sniper/snpNet" xml:space="preserve">
+    <value>Indicators</value>
+  </data>
+  <data name="sniper/snpNet/type0" xml:space="preserve">
+    <value>Type I Indicators (diagonal)</value>
+  </data>
+  <data name="sniper/snpNet/type1" xml:space="preserve">
+    <value>Type II Indicators (horizontal)</value>
+  </data>
+  <data name="sniper/snpNet/type2" xml:space="preserve">
+    <value>Panzer Indicators</value>
+  </data>
+  <data name="sniper/snpReloader" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="cursor/ServerAim" xml:space="preserve">
+    <value>Enable server reticle</value>
+  </data>
+  <data name="LANGUAGE_CODE" xml:space="preserve">
+    <value>en</value>
+  </data>
+  <data name="DECALS_QUALITY" xml:space="preserve">
+    <value>Decals Quality</value>
+  </data>
+  <data name="FLORA_QUALITY" xml:space="preserve">
+    <value>Flora Density</value>
+  </data>
+  <data name="LIGHTING_QUALITY" xml:space="preserve">
+    <value>Lighting Quality</value>
+  </data>
+  <data name="POST_PROCESSING_QUALITY" xml:space="preserve">
+    <value>Post Processing</value>
+  </data>
+  <data name="RENDER_PIPELINE" xml:space="preserve">
+    <value>Graphics</value>
+  </data>
+  <data name="TERRAIN_QUALITY" xml:space="preserve">
+    <value>Terrain Quality</value>
+  </data>
+  <data name="game/fieldset/headerGameplay" xml:space="preserve">
+    <value>Random Battle Types</value>
+  </data>
+  <data name="gameplay/assault" xml:space="preserve">
+    <value>Assault (after researching Tier VI vehicles)</value>
+  </data>
+  <data name="gameplay/ctf" xml:space="preserve">
+    <value>Standard Battle</value>
+  </data>
+  <data name="gameplay/domination" xml:space="preserve">
+    <value>Encounter Battle (after researching Tier IV vehicles)</value>
+  </data>
+  <data name="graphicsQuality/DEFERRED" xml:space="preserve">
+    <value>Improved</value>
+  </data>
+  <data name="graphicsQuality/FORWARD" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="graphicsQuality/MAX" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="graphicsQuality/MIN" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/help_me_temp" xml:space="preserve">
+    <value>Help!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/help_me_temp2" xml:space="preserve">
+    <value>Requesting fire!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/reload" xml:space="preserve">
+    <value>Reloading!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/showRadialMenu" xml:space="preserve">
+    <value>Display Command Menu</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/stop" xml:space="preserve">
+    <value>Halt!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/to_back" xml:space="preserve">
+    <value>Fall back!</value>
+  </data>
+  <data name="marker/AllyTitle" xml:space="preserve">
+    <value>Our Team</value>
+  </data>
+  <data name="marker/DeadTitle" xml:space="preserve">
+    <value>Destroyed</value>
+  </data>
+  <data name="marker/EnemyTitle" xml:space="preserve">
+    <value>Enemy Team</value>
+  </data>
+  <data name="marker/damage" xml:space="preserve">
+    <value>Damage received</value>
+  </data>
+  <data name="marker/nickname" xml:space="preserve">
+    <value>Player's name</value>
+  </data>
+  <data name="chat/storeReceiverInBattle" xml:space="preserve">
+    <value>Remember recipient in battle</value>
+  </data>
+  <data name="game/showVehiclesCounter" xml:space="preserve">
+    <value>Show vehicle markers on Battle Score Panel</value>
+  </data>
+  <data name="alternativeVoices/fieldset/header" xml:space="preserve">
+    <value>Voice Messages in Battle</value>
+  </data>
+  <data name="alternativeVoices/labels/voiceBattle" xml:space="preserve">
+    <value>Voice Messages in Battle</value>
+  </data>
+  <data name="fpsPerfomancer" xml:space="preserve">
+    <value>Dynamic change of effects quality</value>
+  </data>
+  <data name="game/dynamicCamera" xml:space="preserve">
+    <value>Enable dynamic camera</value>
+  </data>
+  <data name="sound/soundModes/baluev" xml:space="preserve">
+    <value>Baluev</value>
+  </data>
+  <data name="sound/soundModes/default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="sound/soundModes/merzlikin" xml:space="preserve">
+    <value>Merzlikin</value>
+  </data>
+  <data name="dynamicCamera" xml:space="preserve">
+    <value>Enable dynamic camera</value>
+  </data>
+  <data name="keyboard/backDraftInvert" xml:space="preserve">
+    <value>Reverse inversion</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/attack/ext" xml:space="preserve">
+    <value>(reticle on enemy)</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/backward_cruise" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/follow_me/ext" xml:space="preserve">
+    <value>(reticle on ally)</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/forward_cruise" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/help_me_temp/ext" xml:space="preserve">
+    <value>(reticle on ally)</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/my_target/ext" xml:space="preserve">
+    <value>(SPG reticle on enemy)</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/stop/ext" xml:space="preserve">
+    <value>(reticle on ally)</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/to_back/ext" xml:space="preserve">
+    <value>(reticle on ally)</value>
+  </data>
+  <data name="sniper/cassette" xml:space="preserve">
+    <value>Containers</value>
+  </data>
+  <data name="sniper/centralTag" xml:space="preserve">
+    <value>Central Marker</value>
+  </data>
+  <data name="sniper/centralTag/type0" xml:space="preserve">
+    <value>A-shaped I</value>
+  </data>
+  <data name="sniper/centralTag/type1" xml:space="preserve">
+    <value>A-shaped II</value>
+  </data>
+  <data name="sniper/centralTag/type2" xml:space="preserve">
+    <value>A-shaped III</value>
+  </data>
+  <data name="sniper/centralTag/type3" xml:space="preserve">
+    <value>V-shaped</value>
+  </data>
+  <data name="sniper/centralTag/type4" xml:space="preserve">
+    <value>Crosshair I</value>
+  </data>
+  <data name="sniper/centralTag/type5" xml:space="preserve">
+    <value>Crosshair II</value>
+  </data>
+  <data name="sniper/centralTag/type6" xml:space="preserve">
+    <value>T-shaped</value>
+  </data>
+  <data name="sniper/centralTag/type7" xml:space="preserve">
+    <value>I-shaped</value>
+  </data>
+  <data name="sniper/centralTag/type8" xml:space="preserve">
+    <value>Aimpoint I</value>
+  </data>
+  <data name="sniper/condition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="sniper/gunTag" xml:space="preserve">
+    <value>Gun Marker</value>
+  </data>
+  <data name="sniper/gunTag/type0" xml:space="preserve">
+    <value>A-shaped I (with armor penetration indicator)</value>
+  </data>
+  <data name="sniper/gunTag/type1" xml:space="preserve">
+    <value>A-shaped II (with load indicator)</value>
+  </data>
+  <data name="sniper/gunTag/type2" xml:space="preserve">
+    <value>A-shaped III</value>
+  </data>
+  <data name="sniper/gunTag/type3" xml:space="preserve">
+    <value>Crosshair I (with armor penetration indicator)</value>
+  </data>
+  <data name="sniper/gunTag/type4" xml:space="preserve">
+    <value>Crosshair II (with load indicator)</value>
+  </data>
+  <data name="sniper/gunTag/type5" xml:space="preserve">
+    <value>Crosshair III</value>
+  </data>
+  <data name="sniper/mixing" xml:space="preserve">
+    <value>Dispersion Indicator</value>
+  </data>
+  <data name="sniper/mixing/type0" xml:space="preserve">
+    <value>Circle I (with load indicator)</value>
+  </data>
+  <data name="sniper/mixing/type1" xml:space="preserve">
+    <value>Circle II (with shifting load indicator)</value>
+  </data>
+  <data name="sniper/mixing/type2" xml:space="preserve">
+    <value>Circle III (without load indicator)</value>
+  </data>
+  <data name="sniper/net" xml:space="preserve">
+    <value>Indicator</value>
+  </data>
+  <data name="sniper/net/type0" xml:space="preserve">
+    <value>Diagonal</value>
+  </data>
+  <data name="sniper/net/type1" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="sniper/net/type2" xml:space="preserve">
+    <value>Radial</value>
+  </data>
+  <data name="sniper/reloader" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="sound/soundModes/U01" xml:space="preserve">
+    <value>User 1</value>
+  </data>
+  <data name="sound/soundModes/U02" xml:space="preserve">
+    <value>User 2</value>
+  </data>
+  <data name="sound/soundModes/U03" xml:space="preserve">
+    <value>User 3</value>
+  </data>
+  <data name="sound/soundModes/U04" xml:space="preserve">
+    <value>User 4</value>
+  </data>
+  <data name="sound/soundModes/nationalDefault" xml:space="preserve">
+    <value>Commander</value>
+  </data>
+  <data name="arcade/reloaderTimer" xml:space="preserve">
+    <value>Loading Timer</value>
+  </data>
+  <data name="game/horStabilizationSnp" xml:space="preserve">
+    <value>Horizontal stabilization in Sniper mode</value>
+  </data>
+  <data name="sniper/reloaderTimer" xml:space="preserve">
+    <value>Loading Timer</value>
+  </data>
+  <data name="COLOR_GRADING_TECHNIQUE" xml:space="preserve">
+    <value>Color Filter</value>
+  </data>
+  <data name="MOTION_BLUR_QUALITY" xml:space="preserve">
+    <value>Motion Blur Effect</value>
+  </data>
+  <data name="game/replayEnabled/all" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="game/replayEnabled/last" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="game/replayEnabled/none" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="graphicsQuality/Colorization" xml:space="preserve">
+    <value>1940s cine film</value>
+  </data>
+  <data name="graphicsQuality/Contrasty" xml:space="preserve">
+    <value>Contrast</value>
+  </data>
+  <data name="graphicsQuality/Muted" xml:space="preserve">
+    <value>Muted</value>
+  </data>
+  <data name="graphicsQuality/NONE" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="graphicsQuality/Photochromatic" xml:space="preserve">
+    <value>Photochromatic</value>
+  </data>
+  <data name="graphicsQuality/Soft" xml:space="preserve">
+    <value>Deep</value>
+  </data>
+  <data name="graphicsQuality/Soft Colors" xml:space="preserve">
+    <value>Soft colors</value>
+  </data>
+  <data name="RIGHT_UPPER" xml:space="preserve">
+    <value>RIGHT_UPPER</value>
+  </data>
+  <data name="WRONG_UPPER" xml:space="preserve">
+    <value>WRONG_UPPER</value>
+  </data>
+  <data name="arcade/centralTag/type10" xml:space="preserve">
+    <value>O-shaped I</value>
+  </data>
+  <data name="arcade/centralTag/type11" xml:space="preserve">
+    <value>O-shaped II</value>
+  </data>
+  <data name="arcade/centralTag/type12" xml:space="preserve">
+    <value>A-shaped IV</value>
+  </data>
+  <data name="arcade/centralTag/type13" xml:space="preserve">
+    <value>A-shaped V</value>
+  </data>
+  <data name="arcade/centralTag/type9" xml:space="preserve">
+    <value>Aimpoint II</value>
+  </data>
+  <data name="arcade/gunTag/type10" xml:space="preserve">
+    <value>O-shaped II (with load indicator)</value>
+  </data>
+  <data name="arcade/gunTag/type11" xml:space="preserve">
+    <value>O-shaped III</value>
+  </data>
+  <data name="arcade/gunTag/type12" xml:space="preserve">
+    <value>A-shaped IV (with armor penetration indicator)</value>
+  </data>
+  <data name="arcade/gunTag/type13" xml:space="preserve">
+    <value>A-shaped V (with load indicator)</value>
+  </data>
+  <data name="arcade/gunTag/type14" xml:space="preserve">
+    <value>A-shaped VI</value>
+  </data>
+  <data name="arcade/gunTag/type7" xml:space="preserve">
+    <value>Aimpoint II (with load indicator)</value>
+  </data>
+  <data name="arcade/gunTag/type8" xml:space="preserve">
+    <value>Aimpoint III</value>
+  </data>
+  <data name="arcade/gunTag/type9" xml:space="preserve">
+    <value>O-shaped I (with armor penetration indicator)</value>
+  </data>
+  <data name="chat/disableBattleChat" xml:space="preserve">
+    <value>Disable chat with allies</value>
+  </data>
+  <data name="game/enableDelayPostEffect" xml:space="preserve">
+    <value>Show in Postmortem mode vehicle that destroyed your vehicle</value>
+  </data>
+  <data name="gameplay/nations" xml:space="preserve">
+    <value>Confrontation</value>
+  </data>
+  <data name="sniper/centralTag/type10" xml:space="preserve">
+    <value>O-shaped I</value>
+  </data>
+  <data name="sniper/centralTag/type11" xml:space="preserve">
+    <value>O-shaped II</value>
+  </data>
+  <data name="sniper/centralTag/type12" xml:space="preserve">
+    <value>A-shaped IV</value>
+  </data>
+  <data name="sniper/centralTag/type13" xml:space="preserve">
+    <value>A-shaped V</value>
+  </data>
+  <data name="sniper/centralTag/type9" xml:space="preserve">
+    <value>Aimpoint II</value>
+  </data>
+  <data name="sniper/gunTag/type10" xml:space="preserve">
+    <value>O-shaped II (with load indicator)</value>
+  </data>
+  <data name="sniper/gunTag/type11" xml:space="preserve">
+    <value>O-shaped III</value>
+  </data>
+  <data name="sniper/gunTag/type12" xml:space="preserve">
+    <value>A-shaped IV (with armor penetration indicator)</value>
+  </data>
+  <data name="sniper/gunTag/type13" xml:space="preserve">
+    <value>A-shaped V (with load indicator)</value>
+  </data>
+  <data name="sniper/gunTag/type14" xml:space="preserve">
+    <value>A-shaped VI</value>
+  </data>
+  <data name="sniper/gunTag/type6" xml:space="preserve">
+    <value>Aimpoint I (with armor penetration indicator)</value>
+  </data>
+  <data name="sniper/gunTag/type7" xml:space="preserve">
+    <value>Aimpoint II (with load indicator)</value>
+  </data>
+  <data name="sniper/gunTag/type8" xml:space="preserve">
+    <value>Aimpoint III</value>
+  </data>
+  <data name="sniper/gunTag/type9" xml:space="preserve">
+    <value>O-shaped I (with armor penetration indicator)</value>
+  </data>
+  <data name="sniper/net/type3" xml:space="preserve">
+    <value>Dashed</value>
+  </data>
+  <data name="COLOR_GRADING_TECHNIQUE/description" xml:space="preserve">
+    <value>Change the visual style of the graphics using different color filters.
+
+Does not influence game performance.</value>
+  </data>
+  <data name="DECALS_QUALITY/description" xml:space="preserve">
+    <value>Determines the quality of ingame decals—additional dynamic textures applied to the basic textures.
+
+Decals include potholes, marks of shell penetration, mud, fallen leaves, emblems on vehicles, and other small details.</value>
+  </data>
+  <data name="EFFECTS_QUALITY/description" xml:space="preserve">
+    <value>Determines the display quality of sparks from ricochets, explosions, smoke, and other visual effects.
+
+Reducing the value of this parameter can improve game performance.</value>
+  </data>
+  <data name="FAR_PLANE/description" xml:space="preserve">
+    <value>Determines the display distance of relief features, buildings, enemy vehicles and other game objects.</value>
+  </data>
+  <data name="FLORA_QUALITY/description" xml:space="preserve">
+    <value>Determines the density and draw quality of grass and bushes.
+
+Reducing the value of this parameter can improve game performance.</value>
+  </data>
+  <data name="LIGHTING_QUALITY/description" xml:space="preserve">
+    <value>Accuracy of setting sun rays, lighting, and optical effects. 
+
+Increasing the value of this parameter considerably increases load on video card.</value>
+  </data>
+  <data name="MOTION_BLUR_QUALITY/description" xml:space="preserve">
+    <value>Determines the quality of motion blur effect of an image when a vehicle moves and camera rotates.</value>
+  </data>
+  <data name="OBJECT_LOD/description" xml:space="preserve">
+    <value>Determines the number of displayed objects and their quality.</value>
+  </data>
+  <data name="POST_PROCESSING_QUALITY/description" xml:space="preserve">
+    <value>Determines the quality of fog, glow effects, and other post-processing visual effects.
+
+Reducing the value of this parameter can improve game performance.</value>
+  </data>
+  <data name="RENDER_PIPELINE/description" xml:space="preserve">
+    <value>Improved: allows for maximum image quality.
+
+Standard: allows for maximum performance by simplifying or disabling some visual effects.</value>
+  </data>
+  <data name="RENDER_PIPELINE/label" xml:space="preserve">
+    <value>Graphics:</value>
+  </data>
+  <data name="RENDER_PIPELINE/warning" xml:space="preserve">
+    <value>Change of this parameter will be applied upon game restart.</value>
+  </data>
+  <data name="SHADOWS_QUALITY/description" xml:space="preserve">
+    <value>Determines the quality of dynamic shadow processing over the entire draw distance. Full disabling of shadows can cause strong visual inconsistency.
+
+Reducing the value of this parameter can considerably improve game performance.</value>
+  </data>
+  <data name="SNIPER_MODE_EFFECTS_QUALITY/description" xml:space="preserve">
+    <value>Determines the display quality of sparks from ricochets, explosions, smoke, and other realistic effects in Sniper mode.
+
+Reducing the value of this parameter can improve the game performance.</value>
+  </data>
+  <data name="SNIPER_MODE_GRASS_ENABLED/description" xml:space="preserve">
+    <value>Displays grass in Sniper mode.
+
+Disabling this parameter can improve game performance.</value>
+  </data>
+  <data name="SPEEDTREE_QUALITY/description" xml:space="preserve">
+    <value>Determines the draw quality of foliage.</value>
+  </data>
+  <data name="TERRAIN_QUALITY/description" xml:space="preserve">
+    <value>Determines the draw quality of map relief features.
+
+Use the minimum landscape quality only in the case of low computer performance.
+
+Reducing the value of this parameter can cause desynchronization of landscape display between client and server.</value>
+  </data>
+  <data name="TERRAIN_QUALITY/warning" xml:space="preserve">
+    <value>Applying the specified parameter may take some time.</value>
+  </data>
+  <data name="TEXTURE_QUALITY/description" xml:space="preserve">
+    <value>Quality of surfaces of game objects, especially under close examination.
+
+Reducing the value of this parameter can improve game performance.</value>
+  </data>
+  <data name="TEXTURE_QUALITY/warning" xml:space="preserve">
+    <value>Applying the specified parameter may take some time.</value>
+  </data>
+  <data name="VEHICLE_DUST_ENABLED/description" xml:space="preserve">
+    <value>Displays ground, snow, and water splashes behind the tracks.
+
+Disabling this parameter can improve game performance.</value>
+  </data>
+  <data name="VEHICLE_TRACES_ENABLED/description" xml:space="preserve">
+    <value>Displays track traces on the ground.
+
+Unavailable in the Standard graphics preset and at the low decals quality.</value>
+  </data>
+  <data name="WATER_QUALITY/description" xml:space="preserve">
+    <value>Determines the draw quality of water surfaces.</value>
+  </data>
+  <data name="aspectRatio/description" xml:space="preserve">
+    <value>Select height-to-width aspect ratio of the image. Mismatch of set height-to-width aspect ratio with your current display ratio can cause horizontal compression or stretching of the image.
+
+Does not influence game performance.</value>
+  </data>
+  <data name="autodetectButton/description" xml:space="preserve">
+    <value>Determines optimum image quality for your computer.
+
+This may take some time.</value>
+  </data>
+  <data name="colorFilterIntensity" xml:space="preserve">
+    <value>Filter Intensity</value>
+  </data>
+  <data name="colorFilterIntensity/description" xml:space="preserve">
+    <value>Change efficiency of the selected color filter.</value>
+  </data>
+  <data name="dynamicRenderer" xml:space="preserve">
+    <value>3D Render Resolution</value>
+  </data>
+  <data name="dynamicRenderer/description" xml:space="preserve">
+    <value>Determines game scene quality and details.
+
+3D render resolution in a battle can be changed by using [RShift +] and [RShift -]. Does not influence the interface.
+
+Reducing this parameter can improve game performance for computers with a low-performance video card.</value>
+  </data>
+  <data name="fov" xml:space="preserve">
+    <value>Field of View (FoV)</value>
+  </data>
+  <data name="fov/description" xml:space="preserve">
+    <value>Visibility range of game camera.
+
+95° is the normal FoV (field of view). The smaller the FoV, the closer objects appear, while peripheral view is reduced. 
+
+Does not influence game performance.</value>
+  </data>
+  <data name="fpsPerfomancer/description" xml:space="preserve">
+    <value>Automatic simplification of effects with low system performance.</value>
+  </data>
+  <data name="fullScreen" xml:space="preserve">
+    <value>Full-screen mode</value>
+  </data>
+  <data name="fullScreen/description" xml:space="preserve">
+    <value>Switching between fullscreen and windowed modes. Game performance is decreased in a windowed mode.</value>
+  </data>
+  <data name="game/enableOpticalSnpEffect" xml:space="preserve">
+    <value>Enable optics effect in Sniper mode</value>
+  </data>
+  <data name="gamma/description" xml:space="preserve">
+    <value>Change image brightness. Can be used in a fullscreen mode only.
+
+In a windowed mode, current operating system settings are used.</value>
+  </data>
+  <data name="graphics/significantlyAffecting" xml:space="preserve">
+    <value>Significantly Affecting Game Performance</value>
+  </data>
+  <data name="graphics/tabAdvanced" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="graphics/tabScreen" xml:space="preserve">
+    <value>Screen</value>
+  </data>
+  <data name="graphicsQuality" xml:space="preserve">
+    <value>Graphics Quality</value>
+  </data>
+  <data name="graphicsQuality/description" xml:space="preserve">
+    <value>Determines the general quality of the image. 
+
+Determines the parameters of the Details tab.
+
+Reducing graphics quality can improve game performance.
+
+Use the minimum graphics quality only in the case of low computer performance.
+
+Reducing the value of this parameter can cause desynchronization of landscape display between client and server.</value>
+  </data>
+  <data name="graphicsSettingsOptions/ANISOTROPIC_16X" xml:space="preserve">
+    <value>Anisotropic 16x</value>
+  </data>
+  <data name="graphicsSettingsOptions/ANISOTROPIC_2X" xml:space="preserve">
+    <value>Anisotropic 2x</value>
+  </data>
+  <data name="graphicsSettingsOptions/ANISOTROPIC_4X" xml:space="preserve">
+    <value>Anisotropic 4x</value>
+  </data>
+  <data name="graphicsSettingsOptions/ANISOTROPIC_8X" xml:space="preserve">
+    <value>Anisotropic 8x</value>
+  </data>
+  <data name="graphicsSettingsOptions/BILINEAR" xml:space="preserve">
+    <value>Bilinear</value>
+  </data>
+  <data name="graphicsSettingsOptions/CUSTOM" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="graphicsSettingsOptions/Colorization" xml:space="preserve">
+    <value>1940s cine film</value>
+  </data>
+  <data name="graphicsSettingsOptions/Contrasty" xml:space="preserve">
+    <value>Contrast</value>
+  </data>
+  <data name="graphicsSettingsOptions/DEFERRED" xml:space="preserve">
+    <value>Improved</value>
+  </data>
+  <data name="graphicsSettingsOptions/FAR" xml:space="preserve">
+    <value>Far</value>
+  </data>
+  <data name="graphicsSettingsOptions/FORWARD" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="graphicsSettingsOptions/HIGH" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="graphicsSettingsOptions/LOW" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="graphicsSettingsOptions/LOWEST" xml:space="preserve">
+    <value>Very Low</value>
+  </data>
+  <data name="graphicsSettingsOptions/MAX" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="graphicsSettingsOptions/MEDIUM" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="graphicsSettingsOptions/MIN" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="graphicsSettingsOptions/Muted" xml:space="preserve">
+    <value>Muted</value>
+  </data>
+  <data name="graphicsSettingsOptions/NEAR" xml:space="preserve">
+    <value>Near</value>
+  </data>
+  <data name="graphicsSettingsOptions/NONE" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="graphicsSettingsOptions/OFF" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="graphicsSettingsOptions/ON" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="graphicsSettingsOptions/POINT" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="graphicsSettingsOptions/Photochromatic" xml:space="preserve">
+    <value>Photochromatic</value>
+  </data>
+  <data name="graphicsSettingsOptions/SHADER_MODEL_0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="graphicsSettingsOptions/SHADER_MODEL_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="graphicsSettingsOptions/SHADER_MODEL_2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="graphicsSettingsOptions/SHADER_MODEL_3" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="graphicsSettingsOptions/Soft" xml:space="preserve">
+    <value>Deep</value>
+  </data>
+  <data name="graphicsSettingsOptions/Soft Colors" xml:space="preserve">
+    <value>Soft colors</value>
+  </data>
+  <data name="graphicsSettingsOptions/TRILINEAR" xml:space="preserve">
+    <value>Trilinear</value>
+  </data>
+  <data name="graphicsSettingsOptions/VERYHIGH" xml:space="preserve">
+    <value>Very High</value>
+  </data>
+  <data name="graphicsSettingsOptions/VERY_HIGH" xml:space="preserve">
+    <value>Very High</value>
+  </data>
+  <data name="isColorBlind/description" xml:space="preserve">
+    <value>Adaptation of the color palette for people with color vision deficiency.</value>
+  </data>
+  <data name="monitor/description" xml:space="preserve">
+    <value>Select the primary display for the game.</value>
+  </data>
+  <data name="refreshRate" xml:space="preserve">
+    <value>Display Refresh Rate</value>
+  </data>
+  <data name="refreshRate/default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="refreshRate/description" xml:space="preserve">
+    <value>Display refresh rate in the game.
+
+Mismatch with display refresh rate can cause a blinking screen effect.
+
+Does not influence game performance.</value>
+  </data>
+  <data name="resolution/description" xml:space="preserve">
+    <value>Horizontal and vertical screen resolution in a fullscreen mode. Higher resolution improves image quality. Mismatch of set resolution in a fullscreen mode with current display resolution can distort the image.
+
+Increasing this parameter increases load on video card and can reduce game performance.
+
+Load on video card can be reduced by setting 3D render resolution.</value>
+  </data>
+  <data name="smoothing" xml:space="preserve">
+    <value>Antialiasing</value>
+  </data>
+  <data name="smoothing/description" xml:space="preserve">
+    <value>Determines degree of additional processing of thin lines and contours of game objects. Minimizes aliasing effect. Contours of objects look more natural.</value>
+  </data>
+  <data name="vertSync" xml:space="preserve">
+    <value>Vertical synchronization</value>
+  </data>
+  <data name="vertSync/Off" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="vertSync/On" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="vertSync/description" xml:space="preserve">
+    <value>Synchronization of frame rate with display refresh rate.
+
+60 frames per second is the frame rate limit. This option may help correct a shaking image effect or image delay at the bottom of the screen relative to the top.</value>
+  </data>
+  <data name="windowSize/description" xml:space="preserve">
+    <value>Horizontal and vertical screen resolution of game client window. When switching to a fullscreen mode, the setting changes to "Screen Resolution".</value>
+  </data>
+  <data name="dynamicFov" xml:space="preserve">
+    <value>Dynamic FoV</value>
+  </data>
+  <data name="dynamicFov/description" xml:space="preserve">
+    <value>Dynamic FoV allows you to set the minimum and maximum view angle in Arcade aim.
+
+Maximum angle is used when the camera is zoomed away from the vehicle.
+
+Minimum angle is used when zoomed in to the vehicle.</value>
+  </data>
+  <data name="game/showMarksOnGun" xml:space="preserve">
+    <value>Display Marks of Excellence</value>
+  </data>
+  <data name="otherTitle" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="SEMITRANSPARENT_LEAVES_ENABLED" xml:space="preserve">
+    <value>Foliage transparency</value>
+  </data>
+  <data name="SEMITRANSPARENT_LEAVES_ENABLED/description" xml:space="preserve">
+    <value>Determines how foliage for nearby trees and bushes is displayed.
+
+Disabling this parameter displays the foliage of nearby trees and bushes as completely invisible, which can improve game performance.</value>
+  </data>
+  <data name="HAVOK_ENABLED" xml:space="preserve">
+    <value>Enhanced Effect Physics</value>
+  </data>
+  <data name="HAVOK_ENABLED/OFF" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="HAVOK_ENABLED/ON" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="HAVOK_ENABLED/description" xml:space="preserve">
+    <value>Enables a more realistic model of object destruction and interaction on the Stalingrad map.
+
+Disabling this parameter can improve game performance.</value>
+  </data>
+  <data name="tripleBuffered/description" xml:space="preserve">
+    <value>Decreases tearing on frame change (available only with vertical synchronization enabled).</value>
+  </data>
+  <data name="game/battlePanelSettings" xml:space="preserve">
+    <value>Battle Interface</value>
+  </data>
+  <data name="game/showSectorOnMap" xml:space="preserve">
+    <value>Display arc of fire for the SPG on the minimap</value>
+  </data>
+  <data name="game/showVectorOnMap" xml:space="preserve">
+    <value>Display camera direction beam on the minimap</value>
+  </data>
+  <data name="game/showVehModelsOnMap" xml:space="preserve">
+    <value>Enable Expanded Minimap Features</value>
+  </data>
+  <data name="game/showVehModelsOnMap/alt" xml:space="preserve">
+    <value>Upon pressing Alt</value>
+  </data>
+  <data name="game/showVehModelsOnMap/always" xml:space="preserve">
+    <value>Always</value>
+  </data>
+  <data name="game/showVehModelsOnMap/never" xml:space="preserve">
+    <value>Never</value>
+  </data>
+  <data name="graphicsSettingsOptions/RANDOM" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="chat/receiveFriendshipRequest" xml:space="preserve">
+    <value>Accept friend requests</value>
+  </data>
+  <data name="defaultNamePrefix" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="interfaceScale" xml:space="preserve">
+    <value>Interface Scaling</value>
+  </data>
+  <data name="interfaceScale/attention" xml:space="preserve">
+    <value>Feature is undergoing testing;
+it does not influence game performance.</value>
+  </data>
+  <data name="interfaceScale/body" xml:space="preserve">
+    <value>Automatic scaling of interface elements
+when maximizing game screen/window.</value>
+  </data>
+  <data name="interfaceScale/description" xml:space="preserve">
+    <value>Automatic scaling of interface elements when maximizing game screen/window.</value>
+  </data>
+  <data name="interfaceScale/header" xml:space="preserve">
+    <value>Interface Scaling</value>
+  </data>
+  <data name="interfaceScale/warning" xml:space="preserve">
+    <value>Feature is undergoing testing; it does not influence game performance.</value>
+  </data>
+  <data name="chat/chatContactsListOnly" xml:space="preserve">
+    <value>Receive messages only from the Contact list</value>
+  </data>
+  <data name="chat/receiveInvitesInBattle" xml:space="preserve">
+    <value>Accept invitations to Platoon in battle</value>
+  </data>
+  <data name="game/showBattleEfficiencyRibbons" xml:space="preserve">
+    <value>Display battle performance badges</value>
+  </data>
+  <data name="graphicsQualityHDSD" xml:space="preserve">
+    <value>Client Types</value>
+  </data>
+  <data name="graphicsQualityHDSD/HD" xml:space="preserve">
+    <value>HD Client (Beta)</value>
+  </data>
+  <data name="graphicsQualityHDSD/SD" xml:space="preserve">
+    <value>Standard (SD) Client installed</value>
+  </data>
+  <data name="graphicsQualityHDSD/description" xml:space="preserve">
+    <value>Standard Client—full game without maximum-quality textures.
+
+HD Client (Beta)—full game including maximum-quality textures. Requires more space on the hard drive than the Standard Client.</value>
+  </data>
+  <data name="DRR_AUTOSCALER_ENABLED" xml:space="preserve">
+    <value>Dynamic Adjustment</value>
+  </data>
+  <data name="DRR_AUTOSCALER_ENABLED/description" xml:space="preserve">
+    <value>Enable or disable automatic adjustment of 3D render resolution.
+
+Enabling this parameter can improve game performance.</value>
+  </data>
+  <data name="interfaceScaleDisabled" xml:space="preserve">
+    <value>Interface Scaling</value>
+  </data>
+  <data name="interfaceScaleDisabled/attention" xml:space="preserve">
+    <value>Only available for 4K displays.</value>
+  </data>
+  <data name="interfaceScaleDisabled/body" xml:space="preserve">
+    <value>Automatic scaling of interface elements
+when maximizing game screen/window.</value>
+  </data>
+  <data name="interfaceScaleDisabled/description" xml:space="preserve">
+    <value>Automatic scaling of interface elements when maximizing game screen/window.</value>
+  </data>
+  <data name="interfaceScaleDisabled/header" xml:space="preserve">
+    <value>Interface Scaling</value>
+  </data>
+  <data name="interfaceScaleDisabled/warning" xml:space="preserve">
+    <value>Only available for 4K displays.</value>
+  </data>
+  <data name="chat/receiveClanInvitesNotifications" xml:space="preserve">
+    <value>Receive clan notifications</value>
+  </data>
+  <data name="game/battleLoadingInfo" xml:space="preserve">
+    <value>Tips on the Battle Loading Screen</value>
+  </data>
+  <data name="game/battleLoadingInfo/minimap" xml:space="preserve">
+    <value>Minimap</value>
+  </data>
+  <data name="game/battleLoadingInfo/textTip" xml:space="preserve">
+    <value>Text only</value>
+  </data>
+  <data name="game/battleLoadingInfo/visualTip" xml:space="preserve">
+    <value>Illustrated tips</value>
+  </data>
+  <data name="game/minimapDrawRange" xml:space="preserve">
+    <value>Show the draw circle</value>
+  </data>
+  <data name="game/minimapGroupTitle" xml:space="preserve">
+    <value>View range Indicators on the Minimap</value>
+  </data>
+  <data name="game/minimapMaxViewRange" xml:space="preserve">
+    <value>Show the maximum spotting range</value>
+  </data>
+  <data name="game/minimapViewRange" xml:space="preserve">
+    <value>Show the view range circle</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/block_tracks" xml:space="preserve">
+    <value>"Handbrake"</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/voicechat_enable" xml:space="preserve">
+    <value>Enable/disable voice chat in Dynamic Platoons</value>
+  </data>
+  <data name="sound/dynamicRange/broad" xml:space="preserve">
+    <value>Wide</value>
+  </data>
+  <data name="sound/dynamicRange/label" xml:space="preserve">
+    <value>Dynamic Range</value>
+  </data>
+  <data name="sound/dynamicRange/narrow" xml:space="preserve">
+    <value>Narrow</value>
+  </data>
+  <data name="sound/dynamicRange/nightMode" xml:space="preserve">
+    <value>Night mode</value>
+  </data>
+  <data name="sound/dynamicRange/title" xml:space="preserve">
+    <value>Presets</value>
+  </data>
+  <data name="soundQuality" xml:space="preserve">
+    <value>HQ Sound</value>
+  </data>
+  <data name="soundQuality/description" xml:space="preserve">
+    <value>Disabling this parameter can improve game performance.</value>
+  </data>
+  <data name="sounds/masterVolumeToggle" xml:space="preserve">
+    <value>Enable sound</value>
+  </data>
+  <data name="sounds/soundQuality" xml:space="preserve">
+    <value>Low quality</value>
+  </data>
+  <data name="aim/cassette" xml:space="preserve">
+    <value>Containers</value>
+  </data>
+  <data name="aim/centralTag" xml:space="preserve">
+    <value>Central Marker</value>
+  </data>
+  <data name="aim/centralTag/type0" xml:space="preserve">
+    <value>A-shaped I</value>
+  </data>
+  <data name="aim/centralTag/type1" xml:space="preserve">
+    <value>A-shaped II</value>
+  </data>
+  <data name="aim/centralTag/type10" xml:space="preserve">
+    <value>O-shaped I</value>
+  </data>
+  <data name="aim/centralTag/type11" xml:space="preserve">
+    <value>O-shaped II</value>
+  </data>
+  <data name="aim/centralTag/type12" xml:space="preserve">
+    <value>A-shaped IV</value>
+  </data>
+  <data name="aim/centralTag/type13" xml:space="preserve">
+    <value>A-shaped V</value>
+  </data>
+  <data name="aim/centralTag/type2" xml:space="preserve">
+    <value>A-shaped III</value>
+  </data>
+  <data name="aim/centralTag/type3" xml:space="preserve">
+    <value>V-shaped</value>
+  </data>
+  <data name="aim/centralTag/type4" xml:space="preserve">
+    <value>Crosshair I</value>
+  </data>
+  <data name="aim/centralTag/type5" xml:space="preserve">
+    <value>Crosshair II</value>
+  </data>
+  <data name="aim/centralTag/type6" xml:space="preserve">
+    <value>T-shaped</value>
+  </data>
+  <data name="aim/centralTag/type7" xml:space="preserve">
+    <value>I-shaped</value>
+  </data>
+  <data name="aim/centralTag/type8" xml:space="preserve">
+    <value>Aimpoint I</value>
+  </data>
+  <data name="aim/centralTag/type9" xml:space="preserve">
+    <value>Aimpoint II</value>
+  </data>
+  <data name="aim/condition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="aim/gunTag" xml:space="preserve">
+    <value>Gun Marker</value>
+  </data>
+  <data name="aim/gunTag/type0" xml:space="preserve">
+    <value>A-shaped I (with armor penetration indicator)</value>
+  </data>
+  <data name="aim/gunTag/type1" xml:space="preserve">
+    <value>A-shaped II (with load indicator)</value>
+  </data>
+  <data name="aim/gunTag/type10" xml:space="preserve">
+    <value>O-shaped II (with load indicator)</value>
+  </data>
+  <data name="aim/gunTag/type11" xml:space="preserve">
+    <value>O-shaped III</value>
+  </data>
+  <data name="aim/gunTag/type12" xml:space="preserve">
+    <value>A-shaped IV (with armor penetration indicator)</value>
+  </data>
+  <data name="aim/gunTag/type13" xml:space="preserve">
+    <value>A-shaped V (with load indicator)</value>
+  </data>
+  <data name="aim/gunTag/type14" xml:space="preserve">
+    <value>A-shaped VI</value>
+  </data>
+  <data name="aim/gunTag/type2" xml:space="preserve">
+    <value>A-shaped III</value>
+  </data>
+  <data name="aim/gunTag/type3" xml:space="preserve">
+    <value>Crosshair I (with armor penetration indicator)</value>
+  </data>
+  <data name="aim/gunTag/type4" xml:space="preserve">
+    <value>Crosshair II (with load indicator)</value>
+  </data>
+  <data name="aim/gunTag/type5" xml:space="preserve">
+    <value>Crosshair III</value>
+  </data>
+  <data name="aim/gunTag/type6" xml:space="preserve">
+    <value>Aimpoint I (with armor penetration indicator)</value>
+  </data>
+  <data name="aim/gunTag/type7" xml:space="preserve">
+    <value>Aimpoint II (with load indicator)</value>
+  </data>
+  <data name="aim/gunTag/type8" xml:space="preserve">
+    <value>Aimpoint III</value>
+  </data>
+  <data name="aim/gunTag/type9" xml:space="preserve">
+    <value>O-shaped I (with armor penetration indicator)</value>
+  </data>
+  <data name="aim/mixing" xml:space="preserve">
+    <value>Aiming</value>
+  </data>
+  <data name="aim/mixing/type0" xml:space="preserve">
+    <value>Circle I (with load indicator) </value>
+  </data>
+  <data name="aim/mixing/type1" xml:space="preserve">
+    <value>Circle II (with shifting load indicator)</value>
+  </data>
+  <data name="aim/mixing/type2" xml:space="preserve">
+    <value>Circle III (without load indicator)</value>
+  </data>
+  <data name="aim/mixing/type3" xml:space="preserve">
+    <value>Circle IV (solid)</value>
+  </data>
+  <data name="aim/mixing/type4" xml:space="preserve">
+    <value>Crosshair (with shifting load indicator)</value>
+  </data>
+  <data name="aim/mixing/type5" xml:space="preserve">
+    <value>Crosshair II</value>
+  </data>
+  <data name="aim/mixing/type6" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="aim/net" xml:space="preserve">
+    <value>Indicator</value>
+  </data>
+  <data name="aim/net/type0" xml:space="preserve">
+    <value>Diagonal</value>
+  </data>
+  <data name="aim/net/type1" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="aim/net/type2" xml:space="preserve">
+    <value>Radial</value>
+  </data>
+  <data name="aim/net/type3" xml:space="preserve">
+    <value>Dashed</value>
+  </data>
+  <data name="aim/reloader" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="aim/reloaderTimer" xml:space="preserve">
+    <value>Loading Timer</value>
+  </data>
+  <data name="aim/zoomIndicator" xml:space="preserve">
+    <value>Zoom Indicator</value>
+  </data>
+  <data name="game/increasedZoom/base" xml:space="preserve">
+    <value>Enable the %(zooms)s</value>
+  </data>
+  <data name="game/increasedZoom/delimeter" xml:space="preserve">
+    <value> and </value>
+  </data>
+  <data name="game/increasedZoom/zoomStr" xml:space="preserve">
+    <value>x%(zoom)d</value>
+  </data>
+  <data name="game/showSimplifiedVehParams" xml:space="preserve">
+    <value>Show simplified technical characteristics in the Garage</value>
+  </data>
+  <data name="game/sniperModeByShift" xml:space="preserve">
+    <value>Restrict toggling the Sniper mode to the Shift key</value>
+  </data>
+  <data name="graphicsSettingsOptions/ULTRA" xml:space="preserve">
+    <value>Ultra</value>
+  </data>
+  <data name="sound/bassBoost/label" xml:space="preserve">
+    <value>Bass boost</value>
+  </data>
+  <data name="sound/presets/title" xml:space="preserve">
+    <value>Presets</value>
+  </data>
+  <data name="sound/soundDevice/acoustics" xml:space="preserve">
+    <value>2.0/2.1 Sound System</value>
+  </data>
+  <data name="sound/soundDevice/headphones" xml:space="preserve">
+    <value>Headphones</value>
+  </data>
+  <data name="sound/soundDevice/label" xml:space="preserve">
+    <value>Type of Audio Device</value>
+  </data>
+  <data name="sound/soundDevice/laptop" xml:space="preserve">
+    <value>Laptop</value>
+  </data>
+  <data name="feedBack" xml:space="preserve">
+    <value>Battle Notifications</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/BaseCapture" xml:space="preserve">
+    <value>Base capture points</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/BaseCaptureDrop" xml:space="preserve">
+    <value>Capture points reset</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/BlockedDamage" xml:space="preserve">
+    <value>Damage Blocked</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EnemyBurning" xml:space="preserve">
+    <value>Enemy vehicle set on fire</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EnemyCriticalHit" xml:space="preserve">
+    <value>Critical damage</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EnemyDetection" xml:space="preserve">
+    <value>Spotting</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EnemyDetectionDamage" xml:space="preserve">
+    <value>Damage upon your spotting</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EnemyHpDamage" xml:space="preserve">
+    <value>Damage from a shot</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EnemyKill" xml:space="preserve">
+    <value>Enemy vehicle destroyed</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EnemyRamAttack" xml:space="preserve">
+    <value>Damage from ramming</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EnemyTrackDamage" xml:space="preserve">
+    <value>Track destroyed</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EventName" xml:space="preserve">
+    <value>Event name</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/ShowInBattle" xml:space="preserve">
+    <value>Show in battle</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/VehicleInfo" xml:space="preserve">
+    <value>Vehicle info</value>
+  </data>
+  <data name="feedback/tab/battleEvents/info" xml:space="preserve">
+    <value>The three most recent events are displayed in a battle</value>
+  </data>
+  <data name="feedback/tab/battleEvents/label/CommonLabel" xml:space="preserve">
+    <value>Display in Battle</value>
+  </data>
+  <data name="feedback/tab/battleEvents/label/Information" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="feedback/tab/battleEvents/label/VisibleEvents" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="feedback/tab/damageIndicator" xml:space="preserve">
+    <value>Fire Direction Indicator</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/indicator/blockDamageCountTF" xml:space="preserve">
+    <value>Amount of damage</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/indicator/blockedLabel" xml:space="preserve">
+    <value>Shot blocked</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/indicator/blockedValue" xml:space="preserve">
+    <value>400</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/indicator/critLabel" xml:space="preserve">
+    <value>Critical hit
+on your vehicle</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/indicator/critValue" xml:space="preserve">
+    <value>x3</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/indicator/damageLabel" xml:space="preserve">
+    <value>Damage received</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/indicator/damageModule" xml:space="preserve">
+    <value>Module damaged</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/indicator/damageValue" xml:space="preserve">
+    <value>400</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/items" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/items/animation" xml:space="preserve">
+    <value>Display animation</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/items/damage" xml:space="preserve">
+    <value>Amount of damage</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/items/tankName" xml:space="preserve">
+    <value>Vehicle info</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/presets" xml:space="preserve">
+    <value>Display in battle</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/presets/all" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/presets/withoutCrit" xml:space="preserve">
+    <value>Except critical</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/type/extended" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/type/standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/typeLabel" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/blockedDamage" xml:space="preserve">
+    <value>Blocked by armor</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/damageAssist" xml:space="preserve">
+    <value>Damage with your assistance</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/damageDone" xml:space="preserve">
+    <value>Damage caused by you</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/details/always" xml:space="preserve">
+    <value>Display always</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/details/byAlt" xml:space="preserve">
+    <value>Press Alt to display</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/details/hide" xml:space="preserve">
+    <value>Do not display</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/detailsLabel" xml:space="preserve">
+    <value>Detailed damage</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/summLabel" xml:space="preserve">
+    <value>Summarized damage</value>
+  </data>
+  <data name="feedback/tab/detailsInfoBlock" xml:space="preserve">
+    <value>A block for detailed damage information. Shows complete information about your effectiveness in battle.</value>
+  </data>
+  <data name="feedback/tab/eventsInfo" xml:space="preserve">
+    <value>Battle Events</value>
+  </data>
+  <data name="game/carouselType" xml:space="preserve">
+    <value>Vehicle panel</value>
+  </data>
+  <data name="game/carouselType/double" xml:space="preserve">
+    <value>Two-level</value>
+  </data>
+  <data name="game/carouselType/single" xml:space="preserve">
+    <value>One-level</value>
+  </data>
+  <data name="otherSettings/fieldset/header" xml:space="preserve">
+    <value>Sound Environment Elements</value>
+  </data>
+  <data name="otherSettings/labels/bulb" xml:space="preserve">
+    <value>Sixth Sense Activation Sound</value>
+  </data>
+  <data name="sound/bulbVoices/lightbulb" xml:space="preserve">
+    <value>Variant 1</value>
+  </data>
+  <data name="sound/bulbVoices/lightbulb_02" xml:space="preserve">
+    <value>Variant 2</value>
+  </data>
+  <data name="sound/bulbVoices/sixthSense" xml:space="preserve">
+    <value>User sound</value>
+  </data>
+  <data name="sound/special/field/set" xml:space="preserve">
+    <value>Game event volume</value>
+  </data>
+  <data name="sounds/bassBoost" xml:space="preserve">
+    <value>Low frequency enhancement</value>
+  </data>
+  <data name="sounds/bassBoost/description" xml:space="preserve">
+    <value>Enhances low frequencies in game with the master volume remaining the same. The mode implementation may differ depending on the selected sound system (speakers, headphones, or laptop).</value>
+  </data>
+  <data name="sounds/bulbVoices" xml:space="preserve">
+    <value>Sixth Sense</value>
+  </data>
+  <data name="sounds/bulbVoices/description" xml:space="preserve">
+    <value>Select one of variants for the Sixth Sense activation sound. To use your own sound, rename your .mp3 file to sixthSense and move it to the res/audioww folder.</value>
+  </data>
+  <data name="sounds/hangar" xml:space="preserve">
+    <value>Music in Garage</value>
+  </data>
+  <data name="sounds/masterVolumeToggle/description" xml:space="preserve">
+    <value>Disabling game sound effects may improve the overall game performance. You will have to restart the game client for the changes to apply.</value>
+  </data>
+  <data name="sounds/nightMode" xml:space="preserve">
+    <value>Night mode</value>
+  </data>
+  <data name="sounds/nightMode/description" xml:space="preserve">
+    <value>Levels out volume differences, reduces sharp sounds, and minimizes low frequencies in game, providing a comfortable and soft sound environment for late night gaming.</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics" xml:space="preserve">
+    <value>2.0/2.1 System</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics/body" xml:space="preserve">
+    <value>Adjusts the in-game sound for external paired full-range speakers (2.0) or paired high frequency speakers + one low frequency speaker (2.1).</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics/header" xml:space="preserve">
+    <value>2.0/2.1 System</value>
+  </data>
+  <data name="sounds/soundDevice/headphones" xml:space="preserve">
+    <value>Headphones</value>
+  </data>
+  <data name="sounds/soundDevice/headphones/body" xml:space="preserve">
+    <value>Adjusts the in-game sound for headphones.</value>
+  </data>
+  <data name="sounds/soundDevice/headphones/header" xml:space="preserve">
+    <value>Headphones</value>
+  </data>
+  <data name="sounds/soundDevice/label" xml:space="preserve">
+    <value>Device:</value>
+  </data>
+  <data name="sounds/soundDevice/laptop" xml:space="preserve">
+    <value>Laptop</value>
+  </data>
+  <data name="sounds/soundDevice/laptop/body" xml:space="preserve">
+    <value>Uses the positioning principle of the 2.0/2.1 Sound System preset but adjusts the in-game sound for playback on small laptop speakers at the highest quality possible.</value>
+  </data>
+  <data name="sounds/soundDevice/laptop/header" xml:space="preserve">
+    <value>Laptop</value>
+  </data>
+  <data name="sounds/soundQuality/description" xml:space="preserve">
+    <value>Reducing the sound quality may improve the overall game performance on low-end computers. Enabling this mode significantly reduces the number of sounds processed simultaneously.</value>
+  </data>
+  <data name="sounds/tabCommon" xml:space="preserve">
+    <value>Master Sound</value>
+  </data>
+  <data name="sounds/tabSpecial" xml:space="preserve">
+    <value>Game Event</value>
+  </data>
+  <data name="sounds/tabVivox" xml:space="preserve">
+    <value>Voice Chat</value>
+  </data>
+  <data name="sounds/voiceNotification" xml:space="preserve">
+    <value>Voice Notifications</value>
+  </data>
+  <data name="voice_chat/microphone/fieldset/header" xml:space="preserve">
+    <value>Microphone</value>
+  </data>
+  <data name="borderlessSize" xml:space="preserve">
+    <value>Windowed (borderless)</value>
+  </data>
+  <data name="borderlessSize/description" xml:space="preserve">
+    <value>Windowed (borderless)</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/ReceivedCrits" xml:space="preserve">
+    <value>Critical damage</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/ReceivedDamage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/WorldCollision" xml:space="preserve">
+    <value>Damage by wrecking</value>
+  </data>
+  <data name="feedback/tab/battleEvents/label/negative" xml:space="preserve">
+    <value>Damage received</value>
+  </data>
+  <data name="feedback/tab/battleEvents/label/positive" xml:space="preserve">
+    <value>Battle Performance</value>
+  </data>
+  <data name="feedback/tab/battleEvents/receivedDamage" xml:space="preserve">
+    <value>Damage received</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/items/dynamicIndicator" xml:space="preserve">
+    <value>Dynamic indicators</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/eventPositions/bottom" xml:space="preserve">
+    <value>All events at the bottom</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/eventPositions/topBottom" xml:space="preserve">
+    <value>Received damage at the top</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/eventPositionsLabel" xml:space="preserve">
+    <value>Position of events</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/eventTypes/both" xml:space="preserve">
+    <value>All events</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/eventTypes/eventTypesLabel" xml:space="preserve">
+    <value>Event type</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/eventTypes/negative" xml:space="preserve">
+    <value>Damage received</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/eventTypes/positive" xml:space="preserve">
+    <value>Battle Performance</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/negative/value1" xml:space="preserve">
+    <value>490</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/negative/value2" xml:space="preserve">
+    <value>400</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/negative/value3" xml:space="preserve">
+    <value>x2</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/negative/value4" xml:space="preserve">
+    <value>x2</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/positive/value1" xml:space="preserve">
+    <value>320</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/positive/value2" xml:space="preserve">
+    <value>151</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/positive/value3" xml:space="preserve">
+    <value>867</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/positive/value4" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/screenAlert" xml:space="preserve">
+    <value>Enabling this setting is not recommended for displays with a low resolution</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/summaryAssist" xml:space="preserve">
+    <value>1200</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/summaryBlock" xml:space="preserve">
+    <value>700</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/summaryDamage" xml:space="preserve">
+    <value>1240</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/total/value1" xml:space="preserve">
+    <value>400</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/total/value2" xml:space="preserve">
+    <value>151</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/total/value3" xml:space="preserve">
+    <value>867</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/total/value4" xml:space="preserve">
+    <value>750</value>
+  </data>
+  <data name="feedback/tab/ribbons/armorValue" xml:space="preserve">
+    <value>750</value>
+  </data>
+  <data name="feedback/tab/ribbons/assistSpotValue" xml:space="preserve">
+    <value>654</value>
+  </data>
+  <data name="feedback/tab/ribbons/assistTrackValue" xml:space="preserve">
+    <value>750</value>
+  </data>
+  <data name="feedback/tab/ribbons/burnValue" xml:space="preserve">
+    <value>350</value>
+  </data>
+  <data name="feedback/tab/ribbons/captureValue" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="feedback/tab/ribbons/critValue" xml:space="preserve">
+    <value>x2</value>
+  </data>
+  <data name="feedback/tab/ribbons/damageValue" xml:space="preserve">
+    <value>400</value>
+  </data>
+  <data name="feedback/tab/ribbons/defenceValue" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="feedback/tab/ribbons/ramValue" xml:space="preserve">
+    <value>250</value>
+  </data>
+  <data name="feedback/tab/ribbons/visibleItemsCount" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="game/carouselVehicle/checkbox/stats" xml:space="preserve">
+    <value>Display stats upon hovering over a slot in the Garage</value>
+  </data>
+  <data name="game/doubleCarousel/label" xml:space="preserve">
+    <value>Two-level vehicle panel</value>
+  </data>
+  <data name="game/doubleCarouselType/adaptive" xml:space="preserve">
+    <value>Adaptive</value>
+  </data>
+  <data name="game/doubleCarouselType/small" xml:space="preserve">
+    <value>Minimalistic</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/my_target/follow_me" xml:space="preserve">
+    <value>Requesting fire! / Follow me!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/reload/stop" xml:space="preserve">
+    <value>Reloading! / Halt!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/sos/help_me" xml:space="preserve">
+    <value>Need assistance! / Help me!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/to_base/to_back" xml:space="preserve">
+    <value>Defend the base! / Fall back!</value>
+  </data>
+  <data name="screenMode" xml:space="preserve">
+    <value>Game Mode</value>
+  </data>
+  <data name="screenMode/borderless" xml:space="preserve">
+    <value>Windowed (borderless)</value>
+  </data>
+  <data name="screenMode/description" xml:space="preserve">
+    <value>Switching between full-screen, windowed and windowed (borderless) game modes. The windowed game mode will reduce game performance.</value>
+  </data>
+  <data name="screenMode/fullscreen" xml:space="preserve">
+    <value>Full-screen</value>
+  </data>
+  <data name="screenMode/label" xml:space="preserve">
+    <value>Mode:</value>
+  </data>
+  <data name="screenMode/windowed" xml:space="preserve">
+    <value>Windowed</value>
+  </data>
+  <data name="sounds/acousticType/acoustics20" xml:space="preserve">
+    <value>2.0/2.1</value>
+  </data>
+  <data name="sounds/acousticType/acoustics51" xml:space="preserve">
+    <value>5.1</value>
+  </data>
+  <data name="sounds/acousticType/acoustics71" xml:space="preserve">
+    <value>7.1</value>
+  </data>
+  <data name="sounds/acousticType/auto" xml:space="preserve">
+    <value>Autoselection</value>
+  </data>
+  <data name="sounds/acousticType/popover/acoustics20" xml:space="preserve">
+    <value>2.0/2.1 system</value>
+  </data>
+  <data name="sounds/acousticType/popover/acoustics51" xml:space="preserve">
+    <value>5.1 system</value>
+  </data>
+  <data name="sounds/acousticType/popover/acoustics71" xml:space="preserve">
+    <value>7.1 system</value>
+  </data>
+  <data name="sounds/acousticType/popover/headphones" xml:space="preserve">
+    <value>headphones</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/center" xml:space="preserve">
+    <value>Central</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/leftBack" xml:space="preserve">
+    <value>Left rear</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/leftFront" xml:space="preserve">
+    <value>Left front</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/leftSide" xml:space="preserve">
+    <value>Left side</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/right" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/rightBack" xml:space="preserve">
+    <value>Right rear</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/rightFront" xml:space="preserve">
+    <value>Right front</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/rightSide" xml:space="preserve">
+    <value>Right side</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/sub" xml:space="preserve">
+    <value>Subwoofer</value>
+  </data>
+  <data name="sounds/acousticType/popover/laptop" xml:space="preserve">
+    <value>laptop</value>
+  </data>
+  <data name="sounds/acousticType/popover/title" xml:space="preserve">
+    <value>Sound test:</value>
+  </data>
+  <data name="sounds/acousticType/testButton" xml:space="preserve">
+    <value>Test sound</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics20" xml:space="preserve">
+    <value>2.0/2.1 System</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics20/body" xml:space="preserve">
+    <value>Adjusts the in-game sound for external paired full-range speakers (2.0) or paired high frequency speakers + one low frequency speaker (2.1).</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics20/header" xml:space="preserve">
+    <value>2.0/2.1 System</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics51" xml:space="preserve">
+    <value>5.1 System</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics51/body" xml:space="preserve">
+    <value>Adjusts the positioning of in-game sound for the external speakers and subwoofer in the multichannel 5.1 system.</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics51/header" xml:space="preserve">
+    <value>5.1 System</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics71" xml:space="preserve">
+    <value>7.1 System</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics71/body" xml:space="preserve">
+    <value>Adjusts the positioning of in-game sound for the external speakers and subwoofer in the multichannel 7.1 system.</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics71/header" xml:space="preserve">
+    <value>7.1 System</value>
+  </data>
+  <data name="sounds/soundDevice/auto" xml:space="preserve">
+    <value>Autoselection</value>
+  </data>
+  <data name="sounds/soundDevice/auto/body" xml:space="preserve">
+    <value>Automatically determines the audio configuration settings, specified in the operating system.</value>
+  </data>
+  <data name="sounds/soundDevice/auto/header" xml:space="preserve">
+    <value>Autoselection</value>
+  </data>
+  <data name="sounds/speakers/back/body" xml:space="preserve">
+    <value>Sound test on right/left rear speakers.</value>
+  </data>
+  <data name="sounds/speakers/back/header" xml:space="preserve">
+    <value>Right/left rear speakers</value>
+  </data>
+  <data name="sounds/speakers/center/body" xml:space="preserve">
+    <value>Sound test on the central speaker.</value>
+  </data>
+  <data name="sounds/speakers/center/header" xml:space="preserve">
+    <value>Central speaker</value>
+  </data>
+  <data name="sounds/speakers/front/body" xml:space="preserve">
+    <value>Sound test on right/left front speakers.</value>
+  </data>
+  <data name="sounds/speakers/front/header" xml:space="preserve">
+    <value>Right/left front speakers</value>
+  </data>
+  <data name="sounds/speakers/optionalsub/body" xml:space="preserve">
+    <value>In the 2.0/2.1 system, a subwoofer presents an optional device. It cannot be tested without speakers.</value>
+  </data>
+  <data name="sounds/speakers/optionalsub/header" xml:space="preserve">
+    <value>Optional subwoofer</value>
+  </data>
+  <data name="sounds/speakers/sidelong/body" xml:space="preserve">
+    <value>Sound test on right/left side speakers.</value>
+  </data>
+  <data name="sounds/speakers/sidelong/header" xml:space="preserve">
+    <value>Right/left side speakers</value>
+  </data>
+  <data name="sounds/speakers/sides/body" xml:space="preserve">
+    <value>Sound test on right/left speakers.</value>
+  </data>
+  <data name="sounds/speakers/sides/header" xml:space="preserve">
+    <value>Right/left speakers</value>
+  </data>
+  <data name="sounds/speakers/sub/body" xml:space="preserve">
+    <value>Sound test on the subwoofer.</value>
+  </data>
+  <data name="sounds/speakers/sub/header" xml:space="preserve">
+    <value>Subwoofer</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/trajectory_view" xml:space="preserve">
+    <value>Trajectory view</value>
+  </data>
+  <data name="mouse/sensitivity/art2" xml:space="preserve">
+    <value>Trajectory view</value>
+  </data>
+  <data name="alternativeVoices/labels" xml:space="preserve">
+    <value>Voice Messages in Battle</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/AssistStun" xml:space="preserve">
+    <value>Damage after your stun</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/assistStun" xml:space="preserve">
+    <value>Caused upon your stun</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/summaryAssistStun" xml:space="preserve">
+    <value>320</value>
+  </data>
+  <data name="feedback/tab/ribbons/assistStun" xml:space="preserve">
+    <value>320</value>
+  </data>
+  <data name="sounds/altVoice/NationalDefault/body" xml:space="preserve">
+    <value>Voice messages depend on a vehicle's nation and the commander's gender</value>
+  </data>
+  <data name="sounds/altVoice/NationalDefault/header" xml:space="preserve">
+    <value>Commander</value>
+  </data>
+  <data name="sounds/altVoice/default/body" xml:space="preserve">
+    <value>Male voice in the game client's language</value>
+  </data>
+  <data name="sounds/altVoice/default/header" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="sounds/sixthSense/body" xml:space="preserve">
+    <value>Custom sound. Move the sixthSense.mp3 file to the resaudioww folder.</value>
+  </data>
+  <data name="sounds/sixthSense/header" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="game/battleLoadingRankedInfo" xml:space="preserve">
+    <value>Tips on the Ranked Battle loading screen</value>
+  </data>
+  <data name="game/battleLoadingRankedInfo/minimap" xml:space="preserve">
+    <value>Minimap</value>
+  </data>
+  <data name="game/battleLoadingRankedInfo/textTip" xml:space="preserve">
+    <value>Text only</value>
+  </data>
+  <data name="game/battleLoadingRankedInfo/visualTip" xml:space="preserve">
+    <value>Illustrated tips</value>
+  </data>
+  <data name="gameplay/epic_encounter" xml:space="preserve">
+    <value>Grand Battle (Tier X vehicles only)</value>
+  </data>
+  <data name="gameplay/epic_standard" xml:space="preserve">
+    <value>Grand Battle (Tier X vehicles only)</value>
+  </data>
+</root>

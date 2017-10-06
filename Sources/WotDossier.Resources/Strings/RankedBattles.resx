@@ -1,0 +1,748 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="awards/congratulation" xml:space="preserve">
+    <value>Congratulations!</value>
+  </data>
+  <data name="awards/gotRank" xml:space="preserve">
+    <value>You achieved
+a rank</value>
+  </data>
+  <data name="awards/next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="awards/nextRankTitle" xml:space="preserve">
+    <value>Points received: %(scores)s</value>
+  </data>
+  <data name="awards/stagesTitle" xml:space="preserve">
+    <value>Chevrons needed to achieve the next rank: %(stage)s</value>
+  </data>
+  <data name="awards/yes" xml:space="preserve">
+    <value>Affirmative!</value>
+  </data>
+  <data name="battleResult/losers" xml:space="preserve">
+    <value>Losing team</value>
+  </data>
+  <data name="battleResult/rank/lose" xml:space="preserve">
+    <value>Rank lost</value>
+  </data>
+  <data name="battleResult/rank/progress/lose" xml:space="preserve">
+    <value>Chevron lost</value>
+  </data>
+  <data name="battleResult/rank/progress/up" xml:space="preserve">
+    <value>Chevron received</value>
+  </data>
+  <data name="battleResult/rank/unchanged" xml:space="preserve">
+    <value>Chevron not received</value>
+  </data>
+  <data name="battleResult/rank/up" xml:space="preserve">
+    <value>Rank achieved</value>
+  </data>
+  <data name="battleResult/winners" xml:space="preserve">
+    <value>Winning team</value>
+  </data>
+  <data name="battleResult/yes" xml:space="preserve">
+    <value>Affirmative!</value>
+  </data>
+  <data name="battleresult/deserter" xml:space="preserve">
+    <value>You lose a chevron for desertion from the battlefield.</value>
+  </data>
+  <data name="battleresult/inTop12" xml:space="preserve">
+    <value>Top 12 players on the winning team by experience earned</value>
+  </data>
+  <data name="battleresult/inTop3" xml:space="preserve">
+    <value>Top 3 players on the losing team by experience earned</value>
+  </data>
+  <data name="battleresult/notInTop12" xml:space="preserve">
+    <value>You are not among the top 12 players on the winning team by experience earned</value>
+  </data>
+  <data name="battleresult/notInTop3" xml:space="preserve">
+    <value>You are not among the top 3 players on the losing team by experience earned</value>
+  </data>
+  <data name="battleresult/rankEarned" xml:space="preserve">
+    <value>Rank received</value>
+  </data>
+  <data name="battleresult/rankLost" xml:space="preserve">
+    <value>Rank lost</value>
+  </data>
+  <data name="battleresult/stageEarned" xml:space="preserve">
+    <value>Chevron received</value>
+  </data>
+  <data name="battleresult/stageLost" xml:space="preserve">
+    <value>Chevron lost</value>
+  </data>
+  <data name="battleresult/stageNotEarned" xml:space="preserve">
+    <value>No changes</value>
+  </data>
+  <data name="calendarDay/serverName" xml:space="preserve">
+    <value>%(server)s</value>
+  </data>
+  <data name="calendarDay/time" xml:space="preserve">
+    <value>%(start)s–%(end)s</value>
+  </data>
+  <data name="calendarDay/title" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="notification/rankEarned" xml:space="preserve">
+    <value>rank received</value>
+  </data>
+  <data name="notification/rankLost" xml:space="preserve">
+    <value>rank lost</value>
+  </data>
+  <data name="notification/rankedMessage" xml:space="preserve">
+    <value>Congratulations!
+You achieved Rank %(rankRoman)s
+Credits received: %(creditsCount)s
+Points earned: %(expCount)s
+Awards received: %(medalsCount)s</value>
+  </data>
+  <data name="notification/stageEarned" xml:space="preserve">
+    <value>chevron received</value>
+  </data>
+  <data name="notification/stageLost" xml:space="preserve">
+    <value>chevron lost</value>
+  </data>
+  <data name="notification/stageNotEarned" xml:space="preserve">
+    <value>chevron not received</value>
+  </data>
+  <data name="notification/vehicleRankEarned" xml:space="preserve">
+    <value>vehicle rank received</value>
+  </data>
+  <data name="notification/vehicleRankLost" xml:space="preserve">
+    <value>vehicle rank lost</value>
+  </data>
+  <data name="primeTime/applyBtn" xml:space="preserve">
+    <value>Proceed</value>
+  </data>
+  <data name="primeTime/servers" xml:space="preserve">
+    <value>Available servers: %(server)s</value>
+  </data>
+  <data name="primeTime/status/disable" xml:space="preserve">
+    <value>Ranked Battles are temporarily unavailable, but you can continue preparing for new battles and view your results.</value>
+  </data>
+  <data name="primeTime/status/thisEnable" xml:space="preserve">
+    <value>On the %(server)s server, Ranked Battles will be available for another: %(time)s.</value>
+  </data>
+  <data name="primeTime/title" xml:space="preserve">
+    <value>Ranked Battles
+are currently unavailable</value>
+  </data>
+  <data name="primeTimeAlertMessageBlock/message" xml:space="preserve">
+    <value>Ceasefire is effective. It will end in %(time)s.</value>
+  </data>
+  <data name="rank/name/1" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="rank/name/2" xml:space="preserve">
+    <value>II</value>
+  </data>
+  <data name="rank/name/3" xml:space="preserve">
+    <value>III</value>
+  </data>
+  <data name="rank/name/4" xml:space="preserve">
+    <value>IV</value>
+  </data>
+  <data name="rank/name/5" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="rankedAwards/awardsBlock/description" xml:space="preserve">
+    <value>Your highest rank</value>
+  </data>
+  <data name="rankedAwards/awardsBlock/points" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="rankedBattleCyclesView/title" xml:space="preserve">
+    <value>Season %(season)s</value>
+  </data>
+  <data name="rankedBattleHeader/cycle" xml:space="preserve">
+    <value>STAGE %(cycle)d</value>
+  </data>
+  <data name="rankedBattleHeader/final" xml:space="preserve">
+    <value>FINALS</value>
+  </data>
+  <data name="rankedBattleHeader/points/current" xml:space="preserve">
+    <value>In progress</value>
+  </data>
+  <data name="rankedBattleHeader/points/final" xml:space="preserve">
+    <value>Total points: %(points)s</value>
+  </data>
+  <data name="rankedBattleHeader/points/past" xml:space="preserve">
+    <value>Points: %(points)s</value>
+  </data>
+  <data name="rankedBattleHeader/tooltip/cycle/current/body" xml:space="preserve">
+    <value>The current stage will finish on %(date)s</value>
+  </data>
+  <data name="rankedBattleHeader/tooltip/cycle/current/header" xml:space="preserve">
+    <value>Stage %(cycle)d</value>
+  </data>
+  <data name="rankedBattleHeader/tooltip/cycle/final/body" xml:space="preserve">
+    <value>All points earned during previous stages are added together in the Finals, and players receive rewards.
+Season Finals—%(date)s</value>
+  </data>
+  <data name="rankedBattleHeader/tooltip/cycle/final/header" xml:space="preserve">
+    <value>Season Finals</value>
+  </data>
+  <data name="rankedBattleHeader/tooltip/cycle/future/body" xml:space="preserve">
+    <value>The stage will begin on %(date)s</value>
+  </data>
+  <data name="rankedBattleHeader/tooltip/cycle/future/header" xml:space="preserve">
+    <value>Stage %(cycle)d</value>
+  </data>
+  <data name="rankedBattleHeader/tooltip/cycle/past/body" xml:space="preserve">
+    <value>Points earned: %(points)s</value>
+  </data>
+  <data name="rankedBattleHeader/tooltip/cycle/past/header" xml:space="preserve">
+    <value>Stage %(cycle)d Ended</value>
+  </data>
+  <data name="rankedBattleHeader/tooltip/date" xml:space="preserve">
+    <value>%d.%m.%y</value>
+  </data>
+  <data name="rankedBattleView/awardBlock/emptyLeague" xml:space="preserve">
+    <value>—</value>
+  </data>
+  <data name="rankedBattleView/awardBlock/points/description" xml:space="preserve">
+    <value>Current League: </value>
+  </data>
+  <data name="rankedBattleView/awardBlock/points/header" xml:space="preserve">
+    <value>Season Leaders</value>
+  </data>
+  <data name="rankedBattleView/awardBlock/pointsAlt/description" xml:space="preserve">
+    <value>Click to view the Season Leaders</value>
+  </data>
+  <data name="rankedBattleView/awardBlock/quest/description/battlesLeft" xml:space="preserve">
+    <value>Effective battles to play:</value>
+  </data>
+  <data name="rankedBattleView/awardBlock/quest/description/noQuest" xml:space="preserve">
+    <value>No current missions</value>
+  </data>
+  <data name="rankedBattleView/awardBlock/quest/header" xml:space="preserve">
+    <value>Mission</value>
+  </data>
+  <data name="rankedBattleView/awardBlock/seasonAward/description" xml:space="preserve">
+    <value>Stages completed:</value>
+  </data>
+  <data name="rankedBattleView/awardBlock/seasonAward/header" xml:space="preserve">
+    <value>Season Awards</value>
+  </data>
+  <data name="rankedBattleView/closeBtn" xml:space="preserve">
+    <value>BACK</value>
+  </data>
+  <data name="rankedBattleView/closeBtnDescr" xml:space="preserve">
+    <value>TO GARAGE</value>
+  </data>
+  <data name="rankedBattleView/nextStageBlock/stage" xml:space="preserve">
+    <value>Stage %(cycleNumber)s</value>
+  </data>
+  <data name="rankedBattleView/notRankedBlock/header" xml:space="preserve">
+    <value>Effective performance in Ranked Battles brings you closer to the next rank!</value>
+  </data>
+  <data name="rankedBattleView/notRankedBlock/loseText" xml:space="preserve">
+    <value>%(team)s, but be among the top 3 players on your team by experience earned.</value>
+  </data>
+  <data name="rankedBattleView/notRankedBlock/loseText/highlighted" xml:space="preserve">
+    <value>Lose a battle</value>
+  </data>
+  <data name="rankedBattleView/notRankedBlock/okLabel" xml:space="preserve">
+    <value>Affirmative!</value>
+  </data>
+  <data name="rankedBattleView/notRankedBlock/okTooltip/body" xml:space="preserve">
+    <value>Click to start your journey in Ranked Battles.</value>
+  </data>
+  <data name="rankedBattleView/notRankedBlock/okTooltip/header" xml:space="preserve">
+    <value>Let's Roll!</value>
+  </data>
+  <data name="rankedBattleView/notRankedBlock/or" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="rankedBattleView/notRankedBlock/winText" xml:space="preserve">
+    <value>%(team)s and be among the top 12 players on your team by experience earned.</value>
+  </data>
+  <data name="rankedBattleView/notRankedBlock/winText/highlighted" xml:space="preserve">
+    <value>Win a battle</value>
+  </data>
+  <data name="rankedBattleView/progressBlock/bestRank" xml:space="preserve">
+    <value>Stage record</value>
+  </data>
+  <data name="rankedBattleView/progressBlock/currentRank" xml:space="preserve">
+    <value>Current rank</value>
+  </data>
+  <data name="rankedBattleView/progressBlock/steps" xml:space="preserve">
+    <value>Chevrons: %(numbers)s</value>
+  </data>
+  <data name="rankedBattleView/progressBlock/vehicleBonusRank" xml:space="preserve">
+    <value>Next rank on the %(vehicle)s</value>
+  </data>
+  <data name="rankedBattleView/progressBlock/vehicleRank" xml:space="preserve">
+    <value>Vehicle rank on the %(vehicle)s</value>
+  </data>
+  <data name="rankedBattleView/statusBlock/calendarBtnTooltip/body" xml:space="preserve">
+    <value>Click to view the information about all season stages.</value>
+  </data>
+  <data name="rankedBattleView/statusBlock/calendarBtnTooltip/header" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rankedBattleView/statusBlock/calendarPopover/attentionText" xml:space="preserve">
+    <value>Results of Stage %(cycleNumber)s in %(timeLeft)s</value>
+  </data>
+  <data name="rankedBattleView/statusBlock/calendarPopover/cycleItem" xml:space="preserve">
+    <value>STAGE %(cycleNumber)s:  %(day0)s.%(month0)s—%(day1)s.%(month1)s</value>
+  </data>
+  <data name="rankedBattleView/statusBlock/statusText" xml:space="preserve">
+    <value>The results of Stage %(cycleNumber)s will be finalized in: </value>
+  </data>
+  <data name="rankedBattleView/title" xml:space="preserve">
+    <value>Stage %(cycle)d</value>
+  </data>
+  <data name="rankedBattlesCarousel/lockedTooltip/body" xml:space="preserve">
+    <value>Select a Tier X vehicle for the Ranked Battle mode.</value>
+  </data>
+  <data name="rankedBattlesCarousel/lockedTooltip/header" xml:space="preserve">
+    <value>Not Suitable</value>
+  </data>
+  <data name="rankedBattlesCyclesView/awardBlock/boxTooltip/body" xml:space="preserve">
+    <value>Received at the end of the stage and contained valuable rewards. The number of rewards and their quality depended on the Leaderboard position.</value>
+  </data>
+  <data name="rankedBattlesCyclesView/awardBlock/boxTooltip/header" xml:space="preserve">
+    <value>Crate with Rewards</value>
+  </data>
+  <data name="rankedBattlesCyclesView/btnClose" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="rankedBattlesCyclesView/currentCycle/item/awardRecieved" xml:space="preserve">
+    <value>Reward already received</value>
+  </data>
+  <data name="rankedBattlesCyclesView/currentCycle/item/boxTooltip/body" xml:space="preserve">
+    <value>Received at the end of a stage and contains various rewards. The number of rewards and their quality depend on the achieved rank.</value>
+  </data>
+  <data name="rankedBattlesCyclesView/currentCycle/item/boxTooltip/header" xml:space="preserve">
+    <value>Crate with Rewards</value>
+  </data>
+  <data name="rankedBattlesCyclesView/currentCycle/item/crystalTooltip/body" xml:space="preserve">
+    <value>Can be exchanged for new unique items: Personal Reserves and rare equipment. One bond can be exchanged for one set of Personal Reserves or equipment. The more bonds you earn, the more valuable items you receive.</value>
+  </data>
+  <data name="rankedBattlesCyclesView/currentCycle/item/crystalTooltip/header" xml:space="preserve">
+    <value>Bonds</value>
+  </data>
+  <data name="rankedBattlesCyclesView/currentCycle/tableHeader/cycleAward" xml:space="preserve">
+    <value>REWARD AT THE END OF STAGE</value>
+  </data>
+  <data name="rankedBattlesCyclesView/currentCycle/tableHeader/points" xml:space="preserve">
+    <value>POINTS</value>
+  </data>
+  <data name="rankedBattlesCyclesView/currentCycle/tableHeader/rank" xml:space="preserve">
+    <value>RANK</value>
+  </data>
+  <data name="rankedBattlesCyclesView/currentCycle/tableHeader/rankAward" xml:space="preserve">
+    <value>REWARD FOR ACHIEVED RANK</value>
+  </data>
+  <data name="rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/body" xml:space="preserve">
+    <value>Awarded for the best result achieved during one stage. The best result will not be reset even if a rank is lost.</value>
+  </data>
+  <data name="rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/header" xml:space="preserve">
+    <value>Reward at the End of Stage</value>
+  </data>
+  <data name="rankedBattlesCyclesView/currentCycle/tooltip/points/body" xml:space="preserve">
+    <value>Awarded for an achieved rank and added together for each stage. The more points you earn, the higher your position on the Leaderboard, and the better rewards you receive at the end of a season.</value>
+  </data>
+  <data name="rankedBattlesCyclesView/currentCycle/tooltip/points/header" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="rankedBattlesCyclesView/currentCycle/vehicleRankPoints" xml:space="preserve">
+    <value>Points for each
+vehicle rank earned:</value>
+  </data>
+  <data name="rankedBattlesCyclesView/final/btnLadder" xml:space="preserve">
+    <value>Season Leaders</value>
+  </data>
+  <data name="rankedBattlesCyclesView/final/btnLadderTooltip/body" xml:space="preserve">
+    <value>Click to go to the list of Season Leaders and view your position.</value>
+  </data>
+  <data name="rankedBattlesCyclesView/final/btnLadderTooltip/header" xml:space="preserve">
+    <value>Season Leaders</value>
+  </data>
+  <data name="rankedBattlesCyclesView/final/description/body" xml:space="preserve">
+    <value>Your reward depends on your position on the Leaderboard. Leaderboards
+are formed using the number of points earned for the whole season.</value>
+  </data>
+  <data name="rankedBattlesCyclesView/final/description/header" xml:space="preserve">
+    <value>Reward at the end of the season</value>
+  </data>
+  <data name="rankedBattlesCyclesView/final/first" xml:space="preserve">
+    <value>%(count)s of top players</value>
+  </data>
+  <data name="rankedBattlesCyclesView/final/intermediate" xml:space="preserve">
+    <value>next %(count)s</value>
+  </data>
+  <data name="rankedBattlesCyclesView/final/last" xml:space="preserve">
+    <value>out of Leaderboard</value>
+  </data>
+  <data name="rankedBattlesCyclesView/final/tableHeader/position" xml:space="preserve">
+    <value>POSITION ON LEADERBOARD</value>
+  </data>
+  <data name="rankedBattlesCyclesView/final/tableHeader/seasonAward" xml:space="preserve">
+    <value>REWARD AT THE END OF SEASON</value>
+  </data>
+  <data name="rankedBattlesCyclesView/noAchievements/future/footer" xml:space="preserve">
+    <value>From %(start)s through %(end)s</value>
+  </data>
+  <data name="rankedBattlesCyclesView/noAchievements/past/footer" xml:space="preserve">
+    <value>You did not achieve any ranks during the current stage.
+Earned points: %(points)s</value>
+  </data>
+  <data name="rankedBattlesWidget/initText" xml:space="preserve">
+    <value>Number of chevrons
+to earn for Rank I: %(battles)s</value>
+  </data>
+  <data name="rankedBattlesWidget/newRankCongrat" xml:space="preserve">
+    <value>Congratulations,
+you achieved a rank!</value>
+  </data>
+  <data name="rankedBattlesWidget/noChanges" xml:space="preserve">
+    <value>No changes</value>
+  </data>
+  <data name="season/name/1" xml:space="preserve">
+    <value>Beta</value>
+  </data>
+  <data name="seasonComplete/bestRank" xml:space="preserve">
+    <value>Your highest rank</value>
+  </data>
+  <data name="seasonComplete/placeInRating" xml:space="preserve">
+    <value>Season Leaders</value>
+  </data>
+  <data name="seasonComplete/placeInRating/tooltip/body" xml:space="preserve">
+    <value>Click to view the Season Leaders. Your reward will be added automatically.</value>
+  </data>
+  <data name="seasonComplete/proxyCurrency" xml:space="preserve">
+    <value>Received:   %(value)s</value>
+  </data>
+  <data name="seasonComplete/proxyCurrencyLabel" xml:space="preserve">
+    <value>Bonds</value>
+  </data>
+  <data name="seasonComplete/scoresEarned" xml:space="preserve">
+    <value>Total number of points earned: %(scores)s</value>
+  </data>
+  <data name="seasonComplete/seasonResults" xml:space="preserve">
+    <value>Season results</value>
+  </data>
+  <data name="seasonComplete/stageComplete" xml:space="preserve">
+    <value>Stage %(stage)s ended</value>
+  </data>
+  <data name="seasonComplete/totalScores" xml:space="preserve">
+    <value>Points earned for the whole season</value>
+  </data>
+  <data name="selectorTooltip/desc" xml:space="preserve">
+    <value>Battles in Tier X vehicles under Standard Battle rules. The teams will comprise players with a more or less similar rank.</value>
+  </data>
+  <data name="selectorTooltip/tillEnd" xml:space="preserve">
+    <value>Stage ends in:</value>
+  </data>
+  <data name="selectorTooltip/timeTable/empty" xml:space="preserve">
+    <value>—</value>
+  </data>
+  <data name="selectorTooltip/timeTable/title" xml:space="preserve">
+    <value>Battle Schedule</value>
+  </data>
+  <data name="selectorTooltip/timeTable/today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="selectorTooltip/timeTable/tomorrow" xml:space="preserve">
+    <value>Tomorrow</value>
+  </data>
+  <data name="selectorTooltip/title" xml:space="preserve">
+    <value>Ranked Battle</value>
+  </data>
+  <data name="statistic/playersRaiting" xml:space="preserve">
+    <value>Season Leaders</value>
+  </data>
+  <data name="statistic/vehicleRank" xml:space="preserve">
+    <value>Achieved rank</value>
+  </data>
+  <data name="status/timeLeft/days" xml:space="preserve">
+    <value>%(day)s d</value>
+  </data>
+  <data name="status/timeLeft/hours" xml:space="preserve">
+    <value>%(hour)s h</value>
+  </data>
+  <data name="status/timeLeft/lessMin" xml:space="preserve">
+    <value>less than a minute</value>
+  </data>
+  <data name="status/timeLeft/min" xml:space="preserve">
+    <value>%(min)s min</value>
+  </data>
+  <data name="tooltip/closeButton/body" xml:space="preserve">
+    <value>The reward will be added automatically.</value>
+  </data>
+  <data name="tooltip/closeButton/header" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="tooltip/step/conditions" xml:space="preserve">
+    <value>If a player is among the top %(battlesNum)s players
+on the %(team)s by experience earned</value>
+  </data>
+  <data name="tooltip/step/conditions/header" xml:space="preserve">
+    <value>Received</value>
+  </data>
+  <data name="tooltip/step/decommission/description" xml:space="preserve">
+    <value>If a player is not among the top %(battlesNum)s players on the losing team by experience earned.
+Chevrons are not removed before Rank I.</value>
+  </data>
+  <data name="tooltip/step/decommission/header" xml:space="preserve">
+    <value>Removed</value>
+  </data>
+  <data name="tooltip/step/description" xml:space="preserve">
+    <value>A special element that represents your progression to the next rank</value>
+  </data>
+  <data name="tooltip/step/header" xml:space="preserve">
+    <value>Chevron</value>
+  </data>
+  <data name="tooltip/step/losers" xml:space="preserve">
+    <value>losing team</value>
+  </data>
+  <data name="tooltip/step/notCharged/description" xml:space="preserve">
+    <value>If a player is not among the top %(battlesNum)s players on the victorious team by experience earned.</value>
+  </data>
+  <data name="tooltip/step/notCharged/header" xml:space="preserve">
+    <value>Saved</value>
+  </data>
+  <data name="tooltip/step/or" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="tooltip/step/winners" xml:space="preserve">
+    <value>winning team</value>
+  </data>
+  <data name="welcomeScreen/btn" xml:space="preserve">
+    <value>Let's Roll!</value>
+  </data>
+  <data name="welcomeScreen/centerRule" xml:space="preserve">
+    <value>Achieve higher ranks in battles against worthy opponents</value>
+  </data>
+  <data name="welcomeScreen/centerRuleTooltip/body" xml:space="preserve">
+    <value>Both your team and the enemy team will consist of players with a more or less similar rank.</value>
+  </data>
+  <data name="welcomeScreen/centerRuleTooltip/header" xml:space="preserve">
+    <value>Worthy Opponent</value>
+  </data>
+  <data name="welcomeScreen/closeBtn" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="welcomeScreen/closeBtnTooltip/body" xml:space="preserve">
+    <value>Click to close the screen and return to the Garage.</value>
+  </data>
+  <data name="welcomeScreen/closeBtnTooltip/header" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="welcomeScreen/equalityText" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="welcomeScreen/header" xml:space="preserve">
+    <value>Welcome!</value>
+  </data>
+  <data name="welcomeScreen/leftRule" xml:space="preserve">
+    <value>Fight in your favorite Tier X
+vehicles</value>
+  </data>
+  <data name="welcomeScreen/leftRuleTooltip/body" xml:space="preserve">
+    <value>Same-tier battles provide balanced conditions for all players.</value>
+  </data>
+  <data name="welcomeScreen/leftRuleTooltip/header" xml:space="preserve">
+    <value>Tier X</value>
+  </data>
+  <data name="welcomeScreen/negative/body" xml:space="preserve">
+    <value>{team}, but be among the top {topNumber} players on your team by experience earned.</value>
+  </data>
+  <data name="welcomeScreen/negative/team" xml:space="preserve">
+    <value>Lose a battle</value>
+  </data>
+  <data name="welcomeScreen/positive/body" xml:space="preserve">
+    <value>{team} and be among the top {topNumber} players on your team by experience earned.</value>
+  </data>
+  <data name="welcomeScreen/positive/team" xml:space="preserve">
+    <value>Win a battle</value>
+  </data>
+  <data name="welcomeScreen/ranks/header" xml:space="preserve">
+    <value>Be Among the Top Players by Experience Earned and Achieve Higher Ranks!</value>
+  </data>
+  <data name="welcomeScreen/ranksDescr" xml:space="preserve">
+    <value>The higher the position you achieve, the more valuable the reward you receive.</value>
+  </data>
+  <data name="welcomeScreen/rightRule" xml:space="preserve">
+    <value>The higher the rank, the more valuable the rewards you eventually receive</value>
+  </data>
+  <data name="welcomeScreen/rightRuleTooltip/body" xml:space="preserve">
+    <value>The higher the rank you achieve, the more valuable the rewards you receive.</value>
+  </data>
+  <data name="welcomeScreen/rightRuleTooltip/header" xml:space="preserve">
+    <value>Valuable Rewards</value>
+  </data>
+  <data name="welcomeScreen/rulesDelimeter" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="battleresult/inTop/lose" xml:space="preserve">
+    <value>Top {topNumber} players on the losing team by experience earned</value>
+  </data>
+  <data name="battleresult/inTop/win" xml:space="preserve">
+    <value>Top {topNumber} players on the winning team by experience earned</value>
+  </data>
+  <data name="battleresult/notInTop/lose" xml:space="preserve">
+    <value>You are not among the top {topNumber} players on the losing team by experience earned</value>
+  </data>
+  <data name="battleresult/notInTop/minXP" xml:space="preserve">
+    <value>You did not earn the minimum amount of experience.</value>
+  </data>
+  <data name="battleresult/notInTop/stageSaved" xml:space="preserve">
+    <value>You are among the top {topNumber} players on the losing team by experience earned.</value>
+  </data>
+  <data name="battleresult/notInTop/win" xml:space="preserve">
+    <value>You are not among the top {topNumber} players on the winning team by experience earned</value>
+  </data>
+  <data name="battleresult/stageSaved" xml:space="preserve">
+    <value>No changes</value>
+  </data>
+  <data name="calendarStepsTooltip/title" xml:space="preserve">
+    <value>Stage Schedule</value>
+  </data>
+  <data name="primeTime/continueBtn" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="primeTime/serverTooltip" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="primeTime/titleWelcome" xml:space="preserve">
+    <value>Welcome to
+Ranked Battles!</value>
+  </data>
+  <data name="rankedAwards/awardsBlock/awardsHeaderTxt" xml:space="preserve">
+    <value>Reward for Achieved Ranks</value>
+  </data>
+  <data name="rankedAwards/awardsBlock/crystal" xml:space="preserve">
+    <value>Bonds</value>
+  </data>
+  <data name="rankedAwards/awardsBlock/title" xml:space="preserve">
+    <value>Stage %(cycleNumber)s Results</value>
+  </data>
+  <data name="rankedBattleView/playVideoBtn" xml:space="preserve">
+    <value>Video about Mode</value>
+  </data>
+  <data name="season/name/2" xml:space="preserve">
+    <value>Beta</value>
+  </data>
+  <data name="tooltip/step/notChargedLose/description" xml:space="preserve">
+    <value>If a player is among the top %(battlesNum)s players on the losing team by experience earned.</value>
+  </data>
+</root>

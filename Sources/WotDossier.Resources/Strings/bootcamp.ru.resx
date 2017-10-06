@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AWARD_OPTIONS" xml:space="preserve">
+    <value>Поменять награду</value>
+  </data>
+  <data name="AWARD_OPTIONS_DESCRIPTION_GE" xml:space="preserve">
+    <value>Немецкий лёгкий танк с относительно мощным и точным орудием. Лобовая броня достаточно крепкая и способна выдерживать немало попаданий.</value>
+  </data>
+  <data name="AWARD_OPTIONS_DESCRIPTION_US" xml:space="preserve">
+    <value>Американский средний танк. Обладает широким выбором вооружения, хорошей динамикой, но слабой бронёй. Годится для поддержки атаки и активной разведки.</value>
+  </data>
+  <data name="AWARD_OPTIONS_DESCRIPTION_USSR" xml:space="preserve">
+    <value>Лёгкий танк СССР. Обладает средней скоростью и слабой бронёй. Мощное вооружение и динамика позволяют эффективно стрелять на средних дистанциях.</value>
+  </data>
+  <data name="AWARD_OPTIONS_NAME_GE" xml:space="preserve">
+    <value>Pz.Kpfw. 35 (t)</value>
+  </data>
+  <data name="AWARD_OPTIONS_NAME_US" xml:space="preserve">
+    <value>T2 Medium Tank</value>
+  </data>
+  <data name="AWARD_OPTIONS_NAME_USSR" xml:space="preserve">
+    <value>T-26</value>
+  </data>
+  <data name="AWARD_OPTIONS_NATION_GE" xml:space="preserve">
+    <value>ГЕРМАНИЯ</value>
+  </data>
+  <data name="AWARD_OPTIONS_NATION_US" xml:space="preserve">
+    <value>США</value>
+  </data>
+  <data name="AWARD_OPTIONS_NATION_USSR" xml:space="preserve">
+    <value>СССР</value>
+  </data>
+  <data name="AWARD_OPTIONS_TITLE" xml:space="preserve">
+    <value>ВЫБЕРИТЕ СВОЮ ПЕРВУЮ МАШИНУ</value>
+  </data>
+  <data name="BATTLE_RESULT_ASSISTED" xml:space="preserve">
+    <value>Урон по вашим разведданным</value>
+  </data>
+  <data name="BATTLE_RESULT_BLOCKED" xml:space="preserve">
+    <value>Заблокированный урон</value>
+  </data>
+  <data name="BATTLE_RESULT_DAMAGE" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="BATTLE_RESULT_DESCRIPTION_ASSISTED" xml:space="preserve">
+    <value>Учитывается урон по вашим разведданным, а также урон после вашего попадания, сбившего гусеницу.</value>
+  </data>
+  <data name="BATTLE_RESULT_DESCRIPTION_BLOCKED" xml:space="preserve">
+    <value>Общее количество заблокированного бронёй урона, включая попадания по внешним модулям, непробития и рикошеты.</value>
+  </data>
+  <data name="BATTLE_RESULT_DESCRIPTION_DAMAGE" xml:space="preserve">
+    <value>Общее количество урона, нанесённого технике противника.</value>
+  </data>
+  <data name="BATTLE_RESULT_DESCRIPTION_DESTROYED" xml:space="preserve">
+    <value>Количество уничтоженных вами машин противника.</value>
+  </data>
+  <data name="BATTLE_RESULT_DESCRIPTION_DETECTED" xml:space="preserve">
+    <value>Количество обнаруженных вами машин противника.</value>
+  </data>
+  <data name="BATTLE_RESULT_DESTROYED" xml:space="preserve">
+    <value>Уничтожено</value>
+  </data>
+  <data name="BATTLE_RESULT_DETECTED" xml:space="preserve">
+    <value>Обнаружено</value>
+  </data>
+  <data name="BTN_CONTINUE" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="BTN_CONTINUE_PREBATTLE" xml:space="preserve">
+    <value>В бой!</value>
+  </data>
+  <data name="BTN_SELECT" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="GAME_MODE" xml:space="preserve">
+    <value>Режим игры</value>
+  </data>
+  <data name="HINT_ADVANCED_SNIPER_BEFORE" xml:space="preserve">
+    <value>В снайперском режиме проще найти слабые места в броне</value>
+  </data>
+  <data name="HINT_ADVANCED_SNIPER_MAIN" xml:space="preserve">
+    <value>Зелёный маркер информирует о высоком шансе пробития брони</value>
+  </data>
+  <data name="HINT_ALLY_SHOOT" xml:space="preserve">
+    <value>Не стреляйте в союзников!</value>
+  </data>
+  <data name="HINT_CAMERA_CONTROLS" xml:space="preserve">
+    <value>Осмотрите машину со всех сторон, зажав левую кнопку мыши</value>
+  </data>
+  <data name="HINT_EXIT_GAME_AREA" xml:space="preserve">
+    <value>Вы покидаете поле боя. Возвращайтесь!</value>
+  </data>
+  <data name="HINT_HEAL_CREW" xml:space="preserve">
+    <value>Наводчик ранен, точность снижена. Используйте аптечку</value>
+  </data>
+  <data name="HINT_LOW_HP" xml:space="preserve">
+    <value>Ваша машина серьёзно повреждена!</value>
+  </data>
+  <data name="HINT_MESSAGE_AVOID" xml:space="preserve">
+    <value>Обойдите и уничтожьте противника, избегая его огня</value>
+  </data>
+  <data name="HINT_MISSION3_CAPTUREBASE" xml:space="preserve">
+    <value>Захват базы противника — один из вариантов победы</value>
+  </data>
+  <data name="HINT_MISSION3_CAPTUREHELP" xml:space="preserve">
+    <value>Вернитесь и помогите союзнику с захватом</value>
+  </data>
+  <data name="HINT_MISSION3_CAPTUREINPROGRESS" xml:space="preserve">
+    <value>Идёт захват базы</value>
+  </data>
+  <data name="HINT_MISSION3_CAPTURELOST" xml:space="preserve">
+    <value>Получение урона сбивает прогресс захвата базы</value>
+  </data>
+  <data name="HINT_MISSION3_CAPTURETOGETHER" xml:space="preserve">
+    <value>Несколько машин захватывают базу быстрее</value>
+  </data>
+  <data name="HINT_MISSION3_FALLBACK" xml:space="preserve">
+    <value>Их слишком много, отступайте!</value>
+  </data>
+  <data name="HINT_MISSION3_FLANKENEMIES" xml:space="preserve">
+    <value>Обойдите противника с фланга</value>
+  </data>
+  <data name="HINT_MISSION3_FLANKINGFAILS" xml:space="preserve">
+    <value>Вас обнаружили! Помните: стрельба вас демаскирует</value>
+  </data>
+  <data name="HINT_MISSION3_FLANKINGWAIT" xml:space="preserve">
+    <value>Они уходят! Продолжайте наблюдение</value>
+  </data>
+  <data name="HINT_MISSION3_FOLIAGEINTROA" xml:space="preserve">
+    <value>Не стреляйте, иначе обнаружите себя</value>
+  </data>
+  <data name="HINT_MISSION3_FOLIAGEINTROB" xml:space="preserve">
+    <value>Кусты скроют вас от противника, если вы не стреляете</value>
+  </data>
+  <data name="HINT_MISSION3_PLAYERDETECTED" xml:space="preserve">
+    <value>Вас обнаружили! Готовьтесь к бою</value>
+  </data>
+  <data name="HINT_MOVE" xml:space="preserve">
+    <value>Управление машиной</value>
+  </data>
+  <data name="HINT_MOVE_TURRET" xml:space="preserve">
+    <value>Управление башней и прицелом</value>
+  </data>
+  <data name="HINT_NO_MOVE" xml:space="preserve">
+    <value>Управление движением машины — WASD</value>
+  </data>
+  <data name="HINT_REPAIR_TRACK" xml:space="preserve">
+    <value>Гусеница сбита, используйте ремкомплект</value>
+  </data>
+  <data name="HINT_SECONDARY_SNIPER" xml:space="preserve">
+    <value>Вход в снайперский режим: вращайте колесо мыши</value>
+  </data>
+  <data name="HINT_SHOOT" xml:space="preserve">
+    <value>Наведите прицел на противника и стреляйте</value>
+  </data>
+  <data name="HINT_SHOOT_WHILE_MOVING" xml:space="preserve">
+    <value>Во время движения точность стрельбы ниже</value>
+  </data>
+  <data name="HINT_SNIPER" xml:space="preserve">
+    <value>Вход в снайперский режим: крутите колесо мыши</value>
+  </data>
+  <data name="HINT_SNIPER_ON_DISTANCE_EXIT" xml:space="preserve">
+    <value>Выход из снайперского режима: крутите колесо мыши</value>
+  </data>
+  <data name="HINT_SNIPER_ON_DISTANCE_MAIN" xml:space="preserve">
+    <value>Вход в снайперский режим: крутите колесо мыши</value>
+  </data>
+  <data name="HINT_TARGET_UNLOCK" xml:space="preserve">
+    <value>Автоприцел: отмена правой кнопкой мыши</value>
+  </data>
+  <data name="HINT_USELESS_CONSUMABLES" xml:space="preserve">
+    <value>Использование снаряжения не требуется</value>
+  </data>
+  <data name="HINT_USE_EXTINGUISHER" xml:space="preserve">
+    <value>Машина горит! Используйте огнетушитель</value>
+  </data>
+  <data name="HINT_WAIT_RELOAD" xml:space="preserve">
+    <value>Орудие перезаряжается</value>
+  </data>
+  <data name="LOADING_TIP_CROSSHAIR_HEADER_1" xml:space="preserve">
+    <value>Большой разброс орудия в движении</value>
+  </data>
+  <data name="LOADING_TIP_CROSSHAIR_HEADER_2" xml:space="preserve">
+    <value>Минимальный разброс при полном сведении</value>
+  </data>
+  <data name="LOADING_TIP_EQUIPMENT_DESCRIPTION_1" xml:space="preserve">
+    <value>Тушение пожара</value>
+  </data>
+  <data name="LOADING_TIP_EQUIPMENT_DESCRIPTION_2" xml:space="preserve">
+    <value>Лечение членов экипажа</value>
+  </data>
+  <data name="LOADING_TIP_EQUIPMENT_DESCRIPTION_3" xml:space="preserve">
+    <value>Починка повреждённых модулей</value>
+  </data>
+  <data name="LOADING_TIP_EQUIPMENT_HEADER_1" xml:space="preserve">
+    <value>Огнетушитель</value>
+  </data>
+  <data name="LOADING_TIP_EQUIPMENT_HEADER_2" xml:space="preserve">
+    <value>Аптечка</value>
+  </data>
+  <data name="LOADING_TIP_EQUIPMENT_HEADER_3" xml:space="preserve">
+    <value>Ремкомплект</value>
+  </data>
+  <data name="LOADING_TIP_MODULES_DESCRIPTION_2" xml:space="preserve">
+    <value>Критическое попадание</value>
+  </data>
+  <data name="LOADING_TIP_MODULES_DESCRIPTION_3" xml:space="preserve">
+    <value>Критическое попадание</value>
+  </data>
+  <data name="LOADING_TIP_MODULES_HEADER_1" xml:space="preserve">
+    <value>Повреждение внешних модулей не наносит урон машине</value>
+  </data>
+  <data name="LOADING_TIP_MODULES_HEADER_2" xml:space="preserve">
+    <value>Стрельба невозможна</value>
+  </data>
+  <data name="LOADING_TIP_MODULES_HEADER_3" xml:space="preserve">
+    <value>Обездвижен</value>
+  </data>
+  <data name="LOADING_TIP_PENETRATION_DESCRIPTION_1" xml:space="preserve">
+    <value>Высокий шанс пробития</value>
+  </data>
+  <data name="LOADING_TIP_PENETRATION_DESCRIPTION_2" xml:space="preserve">
+    <value>Удар будет сдержан</value>
+  </data>
+  <data name="LOADING_TIP_PENETRATION_HEADER_1" xml:space="preserve">
+    <value>Зелёный маркер</value>
+  </data>
+  <data name="LOADING_TIP_PENETRATION_HEADER_2" xml:space="preserve">
+    <value>Красный маркер</value>
+  </data>
+  <data name="LOADING_TIP_SNIPER_DESCRIPTION_1" xml:space="preserve">
+    <value>Высокий</value>
+  </data>
+  <data name="LOADING_TIP_SNIPER_DESCRIPTION_2" xml:space="preserve">
+    <value>Низкий</value>
+  </data>
+  <data name="LOADING_TIP_SNIPER_HEADER_1" xml:space="preserve">
+    <value>Снайперский режим</value>
+  </data>
+  <data name="LOADING_TIP_SNIPER_HEADER_2" xml:space="preserve">
+    <value>Шанс пробития</value>
+  </data>
+  <data name="LOADING_TIP_VICTORY_DESCRIPTION_1" xml:space="preserve">
+    <value>База противника захвачена</value>
+  </data>
+  <data name="LOADING_TIP_VICTORY_DESCRIPTION_2" xml:space="preserve">
+    <value>Вся техника противника уничтожена</value>
+  </data>
+  <data name="LOADING_TIP_VICTORY_HEADER_1" xml:space="preserve">
+    <value>Победа!</value>
+  </data>
+  <data name="LOADING_TIP_VICTORY_HEADER_2" xml:space="preserve">
+    <value>ИЛИ</value>
+  </data>
+  <data name="LOADING_TIP_VISIBILITY_DESCRIPTION_1" xml:space="preserve">
+    <value>Скрыт за объектом</value>
+  </data>
+  <data name="LOADING_TIP_VISIBILITY_DESCRIPTION_2" xml:space="preserve">
+    <value>Скрыт кустами</value>
+  </data>
+  <data name="LOADING_TIP_VISIBILITY_DESCRIPTION_3" xml:space="preserve">
+    <value>Демаскирован выстрелом</value>
+  </data>
+  <data name="LOADING_TIP_VISIBILITY_DESCRIPTION_4" xml:space="preserve">
+    <value>Двигается по открытой местности</value>
+  </data>
+  <data name="LOADING_TIP_VISIBILITY_HEADER_1" xml:space="preserve">
+    <value>Невидим</value>
+  </data>
+  <data name="LOADING_TIP_VISIBILITY_HEADER_2" xml:space="preserve">
+    <value>Виден</value>
+  </data>
+  <data name="LOADING_TIP_WASD_HEADER_1" xml:space="preserve">
+    <value>Движение</value>
+  </data>
+  <data name="LOADING_TIP_WASD_HEADER_2" xml:space="preserve">
+    <value>Стрельба</value>
+  </data>
+  <data name="LOADING_TIP_WASD_HEADER_3" xml:space="preserve">
+    <value>Вращение башни</value>
+  </data>
+  <data name="MARKER_BLOCKED" xml:space="preserve">
+    <value>Броня не пробита</value>
+  </data>
+  <data name="MARKER_CRITICAL" xml:space="preserve">
+    <value>Критический урон</value>
+  </data>
+  <data name="MARKER_RICOCHET" xml:space="preserve">
+    <value>Рикошет</value>
+  </data>
+  <data name="MESSAGE_BONUS_EQUIPMENT_LABEL" xml:space="preserve">
+    <value>Ящик с инструментами</value>
+  </data>
+  <data name="MESSAGE_BONUS_EQUIPMENT_TEXT" xml:space="preserve">
+    <value>Ускоряет ремонт повреждённых модулей</value>
+  </data>
+  <data name="MESSAGE_BONUS_PREMIUM_DAYS" xml:space="preserve">
+    <value>д.</value>
+  </data>
+  <data name="MESSAGE_BONUS_PREMIUM_HOURS" xml:space="preserve">
+    <value>ч.</value>
+  </data>
+  <data name="MESSAGE_BOOTCAMP_GRADUATE_LABEL" xml:space="preserve">
+    <value>ПОЗДРАВЛЯЕМ!</value>
+  </data>
+  <data name="MESSAGE_BOOTCAMP_GRADUATE_TEXT" xml:space="preserve">
+    <value>Обучение успешно пройдено</value>
+  </data>
+  <data name="MESSAGE_CONSUMABLES_LABEL" xml:space="preserve">
+    <value>СНАРЯЖЕНИЕ</value>
+  </data>
+  <data name="MESSAGE_CONSUMABLES_TEXT" xml:space="preserve">
+    <value>Помогает бороться с повреждениями в бою</value>
+  </data>
+  <data name="MESSAGE_CREDITS_LABEL" xml:space="preserve">
+    <value>КРЕДИТЫ</value>
+  </data>
+  <data name="MESSAGE_CREDITS_TEXT" xml:space="preserve">
+    <value>Для покупки и улучшения машины</value>
+  </data>
+  <data name="MESSAGE_EQUIPMENT_LABEL" xml:space="preserve">
+    <value>ОБОРУДОВАНИЕ</value>
+  </data>
+  <data name="MESSAGE_EQUIPMENT_TEXT" xml:space="preserve">
+    <value>Улучшает определённые характеристики машины</value>
+  </data>
+  <data name="MESSAGE_EXPERIENCE_LABEL" xml:space="preserve">
+    <value>БОЕВОЙ ОПЫТ</value>
+  </data>
+  <data name="MESSAGE_EXPERIENCE_TEXT" xml:space="preserve">
+    <value>Для исследования модулей и техники</value>
+  </data>
+  <data name="MESSAGE_EXTRA_AWARD_OPTIONS" xml:space="preserve">
+    <value>Поменять награду</value>
+  </data>
+  <data name="MESSAGE_FIRE_EXTINGUISHER_LABEL" xml:space="preserve">
+    <value>Ручной огнетушитель</value>
+  </data>
+  <data name="MESSAGE_FIRST_AID_KIT_LABEL" xml:space="preserve">
+    <value>Большая аптечка</value>
+  </data>
+  <data name="MESSAGE_GOLD_LABEL" xml:space="preserve">
+    <value>ЗОЛОТО</value>
+  </data>
+  <data name="MESSAGE_GOLD_TEXT" xml:space="preserve">
+    <value>Для покупки премиум аккаунта и предметов</value>
+  </data>
+  <data name="MESSAGE_INTRO_LESSON_III_CREW_LABEL" xml:space="preserve">
+    <value>Экипаж</value>
+  </data>
+  <data name="MESSAGE_INTRO_LESSON_III_LABEL" xml:space="preserve">
+    <value>Получение новой машины</value>
+  </data>
+  <data name="MESSAGE_INTRO_LESSON_II_LABEL" xml:space="preserve">
+    <value>Улучшение машины</value>
+  </data>
+  <data name="MESSAGE_INTRO_LESSON_IV_LABEL" xml:space="preserve">
+    <value>Оборудование и снаряжение</value>
+  </data>
+  <data name="MESSAGE_INTRO_LESSON_V_LABEL" xml:space="preserve">
+    <value>Золото и премиум</value>
+  </data>
+  <data name="MESSAGE_MISSION_ACCOMPLISHED_LABEL" xml:space="preserve">
+    <value>ЗАДАЧА ВЫПОЛНЕНА</value>
+  </data>
+  <data name="MESSAGE_MISSION_ACCOMPLISHED_TEXT" xml:space="preserve">
+    <value>Награда</value>
+  </data>
+  <data name="MESSAGE_NEW_MODULE_LABEL" xml:space="preserve">
+    <value>МОДУЛЬ КУПЛЕН</value>
+  </data>
+  <data name="MESSAGE_NEW_MODULE_TEXT" xml:space="preserve">
+    <value>Сейчас он будет установлен автоматически</value>
+  </data>
+  <data name="MESSAGE_PREMIUM_LABEL" xml:space="preserve">
+    <value>ПРЕМИУМ АККАУНТ</value>
+  </data>
+  <data name="MESSAGE_PREMIUM_TEXT" xml:space="preserve">
+    <value>Увеличивает заработок опыта и кредитов</value>
+  </data>
+  <data name="MESSAGE_REPAIR_KIT_LABEL" xml:space="preserve">
+    <value>Большой ремкомплект</value>
+  </data>
+  <data name="MESSAGE_SECOND_VEHICLE_TEXT_NATION_0" xml:space="preserve">
+    <value>Машина уже в Ангаре</value>
+  </data>
+  <data name="MESSAGE_SECOND_VEHICLE_TEXT_NATION_1" xml:space="preserve">
+    <value>Машина уже в Ангаре</value>
+  </data>
+  <data name="MESSAGE_SECOND_VEHICLE_TEXT_NATION_2" xml:space="preserve">
+    <value>Машина уже в Ангаре</value>
+  </data>
+  <data name="MESSAGE_SIX_SENSE_PERK_LABEL" xml:space="preserve">
+    <value>Навык «Шестое чувство»</value>
+  </data>
+  <data name="MESSAGE_SIX_SENSE_PERK_TEXT" xml:space="preserve">
+    <value>Важный навык, позволяющий командиру определить, обнаружена ли его машина</value>
+  </data>
+  <data name="MESSAGE_SKILLS_AND_PERKS_LABEL" xml:space="preserve">
+    <value>УМЕНИЯ И НАВЫКИ</value>
+  </data>
+  <data name="MESSAGE_SKILLS_AND_PERKS_TEXT" xml:space="preserve">
+    <value>Экипаж улучшает характеристики машины</value>
+  </data>
+  <data name="MESSAGE_UNLOCK_MODULE_LABEL" xml:space="preserve">
+    <value>МОДУЛЬ ИССЛЕДОВАН</value>
+  </data>
+  <data name="MESSAGE_UNLOCK_MODULE_TEXT" xml:space="preserve">
+    <value>Теперь его можно купить и установить</value>
+  </data>
+  <data name="MESSAGE_UNLOCK_VEHICLE_LABEL" xml:space="preserve">
+    <value>МАШИНА ИССЛЕДОВАНА</value>
+  </data>
+  <data name="MESSAGE_UNLOCK_VEHICLE_TEXT" xml:space="preserve">
+    <value>Теперь её можно купить</value>
+  </data>
+  <data name="MESSAGE_VEHICLE_AWARDED_LABEL" xml:space="preserve">
+    <value>ПОЛУЧЕН НОВЫЙ ТАНК</value>
+  </data>
+  <data name="MESSAGE_VEHICLE_AWARDED_TEXT" xml:space="preserve">
+    <value>Нажмите «Продолжить», чтобы перейти к следующему уроку.</value>
+  </data>
+  <data name="PREBATTLE_HINT_CONSUMABLES" xml:space="preserve">
+    <value>Снаряжение</value>
+  </data>
+  <data name="PREBATTLE_HINT_CREW" xml:space="preserve">
+    <value>Экипаж</value>
+  </data>
+  <data name="PREBATTLE_HINT_HP" xml:space="preserve">
+    <value>Прочность машины</value>
+  </data>
+  <data name="PREBATTLE_HINT_MINIMAP" xml:space="preserve">
+    <value>Миникарта</value>
+  </data>
+  <data name="PREBATTLE_HINT_MODULES" xml:space="preserve">
+    <value>Модули</value>
+  </data>
+  <data name="PREBATTLE_HINT_PENETRATION_CHANCE" xml:space="preserve">
+    <value>Шанс пробития</value>
+  </data>
+  <data name="PREBATTLE_HINT_PENETRATION_HIGH" xml:space="preserve">
+    <value>Высокий</value>
+  </data>
+  <data name="PREBATTLE_HINT_PENETRATION_LOW" xml:space="preserve">
+    <value>Низкий</value>
+  </data>
+  <data name="PREBATTLE_HINT_SCORE" xml:space="preserve">
+    <value>Командный счёт</value>
+  </data>
+  <data name="QUEST_CONDITION" xml:space="preserve">
+    <value>Победите в режиме «Случайный бой» на машине III уровня. Для победы нужно применить все усвоенные вами навыки!</value>
+  </data>
+  <data name="QUEST_GAMEMODE" xml:space="preserve">
+    <value>Случайный бой</value>
+  </data>
+  <data name="QUEST_NAME" xml:space="preserve">
+    <value>Случайный бой</value>
+  </data>
+  <data name="QUEST_TITLE" xml:space="preserve">
+    <value>Проверка боем</value>
+  </data>
+  <data name="REQUEST_BOOTCAMP_FINISH" xml:space="preserve">
+    <value>Покинуть Учебный полигон</value>
+  </data>
+  <data name="REQUEST_BOOTCAMP_RETURN" xml:space="preserve">
+    <value>Вернуться на Учебный полигон</value>
+  </data>
+  <data name="REQUEST_BOOTCAMP_START" xml:space="preserve">
+    <value>Пройти Учебный полигон</value>
+  </data>
+  <data name="RESULT_AWARD_CADET_LABEL" xml:space="preserve">
+    <value>«Учебный основной калибр»</value>
+  </data>
+  <data name="RESULT_AWARD_CADET_TEXT" xml:space="preserve">
+    <value>Нанести наибольшее количество урона в учебном бою.</value>
+  </data>
+  <data name="RESULT_AWARD_CREW_LABEL" xml:space="preserve">
+    <value>Доступно управление экипажем</value>
+  </data>
+  <data name="RESULT_AWARD_CREW_TEXT" xml:space="preserve">
+    <value>Вы получили доступ к управлению экипажем своей машины.</value>
+  </data>
+  <data name="RESULT_AWARD_DUEL_LABEL" xml:space="preserve">
+    <value>«Дуэлянт-ученик»</value>
+  </data>
+  <data name="RESULT_AWARD_DUEL_TEXT" xml:space="preserve">
+    <value>Уничтожить в бою не менее 2 машин противника, нанёсших вам урон.</value>
+  </data>
+  <data name="RESULT_AWARD_EXTINGUISHER_LABEL" xml:space="preserve">
+    <value>Ручной огнетушитель</value>
+  </data>
+  <data name="RESULT_AWARD_EXTINGUISHER_TEXT" xml:space="preserve">
+    <value>Тушение пожара в собственной машине. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
+  </data>
+  <data name="RESULT_AWARD_GOLD_LABEL" xml:space="preserve">
+    <value>Золото</value>
+  </data>
+  <data name="RESULT_AWARD_GOLD_TEXT" xml:space="preserve">
+    <value>Вы получили немного ценной внутриигровой валюты, которую можно потратить на широкий спектр целей.</value>
+  </data>
+  <data name="RESULT_AWARD_INVADER_LABEL" xml:space="preserve">
+    <value>«Учебный захватчик»</value>
+  </data>
+  <data name="RESULT_AWARD_INVADER_TEXT" xml:space="preserve">
+    <value>Принять участие в успешном захвате базы в учебном бою.</value>
+  </data>
+  <data name="RESULT_AWARD_MEDICALKIT_LABEL" xml:space="preserve">
+    <value>Большая аптечка</value>
+  </data>
+  <data name="RESULT_AWARD_MEDICALKIT_TEXT" xml:space="preserve">
+    <value>Лечение всех раненых членов экипажа и снятие эффекта оглушения. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
+  </data>
+  <data name="RESULT_AWARD_MISSION_LABEL" xml:space="preserve">
+    <value>Проверка боем</value>
+  </data>
+  <data name="RESULT_AWARD_MISSION_TEXT" xml:space="preserve">
+    <value>Задача выполнена!</value>
+  </data>
+  <data name="RESULT_AWARD_PREMIUM_LABEL" xml:space="preserve">
+    <value>Премиум аккаунт</value>
+  </data>
+  <data name="RESULT_AWARD_PREMIUM_TEXT" xml:space="preserve">
+    <value>Вы получили дни премиум аккаунта. А это не только больше кредитов и опыта за каждый бой, но и чистый, красивый Ангар.</value>
+  </data>
+  <data name="RESULT_AWARD_REPAIRKIT_LABEL" xml:space="preserve">
+    <value>Большой ремкомплект</value>
+  </data>
+  <data name="RESULT_AWARD_REPAIRKIT_TEXT" xml:space="preserve">
+    <value>Починка всех повреждённых модулей. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
+  </data>
+  <data name="RESULT_AWARD_SHOOT_LABEL" xml:space="preserve">
+    <value>«Учебный огонь на поражение»</value>
+  </data>
+  <data name="RESULT_AWARD_SHOOT_TEXT" xml:space="preserve">
+    <value>Нанести противнику урона больше, чем прочность собственной машины.</value>
+  </data>
+  <data name="RESULT_AWARD_SNIPER_LABEL" xml:space="preserve">
+    <value>«Учебный снайпер»</value>
+  </data>
+  <data name="RESULT_AWARD_SNIPER_TEXT" xml:space="preserve">
+    <value>Попасть по противнику не менее 8 раз в учебном бою (непробития и рикошеты засчитываются).</value>
+  </data>
+  <data name="RESULT_AWARD_TANK_LABEL" xml:space="preserve">
+    <value>Прибыло подкрепление!</value>
+  </data>
+  <data name="RESULT_AWARD_TANK_TEXT" xml:space="preserve">
+    <value>Боец! Вы провели успешный бой и получаете в свой Ангар новую машину. Не забывайте, что по ходу продвижения по игре вы сможете существенно расширить свою коллекцию.</value>
+  </data>
+  <data name="RESULT_AWARD_TOOLBOX_LABEL" xml:space="preserve">
+    <value>Ящик с инструментами</value>
+  </data>
+  <data name="RESULT_AWARD_TOOLBOX_TEXT" xml:space="preserve">
+    <value>+25% к скорости ремонта.</value>
+  </data>
+  <data name="WELLCOME_BOOTCAMP" xml:space="preserve">
+    <value>World of Tanks</value>
+  </data>
+  <data name="WELLCOME_BOOTCAMP_DESCRIPTION" xml:space="preserve">
+    <value>Добро пожаловать!</value>
+  </data>
+  <data name="WITH_PREMIUM" xml:space="preserve">
+    <value>С премиум аккаунтом:</value>
+  </data>
+  <data name="invitation/note/CLAN" xml:space="preserve">
+    <value>Клановый бой станет доступен после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/CLUBS" xml:space="preserve">
+    <value>Командный бой станет доступен после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/COMPANY" xml:space="preserve">
+    <value>Ротный бой станет доступен после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/EVENT" xml:space="preserve">
+    <value>Игра взводом станет доступна после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/EXTERNAL" xml:space="preserve">
+    <value>Вылазки станут доступны после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/FALLOUT" xml:space="preserve">
+    <value>Игра взводом станет доступна после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/FORT_BATTLE" xml:space="preserve">
+    <value>Наступления станут доступны после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/SORTIE" xml:space="preserve">
+    <value>Вылазки станут доступны после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/SQUAD" xml:space="preserve">
+    <value>Игра взводом станет доступна после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/TOURNAMENT" xml:space="preserve">
+    <value>Турниры станут доступны после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/TRAINING" xml:space="preserve">
+    <value>Тренировочный бой станет доступен после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/UNIT" xml:space="preserve">
+    <value>Командный бой станет доступен после завершения обучения.</value>
+  </data>
+  <data name="queue/cancel_queue" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="queue/message" xml:space="preserve">
+    <value>Идёт формирование команд...</value>
+  </data>
+  <data name="queue/more_n_minutes" xml:space="preserve">
+    <value>более %(minutes)s мин.</value>
+  </data>
+  <data name="queue/player-waiting-time" xml:space="preserve">
+    <value>Вы в очереди: </value>
+  </data>
+  <data name="queue/queue_too_long" xml:space="preserve">
+    <value>Очередь переполнена. Ожидайте или пропустите обучение.</value>
+  </data>
+  <data name="queue/skip_tutorial" xml:space="preserve">
+    <value>Пропустить обучение</value>
+  </data>
+  <data name="queue/title" xml:space="preserve">
+    <value>Подождите, подбирается подходящий для вас сервер</value>
+  </data>
+  <data name="queue/units" xml:space="preserve">
+    <value>%(units)s с</value>
+  </data>
+  <data name="resultlabel/ended" xml:space="preserve">
+    <value>БОЙ ОКОНЧЕН</value>
+  </data>
+  <data name="resultlabel/lose" xml:space="preserve">
+    <value>ПОРАЖЕНИЕ</value>
+  </data>
+  <data name="resultlabel/techWin" xml:space="preserve">
+    <value>ТЕХНИЧЕСКАЯ ПОБЕДА</value>
+  </data>
+  <data name="resultlabel/tie" xml:space="preserve">
+    <value>НИЧЬЯ</value>
+  </data>
+  <data name="resultlabel/win" xml:space="preserve">
+    <value>ПОБЕДА!</value>
+  </data>
+  <data name="transition/title" xml:space="preserve">
+    <value>Соединение с сервером</value>
+  </data>
+  <data name="Akeno  Kido" xml:space="preserve">
+    <value>Акёно Кидо</value>
+  </data>
+  <data name="Aleksandr Antonuk" xml:space="preserve">
+    <value>Тадеаш Витек</value>
+  </data>
+  <data name="Aleksandr Fesich" xml:space="preserve">
+    <value>Александр Фесич</value>
+  </data>
+  <data name="Aleksandr Ustinov" xml:space="preserve">
+    <value>Александр Устинов</value>
+  </data>
+  <data name="Aleksey Egorov" xml:space="preserve">
+    <value>Алексей Егоров</value>
+  </data>
+  <data name="Aleksey Kluchikov" xml:space="preserve">
+    <value>Алексей Ключиков</value>
+  </data>
+  <data name="Andrii Kozyra" xml:space="preserve">
+    <value>Андрей Козыра</value>
+  </data>
+  <data name="Benedikt Dresdner" xml:space="preserve">
+    <value>Бенедикт Дресднер</value>
+  </data>
+  <data name="Bill Tenson" xml:space="preserve">
+    <value>Билл Тенсон</value>
+  </data>
+  <data name="Charles Baker" xml:space="preserve">
+    <value>Чарльз Бейкер</value>
+  </data>
+  <data name="Claud Gault" xml:space="preserve">
+    <value>Глод Гульт</value>
+  </data>
+  <data name="Cornelius Holst" xml:space="preserve">
+    <value>Корнелиус Холст</value>
+  </data>
+  <data name="Cory Preston" xml:space="preserve">
+    <value>Шэнь Юшенг</value>
+  </data>
+  <data name="Denis Gordienko" xml:space="preserve">
+    <value>Денис Гордиенко</value>
+  </data>
+  <data name="Elias Fredriksson" xml:space="preserve">
+    <value>Элиас Фредрикссон</value>
+  </data>
+  <data name="Etien Asieos" xml:space="preserve">
+    <value>Герберт Фельд</value>
+  </data>
+  <data name="Fabian Haupt" xml:space="preserve">
+    <value>Фабьер Хопт</value>
+  </data>
+  <data name="Fedor Belkin" xml:space="preserve">
+    <value>Фёдор Белкин</value>
+  </data>
+  <data name="Frank Dimmelton" xml:space="preserve">
+    <value>Френк Диммельтон</value>
+  </data>
+  <data name="Fridrih Simann" xml:space="preserve">
+    <value>Фридрих Шиман</value>
+  </data>
+  <data name="Fudo Sugimoto" xml:space="preserve">
+    <value>Фудо Шугимото</value>
+  </data>
+  <data name="Gavril Stolbov" xml:space="preserve">
+    <value>Гаврила Стоблов</value>
+  </data>
+  <data name="Gerhard Braun" xml:space="preserve">
+    <value>Герхард Браун</value>
+  </data>
+  <data name="Gunther Franke" xml:space="preserve">
+    <value>Гюнтер Франке</value>
+  </data>
+  <data name="Hasso Mirato" xml:space="preserve">
+    <value>Хассо Мирато</value>
+  </data>
+  <data name="Heiko Rihter" xml:space="preserve">
+    <value>Найко Рихтер</value>
+  </data>
+  <data name="Igor Goncharenko" xml:space="preserve">
+    <value>Игорь Гончаренко</value>
+  </data>
+  <data name="Isidzukuri Soma" xml:space="preserve">
+    <value>Ишидзукури Шома</value>
+  </data>
+  <data name="James Brounge" xml:space="preserve">
+    <value>Джеймс Брунджи</value>
+  </data>
+  <data name="Jean-Christophe Morel" xml:space="preserve">
+    <value>Жан-Кристоф Морель</value>
+  </data>
+  <data name="Jing Jie" xml:space="preserve">
+    <value>Инь И</value>
+  </data>
+  <data name="John Albert" xml:space="preserve">
+    <value>Джон Альберт</value>
+  </data>
+  <data name="John Dicker" xml:space="preserve">
+    <value>Пьер-Луи Дюпон</value>
+  </data>
+  <data name="John King" xml:space="preserve">
+    <value>Александр Жук</value>
+  </data>
+  <data name="John Lamb" xml:space="preserve">
+    <value>Джон Ламб</value>
+  </data>
+  <data name="John Payne" xml:space="preserve">
+    <value>Джон Пейн</value>
+  </data>
+  <data name="Joseph ONeal" xml:space="preserve">
+    <value>Джозеф О'Нил</value>
+  </data>
+  <data name="Jurgen Wolf" xml:space="preserve">
+    <value>Юрген Вольф</value>
+  </data>
+  <data name="Karl Himmelsberg" xml:space="preserve">
+    <value>Карл Химмельсберг</value>
+  </data>
+  <data name="Karl-Erik Olofsson" xml:space="preserve">
+    <value>Карл Эрик Олофссон</value>
+  </data>
+  <data name="Keiko Simura" xml:space="preserve">
+    <value>Кико Шимура</value>
+  </data>
+  <data name="Konrad Cerstvy" xml:space="preserve">
+    <value>Конрад Чёрствый</value>
+  </data>
+  <data name="Lee Liang" xml:space="preserve">
+    <value>Ли Лянь</value>
+  </data>
+  <data name="Lev Shapiro" xml:space="preserve">
+    <value>Лев Шапиро</value>
+  </data>
+  <data name="Lin Shin" xml:space="preserve">
+    <value>Линь Шинь</value>
+  </data>
+  <data name="Ludvik Benes" xml:space="preserve">
+    <value>Людвик Бенеш</value>
+  </data>
+  <data name="Mark Litengen" xml:space="preserve">
+    <value>Марк Литенген</value>
+  </data>
+  <data name="Matt Underlay" xml:space="preserve">
+    <value>Мет Андерлей</value>
+  </data>
+  <data name="Miron Nebaluiev" xml:space="preserve">
+    <value>Мирон Небалуев</value>
+  </data>
+  <data name="Mitrofan Morda" xml:space="preserve">
+    <value>Митрофан Морда</value>
+  </data>
+  <data name="Nicholas Wilkinson" xml:space="preserve">
+    <value>Николас Уилкинсон</value>
+  </data>
+  <data name="Oda Nisura" xml:space="preserve">
+    <value>Ода Незура</value>
+  </data>
+  <data name="Oliver Greene" xml:space="preserve">
+    <value>Николай Муравский</value>
+  </data>
+  <data name="Otto Von Valen" xml:space="preserve">
+    <value>Отто фон Фален</value>
+  </data>
+  <data name="Pascal Raymond" xml:space="preserve">
+    <value>Паскаль Реймонд</value>
+  </data>
+  <data name="Paul Boutin" xml:space="preserve">
+    <value>Пол Бутин</value>
+  </data>
+  <data name="Paul Davis" xml:space="preserve">
+    <value>Пол Дэвис</value>
+  </data>
+  <data name="Paul Keller" xml:space="preserve">
+    <value>Томас Кох</value>
+  </data>
+  <data name="Petr Sergeev" xml:space="preserve">
+    <value>Пётр Сергеев</value>
+  </data>
+  <data name="Radosh Zrvecka" xml:space="preserve">
+    <value>Радош Жрвечка</value>
+  </data>
+  <data name="Ralf Hofer" xml:space="preserve">
+    <value>Ральф Хофер</value>
+  </data>
+  <data name="Richard Bogelber" xml:space="preserve">
+    <value>Рихард Богльбер</value>
+  </data>
+  <data name="Robert Beasley" xml:space="preserve">
+    <value>Роберт Бисли</value>
+  </data>
+  <data name="Samuel Bronn" xml:space="preserve">
+    <value>Сэмюель Бронн</value>
+  </data>
+  <data name="Sheng En" xml:space="preserve">
+    <value>Шинь Ён</value>
+  </data>
+  <data name="Siegward Eber" xml:space="preserve">
+    <value>Зигвард Ибер</value>
+  </data>
+  <data name="Teodor Simmersbee" xml:space="preserve">
+    <value>Теодор Зиммерсби</value>
+  </data>
+  <data name="Thomas Merritt" xml:space="preserve">
+    <value>Томас Меррит</value>
+  </data>
+  <data name="Valeriy Gayduchenko" xml:space="preserve">
+    <value>Валерий Гайдученко</value>
+  </data>
+  <data name="Veniamin Ragozin" xml:space="preserve">
+    <value>Вениамин Рагозин</value>
+  </data>
+  <data name="Vitalii Romanov" xml:space="preserve">
+    <value>Виталий Романов</value>
+  </data>
+  <data name="Vladimir Kaidun" xml:space="preserve">
+    <value>Владимир Кайдун</value>
+  </data>
+  <data name="Yako Simamura" xml:space="preserve">
+    <value>Яко Шимамура</value>
+  </data>
+  <data name="Yu Dan" xml:space="preserve">
+    <value>Юрий Даль</value>
+  </data>
+  <data name="Yuriy Krilo" xml:space="preserve">
+    <value>Юрий Крыло</value>
+  </data>
+  <data name="award/options" xml:space="preserve">
+    <value>Поменять награду</value>
+  </data>
+  <data name="award/options/description/ge" xml:space="preserve">
+    <value>Немецкий лёгкий танк с относительно мощным и точным орудием. Лобовая броня достаточно крепкая и способна выдерживать немало попаданий.</value>
+  </data>
+  <data name="award/options/description/us" xml:space="preserve">
+    <value>Американский средний танк. Обладает широким выбором вооружения, хорошей динамикой, но слабой бронёй. Годится для поддержки атаки и активной разведки.</value>
+  </data>
+  <data name="award/options/description/ussr" xml:space="preserve">
+    <value>Лёгкий танк СССР. Обладает средней скоростью и слабой бронёй. Мощное вооружение и динамика позволяют эффективно стрелять на средних дистанциях.</value>
+  </data>
+  <data name="award/options/name/ge" xml:space="preserve">
+    <value>Pz.Kpfw. 35 (t)</value>
+  </data>
+  <data name="award/options/name/us" xml:space="preserve">
+    <value>T2 Medium Tank</value>
+  </data>
+  <data name="award/options/name/ussr" xml:space="preserve">
+    <value>T-26</value>
+  </data>
+  <data name="award/options/nation/ge" xml:space="preserve">
+    <value>ГЕРМАНИЯ</value>
+  </data>
+  <data name="award/options/nation/us" xml:space="preserve">
+    <value>США</value>
+  </data>
+  <data name="award/options/nation/ussr" xml:space="preserve">
+    <value>СССР</value>
+  </data>
+  <data name="award/options/title" xml:space="preserve">
+    <value>ВЫБЕРИТЕ СВОЮ ПЕРВУЮ МАШИНУ</value>
+  </data>
+  <data name="battle/result/assisted" xml:space="preserve">
+    <value>Урон по вашим разведданным</value>
+  </data>
+  <data name="battle/result/blocked" xml:space="preserve">
+    <value>Заблокированный урон</value>
+  </data>
+  <data name="battle/result/damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="battle/result/description/assisted" xml:space="preserve">
+    <value>Учитывается урон по вашим разведданным, а также урон после вашего попадания, сбившего гусеницу.</value>
+  </data>
+  <data name="battle/result/description/blocked" xml:space="preserve">
+    <value>Общее количество заблокированного бронёй вашей машины урона, включая попадания по внешним модулям, непробития и рикошеты.</value>
+  </data>
+  <data name="battle/result/description/damage" xml:space="preserve">
+    <value>Общее количество урона, нанесённого технике противника.</value>
+  </data>
+  <data name="battle/result/description/destroyed" xml:space="preserve">
+    <value>Количество уничтоженных вами машин противника.</value>
+  </data>
+  <data name="battle/result/description/detected" xml:space="preserve">
+    <value>Количество обнаруженных вами машин противника.</value>
+  </data>
+  <data name="battle/result/destroyed" xml:space="preserve">
+    <value>Уничтожено</value>
+  </data>
+  <data name="battle/result/detected" xml:space="preserve">
+    <value>Обнаружено</value>
+  </data>
+  <data name="btn/continue" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="btn/continue/prebattle" xml:space="preserve">
+    <value>В бой!</value>
+  </data>
+  <data name="btn/select" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="btn/tutorial/skip" xml:space="preserve">
+    <value>Пропустить обучение</value>
+  </data>
+  <data name="btn/tutorial/start" xml:space="preserve">
+    <value>Начать обучение</value>
+  </data>
+  <data name="game/mode" xml:space="preserve">
+    <value>Режим игры</value>
+  </data>
+  <data name="hint/advanced/sniper/before" xml:space="preserve">
+    <value>В снайперском режиме проще выцелить слабые места в броне</value>
+  </data>
+  <data name="hint/advanced/sniper/main" xml:space="preserve">
+    <value>Зелёный маркер информирует о высоком шансе пробития брони</value>
+  </data>
+  <data name="hint/ally/shoot" xml:space="preserve">
+    <value>Не стреляйте в союзников!</value>
+  </data>
+  <data name="hint/camera/controls" xml:space="preserve">
+    <value>Осмотрите машину со всех сторон, зажав левую кнопку мыши</value>
+  </data>
+  <data name="hint/exit/game/area" xml:space="preserve">
+    <value>Вы покидаете поле боя. Возвращайтесь!</value>
+  </data>
+  <data name="hint/heal/crew" xml:space="preserve">
+    <value>Наводчик ранен, точность снижена. Используйте аптечку.</value>
+  </data>
+  <data name="hint/low/hp" xml:space="preserve">
+    <value>Ваша машина серьёзно повреждена!</value>
+  </data>
+  <data name="hint/message/avoid" xml:space="preserve">
+    <value>Обойдите и уничтожьте противника, избегая его огня</value>
+  </data>
+  <data name="hint/mission3/capturebase" xml:space="preserve">
+    <value>Захват базы противника — один из вариантов победы</value>
+  </data>
+  <data name="hint/mission3/capturehelp" xml:space="preserve">
+    <value>Вернитесь и помогите союзнику с захватом</value>
+  </data>
+  <data name="hint/mission3/captureinprogress" xml:space="preserve">
+    <value>Идёт захват базы</value>
+  </data>
+  <data name="hint/mission3/capturelost" xml:space="preserve">
+    <value>Получение урона сбивает прогресс захвата базы</value>
+  </data>
+  <data name="hint/mission3/capturetogether" xml:space="preserve">
+    <value>Несколько машин захватывают базу быстрее</value>
+  </data>
+  <data name="hint/mission3/fallback" xml:space="preserve">
+    <value>Их слишком много! Отступайте</value>
+  </data>
+  <data name="hint/mission3/flankenemies" xml:space="preserve">
+    <value>Обойдите противника с фланга</value>
+  </data>
+  <data name="hint/mission3/flankingfails" xml:space="preserve">
+    <value>Вас обнаружили! Помните: стрельба вас демаскирует</value>
+  </data>
+  <data name="hint/mission3/flankingfails2" xml:space="preserve">
+    <value>Вас обнаружили! Выезд из кустов вас демаскирует</value>
+  </data>
+  <data name="hint/mission3/flankingwait" xml:space="preserve">
+    <value>Они уходят! Продолжайте наблюдение</value>
+  </data>
+  <data name="hint/mission3/foliageintroa" xml:space="preserve">
+    <value>Не стреляйте, иначе обнаружите себя</value>
+  </data>
+  <data name="hint/mission3/foliageintrob" xml:space="preserve">
+    <value>Кусты скроют вас от противника, если вы не стреляете</value>
+  </data>
+  <data name="hint/mission3/playerdetected" xml:space="preserve">
+    <value>Вас обнаружили! Готовьтесь к бою</value>
+  </data>
+  <data name="hint/move" xml:space="preserve">
+    <value>Управление машиной</value>
+  </data>
+  <data name="hint/move/turret" xml:space="preserve">
+    <value>Управление башней и прицелом</value>
+  </data>
+  <data name="hint/no/move" xml:space="preserve">
+    <value>Управление движением машины — WASD</value>
+  </data>
+  <data name="hint/repair/track" xml:space="preserve">
+    <value>Гусеница сбита, используйте ремкомплект.</value>
+  </data>
+  <data name="hint/secondary/sniper" xml:space="preserve">
+    <value>Вход в снайперский режим: вращайте колесо мыши</value>
+  </data>
+  <data name="hint/shoot" xml:space="preserve">
+    <value>Наведите прицел на противника и стреляйте</value>
+  </data>
+  <data name="hint/shoot/while/moving" xml:space="preserve">
+    <value>Во время движения точность стрельбы ниже</value>
+  </data>
+  <data name="hint/sniper" xml:space="preserve">
+    <value>Вход в снайперский режим: крутите колесо мыши</value>
+  </data>
+  <data name="hint/sniper/on/distance/exit" xml:space="preserve">
+    <value>Выход из снайперского режима: крутите колесо мыши</value>
+  </data>
+  <data name="hint/sniper/on/distance/main" xml:space="preserve">
+    <value>Вход в снайперский режим: крутите колесо мыши</value>
+  </data>
+  <data name="hint/target/unlock" xml:space="preserve">
+    <value>Автоприцел. Отмена правой кнопкой мыши</value>
+  </data>
+  <data name="hint/use/extinguisher" xml:space="preserve">
+    <value>Машина горит! Используйте огнетушитель.</value>
+  </data>
+  <data name="hint/useless/consumables" xml:space="preserve">
+    <value>Использование снаряжения не требуется</value>
+  </data>
+  <data name="hint/wait/reload" xml:space="preserve">
+    <value>Орудие перезаряжается</value>
+  </data>
+  <data name="invitation/note/clan" xml:space="preserve">
+    <value>Клановый бой станет доступен после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/clubs" xml:space="preserve">
+    <value>Командный бой станет доступен после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/company" xml:space="preserve">
+    <value>Ротный бой станет доступен после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/event" xml:space="preserve">
+    <value>Игра взводом станет доступна после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/external" xml:space="preserve">
+    <value>Вылазки станут доступны после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/fallout" xml:space="preserve">
+    <value>Игра взводом станет доступна после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/fort/battle" xml:space="preserve">
+    <value>Наступления станут доступны после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/sortie" xml:space="preserve">
+    <value>Вылазки станут доступны после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/squad" xml:space="preserve">
+    <value>Игра взводом станет доступна после завершения обучения. 	</value>
+  </data>
+  <data name="invitation/note/tournament" xml:space="preserve">
+    <value>Турниры станут доступны после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/training" xml:space="preserve">
+    <value>Тренировочный бой станет доступен после завершения обучения.</value>
+  </data>
+  <data name="invitation/note/unit" xml:space="preserve">
+    <value>Командный бой станет доступен после завершения обучения.</value>
+  </data>
+  <data name="loading/tip/crosshair/header/1" xml:space="preserve">
+    <value>Большой разброс орудия в движении</value>
+  </data>
+  <data name="loading/tip/crosshair/header/2" xml:space="preserve">
+    <value>Минимальный разброс при полном сведении</value>
+  </data>
+  <data name="loading/tip/equipment/description/1" xml:space="preserve">
+    <value>Тушит пожар</value>
+  </data>
+  <data name="loading/tip/equipment/description/2" xml:space="preserve">
+    <value>Лечение членов экипажа</value>
+  </data>
+  <data name="loading/tip/equipment/description/3" xml:space="preserve">
+    <value>Починка повреждённого модуля</value>
+  </data>
+  <data name="loading/tip/equipment/header/1" xml:space="preserve">
+    <value>Огнетушитель</value>
+  </data>
+  <data name="loading/tip/equipment/header/2" xml:space="preserve">
+    <value>Аптечка</value>
+  </data>
+  <data name="loading/tip/equipment/header/3" xml:space="preserve">
+    <value>Ремкомплект</value>
+  </data>
+  <data name="loading/tip/modules/description/2" xml:space="preserve">
+    <value>Критическое попадание</value>
+  </data>
+  <data name="loading/tip/modules/description/3" xml:space="preserve">
+    <value>Критическое попадание</value>
+  </data>
+  <data name="loading/tip/modules/header/1" xml:space="preserve">
+    <value>Повреждая внешние модули, урон не наносится</value>
+  </data>
+  <data name="loading/tip/modules/header/2" xml:space="preserve">
+    <value>Стрельба невозможна</value>
+  </data>
+  <data name="loading/tip/modules/header/3" xml:space="preserve">
+    <value>Обездвижен</value>
+  </data>
+  <data name="loading/tip/penetration/description/1" xml:space="preserve">
+    <value>Высокий шанс пробития</value>
+  </data>
+  <data name="loading/tip/penetration/description/2" xml:space="preserve">
+    <value>Удар сдержан</value>
+  </data>
+  <data name="loading/tip/penetration/header/1" xml:space="preserve">
+    <value>Зелёный маркер</value>
+  </data>
+  <data name="loading/tip/penetration/header/2" xml:space="preserve">
+    <value>Красный маркер</value>
+  </data>
+  <data name="loading/tip/sniper/description/1" xml:space="preserve">
+    <value>Высокий</value>
+  </data>
+  <data name="loading/tip/sniper/description/2" xml:space="preserve">
+    <value>Низкий</value>
+  </data>
+  <data name="loading/tip/sniper/header/1" xml:space="preserve">
+    <value>Снайперский режим</value>
+  </data>
+  <data name="loading/tip/sniper/header/2" xml:space="preserve">
+    <value>Шанс пробития</value>
+  </data>
+  <data name="loading/tip/victory/description/1" xml:space="preserve">
+    <value>База противника захвачена</value>
+  </data>
+  <data name="loading/tip/victory/description/2" xml:space="preserve">
+    <value>Вся техника противника уничтожена</value>
+  </data>
+  <data name="loading/tip/victory/header/1" xml:space="preserve">
+    <value>Победа!</value>
+  </data>
+  <data name="loading/tip/victory/header/2" xml:space="preserve">
+    <value>ИЛИ</value>
+  </data>
+  <data name="loading/tip/visibility/description/1" xml:space="preserve">
+    <value>Скрыт за объектом</value>
+  </data>
+  <data name="loading/tip/visibility/description/2" xml:space="preserve">
+    <value>Скрыт кустами</value>
+  </data>
+  <data name="loading/tip/visibility/description/3" xml:space="preserve">
+    <value>Демаскирован выстрелом</value>
+  </data>
+  <data name="loading/tip/visibility/description/4" xml:space="preserve">
+    <value>Двигается по открытой местности</value>
+  </data>
+  <data name="loading/tip/visibility/header/1" xml:space="preserve">
+    <value>Невидим</value>
+  </data>
+  <data name="loading/tip/visibility/header/2" xml:space="preserve">
+    <value>Виден</value>
+  </data>
+  <data name="loading/tip/wasd/header/1" xml:space="preserve">
+    <value>Движение</value>
+  </data>
+  <data name="loading/tip/wasd/header/2" xml:space="preserve">
+    <value>Стрельба</value>
+  </data>
+  <data name="loading/tip/wasd/header/3" xml:space="preserve">
+    <value>Вращение башни</value>
+  </data>
+  <data name="marker/blocked" xml:space="preserve">
+    <value>Броня не пробита</value>
+  </data>
+  <data name="marker/critical" xml:space="preserve">
+    <value>Критический урон</value>
+  </data>
+  <data name="marker/ricochet" xml:space="preserve">
+    <value>Рикошет</value>
+  </data>
+  <data name="message/bonus/equipment/label" xml:space="preserve">
+    <value>Ящик с инструментами</value>
+  </data>
+  <data name="message/bonus/equipment/text" xml:space="preserve">
+    <value>Ускоряет ремонт повреждённых модулей</value>
+  </data>
+  <data name="message/bonus/premium/days" xml:space="preserve">
+    <value>д.</value>
+  </data>
+  <data name="message/bonus/premium/hours" xml:space="preserve">
+    <value>ч.</value>
+  </data>
+  <data name="message/bootcamp/graduate/label" xml:space="preserve">
+    <value>ПОЗДРАВЛЯЕМ!</value>
+  </data>
+  <data name="message/bootcamp/graduate/text" xml:space="preserve">
+    <value>Обучение успешно пройдено</value>
+  </data>
+  <data name="message/consumables/label" xml:space="preserve">
+    <value>СНАРЯЖЕНИЕ</value>
+  </data>
+  <data name="message/consumables/text" xml:space="preserve">
+    <value>Помогает бороться с повреждениями в бою</value>
+  </data>
+  <data name="message/credits/label" xml:space="preserve">
+    <value>КРЕДИТЫ</value>
+  </data>
+  <data name="message/credits/text" xml:space="preserve">
+    <value>Для покупки и улучшения машины</value>
+  </data>
+  <data name="message/equipment/label" xml:space="preserve">
+    <value>ОБОРУДОВАНИЕ</value>
+  </data>
+  <data name="message/equipment/text" xml:space="preserve">
+    <value>Улучшает определённые характеристики машины</value>
+  </data>
+  <data name="message/experience/label" xml:space="preserve">
+    <value>БОЕВОЙ ОПЫТ</value>
+  </data>
+  <data name="message/experience/text" xml:space="preserve">
+    <value>Для исследования модулей и техники</value>
+  </data>
+  <data name="message/extra/award/options" xml:space="preserve">
+    <value>Поменять награду</value>
+  </data>
+  <data name="message/fire/extinguisher/label" xml:space="preserve">
+    <value>Ручной огнетушитель</value>
+  </data>
+  <data name="message/first/aid/kit/label" xml:space="preserve">
+    <value>Большай аптечка</value>
+  </data>
+  <data name="message/gold/label" xml:space="preserve">
+    <value>ЗОЛОТО</value>
+  </data>
+  <data name="message/gold/text" xml:space="preserve">
+    <value>Для покупки премиум аккаунта и предметов</value>
+  </data>
+  <data name="message/intro/lesson/ii/label" xml:space="preserve">
+    <value>Улучшение машины</value>
+  </data>
+  <data name="message/intro/lesson/iii/crew/label" xml:space="preserve">
+    <value>Экипаж</value>
+  </data>
+  <data name="message/intro/lesson/iii/label" xml:space="preserve">
+    <value>Получение новой машины</value>
+  </data>
+  <data name="message/intro/lesson/iv/label" xml:space="preserve">
+    <value>Оборудование и снаряжение</value>
+  </data>
+  <data name="message/intro/lesson/v/label" xml:space="preserve">
+    <value>Золото и премиум</value>
+  </data>
+  <data name="message/mission/accomplished/label" xml:space="preserve">
+    <value>ЗАДАЧА ВЫПОЛНЕНА</value>
+  </data>
+  <data name="message/mission/accomplished/text" xml:space="preserve">
+    <value>Награда</value>
+  </data>
+  <data name="message/new/module/label" xml:space="preserve">
+    <value>МОДУЛЬ КУПЛЕН</value>
+  </data>
+  <data name="message/new/module/text" xml:space="preserve">
+    <value>Модуль будет установлен автоматически</value>
+  </data>
+  <data name="message/premium/label" xml:space="preserve">
+    <value>ПРЕМИУМ АККАУНТ</value>
+  </data>
+  <data name="message/premium/text" xml:space="preserve">
+    <value>Увеличивает заработок опыта и кредитов</value>
+  </data>
+  <data name="message/repair/kit/label" xml:space="preserve">
+    <value>Большой ремкомплект</value>
+  </data>
+  <data name="message/second/vehicle/text/nation/0" xml:space="preserve">
+    <value>Машина уже в Ангаре</value>
+  </data>
+  <data name="message/second/vehicle/text/nation/1" xml:space="preserve">
+    <value>Машина уже в Ангаре</value>
+  </data>
+  <data name="message/second/vehicle/text/nation/2" xml:space="preserve">
+    <value>Машина уже в Ангаре</value>
+  </data>
+  <data name="message/six/sense/perk/label" xml:space="preserve">
+    <value>«Шестое чувство»</value>
+  </data>
+  <data name="message/six/sense/perk/text" xml:space="preserve">
+    <value>Важный навык, позволяющий командиру определить, обнаружена ли его машина</value>
+  </data>
+  <data name="message/skills/and/perks/label" xml:space="preserve">
+    <value>УМЕНИЯ И НАВЫКИ</value>
+  </data>
+  <data name="message/skills/and/perks/text" xml:space="preserve">
+    <value>Экипаж улучшает характеристики машины</value>
+  </data>
+  <data name="message/unlock/module/label" xml:space="preserve">
+    <value>МОДУЛЬ ИССЛЕДОВАН</value>
+  </data>
+  <data name="message/unlock/module/text" xml:space="preserve">
+    <value>Теперь модуль можно купить и установить</value>
+  </data>
+  <data name="message/unlock/vehicle/label" xml:space="preserve">
+    <value>МАШИНА ИССЛЕДОВАНА</value>
+  </data>
+  <data name="message/unlock/vehicle/text" xml:space="preserve">
+    <value>Теперь машину можно купить</value>
+  </data>
+  <data name="message/vehicle/awarded/label" xml:space="preserve">
+    <value>ПОЛУЧЕН НОВЫЙ ТАНК</value>
+  </data>
+  <data name="message/vehicle/awarded/text" xml:space="preserve">
+    <value>Нажмите «Продолжить», чтобы перейти к следующему уроку.</value>
+  </data>
+  <data name="prebattle/hint/consumables" xml:space="preserve">
+    <value>Снаряжение</value>
+  </data>
+  <data name="prebattle/hint/crew" xml:space="preserve">
+    <value>Экипаж</value>
+  </data>
+  <data name="prebattle/hint/hp" xml:space="preserve">
+    <value>Прочность машины (ед.)</value>
+  </data>
+  <data name="prebattle/hint/minimap" xml:space="preserve">
+    <value>Миникарта</value>
+  </data>
+  <data name="prebattle/hint/modules" xml:space="preserve">
+    <value>Модули</value>
+  </data>
+  <data name="prebattle/hint/penetration/chance" xml:space="preserve">
+    <value>Шанс пробития</value>
+  </data>
+  <data name="prebattle/hint/penetration/high" xml:space="preserve">
+    <value>Высокий</value>
+  </data>
+  <data name="prebattle/hint/penetration/low" xml:space="preserve">
+    <value>Низкий</value>
+  </data>
+  <data name="prebattle/hint/score" xml:space="preserve">
+    <value>Командный счёт</value>
+  </data>
+  <data name="promo/vehicleBuyView" xml:space="preserve">
+    <value>Выгодная акция!</value>
+  </data>
+  <data name="quest/condition" xml:space="preserve">
+    <value>Победите в режиме «Случайный бой» на технике III уровня. Для победы нужно будет применить все полученные вами навыки!</value>
+  </data>
+  <data name="quest/gamemode" xml:space="preserve">
+    <value>Случайный бой</value>
+  </data>
+  <data name="quest/name" xml:space="preserve">
+    <value>Случайный бой</value>
+  </data>
+  <data name="quest/title" xml:space="preserve">
+    <value>Проверка боем</value>
+  </data>
+  <data name="queue/cancel/queue" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="queue/more/n/minutes" xml:space="preserve">
+    <value>более %(minutes)s мин.</value>
+  </data>
+  <data name="queue/queue/too/long" xml:space="preserve">
+    <value>Очередь переполнена. Вы можете продолжить ожидание или пропустить обучение.</value>
+  </data>
+  <data name="queue/skip/tutorial" xml:space="preserve">
+    <value>Пропустить обучение</value>
+  </data>
+  <data name="request/bootcamp/finish" xml:space="preserve">
+    <value>Покинуть Учебный полигон</value>
+  </data>
+  <data name="request/bootcamp/return" xml:space="preserve">
+    <value>Вернуться на Учебный полигон</value>
+  </data>
+  <data name="request/bootcamp/start" xml:space="preserve">
+    <value>Пройти Учебный полигон</value>
+  </data>
+  <data name="result/award/cadet/label" xml:space="preserve">
+    <value>«Учебный основной калибр»</value>
+  </data>
+  <data name="result/award/cadet/text" xml:space="preserve">
+    <value>Нанести наибольшее количество урона в учебном бою.</value>
+  </data>
+  <data name="result/award/crew/label" xml:space="preserve">
+    <value>Доступно управление экипажем</value>
+  </data>
+  <data name="result/award/crew/text" xml:space="preserve">
+    <value>Вы получили доступ к управлению экипажем своей машины.</value>
+  </data>
+  <data name="result/award/duel/label" xml:space="preserve">
+    <value>«Дуэлянт-ученик»</value>
+  </data>
+  <data name="result/award/duel/text" xml:space="preserve">
+    <value>Уничтожить в бою не менее 2 машин противника, нанёсших вам урон.</value>
+  </data>
+  <data name="result/award/extinguisher/label" xml:space="preserve">
+    <value>Ручной огнетушитель</value>
+  </data>
+  <data name="result/award/extinguisher/text" xml:space="preserve">
+    <value>Тушение пожара в собственной машине. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
+  </data>
+  <data name="result/award/gold/label" xml:space="preserve">
+    <value>Золото</value>
+  </data>
+  <data name="result/award/gold/text" xml:space="preserve">
+    <value>Вы получили немного ценной внутриигровой валюты, которую можно потратить на широкий спектр целей.</value>
+  </data>
+  <data name="result/award/invader/label" xml:space="preserve">
+    <value>«Учебный захватчик»</value>
+  </data>
+  <data name="result/award/invader/text" xml:space="preserve">
+    <value>Принять участие в успешном захвате базы в учебном бою.</value>
+  </data>
+  <data name="result/award/medicalkit/label" xml:space="preserve">
+    <value>Большая аптечка</value>
+  </data>
+  <data name="result/award/medicalkit/text" xml:space="preserve">
+    <value>Лечение всех раненых членов экипажа и снятие эффекта оглушения. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
+  </data>
+  <data name="result/award/mission/label" xml:space="preserve">
+    <value>Проверка боем</value>
+  </data>
+  <data name="result/award/mission/text" xml:space="preserve">
+    <value>Задача выполнена!</value>
+  </data>
+  <data name="result/award/premium/label" xml:space="preserve">
+    <value>Премиум аккаунт</value>
+  </data>
+  <data name="result/award/premium/text" xml:space="preserve">
+    <value>Ваш аккаунт получил премиум дни. Премиум аккаунт — это не только больше кредитов и опыта за каждый бой, но и чистый, красивый Ангар.</value>
+  </data>
+  <data name="result/award/repairkit/label" xml:space="preserve">
+    <value>Большой ремкомплект</value>
+  </data>
+  <data name="result/award/repairkit/text" xml:space="preserve">
+    <value>Починка всех поврежденных модулей. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.</value>
+  </data>
+  <data name="result/award/shoot/label" xml:space="preserve">
+    <value>«Учебный огонь на поражение»</value>
+  </data>
+  <data name="result/award/shoot/text" xml:space="preserve">
+    <value>Нанести противнику урона больше, чем прочность собственной машины.</value>
+  </data>
+  <data name="result/award/sniper/label" xml:space="preserve">
+    <value>«Учебный снайпер»</value>
+  </data>
+  <data name="result/award/sniper/text" xml:space="preserve">
+    <value>Попасть по противнику не менее 8 раз в учебном бою (непробития и рикошеты засчитываются).</value>
+  </data>
+  <data name="result/award/tank/label" xml:space="preserve">
+    <value>Прибыло подкрепление!</value>
+  </data>
+  <data name="result/award/tank/text" xml:space="preserve">
+    <value>Боец! Вы провели успешный бой и получаете в свой Ангар новую машину. Не забывайте, что по ходу продвижения по игре вы сможете существенно расширить свой танкопарк.</value>
+  </data>
+  <data name="result/award/toolbox/label" xml:space="preserve">
+    <value>Ящик с инструментами</value>
+  </data>
+  <data name="result/award/toolbox/text" xml:space="preserve">
+    <value>+25% Ускорение скорости ремонта.</value>
+  </data>
+  <data name="resultlabel/techwin" xml:space="preserve">
+    <value>ТЕХНИЧЕСКАЯ ПОБЕДА</value>
+  </data>
+  <data name="wellcome/bootcamp" xml:space="preserve">
+    <value>World of Tanks</value>
+  </data>
+  <data name="wellcome/bootcamp/description" xml:space="preserve">
+    <value>Добро пожаловать!</value>
+  </data>
+  <data name="with/premium" xml:space="preserve">
+    <value>С премиумом:</value>
+  </data>
+</root>

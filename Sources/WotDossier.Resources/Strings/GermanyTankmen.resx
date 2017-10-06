@@ -1,0 +1,4248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="names/ger1" xml:space="preserve">
+    <value>Aachen</value>
+  </data>
+  <data name="names/ger10" xml:space="preserve">
+    <value>Albrecht</value>
+  </data>
+  <data name="names/ger100" xml:space="preserve">
+    <value>Borchert</value>
+  </data>
+  <data name="names/ger101" xml:space="preserve">
+    <value>Borovitz</value>
+  </data>
+  <data name="names/ger102" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="names/ger103" xml:space="preserve">
+    <value>Botsch</value>
+  </data>
+  <data name="names/ger104" xml:space="preserve">
+    <value>Böttger</value>
+  </data>
+  <data name="names/ger105" xml:space="preserve">
+    <value>Brachtel</value>
+  </data>
+  <data name="names/ger106" xml:space="preserve">
+    <value>Brandenberger</value>
+  </data>
+  <data name="names/ger107" xml:space="preserve">
+    <value>Brandner</value>
+  </data>
+  <data name="names/ger108" xml:space="preserve">
+    <value>Brandt</value>
+  </data>
+  <data name="names/ger109" xml:space="preserve">
+    <value>Braß</value>
+  </data>
+  <data name="names/ger11" xml:space="preserve">
+    <value>Aldinger</value>
+  </data>
+  <data name="names/ger110" xml:space="preserve">
+    <value>Brauer</value>
+  </data>
+  <data name="names/ger111" xml:space="preserve">
+    <value>Bräuer</value>
+  </data>
+  <data name="names/ger112" xml:space="preserve">
+    <value>Braun</value>
+  </data>
+  <data name="names/ger113" xml:space="preserve">
+    <value>Breit</value>
+  </data>
+  <data name="names/ger114" xml:space="preserve">
+    <value>Breithaupt</value>
+  </data>
+  <data name="names/ger115" xml:space="preserve">
+    <value>Breitwieser</value>
+  </data>
+  <data name="names/ger116" xml:space="preserve">
+    <value>Brenneis</value>
+  </data>
+  <data name="names/ger117" xml:space="preserve">
+    <value>Bruhne</value>
+  </data>
+  <data name="names/ger118" xml:space="preserve">
+    <value>Bruer</value>
+  </data>
+  <data name="names/ger119" xml:space="preserve">
+    <value>Buchheim</value>
+  </data>
+  <data name="names/ger12" xml:space="preserve">
+    <value>Allmendinger</value>
+  </data>
+  <data name="names/ger120" xml:space="preserve">
+    <value>Buhle</value>
+  </data>
+  <data name="names/ger121" xml:space="preserve">
+    <value>Buhtz</value>
+  </data>
+  <data name="names/ger122" xml:space="preserve">
+    <value>Büngeler</value>
+  </data>
+  <data name="names/ger123" xml:space="preserve">
+    <value>Bünnau</value>
+  </data>
+  <data name="names/ger124" xml:space="preserve">
+    <value>Burgdorf</value>
+  </data>
+  <data name="names/ger125" xml:space="preserve">
+    <value>Bürger</value>
+  </data>
+  <data name="names/ger126" xml:space="preserve">
+    <value>Busch</value>
+  </data>
+  <data name="names/ger127" xml:space="preserve">
+    <value>Bussche</value>
+  </data>
+  <data name="names/ger128" xml:space="preserve">
+    <value>Busse</value>
+  </data>
+  <data name="names/ger129" xml:space="preserve">
+    <value>Braune</value>
+  </data>
+  <data name="names/ger13" xml:space="preserve">
+    <value>Altfuldisch</value>
+  </data>
+  <data name="names/ger130" xml:space="preserve">
+    <value>Brauns</value>
+  </data>
+  <data name="names/ger131" xml:space="preserve">
+    <value>Carius</value>
+  </data>
+  <data name="names/ger132" xml:space="preserve">
+    <value>Christern</value>
+  </data>
+  <data name="names/ger133" xml:space="preserve">
+    <value>Bur</value>
+  </data>
+  <data name="names/ger134" xml:space="preserve">
+    <value>Claussen</value>
+  </data>
+  <data name="names/ger135" xml:space="preserve">
+    <value>Conrath</value>
+  </data>
+  <data name="names/ger136" xml:space="preserve">
+    <value>Cramer</value>
+  </data>
+  <data name="names/ger137" xml:space="preserve">
+    <value>Cremer</value>
+  </data>
+  <data name="names/ger138" xml:space="preserve">
+    <value>Croneiß</value>
+  </data>
+  <data name="names/ger139" xml:space="preserve">
+    <value>Crüwell</value>
+  </data>
+  <data name="names/ger14" xml:space="preserve">
+    <value>Alvensleben</value>
+  </data>
+  <data name="names/ger140" xml:space="preserve">
+    <value>Behnke</value>
+  </data>
+  <data name="names/ger141" xml:space="preserve">
+    <value>Dahl</value>
+  </data>
+  <data name="names/ger142" xml:space="preserve">
+    <value>Dahm</value>
+  </data>
+  <data name="names/ger143" xml:space="preserve">
+    <value>Damrau</value>
+  </data>
+  <data name="names/ger144" xml:space="preserve">
+    <value>Deberietz</value>
+  </data>
+  <data name="names/ger145" xml:space="preserve">
+    <value>Decken</value>
+  </data>
+  <data name="names/ger146" xml:space="preserve">
+    <value>Degelow</value>
+  </data>
+  <data name="names/ger147" xml:space="preserve">
+    <value>Degenkolb</value>
+  </data>
+  <data name="names/ger148" xml:space="preserve">
+    <value>Dittmer</value>
+  </data>
+  <data name="names/ger149" xml:space="preserve">
+    <value>Dehner</value>
+  </data>
+  <data name="names/ger15" xml:space="preserve">
+    <value>Ameln</value>
+  </data>
+  <data name="names/ger150" xml:space="preserve">
+    <value>Deichmann</value>
+  </data>
+  <data name="names/ger151" xml:space="preserve">
+    <value>Demelhuber</value>
+  </data>
+  <data name="names/ger152" xml:space="preserve">
+    <value>Dennhardt</value>
+  </data>
+  <data name="names/ger153" xml:space="preserve">
+    <value>Derichsweiler</value>
+  </data>
+  <data name="names/ger154" xml:space="preserve">
+    <value>Dermietzel</value>
+  </data>
+  <data name="names/ger155" xml:space="preserve">
+    <value>Deßloch</value>
+  </data>
+  <data name="names/ger156" xml:space="preserve">
+    <value>Dethleffsen</value>
+  </data>
+  <data name="names/ger157" xml:space="preserve">
+    <value>Detmers</value>
+  </data>
+  <data name="names/ger158" xml:space="preserve">
+    <value>Dewitz</value>
+  </data>
+  <data name="names/ger159" xml:space="preserve">
+    <value>Diederich</value>
+  </data>
+  <data name="names/ger16" xml:space="preserve">
+    <value>Amsel</value>
+  </data>
+  <data name="names/ger160" xml:space="preserve">
+    <value>Diehm</value>
+  </data>
+  <data name="names/ger161" xml:space="preserve">
+    <value>Diekmann</value>
+  </data>
+  <data name="names/ger162" xml:space="preserve">
+    <value>Dienstbach</value>
+  </data>
+  <data name="names/ger163" xml:space="preserve">
+    <value>Diesenreiter</value>
+  </data>
+  <data name="names/ger164" xml:space="preserve">
+    <value>Dietl</value>
+  </data>
+  <data name="names/ger165" xml:space="preserve">
+    <value>Dilley</value>
+  </data>
+  <data name="names/ger166" xml:space="preserve">
+    <value>Dinort</value>
+  </data>
+  <data name="names/ger167" xml:space="preserve">
+    <value>Dittmar</value>
+  </data>
+  <data name="names/ger168" xml:space="preserve">
+    <value>Dolezalek</value>
+  </data>
+  <data name="names/ger169" xml:space="preserve">
+    <value>Dollmann</value>
+  </data>
+  <data name="names/ger17" xml:space="preserve">
+    <value>Andersen</value>
+  </data>
+  <data name="names/ger170" xml:space="preserve">
+    <value>Dornberger</value>
+  </data>
+  <data name="names/ger171" xml:space="preserve">
+    <value>Dörr</value>
+  </data>
+  <data name="names/ger172" xml:space="preserve">
+    <value>Dostler</value>
+  </data>
+  <data name="names/ger173" xml:space="preserve">
+    <value>Dötzer</value>
+  </data>
+  <data name="names/ger174" xml:space="preserve">
+    <value>Drechsel</value>
+  </data>
+  <data name="names/ger175" xml:space="preserve">
+    <value>Drechsler</value>
+  </data>
+  <data name="names/ger176" xml:space="preserve">
+    <value>Drescher</value>
+  </data>
+  <data name="names/ger177" xml:space="preserve">
+    <value>Dresdner</value>
+  </data>
+  <data name="names/ger178" xml:space="preserve">
+    <value>Drossel</value>
+  </data>
+  <data name="names/ger179" xml:space="preserve">
+    <value>Druschel</value>
+  </data>
+  <data name="names/ger18" xml:space="preserve">
+    <value>Angern</value>
+  </data>
+  <data name="names/ger180" xml:space="preserve">
+    <value>Duensing</value>
+  </data>
+  <data name="names/ger181" xml:space="preserve">
+    <value>Dürr</value>
+  </data>
+  <data name="names/ger182" xml:space="preserve">
+    <value>Becke</value>
+  </data>
+  <data name="names/ger183" xml:space="preserve">
+    <value>Ebeling</value>
+  </data>
+  <data name="names/ger184" xml:space="preserve">
+    <value>Eberhardt</value>
+  </data>
+  <data name="names/ger185" xml:space="preserve">
+    <value>Ebersbach</value>
+  </data>
+  <data name="names/ger186" xml:space="preserve">
+    <value>Eberstein</value>
+  </data>
+  <data name="names/ger187" xml:space="preserve">
+    <value>Edelsheim</value>
+  </data>
+  <data name="names/ger188" xml:space="preserve">
+    <value>Egger</value>
+  </data>
+  <data name="names/ger189" xml:space="preserve">
+    <value>Ehrler</value>
+  </data>
+  <data name="names/ger19" xml:space="preserve">
+    <value>Beier</value>
+  </data>
+  <data name="names/ger190" xml:space="preserve">
+    <value>Ehrlichmann</value>
+  </data>
+  <data name="names/ger191" xml:space="preserve">
+    <value>Eibl</value>
+  </data>
+  <data name="names/ger192" xml:space="preserve">
+    <value>Eichel</value>
+  </data>
+  <data name="names/ger193" xml:space="preserve">
+    <value>Eichelberger</value>
+  </data>
+  <data name="names/ger194" xml:space="preserve">
+    <value>Eichmann</value>
+  </data>
+  <data name="names/ger195" xml:space="preserve">
+    <value>Eiffel</value>
+  </data>
+  <data name="names/ger196" xml:space="preserve">
+    <value>Einsiedel</value>
+  </data>
+  <data name="names/ger197" xml:space="preserve">
+    <value>Eisenberg</value>
+  </data>
+  <data name="names/ger198" xml:space="preserve">
+    <value>Eisenhauer</value>
+  </data>
+  <data name="names/ger199" xml:space="preserve">
+    <value>Ellenbeck</value>
+  </data>
+  <data name="names/ger2" xml:space="preserve">
+    <value>Abend</value>
+  </data>
+  <data name="names/ger20" xml:space="preserve">
+    <value>Arndt</value>
+  </data>
+  <data name="names/ger200" xml:space="preserve">
+    <value>Elster</value>
+  </data>
+  <data name="names/ger201" xml:space="preserve">
+    <value>Elversveldt</value>
+  </data>
+  <data name="names/ger202" xml:space="preserve">
+    <value>Emmermann</value>
+  </data>
+  <data name="names/ger203" xml:space="preserve">
+    <value>Endrass</value>
+  </data>
+  <data name="names/ger204" xml:space="preserve">
+    <value>Endres</value>
+  </data>
+  <data name="names/ger205" xml:space="preserve">
+    <value>Endruweit</value>
+  </data>
+  <data name="names/ger206" xml:space="preserve">
+    <value>Engel</value>
+  </data>
+  <data name="names/ger207" xml:space="preserve">
+    <value>Engelhardt</value>
+  </data>
+  <data name="names/ger208" xml:space="preserve">
+    <value>Engelhorn</value>
+  </data>
+  <data name="names/ger209" xml:space="preserve">
+    <value>Erdmann</value>
+  </data>
+  <data name="names/ger21" xml:space="preserve">
+    <value>Arnim</value>
+  </data>
+  <data name="names/ger210" xml:space="preserve">
+    <value>Esebeck</value>
+  </data>
+  <data name="names/ger211" xml:space="preserve">
+    <value>Euringer</value>
+  </data>
+  <data name="names/ger212" xml:space="preserve">
+    <value>Faber</value>
+  </data>
+  <data name="names/ger213" xml:space="preserve">
+    <value>Färber</value>
+  </data>
+  <data name="names/ger214" xml:space="preserve">
+    <value>Dittrichs</value>
+  </data>
+  <data name="names/ger215" xml:space="preserve">
+    <value>Falkenhausen</value>
+  </data>
+  <data name="names/ger216" xml:space="preserve">
+    <value>Falkenhorst</value>
+  </data>
+  <data name="names/ger217" xml:space="preserve">
+    <value>Falkenstein</value>
+  </data>
+  <data name="names/ger218" xml:space="preserve">
+    <value>Falley</value>
+  </data>
+  <data name="names/ger219" xml:space="preserve">
+    <value>Fanger</value>
+  </data>
+  <data name="names/ger22" xml:space="preserve">
+    <value>Arps</value>
+  </data>
+  <data name="names/ger220" xml:space="preserve">
+    <value>Fassbinder</value>
+  </data>
+  <data name="names/ger221" xml:space="preserve">
+    <value>Faust</value>
+  </data>
+  <data name="names/ger222" xml:space="preserve">
+    <value>Fegelein</value>
+  </data>
+  <data name="names/ger223" xml:space="preserve">
+    <value>Fehn</value>
+  </data>
+  <data name="names/ger224" xml:space="preserve">
+    <value>Feierabend</value>
+  </data>
+  <data name="names/ger225" xml:space="preserve">
+    <value>Felber</value>
+  </data>
+  <data name="names/ger226" xml:space="preserve">
+    <value>Feldbausch</value>
+  </data>
+  <data name="names/ger227" xml:space="preserve">
+    <value>Feldmann</value>
+  </data>
+  <data name="names/ger228" xml:space="preserve">
+    <value>Feldt</value>
+  </data>
+  <data name="names/ger229" xml:space="preserve">
+    <value>Felgenhauer</value>
+  </data>
+  <data name="names/ger23" xml:space="preserve">
+    <value>Assmann</value>
+  </data>
+  <data name="names/ger230" xml:space="preserve">
+    <value>Fellgiebel</value>
+  </data>
+  <data name="names/ger231" xml:space="preserve">
+    <value>Felmy</value>
+  </data>
+  <data name="names/ger232" xml:space="preserve">
+    <value>Felzman</value>
+  </data>
+  <data name="names/ger233" xml:space="preserve">
+    <value>Fenstermacher</value>
+  </data>
+  <data name="names/ger234" xml:space="preserve">
+    <value>Ferber</value>
+  </data>
+  <data name="names/ger235" xml:space="preserve">
+    <value>Fernau</value>
+  </data>
+  <data name="names/ger236" xml:space="preserve">
+    <value>Fernbrugg</value>
+  </data>
+  <data name="names/ger237" xml:space="preserve">
+    <value>Feuchtinger</value>
+  </data>
+  <data name="names/ger238" xml:space="preserve">
+    <value>Feuerstein</value>
+  </data>
+  <data name="names/ger239" xml:space="preserve">
+    <value>Feyerabend</value>
+  </data>
+  <data name="names/ger24" xml:space="preserve">
+    <value>Aulock</value>
+  </data>
+  <data name="names/ger240" xml:space="preserve">
+    <value>Fichtner</value>
+  </data>
+  <data name="names/ger241" xml:space="preserve">
+    <value>Fiebig</value>
+  </data>
+  <data name="names/ger242" xml:space="preserve">
+    <value>Fiedler</value>
+  </data>
+  <data name="names/ger243" xml:space="preserve">
+    <value>Fikentscher</value>
+  </data>
+  <data name="names/ger244" xml:space="preserve">
+    <value>Filbig</value>
+  </data>
+  <data name="names/ger245" xml:space="preserve">
+    <value>Filbinger</value>
+  </data>
+  <data name="names/ger246" xml:space="preserve">
+    <value>Finckh</value>
+  </data>
+  <data name="names/ger247" xml:space="preserve">
+    <value>Fink</value>
+  </data>
+  <data name="names/ger248" xml:space="preserve">
+    <value>Fircks</value>
+  </data>
+  <data name="names/ger249" xml:space="preserve">
+    <value>Fischböck</value>
+  </data>
+  <data name="names/ger25" xml:space="preserve">
+    <value>Austerlitz</value>
+  </data>
+  <data name="names/ger250" xml:space="preserve">
+    <value>Fischel</value>
+  </data>
+  <data name="names/ger251" xml:space="preserve">
+    <value>Fischer</value>
+  </data>
+  <data name="names/ger252" xml:space="preserve">
+    <value>Fitzthum</value>
+  </data>
+  <data name="names/ger253" xml:space="preserve">
+    <value>Fleischer</value>
+  </data>
+  <data name="names/ger254" xml:space="preserve">
+    <value>Fleischhacker</value>
+  </data>
+  <data name="names/ger255" xml:space="preserve">
+    <value>Fischler</value>
+  </data>
+  <data name="names/ger256" xml:space="preserve">
+    <value>Foerster</value>
+  </data>
+  <data name="names/ger257" xml:space="preserve">
+    <value>Förtsch</value>
+  </data>
+  <data name="names/ger258" xml:space="preserve">
+    <value>Foltmann</value>
+  </data>
+  <data name="names/ger259" xml:space="preserve">
+    <value>Förschner</value>
+  </data>
+  <data name="names/ger26" xml:space="preserve">
+    <value>Babor</value>
+  </data>
+  <data name="names/ger260" xml:space="preserve">
+    <value>Förster</value>
+  </data>
+  <data name="names/ger261" xml:space="preserve">
+    <value>Frankfurter</value>
+  </data>
+  <data name="names/ger262" xml:space="preserve">
+    <value>Frauendorfer</value>
+  </data>
+  <data name="names/ger263" xml:space="preserve">
+    <value>Frey</value>
+  </data>
+  <data name="names/ger264" xml:space="preserve">
+    <value>Freitag</value>
+  </data>
+  <data name="names/ger265" xml:space="preserve">
+    <value>Frelich</value>
+  </data>
+  <data name="names/ger266" xml:space="preserve">
+    <value>Freud</value>
+  </data>
+  <data name="names/ger267" xml:space="preserve">
+    <value>Friderici</value>
+  </data>
+  <data name="names/ger268" xml:space="preserve">
+    <value>Friebel</value>
+  </data>
+  <data name="names/ger269" xml:space="preserve">
+    <value>Fried</value>
+  </data>
+  <data name="names/ger27" xml:space="preserve">
+    <value>Bach</value>
+  </data>
+  <data name="names/ger270" xml:space="preserve">
+    <value>Friedmann</value>
+  </data>
+  <data name="names/ger271" xml:space="preserve">
+    <value>Fries</value>
+  </data>
+  <data name="names/ger272" xml:space="preserve">
+    <value>Frießner</value>
+  </data>
+  <data name="names/ger273" xml:space="preserve">
+    <value>Fritsch</value>
+  </data>
+  <data name="names/ger274" xml:space="preserve">
+    <value>Früh</value>
+  </data>
+  <data name="names/ger275" xml:space="preserve">
+    <value>Frühauf</value>
+  </data>
+  <data name="names/ger276" xml:space="preserve">
+    <value>Fuchsner</value>
+  </data>
+  <data name="names/ger277" xml:space="preserve">
+    <value>Fuchs</value>
+  </data>
+  <data name="names/ger278" xml:space="preserve">
+    <value>Fürst</value>
+  </data>
+  <data name="names/ger279" xml:space="preserve">
+    <value>Führmann</value>
+  </data>
+  <data name="names/ger28" xml:space="preserve">
+    <value>Bachmeier</value>
+  </data>
+  <data name="names/ger280" xml:space="preserve">
+    <value>Fuhrmann</value>
+  </data>
+  <data name="names/ger281" xml:space="preserve">
+    <value>Funk</value>
+  </data>
+  <data name="names/ger282" xml:space="preserve">
+    <value>Fürstner</value>
+  </data>
+  <data name="names/ger283" xml:space="preserve">
+    <value>Fussenegger</value>
+  </data>
+  <data name="names/ger284" xml:space="preserve">
+    <value>Gabler</value>
+  </data>
+  <data name="names/ger285" xml:space="preserve">
+    <value>Gärtner</value>
+  </data>
+  <data name="names/ger286" xml:space="preserve">
+    <value>Galland</value>
+  </data>
+  <data name="names/ger287" xml:space="preserve">
+    <value>Gansen</value>
+  </data>
+  <data name="names/ger288" xml:space="preserve">
+    <value>Gehrts</value>
+  </data>
+  <data name="names/ger289" xml:space="preserve">
+    <value>Gemp</value>
+  </data>
+  <data name="names/ger29" xml:space="preserve">
+    <value>Backenköhler</value>
+  </data>
+  <data name="names/ger290" xml:space="preserve">
+    <value>Gentzen</value>
+  </data>
+  <data name="names/ger291" xml:space="preserve">
+    <value>Gerber</value>
+  </data>
+  <data name="names/ger292" xml:space="preserve">
+    <value>Gericke</value>
+  </data>
+  <data name="names/ger293" xml:space="preserve">
+    <value>Gerlach</value>
+  </data>
+  <data name="names/ger294" xml:space="preserve">
+    <value>Gerlich</value>
+  </data>
+  <data name="names/ger295" xml:space="preserve">
+    <value>Gersdorff</value>
+  </data>
+  <data name="names/ger296" xml:space="preserve">
+    <value>Gerste</value>
+  </data>
+  <data name="names/ger297" xml:space="preserve">
+    <value>Gesche</value>
+  </data>
+  <data name="names/ger298" xml:space="preserve">
+    <value>Geier</value>
+  </data>
+  <data name="names/ger299" xml:space="preserve">
+    <value>Gildisch</value>
+  </data>
+  <data name="names/ger3" xml:space="preserve">
+    <value>Abesser</value>
+  </data>
+  <data name="names/ger30" xml:space="preserve">
+    <value>Bader</value>
+  </data>
+  <data name="names/ger300" xml:space="preserve">
+    <value>Gille</value>
+  </data>
+  <data name="names/ger301" xml:space="preserve">
+    <value>Gilsa</value>
+  </data>
+  <data name="names/ger302" xml:space="preserve">
+    <value>Girgensohn</value>
+  </data>
+  <data name="names/ger303" xml:space="preserve">
+    <value>Giskes</value>
+  </data>
+  <data name="names/ger304" xml:space="preserve">
+    <value>Gläser</value>
+  </data>
+  <data name="names/ger305" xml:space="preserve">
+    <value>Friedrich</value>
+  </data>
+  <data name="names/ger306" xml:space="preserve">
+    <value>Gley</value>
+  </data>
+  <data name="names/ger307" xml:space="preserve">
+    <value>Glöckler</value>
+  </data>
+  <data name="names/ger308" xml:space="preserve">
+    <value>Glümer</value>
+  </data>
+  <data name="names/ger309" xml:space="preserve">
+    <value>Göcke</value>
+  </data>
+  <data name="names/ger31" xml:space="preserve">
+    <value>Baecker</value>
+  </data>
+  <data name="names/ger310" xml:space="preserve">
+    <value>Goëss</value>
+  </data>
+  <data name="names/ger311" xml:space="preserve">
+    <value>Goldschmidt</value>
+  </data>
+  <data name="names/ger312" xml:space="preserve">
+    <value>Gollnick</value>
+  </data>
+  <data name="names/ger313" xml:space="preserve">
+    <value>Gollnow</value>
+  </data>
+  <data name="names/ger314" xml:space="preserve">
+    <value>Goßler</value>
+  </data>
+  <data name="names/ger315" xml:space="preserve">
+    <value>Gossner</value>
+  </data>
+  <data name="names/ger316" xml:space="preserve">
+    <value>Gottberg</value>
+  </data>
+  <data name="names/ger317" xml:space="preserve">
+    <value>Gottlieb</value>
+  </data>
+  <data name="names/ger318" xml:space="preserve">
+    <value>Gottschalk</value>
+  </data>
+  <data name="names/ger319" xml:space="preserve">
+    <value>Grafen</value>
+  </data>
+  <data name="names/ger32" xml:space="preserve">
+    <value>Baer</value>
+  </data>
+  <data name="names/ger320" xml:space="preserve">
+    <value>Gransee</value>
+  </data>
+  <data name="names/ger321" xml:space="preserve">
+    <value>Gräntz</value>
+  </data>
+  <data name="names/ger322" xml:space="preserve">
+    <value>Grass</value>
+  </data>
+  <data name="names/ger323" xml:space="preserve">
+    <value>Grasser</value>
+  </data>
+  <data name="names/ger324" xml:space="preserve">
+    <value>Grattenauer</value>
+  </data>
+  <data name="names/ger325" xml:space="preserve">
+    <value>Gratz</value>
+  </data>
+  <data name="names/ger326" xml:space="preserve">
+    <value>Grauert</value>
+  </data>
+  <data name="names/ger327" xml:space="preserve">
+    <value>Gravenreuth</value>
+  </data>
+  <data name="names/ger328" xml:space="preserve">
+    <value>Greim</value>
+  </data>
+  <data name="names/ger329" xml:space="preserve">
+    <value>Gretsch</value>
+  </data>
+  <data name="names/ger33" xml:space="preserve">
+    <value>Baier</value>
+  </data>
+  <data name="names/ger330" xml:space="preserve">
+    <value>Greul</value>
+  </data>
+  <data name="names/ger331" xml:space="preserve">
+    <value>Grezer</value>
+  </data>
+  <data name="names/ger332" xml:space="preserve">
+    <value>Griesbach</value>
+  </data>
+  <data name="names/ger333" xml:space="preserve">
+    <value>Grolling</value>
+  </data>
+  <data name="names/ger334" xml:space="preserve">
+    <value>Grolman</value>
+  </data>
+  <data name="names/ger335" xml:space="preserve">
+    <value>Groscurth</value>
+  </data>
+  <data name="names/ger336" xml:space="preserve">
+    <value>Groth</value>
+  </data>
+  <data name="names/ger337" xml:space="preserve">
+    <value>Grünewald</value>
+  </data>
+  <data name="names/ger338" xml:space="preserve">
+    <value>Grumbkow</value>
+  </data>
+  <data name="names/ger339" xml:space="preserve">
+    <value>Grünwald</value>
+  </data>
+  <data name="names/ger34" xml:space="preserve">
+    <value>Bäke</value>
+  </data>
+  <data name="names/ger340" xml:space="preserve">
+    <value>Gudelius</value>
+  </data>
+  <data name="names/ger341" xml:space="preserve">
+    <value>Guggenberger</value>
+  </data>
+  <data name="names/ger342" xml:space="preserve">
+    <value>Günsche</value>
+  </data>
+  <data name="names/ger343" xml:space="preserve">
+    <value>Gutknecht</value>
+  </data>
+  <data name="names/ger344" xml:space="preserve">
+    <value>Gütt</value>
+  </data>
+  <data name="names/ger345" xml:space="preserve">
+    <value>Haake</value>
+  </data>
+  <data name="names/ger346" xml:space="preserve">
+    <value>Haarde</value>
+  </data>
+  <data name="names/ger347" xml:space="preserve">
+    <value>Haase</value>
+  </data>
+  <data name="names/ger348" xml:space="preserve">
+    <value>Haeften</value>
+  </data>
+  <data name="names/ger349" xml:space="preserve">
+    <value>Haevernick</value>
+  </data>
+  <data name="names/ger35" xml:space="preserve">
+    <value>Balck</value>
+  </data>
+  <data name="names/ger350" xml:space="preserve">
+    <value>Hafner</value>
+  </data>
+  <data name="names/ger351" xml:space="preserve">
+    <value>Hageman</value>
+  </data>
+  <data name="names/ger352" xml:space="preserve">
+    <value>Hagen</value>
+  </data>
+  <data name="names/ger353" xml:space="preserve">
+    <value>Hähle</value>
+  </data>
+  <data name="names/ger354" xml:space="preserve">
+    <value>Hahm</value>
+  </data>
+  <data name="names/ger355" xml:space="preserve">
+    <value>Gunthar</value>
+  </data>
+  <data name="names/ger356" xml:space="preserve">
+    <value>Hahnke</value>
+  </data>
+  <data name="names/ger357" xml:space="preserve">
+    <value>Hälker</value>
+  </data>
+  <data name="names/ger358" xml:space="preserve">
+    <value>Halm</value>
+  </data>
+  <data name="names/ger359" xml:space="preserve">
+    <value>Haltermann</value>
+  </data>
+  <data name="names/ger36" xml:space="preserve">
+    <value>Balk</value>
+  </data>
+  <data name="names/ger360" xml:space="preserve">
+    <value>Handloser</value>
+  </data>
+  <data name="names/ger361" xml:space="preserve">
+    <value>Hantl</value>
+  </data>
+  <data name="names/ger362" xml:space="preserve">
+    <value>Harbou</value>
+  </data>
+  <data name="names/ger363" xml:space="preserve">
+    <value>Hardegen</value>
+  </data>
+  <data name="names/ger364" xml:space="preserve">
+    <value>Harlinghausen</value>
+  </data>
+  <data name="names/ger365" xml:space="preserve">
+    <value>Harpe</value>
+  </data>
+  <data name="names/ger366" xml:space="preserve">
+    <value>Hartenstein</value>
+  </data>
+  <data name="names/ger367" xml:space="preserve">
+    <value>Hartjenstein</value>
+  </data>
+  <data name="names/ger368" xml:space="preserve">
+    <value>Hartlieb</value>
+  </data>
+  <data name="names/ger369" xml:space="preserve">
+    <value>Härtling</value>
+  </data>
+  <data name="names/ger37" xml:space="preserve">
+    <value>Ballauff</value>
+  </data>
+  <data name="names/ger370" xml:space="preserve">
+    <value>Hartman</value>
+  </data>
+  <data name="names/ger371" xml:space="preserve">
+    <value>Hartwig</value>
+  </data>
+  <data name="names/ger372" xml:space="preserve">
+    <value>Hase</value>
+  </data>
+  <data name="names/ger373" xml:space="preserve">
+    <value>Hasse</value>
+  </data>
+  <data name="names/ger374" xml:space="preserve">
+    <value>Hauenschild</value>
+  </data>
+  <data name="names/ger375" xml:space="preserve">
+    <value>Hammerschmidt</value>
+  </data>
+  <data name="names/ger376" xml:space="preserve">
+    <value>Hauser</value>
+  </data>
+  <data name="names/ger377" xml:space="preserve">
+    <value>Hax</value>
+  </data>
+  <data name="names/ger378" xml:space="preserve">
+    <value>Hayessen</value>
+  </data>
+  <data name="names/ger379" xml:space="preserve">
+    <value>Heer</value>
+  </data>
+  <data name="names/ger38" xml:space="preserve">
+    <value>Balthasar</value>
+  </data>
+  <data name="names/ger380" xml:space="preserve">
+    <value>Heibges</value>
+  </data>
+  <data name="names/ger381" xml:space="preserve">
+    <value>Heidkemper</value>
+  </data>
+  <data name="names/ger382" xml:space="preserve">
+    <value>Heigl</value>
+  </data>
+  <data name="names/ger383" xml:space="preserve">
+    <value>Heilmann</value>
+  </data>
+  <data name="names/ger384" xml:space="preserve">
+    <value>Heim</value>
+  </data>
+  <data name="names/ger385" xml:space="preserve">
+    <value>Heimburg</value>
+  </data>
+  <data name="names/ger386" xml:space="preserve">
+    <value>Heinrichs</value>
+  </data>
+  <data name="names/ger387" xml:space="preserve">
+    <value>Heinrici</value>
+  </data>
+  <data name="names/ger388" xml:space="preserve">
+    <value>Heinriecke</value>
+  </data>
+  <data name="names/ger389" xml:space="preserve">
+    <value>Heise</value>
+  </data>
+  <data name="names/ger39" xml:space="preserve">
+    <value>Baltzer</value>
+  </data>
+  <data name="names/ger390" xml:space="preserve">
+    <value>Heisel</value>
+  </data>
+  <data name="names/ger391" xml:space="preserve">
+    <value>Heiß</value>
+  </data>
+  <data name="names/ger392" xml:space="preserve">
+    <value>Heitz</value>
+  </data>
+  <data name="names/ger393" xml:space="preserve">
+    <value>Henner</value>
+  </data>
+  <data name="names/ger394" xml:space="preserve">
+    <value>Hellinger</value>
+  </data>
+  <data name="names/ger395" xml:space="preserve">
+    <value>Hellriegel</value>
+  </data>
+  <data name="names/ger396" xml:space="preserve">
+    <value>Hengl</value>
+  </data>
+  <data name="names/ger397" xml:space="preserve">
+    <value>Henke</value>
+  </data>
+  <data name="names/ger398" xml:space="preserve">
+    <value>Henkel</value>
+  </data>
+  <data name="names/ger399" xml:space="preserve">
+    <value>Hentsch</value>
+  </data>
+  <data name="names/ger4" xml:space="preserve">
+    <value>Abt</value>
+  </data>
+  <data name="names/ger40" xml:space="preserve">
+    <value>Bamler</value>
+  </data>
+  <data name="names/ger400" xml:space="preserve">
+    <value>Hepp</value>
+  </data>
+  <data name="names/ger401" xml:space="preserve">
+    <value>Herff</value>
+  </data>
+  <data name="names/ger402" xml:space="preserve">
+    <value>Herfurth</value>
+  </data>
+  <data name="names/ger403" xml:space="preserve">
+    <value>Herr</value>
+  </data>
+  <data name="names/ger404" xml:space="preserve">
+    <value>Herrlein</value>
+  </data>
+  <data name="names/ger405" xml:space="preserve">
+    <value>Herrmann</value>
+  </data>
+  <data name="names/ger406" xml:space="preserve">
+    <value>Hersmann</value>
+  </data>
+  <data name="names/ger407" xml:space="preserve">
+    <value>Hertz</value>
+  </data>
+  <data name="names/ger408" xml:space="preserve">
+    <value>Hertzog</value>
+  </data>
+  <data name="names/ger409" xml:space="preserve">
+    <value>Herwarth</value>
+  </data>
+  <data name="names/ger41" xml:space="preserve">
+    <value>Bär</value>
+  </data>
+  <data name="names/ger410" xml:space="preserve">
+    <value>Herzog</value>
+  </data>
+  <data name="names/ger411" xml:space="preserve">
+    <value>Hesse</value>
+  </data>
+  <data name="names/ger412" xml:space="preserve">
+    <value>Hetz</value>
+  </data>
+  <data name="names/ger413" xml:space="preserve">
+    <value>Hetzenauer</value>
+  </data>
+  <data name="names/ger414" xml:space="preserve">
+    <value>Heubeck</value>
+  </data>
+  <data name="names/ger415" xml:space="preserve">
+    <value>Heusinger</value>
+  </data>
+  <data name="names/ger416" xml:space="preserve">
+    <value>Heuss</value>
+  </data>
+  <data name="names/ger417" xml:space="preserve">
+    <value>Heye</value>
+  </data>
+  <data name="names/ger418" xml:space="preserve">
+    <value>Harro</value>
+  </data>
+  <data name="names/ger419" xml:space="preserve">
+    <value>Hillert</value>
+  </data>
+  <data name="names/ger42" xml:space="preserve">
+    <value>Barczay</value>
+  </data>
+  <data name="names/ger420" xml:space="preserve">
+    <value>Hilpert</value>
+  </data>
+  <data name="names/ger421" xml:space="preserve">
+    <value>Himmelreich</value>
+  </data>
+  <data name="names/ger422" xml:space="preserve">
+    <value>Hinrichs</value>
+  </data>
+  <data name="names/ger423" xml:space="preserve">
+    <value>Hinze</value>
+  </data>
+  <data name="names/ger424" xml:space="preserve">
+    <value>Hippler</value>
+  </data>
+  <data name="names/ger425" xml:space="preserve">
+    <value>Hirsch</value>
+  </data>
+  <data name="names/ger426" xml:space="preserve">
+    <value>Hirschfeld</value>
+  </data>
+  <data name="names/ger427" xml:space="preserve">
+    <value>Hitschhold</value>
+  </data>
+  <data name="names/ger428" xml:space="preserve">
+    <value>Hoch</value>
+  </data>
+  <data name="names/ger429" xml:space="preserve">
+    <value>Hock</value>
+  </data>
+  <data name="names/ger43" xml:space="preserve">
+    <value>Barkhorn</value>
+  </data>
+  <data name="names/ger430" xml:space="preserve">
+    <value>Hofacker</value>
+  </data>
+  <data name="names/ger431" xml:space="preserve">
+    <value>Hoffman</value>
+  </data>
+  <data name="names/ger432" xml:space="preserve">
+    <value>Hoffmann</value>
+  </data>
+  <data name="names/ger433" xml:space="preserve">
+    <value>Hoffmeister</value>
+  </data>
+  <data name="names/ger434" xml:space="preserve">
+    <value>Hofstätter</value>
+  </data>
+  <data name="names/ger435" xml:space="preserve">
+    <value>Hogrebe</value>
+  </data>
+  <data name="names/ger436" xml:space="preserve">
+    <value>Hohmann</value>
+  </data>
+  <data name="names/ger437" xml:space="preserve">
+    <value>Holle</value>
+  </data>
+  <data name="names/ger438" xml:space="preserve">
+    <value>Holste</value>
+  </data>
+  <data name="names/ger439" xml:space="preserve">
+    <value>Holtitz</value>
+  </data>
+  <data name="names/ger44" xml:space="preserve">
+    <value>Barkmann</value>
+  </data>
+  <data name="names/ger440" xml:space="preserve">
+    <value>Holtzmann</value>
+  </data>
+  <data name="names/ger441" xml:space="preserve">
+    <value>Hönscheid</value>
+  </data>
+  <data name="names/ger442" xml:space="preserve">
+    <value>Hossbach</value>
+  </data>
+  <data name="names/ger443" xml:space="preserve">
+    <value>Hößlin</value>
+  </data>
+  <data name="names/ger444" xml:space="preserve">
+    <value>Hoth</value>
+  </data>
+  <data name="names/ger445" xml:space="preserve">
+    <value>Hott</value>
+  </data>
+  <data name="names/ger446" xml:space="preserve">
+    <value>Howaldt</value>
+  </data>
+  <data name="names/ger447" xml:space="preserve">
+    <value>Hozzel</value>
+  </data>
+  <data name="names/ger448" xml:space="preserve">
+    <value>Hofmeister</value>
+  </data>
+  <data name="names/ger449" xml:space="preserve">
+    <value>Hübe</value>
+  </data>
+  <data name="names/ger45" xml:space="preserve">
+    <value>Barth</value>
+  </data>
+  <data name="names/ger450" xml:space="preserve">
+    <value>Hueber</value>
+  </data>
+  <data name="names/ger451" xml:space="preserve">
+    <value>Huber</value>
+  </data>
+  <data name="names/ger452" xml:space="preserve">
+    <value>Hofbauer</value>
+  </data>
+  <data name="names/ger453" xml:space="preserve">
+    <value>Hübner</value>
+  </data>
+  <data name="names/ger454" xml:space="preserve">
+    <value>Hülsen</value>
+  </data>
+  <data name="names/ger455" xml:space="preserve">
+    <value>Hüner</value>
+  </data>
+  <data name="names/ger456" xml:space="preserve">
+    <value>Hünersdorf</value>
+  </data>
+  <data name="names/ger457" xml:space="preserve">
+    <value>Huth</value>
+  </data>
+  <data name="names/ger458" xml:space="preserve">
+    <value>Huffman</value>
+  </data>
+  <data name="names/ger459" xml:space="preserve">
+    <value>Ihlefeld</value>
+  </data>
+  <data name="names/ger46" xml:space="preserve">
+    <value>Baschleben</value>
+  </data>
+  <data name="names/ger460" xml:space="preserve">
+    <value>Ites</value>
+  </data>
+  <data name="names/ger461" xml:space="preserve">
+    <value>Jäckel</value>
+  </data>
+  <data name="names/ger462" xml:space="preserve">
+    <value>Jacobs</value>
+  </data>
+  <data name="names/ger463" xml:space="preserve">
+    <value>Jäger</value>
+  </data>
+  <data name="names/ger464" xml:space="preserve">
+    <value>Jänecke</value>
+  </data>
+  <data name="names/ger465" xml:space="preserve">
+    <value>Jauch</value>
+  </data>
+  <data name="names/ger466" xml:space="preserve">
+    <value>Jeschonnek</value>
+  </data>
+  <data name="names/ger467" xml:space="preserve">
+    <value>Joedicke</value>
+  </data>
+  <data name="names/ger468" xml:space="preserve">
+    <value>Johannesson</value>
+  </data>
+  <data name="names/ger469" xml:space="preserve">
+    <value>Jope</value>
+  </data>
+  <data name="names/ger47" xml:space="preserve">
+    <value>Battel</value>
+  </data>
+  <data name="names/ger470" xml:space="preserve">
+    <value>Jung</value>
+  </data>
+  <data name="names/ger471" xml:space="preserve">
+    <value>Jungren</value>
+  </data>
+  <data name="names/ger472" xml:space="preserve">
+    <value>Junker</value>
+  </data>
+  <data name="names/ger473" xml:space="preserve">
+    <value>Kabisch</value>
+  </data>
+  <data name="names/ger474" xml:space="preserve">
+    <value>Kästner</value>
+  </data>
+  <data name="names/ger475" xml:space="preserve">
+    <value>Kageneck</value>
+  </data>
+  <data name="names/ger476" xml:space="preserve">
+    <value>Kähler</value>
+  </data>
+  <data name="names/ger477" xml:space="preserve">
+    <value>Kaiser</value>
+  </data>
+  <data name="names/ger478" xml:space="preserve">
+    <value>Kalb</value>
+  </data>
+  <data name="names/ger479" xml:space="preserve">
+    <value>Kammhuber</value>
+  </data>
+  <data name="names/ger48" xml:space="preserve">
+    <value>Batz</value>
+  </data>
+  <data name="names/ger480" xml:space="preserve">
+    <value>Kappel</value>
+  </data>
+  <data name="names/ger481" xml:space="preserve">
+    <value>Kasten</value>
+  </data>
+  <data name="names/ger482" xml:space="preserve">
+    <value>Kaufmann</value>
+  </data>
+  <data name="names/ger483" xml:space="preserve">
+    <value>Kell</value>
+  </data>
+  <data name="names/ger484" xml:space="preserve">
+    <value>Keller</value>
+  </data>
+  <data name="names/ger485" xml:space="preserve">
+    <value>Kellner</value>
+  </data>
+  <data name="names/ger486" xml:space="preserve">
+    <value>Kempf</value>
+  </data>
+  <data name="names/ger487" xml:space="preserve">
+    <value>Kentrat</value>
+  </data>
+  <data name="names/ger488" xml:space="preserve">
+    <value>Kessel</value>
+  </data>
+  <data name="names/ger489" xml:space="preserve">
+    <value>Kielmansegg</value>
+  </data>
+  <data name="names/ger49" xml:space="preserve">
+    <value>Bauer</value>
+  </data>
+  <data name="names/ger490" xml:space="preserve">
+    <value>Kiesewetter</value>
+  </data>
+  <data name="names/ger491" xml:space="preserve">
+    <value>Kinzel</value>
+  </data>
+  <data name="names/ger492" xml:space="preserve">
+    <value>Kirchbach</value>
+  </data>
+  <data name="names/ger493" xml:space="preserve">
+    <value>Kirchner</value>
+  </data>
+  <data name="names/ger494" xml:space="preserve">
+    <value>Kirsch</value>
+  </data>
+  <data name="names/ger495" xml:space="preserve">
+    <value>Kiesling</value>
+  </data>
+  <data name="names/ger496" xml:space="preserve">
+    <value>Kittel</value>
+  </data>
+  <data name="names/ger497" xml:space="preserve">
+    <value>Kitzinger</value>
+  </data>
+  <data name="names/ger498" xml:space="preserve">
+    <value>Klammt</value>
+  </data>
+  <data name="names/ger499" xml:space="preserve">
+    <value>Klamroth</value>
+  </data>
+  <data name="names/ger5" xml:space="preserve">
+    <value>Ackerman</value>
+  </data>
+  <data name="names/ger50" xml:space="preserve">
+    <value>Baum</value>
+  </data>
+  <data name="names/ger500" xml:space="preserve">
+    <value>Klatt</value>
+  </data>
+  <data name="names/ger501" xml:space="preserve">
+    <value>Kleeman</value>
+  </data>
+  <data name="names/ger502" xml:space="preserve">
+    <value>Klein</value>
+  </data>
+  <data name="names/ger503" xml:space="preserve">
+    <value>Kleist</value>
+  </data>
+  <data name="names/ger504" xml:space="preserve">
+    <value>Klessner</value>
+  </data>
+  <data name="names/ger505" xml:space="preserve">
+    <value>Klose</value>
+  </data>
+  <data name="names/ger506" xml:space="preserve">
+    <value>Klüber</value>
+  </data>
+  <data name="names/ger507" xml:space="preserve">
+    <value>Klug</value>
+  </data>
+  <data name="names/ger508" xml:space="preserve">
+    <value>Knaak</value>
+  </data>
+  <data name="names/ger509" xml:space="preserve">
+    <value>Knabbe</value>
+  </data>
+  <data name="names/ger51" xml:space="preserve">
+    <value>Baumbach</value>
+  </data>
+  <data name="names/ger510" xml:space="preserve">
+    <value>Knauss</value>
+  </data>
+  <data name="names/ger511" xml:space="preserve">
+    <value>Knebel</value>
+  </data>
+  <data name="names/ger512" xml:space="preserve">
+    <value>Knieß</value>
+  </data>
+  <data name="names/ger513" xml:space="preserve">
+    <value>Knispel</value>
+  </data>
+  <data name="names/ger514" xml:space="preserve">
+    <value>Knobelsdorf</value>
+  </data>
+  <data name="names/ger515" xml:space="preserve">
+    <value>Knobelsdorff</value>
+  </data>
+  <data name="names/ger516" xml:space="preserve">
+    <value>Knoke</value>
+  </data>
+  <data name="names/ger517" xml:space="preserve">
+    <value>Hoffrichter</value>
+  </data>
+  <data name="names/ger518" xml:space="preserve">
+    <value>Koch</value>
+  </data>
+  <data name="names/ger519" xml:space="preserve">
+    <value>Köchling</value>
+  </data>
+  <data name="names/ger52" xml:space="preserve">
+    <value>Baumgärtner</value>
+  </data>
+  <data name="names/ger520" xml:space="preserve">
+    <value>Kleinke</value>
+  </data>
+  <data name="names/ger521" xml:space="preserve">
+    <value>König</value>
+  </data>
+  <data name="names/ger522" xml:space="preserve">
+    <value>Kleiner</value>
+  </data>
+  <data name="names/ger523" xml:space="preserve">
+    <value>Kohl</value>
+  </data>
+  <data name="names/ger524" xml:space="preserve">
+    <value>Köhler</value>
+  </data>
+  <data name="names/ger525" xml:space="preserve">
+    <value>Koll</value>
+  </data>
+  <data name="names/ger526" xml:space="preserve">
+    <value>Kleinwächter</value>
+  </data>
+  <data name="names/ger527" xml:space="preserve">
+    <value>Korn</value>
+  </data>
+  <data name="names/ger528" xml:space="preserve">
+    <value>Korten</value>
+  </data>
+  <data name="names/ger529" xml:space="preserve">
+    <value>Kortzfleisch</value>
+  </data>
+  <data name="names/ger53" xml:space="preserve">
+    <value>Bayer</value>
+  </data>
+  <data name="names/ger530" xml:space="preserve">
+    <value>Köstring</value>
+  </data>
+  <data name="names/ger531" xml:space="preserve">
+    <value>Kraiss</value>
+  </data>
+  <data name="names/ger532" xml:space="preserve">
+    <value>Krammer</value>
+  </data>
+  <data name="names/ger533" xml:space="preserve">
+    <value>Kranzbühler</value>
+  </data>
+  <data name="names/ger534" xml:space="preserve">
+    <value>Kraseman</value>
+  </data>
+  <data name="names/ger535" xml:space="preserve">
+    <value>Krauss</value>
+  </data>
+  <data name="names/ger536" xml:space="preserve">
+    <value>Krause</value>
+  </data>
+  <data name="names/ger537" xml:space="preserve">
+    <value>Kreber</value>
+  </data>
+  <data name="names/ger538" xml:space="preserve">
+    <value>Krebs</value>
+  </data>
+  <data name="names/ger539" xml:space="preserve">
+    <value>Kreipe</value>
+  </data>
+  <data name="names/ger54" xml:space="preserve">
+    <value>Beyerlein</value>
+  </data>
+  <data name="names/ger540" xml:space="preserve">
+    <value>Kretschmar</value>
+  </data>
+  <data name="names/ger541" xml:space="preserve">
+    <value>Kriebel</value>
+  </data>
+  <data name="names/ger542" xml:space="preserve">
+    <value>Kriegsheim</value>
+  </data>
+  <data name="names/ger543" xml:space="preserve">
+    <value>Kroh</value>
+  </data>
+  <data name="names/ger544" xml:space="preserve">
+    <value>Krüger</value>
+  </data>
+  <data name="names/ger545" xml:space="preserve">
+    <value>Küffner</value>
+  </data>
+  <data name="names/ger546" xml:space="preserve">
+    <value>Küster</value>
+  </data>
+  <data name="names/ger547" xml:space="preserve">
+    <value>Kühlenthal</value>
+  </data>
+  <data name="names/ger548" xml:space="preserve">
+    <value>Kuhlmey</value>
+  </data>
+  <data name="names/ger549" xml:space="preserve">
+    <value>Kühme</value>
+  </data>
+  <data name="names/ger55" xml:space="preserve">
+    <value>Beckenbauer</value>
+  </data>
+  <data name="names/ger550" xml:space="preserve">
+    <value>Kühn</value>
+  </data>
+  <data name="names/ger551" xml:space="preserve">
+    <value>Kuhn</value>
+  </data>
+  <data name="names/ger552" xml:space="preserve">
+    <value>Kullmer</value>
+  </data>
+  <data name="names/ger553" xml:space="preserve">
+    <value>Kümmert</value>
+  </data>
+  <data name="names/ger554" xml:space="preserve">
+    <value>Künn</value>
+  </data>
+  <data name="names/ger555" xml:space="preserve">
+    <value>Kuntner</value>
+  </data>
+  <data name="names/ger556" xml:space="preserve">
+    <value>Kuntzen</value>
+  </data>
+  <data name="names/ger557" xml:space="preserve">
+    <value>Kupfer</value>
+  </data>
+  <data name="names/ger558" xml:space="preserve">
+    <value>Kuppisch</value>
+  </data>
+  <data name="names/ger559" xml:space="preserve">
+    <value>Lambert</value>
+  </data>
+  <data name="names/ger56" xml:space="preserve">
+    <value>Behn</value>
+  </data>
+  <data name="names/ger560" xml:space="preserve">
+    <value>Lancken</value>
+  </data>
+  <data name="names/ger561" xml:space="preserve">
+    <value>Landgraf</value>
+  </data>
+  <data name="names/ger562" xml:space="preserve">
+    <value>Lang</value>
+  </data>
+  <data name="names/ger563" xml:space="preserve">
+    <value>Langemann</value>
+  </data>
+  <data name="names/ger564" xml:space="preserve">
+    <value>Langerman</value>
+  </data>
+  <data name="names/ger565" xml:space="preserve">
+    <value>Langsdorff</value>
+  </data>
+  <data name="names/ger566" xml:space="preserve">
+    <value>Lanz</value>
+  </data>
+  <data name="names/ger567" xml:space="preserve">
+    <value>Lasch</value>
+  </data>
+  <data name="names/ger568" xml:space="preserve">
+    <value>Lattman</value>
+  </data>
+  <data name="names/ger569" xml:space="preserve">
+    <value>Lattmann</value>
+  </data>
+  <data name="names/ger57" xml:space="preserve">
+    <value>Behr</value>
+  </data>
+  <data name="names/ger570" xml:space="preserve">
+    <value>Lauchert</value>
+  </data>
+  <data name="names/ger571" xml:space="preserve">
+    <value>Laue</value>
+  </data>
+  <data name="names/ger572" xml:space="preserve">
+    <value>Ledebur</value>
+  </data>
+  <data name="names/ger573" xml:space="preserve">
+    <value>Lehmann</value>
+  </data>
+  <data name="names/ger574" xml:space="preserve">
+    <value>Lehrer</value>
+  </data>
+  <data name="names/ger575" xml:space="preserve">
+    <value>Lehman</value>
+  </data>
+  <data name="names/ger576" xml:space="preserve">
+    <value>Leibbrandt</value>
+  </data>
+  <data name="names/ger577" xml:space="preserve">
+    <value>Leinweber</value>
+  </data>
+  <data name="names/ger578" xml:space="preserve">
+    <value>Langen</value>
+  </data>
+  <data name="names/ger579" xml:space="preserve">
+    <value>Lemp</value>
+  </data>
+  <data name="names/ger58" xml:space="preserve">
+    <value>Behrendt</value>
+  </data>
+  <data name="names/ger580" xml:space="preserve">
+    <value>Lenk</value>
+  </data>
+  <data name="names/ger581" xml:space="preserve">
+    <value>Lent</value>
+  </data>
+  <data name="names/ger582" xml:space="preserve">
+    <value>Langner</value>
+  </data>
+  <data name="names/ger583" xml:space="preserve">
+    <value>Leper</value>
+  </data>
+  <data name="names/ger584" xml:space="preserve">
+    <value>Lepperdinger</value>
+  </data>
+  <data name="names/ger585" xml:space="preserve">
+    <value>Lewinski</value>
+  </data>
+  <data name="names/ger586" xml:space="preserve">
+    <value>Leyser</value>
+  </data>
+  <data name="names/ger587" xml:space="preserve">
+    <value>Licht</value>
+  </data>
+  <data name="names/ger588" xml:space="preserve">
+    <value>Liebenstein</value>
+  </data>
+  <data name="names/ger589" xml:space="preserve">
+    <value>Liebmann</value>
+  </data>
+  <data name="names/ger59" xml:space="preserve">
+    <value>Beich</value>
+  </data>
+  <data name="names/ger590" xml:space="preserve">
+    <value>Liedig</value>
+  </data>
+  <data name="names/ger591" xml:space="preserve">
+    <value>Liedtke</value>
+  </data>
+  <data name="names/ger592" xml:space="preserve">
+    <value>Liese</value>
+  </data>
+  <data name="names/ger593" xml:space="preserve">
+    <value>Linneweber</value>
+  </data>
+  <data name="names/ger594" xml:space="preserve">
+    <value>Lilienthal</value>
+  </data>
+  <data name="names/ger595" xml:space="preserve">
+    <value>Limberg</value>
+  </data>
+  <data name="names/ger596" xml:space="preserve">
+    <value>Lindau</value>
+  </data>
+  <data name="names/ger597" xml:space="preserve">
+    <value>Linnartz</value>
+  </data>
+  <data name="names/ger598" xml:space="preserve">
+    <value>Lipfert</value>
+  </data>
+  <data name="names/ger599" xml:space="preserve">
+    <value>Lippert</value>
+  </data>
+  <data name="names/ger6" xml:space="preserve">
+    <value>Ademeit</value>
+  </data>
+  <data name="names/ger60" xml:space="preserve">
+    <value>Bennecke</value>
+  </data>
+  <data name="names/ger600" xml:space="preserve">
+    <value>Loerzer</value>
+  </data>
+  <data name="names/ger601" xml:space="preserve">
+    <value>Löwe</value>
+  </data>
+  <data name="names/ger602" xml:space="preserve">
+    <value>Löhr</value>
+  </data>
+  <data name="names/ger603" xml:space="preserve">
+    <value>Lohse</value>
+  </data>
+  <data name="names/ger604" xml:space="preserve">
+    <value>Lorleberg</value>
+  </data>
+  <data name="names/ger605" xml:space="preserve">
+    <value>Lübbe</value>
+  </data>
+  <data name="names/ger606" xml:space="preserve">
+    <value>Luckner</value>
+  </data>
+  <data name="names/ger607" xml:space="preserve">
+    <value>Ludin</value>
+  </data>
+  <data name="names/ger608" xml:space="preserve">
+    <value>Luft</value>
+  </data>
+  <data name="names/ger609" xml:space="preserve">
+    <value>Luherschausen</value>
+  </data>
+  <data name="names/ger61" xml:space="preserve">
+    <value>Berg</value>
+  </data>
+  <data name="names/ger610" xml:space="preserve">
+    <value>Lüninck</value>
+  </data>
+  <data name="names/ger611" xml:space="preserve">
+    <value>Lüters</value>
+  </data>
+  <data name="names/ger612" xml:space="preserve">
+    <value>Lütgendorf</value>
+  </data>
+  <data name="names/ger613" xml:space="preserve">
+    <value>Lütjens</value>
+  </data>
+  <data name="names/ger614" xml:space="preserve">
+    <value>Krugman</value>
+  </data>
+  <data name="names/ger615" xml:space="preserve">
+    <value>Mäder</value>
+  </data>
+  <data name="names/ger616" xml:space="preserve">
+    <value>Mahler</value>
+  </data>
+  <data name="names/ger617" xml:space="preserve">
+    <value>Maier</value>
+  </data>
+  <data name="names/ger618" xml:space="preserve">
+    <value>Maisel</value>
+  </data>
+  <data name="names/ger619" xml:space="preserve">
+    <value>Kruse</value>
+  </data>
+  <data name="names/ger62" xml:space="preserve">
+    <value>Bergmann</value>
+  </data>
+  <data name="names/ger620" xml:space="preserve">
+    <value>Makensen</value>
+  </data>
+  <data name="names/ger621" xml:space="preserve">
+    <value>Marchtaler</value>
+  </data>
+  <data name="names/ger622" xml:space="preserve">
+    <value>Martieneck</value>
+  </data>
+  <data name="names/ger623" xml:space="preserve">
+    <value>Martin</value>
+  </data>
+  <data name="names/ger624" xml:space="preserve">
+    <value>Marwitz</value>
+  </data>
+  <data name="names/ger625" xml:space="preserve">
+    <value>Matterstock</value>
+  </data>
+  <data name="names/ger626" xml:space="preserve">
+    <value>Mauer</value>
+  </data>
+  <data name="names/ger627" xml:space="preserve">
+    <value>Maurer</value>
+  </data>
+  <data name="names/ger628" xml:space="preserve">
+    <value>Mauss</value>
+  </data>
+  <data name="names/ger629" xml:space="preserve">
+    <value>Meder</value>
+  </data>
+  <data name="names/ger63" xml:space="preserve">
+    <value>Berndt</value>
+  </data>
+  <data name="names/ger630" xml:space="preserve">
+    <value>Meixner</value>
+  </data>
+  <data name="names/ger631" xml:space="preserve">
+    <value>Meier</value>
+  </data>
+  <data name="names/ger632" xml:space="preserve">
+    <value>Meindl</value>
+  </data>
+  <data name="names/ger633" xml:space="preserve">
+    <value>Meister</value>
+  </data>
+  <data name="names/ger634" xml:space="preserve">
+    <value>Meller</value>
+  </data>
+  <data name="names/ger635" xml:space="preserve">
+    <value>Menche</value>
+  </data>
+  <data name="names/ger636" xml:space="preserve">
+    <value>Mende</value>
+  </data>
+  <data name="names/ger637" xml:space="preserve">
+    <value>Mengelbier</value>
+  </data>
+  <data name="names/ger638" xml:space="preserve">
+    <value>Möllers</value>
+  </data>
+  <data name="names/ger639" xml:space="preserve">
+    <value>Mensching</value>
+  </data>
+  <data name="names/ger64" xml:space="preserve">
+    <value>Bernuth</value>
+  </data>
+  <data name="names/ger640" xml:space="preserve">
+    <value>Metz</value>
+  </data>
+  <data name="names/ger641" xml:space="preserve">
+    <value>Metzger</value>
+  </data>
+  <data name="names/ger642" xml:space="preserve">
+    <value>Michels</value>
+  </data>
+  <data name="names/ger643" xml:space="preserve">
+    <value>Mikel</value>
+  </data>
+  <data name="names/ger644" xml:space="preserve">
+    <value>Milch</value>
+  </data>
+  <data name="names/ger645" xml:space="preserve">
+    <value>Mirow</value>
+  </data>
+  <data name="names/ger646" xml:space="preserve">
+    <value>Mönch</value>
+  </data>
+  <data name="names/ger647" xml:space="preserve">
+    <value>Mohr</value>
+  </data>
+  <data name="names/ger648" xml:space="preserve">
+    <value>Mölders</value>
+  </data>
+  <data name="names/ger649" xml:space="preserve">
+    <value>Morzik</value>
+  </data>
+  <data name="names/ger65" xml:space="preserve">
+    <value>Bertram</value>
+  </data>
+  <data name="names/ger650" xml:space="preserve">
+    <value>Mudra</value>
+  </data>
+  <data name="names/ger651" xml:space="preserve">
+    <value>Müller</value>
+  </data>
+  <data name="names/ger652" xml:space="preserve">
+    <value>Mummert</value>
+  </data>
+  <data name="names/ger653" xml:space="preserve">
+    <value>Müncheberg</value>
+  </data>
+  <data name="names/ger654" xml:space="preserve">
+    <value>Müntzel</value>
+  </data>
+  <data name="names/ger655" xml:space="preserve">
+    <value>Nacht</value>
+  </data>
+  <data name="names/ger656" xml:space="preserve">
+    <value>Nadel</value>
+  </data>
+  <data name="names/ger657" xml:space="preserve">
+    <value>Nagel</value>
+  </data>
+  <data name="names/ger658" xml:space="preserve">
+    <value>Naumann</value>
+  </data>
+  <data name="names/ger659" xml:space="preserve">
+    <value>Nehring</value>
+  </data>
+  <data name="names/ger66" xml:space="preserve">
+    <value>Bessler</value>
+  </data>
+  <data name="names/ger660" xml:space="preserve">
+    <value>Nethe</value>
+  </data>
+  <data name="names/ger661" xml:space="preserve">
+    <value>Neudorf</value>
+  </data>
+  <data name="names/ger662" xml:space="preserve">
+    <value>Möllmann</value>
+  </data>
+  <data name="names/ger663" xml:space="preserve">
+    <value>Neukirchen</value>
+  </data>
+  <data name="names/ger664" xml:space="preserve">
+    <value>Niedermayer</value>
+  </data>
+  <data name="names/ger665" xml:space="preserve">
+    <value>Niehoff</value>
+  </data>
+  <data name="names/ger666" xml:space="preserve">
+    <value>Nippold</value>
+  </data>
+  <data name="names/ger667" xml:space="preserve">
+    <value>Neumann</value>
+  </data>
+  <data name="names/ger668" xml:space="preserve">
+    <value>Nöldeke</value>
+  </data>
+  <data name="names/ger669" xml:space="preserve">
+    <value>Nordmann</value>
+  </data>
+  <data name="names/ger67" xml:space="preserve">
+    <value>Betke</value>
+  </data>
+  <data name="names/ger670" xml:space="preserve">
+    <value>Nowotny</value>
+  </data>
+  <data name="names/ger671" xml:space="preserve">
+    <value>Nussbaum</value>
+  </data>
+  <data name="names/ger672" xml:space="preserve">
+    <value>Obernitz</value>
+  </data>
+  <data name="names/ger673" xml:space="preserve">
+    <value>Obstfelder</value>
+  </data>
+  <data name="names/ger674" xml:space="preserve">
+    <value>Oehrn</value>
+  </data>
+  <data name="names/ger675" xml:space="preserve">
+    <value>Oertzen</value>
+  </data>
+  <data name="names/ger676" xml:space="preserve">
+    <value>Oesau</value>
+  </data>
+  <data name="names/ger677" xml:space="preserve">
+    <value>Oesten</value>
+  </data>
+  <data name="names/ger678" xml:space="preserve">
+    <value>Olbricht</value>
+  </data>
+  <data name="names/ger679" xml:space="preserve">
+    <value>Müllner</value>
+  </data>
+  <data name="names/ger68" xml:space="preserve">
+    <value>Bergner</value>
+  </data>
+  <data name="names/ger680" xml:space="preserve">
+    <value>Oppeln</value>
+  </data>
+  <data name="names/ger681" xml:space="preserve">
+    <value>Oppenländer</value>
+  </data>
+  <data name="names/ger682" xml:space="preserve">
+    <value>Oppermann</value>
+  </data>
+  <data name="names/ger683" xml:space="preserve">
+    <value>Osenberg</value>
+  </data>
+  <data name="names/ger684" xml:space="preserve">
+    <value>Oster</value>
+  </data>
+  <data name="names/ger685" xml:space="preserve">
+    <value>Osterhagen</value>
+  </data>
+  <data name="names/ger686" xml:space="preserve">
+    <value>Osterkamp</value>
+  </data>
+  <data name="names/ger687" xml:space="preserve">
+    <value>Ostermann</value>
+  </data>
+  <data name="names/ger688" xml:space="preserve">
+    <value>Österreicher</value>
+  </data>
+  <data name="names/ger689" xml:space="preserve">
+    <value>Papst</value>
+  </data>
+  <data name="names/ger69" xml:space="preserve">
+    <value>Betzel</value>
+  </data>
+  <data name="names/ger690" xml:space="preserve">
+    <value>Möller</value>
+  </data>
+  <data name="names/ger691" xml:space="preserve">
+    <value>Pannwitz</value>
+  </data>
+  <data name="names/ger692" xml:space="preserve">
+    <value>Patzig</value>
+  </data>
+  <data name="names/ger693" xml:space="preserve">
+    <value>Pauer</value>
+  </data>
+  <data name="names/ger694" xml:space="preserve">
+    <value>Paust</value>
+  </data>
+  <data name="names/ger695" xml:space="preserve">
+    <value>Pellengahr</value>
+  </data>
+  <data name="names/ger696" xml:space="preserve">
+    <value>Pemsel</value>
+  </data>
+  <data name="names/ger697" xml:space="preserve">
+    <value>Petersen</value>
+  </data>
+  <data name="names/ger698" xml:space="preserve">
+    <value>Petershagen</value>
+  </data>
+  <data name="names/ger699" xml:space="preserve">
+    <value>Pfaff</value>
+  </data>
+  <data name="names/ger7" xml:space="preserve">
+    <value>Delbert</value>
+  </data>
+  <data name="names/ger70" xml:space="preserve">
+    <value>Beumelburg</value>
+  </data>
+  <data name="names/ger700" xml:space="preserve">
+    <value>Pfeffer</value>
+  </data>
+  <data name="names/ger701" xml:space="preserve">
+    <value>Paur</value>
+  </data>
+  <data name="names/ger702" xml:space="preserve">
+    <value>Pfeiffer</value>
+  </data>
+  <data name="names/ger703" xml:space="preserve">
+    <value>Pfuel</value>
+  </data>
+  <data name="names/ger704" xml:space="preserve">
+    <value>Piekenbrock</value>
+  </data>
+  <data name="names/ger705" xml:space="preserve">
+    <value>Piening</value>
+  </data>
+  <data name="names/ger706" xml:space="preserve">
+    <value>Plagge</value>
+  </data>
+  <data name="names/ger707" xml:space="preserve">
+    <value>Plenzat</value>
+  </data>
+  <data name="names/ger708" xml:space="preserve">
+    <value>Ploetz</value>
+  </data>
+  <data name="names/ger709" xml:space="preserve">
+    <value>Pohl</value>
+  </data>
+  <data name="names/ger71" xml:space="preserve">
+    <value>Beutel</value>
+  </data>
+  <data name="names/ger710" xml:space="preserve">
+    <value>Pöschl</value>
+  </data>
+  <data name="names/ger711" xml:space="preserve">
+    <value>Pössinger</value>
+  </data>
+  <data name="names/ger712" xml:space="preserve">
+    <value>Praun</value>
+  </data>
+  <data name="names/ger713" xml:space="preserve">
+    <value>Prentl</value>
+  </data>
+  <data name="names/ger714" xml:space="preserve">
+    <value>Prentzel</value>
+  </data>
+  <data name="names/ger715" xml:space="preserve">
+    <value>Preßler</value>
+  </data>
+  <data name="names/ger716" xml:space="preserve">
+    <value>Preußen</value>
+  </data>
+  <data name="names/ger717" xml:space="preserve">
+    <value>Prien</value>
+  </data>
+  <data name="names/ger718" xml:space="preserve">
+    <value>Priller</value>
+  </data>
+  <data name="names/ger719" xml:space="preserve">
+    <value>Prittwietz</value>
+  </data>
+  <data name="names/ger72" xml:space="preserve">
+    <value>Beyer</value>
+  </data>
+  <data name="names/ger720" xml:space="preserve">
+    <value>Probst</value>
+  </data>
+  <data name="names/ger721" xml:space="preserve">
+    <value>Proschlitz</value>
+  </data>
+  <data name="names/ger722" xml:space="preserve">
+    <value>Püchler</value>
+  </data>
+  <data name="names/ger723" xml:space="preserve">
+    <value>Puttkamer</value>
+  </data>
+  <data name="names/ger724" xml:space="preserve">
+    <value>Raecke</value>
+  </data>
+  <data name="names/ger725" xml:space="preserve">
+    <value>Peters</value>
+  </data>
+  <data name="names/ger726" xml:space="preserve">
+    <value>Rall</value>
+  </data>
+  <data name="names/ger727" xml:space="preserve">
+    <value>Ramien</value>
+  </data>
+  <data name="names/ger728" xml:space="preserve">
+    <value>Ramke</value>
+  </data>
+  <data name="names/ger729" xml:space="preserve">
+    <value>Randow</value>
+  </data>
+  <data name="names/ger73" xml:space="preserve">
+    <value>Bieber</value>
+  </data>
+  <data name="names/ger730" xml:space="preserve">
+    <value>Rantzau</value>
+  </data>
+  <data name="names/ger731" xml:space="preserve">
+    <value>Rattenhuber</value>
+  </data>
+  <data name="names/ger732" xml:space="preserve">
+    <value>Raus</value>
+  </data>
+  <data name="names/ger733" xml:space="preserve">
+    <value>Ravenstein</value>
+  </data>
+  <data name="names/ger734" xml:space="preserve">
+    <value>Rebentisch</value>
+  </data>
+  <data name="names/ger735" xml:space="preserve">
+    <value>Recknagel</value>
+  </data>
+  <data name="names/ger736" xml:space="preserve">
+    <value>Reese</value>
+  </data>
+  <data name="names/ger737" xml:space="preserve">
+    <value>Reichenau</value>
+  </data>
+  <data name="names/ger738" xml:space="preserve">
+    <value>Reinhardt</value>
+  </data>
+  <data name="names/ger739" xml:space="preserve">
+    <value>Mühlmann</value>
+  </data>
+  <data name="names/ger74" xml:space="preserve">
+    <value>Bieler</value>
+  </data>
+  <data name="names/ger740" xml:space="preserve">
+    <value>Reiniger</value>
+  </data>
+  <data name="names/ger741" xml:space="preserve">
+    <value>Reitsch</value>
+  </data>
+  <data name="names/ger742" xml:space="preserve">
+    <value>Remold</value>
+  </data>
+  <data name="names/ger743" xml:space="preserve">
+    <value>Krog</value>
+  </data>
+  <data name="names/ger744" xml:space="preserve">
+    <value>Reschke</value>
+  </data>
+  <data name="names/ger745" xml:space="preserve">
+    <value>Rettemeier</value>
+  </data>
+  <data name="names/ger746" xml:space="preserve">
+    <value>Richter</value>
+  </data>
+  <data name="names/ger747" xml:space="preserve">
+    <value>Schafer</value>
+  </data>
+  <data name="names/ger748" xml:space="preserve">
+    <value>Ringel</value>
+  </data>
+  <data name="names/ger749" xml:space="preserve">
+    <value>Rintelen</value>
+  </data>
+  <data name="names/ger75" xml:space="preserve">
+    <value>Biermann</value>
+  </data>
+  <data name="names/ger750" xml:space="preserve">
+    <value>Ritter</value>
+  </data>
+  <data name="names/ger751" xml:space="preserve">
+    <value>Rochow</value>
+  </data>
+  <data name="names/ger752" xml:space="preserve">
+    <value>Rodenburg</value>
+  </data>
+  <data name="names/ger753" xml:space="preserve">
+    <value>Rodt</value>
+  </data>
+  <data name="names/ger754" xml:space="preserve">
+    <value>Schäfers</value>
+  </data>
+  <data name="names/ger755" xml:space="preserve">
+    <value>Rogge</value>
+  </data>
+  <data name="names/ger756" xml:space="preserve">
+    <value>Rohr</value>
+  </data>
+  <data name="names/ger757" xml:space="preserve">
+    <value>Rollmann</value>
+  </data>
+  <data name="names/ger758" xml:space="preserve">
+    <value>Roon</value>
+  </data>
+  <data name="names/ger759" xml:space="preserve">
+    <value>Rösing</value>
+  </data>
+  <data name="names/ger76" xml:space="preserve">
+    <value>Biersack</value>
+  </data>
+  <data name="names/ger760" xml:space="preserve">
+    <value>Rot</value>
+  </data>
+  <data name="names/ger761" xml:space="preserve">
+    <value>Roth</value>
+  </data>
+  <data name="names/ger762" xml:space="preserve">
+    <value>Rothschild</value>
+  </data>
+  <data name="names/ger763" xml:space="preserve">
+    <value>Rothstein</value>
+  </data>
+  <data name="names/ger764" xml:space="preserve">
+    <value>Röttiger</value>
+  </data>
+  <data name="names/ger765" xml:space="preserve">
+    <value>Rowehl</value>
+  </data>
+  <data name="names/ger766" xml:space="preserve">
+    <value>Ruckteschell</value>
+  </data>
+  <data name="names/ger767" xml:space="preserve">
+    <value>Rudorffer</value>
+  </data>
+  <data name="names/ger768" xml:space="preserve">
+    <value>Ruhfus</value>
+  </data>
+  <data name="names/ger769" xml:space="preserve">
+    <value>Rümann</value>
+  </data>
+  <data name="names/ger77" xml:space="preserve">
+    <value>Bissing</value>
+  </data>
+  <data name="names/ger770" xml:space="preserve">
+    <value>Ruoff</value>
+  </data>
+  <data name="names/ger771" xml:space="preserve">
+    <value>Saalwächter</value>
+  </data>
+  <data name="names/ger772" xml:space="preserve">
+    <value>Sänger</value>
+  </data>
+  <data name="names/ger773" xml:space="preserve">
+    <value>Salminger</value>
+  </data>
+  <data name="names/ger774" xml:space="preserve">
+    <value>Salmuth</value>
+  </data>
+  <data name="names/ger775" xml:space="preserve">
+    <value>Schmidl</value>
+  </data>
+  <data name="names/ger776" xml:space="preserve">
+    <value>Sanne</value>
+  </data>
+  <data name="names/ger777" xml:space="preserve">
+    <value>Saucken</value>
+  </data>
+  <data name="names/ger778" xml:space="preserve">
+    <value>Sauken</value>
+  </data>
+  <data name="names/ger779" xml:space="preserve">
+    <value>Schaal</value>
+  </data>
+  <data name="names/ger78" xml:space="preserve">
+    <value>Blasig</value>
+  </data>
+  <data name="names/ger780" xml:space="preserve">
+    <value>Schacht</value>
+  </data>
+  <data name="names/ger781" xml:space="preserve">
+    <value>Schack</value>
+  </data>
+  <data name="names/ger782" xml:space="preserve">
+    <value>Schadeberg</value>
+  </data>
+  <data name="names/ger783" xml:space="preserve">
+    <value>Schäfer</value>
+  </data>
+  <data name="names/ger784" xml:space="preserve">
+    <value>Schell</value>
+  </data>
+  <data name="names/ger785" xml:space="preserve">
+    <value>Scheller</value>
+  </data>
+  <data name="names/ger786" xml:space="preserve">
+    <value>Schmitz</value>
+  </data>
+  <data name="names/ger787" xml:space="preserve">
+    <value>Schepke</value>
+  </data>
+  <data name="names/ger788" xml:space="preserve">
+    <value>Scherer</value>
+  </data>
+  <data name="names/ger789" xml:space="preserve">
+    <value>Scheringer</value>
+  </data>
+  <data name="names/ger79" xml:space="preserve">
+    <value>Blaskowitz</value>
+  </data>
+  <data name="names/ger790" xml:space="preserve">
+    <value>Scherner</value>
+  </data>
+  <data name="names/ger791" xml:space="preserve">
+    <value>Scheungraber</value>
+  </data>
+  <data name="names/ger792" xml:space="preserve">
+    <value>Schiffer</value>
+  </data>
+  <data name="names/ger793" xml:space="preserve">
+    <value>Schilling</value>
+  </data>
+  <data name="names/ger794" xml:space="preserve">
+    <value>Schirlitz</value>
+  </data>
+  <data name="names/ger795" xml:space="preserve">
+    <value>Schirmer</value>
+  </data>
+  <data name="names/ger796" xml:space="preserve">
+    <value>Schlabrendorff</value>
+  </data>
+  <data name="names/ger797" xml:space="preserve">
+    <value>Schlemer</value>
+  </data>
+  <data name="names/ger798" xml:space="preserve">
+    <value>Schlemm</value>
+  </data>
+  <data name="names/ger799" xml:space="preserve">
+    <value>Schlieben</value>
+  </data>
+  <data name="names/ger8" xml:space="preserve">
+    <value>Ahlemann</value>
+  </data>
+  <data name="names/ger80" xml:space="preserve">
+    <value>Blau</value>
+  </data>
+  <data name="names/ger800" xml:space="preserve">
+    <value>Schlippenbach</value>
+  </data>
+  <data name="names/ger801" xml:space="preserve">
+    <value>Schlüter</value>
+  </data>
+  <data name="names/ger802" xml:space="preserve">
+    <value>Schmidhuber</value>
+  </data>
+  <data name="names/ger803" xml:space="preserve">
+    <value>Schmitt</value>
+  </data>
+  <data name="names/ger804" xml:space="preserve">
+    <value>Schmidthüber</value>
+  </data>
+  <data name="names/ger805" xml:space="preserve">
+    <value>Schmundt</value>
+  </data>
+  <data name="names/ger806" xml:space="preserve">
+    <value>Schnee</value>
+  </data>
+  <data name="names/ger807" xml:space="preserve">
+    <value>Schneider</value>
+  </data>
+  <data name="names/ger808" xml:space="preserve">
+    <value>Schmidtke</value>
+  </data>
+  <data name="names/ger809" xml:space="preserve">
+    <value>Schnell</value>
+  </data>
+  <data name="names/ger81" xml:space="preserve">
+    <value>Bloch</value>
+  </data>
+  <data name="names/ger810" xml:space="preserve">
+    <value>Schneyder</value>
+  </data>
+  <data name="names/ger811" xml:space="preserve">
+    <value>Schobert</value>
+  </data>
+  <data name="names/ger812" xml:space="preserve">
+    <value>Scholz</value>
+  </data>
+  <data name="names/ger813" xml:space="preserve">
+    <value>Schönbrunner</value>
+  </data>
+  <data name="names/ger814" xml:space="preserve">
+    <value>Schöne</value>
+  </data>
+  <data name="names/ger815" xml:space="preserve">
+    <value>Sperling</value>
+  </data>
+  <data name="names/ger816" xml:space="preserve">
+    <value>Schräder</value>
+  </data>
+  <data name="names/ger817" xml:space="preserve">
+    <value>Schramm</value>
+  </data>
+  <data name="names/ger818" xml:space="preserve">
+    <value>Schreiber</value>
+  </data>
+  <data name="names/ger819" xml:space="preserve">
+    <value>Schreiner</value>
+  </data>
+  <data name="names/ger82" xml:space="preserve">
+    <value>Bloedorn</value>
+  </data>
+  <data name="names/ger820" xml:space="preserve">
+    <value>Schrems</value>
+  </data>
+  <data name="names/ger821" xml:space="preserve">
+    <value>Schretter</value>
+  </data>
+  <data name="names/ger822" xml:space="preserve">
+    <value>Schröder</value>
+  </data>
+  <data name="names/ger823" xml:space="preserve">
+    <value>Schrader</value>
+  </data>
+  <data name="names/ger824" xml:space="preserve">
+    <value>Schroder</value>
+  </data>
+  <data name="names/ger825" xml:space="preserve">
+    <value>Schroeder</value>
+  </data>
+  <data name="names/ger826" xml:space="preserve">
+    <value>Schroth</value>
+  </data>
+  <data name="names/ger827" xml:space="preserve">
+    <value>Schrödter</value>
+  </data>
+  <data name="names/ger828" xml:space="preserve">
+    <value>Schröter</value>
+  </data>
+  <data name="names/ger829" xml:space="preserve">
+    <value>Schubert</value>
+  </data>
+  <data name="names/ger83" xml:space="preserve">
+    <value>Bloem</value>
+  </data>
+  <data name="names/ger830" xml:space="preserve">
+    <value>Schuberth</value>
+  </data>
+  <data name="names/ger831" xml:space="preserve">
+    <value>Schuck</value>
+  </data>
+  <data name="names/ger832" xml:space="preserve">
+    <value>Schuhart</value>
+  </data>
+  <data name="names/ger833" xml:space="preserve">
+    <value>Schumacher</value>
+  </data>
+  <data name="names/ger834" xml:space="preserve">
+    <value>Schultheiss</value>
+  </data>
+  <data name="names/ger835" xml:space="preserve">
+    <value>Schulz</value>
+  </data>
+  <data name="names/ger836" xml:space="preserve">
+    <value>Schumann</value>
+  </data>
+  <data name="names/ger837" xml:space="preserve">
+    <value>Schüneman</value>
+  </data>
+  <data name="names/ger838" xml:space="preserve">
+    <value>Schuster</value>
+  </data>
+  <data name="names/ger839" xml:space="preserve">
+    <value>Schultze</value>
+  </data>
+  <data name="names/ger84" xml:space="preserve">
+    <value>Blümm</value>
+  </data>
+  <data name="names/ger840" xml:space="preserve">
+    <value>Schütze</value>
+  </data>
+  <data name="names/ger841" xml:space="preserve">
+    <value>Schulzke</value>
+  </data>
+  <data name="names/ger842" xml:space="preserve">
+    <value>Schwab</value>
+  </data>
+  <data name="names/ger843" xml:space="preserve">
+    <value>Schwartz</value>
+  </data>
+  <data name="names/ger844" xml:space="preserve">
+    <value>Schwarzmann</value>
+  </data>
+  <data name="names/ger845" xml:space="preserve">
+    <value>Schwedler</value>
+  </data>
+  <data name="names/ger846" xml:space="preserve">
+    <value>Schweitzer</value>
+  </data>
+  <data name="names/ger847" xml:space="preserve">
+    <value>Schweppenburg</value>
+  </data>
+  <data name="names/ger848" xml:space="preserve">
+    <value>Seebach</value>
+  </data>
+  <data name="names/ger849" xml:space="preserve">
+    <value>Seiler</value>
+  </data>
+  <data name="names/ger85" xml:space="preserve">
+    <value>Bockemühl</value>
+  </data>
+  <data name="names/ger850" xml:space="preserve">
+    <value>Selle</value>
+  </data>
+  <data name="names/ger851" xml:space="preserve">
+    <value>Sennholz</value>
+  </data>
+  <data name="names/ger852" xml:space="preserve">
+    <value>Severloch</value>
+  </data>
+  <data name="names/ger853" xml:space="preserve">
+    <value>Streich</value>
+  </data>
+  <data name="names/ger854" xml:space="preserve">
+    <value>Sieber</value>
+  </data>
+  <data name="names/ger855" xml:space="preserve">
+    <value>Silex</value>
+  </data>
+  <data name="names/ger856" xml:space="preserve">
+    <value>Schwarzer</value>
+  </data>
+  <data name="names/ger857" xml:space="preserve">
+    <value>Simon</value>
+  </data>
+  <data name="names/ger858" xml:space="preserve">
+    <value>Sodenstern</value>
+  </data>
+  <data name="names/ger859" xml:space="preserve">
+    <value>Solbrig</value>
+  </data>
+  <data name="names/ger86" xml:space="preserve">
+    <value>Bodenhausen</value>
+  </data>
+  <data name="names/ger860" xml:space="preserve">
+    <value>Sommer</value>
+  </data>
+  <data name="names/ger861" xml:space="preserve">
+    <value>Souchon</value>
+  </data>
+  <data name="names/ger862" xml:space="preserve">
+    <value>Specht</value>
+  </data>
+  <data name="names/ger863" xml:space="preserve">
+    <value>Speer</value>
+  </data>
+  <data name="names/ger864" xml:space="preserve">
+    <value>Sponeck</value>
+  </data>
+  <data name="names/ger865" xml:space="preserve">
+    <value>Sporleder</value>
+  </data>
+  <data name="names/ger866" xml:space="preserve">
+    <value>Staack</value>
+  </data>
+  <data name="names/ger867" xml:space="preserve">
+    <value>Staehle</value>
+  </data>
+  <data name="names/ger868" xml:space="preserve">
+    <value>Stäglich</value>
+  </data>
+  <data name="names/ger869" xml:space="preserve">
+    <value>Stahlberg</value>
+  </data>
+  <data name="names/ger87" xml:space="preserve">
+    <value>Bodenschatz</value>
+  </data>
+  <data name="names/ger870" xml:space="preserve">
+    <value>Stahlschmidt</value>
+  </data>
+  <data name="names/ger871" xml:space="preserve">
+    <value>Stahr</value>
+  </data>
+  <data name="names/ger872" xml:space="preserve">
+    <value>Stapf</value>
+  </data>
+  <data name="names/ger873" xml:space="preserve">
+    <value>Stehmann</value>
+  </data>
+  <data name="names/ger874" xml:space="preserve">
+    <value>Steinbatz</value>
+  </data>
+  <data name="names/ger875" xml:space="preserve">
+    <value>Steinhaus</value>
+  </data>
+  <data name="names/ger876" xml:space="preserve">
+    <value>Steinhoff</value>
+  </data>
+  <data name="names/ger877" xml:space="preserve">
+    <value>Stemann</value>
+  </data>
+  <data name="names/ger878" xml:space="preserve">
+    <value>Stingl</value>
+  </data>
+  <data name="names/ger879" xml:space="preserve">
+    <value>Stockhausen</value>
+  </data>
+  <data name="names/ger88" xml:space="preserve">
+    <value>Bodmann</value>
+  </data>
+  <data name="names/ger880" xml:space="preserve">
+    <value>Stohwasser</value>
+  </data>
+  <data name="names/ger881" xml:space="preserve">
+    <value>Strauss</value>
+  </data>
+  <data name="names/ger882" xml:space="preserve">
+    <value>Streib</value>
+  </data>
+  <data name="names/ger883" xml:space="preserve">
+    <value>Streitwolf</value>
+  </data>
+  <data name="names/ger884" xml:space="preserve">
+    <value>Stülpnagel</value>
+  </data>
+  <data name="names/ger885" xml:space="preserve">
+    <value>Stumme</value>
+  </data>
+  <data name="names/ger886" xml:space="preserve">
+    <value>Stumpff</value>
+  </data>
+  <data name="names/ger887" xml:space="preserve">
+    <value>Stutterheim</value>
+  </data>
+  <data name="names/ger888" xml:space="preserve">
+    <value>Suhren</value>
+  </data>
+  <data name="names/ger889" xml:space="preserve">
+    <value>Tettau</value>
+  </data>
+  <data name="names/ger89" xml:space="preserve">
+    <value>Boege</value>
+  </data>
+  <data name="names/ger890" xml:space="preserve">
+    <value>Thalberg</value>
+  </data>
+  <data name="names/ger891" xml:space="preserve">
+    <value>Theissen</value>
+  </data>
+  <data name="names/ger892" xml:space="preserve">
+    <value>Thiele</value>
+  </data>
+  <data name="names/ger893" xml:space="preserve">
+    <value>Topp</value>
+  </data>
+  <data name="names/ger894" xml:space="preserve">
+    <value>Traugott</value>
+  </data>
+  <data name="names/ger895" xml:space="preserve">
+    <value>Traupel</value>
+  </data>
+  <data name="names/ger896" xml:space="preserve">
+    <value>Trautloft</value>
+  </data>
+  <data name="names/ger897" xml:space="preserve">
+    <value>Trebes</value>
+  </data>
+  <data name="names/ger898" xml:space="preserve">
+    <value>Treger</value>
+  </data>
+  <data name="names/ger899" xml:space="preserve">
+    <value>Treihaupt</value>
+  </data>
+  <data name="names/ger9" xml:space="preserve">
+    <value>Backer</value>
+  </data>
+  <data name="names/ger90" xml:space="preserve">
+    <value>Böhm</value>
+  </data>
+  <data name="names/ger900" xml:space="preserve">
+    <value>Trettner</value>
+  </data>
+  <data name="names/ger901" xml:space="preserve">
+    <value>Trommler</value>
+  </data>
+  <data name="names/ger902" xml:space="preserve">
+    <value>Tunert</value>
+  </data>
+  <data name="names/ger903" xml:space="preserve">
+    <value>Tüngen</value>
+  </data>
+  <data name="names/ger904" xml:space="preserve">
+    <value>Übelhack</value>
+  </data>
+  <data name="names/ger905" xml:space="preserve">
+    <value>Udet</value>
+  </data>
+  <data name="names/ger906" xml:space="preserve">
+    <value>Ulex</value>
+  </data>
+  <data name="names/ger907" xml:space="preserve">
+    <value>Unger</value>
+  </data>
+  <data name="names/ger908" xml:space="preserve">
+    <value>Unrein</value>
+  </data>
+  <data name="names/ger909" xml:space="preserve">
+    <value>Unverhau</value>
+  </data>
+  <data name="names/ger91" xml:space="preserve">
+    <value>Boehmer</value>
+  </data>
+  <data name="names/ger910" xml:space="preserve">
+    <value>Urner</value>
+  </data>
+  <data name="names/ger911" xml:space="preserve">
+    <value>Vaerst</value>
+  </data>
+  <data name="names/ger912" xml:space="preserve">
+    <value>Vahl</value>
+  </data>
+  <data name="names/ger913" xml:space="preserve">
+    <value>Valentiner</value>
+  </data>
+  <data name="names/ger914" xml:space="preserve">
+    <value>Veiel</value>
+  </data>
+  <data name="names/ger915" xml:space="preserve">
+    <value>Veit</value>
+  </data>
+  <data name="names/ger916" xml:space="preserve">
+    <value>Veltjens</value>
+  </data>
+  <data name="names/ger917" xml:space="preserve">
+    <value>Versock</value>
+  </data>
+  <data name="names/ger918" xml:space="preserve">
+    <value>Vierow</value>
+  </data>
+  <data name="names/ger919" xml:space="preserve">
+    <value>Vittinghoff</value>
+  </data>
+  <data name="names/ger92" xml:space="preserve">
+    <value>Boerst</value>
+  </data>
+  <data name="names/ger920" xml:space="preserve">
+    <value>Voell</value>
+  </data>
+  <data name="names/ger921" xml:space="preserve">
+    <value>Voerst</value>
+  </data>
+  <data name="names/ger922" xml:space="preserve">
+    <value>Vogel</value>
+  </data>
+  <data name="names/ger923" xml:space="preserve">
+    <value>Vogelsang</value>
+  </data>
+  <data name="names/ger924" xml:space="preserve">
+    <value>Vogler</value>
+  </data>
+  <data name="names/ger925" xml:space="preserve">
+    <value>Vogt</value>
+  </data>
+  <data name="names/ger926" xml:space="preserve">
+    <value>Vorman</value>
+  </data>
+  <data name="names/ger927" xml:space="preserve">
+    <value>Voß</value>
+  </data>
+  <data name="names/ger928" xml:space="preserve">
+    <value>Wachsmuth</value>
+  </data>
+  <data name="names/ger929" xml:space="preserve">
+    <value>Wächter</value>
+  </data>
+  <data name="names/ger93" xml:space="preserve">
+    <value>Boetel</value>
+  </data>
+  <data name="names/ger930" xml:space="preserve">
+    <value>Wagner</value>
+  </data>
+  <data name="names/ger931" xml:space="preserve">
+    <value>Walden</value>
+  </data>
+  <data name="names/ger932" xml:space="preserve">
+    <value>Waldenburg</value>
+  </data>
+  <data name="names/ger933" xml:space="preserve">
+    <value>Waldenvels</value>
+  </data>
+  <data name="names/ger934" xml:space="preserve">
+    <value>Walz</value>
+  </data>
+  <data name="names/ger935" xml:space="preserve">
+    <value>Wandmaker</value>
+  </data>
+  <data name="names/ger936" xml:space="preserve">
+    <value>Wannagat</value>
+  </data>
+  <data name="names/ger937" xml:space="preserve">
+    <value>Wannemaker</value>
+  </data>
+  <data name="names/ger938" xml:space="preserve">
+    <value>Wappenhans</value>
+  </data>
+  <data name="names/ger939" xml:space="preserve">
+    <value>Waßner</value>
+  </data>
+  <data name="names/ger94" xml:space="preserve">
+    <value>Böhme</value>
+  </data>
+  <data name="names/ger940" xml:space="preserve">
+    <value>Waffenschmidt</value>
+  </data>
+  <data name="names/ger941" xml:space="preserve">
+    <value>Weber</value>
+  </data>
+  <data name="names/ger942" xml:space="preserve">
+    <value>Wechmar</value>
+  </data>
+  <data name="names/ger943" xml:space="preserve">
+    <value>Wechsler</value>
+  </data>
+  <data name="names/ger944" xml:space="preserve">
+    <value>Wegner</value>
+  </data>
+  <data name="names/ger945" xml:space="preserve">
+    <value>Wehmeyer</value>
+  </data>
+  <data name="names/ger946" xml:space="preserve">
+    <value>Weichs</value>
+  </data>
+  <data name="names/ger947" xml:space="preserve">
+    <value>Weidling</value>
+  </data>
+  <data name="names/ger948" xml:space="preserve">
+    <value>Weiss</value>
+  </data>
+  <data name="names/ger949" xml:space="preserve">
+    <value>Weissenberger</value>
+  </data>
+  <data name="names/ger95" xml:space="preserve">
+    <value>Bohnenkamp</value>
+  </data>
+  <data name="names/ger950" xml:space="preserve">
+    <value>Wellman</value>
+  </data>
+  <data name="names/ger951" xml:space="preserve">
+    <value>Welter</value>
+  </data>
+  <data name="names/ger952" xml:space="preserve">
+    <value>Wenck</value>
+  </data>
+  <data name="names/ger953" xml:space="preserve">
+    <value>Wenk</value>
+  </data>
+  <data name="names/ger954" xml:space="preserve">
+    <value>Wenneker</value>
+  </data>
+  <data name="names/ger955" xml:space="preserve">
+    <value>Wenzelburger</value>
+  </data>
+  <data name="names/ger956" xml:space="preserve">
+    <value>Werner</value>
+  </data>
+  <data name="names/ger957" xml:space="preserve">
+    <value>Werra</value>
+  </data>
+  <data name="names/ger958" xml:space="preserve">
+    <value>Westfal</value>
+  </data>
+  <data name="names/ger959" xml:space="preserve">
+    <value>Westhoffen</value>
+  </data>
+  <data name="names/ger96" xml:space="preserve">
+    <value>Bollbrinker</value>
+  </data>
+  <data name="names/ger960" xml:space="preserve">
+    <value>Wetjen</value>
+  </data>
+  <data name="names/ger961" xml:space="preserve">
+    <value>Wever</value>
+  </data>
+  <data name="names/ger962" xml:space="preserve">
+    <value>Wicht</value>
+  </data>
+  <data name="names/ger963" xml:space="preserve">
+    <value>Wick</value>
+  </data>
+  <data name="names/ger964" xml:space="preserve">
+    <value>Wilberg</value>
+  </data>
+  <data name="names/ger965" xml:space="preserve">
+    <value>Windisch</value>
+  </data>
+  <data name="names/ger966" xml:space="preserve">
+    <value>Wingelbauer</value>
+  </data>
+  <data name="names/ger967" xml:space="preserve">
+    <value>Wittersheim</value>
+  </data>
+  <data name="names/ger968" xml:space="preserve">
+    <value>Witzig</value>
+  </data>
+  <data name="names/ger969" xml:space="preserve">
+    <value>Wöhler</value>
+  </data>
+  <data name="names/ger97" xml:space="preserve">
+    <value>Boltenstern</value>
+  </data>
+  <data name="names/ger970" xml:space="preserve">
+    <value>Wohlgemuth</value>
+  </data>
+  <data name="names/ger971" xml:space="preserve">
+    <value>Wolfram</value>
+  </data>
+  <data name="names/ger972" xml:space="preserve">
+    <value>Wolfrum</value>
+  </data>
+  <data name="names/ger973" xml:space="preserve">
+    <value>Wolpert</value>
+  </data>
+  <data name="names/ger974" xml:space="preserve">
+    <value>Wolz</value>
+  </data>
+  <data name="names/ger975" xml:space="preserve">
+    <value>Wünning</value>
+  </data>
+  <data name="names/ger976" xml:space="preserve">
+    <value>Wurmbach</value>
+  </data>
+  <data name="names/ger977" xml:space="preserve">
+    <value>Wuthmann</value>
+  </data>
+  <data name="names/ger978" xml:space="preserve">
+    <value>Zahn</value>
+  </data>
+  <data name="names/ger979" xml:space="preserve">
+    <value>Zeitler</value>
+  </data>
+  <data name="names/ger98" xml:space="preserve">
+    <value>Bolzen</value>
+  </data>
+  <data name="names/ger980" xml:space="preserve">
+    <value>Zejdlik</value>
+  </data>
+  <data name="names/ger981" xml:space="preserve">
+    <value>Zerbel</value>
+  </data>
+  <data name="names/ger982" xml:space="preserve">
+    <value>Wulff</value>
+  </data>
+  <data name="names/ger983" xml:space="preserve">
+    <value>Zippermayr</value>
+  </data>
+  <data name="names/ger984" xml:space="preserve">
+    <value>Zollenkopf</value>
+  </data>
+  <data name="names/ger985" xml:space="preserve">
+    <value>Zorn</value>
+  </data>
+  <data name="names/ger986" xml:space="preserve">
+    <value>Zorner</value>
+  </data>
+  <data name="names/ger99" xml:space="preserve">
+    <value>Bonin</value>
+  </data>
+  <data name="names/gern1" xml:space="preserve">
+    <value>Abbo</value>
+  </data>
+  <data name="names/gern10" xml:space="preserve">
+    <value>Albrecht</value>
+  </data>
+  <data name="names/gern100" xml:space="preserve">
+    <value>Gottfried</value>
+  </data>
+  <data name="names/gern101" xml:space="preserve">
+    <value>Gotthold</value>
+  </data>
+  <data name="names/gern102" xml:space="preserve">
+    <value>Gottlieb</value>
+  </data>
+  <data name="names/gern103" xml:space="preserve">
+    <value>Gregor</value>
+  </data>
+  <data name="names/gern104" xml:space="preserve">
+    <value>Günther</value>
+  </data>
+  <data name="names/gern105" xml:space="preserve">
+    <value>Gustaf</value>
+  </data>
+  <data name="names/gern106" xml:space="preserve">
+    <value>Gunnar</value>
+  </data>
+  <data name="names/gern107" xml:space="preserve">
+    <value>Hahn</value>
+  </data>
+  <data name="names/gern108" xml:space="preserve">
+    <value>Hans</value>
+  </data>
+  <data name="names/gern109" xml:space="preserve">
+    <value>Harald</value>
+  </data>
+  <data name="names/gern11" xml:space="preserve">
+    <value>Adelbert</value>
+  </data>
+  <data name="names/gern110" xml:space="preserve">
+    <value>Hartmut</value>
+  </data>
+  <data name="names/gern111" xml:space="preserve">
+    <value>Hartwig</value>
+  </data>
+  <data name="names/gern112" xml:space="preserve">
+    <value>Hannes</value>
+  </data>
+  <data name="names/gern113" xml:space="preserve">
+    <value>Heiner</value>
+  </data>
+  <data name="names/gern114" xml:space="preserve">
+    <value>Heinrich</value>
+  </data>
+  <data name="names/gern115" xml:space="preserve">
+    <value>Heinz</value>
+  </data>
+  <data name="names/gern116" xml:space="preserve">
+    <value>Helge</value>
+  </data>
+  <data name="names/gern117" xml:space="preserve">
+    <value>Heller</value>
+  </data>
+  <data name="names/gern118" xml:space="preserve">
+    <value>Helmut</value>
+  </data>
+  <data name="names/gern119" xml:space="preserve">
+    <value>Helmuth</value>
+  </data>
+  <data name="names/gern12" xml:space="preserve">
+    <value>Albert</value>
+  </data>
+  <data name="names/gern120" xml:space="preserve">
+    <value>Hanno</value>
+  </data>
+  <data name="names/gern121" xml:space="preserve">
+    <value>Hasso</value>
+  </data>
+  <data name="names/gern122" xml:space="preserve">
+    <value>Herbert</value>
+  </data>
+  <data name="names/gern123" xml:space="preserve">
+    <value>Hermann</value>
+  </data>
+  <data name="names/gern124" xml:space="preserve">
+    <value>Hildebrand</value>
+  </data>
+  <data name="names/gern125" xml:space="preserve">
+    <value>Holger</value>
+  </data>
+  <data name="names/gern126" xml:space="preserve">
+    <value>Horst</value>
+  </data>
+  <data name="names/gern127" xml:space="preserve">
+    <value>Hugbert</value>
+  </data>
+  <data name="names/gern128" xml:space="preserve">
+    <value>Hugo</value>
+  </data>
+  <data name="names/gern129" xml:space="preserve">
+    <value>Ignatius</value>
+  </data>
+  <data name="names/gern13" xml:space="preserve">
+    <value>Alexander</value>
+  </data>
+  <data name="names/gern130" xml:space="preserve">
+    <value>Imre</value>
+  </data>
+  <data name="names/gern131" xml:space="preserve">
+    <value>Ingemar</value>
+  </data>
+  <data name="names/gern132" xml:space="preserve">
+    <value>Heribert</value>
+  </data>
+  <data name="names/gern133" xml:space="preserve">
+    <value>Jan</value>
+  </data>
+  <data name="names/gern134" xml:space="preserve">
+    <value>Bert</value>
+  </data>
+  <data name="names/gern135" xml:space="preserve">
+    <value>Jens</value>
+  </data>
+  <data name="names/gern136" xml:space="preserve">
+    <value>Hauke</value>
+  </data>
+  <data name="names/gern137" xml:space="preserve">
+    <value>Joachim</value>
+  </data>
+  <data name="names/gern138" xml:space="preserve">
+    <value>Johan</value>
+  </data>
+  <data name="names/gern139" xml:space="preserve">
+    <value>Johann</value>
+  </data>
+  <data name="names/gern14" xml:space="preserve">
+    <value>Alois</value>
+  </data>
+  <data name="names/gern140" xml:space="preserve">
+    <value>Johannes</value>
+  </data>
+  <data name="names/gern141" xml:space="preserve">
+    <value>Jonas</value>
+  </data>
+  <data name="names/gern142" xml:space="preserve">
+    <value>Jörg</value>
+  </data>
+  <data name="names/gern143" xml:space="preserve">
+    <value>Jürgen</value>
+  </data>
+  <data name="names/gern144" xml:space="preserve">
+    <value>Karl</value>
+  </data>
+  <data name="names/gern145" xml:space="preserve">
+    <value>Karlheinz</value>
+  </data>
+  <data name="names/gern146" xml:space="preserve">
+    <value>Karsten</value>
+  </data>
+  <data name="names/gern147" xml:space="preserve">
+    <value>Kaspar</value>
+  </data>
+  <data name="names/gern148" xml:space="preserve">
+    <value>Ignatz</value>
+  </data>
+  <data name="names/gern149" xml:space="preserve">
+    <value>Jannis</value>
+  </data>
+  <data name="names/gern15" xml:space="preserve">
+    <value>Alfons</value>
+  </data>
+  <data name="names/gern150" xml:space="preserve">
+    <value>Klaus</value>
+  </data>
+  <data name="names/gern151" xml:space="preserve">
+    <value>Knut</value>
+  </data>
+  <data name="names/gern152" xml:space="preserve">
+    <value>Konrad</value>
+  </data>
+  <data name="names/gern153" xml:space="preserve">
+    <value>Kristian</value>
+  </data>
+  <data name="names/gern154" xml:space="preserve">
+    <value>Kristof</value>
+  </data>
+  <data name="names/gern155" xml:space="preserve">
+    <value>Hennes</value>
+  </data>
+  <data name="names/gern156" xml:space="preserve">
+    <value>Knud</value>
+  </data>
+  <data name="names/gern157" xml:space="preserve">
+    <value>Caspar</value>
+  </data>
+  <data name="names/gern158" xml:space="preserve">
+    <value>Lars</value>
+  </data>
+  <data name="names/gern159" xml:space="preserve">
+    <value>Laurenz</value>
+  </data>
+  <data name="names/gern16" xml:space="preserve">
+    <value>Alwin</value>
+  </data>
+  <data name="names/gern160" xml:space="preserve">
+    <value>Lenz</value>
+  </data>
+  <data name="names/gern161" xml:space="preserve">
+    <value>Leo</value>
+  </data>
+  <data name="names/gern162" xml:space="preserve">
+    <value>Harti</value>
+  </data>
+  <data name="names/gern163" xml:space="preserve">
+    <value>Leonhard</value>
+  </data>
+  <data name="names/gern164" xml:space="preserve">
+    <value>Leopold</value>
+  </data>
+  <data name="names/gern165" xml:space="preserve">
+    <value>Lennert</value>
+  </data>
+  <data name="names/gern166" xml:space="preserve">
+    <value>Lothar</value>
+  </data>
+  <data name="names/gern167" xml:space="preserve">
+    <value>Louis</value>
+  </data>
+  <data name="names/gern168" xml:space="preserve">
+    <value>Ludwig</value>
+  </data>
+  <data name="names/gern169" xml:space="preserve">
+    <value>Lukas</value>
+  </data>
+  <data name="names/gern17" xml:space="preserve">
+    <value>Ebelbert</value>
+  </data>
+  <data name="names/gern170" xml:space="preserve">
+    <value>Luitpold</value>
+  </data>
+  <data name="names/gern171" xml:space="preserve">
+    <value>Lutz</value>
+  </data>
+  <data name="names/gern172" xml:space="preserve">
+    <value>Manfred</value>
+  </data>
+  <data name="names/gern173" xml:space="preserve">
+    <value>Marcel</value>
+  </data>
+  <data name="names/gern174" xml:space="preserve">
+    <value>Lucas</value>
+  </data>
+  <data name="names/gern175" xml:space="preserve">
+    <value>Mario</value>
+  </data>
+  <data name="names/gern176" xml:space="preserve">
+    <value>Marius</value>
+  </data>
+  <data name="names/gern177" xml:space="preserve">
+    <value>Markus</value>
+  </data>
+  <data name="names/gern178" xml:space="preserve">
+    <value>Martin</value>
+  </data>
+  <data name="names/gern179" xml:space="preserve">
+    <value>Matthias</value>
+  </data>
+  <data name="names/gern18" xml:space="preserve">
+    <value>Albin</value>
+  </data>
+  <data name="names/gern180" xml:space="preserve">
+    <value>Matthäus</value>
+  </data>
+  <data name="names/gern181" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="names/gern182" xml:space="preserve">
+    <value>Maximilian</value>
+  </data>
+  <data name="names/gern183" xml:space="preserve">
+    <value>Luis</value>
+  </data>
+  <data name="names/gern184" xml:space="preserve">
+    <value>Manfried</value>
+  </data>
+  <data name="names/gern185" xml:space="preserve">
+    <value>Michael</value>
+  </data>
+  <data name="names/gern186" xml:space="preserve">
+    <value>Mattias</value>
+  </data>
+  <data name="names/gern187" xml:space="preserve">
+    <value>Ottfried</value>
+  </data>
+  <data name="names/gern188" xml:space="preserve">
+    <value>Nikolaus</value>
+  </data>
+  <data name="names/gern189" xml:space="preserve">
+    <value>Nils</value>
+  </data>
+  <data name="names/gern19" xml:space="preserve">
+    <value>Andreas</value>
+  </data>
+  <data name="names/gern190" xml:space="preserve">
+    <value>Norbert</value>
+  </data>
+  <data name="names/gern191" xml:space="preserve">
+    <value>Ottmar</value>
+  </data>
+  <data name="names/gern192" xml:space="preserve">
+    <value>Olaf</value>
+  </data>
+  <data name="names/gern193" xml:space="preserve">
+    <value>Otto</value>
+  </data>
+  <data name="names/gern194" xml:space="preserve">
+    <value>Oskar</value>
+  </data>
+  <data name="names/gern195" xml:space="preserve">
+    <value>Oswald</value>
+  </data>
+  <data name="names/gern196" xml:space="preserve">
+    <value>Oswin</value>
+  </data>
+  <data name="names/gern197" xml:space="preserve">
+    <value>Otis</value>
+  </data>
+  <data name="names/gern198" xml:space="preserve">
+    <value>Reiner</value>
+  </data>
+  <data name="names/gern199" xml:space="preserve">
+    <value>Ralph</value>
+  </data>
+  <data name="names/gern2" xml:space="preserve">
+    <value>Achim</value>
+  </data>
+  <data name="names/gern20" xml:space="preserve">
+    <value>Anselm</value>
+  </data>
+  <data name="names/gern200" xml:space="preserve">
+    <value>Philipp</value>
+  </data>
+  <data name="names/gern201" xml:space="preserve">
+    <value>Poldi</value>
+  </data>
+  <data name="names/gern202" xml:space="preserve">
+    <value>Raimund</value>
+  </data>
+  <data name="names/gern203" xml:space="preserve">
+    <value>Rainer</value>
+  </data>
+  <data name="names/gern204" xml:space="preserve">
+    <value>Ralf</value>
+  </data>
+  <data name="names/gern205" xml:space="preserve">
+    <value>Randolf</value>
+  </data>
+  <data name="names/gern206" xml:space="preserve">
+    <value>Philip</value>
+  </data>
+  <data name="names/gern207" xml:space="preserve">
+    <value>Reinhard</value>
+  </data>
+  <data name="names/gern208" xml:space="preserve">
+    <value>Reinhold</value>
+  </data>
+  <data name="names/gern209" xml:space="preserve">
+    <value>René</value>
+  </data>
+  <data name="names/gern21" xml:space="preserve">
+    <value>Anton</value>
+  </data>
+  <data name="names/gern210" xml:space="preserve">
+    <value>Richard</value>
+  </data>
+  <data name="names/gern211" xml:space="preserve">
+    <value>Rudger</value>
+  </data>
+  <data name="names/gern212" xml:space="preserve">
+    <value>Roderich</value>
+  </data>
+  <data name="names/gern213" xml:space="preserve">
+    <value>Roger</value>
+  </data>
+  <data name="names/gern214" xml:space="preserve">
+    <value>Roland</value>
+  </data>
+  <data name="names/gern215" xml:space="preserve">
+    <value>Rolf</value>
+  </data>
+  <data name="names/gern216" xml:space="preserve">
+    <value>Robert</value>
+  </data>
+  <data name="names/gern217" xml:space="preserve">
+    <value>Stephan</value>
+  </data>
+  <data name="names/gern218" xml:space="preserve">
+    <value>Tomas</value>
+  </data>
+  <data name="names/gern219" xml:space="preserve">
+    <value>Rüdiger</value>
+  </data>
+  <data name="names/gern22" xml:space="preserve">
+    <value>Armin</value>
+  </data>
+  <data name="names/gern220" xml:space="preserve">
+    <value>Rudolf</value>
+  </data>
+  <data name="names/gern221" xml:space="preserve">
+    <value>Rupert</value>
+  </data>
+  <data name="names/gern222" xml:space="preserve">
+    <value>Heinolf</value>
+  </data>
+  <data name="names/gern223" xml:space="preserve">
+    <value>Schorsch</value>
+  </data>
+  <data name="names/gern224" xml:space="preserve">
+    <value>Sebastian</value>
+  </data>
+  <data name="names/gern225" xml:space="preserve">
+    <value>Matias</value>
+  </data>
+  <data name="names/gern226" xml:space="preserve">
+    <value>Siegfried</value>
+  </data>
+  <data name="names/gern227" xml:space="preserve">
+    <value>Simon</value>
+  </data>
+  <data name="names/gern228" xml:space="preserve">
+    <value>Stefan</value>
+  </data>
+  <data name="names/gern229" xml:space="preserve">
+    <value>Steffen</value>
+  </data>
+  <data name="names/gern23" xml:space="preserve">
+    <value>Arnd</value>
+  </data>
+  <data name="names/gern230" xml:space="preserve">
+    <value>Tillman</value>
+  </data>
+  <data name="names/gern231" xml:space="preserve">
+    <value>Tillmann</value>
+  </data>
+  <data name="names/gern232" xml:space="preserve">
+    <value>Sven</value>
+  </data>
+  <data name="names/gern233" xml:space="preserve">
+    <value>Thorsten</value>
+  </data>
+  <data name="names/gern234" xml:space="preserve">
+    <value>Theobald</value>
+  </data>
+  <data name="names/gern235" xml:space="preserve">
+    <value>Theodor</value>
+  </data>
+  <data name="names/gern236" xml:space="preserve">
+    <value>Thomas</value>
+  </data>
+  <data name="names/gern237" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="names/gern238" xml:space="preserve">
+    <value>Vitus</value>
+  </data>
+  <data name="names/gern239" xml:space="preserve">
+    <value>Timo</value>
+  </data>
+  <data name="names/gern24" xml:space="preserve">
+    <value>Arno</value>
+  </data>
+  <data name="names/gern240" xml:space="preserve">
+    <value>Tobias</value>
+  </data>
+  <data name="names/gern241" xml:space="preserve">
+    <value>Torsten</value>
+  </data>
+  <data name="names/gern242" xml:space="preserve">
+    <value>Udo</value>
+  </data>
+  <data name="names/gern243" xml:space="preserve">
+    <value>Ulbrecht</value>
+  </data>
+  <data name="names/gern244" xml:space="preserve">
+    <value>Ulf</value>
+  </data>
+  <data name="names/gern245" xml:space="preserve">
+    <value>Ulrich</value>
+  </data>
+  <data name="names/gern246" xml:space="preserve">
+    <value>Urban</value>
+  </data>
+  <data name="names/gern247" xml:space="preserve">
+    <value>Urs</value>
+  </data>
+  <data name="names/gern248" xml:space="preserve">
+    <value>Uwe</value>
+  </data>
+  <data name="names/gern249" xml:space="preserve">
+    <value>Varick</value>
+  </data>
+  <data name="names/gern25" xml:space="preserve">
+    <value>Arnold</value>
+  </data>
+  <data name="names/gern250" xml:space="preserve">
+    <value>Veit</value>
+  </data>
+  <data name="names/gern251" xml:space="preserve">
+    <value>Veith</value>
+  </data>
+  <data name="names/gern252" xml:space="preserve">
+    <value>Viktor</value>
+  </data>
+  <data name="names/gern253" xml:space="preserve">
+    <value>Wingolf</value>
+  </data>
+  <data name="names/gern254" xml:space="preserve">
+    <value>Vinzenz</value>
+  </data>
+  <data name="names/gern255" xml:space="preserve">
+    <value>Volkard</value>
+  </data>
+  <data name="names/gern256" xml:space="preserve">
+    <value>Volker</value>
+  </data>
+  <data name="names/gern257" xml:space="preserve">
+    <value>Waldemar</value>
+  </data>
+  <data name="names/gern258" xml:space="preserve">
+    <value>Walter</value>
+  </data>
+  <data name="names/gern259" xml:space="preserve">
+    <value>Walther</value>
+  </data>
+  <data name="names/gern26" xml:space="preserve">
+    <value>Arnulf</value>
+  </data>
+  <data name="names/gern260" xml:space="preserve">
+    <value>Wendelin</value>
+  </data>
+  <data name="names/gern261" xml:space="preserve">
+    <value>Wendell</value>
+  </data>
+  <data name="names/gern262" xml:space="preserve">
+    <value>Wenzel</value>
+  </data>
+  <data name="names/gern263" xml:space="preserve">
+    <value>Werner</value>
+  </data>
+  <data name="names/gern264" xml:space="preserve">
+    <value>Xaver</value>
+  </data>
+  <data name="names/gern265" xml:space="preserve">
+    <value>Wilfried</value>
+  </data>
+  <data name="names/gern266" xml:space="preserve">
+    <value>Wilhelm</value>
+  </data>
+  <data name="names/gern267" xml:space="preserve">
+    <value>Wolfgang</value>
+  </data>
+  <data name="names/gern268" xml:space="preserve">
+    <value>Wolfram</value>
+  </data>
+  <data name="names/gern269" xml:space="preserve">
+    <value>Beni</value>
+  </data>
+  <data name="names/gern27" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="names/gern270" xml:space="preserve">
+    <value>Zacharia</value>
+  </data>
+  <data name="names/gern28" xml:space="preserve">
+    <value>Axel</value>
+  </data>
+  <data name="names/gern29" xml:space="preserve">
+    <value>Augustin</value>
+  </data>
+  <data name="names/gern3" xml:space="preserve">
+    <value>Adelfried</value>
+  </data>
+  <data name="names/gern30" xml:space="preserve">
+    <value>Arnbert</value>
+  </data>
+  <data name="names/gern31" xml:space="preserve">
+    <value>Arnolf</value>
+  </data>
+  <data name="names/gern32" xml:space="preserve">
+    <value>Benjamin</value>
+  </data>
+  <data name="names/gern33" xml:space="preserve">
+    <value>Arnt</value>
+  </data>
+  <data name="names/gern34" xml:space="preserve">
+    <value>Arne</value>
+  </data>
+  <data name="names/gern35" xml:space="preserve">
+    <value>Bernard</value>
+  </data>
+  <data name="names/gern36" xml:space="preserve">
+    <value>Bernd</value>
+  </data>
+  <data name="names/gern37" xml:space="preserve">
+    <value>Bernhard</value>
+  </data>
+  <data name="names/gern38" xml:space="preserve">
+    <value>Bernold</value>
+  </data>
+  <data name="names/gern39" xml:space="preserve">
+    <value>Berthold</value>
+  </data>
+  <data name="names/gern4" xml:space="preserve">
+    <value>Adelino</value>
+  </data>
+  <data name="names/gern40" xml:space="preserve">
+    <value>Bertram</value>
+  </data>
+  <data name="names/gern41" xml:space="preserve">
+    <value>Bodo</value>
+  </data>
+  <data name="names/gern42" xml:space="preserve">
+    <value>Bruno</value>
+  </data>
+  <data name="names/gern43" xml:space="preserve">
+    <value>Berndt</value>
+  </data>
+  <data name="names/gern44" xml:space="preserve">
+    <value>Beppo</value>
+  </data>
+  <data name="names/gern45" xml:space="preserve">
+    <value>Carl</value>
+  </data>
+  <data name="names/gern46" xml:space="preserve">
+    <value>Carsten</value>
+  </data>
+  <data name="names/gern47" xml:space="preserve">
+    <value>Wernhard</value>
+  </data>
+  <data name="names/gern48" xml:space="preserve">
+    <value>Christian</value>
+  </data>
+  <data name="names/gern49" xml:space="preserve">
+    <value>Christof</value>
+  </data>
+  <data name="names/gern5" xml:space="preserve">
+    <value>Adler</value>
+  </data>
+  <data name="names/gern50" xml:space="preserve">
+    <value>Claus</value>
+  </data>
+  <data name="names/gern51" xml:space="preserve">
+    <value>Clemens</value>
+  </data>
+  <data name="names/gern52" xml:space="preserve">
+    <value>Conrad</value>
+  </data>
+  <data name="names/gern53" xml:space="preserve">
+    <value>Curd</value>
+  </data>
+  <data name="names/gern54" xml:space="preserve">
+    <value>Dagobert</value>
+  </data>
+  <data name="names/gern55" xml:space="preserve">
+    <value>Derick</value>
+  </data>
+  <data name="names/gern56" xml:space="preserve">
+    <value>Detlef</value>
+  </data>
+  <data name="names/gern57" xml:space="preserve">
+    <value>Dirk</value>
+  </data>
+  <data name="names/gern58" xml:space="preserve">
+    <value>Dieter</value>
+  </data>
+  <data name="names/gern59" xml:space="preserve">
+    <value>Dietrich</value>
+  </data>
+  <data name="names/gern6" xml:space="preserve">
+    <value>Adolf</value>
+  </data>
+  <data name="names/gern60" xml:space="preserve">
+    <value>Dolf</value>
+  </data>
+  <data name="names/gern61" xml:space="preserve">
+    <value>Dominik</value>
+  </data>
+  <data name="names/gern62" xml:space="preserve">
+    <value>Eberhard</value>
+  </data>
+  <data name="names/gern63" xml:space="preserve">
+    <value>Edwin</value>
+  </data>
+  <data name="names/gern64" xml:space="preserve">
+    <value>Egbert</value>
+  </data>
+  <data name="names/gern65" xml:space="preserve">
+    <value>Egon</value>
+  </data>
+  <data name="names/gern66" xml:space="preserve">
+    <value>Detlev</value>
+  </data>
+  <data name="names/gern67" xml:space="preserve">
+    <value>Elias</value>
+  </data>
+  <data name="names/gern68" xml:space="preserve">
+    <value>Diether</value>
+  </data>
+  <data name="names/gern69" xml:space="preserve">
+    <value>Elmar</value>
+  </data>
+  <data name="names/gern7" xml:space="preserve">
+    <value>Adolph</value>
+  </data>
+  <data name="names/gern70" xml:space="preserve">
+    <value>Diedrich</value>
+  </data>
+  <data name="names/gern71" xml:space="preserve">
+    <value>Emil</value>
+  </data>
+  <data name="names/gern72" xml:space="preserve">
+    <value>Emmerich</value>
+  </data>
+  <data name="names/gern73" xml:space="preserve">
+    <value>Eckbert</value>
+  </data>
+  <data name="names/gern74" xml:space="preserve">
+    <value>Engelbert</value>
+  </data>
+  <data name="names/gern75" xml:space="preserve">
+    <value>Erhard</value>
+  </data>
+  <data name="names/gern76" xml:space="preserve">
+    <value>Erich</value>
+  </data>
+  <data name="names/gern77" xml:space="preserve">
+    <value>Domenic</value>
+  </data>
+  <data name="names/gern78" xml:space="preserve">
+    <value>Ernst</value>
+  </data>
+  <data name="names/gern79" xml:space="preserve">
+    <value>Erwin</value>
+  </data>
+  <data name="names/gern8" xml:space="preserve">
+    <value>Adrian</value>
+  </data>
+  <data name="names/gern80" xml:space="preserve">
+    <value>Eugen</value>
+  </data>
+  <data name="names/gern81" xml:space="preserve">
+    <value>Ewald</value>
+  </data>
+  <data name="names/gern82" xml:space="preserve">
+    <value>Fabian</value>
+  </data>
+  <data name="names/gern83" xml:space="preserve">
+    <value>Falko</value>
+  </data>
+  <data name="names/gern84" xml:space="preserve">
+    <value>Felix</value>
+  </data>
+  <data name="names/gern85" xml:space="preserve">
+    <value>Ferdinand</value>
+  </data>
+  <data name="names/gern86" xml:space="preserve">
+    <value>Florian</value>
+  </data>
+  <data name="names/gern87" xml:space="preserve">
+    <value>Franz</value>
+  </data>
+  <data name="names/gern88" xml:space="preserve">
+    <value>Frederick</value>
+  </data>
+  <data name="names/gern89" xml:space="preserve">
+    <value>Friedhelm</value>
+  </data>
+  <data name="names/gern9" xml:space="preserve">
+    <value>Alarich</value>
+  </data>
+  <data name="names/gern90" xml:space="preserve">
+    <value>Friedrich</value>
+  </data>
+  <data name="names/gern91" xml:space="preserve">
+    <value>Fritz</value>
+  </data>
+  <data name="names/gern92" xml:space="preserve">
+    <value>Erik</value>
+  </data>
+  <data name="names/gern93" xml:space="preserve">
+    <value>Gebhard</value>
+  </data>
+  <data name="names/gern94" xml:space="preserve">
+    <value>Gert</value>
+  </data>
+  <data name="names/gern95" xml:space="preserve">
+    <value>Georg</value>
+  </data>
+  <data name="names/gern96" xml:space="preserve">
+    <value>Girgl</value>
+  </data>
+  <data name="names/gern97" xml:space="preserve">
+    <value>Gerhard</value>
+  </data>
+  <data name="names/gern98" xml:space="preserve">
+    <value>Gernot</value>
+  </data>
+  <data name="names/gern99" xml:space="preserve">
+    <value>Golo</value>
+  </data>
+  <data name="ranksGER/feldwebel" xml:space="preserve">
+    <value>Feldwebel</value>
+  </data>
+  <data name="ranksGER/gefreiter" xml:space="preserve">
+    <value>Gefreiter</value>
+  </data>
+  <data name="ranksGER/hauptmann" xml:space="preserve">
+    <value>Hauptmann</value>
+  </data>
+  <data name="ranksGER/leutnant" xml:space="preserve">
+    <value>Leutnant</value>
+  </data>
+  <data name="ranksGER/major" xml:space="preserve">
+    <value>Major</value>
+  </data>
+  <data name="ranksGER/oberfeldwebel" xml:space="preserve">
+    <value>Oberfeldwebel</value>
+  </data>
+  <data name="ranksGER/obergefreiter" xml:space="preserve">
+    <value>Obergefreiter</value>
+  </data>
+  <data name="ranksGER/oberleutnant" xml:space="preserve">
+    <value>Oberleutnant</value>
+  </data>
+  <data name="ranksGER/panzeroberschutze" xml:space="preserve">
+    <value>Panzeroberschütze</value>
+  </data>
+  <data name="ranksGER/panzerschutze" xml:space="preserve">
+    <value>Panzerschütze</value>
+  </data>
+  <data name="ranksGER/stabsfeldwebel" xml:space="preserve">
+    <value>Stabsfeldwebel</value>
+  </data>
+  <data name="ranksGER/stabsgefreiter" xml:space="preserve">
+    <value>Stabsgefreiter</value>
+  </data>
+  <data name="ranksGER/unterfeldwebel" xml:space="preserve">
+    <value>Unterfeldwebel</value>
+  </data>
+  <data name="ranksGER/unteroffizier" xml:space="preserve">
+    <value>Unteroffizier</value>
+  </data>
+  <data name="names/ger1000" xml:space="preserve">
+    <value>Meine</value>
+  </data>
+  <data name="names/ger1001" xml:space="preserve">
+    <value>Olbrich</value>
+  </data>
+  <data name="names/ger1002" xml:space="preserve">
+    <value>Ratzinger</value>
+  </data>
+  <data name="names/ger1003" xml:space="preserve">
+    <value>Schenker</value>
+  </data>
+  <data name="names/ger1004" xml:space="preserve">
+    <value>Schweiger</value>
+  </data>
+  <data name="names/ger1005" xml:space="preserve">
+    <value>Siepen</value>
+  </data>
+  <data name="names/ger1006" xml:space="preserve">
+    <value>Stauch</value>
+  </data>
+  <data name="names/ger1007" xml:space="preserve">
+    <value>Stoltz</value>
+  </data>
+  <data name="names/ger1008" xml:space="preserve">
+    <value>Tank</value>
+  </data>
+  <data name="names/ger1009" xml:space="preserve">
+    <value>Vettel</value>
+  </data>
+  <data name="names/ger1010" xml:space="preserve">
+    <value>Zimmer</value>
+  </data>
+  <data name="names/ger1011" xml:space="preserve">
+    <value>Stern</value>
+  </data>
+  <data name="names/ger1012" xml:space="preserve">
+    <value>Börghoff</value>
+  </data>
+  <data name="names/ger1013" xml:space="preserve">
+    <value>Brander</value>
+  </data>
+  <data name="names/ger1014" xml:space="preserve">
+    <value>Kreuzmann</value>
+  </data>
+  <data name="names/ger1015" xml:space="preserve">
+    <value>Eller</value>
+  </data>
+  <data name="names/ger1016" xml:space="preserve">
+    <value>Schlegel</value>
+  </data>
+  <data name="names/ger1017" xml:space="preserve">
+    <value>Kettel</value>
+  </data>
+  <data name="names/ger1018" xml:space="preserve">
+    <value>Wickmayer</value>
+  </data>
+  <data name="names/ger1019" xml:space="preserve">
+    <value>Zangen</value>
+  </data>
+  <data name="names/ger1020" xml:space="preserve">
+    <value>Kürsch</value>
+  </data>
+  <data name="names/ger987" xml:space="preserve">
+    <value>Badelt</value>
+  </data>
+  <data name="names/ger988" xml:space="preserve">
+    <value>Pesch</value>
+  </data>
+  <data name="names/ger989" xml:space="preserve">
+    <value>Wienhold</value>
+  </data>
+  <data name="names/ger990" xml:space="preserve">
+    <value>Helden</value>
+  </data>
+  <data name="names/ger991" xml:space="preserve">
+    <value>Dirkschneider</value>
+  </data>
+  <data name="names/ger992" xml:space="preserve">
+    <value>Ehmke</value>
+  </data>
+  <data name="names/ger993" xml:space="preserve">
+    <value>Grosskopf</value>
+  </data>
+  <data name="names/ger994" xml:space="preserve">
+    <value>Händel</value>
+  </data>
+  <data name="names/ger995" xml:space="preserve">
+    <value>Hansen</value>
+  </data>
+  <data name="names/ger996" xml:space="preserve">
+    <value>Haydn</value>
+  </data>
+  <data name="names/ger997" xml:space="preserve">
+    <value>Lauda</value>
+  </data>
+  <data name="names/ger998" xml:space="preserve">
+    <value>Lindemann</value>
+  </data>
+  <data name="names/ger999" xml:space="preserve">
+    <value>Mauser</value>
+  </data>
+  <data name="names/gern271" xml:space="preserve">
+    <value>Joseph</value>
+  </data>
+  <data name="names/ger11001" xml:space="preserve">
+    <value>Becker</value>
+  </data>
+  <data name="names/ger11002" xml:space="preserve">
+    <value>Berger</value>
+  </data>
+  <data name="names/ger11003" xml:space="preserve">
+    <value>Bogner</value>
+  </data>
+  <data name="names/ger11004" xml:space="preserve">
+    <value>Fröhler</value>
+  </data>
+  <data name="names/ger11005" xml:space="preserve">
+    <value>Gierisch</value>
+  </data>
+  <data name="names/ger11006" xml:space="preserve">
+    <value>Götze</value>
+  </data>
+  <data name="names/ger11007" xml:space="preserve">
+    <value>Hartz</value>
+  </data>
+  <data name="names/ger11008" xml:space="preserve">
+    <value>Hübert</value>
+  </data>
+  <data name="names/ger11009" xml:space="preserve">
+    <value>Irlbacher</value>
+  </data>
+  <data name="names/ger11010" xml:space="preserve">
+    <value>Irrgang</value>
+  </data>
+  <data name="names/ger11011" xml:space="preserve">
+    <value>Kastenmeier</value>
+  </data>
+  <data name="names/ger11012" xml:space="preserve">
+    <value>Krämer</value>
+  </data>
+  <data name="names/ger11013" xml:space="preserve">
+    <value>Lahm</value>
+  </data>
+  <data name="names/ger11014" xml:space="preserve">
+    <value>Löw</value>
+  </data>
+  <data name="names/ger11015" xml:space="preserve">
+    <value>Luger</value>
+  </data>
+  <data name="names/ger11016" xml:space="preserve">
+    <value>Mühlbauer</value>
+  </data>
+  <data name="names/ger11017" xml:space="preserve">
+    <value>Scholtz</value>
+  </data>
+  <data name="names/ger11018" xml:space="preserve">
+    <value>Semmler</value>
+  </data>
+  <data name="names/ger11019" xml:space="preserve">
+    <value>Zauner</value>
+  </data>
+  <data name="names/gern11001" xml:space="preserve">
+    <value>Angelika</value>
+  </data>
+  <data name="names/gern11002" xml:space="preserve">
+    <value>Barbara</value>
+  </data>
+  <data name="names/gern11003" xml:space="preserve">
+    <value>Claudia</value>
+  </data>
+  <data name="names/gern11004" xml:space="preserve">
+    <value>Dörte</value>
+  </data>
+  <data name="names/gern11005" xml:space="preserve">
+    <value>Eltraud</value>
+  </data>
+  <data name="names/gern11006" xml:space="preserve">
+    <value>Eva</value>
+  </data>
+  <data name="names/gern11007" xml:space="preserve">
+    <value>Hanna</value>
+  </data>
+  <data name="names/gern11008" xml:space="preserve">
+    <value>Iris</value>
+  </data>
+  <data name="names/gern11009" xml:space="preserve">
+    <value>Judith</value>
+  </data>
+  <data name="names/gern11010" xml:space="preserve">
+    <value>Karin</value>
+  </data>
+  <data name="names/gern11011" xml:space="preserve">
+    <value>Luise</value>
+  </data>
+  <data name="names/gern11012" xml:space="preserve">
+    <value>Melanie</value>
+  </data>
+  <data name="names/gern11013" xml:space="preserve">
+    <value>Nadine</value>
+  </data>
+  <data name="names/gern11014" xml:space="preserve">
+    <value>Patrizia</value>
+  </data>
+  <data name="names/gern11015" xml:space="preserve">
+    <value>Paula</value>
+  </data>
+  <data name="names/gern11016" xml:space="preserve">
+    <value>Renate</value>
+  </data>
+  <data name="names/gern11017" xml:space="preserve">
+    <value>Ruth</value>
+  </data>
+  <data name="names/gern11018" xml:space="preserve">
+    <value>Sabine</value>
+  </data>
+  <data name="names/gern11019" xml:space="preserve">
+    <value>Waltraud</value>
+  </data>
+  <data name="names/gern11020" xml:space="preserve">
+    <value>Agnes</value>
+  </data>
+  <data name="names/gern11021" xml:space="preserve">
+    <value>Augusta</value>
+  </data>
+  <data name="names/gern11022" xml:space="preserve">
+    <value>Brigitte</value>
+  </data>
+  <data name="names/gern11023" xml:space="preserve">
+    <value>Brunhild</value>
+  </data>
+  <data name="names/gern11024" xml:space="preserve">
+    <value>Christine</value>
+  </data>
+  <data name="names/gern11025" xml:space="preserve">
+    <value>Emma</value>
+  </data>
+  <data name="names/gern11026" xml:space="preserve">
+    <value>Elsa</value>
+  </data>
+  <data name="names/gern11027" xml:space="preserve">
+    <value>Erika</value>
+  </data>
+  <data name="names/gern11028" xml:space="preserve">
+    <value>Gabi</value>
+  </data>
+  <data name="names/gern11029" xml:space="preserve">
+    <value>Gertrud</value>
+  </data>
+  <data name="names/gern11030" xml:space="preserve">
+    <value>Greta</value>
+  </data>
+  <data name="names/gern11031" xml:space="preserve">
+    <value>Heidi</value>
+  </data>
+  <data name="names/gern11032" xml:space="preserve">
+    <value>Helena</value>
+  </data>
+  <data name="names/gern11033" xml:space="preserve">
+    <value>Helga</value>
+  </data>
+  <data name="names/gern11034" xml:space="preserve">
+    <value>Hildegard</value>
+  </data>
+  <data name="names/gern11035" xml:space="preserve">
+    <value>Inge</value>
+  </data>
+  <data name="names/gern11036" xml:space="preserve">
+    <value>Ingrid</value>
+  </data>
+  <data name="names/gern11037" xml:space="preserve">
+    <value>Irma</value>
+  </data>
+  <data name="names/gern11038" xml:space="preserve">
+    <value>Katharina</value>
+  </data>
+  <data name="names/gern11039" xml:space="preserve">
+    <value>Klara</value>
+  </data>
+  <data name="names/gern11040" xml:space="preserve">
+    <value>Maria</value>
+  </data>
+  <data name="names/gern11041" xml:space="preserve">
+    <value>Marleen</value>
+  </data>
+  <data name="names/gern11042" xml:space="preserve">
+    <value>Margarete</value>
+  </data>
+  <data name="names/gern11043" xml:space="preserve">
+    <value>Susanne</value>
+  </data>
+  <data name="names/gern11044" xml:space="preserve">
+    <value>Ulrike</value>
+  </data>
+  <data name="names/gern11045" xml:space="preserve">
+    <value>Ursula</value>
+  </data>
+  <data name="names/ger1021" xml:space="preserve">
+    <value>von Homburg</value>
+  </data>
+  <data name="names/ger1022" xml:space="preserve">
+    <value>von Kessler</value>
+  </data>
+  <data name="names/ger1023" xml:space="preserve">
+    <value>von Lahberg</value>
+  </data>
+  <data name="names/ger1024" xml:space="preserve">
+    <value>von Odinger</value>
+  </data>
+  <data name="names/ger1025" xml:space="preserve">
+    <value>von Sonnemann</value>
+  </data>
+  <data name="names/ger1026" xml:space="preserve">
+    <value>von Voss</value>
+  </data>
+  <data name="names/ger1027" xml:space="preserve">
+    <value>von Witmahr</value>
+  </data>
+</root>

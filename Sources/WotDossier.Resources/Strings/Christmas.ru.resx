@@ -1,0 +1,884 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="awardWindow/christmasTree/lvlUp/additionalText" xml:space="preserve">
+    <value>За каждый уровень с I по X вы будете получать всё более существенные призы и подарки.</value>
+  </data>
+  <data name="awardWindow/christmasTree/lvlUp/bodyBtn" xml:space="preserve">
+    <value>К ящику!</value>
+  </data>
+  <data name="awardWindow/christmasTree/lvlUp/description" xml:space="preserve">
+    <value>А это значит, что вы получаете ящик с ценными подарками. Незамедлительно вскройте его!</value>
+  </data>
+  <data name="awardWindow/christmasTree/lvlUp/header" xml:space="preserve">
+    <value>Атмосфера праздника достигла %(lvl)s уровня!</value>
+  </data>
+  <data name="awardWindow/christmasTree/lvlUp/title" xml:space="preserve">
+    <value>Информационный листок</value>
+  </data>
+  <data name="bonus/toy" xml:space="preserve">
+    <value>«%(name)s» (x%(count)s)</value>
+  </data>
+  <data name="box/with/ANY" xml:space="preserve">
+    <value>со случайной игрушкой</value>
+  </data>
+  <data name="box/with/GARLAND" xml:space="preserve">
+    <value>c гирляндой</value>
+  </data>
+  <data name="box/with/HANGING" xml:space="preserve">
+    <value>c подвесной игрушкой</value>
+  </data>
+  <data name="box/with/STANDING" xml:space="preserve">
+    <value>с игрушкой под ёлку</value>
+  </data>
+  <data name="box/with/TOP" xml:space="preserve">
+    <value>с навершием</value>
+  </data>
+  <data name="btn/apply" xml:space="preserve">
+    <value>Применить и закрыть</value>
+  </data>
+  <data name="btn/back/description" xml:space="preserve">
+    <value>В АНГАР</value>
+  </data>
+  <data name="btn/back/label" xml:space="preserve">
+    <value>НАЗАД</value>
+  </data>
+  <data name="btn/close/label" xml:space="preserve">
+    <value>ЗАКРЫТЬ</value>
+  </data>
+  <data name="chestView/backBtn/descr/toHangar" xml:space="preserve">
+    <value>В АНГАР</value>
+  </data>
+  <data name="chestView/backBtn/descr/toXmasTree" xml:space="preserve">
+    <value>К ЁЛКЕ</value>
+  </data>
+  <data name="chestView/backBtn/label" xml:space="preserve">
+    <value>НАЗАД</value>
+  </data>
+  <data name="chestView/btnLabel/backToTree" xml:space="preserve">
+    <value>Вернуться к украшению</value>
+  </data>
+  <data name="chestView/btnLabel/open" xml:space="preserve">
+    <value>Вскрыть ящик</value>
+  </data>
+  <data name="chestView/btnLabel/openNext" xml:space="preserve">
+    <value>Вскрыть следующий</value>
+  </data>
+  <data name="chestView/closeBtnLabel" xml:space="preserve">
+    <value>ЗАКРЫТЬ</value>
+  </data>
+  <data name="chestView/getAward" xml:space="preserve">
+    <value>Получена награда</value>
+  </data>
+  <data name="chestView/statusLabel" xml:space="preserve">
+    <value>Закрытых ящиков: %(count)s</value>
+  </data>
+  <data name="conversionView/cancelBtn/label" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="conversionView/convertBtn/label" xml:space="preserve">
+    <value>Улучшить</value>
+  </data>
+  <data name="conversionView/description" xml:space="preserve">
+    <value>Поместите в слоты слева %(numConverted)s украшений одного уровня,
+чтобы получить %(numObtained)s предмет уровнем выше.
+Украшения V уровня обмениваются на что-то другое V уровня.</value>
+  </data>
+  <data name="conversionView/title" xml:space="preserve">
+    <value>Новогоднее колдунство</value>
+  </data>
+  <data name="customizationTab/snowTank/label" xml:space="preserve">
+    <value>Танковик</value>
+  </data>
+  <data name="customizationTab/tree/label" xml:space="preserve">
+    <value>Ёлка</value>
+  </data>
+  <data name="emptyList/hasntToys/btnLabel" xml:space="preserve">
+    <value>Перейти к задачам</value>
+  </data>
+  <data name="emptyList/hasntToys/description" xml:space="preserve">
+    <value>Игрушки отсутствуют. Выполняйте специальные боевые задачи, чтобы получить игрушки для украшения ёлки и танковика.</value>
+  </data>
+  <data name="emptyList/hasntToys/title" xml:space="preserve">
+    <value>Список пуст</value>
+  </data>
+  <data name="emptyList/nothingToShow/btnLabel" xml:space="preserve">
+    <value>Сбросить фильтр</value>
+  </data>
+  <data name="emptyList/nothingToShow/description" xml:space="preserve">
+    <value>Украшений, удовлетворяющих условиям фильтра, не найдено.</value>
+  </data>
+  <data name="emptyList/nothingToShow/title" xml:space="preserve">
+    <value>Поиск не дал результатов</value>
+  </data>
+  <data name="filters/rank/name" xml:space="preserve">
+    <value>Уровень</value>
+  </data>
+  <data name="filters/type/name" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="hangarBtn/description/hasToys" xml:space="preserve">
+    <value>Есть новые игрушки!</value>
+  </data>
+  <data name="hangarBtn/label/decorate" xml:space="preserve">
+    <value>Перейти к украшению</value>
+  </data>
+  <data name="hangarBtn/label/treeLvl" xml:space="preserve">
+    <value>Атмосфера праздника: %(lvl)s</value>
+  </data>
+  <data name="nyMarathon/promo/title" xml:space="preserve">
+    <value>Новогоднее наступление</value>
+  </data>
+  <data name="progressBar/levelText/text" xml:space="preserve">
+    <value>Атмосфера праздника: %(lvl)s</value>
+  </data>
+  <data name="rulesLabel/text" xml:space="preserve">
+    <value>Инструкция</value>
+  </data>
+  <data name="topToyDescription/122" xml:space="preserve">
+    <value>«У меня в Ангаре! Нет, я серьёзно, у меня в Ангаре золотой Type 59!»</value>
+  </data>
+  <data name="topToyDescription/123" xml:space="preserve">
+    <value>Древний артефакт, с помощью которого специалисты отдела баланса проводят тщательную обработку каждой боевой машины.</value>
+  </data>
+  <data name="topToyDescription/124" xml:space="preserve">
+    <value>«...потом они вернули меня в далёкое детство, предложили управлять огромной серой мортирой, и графика при этом была восьмибитной! Управлять мортирой «Karl», Карл!»</value>
+  </data>
+  <data name="topToyDescription/125" xml:space="preserve">
+    <value>Масштабная модель беспилотного ночного разведчика (позывной — «У-ху»). Работы были свёрнуты на стадии предполётной заправки.</value>
+  </data>
+  <data name="topToyDescription/126" xml:space="preserve">
+    <value>В ранних версиях игры носила название «Победить!», но оно не прижилось по непонятным причинам.</value>
+  </data>
+  <data name="topToyDescription/127" xml:space="preserve">
+    <value>«Вас заметили».</value>
+  </data>
+  <data name="topToyDescription/128" xml:space="preserve">
+    <value>Не боится даже машин Х уровня. Вообще никого не боится.</value>
+  </data>
+  <data name="topToyDescription/132" xml:space="preserve">
+    <value>В ранних версиях игры носила название «Победить!», но оно не прижилось по непонятным причинам.</value>
+  </data>
+  <data name="topToyDescription/20" xml:space="preserve">
+    <value>Гирлянда показывает уровень мастерства командиров каждой из машин.</value>
+  </data>
+  <data name="topToyDescription/21" xml:space="preserve">
+    <value>На вашей миникарте явно недостаточно красных квадратиков.</value>
+  </data>
+  <data name="topToyDescription/229" xml:space="preserve">
+    <value>Ядрёная смесь природных и искусственных компонентов краски вгрызается глубоко в снег и намертво скрепляет его, увеличивая показатели брони танковика, его маскировки, а также боевого духа экипажа.</value>
+  </data>
+  <data name="topToyDescription/23" xml:space="preserve">
+    <value>Пригодятся в ближнем бою, когда основное орудие перезаряжается.</value>
+  </data>
+  <data name="topToyDescription/230" xml:space="preserve">
+    <value>Камуфляж нанесён с особым тщанием и любовью через трафарет, вырезанный из папок «Дело №_».</value>
+  </data>
+  <data name="topToyDescription/231" xml:space="preserve">
+    <value>И почему его назвали «Цифровым»? Мы ни одной цифры не нашли — всё квадратики да прямоугольнички.</value>
+  </data>
+  <data name="topToyDescription/236" xml:space="preserve">
+    <value>Фанерно-молибденовая броня, обогащённая акварелью, прикроет борт танковика от шального снежка.</value>
+  </data>
+  <data name="topToyDescription/237" xml:space="preserve">
+    <value>Мы бы рекомендовали убрать горячий самовар со снежного борта.</value>
+  </data>
+  <data name="topToyDescription/238" xml:space="preserve">
+    <value>«Ребята, ну, честное слово, всё будет хорошо!»</value>
+  </data>
+  <data name="topToyDescription/24" xml:space="preserve">
+    <value>Значительно снижает заметность неподвижной ёлки.</value>
+  </data>
+  <data name="topToyDescription/243" xml:space="preserve">
+    <value>Ящики, коробки, канистры — весь нехитрый и хитрый скарб, который может пригодиться во время затяжного похода на поле боя. Бой снежками, естественно.</value>
+  </data>
+  <data name="topToyDescription/244" xml:space="preserve">
+    <value>«Это баян!» — скажете вы и будете правы.</value>
+  </data>
+  <data name="topToyDescription/245" xml:space="preserve">
+    <value>Богато. Роскошно. Ярко. Почти как золотой Type 59, только КВ-2 и у вас в Ангаре.</value>
+  </data>
+  <data name="topToyDescription/250" xml:space="preserve">
+    <value>Всё, что было найдено за гаражами, в сарае, на балконе и на антресолях. Существенно увеличивает лобовую броню и вселяет страх в противника.</value>
+  </data>
+  <data name="topToyDescription/251" xml:space="preserve">
+    <value>Пока командир танковика прокладывает маршрут наступления, вы может покрутить снежные гайки вполне настоящими ключами. Не спрашивайте, зачем.</value>
+  </data>
+  <data name="topToyDescription/252" xml:space="preserve">
+    <value>Ослепите противника великолепием! Любой человек с развитым чувством прекрасного не осмелится произвести выстрел в такую красоту.</value>
+  </data>
+  <data name="topToyDescription/44" xml:space="preserve">
+    <value>Тайный символ, объединяющий миллионы людей по всему миру.</value>
+  </data>
+  <data name="topToyDescription/47" xml:space="preserve">
+    <value>Любезно предоставлен одним из многочисленных бывших радистов КВ-5 для украшения вашей ёлки.</value>
+  </data>
+  <data name="topToyDescription/48" xml:space="preserve">
+    <value>«Зелёному знамени базы союзной мы будем всегда беззаветно верны!»</value>
+  </data>
+  <data name="topToyDescription/49" xml:space="preserve">
+    <value>Только лучшие песни, лозунги и любимые обращения политических деятелей!</value>
+  </data>
+  <data name="topToyDescription/50" xml:space="preserve">
+    <value>[Саня, напиши тут какой-нибудь патриотический мотивирующий призыв, у меня времени нет.]</value>
+  </data>
+  <data name="topToyDescription/70" xml:space="preserve">
+    <value>Может пригодиться в затяжном бою. В крайнем случае можно и самим ящиком приложить.</value>
+  </data>
+  <data name="topToyDescription/71" xml:space="preserve">
+    <value>Только артиллерия знает, что внутри этого чемодана.</value>
+  </data>
+  <data name="topToyDescription/72" xml:space="preserve">
+    <value>Здесь временно поживёт лающая охрана Ангара, стерегущая вашу технику от угона. В другие дни позаботьтесь о безопасности вашего аккаунта самостоятельно.</value>
+  </data>
+  <data name="topToyDescription/73" xml:space="preserve">
+    <value>Когда-то среди игроков ходила легенда о зловещем призраке танка, появляющемся время от времени на поле боя, и только тем, кто силён духом, удавалось изгнать его и вернуть мир мирному населению мира танков.</value>
+  </data>
+  <data name="topToyDescription/74" xml:space="preserve">
+    <value>Вы могли бы обменять этот ящик на всю премиум технику в игре, но увы.</value>
+  </data>
+  <data name="toyName/1" xml:space="preserve">
+    <value>Красная</value>
+  </data>
+  <data name="toyName/10" xml:space="preserve">
+    <value>Спиральная синяя</value>
+  </data>
+  <data name="toyName/100" xml:space="preserve">
+    <value>Золотистая подвесная звезда</value>
+  </data>
+  <data name="toyName/101" xml:space="preserve">
+    <value>Серебристая подвесная звезда</value>
+  </data>
+  <data name="toyName/102" xml:space="preserve">
+    <value>Праздничная свеча</value>
+  </data>
+  <data name="toyName/103" xml:space="preserve">
+    <value>Сапожок для подарка</value>
+  </data>
+  <data name="toyName/104" xml:space="preserve">
+    <value>Подвесная коробочка с подарочком</value>
+  </data>
+  <data name="toyName/105" xml:space="preserve">
+    <value>Подвесная снежинка</value>
+  </data>
+  <data name="toyName/106" xml:space="preserve">
+    <value>Подвесная исследуемая ходовая</value>
+  </data>
+  <data name="toyName/107" xml:space="preserve">
+    <value>Панцеркампфета</value>
+  </data>
+  <data name="toyName/108" xml:space="preserve">
+    <value>Пряничный домик</value>
+  </data>
+  <data name="toyName/109" xml:space="preserve">
+    <value>Подвесной танковичок</value>
+  </data>
+  <data name="toyName/11" xml:space="preserve">
+    <value>Спиральная жёлтая</value>
+  </data>
+  <data name="toyName/110" xml:space="preserve">
+    <value>Подвесная рождественская кампфета</value>
+  </data>
+  <data name="toyName/111" xml:space="preserve">
+    <value>Дедушкин бинокль</value>
+  </data>
+  <data name="toyName/112" xml:space="preserve">
+    <value>УБР-551</value>
+  </data>
+  <data name="toyName/113" xml:space="preserve">
+    <value>Дедушкина фляга</value>
+  </data>
+  <data name="toyName/114" xml:space="preserve">
+    <value>Талисман на удачу</value>
+  </data>
+  <data name="toyName/115" xml:space="preserve">
+    <value>Брелок С-51</value>
+  </data>
+  <data name="toyName/116" xml:space="preserve">
+    <value>Брелок Т-34-85</value>
+  </data>
+  <data name="toyName/117" xml:space="preserve">
+    <value>Ёлочный Воин</value>
+  </data>
+  <data name="toyName/118" xml:space="preserve">
+    <value>Ёлочный Основной калибр</value>
+  </data>
+  <data name="toyName/119" xml:space="preserve">
+    <value>Ёлочная Стальная стена</value>
+  </data>
+  <data name="toyName/12" xml:space="preserve">
+    <value>Спиральная фиолетовая</value>
+  </data>
+  <data name="toyName/120" xml:space="preserve">
+    <value>Ёлочная Поддержка</value>
+  </data>
+  <data name="toyName/121" xml:space="preserve">
+    <value>Ёлочный Разведчик</value>
+  </data>
+  <data name="toyName/122" xml:space="preserve">
+    <value>Золотой Type 59</value>
+  </data>
+  <data name="toyName/123" xml:space="preserve">
+    <value>Инструмент балансировщика</value>
+  </data>
+  <data name="toyName/124" xml:space="preserve">
+    <value>Karl</value>
+  </data>
+  <data name="toyName/125" xml:space="preserve">
+    <value>Шаросыч</value>
+  </data>
+  <data name="toyName/126" xml:space="preserve">
+    <value>Красная Кнопка</value>
+  </data>
+  <data name="toyName/127" xml:space="preserve">
+    <value>Лампочка</value>
+  </data>
+  <data name="toyName/128" xml:space="preserve">
+    <value>Брелок КВ-2</value>
+  </data>
+  <data name="toyName/129" xml:space="preserve">
+    <value>Красная заснеженная шишка</value>
+  </data>
+  <data name="toyName/13" xml:space="preserve">
+    <value>С флажками</value>
+  </data>
+  <data name="toyName/130" xml:space="preserve">
+    <value>Синяя заснеженная шишка</value>
+  </data>
+  <data name="toyName/131" xml:space="preserve">
+    <value>Серебристая заснеженная шишка</value>
+  </data>
+  <data name="toyName/132" xml:space="preserve">
+    <value>Красная Кнопка</value>
+  </data>
+  <data name="toyName/14" xml:space="preserve">
+    <value>Со звёздами</value>
+  </data>
+  <data name="toyName/15" xml:space="preserve">
+    <value>Электрическая со звёздами</value>
+  </data>
+  <data name="toyName/16" xml:space="preserve">
+    <value>Электрическая с лампочками</value>
+  </data>
+  <data name="toyName/17" xml:space="preserve">
+    <value>Электрическая с буквами</value>
+  </data>
+  <data name="toyName/18" xml:space="preserve">
+    <value>Дед с оленями</value>
+  </data>
+  <data name="toyName/19" xml:space="preserve">
+    <value>Танки на марше</value>
+  </data>
+  <data name="toyName/2" xml:space="preserve">
+    <value>Синяя</value>
+  </data>
+  <data name="toyName/20" xml:space="preserve">
+    <value>Электрические танки на марше</value>
+  </data>
+  <data name="toyName/21" xml:space="preserve">
+    <value>Полный набор</value>
+  </data>
+  <data name="toyName/22" xml:space="preserve">
+    <value>Множители опыта</value>
+  </data>
+  <data name="toyName/225" xml:space="preserve">
+    <value>Снежно-полосатый</value>
+  </data>
+  <data name="toyName/226" xml:space="preserve">
+    <value>Снежно-пятнистый</value>
+  </data>
+  <data name="toyName/227" xml:space="preserve">
+    <value>Снежно-оскольчатый</value>
+  </data>
+  <data name="toyName/228" xml:space="preserve">
+    <value>Снежно-леопардовый</value>
+  </data>
+  <data name="toyName/229" xml:space="preserve">
+    <value>Снежно-волнистый</value>
+  </data>
+  <data name="toyName/23" xml:space="preserve">
+    <value>Патроны к личному оружию</value>
+  </data>
+  <data name="toyName/230" xml:space="preserve">
+    <value>Снежно-болотный</value>
+  </data>
+  <data name="toyName/231" xml:space="preserve">
+    <value>Снежно-цифровой</value>
+  </data>
+  <data name="toyName/232" xml:space="preserve">
+    <value>Скромное такое, неброское</value>
+  </data>
+  <data name="toyName/233" xml:space="preserve">
+    <value>Походно-маршевое</value>
+  </data>
+  <data name="toyName/234" xml:space="preserve">
+    <value>Штурмовое</value>
+  </data>
+  <data name="toyName/235" xml:space="preserve">
+    <value>Фронтовое</value>
+  </data>
+  <data name="toyName/236" xml:space="preserve">
+    <value>Противоосколочно-противокумулятивное</value>
+  </data>
+  <data name="toyName/237" xml:space="preserve">
+    <value>Народное-нарядное</value>
+  </data>
+  <data name="toyName/238" xml:space="preserve">
+    <value>Роскошное</value>
+  </data>
+  <data name="toyName/239" xml:space="preserve">
+    <value>Скромное такое, неброское</value>
+  </data>
+  <data name="toyName/24" xml:space="preserve">
+    <value>Маскировочная сеть</value>
+  </data>
+  <data name="toyName/240" xml:space="preserve">
+    <value>Походно-маршевое</value>
+  </data>
+  <data name="toyName/241" xml:space="preserve">
+    <value>Штурмовое</value>
+  </data>
+  <data name="toyName/242" xml:space="preserve">
+    <value>Фронтовое</value>
+  </data>
+  <data name="toyName/243" xml:space="preserve">
+    <value>Противоосколочно-противокумулятивное</value>
+  </data>
+  <data name="toyName/244" xml:space="preserve">
+    <value>Народное-нарядное</value>
+  </data>
+  <data name="toyName/245" xml:space="preserve">
+    <value>Роскошное</value>
+  </data>
+  <data name="toyName/246" xml:space="preserve">
+    <value>Скромное такое, неброское</value>
+  </data>
+  <data name="toyName/247" xml:space="preserve">
+    <value>Походно-маршевое</value>
+  </data>
+  <data name="toyName/248" xml:space="preserve">
+    <value>Штурмовое</value>
+  </data>
+  <data name="toyName/249" xml:space="preserve">
+    <value>Фронтовое</value>
+  </data>
+  <data name="toyName/25" xml:space="preserve">
+    <value>С флажками (Ленд-лиз)</value>
+  </data>
+  <data name="toyName/250" xml:space="preserve">
+    <value>Противоосколочно-противокумулятивное</value>
+  </data>
+  <data name="toyName/251" xml:space="preserve">
+    <value>Народное-нарядное</value>
+  </data>
+  <data name="toyName/252" xml:space="preserve">
+    <value>Роскошное</value>
+  </data>
+  <data name="toyName/26" xml:space="preserve">
+    <value>Электрическая с буквами (Ленд-лиз)</value>
+  </data>
+  <data name="toyName/27" xml:space="preserve">
+    <value>Неоклассическое красное</value>
+  </data>
+  <data name="toyName/28" xml:space="preserve">
+    <value>Неоклассическое синее</value>
+  </data>
+  <data name="toyName/29" xml:space="preserve">
+    <value>Неоклассическое серебристое</value>
+  </data>
+  <data name="toyName/3" xml:space="preserve">
+    <value>Серебристая</value>
+  </data>
+  <data name="toyName/30" xml:space="preserve">
+    <value>Классическое красное</value>
+  </data>
+  <data name="toyName/31" xml:space="preserve">
+    <value>Классическое синее</value>
+  </data>
+  <data name="toyName/32" xml:space="preserve">
+    <value>Классическое серебристое</value>
+  </data>
+  <data name="toyName/33" xml:space="preserve">
+    <value>Спиральное золотистое</value>
+  </data>
+  <data name="toyName/34" xml:space="preserve">
+    <value>Спиральное серебристое</value>
+  </data>
+  <data name="toyName/35" xml:space="preserve">
+    <value>Заснеженное красное</value>
+  </data>
+  <data name="toyName/36" xml:space="preserve">
+    <value>Заснеженное синее</value>
+  </data>
+  <data name="toyName/37" xml:space="preserve">
+    <value>Заснеженное серебристое</value>
+  </data>
+  <data name="toyName/38" xml:space="preserve">
+    <value>Простая снежинка</value>
+  </data>
+  <data name="toyName/39" xml:space="preserve">
+    <value>Сложная снежинка</value>
+  </data>
+  <data name="toyName/4" xml:space="preserve">
+    <value>Фиолетовая</value>
+  </data>
+  <data name="toyName/40" xml:space="preserve">
+    <value>Белая звезда</value>
+  </data>
+  <data name="toyName/41" xml:space="preserve">
+    <value>Красная звезда</value>
+  </data>
+  <data name="toyName/42" xml:space="preserve">
+    <value>Красная роза ветров</value>
+  </data>
+  <data name="toyName/43" xml:space="preserve">
+    <value>Белая роза ветров</value>
+  </data>
+  <data name="toyName/44" xml:space="preserve">
+    <value>Эмблема World of Tanks</value>
+  </data>
+  <data name="toyName/45" xml:space="preserve">
+    <value>Золотистая звезда</value>
+  </data>
+  <data name="toyName/46" xml:space="preserve">
+    <value>Серебристая звезда</value>
+  </data>
+  <data name="toyName/47" xml:space="preserve">
+    <value>Стальной шлем</value>
+  </data>
+  <data name="toyName/48" xml:space="preserve">
+    <value>Флаг союзной базы </value>
+  </data>
+  <data name="toyName/49" xml:space="preserve">
+    <value>Репродуктор</value>
+  </data>
+  <data name="toyName/5" xml:space="preserve">
+    <value>Пушистая красная</value>
+  </data>
+  <data name="toyName/50" xml:space="preserve">
+    <value>Самая Красная Звезда</value>
+  </data>
+  <data name="toyName/51" xml:space="preserve">
+    <value>Сугроб из искусственного снега</value>
+  </data>
+  <data name="toyName/52" xml:space="preserve">
+    <value>Маленькая коробочка с подарочком</value>
+  </data>
+  <data name="toyName/53" xml:space="preserve">
+    <value>Желанный противник (в снайперском прицеле)</value>
+  </data>
+  <data name="toyName/54" xml:space="preserve">
+    <value>Сугроб с тайником</value>
+  </data>
+  <data name="toyName/55" xml:space="preserve">
+    <value>Мешок с подарками</value>
+  </data>
+  <data name="toyName/56" xml:space="preserve">
+    <value>Большая коробка с подарком</value>
+  </data>
+  <data name="toyName/57" xml:space="preserve">
+    <value>Базовая ходовая</value>
+  </data>
+  <data name="toyName/58" xml:space="preserve">
+    <value>Исследуемая ходовая</value>
+  </data>
+  <data name="toyName/59" xml:space="preserve">
+    <value>Малая аптечка</value>
+  </data>
+  <data name="toyName/6" xml:space="preserve">
+    <value>Пушистая синяя</value>
+  </data>
+  <data name="toyName/60" xml:space="preserve">
+    <value>Малый ремкомплект</value>
+  </data>
+  <data name="toyName/61" xml:space="preserve">
+    <value>Ручной огнетушитель</value>
+  </data>
+  <data name="toyName/62" xml:space="preserve">
+    <value>Снегурочка</value>
+  </data>
+  <data name="toyName/63" xml:space="preserve">
+    <value>Генерал Мороз</value>
+  </data>
+  <data name="toyName/64" xml:space="preserve">
+    <value>Вскрытый мешок с подарками</value>
+  </data>
+  <data name="toyName/65" xml:space="preserve">
+    <value>Желанный противник (в аркадном прицеле)</value>
+  </data>
+  <data name="toyName/66" xml:space="preserve">
+    <value>Танковичок</value>
+  </data>
+  <data name="toyName/67" xml:space="preserve">
+    <value>Большой ремкомплект</value>
+  </data>
+  <data name="toyName/68" xml:space="preserve">
+    <value>Большая аптечка</value>
+  </data>
+  <data name="toyName/69" xml:space="preserve">
+    <value>Автоматический огнетушитель</value>
+  </data>
+  <data name="toyName/7" xml:space="preserve">
+    <value>Пушистая серебристая</value>
+  </data>
+  <data name="toyName/70" xml:space="preserve">
+    <value>Ящик с боеприпасами</value>
+  </data>
+  <data name="toyName/71" xml:space="preserve">
+    <value>Секретное оружие</value>
+  </data>
+  <data name="toyName/72" xml:space="preserve">
+    <value>Охрана Ангара</value>
+  </data>
+  <data name="toyName/73" xml:space="preserve">
+    <value>Трофейный Белый Тигр</value>
+  </data>
+  <data name="toyName/74" xml:space="preserve">
+    <value>Ящик с золотом</value>
+  </data>
+  <data name="toyName/75" xml:space="preserve">
+    <value>Маленький красный шарик</value>
+  </data>
+  <data name="toyName/76" xml:space="preserve">
+    <value>Маленький синий шарик</value>
+  </data>
+  <data name="toyName/77" xml:space="preserve">
+    <value>Маленький серебристый шарик</value>
+  </data>
+  <data name="toyName/78" xml:space="preserve">
+    <value>Маленький чёрный шарик</value>
+  </data>
+  <data name="toyName/79" xml:space="preserve">
+    <value>Большой красный шарик</value>
+  </data>
+  <data name="toyName/8" xml:space="preserve">
+    <value>Пушистая фиолетовая</value>
+  </data>
+  <data name="toyName/80" xml:space="preserve">
+    <value>Большой синий шарик</value>
+  </data>
+  <data name="toyName/81" xml:space="preserve">
+    <value>Большой серебристый шарик</value>
+  </data>
+  <data name="toyName/82" xml:space="preserve">
+    <value>Большой чёрный шарик</value>
+  </data>
+  <data name="toyName/83" xml:space="preserve">
+    <value>Красная стеклянная шишка</value>
+  </data>
+  <data name="toyName/84" xml:space="preserve">
+    <value>Синяя стеклянная шишка</value>
+  </data>
+  <data name="toyName/85" xml:space="preserve">
+    <value>Серебристая стеклянная шишка</value>
+  </data>
+  <data name="toyName/86" xml:space="preserve">
+    <value>Нарядный красный шарик</value>
+  </data>
+  <data name="toyName/87" xml:space="preserve">
+    <value>Нарядный синий шарик</value>
+  </data>
+  <data name="toyName/88" xml:space="preserve">
+    <value>Нарядный серебристый шарик</value>
+  </data>
+  <data name="toyName/89" xml:space="preserve">
+    <value>Нарядный чёрный шарик</value>
+  </data>
+  <data name="toyName/9" xml:space="preserve">
+    <value>Спиральная красная</value>
+  </data>
+  <data name="toyName/90" xml:space="preserve">
+    <value>Синий шарик со звёздами</value>
+  </data>
+  <data name="toyName/91" xml:space="preserve">
+    <value>Нарядная красная шишка</value>
+  </data>
+  <data name="toyName/92" xml:space="preserve">
+    <value>Нарядная синяя шишка</value>
+  </data>
+  <data name="toyName/93" xml:space="preserve">
+    <value>Нарядная серебристая шишка</value>
+  </data>
+  <data name="toyName/94" xml:space="preserve">
+    <value>Красная подвесная звезда</value>
+  </data>
+  <data name="toyName/95" xml:space="preserve">
+    <value>Синяя подвесная звезда</value>
+  </data>
+  <data name="toyName/96" xml:space="preserve">
+    <value>Золотистый полосатый шарик</value>
+  </data>
+  <data name="toyName/97" xml:space="preserve">
+    <value>Серебристый полосатый шарик</value>
+  </data>
+  <data name="toyName/98" xml:space="preserve">
+    <value>Золотистая полосатая шишка</value>
+  </data>
+  <data name="toyName/99" xml:space="preserve">
+    <value>Серебристая полосатая шишка</value>
+  </data>
+  <data name="toyType/GARLAND" xml:space="preserve">
+    <value>Гирлянда</value>
+  </data>
+  <data name="toyType/HANGING" xml:space="preserve">
+    <value>Подвесная игрушка</value>
+  </data>
+  <data name="toyType/STANDING" xml:space="preserve">
+    <value>Игрушка под ёлку</value>
+  </data>
+  <data name="toyType/TANK_BOARD" xml:space="preserve">
+    <value>Бортовое украшение</value>
+  </data>
+  <data name="toyType/TANK_CAMOUFLAGE" xml:space="preserve">
+    <value>Камуфляж</value>
+  </data>
+  <data name="toyType/TANK_FRONT" xml:space="preserve">
+    <value>Лобовое украшение</value>
+  </data>
+  <data name="toyType/TANK_TURRET" xml:space="preserve">
+    <value>Башенное украшение</value>
+  </data>
+  <data name="toyType/TOP" xml:space="preserve">
+    <value>Навершие</value>
+  </data>
+  <data name="toyType/genitive/GARLAND" xml:space="preserve">
+    <value>гирлянды</value>
+  </data>
+  <data name="toyType/genitive/HANGING" xml:space="preserve">
+    <value>подвесной игрушки</value>
+  </data>
+  <data name="toyType/genitive/STANDING" xml:space="preserve">
+    <value>игрушки под ёлкой</value>
+  </data>
+  <data name="toyType/genitive/TANK_BOARD" xml:space="preserve">
+    <value>украшения борта</value>
+  </data>
+  <data name="toyType/genitive/TANK_CAMOUFLAGE" xml:space="preserve">
+    <value>камуфляжа</value>
+  </data>
+  <data name="toyType/genitive/TANK_FRONT" xml:space="preserve">
+    <value>украшения лба корпуса</value>
+  </data>
+  <data name="toyType/genitive/TANK_TURRET" xml:space="preserve">
+    <value>украшения башни</value>
+  </data>
+  <data name="toyType/genitive/TOP" xml:space="preserve">
+    <value>навершия</value>
+  </data>
+</root>

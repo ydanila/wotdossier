@@ -1,0 +1,2747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BuildingDirection/label1" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="BuildingDirection/label2" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="BuildingDirection/label3" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="BuildingDirection/label4" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="BuildingDirection/tooltip/body" xml:space="preserve">
+    <value>Click to open Zone %(value)s.</value>
+  </data>
+  <data name="BuildingDirection/tooltip/header" xml:space="preserve">
+    <value>Zone %(value)s</value>
+  </data>
+  <data name="BuildingPopover/assignPlayers" xml:space="preserve">
+    <value>(you are attached)</value>
+  </data>
+  <data name="BuildingPopover/commanderStatus/bodyStatus/congratulation" xml:space="preserve">
+    <value>Structure ready for upgrade.</value>
+  </data>
+  <data name="BuildingPopover/commanderStatus/bodyStatus/foundation" xml:space="preserve">
+    <value>Transport Industrial Resource or earn it in battles.</value>
+  </data>
+  <data name="BuildingPopover/commanderStatus/bodyStatus/halfDestroy" xml:space="preserve">
+    <value>Fill up the durability bar for the structure to function.</value>
+  </data>
+  <data name="BuildingPopover/commanderStatus/bodyStatus/modernization" xml:space="preserve">
+    <value>Structure ready for upgrade.</value>
+  </data>
+  <data name="BuildingPopover/defResActions/directionOpened" xml:space="preserve">
+    <value>Zones open: </value>
+  </data>
+  <data name="BuildingPopover/defResActions/management" xml:space="preserve">
+    <value>Zone Control</value>
+  </data>
+  <data name="BuildingPopover/defResActions/prepareTimeOver" xml:space="preserve">
+    <value>Time left: </value>
+  </data>
+  <data name="BuildingPopover/defResActions/preparedDefRes" xml:space="preserve">
+    <value>Prepared: %(currentValue)s</value>
+  </data>
+  <data name="BuildingPopover/defResActions/preparingDefRes" xml:space="preserve">
+    <value>Preparing Reserves: </value>
+  </data>
+  <data name="BuildingPopover/defResActions/requestDefRes" xml:space="preserve">
+    <value>Reserve Preparation</value>
+  </data>
+  <data name="BuildingPopover/defResInfo/baseBuildingTitle" xml:space="preserve">
+    <value>Zones of Stronghold</value>
+  </data>
+  <data name="BuildingPopover/defResInfo/defResBuildingTitle" xml:space="preserve">
+    <value>Battle Payments</value>
+  </data>
+  <data name="BuildingPopover/header/levelsLbl" xml:space="preserve">
+    <value>Level %(buildLevel)s</value>
+  </data>
+  <data name="BuildingPopover/header/messageStatus" xml:space="preserve">
+    <value>Level %(buildLevel)d</value>
+  </data>
+  <data name="BuildingPopover/header/titleStatus/congratulation" xml:space="preserve">
+    <value>Upgrade available!</value>
+  </data>
+  <data name="BuildingPopover/header/titleStatus/foundation" xml:space="preserve">
+    <value>Foundation</value>
+  </data>
+  <data name="BuildingPopover/header/titleStatus/freeze" xml:space="preserve">
+    <value>Defense overwhelmed!</value>
+  </data>
+  <data name="BuildingPopover/header/titleStatus/halfDestroy" xml:space="preserve">
+    <value>Partial destruction!</value>
+  </data>
+  <data name="BuildingPopover/header/titleStatus/modernization" xml:space="preserve">
+    <value>Upgrade available!</value>
+  </data>
+  <data name="BuildingPopover/indicators/defResLbl" xml:space="preserve">
+    <value>Depot</value>
+  </data>
+  <data name="BuildingPopover/indicators/hpLbl" xml:space="preserve">
+    <value>Durability</value>
+  </data>
+  <data name="BuildingPopover/soldierStatus/bodyStatus/foundation" xml:space="preserve">
+    <value>To finish building the structure, attach to its garrison and earn Industrial Resource.</value>
+  </data>
+  <data name="BuildingPopover/soldierStatus/bodyStatus/halfDestroy" xml:space="preserve">
+    <value>To repair structure, attach to its garrison and earn Industrial Resource.</value>
+  </data>
+  <data name="Buildings/buildingName/base_building" xml:space="preserve">
+    <value>Command Center</value>
+  </data>
+  <data name="Buildings/buildingName/car_building" xml:space="preserve">
+    <value>Transportation Unit</value>
+  </data>
+  <data name="Buildings/buildingName/finance_building" xml:space="preserve">
+    <value>Financial Unit</value>
+  </data>
+  <data name="Buildings/buildingName/intendancy_building" xml:space="preserve">
+    <value>Quartermaster Unit</value>
+  </data>
+  <data name="Buildings/buildingName/tankodrom_building" xml:space="preserve">
+    <value>Tankodrome</value>
+  </data>
+  <data name="Buildings/buildingName/training_building" xml:space="preserve">
+    <value>Training Unit</value>
+  </data>
+  <data name="Buildings/buildingName/trophy_building" xml:space="preserve">
+    <value>Trophy Brigade</value>
+  </data>
+  <data name="Buildings/buildingName/warSchool_building" xml:space="preserve">
+    <value>Military School</value>
+  </data>
+  <data name="Buildings/buildingTooltip/order" xml:space="preserve">
+    <value> 
+Preparing new Reserve (x%d):
+%s left.</value>
+  </data>
+  <data name="Buildings/buildingTooltip/store" xml:space="preserve">
+    <value> 
+Storage: </value>
+  </data>
+  <data name="Buildings/buildingTooltip/strength" xml:space="preserve">
+    <value>Durability: </value>
+  </data>
+  <data name="Buildings/defResInfo/base_building" xml:space="preserve">
+    <value>Open Zones allow to build structures, where Reserves are requested. Zones can be attacked by enemy clans.</value>
+  </data>
+  <data name="Buildings/defResInfo/car_building" xml:space="preserve">
+    <value>to plunder earned in Skirmishes.</value>
+  </data>
+  <data name="Buildings/defResInfo/finance_building" xml:space="preserve">
+    <value>to credits for all clan members after any battle.</value>
+  </data>
+  <data name="Buildings/defResInfo/intendancy_building" xml:space="preserve">
+    <value>to Industrial Resource kept after unsuccessful defense of Stronghold.</value>
+  </data>
+  <data name="Buildings/defResInfo/tankodrom_building" xml:space="preserve">
+    <value>to Combat Experience for all clan members after any battle.</value>
+  </data>
+  <data name="Buildings/defResInfo/training_building" xml:space="preserve">
+    <value>to crew experience for all clan members after any battle.</value>
+  </data>
+  <data name="Buildings/defResInfo/trophy_building" xml:space="preserve">
+    <value>to plunder after successful attack on enemy Stronghold.</value>
+  </data>
+  <data name="Buildings/defResInfo/warSchool_building" xml:space="preserve">
+    <value>to Free Experience for all clan members after any battle.</value>
+  </data>
+  <data name="Buildings/modernizationDescr/base_building" xml:space="preserve">
+    <value>available after upgrade of other structures in Stronghold.</value>
+  </data>
+  <data name="Buildings/processOrderInfo/car_building" xml:space="preserve">
+    <value>Enables clan members to earn up to 25% of extra plunder in Skirmishes. Percentage can be increased depending on Reserve level.</value>
+  </data>
+  <data name="Buildings/processOrderInfo/finance_building" xml:space="preserve">
+    <value>Clan members earn up to 50% additional credits in any battle. Percentage can be increased depending on Reserve level.</value>
+  </data>
+  <data name="Buildings/processOrderInfo/intendancy_building" xml:space="preserve">
+    <value>Decreases by up to 50% the loss of Industrial Resource after unsuccessful defense. Percentage retained depends on Reserve level.</value>
+  </data>
+  <data name="Buildings/processOrderInfo/tankodrom_building" xml:space="preserve">
+    <value>Clan members earn up to 50% additional experience in any battle. Percentage can be increased depending on Reserve level.</value>
+  </data>
+  <data name="Buildings/processOrderInfo/training_building" xml:space="preserve">
+    <value>Reserve of maximum level doubles crew experience earned in any battle.</value>
+  </data>
+  <data name="Buildings/processOrderInfo/trophy_building" xml:space="preserve">
+    <value>Enables clan members to earn up to 50% extra Industrial Resource in Advances. Percentage can be increased depending on Reserve level.</value>
+  </data>
+  <data name="Buildings/processOrderInfo/warSchool_building" xml:space="preserve">
+    <value>On the maximum level, Reserve doubles Free Experience earned after any battle.</value>
+  </data>
+  <data name="Buildings/trowelLabel" xml:space="preserve">
+    <value>Construction Site</value>
+  </data>
+  <data name="BuildingsProcess/buildingInfo/bottomMessage" xml:space="preserve">
+    <value>Structure already built.</value>
+  </data>
+  <data name="BuildingsProcess/buildingInfo/statusMessage" xml:space="preserve">
+    <value>Required: Level V Command Center</value>
+  </data>
+  <data name="BuildingsProcess/buttonLbl" xml:space="preserve">
+    <value>Start Building</value>
+  </data>
+  <data name="BuildingsProcess/buttonLblBuilt" xml:space="preserve">
+    <value>Structure already built</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/built" xml:space="preserve">
+    <value>всем бойцам ++++ ++ длиннове описание  built !!!!! д++++++ ддл иии иии  ::: выделяет дополнительные средства для выплаты жалования</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/car_building" xml:space="preserve">
+    <value>Mechanics of the Transportation Unit can attach a trailer to any tractor, increasing the amount of any transported cargo.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/finance_building" xml:space="preserve">
+    <value>The Financial Unit is responsible for all accounting in the Stronghold. Officers of the Financial Unit attract additional funds to increase the monetary allowance of clan members.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/intendancy_building" xml:space="preserve">
+    <value>Officers of the Quartermaster Unit arrange efficient evacuation of equipment within the Stronghold, ensuring that the clan can quickly replenish its forces after an unsuccessful defense.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/notAvailable" xml:space="preserve">
+    <value>всем бойцам ++ ++++ длиннове описание  notAvailable !!!!! д++++++ д длиии выделяет дополнительные средства для выплаты жалования</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/tankodrom_building" xml:space="preserve">
+    <value>Special area designed to determine vehicles' efficiency under ultimate load.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/training_building" xml:space="preserve">
+    <value>Combination of theoretical and practical studies allows recruits to quickly master the basics of military science.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/trophy_building" xml:space="preserve">
+    <value>After a successful attack on an enemy Stronghold, the Trophy Brigade retrieves abandoned vehicles, resources, and other valuables.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/warSchool_building" xml:space="preserve">
+    <value>Experienced instructors and thematic materials from the library facilitate the training of skilled officers ready for fighting in any conditions.</value>
+  </data>
+  <data name="BuildingsProcess/mainLabel/accessCount" xml:space="preserve">
+    <value>Built: %(current)s of %(total)s</value>
+  </data>
+  <data name="BuildingsProcess/orderInfo/descriptionPrefix" xml:space="preserve">
+    <value>Additional percent </value>
+  </data>
+  <data name="BuildingsProcess/orderInfo/header" xml:space="preserve">
+    <value>Battle Payments</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/car_building" xml:space="preserve">
+    <value>Additional Industrial Resource earned in Skirmishes</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/finance_building" xml:space="preserve">
+    <value>Additional credits after any battle</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/intendancy_building" xml:space="preserve">
+    <value>Decreases amount of enemy plunder after unsuccessful defense</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/tankodrom_building" xml:space="preserve">
+    <value>Additional Combat Experience after any battle</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/training_building" xml:space="preserve">
+    <value>Additional crew experience after any battle</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/trophy_building" xml:space="preserve">
+    <value>Increases amount of plunder earned after successful attack</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/warSchool_building" xml:space="preserve">
+    <value>Additional Free Experience after any battle</value>
+  </data>
+  <data name="BuildingsProcess/statusMsg/built" xml:space="preserve">
+    <value>Built</value>
+  </data>
+  <data name="BuildingsProcess/statusMsg/notAvailable" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="BuildingsProcess/textInfo" xml:space="preserve">
+    <value>Select a structure from the list on the left to see the detailed description.</value>
+  </data>
+  <data name="BuildingsProcess/windowTitle" xml:space="preserve">
+    <value>Building</value>
+  </data>
+  <data name="ChoiceDivision/applyBtnLbl" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="ChoiceDivision/cancelBtnLbl" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ChoiceDivision/description" xml:space="preserve">
+    <value>Division limits the maximum tier of vehicles and the amount of plunder that can be earned in Skirmishes by a detachment.</value>
+  </data>
+  <data name="ChoiceDivision/divisionFullName" xml:space="preserve">
+    <value>%(divisionType)s division</value>
+  </data>
+  <data name="ChoiceDivision/divisionProfit" xml:space="preserve">
+    <value>Plunder: %(defResCount)s</value>
+  </data>
+  <data name="ChoiceDivision/divisionType/absoluteDivision" xml:space="preserve">
+    <value>Absolute</value>
+  </data>
+  <data name="ChoiceDivision/divisionType/championDivision" xml:space="preserve">
+    <value>Champion</value>
+  </data>
+  <data name="ChoiceDivision/divisionType/middleDivision" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="ChoiceDivision/vehicleLevel" xml:space="preserve">
+    <value>Vehicle Tier: %(minLevel)s–%(maxLevel)s</value>
+  </data>
+  <data name="ChoiceDivision/windowTitle" xml:space="preserve">
+    <value>Select Division</value>
+  </data>
+  <data name="ClanListWindow/table/memberName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ClanListWindow/table/monthMining" xml:space="preserve">
+    <value>Per month</value>
+  </data>
+  <data name="ClanListWindow/table/role" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="ClanListWindow/table/weekMining" xml:space="preserve">
+    <value>Per week</value>
+  </data>
+  <data name="CongratulationWindow/buttonLbl" xml:space="preserve">
+    <value>Affirmative!</value>
+  </data>
+  <data name="CongratulationWindow/textBody" xml:space="preserve">
+    <value>%(sourceCount)s (units of Industrial Resource) added to storage in your Command Center. This amount is enough to build one structure and prepare one Reserve. This time you were given Industrial Resource for free. However, in the future you will need to earn it in Skirmishes and Advances.</value>
+  </data>
+  <data name="CongratulationWindow/textTitle" xml:space="preserve">
+    <value>Time to Build!</value>
+  </data>
+  <data name="CongratulationWindow/titleLbl" xml:space="preserve">
+    <value>New Zone Opened</value>
+  </data>
+  <data name="DemountBuilding/applyButton/label" xml:space="preserve">
+    <value>Demolish</value>
+  </data>
+  <data name="DemountBuilding/cancelButton/label" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="DemountBuilding/errorMessage" xml:space="preserve">
+    <value>You have entered incorrect information.</value>
+  </data>
+  <data name="DemountBuilding/generalText/body" xml:space="preserve">
+    <value>You %(bodyInnerText)s all prepared Reserves and Industrial Resource accumulated in the structure. The structure will be rebuilt from the foundation.</value>
+  </data>
+  <data name="DemountBuilding/generalText/bodyInnerText" xml:space="preserve">
+    <value>will irrevocably lose</value>
+  </data>
+  <data name="DemountBuilding/generalText/title" xml:space="preserve">
+    <value>Demolish structure %(buildingName)s of Level %(buildingLevel)s?</value>
+  </data>
+  <data name="DemountBuilding/question/body" xml:space="preserve">
+    <value>To complete this action, enter the exact value displayed in the structure durability bar (%(controlNumber)s).</value>
+  </data>
+  <data name="DemountBuilding/question/title" xml:space="preserve">
+    <value>Structure Demolition</value>
+  </data>
+  <data name="DemountBuilding/windowTitle" xml:space="preserve">
+    <value>%(buildingName)s: Demolition</value>
+  </data>
+  <data name="FixedPlayers/header/btnLbl" xml:space="preserve">
+    <value>Attach to Structure</value>
+  </data>
+  <data name="FixedPlayers/header/isAssigned" xml:space="preserve">
+    <value>You are attached to the structure</value>
+  </data>
+  <data name="FixedPlayers/listHeader/fieldAllTime" xml:space="preserve">
+    <value>%(icon)s Total</value>
+  </data>
+  <data name="FixedPlayers/listHeader/fieldName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="FixedPlayers/listHeader/fieldRole" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="FixedPlayers/listHeader/fieldWeek" xml:space="preserve">
+    <value>%(icon)s Week</value>
+  </data>
+  <data name="FixedPlayers/windowTitle" xml:space="preserve">
+    <value>%(buildingName)s: Garrison</value>
+  </data>
+  <data name="FortClanListWindow/title" xml:space="preserve">
+    <value>Earners of %(clanName)s</value>
+  </data>
+  <data name="FortClanStatisticsWindow/sortie/battlesHeader" xml:space="preserve">
+    <value>Battles by Division</value>
+  </data>
+  <data name="FortClanStatisticsWindow/title" xml:space="preserve">
+    <value>Statistics of Clan %(clanName)s</value>
+  </data>
+  <data name="FortDirectionsWindow/button/closeDirection" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FortDirectionsWindow/button/newDirection" xml:space="preserve">
+    <value>New Zone</value>
+  </data>
+  <data name="FortDirectionsWindow/button/newDirection/tooltip/disabled" xml:space="preserve">
+    <value>Open New Zone</value>
+  </data>
+  <data name="FortDirectionsWindow/button/newDirection/tooltip/disabled/descr" xml:space="preserve">
+    <value>At least %(count)d clan members required to open a Zone.</value>
+  </data>
+  <data name="FortDirectionsWindow/button/newDirection/tooltip/enabled" xml:space="preserve">
+    <value>Open New Zone</value>
+  </data>
+  <data name="FortDirectionsWindow/button/newDirection/tooltip/enabled/descr" xml:space="preserve">
+    <value>Zone allows the building of new structures and establishment of bridgeheads for attacks on enemy Strongholds. Make sure that each Zone is protected during Defense Hour.</value>
+  </data>
+  <data name="FortDirectionsWindow/descr/completed" xml:space="preserve">
+    <value>Congratulations!
+You have opened the maximum number of Zones.</value>
+  </data>
+  <data name="FortDirectionsWindow/descr/requirements" xml:space="preserve">
+    <value>To open a new Zone, at least %(count)s clan members are required.</value>
+  </data>
+  <data name="FortDirectionsWindow/label/noBuildings" xml:space="preserve">
+    <value>No structures</value>
+  </data>
+  <data name="FortDirectionsWindow/label/notOpened" xml:space="preserve">
+    <value>Not open</value>
+  </data>
+  <data name="FortDirectionsWindow/label/openedDirections" xml:space="preserve">
+    <value>Zones open:</value>
+  </data>
+  <data name="FortDirectionsWindow/title" xml:space="preserve">
+    <value>Zone Control</value>
+  </data>
+  <data name="FortIntelligence/additionalText/comingSoon" xml:space="preserve">
+    <value>Coming soon</value>
+  </data>
+  <data name="FortIntelligence/bottomBlock/body" xml:space="preserve">
+    <value>Your Stronghold can be attacked too. Mobilize your Reserves and be on your guard when the time comes to repel the enemy.</value>
+  </data>
+  <data name="FortIntelligence/bottomBlock/header" xml:space="preserve">
+    <value>Defense</value>
+  </data>
+  <data name="FortIntelligence/headerBlock/body" xml:space="preserve">
+    <value>Strongholds of at least Level V get access to intelligence data, which can help the clan to locate an enemy and launch an attack.</value>
+  </data>
+  <data name="FortIntelligence/headerBlock/header" xml:space="preserve">
+    <value>Intelligence Data</value>
+  </data>
+  <data name="FortIntelligence/middleBlock/body" xml:space="preserve">
+    <value>Victory in an Advance will earn more plunder than Skirmishes, and will also benefit the reputation of your clan.</value>
+  </data>
+  <data name="FortIntelligence/middleBlock/header" xml:space="preserve">
+    <value>Attack</value>
+  </data>
+  <data name="FortIntelligence/topBlock/body" xml:space="preserve">
+    <value>Examine Strongholds of enemy clans to choose a suitable target for attack. Keep in mind that others can also locate your Stronghold.</value>
+  </data>
+  <data name="FortIntelligence/topBlock/header" xml:space="preserve">
+    <value>Recon</value>
+  </data>
+  <data name="FortIntelligence/windowTitle" xml:space="preserve">
+    <value>Intelligence Data: Select Clan for Attack</value>
+  </data>
+  <data name="FortMainView/common/title" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="FortMainView/common/totalDepotQuantityText" xml:space="preserve">
+    <value>In all storages: </value>
+  </data>
+  <data name="FortMainView/commonTutor/title" xml:space="preserve">
+    <value>Step 2 of 3. Lay the foundation of your first structure.</value>
+  </data>
+  <data name="FortMainView/directions/selectingStatus" xml:space="preserve">
+    <value>Choose a Zone to create a bridgehead. You can control Zones from the Command Center.</value>
+  </data>
+  <data name="FortMainView/directions/title" xml:space="preserve">
+    <value>Zone Opening Mode</value>
+  </data>
+  <data name="FortMainView/directionsTutor/title" xml:space="preserve">
+    <value>Step 1 of 3. Choose a Zone you wish to open.</value>
+  </data>
+  <data name="FortMainView/header/levelsLbl" xml:space="preserve">
+    <value>Level %(buildLevel)s</value>
+  </data>
+  <data name="FortMainView/intelligenceButton/title" xml:space="preserve">
+    <value>Intelligence Data</value>
+  </data>
+  <data name="FortMainView/leave/button/label" xml:space="preserve">
+    <value>Exit Mode</value>
+  </data>
+  <data name="FortMainView/sortieButton/title" xml:space="preserve">
+    <value>Skirmishes</value>
+  </data>
+  <data name="FortMainView/transporting/exportingStatus" xml:space="preserve">
+    <value>Choose the structure from which Industrial Resource will be transported.</value>
+  </data>
+  <data name="FortMainView/transporting/importingStatus" xml:space="preserve">
+    <value>Choose the structure to which Industrial Resource will be transported.</value>
+  </data>
+  <data name="FortMainView/transporting/title" xml:space="preserve">
+    <value>Transportation Mode</value>
+  </data>
+  <data name="FortMainView/transporting/tutorialDescr" xml:space="preserve">
+    <value>To complete building of your first structure, enter Transportation mode.</value>
+  </data>
+  <data name="FortMainView/transporting/tutorialDescrDisabled" xml:space="preserve">
+    <value>Transportation is unavailable now.</value>
+  </data>
+  <data name="FortMainView/transportingTutor/title" xml:space="preserve">
+    <value>Step 3 of 3. Fill storage of the structure with Industrial Resource.</value>
+  </data>
+  <data name="FortTransportConfirmationWindow/cancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FortTransportConfirmationWindow/maxTransportingSizeLabel" xml:space="preserve">
+    <value>Maximum capacity: </value>
+  </data>
+  <data name="FortTransportConfirmationWindow/title" xml:space="preserve">
+    <value>Confirm Transportation</value>
+  </data>
+  <data name="FortTransportConfirmationWindow/transportButton" xml:space="preserve">
+    <value>Transport</value>
+  </data>
+  <data name="FortTransportConfirmationWindow/transportingFooterText" xml:space="preserve">
+    <value>Transport unloading
+will take %(estimatedTime)s.</value>
+  </data>
+  <data name="FortTransportConfirmationWindow/transportingText" xml:space="preserve">
+    <value>Transport:</value>
+  </data>
+  <data name="FortWelcomeCommanderView/button/label" xml:space="preserve">
+    <value>Open Zone</value>
+  </data>
+  <data name="FortWelcomeCommanderView/option1/descr" xml:space="preserve">
+    <value>Open a Zone and build your first structure there. Reserves requested from structures provide significant advantages to the clan in battles.</value>
+  </data>
+  <data name="FortWelcomeCommanderView/option1/title" xml:space="preserve">
+    <value>First Steps</value>
+  </data>
+  <data name="FortWelcomeCommanderView/option2/descr" xml:space="preserve">
+    <value>Each structure is assigned a garrison of clan members. Garrisons serve as a basis for creating detachments, which earn Industrial Resource in Skirmishes. Clan members will earn Industrial Resource for the structure they are attached to.</value>
+  </data>
+  <data name="FortWelcomeCommanderView/option2/title" xml:space="preserve">
+    <value>Resource Hunters</value>
+  </data>
+  <data name="FortWelcomeCommanderView/option3/descr" xml:space="preserve">
+    <value>Industrial Resource earned in Skirmishes can be used to request Reserves. Once a Reserve is activated, it lasts for a limited time and affects all clan members. Reserve efficiency increases with structure level.</value>
+  </data>
+  <data name="FortWelcomeCommanderView/option3/title" xml:space="preserve">
+    <value>Reserves Requisition</value>
+  </data>
+  <data name="FortWelcomeCommanderView/title" xml:space="preserve">
+    <value>Open Zone</value>
+  </data>
+  <data name="FortWelcomeView/bonuses/body" xml:space="preserve">
+    <value>Accumulate resources to upgrade structures
+and request Reserves, which can turn
+the tide of a desperate battle.</value>
+  </data>
+  <data name="FortWelcomeView/bonuses/title" xml:space="preserve">
+    <value>Advantages in Battle</value>
+  </data>
+  <data name="FortWelcomeView/buildingAndUpgrading/body" xml:space="preserve">
+    <value>Create impenetrable defenses
+with unique structures
+and repel any enemy clan.</value>
+  </data>
+  <data name="FortWelcomeView/buildingAndUpgrading/title" xml:space="preserve">
+    <value>Clan Fortress</value>
+  </data>
+  <data name="FortWelcomeView/clanCreate" xml:space="preserve">
+    <value>create a clan</value>
+  </data>
+  <data name="FortWelcomeView/clanSearch" xml:space="preserve">
+    <value>Find a clan</value>
+  </data>
+  <data name="FortWelcomeView/createFortBtn" xml:space="preserve">
+    <value>Create Stronghold</value>
+  </data>
+  <data name="FortWelcomeView/hyperlink/more" xml:space="preserve">
+    <value>Details about Strongholds</value>
+  </data>
+  <data name="FortWelcomeView/requirementClan" xml:space="preserve">
+    <value>Only clans can own Strongholds.
+You are not yet a member of any clan.</value>
+  </data>
+  <data name="FortWelcomeView/requirementCommander" xml:space="preserve">
+    <value>Stronghold can be created only by the Commander
+of the clan </value>
+  </data>
+  <data name="FortWelcomeView/title" xml:space="preserve">
+    <value>Welcome to the Stronghold!</value>
+  </data>
+  <data name="FortWelcomeView/warForResources/body" xml:space="preserve">
+    <value>Declare war on other clans and attack their Strongholds to requisition Industrial Resource.</value>
+  </data>
+  <data name="FortWelcomeView/warForResources/title" xml:space="preserve">
+    <value>War for Resources</value>
+  </data>
+  <data name="FortWelcomeView/warning" xml:space="preserve">
+    <value>At least %(minClanSize)d clan members required.</value>
+  </data>
+  <data name="General/direction" xml:space="preserve">
+    <value>Zone %(value)s</value>
+  </data>
+  <data name="General/directionName1" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="General/directionName2" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="General/directionName3" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="General/directionName4" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="General/orderType/additionalBriefing" xml:space="preserve">
+    <value>Additional Briefing</value>
+  </data>
+  <data name="General/orderType/battlePayments" xml:space="preserve">
+    <value>Battle Payments</value>
+  </data>
+  <data name="General/orderType/evacuation" xml:space="preserve">
+    <value>Evacuation</value>
+  </data>
+  <data name="General/orderType/heavyTrucks" xml:space="preserve">
+    <value>High-Capacity Transport</value>
+  </data>
+  <data name="General/orderType/militaryManeuvers" xml:space="preserve">
+    <value>Military Maneuvers</value>
+  </data>
+  <data name="General/orderType/requisition" xml:space="preserve">
+    <value>Requisition</value>
+  </data>
+  <data name="General/orderType/tacticalTraining" xml:space="preserve">
+    <value>Tactical Training</value>
+  </data>
+  <data name="Modernization/applyButton/label" xml:space="preserve">
+    <value>Upgrade</value>
+  </data>
+  <data name="Modernization/cancelButton/label" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Modernization/conditions/defencePeriod" xml:space="preserve">
+    <value>Level %(level)s Command Center</value>
+  </data>
+  <data name="Modernization/conditions/fortMaxLevel" xml:space="preserve">
+    <value>Maximum level of Command Center in the current update reached.</value>
+  </data>
+  <data name="Modernization/conditions/generalCondition" xml:space="preserve">
+    <value>Condition: Level %(level)s Command Center</value>
+  </data>
+  <data name="Modernization/conditions/notFulfilled" xml:space="preserve">
+    <value> (not met)</value>
+  </data>
+  <data name="Modernization/modernizationInfo/afterLabel" xml:space="preserve">
+    <value>After upgrade:</value>
+  </data>
+  <data name="Modernization/modernizationInfo/beforeLabel" xml:space="preserve">
+    <value>Current condition:</value>
+  </data>
+  <data name="Modernization/modernizationInfo/countCost" xml:space="preserve">
+    <value>Upgrade cost:</value>
+  </data>
+  <data name="Modernization/windowTitle" xml:space="preserve">
+    <value>%(buildingName)s: Upgrade</value>
+  </data>
+  <data name="Orders/orderConfirmationWindow/cost" xml:space="preserve">
+    <value>Cost:</value>
+  </data>
+  <data name="Orders/orderConfirmationWindow/preparationTime" xml:space="preserve">
+    <value>Preparation time:</value>
+  </data>
+  <data name="Orders/orderPopover/durationTime" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="Orders/orderPopover/inDefensive" xml:space="preserve">
+    <value>Defense Period</value>
+  </data>
+  <data name="Orders/orderPopover/levelsLbl" xml:space="preserve">
+    <value>Level %(orderLevel)s Reserve</value>
+  </data>
+  <data name="Orders/orderPopover/notAvailable" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="Orders/orderPopover/orderNotReady" xml:space="preserve">
+    <value>Structure required to prepare Reserve: %(building)s.</value>
+  </data>
+  <data name="Orders/orderPopover/orderPrice" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/additionalBriefing" xml:space="preserve">
+    <value>Additional Briefing</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/battlePayments" xml:space="preserve">
+    <value>Battle Payments</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/evacuation" xml:space="preserve">
+    <value>Evacuation</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/heavyTrucks" xml:space="preserve">
+    <value>High-Capacity Transport</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/militaryManeuvers" xml:space="preserve">
+    <value>Military Maneuvers</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/requisition" xml:space="preserve">
+    <value>Requisition</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/tacticalTraining" xml:space="preserve">
+    <value>Tactical Training</value>
+  </data>
+  <data name="Orders/orderPopover/producedAmount" xml:space="preserve">
+    <value>Prepared</value>
+  </data>
+  <data name="Orders/orderPopover/productionBuilding" xml:space="preserve">
+    <value>Required structure</value>
+  </data>
+  <data name="Orders/orderPopover/productionTime" xml:space="preserve">
+    <value>Preparation time</value>
+  </data>
+  <data name="Orders/orderPopover/useOrder" xml:space="preserve">
+    <value>Use Reserve</value>
+  </data>
+  <data name="Time/timeValue/days" xml:space="preserve">
+    <value>%(day)s d %(hour)s h %(min)s min</value>
+  </data>
+  <data name="Time/timeValue/hours" xml:space="preserve">
+    <value>%(hour)s h %(min)s min</value>
+  </data>
+  <data name="Time/timeValue/lessMin" xml:space="preserve">
+    <value>less than a minute</value>
+  </data>
+  <data name="Time/timeValue/min" xml:space="preserve">
+    <value>%(min)s min</value>
+  </data>
+  <data name="clanStats/params/sortie/avgDefres/label" xml:space="preserve">
+    <value>Average plunder
+per Skirmish</value>
+  </data>
+  <data name="clanStats/params/sortie/avgDefres/tooltip/body" xml:space="preserve">
+    <value>Ratio of total Industrial Resource earned to total Skirmishes conducted</value>
+  </data>
+  <data name="clanStats/params/sortie/avgDefres/tooltip/header" xml:space="preserve">
+    <value>Average Plunder per Skirmish</value>
+  </data>
+  <data name="clanStats/params/sortie/battles/absoluteBattlesCount/label" xml:space="preserve">
+    <value>Absolute level</value>
+  </data>
+  <data name="clanStats/params/sortie/battles/championBattlesCount/label" xml:space="preserve">
+    <value>Champion level</value>
+  </data>
+  <data name="clanStats/params/sortie/battles/middleBattlesCount/label" xml:space="preserve">
+    <value>Medium level</value>
+  </data>
+  <data name="clanStats/params/sortie/battlesCount/label" xml:space="preserve">
+    <value>Skirmishes</value>
+  </data>
+  <data name="clanStats/params/sortie/battlesCount/tooltip/body" xml:space="preserve">
+    <value>Total number of Skirmishes conducted, including:
+• Victories: %(value_0)s
+• Defeats: %(value_1)s
+• Draws: %(value_2)s</value>
+  </data>
+  <data name="clanStats/params/sortie/battlesCount/tooltip/header" xml:space="preserve">
+    <value>Skirmishes</value>
+  </data>
+  <data name="clanStats/params/sortie/defres/lootInSorties/label" xml:space="preserve">
+    <value>Total amount of Industrial Resource earned in Skirmishes</value>
+  </data>
+  <data name="clanStats/params/sortie/wins/label" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="clanStats/params/sortie/wins/tooltip/body" xml:space="preserve">
+    <value>Total rate of victories in Skirmishes</value>
+  </data>
+  <data name="clanStats/params/sortie/wins/tooltip/header" xml:space="preserve">
+    <value>Victories in Skirmishes</value>
+  </data>
+  <data name="disconnected/Warning" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="disconnected/WarningDescriptionCenterUnavailable" xml:space="preserve">
+    <value>Stronghold is temporarily unavailable. Try again later.</value>
+  </data>
+  <data name="disconnected/WarningDescriptionRoaming" xml:space="preserve">
+    <value>Stronghold is unavailable in roaming. To get access to Stronghold, go to your region.</value>
+  </data>
+  <data name="fortification/clan/position/commander" xml:space="preserve">
+    <value>Combat Officer</value>
+  </data>
+  <data name="fortification/clan/position/diplomat" xml:space="preserve">
+    <value>Intelligence Officer</value>
+  </data>
+  <data name="fortification/clan/position/leader" xml:space="preserve">
+    <value>Commander</value>
+  </data>
+  <data name="fortification/clan/position/private" xml:space="preserve">
+    <value>Private</value>
+  </data>
+  <data name="fortification/clan/position/recruit" xml:space="preserve">
+    <value>Recruit</value>
+  </data>
+  <data name="fortification/clan/position/recruiter" xml:space="preserve">
+    <value>Recruitment Officer</value>
+  </data>
+  <data name="fortification/clan/position/treasurer" xml:space="preserve">
+    <value>Quartermaster</value>
+  </data>
+  <data name="fortification/clan/position/vice_leader" xml:space="preserve">
+    <value>Executive Officer</value>
+  </data>
+  <data name="sortie/division_name/ABSOLUTE" xml:space="preserve">
+    <value>Absolute</value>
+  </data>
+  <data name="sortie/division_name/ALL" xml:space="preserve">
+    <value>All divisions</value>
+  </data>
+  <data name="sortie/division_name/CHAMPION" xml:space="preserve">
+    <value>Champion</value>
+  </data>
+  <data name="sortie/division_name/MIDDLE" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="sortie/introView/descr" xml:space="preserve">
+    <value>To upgrade your Stronghold and prepare Reserves, you must spend Industrial Resource. Earn it in Skirmishes or Advances.</value>
+  </data>
+  <data name="sortie/introView/fortBattles/btnLabel" xml:space="preserve">
+    <value>Fight</value>
+  </data>
+  <data name="sortie/introView/fortBattles/btnTitle" xml:space="preserve">
+    <value>Coming Soon</value>
+  </data>
+  <data name="sortie/introView/fortBattles/descr" xml:space="preserve">
+    <value>Attack on enemy Stronghold or defense of your own Stronghold.</value>
+  </data>
+  <data name="sortie/introView/fortBattles/title" xml:space="preserve">
+    <value>Advances</value>
+  </data>
+  <data name="sortie/introView/sortie/btnTitle" xml:space="preserve">
+    <value>Engage</value>
+  </data>
+  <data name="sortie/introView/sortie/descr" xml:space="preserve">
+    <value>Battle with a random enemy clan on neutral territory.</value>
+  </data>
+  <data name="sortie/introView/sortie/title" xml:space="preserve">
+    <value>Skirmishes</value>
+  </data>
+  <data name="sortie/introView/title" xml:space="preserve">
+    <value>Stronghold: Battles</value>
+  </data>
+  <data name="sortie/listView/create" xml:space="preserve">
+    <value>Create Detachment</value>
+  </data>
+  <data name="sortie/listView/description" xml:space="preserve">
+    <value>Earn Industrial Resource in battles with random enemy clans on neutral territory to upgrade your Stronghold.</value>
+  </data>
+  <data name="sortie/listView/enterBtn" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="sortie/listView/enterText" xml:space="preserve">
+    <value>You can join as a volunteer</value>
+  </data>
+  <data name="sortie/listView/filter" xml:space="preserve">
+    <value>Display:</value>
+  </data>
+  <data name="sortie/listView/listColumns/division" xml:space="preserve">
+    <value>Division</value>
+  </data>
+  <data name="sortie/listView/listColumns/membersCount" xml:space="preserve">
+    <value>Detachment members</value>
+  </data>
+  <data name="sortie/listView/listColumns/name" xml:space="preserve">
+    <value>Commander</value>
+  </data>
+  <data name="sortie/listView/listTitle" xml:space="preserve">
+    <value>Detachments Created</value>
+  </data>
+  <data name="sortie/listView/notSelected" xml:space="preserve">
+    <value>Select a detachment from the list on the left
+to see the detailed description.</value>
+  </data>
+  <data name="sortie/listView/selectedTeam" xml:space="preserve">
+    <value>Detachment</value>
+  </data>
+  <data name="sortie/listView/teamMembers" xml:space="preserve">
+    <value>Members: %(current)s / %(max)s</value>
+  </data>
+  <data name="sortie/listView/teamVehicles" xml:space="preserve">
+    <value>Vehicles: %(values)s</value>
+  </data>
+  <data name="sortie/listView/teamVehiclesStub" xml:space="preserve">
+    <value>Vehicles:</value>
+  </data>
+  <data name="sortie/listView/title" xml:space="preserve">
+    <value>Skirmishes</value>
+  </data>
+  <data name="sortie/room/candidates" xml:space="preserve">
+    <value>Volunteers</value>
+  </data>
+  <data name="sortie/room/changeDivision" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="sortie/room/chat" xml:space="preserve">
+    <value>Chat Channel</value>
+  </data>
+  <data name="sortie/room/description" xml:space="preserve">
+    <value>Created detachment fights a battle with a random enemy clan on neutral territory. Vehicle tier is determined by the division selected.</value>
+  </data>
+  <data name="sortie/room/division" xml:space="preserve">
+    <value>Division: </value>
+  </data>
+  <data name="sortie/room/fight" xml:space="preserve">
+    <value>Battle!</value>
+  </data>
+  <data name="sortie/room/inviteBtn" xml:space="preserve">
+    <value>Invite Players</value>
+  </data>
+  <data name="sortie/room/inviteFriends" xml:space="preserve">
+    <value>Invite Players</value>
+  </data>
+  <data name="sortie/room/leaveBtn" xml:space="preserve">
+    <value>GO TO DETACHMENT LIST</value>
+  </data>
+  <data name="sortie/room/members" xml:space="preserve">
+    <value>Members: %(current)s / %(max)s</value>
+  </data>
+  <data name="sortie/room/message/candidate" xml:space="preserve">
+    <value>You are not in the detachment</value>
+  </data>
+  <data name="sortie/room/message/candidate/invalidVehicles" xml:space="preserve">
+    <value>Your vehicles do not comply with the Commander's requirements</value>
+  </data>
+  <data name="sortie/room/message/candidate/lockedUnits" xml:space="preserve">
+    <value>Please wait. The Commander is selecting detachment members</value>
+  </data>
+  <data name="sortie/room/message/candidate/unitIsFull" xml:space="preserve">
+    <value>Unable to join the detachment. No available slots</value>
+  </data>
+  <data name="sortie/room/message/getReady" xml:space="preserve">
+    <value>Confirm that you are ready to join the battle.</value>
+  </data>
+  <data name="sortie/room/message/levelError" xml:space="preserve">
+    <value>Total tier of vehicles is exceeded</value>
+  </data>
+  <data name="sortie/room/message/noVehicle" xml:space="preserve">
+    <value>Vehicle not selected</value>
+  </data>
+  <data name="sortie/room/message/notFullUnit" xml:space="preserve">
+    <value>Incomplete detachment</value>
+  </data>
+  <data name="sortie/room/message/openSlots/levelError" xml:space="preserve">
+    <value>Total tier of vehicles is exceeded while some slots are available.</value>
+  </data>
+  <data name="sortie/room/message/ready" xml:space="preserve">
+    <value>All members ready</value>
+  </data>
+  <data name="sortie/room/message/vehicleInNotReady" xml:space="preserve">
+    <value>Vehicle not ready for battle</value>
+  </data>
+  <data name="sortie/room/message/waiting" xml:space="preserve">
+    <value>Waiting for players…</value>
+  </data>
+  <data name="sortie/room/notReady" xml:space="preserve">
+    <value>Not ready</value>
+  </data>
+  <data name="sortie/room/ready" xml:space="preserve">
+    <value>Ready!</value>
+  </data>
+  <data name="sortie/room/rosterListTitle" xml:space="preserve">
+    <value>Detachment Members</value>
+  </data>
+  <data name="sortie/room/title" xml:space="preserve">
+    <value>Detachment</value>
+  </data>
+  <data name="sortie/room/vehicles" xml:space="preserve">
+    <value>Vehicles</value>
+  </data>
+  <data name="sortie/slot/emptySlot" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="sortie/slot/takePlace" xml:space="preserve">
+    <value>Take Slot</value>
+  </data>
+  <data name="sortie/vehicleSelector/description" xml:space="preserve">
+    <value>Select a vehicle to engage in Skirmish. Red indicator marks vehicles not ready for battle.</value>
+  </data>
+  <data name="sortie/listView/slot/closed" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="BuildingPopover/commanderStatus/bodyStatus/freeze" xml:space="preserve">
+    <value>Fill up the durability bar for the Stronghold to function.</value>
+  </data>
+  <data name="BuildingPopover/mapInfo/noBattle" xml:space="preserve">
+    <value>Clash will not occur</value>
+  </data>
+  <data name="BuildingPopover/orderProcess/inPause" xml:space="preserve">
+    <value>Suspended</value>
+  </data>
+  <data name="BuildingPopover/soldierStatus/bodyStatus/freeze" xml:space="preserve">
+    <value>To repair structure, attach to its garrison and earn Industrial Resource.</value>
+  </data>
+  <data name="Buildings/buildingName/office_building" xml:space="preserve">
+    <value>War Department</value>
+  </data>
+  <data name="Buildings/defResInfo/office_building" xml:space="preserve">
+    <value>Special Instructions</value>
+  </data>
+  <data name="Buildings/processOrderInfo/office_building" xml:space="preserve">
+    <value>Random award for completing Special Instructions, ranging from additional crew experience to gold.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/office_building" xml:space="preserve">
+    <value>Communications officers of the War Department occasionally receive and process Special Instructions from headquarters, and relay them to the clan for immediate execution.</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/office_building" xml:space="preserve">
+    <value>Various rewards: discounts, experience, gold, and more</value>
+  </data>
+  <data name="FortCalendarWindow/calendar/dayTooltip/future/body" xml:space="preserve">
+    <value>Click to view details of scheduled battles.</value>
+  </data>
+  <data name="FortCalendarWindow/calendar/dayTooltip/future/header" xml:space="preserve">
+    <value>Battles Scheduled: %(count)d</value>
+  </data>
+  <data name="FortCalendarWindow/calendar/dayTooltip/notAvailable/body" xml:space="preserve">
+    <value>You can only view events for the past/next 2 weeks.</value>
+  </data>
+  <data name="FortCalendarWindow/calendar/dayTooltip/notAvailable/header" xml:space="preserve">
+    <value>Information Unavailable</value>
+  </data>
+  <data name="FortCalendarWindow/calendar/dayTooltip/past/body" xml:space="preserve">
+    <value>Click to view details of previous battles.</value>
+  </data>
+  <data name="FortCalendarWindow/calendar/dayTooltip/past/header" xml:space="preserve">
+    <value>Battles Fought: %(count)d</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/empty/noEvents" xml:space="preserve">
+    <value>No scheduled
+or previous battles</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/empty/notAvailable" xml:space="preserve">
+    <value>Information unavailable. You can only view events for the past/next 2 weeks.</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/empty/vacation" xml:space="preserve">
+    <value>No battles scheduled.
+Neutrality: %(date)s</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/info/battlesCount" xml:space="preserve">
+    <value>Number of battles: %(eventsCount)d</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/info/future" xml:space="preserve">
+    <value>Number of battles: %(eventsCount)d</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/info/past" xml:space="preserve">
+    <value>Battles fought: %(eventsCount)d</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/item/result/lose" xml:space="preserve">
+    <value>Defeat</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/item/result/tie" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/item/result/win" xml:space="preserve">
+    <value>Victory</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/item/timeInfo" xml:space="preserve">
+    <value>%(startTime)s–%(endTime)s</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/item/title/defence" xml:space="preserve">
+    <value>Defense Period—clan %(clanName)s</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/item/title/offence" xml:space="preserve">
+    <value>Attack on clan %(clanName)s</value>
+  </data>
+  <data name="FortCalendarWindow/message/vacation" xml:space="preserve">
+    <value>Neutrality: %(date)s</value>
+  </data>
+  <data name="FortCalendarWindow/title" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="FortClanBattleList/actionDescr" xml:space="preserve">
+    <value>You can join the detachment 15 minutes before the clash.</value>
+  </data>
+  <data name="FortClanBattleList/currentBtlCount" xml:space="preserve">
+    <value>Upcoming battles:</value>
+  </data>
+  <data name="FortClanBattleList/descrLbl" xml:space="preserve">
+    <value>Join your clan members at the appointed time to defend
+your Stronghold or attack enemy Strongholds.</value>
+  </data>
+  <data name="FortClanBattleList/details/attack_title" xml:space="preserve">
+    <value>Attack %(clanName)s</value>
+  </data>
+  <data name="FortClanBattleList/details/btnLbl" xml:space="preserve">
+    <value>Create Detachment</value>
+  </data>
+  <data name="FortClanBattleList/details/creationDescr" xml:space="preserve">
+    <value>Click to create detachment and
+join the Advance.</value>
+  </data>
+  <data name="FortClanBattleList/details/creationDescr_disable" xml:space="preserve">
+    <value>You can create a detachment 15 minutes
+before the Advance.</value>
+  </data>
+  <data name="FortClanBattleList/details/creationTitle" xml:space="preserve">
+    <value>Create Detachment</value>
+  </data>
+  <data name="FortClanBattleList/details/description" xml:space="preserve">
+    <value>Zone %(directionName)s</value>
+  </data>
+  <data name="FortClanBattleList/details/title" xml:space="preserve">
+    <value>Defense Period %(clanName)s</value>
+  </data>
+  <data name="FortClanBattleList/renderBattleName/clanBattleDefence" xml:space="preserve">
+    <value>Defense Period %(clanName)s</value>
+  </data>
+  <data name="FortClanBattleList/renderBattleName/clanBattleOffence" xml:space="preserve">
+    <value>Attack %(clanName)s</value>
+  </data>
+  <data name="FortClanBattleList/renderCurrentTime/beforeBattle" xml:space="preserve">
+    <value>Starts in:</value>
+  </data>
+  <data name="FortClanBattleList/renderCurrentTime/isBattle" xml:space="preserve">
+    <value>In progress</value>
+  </data>
+  <data name="FortClanBattleList/renderDayOfBattle/today" xml:space="preserve">
+    <value>today</value>
+  </data>
+  <data name="FortClanBattleList/renderDayOfBattle/tomorrow" xml:space="preserve">
+    <value>tomorrow</value>
+  </data>
+  <data name="FortClanBattleList/renderDirection" xml:space="preserve">
+    <value>Zone %(directionName)s</value>
+  </data>
+  <data name="FortClanBattleList/tableHeader/battleName" xml:space="preserve">
+    <value>Battle Name</value>
+  </data>
+  <data name="FortClanBattleList/tableHeader/battleTime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="FortClanBattleList/tableHeader/dayOfBattle" xml:space="preserve">
+    <value>Battle Day</value>
+  </data>
+  <data name="FortClanBattleList/titleLbl" xml:space="preserve">
+    <value>Advances</value>
+  </data>
+  <data name="FortClanBattleRoom/header/battleIcon/defence/tooltip/body" xml:space="preserve">
+    <value>Defensive action starts with a clash for your structure.</value>
+  </data>
+  <data name="FortClanBattleRoom/header/battleIcon/defence/tooltip/header" xml:space="preserve">
+    <value>Defensive Action</value>
+  </data>
+  <data name="FortClanBattleRoom/header/battleIcon/offence/tooltip/body" xml:space="preserve">
+    <value>Attack starts with a clash for the enemy structure.</value>
+  </data>
+  <data name="FortClanBattleRoom/header/battleIcon/offence/tooltip/header" xml:space="preserve">
+    <value>Attack</value>
+  </data>
+  <data name="FortClanBattleRoom/header/buildingIndicator/defence/tooltip/body" xml:space="preserve">
+    <value>You will be defending your structure: %(building)s</value>
+  </data>
+  <data name="FortClanBattleRoom/header/buildingIndicator/defence/tooltip/header" xml:space="preserve">
+    <value>Upcoming Clash</value>
+  </data>
+  <data name="FortClanBattleRoom/header/buildingIndicator/offence/tooltip/body" xml:space="preserve">
+    <value>You will be fighting for the enemy structure: %(building)s</value>
+  </data>
+  <data name="FortClanBattleRoom/header/buildingIndicator/offence/tooltip/header" xml:space="preserve">
+    <value>Upcoming Clash</value>
+  </data>
+  <data name="FortClanBattleRoom/header/mapTitle" xml:space="preserve">
+    <value>Map: %(mapName)s</value>
+  </data>
+  <data name="FortClanBattleRoom/teamSectionTitle/inBattle" xml:space="preserve">
+    <value>In progress</value>
+  </data>
+  <data name="FortClanBattleRoom/teamSectionTitle/prepareTeam" xml:space="preserve">
+    <value>If both teams are ready, the clash starts ahead of schedule.</value>
+  </data>
+  <data name="FortDatePickerPopover/calendar/dayTooltip/available/body" xml:space="preserve">
+    <value>Clan can be attacked on that day.</value>
+  </data>
+  <data name="FortDatePickerPopover/calendar/dayTooltip/available/header" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="FortDatePickerPopover/calendar/dayTooltip/busy/body" xml:space="preserve">
+    <value>Selected clan has already accepted a challenge from another enemy and is now awaiting the battle.</value>
+  </data>
+  <data name="FortDatePickerPopover/calendar/dayTooltip/busy/header" xml:space="preserve">
+    <value>Awaiting Battle</value>
+  </data>
+  <data name="FortDatePickerPopover/calendar/dayTooltip/notAvailable/body" xml:space="preserve">
+    <value>Clan cannot be attacked on that day.</value>
+  </data>
+  <data name="FortDatePickerPopover/calendar/dayTooltip/notAvailable/header" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/button/cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/button/submit" xml:space="preserve">
+    <value>Confirm Attack</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/description" xml:space="preserve">
+    <value>Select the Zone from which you want to attack, and confirm the attack:</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/direction/notAvailable" xml:space="preserve">
+    <value>Available from %(date)s.</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/header" xml:space="preserve">
+    <value>%(date)s, %(startTime)s–%(endTime)s, attack on %(clanName)s</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/item/attack/tooltip/body" xml:space="preserve">
+    <value>You will be attacking %(clanName)s from Zone %(direction)s.</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/item/attack/tooltip/header" xml:space="preserve">
+    <value>Attack from Zone %(direction)s</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/item/busy/tooltip/body" xml:space="preserve">
+    <value>You are attacking %(clanName)s at that time.</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/item/busy/tooltip/header" xml:space="preserve">
+    <value>Attack Unavailable</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/item/notAvailable/tooltip/body" xml:space="preserve">
+    <value>Available from %(date)s.</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/item/notAvailable/tooltip/header" xml:space="preserve">
+    <value>Attack Unavailable</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/item/notOpened/tooltip/body" xml:space="preserve">
+    <value>You have not opened this Zone yet.</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/item/notOpened/tooltip/header" xml:space="preserve">
+    <value>Attack Unavailable</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/title" xml:space="preserve">
+    <value>Declaration of War</value>
+  </data>
+  <data name="FortDirectionsWindow/descr/baseRepairRequire" xml:space="preserve">
+    <value>To open a new Zone, repair %(baseName)s </value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/applyButtonText" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/attackAvailability" xml:space="preserve">
+    <value>Availability for attack:</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/availability" xml:space="preserve">
+    <value>Availability for attack:</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/availability/item/any" xml:space="preserve">
+    <value>Any</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/availability/item/dayAfterTomorrow" xml:space="preserve">
+    <value>In two days</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/availability/item/today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/availability/item/tomorrow" xml:space="preserve">
+    <value>Tomorrow</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/cancelButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/clanLevel" xml:space="preserve">
+    <value>Clan Level:</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/defaultButtonText" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/header" xml:space="preserve">
+    <value>Clan Search Range</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/startHourRange" xml:space="preserve">
+    <value>Enemy Defense Period:</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/alreadyFought" xml:space="preserve">
+    <value>You have already fought against %(clanName)s</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/attack" xml:space="preserve">
+    <value>Attack!</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/notAvailable" xml:space="preserve">
+    <value>Available from %(date)s.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/attack" xml:space="preserve">
+    <value>Attack Zone %(direction)s</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/attackInfo" xml:space="preserve">
+    <value>Click to select a Zone for convergence and confirm the attack.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/buildingItem" xml:space="preserve">
+    <value>• %(name)s, %(level)s %(extraInfo)s</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/buildingLowLevel" xml:space="preserve">
+    <value>(clans can clash over structures of at least Level %(minLevel)s)</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/buildings" xml:space="preserve">
+    <value>Structures leading to the Command Center:
+%(buildings)s</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/busy/header" xml:space="preserve">
+    <value>Zone %(direction)s Reserved for Battle</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/busy/info" xml:space="preserve">
+    <value>On %(date)s, clan %(clanName)s will attack this Zone.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/notAvailable/header" xml:space="preserve">
+    <value>Zone %(direction)s Unavailable</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/notAvailable/info" xml:space="preserve">
+    <value>This is a new Zone, and it can be attacked only after %(date)s.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/notCommander" xml:space="preserve">
+    <value>Zone %(direction)s</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/notCommanderInfo" xml:space="preserve">
+    <value>Only the Commander or Executive Officer can declare an attack.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/notOpened" xml:space="preserve">
+    <value>Clan has not opened this Zone yet.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/nextAvailableAttack" xml:space="preserve">
+    <value>New attack will be available from %(nextDate)s</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/nextAvailableAttackInAWeek" xml:space="preserve">
+    <value>You will not be able to attack again for one week after the battle on %(nextDate)s</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/notSelectedScreen/commander" xml:space="preserve">
+    <value>To declare war, select a clan from the list on the left.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/notSelectedScreen/notCommander" xml:space="preserve">
+    <value>To view details, select a clan from the list on the left.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/selectDate" xml:space="preserve">
+    <value>Select a date and a Zone for the attack:</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/selectDate/cantAttack" xml:space="preserve">
+    <value>Not enough permissions to set the battle date.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/warDeclared" xml:space="preserve">
+    <value>War declared on %(clanName)s!</value>
+  </data>
+  <data name="FortIntelligence/clanTypes/all" xml:space="preserve">
+    <value>All clans</value>
+  </data>
+  <data name="FortIntelligence/clanTypes/booked" xml:space="preserve">
+    <value>Bookmarked</value>
+  </data>
+  <data name="FortIntelligence/clanTypes/last" xml:space="preserve">
+    <value>Recent</value>
+  </data>
+  <data name="FortIntelligence/clearFilterBtn/title" xml:space="preserve">
+    <value>Clear Query</value>
+  </data>
+  <data name="FortIntelligence/date/notAvailable" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="FortIntelligence/date/today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="FortIntelligence/date/tomorrow" xml:space="preserve">
+    <value>Tomorrow</value>
+  </data>
+  <data name="FortIntelligence/fortIntelFilter/filterButtonStatus/max" xml:space="preserve">
+    <value>Maximum Range</value>
+  </data>
+  <data name="FortIntelligence/fortIntelFilter/filterButtonStatus/min" xml:space="preserve">
+    <value>Range reduced</value>
+  </data>
+  <data name="FortIntelligence/fortIntelFilter/status/all" xml:space="preserve">
+    <value>Select targets</value>
+  </data>
+  <data name="FortIntelligence/fortIntelFilter/status/appliedBookmarkedFilter" xml:space="preserve">
+    <value>Your bookmarked clans:</value>
+  </data>
+  <data name="FortIntelligence/fortIntelFilter/status/appliedFilter" xml:space="preserve">
+    <value>Displaying results with adjusted search range:</value>
+  </data>
+  <data name="FortIntelligence/fortIntelFilter/status/appliedFilterAndClan" xml:space="preserve">
+    <value>Query is affected by adjusted search range:</value>
+  </data>
+  <data name="FortIntelligence/fortIntelFilter/status/appliedLastFoundFilter" xml:space="preserve">
+    <value>Clans you fought against recently:</value>
+  </data>
+  <data name="FortIntelligence/sortBtns/availability" xml:space="preserve">
+    <value>Availability</value>
+  </data>
+  <data name="FortIntelligence/sortBtns/buildings" xml:space="preserve">
+    <value>Structure Level</value>
+  </data>
+  <data name="FortIntelligence/sortBtns/clanTag" xml:space="preserve">
+    <value>Clan Tag</value>
+  </data>
+  <data name="FortIntelligence/sortBtns/defenceTime" xml:space="preserve">
+    <value>Defense Period</value>
+  </data>
+  <data name="FortIntelligence/status/empty" xml:space="preserve">
+    <value>No search results. Search range too strict.</value>
+  </data>
+  <data name="FortIntelligence/status/emptyAbbrev" xml:space="preserve">
+    <value>Clan with that tag was not found. It might not have set up the defense, or the search parameters are too strict.
+Adjust or reset the search parameters, or enter a different tag.</value>
+  </data>
+  <data name="FortIntelligence/status/emptyFavorite" xml:space="preserve">
+    <value>Your bookmarked clans will be displayed here.</value>
+  </data>
+  <data name="FortIntelligence/status/emptyRecent" xml:space="preserve">
+    <value>Clans you have recently fought will be displayed here.</value>
+  </data>
+  <data name="FortIntelligence/tagSearchTextInput/default" xml:space="preserve">
+    <value>Search by tag</value>
+  </data>
+  <data name="FortMainView/header/defencePeriod" xml:space="preserve">
+    <value>Defense Period: %(period)s</value>
+  </data>
+  <data name="FortMainView/header/fortFrozen" xml:space="preserve">
+    <value>Defense overwhelmed! Repair your Command Center.</value>
+  </data>
+  <data name="FortMainView/transporting/notAvailableStatus" xml:space="preserve">
+    <value>Transportation is unavailable now.</value>
+  </data>
+  <data name="General/direction/notAvailable/tooEarly" xml:space="preserve">
+    <value>Available from %(date)s</value>
+  </data>
+  <data name="General/direction/notOpened" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="General/orderType/specialMission" xml:space="preserve">
+    <value>Special Instructions</value>
+  </data>
+  <data name="Modernization/conditions/baseBuildingFiveLevel" xml:space="preserve">
+    <value>Set up Stronghold defense</value>
+  </data>
+  <data name="Modernization/conditions/defencePeriodAndBaseBuilding" xml:space="preserve">
+    <value>Level V Command Center and set up defense</value>
+  </data>
+  <data name="Orders/orderPopover/nextBattle" xml:space="preserve">
+    <value>Next battle</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/specialMission" xml:space="preserve">
+    <value>Special Instructions</value>
+  </data>
+  <data name="Orders/orderPopover/specialMission/description" xml:space="preserve">
+    <value>Activate Reserve to receive Special Instructions. There are various missions and rewards on each activation.</value>
+  </data>
+  <data name="Orders/orderPopover/specialMission/shortDescr" xml:space="preserve">
+    <value>To receive the award, complete Special Instructions from the War Department.</value>
+  </data>
+  <data name="Orders/specialMission/award" xml:space="preserve">
+    <value>Award:</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward" xml:space="preserve">
+    <value>Possible reward:</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/1" xml:space="preserve">
+    <value>additional credits.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/10" xml:space="preserve">
+    <value>increased previous rewards.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/2" xml:space="preserve">
+    <value>increased previous reward.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/3" xml:space="preserve">
+    <value>increased previous reward or crew experience.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/4" xml:space="preserve">
+    <value>increased previous rewards.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/5" xml:space="preserve">
+    <value>increased previous rewards or vehicle experience.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/6" xml:space="preserve">
+    <value>increased previous rewards or Premium consumables.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/7" xml:space="preserve">
+    <value>increased previous rewards.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/8" xml:space="preserve">
+    <value>increased previous rewards or one day of Premium Account.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/9" xml:space="preserve">
+    <value>increased previous rewards or gold.</value>
+  </data>
+  <data name="SettingsDayoffPopover/applyButtonLabel" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="SettingsDayoffPopover/cancelButtonLabel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="SettingsDayoffPopover/description" xml:space="preserve">
+    <value>The new Ceasefire day will come into effect in 14 days.</value>
+  </data>
+  <data name="SettingsDayoffPopover/dropDownDescription" xml:space="preserve">
+    <value>Ceasefire:</value>
+  </data>
+  <data name="SettingsDefenceHourPopover/applyButtonLabel" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="SettingsDefenceHourPopover/cancelButtonLabel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="SettingsDefenceHourPopover/defenceHour" xml:space="preserve">
+    <value>Defense Period</value>
+  </data>
+  <data name="SettingsDefenceHourPopover/defenceHourTitle" xml:space="preserve">
+    <value>Defense</value>
+  </data>
+  <data name="SettingsDefenceHourPopover/description" xml:space="preserve">
+    <value>The new Defense Period will come into effect in 14 days.</value>
+  </data>
+  <data name="SettingsPeripheryPopover/applyButtonLabel" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="SettingsPeripheryPopover/cancelButtonLabel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="SettingsPeripheryPopover/description" xml:space="preserve">
+    <value>Detachments for Advances will be created on the selected server. You can select a different server once per 14 days.</value>
+  </data>
+  <data name="SettingsPeripheryPopover/server" xml:space="preserve">
+    <value>Server:</value>
+  </data>
+  <data name="SettingsVacationPopover/applyButtonLabel" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="SettingsVacationPopover/cancelButtonLabel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="SettingsVacationPopover/description" xml:space="preserve">
+    <value>Neutrality can be declared only in two weeks. Advances are unavailable during the Neutrality.</value>
+  </data>
+  <data name="SettingsVacationPopover/ofDays" xml:space="preserve">
+    <value>/ 14 days</value>
+  </data>
+  <data name="SettingsVacationPopover/vacationDuration" xml:space="preserve">
+    <value>2. Set the duration of the Neutrality:</value>
+  </data>
+  <data name="SettingsVacationPopover/vacationResult" xml:space="preserve">
+    <value>%(startDate)s–%(endDate)s</value>
+  </data>
+  <data name="SettingsVacationPopover/vacationStart" xml:space="preserve">
+    <value>1. Set the time when the Neutrality begins:</value>
+  </data>
+  <data name="SettingsWindow/blockCondition/defencePeriodTime" xml:space="preserve">
+    <value>Defense Period:</value>
+  </data>
+  <data name="SettingsWindow/blockCondition/inProgress" xml:space="preserve">
+    <value>%(value)s from %(date)s</value>
+  </data>
+  <data name="SettingsWindow/blockCondition/noWeekEnd" xml:space="preserve">
+    <value>not set</value>
+  </data>
+  <data name="SettingsWindow/blockCondition/recentlyScheduled" xml:space="preserve">
+    <value>Settings have been changed recently.</value>
+  </data>
+  <data name="SettingsWindow/blockCondition/vacation" xml:space="preserve">
+    <value>Neutrality:</value>
+  </data>
+  <data name="SettingsWindow/blockCondition/vacationNotPlanned" xml:space="preserve">
+    <value>not set</value>
+  </data>
+  <data name="SettingsWindow/blockCondition/weekEnd" xml:space="preserve">
+    <value>Ceasefire:</value>
+  </data>
+  <data name="SettingsWindow/blockDescr/defencePeriodTime" xml:space="preserve">
+    <value>You have to defend your Stronghold against attacks by enemy clans at the appointed time every day, except the declared day of Ceasefire and Neutrality.</value>
+  </data>
+  <data name="SettingsWindow/blockDescr/vacation" xml:space="preserve">
+    <value>A period of 3 to 14 days during which you cannot be attacked. Unused days will be lost irrevocably. Can be declared after 90 days have passed since the end of the current Neutrality.</value>
+  </data>
+  <data name="SettingsWindow/blockDescr/weekEnd" xml:space="preserve">
+    <value>You can declare one Ceasefire day per week. During that day enemies cannot attack you, but you can attack them.</value>
+  </data>
+  <data name="SettingsWindow/cancelDisablePeriod/btnLbl" xml:space="preserve">
+    <value>Reenable</value>
+  </data>
+  <data name="SettingsWindow/clanInfo/buildingsCount" xml:space="preserve">
+    <value>Structures: %(buildingsCount)s</value>
+  </data>
+  <data name="SettingsWindow/clanInfo/clanTag" xml:space="preserve">
+    <value>Stronghold %(clanTag)s</value>
+  </data>
+  <data name="SettingsWindow/clanInfo/creationDate" xml:space="preserve">
+    <value>Created: %(creationDate)s</value>
+  </data>
+  <data name="SettingsWindow/disableDefencePeriodBtn/lbl" xml:space="preserve">
+    <value>Disable Defense</value>
+  </data>
+  <data name="SettingsWindow/mainButtonLabel" xml:space="preserve">
+    <value>Set Up</value>
+  </data>
+  <data name="SettingsWindow/notActivated/baseLevelCondition" xml:space="preserve">
+    <value>Level %(level)s Command Center%(isNotReady)s</value>
+  </data>
+  <data name="SettingsWindow/notActivated/conditionTitle" xml:space="preserve">
+    <value>Conditions for Setting Up Defense:</value>
+  </data>
+  <data name="SettingsWindow/notActivated/description" xml:space="preserve">
+    <value>By setting up the defense, you will be able to manually select an enemy, attack their Stronghold, and capture Industrial Resource. An attack on the selected clan will earn you more Industrial Resource than a random Skirmish. To gain a flawless victory, attack the selected Zone and capture the enemy Command Center.</value>
+  </data>
+  <data name="SettingsWindow/notActivated/playerCountCondition" xml:space="preserve">
+    <value>Clan members—at least %(membersCount)s members%(isNotReady)s</value>
+  </data>
+  <data name="SettingsWindow/perepheryTitle" xml:space="preserve">
+    <value>Server:</value>
+  </data>
+  <data name="SettingsWindow/statusMsg/activated" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="SettingsWindow/statusMsg/freezed" xml:space="preserve">
+    <value>Suspended</value>
+  </data>
+  <data name="SettingsWindow/statusMsg/notActivated" xml:space="preserve">
+    <value>Not set</value>
+  </data>
+  <data name="SettingsWindow/statusMsg/notAvailable" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="SettingsWindow/windowTitle" xml:space="preserve">
+    <value>Stronghold Settings</value>
+  </data>
+  <data name="ToolTipBuildingInfo/descrAction" xml:space="preserve">
+    <value>Damage upon pillaging: %(value)s</value>
+  </data>
+  <data name="ToolTipBuildingInfo/destroyedMessage" xml:space="preserve">
+    <value>You cannot clash over a damaged structure (durability below %(value)s).</value>
+  </data>
+  <data name="ToolTipBuildingInfo/lowLevelMessage" xml:space="preserve">
+    <value>You cannot clash over structures of Level %(minLevel)s–%(maxLevel)s.</value>
+  </data>
+  <data name="ToolTipBuildingInfo/mep/mapPrefix" xml:space="preserve">
+    <value>Map: </value>
+  </data>
+  <data name="ToolTipBuildingInfo/statusMsg/defeat" xml:space="preserve">
+    <value>Structure captured</value>
+  </data>
+  <data name="ToolTipBuildingInfo/statusMsg/victory" xml:space="preserve">
+    <value>Structure captured</value>
+  </data>
+  <data name="ToolTipBuildingInfo/statusMsg/wasNotBattle" xml:space="preserve">
+    <value>Structure not captured</value>
+  </data>
+  <data name="clanStats/params/periodDefence/avgDefres/label" xml:space="preserve">
+    <value>Plunder
+ratio</value>
+  </data>
+  <data name="clanStats/params/periodDefence/avgDefres/tooltip/body" xml:space="preserve">
+    <value>Ratio of Industrial Resource earned to Industrial Resource lost in Advances</value>
+  </data>
+  <data name="clanStats/params/periodDefence/avgDefres/tooltip/header" xml:space="preserve">
+    <value>Plunder Ratio</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battles/countCapturedCommandCentres/label" xml:space="preserve">
+    <value>Command Centers captured</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battles/countPlunderedAllyBuildings/label" xml:space="preserve">
+    <value>Structures in your Stronghold pillaged</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battles/countPlunderedEnemyBuildings/label" xml:space="preserve">
+    <value>Structures in enemy Strongholds pillaged</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battles/countPromres/label" xml:space="preserve">
+    <value>Industrial Resource earned</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battles/efficiencyOfAttack" xml:space="preserve">
+    <value>Attack efficiency</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battles/efficiencyOfDefence" xml:space="preserve">
+    <value>Defense efficiency</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battles/lostPromres/label" xml:space="preserve">
+    <value>Industrial Resource lost</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battles/profit/label" xml:space="preserve">
+    <value>Net profit</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battlesCount/label" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="clanStats/params/periodDefence/wins/label" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="clanStats/params/periodDefence/wins/tooltip/body" xml:space="preserve">
+    <value>Total rate of victories in Advances</value>
+  </data>
+  <data name="clanStats/params/periodDefence/wins/tooltip/header" xml:space="preserve">
+    <value>Victories in Battles</value>
+  </data>
+  <data name="clanStats/tabs/buttonLbl/periodDefence" xml:space="preserve">
+    <value>Advances</value>
+  </data>
+  <data name="clanStats/tabs/buttonLbl/sortie" xml:space="preserve">
+    <value>Skirmishes</value>
+  </data>
+  <data name="disableDefencePeriodWindow/applyButton/lbl" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="disableDefencePeriodWindow/cancelButton/lbl" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="disableDefencePeriodWindow/inputChecker/body" xml:space="preserve">
+    <value>To perform this operation, enter the current amount of Industrial Resource in all storages (%(controlNumber)s)</value>
+  </data>
+  <data name="disableDefencePeriodWindow/inputChecker/title" xml:space="preserve">
+    <value>CONFIRM DEFENSE DEACTIVATION</value>
+  </data>
+  <data name="disableDefencePeriodWindow/mainText/body" xml:space="preserve">
+    <value>• Level of all Reserves and structures including the Command Center higher than Level IV %(redText)s.
+• Number of prepared Reserves will not change.</value>
+  </data>
+  <data name="disableDefencePeriodWindow/mainText/bodyRedText" xml:space="preserve">
+    <value>will be reduced to Level IV</value>
+  </data>
+  <data name="disableDefencePeriodWindow/mainText/title" xml:space="preserve">
+    <value>Are you sure you want to disable the Stronghold defense?</value>
+  </data>
+  <data name="disableDefencePeriodWindow/windowTitle" xml:space="preserve">
+    <value>Disable Defense</value>
+  </data>
+  <data name="fortBattleDirectionPopover/battleDurationFmt" xml:space="preserve">
+    <value>%(prevHour)s – %(nextHour)s</value>
+  </data>
+  <data name="fortBattleDirectionPopover/commingBattles" xml:space="preserve">
+    <value>Upcoming battles: </value>
+  </data>
+  <data name="fortBattleResultsWindow/defResReceived/byClan" xml:space="preserve">
+    <value>by clan:</value>
+  </data>
+  <data name="fortBattleResultsWindow/defResReceived/byPlayer" xml:space="preserve">
+    <value>by you:</value>
+  </data>
+  <data name="fortBattleResultsWindow/defResReceived/header" xml:space="preserve">
+    <value>Industrial Resource earned:</value>
+  </data>
+  <data name="fortBattleResultsWindow/defeat/description/end" xml:space="preserve">
+    <value>%(clanTag)s: %(numBuildings)d</value>
+  </data>
+  <data name="fortBattleResultsWindow/defeat/description/start" xml:space="preserve">
+    <value>Advance ended, pillaged structures of clan</value>
+  </data>
+  <data name="fortBattleResultsWindow/defeat/header" xml:space="preserve">
+    <value>Defeat</value>
+  </data>
+  <data name="fortBattleResultsWindow/journal" xml:space="preserve">
+    <value>Advance: Log</value>
+  </data>
+  <data name="fortBattleResultsWindow/table/building" xml:space="preserve">
+    <value>Structure</value>
+  </data>
+  <data name="fortBattleResultsWindow/table/moreBtn" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="fortBattleResultsWindow/table/notParticipated" xml:space="preserve">
+    <value>Did not fight</value>
+  </data>
+  <data name="fortBattleResultsWindow/table/result" xml:space="preserve">
+    <value>Clash Results</value>
+  </data>
+  <data name="fortBattleResultsWindow/table/result/defeat" xml:space="preserve">
+    <value>Defeat</value>
+  </data>
+  <data name="fortBattleResultsWindow/table/result/win" xml:space="preserve">
+    <value>Victory!</value>
+  </data>
+  <data name="fortBattleResultsWindow/table/resultsNotAvailable" xml:space="preserve">
+    <value>Clash results unavailable</value>
+  </data>
+  <data name="fortBattleResultsWindow/table/startTime" xml:space="preserve">
+    <value>Starting Time</value>
+  </data>
+  <data name="fortBattleResultsWindow/tie/description/end" xml:space="preserve">
+    <value>%(clanTag)s ended</value>
+  </data>
+  <data name="fortBattleResultsWindow/tie/description/start" xml:space="preserve">
+    <value>Advance with clan</value>
+  </data>
+  <data name="fortBattleResultsWindow/tie/header" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="fortBattleResultsWindow/win/description/end" xml:space="preserve">
+    <value>%(clanTag)s: %(numBuildings)s</value>
+  </data>
+  <data name="fortBattleResultsWindow/win/description/start" xml:space="preserve">
+    <value>Advance ended, pillaged structures of clan</value>
+  </data>
+  <data name="fortBattleResultsWindow/win/header" xml:space="preserve">
+    <value>Victory!</value>
+  </data>
+  <data name="fortBattleResultsWindow/windowTitle" xml:space="preserve">
+    <value>Advance: Results</value>
+  </data>
+  <data name="fortBattleRoom/legionariesCount" xml:space="preserve">
+    <value>Legionnaires:</value>
+  </data>
+  <data name="fortBattleRoom/legionariesToolTipMsg" xml:space="preserve">
+    <value>Please wait for the Commander to add you to the detachment.</value>
+  </data>
+  <data name="fortBattleRoom/listHeader/clanPlayers" xml:space="preserve">
+    <value>Clan members</value>
+  </data>
+  <data name="fortBattleRoom/listHeader/legionariesPlayers" xml:space="preserve">
+    <value>Legionnaires</value>
+  </data>
+  <data name="fortNotCommanderFirstEnterWindow/applyBtnLabel" xml:space="preserve">
+    <value>Affirmative!</value>
+  </data>
+  <data name="fortNotCommanderFirstEnterWindow/textDescription" xml:space="preserve">
+    <value>• Select a structure and attach to its garrison. Industrial Resource earned by you will be used to upgrade the selected structure (you are attached to the Command Center by default).
+• Engage in Skirmishes with the members of your clan. Earn Industrial Resource for upgrading your Stronghold and producing Reserves. Be ready for the Defense Period.
+• Distribute Industrial Resource evenly in all storages. If the storage of a structure is full, you will not be able to transport more Industrial Resource there.</value>
+  </data>
+  <data name="fortNotCommanderFirstEnterWindow/textTitle" xml:space="preserve">
+    <value>Your Primary Tasks</value>
+  </data>
+  <data name="fortNotCommanderFirstEnterWindow/windowTitle" xml:space="preserve">
+    <value>Welcome!</value>
+  </data>
+  <data name="periodDefenceWindow/btn/activate" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="periodDefenceWindow/btn/notNow" xml:space="preserve">
+    <value>Not Now</value>
+  </data>
+  <data name="periodDefenceWindow/btn/pointsAreFilled/body" xml:space="preserve">
+    <value>Click to activate defense of your Stronghold. You can adjust the defense settings later.</value>
+  </data>
+  <data name="periodDefenceWindow/btn/pointsAreNotFilled/body" xml:space="preserve">
+    <value>To set up the defense select a server,
+set the time for the Defense Period and Ceasefire.</value>
+  </data>
+  <data name="periodDefenceWindow/dropDownbtn/notSelected" xml:space="preserve">
+    <value>Not selected</value>
+  </data>
+  <data name="periodDefenceWindow/dropDownbtn/whithoutHoliday" xml:space="preserve">
+    <value>Never</value>
+  </data>
+  <data name="periodDefenceWindow/headerLbl" xml:space="preserve">
+    <value>Defense Setup</value>
+  </data>
+  <data name="periodDefenceWindow/holiday" xml:space="preserve">
+    <value>Ceasefire</value>
+  </data>
+  <data name="periodDefenceWindow/holiday/description" xml:space="preserve">
+    <value>During this day enemy clans cannot attack your Stronghold, but you can attack other clans.</value>
+  </data>
+  <data name="periodDefenceWindow/hourDefence" xml:space="preserve">
+    <value>Defense Period</value>
+  </data>
+  <data name="periodDefenceWindow/hourDefence/description" xml:space="preserve">
+    <value>Each day at this hour your clan must defend your Stronghold. Set a time convenient for you.</value>
+  </data>
+  <data name="periodDefenceWindow/notNow/body" xml:space="preserve">
+    <value>You can always set up the defense in the Stronghold settings.</value>
+  </data>
+  <data name="periodDefenceWindow/periphery" xml:space="preserve">
+    <value>Server:</value>
+  </data>
+  <data name="periodDefenceWindow/periphery/description" xml:space="preserve">
+    <value>Detachments for Advances will be created here.</value>
+  </data>
+  <data name="periodDefenceWindow/ready" xml:space="preserve">
+    <value>Fill out the form to set up the defense.</value>
+  </data>
+  <data name="sortie/introView/fortBattles/nextTimeOfBattle" xml:space="preserve">
+    <value>Upcoming battle will start on %(nextDate)s</value>
+  </data>
+  <data name="sortie/introView/fortBattles/notActivated" xml:space="preserve">
+    <value>No upcoming battles</value>
+  </data>
+  <data name="sortie/introView/fortBattles/notActivatedDefenceTime" xml:space="preserve">
+    <value>Defense not set up</value>
+  </data>
+  <data name="sortie/room/message/getNotReady" xml:space="preserve">
+    <value>Click to indicate that you are not ready</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/attackImpossible" xml:space="preserve">
+    <value>Your Stronghold is frozen; attack is unavailable.</value>
+  </data>
+  <data name="FortIntelligence/headerBlockNoDefPeriod/body" xml:space="preserve">
+    <value>To access the Intelligence Data, upgrade your Command Center to Level V and set up the defense.</value>
+  </data>
+  <data name="FortIntelligence/headerBlockNoDefPeriod/header" xml:space="preserve">
+    <value>Intelligence Data</value>
+  </data>
+  <data name="buildings/FINANCIAL_DEPT" xml:space="preserve">
+    <value>Financial Unit</value>
+  </data>
+  <data name="buildings/INTENDANT_SERVICE" xml:space="preserve">
+    <value>Quartermaster Unit</value>
+  </data>
+  <data name="buildings/MILITARY_ACADEMY" xml:space="preserve">
+    <value>Military School</value>
+  </data>
+  <data name="buildings/MILITARY_BASE" xml:space="preserve">
+    <value>Command Center</value>
+  </data>
+  <data name="buildings/OFFICE" xml:space="preserve">
+    <value>War Department</value>
+  </data>
+  <data name="buildings/TANKODROME" xml:space="preserve">
+    <value>Tankodrome</value>
+  </data>
+  <data name="buildings/TRAINING_DEPT" xml:space="preserve">
+    <value>Training Unit</value>
+  </data>
+  <data name="buildings/TRANSPORT_DEPT" xml:space="preserve">
+    <value>Transportation Unit</value>
+  </data>
+  <data name="buildings/TROPHY_BRIGADE" xml:space="preserve">
+    <value>Trophy Brigade</value>
+  </data>
+  <data name="orders/ADDITIONAL_BRIEFING" xml:space="preserve">
+    <value>Additional Briefing</value>
+  </data>
+  <data name="orders/COMBAT_PAYMENTS" xml:space="preserve">
+    <value>Battle Payments</value>
+  </data>
+  <data name="orders/EVACUATION" xml:space="preserve">
+    <value>Evacuation</value>
+  </data>
+  <data name="orders/HEAVY_TRANSPORT" xml:space="preserve">
+    <value>High-Capacity Transport</value>
+  </data>
+  <data name="orders/MILITARY_EXERCISES" xml:space="preserve">
+    <value>Military Maneuvers</value>
+  </data>
+  <data name="orders/REQUISITION" xml:space="preserve">
+    <value>Requisition</value>
+  </data>
+  <data name="orders/SPECIAL_MISSION" xml:space="preserve">
+    <value>Special Instructions</value>
+  </data>
+  <data name="orders/TACTICAL_TRAINING" xml:space="preserve">
+    <value>Tactical Training</value>
+  </data>
+  <data name="BuildingPopover/garrisonLabel" xml:space="preserve">
+    <value>Garrison</value>
+  </data>
+  <data name="FortIntelligence/status/defaultRequest/empty" xml:space="preserve">
+    <value>Suitable enemy was not found. Try searching by tag or adjusting the search range manually.</value>
+  </data>
+  <data name="sortie/listView/absentDivisions" xml:space="preserve">
+    <value>No detachments created</value>
+  </data>
+  <data name="sortie/listView/alertText/body" xml:space="preserve">
+    <value>Detachment information temporarily unavailable. However, you can join as a volunteer.</value>
+  </data>
+  <data name="sortie/listView/alertText/title" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="sortie/listView/listColumns/descr" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="sortie/listView/listColumns/status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Buildings/buildingName/artillery_building" xml:space="preserve">
+    <value>Artillery Battalion</value>
+  </data>
+  <data name="Buildings/buildingName/bomber_building" xml:space="preserve">
+    <value>Attack Bomber Squadron</value>
+  </data>
+  <data name="Buildings/buildingName/unknown" xml:space="preserve">
+    <value>Unknown Structure</value>
+  </data>
+  <data name="Buildings/defResInfo/artillery_building" xml:space="preserve">
+    <value>Single shell damage: %(damage)s HP, total shells in barrage: %(shotsNumberRange)s item(s), damage area radius: %(areaRadius)s m.</value>
+  </data>
+  <data name="Buildings/defResInfo/bomber_building" xml:space="preserve">
+    <value>Single bomb damage: %(bombDamage)s HP, total bombs: %(bombsNumberRange)s item(s), damage area: %(areaSquare)s m². </value>
+  </data>
+  <data name="Buildings/processOrderInfo/artillery_building" xml:space="preserve">
+    <value>Enables to call in an artillery strike. Its damage is determined by the level of the Reserve.</value>
+  </data>
+  <data name="Buildings/processOrderInfo/bomber_building" xml:space="preserve">
+    <value>Enables to call in an airstrike. Its damage is determined by the level of the Reserve.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/artillery_building" xml:space="preserve">
+    <value>A distant artillery battery will immediately lay howitzer fire on enemy positions, causing serious damage with HE shells.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/bomber_building" xml:space="preserve">
+    <value>Attack Bomber Squadrons supplies expeditionary airfields with aircraft, ready to unleash a fiery storm on the enemy.</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/artillery_building" xml:space="preserve">
+    <value>Call in an artillery strike at the specified coordinates</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/bomber_building" xml:space="preserve">
+    <value>Call in a ground-attack plane for airstrike</value>
+  </data>
+  <data name="General/orderType/artillery" xml:space="preserve">
+    <value>Artillery Strike</value>
+  </data>
+  <data name="General/orderType/bomber" xml:space="preserve">
+    <value>Airstrike</value>
+  </data>
+  <data name="OrderSelectPopover/notAvailable" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="OrderSelectPopover/orderCount" xml:space="preserve">
+    <value>%(orderNumber)s item(s)</value>
+  </data>
+  <data name="OrderSelectPopover/orderLevel" xml:space="preserve">
+    <value>Level %(orderLevel)s</value>
+  </data>
+  <data name="OrderSelectPopover/returnBtnLabel" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="OrderSelectPopover/selected" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+  <data name="Orders/orderPopover/detailsBtn" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/artillery" xml:space="preserve">
+    <value>Artillery Strike</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/bomber" xml:space="preserve">
+    <value>Airstrike</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/emptyOrder" xml:space="preserve">
+    <value>Select Reserve</value>
+  </data>
+  <data name="buildings/ARTILLERY_SHOP" xml:space="preserve">
+    <value>Artillery Battalion</value>
+  </data>
+  <data name="buildings/BOMBER_SHOP" xml:space="preserve">
+    <value>Attack Bomber Squadron</value>
+  </data>
+  <data name="fortBattleResultsWindow/defResLost/header" xml:space="preserve">
+    <value>Industrial Resource lost:</value>
+  </data>
+  <data name="fortCombatReservesIntroWindow/artillery/description" xml:space="preserve">
+    <value>Artillery battery, hidden from the enemy, stands ready to lay heavy artillery fire with HE shells at the specified coordinates on the map at first request.</value>
+  </data>
+  <data name="fortCombatReservesIntroWindow/artillery/title" xml:space="preserve">
+    <value>Artillery Strike</value>
+  </data>
+  <data name="fortCombatReservesIntroWindow/bomber/description" xml:space="preserve">
+    <value>A ground-attack plane will drop ATA bombs capable of causing heavy damage to any enemy vehicle that happens to be located at the specified map coordinates.</value>
+  </data>
+  <data name="fortCombatReservesIntroWindow/bomber/title" xml:space="preserve">
+    <value>Airstrike</value>
+  </data>
+  <data name="fortCombatReservesIntroWindow/description" xml:space="preserve">
+    <value>New Reserves that may influence the course of combat.</value>
+  </data>
+  <data name="fortCombatReservesIntroWindow/title" xml:space="preserve">
+    <value>New Combat Reserves</value>
+  </data>
+  <data name="fortCombatReservesIntroWindow/windowTitle" xml:space="preserve">
+    <value>Combat Reserves</value>
+  </data>
+  <data name="fortConsumableOrder/battleParams" xml:space="preserve">
+    <value>Combat Characteristics:</value>
+  </data>
+  <data name="fortConsumableOrder/descr/11" xml:space="preserve">
+    <value>Artillery fire covers the specified coordinates on the minimap. Shells in use—High-Explosive.</value>
+  </data>
+  <data name="fortConsumableOrder/descr/12" xml:space="preserve">
+    <value>A ground-attack plane is directed to the specified coordinates and drops anti-tank aerial bombs (ATAB). This plane cannot be shot down.</value>
+  </data>
+  <data name="fortConsumableOrder/levelLbl" xml:space="preserve">
+    <value>Tier %(level)s</value>
+  </data>
+  <data name="fortConsumableOrder/params/level_lbl" xml:space="preserve">
+    <value>Level %(level)s Combat Reserve</value>
+  </data>
+  <data name="fortConsumableOrder/titleDescr" xml:space="preserve">
+    <value>Operating Principle:</value>
+  </data>
+  <data name="orderType/battleConsumable" xml:space="preserve">
+    <value>Level %(level)s Combat Reserve</value>
+  </data>
+  <data name="orderType/consumable" xml:space="preserve">
+    <value>Level %(level)s Reserve</value>
+  </data>
+  <data name="orders/ARTILLERY" xml:space="preserve">
+    <value>Artillery Strike</value>
+  </data>
+  <data name="orders/BOMBER" xml:space="preserve">
+    <value>Airstrike</value>
+  </data>
+  <data name="Orders/orderPopover/battleConsumable" xml:space="preserve">
+    <value>1 battle</value>
+  </data>
+  <data name="Orders/orderPopover/closeButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="orders/EVACUATION_EXPIRE" xml:space="preserve">
+    <value>Evacuation</value>
+  </data>
+  <data name="orders/REQUISITION_EXPIRE" xml:space="preserve">
+    <value>Requisition</value>
+  </data>
+  <data name="FortClanBattleRoom/header/ordersDisabled" xml:space="preserve">
+    <value>Combat Reserves disabled</value>
+  </data>
+  <data name="SettingsWindow/notActivated/conditions" xml:space="preserve">
+    <value>Battle Access Requirements</value>
+  </data>
+  <data name="SettingsWindow/notActivated/conditions/attack" xml:space="preserve">
+    <value>Divisions when attacking enemy Stronghold</value>
+  </data>
+  <data name="SettingsWindow/notActivated/conditions/defence" xml:space="preserve">
+    <value>Divisions when defending your Stronghold</value>
+  </data>
+  <data name="SettingsWindow/notActivated/conditions/fortLevel" xml:space="preserve">
+    <value>Your Stronghold level</value>
+  </data>
+  <data name="SettingsWindow/notActivated/isNotReady" xml:space="preserve">
+    <value> (not fulfilled)</value>
+  </data>
+  <data name="SettingsWindow/notActivated/title" xml:space="preserve">
+    <value>Defense</value>
+  </data>
+  <data name="rosterIntroWindow/absolute/header" xml:space="preserve">
+    <value>Stronghold Upgraded to Level VIII!</value>
+  </data>
+  <data name="rosterIntroWindow/absoluteDivisionDescription" xml:space="preserve">
+    <value>Attack on Level VIII–X Stronghold, division:</value>
+  </data>
+  <data name="rosterIntroWindow/absoluteDivisionName" xml:space="preserve">
+    <value>Absolute </value>
+  </data>
+  <data name="rosterIntroWindow/attackTitle" xml:space="preserve">
+    <value>Attack</value>
+  </data>
+  <data name="rosterIntroWindow/champion/header" xml:space="preserve">
+    <value>Defense Set Up!</value>
+  </data>
+  <data name="rosterIntroWindow/championDivisionDescription" xml:space="preserve">
+    <value>Attack on Level V–VII Stronghold, division:</value>
+  </data>
+  <data name="rosterIntroWindow/championDivisionName" xml:space="preserve">
+    <value>Champion</value>
+  </data>
+  <data name="rosterIntroWindow/defenceDescription/noOffDay" xml:space="preserve">
+    <value>Defend your Stronghold from %(start)s through %(end)s. Division:</value>
+  </data>
+  <data name="rosterIntroWindow/defenceDescription/offDay" xml:space="preserve">
+    <value>Defend your Stronghold from %(start)s through %(end)s (Ceasefire day: %(offDay)s). Division:</value>
+  </data>
+  <data name="rosterIntroWindow/defenceTitle" xml:space="preserve">
+    <value>Defense Period</value>
+  </data>
+  <data name="rosterIntroWindow/windowTitle" xml:space="preserve">
+    <value>Advances</value>
+  </data>
+  <data name="ChoiceDivision/changeBtnLbl" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="ChoiceDivision/changewindowTitle" xml:space="preserve">
+    <value>Change Division</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/tooltipLockTime/body" xml:space="preserve">
+    <value>The enemy clan cannot be attacked during the specified period. To apply the filter, select a different option.</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/tooltipLockTime/header" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/tooltipOwnDefenceTime/body" xml:space="preserve">
+    <value>Enemy clan's Defense Period cannot be the same as your Stronghold's Defense Period. To apply the filter, select a different option.</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/tooltipOwnDefenceTime/header" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="sortie/listView/curfew" xml:space="preserve">
+    <value>Curfew</value>
+  </data>
+  <data name="sortie/listView/sortiesRegulations" xml:space="preserve">
+    <value>Skirmish Rules</value>
+  </data>
+  <data name="switchPeripheryWindow/applySwitchLabel" xml:space="preserve">
+    <value>To plan and engage in Skirmishes, transfer to the %(server)s server.</value>
+  </data>
+  <data name="switchPeripheryWindow/btnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="switchPeripheryWindow/btnSwitch" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="switchPeripheryWindow/description" xml:space="preserve">
+    <value>You are currently connected to the %(server)s server. Skirmish restrictions are currently active on this server.</value>
+  </data>
+  <data name="switchPeripheryWindow/header" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="switchPeripheryWindow/selectServerLabel" xml:space="preserve">
+    <value>To plan and engage in Skirmishes, transfer to another server:</value>
+  </data>
+  <data name="switchPeripheryWindow/windowTitle" xml:space="preserve">
+    <value>Transfer to Another Server</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/base_building" xml:space="preserve">
+    <value>Industrial Resource can be transported from one structure to another within your Stronghold (including the Command Center).</value>
+  </data>
+  <data name="Buildings/buildingTooltip/compensation" xml:space="preserve">
+    <value>, 
+including compensation: </value>
+  </data>
+  <data name="FortWelcomeView/alreadyCreated" xml:space="preserve">
+    <value>Stronghold already created</value>
+  </data>
+  <data name="FortWelcomeView/clanCreate/or" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="FortWelcomeView/clanCreateLabel" xml:space="preserve">
+    <value>Create a clan</value>
+  </data>
+  <data name="ChoiceDivision/vehicleLevelSingle" xml:space="preserve">
+    <value>Vehicle Tier: %(level)s</value>
+  </data>
+  <data name="sortie/room/level" xml:space="preserve">
+    <value>Tier %(level)s</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/disableAttack" xml:space="preserve">
+    <value>Unable to attack the clan found: the difference between Strongholds is more than one level.</value>
+  </data>
+  <data name="orderType/battleConsumable_no_level" xml:space="preserve">
+    <value>Combat Reserve</value>
+  </data>
+  <data name="fort2/teamHeader" xml:space="preserve">
+    <value>Detachment Members</value>
+  </data>
+  <data name="fort2builds/direction" xml:space="preserve">
+    <value>%(direction)s allied bridgehead</value>
+  </data>
+  <data name="fort2builds/direction/A" xml:space="preserve">
+    <value>North</value>
+  </data>
+  <data name="fort2builds/direction/B" xml:space="preserve">
+    <value>East</value>
+  </data>
+  <data name="fort2builds/direction/C" xml:space="preserve">
+    <value>South</value>
+  </data>
+  <data name="fort2builds/direction/D" xml:space="preserve">
+    <value>West</value>
+  </data>
+  <data name="fort2builds/directionEnemy" xml:space="preserve">
+    <value>Enemy bridgehead</value>
+  </data>
+  <data name="fort2builds/mapName" xml:space="preserve">
+    <value>Map: &lt;font color='#FCF4CC'&gt;%(mapName)s&lt;/font&gt;</value>
+  </data>
+  <data name="fort2builds/mapUnknown" xml:space="preserve">
+    <value>The map will be specified at the beginning of an Advance</value>
+  </data>
+  <data name="fort2builds/point1" xml:space="preserve">
+    <value>Citadel</value>
+  </data>
+  <data name="fort2builds/point2" xml:space="preserve">
+    <value>Reserve Line</value>
+  </data>
+  <data name="fort2builds/point3" xml:space="preserve">
+    <value>Front Line</value>
+  </data>
+  <data name="fort2builds/point4" xml:space="preserve">
+    <value>Front Line</value>
+  </data>
+  <data name="fort2builds/point5" xml:space="preserve">
+    <value>Reserve Line</value>
+  </data>
+  <data name="fort2builds/point6" xml:space="preserve">
+    <value>Citadel</value>
+  </data>
+  <data name="fort2builds/rewardFirstTime" xml:space="preserve">
+    <value>x%(reward)s for the first victory in an Advance at this bridgehead</value>
+  </data>
+  <data name="fort2builds/rewardPoint1" xml:space="preserve">
+    <value>Citadel defended, both Lines lost</value>
+  </data>
+  <data name="fort2builds/rewardPoint2" xml:space="preserve">
+    <value>Reserve Line defended, Front Line lost</value>
+  </data>
+  <data name="fort2builds/rewardPoint3" xml:space="preserve">
+    <value>Both Lines defended, enemy Lines not captured</value>
+  </data>
+  <data name="fort2builds/rewardPoint4" xml:space="preserve">
+    <value>Front Line captured only</value>
+  </data>
+  <data name="fort2builds/rewardPoint5" xml:space="preserve">
+    <value>Both Lines captured, Citadel not captured</value>
+  </data>
+  <data name="fort2builds/rewardPoint6" xml:space="preserve">
+    <value>Enemy Citadel captured</value>
+  </data>
+  <data name="fort2builds/rewardRequisition" xml:space="preserve">
+    <value>from Reserve Requisition</value>
+  </data>
+  <data name="fort2builds/totalDescription" xml:space="preserve">
+    <value>You will earn a reward after an Advance</value>
+  </data>
+  <data name="fort2buttons/makeInvisible" xml:space="preserve">
+    <value>Hide from legionnaires</value>
+  </data>
+  <data name="fort2buttons/makeInvisibleStatus" xml:space="preserve">
+    <value>Legionnaires can see the detachment</value>
+  </data>
+  <data name="fort2buttons/makeVisible" xml:space="preserve">
+    <value>Display to legionnaires</value>
+  </data>
+  <data name="fort2buttons/makeVisibleStatus" xml:space="preserve">
+    <value>Legionnaires cannot see the detachment</value>
+  </data>
+  <data name="fort2direction/A" xml:space="preserve">
+    <value>North</value>
+  </data>
+  <data name="fort2direction/B" xml:space="preserve">
+    <value>East</value>
+  </data>
+  <data name="fort2direction/C" xml:space="preserve">
+    <value>South</value>
+  </data>
+  <data name="fort2direction/D" xml:space="preserve">
+    <value>West</value>
+  </data>
+  <data name="fort2info/sortie" xml:space="preserve">
+    <value>Skirmish in division %(level)s</value>
+  </data>
+  <data name="fort2info/stronghold" xml:space="preserve">
+    <value>Advance from %(direction)s bridgehead</value>
+  </data>
+  <data name="fort2map/randomMap" xml:space="preserve">
+    <value>Random map</value>
+  </data>
+  <data name="fort2reserve/heavyTrucks" xml:space="preserve">
+    <value>High-Capacity Transport</value>
+  </data>
+  <data name="fort2reserve/requisition" xml:space="preserve">
+    <value>Requisition</value>
+  </data>
+  <data name="fort2reserve/support" xml:space="preserve">
+    <value>Combat Reserves</value>
+  </data>
+  <data name="fort2reserve/tooltip/condition" xml:space="preserve">
+    <value>In Skirmishes and Advances for one battle</value>
+  </data>
+  <data name="fort2reserve/tooltip/conditionRequisition" xml:space="preserve">
+    <value>For the results of an Advance</value>
+  </data>
+  <data name="fort2reserve/tooltip/disabledInBattle" xml:space="preserve">
+    <value>A Reserve can be enabled before a battle</value>
+  </data>
+  <data name="fort2reserve/tooltip/disabledRequisition" xml:space="preserve">
+    <value>A Reserve can be enabled before an Advance</value>
+  </data>
+  <data name="fort2reserve/tooltip/empty" xml:space="preserve">
+    <value>You have no available Reserves</value>
+  </data>
+  <data name="fort2reserve/tooltip/heavytrucksActivation" xml:space="preserve">
+    <value>Activated at the beginning of a battle</value>
+  </data>
+  <data name="fort2reserve/tooltip/inStorage" xml:space="preserve">
+    <value>&lt;font color='#C9C9BE'&gt;%(count)s&lt;/font&gt; at the Storage</value>
+  </data>
+  <data name="fort2reserve/tooltip/level" xml:space="preserve">
+    <value>level</value>
+  </data>
+  <data name="fort2reserve/tooltip/readyToSelect" xml:space="preserve">
+    <value>Can be enabled</value>
+  </data>
+  <data name="fort2reserve/tooltip/requisitionActivation" xml:space="preserve">
+    <value>Activated at the beginning of an Advance</value>
+  </data>
+  <data name="fort2reserve/tooltip/selected" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="fort2reserve/tooltip/supportActivation" xml:space="preserve">
+    <value>Activated when using a Reserve in a battle</value>
+  </data>
+  <data name="fort2reserve/tooltip/withPermition" xml:space="preserve">
+    <value>Click to view the list of available Reserves.</value>
+  </data>
+  <data name="fort2reserve/tooltip/withoutPermition" xml:space="preserve">
+    <value>A Reserve can be enabled only by the Detachment Commander in the position of the Clan Commander, Executive Officer, Personnel Officer or Combat Officer.</value>
+  </data>
+  <data name="fort2table/rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="fort2table/roster" xml:space="preserve">
+    <value>Members</value>
+  </data>
+  <data name="fort2table/tech" xml:space="preserve">
+    <value>Vehicles</value>
+  </data>
+  <data name="fort2title/sortie" xml:space="preserve">
+    <value>Skirmish</value>
+  </data>
+  <data name="fort2title/stronghold" xml:space="preserve">
+    <value>Advance from %(direction)s bridgehead</value>
+  </data>
+  <data name="fort2tooltips/crossSwords" xml:space="preserve">
+    <value>{HEADER}Border{/HEADER}{BODY}Neutral territory. The winner attacks the enemy line in the next battle. When a battle ends in a draw, the attacking team will be selected randomly.{/BODY}</value>
+  </data>
+  <data name="fort2tooltips/fortTitle" xml:space="preserve">
+    <value>Advance from %(direction)s bridgehead</value>
+  </data>
+  <data name="fort2tooltips/hours" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="fort2tooltips/minuts" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="fort2tooltips/sortieTitle" xml:space="preserve">
+    <value>Skirmish in division %(level)s</value>
+  </data>
+  <data name="mainWindow/maintenance/body" xml:space="preserve">
+    <value>We apologize for the inconvenience.</value>
+  </data>
+  <data name="mainWindow/maintenance/button" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="mainWindow/maintenance/header" xml:space="preserve">
+    <value>Error Loading Data</value>
+  </data>
+  <data name="orders/ADDITIONAL_BRIEFING_2_0" xml:space="preserve">
+    <value>Additional Briefing</value>
+  </data>
+  <data name="orders/COMBAT_PAYMENTS_2_0" xml:space="preserve">
+    <value>Battle Payments</value>
+  </data>
+  <data name="orders/MILITARY_EXERCISES_2_0" xml:space="preserve">
+    <value>Military Maneuvers</value>
+  </data>
+  <data name="orders/TACTICAL_TRAINING_2_0" xml:space="preserve">
+    <value>Tactical Training</value>
+  </data>
+  <data name="rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon" xml:space="preserve">
+    <value>Battle starts in &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt; min</value>
+  </data>
+  <data name="rosterIntroWindow/introView/fortBattles/nextTimeOfBattleToday" xml:space="preserve">
+    <value>Battle starts today at &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="rosterIntroWindow/introView/fortBattles/nextTimeOfBattleTomorrow" xml:space="preserve">
+    <value>Battle starts tomorrow at &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="rosterIntroWindow/introView/fortBattles/noBattlesToday" xml:space="preserve">
+    <value>Starting time will be specified later</value>
+  </data>
+  <data name="rosterIntroWindow/introView/fortBattles/unavailable" xml:space="preserve">
+    <value>Starting time will be specified later</value>
+  </data>
+  <data name="sortie/introView/fortBattles/EndOfBattleSoon" xml:space="preserve">
+    <value>Battle ends in &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="sortie/introView/fortBattles/available" xml:space="preserve">
+    <value>Skirmishes available</value>
+  </data>
+  <data name="sortie/introView/fortBattles/nextTimeOfBattleSoon" xml:space="preserve">
+    <value>Battle starts in &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="sortie/introView/fortBattles/nextTimeOfBattleToday" xml:space="preserve">
+    <value>Battle starts today at &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="sortie/introView/fortBattles/nextTimeOfBattleTomorrow" xml:space="preserve">
+    <value>Battle starts tomorrow at &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="sortie/introView/fortBattles/noBattlesToday" xml:space="preserve">
+    <value>Starting time will be specified later</value>
+  </data>
+  <data name="sortie/introView/fortBattles/unavailable" xml:space="preserve">
+    <value>Starting time will be specified later</value>
+  </data>
+  <data name="stronghold/teamHeader" xml:space="preserve">
+    <value>Detachment Members</value>
+  </data>
+  <data name="strongholdbuilds/direction" xml:space="preserve">
+    <value>%(direction)s allied bridgehead</value>
+  </data>
+  <data name="strongholdbuilds/direction/A" xml:space="preserve">
+    <value>Northern</value>
+  </data>
+  <data name="strongholdbuilds/direction/B" xml:space="preserve">
+    <value>Eastern</value>
+  </data>
+  <data name="strongholdbuilds/direction/C" xml:space="preserve">
+    <value>Southern</value>
+  </data>
+  <data name="strongholdbuilds/direction/D" xml:space="preserve">
+    <value>Western</value>
+  </data>
+  <data name="strongholdbuilds/directionEnemy" xml:space="preserve">
+    <value>Enemy bridgehead</value>
+  </data>
+  <data name="strongholdbuilds/mapName" xml:space="preserve">
+    <value>Map: &lt;font color='#FCF4CC'&gt;%(mapName)s&lt;/font&gt;</value>
+  </data>
+  <data name="strongholdbuilds/mapUnknown" xml:space="preserve">
+    <value>The map will be selected after the start of the Advance</value>
+  </data>
+  <data name="strongholdbuilds/point1" xml:space="preserve">
+    <value>Citadel</value>
+  </data>
+  <data name="strongholdbuilds/point2" xml:space="preserve">
+    <value>Reserve Line</value>
+  </data>
+  <data name="strongholdbuilds/point3" xml:space="preserve">
+    <value>Front Line</value>
+  </data>
+  <data name="strongholdbuilds/point4" xml:space="preserve">
+    <value>Front Line</value>
+  </data>
+  <data name="strongholdbuilds/point5" xml:space="preserve">
+    <value>Reserve Line</value>
+  </data>
+  <data name="strongholdbuilds/point6" xml:space="preserve">
+    <value>Citadel</value>
+  </data>
+  <data name="strongholdbuilds/rewardFirstTime" xml:space="preserve">
+    <value>x%(reward)s for the first victory each day in Advances on this bridgehead</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint1" xml:space="preserve">
+    <value>For defending the Citadel with both lines lost</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint2" xml:space="preserve">
+    <value>For defending the Reserve Line with the Front Line lost</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint3" xml:space="preserve">
+    <value>For defending both lines without capturing enemy lines</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint4" xml:space="preserve">
+    <value>For capturing only the Front Line</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint5" xml:space="preserve">
+    <value>For capturing both lines without capturing the Citadel</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint6" xml:space="preserve">
+    <value>For capturing the enemy Citadel</value>
+  </data>
+  <data name="strongholdbuilds/rewardRequisition" xml:space="preserve">
+    <value>from the Requisition reserve</value>
+  </data>
+  <data name="strongholdbuilds/totalDescription" xml:space="preserve">
+    <value>Awarded after the Advance</value>
+  </data>
+  <data name="strongholdbuttons/makeInvisible" xml:space="preserve">
+    <value>Hide From Legionnaires</value>
+  </data>
+  <data name="strongholdbuttons/makeInvisibleStatus" xml:space="preserve">
+    <value>Legionnaires can see the detachment</value>
+  </data>
+  <data name="strongholdbuttons/makeVisible" xml:space="preserve">
+    <value>Display to Legionnaires</value>
+  </data>
+  <data name="strongholdbuttons/makeVisibleStatus" xml:space="preserve">
+    <value>Legionnaires cannot see the detachment</value>
+  </data>
+  <data name="strongholddirection/A" xml:space="preserve">
+    <value>Northern</value>
+  </data>
+  <data name="strongholddirection/B" xml:space="preserve">
+    <value>Eastern</value>
+  </data>
+  <data name="strongholddirection/C" xml:space="preserve">
+    <value>Southern</value>
+  </data>
+  <data name="strongholddirection/D" xml:space="preserve">
+    <value>Western</value>
+  </data>
+  <data name="strongholdinfo/sortie" xml:space="preserve">
+    <value>Skirmish in division %(level)s</value>
+  </data>
+  <data name="strongholdinfo/stronghold" xml:space="preserve">
+    <value>Advance from the %(direction)s bridgehead</value>
+  </data>
+  <data name="strongholdmap/randomMap" xml:space="preserve">
+    <value>Random map</value>
+  </data>
+  <data name="strongholdreserve/heavyTrucks" xml:space="preserve">
+    <value>High-Capacity Transport</value>
+  </data>
+  <data name="strongholdreserve/requisition" xml:space="preserve">
+    <value>Requisition</value>
+  </data>
+  <data name="strongholdreserve/support" xml:space="preserve">
+    <value>Combat Reserves</value>
+  </data>
+  <data name="strongholdreserve/tooltip/condition" xml:space="preserve">
+    <value>In Skirmishes and Advances, for 1 battle</value>
+  </data>
+  <data name="strongholdreserve/tooltip/conditionRequisition" xml:space="preserve">
+    <value>For the result of the Advance</value>
+  </data>
+  <data name="strongholdreserve/tooltip/disabledInBattle" xml:space="preserve">
+    <value>A Reserve can be enabled before a battle</value>
+  </data>
+  <data name="strongholdreserve/tooltip/disabledRequisition" xml:space="preserve">
+    <value>A Reserve can be enabled before the Advance</value>
+  </data>
+  <data name="strongholdreserve/tooltip/empty" xml:space="preserve">
+    <value>You have no Reserves to enable</value>
+  </data>
+  <data name="strongholdreserve/tooltip/heavytrucksActivation" xml:space="preserve">
+    <value>Activated at the beginning of a battle</value>
+  </data>
+  <data name="strongholdreserve/tooltip/inStorage" xml:space="preserve">
+    <value>&lt;font color='#C9C9BE'&gt;%(count)s&lt;/font&gt; in the Storage</value>
+  </data>
+  <data name="strongholdreserve/tooltip/level" xml:space="preserve">
+    <value>level</value>
+  </data>
+  <data name="strongholdreserve/tooltip/readyToSelect" xml:space="preserve">
+    <value>Can be enabled</value>
+  </data>
+  <data name="strongholdreserve/tooltip/requisitionActivation" xml:space="preserve">
+    <value>Activated at the beginning of an Advance</value>
+  </data>
+  <data name="strongholdreserve/tooltip/selected" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="strongholdreserve/tooltip/supportActivation" xml:space="preserve">
+    <value>Activated when a Reserve is used in a battle</value>
+  </data>
+  <data name="strongholdreserve/tooltip/withPermition" xml:space="preserve">
+    <value>Click to view the list of Reserves you can enable.</value>
+  </data>
+  <data name="strongholdreserve/tooltip/withoutPermition" xml:space="preserve">
+    <value>Reserve can only be enabled by a Detachment Commander with the rank of Commander, Executive Officer, Personnel Officer or Combat Officer.</value>
+  </data>
+  <data name="strongholdtable/rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="strongholdtable/roster" xml:space="preserve">
+    <value>Players</value>
+  </data>
+  <data name="strongholdtable/tech" xml:space="preserve">
+    <value>Vehicles</value>
+  </data>
+  <data name="strongholdtitle/sortie" xml:space="preserve">
+    <value>Skirmish</value>
+  </data>
+  <data name="strongholdtitle/stronghold" xml:space="preserve">
+    <value>Advance from the %(direction)s bridgehead</value>
+  </data>
+  <data name="strongholdtooltips/crossSwords" xml:space="preserve">
+    <value>{HEADER}Border{/HEADER}{BODY}Neutral territory. The winner will attack the enemy line in the next battle. If a battle ends in a draw, the attacking team will be selected randomly.{/BODY}</value>
+  </data>
+  <data name="strongholdtooltips/fortTitle" xml:space="preserve">
+    <value>Advance from the %(direction)s bridgehead</value>
+  </data>
+  <data name="strongholdtooltips/hours" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="strongholdtooltips/minuts" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="strongholdtooltips/sortieTitle" xml:space="preserve">
+    <value>Skirmish in division %(level)s</value>
+  </data>
+</root>

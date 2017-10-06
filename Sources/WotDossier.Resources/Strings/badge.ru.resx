@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="accountPopover/badge/tooltip/body" xml:space="preserve">
+    <value>Нажмите, чтобы выбрать нашивку, которая будет отображаться в бою рядом с вашим именем. Нашивки можно заработать в Ранговых боях, а также выполняя личные боевые задачи.</value>
+  </data>
+  <data name="accountPopover/badge/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_0" xml:space="preserve">
+    <value>Без нашивки</value>
+  </data>
+  <data name="badge_0_descr" xml:space="preserve">
+    <value>Нажмите, чтобы убрать установленную нашивку (при её наличии).</value>
+  </data>
+  <data name="badge_1" xml:space="preserve">
+    <value>Золото бета-сезона</value>
+  </data>
+  <data name="badge_1_descr" xml:space="preserve">
+    <value>Попасть в первую лигу бета-сезона в режиме «Ранговый бой».</value>
+  </data>
+  <data name="badge_2" xml:space="preserve">
+    <value>Золото второго бета-сезона</value>
+  </data>
+  <data name="badge_2_descr" xml:space="preserve">
+    <value>Попасть в первую лигу второго бета-сезона в режиме «Ранговый бой».</value>
+  </data>
+  <data name="badge_3" xml:space="preserve">
+    <value>Золото 2 сезона</value>
+  </data>
+  <data name="badge_3_descr" xml:space="preserve">
+    <value>Попасть в первую лигу 2 сезона в режиме «Ранговый бой».</value>
+  </data>
+  <data name="badge_4" xml:space="preserve">
+    <value>Серебро бета-сезона</value>
+  </data>
+  <data name="badge_4_descr" xml:space="preserve">
+    <value>Попасть во вторую лигу бета-сезона в режиме «Ранговый бой».</value>
+  </data>
+  <data name="badge_5" xml:space="preserve">
+    <value>Серебро второго бета-сезона</value>
+  </data>
+  <data name="badge_5_descr" xml:space="preserve">
+    <value>Попасть во вторую лигу второго бета-сезона в режиме «Ранговый бой».</value>
+  </data>
+  <data name="badge_6" xml:space="preserve">
+    <value>Серебро 2 сезона</value>
+  </data>
+  <data name="badge_6_descr" xml:space="preserve">
+    <value>Попасть во вторую лигу 2 сезона в режиме «Ранговый бой».</value>
+  </data>
+  <data name="badge_7" xml:space="preserve">
+    <value>Бронза бета-сезона</value>
+  </data>
+  <data name="badge_7_descr" xml:space="preserve">
+    <value>Попасть в третью лигу бета-сезона в режиме «Ранговый бой».</value>
+  </data>
+  <data name="badge_8" xml:space="preserve">
+    <value>Бронза второго бета-сезона</value>
+  </data>
+  <data name="badge_8_descr" xml:space="preserve">
+    <value>Попасть в третью лигу второго бета-сезона в режиме «Ранговый бой».</value>
+  </data>
+  <data name="badge_9" xml:space="preserve">
+    <value>Бронза 2 сезона</value>
+  </data>
+  <data name="badge_9_descr" xml:space="preserve">
+    <value>Попасть в третью лигу 2 сезона в режиме «Ранговый бой».</value>
+  </data>
+  <data name="badge_note" xml:space="preserve">
+    <value>Нашивка демонстрирует ваши достижения в игре, и её видят игроки обеих команд.</value>
+  </data>
+  <data name="badgesPage/body/uncollected/title" xml:space="preserve">
+    <value>Неполученные нашивки</value>
+  </data>
+  <data name="badgesPage/dummy/button/label" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="badgesPage/dummy/descr" xml:space="preserve">
+    <value>Приносим извинения за временные неудобства.</value>
+  </data>
+  <data name="badgesPage/dummy/title" xml:space="preserve">
+    <value>Ошибка загрузки данных</value>
+  </data>
+  <data name="badgesPage/header/closeBtn/label" xml:space="preserve">
+    <value>ЗАКРЫТЬ</value>
+  </data>
+  <data name="descText" xml:space="preserve">
+    <value>Играйте эффективно и получайте уникальные знаки отличия!</value>
+  </data>
+  <data name="titleText" xml:space="preserve">
+    <value>Нашивки</value>
+  </data>
+  <data name="badge_10" xml:space="preserve">
+    <value>StuG IV: нашивка II степени</value>
+  </data>
+  <data name="badge_10_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение достаточного количества задач для получения ПТ-САУ StuG IV.</value>
+  </data>
+  <data name="badge_10_short" xml:space="preserve">
+    <value>StuG IV II степени</value>
+  </data>
+  <data name="badge_11" xml:space="preserve">
+    <value>StuG IV: нашивка I степени</value>
+  </data>
+  <data name="badge_11_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение всех задач операции «StuG IV» с отличием.</value>
+  </data>
+  <data name="badge_11_short" xml:space="preserve">
+    <value>StuG IV I степени</value>
+  </data>
+  <data name="badge_12" xml:space="preserve">
+    <value>T28 HTC: нашивка II степени</value>
+  </data>
+  <data name="badge_12_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение достаточного количества задач для получения ПТ-САУ T28 HTC.</value>
+  </data>
+  <data name="badge_12_short" xml:space="preserve">
+    <value>T28 HTC II степени</value>
+  </data>
+  <data name="badge_13" xml:space="preserve">
+    <value>T28 HTC: нашивка I степени</value>
+  </data>
+  <data name="badge_13_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение всех задач операции «T28 Heavy Tank Concept» с отличием.</value>
+  </data>
+  <data name="badge_13_short" xml:space="preserve">
+    <value>T28 HTC I степени</value>
+  </data>
+  <data name="badge_14" xml:space="preserve">
+    <value>T 55A: нашивка II степени</value>
+  </data>
+  <data name="badge_14_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение достаточного количества задач для получения среднего танка Т 55А.</value>
+  </data>
+  <data name="badge_14_short" xml:space="preserve">
+    <value>T 55A II степени</value>
+  </data>
+  <data name="badge_15" xml:space="preserve">
+    <value>T 55A: нашивка I степени</value>
+  </data>
+  <data name="badge_15_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение всех задач операции «T 55А» с отличием.</value>
+  </data>
+  <data name="badge_15_short" xml:space="preserve">
+    <value>T 55A I степени</value>
+  </data>
+  <data name="badge_16" xml:space="preserve">
+    <value>Объект 260: нашивка II степени</value>
+  </data>
+  <data name="badge_16_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение достаточного количества задач для получения тяжёлого танка Объект 260.</value>
+  </data>
+  <data name="badge_16_short" xml:space="preserve">
+    <value>Объект 260 II степени</value>
+  </data>
+  <data name="badge_17" xml:space="preserve">
+    <value>Объект 260: нашивка I степени</value>
+  </data>
+  <data name="badge_17_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение всех задач операции «Объект 260» с отличием.</value>
+  </data>
+  <data name="badge_17_short" xml:space="preserve">
+    <value>Объект 260 I степени</value>
+  </data>
+  <data name="badge_18" xml:space="preserve">
+    <value>Чемпион I кампании</value>
+  </data>
+  <data name="badge_18_descr" xml:space="preserve">
+    <value>Выдаётся за выполнение всех личных боевых задач всех операций I кампании с отличием.</value>
+  </data>
+  <data name="badge_19" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_19_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_20" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_20_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_21" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_21_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_22" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_22_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_23" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_23_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_24" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_24_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_25" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_25_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_26" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badge_26_descr" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badgesPage/header/descr" xml:space="preserve">
+    <value>Нашивка демонстрирует ваши определённые достижения в игре, и её видят игроки обеих команд.</value>
+  </data>
+</root>

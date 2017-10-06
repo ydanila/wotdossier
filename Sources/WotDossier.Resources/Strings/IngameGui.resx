@@ -1,0 +1,1810 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chat_shortcuts/attack" xml:space="preserve">
+    <value>Attack!</value>
+  </data>
+  <data name="chat_shortcuts/attack_enemy" xml:space="preserve">
+    <value>Attacking %(target)s! Ready to fire!</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_cell" xml:space="preserve">
+    <value>Attention to %(cellName)s!</value>
+  </data>
+  <data name="chat_shortcuts/back_to_base" xml:space="preserve">
+    <value>Defend the base!</value>
+  </data>
+  <data name="chat_shortcuts/follow_me" xml:space="preserve">
+    <value>%(target)s, follow me!</value>
+  </data>
+  <data name="chat_shortcuts/help_me" xml:space="preserve">
+    <value>Help!</value>
+  </data>
+  <data name="chat_shortcuts/negative" xml:space="preserve">
+    <value>Negative!</value>
+  </data>
+  <data name="chat_shortcuts/positive" xml:space="preserve">
+    <value>Affirmative!</value>
+  </data>
+  <data name="consumables_panel/equipment/tooltip/empty" xml:space="preserve">
+    <value>A consumable slot</value>
+  </data>
+  <data name="cruise_ctrl/speedMetric" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="damage_panel/crew/commander/destroyed" xml:space="preserve">
+    <value>Commander injured.</value>
+  </data>
+  <data name="damage_panel/crew/commander/normal" xml:space="preserve">
+    <value>Commander</value>
+  </data>
+  <data name="damage_panel/crew/driver/destroyed" xml:space="preserve">
+    <value>Driver injured.</value>
+  </data>
+  <data name="damage_panel/crew/driver/normal" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="damage_panel/crew/gunner1/destroyed" xml:space="preserve">
+    <value>Gunner injured.</value>
+  </data>
+  <data name="damage_panel/crew/gunner1/normal" xml:space="preserve">
+    <value>Gunner</value>
+  </data>
+  <data name="damage_panel/crew/gunner2/destroyed" xml:space="preserve">
+    <value>Gunner 2 injured.</value>
+  </data>
+  <data name="damage_panel/crew/gunner2/normal" xml:space="preserve">
+    <value>Gunner 2</value>
+  </data>
+  <data name="damage_panel/crew/loader1/destroyed" xml:space="preserve">
+    <value>Loader injured.</value>
+  </data>
+  <data name="damage_panel/crew/loader1/normal" xml:space="preserve">
+    <value>Loader</value>
+  </data>
+  <data name="damage_panel/crew/loader2/destroyed" xml:space="preserve">
+    <value>Loader 2 injured.</value>
+  </data>
+  <data name="damage_panel/crew/loader2/normal" xml:space="preserve">
+    <value>Loader 2</value>
+  </data>
+  <data name="damage_panel/crew/radioman1/destroyed" xml:space="preserve">
+    <value>Radio operator injured.</value>
+  </data>
+  <data name="damage_panel/crew/radioman1/normal" xml:space="preserve">
+    <value>Radio Operator</value>
+  </data>
+  <data name="damage_panel/crew/radioman2/destroyed" xml:space="preserve">
+    <value>Radio operator 2 injured.</value>
+  </data>
+  <data name="damage_panel/crew/radioman2/normal" xml:space="preserve">
+    <value>Radio Operator 2</value>
+  </data>
+  <data name="damage_panel/devices/ammoBay/critical" xml:space="preserve">
+    <value>Ammo rack damaged.</value>
+  </data>
+  <data name="damage_panel/devices/ammoBay/destroyed" xml:space="preserve">
+    <value>Ammo rack exploded.</value>
+  </data>
+  <data name="damage_panel/devices/ammoBay/normal" xml:space="preserve">
+    <value>Ammo rack is intact.</value>
+  </data>
+  <data name="damage_panel/devices/engine/critical" xml:space="preserve">
+    <value>Engine damaged. Power decreased.</value>
+  </data>
+  <data name="damage_panel/devices/engine/destroyed" xml:space="preserve">
+    <value>Immobilized: engine destroyed.</value>
+  </data>
+  <data name="damage_panel/devices/engine/normal" xml:space="preserve">
+    <value>Engine is intact.</value>
+  </data>
+  <data name="damage_panel/devices/fuelTank/critical" xml:space="preserve">
+    <value>Fuel tank damaged.</value>
+  </data>
+  <data name="damage_panel/devices/fuelTank/destroyed" xml:space="preserve">
+    <value>Fuel tank destroyed.</value>
+  </data>
+  <data name="damage_panel/devices/fuelTank/normal" xml:space="preserve">
+    <value>Fuel tank is intact.</value>
+  </data>
+  <data name="damage_panel/devices/gun/critical" xml:space="preserve">
+    <value>Gun damaged. Accuracy decreased.</value>
+  </data>
+  <data name="damage_panel/devices/gun/destroyed" xml:space="preserve">
+    <value>Gun destroyed. Unable to fire.</value>
+  </data>
+  <data name="damage_panel/devices/gun/normal" xml:space="preserve">
+    <value>Gun is intact.</value>
+  </data>
+  <data name="damage_panel/devices/radio/critical" xml:space="preserve">
+    <value>Radio damaged.</value>
+  </data>
+  <data name="damage_panel/devices/radio/destroyed" xml:space="preserve">
+    <value>Radio destroyed.</value>
+  </data>
+  <data name="damage_panel/devices/radio/normal" xml:space="preserve">
+    <value>Radio is intact.</value>
+  </data>
+  <data name="damage_panel/devices/surveyingDevice/critical" xml:space="preserve">
+    <value>Observation device damaged.</value>
+  </data>
+  <data name="damage_panel/devices/surveyingDevice/destroyed" xml:space="preserve">
+    <value>Observation device destroyed.</value>
+  </data>
+  <data name="damage_panel/devices/surveyingDevice/normal" xml:space="preserve">
+    <value>Observation Device is intact.</value>
+  </data>
+  <data name="damage_panel/devices/track/critical" xml:space="preserve">
+    <value>Suspension damaged.</value>
+  </data>
+  <data name="damage_panel/devices/track/destroyed" xml:space="preserve">
+    <value>Immobilized: suspension destroyed.</value>
+  </data>
+  <data name="damage_panel/devices/track/normal" xml:space="preserve">
+    <value>Suspension is intact.</value>
+  </data>
+  <data name="damage_panel/devices/turretRotator/critical" xml:space="preserve">
+    <value>Turret damaged. Traverse speed decreased.</value>
+  </data>
+  <data name="damage_panel/devices/turretRotator/destroyed" xml:space="preserve">
+    <value>Unable to rotate: turret destroyed.</value>
+  </data>
+  <data name="damage_panel/devices/turretRotator/normal" xml:space="preserve">
+    <value>Turret is intact.</value>
+  </data>
+  <data name="devices/ammo_bay" xml:space="preserve">
+    <value>Ammo Rack</value>
+  </data>
+  <data name="devices/chassis" xml:space="preserve">
+    <value>Suspension</value>
+  </data>
+  <data name="devices/engine" xml:space="preserve">
+    <value>Engine</value>
+  </data>
+  <data name="devices/fuel_tank" xml:space="preserve">
+    <value>Fuel Tank</value>
+  </data>
+  <data name="devices/gun" xml:space="preserve">
+    <value>Gun</value>
+  </data>
+  <data name="devices/left_track" xml:space="preserve">
+    <value>Left Track</value>
+  </data>
+  <data name="devices/radio" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="devices/right_track" xml:space="preserve">
+    <value>Right Track</value>
+  </data>
+  <data name="devices/surveing_device" xml:space="preserve">
+    <value>Observation Device</value>
+  </data>
+  <data name="devices/turret_rotator" xml:space="preserve">
+    <value>Turret Traverse</value>
+  </data>
+  <data name="player_errors/cant_move/chassis_damaged" xml:space="preserve">
+    <value>Immobilized: suspension damaged.</value>
+  </data>
+  <data name="player_errors/cant_move/crew_inactive" xml:space="preserve">
+    <value>Immobilized: crew destroyed.</value>
+  </data>
+  <data name="player_errors/cant_move/engine_damaged" xml:space="preserve">
+    <value>Immobilized: engine damaged.</value>
+  </data>
+  <data name="player_errors/cant_move/vehicle_destroyed" xml:space="preserve">
+    <value>Immobilized: vehicle destroyed.</value>
+  </data>
+  <data name="player_errors/cant_shoot/crew_inactive" xml:space="preserve">
+    <value>Unable to fire: crew destroyed.</value>
+  </data>
+  <data name="player_errors/cant_shoot/gun_damaged" xml:space="preserve">
+    <value>Unable to fire: gun damaged.</value>
+  </data>
+  <data name="player_errors/cant_shoot/gun_reload" xml:space="preserve">
+    <value>Loading gun</value>
+  </data>
+  <data name="player_errors/cant_shoot/no_ammo" xml:space="preserve">
+    <value>Unable to fire: out of shells.</value>
+  </data>
+  <data name="player_errors/cant_shoot/vehicle_destroyed" xml:space="preserve">
+    <value>Unable to fire: vehicle destroyed.</value>
+  </data>
+  <data name="player_errors/equipment/alreadyActivated" xml:space="preserve">
+    <value>Consumable [%(name)s] is already active.</value>
+  </data>
+  <data name="player_errors/equipment/extinguisher/doesNotActivated" xml:space="preserve">
+    <value>Consumable [%(name)s] is inactive: no fire.</value>
+  </data>
+  <data name="player_errors/equipment/medkit/allTankmenAreSafe" xml:space="preserve">
+    <value>Medical assistance not required: no injured tankers.</value>
+  </data>
+  <data name="player_errors/equipment/medkit/tankmanIsSafe" xml:space="preserve">
+    <value>[%(entity)s] does not need medical aid.</value>
+  </data>
+  <data name="player_errors/equipment/repairkit/allDevicesAreNotDamaged" xml:space="preserve">
+    <value>Repairs not required: all devices are intact.</value>
+  </data>
+  <data name="player_errors/equipment/repairkit/deviceIsNotDamaged" xml:space="preserve">
+    <value>[%(entity)s] is fully operational, no repairs required.</value>
+  </data>
+  <data name="player_messages/ALLY_HIT" xml:space="preserve">
+    <value>You've hit an ally %(entity)s!</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE" xml:space="preserve">
+    <value>Device [%(device)s] exploded in the fire.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT" xml:space="preserve">
+    <value>Device [%(device)s] was destroyed by a shot from %(entity)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_FIRE" xml:space="preserve">
+    <value>The vehicle was destroyed by fire.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW" xml:space="preserve">
+    <value>Crew destroyed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT" xml:space="preserve">
+    <value>Crew was destroyed by a shot from %(entity)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING" xml:space="preserve">
+    <value>The vehicle was destroyed by a collision with [%(entity)s].</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT" xml:space="preserve">
+    <value>The vehicle was destroyed by a [%(entity)s] shot.</value>
+  </data>
+  <data name="player_messages/DEVICE_CRITICAL_AT_FIRE" xml:space="preserve">
+    <value>Device [%(device)s] is damaged by fire.</value>
+  </data>
+  <data name="player_messages/DEVICE_CRITICAL_AT_RAMMING" xml:space="preserve">
+    <value>Collision with [%(entity)s] damaged [%(device)s].</value>
+  </data>
+  <data name="player_messages/DEVICE_CRITICAL_AT_SHOT" xml:space="preserve">
+    <value>A shot from %(entity)s damaged [%(device)s].</value>
+  </data>
+  <data name="player_messages/DEVICE_DESTROYED_AT_FIRE" xml:space="preserve">
+    <value>Device [%(device)s] was destroyed by fire.</value>
+  </data>
+  <data name="player_messages/DEVICE_DESTROYED_AT_RAMMING" xml:space="preserve">
+    <value>Collision with [%(entity)s] destroyed [%(device)s].</value>
+  </data>
+  <data name="player_messages/DEVICE_DESTROYED_AT_SHOT" xml:space="preserve">
+    <value>Device [%(device)s] was destroyed by %(entity)s.</value>
+  </data>
+  <data name="player_messages/DEVICE_REPAIRED" xml:space="preserve">
+    <value>Device [%(device)s] repaired.</value>
+  </data>
+  <data name="player_messages/DEVICE_REPAIRED_TO_CRITICAL" xml:space="preserve">
+    <value>Device [%(device)s] is operational.</value>
+  </data>
+  <data name="player_messages/DEVICE_STARTED_FIRE_AT_RAMMING" xml:space="preserve">
+    <value>Collision with [%(entity)s] ignited device [%(device)s].</value>
+  </data>
+  <data name="player_messages/DEVICE_STARTED_FIRE_AT_SHOT" xml:space="preserve">
+    <value>Device [%(device)s] was set on fire by a shot from %(entity)s.</value>
+  </data>
+  <data name="player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM" xml:space="preserve">
+    <value>Device [%(device)s] was damaged by the removal of the speed governor.</value>
+  </data>
+  <data name="player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM" xml:space="preserve">
+    <value>Device [%(device)s] was destroyed by the removal of the speed governor.</value>
+  </data>
+  <data name="player_messages/FIRE_STOPPED" xml:space="preserve">
+    <value>Fire is out.</value>
+  </data>
+  <data name="player_messages/TANKMAN_HIT_AT_SHOT" xml:space="preserve">
+    <value>A shot from %(entity)s injured [%(device)s].</value>
+  </data>
+  <data name="player_messages/TANKMAN_RESTORED" xml:space="preserve">
+    <value>[%(device)s] is back in action.</value>
+  </data>
+  <data name="player_messages/allied_team_name" xml:space="preserve">
+    <value>Our Team</value>
+  </data>
+  <data name="player_messages/ally_base_captured_by_notification" xml:space="preserve">
+    <value>Friendly base%s capture (%d)</value>
+  </data>
+  <data name="player_messages/ally_base_captured_notification" xml:space="preserve">
+    <value>Friendly base%s captured!</value>
+  </data>
+  <data name="player_messages/ally_frag" xml:space="preserve">
+    <value>%(attacker)s destroyed %(target)s.</value>
+  </data>
+  <data name="player_messages/ally_friendly_fire_frag" xml:space="preserve">
+    <value>%(attacker)s ally destroyed %(target)s ally.</value>
+  </data>
+  <data name="player_messages/ally_suicide" xml:space="preserve">
+    <value>Ally %(entity)s is lost in battle.</value>
+  </data>
+  <data name="player_messages/base_captured_by_notification" xml:space="preserve">
+    <value>Base%s capture (%d)</value>
+  </data>
+  <data name="player_messages/base_captured_notification" xml:space="preserve">
+    <value>Base%s captured!</value>
+  </data>
+  <data name="player_messages/enemy_base_captured_by_notification" xml:space="preserve">
+    <value>Enemy base%s capture (%d)</value>
+  </data>
+  <data name="player_messages/enemy_base_captured_notification" xml:space="preserve">
+    <value>Enemy base%s captured!</value>
+  </data>
+  <data name="player_messages/enemy_frag" xml:space="preserve">
+    <value>%(attacker)s destroyed %(target)s.</value>
+  </data>
+  <data name="player_messages/enemy_friendly_fire_frag" xml:space="preserve">
+    <value>%(attacker)s enemy destroyed %(target)s enemy.</value>
+  </data>
+  <data name="player_messages/enemy_suicide" xml:space="preserve">
+    <value>Enemy %(entity)s is lost in battle.</value>
+  </data>
+  <data name="player_messages/enemy_team_name" xml:space="preserve">
+    <value>Enemy Team</value>
+  </data>
+  <data name="player_messages/horn_is_blocked" xml:space="preserve">
+    <value>Horn is locked; available in %d s</value>
+  </data>
+  <data name="player_messages/player_frag" xml:space="preserve">
+    <value>%(target)s is destroyed!</value>
+  </data>
+  <data name="player_messages/player_friendly_fire_frag" xml:space="preserve">
+    <value>%(target)s ally is destroyed!</value>
+  </data>
+  <data name="player_messages/postmortem_caption" xml:space="preserve">
+    <value>Player %(name)s (%(type)s); HP: %(health)d%%</value>
+  </data>
+  <data name="player_messages/replayControlsHelp1" xml:space="preserve">
+    <value>Replay controls:</value>
+  </data>
+  <data name="player_messages/replayControlsHelp2" xml:space="preserve">
+    <value>LMB: switch between camera modes
+Space: pause</value>
+  </data>
+  <data name="player_messages/replayControlsHelp3" xml:space="preserve">
+    <value>Left arrow: rewind 20 seconds (with Ctrl: 40 seconds)
+Right arrow: fast forward 20 seconds (with Ctrl: 40 seconds)
+Home/End: jump to the beginning/to the end
+Up arrow/Down arrow: +/- replay speed</value>
+  </data>
+  <data name="player_messages/replayFreeCameraActivated" xml:space="preserve">
+    <value>Free camera activated.</value>
+  </data>
+  <data name="player_messages/replayPaused" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="player_messages/replaySavedCameraActivated" xml:space="preserve">
+    <value>Fixed camera activated.</value>
+  </data>
+  <data name="player_messages/replaySpeedChange" xml:space="preserve">
+    <value>Replay speed: %(speed)sx</value>
+  </data>
+  <data name="player_messages/tank_in_fire" xml:space="preserve">
+    <value>Vehicle on fire!</value>
+  </data>
+  <data name="players_panel/state/large/body" xml:space="preserve">
+    <value>Show players' names, destroyed targets, and vehicles' names and icons</value>
+  </data>
+  <data name="players_panel/state/large/header" xml:space="preserve">
+    <value>Full Panel</value>
+  </data>
+  <data name="players_panel/state/large/note" xml:space="preserve">
+    <value>(Press Ctrl + Tab to switch between the modes)</value>
+  </data>
+  <data name="players_panel/state/medium/body" xml:space="preserve">
+    <value>Show players' names, destroyed targets, and vehicle icons</value>
+  </data>
+  <data name="players_panel/state/medium/header" xml:space="preserve">
+    <value>Medium Panel</value>
+  </data>
+  <data name="players_panel/state/medium/note" xml:space="preserve">
+    <value>(Press Ctrl + Tab to switch between the modes)</value>
+  </data>
+  <data name="players_panel/state/none/body" xml:space="preserve">
+    <value>Hide team panels</value>
+  </data>
+  <data name="players_panel/state/none/header" xml:space="preserve">
+    <value>No Panel</value>
+  </data>
+  <data name="players_panel/state/none/note" xml:space="preserve">
+    <value>(Press Ctrl + Tab to switch between the modes)</value>
+  </data>
+  <data name="players_panel/state/short/body" xml:space="preserve">
+    <value>Show destroyed targets and vehicle icons</value>
+  </data>
+  <data name="players_panel/state/short/header" xml:space="preserve">
+    <value>Short Panel</value>
+  </data>
+  <data name="players_panel/state/short/note" xml:space="preserve">
+    <value>(Press Ctrl + Tab to switch between the modes)</value>
+  </data>
+  <data name="players_panel/unknown_clan" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="players_panel/unknown_frags" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="players_panel/unknown_name" xml:space="preserve">
+    <value>Enemy</value>
+  </data>
+  <data name="players_panel/unknown_vehicle" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="players_panel/unknown_vehicleState" xml:space="preserve">
+    <value>------</value>
+  </data>
+  <data name="postmortem/tips/exitHangar/label" xml:space="preserve">
+    <value>Back to Garage</value>
+  </data>
+  <data name="postmortem/tips/exitHangar/text" xml:space="preserve">
+    <value>Esc &gt; Back to Garage.
+Enter the battle in another vehicle.</value>
+  </data>
+  <data name="postmortem/tips/observerMode/label" xml:space="preserve">
+    <value>Spectator Mode</value>
+  </data>
+  <data name="postmortem/tips/observerMode/text" xml:space="preserve">
+    <value>Switch between allied vehicles.</value>
+  </data>
+  <data name="shells_kinds/ARMOR_PIERCING" xml:space="preserve">
+    <value>%(caliber)s mm Armor-Piercing %(userString)s</value>
+  </data>
+  <data name="shells_kinds/ARMOR_PIERCING_CR" xml:space="preserve">
+    <value>%(caliber)s mm Armor-Piercing Composite Rigid %(userString)s</value>
+  </data>
+  <data name="shells_kinds/ARMOR_PIERCING_HE" xml:space="preserve">
+    <value>%(caliber)s mm Armor-Piercing High-Explosive %(userString)s</value>
+  </data>
+  <data name="shells_kinds/HIGH_EXPLOSIVE" xml:space="preserve">
+    <value>%(caliber)s mm High-Explosive %(userString)s</value>
+  </data>
+  <data name="shells_kinds/HOLLOW_CHARGE" xml:space="preserve">
+    <value>%(caliber)s mm High-Explosive Anti-Tank %(userString)s</value>
+  </data>
+  <data name="statistics/exit" xml:space="preserve">
+    <value>Press Esc to return to Garage...</value>
+  </data>
+  <data name="statistics/final/heroes" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="statistics/final/lifeInfo/alive" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="statistics/final/lifeInfo/dead" xml:space="preserve">
+    <value>Destroyed by: %s</value>
+  </data>
+  <data name="statistics/final/personal/capturePoints" xml:space="preserve">
+    <value>Base captured: %d%%</value>
+  </data>
+  <data name="statistics/final/personal/damaged" xml:space="preserve">
+    <value>Damaged:</value>
+  </data>
+  <data name="statistics/final/personal/droppedCapturePoints" xml:space="preserve">
+    <value>Base defense: %d%%</value>
+  </data>
+  <data name="statistics/final/personal/hits" xml:space="preserve">
+    <value>Hit the target: %d</value>
+  </data>
+  <data name="statistics/final/personal/killed" xml:space="preserve">
+    <value>Destroyed:</value>
+  </data>
+  <data name="statistics/final/personal/postmortem" xml:space="preserve">
+    <value>(posthumously)</value>
+  </data>
+  <data name="statistics/final/personal/shots" xml:space="preserve">
+    <value>Shots: %d</value>
+  </data>
+  <data name="statistics/final/personal/shotsReceived" xml:space="preserve">
+    <value>Hits received: %d</value>
+  </data>
+  <data name="statistics/final/personal/spotted" xml:space="preserve">
+    <value>Spotted:</value>
+  </data>
+  <data name="statistics/final/reasons/reason0" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="statistics/final/reasons/reason1lose" xml:space="preserve">
+    <value>All ally vehicles destroyed.</value>
+  </data>
+  <data name="statistics/final/reasons/reason1tie" xml:space="preserve">
+    <value>All vehicles destroyed!</value>
+  </data>
+  <data name="statistics/final/reasons/reason1win" xml:space="preserve">
+    <value>All enemy vehicles destroyed.</value>
+  </data>
+  <data name="statistics/final/reasons/reason2" xml:space="preserve">
+    <value>Base captured!</value>
+  </data>
+  <data name="statistics/final/reasons/reason3" xml:space="preserve">
+    <value>Battle time expired!</value>
+  </data>
+  <data name="statistics/final/stats/credits" xml:space="preserve">
+    <value>Credits:</value>
+  </data>
+  <data name="statistics/final/stats/experience" xml:space="preserve">
+    <value>Experience:</value>
+  </data>
+  <data name="statistics/final/stats/multipliedExp" xml:space="preserve">
+    <value>Experience (x%d):</value>
+  </data>
+  <data name="statistics/final/stats/repair" xml:space="preserve">
+    <value>Repairs:</value>
+  </data>
+  <data name="statistics/final/status/lose" xml:space="preserve">
+    <value>Defeat! %s</value>
+  </data>
+  <data name="statistics/final/status/tie" xml:space="preserve">
+    <value>Draw! %s</value>
+  </data>
+  <data name="statistics/final/status/win" xml:space="preserve">
+    <value>Victory! %s</value>
+  </data>
+  <data name="statistics/header" xml:space="preserve">
+    <value>Battle Statistics</value>
+  </data>
+  <data name="statistics/headers/header0" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="statistics/headers/header1" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="statistics/headers/header2" xml:space="preserve">
+    <value>Vehicles</value>
+  </data>
+  <data name="statistics/headers/header3" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="statistics/headers/header4" xml:space="preserve">
+    <value>Destroyed</value>
+  </data>
+  <data name="statistics/playerState/0" xml:space="preserve">
+    <value>Destroyed</value>
+  </data>
+  <data name="statistics/playerState/1" xml:space="preserve">
+    <value>Out of battle</value>
+  </data>
+  <data name="statistics/playerState/2" xml:space="preserve">
+    <value>Destroyed</value>
+  </data>
+  <data name="statistics/playerState/3" xml:space="preserve">
+    <value>In battle</value>
+  </data>
+  <data name="statistics/playerState/4" xml:space="preserve">
+    <value>----</value>
+  </data>
+  <data name="statistics/tabs/group" xml:space="preserve">
+    <value>Team Achievements</value>
+  </data>
+  <data name="statistics/tabs/heroes" xml:space="preserve">
+    <value>Battle Heroes</value>
+  </data>
+  <data name="statistics/tabs/personal" xml:space="preserve">
+    <value>Personal Achievements</value>
+  </data>
+  <data name="statistics/team1title" xml:space="preserve">
+    <value>Our Team</value>
+  </data>
+  <data name="statistics/team2title" xml:space="preserve">
+    <value>Enemy Team</value>
+  </data>
+  <data name="tankmen/commander" xml:space="preserve">
+    <value>Commander</value>
+  </data>
+  <data name="tankmen/driver" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="tankmen/gunner" xml:space="preserve">
+    <value>Gunner</value>
+  </data>
+  <data name="tankmen/loader" xml:space="preserve">
+    <value>Loader</value>
+  </data>
+  <data name="tankmen/radioman" xml:space="preserve">
+    <value>Radio Operator</value>
+  </data>
+  <data name="timer/started" xml:space="preserve">
+    <value>Battle starts!</value>
+  </data>
+  <data name="timer/starting" xml:space="preserve">
+    <value>Battle starts in:</value>
+  </data>
+  <data name="timer/waiting" xml:space="preserve">
+    <value>Awaiting players...</value>
+  </data>
+  <data name="player_errors/cant_shoot/under_water" xml:space="preserve">
+    <value>Unable to fire: vehicle is under water.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING" xml:space="preserve">
+    <value>The vehicle is drowned.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION" xml:space="preserve">
+    <value>The vehicle is destroyed after falling down.</value>
+  </data>
+  <data name="player_messages/ENEMY_SPOTTED" xml:space="preserve">
+    <value>Enemy %(entity)s is located.</value>
+  </data>
+  <data name="player_messages/ENEMY_SPOTTED_HIT" xml:space="preserve">
+    <value>Disclosed enemy %(entity)s is damaged.</value>
+  </data>
+  <data name="player_messages/ENEMY_SPOTTED_HIT_PLURAL" xml:space="preserve">
+    <value>Disclosed enemy vehicles are damaged.</value>
+  </data>
+  <data name="player_messages/ENEMY_SPOTTED_KILLED" xml:space="preserve">
+    <value>Disclosed enemy %(entity)s destroyed.</value>
+  </data>
+  <data name="player_messages/ENEMY_SPOTTED_KILLED_PLURAL" xml:space="preserve">
+    <value>Disclosed enemy vehicles destroyed.</value>
+  </data>
+  <data name="player_messages/ENEMY_SPOTTED_PLURAL" xml:space="preserve">
+    <value>Enemies are located.</value>
+  </data>
+  <data name="player_messages/loader_intuition_was_used" xml:space="preserve">
+    <value>The perk "Intuition" was triggered.</value>
+  </data>
+  <data name="players_panel/state/medium2/body" xml:space="preserve">
+    <value>Show the vehicles destroyed by a player, name and icon of a player's vehicle.</value>
+  </data>
+  <data name="players_panel/state/medium2/header" xml:space="preserve">
+    <value>Medium Panel 2</value>
+  </data>
+  <data name="players_panel/state/medium2/note" xml:space="preserve">
+    <value>(Press Ctrl + Tab to switch between the modes)</value>
+  </data>
+  <data name="timer/battlePeriod" xml:space="preserve">
+    <value>Battle ends in:</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE" xml:space="preserve">
+    <value>The vehicle is destroyed as a result of entering a death zone.</value>
+  </data>
+  <data name="chat_shortcuts/help_me_ex" xml:space="preserve">
+    <value>%(target)s, help!</value>
+  </data>
+  <data name="chat_shortcuts/reloading_gun" xml:space="preserve">
+    <value>Reloading! %(floatArg1)d s left!</value>
+  </data>
+  <data name="chat_shortcuts/stop" xml:space="preserve">
+    <value>%(target)s, halt!</value>
+  </data>
+  <data name="chat_shortcuts/support_me_with_fire" xml:space="preserve">
+    <value>Requesting fire at %(target)s</value>
+  </data>
+  <data name="chat_shortcuts/turn_back" xml:space="preserve">
+    <value>%(target)s, fall back!</value>
+  </data>
+  <data name="player_messages/postmortem_userNoHasAmmo" xml:space="preserve">
+    <value>Unable to fire: out of shells.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION" xml:space="preserve">
+    <value>Crew is out of action as a result of impact.</value>
+  </data>
+  <data name="player_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION" xml:space="preserve">
+    <value>Device [%(device)s] is damaged as a result of impact.</value>
+  </data>
+  <data name="player_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION" xml:space="preserve">
+    <value>Device [%(device)s] is destroyed as a result of impact.</value>
+  </data>
+  <data name="player_messages/TANKMAN_HIT_AT_WORLD_COLLISION" xml:space="preserve">
+    <value>[%(device)s] is out of action as a result of impact.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY" xml:space="preserve">
+    <value>Ally %(target)s was destroyed by ally %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY" xml:space="preserve">
+    <value>%(attacker)s destroyed %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF" xml:space="preserve">
+    <value>Vehicle was destroyed by ally %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE" xml:space="preserve">
+    <value>Ally %(target)s was lost in battle.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY" xml:space="preserve">
+    <value>%(attacker)s destroyed %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY" xml:space="preserve">
+    <value>Enemy %(attacker)s destroyed enemy %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF" xml:space="preserve">
+    <value>Vehicle was destroyed by %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE" xml:space="preserve">
+    <value>%(target)s was lost in battle.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY" xml:space="preserve">
+    <value>Ally %(target)s destroyed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY" xml:space="preserve">
+    <value>%(target)s destroyed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE" xml:space="preserve">
+    <value>Vehicle destroyed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_ALLY_ALLY" xml:space="preserve">
+    <value>Ally %(attacker)s drowned ally %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY" xml:space="preserve">
+    <value>%(attacker)s drowned %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_ALLY_SELF" xml:space="preserve">
+    <value>Vehicle was drowned by ally %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE" xml:space="preserve">
+    <value>Ally %(target)s drowned.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY" xml:space="preserve">
+    <value>%(attacker)s drowned %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY" xml:space="preserve">
+    <value>Enemy %(attacker)s drowned enemy %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_ENEMY_SELF" xml:space="preserve">
+    <value>Vehicle was drowned by %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE" xml:space="preserve">
+    <value>Enemy %(target)s drowned.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_SELF_ALLY" xml:space="preserve">
+    <value>Ally %(target)s was drowned.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_SELF_ENEMY" xml:space="preserve">
+    <value>%(target)s was drowned.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE" xml:space="preserve">
+    <value>Vehicle drowned.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY" xml:space="preserve">
+    <value>Ally %(target)s crew was destroyed by ally %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY" xml:space="preserve">
+    <value>%(target)s crew was destroyed by %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>Crew was destroyed by ally %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE" xml:space="preserve">
+    <value>Ally %(target)s destroyed his crew.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY" xml:space="preserve">
+    <value>%(target)s crew was destroyed by %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY" xml:space="preserve">
+    <value>Enemy %(target)s crew was destroyed by enemy %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>Crew was destroyed by %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE" xml:space="preserve">
+    <value>Enemy %(target)s destroyed his crew.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY" xml:space="preserve">
+    <value>Ally %(target)s crew destroyed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY" xml:space="preserve">
+    <value>Crew %(target)s destroyed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>Crew destroyed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_ALLY_ALLY" xml:space="preserve">
+    <value>Ally %(attacker)s destroyed ally %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY" xml:space="preserve">
+    <value>%(attacker)s destroyed %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_ALLY_SELF" xml:space="preserve">
+    <value>Vehicle was destroyed by ally %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE" xml:space="preserve">
+    <value>Ally %(target)s crashed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY" xml:space="preserve">
+    <value>%(attacker)s destroyed %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY" xml:space="preserve">
+    <value>Enemy %(attacker)s destroyed enemy %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_ENEMY_SELF" xml:space="preserve">
+    <value>Vehicle was destroyed by %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE" xml:space="preserve">
+    <value>Enemy %(target)s crashed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_SELF_ALLY" xml:space="preserve">
+    <value>Ally %(target)s destroyed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_SELF_ENEMY" xml:space="preserve">
+    <value>%(target)s destroyed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE" xml:space="preserve">
+    <value>Vehicle destroyed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_ALLY" xml:space="preserve">
+    <value>Ally %(attacker)s destroyed %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_ENEMY" xml:space="preserve">
+    <value>%(attacker)s destroyed %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE" xml:space="preserve">
+    <value>Ally %(target)s was lost in battle.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_ALLY" xml:space="preserve">
+    <value>%(attacker)s destroyed %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY" xml:space="preserve">
+    <value>Enemy %(attacker)s destroyed enemy %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE" xml:space="preserve">
+    <value>Enemy %(target)s was lost in battle.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_SELF_ALLY" xml:space="preserve">
+    <value>Ally %(target)s destroyed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_SELF_ENEMY" xml:space="preserve">
+    <value>%(target)s destroyed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY" xml:space="preserve">
+    <value>Ally %(attacker)s crashed ally %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY" xml:space="preserve">
+    <value>%(attacker)s crashed %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>Vehicle was crashed by ally %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE" xml:space="preserve">
+    <value>Ally %(target)s crashed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY" xml:space="preserve">
+    <value>%(attacker)s crashed %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY" xml:space="preserve">
+    <value>Enemy %(attacker)s crashed enemy %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>Vehicle was crashed by %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE" xml:space="preserve">
+    <value>Enemy %(target)s crashed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY" xml:space="preserve">
+    <value>Ally %(target)s was crashed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY" xml:space="preserve">
+    <value>%(target)s was crashed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>Vehicle crashed.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF" xml:space="preserve">
+    <value>Vehicle was destroyed by ally %(entity)s in a death zone.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF" xml:space="preserve">
+    <value>Vehicle was destroyed by %(entity)s in a death zone.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE" xml:space="preserve">
+    <value>Vehicle was destroyed by a death zone.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF" xml:space="preserve">
+    <value>Vehicle was drowned by ally %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF" xml:space="preserve">
+    <value>Vehicle was drowned by %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE" xml:space="preserve">
+    <value>Vehicle drowned.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_FIRE" xml:space="preserve">
+    <value>Vehicle was destroyed by fire.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>Crew was destroyed due to ally %(entity)s impact.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>Crew was destroyed due to %(entity)s impact.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>Crew was destroyed due to impact.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF" xml:space="preserve">
+    <value>Ally %(entity)s destroyed vehicle by ramming.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF" xml:space="preserve">
+    <value>%(entity)s destroyed vehicle by ramming.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE" xml:space="preserve">
+    <value>Vehicle was destroyed by ramming.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_SHOT" xml:space="preserve">
+    <value>Vehicle was destroyed by a shot from %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>Vehicle was crashed by ally %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>Vehicle was crashed by enemy %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>Vehicle crashed.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY" xml:space="preserve">
+    <value>Ally %(entity)s damaged device [%(device)s] by ramming.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF" xml:space="preserve">
+    <value>Ally %(entity)s damaged device [%(device)s] by ramming.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE" xml:space="preserve">
+    <value>Device [%(device)s] damaged by ramming.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY" xml:space="preserve">
+    <value>Enemy %(entity)s damaged device [%(device)s] by ramming.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF" xml:space="preserve">
+    <value>Enemy %(entity)s damaged device [%(device)s] by ramming.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE" xml:space="preserve">
+    <value>Device [%(device)s] damaged by ramming.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY" xml:space="preserve">
+    <value>Ally %(entity)s impact damaged device [%(device)s].</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>Ally %(entity)s impact damaged device [%(device)s].</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE" xml:space="preserve">
+    <value>Device [%(device)s] is damaged by impact.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY" xml:space="preserve">
+    <value>Enemy %(entity)s impact damaged device [%(device)s].</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>Enemy %(entity)s impact damaged device [%(device)s].</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>Device [%(device)s] is damaged by impact.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY" xml:space="preserve">
+    <value>Ally %(entity)s destroyed device [%(device)s] by ramming.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF" xml:space="preserve">
+    <value>Ally %(entity)s destroyed device [%(device)s] by ramming.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE" xml:space="preserve">
+    <value>Device [%(device)s] was destroyed by ramming.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY" xml:space="preserve">
+    <value>Enemy %(entity)s destroyed device [%(device)s] by ramming.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF" xml:space="preserve">
+    <value>Enemy %(entity)s destroyed device [%(device)s] by ramming.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE" xml:space="preserve">
+    <value>Device [%(device)s] was destroyed by ramming.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY" xml:space="preserve">
+    <value>Ally %(entity)s impact destroyed device [%(device)s].</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>Ally %(entity)s impact destroyed device [%(device)s].</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE" xml:space="preserve">
+    <value>Device [%(device)s] was destroyed by impact.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY" xml:space="preserve">
+    <value>Enemy %(entity)s impact destroyed device [%(device)s].</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>Enemy %(entity)s impact destroyed device [%(device)s].</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>Device [%(device)s] was destroyed by impact.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY" xml:space="preserve">
+    <value>Device [%(device)s] caught fire due to ramming by ally %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF" xml:space="preserve">
+    <value>Device [%(device)s] caught fire due to ramming by ally %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE" xml:space="preserve">
+    <value>Device [%(device)s] caught fire due to ramming.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY" xml:space="preserve">
+    <value>Device [%(device)s] caught fire due to ramming by enemy %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF" xml:space="preserve">
+    <value>Device [%(device)s] caught fire due to ramming by enemy %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE" xml:space="preserve">
+    <value>Device [%(device)s] caught fire due to ramming.</value>
+  </data>
+  <data name="vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY" xml:space="preserve">
+    <value>[%(device)s] injured due to ally %(entity)s impact.</value>
+  </data>
+  <data name="vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>[%(device)s] injured due to ally %(entity)s impact.</value>
+  </data>
+  <data name="vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE" xml:space="preserve">
+    <value>[%(device)s] injured due to impact.</value>
+  </data>
+  <data name="vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY" xml:space="preserve">
+    <value>[%(device)s] injured due to enemy %(entity)s impact.</value>
+  </data>
+  <data name="vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>[%(device)s] injured due to enemy %(entity)s impact.</value>
+  </data>
+  <data name="vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>[%(device)s] injured due to impact.</value>
+  </data>
+  <data name="player_errors/cant_shoot/gun_locked" xml:space="preserve">
+    <value>Unable to Fire</value>
+  </data>
+  <data name="chat_shortcuts/reloading_cassette" xml:space="preserve">
+    <value>Ready to fire in %(floatArg1)d s; shells in the container: %(int32Arg1)s item(s).</value>
+  </data>
+  <data name="chat_shortcuts/reloading_ready" xml:space="preserve">
+    <value>Ready to fire!</value>
+  </data>
+  <data name="chat_shortcuts/reloading_unavailable" xml:space="preserve">
+    <value>Ammunition is empty.</value>
+  </data>
+  <data name="chat_shortcuts/reloading_ready_cassette" xml:space="preserve">
+    <value>Ready to fire! Shells in the container: %(int32Arg1)s item(s).</value>
+  </data>
+  <data name="statistics/final/personal/directHits" xml:space="preserve">
+    <value>Hit the target: %d</value>
+  </data>
+  <data name="statistics/final/personal/directHitsReceived" xml:space="preserve">
+    <value>Hits received: %d</value>
+  </data>
+  <data name="chat_example/attack" xml:space="preserve">
+    <value>Attack!</value>
+  </data>
+  <data name="chat_example/attack_enemy" xml:space="preserve">
+    <value>Attacking &lt;Enemy Name&gt;!</value>
+  </data>
+  <data name="chat_example/attention_to_cell" xml:space="preserve">
+    <value>Attention to &lt;Sector on Minimap&gt;!</value>
+  </data>
+  <data name="chat_example/back_to_base" xml:space="preserve">
+    <value>Defend the base!</value>
+  </data>
+  <data name="chat_example/follow_me" xml:space="preserve">
+    <value>&lt;Ally Name&gt;, follow me!</value>
+  </data>
+  <data name="chat_example/help_me" xml:space="preserve">
+    <value>Help!</value>
+  </data>
+  <data name="chat_example/help_me_ex" xml:space="preserve">
+    <value>&lt;Ally Name&gt;, help!</value>
+  </data>
+  <data name="chat_example/negative" xml:space="preserve">
+    <value>Negative!</value>
+  </data>
+  <data name="chat_example/positive" xml:space="preserve">
+    <value>Affirmative!</value>
+  </data>
+  <data name="chat_example/reloading_cassette" xml:space="preserve">
+    <value>Ready to fire in &lt;Reload Time&gt; s, shells in the container: &lt;Number of Shells&gt; item(s).</value>
+  </data>
+  <data name="chat_example/reloading_gun" xml:space="preserve">
+    <value>Reloading! &lt;Reload Time&gt; s left!</value>
+  </data>
+  <data name="chat_example/reloading_ready" xml:space="preserve">
+    <value>Ready to fire!</value>
+  </data>
+  <data name="chat_example/reloading_ready_cassette" xml:space="preserve">
+    <value>Ready to fire! Shells in the container: &lt;Number of Shells&gt; item(s).</value>
+  </data>
+  <data name="chat_example/reloading_unavailable" xml:space="preserve">
+    <value>Ammunition is empty.</value>
+  </data>
+  <data name="chat_example/stop" xml:space="preserve">
+    <value>&lt;Ally Name&gt;, halt!</value>
+  </data>
+  <data name="chat_example/support_me_with_fire" xml:space="preserve">
+    <value>Requesting fire at &lt;Enemy Name&gt;</value>
+  </data>
+  <data name="chat_example/turn_back" xml:space="preserve">
+    <value>&lt;Ally Name&gt;, fall back!</value>
+  </data>
+  <data name="potapovQuests/tip" xml:space="preserve">
+    <value>No missions started for this vehicle type</value>
+  </data>
+  <data name="shells_kinds/EVENT" xml:space="preserve">
+    <value>%(caliber)s mm Repairing %(userString)s
+Damage %(damage)s
+Repair %(heal)s
+Penetration %(piercingPower)s</value>
+  </data>
+  <data name="shells_kinds/params" xml:space="preserve">
+    <value>Damage %(damage)s
+Penetration %(piercingPower)s</value>
+  </data>
+  <data name="fortConsumables/timer/postfix" xml:space="preserve">
+    <value>s...</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY" xml:space="preserve">
+    <value>Artillery battery deployed and ready to fire.</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_READY_BOMBER" xml:space="preserve">
+    <value>Aircraft inbound and ready for bombing.</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY" xml:space="preserve">
+    <value>%(player)s's artillery battery firing.</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_USED_BOMBER" xml:space="preserve">
+    <value>%(player)s's bombers on the way.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY" xml:space="preserve">
+    <value>Ally %(target)s destroyed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_UNKNOWN_ENEMY" xml:space="preserve">
+    <value>Enemy %(target)s destroyed.</value>
+  </data>
+  <data name="dynamicSquad/ally/add" xml:space="preserve">
+    <value>Click to invite the player to join the Platoon.
+The player can accept your invitation either during the battle or after the battle ends.</value>
+  </data>
+  <data name="dynamicSquad/ally/disabled" xml:space="preserve">
+    <value>Unable to invite that ally to join the Platoon.</value>
+  </data>
+  <data name="dynamicSquad/ally/received" xml:space="preserve">
+    <value>Click to accept the invitation to join the Platoon.
+The Platoon will be created during the battle.</value>
+  </data>
+  <data name="dynamicSquad/ally/wasSent" xml:space="preserve">
+    <value>An invitation was sent to the player.
+If they accept it, they will join your Platoon either during the battle or after the battle ends.</value>
+  </data>
+  <data name="dynamicSquad/enemy/add" xml:space="preserve">
+    <value>Click to invite the player to join the Platoon.
+The player can accept your invitation either during the battle or after the battle ends.</value>
+  </data>
+  <data name="dynamicSquad/enemy/disabled" xml:space="preserve">
+    <value>Unable to invite the enemy to join the Platoon.</value>
+  </data>
+  <data name="dynamicSquad/enemy/received" xml:space="preserve">
+    <value>Click to accept the invitation to join the Platoon.
+The Platoon will be created only after the battle ends.</value>
+  </data>
+  <data name="dynamicSquad/enemy/wasSent" xml:space="preserve">
+    <value>An invitation was sent to the player.
+If they accept it, they will join your Platoon after the battle ends.</value>
+  </data>
+  <data name="dynamicSquad/invite" xml:space="preserve">
+    <value>Invitation to join the Platoon</value>
+  </data>
+  <data name="efficiencyRibbons/armor" xml:space="preserve">
+    <value>Damage Blocked</value>
+  </data>
+  <data name="efficiencyRibbons/assist" xml:space="preserve">
+    <value>Assistance to Allies</value>
+  </data>
+  <data name="efficiencyRibbons/capture" xml:space="preserve">
+    <value>Capturing Enemy Base</value>
+  </data>
+  <data name="efficiencyRibbons/crits" xml:space="preserve">
+    <value>Critical damage</value>
+  </data>
+  <data name="efficiencyRibbons/damage" xml:space="preserve">
+    <value>Damage Caused</value>
+  </data>
+  <data name="efficiencyRibbons/defence" xml:space="preserve">
+    <value>Capture Points Reduced</value>
+  </data>
+  <data name="efficiencyRibbons/kill" xml:space="preserve">
+    <value>Destroyed</value>
+  </data>
+  <data name="efficiencyRibbons/spotted" xml:space="preserve">
+    <value>Spotted</value>
+  </data>
+  <data name="flagNotification/flagCaptured" xml:space="preserve">
+    <value>Flag captured!</value>
+  </data>
+  <data name="flagNotification/flagDelivered" xml:space="preserve">
+    <value>Flag delivered.</value>
+  </data>
+  <data name="flagNotification/flagInbase" xml:space="preserve">
+    <value>Deliver the flag to the Headquarters.</value>
+  </data>
+  <data name="flags/timer" xml:space="preserve">
+    <value>%(time)s s...</value>
+  </data>
+  <data name="repairPoint/title" xml:space="preserve">
+    <value>Repairs</value>
+  </data>
+  <data name="repairPoint/unavailable" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="respawnView/additionalTip" xml:space="preserve">
+    <value>Select a vehicle to continue. If all vehicles are under repair, you will continue the battle in the first available vehicle.</value>
+  </data>
+  <data name="respawnView/cooldownLbl" xml:space="preserve">
+    <value>Under repair %(time)s</value>
+  </data>
+  <data name="respawnView/nextVehicleName" xml:space="preserve">
+    <value>The battle continues in </value>
+  </data>
+  <data name="respawnView/title" xml:space="preserve">
+    <value>Select Vehicles</value>
+  </data>
+  <data name="scorePanel/playerScore" xml:space="preserve">
+    <value>Your contribution:</value>
+  </data>
+  <data name="tabStatsHint" xml:space="preserve">
+    <value>— Statistics</value>
+  </data>
+  <data name="flagNotification/flagAbsorbed" xml:space="preserve">
+    <value>You destroyed the flag!</value>
+  </data>
+  <data name="respawnView/destroyedLbl" xml:space="preserve">
+    <value>Destroyed</value>
+  </data>
+  <data name="scorePanel/mySquadLbl" xml:space="preserve">
+    <value>Our Platoon</value>
+  </data>
+  <data name="scorePanel/squadLbl" xml:space="preserve">
+    <value>Platoon %(sq_number)s</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY" xml:space="preserve">
+    <value>Ally %(attacker)s destroyed %(target)s by artillery strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER" xml:space="preserve">
+    <value>Ally %(attacker)s destroyed %(target)s by bombing.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY" xml:space="preserve">
+    <value>%(attacker)s destroyed %(target)s by artillery strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER" xml:space="preserve">
+    <value>%(attacker)s destroyed %(target)s by bombing.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY" xml:space="preserve">
+    <value>Ally %(target)s was lost in battle after an artillery strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER" xml:space="preserve">
+    <value>Ally %(target)s was lost in battle after a bombing.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY" xml:space="preserve">
+    <value>%(attacker)s destroyed %(target)s by artillery strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER" xml:space="preserve">
+    <value>%(attacker)s destroyed %(target)s by bombing.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY" xml:space="preserve">
+    <value>Enemy %(attacker)s destroyed enemy %(target)s by artillery strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER" xml:space="preserve">
+    <value>Enemy %(attacker)s destroyed enemy %(target)s by bombing.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY" xml:space="preserve">
+    <value>Enemy %(target)s was lost in battle after an artillery strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER" xml:space="preserve">
+    <value>Enemy %(target)s was lost in battle after a bombing.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY" xml:space="preserve">
+    <value>Ally %(target)s destroyed by artillery strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER" xml:space="preserve">
+    <value>Ally %(target)s destroyed by bombing.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY" xml:space="preserve">
+    <value>%(target)s destroyed by artillery strike.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER" xml:space="preserve">
+    <value>%(target)s destroyed by bombing.</value>
+  </data>
+  <data name="player_messages/postmortem_caption/self" xml:space="preserve">
+    <value>Your (%(type)s) vehicle destroyed</value>
+  </data>
+  <data name="respawnView/emptySlotInfo" xml:space="preserve">
+    <value>Suitable vehicle not selected</value>
+  </data>
+  <data name="respawnView/emptySlotInfoTooltip" xml:space="preserve">
+    <value>No Tier X vehicles in the group.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_SHOT_ARTILLERY" xml:space="preserve">
+    <value>%(entity)s destroyed vehicle by artillery strike.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_SHOT_BOMBER" xml:space="preserve">
+    <value>%(entity)s destroyed vehicle by bombing.</value>
+  </data>
+  <data name="potapovQuests/tip/additionalHeader" xml:space="preserve">
+    <value>Secondary Conditions:</value>
+  </data>
+  <data name="potapovQuests/tip/mainHeader" xml:space="preserve">
+    <value>Primary Conditions:</value>
+  </data>
+  <data name="potapovQuests/tip/noQuests/battleType" xml:space="preserve">
+    <value>No active missions for this battle mode.</value>
+  </data>
+  <data name="potapovQuests/tip/noQuests/vehicleType" xml:space="preserve">
+    <value>No active missions for this vehicle type.</value>
+  </data>
+  <data name="respawnView/disabledLbl" xml:space="preserve">
+    <value>Vehicle unavailable</value>
+  </data>
+  <data name="countRibbons/multiSeparator" xml:space="preserve">
+    <value>x%(multiplier)d</value>
+  </data>
+  <data name="damage_panel/devices/chassis/critical" xml:space="preserve">
+    <value>Suspension damaged.</value>
+  </data>
+  <data name="damage_panel/devices/chassis/destroyed" xml:space="preserve">
+    <value>Immobilized: suspension destroyed.</value>
+  </data>
+  <data name="damage_panel/devices/chassis/normal" xml:space="preserve">
+    <value>Suspension is intact.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY" xml:space="preserve">
+    <value>Ally %(target)s was destroyed by ally %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY" xml:space="preserve">
+    <value>%(attacker)s destroyed %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF" xml:space="preserve">
+    <value>Vehicle was destroyed by ally %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY" xml:space="preserve">
+    <value>%(attacker)s destroyed %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY" xml:space="preserve">
+    <value>Enemy %(attacker)s destroyed enemy %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF" xml:space="preserve">
+    <value>Vehicle was destroyed by %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY" xml:space="preserve">
+    <value>Ally %(target)s destroyed.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY" xml:space="preserve">
+    <value>%(target)s destroyed.</value>
+  </data>
+  <data name="respawnView/additionalTipLimited" xml:space="preserve">
+    <value>Select a vehicle to continue. The destroyed vehicle cannot be repaired before the end of the battle.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF" xml:space="preserve">
+    <value>Vehicle was destroyed by ally %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF" xml:space="preserve">
+    <value>Vehicle was destroyed by %(entity)s.</value>
+  </data>
+  <data name="aim/zoom" xml:space="preserve">
+    <value>x%(zoom)d</value>
+  </data>
+  <data name="battleEndWarning/text" xml:space="preserve">
+    <value>Battle ends in:</value>
+  </data>
+  <data name="distance/meters" xml:space="preserve">
+    <value>%(meters)d m</value>
+  </data>
+  <data name="player_errors/equipment/order/notReady" xml:space="preserve">
+    <value>Reserve is not yet ready.</value>
+  </data>
+  <data name="player_messages/postmortem_caption/other" xml:space="preserve">
+    <value>Player: %(name)s; Durability: %(health)d%%</value>
+  </data>
+  <data name="battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body" xml:space="preserve">
+    <value>Text and voice messages from this player will be hidden in this battle.</value>
+  </data>
+  <data name="battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header" xml:space="preserve">
+    <value>Block Messages from Player</value>
+  </data>
+  <data name="battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body" xml:space="preserve">
+    <value>Messages from a blacklisted player are blocked.</value>
+  </data>
+  <data name="battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header" xml:space="preserve">
+    <value>Action Unavailable</value>
+  </data>
+  <data name="battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body" xml:space="preserve">
+    <value>Text and voice messages from this player
+will be available again.</value>
+  </data>
+  <data name="battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header" xml:space="preserve">
+    <value>Unblock Messages from Player</value>
+  </data>
+  <data name="damageIndicator/multiplier" xml:space="preserve">
+    <value>x%(multiplier)s</value>
+  </data>
+  <data name="efficiencyRibbons/assistSpot" xml:space="preserve">
+    <value>Damage upon Spotting</value>
+  </data>
+  <data name="efficiencyRibbons/assistTrack" xml:space="preserve">
+    <value>Track Destroyed</value>
+  </data>
+  <data name="efficiencyRibbons/burn" xml:space="preserve">
+    <value>Set on Fire</value>
+  </data>
+  <data name="efficiencyRibbons/ram" xml:space="preserve">
+    <value>Ram</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY" xml:space="preserve">
+    <value>Ally %(attacker)s overturned ally %(target)s</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY" xml:space="preserve">
+    <value>%(attacker)s overturned %(target)s</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_ALLY_SELF" xml:space="preserve">
+    <value>Vehicle overturned by ally %(attacker)s</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE" xml:space="preserve">
+    <value>Ally %(target)s overturned their vehicle</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY" xml:space="preserve">
+    <value>%(attacker)s overturned %(target)s</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY" xml:space="preserve">
+    <value>Enemy %(attacker)s overturned enemy %(target)s</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF" xml:space="preserve">
+    <value>Vehicle overturned and destroyed by %(attacker)s</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE" xml:space="preserve">
+    <value>Enemy %(target)s overturned their vehicle</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_SELF_ALLY" xml:space="preserve">
+    <value>Ally %(target)s overturned</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY" xml:space="preserve">
+    <value>%(target)s overturned</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE" xml:space="preserve">
+    <value>Vehicle overturned and destroyed</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF" xml:space="preserve">
+    <value>Vehicle destroyed in forbidden zone by ally</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF" xml:space="preserve">
+    <value>Vehicle destroyed in forbidden zone</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE" xml:space="preserve">
+    <value>Vehicle destroyed by forbidden zone</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE" xml:space="preserve">
+    <value>Module [%(device)s] destroyed by fire</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT" xml:space="preserve">
+    <value>Module [%(device)s] exploded by player shot</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF" xml:space="preserve">
+    <value>Vehicle drowned by ally</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF" xml:space="preserve">
+    <value>Vehicle drowned</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE" xml:space="preserve">
+    <value>Vehicle drowned</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_FIRE" xml:space="preserve">
+    <value>Vehicle destroyed by fire</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT" xml:space="preserve">
+    <value>Crew knocked out by player shot</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>Crew knocked out after a strong collision with an allied vehicle</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>Crew knocked out by a strong impact</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>Crew knocked out by a strong impact</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF" xml:space="preserve">
+    <value>Vehicle overturned by ally</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF" xml:space="preserve">
+    <value>Vehicle overturned by enemy</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE" xml:space="preserve">
+    <value>Vehicle destroyed by overturning</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF" xml:space="preserve">
+    <value>Vehicle destroyed by ally ramming</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF" xml:space="preserve">
+    <value>Vehicle destroyed by ramming</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE" xml:space="preserve">
+    <value>Vehicle destroyed by ramming</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_SHOT" xml:space="preserve">
+    <value>Vehicle destroyed by player shot</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_SHOT_ARTILLERY" xml:space="preserve">
+    <value>Vehicle destroyed by artillery strike</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_SHOT_BOMBER" xml:space="preserve">
+    <value>Vehicle destroyed by bombing</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>Vehicle crushed by ally</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>Vehicle crushed by enemy</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>Vehicle crushed</value>
+  </data>
+  <data name="postmortem_messages/DEATH_UNKNOWN" xml:space="preserve">
+    <value>Your vehicle was destroyed</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF" xml:space="preserve">
+    <value>Vehicle overturned by ally %(entity)s</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF" xml:space="preserve">
+    <value>Vehicle overturned by enemy %(entity)s</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE" xml:space="preserve">
+    <value>Vehicle destroyed by overturning</value>
+  </data>
+  <data name="damageLog/multiplier" xml:space="preserve">
+    <value>x%(multiplier)s</value>
+  </data>
+  <data name="damageLog/shellType/ARMOR_PIERCING" xml:space="preserve">
+    <value>AP</value>
+  </data>
+  <data name="damageLog/shellType/ARMOR_PIERCING_CR" xml:space="preserve">
+    <value>APCR</value>
+  </data>
+  <data name="damageLog/shellType/ARMOR_PIERCING_HE" xml:space="preserve">
+    <value>HE</value>
+  </data>
+  <data name="damageLog/shellType/HIGH_EXPLOSIVE" xml:space="preserve">
+    <value>HE</value>
+  </data>
+  <data name="damageLog/shellType/HOLLOW_CHARGE" xml:space="preserve">
+    <value>HEAT</value>
+  </data>
+  <data name="efficiencyRibbons/receivedBurn" xml:space="preserve">
+    <value>Damage by Fire</value>
+  </data>
+  <data name="efficiencyRibbons/receivedCrits" xml:space="preserve">
+    <value>Critical Damage</value>
+  </data>
+  <data name="efficiencyRibbons/receivedDamage" xml:space="preserve">
+    <value>Damage by Shot</value>
+  </data>
+  <data name="efficiencyRibbons/receivedRam" xml:space="preserve">
+    <value>Damage by Ramming</value>
+  </data>
+  <data name="efficiencyRibbons/receivedWorldCollision" xml:space="preserve">
+    <value>Damage by Collision</value>
+  </data>
+  <data name="efficiencyRibbons/worldCollision" xml:space="preserve">
+    <value>Damage by Wrecking</value>
+  </data>
+  <data name="player_errors/cant_switch/engine_destroyed" xml:space="preserve">
+    <value>Switching unavailable: the engine is destroyed.</value>
+  </data>
+  <data name="siegeMode/hint/forMode/0" xml:space="preserve">
+    <value>to switch to Siege mode</value>
+  </data>
+  <data name="siegeMode/hint/forMode/1" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="siegeMode/hint/forMode/2" xml:space="preserve">
+    <value>to switch to Travel mode</value>
+  </data>
+  <data name="siegeMode/hint/forMode/3" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="siegeMode/hint/noBinding" xml:space="preserve">
+    <value>The key for mode switching is not assigned.</value>
+  </data>
+  <data name="siegeMode/hint/press" xml:space="preserve">
+    <value>Press</value>
+  </data>
+  <data name="chat_example/spg_aim_area" xml:space="preserve">
+    <value>Aiming at &lt;Sector on Minimap&gt;!</value>
+  </data>
+  <data name="chat_shortcuts/attack_enemy_reloading" xml:space="preserve">
+    <value>Attacking %(target)s! Reloading, %(reloadTime)d s left!</value>
+  </data>
+  <data name="chat_shortcuts/spg_aim_area" xml:space="preserve">
+    <value>Aiming for %(cellName)s! Ready to fire!</value>
+  </data>
+  <data name="chat_shortcuts/spg_aim_area_reloading" xml:space="preserve">
+    <value>Aiming for %(cellName)s! Reloading, %(reloadTime)d s left!</value>
+  </data>
+  <data name="consumables_panel/equipment/cooldownSeconds" xml:space="preserve">
+    <value>Cooldown: %(cooldownSeconds)s s.</value>
+  </data>
+  <data name="efficiencyRibbons/stun" xml:space="preserve">
+    <value>Crew Stunned</value>
+  </data>
+  <data name="player_errors/equipment/isInCooldown" xml:space="preserve">
+    <value>[%(name)s] is unavailable during cooldown.</value>
+  </data>
+  <data name="shells_kinds/stunParams" xml:space="preserve">
+    <value>Damage %(damage)s
+Penetration rate %(piercingPower)s
+Minimum stun duration %(stunMinDuration)s (s)
+Maximum stun duration %(stunMaxDuration)s (s)</value>
+  </data>
+  <data name="stun/indicator" xml:space="preserve">
+    <value>Crew stunned</value>
+  </data>
+  <data name="stun/seconds" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="trajectoryView/hint/alternateModeLeft" xml:space="preserve">
+    <value>Press</value>
+  </data>
+  <data name="trajectoryView/hint/alternateModeRight" xml:space="preserve">
+    <value>to switch the aiming mode</value>
+  </data>
+  <data name="trajectoryView/hint/noBindingKey" xml:space="preserve">
+    <value>The key for switching the aiming mode is not assigned</value>
+  </data>
+  <data name="efficiencyRibbons/assistStun" xml:space="preserve">
+    <value>Damage After Your Stun</value>
+  </data>
+  <data name="epic_players_panel/state/hidden/body" xml:space="preserve">
+    <value>Hide team panels</value>
+  </data>
+  <data name="epic_players_panel/state/hidden/header" xml:space="preserve">
+    <value>No Panel</value>
+  </data>
+  <data name="epic_players_panel/state/hidden/note" xml:space="preserve">
+    <value>(Press Ctrl + Tab to switch between the modes)</value>
+  </data>
+  <data name="epic_players_panel/state/medium_player/body" xml:space="preserve">
+    <value>Show players' names, destroyed targets, and vehicle icons</value>
+  </data>
+  <data name="epic_players_panel/state/medium_player/header" xml:space="preserve">
+    <value>Medium Panel 1</value>
+  </data>
+  <data name="epic_players_panel/state/medium_player/note" xml:space="preserve">
+    <value>(Press Ctrl + Tab to switch between the modes)</value>
+  </data>
+  <data name="epic_players_panel/state/medium_tank/body" xml:space="preserve">
+    <value>Show the vehicles destroyed by a player, name and icon of a player's vehicle.</value>
+  </data>
+  <data name="epic_players_panel/state/medium_tank/header" xml:space="preserve">
+    <value>Medium Panel 2</value>
+  </data>
+  <data name="epic_players_panel/state/medium_tank/note" xml:space="preserve">
+    <value>(Press Ctrl + Tab to switch between the modes)</value>
+  </data>
+  <data name="epic_players_panel/state/short/body" xml:space="preserve">
+    <value>Show destroyed targets and vehicle icons</value>
+  </data>
+  <data name="epic_players_panel/state/short/header" xml:space="preserve">
+    <value>Short Panel</value>
+  </data>
+  <data name="epic_players_panel/state/short/note" xml:space="preserve">
+    <value>(Press Ctrl + Tab to switch between the modes)</value>
+  </data>
+  <data name="epic_players_panel/state/toggle/body" xml:space="preserve">
+    <value>Switch between viewing your own or all three spawn groups.</value>
+  </data>
+  <data name="epic_players_panel/state/toggle/header" xml:space="preserve">
+    <value>Toggle Columns</value>
+  </data>
+  <data name="epic_players_panel/state/toggle/note" xml:space="preserve">
+    <value>(Press Ctrl + Tab to switch between the modes)</value>
+  </data>
+  <data name="personalMissions/tip/additionalHeader" xml:space="preserve">
+    <value>Secondary Conditions:</value>
+  </data>
+  <data name="personalMissions/tip/mainHeader" xml:space="preserve">
+    <value>Primary conditions:</value>
+  </data>
+  <data name="personalMissions/tip/noQuests/battleType" xml:space="preserve">
+    <value>No active missions for this battle mode.</value>
+  </data>
+  <data name="personalMissions/tip/noQuests/vehicleType" xml:space="preserve">
+    <value>No active missions for this vehicle type.</value>
+  </data>
+</root>

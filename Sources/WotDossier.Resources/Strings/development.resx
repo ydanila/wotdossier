@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="battle/create/buttons/close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="battle/create/buttons/create" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="battle/create/labels/maxPlayers" xml:space="preserve">
+    <value>Максимальное количество игроков:</value>
+  </data>
+  <data name="battle/create/labels/roundLength" xml:space="preserve">
+    <value>Длительность боя:</value>
+  </data>
+  <data name="battle/create/labels/selectArenaType" xml:space="preserve">
+    <value>Выбор карты:</value>
+  </data>
+  <data name="battle/create/title" xml:space="preserve">
+    <value>Создание битвы (development)</value>
+  </data>
+  <data name="battle/select/buttons/create" xml:space="preserve">
+    <value>Создать бой</value>
+  </data>
+  <data name="battle/select/buttons/repeat" xml:space="preserve">
+    <value>Повтор боя</value>
+  </data>
+  <data name="battle/select/labels/description" xml:space="preserve">
+    <value>Создание и присоединение к бою. Используется для разработки.</value>
+  </data>
+  <data name="battle/select/labels/map" xml:space="preserve">
+    <value>Карта</value>
+  </data>
+  <data name="battle/select/labels/roundLength" xml:space="preserve">
+    <value>Длительность боя</value>
+  </data>
+  <data name="battle/select/labels/roundStart" xml:space="preserve">
+    <value>Время со старта боя</value>
+  </data>
+  <data name="battle/select/title" xml:space="preserve">
+    <value>Выбор битвы (development)</value>
+  </data>
+  <data name="battle/settings/buttons/exit" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="battle/settings/buttons/join" xml:space="preserve">
+    <value>Присоединиться</value>
+  </data>
+  <data name="battle/settings/labels/firstTeam" xml:space="preserve">
+    <value>первая команда</value>
+  </data>
+  <data name="battle/settings/labels/maxPlayers" xml:space="preserve">
+    <value>Максимальное количество игроков в команде: &lt;font color="#FFFFFF"&gt;%(maxPlayersLength)&lt;/font&gt;</value>
+  </data>
+  <data name="battle/settings/labels/minPlayers" xml:space="preserve">
+    <value>Минимальное количество игроков в команде: &lt;font color="#FFFFFF"&gt;%(minPlayersLength)&lt;/font&gt;</value>
+  </data>
+  <data name="battle/settings/labels/numberTeam" xml:space="preserve">
+    <value>Выбранный номер комманды: &lt;font color="#FFFFFF"&gt;%(numberTeam)&lt;/font&gt;</value>
+  </data>
+  <data name="battle/settings/labels/roundLength" xml:space="preserve">
+    <value>Длительность боя: &lt;font color="#FFFFFF"&gt;%(roundLength)&lt;/font&gt;</value>
+  </data>
+  <data name="battle/settings/labels/secondTeam" xml:space="preserve">
+    <value>вторая команда</value>
+  </data>
+  <data name="battle/settings/labels/selectNumberTeam" xml:space="preserve">
+    <value>Выбор команды:</value>
+  </data>
+  <data name="battle/settings/labels/selectVehicleInventory" xml:space="preserve">
+    <value>Выбор танка из инвентаря:</value>
+  </data>
+  <data name="battle/settings/labels/selectedVehicle" xml:space="preserve">
+    <value>Выбранный танк: &lt;font color="#FFFFFF"&gt;%(vehicleName)&lt;/font&gt;</value>
+  </data>
+  <data name="battle/settings/title" xml:space="preserve">
+    <value>Настройки битвы (development)</value>
+  </data>
+  <data name="bots/buttons/add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="bots/buttons/close" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="bots/labels/teamOne" xml:space="preserve">
+    <value>Первая команда</value>
+  </data>
+  <data name="bots/labels/teamTwo" xml:space="preserve">
+    <value>Вторая команда</value>
+  </data>
+  <data name="bots/labels/vehicleClass" xml:space="preserve">
+    <value>Тип техники</value>
+  </data>
+  <data name="bots/title" xml:space="preserve">
+    <value>Добавление ботов</value>
+  </data>
+  <data name="formats/minutesAndSeconds" xml:space="preserve">
+    <value>%M минут %S секунд</value>
+  </data>
+  <data name="formats/minutesNumber" xml:space="preserve">
+    <value>%02d минут</value>
+  </data>
+  <data name="messages/waiting" xml:space="preserve">
+    <value>Ждите...</value>
+  </data>
+  <data name="editor/contextMenu/close_editor" xml:space="preserve">
+    <value>Close Editor</value>
+  </data>
+  <data name="editor/contextMenu/copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="editor/contextMenu/cut" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="editor/contextMenu/new" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="editor/contextMenu/open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="editor/contextMenu/paste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="editor/contextMenu/save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="editor/contextMenu/save_as" xml:space="preserve">
+    <value>Save as</value>
+  </data>
+  <data name="editor/contextMenu/undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="messenger/contacts/addGroup/body" xml:space="preserve">
+    <value>Click to create a group.</value>
+  </data>
+  <data name="messenger/contacts/addGroup/header" xml:space="preserve">
+    <value>Create Group</value>
+  </data>
+  <data name="messenger/contacts/buttons/externalSearch" xml:space="preserve">
+    <value>Outside Contact Search</value>
+  </data>
+  <data name="messenger/contacts/externalSearch/body" xml:space="preserve">
+    <value>Нажмите, чтобы запустить поиск игрока по всему региону.</value>
+  </data>
+  <data name="messenger/contacts/externalSearch/header" xml:space="preserve">
+    <value>Найти вне контактов</value>
+  </data>
+  <data name="messenger/contacts/list/searchInputPrompt" xml:space="preserve">
+    <value>Find a player</value>
+  </data>
+  <data name="messenger/contacts/searchContact/body" xml:space="preserve">
+    <value>Click to find and add a player to your Contact list.</value>
+  </data>
+  <data name="messenger/contacts/searchContact/header" xml:space="preserve">
+    <value>Player Search</value>
+  </data>
+  <data name="messenger/contacts/settings/body" xml:space="preserve">
+    <value>Click to change the Contact list settings.</value>
+  </data>
+  <data name="messenger/contacts/settings/header" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="messenger/contacts/title" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="messenger/contacts/buttons/externalSearchCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="messenger/contacts/contextmenu/editGroup" xml:space="preserve">
+    <value>Edit group</value>
+  </data>
+  <data name="messenger/contacts/contextmenu/removeGroup" xml:space="preserve">
+    <value>Remove group</value>
+  </data>
+  <data name="messenger/contacts/dropContactPrompt" xml:space="preserve">
+    <value>Drag contacts here</value>
+  </data>
+  <data name="messenger/contacts/mainGrops/Formations" xml:space="preserve">
+    <value>Tactical units</value>
+  </data>
+  <data name="messenger/contacts/mainGrops/Friends" xml:space="preserve">
+    <value>Friends</value>
+  </data>
+  <data name="messenger/contacts/mainGrops/Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="messenger/contacts/searchInputPrompt" xml:space="preserve">
+    <value>Find player</value>
+  </data>
+  <data name="messenger/contacts/view/addUser/btnCancel/Label" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="messenger/contacts/view/addUser/btnOk/Label" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="messenger/contacts/view/addUser/error/groupAlreadyExist" xml:space="preserve">
+    <value>This group already exists.</value>
+  </data>
+  <data name="messenger/contacts/view/addUser/title" xml:space="preserve">
+    <value>Add contact</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createGroup/btnCancel/Label" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createGroup/btnOk/Label" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createGroup/mainLabel" xml:space="preserve">
+    <value>Create group</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createGroup/searchInputPrompt" xml:space="preserve">
+    <value>Enter a name (up to %(symbols)s symbols)</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createNote/btnCancel/Label" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createNote/btnOk/Label" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createNote/mainLabel" xml:space="preserve">
+    <value>Create note</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label" xml:space="preserve">
+    <value>Including contacts of this group</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/groupName/Label" xml:space="preserve">
+    <value>%(groupName)s</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/mainLabel" xml:space="preserve">
+    <value>Remove group</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/editNote/btnCancel/Label" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/editNote/btnOk/Label" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/editNote/mainLabel" xml:space="preserve">
+    <value>Edit note</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/renameGroup/btnOk/Label" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/renameGroup/mainLabel" xml:space="preserve">
+    <value>Edit group</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt" xml:space="preserve">
+    <value>Enter a name (up to %(symbols)s symbols)</value>
+  </data>
+  <data name="messenger/contacts/view/settings/GroupMessages/Label" xml:space="preserve">
+    <value>Group the messages from players not in your Contact list to a separate window.</value>
+  </data>
+  <data name="messenger/contacts/view/settings/IsShowOfflineUsers/Label" xml:space="preserve">
+    <value>Show offline players</value>
+  </data>
+  <data name="messenger/contacts/view/settings/IsShowOthers/Label" xml:space="preserve">
+    <value>Show other contacts</value>
+  </data>
+  <data name="messenger/contacts/view/settings/Label" xml:space="preserve">
+    <value>Messages from players not in your Contact list:</value>
+  </data>
+  <data name="messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label" xml:space="preserve">
+    <value>Accept private messages only from players in your Contact list</value>
+  </data>
+  <data name="messenger/contacts/view/settings/btnCancel/Label" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="messenger/contacts/view/settings/btnOk/Label" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="messenger/contacts/view/settings/mainLabel" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="messenger/contacts/settings/view/applyBtn/body" xml:space="preserve">
+    <value>Click to save the selected settings.</value>
+  </data>
+  <data name="messenger/contacts/settings/view/applyBtn/header" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="messenger/contacts/settings/view/cancelBtn/body" xml:space="preserve">
+    <value>Click to cancel the changes and return to your Contact list.</value>
+  </data>
+  <data name="messenger/contacts/settings/view/cancelBtn/header" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="editor/Pause" xml:space="preserve">
+    <value>Pause - (Ctrl+P)</value>
+  </data>
+  <data name="editor/Resume" xml:space="preserve">
+    <value>Resume - (Ctrl+P)</value>
+  </data>
+  <data name="editor/goto" xml:space="preserve">
+    <value>goto</value>
+  </data>
+  <data name="editor/search" xml:space="preserve">
+    <value>search</value>
+  </data>
+</root>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.ComponentModel.Composition;
 using System.Globalization;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Windows;
 using Common.Logging;
+using JetBrains.Annotations;
 using Newtonsoft.Json.Linq;
 using WotDossier.Applications.Logic;
 using WotDossier.Applications.View;
@@ -67,10 +69,9 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int HEHitsReceived { get; set; }
 
         public int XpFactor { get; set; }
+	    public bool XpFactorVisible => XpFactor > 1;
 
-        public int XpPenalty { get; set; }
-
-        public string UserBattleTime { get; set; }
+	    public string UserBattleTime { get; set; }
 
         public string BattleTime { get; set; }
 
@@ -103,8 +104,9 @@ namespace WotDossier.Applications.ViewModel.Replay
 		public int Damaged { get; set; }
 
         public string TDamage { get; set; }
+	    public int TDamageSign { get; set; }
 
-        public int ShotsReceived { get; set; }
+		public int ShotsReceived { get; set; }
 
         public int DamageDealt { get; set; }
 
@@ -117,43 +119,66 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int Shots { get; set; }
 
         public int CreditsContributionOut { get; set; }
-        public int PremiumCreditsContributionOut { get; set; }
+        public int CreditsContributionOutPremium { get; set; }
 
         public int CreditsContributionIn { get; set; }
-        public int PremiumCreditsContributionIn { get; set; }
+        public int CreditsContributionInPremium { get; set; }
 
-        public int BaseTotalCredits { get; set; }
+	    public ObservableCollection<int> TotalCredits { get; } = new ObservableCollection<int>();
+		public ObservableCollection<int> TotalCreditsPremium { get; } = new ObservableCollection<int>();
 
-        public int PremiumTotalCredits { get; set; }
+		public ObservableCollection<int> AutoEquipCost { get; set; }
 
-        public int AutoEquipCost { get; set; }
-
-        public int AutoLoadCost { get; set; }
+        public ObservableCollection<int> AutoLoadCost { get; set; }
 
         public int AutoRepairCost { get; set; }
 
-        public int ActionCredits { get; set; }
-        public int ActionXp { get; set; }
+        public int EventCredits { get; set; }
+	    public int BoosterCredits { get; set; }
+	    public int OrderCredits { get; set; }
+	    public int AchievementCredits { get; set; }
 
-        public string XpTitle { get; set; }
+	    public ObservableCollection<int> FairplayViolationsCredits { get; set; }
+	    public ObservableCollection<int> FairplayViolationsCreditsPremium { get; set; }
+
+		public int EventCreditsPremium { get; set; }
+	    public int BoosterCreditsPremium { get; set; }
+	    public int OrderCreditsPremium { get; set; }
+	    public int AchievementCreditsPremium { get; set; }
 
         public int BaseTotalXp { get; set; }
-        public int TotalXp { get; set; }
-        public int TotalCredits { get; set; }
-        public int Crystal { get; set; }
+	    public int BaseTotalFreeXp { get; set; }
+		public int BattleXp { get; set; }
+	    public int BattleCredits { get; set; }
+		public int Crystal { get; set; }
 
 		public bool EligibleForCrystalRewards { get; set; }
 
 		public int Xp { get; set; }
+	    public int XpPenalty { get; set; }
+		public int FreeXp { get; set; }
 
-        public int PremiumTotalXp { get; set; }
-        public int PremiumXp { get; set; }
-        
-        public int Credits { get; set; }
+		public int PremiumTotalXp { get; set; }
+	    public int PremiumTotalFreeXp { get; set; }
+		public int PremiumXp { get; set; }
+	    public int PremiumXpPenalty { get; set; }
+		public int PremiumFreeXp { get; set; }
 
-        public int PremiumCredits { get; set; }
+		//Xp, FreeXp, PremiumXp, PremiumFreeXp
+	    public ObservableCollection<int> EventXp { get; } = new ObservableCollection<int>();
+		public ObservableCollection<int> BoosterXp { get; } = new ObservableCollection<int>();
+		public ObservableCollection<int> OrderXp { get; } = new ObservableCollection<int>();
+		public ObservableCollection<int> AchievementXp { get; } = new ObservableCollection<int>();
 
-        public FinishReason FinishReason { get; set; }
+
+
+
+		public int OriginalCredits { get; set; }
+        public int OriginalCreditsPremium { get; set; }
+	    public int Credits { get; set; }
+	    public int CreditsPremium { get; set; }
+
+		public FinishReason FinishReason { get; set; }
 
         public DeathReason DeathReason { get; set; }
 
@@ -165,7 +190,9 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int StunNum { get; set; }
         public int PiercingsReceived { get; set; }
 
-        public string HitsPenetrations => $"{Hits}/{Pierced}";
+	    public string Raw { get; set; }
+
+		public string HitsPenetrations => $"{Hits}/{Pierced}";
 
         public string DamagedDestroyed => $"{Damaged}/{Killed}";
 
@@ -375,7 +402,9 @@ namespace WotDossier.Applications.ViewModel.Replay
             
             if (replay.datablock_battle_result != null)
             {
-                MapDescription = GetMapDescription(replay);
+	            Raw = replay.datablock_battle_result.raw;
+
+				MapDescription = GetMapDescription(replay);
 
                 var tankDescription = Dictionaries.Instance.GetTankDescription(replay.datablock_battle_result.personal.typeCompDescr);
 
@@ -411,12 +440,10 @@ namespace WotDossier.Applications.ViewModel.Replay
                 int creditsPenalty = replay.datablock_battle_result.personal.creditsPenalty;
                 int premiumCreditsPenalty = (int)Math.Round(creditsPenalty * premiumFactor, 0);
 
-                TotalCredits = replay.datablock_battle_result.personal.credits;
                 Crystal = replay.datablock_battle_result.personal.crystal;
 				EligibleForCrystalRewards = replay.datablock_battle_result.avatar.eligibleForCrystalRewards;
-				TotalXp = replay.datablock_battle_result.personal.xp;
 
-                PiercingsReceived = replay.datablock_battle_result.personal.piercedReceived;
+				PiercingsReceived = replay.datablock_battle_result.personal.piercedReceived;
                 NoDamageDirectHitsReceived = replay.datablock_battle_result.personal.noDamageShotsReceived;
                 RickochetsReceived = replay.datablock_battle_result.personal.rickochetsReceived;
                 DamageAssistedStun = replay.datablock_battle_result.personal.damageAssistedStun;
@@ -427,54 +454,128 @@ namespace WotDossier.Applications.ViewModel.Replay
 				IsPremium = replay.datablock_battle_result.personal.isPremium;
                 IsBase = !IsPremium;
 
-                int premiumCredits;
-                
-                if (replay.datablock_battle_result.personal.isPremium)
-                {
-                    premiumCredits = replay.datablock_battle_result.personal.credits;
-                    PremiumCreditsContributionIn = replay.datablock_battle_result.personal.creditsContributionIn;
-                    PremiumCreditsContributionOut = premiumCreditsPenalty;
-                }
-                else
-                {
-                    premiumCredits = (int)(replay.datablock_battle_result.personal.credits * premiumFactor);
-                }
+	            #region [Credits]
 
-                Xp = replay.datablock_battle_result.vehicles[ReplayUser.Id].xp;
+	            //начислено за бой
+	            OriginalCredits = replay.datablock_battle_result.personal.originalCredits;
+	            OriginalCreditsPremium = (int)(replay.datablock_battle_result.personal.originalCredits * premiumFactor);
+	            
+	            //Итого за бой
+	            var temp = replay.datablock_battle_result.personal.credits;
+	            CreditsPremium = IsPremium ? temp : (int)Math.Round(temp * premiumFactor, 0);
+	            Credits = IsPremium ? (int)Math.Round((temp / premiumFactor), 0) : temp;
+	            
+	            //за боевые задачи
+	            temp = replay.datablock_battle_result.personal.eventCredits;
+	            EventCreditsPremium = IsPremium ? temp : (int)Math.Round(temp * premiumFactor, 0);
+	            EventCredits = IsPremium ? (int)Math.Round((temp / premiumFactor), 0) : temp;
 
-                PremiumCredits = premiumCredits;
-                PremiumXp = (int)(Xp * premiumFactor);
+	            //личные резервы
+	            temp = replay.datablock_battle_result.personal.boosterCredits;
+	            BoosterCreditsPremium = IsPremium ? temp : (int) Math.Round(temp * premiumFactor, 0);
+	            BoosterCredits = IsPremium ? (int) Math.Round((temp / premiumFactor), 0) : temp;
 
-                CreditsContributionOut = (int)Math.Round((PremiumCreditsContributionOut / premiumFactor), 0);
-                CreditsContributionIn = (int)Math.Round((PremiumCreditsContributionIn / premiumFactor), 0);
+	            //боевые выплаты
+	            temp = replay.datablock_battle_result.personal.orderCredits;
+	            OrderCreditsPremium = IsPremium ? temp : (int)Math.Round(temp * premiumFactor, 0);
+	            OrderCredits = IsPremium ? (int)Math.Round((temp / premiumFactor), 0) : temp;
 
-                Credits = (int)Math.Round((PremiumCredits / premiumFactor), 0);
-                
-                ActionCredits = replay.datablock_battle_result.personal.eventCredits;
-                ActionXp = replay.datablock_battle_result.personal.eventXP;
+	            //За достижения полученные в бою
+	            temp = replay.datablock_battle_result.personal.achievementCredits;
+	            AchievementCreditsPremium = IsPremium ? temp : (int)Math.Round(temp * premiumFactor, 0);
+	            AchievementCredits = IsPremium ? (int)Math.Round((temp / premiumFactor), 0) : temp;
 
-                XpPenalty = replay.datablock_battle_result.personal.xpPenalty;
-                XpTitle = GetXpTitle(XpFactor);
+				
+	            //Компенсация за урон от союзников
+	            temp = replay.datablock_battle_result.personal.creditsContributionIn;
+	            CreditsContributionInPremium = IsPremium ? temp : (int)Math.Round(temp * premiumFactor, 0);
+	            CreditsContributionIn = IsPremium ? (int)Math.Round((temp / premiumFactor), 0) : temp;
 
-                PremiumTotalXp = PremiumXp * XpFactor + ActionXp;
-                BaseTotalXp = Xp * XpFactor + ActionXp;
+	            //Штраф за урон союзникам
+	            temp = replay.datablock_battle_result.personal.creditsPenalty;
+	            CreditsContributionOutPremium = IsPremium ? -temp : -(int)Math.Round(temp * premiumFactor, 0);
+	            CreditsContributionOut = IsPremium ? -(int)Math.Round((temp / premiumFactor), 0) : -temp;
 
-                AutoRepairCost = replay.datablock_battle_result.personal.autoRepairCost ?? 0;
-                AutoLoadCost = ReplayFileHelper.GetAutoLoadCost(replay);
-                AutoEquipCost = ReplayFileHelper.GetAutoEquipCost(replay);
-                
-                PremiumTotalCredits = PremiumCredits - AutoRepairCost - AutoLoadCost - AutoEquipCost;
-                BaseTotalCredits = Credits - AutoRepairCost - AutoLoadCost - AutoEquipCost;
+	            //Штрафы
+	            FairplayViolationsCreditsPremium = new ObservableCollection<int>(
+		            replay.datablock_battle_result.avatar.fairplayViolations.Select(t =>
+			            IsPremium ? -t : -(int) Math.Round(t * premiumFactor, 0)));
+	            FairplayViolationsCredits = new ObservableCollection<int>(
+		            replay.datablock_battle_result.avatar.fairplayViolations.Select(t =>
+			            IsPremium ? -(int) Math.Round((t / premiumFactor), 0) : -t));
 
-                Shots = replay.datablock_battle_result.personal.shots;
+	            AutoRepairCost = -(replay.datablock_battle_result.personal.autoRepairCost ?? 0);
+	            AutoLoadCost = new ObservableCollection<int>(replay.datablock_battle_result.personal.autoLoadCost.Select(t => -t));
+	            AutoEquipCost = new ObservableCollection<int>(replay.datablock_battle_result.personal.autoEquipCost.Select(t => -t));
+
+	            TotalCredits.Add(Credits + AutoRepairCost + AutoLoadCost[0] + AutoEquipCost[0]);
+	            TotalCredits.Add(AutoLoadCost[1] + AutoEquipCost[1]);
+
+	            TotalCreditsPremium.Add(CreditsPremium + AutoRepairCost + AutoLoadCost[0] + AutoEquipCost[0]);
+	            TotalCreditsPremium.Add(AutoLoadCost[1] + AutoEquipCost[1]);
+
+		            #endregion
+
+				Xp = replay.datablock_battle_result.personal.originalXP;
+	            PremiumXp = (int)(Xp * premiumFactor);
+
+				XpPenalty = -replay.datablock_battle_result.personal.xpPenalty;
+	            PremiumXpPenalty = (int)(XpPenalty * premiumFactor);
+
+				FreeXp = replay.datablock_battle_result.personal.originalFreeXP;
+	            PremiumFreeXp = (int)(FreeXp * premiumFactor);
+
+	            temp = replay.datablock_battle_result.personal.eventXP;
+	            EventXp.Add(IsPremium ? (int)Math.Round((temp / premiumFactor), 0) : temp);
+	            EventXp.Add(IsPremium ? temp : (int)Math.Round(temp * premiumFactor, 0));
+	            temp = replay.datablock_battle_result.personal.eventFreeXP;
+				EventXp.Add(IsPremium ? (int)Math.Round((temp / premiumFactor), 0) : temp);
+	            EventXp.Add(IsPremium ? temp : (int)Math.Round(temp * premiumFactor, 0));
+
+	            temp = replay.datablock_battle_result.personal.boosterXP;
+	            BoosterXp.Add(IsPremium ? (int)Math.Round((temp / premiumFactor), 0) : temp);
+	            BoosterXp.Add(IsPremium ? temp : (int)Math.Round(temp * premiumFactor, 0));
+	            temp = replay.datablock_battle_result.personal.boosterFreeXP;
+	            BoosterXp.Add(IsPremium ? (int)Math.Round((temp / premiumFactor), 0) : temp);
+	            BoosterXp.Add(IsPremium ? temp : (int)Math.Round(temp * premiumFactor, 0));
+
+	            temp = replay.datablock_battle_result.personal.orderXP;
+	            OrderXp.Add(IsPremium ? (int)Math.Round((temp / premiumFactor), 0) : temp);
+	            OrderXp.Add(IsPremium ? temp : (int)Math.Round(temp * premiumFactor, 0));
+	            temp = replay.datablock_battle_result.personal.orderFreeXP;
+	            OrderXp.Add(IsPremium ? (int)Math.Round((temp / premiumFactor), 0) : temp);
+	            OrderXp.Add(IsPremium ? temp : (int)Math.Round(temp * premiumFactor, 0));
+
+
+	            temp = replay.datablock_battle_result.personal.achievementXP;
+	            AchievementXp.Add(IsPremium ? (int)Math.Round((temp / premiumFactor), 0) : temp);
+	            AchievementXp.Add(IsPremium ? temp : (int)Math.Round(temp * premiumFactor, 0));
+	            temp = replay.datablock_battle_result.personal.achievementFreeXP;
+	            AchievementXp.Add(IsPremium ? (int)Math.Round((temp / premiumFactor), 0) : temp);
+	            AchievementXp.Add(IsPremium ? temp : (int)Math.Round(temp * premiumFactor, 0));
+
+	            temp = replay.datablock_battle_result.personal.xp;
+	            PremiumTotalXp = IsPremium ? temp : (int)Math.Round(temp * premiumFactor, 0);
+	            BaseTotalXp = IsPremium ? (int)Math.Round((temp / premiumFactor), 0) : temp;
+
+				temp = replay.datablock_battle_result.personal.freeXP;
+	            PremiumTotalFreeXp = IsPremium ? temp : (int)Math.Round(temp * premiumFactor, 0);
+	            BaseTotalFreeXp = IsPremium ? (int)Math.Round((temp / premiumFactor), 0) : temp;
+
+	            BattleXp = replay.datablock_battle_result.personal.xp;
+	            BattleCredits = replay.datablock_battle_result.personal.credits;
+
+				Shots = replay.datablock_battle_result.personal.shots;
                 Hits = replay.datablock_battle_result.personal.hits;
                 Crits = CombatEffects.Sum(x => x.Crits);
                 HEHits = replay.datablock_battle_result.personal.he_hits;
                 Pierced = replay.datablock_battle_result.personal.pierced;
                 DamageDealt = replay.datablock_battle_result.personal.damageDealt;
                 ShotsReceived = replay.datablock_battle_result.personal.shotsReceived;
-                TDamage = string.Format("{0}/{1}", replay.datablock_battle_result.personal.tkills, replay.datablock_battle_result.personal.tdamageDealt);
-                Damaged = replay.datablock_battle_result.personal.damaged;
+                TDamage = $"{replay.datablock_battle_result.personal.tkills}/{replay.datablock_battle_result.personal.tdamageDealt}";
+	            TDamageSign = (int)(-replay.datablock_battle_result.personal.tkills -replay.datablock_battle_result.personal.tdamageDealt);
+
+				Damaged = replay.datablock_battle_result.personal.damaged;
                 Killed = replay.datablock_battle_result.personal.kills;
                 Spotted = replay.datablock_battle_result.personal.spotted;
                 DamageAssisted = replay.datablock_battle_result.personal.damageAssisted;
@@ -651,15 +752,6 @@ namespace WotDossier.Applications.ViewModel.Replay
             }
 
             return BattleStatus.Defeat;
-        }
-
-        private string GetXpTitle(int dailyXpFactor)
-        {
-            if (dailyXpFactor > 1)
-            {
-                return string.Format(Resources.Resources.Label_Replay_XpFactorFormat, dailyXpFactor);
-            }
-            return Resources.Resources.Label_Experience;
         }
 
         private object GetMapMode(Gameplay gameplayId, BattleType battleType)

@@ -47,7 +47,7 @@ namespace WotDossier.Converters.Color
                 delta = (double)value;
             }
             if (Math.Abs(delta - 0.0) < 0.001)
-                return new SolidColorBrush(System.Windows.Media.Color.FromRgb(186, 191, 186));
+                return new SolidColorBrush(System.Windows.Media.Color.FromRgb(0xBA, 0xBF, 0xBA));
             bool negativBetter = parameter != null ? bool.Parse(parameter.ToString()) : false;
             if ((delta > 0.0 && !negativBetter)
                 || (delta < 0.0 && negativBetter))

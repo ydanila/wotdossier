@@ -203,6 +203,7 @@
     </Compile>
     <Compile Include="Converters\BoolToRowHeightConverter.cs" />
     <Compile Include="Converters\Color\AliveToColorConverter.cs" />
+    <Compile Include="Converters\Color\NegativeToColorConverter.cs" />
     <Compile Include="Converters\Color\FragsToColorConverter.cs" />
     <Compile Include="Converters\Ratings\PointsToPalleteConverter.cs" />
     <Compile Include="Converters\Color\SpottedToColorConverter.cs" />
@@ -254,6 +255,9 @@
     </Compile>
     <Compile Include="Tabs\Charts\ReplaysStatTab.xaml.cs">
       <DependentUpon>ReplaysStatTab.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\Replay\RawData.xaml.cs">
+      <DependentUpon>RawData.xaml</DependentUpon>
     </Compile>
     <Compile Include="UI\MedalSearchItemTemplateSelector.cs" />
     <Compile Include="MinimizeToTray.cs" />
@@ -732,6 +736,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Tabs\Medals7x7Tab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Tabs\Replay\RawData.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

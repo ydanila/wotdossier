@@ -1,0 +1,2639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="battle/buttons/send" xml:space="preserve">
+    <value>TO TEAM</value>
+  </data>
+  <data name="battle/buttons/sendAll" xml:space="preserve">
+    <value>TO ALL</value>
+  </data>
+  <data name="battle/toolTips/send" xml:space="preserve">
+    <value>send a message</value>
+  </data>
+  <data name="battle/toolTips/sendAll" xml:space="preserve">
+    <value>Ctrl + Enter</value>
+  </data>
+  <data name="client/error/broadcastInCooldown" xml:space="preserve">
+    <value>You have been suspended from sending messages for %s s.</value>
+  </data>
+  <data name="client/error/commandInCooldown/limited" xml:space="preserve">
+    <value>Command "%s" suspended for %s s.</value>
+  </data>
+  <data name="client/error/commandInCooldown/unlimited" xml:space="preserve">
+    <value>Command %s suspended.</value>
+  </data>
+  <data name="client/information/addToFriends/message" xml:space="preserve">
+    <value>User %s has been added to your Friends list.</value>
+  </data>
+  <data name="client/information/addToIgnored/message" xml:space="preserve">
+    <value>%s has been added to your Blacklist. Chat with the player is blocked; the player's messages are hidden.</value>
+  </data>
+  <data name="client/information/emptySearchResult/message" xml:space="preserve">
+    <value>No results found.</value>
+  </data>
+  <data name="client/information/removeFromFriends/message" xml:space="preserve">
+    <value>User %s has been removed from your Friends list.</value>
+  </data>
+  <data name="client/information/removeFromIgnored/message" xml:space="preserve">
+    <value>%s has been removed from your Blacklist; chat with the player is fully restored.</value>
+  </data>
+  <data name="client/information/setMuted/message" xml:space="preserve">
+    <value>%s is not allowed to send you voice messages.</value>
+  </data>
+  <data name="client/information/unsetMuted/message" xml:space="preserve">
+    <value>%s is allowed to send you voice messages.</value>
+  </data>
+  <data name="client/warnning/emptyUserSearchToken/message" xml:space="preserve">
+    <value>Empty query</value>
+  </data>
+  <data name="client/warnning/emptyUserSearchToken/title" xml:space="preserve">
+    <value>Search Users</value>
+  </data>
+  <data name="client/warnning/invalidUserSearchToken/message" xml:space="preserve">
+    <value>Incorrect length or invalid character in Search field. Valid number of characters is %d to %d.</value>
+  </data>
+  <data name="client/warnning/invalidUserSearchToken/title" xml:space="preserve">
+    <value>Search Users</value>
+  </data>
+  <data name="command/ATTACKENEMY/arg0" xml:space="preserve">
+    <value>Target Name</value>
+  </data>
+  <data name="command/ATTENTIONTOCELL/arg0" xml:space="preserve">
+    <value>&amp;lt;Square on Minimap&amp;gt;</value>
+  </data>
+  <data name="command/acceptInvite" xml:space="preserve">
+    <value>Accept Invitation</value>
+  </data>
+  <data name="command/addFriend" xml:space="preserve">
+    <value>Add player to your Friends list</value>
+  </data>
+  <data name="command/addIgnored" xml:space="preserve">
+    <value>Add player to your Blacklist</value>
+  </data>
+  <data name="command/broadcast" xml:space="preserve">
+    <value>Send message</value>
+  </data>
+  <data name="command/createChatChannel" xml:space="preserve">
+    <value>Create Channel</value>
+  </data>
+  <data name="command/createInvite" xml:space="preserve">
+    <value>Create Invitation</value>
+  </data>
+  <data name="command/createPrivate" xml:space="preserve">
+    <value>Create private channel</value>
+  </data>
+  <data name="command/findChatChannels" xml:space="preserve">
+    <value>Search Channels</value>
+  </data>
+  <data name="command/findUsers" xml:space="preserve">
+    <value>Search Players</value>
+  </data>
+  <data name="command/getActiveInvites" xml:space="preserve">
+    <value>Get invite list</value>
+  </data>
+  <data name="command/getArchiveInvites" xml:space="preserve">
+    <value>Get archived invite list</value>
+  </data>
+  <data name="command/getMembersCount" xml:space="preserve">
+    <value>Get number of players in the channel</value>
+  </data>
+  <data name="command/leaveChatChannel" xml:space="preserve">
+    <value>Leave Channel</value>
+  </data>
+  <data name="command/rejectInvite" xml:space="preserve">
+    <value>Decline Invitation</value>
+  </data>
+  <data name="command/removeFriend" xml:space="preserve">
+    <value>Remove player from your Friends list</value>
+  </data>
+  <data name="command/removeIgnored" xml:space="preserve">
+    <value>Remove player from your Blacklist</value>
+  </data>
+  <data name="command/requestChatChannelMembers" xml:space="preserve">
+    <value>Get list of clan members</value>
+  </data>
+  <data name="command/requestSystemChatChannels" xml:space="preserve">
+    <value>Get list of system channels</value>
+  </data>
+  <data name="command/setMuted" xml:space="preserve">
+    <value>Disable voice messages</value>
+  </data>
+  <data name="command/unsetMuted" xml:space="preserve">
+    <value>Enable voice messages</value>
+  </data>
+  <data name="dialogs/bsChannel/buttons/leave" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="dialogs/bsChannel/context/kickPlayer" xml:space="preserve">
+    <value>Exclude from team</value>
+  </data>
+  <data name="dialogs/channels/buttons/close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="dialogs/channels/buttons/create" xml:space="preserve">
+    <value>Create Channel</value>
+  </data>
+  <data name="dialogs/channels/buttons/searchAndJoin" xml:space="preserve">
+    <value>Search and Join</value>
+  </data>
+  <data name="dialogs/channels/title" xml:space="preserve">
+    <value>Channels</value>
+  </data>
+  <data name="dialogs/connectingToSecureChannel/buttons/close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="dialogs/connectingToSecureChannel/buttons/connect" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="dialogs/connectingToSecureChannel/errors/invalidPassword/message" xml:space="preserve">
+    <value>Password must contain 3 to 12 characters.</value>
+  </data>
+  <data name="dialogs/connectingToSecureChannel/errors/invalidPassword/title" xml:space="preserve">
+    <value>Invalid password.</value>
+  </data>
+  <data name="dialogs/connectingToSecureChannel/labels/info" xml:space="preserve">
+    <value>You are attempting to connect to secured channel %s.</value>
+  </data>
+  <data name="dialogs/connectingToSecureChannel/labels/password" xml:space="preserve">
+    <value>Enter password:</value>
+  </data>
+  <data name="dialogs/connectingToSecureChannel/labels/warrning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="dialogs/connectingToSecureChannel/title" xml:space="preserve">
+    <value>Connect to Channel</value>
+  </data>
+  <data name="dialogs/contacts/buttons/close" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="dialogs/contacts/contact/addToFriends" xml:space="preserve">
+    <value>Add to Friends List</value>
+  </data>
+  <data name="dialogs/contacts/contact/addToIgnored" xml:space="preserve">
+    <value>Add to Blacklist</value>
+  </data>
+  <data name="dialogs/contacts/contact/copyToClipBorad" xml:space="preserve">
+    <value>Copy to clipboard</value>
+  </data>
+  <data name="dialogs/contacts/contact/createPrivateChannel" xml:space="preserve">
+    <value>Create Private Channel</value>
+  </data>
+  <data name="dialogs/contacts/contact/moneyTransfer" xml:space="preserve">
+    <value>Transfer gold</value>
+  </data>
+  <data name="dialogs/contacts/contact/removeFromFriends" xml:space="preserve">
+    <value>Remove from your Friends list</value>
+  </data>
+  <data name="dialogs/contacts/contact/removeFromIgnored" xml:space="preserve">
+    <value>Remove from Blacklist</value>
+  </data>
+  <data name="dialogs/contacts/contact/userInfo" xml:space="preserve">
+    <value>View details</value>
+  </data>
+  <data name="dialogs/contacts/group/sortByName" xml:space="preserve">
+    <value>Sort by name.</value>
+  </data>
+  <data name="dialogs/contacts/group/sortByStatus" xml:space="preserve">
+    <value>Sort by status.</value>
+  </data>
+  <data name="dialogs/contacts/title" xml:space="preserve">
+    <value>Contact List</value>
+  </data>
+  <data name="dialogs/contacts/tree/clan" xml:space="preserve">
+    <value>Clan</value>
+  </data>
+  <data name="dialogs/contacts/tree/friends" xml:space="preserve">
+    <value>Friends</value>
+  </data>
+  <data name="dialogs/contacts/tree/ignored" xml:space="preserve">
+    <value>Blacklist</value>
+  </data>
+  <data name="dialogs/contacts/tree/muted" xml:space="preserve">
+    <value>Disable Voice Messages</value>
+  </data>
+  <data name="dialogs/createChannel/buttons/close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="dialogs/createChannel/buttons/create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="dialogs/createChannel/errors/activeChannelLimitReached/message" xml:space="preserve">
+    <value>You have exceeded the maximum allowed number of channels. Please close unnecessary channels and try again.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/activeChannelLimitReached/title" xml:space="preserve">
+    <value>You have exceeded the maximum allowed number of channels.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/invalidName/message" xml:space="preserve">
+    <value>Channel name must contain %d to %d characters.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/invalidName/title" xml:space="preserve">
+    <value>Incorrect channel name.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/invalidPassword/message" xml:space="preserve">
+    <value>Password must contain %d to %d characters.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/invalidPassword/title" xml:space="preserve">
+    <value>Invalid password.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/invalidRetypePassword/message" xml:space="preserve">
+    <value>Password confirmation text must contain %d to %d characters.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/invalidRetypePassword/title" xml:space="preserve">
+    <value>Invalid password.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/notEqualsPasswords/message" xml:space="preserve">
+    <value>Password confirmation does not match the entered password.</value>
+  </data>
+  <data name="dialogs/createChannel/errors/notEqualsPasswords/title" xml:space="preserve">
+    <value>Invalid password.</value>
+  </data>
+  <data name="dialogs/createChannel/labels/fillPassword" xml:space="preserve">
+    <value>Enter password</value>
+  </data>
+  <data name="dialogs/createChannel/labels/name" xml:space="preserve">
+    <value>Channel name</value>
+  </data>
+  <data name="dialogs/createChannel/labels/password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="dialogs/createChannel/labels/retypePassword" xml:space="preserve">
+    <value>Confirm your password</value>
+  </data>
+  <data name="dialogs/createChannel/labels/usePassword" xml:space="preserve">
+    <value>Require password</value>
+  </data>
+  <data name="dialogs/createChannel/title" xml:space="preserve">
+    <value>Create Channel</value>
+  </data>
+  <data name="dialogs/invitations/squad/title" xml:space="preserve">
+    <value>Invite to Platoon</value>
+  </data>
+  <data name="dialogs/invitations/team/title" xml:space="preserve">
+    <value>Invite to Tank Company</value>
+  </data>
+  <data name="dialogs/searchChannel/buttons/close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="dialogs/searchChannel/buttons/join" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="dialogs/searchChannel/buttons/search" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="dialogs/searchChannel/labels/result" xml:space="preserve">
+    <value>Search results (first %d):</value>
+  </data>
+  <data name="dialogs/searchChannel/labels/search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="dialogs/searchChannel/title" xml:space="preserve">
+    <value>Search Channel</value>
+  </data>
+  <data name="dialogs/searchContact/buttons/addToFriends" xml:space="preserve">
+    <value>Add to Friends</value>
+  </data>
+  <data name="dialogs/searchContact/buttons/addToIgnored" xml:space="preserve">
+    <value>Blacklist</value>
+  </data>
+  <data name="dialogs/searchContact/buttons/close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="dialogs/searchContact/buttons/search" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="dialogs/searchContact/buttons/userInfo" xml:space="preserve">
+    <value>User details</value>
+  </data>
+  <data name="dialogs/searchContact/labels/result" xml:space="preserve">
+    <value>Search results:</value>
+  </data>
+  <data name="dialogs/searchContact/labels/search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="dialogs/searchContact/title" xml:space="preserve">
+    <value>Find Contacts</value>
+  </data>
+  <data name="dialogs/serviceChannel/title" xml:space="preserve">
+    <value>Service Channel</value>
+  </data>
+  <data name="dialogs/squadChannel/buttons/afk" xml:space="preserve">
+    <value>Break</value>
+  </data>
+  <data name="dialogs/squadChannel/buttons/dismiss" xml:space="preserve">
+    <value>Leave Platoon</value>
+  </data>
+  <data name="dialogs/squadChannel/buttons/invite" xml:space="preserve">
+    <value>Invite Players</value>
+  </data>
+  <data name="dialogs/squadChannel/buttons/leave" xml:space="preserve">
+    <value>Leave Platoon</value>
+  </data>
+  <data name="dialogs/squadChannel/buttons/notReady" xml:space="preserve">
+    <value>Not ready</value>
+  </data>
+  <data name="dialogs/squadChannel/buttons/ready" xml:space="preserve">
+    <value>Ready!</value>
+  </data>
+  <data name="dialogs/squadChannel/context/kickPlayer" xml:space="preserve">
+    <value>Exclude from Platoon</value>
+  </data>
+  <data name="dialogs/squadChannel/messege/noPremium" xml:space="preserve">
+    <value>Only Premium Account users
+can invite a third player
+to join a Platoon.</value>
+  </data>
+  <data name="dialogs/squadChannel/tooltips/status/afk" xml:space="preserve">
+    <value>Status: Taking a break</value>
+  </data>
+  <data name="dialogs/squadChannel/tooltips/status/inBattle" xml:space="preserve">
+    <value>Status: In battle</value>
+  </data>
+  <data name="dialogs/squadChannel/tooltips/status/notReady" xml:space="preserve">
+    <value>Status: Not ready</value>
+  </data>
+  <data name="dialogs/squadChannel/tooltips/status/offline" xml:space="preserve">
+    <value>Status: Offline</value>
+  </data>
+  <data name="dialogs/squadChannel/tooltips/status/ready" xml:space="preserve">
+    <value>Status: Ready</value>
+  </data>
+  <data name="dialogs/teamChannel/buttons/dismiss" xml:space="preserve">
+    <value>Dismiss</value>
+  </data>
+  <data name="dialogs/teamChannel/buttons/leave" xml:space="preserve">
+    <value>Leave</value>
+  </data>
+  <data name="dialogs/teamChannel/buttons/notReady" xml:space="preserve">
+    <value>Not ready</value>
+  </data>
+  <data name="dialogs/teamChannel/buttons/ready" xml:space="preserve">
+    <value>Ready!</value>
+  </data>
+  <data name="dialogs/teamChannel/context/kickPlayer" xml:space="preserve">
+    <value>Exclude from Tank Company</value>
+  </data>
+  <data name="dialogs/userInfo/ban_reason/guilty" xml:space="preserve">
+    <value>guilty</value>
+  </data>
+  <data name="dialogs/userInfo/ban_reason/suspicion" xml:space="preserve">
+    <value>suspected</value>
+  </data>
+  <data name="dialogs/userInfo/ban_reason/title" xml:space="preserve">
+    <value>Ally Destruction: </value>
+  </data>
+  <data name="dialogs/userInfo/buttons/addMuted" xml:space="preserve">
+    <value>Disable Voice Messages</value>
+  </data>
+  <data name="dialogs/userInfo/buttons/addToFriends" xml:space="preserve">
+    <value>Add to Friends</value>
+  </data>
+  <data name="dialogs/userInfo/buttons/addToIgnored" xml:space="preserve">
+    <value>Add to Blacklist</value>
+  </data>
+  <data name="dialogs/userInfo/buttons/close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="dialogs/userInfo/buttons/createPrivateChannel" xml:space="preserve">
+    <value>Create Private Channel</value>
+  </data>
+  <data name="dialogs/userInfo/buttons/removeMuted" xml:space="preserve">
+    <value>Enable Voice Messages</value>
+  </data>
+  <data name="dialogs/userInfo/labels/common" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="dialogs/userInfo/labels/creationTime" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="dialogs/userInfo/labels/lastBattleTime" xml:space="preserve">
+    <value>Last battle</value>
+  </data>
+  <data name="dialogs/userInfo/labels/status" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="dialogs/userInfo/title" xml:space="preserve">
+    <value>%s - Player Details</value>
+  </data>
+  <data name="events/enterChannel" xml:space="preserve">
+    <value>[%s] joined the channel</value>
+  </data>
+  <data name="events/leaveChannel" xml:space="preserve">
+    <value>[%s] left the channel</value>
+  </data>
+  <data name="keyboardChat" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="lobby/bsChannel/title/arenaType" xml:space="preserve">
+    <value>Map:</value>
+  </data>
+  <data name="lobby/bsChannel/title/battlesLimit" xml:space="preserve">
+    <value>Battles/Wins:</value>
+  </data>
+  <data name="lobby/bsChannel/title/comment" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="lobby/bsChannel/title/startTime" xml:space="preserve">
+    <value>Start Time:</value>
+  </data>
+  <data name="lobby/bsChannels/stats/commonLevel" xml:space="preserve">
+    <value>Level:</value>
+  </data>
+  <data name="lobby/bsChannels/title/startTime" xml:space="preserve">
+    <value>Battle Time: %s</value>
+  </data>
+  <data name="lobby/buttons/channels" xml:space="preserve">
+    <value>Channels</value>
+  </data>
+  <data name="lobby/buttons/contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="lobby/buttons/createTeam" xml:space="preserve">
+    <value>Create Tank Company</value>
+  </data>
+  <data name="lobby/buttons/send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="lobby/channels/actions/remove" xml:space="preserve">
+    <value>Close Channel</value>
+  </data>
+  <data name="lobby/channels/actions/setDay" xml:space="preserve">
+    <value>Display date in messages</value>
+  </data>
+  <data name="lobby/channels/actions/setTime" xml:space="preserve">
+    <value>Display time in messages</value>
+  </data>
+  <data name="lobby/faq/close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="lobby/faq/title" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="lobby/teamChannel/defaultComment" xml:space="preserve">
+    <value>Click to edit text...</value>
+  </data>
+  <data name="lobby/teamChannel/division/ABSOLUTE" xml:space="preserve">
+    <value>Absolute</value>
+  </data>
+  <data name="lobby/teamChannel/division/ALL" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="lobby/teamChannel/division/CHAMPION" xml:space="preserve">
+    <value>Champion</value>
+  </data>
+  <data name="lobby/teamChannel/division/JUNIOR" xml:space="preserve">
+    <value>Junior</value>
+  </data>
+  <data name="lobby/teamChannel/division/MIDDLE" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="lobby/teamChannel/isOpen" xml:space="preserve">
+    <value>Open Tank Company</value>
+  </data>
+  <data name="lobby/teamChannel/notInBattle" xml:space="preserve">
+    <value>Not in battle</value>
+  </data>
+  <data name="lobby/teamChannel/playersBottomLabel" xml:space="preserve">
+    <value>Click to join</value>
+  </data>
+  <data name="lobby/teamChannel/playersTopLabel" xml:space="preserve">
+    <value>Military Personnel</value>
+  </data>
+  <data name="lobby/teamChannel/queue" xml:space="preserve">
+    <value>Reserve</value>
+  </data>
+  <data name="lobby/teamChannel/stats/commonLevel" xml:space="preserve">
+    <value>Total tier:</value>
+  </data>
+  <data name="lobby/teamChannel/stats/count" xml:space="preserve">
+    <value>Tank Company Personnel:</value>
+  </data>
+  <data name="lobby/teamChannel/stats/maxPlayers" xml:space="preserve">
+    <value>Players:</value>
+  </data>
+  <data name="lobby/teamChannel/stats/vehicleLevel" xml:space="preserve">
+    <value>Max vehicle tier:</value>
+  </data>
+  <data name="lobby/teamChannel/stats/vehicleSPGLevel" xml:space="preserve">
+    <value>Max SPG tier:</value>
+  </data>
+  <data name="lobby/teamChannel/title/level" xml:space="preserve">
+    <value>Tier</value>
+  </data>
+  <data name="lobby/teamChannel/title/player" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="lobby/teamChannel/title/vehicle" xml:space="preserve">
+    <value>Vehicle</value>
+  </data>
+  <data name="lobby/users/actions/addToFriends" xml:space="preserve">
+    <value>Add this player to Friends</value>
+  </data>
+  <data name="lobby/users/actions/addToIgnore" xml:space="preserve">
+    <value>Add this player to Blacklist</value>
+  </data>
+  <data name="lobby/users/actions/copyNameToClipboard" xml:space="preserve">
+    <value>Copy to clipboard</value>
+  </data>
+  <data name="lobby/users/actions/createPrivateChannel" xml:space="preserve">
+    <value>Create private channel</value>
+  </data>
+  <data name="lobby/users/actions/showInfo" xml:space="preserve">
+    <value>Show player details</value>
+  </data>
+  <data name="server/errors/actionInCooldown/message" xml:space="preserve">
+    <value>Action %(action)s has been suspended for %(cooldownPeriod)s s.</value>
+  </data>
+  <data name="server/errors/actionInCooldown/title" xml:space="preserve">
+    <value>Chat Error</value>
+  </data>
+  <data name="server/errors/activeChannelsLimitReached/message" xml:space="preserve">
+    <value>You have reached the limit for open channels. Please close the unused channels.</value>
+  </data>
+  <data name="server/errors/activeChannelsLimitReached/title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="server/errors/addFriendError/message" xml:space="preserve">
+    <value>Error adding user to your Friends list.</value>
+  </data>
+  <data name="server/errors/addFriendError/title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="server/errors/addIgnoredError/message" xml:space="preserve">
+    <value>Error adding user to your Blacklist.</value>
+  </data>
+  <data name="server/errors/addIgnoredError/title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="server/errors/channelAlreadyExists/message" xml:space="preserve">
+    <value>Channel with this name already exists.</value>
+  </data>
+  <data name="server/errors/channelAlreadyExists/title" xml:space="preserve">
+    <value>Error creating a channel.</value>
+  </data>
+  <data name="server/errors/channelDestroyed/message" xml:space="preserve">
+    <value>Channel deleted.</value>
+  </data>
+  <data name="server/errors/channelDestroyed/title" xml:space="preserve">
+    <value>Error joining a channel.</value>
+  </data>
+  <data name="server/errors/chatBanned/message" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="server/errors/chatBanned/title" xml:space="preserve">
+    <value>Chat Error</value>
+  </data>
+  <data name="server/errors/chatCommandError/message" xml:space="preserve">
+    <value>Error running chat command: %(error)s</value>
+  </data>
+  <data name="server/errors/chatCommandError/title" xml:space="preserve">
+    <value>Chat Error</value>
+  </data>
+  <data name="server/errors/commandInCooldown/message" xml:space="preserve">
+    <value>Command %(command)s has been suspended for %(cooldownPeriod)s s.</value>
+  </data>
+  <data name="server/errors/commandInCooldown/title" xml:space="preserve">
+    <value>Chat Error</value>
+  </data>
+  <data name="server/errors/connectTimeout/message" xml:space="preserve">
+    <value>Connection to the channel has timed out.</value>
+  </data>
+  <data name="server/errors/connectTimeout/title" xml:space="preserve">
+    <value>Chat Error</value>
+  </data>
+  <data name="server/errors/createPrivateError/message" xml:space="preserve">
+    <value>Cannot create a private channel: the user is currently offline.</value>
+  </data>
+  <data name="server/errors/createPrivateError/title" xml:space="preserve">
+    <value>Chat Error</value>
+  </data>
+  <data name="server/errors/incorrectCharacter/message" xml:space="preserve">
+    <value>Invalid symbol</value>
+  </data>
+  <data name="server/errors/incorrectCharacter/title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="server/errors/incorrectCommandArgument/message" xml:space="preserve">
+    <value>Invalid parameter %(arg)s</value>
+  </data>
+  <data name="server/errors/incorrectCommandArgument/title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="server/errors/incorrectPassword/message" xml:space="preserve">
+    <value>Invalid password for the secured channel.</value>
+  </data>
+  <data name="server/errors/incorrectPassword/title" xml:space="preserve">
+    <value>Error joining a channel.</value>
+  </data>
+  <data name="server/errors/initializationFailure/message" xml:space="preserve">
+    <value>Chat initialization failed.</value>
+  </data>
+  <data name="server/errors/initializationFailure/title" xml:space="preserve">
+    <value>Chat Error</value>
+  </data>
+  <data name="server/errors/internalError/message" xml:space="preserve">
+    <value>Internal error, try again later.</value>
+  </data>
+  <data name="server/errors/internalError/title" xml:space="preserve">
+    <value>Error creating a channel</value>
+  </data>
+  <data name="server/errors/inviteCommandError/message" xml:space="preserve">
+    <value>Error running Invitation command.</value>
+  </data>
+  <data name="server/errors/inviteCommandError/title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="server/errors/memberAlreadyBanned/message" xml:space="preserve">
+    <value>User %(user)s has already been banned.</value>
+  </data>
+  <data name="server/errors/memberAlreadyBanned/title" xml:space="preserve">
+    <value>Chat Error</value>
+  </data>
+  <data name="server/errors/memberAlreadyModerator/message" xml:space="preserve">
+    <value>User %(user)s is already channel moderator.</value>
+  </data>
+  <data name="server/errors/memberAlreadyModerator/title" xml:space="preserve">
+    <value>Chat Error</value>
+  </data>
+  <data name="server/errors/memberBanned/message" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="server/errors/memberBanned/title" xml:space="preserve">
+    <value>Chat Error</value>
+  </data>
+  <data name="server/errors/memberDisconnecting/message" xml:space="preserve">
+    <value>The user is disconnected</value>
+  </data>
+  <data name="server/errors/memberDisconnecting/title" xml:space="preserve">
+    <value>Chat Error</value>
+  </data>
+  <data name="server/errors/memberNotModerator/message" xml:space="preserve">
+    <value>User %(user)s is not channel moderator.</value>
+  </data>
+  <data name="server/errors/memberNotModerator/title" xml:space="preserve">
+    <value>Chat Error</value>
+  </data>
+  <data name="server/errors/membersLimitReached/message" xml:space="preserve">
+    <value>User limit for this channel has been reached.</value>
+  </data>
+  <data name="server/errors/membersLimitReached/title" xml:space="preserve">
+    <value>Error connecting to channel</value>
+  </data>
+  <data name="server/errors/notAllowed/message" xml:space="preserve">
+    <value>Not enough permissions for this operation.</value>
+  </data>
+  <data name="server/errors/notAllowed/title" xml:space="preserve">
+    <value>Chat Error</value>
+  </data>
+  <data name="server/errors/passwordRequired/message" xml:space="preserve">
+    <value>Enter your password to connect to the secured channel.</value>
+  </data>
+  <data name="server/errors/passwordRequired/title" xml:space="preserve">
+    <value>Error Joining a Channel</value>
+  </data>
+  <data name="server/errors/sqlError/message" xml:space="preserve">
+    <value>Error calling DB.</value>
+  </data>
+  <data name="server/errors/sqlError/title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="server/errors/userIgnoredError/message" xml:space="preserve">
+    <value>This user has added you to their Blacklist.</value>
+  </data>
+  <data name="server/errors/userIgnoredError/title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="server/errors/userNotExists/message" xml:space="preserve">
+    <value>User with this name does not exist.</value>
+  </data>
+  <data name="server/errors/userNotExists/title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="server/errors/usersRosterLimitReached/message" xml:space="preserve">
+    <value>You have reached the user limit for your Contact list.</value>
+  </data>
+  <data name="server/errors/usersRosterLimitReached/title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="serviceChannelMessages/autoEquipError" xml:space="preserve">
+    <value>Failed to resupply consumables on %s. Not enough credits.</value>
+  </data>
+  <data name="serviceChannelMessages/autoEquipSkipped" xml:space="preserve">
+    <value>Failed to resupply consumables on %s automatically. Load consumables manually.</value>
+  </data>
+  <data name="serviceChannelMessages/autoEquipSuccess" xml:space="preserve">
+    <value>The consumables on %s resupplied successfully. You have spent </value>
+  </data>
+  <data name="serviceChannelMessages/autoLoadError" xml:space="preserve">
+    <value>Failed to resupply ammunition on %s. Not enough credits.</value>
+  </data>
+  <data name="serviceChannelMessages/autoLoadSkipped" xml:space="preserve">
+    <value>Failed to resupply ammunition on %s automatically. Load ammunition manually.</value>
+  </data>
+  <data name="serviceChannelMessages/autoLoadSuccess" xml:space="preserve">
+    <value>The ammunition on %s resupplied successfully. You have spent </value>
+  </data>
+  <data name="serviceChannelMessages/autoRepairError" xml:space="preserve">
+    <value>Failed to repair %s. Not enough credits.</value>
+  </data>
+  <data name="serviceChannelMessages/autoRepairSkipped" xml:space="preserve">
+    <value>Failed to repair %s automatically. Repair your vehicle manually.</value>
+  </data>
+  <data name="serviceChannelMessages/autoRepairSuccess" xml:space="preserve">
+    <value>Vehicle %s repaired successfully. You have spent </value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/achieves" xml:space="preserve">
+    <value>Battle achievements</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/action" xml:space="preserve">
+    <value>Received %s for special '%s'</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/actions" xml:space="preserve">
+    <value>Received %s for special '%s'</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/actionsResultsCredits" xml:space="preserve">
+    <value>%s credits</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/actionsResultsFreeXP" xml:space="preserve">
+    <value>%s Free Experience</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/actionsResultsGold" xml:space="preserve">
+    <value>%s gold</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/battle" xml:space="preserve">
+    <value>Battle</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/contributionForDamageAllies" xml:space="preserve">
+    <value>compensation for damage caused by allies: %s</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/credits" xml:space="preserve">
+    <value>Credits earned</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/defeat" xml:space="preserve">
+    <value>Defeat</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/doubleXpFactor" xml:space="preserve">
+    <value>x%d for the first victory each day</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/drawGame" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/experience" xml:space="preserve">
+    <value>Experience received</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/penaltyForDamageAllies" xml:space="preserve">
+    <value>fine for damage caused to allies: %s</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/tank" xml:space="preserve">
+    <value>Vehicle</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/victory" xml:space="preserve">
+    <value>Victory</value>
+  </data>
+  <data name="serviceChannelMessages/creditsAndGoldReceivedAsGift" xml:space="preserve">
+    <value>You have been granted %(gold)s gold, %(credits)s credits.</value>
+  </data>
+  <data name="serviceChannelMessages/creditsReceivedAsGift" xml:space="preserve">
+    <value>You have been granted %(credits)s credits.</value>
+  </data>
+  <data name="serviceChannelMessages/durationOfPremiumAccounExpires" xml:space="preserve">
+    <value>Premium Account expires on %(expiryTime)s.</value>
+  </data>
+  <data name="serviceChannelMessages/goldReceived/date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="serviceChannelMessages/goldReceived/financial_transaction" xml:space="preserve">
+    <value>Financial Transaction</value>
+  </data>
+  <data name="serviceChannelMessages/goldReceived/received" xml:space="preserve">
+    <value>Gold received</value>
+  </data>
+  <data name="serviceChannelMessages/goldReceivedAsGift" xml:space="preserve">
+    <value>You have been granted %(gold)s gold.</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/creditsAccrued" xml:space="preserve">
+    <value>Credits added</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/creditsDebited" xml:space="preserve">
+    <value>Credits were charged from your balance</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/freeXp" xml:space="preserve">
+    <value>Free Experience</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/freeXpAccrued" xml:space="preserve">
+    <value>Free Experience added</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/freeXpDebited" xml:space="preserve">
+    <value>Free Experience deducted</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/goldAccrued" xml:space="preserve">
+    <value>Gold added</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/goldDebited" xml:space="preserve">
+    <value>Gold deducted</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/invoice" xml:space="preserve">
+    <value>Receipt</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/itemsAccrued" xml:space="preserve">
+    <value>Consumables added</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/itemsDebited" xml:space="preserve">
+    <value>Consumables removed</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/pieces" xml:space="preserve">
+    <value>item(s)</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/premiumAccrued" xml:space="preserve">
+    <value>Days of Premium Account added</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/premiumDebited" xml:space="preserve">
+    <value>Days of Premium Account deducted</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/premium_account" xml:space="preserve">
+    <value>Premium</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/vehiclesAccrued" xml:space="preserve">
+    <value>Vehicles added</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/vehiclesDebited" xml:space="preserve">
+    <value>Vehicles removed</value>
+  </data>
+  <data name="serviceChannelMessages/itemReceivedAsGift" xml:space="preserve">
+    <value>You have been granted consumables: %(typeName)s "%(itemName)s"–%(amount)d item(s).</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/battleType/clan" xml:space="preserve">
+    <value>Clan Battle</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/battleType/prebattle" xml:space="preserve">
+    <value>Battle Results</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/battleType/tournament" xml:space="preserve">
+    <value>Tournament</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/finish/base/defeat" xml:space="preserve">
+    <value>Defeat</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/finish/base/draftGame" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/finish/base/undefined" xml:space="preserve">
+    <value>Results not defined</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/finish/base/win" xml:space="preserve">
+    <value>Victory!</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/finish/creatorLeft" xml:space="preserve">
+    <value>Deleted by owner</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/finish/failure" xml:space="preserve">
+    <value>Technical failure</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/finish/playerKick" xml:space="preserve">
+    <value>You have been excluded</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/finish/technical/defeat" xml:space="preserve">
+    <value>Technical Defeat</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/finish/technical/draftGame" xml:space="preserve">
+    <value>Technical Draw</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/finish/technical/undefined" xml:space="preserve">
+    <value>Results not defined</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/finish/technical/win" xml:space="preserve">
+    <value>Technical Victory!</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/finish/timeout" xml:space="preserve">
+    <value>Timeout expired</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/numberOfBattle" xml:space="preserve">
+    <value>(battle %s)</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/subtotal" xml:space="preserve">
+    <value>Partial Result</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/total" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="serviceChannelMessages/premiumBought" xml:space="preserve">
+    <value>Premium Account received. Expiration date: %(expiryTime)s.</value>
+  </data>
+  <data name="serviceChannelMessages/premiumExpired" xml:space="preserve">
+    <value>Premium Account expired.</value>
+  </data>
+  <data name="serviceChannelMessages/premiumExtended" xml:space="preserve">
+    <value>Premium Account extended. Expiration date: %(expiryTime)s.</value>
+  </data>
+  <data name="serviceChannelMessages/premiumReceivedAsGift" xml:space="preserve">
+    <value>You have been granted Premium Account for %(days)d day(s).</value>
+  </data>
+  <data name="serviceChannelMessages/priorityMessageTitle" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="serviceChannelMessages/serverReboot" xml:space="preserve">
+    <value>The game server will be disconnected at %(date)s.</value>
+  </data>
+  <data name="serviceChannelMessages/serverRebootCancelled" xml:space="preserve">
+    <value>Server disconnection canceled, disconnection planned at %(date)s.</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/customization" xml:space="preserve">
+    <value>Customization:</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/dismantling" xml:space="preserve">
+    <value>Demounted:</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/error" xml:space="preserve">
+    <value>Error:</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/financialTransaction" xml:space="preserve">
+    <value>Financial Transaction:</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/powerlevel" xml:space="preserve">
+    <value>Researched:</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/purchase" xml:space="preserve">
+    <value>Purchased:</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/repair" xml:space="preserve">
+    <value>Repairs:</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/selling" xml:space="preserve">
+    <value>Sold:</value>
+  </data>
+  <data name="serviceChannelMessages/vehCamouflageTimedOut" xml:space="preserve">
+    <value>Camouflage on %(vehicleName)s has expired.</value>
+  </data>
+  <data name="serviceChannelMessages/vehicleLock" xml:space="preserve">
+    <value>Vehicle destroyed. %(vehicleName)s unavailable for clan battle until %(expireTime)s.</value>
+  </data>
+  <data name="serviceChannelMessages/vehicleLockExpired" xml:space="preserve">
+    <value>Unlocked. %(vehicleName)s available for clan battle.</value>
+  </data>
+  <data name="serviceChannelMessages/vehicleReceivedAsGift" xml:space="preserve">
+    <value>You have been granted a Premium vehicle: %(vehicleName)s</value>
+  </data>
+  <data name="serviceChannelMessages/waresBoughtAsGold" xml:space="preserve">
+    <value>Player %(srcName)s transferred %(srcWares)s gold to your account.</value>
+  </data>
+  <data name="serviceChannelMessages/waresSoldAsGold" xml:space="preserve">
+    <value>%(srcWares)s gold transferred to player %(dstName)s. Fee: %(fee)s.</value>
+  </data>
+  <data name="serviceChannelMessages/xpReceivedAsGift" xml:space="preserve">
+    <value>You have been granted %(freeXP)s Free Experience.</value>
+  </data>
+  <data name="status/offline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="status/online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/creditsCompensation" xml:space="preserve">
+    <value>Compensate with credits</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/goldCompensation" xml:space="preserve">
+    <value>Compensate with gold</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/vehiclesInHangar" xml:space="preserve">
+    <value>The vehicles are in the Garage.</value>
+  </data>
+  <data name="serviceChannelMessages/vehiclesAllLockExpired" xml:space="preserve">
+    <value>Lock released. The vehicles are available for a clan battle.</value>
+  </data>
+  <data name="dialogs/teamChannel/buttons/invite" xml:space="preserve">
+    <value>Invite</value>
+  </data>
+  <data name="lobby/teamChannel/limitsLabel" xml:space="preserve">
+    <value>Tiers allowed:</value>
+  </data>
+  <data name="server/errors/invalidChannelName/message" xml:space="preserve">
+    <value>Invalid channel name.</value>
+  </data>
+  <data name="server/errors/invalidChannelName/title" xml:space="preserve">
+    <value>Chat Error</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/gold" xml:space="preserve">
+    <value>Gold received</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation" xml:space="preserve">
+    <value>Compensation for</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/credits" xml:space="preserve">
+    <value>credits</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/gold" xml:space="preserve">
+    <value>gold</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/crewLvl" xml:space="preserve">
+    <value>%d%%</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/slotsAccrued" xml:space="preserve">
+    <value>Slots added</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/slotsDebited" xml:space="preserve">
+    <value>Slots removed</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/tankmen" xml:space="preserve">
+    <value>Recruits</value>
+  </data>
+  <data name="serviceChannelMessages/prebattle/finishedTime" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="battle/hints/changeReceiver" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="battle/receivers/common" xml:space="preserve">
+    <value>TO ALL</value>
+  </data>
+  <data name="battle/receivers/squad" xml:space="preserve">
+    <value>TO PLATOON</value>
+  </data>
+  <data name="battle/receivers/team" xml:space="preserve">
+    <value>TO TEAM</value>
+  </data>
+  <data name="battle/toolTips/cancel" xml:space="preserve">
+    <value>cancel</value>
+  </data>
+  <data name="battle/toolTips/changeReceiver" xml:space="preserve">
+    <value>change recipient</value>
+  </data>
+  <data name="battle/toolTips/duringChat" xml:space="preserve">
+    <value>During chat:</value>
+  </data>
+  <data name="battle/toolTips/startChat" xml:space="preserve">
+    <value>Start chat:</value>
+  </data>
+  <data name="battle/toolTips/usingChat" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="battle/toolTips/withAll" xml:space="preserve">
+    <value>with everybody</value>
+  </data>
+  <data name="battle/toolTips/withCommand" xml:space="preserve">
+    <value>with your team</value>
+  </data>
+  <data name="battle/toolTips/withSquad" xml:space="preserve">
+    <value>with your Platoon</value>
+  </data>
+  <data name="battle/unknown/ally" xml:space="preserve">
+    <value>Ally</value>
+  </data>
+  <data name="battle/unknown/enemy" xml:space="preserve">
+    <value>Enemy</value>
+  </data>
+  <data name="serviceChannelMessages/achievementReceived/message" xml:space="preserve">
+    <value>Service Record</value>
+  </data>
+  <data name="serviceChannelMessages/actionBegin" xml:space="preserve">
+    <value>Special</value>
+  </data>
+  <data name="serviceChannelMessages/actionEnd" xml:space="preserve">
+    <value>Special has ended.</value>
+  </data>
+  <data name="serviceChannelMessages/serverDowntimeCompensation" xml:space="preserve">
+    <value>The effect of your %s is extended to compensate for the maintenance time.</value>
+  </data>
+  <data name="serviceChannelMessages/serverDowntimeCompensation/camouflage" xml:space="preserve">
+    <value>Camouflage</value>
+  </data>
+  <data name="serviceChannelMessages/serverDowntimeCompensation/playerEmblems" xml:space="preserve">
+    <value>Emblems</value>
+  </data>
+  <data name="serviceChannelMessages/serverDowntimeCompensation/playerInscriptions" xml:space="preserve">
+    <value>Inscriptions</value>
+  </data>
+  <data name="serviceChannelMessages/serverDowntimeCompensation/premium" xml:space="preserve">
+    <value>Premium Account</value>
+  </data>
+  <data name="battle/toolTips/default" xml:space="preserve">
+    <value>with previous recipient</value>
+  </data>
+  <data name="command/FOLLOWME/arg0" xml:space="preserve">
+    <value>Ally name</value>
+  </data>
+  <data name="command/HELPMEEX/arg0" xml:space="preserve">
+    <value>Ally name</value>
+  </data>
+  <data name="command/STOP/arg0" xml:space="preserve">
+    <value>Ally name</value>
+  </data>
+  <data name="command/SUPPORTMEWITHFIRE/arg0" xml:space="preserve">
+    <value>Target Name</value>
+  </data>
+  <data name="command/TURNBACK/arg0" xml:space="preserve">
+    <value>Ally name</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/button" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="serviceChannelMessages/serverDowntimeCompensation/camouflages" xml:space="preserve">
+    <value>Camouflage</value>
+  </data>
+  <data name="serviceChannelMessages/vehEmblemTimedOut" xml:space="preserve">
+    <value>Emblem on %(vehicleName)s has expired.</value>
+  </data>
+  <data name="serviceChannelMessages/vehInscriptionTimedOut" xml:space="preserve">
+    <value>Inscription on %(vehicleName)s has expired.</value>
+  </data>
+  <data name="serviceChannelMessages/autoEquipDisabledOption" xml:space="preserve">
+    <value>Failed to resupply consumables on %s. Consider purchasing consumables for gold.</value>
+  </data>
+  <data name="serviceChannelMessages/autoLoadDisabledOption" xml:space="preserve">
+    <value>Failed to resupply ammunition on %s. Consider purchasing shells for gold.</value>
+  </data>
+  <data name="serviceChannelMessages/autoRepairDisabledOption" xml:space="preserve">
+    <value>Failed to repair %s.</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/camouflages" xml:space="preserve">
+    <value>Camouflage changed</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/creditsReceived" xml:space="preserve">
+    <value>Credits received: %(credits)s</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/creditsWithdrawn" xml:space="preserve">
+    <value>Credits deducted: %(credits)s</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/emblems" xml:space="preserve">
+    <value>Emblems changed</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/freeXPReceived" xml:space="preserve">
+    <value>Free Experience received: %(freeXP)s</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/freeXPWithdrawn" xml:space="preserve">
+    <value>Free Experience deducted: %(freeXP)s</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/goldReceived" xml:space="preserve">
+    <value>Gold received: %(gold)s</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/goldWithdrawn" xml:space="preserve">
+    <value>Gold deducted: %(gold)s</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/inscriptions" xml:space="preserve">
+    <value>Inscriptions changed</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/slotsReceived" xml:space="preserve">
+    <value>Slots added: %(slots)s</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/slotsWithdrawn" xml:space="preserve">
+    <value>Slots removed: %(slots)s</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/title" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/vehiclesReceived" xml:space="preserve">
+    <value>Vehicles added: %(vehicles)s</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn" xml:space="preserve">
+    <value>Vehicles removed: %(vehicles)s</value>
+  </data>
+  <data name="lobby/bsChannels/stats/required" xml:space="preserve">
+    <value>Required:</value>
+  </data>
+  <data name="lobby/bsChannels/stats/vehicleType" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/freeXP" xml:space="preserve">
+    <value>Free Experience received</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests" xml:space="preserve">
+    <value>Mission completed! Reward</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests/berths" xml:space="preserve">
+    <value>Bunks added to the Barracks</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests/items" xml:space="preserve">
+    <value>Added</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests/items/name" xml:space="preserve">
+    <value>%(name)s (x%(count)s)</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests/premium" xml:space="preserve">
+    <value>Days of Premium Account added</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests/vehicleSlots" xml:space="preserve">
+    <value>Slots added</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/training_battle" xml:space="preserve">
+    <value>Training Battle</value>
+  </data>
+  <data name="serviceChannelMessages/battleTutorial/reasons/extermination" xml:space="preserve">
+    <value>Vehicle destroyed</value>
+  </data>
+  <data name="serviceChannelMessages/battleTutorial/reasons/failed" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="serviceChannelMessages/battleTutorial/reasons/finished" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="serviceChannelMessages/battleTutorial/reasons/timeout" xml:space="preserve">
+    <value>Your time is up</value>
+  </data>
+  <data name="serviceChannelMessages/battleTutorial/results/failed" xml:space="preserve">
+    <value>Failed.</value>
+  </data>
+  <data name="serviceChannelMessages/battleTutorial/results/finished" xml:space="preserve">
+    <value>Completed!</value>
+  </data>
+  <data name="client/warning/emptyUserSearchToken/message" xml:space="preserve">
+    <value>Empty query</value>
+  </data>
+  <data name="client/warning/emptyUserSearchToken/title" xml:space="preserve">
+    <value>Search Users</value>
+  </data>
+  <data name="client/warning/invalidUserSearchToken/message" xml:space="preserve">
+    <value>Incorrect length or invalid character in Search field. Valid number of characters is %d to %d.</value>
+  </data>
+  <data name="client/warning/invalidUserSearchToken/title" xml:space="preserve">
+    <value>Search Users</value>
+  </data>
+  <data name="command/findUser" xml:space="preserve">
+    <value>Player Search</value>
+  </data>
+  <data name="serviceChannelMessages/buttons/close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="serviceChannelMessages/autoEquipErrorNoWallet" xml:space="preserve">
+    <value>Failed to resupply consumables on %s. All your gold will be available after WG Wallet operability is restored automatically.</value>
+  </data>
+  <data name="serviceChannelMessages/autoLoadErrorNoWallet" xml:space="preserve">
+    <value>Failed to resupply ammunition on %s. All your gold will be available after WG Wallet operability is restored automatically.</value>
+  </data>
+  <data name="serviceChannelMessages/autoRepairErrorNoWallet" xml:space="preserve">
+    <value>Failed to repair %s. All your gold will be available after WG Wallet operability is restored automatically.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests/credits" xml:space="preserve">
+    <value>Credits added</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests/freeXP" xml:space="preserve">
+    <value>Free Experience added</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests/gold" xml:space="preserve">
+    <value>Gold added</value>
+  </data>
+  <data name="battle/history/downMessage" xml:space="preserve">
+    <value>view new messages</value>
+  </data>
+  <data name="battle/history/header" xml:space="preserve">
+    <value>Enemy</value>
+  </data>
+  <data name="battle/history/latestMessage" xml:space="preserve">
+    <value>view the last message</value>
+  </data>
+  <data name="battle/history/title" xml:space="preserve">
+    <value>Chat history:</value>
+  </data>
+  <data name="battle/history/upMessage" xml:space="preserve">
+    <value>view old messages</value>
+  </data>
+  <data name="battle/receivers/chatIsLocked" xml:space="preserve">
+    <value>%(open)sCHAT OFF%(close)s</value>
+  </data>
+  <data name="battle/receivers/chatIsLockedToolTip" xml:space="preserve">
+    <value>Battle chat can be enabled in game settings.</value>
+  </data>
+  <data name="command/RELOADINGGUN/rTime" xml:space="preserve">
+    <value>&amp;lt;Reload Time&amp;gt;</value>
+  </data>
+  <data name="command/RELOADING_CASSETE/ammoQuantityLeft" xml:space="preserve">
+    <value>&amp;lt;Shells Remaining&amp;gt;</value>
+  </data>
+  <data name="command/RELOADING_CASSETE/rTime" xml:space="preserve">
+    <value>&amp;lt;Reload Time&amp;gt;</value>
+  </data>
+  <data name="command/RELOADING_READY_CASSETE/ammoInCassete" xml:space="preserve">
+    <value>&amp;lt;Shells Remaining&amp;gt;</value>
+  </data>
+  <data name="command/RELOADING_READY_CASSETE/rTime" xml:space="preserve">
+    <value>&amp;lt;Reload Time&amp;gt;</value>
+  </data>
+  <data name="listView/title" xml:space="preserve">
+    <value>Notification Center</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests/achievements" xml:space="preserve">
+    <value>Service Record</value>
+  </data>
+  <data name="serviceChannelMessages/historicalCostsReserved/creditsDebited" xml:space="preserve">
+    <value>Credits charged for ammunition</value>
+  </data>
+  <data name="serviceChannelMessages/historicalCostsReserved/creditsReturn" xml:space="preserve">
+    <value>Compensation in credits for unused ammunition</value>
+  </data>
+  <data name="serviceChannelMessages/historicalCostsReserved/goldDebited" xml:space="preserve">
+    <value>Gold charged for ammunition</value>
+  </data>
+  <data name="serviceChannelMessages/historicalCostsReserved/goldReturn" xml:space="preserve">
+    <value>Compensation in gold for unused ammunition</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/historicalCostsReserved" xml:space="preserve">
+    <value>Historical Battle:</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/fortResource" xml:space="preserve">
+    <value>Industrial Resource earned</value>
+  </data>
+  <data name="serviceChannelMessages/clan/LEFT_CLAN" xml:space="preserve">
+    <value>You left or were excluded from the clan:</value>
+  </data>
+  <data name="serviceChannelMessages/fort/FORT_READY" xml:space="preserve">
+    <value>Congratulations! Stronghold is fully operational to the advantage of the clan.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/RESERVE_ACTIVATED" xml:space="preserve">
+    <value>Reserve %(order)s is active. Time left: %(timeLeft)s</value>
+  </data>
+  <data name="serviceChannelMessages/fort/RESERVE_EXPIRED" xml:space="preserve">
+    <value>Reserve %(order)s is fully used.</value>
+  </data>
+  <data name="serviceChannelMessages/fortificationStartUp" xml:space="preserve">
+    <value>%(defResCount)s units of Industrial Resource added to the Command Center storage.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/ORDER_CANCELED" xml:space="preserve">
+    <value>Level of structure %(building)s has been increased.
+Reserve %(order)s in preparation transformed into Industrial Resource and added to the structure storage.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/REATTACHED_TO_BASE" xml:space="preserve">
+    <value>You are attached to structure %(building)s.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/RESERVE_PRODUCED" xml:space="preserve">
+    <value>Preparation of %(count)s Reserve(s) %(order)s completed.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/STORAGE_OVERFLOW" xml:space="preserve">
+    <value>Storage of structure %(building)s is full.
+Use Industrial Resource to prepare Reserves or transport it to another structure.</value>
+  </data>
+  <data name="dialogs/squad/message/allReady" xml:space="preserve">
+    <value>Click to indicate that you are not ready.</value>
+  </data>
+  <data name="dialogs/squad/message/getNotReady" xml:space="preserve">
+    <value>Click to indicate that you are not ready.</value>
+  </data>
+  <data name="dialogs/squad/message/getReady" xml:space="preserve">
+    <value>Confirm that you are ready to join the battle.</value>
+  </data>
+  <data name="dialogs/squadChannel/battleType" xml:space="preserve">
+    <value>Battle Mode:</value>
+  </data>
+  <data name="dialogs/squadChannel/buttons/recommend" xml:space="preserve">
+    <value>Recommend Players</value>
+  </data>
+  <data name="dialogs/squadChannel/chatName" xml:space="preserve">
+    <value>Chat Channel</value>
+  </data>
+  <data name="dialogs/squadChannel/members" xml:space="preserve">
+    <value>Members:</value>
+  </data>
+  <data name="dialogs/squadChannel/vehicles" xml:space="preserve">
+    <value>Vehicles:</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/fort/clan" xml:space="preserve">
+    <value>Advance</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/fortBuilding" xml:space="preserve">
+    <value>Structure</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/fortResource/clan" xml:space="preserve">
+    <value>by clan</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/fortResource/player" xml:space="preserve">
+    <value>by player</value>
+  </data>
+  <data name="serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN" xml:space="preserve">
+    <value>Defense of your Stronghold is disabled. Level of all structures and Reserves is reduced to Level IV.</value>
+  </data>
+  <data name="chat_action/BROADCAST_BATTLE_MESSAGE" xml:space="preserve">
+    <value>Send message</value>
+  </data>
+  <data name="chat_action/BROADCAST_UNIT_MESSAGE" xml:space="preserve">
+    <value>Send message</value>
+  </data>
+  <data name="chat_action/FIND_USERS_BY_NAME" xml:space="preserve">
+    <value>Player search</value>
+  </data>
+  <data name="chat_action/GET_VOIP_CREDENTIALS" xml:space="preserve">
+    <value>Voice chat settings</value>
+  </data>
+  <data name="chat_error/CANNOT_BAN_ONESELF" xml:space="preserve">
+    <value>you cannot ban yourself.</value>
+  </data>
+  <data name="chat_error/GENERIC_ERROR" xml:space="preserve">
+    <value>Error running "%(actionName)s".</value>
+  </data>
+  <data name="chat_error/IS_BUSY" xml:space="preserve">
+    <value>Server is busy.</value>
+  </data>
+  <data name="chat_error/NOT_ALLOWED" xml:space="preserve">
+    <value>not enough permissions to perform the operation.</value>
+  </data>
+  <data name="chat_error/NOT_READY" xml:space="preserve">
+    <value>Action "%(actionName)s" unavailable.</value>
+  </data>
+  <data name="chat_error/USER_NOT_FOUND" xml:space="preserve">
+    <value>the user does not exist.</value>
+  </data>
+  <data name="chat_error/WRONG_ARGS" xml:space="preserve">
+    <value>invalid parameter.</value>
+  </data>
+  <data name="client_error/action/in_cooldown" xml:space="preserve">
+    <value>Action "%(actionName)s" is suspended for %(floatArg1)s s.</value>
+  </data>
+  <data name="client_error/action/in_cooldown_wo_period" xml:space="preserve">
+    <value>Action "%(actionName)s" is temporarily unavailable. Try again later.</value>
+  </data>
+  <data name="client_error/command/generic_error" xml:space="preserve">
+    <value>Error running the command "%(strArg1)s".</value>
+  </data>
+  <data name="client_error/command/in_cooldown_wo_name" xml:space="preserve">
+    <value>command suspended for %(floatArg1)s.</value>
+  </data>
+  <data name="client_error/command/not_supported" xml:space="preserve">
+    <value>command %(strArg1)s is not supported by the client.</value>
+  </data>
+  <data name="client_error/command/wrong_ban_period" xml:space="preserve">
+    <value>invalid ban duration %(int64Arg1)s.</value>
+  </data>
+  <data name="client_error/command/wrong_ban_type" xml:space="preserve">
+    <value>invalid ban type %(int32Arg1)s.</value>
+  </data>
+  <data name="client_error/command/wrong_player_name" xml:space="preserve">
+    <value>invalid player name %(strArg1)s.</value>
+  </data>
+  <data name="command/success/USERBAN" xml:space="preserve">
+    <value>%(strArg1)s is banned.</value>
+  </data>
+  <data name="command/success/USERUNBAN" xml:space="preserve">
+    <value>%(strArg1)s is no longer banned.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/refSystemBoughtVehicle" xml:space="preserve">
+    <value>Congratulations!
+Your recruit %(userName)s has purchased a Tier X vehicle.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/refSystemContributeXp" xml:space="preserve">
+    <value>Congratulations!
+Your recruit %(userName)s has earned %(xp)s experience for you.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/refSystemQuests" xml:space="preserve">
+    <value>Congratulations!
+As a reward for your recruits' success you receive</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/techDefeat" xml:space="preserve">
+    <value>Technical defeat</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/techVictory" xml:space="preserve">
+    <value>Technical victory</value>
+  </data>
+  <data name="serviceChannelMessages/fort/ATTACK_PLANNED" xml:space="preserve">
+    <value>War declared on clan %(clan)s!
+Advance starts on %(date)s at %(time)s.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/BASE_DESTROYED" xml:space="preserve">
+    <value>Defense overwhelmed!
+All attacks canceled. Fill up the durability bar of the Command Center for the Stronghold to function.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/BATTLE_DELETED" xml:space="preserve">
+    <value>Scheduled battle with clan %(clan)s was canceled.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/BUILDING_DAMAGED" xml:space="preserve">
+    <value>Structure %(building)s is damaged! Fill up the durability bar for the Structure to function.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE" xml:space="preserve">
+    <value>Command Center is damaged! Fill up the durability bar for the Stronghold to function. If your Command Center receives further damage, your defense will be overwhelmed.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/DEFENCE_PLANNED" xml:space="preserve">
+    <value>Clan %(clan)s has declared war on you!
+Advance starts on %(date)s at %(time)s.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/DEF_HOUR_ACTIVATED" xml:space="preserve">
+    <value>Defense Period set: %(defenceHour)s</value>
+  </data>
+  <data name="serviceChannelMessages/fort/DEF_HOUR_CHANGED" xml:space="preserve">
+    <value>Defense Period has been adjusted. New Defense Period: %(defenceHour)s</value>
+  </data>
+  <data name="serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED" xml:space="preserve">
+    <value>Ceasefire day has been changed. New day of Ceasefire not set.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/OFF_DAY_ACTIVATED" xml:space="preserve">
+    <value>Ceasefire day set: %(offDay)s</value>
+  </data>
+  <data name="serviceChannelMessages/fort/ORDER_COMPENSATED" xml:space="preserve">
+    <value>Reserve %(orderTypeName)s compensated and ready for activation.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/PERIPHERY_CHANGED" xml:space="preserve">
+    <value>Home server changed to %(peripheryName)s.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/PERMANENT_RESERVE_ACTIVATED" xml:space="preserve">
+    <value>Reserve %(order)s will be activated in the next Advance.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/VACATION_STARTED" xml:space="preserve">
+    <value>Your Stronghold has declared Neutrality.
+Other clans cannot attack you now. Period of Neutrality ends: %(finish)s.</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/vehiclesRented" xml:space="preserve">
+    <value>Rented vehicles added</value>
+  </data>
+  <data name="serviceChannelMessages/rentCompensation/compensation" xml:space="preserve">
+    <value>Compensation</value>
+  </data>
+  <data name="serviceChannelMessages/rentCompensation/creditsReceived" xml:space="preserve">
+    <value>Credits added for unused time of rental of %(vehicleName)s</value>
+  </data>
+  <data name="serviceChannelMessages/rentCompensation/goldReceived" xml:space="preserve">
+    <value>Gold added for unused time of %(vehicleName)s rental</value>
+  </data>
+  <data name="serviceChannelMessages/rentalsExpired" xml:space="preserve">
+    <value>Rental period of %(vehicleName)s has ended.</value>
+  </data>
+  <data name="serviceChannelMessages/serverDowntimeCompensation/rentals" xml:space="preserve">
+    <value>Rental</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/remove" xml:space="preserve">
+    <value>Removal from the Garage:</value>
+  </data>
+  <data name="serviceChannelMessages/vehicleRented" xml:space="preserve">
+    <value>Vehicle %(vehicleName)s rented. Rental period ends: %(expiryTime)s.</value>
+  </data>
+  <data name="dialogs/contacts/tree/friendship_request" xml:space="preserve">
+    <value>Friend requests</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/potapovQuests" xml:space="preserve">
+    <value>Congratulations!
+For successful completion of personal missions you receive the following rewards</value>
+  </data>
+  <data name="serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION" xml:space="preserve">
+    <value>Reserve Evacuation has expired.
+
+%(additional)s
+Total for our clan: %(resTotal)s</value>
+  </data>
+  <data name="serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL" xml:space="preserve">
+    <value>Enemy activated Reserve Requisition and additionally plundered: %(resDec)s
+Additionally saved by our clan: %(resInc)s</value>
+  </data>
+  <data name="serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION" xml:space="preserve">
+    <value>Reserve Requisition has expired.
+
+%(additional)s
+Total for our clan: %(resTotal)s</value>
+  </data>
+  <data name="serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL" xml:space="preserve">
+    <value>Enemy used Reserve Evacuation and additionally saved: %(resDec)s
+Additionally plundered by our clan: %(resInc)s</value>
+  </data>
+  <data name="serviceChannelMessages/fort/VACATION_FINISHED" xml:space="preserve">
+    <value>The Neutrality period of your Stronghold has ended.
+Other clans can now attack you—stay prepared!</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/berthsAccrued" xml:space="preserve">
+    <value>Bunks added to the Barracks</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/berthsDebited" xml:space="preserve">
+    <value>Bunks removed from the Barracks</value>
+  </data>
+  <data name="chat/postBattleSharing/label" xml:space="preserve">
+    <value>Battle results</value>
+  </data>
+  <data name="client_action/ADD_FRIEND" xml:space="preserve">
+    <value>Add player to Friends list</value>
+  </data>
+  <data name="client_action/ADD_GROUP" xml:space="preserve">
+    <value>Create group</value>
+  </data>
+  <data name="client_action/ADD_IGNORED" xml:space="preserve">
+    <value>Add player to Blacklist</value>
+  </data>
+  <data name="client_action/APPROVE_FRIENDSHIP" xml:space="preserve">
+    <value>Confirm friend request</value>
+  </data>
+  <data name="client_action/CANCEL_FRIENDSHIP" xml:space="preserve">
+    <value>Decline friend request</value>
+  </data>
+  <data name="client_action/CHANGE_GROUP" xml:space="preserve">
+    <value>Edit group</value>
+  </data>
+  <data name="client_action/REMOVE_FRIEND" xml:space="preserve">
+    <value>Remove player from Friends list</value>
+  </data>
+  <data name="client_action/REMOVE_IGNORED" xml:space="preserve">
+    <value>Remove player from Blacklist</value>
+  </data>
+  <data name="client_action/REMOVE_NOTE" xml:space="preserve">
+    <value>Delete note</value>
+  </data>
+  <data name="client_action/RQ_FRIENDSHIP" xml:space="preserve">
+    <value>Send friend request</value>
+  </data>
+  <data name="client_action/SEND_MESSAGE" xml:space="preserve">
+    <value>Send a message</value>
+  </data>
+  <data name="client_action/SET_MUTE" xml:space="preserve">
+    <value>Disable voice messages</value>
+  </data>
+  <data name="client_action/SET_NOTE" xml:space="preserve">
+    <value>Create/edit note</value>
+  </data>
+  <data name="client_action/UNSET_MUTE" xml:space="preserve">
+    <value>Enable voice messages</value>
+  </data>
+  <data name="client_error/contact/BLOCK_ITEM_EXISTS" xml:space="preserve">
+    <value>Player "%(strArg1)s" is on your Blacklist.</value>
+  </data>
+  <data name="client_error/contact/BLOCK_ITEM_NOT_FOUND" xml:space="preserve">
+    <value>Player "%(strArg1)s" is not on your Blacklist.</value>
+  </data>
+  <data name="client_error/contact/CONTACT_ITEM_NOT_FOUND" xml:space="preserve">
+    <value>Player not found.</value>
+  </data>
+  <data name="client_error/contact/FRIENDSHIP_APPROVED" xml:space="preserve">
+    <value>You have already confirmed the friend request from "%(strArg1)s".</value>
+  </data>
+  <data name="client_error/contact/FRIENDSHIP_CANCELED" xml:space="preserve">
+    <value>You have already declined the friend request from "%(strArg1)s".</value>
+  </data>
+  <data name="client_error/contact/FRIENDSHIP_RQ_PROCESS" xml:space="preserve">
+    <value>Your reply to the friend request from "%(strArg1)s" is being processed.</value>
+  </data>
+  <data name="client_error/contact/GROUP_EMPTY" xml:space="preserve">
+    <value>Group name not specified.</value>
+  </data>
+  <data name="client_error/contact/GROUP_EXISTS" xml:space="preserve">
+    <value>Group "%(strArg1)s" already exists.</value>
+  </data>
+  <data name="client_error/contact/GROUP_INVALID_NAME" xml:space="preserve">
+    <value>Invalid group name "%(strArg1)s".</value>
+  </data>
+  <data name="client_error/contact/GROUP_NOT_FOUND" xml:space="preserve">
+    <value>Group "%(strArg1)s" not found.</value>
+  </data>
+  <data name="client_error/contact/MUTED_ITEM_NOT_FOUND" xml:space="preserve">
+    <value>Voice messages enabled for player "%(strArg1)s".</value>
+  </data>
+  <data name="client_error/contact/NOTE_EMPTY" xml:space="preserve">
+    <value>Note text not specified.</value>
+  </data>
+  <data name="client_error/contact/NOTE_NOT_FOUND" xml:space="preserve">
+    <value>No notes for player "%(strArg1)s"</value>
+  </data>
+  <data name="client_error/contact/ROSTER_ITEM_EXISTS" xml:space="preserve">
+    <value>Player "%(strArg1)s" is your friend.</value>
+  </data>
+  <data name="client_error/contact/ROSTER_ITEM_NOT_FOUND" xml:space="preserve">
+    <value>Player "%(strArg1)s" not found on your Friends list.</value>
+  </data>
+  <data name="client_error/limit/GROUP_INVALID_LENGTH" xml:space="preserve">
+    <value>Group name should not exceed %(int32Arg2)s symbols.</value>
+  </data>
+  <data name="client_error/limit/MAX_BLOCK_ITEMS" xml:space="preserve">
+    <value>Maximum number of players on Blacklist %(int32Arg2)s</value>
+  </data>
+  <data name="client_error/limit/MAX_GROUP" xml:space="preserve">
+    <value>Maximum number of groups created %(int32Arg2)s.</value>
+  </data>
+  <data name="client_error/limit/MAX_ROSTER_ITEMS" xml:space="preserve">
+    <value>Unfortunately, you cannot have more than %(int32Arg2)s players on your Friends list. Remove players you do not play with.</value>
+  </data>
+  <data name="client_error/limit/NOTE_INVALID_LENGTH" xml:space="preserve">
+    <value>Text in the note should not exceed %(int32Arg2)s symbols.</value>
+  </data>
+  <data name="client_error/shared/DBID_INVALID" xml:space="preserve">
+    <value>Invalid player ID</value>
+  </data>
+  <data name="client_error/shared/GENERIC" xml:space="preserve">
+    <value>Error executing "%(actionName)s"</value>
+  </data>
+  <data name="client_error/shared/LOCKED" xml:space="preserve">
+    <value>Action "%(actionName)s" is temporarily unavailable. Try again later.</value>
+  </data>
+  <data name="client_error/shared/NAME_EMPTY" xml:space="preserve">
+    <value>Player name not specified.</value>
+  </data>
+  <data name="client_error/shared/NAME_INVALID" xml:space="preserve">
+    <value>Invalid player name %(strArg1)s</value>
+  </data>
+  <data name="client_error/shared/NOT_CONNECTED" xml:space="preserve">
+    <value>Unable to connect to the chat server. Try again later.</value>
+  </data>
+  <data name="client_error/shared/NOT_SUPPORTED" xml:space="preserve">
+    <value>Action "%(actionName)s" is not supported by the game client.</value>
+  </data>
+  <data name="client_error/shared/WRONG_ARGS" xml:space="preserve">
+    <value>Invalid data specified.</value>
+  </data>
+  <data name="contacts/createGroupView/tooltips/btns/apply/body" xml:space="preserve">
+    <value>Click to save the created group of contacts.</value>
+  </data>
+  <data name="contacts/createGroupView/tooltips/btns/apply/header" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="contacts/createGroupView/tooltips/btns/close/body" xml:space="preserve">
+    <value>Click to cancel creation and return to your Contact list.</value>
+  </data>
+  <data name="contacts/createGroupView/tooltips/btns/close/header" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="contacts/groupDeleteView/tooltips/btns/apply/body" xml:space="preserve">
+    <value>Click to delete your group of contacts.</value>
+  </data>
+  <data name="contacts/groupDeleteView/tooltips/btns/apply/header" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="contacts/groupDeleteView/tooltips/btns/close/body" xml:space="preserve">
+    <value>Click to cancel deletion and return to your Contact list.</value>
+  </data>
+  <data name="contacts/groupDeleteView/tooltips/btns/close/header" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="contacts/groupRenameView/tooltips/btns/apply/body" xml:space="preserve">
+    <value>Click to save the group of contacts under a new name.</value>
+  </data>
+  <data name="contacts/groupRenameView/tooltips/btns/apply/header" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="contacts/groupRenameView/tooltips/btns/close/body" xml:space="preserve">
+    <value>Click to cancel editing and return to your Contact list.</value>
+  </data>
+  <data name="contacts/groupRenameView/tooltips/btns/close/header" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="contacts/manageGroupView/tooltips/input" xml:space="preserve">
+    <value>Name should not exceed %(maxChars)s symbols.</value>
+  </data>
+  <data name="contacts/searchView/tooltips/btns/add/body" xml:space="preserve">
+    <value>Click to add a player to your Friends list.</value>
+  </data>
+  <data name="contacts/searchView/tooltips/btns/add/header" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="contacts/searchView/tooltips/btns/close/body" xml:space="preserve">
+    <value>Click to cancel player search and return to your Contact list.</value>
+  </data>
+  <data name="contacts/searchView/tooltips/btns/close/header" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="contacts/searchView/tooltips/btns/search/body" xml:space="preserve">
+    <value>Click to search for a player by name.</value>
+  </data>
+  <data name="contacts/searchView/tooltips/btns/search/header" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="contacts/searchView/tooltips/searchCredentials/body" xml:space="preserve">
+    <value>Name must contain from %(minChars)s to %(maxChars)s characters or digits.</value>
+  </data>
+  <data name="contacts/searchView/tooltips/searchCredentials/header" xml:space="preserve">
+    <value>contacts/searchView/tooltips/searchCredentials/header</value>
+  </data>
+  <data name="contacts/searchView/tooltips/searchDisabled/body" xml:space="preserve">
+    <value>Search frozen for %(time)s seconds for sending queries too frequently.</value>
+  </data>
+  <data name="contacts/searchView/tooltips/searchDisabled/header" xml:space="preserve">
+    <value>contacts/searchView/tooltips/searchDisabled/header</value>
+  </data>
+  <data name="contacts/settingsView/tooltips/btns/apply/body" xml:space="preserve">
+    <value>Click to save the selected settings.</value>
+  </data>
+  <data name="contacts/settingsView/tooltips/btns/apply/header" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="contacts/settingsView/tooltips/btns/close/body" xml:space="preserve">
+    <value>Click to cancel the changes and return to your Contact list.</value>
+  </data>
+  <data name="contacts/settingsView/tooltips/btns/close/header" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="contacts/tooltips/btns/addGroup/body" xml:space="preserve">
+    <value>Click to create a group.</value>
+  </data>
+  <data name="contacts/tooltips/btns/addGroup/header" xml:space="preserve">
+    <value>Create Group</value>
+  </data>
+  <data name="contacts/tooltips/btns/externalSearch/body" xml:space="preserve">
+    <value>Click to search for a player by name who is not on your Contact list.</value>
+  </data>
+  <data name="contacts/tooltips/btns/externalSearch/header" xml:space="preserve">
+    <value>Search Outside Contact List</value>
+  </data>
+  <data name="contacts/tooltips/btns/search/body" xml:space="preserve">
+    <value>Click to find and add a player to your Contact list.</value>
+  </data>
+  <data name="contacts/tooltips/btns/search/header" xml:space="preserve">
+    <value>Player Search</value>
+  </data>
+  <data name="contacts/tooltips/btns/settings/body" xml:space="preserve">
+    <value>Click to change the Contact list settings.</value>
+  </data>
+  <data name="contacts/tooltips/btns/settings/header" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="contacts/tooltips/searchInput/credentials" xml:space="preserve">
+    <value>Name must contain up to %(maxChars)s characters.</value>
+  </data>
+  <data name="lobby/buttons/cancel" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="messenger/contacts/buttons/externalSearch" xml:space="preserve">
+    <value>Search Outside Contact List</value>
+  </data>
+  <data name="messenger/contacts/buttons/externalSearchCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="messenger/contacts/contextmenu/editGroup" xml:space="preserve">
+    <value>Edit group</value>
+  </data>
+  <data name="messenger/contacts/contextmenu/removeFromGroup" xml:space="preserve">
+    <value>Delete from group</value>
+  </data>
+  <data name="messenger/contacts/contextmenu/removeGroup" xml:space="preserve">
+    <value>Delete group</value>
+  </data>
+  <data name="messenger/contacts/dropContactPrompt" xml:space="preserve">
+    <value>Drag contacts here.</value>
+  </data>
+  <data name="messenger/contacts/externalSearch/emptySearchResultPrompt" xml:space="preserve">
+    <value>Nothing found matching your query.</value>
+  </data>
+  <data name="messenger/contacts/mainGrops/Formations" xml:space="preserve">
+    <value>Permanent Tactical Units</value>
+  </data>
+  <data name="messenger/contacts/mainGrops/Friends" xml:space="preserve">
+    <value>Friends</value>
+  </data>
+  <data name="messenger/contacts/mainGrops/Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="messenger/contacts/mainGrops/Other/Ignored" xml:space="preserve">
+    <value>Blacklist</value>
+  </data>
+  <data name="messenger/contacts/mainGrops/Other/friendshipRequest" xml:space="preserve">
+    <value>Friend requests</value>
+  </data>
+  <data name="messenger/contacts/mainGroups/other/referrals" xml:space="preserve">
+    <value>Recruits</value>
+  </data>
+  <data name="messenger/contacts/mainGroups/other/referrers" xml:space="preserve">
+    <value>Recruiters</value>
+  </data>
+  <data name="messenger/contacts/searchInputPrompt" xml:space="preserve">
+    <value>Find a player on the list</value>
+  </data>
+  <data name="messenger/contacts/searchUsers/listEmptyPrompt/descr" xml:space="preserve">
+    <value>No players added yet.</value>
+  </data>
+  <data name="messenger/contacts/searchUsers/listEmptyPrompt/title" xml:space="preserve">
+    <value>Contact List Empty</value>
+  </data>
+  <data name="messenger/contacts/searchUsers/noOnlineContacts/descr" xml:space="preserve">
+    <value>No contacts currently online</value>
+  </data>
+  <data name="messenger/contacts/searchUsers/noOnlineContacts/title" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="messenger/contacts/searchUsers/searchFail/descr" xml:space="preserve">
+    <value>Try searching outside Contact list.</value>
+  </data>
+  <data name="messenger/contacts/searchUsers/searchFail/title" xml:space="preserve">
+    <value>No Matches</value>
+  </data>
+  <data name="messenger/contacts/searchUsers/searchInputPrompt" xml:space="preserve">
+    <value>Enter player's name.</value>
+  </data>
+  <data name="messenger/contacts/title" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="messenger/contacts/view/addUser/btnCancel/Label" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="messenger/contacts/view/addUser/btnOk/Label" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="messenger/contacts/view/addUser/error/groupAlreadyExist" xml:space="preserve">
+    <value>The group already exists.</value>
+  </data>
+  <data name="messenger/contacts/view/addUser/title" xml:space="preserve">
+    <value>Player Search</value>
+  </data>
+  <data name="messenger/contacts/view/editNote/userName" xml:space="preserve">
+    <value>for </value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createGroup/btnCancel/Label" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createGroup/btnOk/Label" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createGroup/mainLabel" xml:space="preserve">
+    <value>Create Group</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createGroup/searchInputPrompt" xml:space="preserve">
+    <value>Enter a name (up to %(symbols)s symbols)</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createNote/btnCancel/Label" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createNote/btnOk/Label" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/createNote/mainLabel" xml:space="preserve">
+    <value>Create note</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label" xml:space="preserve">
+    <value>Including contacts inside the group</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/groupName/Label" xml:space="preserve">
+    <value>%(groupName)s</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/deleteGroup/mainLabel" xml:space="preserve">
+    <value>Delete group</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/editNote/btnCancel/Label" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/editNote/btnOk/Label" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/editNote/mainLabel" xml:space="preserve">
+    <value>Edit note</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/renameGroup/btnOk/Label" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/renameGroup/mainLabel" xml:space="preserve">
+    <value>Edit group</value>
+  </data>
+  <data name="messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt" xml:space="preserve">
+    <value>Enter a name (up to %(symbols)s symbols)</value>
+  </data>
+  <data name="messenger/contacts/view/searchUser/title" xml:space="preserve">
+    <value>Player Search</value>
+  </data>
+  <data name="messenger/contacts/view/settings/GroupMessages/Label" xml:space="preserve">
+    <value>Accept as a group in one window</value>
+  </data>
+  <data name="messenger/contacts/view/settings/IsShowOfflineUsers/Label" xml:space="preserve">
+    <value>Show offline players</value>
+  </data>
+  <data name="messenger/contacts/view/settings/IsShowOthers/Label" xml:space="preserve">
+    <value>Show "Other" category</value>
+  </data>
+  <data name="messenger/contacts/view/settings/Label" xml:space="preserve">
+    <value>Messages from players not on your Contact list:</value>
+  </data>
+  <data name="messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label" xml:space="preserve">
+    <value>Accept in a separate window</value>
+  </data>
+  <data name="messenger/contacts/view/settings/btnCancel/Label" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="messenger/contacts/view/settings/btnOk/Label" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="messenger/contacts/view/settings/mainLabel" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="prebattle/addAllBtn/tooltip/body" xml:space="preserve">
+    <value>Add all contacts to recipient list.</value>
+  </data>
+  <data name="prebattle/addAllBtn/tooltip/header" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="prebattle/addBtn/tooltip/body" xml:space="preserve">
+    <value>Add selected contact.</value>
+  </data>
+  <data name="prebattle/addBtn/tooltip/header" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="prebattle/removeAllBtn/tooltip/body" xml:space="preserve">
+    <value>Delete all contacts from recipient list.</value>
+  </data>
+  <data name="prebattle/removeAllBtn/tooltip/header" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="prebattle/removeBtn/tooltip/body" xml:space="preserve">
+    <value>Delete selected contact from recipient list.</value>
+  </data>
+  <data name="prebattle/removeBtn/tooltip/header" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/droppedCrewsToBarracks" xml:space="preserve">
+    <value>sent to Barracks</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/rentDays" xml:space="preserve">
+    <value>days of rental: </value>
+  </data>
+  <data name="xmpp_error/action" xml:space="preserve">
+    <value>Unable to execute "%(actionName)s". Error code %(strArg1)s. Try again later.</value>
+  </data>
+  <data name="xmpp_error/simple" xml:space="preserve">
+    <value>Error code %(strArg1)s. Try again later.</value>
+  </data>
+  <data name="chat_action/BROADCAST_CLUB_MESSAGE" xml:space="preserve">
+    <value>Send message</value>
+  </data>
+  <data name="dialogs/contacts/tree/club" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="messenger/contacts/createNote/tooltips/btns/close/body" xml:space="preserve">
+    <value>Click to cancel creation and return to your Contact list.</value>
+  </data>
+  <data name="messenger/contacts/createNote/tooltips/btns/close/header" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="messenger/contacts/createNote/tooltips/btns/ok/body" xml:space="preserve">
+    <value>Click to save the created player's note.</value>
+  </data>
+  <data name="messenger/contacts/createNote/tooltips/btns/ok/header" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="messenger/contacts/editNote/tooltips/btns/close/body" xml:space="preserve">
+    <value>Click to cancel editing and return to your Contact list.</value>
+  </data>
+  <data name="messenger/contacts/editNote/tooltips/btns/close/header" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="messenger/contacts/editNote/tooltips/btns/ok/body" xml:space="preserve">
+    <value>Click to save the edits to the player's note.</value>
+  </data>
+  <data name="messenger/contacts/editNote/tooltips/btns/ok/header" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="messenger/contacts/view/createNote/btnCancel/Label" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="messenger/contacts/view/createNote/btnOk/Label" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="messenger/contacts/view/createNote/mainLabel" xml:space="preserve">
+    <value>Create note</value>
+  </data>
+  <data name="messenger/contacts/view/editNote/btnCancel/Label" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="messenger/contacts/view/editNote/btnOk/Label" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="messenger/contacts/view/editNote/input/tooltip" xml:space="preserve">
+    <value>Name should not exceed %(maxChars)s symbols.</value>
+  </data>
+  <data name="messenger/contacts/view/editNote/mainLabel" xml:space="preserve">
+    <value>Edit note</value>
+  </data>
+  <data name="messenger/contacts/view/manageNote/input/prompt" xml:space="preserve">
+    <value>Enter description (up to %(symbols)s symbols)</value>
+  </data>
+  <data name="messenger/contacts/view/manageNote/input/tooltip" xml:space="preserve">
+    <value>Description should not exceed %(maxChars)s symbols.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/battleCanceled" xml:space="preserve">
+    <value>Server error. You were returned to the Garage.</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/club/division/new" xml:space="preserve">
+    <value>The team entered the division</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/club/league/new" xml:space="preserve">
+    <value>The team entered the Ladder</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/club/rating/down" xml:space="preserve">
+    <value>Ranked Points lost</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/club/rating/up" xml:space="preserve">
+    <value>Ranked Points earned</value>
+  </data>
+  <data name="client/dynSquad/created/allies" xml:space="preserve">
+    <value>Your allies created Platoon %(squadNum)s.</value>
+  </data>
+  <data name="client/dynSquad/created/enemies" xml:space="preserve">
+    <value>Platoon %(squadNum)s created by the enemy team.</value>
+  </data>
+  <data name="client/dynSquad/created/owner" xml:space="preserve">
+    <value>Platoon %(squadNum)s created. Platoon chat and voice chat now available.</value>
+  </data>
+  <data name="client/dynSquad/created/owner/withoutVOIP" xml:space="preserve">
+    <value>Platoon %(squadNum)s created. Platoon chat now available.</value>
+  </data>
+  <data name="client/dynSquad/created/recruit" xml:space="preserve">
+    <value>You have joined Platoon %(squadNum)s. Platoon chat and voice chat now available.</value>
+  </data>
+  <data name="client/dynSquad/created/recruit/withoutVOIP" xml:space="preserve">
+    <value>You have joined Platoon %(squadNum)s. Platoon chat now available.</value>
+  </data>
+  <data name="client/dynSquad/inviteAccepted/myself" xml:space="preserve">
+    <value>You have joined Platoon %(squadNum)s. Platoon chat and voice chat now available.</value>
+  </data>
+  <data name="client/dynSquad/inviteAccepted/myself/withoutVOIP" xml:space="preserve">
+    <value>You have joined Platoon %(squadNum)s. Platoon chat now available.</value>
+  </data>
+  <data name="client/dynSquad/inviteAccepted/user" xml:space="preserve">
+    <value>%(receiver)s has joined Platoon %(squadNum)s.</value>
+  </data>
+  <data name="client/dynSquad/inviteReceived" xml:space="preserve">
+    <value>%(creator)s invited you to Platoon.</value>
+  </data>
+  <data name="client/dynSquad/inviteSent" xml:space="preserve">
+    <value>%(receiver)s invited to Platoon.</value>
+  </data>
+  <data name="client_error/shared/WAITING_BEFORE_START" xml:space="preserve">
+    <value>Some features are disabled until the countdown starts.</value>
+  </data>
+  <data name="dialogs/squadChannel/battleTypeDomination" xml:space="preserve">
+    <value>Random Battle</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/tanks" xml:space="preserve">
+    <value>Vehicles</value>
+  </data>
+  <data name="serviceChannelMessages/boosterExpired" xml:space="preserve">
+    <value>Personal Reserve "%(boosterName)s" has expired. The Reserve was removed.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/PROM_RESOURCE_EARNED" xml:space="preserve">
+    <value>Industrial Resource added: %(promresource)d</value>
+  </data>
+  <data name="serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN" xml:space="preserve">
+    <value>Industrial Resource deducted: %(promresource)d</value>
+  </data>
+  <data name="serviceChannelMessages/fort/RESERVES_EARNED" xml:space="preserve">
+    <value>Reserves added: %(reserves)d</value>
+  </data>
+  <data name="serviceChannelMessages/fort/RESERVES_WITHDRAWN" xml:space="preserve">
+    <value>Reserves deducted: %(reserves)d</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/boosters" xml:space="preserve">
+    <value>Personal Reserves</value>
+  </data>
+  <data name="client_action/RQ_HISTORY" xml:space="preserve">
+    <value>See previous messages</value>
+  </data>
+  <data name="custom_client_action/ADMIN_CHAT_COMMAND" xml:space="preserve">
+    <value>Send command</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/ended" xml:space="preserve">
+    <value>Battle Ended</value>
+  </data>
+  <data name="serviceChannelMessages/fortificationStartUp/title" xml:space="preserve">
+    <value>Help from Rear Area</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehicleNotify" xml:space="preserve">
+    <value>Select a Tier %(level)s vehicle</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehicleNotifyMultiteam" xml:space="preserve">
+    <value>Select Vehicles</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehicleNotifyRange" xml:space="preserve">
+    <value>Select a Tier %(level)s vehicle</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehicles" xml:space="preserve">
+    <value>Vehicle: %s</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehicles/domination" xml:space="preserve">
+    <value>VIII-X</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehicles/steelHunting" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehiclesRequired/domination/max" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehiclesRequired/domination/min" xml:space="preserve">
+    <value>VIII-X</value>
+  </data>
+  <data name="dialogs/falloutSquadChannel/vehiclesRequired/steelHunting" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="client/dynSquad/created/owner/disableVOIP" xml:space="preserve">
+    <value>Platoon %(squadNum)s created. Platoon chat and voice chat are now available. To disable voice chat, press %(keyName)s.</value>
+  </data>
+  <data name="client/dynSquad/created/owner/enableVOIP" xml:space="preserve">
+    <value>Platoon %(squadNum)s created. Platoon chat and voice chat are now available. To enable voice chat, press %(keyName)s.</value>
+  </data>
+  <data name="client/dynSquad/created/recruit/disableVOIP" xml:space="preserve">
+    <value>You have joined Platoon %(squadNum)s. Platoon chat and voice chat are now available. To disable voice chat, press %(keyName)s.</value>
+  </data>
+  <data name="client/dynSquad/created/recruit/enableVOIP" xml:space="preserve">
+    <value>You have joined Platoon %(squadNum)s. Platoon chat and voice chat are now available. To enable voice chat, press %(keyName)s.</value>
+  </data>
+  <data name="client/dynSquad/disableVOIP" xml:space="preserve">
+    <value>Voice chat disabled. To communicate with your Platoon members, enable voice chat by pressing %(keyName)s.</value>
+  </data>
+  <data name="client/dynSquad/enableVOIP" xml:space="preserve">
+    <value>Voice chat enabled.</value>
+  </data>
+  <data name="client/dynSquad/inviteAccepted/myself/disableVOIP" xml:space="preserve">
+    <value>You have joined Platoon %(squadNum)s. Platoon chat and voice chat are now available. To disable voice chat, press %(keyName)s.</value>
+  </data>
+  <data name="client/dynSquad/inviteAccepted/myself/enableVOIP" xml:space="preserve">
+    <value>You have joined Platoon %(squadNum)s. Platoon chat and voice chat are now available. To enable voice chat, press %(keyName)s.</value>
+  </data>
+  <data name="dialogs/contacts/contact/addToClan" xml:space="preserve">
+    <value>Invite to Clan</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/crew" xml:space="preserve">
+    <value>crew</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/vehicleCrewWithdrawn" xml:space="preserve">
+    <value>removed</value>
+  </data>
+  <data name="client/dynSquad/created/owner/specifyVOIP" xml:space="preserve">
+    <value>Platoon %(squadNum)s created. Platoon chat and voice chat now available. Assign a key for enabling/disabling voice chat.</value>
+  </data>
+  <data name="client/dynSquad/created/recruit/specifyVOIP" xml:space="preserve">
+    <value>You have joined Platoon %(squadNum)s. Platoon chat and voice chat now available. Assign a key for enabling/disabling voice chat.</value>
+  </data>
+  <data name="client/dynSquad/inviteAccepted/myself/specifyVOIP" xml:space="preserve">
+    <value>You have joined Platoon %(squadNum)s. Platoon chat and voice chat now available. Assign a key for enabling/disabling voice chat.</value>
+  </data>
+  <data name="client_action/CREATE_USER_ROOM" xml:space="preserve">
+    <value>Create player channel</value>
+  </data>
+  <data name="client_action/JOIN_USER_ROOM" xml:space="preserve">
+    <value>Connect to player channel</value>
+  </data>
+  <data name="client_action/LEAVE_USER_ROOM" xml:space="preserve">
+    <value>Leave player channel</value>
+  </data>
+  <data name="client_action/SEARCH_USER_ROOM" xml:space="preserve">
+    <value>Search player channels</value>
+  </data>
+  <data name="client_error/channel/LIMIT_REACHED" xml:space="preserve">
+    <value>You have exceeded the maximum allowed number of channels. Please close unnecessary channels and try again.</value>
+  </data>
+  <data name="client_error/channel/NAME_ALREADY_EXISTS" xml:space="preserve">
+    <value>Channel "%(strArg1)s" already exists.</value>
+  </data>
+  <data name="client_error/channel/NAME_EMPTY" xml:space="preserve">
+    <value>Channel name not specified.</value>
+  </data>
+  <data name="client_error/channel/NAME_INVALID" xml:space="preserve">
+    <value>Invalid channel name "%(strArg1)s".</value>
+  </data>
+  <data name="client_error/channel/PASSWORDS_NOT_EQUALS" xml:space="preserve">
+    <value>Password confirmation does not match the entered password.</value>
+  </data>
+  <data name="client_error/channel/PASSWORD_EMPTY" xml:space="preserve">
+    <value>Channel password not specified.</value>
+  </data>
+  <data name="client_error/channel/PASSWORD_INVALID" xml:space="preserve">
+    <value>Invalid channel password.</value>
+  </data>
+  <data name="client_error/channel/RETYPE_EMPTY" xml:space="preserve">
+    <value>Password confirmation not specified.</value>
+  </data>
+  <data name="client_error/channel/RETYPE_INVALID" xml:space="preserve">
+    <value>Invalid password confirmation.</value>
+  </data>
+  <data name="client_error/limit/CHANNEL_INVALID_LENGTH" xml:space="preserve">
+    <value>Channel name must contain %(int32Arg1)s–%(int32Arg2)s characters.</value>
+  </data>
+  <data name="client_error/limit/PWD_INVALID_LENGTH" xml:space="preserve">
+    <value>Password must contain %(int32Arg1)s–%(int32Arg2)s characters.</value>
+  </data>
+  <data name="server_error/user_room_creation/LIMIT_COUNT" xml:space="preserve">
+    <value>You have exceeded the maximum allowed number of channels.</value>
+  </data>
+  <data name="server_error/user_room_creation/LIMIT_NAME" xml:space="preserve">
+    <value>You have exceeded the maximum allowed number of characters for a channel name.</value>
+  </data>
+  <data name="server_error/user_room_creation/LIMIT_PASS" xml:space="preserve">
+    <value>You have exceeded the maximum allowed number of characters for a password.</value>
+  </data>
+  <data name="server_error/user_room_creation/NAME_EXISTS" xml:space="preserve">
+    <value>Channel "%(strArg1)s" already exists.</value>
+  </data>
+  <data name="server_error/user_room_creation/WRONG_SYMBOL" xml:space="preserve">
+    <value>Invalid characters in channel name.</value>
+  </data>
+  <data name="server_error/user_room_creation/WRONG_WORD" xml:space="preserve">
+    <value>Offensive words in channel name.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/FORT_GOT_8_LEVEL" xml:space="preserve">
+    <value>Congratulations! You developed your Stronghold to level VIII.</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/crewDroppedToBarracks" xml:space="preserve">
+    <value>crew sent to Barracks</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/crewOnVehicle" xml:space="preserve">
+    <value>crew %d%%</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks" xml:space="preserve">
+    <value>crew %d%% sent to Barracks</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/crewWithdrawn" xml:space="preserve">
+    <value>crew removed</value>
+  </data>
+  <data name="xmpp_error/user_room_creation" xml:space="preserve">
+    <value>Unable to create player channel "%(strArg1)s".</value>
+  </data>
+  <data name="client_action/FIND_USERS_BY_PREFIX" xml:space="preserve">
+    <value>Player search</value>
+  </data>
+  <data name="dialogs/eventSquad/vehicle" xml:space="preserve">
+    <value>Select the %(vehName)s</value>
+  </data>
+  <data name="dialogs/simpleSquad/recommendationLevel" xml:space="preserve">
+    <value>Recommend players</value>
+  </data>
+  <data name="dialogs/simpleSquad/vehicle/recommendationLevel" xml:space="preserve">
+    <value>Select a Tier %(level)s vehicle</value>
+  </data>
+  <data name="dialogs/simpleSquad/vehicleLevel" xml:space="preserve">
+    <value>Select a Tier %(level)s vehicle</value>
+  </data>
+  <data name="dialogs/squad/event/vehicle" xml:space="preserve">
+    <value>Select the %(tankName)s</value>
+  </data>
+  <data name="dialogs/squad/message/invalidVehicleLevel" xml:space="preserve">
+    <value>Tier is not suitable</value>
+  </data>
+  <data name="dialogs/squad/message/vehicles/differentLevels" xml:space="preserve">
+    <value>Penalty to experience due to inappropriate Platoon composition!</value>
+  </data>
+  <data name="dialogs/squadChannel/headerMsg/dynSquad" xml:space="preserve">
+    <value>Continue to select Tier IV vehicles or higher for your Platoon
+to receive more experience</value>
+  </data>
+  <data name="dialogs/squadChannel/headerMsg/eventFormationRestriction" xml:space="preserve">
+    <value>+++ event +++
++++ event +++</value>
+  </data>
+  <data name="dialogs/squadChannel/headerMsg/squadFormation" xml:space="preserve">
+    <value>Additional experience per battle
+for Tier IV vehicles or higher</value>
+  </data>
+  <data name="dialogs/squadChannel/headerMsg/squadFormationRestriction" xml:space="preserve">
+    <value>Play in vehicles of the same tier
+starting from Tier IV and receive additional experience</value>
+  </data>
+  <data name="dialogs/squadChannel/simpleChatName" xml:space="preserve">
+    <value>Chat Channel</value>
+  </data>
+  <data name="dialogs/squadChannel/vehiclesLbl" xml:space="preserve">
+    <value>Vehicles</value>
+  </data>
+  <data name="serviceChannelMessages/boosterDisabled" xml:space="preserve">
+    <value>Personal Reserve "%(boosterName)s" has been disabled due to technical reasons.</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/dossiersAccrued" xml:space="preserve">
+    <value>Awards added</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/dossiersDebited" xml:space="preserve">
+    <value>Awards removed</value>
+  </data>
+  <data name="battle/toolTips/mutePlayer" xml:space="preserve">
+    <value>You can block messages from the selected player by clicking the button near the player's message in chat.</value>
+  </data>
+  <data name="battle/toolTips/toxicMessage" xml:space="preserve">
+    <value>You can report a message by clicking on it and selecting the reason for filing a complaint. This option also allows you to disable the chat or set the chat to allies only. The Platoon chat will still be available at all times.</value>
+  </data>
+  <data name="chat/toxicMessages/blockedMessage" xml:space="preserve">
+    <value>Message from %(playerName)s was blocked.</value>
+  </data>
+  <data name="client/information/addToTmpIgnored/message" xml:space="preserve">
+    <value>Chat with %s is blocked; the player's messages are hidden.</value>
+  </data>
+  <data name="client/information/removeFromTmpIgnored/message" xml:space="preserve">
+    <value>Chat with %s is available again.</value>
+  </data>
+  <data name="listView/emptyList/info" xml:space="preserve">
+    <value>notifications</value>
+  </data>
+  <data name="listView/emptyList/invite" xml:space="preserve">
+    <value>invitations</value>
+  </data>
+  <data name="listView/emptyList/offer" xml:space="preserve">
+    <value>specials</value>
+  </data>
+  <data name="listView/emptyList/template" xml:space="preserve">
+    <value>No %(listType)s yet.</value>
+  </data>
+  <data name="serviceChannelMessages/fort/BATTLE_DELETED_LEVEL" xml:space="preserve">
+    <value>Advance scheduled for %(time)s on %(date)s against the %(clan)s clan was cancelled: the difference between Stronghold levels is more than 1 level.</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/restore" xml:space="preserve">
+    <value>Recovered:</value>
+  </data>
+  <data name="serviceChannelMessages/fort/RESERVE_ACTIVATED/title" xml:space="preserve">
+    <value>Reserve Activated</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/discounts" xml:space="preserve">
+    <value>Personal discounts</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued" xml:space="preserve">
+    <value>Undistributed Free Experience received by crew members</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited" xml:space="preserve">
+    <value>Undistributed Free Experience removed from crew members</value>
+  </data>
+  <data name="dialogs/squad/message/spgForbidden" xml:space="preserve">
+    <value>An SPG cannot join the Platoon</value>
+  </data>
+  <data name="serviceChannelMessages/autoBoosterErrorNoWallet" xml:space="preserve">
+    <value>Failed to resupply consumables on the %s. All your gold will be available after WG Wallet operability is restored automatically.</value>
+  </data>
+  <data name="serviceChannelMessages/autoEquipBoosterDisabledOption" xml:space="preserve">
+    <value>Failed to resupply consumables on the %s. Purchase consumables with gold.</value>
+  </data>
+  <data name="serviceChannelMessages/autoEquipBoosterError" xml:space="preserve">
+    <value>Failed to resupply the directive on the %s. Insufficient funds.</value>
+  </data>
+  <data name="serviceChannelMessages/autoEquipBoosterSkipped" xml:space="preserve">
+    <value>Failed to resupply the directive on the %s automatically. Please equip it manually.</value>
+  </data>
+  <data name="serviceChannelMessages/autoEquipBoosterSuccess" xml:space="preserve">
+    <value>The consumables on the %s were resupplied successfully. You have spent </value>
+  </data>
+  <data name="serviceChannelMessages/badgeAchievement" xml:space="preserve">
+    <value>Badges added</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/actionsResultsCrystal" xml:space="preserve">
+    <value>%s bonds</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/crystal" xml:space="preserve">
+    <value>Bonds received</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/quests/crystal" xml:space="preserve">
+    <value>Bonds added</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/nothingChanged" xml:space="preserve">
+    <value>chevron not received</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/rankEarned" xml:space="preserve">
+    <value>rank received</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/rankLost" xml:space="preserve">
+    <value>rank lost</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/stepEarned" xml:space="preserve">
+    <value>chevron received</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/rankedState/stepLost" xml:space="preserve">
+    <value>chevron lost</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/compensation/crystal" xml:space="preserve">
+    <value>with bonds</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/crystalAccrued" xml:space="preserve">
+    <value>Bonds received</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/crystalDebited" xml:space="preserve">
+    <value>Bonds removed</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/crystalReceived" xml:space="preserve">
+    <value>Bonds: %(crystal)s</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/converter/crystalWithdrawn" xml:space="preserve">
+    <value>Bonds: %(crystal)s</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/primeTime" xml:space="preserve">
+    <value>Ceasefires</value>
+  </data>
+  <data name="serviceChannelMessages/sysMsg/titles/rankedBattlesAvailable" xml:space="preserve">
+    <value>Ranked Battles Available</value>
+  </data>
+  <data name="dialogs/squad/message/spgFull" xml:space="preserve">
+    <value>The Platoon has the maximum number of SPGs</value>
+  </data>
+  <data name="personalMissions/completionTokenGain" xml:space="preserve">
+    <value>Module added</value>
+  </data>
+  <data name="serviceChannelMessages/battleResults/personalMissions" xml:space="preserve">
+    <value>Congratulations! 
+For successful completion of personal missions you receive the following rewards</value>
+  </data>
+  <data name="serviceChannelMessages/bootcamp/awards" xml:space="preserve">
+    <value>Reward earned:</value>
+  </data>
+  <data name="serviceChannelMessages/bootcamp/crew" xml:space="preserve">
+    <value>Crew sent to the Barracks</value>
+  </data>
+  <data name="serviceChannelMessages/bootcamp/devices" xml:space="preserve">
+    <value>Sent to the Depot:</value>
+  </data>
+  <data name="serviceChannelMessages/bootcamp/finished" xml:space="preserve">
+    <value>You have completed the Bootcamp</value>
+  </data>
+  <data name="serviceChannelMessages/bootcamp/no_awards" xml:space="preserve">
+    <value>You have already received a reward</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/freeAwardListsAccrued" xml:space="preserve">
+    <value>Orders added</value>
+  </data>
+  <data name="serviceChannelMessages/invoiceReceived/freeAwardListsDebited" xml:space="preserve">
+    <value>Orders deducted</value>
+  </data>
+</root>

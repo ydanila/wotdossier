@@ -1,0 +1,1828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chat_shortcuts/attack" xml:space="preserve">
+    <value>В атаку!</value>
+  </data>
+  <data name="chat_shortcuts/attack_enemy" xml:space="preserve">
+    <value>Атакую %(target)s! К выстрелу готов!</value>
+  </data>
+  <data name="chat_shortcuts/attention_to_cell" xml:space="preserve">
+    <value>Внимание на %(cellName)s!</value>
+  </data>
+  <data name="chat_shortcuts/back_to_base" xml:space="preserve">
+    <value>Защищайте базу!</value>
+  </data>
+  <data name="chat_shortcuts/follow_me" xml:space="preserve">
+    <value>%(target)s, за мной!</value>
+  </data>
+  <data name="chat_shortcuts/help_me" xml:space="preserve">
+    <value>Нужна помощь!</value>
+  </data>
+  <data name="chat_shortcuts/negative" xml:space="preserve">
+    <value>Никак нет!</value>
+  </data>
+  <data name="chat_shortcuts/positive" xml:space="preserve">
+    <value>Так точно!</value>
+  </data>
+  <data name="consumables_panel/equipment/tooltip/empty" xml:space="preserve">
+    <value>Слот для снаряжения</value>
+  </data>
+  <data name="cruise_ctrl/speedMetric" xml:space="preserve">
+    <value>км/ч</value>
+  </data>
+  <data name="damage_panel/crew/commander/destroyed" xml:space="preserve">
+    <value>Командир экипажа ранен.</value>
+  </data>
+  <data name="damage_panel/crew/commander/normal" xml:space="preserve">
+    <value>Командир экипажа</value>
+  </data>
+  <data name="damage_panel/crew/driver/destroyed" xml:space="preserve">
+    <value>Механик-водитель ранен.</value>
+  </data>
+  <data name="damage_panel/crew/driver/normal" xml:space="preserve">
+    <value>Механик-водитель</value>
+  </data>
+  <data name="damage_panel/crew/gunner1/destroyed" xml:space="preserve">
+    <value>Наводчик ранен.</value>
+  </data>
+  <data name="damage_panel/crew/gunner1/normal" xml:space="preserve">
+    <value>Наводчик</value>
+  </data>
+  <data name="damage_panel/crew/gunner2/destroyed" xml:space="preserve">
+    <value>Второй наводчик ранен.</value>
+  </data>
+  <data name="damage_panel/crew/gunner2/normal" xml:space="preserve">
+    <value>Второй наводчик</value>
+  </data>
+  <data name="damage_panel/crew/loader1/destroyed" xml:space="preserve">
+    <value>Заряжающий ранен.</value>
+  </data>
+  <data name="damage_panel/crew/loader1/normal" xml:space="preserve">
+    <value>Заряжающий</value>
+  </data>
+  <data name="damage_panel/crew/loader2/destroyed" xml:space="preserve">
+    <value>Второй заряжающий ранен.</value>
+  </data>
+  <data name="damage_panel/crew/loader2/normal" xml:space="preserve">
+    <value>Второй заряжающий</value>
+  </data>
+  <data name="damage_panel/crew/radioman1/destroyed" xml:space="preserve">
+    <value>Радист ранен.</value>
+  </data>
+  <data name="damage_panel/crew/radioman1/normal" xml:space="preserve">
+    <value>Радист</value>
+  </data>
+  <data name="damage_panel/crew/radioman2/destroyed" xml:space="preserve">
+    <value>Второй радист ранен.</value>
+  </data>
+  <data name="damage_panel/crew/radioman2/normal" xml:space="preserve">
+    <value>Второй радист</value>
+  </data>
+  <data name="damage_panel/devices/ammoBay/critical" xml:space="preserve">
+    <value>Повреждена боеукладка.</value>
+  </data>
+  <data name="damage_panel/devices/ammoBay/destroyed" xml:space="preserve">
+    <value>Взрыв боеукладки.</value>
+  </data>
+  <data name="damage_panel/devices/ammoBay/normal" xml:space="preserve">
+    <value>Боеукладка не повреждена.</value>
+  </data>
+  <data name="damage_panel/devices/engine/critical" xml:space="preserve">
+    <value>Двигатель повреждён. Мощность снижена.</value>
+  </data>
+  <data name="damage_panel/devices/engine/destroyed" xml:space="preserve">
+    <value>Двигатель разрушен. Движение невозможно.</value>
+  </data>
+  <data name="damage_panel/devices/engine/normal" xml:space="preserve">
+    <value>Двигатель не повреждён.</value>
+  </data>
+  <data name="damage_panel/devices/fuelTank/critical" xml:space="preserve">
+    <value>Повреждён топливный бак.</value>
+  </data>
+  <data name="damage_panel/devices/fuelTank/destroyed" xml:space="preserve">
+    <value>Топливный бак разрушен.</value>
+  </data>
+  <data name="damage_panel/devices/fuelTank/normal" xml:space="preserve">
+    <value>Топливный бак не повреждён.</value>
+  </data>
+  <data name="damage_panel/devices/gun/critical" xml:space="preserve">
+    <value>Орудие повреждено. Точность стрельбы снижена.</value>
+  </data>
+  <data name="damage_panel/devices/gun/destroyed" xml:space="preserve">
+    <value>Орудие разрушено. Стрельба невозможна.</value>
+  </data>
+  <data name="damage_panel/devices/gun/normal" xml:space="preserve">
+    <value>Орудие не повреждено.</value>
+  </data>
+  <data name="damage_panel/devices/radio/critical" xml:space="preserve">
+    <value>Повреждена радиостанция.</value>
+  </data>
+  <data name="damage_panel/devices/radio/destroyed" xml:space="preserve">
+    <value>Разрушена радиостанция.</value>
+  </data>
+  <data name="damage_panel/devices/radio/normal" xml:space="preserve">
+    <value>Радиостанция не повреждена.</value>
+  </data>
+  <data name="damage_panel/devices/surveyingDevice/critical" xml:space="preserve">
+    <value>Повреждены приборы наблюдения.</value>
+  </data>
+  <data name="damage_panel/devices/surveyingDevice/destroyed" xml:space="preserve">
+    <value>Разрушены приборы наблюдения.</value>
+  </data>
+  <data name="damage_panel/devices/surveyingDevice/normal" xml:space="preserve">
+    <value>Приборы наблюдения не повреждены.</value>
+  </data>
+  <data name="damage_panel/devices/track/critical" xml:space="preserve">
+    <value>Шасси повреждено.</value>
+  </data>
+  <data name="damage_panel/devices/track/destroyed" xml:space="preserve">
+    <value>Шасси разрушено. Движение невозможно.</value>
+  </data>
+  <data name="damage_panel/devices/track/normal" xml:space="preserve">
+    <value>Шасси не повреждено.</value>
+  </data>
+  <data name="damage_panel/devices/turretRotator/critical" xml:space="preserve">
+    <value>Башня повреждена. Скорость вращения снижена.</value>
+  </data>
+  <data name="damage_panel/devices/turretRotator/destroyed" xml:space="preserve">
+    <value>Башня разрушена. Вращение невозможно.</value>
+  </data>
+  <data name="damage_panel/devices/turretRotator/normal" xml:space="preserve">
+    <value>Башня не повреждена.</value>
+  </data>
+  <data name="devices/ammo_bay" xml:space="preserve">
+    <value>боеукладка</value>
+  </data>
+  <data name="devices/chassis" xml:space="preserve">
+    <value>шасси</value>
+  </data>
+  <data name="devices/engine" xml:space="preserve">
+    <value>двигатель</value>
+  </data>
+  <data name="devices/fuel_tank" xml:space="preserve">
+    <value>топливный бак</value>
+  </data>
+  <data name="devices/gun" xml:space="preserve">
+    <value>орудие</value>
+  </data>
+  <data name="devices/left_track" xml:space="preserve">
+    <value>левая гусеница</value>
+  </data>
+  <data name="devices/radio" xml:space="preserve">
+    <value>радиостанция</value>
+  </data>
+  <data name="devices/right_track" xml:space="preserve">
+    <value>правая гусеница</value>
+  </data>
+  <data name="devices/surveing_device" xml:space="preserve">
+    <value>приборы наблюдения</value>
+  </data>
+  <data name="devices/turret_rotator" xml:space="preserve">
+    <value>вращение башни</value>
+  </data>
+  <data name="player_errors/cant_move/chassis_damaged" xml:space="preserve">
+    <value>Движение невозможно: повреждена ходовая.</value>
+  </data>
+  <data name="player_errors/cant_move/crew_inactive" xml:space="preserve">
+    <value>Движение невозможно: экипаж уничтожен.</value>
+  </data>
+  <data name="player_errors/cant_move/engine_damaged" xml:space="preserve">
+    <value>Движение невозможно: повреждён двигатель.</value>
+  </data>
+  <data name="player_errors/cant_move/vehicle_destroyed" xml:space="preserve">
+    <value>Движение невозможно: машина уничтожена.</value>
+  </data>
+  <data name="player_errors/cant_shoot/crew_inactive" xml:space="preserve">
+    <value>Стрельба невозможна: экипаж уничтожен.</value>
+  </data>
+  <data name="player_errors/cant_shoot/gun_damaged" xml:space="preserve">
+    <value>Стрельба невозможна: повреждено орудие.</value>
+  </data>
+  <data name="player_errors/cant_shoot/gun_reload" xml:space="preserve">
+    <value>Орудие перезаряжается</value>
+  </data>
+  <data name="player_errors/cant_shoot/no_ammo" xml:space="preserve">
+    <value>Стрельба невозможна: нет снарядов.</value>
+  </data>
+  <data name="player_errors/cant_shoot/vehicle_destroyed" xml:space="preserve">
+    <value>Стрельба невозможна: машина уничтожена.</value>
+  </data>
+  <data name="player_errors/equipment/alreadyActivated" xml:space="preserve">
+    <value>Снаряжение [%(name)s] уже активировано.</value>
+  </data>
+  <data name="player_errors/equipment/extinguisher/doesNotActivated" xml:space="preserve">
+    <value>Снаряжение [%(name)s] не активировано: нет пожара.</value>
+  </data>
+  <data name="player_errors/equipment/medkit/allTankmenAreSafe" xml:space="preserve">
+    <value>Экипаж не пострадал, медицинская помощь не требуется.</value>
+  </data>
+  <data name="player_errors/equipment/medkit/tankmanIsSafe" xml:space="preserve">
+    <value>[%(entity)s] не нуждается в медицинской помощи.</value>
+  </data>
+  <data name="player_errors/equipment/repairkit/allDevicesAreNotDamaged" xml:space="preserve">
+    <value>Все устройства в отличном состоянии, ремонт не требуется.</value>
+  </data>
+  <data name="player_errors/equipment/repairkit/deviceIsNotDamaged" xml:space="preserve">
+    <value>[%(entity)s] в отличном состоянии, ремонт не требуется.</value>
+  </data>
+  <data name="player_messages/ALLY_HIT" xml:space="preserve">
+    <value>Попадание в союзника %(entity)s!</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE" xml:space="preserve">
+    <value>Устройство [%(device)s] взорвалось при пожаре.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT" xml:space="preserve">
+    <value>Устройство [%(device)s] взорвано выстрелом %(entity)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_FIRE" xml:space="preserve">
+    <value>Танк уничтожен пожаром.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW" xml:space="preserve">
+    <value>Экипаж уничтожен.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT" xml:space="preserve">
+    <value>Экипаж уничтожен выстрелом %(entity)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING" xml:space="preserve">
+    <value>Танк уничтожен в результате столкновения с [%(entity)s].</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT" xml:space="preserve">
+    <value>Танк уничтожен выстрелом [%(entity)s].</value>
+  </data>
+  <data name="player_messages/DEVICE_CRITICAL_AT_FIRE" xml:space="preserve">
+    <value>Устройство [%(device)s] повреждено пожаром.</value>
+  </data>
+  <data name="player_messages/DEVICE_CRITICAL_AT_RAMMING" xml:space="preserve">
+    <value>Столкновение с [%(entity)s] повредило [%(device)s].</value>
+  </data>
+  <data name="player_messages/DEVICE_CRITICAL_AT_SHOT" xml:space="preserve">
+    <value>Выстрел %(entity)s повредил устройство [%(device)s].</value>
+  </data>
+  <data name="player_messages/DEVICE_DESTROYED_AT_FIRE" xml:space="preserve">
+    <value>Устройство [%(device)s] разрушено пожаром.</value>
+  </data>
+  <data name="player_messages/DEVICE_DESTROYED_AT_RAMMING" xml:space="preserve">
+    <value>Столкновение с [%(entity)s] разрушило [%(device)s].</value>
+  </data>
+  <data name="player_messages/DEVICE_DESTROYED_AT_SHOT" xml:space="preserve">
+    <value>Устройство [%(device)s] разрушено выстрелом %(entity)s.</value>
+  </data>
+  <data name="player_messages/DEVICE_REPAIRED" xml:space="preserve">
+    <value>Устройство [%(device)s] восстановлено.</value>
+  </data>
+  <data name="player_messages/DEVICE_REPAIRED_TO_CRITICAL" xml:space="preserve">
+    <value>Устройство [%(device)s] снова функционирует.</value>
+  </data>
+  <data name="player_messages/DEVICE_STARTED_FIRE_AT_RAMMING" xml:space="preserve">
+    <value>Устройство [%(device)s] загорелось при столкновении с [%(entity)s].</value>
+  </data>
+  <data name="player_messages/DEVICE_STARTED_FIRE_AT_SHOT" xml:space="preserve">
+    <value>Устройство [%(device)s] загорелось от выстрела %(entity)s.</value>
+  </data>
+  <data name="player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM" xml:space="preserve">
+    <value>Устройство [%(device)s] повреждено из-за снятого ограничителя оборотов.</value>
+  </data>
+  <data name="player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM" xml:space="preserve">
+    <value>Устройство [%(device)s] разрушено из-за снятого ограничителя оборотов.</value>
+  </data>
+  <data name="player_messages/FIRE_STOPPED" xml:space="preserve">
+    <value>Пожар потушен.</value>
+  </data>
+  <data name="player_messages/TANKMAN_HIT_AT_SHOT" xml:space="preserve">
+    <value>[%(device)s] ранен выстрелом %(entity)s.</value>
+  </data>
+  <data name="player_messages/TANKMAN_RESTORED" xml:space="preserve">
+    <value>[%(device)s] снова в строю.</value>
+  </data>
+  <data name="player_messages/allied_team_name" xml:space="preserve">
+    <value>Союзники</value>
+  </data>
+  <data name="player_messages/ally_base_captured_by_notification" xml:space="preserve">
+    <value>Захват нашей базы%s (%d)</value>
+  </data>
+  <data name="player_messages/ally_base_captured_notification" xml:space="preserve">
+    <value>Наша база%s захвачена!</value>
+  </data>
+  <data name="player_messages/ally_frag" xml:space="preserve">
+    <value>%(attacker)s уничтожил %(target)s.</value>
+  </data>
+  <data name="player_messages/ally_friendly_fire_frag" xml:space="preserve">
+    <value>Союзник %(attacker)s уничтожил союзника %(target)s.</value>
+  </data>
+  <data name="player_messages/ally_suicide" xml:space="preserve">
+    <value>Союзник %(entity)s самоуничтожился.</value>
+  </data>
+  <data name="player_messages/base_captured_by_notification" xml:space="preserve">
+    <value>Захват базы%s (%d)</value>
+  </data>
+  <data name="player_messages/base_captured_notification" xml:space="preserve">
+    <value>База%s захвачена!</value>
+  </data>
+  <data name="player_messages/enemy_base_captured_by_notification" xml:space="preserve">
+    <value>Захват базы%s противника (%d)</value>
+  </data>
+  <data name="player_messages/enemy_base_captured_notification" xml:space="preserve">
+    <value>База%s противника захвачена!</value>
+  </data>
+  <data name="player_messages/enemy_frag" xml:space="preserve">
+    <value>%(attacker)s уничтожил %(target)s.</value>
+  </data>
+  <data name="player_messages/enemy_friendly_fire_frag" xml:space="preserve">
+    <value>Противник %(attacker)s уничтожил противника %(target)s.</value>
+  </data>
+  <data name="player_messages/enemy_suicide" xml:space="preserve">
+    <value>Противник %(entity)s самоуничтожился.</value>
+  </data>
+  <data name="player_messages/enemy_team_name" xml:space="preserve">
+    <value>Противник</value>
+  </data>
+  <data name="player_messages/horn_is_blocked" xml:space="preserve">
+    <value>Клаксон заблокирован; доступен через %d с</value>
+  </data>
+  <data name="player_messages/player_frag" xml:space="preserve">
+    <value>%(target)s уничтожен!</value>
+  </data>
+  <data name="player_messages/player_friendly_fire_frag" xml:space="preserve">
+    <value>Уничтожен союзник %(target)s!</value>
+  </data>
+  <data name="player_messages/postmortem_caption" xml:space="preserve">
+    <value>Игрок: %(name)s (%(type)s); Прочность: %(health)d%%</value>
+  </data>
+  <data name="player_messages/replayControlsHelp1" xml:space="preserve">
+    <value>Для управления воспроизведением используйте следующие клавиши:</value>
+  </data>
+  <data name="player_messages/replayControlsHelp2" xml:space="preserve">
+    <value>Левая кнопка мыши: свободная/сохранённая в реплее камера
+Пробел: пауза</value>
+  </data>
+  <data name="player_messages/replayControlsHelp3" xml:space="preserve">
+    <value>Стрелка влево: перемотка на 20 секунд назад (с Ctrl — 40 cекунд)
+Стрелка вправо: перемотка на 20 секунд вперёд (с Ctrl — 40 секунд)
+Home/End — перемотка в начало/конец
+Стрелки вверх/вниз: +/- скорость воспроизведения</value>
+  </data>
+  <data name="player_messages/replayFreeCameraActivated" xml:space="preserve">
+    <value>Свободная камера активирована</value>
+  </data>
+  <data name="player_messages/replayPaused" xml:space="preserve">
+    <value>Пауза</value>
+  </data>
+  <data name="player_messages/replaySavedCameraActivated" xml:space="preserve">
+    <value>Сохранённая камера активирована</value>
+  </data>
+  <data name="player_messages/replaySpeedChange" xml:space="preserve">
+    <value>Скорость воспроизведения: %(speed)sx</value>
+  </data>
+  <data name="player_messages/tank_in_fire" xml:space="preserve">
+    <value>Машина горит!</value>
+  </data>
+  <data name="players_panel/state/large/body" xml:space="preserve">
+    <value>Показать имя игрока, уничтоженные цели, иконку и название машины</value>
+  </data>
+  <data name="players_panel/state/large/header" xml:space="preserve">
+    <value>Длинная</value>
+  </data>
+  <data name="players_panel/state/large/note" xml:space="preserve">
+    <value>(Используйте Ctrl + Tab для переключения между режимами)</value>
+  </data>
+  <data name="players_panel/state/medium/body" xml:space="preserve">
+    <value>Показать имя игрока, уничтоженные им цели и иконку машины</value>
+  </data>
+  <data name="players_panel/state/medium/header" xml:space="preserve">
+    <value>Средняя</value>
+  </data>
+  <data name="players_panel/state/medium/note" xml:space="preserve">
+    <value>(Используйте Ctrl + Tab для переключения между режимами)</value>
+  </data>
+  <data name="players_panel/state/none/body" xml:space="preserve">
+    <value>Скрыть панели команд</value>
+  </data>
+  <data name="players_panel/state/none/header" xml:space="preserve">
+    <value>Не показывать панели команд</value>
+  </data>
+  <data name="players_panel/state/none/note" xml:space="preserve">
+    <value>(Используйте Ctrl + Tab для переключения между режимами)</value>
+  </data>
+  <data name="players_panel/state/short/body" xml:space="preserve">
+    <value>Показать уничтоженные игроком цели и иконку машины</value>
+  </data>
+  <data name="players_panel/state/short/header" xml:space="preserve">
+    <value>Короткая</value>
+  </data>
+  <data name="players_panel/state/short/note" xml:space="preserve">
+    <value>(Используйте Ctrl + Tab для переключения между режимами)</value>
+  </data>
+  <data name="players_panel/unknown_clan" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="players_panel/unknown_frags" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="players_panel/unknown_name" xml:space="preserve">
+    <value>Противник</value>
+  </data>
+  <data name="players_panel/unknown_vehicle" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="players_panel/unknown_vehicleState" xml:space="preserve">
+    <value>------</value>
+  </data>
+  <data name="postmortem/tips/exitHangar/label" xml:space="preserve">
+    <value>Выйти в Ангар</value>
+  </data>
+  <data name="postmortem/tips/exitHangar/text" xml:space="preserve">
+    <value>Esc &gt; Выйти в Ангар.
+Начните бой на другой машине.</value>
+  </data>
+  <data name="postmortem/tips/observerMode/label" xml:space="preserve">
+    <value>Режим Наблюдателя</value>
+  </data>
+  <data name="postmortem/tips/observerMode/text" xml:space="preserve">
+    <value>Переключайтесь между машинами союзников.</value>
+  </data>
+  <data name="shells_kinds/ARMOR_PIERCING" xml:space="preserve">
+    <value>%(caliber)s мм бронебойный снаряд %(userString)s</value>
+  </data>
+  <data name="shells_kinds/ARMOR_PIERCING_CR" xml:space="preserve">
+    <value>%(caliber)s мм бронебойный подкалиберный снаряд %(userString)s</value>
+  </data>
+  <data name="shells_kinds/ARMOR_PIERCING_HE" xml:space="preserve">
+    <value>%(caliber)s мм бронебойный каморный снаряд %(userString)s</value>
+  </data>
+  <data name="shells_kinds/HIGH_EXPLOSIVE" xml:space="preserve">
+    <value>%(caliber)s мм осколочно-фугасный снаряд %(userString)s</value>
+  </data>
+  <data name="shells_kinds/HOLLOW_CHARGE" xml:space="preserve">
+    <value>%(caliber)s мм кумулятивный снаряд %(userString)s</value>
+  </data>
+  <data name="statistics/exit" xml:space="preserve">
+    <value>Нажмите Esc для выхода в Ангар...</value>
+  </data>
+  <data name="statistics/final/heroes" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="statistics/final/lifeInfo/alive" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="statistics/final/lifeInfo/dead" xml:space="preserve">
+    <value>Уничтожен: %s</value>
+  </data>
+  <data name="statistics/final/personal/capturePoints" xml:space="preserve">
+    <value>Захват базы: %d%%</value>
+  </data>
+  <data name="statistics/final/personal/damaged" xml:space="preserve">
+    <value>Повредил:</value>
+  </data>
+  <data name="statistics/final/personal/droppedCapturePoints" xml:space="preserve">
+    <value>Защита базы: %d%%</value>
+  </data>
+  <data name="statistics/final/personal/hits" xml:space="preserve">
+    <value>Попал по цели: %d</value>
+  </data>
+  <data name="statistics/final/personal/killed" xml:space="preserve">
+    <value>Уничтожил:</value>
+  </data>
+  <data name="statistics/final/personal/postmortem" xml:space="preserve">
+    <value>(посмертно)</value>
+  </data>
+  <data name="statistics/final/personal/shots" xml:space="preserve">
+    <value>Произвел выстрелов: %d</value>
+  </data>
+  <data name="statistics/final/personal/shotsReceived" xml:space="preserve">
+    <value>Попаданий получил: %d</value>
+  </data>
+  <data name="statistics/final/personal/spotted" xml:space="preserve">
+    <value>Обнаружил:</value>
+  </data>
+  <data name="statistics/final/reasons/reason0" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="statistics/final/reasons/reason1lose" xml:space="preserve">
+    <value>Вся техника союзников уничтожена.</value>
+  </data>
+  <data name="statistics/final/reasons/reason1tie" xml:space="preserve">
+    <value>Вся техника уничтожена!</value>
+  </data>
+  <data name="statistics/final/reasons/reason1win" xml:space="preserve">
+    <value>Вся техника противника уничтожена.</value>
+  </data>
+  <data name="statistics/final/reasons/reason2" xml:space="preserve">
+    <value>Захват базы.</value>
+  </data>
+  <data name="statistics/final/reasons/reason3" xml:space="preserve">
+    <value>Время боя истекло.</value>
+  </data>
+  <data name="statistics/final/stats/credits" xml:space="preserve">
+    <value>Кредиты:</value>
+  </data>
+  <data name="statistics/final/stats/experience" xml:space="preserve">
+    <value>Опыт:</value>
+  </data>
+  <data name="statistics/final/stats/multipliedExp" xml:space="preserve">
+    <value>Опыт (x%d):</value>
+  </data>
+  <data name="statistics/final/stats/repair" xml:space="preserve">
+    <value>Ремонт:</value>
+  </data>
+  <data name="statistics/final/status/lose" xml:space="preserve">
+    <value>Поражение! %s</value>
+  </data>
+  <data name="statistics/final/status/tie" xml:space="preserve">
+    <value>Ничья! %s</value>
+  </data>
+  <data name="statistics/final/status/win" xml:space="preserve">
+    <value>Победа! %s</value>
+  </data>
+  <data name="statistics/header" xml:space="preserve">
+    <value>Статистика боя</value>
+  </data>
+  <data name="statistics/headers/header0" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="statistics/headers/header1" xml:space="preserve">
+    <value>Игрок</value>
+  </data>
+  <data name="statistics/headers/header2" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="statistics/headers/header3" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="statistics/headers/header4" xml:space="preserve">
+    <value>Уничтожено</value>
+  </data>
+  <data name="statistics/playerState/0" xml:space="preserve">
+    <value>уничтожен</value>
+  </data>
+  <data name="statistics/playerState/1" xml:space="preserve">
+    <value>вне боя</value>
+  </data>
+  <data name="statistics/playerState/2" xml:space="preserve">
+    <value>уничтожен</value>
+  </data>
+  <data name="statistics/playerState/3" xml:space="preserve">
+    <value>в бою</value>
+  </data>
+  <data name="statistics/playerState/4" xml:space="preserve">
+    <value>----</value>
+  </data>
+  <data name="statistics/tabs/group" xml:space="preserve">
+    <value>Командные достижения</value>
+  </data>
+  <data name="statistics/tabs/heroes" xml:space="preserve">
+    <value>Герои битвы</value>
+  </data>
+  <data name="statistics/tabs/personal" xml:space="preserve">
+    <value>Личные достижения</value>
+  </data>
+  <data name="statistics/team1title" xml:space="preserve">
+    <value>Союзники</value>
+  </data>
+  <data name="statistics/team2title" xml:space="preserve">
+    <value>Противник</value>
+  </data>
+  <data name="tankmen/commander" xml:space="preserve">
+    <value>командир экипажа</value>
+  </data>
+  <data name="tankmen/driver" xml:space="preserve">
+    <value>механик-водитель</value>
+  </data>
+  <data name="tankmen/gunner" xml:space="preserve">
+    <value>наводчик</value>
+  </data>
+  <data name="tankmen/loader" xml:space="preserve">
+    <value>заряжающий</value>
+  </data>
+  <data name="tankmen/radioman" xml:space="preserve">
+    <value>радист</value>
+  </data>
+  <data name="timer/started" xml:space="preserve">
+    <value>Бой начинается!</value>
+  </data>
+  <data name="timer/starting" xml:space="preserve">
+    <value>До начала боя:</value>
+  </data>
+  <data name="timer/waiting" xml:space="preserve">
+    <value>Ожидание игроков...</value>
+  </data>
+  <data name="player_errors/cant_shoot/under_water" xml:space="preserve">
+    <value>Стрельба невозможна: машина под водой.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING" xml:space="preserve">
+    <value>Танк затонул.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION" xml:space="preserve">
+    <value>Танк уничтожен в результате падения.</value>
+  </data>
+  <data name="player_messages/ENEMY_SPOTTED" xml:space="preserve">
+    <value>Противник %(entity)s обнаружен.</value>
+  </data>
+  <data name="player_messages/ENEMY_SPOTTED_HIT" xml:space="preserve">
+    <value>Обнаруженный противник %(entity)s повреждён.</value>
+  </data>
+  <data name="player_messages/ENEMY_SPOTTED_HIT_PLURAL" xml:space="preserve">
+    <value>Обнаруженные машины противника повреждены.</value>
+  </data>
+  <data name="player_messages/ENEMY_SPOTTED_KILLED" xml:space="preserve">
+    <value>Обнаруженный противник %(entity)s уничтожен.</value>
+  </data>
+  <data name="player_messages/ENEMY_SPOTTED_KILLED_PLURAL" xml:space="preserve">
+    <value>Обнаруженные машины противника уничтожены.</value>
+  </data>
+  <data name="player_messages/ENEMY_SPOTTED_PLURAL" xml:space="preserve">
+    <value>Противник обнаружен.</value>
+  </data>
+  <data name="player_messages/loader_intuition_was_used" xml:space="preserve">
+    <value>Сработал навык «Интуиция».</value>
+  </data>
+  <data name="players_panel/state/medium2/body" xml:space="preserve">
+    <value>Показать количество уничтоженной игроком техники, название и иконку машины игрока.</value>
+  </data>
+  <data name="players_panel/state/medium2/header" xml:space="preserve">
+    <value>Средняя 2</value>
+  </data>
+  <data name="players_panel/state/medium2/note" xml:space="preserve">
+    <value>(Используйте Ctrl + Tab для переключения между режимами)</value>
+  </data>
+  <data name="timer/battlePeriod" xml:space="preserve">
+    <value>До конца боя:</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE" xml:space="preserve">
+    <value>Танк уничтожен в результате нахождения в зоне смерти.</value>
+  </data>
+  <data name="chat_shortcuts/help_me_ex" xml:space="preserve">
+    <value>%(target)s, помоги!</value>
+  </data>
+  <data name="chat_shortcuts/reloading_gun" xml:space="preserve">
+    <value>Перезаряжаюсь, ещё %(floatArg1)d c!</value>
+  </data>
+  <data name="chat_shortcuts/stop" xml:space="preserve">
+    <value>%(target)s, стой!</value>
+  </data>
+  <data name="chat_shortcuts/support_me_with_fire" xml:space="preserve">
+    <value>Поддержите огнём по %(target)s</value>
+  </data>
+  <data name="chat_shortcuts/turn_back" xml:space="preserve">
+    <value>%(target)s, назад!</value>
+  </data>
+  <data name="player_messages/postmortem_userNoHasAmmo" xml:space="preserve">
+    <value>Стрельба невозможна: нет снарядов.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION" xml:space="preserve">
+    <value>В результате сильного удара экипаж выведен из строя.</value>
+  </data>
+  <data name="player_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION" xml:space="preserve">
+    <value>Устройство [%(device)s] повреждено в результате сильного удара.</value>
+  </data>
+  <data name="player_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION" xml:space="preserve">
+    <value>Устройство [%(device)s] уничтожено в результате сильного удара.</value>
+  </data>
+  <data name="player_messages/TANKMAN_HIT_AT_WORLD_COLLISION" xml:space="preserve">
+    <value>В результате сильного удара [%(device)s] выведен из строя.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY" xml:space="preserve">
+    <value>Союзник %(target)s уничтожен союзником %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY" xml:space="preserve">
+    <value>%(attacker)s уничтожил %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF" xml:space="preserve">
+    <value>Машина уничтожена союзником %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE" xml:space="preserve">
+    <value>Союзник %(target)s самоуничтожился.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY" xml:space="preserve">
+    <value>%(attacker)s уничтожил %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY" xml:space="preserve">
+    <value>Противник %(attacker)s уничтожил противника %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF" xml:space="preserve">
+    <value>Машина уничтожена %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE" xml:space="preserve">
+    <value>%(target)s самоуничтожился.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY" xml:space="preserve">
+    <value>Союзник %(target)s уничтожен.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY" xml:space="preserve">
+    <value>%(target)s уничтожен.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE" xml:space="preserve">
+    <value>Машина уничтожена.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_ALLY_ALLY" xml:space="preserve">
+    <value>Союзник %(attacker)s потопил союзника %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY" xml:space="preserve">
+    <value>%(attacker)s потопил %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_ALLY_SELF" xml:space="preserve">
+    <value>Машина потоплена союзником %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE" xml:space="preserve">
+    <value>Самозатопление союзника %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY" xml:space="preserve">
+    <value>%(attacker)s потопил %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY" xml:space="preserve">
+    <value>Противник %(attacker)s потопил противника %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_ENEMY_SELF" xml:space="preserve">
+    <value>Машина потоплена %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE" xml:space="preserve">
+    <value>Самозатопление противника %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_SELF_ALLY" xml:space="preserve">
+    <value>Союзник %(target)s потоплен.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_SELF_ENEMY" xml:space="preserve">
+    <value>%(target)s потоплен.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE" xml:space="preserve">
+    <value>Машина затоплена.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY" xml:space="preserve">
+    <value>Экипаж союзника %(target)s уничтожен союзником %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY" xml:space="preserve">
+    <value>Экипаж %(target)s уничтожен %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>Экипаж уничтожен союзником %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE" xml:space="preserve">
+    <value>Союзник %(target)s уничтожил свой экипаж.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY" xml:space="preserve">
+    <value>Экипаж %(target)s уничтожен %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY" xml:space="preserve">
+    <value>Экипаж противника %(target)s уничтожен противником %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>Экипаж уничтожен %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE" xml:space="preserve">
+    <value>Противник %(target)s уничтожил свой экипаж.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY" xml:space="preserve">
+    <value>Экипаж союзника %(target)s уничтожен.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY" xml:space="preserve">
+    <value>Экипаж %(target)s уничтожен.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>Экипаж уничтожен.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_ALLY_ALLY" xml:space="preserve">
+    <value>Союзник %(attacker)s уничтожил союзника %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY" xml:space="preserve">
+    <value>%(attacker)s уничтожил %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_ALLY_SELF" xml:space="preserve">
+    <value>Машина уничтожена союзником %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE" xml:space="preserve">
+    <value>Союзник %(target)s разбился.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY" xml:space="preserve">
+    <value>%(attacker)s уничтожил %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY" xml:space="preserve">
+    <value>Противник %(attacker)s уничтожил противника %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_ENEMY_SELF" xml:space="preserve">
+    <value>Машина уничтожена %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE" xml:space="preserve">
+    <value>Противник %(target)s разбился.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_SELF_ALLY" xml:space="preserve">
+    <value>Союзник %(target)s уничтожен.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_SELF_ENEMY" xml:space="preserve">
+    <value>%(target)s уничтожен.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE" xml:space="preserve">
+    <value>Машина уничтожена.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_ALLY" xml:space="preserve">
+    <value>Союзник %(attacker)s уничтожил %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_ENEMY" xml:space="preserve">
+    <value>%(attacker)s уничтожил %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE" xml:space="preserve">
+    <value>Союзник %(target)s самоуничтожился.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_ALLY" xml:space="preserve">
+    <value>%(attacker)s уничтожил %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY" xml:space="preserve">
+    <value>Противник %(attacker)s уничтожил противника %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE" xml:space="preserve">
+    <value>Противник %(target)s самоуничтожился.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_SELF_ALLY" xml:space="preserve">
+    <value>Союзник %(target)s уничтожен.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_SELF_ENEMY" xml:space="preserve">
+    <value>%(target)s уничтожен.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY" xml:space="preserve">
+    <value>Союзник %(attacker)s разбил союзника %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY" xml:space="preserve">
+    <value>%(attacker)s разбил %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>Машина разбита союзником %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE" xml:space="preserve">
+    <value>Союзник %(target)s разбился.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY" xml:space="preserve">
+    <value>%(attacker)s разбил %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY" xml:space="preserve">
+    <value>Противник %(attacker)s разбил противника %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>Машина разбита %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE" xml:space="preserve">
+    <value>Противник %(target)s разбился.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY" xml:space="preserve">
+    <value>Союзник %(target)s разбит.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY" xml:space="preserve">
+    <value>%(target)s разбит.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>Машина разбита.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF" xml:space="preserve">
+    <value>Машина уничтожена союзником %(entity)s в запретной зоне.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF" xml:space="preserve">
+    <value>Машина уничтожена %(entity)s в запретной зоне.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE" xml:space="preserve">
+    <value>Машина уничтожена запретной зоной.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF" xml:space="preserve">
+    <value>Машина потоплена союзником %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF" xml:space="preserve">
+    <value>Машина затоплена %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE" xml:space="preserve">
+    <value>Машина затоплена.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_FIRE" xml:space="preserve">
+    <value>Машина уничтожена пожаром.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>Экипаж уничтожен сильным ударом союзника %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>Экипаж уничтожен сильным ударом %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>Экипаж уничтожен в результате сильного удара.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF" xml:space="preserve">
+    <value>Машина уничтожена тараном союзника %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF" xml:space="preserve">
+    <value>Машина уничтожена тараном %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE" xml:space="preserve">
+    <value>Машина уничтожена тараном.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_SHOT" xml:space="preserve">
+    <value>Машина уничтожена выстрелом %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>Машина разбита союзником %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>Машина разбита противником %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>Машина разбита.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY" xml:space="preserve">
+    <value>Союзник %(entity)s повредил устройство [%(device)s] тараном.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF" xml:space="preserve">
+    <value>Союзник %(entity)s повредил устройство [%(device)s] тараном.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE" xml:space="preserve">
+    <value>Устройство [%(device)s] повреждено в результате тарана.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY" xml:space="preserve">
+    <value>Противник %(entity)s повредил устройство [%(device)s] тараном.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF" xml:space="preserve">
+    <value>Противник %(entity)s повредил устройство [%(device)s] тараном.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE" xml:space="preserve">
+    <value>Устройство [%(device)s] повреждено в результате тарана.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY" xml:space="preserve">
+    <value>Союзник %(entity)s повредил устройство [%(device)s] сильным ударом.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>Союзник %(entity)s повредил устройство [%(device)s] сильным ударом.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE" xml:space="preserve">
+    <value>Устройство [%(device)s] повреждено в результате сильного удара.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY" xml:space="preserve">
+    <value>Противник %(entity)s повредил устройство [%(device)s] сильным ударом.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>Противник %(entity)s повредил устройство [%(device)s] сильным ударом.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>Устройство [%(device)s] повреждено в результате сильного удара.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY" xml:space="preserve">
+    <value>Союзник %(entity)s разрушил устройство [%(device)s] тараном.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF" xml:space="preserve">
+    <value>Союзник %(entity)s разрушил устройство [%(device)s] тараном.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE" xml:space="preserve">
+    <value>Устройство [%(device)s] разрушено в результате тарана.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY" xml:space="preserve">
+    <value>Противник %(entity)s разрушил устройство [%(device)s] тараном.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF" xml:space="preserve">
+    <value>Противник %(entity)s разрушил устройство [%(device)s] тараном.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE" xml:space="preserve">
+    <value>Устройство [%(device)s] разрушено в результате тарана.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY" xml:space="preserve">
+    <value>Союзник %(entity)s разрушил устройство [%(device)s] сильным ударом.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>Союзник %(entity)s разрушил устройство [%(device)s] сильным ударом.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE" xml:space="preserve">
+    <value>Устройство [%(device)s] разрушено в результате сильного удара.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY" xml:space="preserve">
+    <value>Противник %(entity)s разрушил устройство [%(device)s] сильным ударом.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>Противник %(entity)s разрушил устройство [%(device)s] сильным ударом.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>Устройство [%(device)s] разрушено в результате сильного удара.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY" xml:space="preserve">
+    <value>Устройство [%(device)s] загорелось в результате тарана союзника %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF" xml:space="preserve">
+    <value>Устройство [%(device)s] загорелось в результате тарана союзника %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE" xml:space="preserve">
+    <value>Устройство [%(device)s] загорелось в результате тарана.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY" xml:space="preserve">
+    <value>Устройство [%(device)s] загорелось в результате тарана противника %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF" xml:space="preserve">
+    <value>Устройство [%(device)s] загорелось в результате тарана противника %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE" xml:space="preserve">
+    <value>Устройство [%(device)s] загорелось в результате тарана.</value>
+  </data>
+  <data name="vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY" xml:space="preserve">
+    <value>[%(device)s] ранен в результате сильного удара союзника %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>[%(device)s] ранен в результате сильного удара союзника %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE" xml:space="preserve">
+    <value>[%(device)s] ранен в результате сильного удара.</value>
+  </data>
+  <data name="vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY" xml:space="preserve">
+    <value>[%(device)s] ранен в результате сильного удара противника %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>[%(device)s] ранен в результате сильного удара противника %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>[%(device)s] ранен в результате сильного удара.</value>
+  </data>
+  <data name="player_errors/cant_shoot/gun_locked" xml:space="preserve">
+    <value>Стрельба невозможна</value>
+  </data>
+  <data name="chat_shortcuts/reloading_cassette" xml:space="preserve">
+    <value>К выстрелу готов через: %(floatArg1)d с, снарядов в кассете: %(int32Arg1)s шт.</value>
+  </data>
+  <data name="chat_shortcuts/reloading_ready" xml:space="preserve">
+    <value>К выстрелу готов!</value>
+  </data>
+  <data name="chat_shortcuts/reloading_unavailable" xml:space="preserve">
+    <value>Боекомплект пуст.</value>
+  </data>
+  <data name="chat_shortcuts/reloading_ready_cassette" xml:space="preserve">
+    <value>К выстрелу готов! До разрядки кассеты осталось снарядов: %(int32Arg1)s шт.</value>
+  </data>
+  <data name="statistics/final/personal/directHits" xml:space="preserve">
+    <value>Попал по цели: %d</value>
+  </data>
+  <data name="statistics/final/personal/directHitsReceived" xml:space="preserve">
+    <value>Попаданий получил: %d</value>
+  </data>
+  <data name="chat_example/attack" xml:space="preserve">
+    <value>В атаку!</value>
+  </data>
+  <data name="chat_example/attack_enemy" xml:space="preserve">
+    <value>Атакую &lt;Имя противника&gt;!</value>
+  </data>
+  <data name="chat_example/attention_to_cell" xml:space="preserve">
+    <value>Внимание на &lt;Квадрат на миникарте&gt;!</value>
+  </data>
+  <data name="chat_example/back_to_base" xml:space="preserve">
+    <value>Защищайте базу!</value>
+  </data>
+  <data name="chat_example/follow_me" xml:space="preserve">
+    <value>&lt;Имя союзника&gt;, за мной!</value>
+  </data>
+  <data name="chat_example/help_me" xml:space="preserve">
+    <value>Нужна помощь!</value>
+  </data>
+  <data name="chat_example/help_me_ex" xml:space="preserve">
+    <value>&lt;Имя союзника&gt;, помоги!</value>
+  </data>
+  <data name="chat_example/negative" xml:space="preserve">
+    <value>Никак нет!</value>
+  </data>
+  <data name="chat_example/positive" xml:space="preserve">
+    <value>Так точно!</value>
+  </data>
+  <data name="chat_example/reloading_cassette" xml:space="preserve">
+    <value>К выстрелу готов через: &lt;Время перезарядки&gt; с, снарядов в кассете: &lt;Количество снарядов&gt; шт.</value>
+  </data>
+  <data name="chat_example/reloading_gun" xml:space="preserve">
+    <value>Перезаряжаюсь, ещё &lt;Время перезарядки&gt; c!</value>
+  </data>
+  <data name="chat_example/reloading_ready" xml:space="preserve">
+    <value>К выстрелу готов!</value>
+  </data>
+  <data name="chat_example/reloading_ready_cassette" xml:space="preserve">
+    <value>К выстрелу готов! До разрядки кассеты осталось снарядов: &lt;Количество снарядов&gt; шт.</value>
+  </data>
+  <data name="chat_example/reloading_unavailable" xml:space="preserve">
+    <value>Боекомплект пуст.</value>
+  </data>
+  <data name="chat_example/stop" xml:space="preserve">
+    <value>&lt;Имя союзника&gt;, стой!</value>
+  </data>
+  <data name="chat_example/support_me_with_fire" xml:space="preserve">
+    <value>Поддержите огнём по &lt;Имя противника&gt;</value>
+  </data>
+  <data name="chat_example/turn_back" xml:space="preserve">
+    <value>&lt;Имя союзника&gt;, назад!</value>
+  </data>
+  <data name="potapovQuests/tip" xml:space="preserve">
+    <value>Для данного типа техники нет принятых к исполнению боевых задач.</value>
+  </data>
+  <data name="shells_kinds/EVENT" xml:space="preserve">
+    <value>%(caliber)s мм восстанавливающий снаряд %(userString)s
+Повреждения %(damage)s
+Восстановление %(heal)s
+Пробиваемость %(piercingPower)s</value>
+  </data>
+  <data name="shells_kinds/params" xml:space="preserve">
+    <value>Повреждения %(damage)s
+Пробиваемость %(piercingPower)s</value>
+  </data>
+  <data name="fortConsumables/timer/postfix" xml:space="preserve">
+    <value>с...</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY" xml:space="preserve">
+    <value>Артбатарея развёрнута и готова к залпу.</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_READY_BOMBER" xml:space="preserve">
+    <value>Авиация прибыла и готова к бомбометанию.</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY" xml:space="preserve">
+    <value>Артбатарея %(player)s произвела залп.</value>
+  </data>
+  <data name="player_messages/COMBAT_EQUIPMENT_USED_BOMBER" xml:space="preserve">
+    <value>Авиация %(player)s приступила к бомбометанию.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY" xml:space="preserve">
+    <value>Союзник %(target)s уничтожен.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_UNKNOWN_ENEMY" xml:space="preserve">
+    <value>Противник %(target)s уничтожен.</value>
+  </data>
+  <data name="dynamicSquad/ally/add" xml:space="preserve">
+    <value>Нажмите, чтобы отправить приглашение во взвод,
+принять которое игрок сможет во время боя или после него.</value>
+  </data>
+  <data name="dynamicSquad/ally/disabled" xml:space="preserve">
+    <value>Данного союзника нельзя пригласить во взвод.</value>
+  </data>
+  <data name="dynamicSquad/ally/received" xml:space="preserve">
+    <value>Нажмите, чтобы принять приглашение во взвод,
+который сформируется во время боя.</value>
+  </data>
+  <data name="dynamicSquad/ally/wasSent" xml:space="preserve">
+    <value>Игроку отправлено приглашение, приняв которое он
+присоединится к вашему взводу во время боя или после него.</value>
+  </data>
+  <data name="dynamicSquad/enemy/add" xml:space="preserve">
+    <value>Нажмите, чтобы отправить приглашение во взвод,
+принять которое игрок сможет только после боя.</value>
+  </data>
+  <data name="dynamicSquad/enemy/disabled" xml:space="preserve">
+    <value>Противника нельзя пригласить во взвод.</value>
+  </data>
+  <data name="dynamicSquad/enemy/received" xml:space="preserve">
+    <value>Нажмите, чтобы принять приглашение во взвод,
+который сформируется только посе боя.</value>
+  </data>
+  <data name="dynamicSquad/enemy/wasSent" xml:space="preserve">
+    <value>Игроку отправлено приглашение, приняв
+которое он присоединится к вашему взводу после боя.</value>
+  </data>
+  <data name="dynamicSquad/invite" xml:space="preserve">
+    <value>Приглашение во взвод</value>
+  </data>
+  <data name="efficiencyRibbons/armor" xml:space="preserve">
+    <value>Удар сдержан</value>
+  </data>
+  <data name="efficiencyRibbons/assist" xml:space="preserve">
+    <value>Помощь союзникам</value>
+  </data>
+  <data name="efficiencyRibbons/capture" xml:space="preserve">
+    <value>Очки захвата</value>
+  </data>
+  <data name="efficiencyRibbons/crits" xml:space="preserve">
+    <value>Критический урон</value>
+  </data>
+  <data name="efficiencyRibbons/damage" xml:space="preserve">
+    <value>Урон выстрелом</value>
+  </data>
+  <data name="efficiencyRibbons/defence" xml:space="preserve">
+    <value>Очки защиты</value>
+  </data>
+  <data name="efficiencyRibbons/kill" xml:space="preserve">
+    <value>Уничтожил</value>
+  </data>
+  <data name="efficiencyRibbons/spotted" xml:space="preserve">
+    <value>Обнаружил</value>
+  </data>
+  <data name="flagNotification/flagCaptured" xml:space="preserve">
+    <value>Флаг захвачен!</value>
+  </data>
+  <data name="flagNotification/flagDelivered" xml:space="preserve">
+    <value>Флаг доставлен.</value>
+  </data>
+  <data name="flagNotification/flagInbase" xml:space="preserve">
+    <value>Теперь доставьте его в штаб.</value>
+  </data>
+  <data name="flags/timer" xml:space="preserve">
+    <value>%(time)s с...</value>
+  </data>
+  <data name="repairPoint/title" xml:space="preserve">
+    <value>Ремонт</value>
+  </data>
+  <data name="repairPoint/unavailable" xml:space="preserve">
+    <value>Недоступен</value>
+  </data>
+  <data name="respawnView/additionalTip" xml:space="preserve">
+    <value>Выберите машину для продолжения. Если вся техника на ремонте, бой продолжится на первой доступной машине.</value>
+  </data>
+  <data name="respawnView/cooldownLbl" xml:space="preserve">
+    <value>На ремонте %(time)s</value>
+  </data>
+  <data name="respawnView/nextVehicleName" xml:space="preserve">
+    <value>Бой продолжится на </value>
+  </data>
+  <data name="respawnView/title" xml:space="preserve">
+    <value>Выбор техники</value>
+  </data>
+  <data name="scorePanel/playerScore" xml:space="preserve">
+    <value>Личный вклад:</value>
+  </data>
+  <data name="tabStatsHint" xml:space="preserve">
+    <value>— Статистика</value>
+  </data>
+  <data name="flagNotification/flagAbsorbed" xml:space="preserve">
+    <value>Вы уничтожили флаг!</value>
+  </data>
+  <data name="respawnView/destroyedLbl" xml:space="preserve">
+    <value>Уничтожен</value>
+  </data>
+  <data name="scorePanel/mySquadLbl" xml:space="preserve">
+    <value>Наш взвод</value>
+  </data>
+  <data name="scorePanel/squadLbl" xml:space="preserve">
+    <value>Взвод %(sq_number)s</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY" xml:space="preserve">
+    <value>Союзник %(attacker)s уничтожил %(target)s залпом артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER" xml:space="preserve">
+    <value>Союзник %(attacker)s уничтожил %(target)s бомбометанием.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY" xml:space="preserve">
+    <value>%(attacker)s уничтожил %(target)s залпом артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER" xml:space="preserve">
+    <value>%(attacker)s уничтожил %(target)s бомбометанием.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY" xml:space="preserve">
+    <value>Союзник %(target)s самоуничтожился залпом артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER" xml:space="preserve">
+    <value>Союзник %(target)s самоуничтожился бомбометанием.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY" xml:space="preserve">
+    <value>%(attacker)s уничтожил %(target)s залпом артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER" xml:space="preserve">
+    <value>%(attacker)s уничтожил %(target)s бомбометанием.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY" xml:space="preserve">
+    <value>Противник %(attacker)s уничтожил противника %(target)s залпом артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER" xml:space="preserve">
+    <value>Противник %(attacker)s уничтожил противника %(target)s бомбометанием.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY" xml:space="preserve">
+    <value>Противник %(target)s самоуничтожился залпом артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER" xml:space="preserve">
+    <value>Противник %(target)s самоуничтожился бомбометанием.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY" xml:space="preserve">
+    <value>Союзник %(target)s уничтожен залпом артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER" xml:space="preserve">
+    <value>Союзник %(target)s уничтожен бомбометанием.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY" xml:space="preserve">
+    <value>%(target)s уничтожен залпом артбатареи.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER" xml:space="preserve">
+    <value>%(target)s уничтожен бомбометанием.</value>
+  </data>
+  <data name="player_messages/postmortem_caption/self" xml:space="preserve">
+    <value>Ваша машина (%(type)s) уничтожена</value>
+  </data>
+  <data name="respawnView/emptySlotInfo" xml:space="preserve">
+    <value>Подходящая машина не выбрана</value>
+  </data>
+  <data name="respawnView/emptySlotInfoTooltip" xml:space="preserve">
+    <value>В группе отсутствует машина Х уровня.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_SHOT_ARTILLERY" xml:space="preserve">
+    <value>Машина уничтожена залпом артбатареи %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_SHOT_BOMBER" xml:space="preserve">
+    <value>Машина уничтожена бомбометанием %(entity)s.</value>
+  </data>
+  <data name="potapovQuests/tip/additionalHeader" xml:space="preserve">
+    <value>Дополнительные условия:</value>
+  </data>
+  <data name="potapovQuests/tip/mainHeader" xml:space="preserve">
+    <value>Основные условия:</value>
+  </data>
+  <data name="potapovQuests/tip/noQuests/battleType" xml:space="preserve">
+    <value>Для данного типа боя нет принятых к исполнению боевых задач.</value>
+  </data>
+  <data name="potapovQuests/tip/noQuests/vehicleType" xml:space="preserve">
+    <value>Для данного типа техники нет принятых к исполнению боевых задач.</value>
+  </data>
+  <data name="respawnView/disabledLbl" xml:space="preserve">
+    <value>Машина недоступна</value>
+  </data>
+  <data name="countRibbons/multiSeparator" xml:space="preserve">
+    <value>x%(multiplier)d</value>
+  </data>
+  <data name="damage_panel/devices/chassis/critical" xml:space="preserve">
+    <value>Шасси повреждено.</value>
+  </data>
+  <data name="damage_panel/devices/chassis/destroyed" xml:space="preserve">
+    <value>Шасси разрушено. Движение невозможно.</value>
+  </data>
+  <data name="damage_panel/devices/chassis/normal" xml:space="preserve">
+    <value>Шасси не повреждено.</value>
+  </data>
+  <data name="event/artillery" xml:space="preserve">
+    <value>Метеорит через:</value>
+  </data>
+  <data name="event/bounce" xml:space="preserve">
+    <value>Прыжок через:</value>
+  </data>
+  <data name="event/impulse" xml:space="preserve">
+    <value>Импульс через:</value>
+  </data>
+  <data name="event/nothing" xml:space="preserve">
+    <value>А нет, показалось</value>
+  </data>
+  <data name="event/random" xml:space="preserve">
+    <value>Случайное событие через:</value>
+  </data>
+  <data name="event/slide" xml:space="preserve">
+    <value>Скольжение через:</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY" xml:space="preserve">
+    <value>Союзник %(target)s уничтожен союзником %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY" xml:space="preserve">
+    <value>%(attacker)s уничтожил %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF" xml:space="preserve">
+    <value>Машина уничтожена союзником %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY" xml:space="preserve">
+    <value>%(attacker)s уничтожил %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY" xml:space="preserve">
+    <value>Противник %(attacker)s уничтожил противника %(target)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF" xml:space="preserve">
+    <value>Машина уничтожена %(attacker)s.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY" xml:space="preserve">
+    <value>Союзник %(target)s уничтожен.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY" xml:space="preserve">
+    <value>%(target)s уничтожен.</value>
+  </data>
+  <data name="respawnView/additionalTipLimited" xml:space="preserve">
+    <value>Выберите машину для продолжения. Уничтоженную машину невозможно отремонтировать до окончания боя.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF" xml:space="preserve">
+    <value>Машина уничтожена союзником %(entity)s.</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF" xml:space="preserve">
+    <value>Машина уничтожена %(entity)s.</value>
+  </data>
+  <data name="aim/zoom" xml:space="preserve">
+    <value>x%(zoom)d</value>
+  </data>
+  <data name="battleEndWarning/text" xml:space="preserve">
+    <value>До конца боя:</value>
+  </data>
+  <data name="distance/meters" xml:space="preserve">
+    <value>%(meters)d м</value>
+  </data>
+  <data name="player_errors/equipment/order/notReady" xml:space="preserve">
+    <value>Резерв ещё не готов.</value>
+  </data>
+  <data name="player_messages/postmortem_caption/other" xml:space="preserve">
+    <value>Игрок: %(name)s; Прочность: %(health)d%%</value>
+  </data>
+  <data name="battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body" xml:space="preserve">
+    <value>Текстовые и голосовые сообщения от данного игрока будут скрыты до конца текущего боя.</value>
+  </data>
+  <data name="battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header" xml:space="preserve">
+    <value>Заблокировать сообщения данного игрока</value>
+  </data>
+  <data name="battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body" xml:space="preserve">
+    <value>Сообщения игрока из «Чёрного списка» заблокированы.</value>
+  </data>
+  <data name="battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header" xml:space="preserve">
+    <value>Действие недоступно</value>
+  </data>
+  <data name="battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body" xml:space="preserve">
+    <value>Текстовые и голосовые сообщения от данного игрока
+вновь станут доступны.</value>
+  </data>
+  <data name="battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header" xml:space="preserve">
+    <value>Разблокировать сообщения данного игрока</value>
+  </data>
+  <data name="damageIndicator/multiplier" xml:space="preserve">
+    <value>x%(multiplier)s</value>
+  </data>
+  <data name="efficiencyRibbons/assistSpot" xml:space="preserve">
+    <value>Урон по разведданным</value>
+  </data>
+  <data name="efficiencyRibbons/assistTrack" xml:space="preserve">
+    <value>Постановка на гусеницу</value>
+  </data>
+  <data name="efficiencyRibbons/burn" xml:space="preserve">
+    <value>Поджог</value>
+  </data>
+  <data name="efficiencyRibbons/ram" xml:space="preserve">
+    <value>Таран</value>
+  </data>
+  <data name="player_errors/cant_switch/engine_destroyed" xml:space="preserve">
+    <value>Смена режима недоступна: двигатель выведен из строя.</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY" xml:space="preserve">
+    <value>Союзник %(attacker)s перевернул союзника %(target)s</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY" xml:space="preserve">
+    <value>%(attacker)s перевернул %(target)s</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_ALLY_SELF" xml:space="preserve">
+    <value>Машина перевернута союзником %(attacker)s</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE" xml:space="preserve">
+    <value>Союзник %(target)s перевернулся</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY" xml:space="preserve">
+    <value>%(attacker)s перевернул %(target)s</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY" xml:space="preserve">
+    <value>Противник %(attacker)s перевернул противника %(target)s</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF" xml:space="preserve">
+    <value>Машина перевёрнута %(attacker)s и уничтожена</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE" xml:space="preserve">
+    <value>Противник %(target)s перевернулся</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_SELF_ALLY" xml:space="preserve">
+    <value>Союзник %(target)s перевёрнут</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY" xml:space="preserve">
+    <value>%(target)s перевёрнут</value>
+  </data>
+  <data name="player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE" xml:space="preserve">
+    <value>Машина перевёрнута и уничтожена</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF" xml:space="preserve">
+    <value>Машина уничтожена в запретной зоне союзником</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF" xml:space="preserve">
+    <value>Машина уничтожена в запретной зоне</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE" xml:space="preserve">
+    <value>Машина уничтожена запретной зоной</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE" xml:space="preserve">
+    <value>Устройство [%(device)s] взорвалось при пожаре</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT" xml:space="preserve">
+    <value>Устройство [%(device)s] взорвано выстрелом игрока</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF" xml:space="preserve">
+    <value>Машина потоплена союзником</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF" xml:space="preserve">
+    <value>Машина затоплена</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE" xml:space="preserve">
+    <value>Машина затоплена</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_FIRE" xml:space="preserve">
+    <value>Машина уничтожена пожаром</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT" xml:space="preserve">
+    <value>Экипаж уничтожен выстрелом игрока</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>Экипаж уничтожен сильным ударом союзника</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>Экипаж уничтожен сильным ударом</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>Экипаж уничтожен в результате сильного удара</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF" xml:space="preserve">
+    <value>Машина перевёрнута союзником</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF" xml:space="preserve">
+    <value>Машина перевёрнута противником</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE" xml:space="preserve">
+    <value>Машина уничтожена при перевороте</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF" xml:space="preserve">
+    <value>Машина уничтожена тараном союзника</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF" xml:space="preserve">
+    <value>Машина уничтожена тараном</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE" xml:space="preserve">
+    <value>Машина уничтожена тараном</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_SHOT" xml:space="preserve">
+    <value>Машина уничтожена выстрелом игрока</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_SHOT_ARTILLERY" xml:space="preserve">
+    <value>Машина уничтожена залпом артбатареи</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_SHOT_BOMBER" xml:space="preserve">
+    <value>Машина уничтожена бомбометанием</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF" xml:space="preserve">
+    <value>Машина разбита союзником</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF" xml:space="preserve">
+    <value>Машина разбита противником</value>
+  </data>
+  <data name="postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE" xml:space="preserve">
+    <value>Машина разбита</value>
+  </data>
+  <data name="postmortem_messages/DEATH_UNKNOWN" xml:space="preserve">
+    <value>Ваша машина уничтожена</value>
+  </data>
+  <data name="siegeMode/hint/forMode/0" xml:space="preserve">
+    <value>для перехода в осадный режим</value>
+  </data>
+  <data name="siegeMode/hint/forMode/1" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="siegeMode/hint/forMode/2" xml:space="preserve">
+    <value>для возврата в походный режим</value>
+  </data>
+  <data name="siegeMode/hint/forMode/3" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="siegeMode/hint/noBinding" xml:space="preserve">
+    <value>Клавиша смены режима не назначена.</value>
+  </data>
+  <data name="siegeMode/hint/press" xml:space="preserve">
+    <value>Нажмите</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF" xml:space="preserve">
+    <value>Машина перевёрнута союзником %(entity)s</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF" xml:space="preserve">
+    <value>Машина перевёрнута противником %(entity)s</value>
+  </data>
+  <data name="vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE" xml:space="preserve">
+    <value>Машина уничтожена при перевороте</value>
+  </data>
+  <data name="damageLog/multiplier" xml:space="preserve">
+    <value>x%(multiplier)s</value>
+  </data>
+  <data name="damageLog/shellType/ARMOR_PIERCING" xml:space="preserve">
+    <value>ББ</value>
+  </data>
+  <data name="damageLog/shellType/ARMOR_PIERCING_CR" xml:space="preserve">
+    <value>БП</value>
+  </data>
+  <data name="damageLog/shellType/ARMOR_PIERCING_HE" xml:space="preserve">
+    <value>ОФ</value>
+  </data>
+  <data name="damageLog/shellType/HIGH_EXPLOSIVE" xml:space="preserve">
+    <value>ОФ</value>
+  </data>
+  <data name="damageLog/shellType/HOLLOW_CHARGE" xml:space="preserve">
+    <value>КС</value>
+  </data>
+  <data name="efficiencyRibbons/receivedBurn" xml:space="preserve">
+    <value>Урон пожаром</value>
+  </data>
+  <data name="efficiencyRibbons/receivedCrits" xml:space="preserve">
+    <value>Критическое повреждение</value>
+  </data>
+  <data name="efficiencyRibbons/receivedDamage" xml:space="preserve">
+    <value>Урон выстрелом</value>
+  </data>
+  <data name="efficiencyRibbons/receivedRam" xml:space="preserve">
+    <value>Урон тараном</value>
+  </data>
+  <data name="efficiencyRibbons/receivedWorldCollision" xml:space="preserve">
+    <value>Урон ударом</value>
+  </data>
+  <data name="efficiencyRibbons/worldCollision" xml:space="preserve">
+    <value>Урон от падения</value>
+  </data>
+  <data name="chat_example/spg_aim_area" xml:space="preserve">
+    <value>Навожусь на &lt;Квадрат на миникарте&gt;!</value>
+  </data>
+  <data name="chat_shortcuts/attack_enemy_reloading" xml:space="preserve">
+    <value>Атакую %(target)s! Перезаряжаюсь, ещё %(reloadTime)d c!</value>
+  </data>
+  <data name="chat_shortcuts/spg_aim_area" xml:space="preserve">
+    <value>Навожусь на %(cellName)s! К выстрелу готов!</value>
+  </data>
+  <data name="chat_shortcuts/spg_aim_area_reloading" xml:space="preserve">
+    <value>Навожусь на %(cellName)s! Перезаряжаюсь, ещё %(reloadTime)d c!</value>
+  </data>
+  <data name="consumables_panel/equipment/cooldownSeconds" xml:space="preserve">
+    <value>Время подготовки: %(cooldownSeconds)s с.</value>
+  </data>
+  <data name="efficiencyRibbons/stun" xml:space="preserve">
+    <value>Оглушение экипажа</value>
+  </data>
+  <data name="player_errors/equipment/isInCooldown" xml:space="preserve">
+    <value>Снаряжение [%(name)s] недоступно: перезаряжается.</value>
+  </data>
+  <data name="shells_kinds/stunParams" xml:space="preserve">
+    <value>Повреждения %(damage)s
+Пробиваемость %(piercingPower)s
+Минимальное время оглушения %(stunMinDuration)s (с)
+Максимальное время оглушения %(stunMaxDuration)s (с)</value>
+  </data>
+  <data name="stun/indicator" xml:space="preserve">
+    <value>Оглушение экипажа</value>
+  </data>
+  <data name="stun/seconds" xml:space="preserve">
+    <value>с</value>
+  </data>
+  <data name="trajectoryView/hint/alternateModeLeft" xml:space="preserve">
+    <value>Нажмите</value>
+  </data>
+  <data name="trajectoryView/hint/alternateModeRight" xml:space="preserve">
+    <value>для смены режима прицеливания</value>
+  </data>
+  <data name="trajectoryView/hint/noBindingKey" xml:space="preserve">
+    <value>Клавиша смены режима прицеливания не назначена</value>
+  </data>
+  <data name="efficiencyRibbons/assistStun" xml:space="preserve">
+    <value>Помощь оглушением</value>
+  </data>
+  <data name="epic_players_panel/state/hidden/body" xml:space="preserve">
+    <value>Скрыть панели команд.</value>
+  </data>
+  <data name="epic_players_panel/state/hidden/header" xml:space="preserve">
+    <value>Скрытая панель</value>
+  </data>
+  <data name="epic_players_panel/state/hidden/note" xml:space="preserve">
+    <value>(Нажмите Ctrl+Tab для переключения между режимами)</value>
+  </data>
+  <data name="epic_players_panel/state/medium_player/body" xml:space="preserve">
+    <value>Показать имя игрока, уничтоженные цели и иконки техники.</value>
+  </data>
+  <data name="epic_players_panel/state/medium_player/header" xml:space="preserve">
+    <value>Средняя панель 1</value>
+  </data>
+  <data name="epic_players_panel/state/medium_player/note" xml:space="preserve">
+    <value>(Нажмите Ctrl+Tab для переключения между режимами)</value>
+  </data>
+  <data name="epic_players_panel/state/medium_tank/body" xml:space="preserve">
+    <value>Показать уничтоженные цели, а также иконку и название машины игрока.</value>
+  </data>
+  <data name="epic_players_panel/state/medium_tank/header" xml:space="preserve">
+    <value>Средняя панель 2</value>
+  </data>
+  <data name="epic_players_panel/state/medium_tank/note" xml:space="preserve">
+    <value>(Нажмите Ctrl+Tab для переключения между режимами)</value>
+  </data>
+  <data name="epic_players_panel/state/short/body" xml:space="preserve">
+    <value>Показать уничтоженные цели и иконки техники.</value>
+  </data>
+  <data name="epic_players_panel/state/short/header" xml:space="preserve">
+    <value>Короткая панель</value>
+  </data>
+  <data name="epic_players_panel/state/short/note" xml:space="preserve">
+    <value>(Нажмите Ctrl+Tab для переключения между режимами)</value>
+  </data>
+  <data name="epic_players_panel/state/toggle/body" xml:space="preserve">
+    <value>Отображение только своей группы игроков или всех трёх групп.</value>
+  </data>
+  <data name="epic_players_panel/state/toggle/header" xml:space="preserve">
+    <value>Включение столбцов</value>
+  </data>
+  <data name="epic_players_panel/state/toggle/note" xml:space="preserve">
+    <value>(Нажмите Ctrl+Tab для переключения между режимами)</value>
+  </data>
+  <data name="personalMissions/tip/additionalHeader" xml:space="preserve">
+    <value>Дополнительные условия:</value>
+  </data>
+  <data name="personalMissions/tip/mainHeader" xml:space="preserve">
+    <value>Основные условия:</value>
+  </data>
+  <data name="personalMissions/tip/noQuests/battleType" xml:space="preserve">
+    <value>Для данного типа боя нет принятых к исполнению боевых задач.</value>
+  </data>
+  <data name="personalMissions/tip/noQuests/vehicleType" xml:space="preserve">
+    <value>Для данного типа техники нет принятых к исполнению боевых задач.</value>
+  </data>
+</root>

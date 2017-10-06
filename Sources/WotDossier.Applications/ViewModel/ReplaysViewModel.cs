@@ -556,14 +556,25 @@ namespace WotDossier.Applications.ViewModel
                         x.ReplayFile.Comment = x.ReplayEntity.Comment;
                     });
 
-                //add db replays
-                List<DbReplay> collection =
+				//add db replays DbReplay.GetReplay(CompressHelper.Decompress(x.Raw), ReplaysManager.DeletedFolder.Id)
+				List<DbReplay> collection =
                     dbReplays.Where(x => x.Raw != null)
                         .Select(
                             x =>
-                                new DbReplay(CompressHelper.DecompressObject<Domain.Replay.Replay>(x.Raw),
-                                    ReplaysManager.DeletedFolder.Id))
-                        .ToList();
+                            {
+	                            try
+	                            {
+		                            return new DbReplay(CompressHelper.DecompressObject<Domain.Replay.Replay>(x.Raw),
+			                            ReplaysManager.DeletedFolder.Id);
+	                            }
+	                            catch
+	                            {
+		                            // ignored
+	                            }
+	                            return null;
+                            }
+									)
+                        .Where(c=>c!= null).ToList();
 
                 _replays.RemoveAll(x => x.FolderId == ReplaysManager.DeletedFolder.Id);
                 _replays.AddRange(collection);

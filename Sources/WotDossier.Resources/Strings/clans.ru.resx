@@ -1,0 +1,1593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="clan/header/chatChannelBtn" xml:space="preserve">
+    <value>Чат клана</value>
+  </data>
+  <data name="clan/header/chatChannelBtn/tooltip/body" xml:space="preserve">
+    <value>Нажмите, чтобы ввести сообщение и отправить его в чат клана.</value>
+  </data>
+  <data name="clan/header/chatChannelBtn/tooltip/header" xml:space="preserve">
+    <value>Чат клана</value>
+  </data>
+  <data name="clan/header/creationDate" xml:space="preserve">
+    <value>Создан %(creationDate)s</value>
+  </data>
+  <data name="clan/header/invitesAndRequests" xml:space="preserve">
+    <value>Заявки и приглашения</value>
+  </data>
+  <data name="clan/header/requestSent" xml:space="preserve">
+    <value>Заявка подана</value>
+  </data>
+  <data name="clan/header/sendRequestBtn" xml:space="preserve">
+    <value>Подать заявку</value>
+  </data>
+  <data name="clan/header/sendRequestBtn/tooltip/body" xml:space="preserve">
+    <value>Нажмите, чтобы подать заявку на вступление в этот клан.</value>
+  </data>
+  <data name="clan/header/sendRequestBtn/tooltip/header" xml:space="preserve">
+    <value>Подать заявку</value>
+  </data>
+  <data name="clan/post/combatOfficer" xml:space="preserve">
+    <value>Командир подразделения</value>
+  </data>
+  <data name="clan/post/commander" xml:space="preserve">
+    <value>Командующий</value>
+  </data>
+  <data name="clan/post/executiveOfficer" xml:space="preserve">
+    <value>Заместитель командующего</value>
+  </data>
+  <data name="clan/post/intelligenceOfficer" xml:space="preserve">
+    <value>Офицер разведки</value>
+  </data>
+  <data name="clan/post/juniorOfficer" xml:space="preserve">
+    <value>Младший офицер</value>
+  </data>
+  <data name="clan/post/personnelOfficer" xml:space="preserve">
+    <value>Офицер штаба</value>
+  </data>
+  <data name="clan/post/private" xml:space="preserve">
+    <value>Боец</value>
+  </data>
+  <data name="clan/post/quartermaster" xml:space="preserve">
+    <value>Офицер снабжения</value>
+  </data>
+  <data name="clan/post/recruit" xml:space="preserve">
+    <value>Новобранец</value>
+  </data>
+  <data name="clan/post/recruiter" xml:space="preserve">
+    <value>Офицер по кадрам</value>
+  </data>
+  <data name="clan/post/reservist" xml:space="preserve">
+    <value>Резервист</value>
+  </data>
+  <data name="clanInvitesWindow/dataUpdated" xml:space="preserve">
+    <value>Данные в таблице изменились</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noActualRequests/link" xml:space="preserve">
+    <value>«Условия призыва»</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noActualRequests/text" xml:space="preserve">
+    <value>Доступно редактирование</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noActualRequests/title" xml:space="preserve">
+    <value>У клана нет актуальных заявок</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noExpiredRequests/title" xml:space="preserve">
+    <value>У клана нет устаревших заявок</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noInvites/invite" xml:space="preserve">
+    <value>Пригласить в клан</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noInvites/text" xml:space="preserve">
+    <value>Нажмите %(invite)s, чтобы отправить
+приглашения новым игрокам.</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noInvites/title" xml:space="preserve">
+    <value>Клан не отправлял приглашения последние 28 дней</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noInvitesActual/title" xml:space="preserve">
+    <value>У клана нет актуальных приглашений за последние 28 дней</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noInvitesExpired/title" xml:space="preserve">
+    <value>У клана нет устаревших приглашений за последние 28 дней</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noInvitesProcessed/title" xml:space="preserve">
+    <value>У клана нет приглашений с принятым решением за последние 28 дней</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/noProcessedRequests/title" xml:space="preserve">
+    <value>У клана нет обработанных заявок</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/serverError/text" xml:space="preserve">
+    <value>Данные с сервера не получены,
+попробуйте позже.</value>
+  </data>
+  <data name="clanInvitesWindow/dummy/serverError/title" xml:space="preserve">
+    <value>Ошибка сервера</value>
+  </data>
+  <data name="clanInvitesWindow/filters/actual" xml:space="preserve">
+    <value>Актуальные (%(value)s)</value>
+  </data>
+  <data name="clanInvitesWindow/filters/all" xml:space="preserve">
+    <value>Все (%(value)s)</value>
+  </data>
+  <data name="clanInvitesWindow/filters/expired" xml:space="preserve">
+    <value>Устаревшие (%(value)s)</value>
+  </data>
+  <data name="clanInvitesWindow/filters/hasAnswer" xml:space="preserve">
+    <value>Получен ответ (%(value)s)</value>
+  </data>
+  <data name="clanInvitesWindow/filters/processed" xml:space="preserve">
+    <value>Обработанные (%(value)s)</value>
+  </data>
+  <data name="clanInvitesWindow/header/freePlacesInClan" xml:space="preserve">
+    <value>Свободных мест в клане: %(count)s</value>
+  </data>
+  <data name="clanInvitesWindow/header/inviteInClan" xml:space="preserve">
+    <value>Пригласить в клан</value>
+  </data>
+  <data name="clanInvitesWindow/header/tooltips/info" xml:space="preserve">
+    <value>У вас есть 3 дня на обработку заявки на приём в клан. Заявки и приглашения хранятся в течение 28 дней, затем автоматически удаляются.</value>
+  </data>
+  <data name="clanInvitesWindow/header/tooltips/noPlaces" xml:space="preserve">
+    <value>Невозможно пригласить игроков: в клане нет свободных мест.</value>
+  </data>
+  <data name="clanInvitesWindow/header/tooltips/recruitementStopped" xml:space="preserve">
+    <value>Невозможно пригласить игроков: набор в клан приостановлен.</value>
+  </data>
+  <data name="clanInvitesWindow/status/accepted" xml:space="preserve">
+    <value>Принято</value>
+  </data>
+  <data name="clanInvitesWindow/status/daysLeft" xml:space="preserve">
+    <value>%(days)d д. на ответ</value>
+  </data>
+  <data name="clanInvitesWindow/status/declined" xml:space="preserve">
+    <value>Отклонено</value>
+  </data>
+  <data name="clanInvitesWindow/status/error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="clanInvitesWindow/status/expired" xml:space="preserve">
+    <value>Просрочено</value>
+  </data>
+  <data name="clanInvitesWindow/status/hoursLeft" xml:space="preserve">
+    <value>%(hours)d ч. на ответ</value>
+  </data>
+  <data name="clanInvitesWindow/status/minutesLeft" xml:space="preserve">
+    <value>%(min)d мин. на ответ</value>
+  </data>
+  <data name="clanInvitesWindow/status/sent" xml:space="preserve">
+    <value>Отправлено</value>
+  </data>
+  <data name="clanInvitesWindow/tabInvites" xml:space="preserve">
+    <value>Приглашения (%(value)s)</value>
+  </data>
+  <data name="clanInvitesWindow/tabRequests" xml:space="preserve">
+    <value>Заявки (%(value)s)</value>
+  </data>
+  <data name="clanInvitesWindow/table/actions" xml:space="preserve">
+    <value>Действия</value>
+  </data>
+  <data name="clanInvitesWindow/table/inviteButton" xml:space="preserve">
+    <value>Пригласить</value>
+  </data>
+  <data name="clanInvitesWindow/table/sent" xml:space="preserve">
+    <value>Отправлено</value>
+  </data>
+  <data name="clanInvitesWindow/table/showMore" xml:space="preserve">
+    <value>Показать ещё</value>
+  </data>
+  <data name="clanInvitesWindow/table/status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="clanInvitesWindow/table/userName" xml:space="preserve">
+    <value>Имя игрока</value>
+  </data>
+  <data name="clanInvitesWindow/title" xml:space="preserve">
+    <value>Заявки и приглашения</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/header/inviteButton" xml:space="preserve">
+    <value>Нажмите, чтобы пригласить других игроков в клан.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/invite/byUser" xml:space="preserve">
+    <value>По приглашению:</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/invite/inviteAccepted" xml:space="preserve">
+    <value>Приглашение принято</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/invite/inviteDeclined" xml:space="preserve">
+    <value>Приглашение отклонено</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/invite/inviteSent" xml:space="preserve">
+    <value>Приглашение отправлено</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/invite/sender" xml:space="preserve">
+    <value>Отправитель:</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/refreshButton/disabled" xml:space="preserve">
+    <value>Кнопка станет активной после появления новых данных на сервере.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/refreshButton/enabled" xml:space="preserve">
+    <value>Нажмите, чтобы отобразить новые заявки и приглашения.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh" xml:space="preserve">
+    <value>Попробуйте обновить.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/request/byUser" xml:space="preserve">
+    <value>По решению:</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/request/requestAccepted" xml:space="preserve">
+    <value>Заявка принята</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/request/requestDeclined" xml:space="preserve">
+    <value>Заявка отклонена</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/request/requestSent" xml:space="preserve">
+    <value>Заявка подана</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/cantAcceptRequest/body" xml:space="preserve">
+    <value>Невозможно пригласить игроков: в клане нет свободных мест.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/cantSendInvite/body" xml:space="preserve">
+    <value>Невозможно принять игроков в состав: в клане нет свободных мест.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/awgExp/body" xml:space="preserve">
+    <value>Средний опыт за бой игрока, которому отправлено приглашение (с учётом премиум аккаунта)</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/awgExp/header" xml:space="preserve">
+    <value>Средний опыт за бой</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/battlesCount/body" xml:space="preserve">
+    <value>Количество боёв игрока, которому отправлено приглашение.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/battlesCount/header" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/inviteButton" xml:space="preserve">
+    <value>Нажмите, чтобы пригласить данного игрока в клан.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/message/body" xml:space="preserve">
+    <value>Сообщение, приложенное кланом к приглашению.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/message/header" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/personalRating/body" xml:space="preserve">
+    <value>Личный рейтинг игрока, которому отправлено приглашение.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/personalRating/header" xml:space="preserve">
+    <value>Личный рейтинг</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/sent/body" xml:space="preserve">
+    <value>Дата и время отправки приглашения в клан.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/sent/header" xml:space="preserve">
+    <value>Отправлено</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/status/body" xml:space="preserve">
+    <value>Статус приглашения в клан. Приглашение может быть актуальным, устаревшим и обработанным.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/status/header" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/userName/body" xml:space="preserve">
+    <value>Имя игрока, которому отправлено приглашение.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/userName/header" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/wins/body" xml:space="preserve">
+    <value>Общий процент побед игрока, которому отправлено приглашение.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/invites/wins/header" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/actions/body" xml:space="preserve">
+    <value>Заявку можно принять или отклонить.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/actions/header" xml:space="preserve">
+    <value>Действия</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/awgExp/body" xml:space="preserve">
+    <value>Средний опыт за бой игрока, подавшего заявку (с учётом премиум аккаунта).</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/awgExp/header" xml:space="preserve">
+    <value>Средний опыт за бой</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/battlesCount/body" xml:space="preserve">
+    <value>Общее количество боёв игрока, подавшего заявку.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/battlesCount/header" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/message/body" xml:space="preserve">
+    <value>Сообщение, приложенное игроком к заявке.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/message/header" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/personalRating/body" xml:space="preserve">
+    <value>Личный рейтинг игрока, подавшего заявку.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/personalRating/header" xml:space="preserve">
+    <value>Личный рейтинг</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/status/body" xml:space="preserve">
+    <value>Статус заявки в клан. Заявка может быть актуальной, устаревшей и обработанной.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/status/header" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/userName/body" xml:space="preserve">
+    <value>Имя игрока, подавшего заявку.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/userName/header" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/wins/body" xml:space="preserve">
+    <value>Общий процент побед игрока, подавшего заявку.</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/requests/wins/header" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/actualInvites" xml:space="preserve">
+    <value>Актуальные приглашения: %(count)s</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/declineSelected" xml:space="preserve">
+    <value>Отклонить выбранное (%(count)s)</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/headerText" xml:space="preserve">
+    <value>Мои приглашения в клан</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/loading" xml:space="preserve">
+    <value>Получение данных...</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/noInvites" xml:space="preserve">
+    <value>У вас пока нет приглашений от кланов</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/selectAll" xml:space="preserve">
+    <value>Выделить все заявки</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/table/actions" xml:space="preserve">
+    <value>Действия</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/table/clanName" xml:space="preserve">
+    <value>Название клана</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/table/status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/title" xml:space="preserve">
+    <value>Приглашения в клан</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/refreshButton/disabled" xml:space="preserve">
+    <value>Вы сможете обновить список после появления новых данных.</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/refreshButton/enabled" xml:space="preserve">
+    <value>Нажмите, чтобы обновить данные в таблице.</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body" xml:space="preserve">
+    <value>Средний опыт за бой игроков клана, приславшего приглашение (средневзвешенное по Случайным боям)</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header" xml:space="preserve">
+    <value>Средний опыт за бой</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body" xml:space="preserve">
+    <value>Среднее количество боёв игроков клана, приславшего приглашение (только Случайные бои)</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header" xml:space="preserve">
+    <value>Бои клана</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/clanName/body" xml:space="preserve">
+    <value>Название клана, приславшего приглашение на вступление</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/clanName/header" xml:space="preserve">
+    <value>Название клана</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/message/body" xml:space="preserve">
+    <value>Сообщение, приложенное кланом к приглашению на вступление</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/message/header" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/rating/body" xml:space="preserve">
+    <value>Общий рейтинг клана, приславшего приглашение</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/rating/header" xml:space="preserve">
+    <value>Рейтинг клана</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/status/body" xml:space="preserve">
+    <value>Статус приглашения в клан, показывающий оставшееся на ответ время</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/status/header" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/wins/body" xml:space="preserve">
+    <value>Процент побед игроков клана, приславшего приглашение (средневзвешенное по Случайным боям)</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/invites/wins/header" xml:space="preserve">
+    <value>Победы клана</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/requests/actions/body" xml:space="preserve">
+    <value>Приглашение можно принять или отклонить. Принимая одно приглашение, вы автоматически отклоняете остальные.</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/requests/actions/header" xml:space="preserve">
+    <value>Действия</value>
+  </data>
+  <data name="clanProfile/mainWindow/dummy/body" xml:space="preserve">
+    <value>Приносим свои извинения за неудобства.
+Попробуйте позже.</value>
+  </data>
+  <data name="clanProfile/mainWindow/dummy/header" xml:space="preserve">
+    <value>Ошибка загрузки данных</value>
+  </data>
+  <data name="clanProfile/mainWindow/title" xml:space="preserve">
+    <value>Профиль клана</value>
+  </data>
+  <data name="clanProfile/mainWindowTab/fortification" xml:space="preserve">
+    <value>Укрепрайон</value>
+  </data>
+  <data name="clanProfile/mainWindowTab/globalMap" xml:space="preserve">
+    <value>Глобальная карта</value>
+  </data>
+  <data name="clanProfile/mainWindowTab/personnel" xml:space="preserve">
+    <value>Личный состав</value>
+  </data>
+  <data name="clanProfile/mainWindowTab/summary" xml:space="preserve">
+    <value>Сводка</value>
+  </data>
+  <data name="clanProfile/sendInvitesWindow/title" xml:space="preserve">
+    <value>Пригласить игрока в клан</value>
+  </data>
+  <data name="clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention" xml:space="preserve">
+    <value>Действие недоступно. Приглашайте в клан по одному игроку.</value>
+  </data>
+  <data name="clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body" xml:space="preserve">
+    <value>Добавить все контакты в список адресатов.</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/battlesCount" xml:space="preserve">
+    <value>Бои за 28 дней</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/battlesPerDay" xml:space="preserve">
+    <value>Наступления за 28 дней</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/commander" xml:space="preserve">
+    <value>Командующий кланом</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/emptyFort" xml:space="preserve">
+    <value>Ещё не основан</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/emptyGlobalMap" xml:space="preserve">
+    <value>Бои не проводились
+Подконтрольных провинций нет</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/fortLevel" xml:space="preserve">
+    <value>Уровень Укрепрайона</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/gold" xml:space="preserve">
+    <value>Казна</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/hasNoBattles" xml:space="preserve">
+    <value>Бои не проводились</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/provinces" xml:space="preserve">
+    <value>Провинции</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/rageLevel10" xml:space="preserve">
+    <value>Рейтинг Эло X</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/rageLevel6" xml:space="preserve">
+    <value>Рейтинг Эло VI</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/rageLevel8" xml:space="preserve">
+    <value>Рейтинг Эло VIII</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/sortiesPerDay" xml:space="preserve">
+    <value>Вылазки за 28 дней</value>
+  </data>
+  <data name="clanProfile/summaryView/blockLbl/totalPlayers" xml:space="preserve">
+    <value>Всего игроков</value>
+  </data>
+  <data name="clanProfile/summaryView/buttonLbl/details" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
+  <data name="clanProfile/summaryView/buttonLbl/navigation" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="clanProfile/summaryView/buttonLbl/request" xml:space="preserve">
+    <value>Отправить заявку</value>
+  </data>
+  <data name="clanProfile/summaryView/defaultClanDescr" xml:space="preserve">
+    <value>У клана нет девиза</value>
+  </data>
+  <data name="clanProfile/summaryView/links/detailsMap" xml:space="preserve">
+    <value>Подробнее о Глобальной карте</value>
+  </data>
+  <data name="clanProfile/summaryView/links/gotoMap" xml:space="preserve">
+    <value>Перейти на карту</value>
+  </data>
+  <data name="clanProfile/summaryView/noData" xml:space="preserve">
+    <value>Данные временно недоступны</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/banned" xml:space="preserve">
+    <value>Невозможно вступить в клан.</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/detailsConditions" xml:space="preserve">
+    <value>Ознакомиться с условиями призыва в клан %(icon)s</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/inAnotherClan" xml:space="preserve">
+    <value>Вы уже состоите
+в другом клане.</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/invitationSubmitted" xml:space="preserve">
+    <value>Вам уже отправлено приглашение
+на вступление в данный клан.</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/inviteLimit" xml:space="preserve">
+    <value>%(icon)s Временно запрещено</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/isInCooldown" xml:space="preserve">
+    <value>%(icon)s Временно запрещено</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/requestLimit" xml:space="preserve">
+    <value>%(icon)s Временно запрещено</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/requestNotBeConsidered" xml:space="preserve">
+    <value>Заявки не рассматриваются %(icon)s</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/requestSubmitted" xml:space="preserve">
+    <value>Заявка подана</value>
+  </data>
+  <data name="clanProfile/summaryView/statusMsg/resynchronize" xml:space="preserve">
+    <value>Данные синхронизируются...</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_10/body" xml:space="preserve">
+    <value>Клановый рейтинг Эло в X дивизионе</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_10/header" xml:space="preserve">
+    <value>Рейтинг Эло X</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_8/body" xml:space="preserve">
+    <value>Клановый рейтинг Эло в VIII дивизионе</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_8/header" xml:space="preserve">
+    <value>Рейтинг Эло VIII</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_battles_count_28/body" xml:space="preserve">
+    <value>Количество Наступлений за последние 28 дней</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_battles_count_28/header" xml:space="preserve">
+    <value>Наступления за 28 дней</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_level/body" xml:space="preserve">
+    <value>Уровень Укрепрайона определяется уровнем его командного центра.</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_level/header" xml:space="preserve">
+    <value>Уровень Укрепрайона</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_sortie_count_28/body" xml:space="preserve">
+    <value>Общее количество Вылазок клана за последние 28 дней</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_sortie_count_28/header" xml:space="preserve">
+    <value>Вылазки за 28 дней</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body" xml:space="preserve">
+    <value>Клановый рейтинг Эло в боях Х дивизиона на Глобальной карте</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header" xml:space="preserve">
+    <value>Рейтинг Эло Х</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body" xml:space="preserve">
+    <value>Клановый рейтинг Эло в боях VI дивизиона на Глобальной карте</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header" xml:space="preserve">
+    <value>Рейтинг Эло VI</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body" xml:space="preserve">
+    <value>Клановый рейтинг Эло в боях VIII дивизиона на Глобальной карте</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header" xml:space="preserve">
+    <value>Рейтинг Эло VIII</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_battles_count/body" xml:space="preserve">
+    <value>Общее количество боёв клана на Глобальной карте за последние 28 дней</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_battles_count/header" xml:space="preserve">
+    <value>Бои за 28 дней</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_province/body" xml:space="preserve">
+    <value>Количество захваченных кланом провинций на Глобальной карте на текущий момент</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/gMap_province/header" xml:space="preserve">
+    <value>Провинции</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/joinUnavailable/afterClanLeave/body" xml:space="preserve">
+    <value>Двухдневный штраф после выхода из предыдущего клана ещё не истёк.</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/joinUnavailable/afterClanLeave/header" xml:space="preserve">
+    <value>Невозможно подать заявку</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body" xml:space="preserve">
+    <value>Подано максимальное количество заявок.</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header" xml:space="preserve">
+    <value>Невозможно подать заявку</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body" xml:space="preserve">
+    <value>Подано максимальное количество заявок.</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header" xml:space="preserve">
+    <value>Невозможно подать заявку</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body" xml:space="preserve">
+    <value>Клан приостановил приём заявок.</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header" xml:space="preserve">
+    <value>Невозможно подать заявку</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/ratingOutdated/body" xml:space="preserve">
+    <value>Рейтинг клана не обновлялся 28 дней.</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/ratingOutdated/header" xml:space="preserve">
+    <value>Устаревшие данные</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/totalRating/body" xml:space="preserve">
+    <value>На рост общего рейтинга влияет эффективность боевых действий клана как в Укрепрайонах, так и на Глобальной карте.</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/totalRating/header" xml:space="preserve">
+    <value>Общий рейтинг</value>
+  </data>
+  <data name="clanProfile/summaryView/totalRage" xml:space="preserve">
+    <value>Общий рейтинг</value>
+  </data>
+  <data name="fort/header/clanProfileBtnLbl" xml:space="preserve">
+    <value>Профиль клана</value>
+  </data>
+  <data name="globalMapView/level10" xml:space="preserve">
+    <value>X уровень</value>
+  </data>
+  <data name="globalMapView/level6" xml:space="preserve">
+    <value>VI уровень</value>
+  </data>
+  <data name="globalMapView/level8" xml:space="preserve">
+    <value>VIII уровень</value>
+  </data>
+  <data name="globalMapView/noIncome/tooltip/body" xml:space="preserve">
+    <value>Эта провинция не приносит доход, так как связь с командным центром нарушена, или эта провинция разграблена.</value>
+  </data>
+  <data name="globalMapView/noIncome/tooltip/header" xml:space="preserve">
+    <value>Не приносит доход</value>
+  </data>
+  <data name="globalMapView/noProvince" xml:space="preserve">
+    <value>У клана нет подконтрольных провинций</value>
+  </data>
+  <data name="globalMapView/popularPrimeTime" xml:space="preserve">
+    <value>Популярный прайм-тайм: %(time)s</value>
+  </data>
+  <data name="globalMapView/promo/description" xml:space="preserve">
+    <value>Глобальная карта — это игровое поле, на котором разворачивается стратегическая борьба между кланами. Именно здесь офицеры кланов проводят большую часть игрового времени, рассчитывая тактику и разворачивая силы для стратегических манёвров.</value>
+  </data>
+  <data name="globalMapView/promo/header" xml:space="preserve">
+    <value>Глобальная карта</value>
+  </data>
+  <data name="globalMapView/promo/infoLink" xml:space="preserve">
+    <value>Подробнее о Глобальной карте</value>
+  </data>
+  <data name="globalMapView/promo/mapLink" xml:space="preserve">
+    <value>Перейти на карту</value>
+  </data>
+  <data name="globalMapView/statistics10/battles" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="globalMapView/statistics10/battles/tooltip/body" xml:space="preserve">
+    <value>Общее количество боёв Х дивизиона на Глобальной карте.</value>
+  </data>
+  <data name="globalMapView/statistics10/battles/tooltip/header" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="globalMapView/statistics10/eloRating" xml:space="preserve">
+    <value>Рейтинг Эло</value>
+  </data>
+  <data name="globalMapView/statistics10/eloRating/tooltip/body" xml:space="preserve">
+    <value>Значение рейтинга клана в боях Х дивизиона на Глобальной карте.</value>
+  </data>
+  <data name="globalMapView/statistics10/eloRating/tooltip/header" xml:space="preserve">
+    <value>Рейтинг Эло</value>
+  </data>
+  <data name="globalMapView/statistics10/favoriteMap" xml:space="preserve">
+    <value>Популярная карта</value>
+  </data>
+  <data name="globalMapView/statistics10/favoriteMap/tooltip/body" xml:space="preserve">
+    <value>Карта, на которой клан провёл наибольшее количество боёв Х дивизиона за последние 28 дней.</value>
+  </data>
+  <data name="globalMapView/statistics10/favoriteMap/tooltip/header" xml:space="preserve">
+    <value>Популярная карта: %(value)s</value>
+  </data>
+  <data name="globalMapView/statistics10/place" xml:space="preserve">
+    <value>Позиция в рейтинге</value>
+  </data>
+  <data name="globalMapView/statistics10/place/tooltip/body" xml:space="preserve">
+    <value>Позиция клана в рейтинге в боях Х дивизиона на Глобальной карте.</value>
+  </data>
+  <data name="globalMapView/statistics10/place/tooltip/header" xml:space="preserve">
+    <value>Позиция в рейтинге</value>
+  </data>
+  <data name="globalMapView/statistics10/wins" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="globalMapView/statistics10/wins/tooltip/body" xml:space="preserve">
+    <value>Общий процент побед в боях Х дивизиона на Глобальной карте.</value>
+  </data>
+  <data name="globalMapView/statistics10/wins/tooltip/header" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="globalMapView/statistics6/battles" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="globalMapView/statistics6/battles/tooltip/body" xml:space="preserve">
+    <value>Общее количество боёв VI дивизиона на Глобальной карте.</value>
+  </data>
+  <data name="globalMapView/statistics6/battles/tooltip/header" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="globalMapView/statistics6/eloRating" xml:space="preserve">
+    <value>Рейтинг Эло</value>
+  </data>
+  <data name="globalMapView/statistics6/eloRating/tooltip/body" xml:space="preserve">
+    <value>Значение рейтинга клана в боях VI дивизиона на Глобальной карте.</value>
+  </data>
+  <data name="globalMapView/statistics6/eloRating/tooltip/header" xml:space="preserve">
+    <value>Рейтинг Эло</value>
+  </data>
+  <data name="globalMapView/statistics6/favoriteMap" xml:space="preserve">
+    <value>Популярная карта</value>
+  </data>
+  <data name="globalMapView/statistics6/favoriteMap/tooltip/body" xml:space="preserve">
+    <value>Карта, на которой клан провёл наибольшее количество боёв VI дивизиона за последние 28 дней.</value>
+  </data>
+  <data name="globalMapView/statistics6/favoriteMap/tooltip/header" xml:space="preserve">
+    <value>Популярная карта: %(value)s</value>
+  </data>
+  <data name="globalMapView/statistics6/place" xml:space="preserve">
+    <value>Позиция в рейтинге</value>
+  </data>
+  <data name="globalMapView/statistics6/place/tooltip/body" xml:space="preserve">
+    <value>Позиция в рейтинге клана в боях VI дивизиона на Глобальной карте.</value>
+  </data>
+  <data name="globalMapView/statistics6/place/tooltip/header" xml:space="preserve">
+    <value>Позиция в рейтинге</value>
+  </data>
+  <data name="globalMapView/statistics6/wins" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="globalMapView/statistics6/wins/tooltip/body" xml:space="preserve">
+    <value>Общий процент побед в боях VI дивизиона на Глобальной карте.</value>
+  </data>
+  <data name="globalMapView/statistics6/wins/tooltip/header" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="globalMapView/statistics8/battles" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="globalMapView/statistics8/battles/tooltip/body" xml:space="preserve">
+    <value>Общее количество боёв VIII дивизиона на Глобальной карте.</value>
+  </data>
+  <data name="globalMapView/statistics8/battles/tooltip/header" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="globalMapView/statistics8/eloRating" xml:space="preserve">
+    <value>Рейтинг Эло</value>
+  </data>
+  <data name="globalMapView/statistics8/eloRating/tooltip/body" xml:space="preserve">
+    <value>Значение рейтинга клана в боях VIII дивизиона на Глобальной карте.</value>
+  </data>
+  <data name="globalMapView/statistics8/eloRating/tooltip/header" xml:space="preserve">
+    <value>Рейтинг Эло</value>
+  </data>
+  <data name="globalMapView/statistics8/favoriteMap" xml:space="preserve">
+    <value>Популярная карта</value>
+  </data>
+  <data name="globalMapView/statistics8/favoriteMap/tooltip/body" xml:space="preserve">
+    <value>Карта, на которой клан провёл наибольшее количество боёв VIII дивизиона за последние 28 дней.</value>
+  </data>
+  <data name="globalMapView/statistics8/favoriteMap/tooltip/header" xml:space="preserve">
+    <value>Популярная карта: %(value)s</value>
+  </data>
+  <data name="globalMapView/statistics8/place" xml:space="preserve">
+    <value>Позиция в рейтинге</value>
+  </data>
+  <data name="globalMapView/statistics8/place/tooltip/body" xml:space="preserve">
+    <value>Позиция в рейтинге клана в боях VIII дивизиона на Глобальной карте.</value>
+  </data>
+  <data name="globalMapView/statistics8/place/tooltip/header" xml:space="preserve">
+    <value>Позиция в рейтинге</value>
+  </data>
+  <data name="globalMapView/statistics8/wins" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="globalMapView/statistics8/wins/tooltip/body" xml:space="preserve">
+    <value>Общий процент побед в боях VIII дивизиона на Глобальной карте.</value>
+  </data>
+  <data name="globalMapView/statistics8/wins/tooltip/header" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="globalMapView/stats/battles" xml:space="preserve">
+    <value>Бои на Глобальной карте</value>
+  </data>
+  <data name="globalMapView/stats/battles/tooltip/body" xml:space="preserve">
+    <value>Общее количество боёв клана на Глобальной карте.</value>
+  </data>
+  <data name="globalMapView/stats/battles/tooltip/header" xml:space="preserve">
+    <value>Бои на Глобальной карте</value>
+  </data>
+  <data name="globalMapView/stats/seized" xml:space="preserve">
+    <value>Захвачено провинций</value>
+  </data>
+  <data name="globalMapView/stats/seized/tooltip/body" xml:space="preserve">
+    <value>Общее количество захваченных кланом провинций за всё время. Потерянные провинции также учитываются.</value>
+  </data>
+  <data name="globalMapView/stats/seized/tooltip/header" xml:space="preserve">
+    <value>Захвачено провинций</value>
+  </data>
+  <data name="globalMapView/stats/wins" xml:space="preserve">
+    <value>Победы по клану</value>
+  </data>
+  <data name="globalMapView/stats/wins/tooltip/body" xml:space="preserve">
+    <value>Средний процент побед игроков клана в боях на Глобальной карте.</value>
+  </data>
+  <data name="globalMapView/stats/wins/tooltip/header" xml:space="preserve">
+    <value>Победы по клану</value>
+  </data>
+  <data name="globalMapView/table/days" xml:space="preserve">
+    <value>Дни</value>
+  </data>
+  <data name="globalMapView/table/days/tooltip/body" xml:space="preserve">
+    <value>Дни владения провинцией на Глобальной карте.</value>
+  </data>
+  <data name="globalMapView/table/days/tooltip/header" xml:space="preserve">
+    <value>Дни</value>
+  </data>
+  <data name="globalMapView/table/front" xml:space="preserve">
+    <value>Фронт</value>
+  </data>
+  <data name="globalMapView/table/front/tooltip/body" xml:space="preserve">
+    <value>Название выбранного фронта.</value>
+  </data>
+  <data name="globalMapView/table/front/tooltip/header" xml:space="preserve">
+    <value>Фронт</value>
+  </data>
+  <data name="globalMapView/table/income" xml:space="preserve">
+    <value>Доход</value>
+  </data>
+  <data name="globalMapView/table/income/tooltip/body" xml:space="preserve">
+    <value>Количество золота, которое приносит провинция за сутки.</value>
+  </data>
+  <data name="globalMapView/table/income/tooltip/header" xml:space="preserve">
+    <value>Доход</value>
+  </data>
+  <data name="globalMapView/table/map" xml:space="preserve">
+    <value>Игровая карта</value>
+  </data>
+  <data name="globalMapView/table/map/tooltip/body" xml:space="preserve">
+    <value>Название карты, на которой проходят бои за провинцию.</value>
+  </data>
+  <data name="globalMapView/table/map/tooltip/header" xml:space="preserve">
+    <value>Игровая карта</value>
+  </data>
+  <data name="globalMapView/table/primeTime" xml:space="preserve">
+    <value>Прайм-тайм</value>
+  </data>
+  <data name="globalMapView/table/primeTime/tooltip/body" xml:space="preserve">
+    <value>Запланированное время начала боёв за провинцию.</value>
+  </data>
+  <data name="globalMapView/table/primeTime/tooltip/header" xml:space="preserve">
+    <value>Прайм-тайм</value>
+  </data>
+  <data name="globalMapView/table/province" xml:space="preserve">
+    <value>Провинция</value>
+  </data>
+  <data name="globalMapView/table/province/tooltip/body" xml:space="preserve">
+    <value>Название выбранной провинции.</value>
+  </data>
+  <data name="globalMapView/table/province/tooltip/header" xml:space="preserve">
+    <value>Провинция</value>
+  </data>
+  <data name="globalMapView/tabs/provinces" xml:space="preserve">
+    <value>Провинции</value>
+  </data>
+  <data name="globalMapView/tabs/stats" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="globalMapView/tooltip/ratingOutdated" xml:space="preserve">
+    <value>Рейтинг клана не обновлялся 28 дней.</value>
+  </data>
+  <data name="globalMapView/totalIncome" xml:space="preserve">
+    <value>Суммарный доход в сутки: %(icon)s%(value)s</value>
+  </data>
+  <data name="personnelView/clanStats/avgBattlesCount" xml:space="preserve">
+    <value>Среднее
+количество боёв</value>
+  </data>
+  <data name="personnelView/clanStats/avgBattlesCount/tooltip/body" xml:space="preserve">
+    <value>Среднее арифметическое количество боёв членов клана в Случайных и Ротных боях. Учитываются только игроки, находящиеся в клане на текущий момент.</value>
+  </data>
+  <data name="personnelView/clanStats/avgBattlesCount/tooltip/header" xml:space="preserve">
+    <value>Среднее количество боёв по клану</value>
+  </data>
+  <data name="personnelView/clanStats/avgExp" xml:space="preserve">
+    <value>Средний опыт</value>
+  </data>
+  <data name="personnelView/clanStats/avgExp/tooltip/body" xml:space="preserve">
+    <value>Средневзвешенное значение количества опыта членов клана в Случайных и Ротных боях. За вес принимается общее количество боёв игрока. Учитываются только игроки, находящиеся в клане на текущий момент.</value>
+  </data>
+  <data name="personnelView/clanStats/avgExp/tooltip/header" xml:space="preserve">
+    <value>Средний опыт по клану</value>
+  </data>
+  <data name="personnelView/clanStats/avgPersonalRating" xml:space="preserve">
+    <value>Средний личный рейтинг</value>
+  </data>
+  <data name="personnelView/clanStats/avgPersonalRating/tooltip/body" xml:space="preserve">
+    <value>Среднее арифметическое показателей личного рейтинга всех членов клана. Учитываются только игроки, находящиеся в клане на текущий момент.</value>
+  </data>
+  <data name="personnelView/clanStats/avgPersonalRating/tooltip/header" xml:space="preserve">
+    <value>Средний личный рейтинг по клану</value>
+  </data>
+  <data name="personnelView/clanStats/avgWins" xml:space="preserve">
+    <value>Средний процент побед</value>
+  </data>
+  <data name="personnelView/clanStats/avgWins/tooltip/body" xml:space="preserve">
+    <value>Средневзвешенное значение процента побед членов клана в Случайных и Ротных боях. За вес принимается общее количество боёв игрока. Учитываются только игроки, находящиеся в клане на текущий момент.</value>
+  </data>
+  <data name="personnelView/clanStats/avgWins/tooltip/header" xml:space="preserve">
+    <value>Средний процент побед по клану</value>
+  </data>
+  <data name="personnelView/membersCount" xml:space="preserve">
+    <value>Игроков в клане: %(count)s / %(max)s</value>
+  </data>
+  <data name="personnelView/table/avgExp/tooltip/body" xml:space="preserve">
+    <value>Отношение общего количества заработанного опыта к количеству проведённых игроком Случайных и Ротных боёв.</value>
+  </data>
+  <data name="personnelView/table/avgExp/tooltip/header" xml:space="preserve">
+    <value>Средний опыт</value>
+  </data>
+  <data name="personnelView/table/battlesCount/tooltip/body" xml:space="preserve">
+    <value>Общее количество проведённых игроком Cлучайных и Ротных боёв.</value>
+  </data>
+  <data name="personnelView/table/battlesCount/tooltip/header" xml:space="preserve">
+    <value>Количество боёв за всё время</value>
+  </data>
+  <data name="personnelView/table/daysInClan/tooltip/body" xml:space="preserve">
+    <value>Количество дней пребывания игрока в данном клане.</value>
+  </data>
+  <data name="personnelView/table/daysInClan/tooltip/header" xml:space="preserve">
+    <value>Дни в клане</value>
+  </data>
+  <data name="personnelView/table/personalRating/tooltip/body" xml:space="preserve">
+    <value>Показатель личного рейтинга игрока</value>
+  </data>
+  <data name="personnelView/table/personalRating/tooltip/header" xml:space="preserve">
+    <value>Личный рейтинг</value>
+  </data>
+  <data name="personnelView/table/player" xml:space="preserve">
+    <value>Игрок (%(count)s / %(max)s)</value>
+  </data>
+  <data name="personnelView/table/player/tooltip/body" xml:space="preserve">
+    <value>Игровой ник члена клана.</value>
+  </data>
+  <data name="personnelView/table/player/tooltip/header" xml:space="preserve">
+    <value>Игрок</value>
+  </data>
+  <data name="personnelView/table/post" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="personnelView/table/post/tooltip/body" xml:space="preserve">
+    <value>Должность в клане, занимаемая игроком.</value>
+  </data>
+  <data name="personnelView/table/post/tooltip/header" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="personnelView/table/wins/tooltip/body" xml:space="preserve">
+    <value>Общий процент одержанных игроком побед в Случайных и Ротных боях.</value>
+  </data>
+  <data name="personnelView/table/wins/tooltip/header" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="search/clansList" xml:space="preserve">
+    <value>Кланов в списке: %(value)s</value>
+  </data>
+  <data name="search/emptyResult/body" xml:space="preserve">
+    <value>По вашему запросу ничего не найдено. Попробуйте искать по другим ключевым словам.</value>
+  </data>
+  <data name="search/emptyResult/button" xml:space="preserve">
+    <value>Вернуться к списку</value>
+  </data>
+  <data name="search/emptyResult/button/tooltip/body" xml:space="preserve">
+    <value>Нажмите, чтобы вернуться к списку подобранных по вашему запросу кланов.</value>
+  </data>
+  <data name="search/emptyResult/button/tooltip/header" xml:space="preserve">
+    <value>Вернуться к списку</value>
+  </data>
+  <data name="search/emptyResult/header" xml:space="preserve">
+    <value>Поиск не дал результатов</value>
+  </data>
+  <data name="search/foundClans" xml:space="preserve">
+    <value>Найденные кланы: %(value)s</value>
+  </data>
+  <data name="search/info/banned/tooltip/body" xml:space="preserve">
+    <value>Невозможно вступить в клан.</value>
+  </data>
+  <data name="search/info/banned/tooltip/header" xml:space="preserve">
+    <value>Невозможно подать заявку</value>
+  </data>
+  <data name="search/info/clanProfileBtn" xml:space="preserve">
+    <value>Профиль клана</value>
+  </data>
+  <data name="search/info/cooldown/tooltip/attention" xml:space="preserve">
+    <value>Двухдневный штраф после выхода из предыдущего клана ещё не истёк.</value>
+  </data>
+  <data name="search/info/cooldown/tooltip/header" xml:space="preserve">
+    <value>Невозможно подать заявку</value>
+  </data>
+  <data name="search/info/creationDate" xml:space="preserve">
+    <value>Создан: %(date)s</value>
+  </data>
+  <data name="search/info/forbiddenAccountType/tooltip/body" xml:space="preserve">
+    <value>Невозможно подать заявку на вступление в клан.</value>
+  </data>
+  <data name="search/info/forbiddenAccountType/tooltip/header" xml:space="preserve">
+    <value>Действие недоступно</value>
+  </data>
+  <data name="search/info/inviteAlreadyAchieved/tooltip/attention" xml:space="preserve">
+    <value>Вам уже отправлено приглашение на вступление в данный клан.</value>
+  </data>
+  <data name="search/info/inviteAlreadyAchieved/tooltip/header" xml:space="preserve">
+    <value>Невозможно подать заявку</value>
+  </data>
+  <data name="search/info/ratingDescription" xml:space="preserve">
+    <value>Общий рейтинг</value>
+  </data>
+  <data name="search/info/ratingDescription/tooltip/body" xml:space="preserve">
+    <value>На рост общего рейтинга влияет эффективность боевых действий клана как в Укрепрайонах, так и на Глобальной карте.</value>
+  </data>
+  <data name="search/info/ratingDescription/tooltip/header" xml:space="preserve">
+    <value>Общий рейтинг</value>
+  </data>
+  <data name="search/info/requestAlreadySent/tooltip/attention" xml:space="preserve">
+    <value>Вы уже подали заявку в данный клан.</value>
+  </data>
+  <data name="search/info/requestAlreadySent/tooltip/header" xml:space="preserve">
+    <value>Невозможно подать заявку</value>
+  </data>
+  <data name="search/info/requestSent" xml:space="preserve">
+    <value>Заявка подана</value>
+  </data>
+  <data name="search/info/requestsAreNotAccepted/tooltip/attention" xml:space="preserve">
+    <value>Клан приостановил приём заявок.</value>
+  </data>
+  <data name="search/info/requestsAreNotAccepted/tooltip/header" xml:space="preserve">
+    <value>Невозможно подать заявку</value>
+  </data>
+  <data name="search/info/requestsLimitExceeded/tooltip/attention" xml:space="preserve">
+    <value>Подано максимальное количество заявок.</value>
+  </data>
+  <data name="search/info/requestsLimitExceeded/tooltip/header" xml:space="preserve">
+    <value>Невозможно подать заявку</value>
+  </data>
+  <data name="search/info/sendRequestBtn" xml:space="preserve">
+    <value>Подать заявку</value>
+  </data>
+  <data name="search/info/serverUnavailable/body" xml:space="preserve">
+    <value>Серверные данные не получены. Попробуйте позже.</value>
+  </data>
+  <data name="search/info/serverUnavailable/header" xml:space="preserve">
+    <value>Ошибка сервера</value>
+  </data>
+  <data name="search/info/stats/avgExp" xml:space="preserve">
+    <value>Средний опыт</value>
+  </data>
+  <data name="search/info/stats/avgExp/tooltip/body" xml:space="preserve">
+    <value>Средневзвешенное значение количества опыта членов клана во всех режимах боёв. За вес принимается общее количество боёв игрока. Учитываются только игроки, находящиеся в клане на текущий момент.</value>
+  </data>
+  <data name="search/info/stats/avgExp/tooltip/header" xml:space="preserve">
+    <value>Средний опыт по клану</value>
+  </data>
+  <data name="search/info/stats/battles" xml:space="preserve">
+    <value>Среднее
+количество боёв</value>
+  </data>
+  <data name="search/info/stats/battles/tooltip/body" xml:space="preserve">
+    <value>Среднее арифметическое количество боёв членов клана во всех режимах боёв. Учитываются только игроки, находящиеся в клане на текущий момент.</value>
+  </data>
+  <data name="search/info/stats/battles/tooltip/header" xml:space="preserve">
+    <value>Среднее количество боёв по клану</value>
+  </data>
+  <data name="search/info/stats/wins" xml:space="preserve">
+    <value>Средний процент побед</value>
+  </data>
+  <data name="search/info/stats/wins/tooltip/body" xml:space="preserve">
+    <value>Средневзвешенное значение процента побед членов клана во всех режимах боёв. За вес принимается общее количество боёв игрока. Учитываются только игроки, находящиеся в клане на текущий момент.</value>
+  </data>
+  <data name="search/info/stats/wins/tooltip/header" xml:space="preserve">
+    <value>Средний процент побед по клану</value>
+  </data>
+  <data name="search/nextBtn" xml:space="preserve">
+    <value>Следующие</value>
+  </data>
+  <data name="search/nextBtn/tooltip/body" xml:space="preserve">
+    <value>Нажмите, чтобы отобразить следующую часть списка кланов.</value>
+  </data>
+  <data name="search/nextBtn/tooltip/header" xml:space="preserve">
+    <value>Следующие</value>
+  </data>
+  <data name="search/previousBtn" xml:space="preserve">
+    <value>Предыдущие</value>
+  </data>
+  <data name="search/previousBtn/tooltip/body" xml:space="preserve">
+    <value>Нажмите, чтобы отобразить предыдущую часть списка кланов.</value>
+  </data>
+  <data name="search/previousBtn/tooltip/header" xml:space="preserve">
+    <value>Предыдущие</value>
+  </data>
+  <data name="search/promoText/body" xml:space="preserve">
+    <value>Для поиска клана введите в текстовое поле название или тег, затем нажмите «Поиск».</value>
+  </data>
+  <data name="search/promoText/header" xml:space="preserve">
+    <value>Поиск клана</value>
+  </data>
+  <data name="search/searchBtn" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="search/searchBtn/tooltip/body" xml:space="preserve">
+    <value>Введите название клана или тег в поле слева (не менее 2 символов).</value>
+  </data>
+  <data name="search/searchBtn/tooltip/header" xml:space="preserve">
+    <value>Поиск клана</value>
+  </data>
+  <data name="search/searchInputPrompt" xml:space="preserve">
+    <value>Введите название или тег клана.</value>
+  </data>
+  <data name="search/serverUnavailable/body" xml:space="preserve">
+    <value>Серверные данные не получены. Попробуйте позже.</value>
+  </data>
+  <data name="search/serverUnavailable/header" xml:space="preserve">
+    <value>Ошибка сервера</value>
+  </data>
+  <data name="search/table/clan" xml:space="preserve">
+    <value>Клан</value>
+  </data>
+  <data name="search/table/clan/tooltip/body" xml:space="preserve">
+    <value>Атрибуты клана: тег и название.</value>
+  </data>
+  <data name="search/table/clan/tooltip/header" xml:space="preserve">
+    <value>Клан</value>
+  </data>
+  <data name="search/table/creationDate" xml:space="preserve">
+    <value>Создан</value>
+  </data>
+  <data name="search/table/creationDate/tooltip/body" xml:space="preserve">
+    <value>Дата создания клана.</value>
+  </data>
+  <data name="search/table/creationDate/tooltip/header" xml:space="preserve">
+    <value>Создан</value>
+  </data>
+  <data name="search/table/players" xml:space="preserve">
+    <value>Игроки</value>
+  </data>
+  <data name="search/table/players/tooltip/body" xml:space="preserve">
+    <value>Общее количество игроков в клане.</value>
+  </data>
+  <data name="search/table/players/tooltip/header" xml:space="preserve">
+    <value>Игроки</value>
+  </data>
+  <data name="search/table/rating" xml:space="preserve">
+    <value>Рейтинг</value>
+  </data>
+  <data name="search/table/rating/tooltip/body" xml:space="preserve">
+    <value>Общий рейтинг клана.</value>
+  </data>
+  <data name="search/table/rating/tooltip/header" xml:space="preserve">
+    <value>Рейтинг</value>
+  </data>
+  <data name="search/title" xml:space="preserve">
+    <value>Поиск клана</value>
+  </data>
+  <data name="search/titleDescription" xml:space="preserve">
+    <value>Здесь вы можете найти клан, ознакомиться с общей информацией и подать заявку
+на вступление. Поиск ведётся по названию или тегу клана.</value>
+  </data>
+  <data name="search/windowTitle" xml:space="preserve">
+    <value>Поиск клана</value>
+  </data>
+  <data name="section/fort/bodyBar/label/scheme" xml:space="preserve">
+    <value>Схема</value>
+  </data>
+  <data name="section/fort/bodyBar/label/statistics" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="section/fort/building/tooltip/body" xml:space="preserve">
+    <value>Уровень %(level)s
+
+%(description)s</value>
+  </data>
+  <data name="section/fort/defence/notActivated" xml:space="preserve">
+    <value>не назначен</value>
+  </data>
+  <data name="section/fort/tooltips/absoluteBattlesCount/body" xml:space="preserve">
+    <value>Количество боёв на X уровне.</value>
+  </data>
+  <data name="section/fort/tooltips/absoluteBattlesCount/header" xml:space="preserve">
+    <value>Абсолютный дивизион</value>
+  </data>
+  <data name="section/fort/tooltips/absoluteLvlBattles/body" xml:space="preserve">
+    <value>Общее количество проведённых Наступлений на Х уровне.</value>
+  </data>
+  <data name="section/fort/tooltips/absoluteLvlBattles/header" xml:space="preserve">
+    <value>Наступления (Абсолютный дивизион)</value>
+  </data>
+  <data name="section/fort/tooltips/avgBattlesCount28/body" xml:space="preserve">
+    <value>Общее количество проведённых Вылазок во всех дивизионах за последние 28 дней.</value>
+  </data>
+  <data name="section/fort/tooltips/avgBattlesCount28/header" xml:space="preserve">
+    <value>Вылазки во всех дивизионах</value>
+  </data>
+  <data name="section/fort/tooltips/championBattlesCount/body" xml:space="preserve">
+    <value>Количество боёв на VIII уровне.</value>
+  </data>
+  <data name="section/fort/tooltips/championBattlesCount/header" xml:space="preserve">
+    <value>Чемпионский дивизион</value>
+  </data>
+  <data name="section/fort/tooltips/chempionLvlBattles/body" xml:space="preserve">
+    <value>Общее количество проведённых Наступлений на VIII уровне.</value>
+  </data>
+  <data name="section/fort/tooltips/chempionLvlBattles/header" xml:space="preserve">
+    <value>Наступления (Чемпионский дивизион)</value>
+  </data>
+  <data name="section/fort/tooltips/countCapturedCommandCentres/body" xml:space="preserve">
+    <value>Общее количество захваченных командных центров противника за всё время.</value>
+  </data>
+  <data name="section/fort/tooltips/countCapturedCommandCentres/header" xml:space="preserve">
+    <value>Захваченные командные центры</value>
+  </data>
+  <data name="section/fort/tooltips/countPlunderedAllyBuildings/body" xml:space="preserve">
+    <value>Общее количество разграбленных противником строений вашего Укрепрайона за всё время.</value>
+  </data>
+  <data name="section/fort/tooltips/countPlunderedAllyBuildings/header" xml:space="preserve">
+    <value>Разграбленные строения вашего Укрепрайона</value>
+  </data>
+  <data name="section/fort/tooltips/countPlunderedEnemyBuildings/body" xml:space="preserve">
+    <value>Общее количество разграбленных строений противника за всё время.</value>
+  </data>
+  <data name="section/fort/tooltips/countPlunderedEnemyBuildings/header" xml:space="preserve">
+    <value>Разграбленные строения противника</value>
+  </data>
+  <data name="section/fort/tooltips/countPromres/body" xml:space="preserve">
+    <value>Суммарное количество заработанного в Наступлениях промресурса.</value>
+  </data>
+  <data name="section/fort/tooltips/countPromres/header" xml:space="preserve">
+    <value>Получено промресурса</value>
+  </data>
+  <data name="section/fort/tooltips/efficiencyOfAttack/body" xml:space="preserve">
+    <value>Общее количество проведённых нападений, в которых было захвачено хотя бы одно строение противника.</value>
+  </data>
+  <data name="section/fort/tooltips/efficiencyOfAttack/header" xml:space="preserve">
+    <value>Эффективность нападения</value>
+  </data>
+  <data name="section/fort/tooltips/efficiencyOfDefence/body" xml:space="preserve">
+    <value>Общее количество проведённых защит, в которых не было потеряно ни одного строения.</value>
+  </data>
+  <data name="section/fort/tooltips/efficiencyOfDefence/header" xml:space="preserve">
+    <value>Эффективность защиты</value>
+  </data>
+  <data name="section/fort/tooltips/lootInSorties/body" xml:space="preserve">
+    <value>Суммарное количество заработанного за все проведённые Вылазки промресурса во всех дивизионах.</value>
+  </data>
+  <data name="section/fort/tooltips/lootInSorties/header" xml:space="preserve">
+    <value>Всего промресурса за Вылазки</value>
+  </data>
+  <data name="section/fort/tooltips/lostPromres/body" xml:space="preserve">
+    <value>Суммарное количество потерянного в Наступлениях промресурса.</value>
+  </data>
+  <data name="section/fort/tooltips/lostPromres/header" xml:space="preserve">
+    <value>Потеряно промресурса</value>
+  </data>
+  <data name="section/fort/tooltips/middleBattlesCount/body" xml:space="preserve">
+    <value>Количество боёв на VI уровне.</value>
+  </data>
+  <data name="section/fort/tooltips/middleBattlesCount/header" xml:space="preserve">
+    <value>Средний дивизион</value>
+  </data>
+  <data name="section/fort/tooltips/profit/body" xml:space="preserve">
+    <value>Разница между показателями «Получено промресурса» и «Потеряно промресурса».</value>
+  </data>
+  <data name="section/fort/tooltips/profit/header" xml:space="preserve">
+    <value>Чистая прибыль</value>
+  </data>
+  <data name="section/fort/tooltips/recordResource/body" xml:space="preserve">
+    <value>Максимальное количество промресурса, заработанного в одной Вылазке.</value>
+  </data>
+  <data name="section/fort/tooltips/recordResource/header" xml:space="preserve">
+    <value>Рекорд заработка промресурса</value>
+  </data>
+  <data name="section/fort/tooltips/recordWinSeries/body" xml:space="preserve">
+    <value>Максимальное количество побед подряд в Вылазках.</value>
+  </data>
+  <data name="section/fort/tooltips/recordWinSeries/header" xml:space="preserve">
+    <value>Рекордная серия побед</value>
+  </data>
+  <data name="section/fort/tooltips/winsEfficiency28/body" xml:space="preserve">
+    <value>Общий процент одержанных в Вылазках побед во всех дивизионах за последние 28 дней.</value>
+  </data>
+  <data name="section/fort/tooltips/winsEfficiency28/header" xml:space="preserve">
+    <value>Победы во всех дивизионах</value>
+  </data>
+  <data name="section/fort/view/schema/labels/dayoff" xml:space="preserve">
+    <value>Прекращение огня:</value>
+  </data>
+  <data name="section/fort/view/schema/labels/defenceHour" xml:space="preserve">
+    <value>Период обороны:</value>
+  </data>
+  <data name="section/fort/view/schema/labels/server" xml:space="preserve">
+    <value>Домашний сервер:</value>
+  </data>
+  <data name="section/fort/view/schema/labels/totalBuildings" xml:space="preserve">
+    <value>Строений возведено:</value>
+  </data>
+  <data name="section/fort/view/schema/labels/totalDirections" xml:space="preserve">
+    <value>Направлений открыто:</value>
+  </data>
+  <data name="section/fort/view/schema/labels/vacation" xml:space="preserve">
+    <value>Нейтралитет:</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/absoluteLvlBattles" xml:space="preserve">
+    <value>Наступлений в абсолютном дивизионе</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/chempionLvlBattles" xml:space="preserve">
+    <value>Наступлений в чемпионском дивизионе</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/countCapturedCommandCentres" xml:space="preserve">
+    <value>Захваченных командных центров</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/countPlunderedAllyBuildings" xml:space="preserve">
+    <value>Разграбленных строений вашего Укрепрайона</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/countPlunderedEnemyBuildings" xml:space="preserve">
+    <value>Разграбленных строений противника</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/countPromres" xml:space="preserve">
+    <value>Получено промресурса</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/efficiencyOfAttack" xml:space="preserve">
+    <value>Эффективность нападения</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/efficiencyOfDefence" xml:space="preserve">
+    <value>Эффективность защиты</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/header" xml:space="preserve">
+    <value>Общая статистика по Наступлениям</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/lostPromres" xml:space="preserve">
+    <value>Потеряно промресурса</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/detailed/profit" xml:space="preserve">
+    <value>Чистая прибыль</value>
+  </data>
+  <data name="section/fort/view/statistics/battles/header" xml:space="preserve">
+    <value>Бои в Наступлениях</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/absoluteBattlesCount" xml:space="preserve">
+    <value>Абсолютного уровня</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/avgBattlesCount28" xml:space="preserve">
+    <value>Бои во всех дивизионах за последние 28 дней</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/championBattlesCount" xml:space="preserve">
+    <value>Чемпионского уровня</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/header" xml:space="preserve">
+    <value>Бои по дивизионам</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/lootInSorties" xml:space="preserve">
+    <value>Всего заработано промресурса в Вылазках</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/middleBattlesCount" xml:space="preserve">
+    <value>Среднего уровня</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/recordResource" xml:space="preserve">
+    <value>Рекорд заработка промресурса</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/recordWinSeries" xml:space="preserve">
+    <value>Рекордная серия побед</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/detailed/winsEfficiency28" xml:space="preserve">
+    <value>Победы во всех дивизионах за последние 28 дней</value>
+  </data>
+  <data name="section/fort/view/statistics/sorties/header" xml:space="preserve">
+    <value>Вылазки</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/btnAction" xml:space="preserve">
+    <value>Профиль клана</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/btnClose" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/header" xml:space="preserve">
+    <value>Добро пожаловать в клан!</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/secondaryText" xml:space="preserve">
+    <value>Теперь вы можете участвовать в боях на Глобальной карте, отстраивать и оборонять свой Укрепрайон, а также выполнять специальные боевые задачи.</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/title" xml:space="preserve">
+    <value>Информационный листок</value>
+  </data>
+  <data name="clanProfile/clanJoinAward/yourClan" xml:space="preserve">
+    <value>Ваш клан: [%(tag)s] %(clanName)s</value>
+  </data>
+  <data name="globalMapView/table/provinceRobbed/tooltip/noIncome" xml:space="preserve">
+    <value>Провинция разграблена и временно не приносит доход.</value>
+  </data>
+  <data name="globalMapView/table/provinceRobbed/tooltip/restoreTime" xml:space="preserve">
+    <value>Время восстановления доходности:
+%(date)s</value>
+  </data>
+  <data name="search/requestTooShort/body" xml:space="preserve">
+    <value>Для поиска клана введите в текстовое поле более 2 символов, затем повторите поиск.</value>
+  </data>
+  <data name="search/requestTooShort/button" xml:space="preserve">
+    <value>Вернуться к списку</value>
+  </data>
+  <data name="search/requestTooShort/button/tooltip/header" xml:space="preserve">
+    <value>Вернуться к списку</value>
+  </data>
+  <data name="search/requestTooShort/header" xml:space="preserve">
+    <value>Недостаточно данных</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body" xml:space="preserve">
+    <value>Игрок недавно покинул клан. Вы сможете принять его в клан не ранее:</value>
+  </data>
+  <data name="clanProfile/fortificationInfo/dummy/body" xml:space="preserve">
+    <value>Приносим извинения за причинённые неудобства. Повторите попытку позже.</value>
+  </data>
+  <data name="clanProfile/fortificationInfo/dummy/header" xml:space="preserve">
+    <value>Укрепрайон временно недоступен</value>
+  </data>
+  <data name="clanInvitesWindow/tooltips/request/requestExpired" xml:space="preserve">
+    <value>Срок действия заявки истёк</value>
+  </data>
+  <data name="clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body" xml:space="preserve">
+    <value>Вы недавно покинули клан. Принимать приглашения в клан вы сможете не ранее:</value>
+  </data>
+  <data name="personnelView/title" xml:space="preserve">
+    <value>Статистика игроков клана по Случайным боям:</value>
+  </data>
+  <data name="search/info/ratingTitle" xml:space="preserve">
+    <value>Статистика по всем типам боёв:</value>
+  </data>
+  <data name="clanInvite/notification/userNameError" xml:space="preserve">
+    <value>Ошибка отображения имени</value>
+  </data>
+  <data name="clanProfile/mainWindowTab/strongholds" xml:space="preserve">
+    <value>Укрепрайон</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_6/body" xml:space="preserve">
+    <value>Клановый рейтинг Эло в VI дивизионе</value>
+  </data>
+  <data name="clanProfile/summaryView/tooltip/fort_ELO_rage_6/header" xml:space="preserve">
+    <value>Рейтинг Эло VI</value>
+  </data>
+</root>
