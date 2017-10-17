@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using WotDossier.Applications.Logic;
 using WotDossier.Applications.ViewModel.Statistic;
 using WotDossier.Common;
+using WotDossier.Domain;
 using WotDossier.Domain.Rating;
 using WotDossier.Domain.Tank;
 
@@ -15,9 +16,7 @@ namespace WotDossier.Applications.ViewModel.Rows
 
         #region Common
 
-        public TankIcon Icon { get; set; }
-
-        public string Tank { get; set; }
+        public TankDescription TankDescription { get; set; }
 
         public int Type { get; set; }
 
@@ -267,11 +266,13 @@ namespace WotDossier.Applications.ViewModel.Rows
         {
             if (battleCount > 0)
             {
-                double expDamage = battleCount * Description.ExpectedValues[wn8type].Damage / battleCount;
-                double expSpotted = battleCount * Description.ExpectedValues[wn8type].Spotted / battleCount;
-                double expDef = battleCount * Description.ExpectedValues[wn8type].Defence / battleCount;
-                double expWinRate = battleCount * Description.ExpectedValues[wn8type].WinRate / 100.0 / battleCount;
-                double expFrags = battleCount * Description.ExpectedValues[wn8type].Frags / battleCount;
+	            var expValues = Dictionaries.Instance.FindExpectedValues(wn8type, Description);
+
+				double expDamage = battleCount * expValues.Damage / battleCount;
+                double expSpotted = battleCount * expValues.Spotted / battleCount;
+                double expDef = battleCount * expValues.Defence / battleCount;
+                double expWinRate = battleCount * expValues.WinRate / battleCount;
+                double expFrags = battleCount * expValues.Frags / battleCount;
 
                 return RatingHelper.Wn8(avgDmg, expDamage, avgFrag, expFrags, avgSpot, expSpotted, avgDef, expDef, avgWinRate, expWinRate);
             }
@@ -303,7 +304,7 @@ namespace WotDossier.Applications.ViewModel.Rows
                 if (BattlesCount > 0)
                 {
                     return RatingHelper.PerformanceRating(BattlesCount, Wins,
-                        BattlesCount*Description.Expectancy.PRNominalDamage,
+                        BattlesCount* Dictionaries.Instance.FindExpectedValues(WN8Type.Perfomance, Description).Damage,
                         DamageDealt, Tier);
                 }
                 return 0;
@@ -317,7 +318,7 @@ namespace WotDossier.Applications.ViewModel.Rows
                 if (BattlesCountDelta > 0)
                 {
                     return RatingHelper.PerformanceRating(BattlesCountDelta, WinsDelta,
-                        BattlesCountDelta * Description.Expectancy.PRNominalDamage,
+                        BattlesCountDelta * Dictionaries.Instance.FindExpectedValues(WN8Type.Perfomance, Description).Damage,
                         DamageDealtDelta, Tier, false);
                 }
                 return 0;
@@ -340,11 +341,10 @@ namespace WotDossier.Applications.ViewModel.Rows
         public TankStatisticRowViewModelBase(TankJson tank, IEnumerable<StatisticSlice> list)
             : base(Utils.UnixDateToDateTime(tank.Common.updated), list)
         {
-            Icon = tank.Description.Icon;
             Description = tank.Description;
             Tier = tank.Description.Tier;
             Type = tank.Description.Type;
-            Tank = tank.Description.Title;
+	        TankDescription = tank.Description;
             CountryId = tank.Description.CountryId;
             TankId = tank.Description.TankId;
             TankUniqueId = tank.UniqueId();
@@ -434,7 +434,7 @@ namespace WotDossier.Applications.ViewModel.Rows
         /// </returns>
         public override string ToString()
         {
-            return Tank;
+            return TankDescription.Title;
         }
 
         private string _dossier;

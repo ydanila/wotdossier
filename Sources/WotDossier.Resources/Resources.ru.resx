@@ -3652,4 +3652,7 @@
   <data name="Label_ReplayDetail_HEReceived" xml:space="preserve">
     <value>Получено попаданий осколками</value>
   </data>
+  <data name="BattleType_GlobalMap" xml:space="preserve">
+    <value>Глобальная карта</value>
+  </data>
 </root>

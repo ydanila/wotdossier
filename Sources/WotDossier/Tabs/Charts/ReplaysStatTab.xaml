@@ -26,15 +26,14 @@
                     </Style>
                 </DataGrid.Resources>
                 <DataGrid.Columns>
-                    <DataGridTemplateColumn Header="{x:Static resources:Resources.Column_Header_Map}" SortMemberPath="MapName">
+                    <DataGridTemplateColumn Header="{x:Static resources:Resources.Column_Header_Map}" SortMemberPath="Map">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <Grid>
-                                    <TextBlock Margin="6" Text="{Binding Path=MapName}" HorizontalAlignment="Right" VerticalAlignment="Center">
+                                    <TextBlock Margin="6" Text="{Binding Map.Title}" HorizontalAlignment="Right" VerticalAlignment="Center">
                                         <ToolTipService.ToolTip>
                                             <Grid>
-                                                <Image Source="{Binding Path=., Converter={x:Static  converters:MapToMinimapImageConverter.Default}, ConverterParameter=0}" />
-                                                <Image Source="{Binding Path=., Converter={x:Static  converters:MapToMinimapImageConverter.Default}, ConverterParameter=1}" />
+                                                <Image Source="{Binding Map, Converter={x:Static  converters:MapToImageConverter.Default}, ConverterParameter=0}" />
                                             </Grid>
                                         </ToolTipService.ToolTip>
                                     </TextBlock>

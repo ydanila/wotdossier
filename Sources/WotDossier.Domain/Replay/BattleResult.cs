@@ -12,8 +12,19 @@ namespace WotDossier.Domain.Replay
         public Common common { get; set; }
         [DataMember]
         public Personal personal { get; set; }
-        [DataMember]
-        public Avatar avatar { get; set; }
+
+	    private Avatar _avatar;
+	    [DataMember]
+	    public Avatar avatar
+	    {
+		    get
+		    {
+			    if(_avatar == null)
+				    _avatar = new Avatar();
+			    return _avatar;
+		    }
+		    set { _avatar = value; }
+	    }
         [DataMember]
         public Dictionary<long, Player> players { get; set; }
         [DataMember]

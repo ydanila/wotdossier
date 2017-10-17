@@ -252,9 +252,7 @@ private const string REPLAY_DATABLOCK_2 = "datablock_2";
                         replay.datablock_battle_result.players = battleResult.players;
                         replay.datablock_battle_result.personal = battleResult.personal.Values.First() as Personal;
 						if(battleResult.personal.ContainsKey("avatar"))
-							replay.datablock_battle_result.avatar = battleResult.personal["avatar"] as Avatar;
-						else
-							replay.datablock_battle_result.avatar = new Avatar();
+							replay.datablock_battle_result.avatar = battleResult.personal["avatar"] as Avatar;						
 						replay.datablock_battle_result.vehicles = battleResult.vehicles.ToDictionary(x => x.Key, y => y.Value.First());
 	                    replay.datablock_battle_result.raw = parsedData.ToString();
 					}

@@ -2384,11 +2384,20 @@ W-670</value>
   <data name="_45mm_VT-43" xml:space="preserve">
     <value>45 mm VT-43</value>
   </data>
+  <data name="Chassis_LTP" xml:space="preserve">
+    <value>LTP</value>
+  </data>
   <data name="Chassis_R100_SU122A" xml:space="preserve">
     <value>SU-122A</value>
   </data>
   <data name="Chassis_R100_SU122A_2" xml:space="preserve">
     <value>SU-122A enhanced</value>
+  </data>
+  <data name="Chassis_R101_MT25" xml:space="preserve">
+    <value>MT-25</value>
+  </data>
+  <data name="Chassis_R101_MT25_2" xml:space="preserve">
+    <value>MT-25 reinforced</value>
   </data>
   <data name="Chassis_SU14_1" xml:space="preserve">
     <value>SU-14</value>
@@ -2396,8 +2405,20 @@ W-670</value>
   <data name="Chassis_SU14_1_2" xml:space="preserve">
     <value>SU-14-1</value>
   </data>
+  <data name="LTP" xml:space="preserve">
+    <value>LTP</value>
+  </data>
+  <data name="LTP_descr" xml:space="preserve">
+    <value>A proposed light vehicle developed by Lieutenant Provornov in the summer of 1942. No prototypes were manufactured.</value>
+  </data>
   <data name="M-17F_R" xml:space="preserve">
     <value>M-17F</value>
+  </data>
+  <data name="MT25" xml:space="preserve">
+    <value>MT-25</value>
+  </data>
+  <data name="MT25_descr" xml:space="preserve">
+    <value>A proposed project of a light wheeled caterpillar vehicle. The draft was completed in February 1943. The most innovative feature was the suspension design. The suspension wheels were interleaved, and power was delivered to all wheels. No prototypes were manufactured.</value>
   </data>
   <data name="SU122A" xml:space="preserve">
     <value>SU-122A</value>
@@ -2411,11 +2432,20 @@ W-670</value>
   <data name="SU14_1_descr" xml:space="preserve">
     <value>Developed on the basis of the SU-14. In 1936 a prototype was manufactured and tested. In 1937 the project supervisor was purged and the project was canceled. The prototype was shipped to Kubinka for storage. In 1941, during the Battle of Moscow, the SU-14-1 was used for long-range bombardment.</value>
   </data>
+  <data name="Turret_1_LTP" xml:space="preserve">
+    <value>LTP</value>
+  </data>
   <data name="Turret_1_R100_SU122A" xml:space="preserve">
     <value>SU-122A</value>
   </data>
+  <data name="Turret_1_R101_MT25" xml:space="preserve">
+    <value>MT-25</value>
+  </data>
   <data name="Turret_1_SU14_1" xml:space="preserve">
     <value>SU-14-1</value>
+  </data>
+  <data name="Turret_2_R101_MT25" xml:space="preserve">
+    <value>T-34M mod. 1941</value>
   </data>
   <data name="V-16" xml:space="preserve">
     <value>V-16</value>
@@ -2452,36 +2482,6 @@ W-670</value>
   </data>
   <data name="_76mm_cannon_mod_1905_40" xml:space="preserve">
     <value>76 mm Gun mod. 1902/30 40 clb</value>
-  </data>
-  <data name="Chassis_LTP" xml:space="preserve">
-    <value>LTP</value>
-  </data>
-  <data name="Chassis_R101_MT25" xml:space="preserve">
-    <value>MT-25</value>
-  </data>
-  <data name="Chassis_R101_MT25_2" xml:space="preserve">
-    <value>MT-25 reinforced</value>
-  </data>
-  <data name="LTP" xml:space="preserve">
-    <value>LTP</value>
-  </data>
-  <data name="LTP_descr" xml:space="preserve">
-    <value>A proposed light vehicle developed by Lieutenant Provornov in the summer of 1942. No prototypes were manufactured.</value>
-  </data>
-  <data name="MT25" xml:space="preserve">
-    <value>MT-25</value>
-  </data>
-  <data name="MT25_descr" xml:space="preserve">
-    <value>A proposed project of a light wheeled caterpillar vehicle. The draft was completed in February 1943. The most innovative feature was the suspension design. The suspension wheels were interleaved, and power was delivered to all wheels. No prototypes were manufactured.</value>
-  </data>
-  <data name="Turret_1_LTP" xml:space="preserve">
-    <value>LTP</value>
-  </data>
-  <data name="Turret_1_R101_MT25" xml:space="preserve">
-    <value>MT-25</value>
-  </data>
-  <data name="Turret_2_R101_MT25" xml:space="preserve">
-    <value>T-34M mod. 1941</value>
   </data>
   <data name="Chassis_Object_140" xml:space="preserve">
     <value>Object 140</value>

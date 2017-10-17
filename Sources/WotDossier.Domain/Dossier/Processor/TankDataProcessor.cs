@@ -66,13 +66,11 @@ namespace WotDossier.Domain.Dossier.Processor
                     {
                         CountryId = tank.CountryId,
                         TankId = tank.TankId,
-                        Icon = tank.Icon,
                         TankUniqueId = tank.UniqueId,
                         Count = x.Value,
                         Type = tank.Type,
                         Tier = tank.Tier,
-                        KilledByTankUniqueId = tankUniqueId,
-                        Tank = tank.Title
+                        KilledByTankUniqueId = tankUniqueId
                     };
                 }).ToList();
         }
@@ -84,7 +82,7 @@ namespace WotDossier.Domain.Dossier.Processor
             var tank = Dictionaries.Instance.GetTankDescription(tankData.compDescr);
             var result = new TankJson()
             {
-                Description = tank
+                
             };
 
             #region Common
@@ -94,18 +92,18 @@ namespace WotDossier.Domain.Dossier.Processor
                 compactDescr = tankData.compDescr,
                 countryid = tank.CountryId,
                 creationTime = 1356998400,
-                creationTimeR = WotDossier.Common.Utils.UnixDateToDateTime(1356998400),
+                creationTimeR = WotDossier.Common.Utils.UnixDateToDateTime(1356998400).ToLocalTime(),
                 frags = tankData.GetStaticSizeBlock("tankdata").GetValue("frags"),
                 //frags_compare = tankData.frags_compare,
                 lastBattleTime = tankData.GetStaticSizeBlock("tankdata").GetValue("lastBattleTime"),
-                lastBattleTimeR = WotDossier.Common.Utils.UnixDateToDateTime(tankData.GetStaticSizeBlock("tankdata").GetValue("lastBattleTime")),
-                premium = tank.Premium,
+                lastBattleTimeR = WotDossier.Common.Utils.UnixDateToDateTime(tankData.GetStaticSizeBlock("tankdata").GetValue("lastBattleTime")).ToLocalTime(),
+                premium = Convert.ToInt32(tank.Premium),
                 tankid = tank.TankId,
                 tanktitle = tank.Title,
                 tier = tank.Tier,
                 type = tank.Type,
                 updated = tankData.updated,
-                updatedR = WotDossier.Common.Utils.UnixDateToDateTime(tankData.updated),
+                updatedR = WotDossier.Common.Utils.UnixDateToDateTime(tankData.updated).ToLocalTime(),
                 battleLifeTime = tankData.GetStaticSizeBlock("tankdata").GetValue("battleLifeTime"),
                 treesCut = tankData.GetStaticSizeBlock("tankdata").GetValue("treesCut"),
             };
@@ -316,7 +314,7 @@ namespace WotDossier.Domain.Dossier.Processor
         {
             var result = Process26(tankData);
             result.Common.creationTime = tankData.GetStaticSizeBlock("tankdata").GetValue("creationTime");
-            result.Common.creationTimeR = WotDossier.Common.Utils.UnixDateToDateTime(tankData.GetStaticSizeBlock("tankdata").GetValue("creationTime"));
+            result.Common.creationTimeR = WotDossier.Common.Utils.UnixDateToDateTime(tankData.GetStaticSizeBlock("tankdata").GetValue("creationTime")).ToLocalTime();
             return result;
         }
         private static TankJson Process29(DossierTankData tankData)
@@ -342,7 +340,7 @@ namespace WotDossier.Domain.Dossier.Processor
             var tank = Dictionaries.Instance.GetTankDescription(tankData.compDescr);
             var result = new TankJson()
             {
-                Description = tank
+                
             };
             #region Common
             result.Common = new CommonJson()
@@ -351,17 +349,17 @@ namespace WotDossier.Domain.Dossier.Processor
                 compactDescr = tankData.compDescr,
                 countryid = tank.CountryId,
                 creationTime = tankData.GetStaticSizeBlock("total").GetValue("creationTime"),
-                creationTimeR = WotDossier.Common.Utils.UnixDateToDateTime(tankData.GetStaticSizeBlock("total").GetValue("creationTime")),
+                creationTimeR = WotDossier.Common.Utils.UnixDateToDateTime(tankData.GetStaticSizeBlock("total").GetValue("creationTime")).ToLocalTime(),
                 frags = tankData.GetStaticSizeBlock("tankdata").GetValue("frags"),
                 lastBattleTime = tankData.GetStaticSizeBlock("total").GetValue("lastBattleTime"),
-                lastBattleTimeR = WotDossier.Common.Utils.UnixDateToDateTime(tankData.GetStaticSizeBlock("total").GetValue("lastBattleTime")),
-                premium = tank.Premium,
+                lastBattleTimeR = WotDossier.Common.Utils.UnixDateToDateTime(tankData.GetStaticSizeBlock("total").GetValue("lastBattleTime")).ToLocalTime(),
+                premium = Convert.ToInt32(tank.Premium),
                 tankid = tank.TankId,
                 tanktitle = tank.Title,
                 tier = tank.Tier,
                 type = tank.Type,
                 updated = tankData.updated,
-                updatedR = WotDossier.Common.Utils.UnixDateToDateTime(tankData.updated),
+                updatedR = WotDossier.Common.Utils.UnixDateToDateTime(tankData.updated).ToLocalTime(),
                 battleLifeTime = tankData.GetStaticSizeBlock("total").GetValue("battleLifeTime"),
                 treesCut = tankData.GetStaticSizeBlock("total").GetValue("treesCut"),
                 mileage = tankData.GetStaticSizeBlock("total").GetValue("mileage"),

@@ -11,12 +11,12 @@
             <!--Historical battles achievements-->
             <TextBlock Text="{x:Static resources:Resources.Label_Achievements_HistoricalBattle}" FontSize="17" FontFamily="Arial" Foreground="White" Margin="0,40,0,20"></TextBlock>
             <WrapPanel Orientation="Horizontal" HorizontalAlignment="Stretch" ItemHeight="90" ItemWidth="90">
-                <controls:MedalAchievement Value="{Binding GuardsMan}" Delta="{Binding GuardsManDelta}" Source="pack://application:,,,/WotDossier.Resources;component/Images/Medals/GuardsMan1.png">
+                <controls:MedalAchievement Value="{Binding GuardsMan}" Delta="{Binding GuardsManDelta}" Source="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/guardsMan1.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_HistoricalBattle_GuardsMan}" Text="{x:Static resources:Resources.Tooltip_Achievements_HistoricalBattle_GuardsMan}" />
                     </ToolTipService.ToolTip>
                 </controls:MedalAchievement>
-                <controls:MedalAchievement Value="{Binding MakerOfHistory}" Delta="{Binding MakerOfHistoryDelta}" Source="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MakerOfHistory1.png">
+                <controls:MedalAchievement Value="{Binding MakerOfHistory}" Delta="{Binding MakerOfHistoryDelta}" Source="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/makerOfHistory1.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_HistoricalBattle_MakerOfHistory}" Text="{x:Static resources:Resources.Tooltip_Achievements_HistoricalBattle_MakerOfHistory}" />
                     </ToolTipService.ToolTip>

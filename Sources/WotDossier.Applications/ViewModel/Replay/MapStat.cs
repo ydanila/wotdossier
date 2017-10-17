@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization;
 using Common.Logging;
 using WotDossier.Common;
 using WotDossier.Dal;
@@ -30,11 +31,22 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         #region result fields
 
-        public string MapName { get; set; }
-        public int MapId { get; set; }
         public string MapNameId { get; set; }
 
-        public int Damaged { get; set; }
+	    private MapDescription map;
+	    public MapDescription Map
+	    {
+		    get
+		    {
+			    if (map == null)
+			    {
+				    map = Dictionaries.Instance.GetMapDescription(MapNameId);
+			    }
+			    return map;
+		    }
+	    }
+
+		public int Damaged { get; set; }
         public int Spotted { get; set; }
         public int DamageAssisted { get; set; }
         public int Killed { get; set; }
@@ -57,13 +69,6 @@ namespace WotDossier.Applications.ViewModel.Replay
         {
             MapNameId = mapName;
 
-            if (Dictionaries.Instance.Maps.ContainsKey(mapName))
-            {
-                var map = Dictionaries.Instance.Maps[mapName];
-                MapId = map.MapId;
-                MapName = map.LocalizedMapName;
-            }
-            
             Credits = (int) replays.Average(x => x.Credits);
             Crystal = (int) replays.Average(x => x.Credits);
             CreditsEarned = (int) replays.Average(x => x.CreditsEarned);

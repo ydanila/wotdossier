@@ -17,6 +17,7 @@
     </NuGetPackageImportStamp>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>app_icon.ico</ApplicationIcon>
@@ -101,8 +102,8 @@
     <Reference Include="PresentationFramework.Aero" />
     <Reference Include="PresentationUI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="ReachFramework" />
-    <Reference Include="SimpleInjector, Version=4.0.8.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
-      <HintPath>..\packages\SimpleInjector.4.0.8\lib\net45\SimpleInjector.dll</HintPath>
+    <Reference Include="SimpleInjector, Version=4.0.11.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <HintPath>..\packages\SimpleInjector.4.0.11\lib\net45\SimpleInjector.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -219,7 +220,7 @@
     <Compile Include="Converters\Ratings\RatingToColorConverter.cs" />
     <Compile Include="Converters\ResourceFormatConverter.cs" />
     <Compile Include="Converters\DamageRatingToTooltipConverter.cs" />
-    <Compile Include="Converters\Image\MapToMinimapImageConverter.cs" />
+    <Compile Include="Converters\Image\MapToImageConverter.cs" />
     <Compile Include="Converters\Image\DamageRatingToImageConverter.cs" />
     <Compile Include="Converters\Image\ImageSourceConverter.cs" />
     <Compile Include="Converters\Formater\NumberFormatConverter.cs" />
@@ -235,7 +236,6 @@
     <Compile Include="Converters\Formater\ValueNearestPercentFormater.cs" />
     <Compile Include="Converters\Formater\ValuePercentFormater.cs" />
     <Compile Include="Converters\Image\ClanImageUrlToSourceConverter.cs" />
-    <Compile Include="Converters\Image\MapNameToImageConverter.cs" />
     <Compile Include="Converters\Image\MarkOfMasteryToImageConverter.cs" />
     <Compile Include="Converters\Image\MedalToImageConverter.cs" />
     <Compile Include="Converters\Image\CountryIdToImageConverter.cs" />
@@ -906,9 +906,6 @@
     </Compile>
     <EmbeddedResource Include="OxyPlot.dll" />
     <EmbeddedResource Include="OxyPlot.Wpf.dll" />
-    <Content Include="External\Data\WotGameVersion-#0285.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="x64\SQLite.Interop.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -928,33 +925,13 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Data\init.s3db" />
-    <Content Include="External\maps.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="External\tanks.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="External\tanks_expectations.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="External\maps_description.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="External\expected_kttc.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="External\expected_tank_values.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="External\expected_xvm.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+    <None Include="WotDossier_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -1000,9 +977,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
       <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -1033,6 +1010,11 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.105.2\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.105.2\build\net46\System.Data.SQLite.Core.targets'))" />
   </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_DetectChanges="True" BuildVersion_UpdateAssemblyVersion="False" BuildVersion_BuildVersioningStyle="None.None.None.None" BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" />
+    </VisualStudio>
+  </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

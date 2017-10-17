@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Windows.Navigation;
 using WotDossier.Applications.ViewModel.Rows;
 using WotDossier.Applications.ViewModel.Statistic;
 using WotDossier.Dal;
@@ -129,7 +130,7 @@ namespace WotDossier.Applications.BattleModeStrategies
                 row.PlayerId = playerId;
                 row.PlayerName = playerEntity.Name;
                 return row;
-            }).OrderByDescending(x => x.Tier).ThenBy(x => x.Tank).Where(x => x.BattlesCount > 0).ToList();
+            }).OrderByDescending(x => x.Tier).ThenBy(x => x.TankDescription).Where(x => x.BattlesCount > 0).ToList();
         }
 
         /// <summary>
@@ -207,8 +208,8 @@ namespace WotDossier.Applications.BattleModeStrategies
         {
             IEnumerable<int> killed =
                 tanks.SelectMany(x => x.TankFrags).Select(x => x.TankUniqueId).Distinct().OrderBy(x => x);
-            List<TankRowMasterTanker> masterTanker = Dictionaries.Instance.Tanks
-                .Where(x => !killed.Contains(x.Key) && IsExistedtank(x.Value))
+            List<TankRowMasterTanker> masterTanker = Dictionaries.Instance.AllVehicles
+				.Where(x => !killed.Contains(x.Key) && IsExistedtank(x.Value))
                 .Select(x => new TankRowMasterTanker(x.Value))
                 .OrderBy(x => x.IsPremium)
                 .ThenBy(x => x.Tier).ToList();
@@ -222,7 +223,8 @@ namespace WotDossier.Applications.BattleModeStrategies
         /// <returns></returns>
         private bool IsExistedtank(TankDescription tankDescription)
         {
-            return !Dictionaries.Instance.NotExistsedTanksList.Contains(tankDescription.UniqueId);
+	        var verTank = Dictionaries.Instance.GetTankDescription(tankDescription.CompDescr);
+            return !verTank.Hidden;
         }
 
         /// <summary>

@@ -27,13 +27,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WotDossier.Framework", "Wot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WotDossier.Test", "WotDossier.Test\WotDossier.Test.csproj", "{02B7E83D-A3E7-4456-92F2-23D6A7C5E091}"
 EndProject
-Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "WotDossier.Setup.Lite", "WotDossier.Setup.Lite\WotDossier.Setup.Lite.isproj", "{320C1C6E-873D-4802-A83F-2CB059C1AEEC}"
-	ProjectSection(ProjectDependencies) = postProject
-		{A4EF480B-49B6-42C4-8ACE-6127B15699F8} = {A4EF480B-49B6-42C4-8ACE-6127B15699F8}
-		{BFC0AE29-0260-42E8-B124-B2FCD2CA3725} = {BFC0AE29-0260-42E8-B124-B2FCD2CA3725}
-		{7CD82F33-099E-4C8F-B30A-7AACAC5B37E1} = {7CD82F33-099E-4C8F-B30A-7AACAC5B37E1}
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WotDossier.ReplaysManager", "WotDossier.ReplaysManager\WotDossier.ReplaysManager.csproj", "{BFC0AE29-0260-42E8-B124-B2FCD2CA3725}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WotDossier.Resources", "WotDossier.Resources\WotDossier.Resources.csproj", "{7CD82F33-099E-4C8F-B30A-7AACAC5B37E1}"
@@ -53,8 +46,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tools", ".tools", "{3BA1A1
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External projects", "External projects", "{25C628B0-39A0-4732-A640-6B44FFF007F3}"
-EndProject
-Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "WotDossier.Setup", "WotDossier.Setup\WotDossier.Setup.aiproj", "{DC386B46-39DF-48A0-A4AE-8CDC82682538}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -307,30 +298,6 @@ Global
 		{02B7E83D-A3E7-4456-92F2-23D6A7C5E091}.TournamentStat|Mixed Platforms.Build.0 = TournamentStat|Any CPU
 		{02B7E83D-A3E7-4456-92F2-23D6A7C5E091}.TournamentStat|x86.ActiveCfg = TournamentStat|Any CPU
 		{02B7E83D-A3E7-4456-92F2-23D6A7C5E091}.TournamentStat|x86.Build.0 = TournamentStat|Any CPU
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Debug|Any CPU.ActiveCfg = DVD-5
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Debug|Mixed Platforms.ActiveCfg = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Debug|x86.ActiveCfg = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.DefaultBuild|Any CPU.ActiveCfg = DVD-5
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.DefaultBuild|Mixed Platforms.ActiveCfg = DVD-5
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.DefaultBuild|x86.ActiveCfg = DVD-5
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Full|Any CPU.ActiveCfg = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Full|Mixed Platforms.ActiveCfg = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Full|x86.ActiveCfg = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Full|x86.Build.0 = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Lite|Any CPU.ActiveCfg = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Lite|Any CPU.Build.0 = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Lite|Mixed Platforms.ActiveCfg = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Lite|Mixed Platforms.Build.0 = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Lite|x86.ActiveCfg = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Lite|x86.Build.0 = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Release|Any CPU.ActiveCfg = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Release|Mixed Platforms.ActiveCfg = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Release|x86.ActiveCfg = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.Release|x86.Build.0 = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.TournamentStat|Any CPU.ActiveCfg = CD_ROM
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.TournamentStat|Mixed Platforms.ActiveCfg = SingleImage
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.TournamentStat|x86.ActiveCfg = CD_ROM
-		{320C1C6E-873D-4802-A83F-2CB059C1AEEC}.TournamentStat|x86.Build.0 = CD_ROM
 		{BFC0AE29-0260-42E8-B124-B2FCD2CA3725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BFC0AE29-0260-42E8-B124-B2FCD2CA3725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFC0AE29-0260-42E8-B124-B2FCD2CA3725}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -429,47 +396,15 @@ Global
 		{D7399AAB-A6EE-420E-839F-A6C07B6602F8}.TournamentStat|Mixed Platforms.Build.0 = TournamentStat|Any CPU
 		{D7399AAB-A6EE-420E-839F-A6C07B6602F8}.TournamentStat|x86.ActiveCfg = TournamentStat|Any CPU
 		{D7399AAB-A6EE-420E-839F-A6C07B6602F8}.TournamentStat|x86.Build.0 = TournamentStat|Any CPU
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Debug|Any CPU.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Debug|Any CPU.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Debug|Mixed Platforms.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Debug|Mixed Platforms.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Debug|x86.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Debug|x86.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.DefaultBuild|Any CPU.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.DefaultBuild|Any CPU.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.DefaultBuild|Mixed Platforms.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.DefaultBuild|Mixed Platforms.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.DefaultBuild|x86.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.DefaultBuild|x86.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Full|Any CPU.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Full|Any CPU.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Full|Mixed Platforms.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Full|Mixed Platforms.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Full|x86.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Full|x86.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Lite|Any CPU.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Lite|Any CPU.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Lite|Mixed Platforms.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Lite|Mixed Platforms.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Lite|x86.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Lite|x86.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Release|Any CPU.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Release|Any CPU.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Release|Mixed Platforms.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Release|Mixed Platforms.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Release|x86.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.Release|x86.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.TournamentStat|Any CPU.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.TournamentStat|Any CPU.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.TournamentStat|Mixed Platforms.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.TournamentStat|Mixed Platforms.Build.0 = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.TournamentStat|x86.ActiveCfg = DefaultBuild
-		{DC386B46-39DF-48A0-A4AE-8CDC82682538}.TournamentStat|x86.Build.0 = DefaultBuild
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		BuildVersion_DetectChanges = False
+		BuildVersion_UpdateAssemblyVersion = True
+		BuildVersion_StartDate = 2000/1/1
+		BuildVersion_BuildVersioningStyle = None.YearMonthStamp.DayStamp.Increment
 		SolutionGuid = {6B36B677-423E-48BA-8D46-CBC86898B099}
 	EndGlobalSection
 EndGlobal

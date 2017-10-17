@@ -79,9 +79,9 @@
                                 <DataGridTemplateColumn.CellTemplate>
                                     <DataTemplate>
                                         <Grid>
-                                            <Image Source="{Binding Path=TankIcon, Mode=OneWay, Converter={x:Static Converters:TankIconToImageConverter.Default}}" 
+                                            <Image Source="{Binding Path=TankDescription, Mode=OneWay, Converter={x:Static Converters:TankIconToImageConverter.Default}}" 
                                                HorizontalAlignment="Left" />
-                                            <TextBlock Margin="40,0,0,0" Text="{Binding Tank}" Foreground="#5C5A4A" VerticalAlignment="Center"></TextBlock>
+                                            <TextBlock Margin="40,0,0,0" Text="{Binding TankDescription}" Foreground="#5C5A4A" VerticalAlignment="Center"></TextBlock>
                                         </Grid>
                                     </DataTemplate>
                                 </DataGridTemplateColumn.CellTemplate>
@@ -135,11 +135,11 @@
                     </Grid.ColumnDefinitions>
 
                     <Image Margin="0,0,0,0" HorizontalAlignment="Left"
-                           Source="{Binding Path=TankIcon, Mode=OneWay, Converter={x:Static Converters:TankIconToImageConverter.Default}}" VerticalAlignment="Top" />
+                           Source="{Binding Path=TankDescription, Mode=OneWay, Converter={x:Static Converters:TankIconToImageConverter.Default}}" VerticalAlignment="Top" />
 
                     <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left">
                         <TextBlock Text="{Binding FullName}" FontSize="20" Foreground="#FEC264"></TextBlock>
-                        <TextBlock Text="{Binding Tank}" Foreground="White" FontSize="16"></TextBlock>
+                        <TextBlock Text="{Binding TankDescription}" Foreground="White" FontSize="16"></TextBlock>
                         <TextBlock Text="{Binding DeathType}" Foreground="#989898" FontSize="14"></TextBlock>
                     </StackPanel>
                 </Grid>
@@ -212,13 +212,13 @@
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>
-                        <DataGridTemplateColumn Width="141" Header="{x:Static resources:Resources.Column_Header_Tank}" HeaderTemplate="{StaticResource tankTemplate}" SortMemberPath="Tank">
+                            <DataGridTemplateColumn Width="141" Header="{x:Static resources:Resources.Column_Header_Tank}" HeaderTemplate="{StaticResource tankTemplate}" SortMemberPath="TankDescription">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
                                     <Grid>
-                                        <Image Source="{Binding Path=TankIcon, Mode=OneWay, Converter={x:Static Converters:TankIconToImageConverter.Default}}" 
+                                            <Image Source="{Binding Path=TankDescription, Mode=OneWay, Converter={x:Static Converters:TankIconToImageConverter.Default}}" 
                                                HorizontalAlignment="Left" />
-                                        <TextBlock Margin="40,0,0,0" Text="{Binding Tank}" Foreground="#5C5A4A" VerticalAlignment="Center"></TextBlock>
+                                            <TextBlock Margin="40,0,0,0" Text="{Binding TankDescription}" Foreground="#5C5A4A" VerticalAlignment="Center"></TextBlock>
                                     </Grid>
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
@@ -270,11 +270,11 @@
                     </Grid.ColumnDefinitions>
 
                     <Image Margin="0,0,0,0" HorizontalAlignment="Left"
-                           Source="{Binding Path=TankIcon, Mode=OneWay, Converter={x:Static Converters:TankIconToImageConverter.Default}}" VerticalAlignment="Top" />
+                           Source="{Binding Path=TankDescription, Mode=OneWay, Converter={x:Static Converters:TankIconToImageConverter.Default}}" VerticalAlignment="Top" />
 
                     <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left">
                         <TextBlock Text="{Binding FullName}" FontSize="20" Foreground="#FEC264"></TextBlock>
-                        <TextBlock Text="{Binding Tank}" Foreground="White" FontSize="16"></TextBlock>
+                        <TextBlock Text="{Binding TankDescription}" Foreground="White" FontSize="16"></TextBlock>
                         <TextBlock Text="{Binding DeathType}" Foreground="#989898" FontSize="14"></TextBlock>
                     </StackPanel>
                 </Grid>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Runtime.Serialization;
 
 namespace WotDossier.Domain.Replay
@@ -45,7 +46,7 @@ namespace WotDossier.Domain.Replay
             set { _version = value; }
         }
 
-        [DataMember]
+	    [DataMember]
         public string mapName { get; set; }
         [DataMember]
         public long playerID { get; set; }

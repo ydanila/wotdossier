@@ -7,6 +7,6 @@ namespace WotDossier.Domain.Interfaces
         /// <summary>
         /// Gets or sets the description.
         /// </summary>
-        TankDescription Description { get; set; }
+        TankDescription Description { get; }
     }
 }

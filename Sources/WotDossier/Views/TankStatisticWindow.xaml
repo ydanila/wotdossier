@@ -8,8 +8,8 @@
         xmlns:converters="clr-namespace:WotDossier.Converters"
         xmlns:image="clr-namespace:WotDossier.Converters.Image"
         mc:Ignorable="d"
-        Title="{Binding TankStatistic.Tank}" d:DesignHeight="700" d:DesignWidth="700" Height="960" Width="1280" MinWidth="1280" MinHeight="960" WindowStartupLocation="CenterScreen" WindowState="Maximized"
-        Icon="{Binding Path=TankStatistic.Icon, Mode=OneWay, Converter={x:Static converters:TankIconToImageConverter.Default}}"
+        Title="{Binding TankStatistic.TankDescription}" d:DesignHeight="700" d:DesignWidth="700" Height="960" Width="1280" MinWidth="1280" MinHeight="960" WindowStartupLocation="CenterScreen" WindowState="Maximized"
+        Icon="{Binding Path=TankStatistic.TankDescription, Mode=OneWay, Converter={x:Static converters:TankIconToImageConverter.Default}}"
         Style="{StaticResource office2007SilverWindow}">
     <Window.CommandBindings>
         <CommandBinding Command="ApplicationCommands.Print" Executed="PrintWindow_Executed"/>
@@ -34,11 +34,11 @@
             </Grid.RowDefinitions>
 
             <StackPanel HorizontalAlignment="Center" Orientation="Vertical">
-                <TextBlock Foreground="#FFA759" HorizontalAlignment="Center" Margin="0 25 0 25" FontSize="28" Text="{Binding TankStatistic.Tank}"></TextBlock>
+                <TextBlock Foreground="#FFA759" HorizontalAlignment="Center" Margin="0 25 0 25" FontSize="28" Text="{Binding TankStatistic.TankDescription}"></TextBlock>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                     <Grid DataContext="{Binding TankStatistic}">
                         <Image Width="140" Height="80" Source="{Binding Path=CountryId, Mode=OneWay, Converter={x:Static converters:CountryIdToImageConverter.Default}}" />
-                        <Image Width="140" Height="80" Source="{Binding Path=Icon, Mode=OneWay, Converter={x:Static converters:TankIconToImageConverter.Default}}" />
+                        <Image Width="140" Height="80" Source="{Binding Path=TankDescription, Mode=OneWay, Converter={x:Static converters:TankIconToImageConverter.Default}}" />
                     </Grid>
                     <Image ToolTip="{Binding Path=TankStatistic.DamageRating, Mode=OneWay, Converter={x:Static converters:DamageRatingToTooltipConverter.Default}}" >
                         <Image.Source>

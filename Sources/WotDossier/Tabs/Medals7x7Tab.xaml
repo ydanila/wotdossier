@@ -29,7 +29,7 @@
       <dataGrid:FooterDataGrid.Columns>
         <DataGridTextColumn Header="{x:Static resources:Resources.Column_Header_Tier}" ElementStyle="{StaticResource CTextBlock}" Binding="{Binding Tier, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='0.##'}"></DataGridTextColumn>
         <DataGridTemplateColumn Header="{x:Static resources:Resources.Column_Header_Icon}" CellStyle="{StaticResource DataGridCellCenterStyle}" CellTemplate="{StaticResource TankIconTemplate}"/>
-        <DataGridTextColumn Header="{x:Static resources:Resources.Column_Header_Tank}" Binding="{Binding Tank}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
+                <DataGridTextColumn Header="{x:Static resources:Resources.Column_Header_Tank}" Binding="{Binding TankDescription}" ElementStyle="{StaticResource RTextBlock}"></DataGridTextColumn>
 
         <DataGridTextColumn Header="{x:Static resources:Resources.Medal_7x7_WolfAmongSheepMedal}" HeaderTemplate="{StaticResource WolfAmongSheepMedalColumnHeaderTemplate}" Binding="{Binding WolfAmongSheepMedal, Converter={x:Static converters:EpicMedalCountToStringConverter.Default}}" ElementStyle="{StaticResource CTextBlock}"></DataGridTextColumn>
         <DataGridTextColumn Header="{x:Static resources:Resources.Medal_7x7_GeniusForWarMedal}" HeaderTemplate="{StaticResource GeniusForWarMedalColumnHeaderTemplate}" Binding="{Binding GeniusForWarMedal, Converter={x:Static converters:EpicMedalCountToStringConverter.Default}}" ElementStyle="{StaticResource CTextBlock}"></DataGridTextColumn>

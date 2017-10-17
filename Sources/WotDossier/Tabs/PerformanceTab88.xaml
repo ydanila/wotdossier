@@ -30,7 +30,7 @@
             <dataGrid:FooterDataGrid.Columns>
                 <DataGridTextColumn Header="{x:Static resources:Resources.Column_Header_Tier}" ElementStyle="{StaticResource CTextBlock}" Binding="{Binding Tier, Converter={x:Static converters:NumberFormatConverter.Default}, ConverterParameter='0.##'}" />
                 <DataGridTemplateColumn Header="{x:Static resources:Resources.Column_Header_Icon}" CellStyle="{StaticResource DataGridCellCenterStyle}" CellTemplate="{StaticResource TankIconTemplate}"/>
-                <DataGridTextColumn Header="{x:Static resources:Resources.Column_Header_Tank}" Binding="{Binding Tank}" Width="1*" ElementStyle="{StaticResource RTextBlock}" />
+                <DataGridTextColumn Header="{x:Static resources:Resources.Column_Header_Tank}" Binding="{Binding TankDescription}" Width="1*" ElementStyle="{StaticResource RTextBlock}" />
                 <DataGridTextColumn Header="{x:Static resources:Resources.Column_Performance_OriginalXP}" Binding="{Binding OriginalXP}" Width="1*" ElementStyle="{StaticResource RTextBlock}" />
                 <DataGridTextColumn Header="{x:Static resources:Resources.Column_Performance_DamageAssistedTrack}" Binding="{Binding DamageAssistedTrack}" Width="1*" ElementStyle="{StaticResource RTextBlock}" />
                 <DataGridTextColumn Header="{x:Static resources:Resources.Column_Performance_DamageAssistedRadio}" Binding="{Binding DamageAssistedRadio}" Width="1*" ElementStyle="{StaticResource RTextBlock}" />

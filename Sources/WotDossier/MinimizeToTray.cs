@@ -45,6 +45,11 @@ namespace WotDossier
                 _window.SourceInitialized += OnSourceInitialized;
                 _window.Closing += WindowOnClosing;
                 _window.StateChanged += HandleStateChanged;
+
+
+
+
+				
             }
 
             private void WindowOnClosing(object sender, CancelEventArgs cancelEventArgs)

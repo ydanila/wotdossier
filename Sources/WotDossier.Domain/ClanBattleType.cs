@@ -2,10 +2,10 @@
 {
     public enum ClanBattleType
     {
-        /// <summary>
-        /// Defense
-        /// </summary>
-        defense,
+		/// <summary>
+		/// Defense
+		/// </summary>
+	    defence,
 
         /// <summary>
         /// Attack

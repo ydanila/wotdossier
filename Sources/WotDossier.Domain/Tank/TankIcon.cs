@@ -17,11 +17,7 @@ namespace WotDossier.Domain.Tank
 	    /// </summary>
 	    public string IconKey => $"{CountryId.ToString().ToLower()}_{Icon.ToLower().Replace("-", "_")}";
 
-	    /// <summary>
-		/// Gets or sets the country id.
-		/// </summary>
-		[DataMember(Name = "countryid")]
-        public Country CountryId { get; set; }
+	    public Country Country { get; set; }
 
         /// <summary>
         /// Gets or sets the icon.
@@ -29,11 +25,8 @@ namespace WotDossier.Domain.Tank
         [DataMember(Name = "icon")]
         public string Icon { get; set; }
 
-        /// <summary>
-        /// Gets or sets the icon orig.
-        /// </summary>
-        [DataMember(Name = "icon_orig")]
-        public string IconOrig { get; set; }
+        
+        public int CompDescr { get; set; }
 
         /// <summary>
         /// Equalses the specified other.

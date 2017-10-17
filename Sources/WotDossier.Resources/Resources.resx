@@ -3265,6 +3265,9 @@ up to 500 m</value>
   <data name="BattleType_ctf" xml:space="preserve">
     <value>Standart battle</value>
   </data>
+  <data name="BattleType_GlobalMap" xml:space="preserve">
+    <value>GlobalMap battle</value>
+  </data>
   <data name="BattleType_domination" xml:space="preserve">
     <value>Encounter battle</value>
   </data>

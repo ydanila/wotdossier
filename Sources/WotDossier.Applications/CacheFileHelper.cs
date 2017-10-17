@@ -195,48 +195,34 @@ namespace WotDossier.Applications
         /// <returns></returns>
         public static bool ExtendPropertiesData(TankJson tank)
         {
-            if (!Dictionaries.Instance.NotExistsedTanksList.Contains(tank.UniqueId()))
+            if (!Dictionaries.Instance.GetTankDescription(tank.Common.compactDescr).Hidden)
             {
                 var fragsList = tank.FragsList ?? new List<IList<string>>();
-                tank.Frags = fragsList.Select(
-                            x =>
-                            {
-                                int countryId = Convert.ToInt32(x[0]);
-                                int tankId = Convert.ToInt32(x[1]);
-                                int uniqueId = DossierUtils.ToUniqueId(countryId, tankId);
+	            if (tank.Frags == null || !tank.Frags.Any())
+	            {
+		            tank.Frags = fragsList.Select(
+			            x =>
+			            {
+				            int countryId = Convert.ToInt32(x[0]);
+				            int tankId = Convert.ToInt32(x[1]);
+				            int uniqueId = DossierUtils.ToUniqueId(countryId, tankId);
 
+				            var tankDescription = Dictionaries.Instance.GetTankDescription(DossierUtils.TypeCompDesc(countryId, tankId));
 
-                                TankDescription tankDescription = Dictionaries.Instance.Tanks.ContainsKey(uniqueId) 
-                                    ? Dictionaries.Instance.Tanks[uniqueId] 
-                                    : TankDescription.Unknown(countryId, tankId);
-
-                                return new FragsJson
-                                {
-                                    CountryId = countryId,
-                                    TankId = tankId,
-                                    Icon = tankDescription.Icon,
-                                    TankUniqueId = uniqueId,
-                                    Count = Convert.ToInt32(x[2]),
-                                    Type = tankDescription.Type,
-                                    Tier = tankDescription.Tier,
-                                    KilledByTankUniqueId = tank.UniqueId(),
-                                    Tank = tankDescription.Title
-                                };
-                            }).ToList();
-
-                if (Dictionaries.Instance.Tanks.ContainsKey(tank.UniqueId()))
-                {
-                    tank.Description = Dictionaries.Instance.Tanks[tank.UniqueId()];
-                }
-                else
-                {
-                    tank.Description = TankDescription.Unknown(tank.Common.compactDescr);
-                    _log.WarnFormat("Found unknown tank. Check for latest tanks.json:\n{0}", JsonConvert.SerializeObject(tank.Common, Formatting.Indented));
-                }
-
+				            return new FragsJson
+				            {
+					            CountryId = countryId,
+					            TankId = tankId,
+					            TankUniqueId = uniqueId,
+					            Count = Convert.ToInt32(x[2]),
+					            Type = tankDescription.Type,
+					            Tier = tankDescription.Tier,
+					            KilledByTankUniqueId = tank.UniqueId()
+				            };
+			            }).ToList();
+	            }
                 return true;
             }
-            tank.Description = TankDescription.Unknown(tank.Common.tanktitle);
             _log.WarnFormat("Found not existed or event tank:\n{0}", JsonConvert.SerializeObject(tank.Common, Formatting.Indented));
             return false;
         }

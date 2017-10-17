@@ -6,6 +6,7 @@ using Common.Logging;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Linq;
+using WotDossier.Common;
 using WotDossier.Domain.Rating;
 using WotDossier.Domain.Tank;
 using WotDossier.Resources;
@@ -20,22 +21,16 @@ namespace WotDossier.Domain
         private static readonly ILog _log = LogManager.GetLogger<Dictionaries>();
 
         private static readonly object _syncObject = new object();
-        private static volatile Dictionaries _instance = new Dictionaries();
-
-        private Dictionary<int, TankDescription> _tanks;
-        private readonly Dictionary<string, TankIcon> _icons = new Dictionary<string, TankIcon>();
-        private readonly Dictionary<TankIcon, TankDescription> _iconTanks = new Dictionary<TankIcon, TankDescription>();
-        private Dictionary<string, Map> _maps = new Dictionary<string, Map>();
-        private Dictionary<int, RatingExpectancy> _ratingExpectations;
-
+        
         public static readonly Version VersionAll = new Version("100.0.0.0");
-        public static readonly Version VersionRelease = new Version("0.9.20.0");
+        public static readonly Version VersionRelease = new Version("0.9.20.1");
         public static readonly Version VersionTest = new Version("0.9.21.0");
 
         private static readonly List<Version> _versions = new List<Version>
         {
                 VersionRelease,
-                new Version("0.9.19.0"),
+				new Version("0.9.20.0"),
+				new Version("0.9.19.0"),
                 new Version("0.9.18.0"),
                 new Version("0.9.17.0"),
                 new Version("0.9.16.0"),
@@ -66,14 +61,23 @@ namespace WotDossier.Domain
                 new Version("0.8.3.0"),
                 new Version("0.8.2.0"),
                 new Version("0.8.1.0"),
-        };
+				new Version("0.8.0.0"),
+				new Version("0.7.5.0"),
+				new Version("0.7.4.0"),
+				new Version("0.7.3.0"),
+				new Version("0.7.2.0"),
+				new Version("0.7.1.0"),
+				new Version("0.7.0.0"),
+		};
 
-        #region BattleLevels
+	    private static Dictionaries _instance;
 
-        /// <summary>
-        /// http://forum.worldoftanks.ru/index.php?/topic/41221-
-        /// </summary>
-        private readonly Dictionary<int, Dictionary<TankType, LevelRange>> _tankLevelsMap = new Dictionary<int, Dictionary<TankType, LevelRange>>
+		#region BattleLevels
+
+		/// <summary>
+		/// http://forum.worldoftanks.ru/index.php?/topic/41221-
+		/// </summary>
+		private readonly Dictionary<int, Dictionary<TankType, LevelRange>> _tankLevelsMap = new Dictionary<int, Dictionary<TankType, LevelRange>>
         {
             {
                 1, new Dictionary<TankType, LevelRange>
@@ -179,45 +183,17 @@ namespace WotDossier.Domain
             get { return _versions; }
         }
 
-        /// <summary>
-        /// Tanks dictionary
-        /// KEY - tankid, countryid
-        /// </summary>
-        public Dictionary<int, TankDescription> Tanks
-        {
-            get { return _tanks; }
-        }
+	    /// <summary>
+	    /// Tanks dictionary
+	    /// KEY - tankid, countryid
+	    /// </summary>
+	    public Dictionary<int, TankDescription> AllVehicles { get; } = MakeFullTankDescriptionList();
 
-        /// <summary>
-        /// Gets the tanks icons.
-        /// </summary>
-        public Dictionary<string, TankIcon> Icons
-        {
-            get { return _icons; }
-        }
+	    private Dictionary<WN8Type, RatingExpectedValues> expectedValues { get; set; }
+	    private Dictionary<Version, Dictionary<int, TankDescription>> tanksList { get; } = new Dictionary<Version, Dictionary<int, TankDescription>>();
+	    private Dictionary<Version, Dictionary<string, MapDescription>> mapsList { get; } = new Dictionary<Version, Dictionary<string, MapDescription>>();
 
-        /// <summary>
-        /// Gets the tanks icons.
-        /// </summary>
-        public Dictionary<TankIcon, TankDescription> IconTanks
-        {
-            get { return _iconTanks; }
-        }
-
-        /// <summary>
-        /// Gets the maps.
-        /// </summary>
-        public Dictionary<string, Map> Maps
-        {
-            get { return _maps; }
-        }
-
-        private List<int> _notExistsedTanksList;
-
-        public List<int> NotExistsedTanksList
-        {
-            get { return _notExistsedTanksList; }
-        }
+	    public Dictionary<string, MapDescription> AllMaps { get; } = MakeFullMapDescriptionList();
 
         /// <summary>
         /// The game servers
@@ -252,48 +228,15 @@ namespace WotDossier.Domain
 
         public void Init()
         {
-            //var appSettings = SettingsReader.Get();
-            //if (!string.IsNullOrEmpty(appSettings.WotFolderPath))
-            //{
-            //    var inst = new GameInstallation(appSettings.WotFolderPath);
-            //    var context = WotData.Load(@"External\Data", new GameInstallation(appSettings.WotFolderPath),
-            //        String.Empty, null);
-            //}
+	        expectedValues = new Dictionary<WN8Type, RatingExpectedValues>
+	        {
+				{ WN8Type.Default, ReadRatingExpectedValues(WN8Type.Default)},
+		        { WN8Type.KTTC, ReadRatingExpectedValues(WN8Type.KTTC)},
+		        { WN8Type.XVM, ReadRatingExpectedValues(WN8Type.XVM)},
+		        { WN8Type.Perfomance, ReadRatingExpectedValues(WN8Type.Perfomance)},
+			};
 
-
-
-
-            _ratingExpectations = ReadRatingExpectationsDictionary();
-
-            _tanks = ReadTanksDictionary();
-
-            UpdateTankExpectedValues();
-
-            _maps = ReadMaps();
             Medals = ReadMedals();
-        }
-
-        private static void UpdateMapsGeometry(Dictionary<string, Map> maps)
-        {
-
-            using (StreamReader re = new StreamReader(@"External\maps_description.json"))
-            {
-                JsonTextReader reader = new JsonTextReader(re);
-                JsonSerializer se = new JsonSerializer();
-                JArray array = se.Deserialize<JArray>(reader);
-
-                foreach (var map in array)
-                {
-                    var key = map["name"].Value<string>().Replace("#arenas:", string.Empty).Replace("/name", string.Empty);
-
-                    if (maps.ContainsKey(key))
-                    {
-                        var target = maps[key];
-
-                        target.Config = JsonConvert.DeserializeObject<MapConfig>(map.ToString(), new MapConfigConverter());
-                    }
-                }
-            }
         }
 
 	    public bool TryGetShellDescription(Country country, int id, out ShellDescription shell)
@@ -360,10 +303,12 @@ namespace WotDossier.Domain
 				.Cast<ArtefactDescription>().ToList();
 		});
 
+	    
+
 		/// <summary>
-        /// Gets the instance.
-        /// </summary>
-        public static Dictionaries Instance
+		/// Gets the instance.
+		/// </summary>
+		public static Dictionaries Instance
         {
             get
             {
@@ -389,167 +334,195 @@ namespace WotDossier.Domain
         /// <returns></returns>
         public TankDescription GetReplayTankDescription(string playerVehicle, Version clientVersion)
         {
-            var iconId = playerVehicle.Replace(":", "_").Replace(" ", "_").Replace(".", "_").ToLower();
-            var tankDescription = TankDescriptionByIconId(clientVersion, iconId);
-            if (tankDescription == null)
-            {
-                iconId = iconId.Replace("-", "_");
-                tankDescription = TankDescriptionByIconId(clientVersion, iconId);
-            }
-            if (tankDescription == null)
-            {
-                tankDescription = ClientVersionCompabilityHelper.GetHDModelDescription(iconId, _tanks);
-            }
-            return tankDescription ?? TankDescription.Unknown(playerVehicle);
-        }
-
-        private TankDescription TankDescriptionByIconId(Version clientVersion, string iconId)
-        {
-            TankDescription tankDescription = null;
-	        if (!Icons.TryGetValue(iconId, out var tankIcon))
+	        var list = GetTanksList(clientVersion);
+	        var result = list.Values.FirstOrDefault(t =>
+		        string.Equals(t.CountryKey, playerVehicle, StringComparison.InvariantCultureIgnoreCase));
+	        if (result != null)
 	        {
-		        tankIcon = Icons.Values.FirstOrDefault(p => p.IconKey == iconId);
+		        return result;
 	        }
-            if (tankIcon != null)
-            {
-                if (IconTanks.ContainsKey(tankIcon))
-                {
-                    tankDescription = IconTanks[tankIcon];
 
-                    //t49 renamed to t67 in 9.3
-                    if (tankDescription.UniqueId == 20071 && clientVersion < new Version("0.9.3.0"))
-                    {
-                        tankDescription = _tanks[20041];
-                    }
-                    //kv-1s renamed to kv-85 in 9.3
-                    if (tankDescription.UniqueId == 73 && clientVersion < new Version("0.9.3.0"))
-                    {
-                        tankDescription = _tanks[11];
-                    }
-                }
-            }
-            return tankDescription;
+			result = AllVehicles.Values.FirstOrDefault(t =>
+		        string.Equals(t.CountryKey, playerVehicle, StringComparison.InvariantCultureIgnoreCase));
+
+			if (result != null)
+	        {
+		        return result;
+	        }
+			//Try to get tank from previous version
+	        var prevVersion = Versions.Where(v => v.CompareTo(clientVersion) < 0).OrderByDescending(v=>v).FirstOrDefault();
+	        if (prevVersion != null) return GetReplayTankDescription(playerVehicle, prevVersion);
+
+			throw new ArgumentOutOfRangeException(nameof(playerVehicle), $"Cannot find tank for name {playerVehicle}");
         }
 
-        public TankDescription GetTankDescription(int? typeCompDescr)
+
+	    private Dictionary<int, TankDescription> GetTanksList(Version version)
+	    {
+		    if (tanksList.TryGetValue(version, out var dict))
+			    return dict;
+
+		    dict = ReadTanksDictionary(version);
+			tanksList.Add(version, dict);
+		    return dict;
+	    }
+
+	    public TankDescription GetTankDescription(int? typeCompDescr, Version clientVersion = null)
+	    {
+
+		    if (typeCompDescr == null)
+		    {
+			    throw new ArgumentOutOfRangeException(nameof(typeCompDescr), "Cannot find tank with null compdescr");
+		    }
+
+		    TankDescription result;
+		    if (clientVersion != null)
+		    {
+			    var list = GetTanksList(clientVersion);
+			    if (list.TryGetValue(DossierUtils.ToUniqueId(typeCompDescr.Value), out result))
+				    return result;
+		    }
+
+			if (AllVehicles.TryGetValue(DossierUtils.ToUniqueId(typeCompDescr.Value), out result))
+			    return result;
+
+		    throw new ArgumentOutOfRangeException(nameof(typeCompDescr), $"Cannot find tank with compdescr={typeCompDescr.Value}");
+	    }
+
+	    public static TankDescription FromXElement(XElement element, Version version)
+	    {
+		    return new TankDescription
+		    {
+			    TankId = Convert.ToInt32(element.Attribute("id").Value),
+			    CountryId = Convert.ToInt32(element.Attribute("countryid").Value),
+			    CompDescr = Convert.ToInt32(element.Attribute("compDescr").Value),
+			    Type = Convert.ToInt32(element.Attribute("type").Value),
+			    Tier = Convert.ToInt32(element.Attribute("tier").Value),
+				Secret = Convert.ToBoolean(element.Attribute("secret").Value),
+			    Hidden = Convert.ToBoolean(element.Attribute("secret").Value),
+				Premium = Convert.ToBoolean(element.Attribute("premium").Value),
+			    Key = element.Attribute("key").Value,
+			    userString = element.Attribute("userString").Value,
+			    descriptionString = element.Attribute("description").Value,
+			    Health = Convert.ToInt32(element.Attribute("health").Value),
+				Version = version,
+		    };
+	    }
+
+	    private static Dictionary<int, TankDescription> MakeFullTankDescriptionList()
+	    {
+		    var result = new Dictionary<int, TankDescription>();
+			var docElem = XDocument.Load(
+			    typeof(ImageCache).Assembly.GetManifestResourceStream(
+				    $"{typeof(ImageCache).Namespace}.Vehicles.Vehicles.xml")).Root;
+
+		    foreach (var element in docElem.Elements("patch").OrderByDescending(e=> e.Attribute("version").Value, StringVersionComparer.Default).Elements()
+			    .Concat(docElem.Elements("actionVehicles").Elements()))
+		    {
+			    var uniqueId = DossierUtils.ToUniqueId(Convert.ToInt32(element.Attribute("compDescr").Value));
+			    if (!result.TryGetValue(uniqueId, out var prevValue))
+			    {
+				    result.Add(uniqueId, FromXElement(element, element.Parent.Attribute("version") == null ? VersionRelease : new Version(element.Parent.Attribute("version").Value)));
+					continue;
+			    }
+				//если когда-то танк был доступен, до сделать его доступным
+			    var secret = Convert.ToBoolean(element.Attribute("secret").Value);
+			    if (prevValue.Secret && !secret)
+				    prevValue.Hidden = false;
+
+		    }
+		    return result;
+	    }
+
+	    private Dictionary<int, TankDescription> ReadTanksDictionary(Version version)
         {
-            if (typeCompDescr == null)
-            {
-                return TankDescription.Unknown();
-            }
+			//var patchVer = new Version(version.Major, version.Minor, version.Build);
+	        var docElem = XDocument.Load(
+		        typeof(ImageCache).Assembly.GetManifestResourceStream(
+			        $"{typeof(ImageCache).Namespace}.Vehicles.Vehicles.xml")).Root;
 
-            var uniqueId = DossierUtils.ToUniqueId(typeCompDescr.Value);
-
-            if (!Tanks.ContainsKey(uniqueId))
-            {
-                return TankDescription.Unknown(typeCompDescr.Value);
-            }
-
-            return Tanks[uniqueId];
+	        return docElem.Elements("patch")
+				.OrderByDescending(e=> e.Attribute("version").Value, StringVersionComparer.Default)
+				.First(e => StringVersionComparer.Default.Compare(e.Attribute("version").Value, version) <= 0)
+				.Elements()
+		        .Union(docElem.Elements("actionVehicles").Elements())
+		        .Select(x=>FromXElement(x, version))
+		        .ToDictionary(tank => tank.UniqueId);
         }
 
-        private Dictionary<int, TankDescription> ReadTanksDictionary()
-        {
-            List<TankDescription> tanks = new List<TankDescription>();
-            using (StreamReader re = new StreamReader(@"External\tanks.json"))
-            {
-                JsonTextReader reader = new JsonTextReader(re);
-                JsonSerializer se = new JsonSerializer();
-                JArray parsedData = se.Deserialize<JArray>(reader);
-                foreach (JToken jToken in parsedData)
-                {
-                    TankDescription tank = jToken.ToObject<TankDescription>();
+	    private static Dictionary<string, MapDescription> MakeFullMapDescriptionList()
+	    {
+		    var result = new Dictionary<string, MapDescription>();
+		    var docElem = XDocument.Load(
+			    typeof(ImageCache).Assembly.GetManifestResourceStream(
+				    $"{typeof(ImageCache).Namespace}.Maps.Maps.xml")).Root;
 
-                    TankIcon icon = jToken.ToObject<TankIcon>();
+		    foreach (var element in docElem.Elements("patch").OrderByDescending(e => e.Attribute("version").Value, StringVersionComparer.Default).Elements())
+		    {
+			    var key = element.Attribute("key").Value;
+			    if (!result.TryGetValue(key, out var prevValue))
+			    {
+				    result.Add(key, new MapDescription(element, element.Parent.Attribute("version") == null ? VersionRelease : new Version(element.Parent.Attribute("version").Value)));
+			    }
+		    }
+		    return result;
+	    }
 
-                    _icons.Add(icon.IconId.ToLower(), icon);
+		private Dictionary<string, MapDescription> GetMapsList(Version version)
+	    {
+		    if (mapsList.TryGetValue(version, out var dict))
+			    return dict;
 
-                    _iconTanks.Add(icon, tank);
+		    dict = ReadMapsDictionary(version);
+		    mapsList.Add(version, dict);
+		    return dict;
+	    }
 
-                    tank.Icon = icon;
+	    private Dictionary<string, MapDescription> ReadMapsDictionary(Version version)
+	    {
+		    var patchVer = new Version(version.Major, version.Minor, version.Build);
+		    var docElem = XDocument.Load(
+			    typeof(ImageCache).Assembly.GetManifestResourceStream(
+				    $"{typeof(ImageCache).Namespace}.Maps.Maps.xml")).Root;
 
-                    if (_tankLevelsMap.ContainsKey(tank.Tier) && _tankLevelsMap[tank.Tier].ContainsKey((TankType)tank.Type))
-                    {
-                        tank.LevelRange = _tankLevelsMap[tank.Tier][(TankType) tank.Type];
-                    }
-                    else
-                    {
-                        tank.LevelRange = LevelRange.All;
-                    }
+		    return docElem.Elements("patch")
+			    .OrderByDescending(e => e.Attribute("version").Value, StringVersionComparer.Default)
+			    .First(e => StringVersionComparer.Default.Compare(e.Attribute("version").Value, version) <= 0)
+				.Elements()
+			    .Select(x => new MapDescription(x, version))
+			    .ToDictionary(map => map.Key);
+	    }
 
-                    var key = tank.Icon.IconOrig.ToLower();
-                    if (_ratingExpectations.ContainsKey(tank.CompDescr))
-                    {
-                        tank.Expectancy = _ratingExpectations[tank.CompDescr];
-                    }
-                    else
-                    {
-                        tank.Expectancy = GetNearestExpectationsByTypeAndLevel(tank);
-                    }
+	    public MapDescription GetMapDescription(string mapKey, Version clientVersion = null)
+	    {
+		    MapDescription result;
+			if (clientVersion != null)
+			{
+				var list = GetMapsList(clientVersion);
+				if (list.TryGetValue(mapKey, out result))
+					return result;
+			}
 
-                    tank.Title = Resources.Tanks.ResourceManager.GetString(tank.Icon.Icon) ?? tank.Title;
+		    if (AllMaps.TryGetValue(mapKey, out result))
+			    return result;
 
-                    tanks.Add(tank);
-                }
-            }
+		    throw new ArgumentOutOfRangeException(nameof(mapKey), $"Cannot find map for key {mapKey}, version {clientVersion}");
+		}
 
-            _notExistsedTanksList = tanks.Where(x => !x.Active).Select(x => x.UniqueId).ToList();
+		public RatingExpectedValuesData FindExpectedValues(WN8Type wn8Type, TankDescription tank)
+		{
+			var expValues = expectedValues[wn8Type].Data;
 
-            return tanks.ToDictionary(x => x.UniqueId);
-        }
+			var exp = expValues.FirstOrDefault(d => d.CompDescr == tank.CompDescr);
 
-        private RatingExpectancy GetNearestExpectationsByTypeAndLevel(TankDescription tank)
-        {
-            return _ratingExpectations.Values.FirstOrDefault(x => x.TankLevel == tank.Tier && (int) x.TankType == tank.Type);
-        }
-
-        private Dictionary<int, RatingExpectancy> ReadRatingExpectationsDictionary()
-        {
-            try
-            {
-                using (StreamReader re = new StreamReader(@"External\tanks_expectations.json"))
-                {
-                    JsonTextReader reader = new JsonTextReader(re);
-                    JsonSerializer se = new JsonSerializer();
-                    JArray parsedData = se.Deserialize<JArray>(reader);
-                    return parsedData.ToObject<List<RatingExpectancy>>().ToDictionary(x => x.CompDescr, x => x);
-                }
-            }
-            catch (Exception e)
-            {
-                _log.Error(e);
-            }
-            return new Dictionary<int, RatingExpectancy>();
-        }
-
-        private void UpdateTankExpectedValues()
-        {
-            var wn8 = ReadRatingExpectedValues(WN8Type.Default);
-            var wn8k = ReadRatingExpectedValues(WN8Type.KTTC);
-            var wn8x = ReadRatingExpectedValues(WN8Type.XVM);
-
-            foreach (var pair in Tanks)
-            {
-                var tank = pair.Value;
-
-                tank.ExpectedValues = new Dictionary<WN8Type, RatingExpectedValuesData>()
-                {
-                    {WN8Type.Default, FindExpectedValues(wn8, tank)},
-                    {WN8Type.KTTC, FindExpectedValues(wn8k, tank)},
-                    {WN8Type.XVM, FindExpectedValues(wn8x, tank)}
-                };
-            }
-        }
-
-        private RatingExpectedValuesData FindExpectedValues(RatingExpectedValues expValues, TankDescription tank)
-        {
-            var exp = expValues.Data.FirstOrDefault(d => d.CompDescr == tank.CompDescr);
-
-            if ( exp == null && AppSettings.TryFindTankAnalog)
-                exp = expValues.Data.FirstOrDefault(x => x.TankLevel == tank.Tier && x.TankType == tank.Type);
-            return exp ?? new RatingExpectedValuesData();
-        }
-        private RatingExpectedValues ReadRatingExpectedValues(WN8Type wn8Type)
+			if (exp == null && AppSettings.TryFindTankAnalog)
+			{
+				exp = expValues.FirstOrDefault(x => x.CountryId == tank.CountryId && x.TankLevel == tank.Tier && x.TankType == tank.Type) ??
+				      expValues.FirstOrDefault(x => x.TankLevel == tank.Tier && x.TankType == tank.Type);
+			}
+			return exp ?? new RatingExpectedValuesData();
+		}
+		private RatingExpectedValues ReadRatingExpectedValues(WN8Type wn8Type)
         {
             var result = new RatingExpectedValues();
             try
@@ -558,18 +531,22 @@ namespace WotDossier.Domain
                 switch (wn8Type)
                 {
                     case WN8Type.Default:
-                        filename = "expected_tank_values.json";
+                        filename = "expectedValues_Base.json";
                         break;
                     case WN8Type.KTTC:
-                        filename = "expected_kttc.json";
+                        filename = "expectedValues_KTTC.json";
                         break;
                     case WN8Type.XVM:
-                        filename = "expected_xvm.json";
+                        filename = "expectedValues_XVM.json";
                         break;
-                    default:
+	                case WN8Type.Perfomance:
+		                filename = "expectedValues_PR.json";
+		                break;
+					default:
                         throw new ArgumentOutOfRangeException(nameof(wn8Type), wn8Type, null);
                 }
-                using (StreamReader re = new StreamReader(@"External\" + filename))
+	            
+                using (StreamReader re = new StreamReader(typeof(ImageCache).Assembly.GetManifestResourceStream($"{typeof(ImageCache).Namespace}.ExpectedValues.{filename}")))
                 {
                     JsonTextReader reader = new JsonTextReader(re);
                     JsonSerializer se = new JsonSerializer();
@@ -578,12 +555,12 @@ namespace WotDossier.Domain
 
                 foreach (var data in result.Data)
                 {
-                    var tank = Tanks.Values.FirstOrDefault(t => t.CompDescr == data.CompDescr);
-                    if (tank != null)
+	                if(AllVehicles.TryGetValue(DossierUtils.ToUniqueId(data.CompDescr), out var tank))
                     {
                         data.TankLevel = tank.Tier;
                         data.TankType = tank.Type;
-                    }
+	                    data.CountryId = tank.CountryId;
+					}
 
                 }
             }
@@ -592,30 +569,6 @@ namespace WotDossier.Domain
                 _log.Error(e);
             }
             return result;
-        }
-
-        /// <summary>
-        /// Reads the maps.
-        /// </summary>
-        /// <returns></returns>
-        public static Dictionary<string, Map> ReadMaps()
-        {
-            List<Map> maps;
-            using (StreamReader re = new StreamReader(@"External\maps.json"))
-            {
-                JsonTextReader reader = new JsonTextReader(re);
-                JsonSerializer se = new JsonSerializer();
-                maps = se.Deserialize<List<Map>>(reader);
-            }
-
-            List<Map> list = (maps ?? new List<Map>()).Where(x => x.MapNameId != "00_tank_tutorial").ToList();
-            int i = 1;
-            list.ForEach(x => x.LocalizedMapName = Resources.Resources.ResourceManager.GetString("Map_" + x.MapNameId) ?? x.MapName);
-            list = list.OrderByDescending(x => x.LocalizedMapName).ToList();
-            list.ForEach(x => x.MapId = i++);
-            var dictionary = list.ToDictionary(x => x.MapNameId, y => y);
-            UpdateMapsGeometry(dictionary);
-            return dictionary;
         }
 
         public int GetBattleLevel(List<LevelRange> members)
@@ -666,45 +619,43 @@ namespace WotDossier.Domain
         /// <returns></returns>
         public static Dictionary<int, Medal> ReadMedals()
         {
-            //XDocument doc = new XDocument();
-            //doc.Load(File.OpenRead(Path.Combine(Environment.CurrentDirectory, @"Data\Medals.xml")));
+            var doc = XDocument.Load(File.OpenRead(Path.Combine(Environment.CurrentDirectory, @"Data\Medals.xml")));
 
             //XmlNodeList nodes = doc.SelectNodes("Medals/node()/medal");
 
             Dictionary<int, Medal> medals = new Dictionary<int, Medal>();
 
-            //foreach (XmlNode node in nodes)
-            //{
-            //    Medal medal = new Medal();
-            //    medal.Id = Convert.ToInt32(node.Attributes["id"].Value);
-            //    var attribute = node.Attributes["name"];
-            //    medal.Name = Resources.Resources.ResourceManager.GetString(attribute.Value) ?? attribute.Value;
-            //    medal.NameResourceId = attribute.Value;
-            //    medal.Icon = node.Attributes["icon"].Value;
-            //    medal.Type = int.Parse(node.Attributes["type"].Value);
-            //    var xmlAttribute = node.Attributes["showribbon"];
-            //    if (xmlAttribute != null)
-            //    {
-            //        medal.ShowRibbon = bool.Parse(xmlAttribute.Value);
-            //    }
-            //    medal.Group = new MedalGroup();
+	        foreach (var node in doc.Root.Descendants("medal"))
+	        {
+				var medal = new Medal();
+				medal.Id = Convert.ToInt32(node.Attribute("id").Value);
+				var attribute = node.Attribute("name");
+				medal.Name = Resources.Resources.ResourceManager.GetString(attribute.Value) ?? attribute.Value;
+				medal.NameResourceId = attribute.Value;
+				medal.Icon = node.Attribute("icon").Value;
+				medal.Type = int.Parse(node.Attribute("type").Value);
+				var xmlAttribute = node.Attribute("showribbon");
+				if (xmlAttribute != null)
+				{
+					medal.ShowRibbon = bool.Parse(xmlAttribute.Value);
+				}
+				medal.Group = new MedalGroup();
 
-            //    attribute = node.ParentNode.Attributes["filter"];
-            //    medal.Group.Filter = attribute != null && bool.Parse(attribute.Value);
-            //    attribute = node.ParentNode.Attributes["name"];
-            //    if (attribute != null)
-            //    {
-            //        medal.Group.Name = Resources.Resources.ResourceManager.GetString(attribute.Value) ?? attribute.Value;
-            //    }
-            //    else
-            //    {
-            //        medal.Group.Name = node.ParentNode.Name;
-            //    }
+				attribute = node.Parent.Attribute("filter");
+				medal.Group.Filter = attribute != null && bool.Parse(attribute.Value);
+				attribute = node.Parent.Attribute("name");
+				if (attribute != null)
+				{
+					medal.Group.Name = Resources.Resources.ResourceManager.GetString(attribute.Value) ?? attribute.Value;
+				}
+				else
+				{
+					medal.Group.Name = node.Parent.Name.LocalName;
+				}
 
-            //    medals.Add(medal.Id, medal);
-            //}
-
-            return medals;
+				medals.Add(medal.Id, medal);
+			}
+			return medals;
 
         }
 

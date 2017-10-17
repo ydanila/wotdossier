@@ -37,6 +37,6 @@
     </logger>
 
     <logger name="NHibernate.SQL">
-        <level value="ERROR" />
+        <level value="DEBUG" />
     </logger>
 </log4net>

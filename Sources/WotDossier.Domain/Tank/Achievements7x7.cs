@@ -2,7 +2,7 @@
 
 namespace WotDossier.Domain.Tank
 {
-    public class Achievements7x7 : ITeamBattlesAchievements
+    public class Achievements7x7 : ITeamBattlesAchievements, ITeamRatedBattlesAchievements
     {
         public int WolfAmongSheep { get; set; }
         public int WolfAmongSheepMedal { get; set; }

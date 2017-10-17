@@ -84,8 +84,8 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="PresentationFramework.Aero" />
-    <Reference Include="SimpleInjector, Version=4.0.8.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
-      <HintPath>..\packages\SimpleInjector.4.0.8\lib\net45\SimpleInjector.dll</HintPath>
+    <Reference Include="SimpleInjector, Version=4.0.11.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <HintPath>..\packages\SimpleInjector.4.0.11\lib\net45\SimpleInjector.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -655,8 +655,8 @@
     <Compile Include="..\WotDossier\Converters\Image\MapNameToImageConverter.cs">
       <Link>Converters\Image\MapNameToImageConverter.cs</Link>
     </Compile>
-    <Compile Include="..\WotDossier\Converters\Image\MapToMinimapImageConverter.cs">
-      <Link>Converters\Image\MapToMinimapImageConverter.cs</Link>
+    <Compile Include="..\WotDossier\Converters\Image\MapToImageConverter.cs">
+      <Link>Converters\Image\MapToImageConverter.cs</Link>
     </Compile>
     <Compile Include="..\WotDossier\Converters\Image\MarkOfMasteryToImageConverter.cs">
       <Link>Converters\Image\MarkOfMasteryToImageConverter.cs</Link>
@@ -926,6 +926,11 @@
     <PostBuildEvent>
     </PostBuildEvent>
   </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" />
+    </VisualStudio>
+  </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -69,7 +69,7 @@ namespace WotDossier.Domain.Dossier
                         ? ProcessTank(data, layout)
                         : ProcessTankV2(data, layout);
 
-                    tankData.updated = Convert.ToInt32(tankDescr[0]);
+                    tankData.updated = Convert.ToInt32(((object[])tankItem.Value)[0]);
                     tankData.compDescr = compDescr;
                     tankData.basedonversion = tankversion;
                     
