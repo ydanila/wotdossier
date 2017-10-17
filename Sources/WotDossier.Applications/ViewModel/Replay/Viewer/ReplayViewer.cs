@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Threading;
@@ -183,8 +184,9 @@ namespace WotDossier.Applications.ViewModel.Replay.Viewer
         {
             _replay = replay;
 
-            var map = Dictionaries.Instance.Maps[replay.datablock_1.mapName];
-
+	        var version = ReplayFileHelper.ResolveVersion(replay.datablock_1.Version, DateTime.Parse(replay.datablock_1.dateTime, CultureInfo.GetCultureInfo("ru-RU")));
+	        var map = Dictionaries.Instance.GetMapDescription(replay.datablock_1.mapName, version);
+			
             CellSize = MAP_CONTROL_SIZE / 10;
 
             Vehicles = vehicles;

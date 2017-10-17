@@ -9,6 +9,6 @@ namespace WotDossier.Domain.Replay
         [DataMember]
         public bool eligibleForCrystalRewards { get; set; }
 	    [DataMember]
-	    public List<int> fairplayViolations { get; set; }
+	    public List<int> fairplayViolations { get; set; } = new List<int>();
 	}
 }

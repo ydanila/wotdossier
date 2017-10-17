@@ -24,8 +24,7 @@ namespace WotDossier.Applications.ViewModel.Rows
         public TotalTankStatisticRowViewModel(List<ITankStatisticRow> list, string rowHeader)
         {
             Type = -1;
-            Tank = rowHeader;
-            Icon = null;
+	        TankDescription = TankDescription.Total(rowHeader);
             CountryId = -1;
             TankId = -1;
             TankUniqueId = -1;
@@ -198,17 +197,6 @@ namespace WotDossier.Applications.ViewModel.Rows
         public override Func<TankJson, StatisticJson> Predicate
         {
             get { throw new NotImplementedException(); }
-        }
-
-        /// <summary>
-        /// Returns a string that represents the current object.
-        /// </summary>
-        /// <returns>
-        /// A string that represents the current object.
-        /// </returns>
-        public override string ToString()
-        {
-            return Tank;
         }
     }
 }

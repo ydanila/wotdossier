@@ -82,7 +82,7 @@
             </Grid>
 
             <Grid Grid.Column="1" Grid.Row="1" VerticalAlignment="Top">
-                <Image Source="{Binding Path=MapDescription, Converter={x:Static  converters:MapToMinimapImageConverter.Default}}" />
+                <Image Source="{Binding Path=Map, Converter={x:Static  converters:MapToImageConverter.Default}}" />
 
                 <Grid DataContext="{Binding ReplayViewer}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
 
@@ -196,7 +196,7 @@
                                                     <RowDefinition />
                                                     <RowDefinition />
                                                 </Grid.RowDefinitions>
-                                                <TextBlock Text="{Binding Path=Tank}" HorizontalAlignment="Center" />
+                                                <TextBlock Text="{Binding Path=TankDescription}" HorizontalAlignment="Center" />
                                                 <TextBlock Grid.Row="1" Text="{Binding Path=FullName}" HorizontalAlignment="Center" />
                                             </Grid>
                                         </ToolTipService.ToolTip>
@@ -287,13 +287,13 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                <DataGridTemplateColumn Width="80" Header="{x:Static Resources:Resources.Column_Header_Tank}" HeaderTemplate="{StaticResource tankTemplate}" SortMemberPath="Tank">
+                <DataGridTemplateColumn Width="80" Header="{x:Static Resources:Resources.Column_Header_Tank}" HeaderTemplate="{StaticResource tankTemplate}" SortMemberPath="TankDescription">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Grid>
-                                <Image Source="{Binding Path=TankIcon, Mode=OneWay, Converter={x:Static converters:TankIconToImageConverter.Default}}" 
+                                <Image Source="{Binding Path=TankDescription, Mode=OneWay, Converter={x:Static converters:TankIconToImageConverter.Default}}" 
                                                HorizontalAlignment="Left" />
-                                <TextBlock Margin="40,0,0,0" Text="{Binding Tank}" Foreground="#5C5A4A" VerticalAlignment="Center"></TextBlock>
+                                <TextBlock Margin="40,0,0,0" Text="{Binding TankDescription}" Foreground="#5C5A4A" VerticalAlignment="Center"></TextBlock>
                             </Grid>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
@@ -343,13 +343,13 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                <DataGridTemplateColumn Width="80" Header="{x:Static Resources:Resources.Column_Header_Tank}" HeaderTemplate="{StaticResource tankTemplate}" SortMemberPath="Tank">
+                <DataGridTemplateColumn Width="80" Header="{x:Static Resources:Resources.Column_Header_Tank}" HeaderTemplate="{StaticResource tankTemplate}" SortMemberPath="TankDescription">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Grid>
-                                <Image Source="{Binding Path=TankIcon, Mode=OneWay, Converter={x:Static converters:TankIconToImageConverter.Default}}" 
+                                <Image Source="{Binding Path=TankDescription, Mode=OneWay, Converter={x:Static converters:TankIconToImageConverter.Default}}" 
                                                HorizontalAlignment="Left" />
-                                <TextBlock Margin="40,0,0,0" Text="{Binding Tank}" Foreground="#5C5A4A" VerticalAlignment="Center"></TextBlock>
+                                <TextBlock Margin="40,0,0,0" Text="{Binding TankDescription}" Foreground="#5C5A4A" VerticalAlignment="Center"></TextBlock>
                             </Grid>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>

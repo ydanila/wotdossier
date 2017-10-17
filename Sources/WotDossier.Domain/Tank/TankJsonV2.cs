@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using WotDossier.Domain.Interfaces;
 
 namespace WotDossier.Domain.Tank
@@ -25,8 +26,12 @@ namespace WotDossier.Domain.Tank
             
             
             Achievements = new AchievementsJson(),
-            Common = new CommonJson(),
-            Description = TankDescription.Unknown(),
+            Common = new CommonJson
+            {
+	            countryid = -1,
+				tankid = -1,
+				compactDescr = DossierUtils.TypeCompDesc(-1,-1)
+            },
             Frags = new List<FragsJson>(),
             Achievements7x7 = new Achievements7x7(),
             AchievementsHistorical = new AchievementsHistorical(),
@@ -43,15 +48,28 @@ namespace WotDossier.Domain.Tank
         /// </summary>
         public AchievementsClan AchievementsClan { get; set; }
 
-        /// <summary>
-        /// Gets or sets the description.
-        /// </summary>
-        public TankDescription Description { get; set; }
+	    private TankDescription description;
+		/// <summary>
+		/// Gets or sets the description.
+		/// </summary>
 
-        /// <summary>
-        /// Gets or sets the common stat.
-        /// </summary>
-        public CommonJson Common { get; set; }
+		[IgnoreDataMember]
+	    public TankDescription Description
+	    {
+		    get
+		    {
+			    if (description == null)
+			    {
+				    description = Dictionaries.Instance.GetTankDescription(Common.compactDescr);
+			    }
+			    return description;
+		    }
+	    }
+
+		/// <summary>
+		/// Gets or sets the common stat.
+		/// </summary>
+		public CommonJson Common { get; set; }
 
         /// <summary>
         /// Gets or sets the a15x15 stat.

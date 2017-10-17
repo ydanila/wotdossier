@@ -160,7 +160,7 @@ namespace WotDossier.Applications.Logic
             if (battlesCount > 0)
             {
                 double expDamage =
-                    tanks.Select(x => predicate(x).battlesCount*x.Description.Expectancy.PRNominalDamage).Sum();
+                    tanks.Select(x => predicate(x).battlesCount*Dictionaries.Instance.FindExpectedValues(WN8Type.Perfomance, x.Description).Damage).Sum();
                 int wins = tanks.Sum(x => predicate(x).wins);
                 int playerDamage = tanks.Sum(x => predicate(x).damageDealt);
                 double avgTier = tanks.Sum(x => predicate(x).battlesCount*x.Description.Tier)/(double) battlesCount;
@@ -178,7 +178,7 @@ namespace WotDossier.Applications.Logic
             int battlesCount = tanks.Sum(x => x.BattlesCount);
             if (battlesCount > 0)
             {
-                double expDamage = tanks.Select(x => x.BattlesCount*x.Description.Expectancy.PRNominalDamage).Sum();
+                double expDamage = tanks.Select(x => x.BattlesCount* Dictionaries.Instance.FindExpectedValues(WN8Type.Perfomance, x.Description).Damage).Sum();
                 int wins = tanks.Sum(x => ((IStatisticBattles) x).Wins);
                 int playerDamage = tanks.Sum(x => x.DamageDealt);
                 double avgTier = tanks.Sum(x => x.BattlesCount*x.Description.Tier)/(double) battlesCount;
@@ -196,7 +196,7 @@ namespace WotDossier.Applications.Logic
             int battlesCount = tanks.Sum(x => x.BattlesCountDelta);
             if (battlesCount > 0)
             {
-                double expDamage = tanks.Select(x => x.BattlesCountDelta*x.Description.Expectancy.PRNominalDamage).Sum();
+                double expDamage = tanks.Select(x => x.BattlesCountDelta* Dictionaries.Instance.FindExpectedValues(WN8Type.Perfomance, x.Description).Damage).Sum();
                 int wins = tanks.Sum(x => x.WinsDelta);
                 int playerDamage = tanks.Sum(x => x.DamageDealtDelta);
                 double avgTier = tanks.Sum(x => x.BattlesCountDelta*x.Tier)/battlesCount;
@@ -371,14 +371,14 @@ namespace WotDossier.Applications.Logic
                 double winRate = tanks.Sum(x => predicate(x).wins)/battles;
                 double frags = tanks.Sum(x => predicate(x).frags)/battles;
 
-                double expDamage = tanks.Sum(x => predicate(x).battlesCount*x.Description.ExpectedValues[wn8Type].Damage)/
+                double expDamage = tanks.Sum(x => predicate(x).battlesCount* Dictionaries.Instance.FindExpectedValues(wn8Type, x.Description).Damage)/
                                    battles;
-                double expSpotted = tanks.Sum(x => predicate(x).battlesCount*x.Description.ExpectedValues[wn8Type].Spotted)/
+                double expSpotted = tanks.Sum(x => predicate(x).battlesCount* Dictionaries.Instance.FindExpectedValues(wn8Type, x.Description).Spotted)/
                                     battles;
-                double expDef = tanks.Sum(x => predicate(x).battlesCount*x.Description.ExpectedValues[wn8Type].Defence)/battles;
+                double expDef = tanks.Sum(x => predicate(x).battlesCount* Dictionaries.Instance.FindExpectedValues(wn8Type, x.Description).Defence)/battles;
                 double expWinRate =
-                    tanks.Sum(x => (predicate(x).battlesCount*x.Description.ExpectedValues[wn8Type].WinRate)/100.0)/battles;
-                double expFrags = tanks.Sum(x => predicate(x).battlesCount*x.Description.ExpectedValues[wn8Type].Frags)/battles;
+                    tanks.Sum(x => (predicate(x).battlesCount* Dictionaries.Instance.FindExpectedValues(wn8Type, x.Description).WinRate)/100.0)/battles;
+                double expFrags = tanks.Sum(x => predicate(x).battlesCount* Dictionaries.Instance.FindExpectedValues(wn8Type, x.Description).Frags)/battles;
                 return Wn8(damage, expDamage, frags, expFrags, spotted, expSpotted, def, expDef, winRate, expWinRate);
             }
             return 0;
@@ -391,7 +391,7 @@ namespace WotDossier.Applications.Logic
         /// <returns></returns>
         private static List<ITankDescription> Filter(IEnumerable<ITankDescription> tanks)
         {
-            return tanks.Where(x => !Dictionaries.Instance.NotExistsedTanksList.Contains(x.Description.UniqueId)).ToList();
+            return tanks.Where(x => x.Description.Hidden == false).ToList();
         }
 
         /// <summary>
@@ -413,12 +413,12 @@ namespace WotDossier.Applications.Logic
                 double winRate = tanks.Sum(x => x.Wins)/battles;
                 double frags = tanks.Sum(x => x.Frags)/battles;
 
-                double expDamage = tanks.Sum(x => x.BattlesCount*x.Description.ExpectedValues[wn8Type].Damage)/battles;
-                double expSpotted = tanks.Sum(x => x.BattlesCount*x.Description.ExpectedValues[wn8Type].Spotted)/battles;
-                double expDef = tanks.Sum(x => x.BattlesCount*x.Description.ExpectedValues[wn8Type].Defence)/battles;
-                double expWinRate = tanks.Sum(x => (x.BattlesCount*x.Description.ExpectedValues[wn8Type].WinRate)/100.0)/
+                double expDamage = tanks.Sum(x => x.BattlesCount* Dictionaries.Instance.FindExpectedValues(wn8Type, x.Description).Damage)/battles;
+                double expSpotted = tanks.Sum(x => x.BattlesCount* Dictionaries.Instance.FindExpectedValues(wn8Type, x.Description).Spotted)/battles;
+                double expDef = tanks.Sum(x => x.BattlesCount* Dictionaries.Instance.FindExpectedValues(wn8Type, x.Description).Defence)/battles;
+                double expWinRate = tanks.Sum(x => (x.BattlesCount* Dictionaries.Instance.FindExpectedValues(wn8Type, x.Description).WinRate)/100.0)/
                                     battles;
-                double expFrags = tanks.Sum(x => x.BattlesCount*x.Description.ExpectedValues[wn8Type].Frags)/battles;
+                double expFrags = tanks.Sum(x => x.BattlesCount* Dictionaries.Instance.FindExpectedValues(wn8Type, x.Description).Frags)/battles;
                 return Wn8(damage, expDamage, frags, expFrags, spotted, expSpotted, def, expDef, winRate, expWinRate);
             }
             return 0;
@@ -443,13 +443,13 @@ namespace WotDossier.Applications.Logic
                 double winRate = tanks.Sum(x => x.WinsDelta)/battles;
                 double frags = tanks.Sum(x => x.FragsDelta)/battles;
 
-                double expDamage = tanks.Sum(x => x.BattlesCountDelta*x.Description.ExpectedValues[wn8Type].Damage)/battles;
-                double expSpotted = tanks.Sum(x => x.BattlesCountDelta*x.Description.ExpectedValues[wn8Type].Spotted)/
+                double expDamage = tanks.Sum(x => x.BattlesCountDelta* Dictionaries.Instance.FindExpectedValues(wn8Type, x.Description).Damage)/battles;
+                double expSpotted = tanks.Sum(x => x.BattlesCountDelta* Dictionaries.Instance.FindExpectedValues(wn8Type, x.Description).Spotted)/
                                     battles;
-                double expDef = tanks.Sum(x => x.BattlesCountDelta*x.Description.ExpectedValues[wn8Type].Defence)/battles;
+                double expDef = tanks.Sum(x => x.BattlesCountDelta* Dictionaries.Instance.FindExpectedValues(wn8Type, x.Description).Defence)/battles;
                 double expWinRate =
-                    tanks.Sum(x => (x.BattlesCountDelta*x.Description.ExpectedValues[wn8Type].WinRate)/100.0)/battles;
-                double expFrags = tanks.Sum(x => x.BattlesCountDelta*x.Description.ExpectedValues[wn8Type].Frags)/battles;
+                    tanks.Sum(x => (x.BattlesCountDelta* Dictionaries.Instance.FindExpectedValues(wn8Type, x.Description).WinRate)/100.0)/battles;
+                double expFrags = tanks.Sum(x => x.BattlesCountDelta* Dictionaries.Instance.FindExpectedValues(wn8Type, x.Description).Frags)/battles;
                 return Wn8(damage, expDamage, frags, expFrags, spotted, expSpotted, def, expDef, winRate, expWinRate);
             }
             return 0;

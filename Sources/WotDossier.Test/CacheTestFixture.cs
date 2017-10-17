@@ -50,9 +50,9 @@ namespace WotDossier.Test
                     foreach (TankJson tankJson in tanks)
                     {
                         string iconPath = string.Format(@"..\..\..\WotDossier.Resources\Images\Tanks\{0}.png",
-                            tankJson.Description.Icon.IconId);
+                            tankJson.Description.IconId);
                         Assert.True(File.Exists(iconPath),
-                            string.Format("Version: {1}. Can't find icon {0}", tankJson.Description.Icon.IconId, version));
+                            string.Format("Version: {1}. Can't find icon {0}", tankJson.Description.IconId, version));
                     }
 
                     foreach (BattleMode battleMode in Enum.GetValues(typeof (BattleMode)))
@@ -89,9 +89,7 @@ namespace WotDossier.Test
                 List<TankJson> tanks = CacheFileHelper.InternalBinaryCacheToJson(cacheFile);
                 var performanceRating = RatingHelper.PerformanceRating(tanks, json => json.A15x15);
                 Console.WriteLine(performanceRating);
-
             }
-            
         }
 
         [Test]
@@ -310,8 +308,8 @@ namespace WotDossier.Test
             List<TankJson> tanks = CacheFileHelper.InternalBinaryCacheToJson(cacheFile);
             foreach (TankJson tankJson in tanks)
             {
-                string iconPath = string.Format(@"..\..\..\WotDossier.Resources\Images\Tanks\{0}.png", tankJson.Description.Icon.IconId);
-                Assert.True(File.Exists(iconPath), string.Format("Version: {1}. Can't find icon {0}", tankJson.Description.Icon.IconId, version));
+                string iconPath = string.Format(@"..\..\..\WotDossier.Resources\Images\Tanks\{0}.png", tankJson.Description.IconId);
+                Assert.True(File.Exists(iconPath), string.Format("Version: {1}. Can't find icon {0}", tankJson.Description.IconId, version));
             }
             StatisticViewStrategyBase strategy = StatisticViewStrategyManager.Get(battleMode, DossierRepository);
 
@@ -365,5 +363,7 @@ namespace WotDossier.Test
             }
             return cacheFile;
         }
+
+
     }
 }

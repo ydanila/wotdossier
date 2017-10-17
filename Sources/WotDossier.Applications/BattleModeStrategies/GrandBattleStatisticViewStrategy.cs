@@ -113,7 +113,7 @@ namespace WotDossier.Applications.BattleModeStrategies
 			        {
 				        CountryId = x.Common.countryid,
 				        TankId = x.Common.tankid,
-				        Icon = x.Description.Icon.IconId,
+				        Icon = x.Description.IconId,
 				        PlayerId = playerId,
 				        IsPremium = x.Common.premium == 1,
 				        Name = x.Common.tanktitle,
@@ -134,7 +134,7 @@ namespace WotDossier.Applications.BattleModeStrategies
         public override List<ITankStatisticRow> GetTanksStatistic(int playerId)
         {
 			//return GetTanksStatistic<TankGrandBattleBattlesStatisticEntity>(playerId);
-			return _tanks.GroupBy(x => x.TankId).Select(x => ToTankStatisticRow(x, Predicate)).OrderByDescending(x => x.Tier).ThenBy(x => x.Tank).Where(x => x.BattlesCount > 0).ToList();
+			return _tanks.GroupBy(x => x.TankId).Select(x => ToTankStatisticRow(x, Predicate)).OrderByDescending(x => x.Tier).ThenBy(x => x.TankDescription).Where(x => x.BattlesCount > 0).ToList();
 		}
 
         /// <summary>

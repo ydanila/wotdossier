@@ -235,8 +235,7 @@ namespace WotDossier.Dal
                     {
                         foreach (Vehicle tank in tanks)
                         {
-                            tank.description =
-                                Dictionaries.Instance.Tanks.Values.FirstOrDefault(x => x.CompDescr == tank.tank_id);
+                            tank.description = Dictionaries.Instance.GetTankDescription(tank.tank_id);
                             var vehicleAchievements = achievements.FirstOrDefault(x => x.tank_id == tank.tank_id) ??
                                                       new VehicleAchievements {achievements = new MedalAchievements()};
                             tank.achievements = vehicleAchievements.achievements;

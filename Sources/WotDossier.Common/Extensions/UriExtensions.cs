@@ -9,6 +9,8 @@ namespace WotDossier.Common.Extensions
 {
     public static class UriExtensions
     {
+	    private static HttpClient Client { get; } = new HttpClient();
+
         public static void Delete(this Uri uri)
         {
             try
@@ -25,12 +27,11 @@ namespace WotDossier.Common.Extensions
 
         public static T Get<T>(this Uri uri)
         {
-            var client = new HttpClient();
             //client.BaseAddress = uri;
-            client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            Client.DefaultRequestHeaders.Accept.Clear();
+            Client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             T result = default(T);
-            HttpResponseMessage response = client.GetAsync(uri).Result;
+            HttpResponseMessage response = Client.GetAsync(uri).Result;
             if (response.IsSuccessStatusCode)
             {
                 result = response.Content.ReadAsAsync<T>().Result;
@@ -38,7 +39,18 @@ namespace WotDossier.Common.Extensions
             return result;
         }
 
-        public static void Post(this Uri uri, string data)
+	    public static string Download(this Uri uri)
+	    {
+		    var result = string.Empty;
+		    HttpResponseMessage response = Client.GetAsync(uri).Result;
+		    if (response.IsSuccessStatusCode)
+		    {
+			    result = response.Content.ReadAsStringAsync().Result;
+		    }
+		    return result;
+	    }
+
+		public static void Post(this Uri uri, string data)
         {
             var client = new WebClient();
             client.Proxy.Credentials = CredentialCache.DefaultCredentials;

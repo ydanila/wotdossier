@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
+using System.Runtime.Serialization;
 using Common.Logging;
 using WotDossier.Applications.ViewModel.Replay.Viewer;
 using WotDossier.Common;
@@ -77,7 +78,6 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int DamageAssistedRadio { get; set; }
         public string DeathReasonString { get; set; }
         public FinishReason FinishReason { get; set; }
-        public TankIcon Icon { get; set; }
         public bool IsAlive { get; set; }
         public bool IsPlatoon { get; set; }
         private BattleStatus _isWinner = BattleStatus.Unknown;
@@ -109,9 +109,42 @@ namespace WotDossier.Applications.ViewModel.Replay
             }
         }
 
-        public string MapName { get; set; }
-        public int MapId { get; set; }
+		[DataMember]
         public string MapNameId { get; set; }
+
+	    private MapDescription map;
+	    [IgnoreDataMember]
+	    public MapDescription Map
+	    {
+		    get
+		    {
+			    if (map == null)
+			    {
+				    map = Dictionaries.Instance.GetMapDescription(MapNameId, ClientVersion);
+			    }
+			    return map;
+		    }
+	    }
+
+		[DataMember]
+		public int TankUniqueId { get; set; }
+
+
+	    private TankDescription description;
+	    [IgnoreDataMember]
+	    public TankDescription TankDescription
+	    {
+		    get
+		    {
+			    if (description == null)
+			    {
+				    description = Dictionaries.Instance.GetTankDescription(DossierUtils.TypeCompDesc(TankUniqueId), ClientVersion);
+			    }
+			    return description;
+		    }
+	    }
+
+		public string MapMode { get; set; }
 
         /// <summary>
         /// Gets or sets the mark of mastery.
@@ -141,7 +174,6 @@ namespace WotDossier.Applications.ViewModel.Replay
         public long ReplayId { get; set; }
         public int Spotted { get; set; }
 
-        public TankDescription Tank { get; set; }
         public string TankName { get; set; }
         public int Team { get; set; }
         public List<Vehicle> TeamMembers { get; set; }
@@ -174,13 +206,15 @@ namespace WotDossier.Applications.ViewModel.Replay
             }
         }
 
-        public void InitMap()
+        private void InitMap()
         {
             if (Team != 0)
             {
                 var replay = ReplayData();
+	            ;
 
-                var map = Dictionaries.Instance.Maps[replay.datablock_1.mapName];
+	            var version = ReplayFileHelper.ResolveVersion(replay.datablock_1.Version, DateTime.Parse(replay.datablock_1.dateTime, CultureInfo.GetCultureInfo("ru-RU")));
+				var map = Dictionaries.Instance.GetMapDescription(replay.datablock_1.mapName, version);
 
                 _mapGrid = new MapGrid(new MapElementContext(map, replay.datablock_1.gameplayID, Team, 300, 300));
             }
@@ -201,15 +235,11 @@ namespace WotDossier.Applications.ViewModel.Replay
 
                 ClientVersion = ReplayFileHelper.ResolveVersion(replay.datablock_1.Version, PlayTime);
 
-                TankDescription description = Dictionaries.Instance.GetReplayTankDescription(replay.datablock_1.playerVehicle, ClientVersion); 
+                TankUniqueId = Dictionaries.Instance.GetReplayTankDescription(replay.datablock_1.playerVehicle, ClientVersion).UniqueId; 
 
-                Icon = description.Icon;
+                CountryId = TankDescription.Country;
 
-                CountryId = (Country) description.CountryId;
-
-                Tank = description;
-
-                TankName = Tank.Title;
+                TankName = TankDescription.Title;
 
                 ReplayId = Int64.Parse(PlayTime.ToString("yyyyMMddHHmm"));
 
@@ -220,19 +250,10 @@ namespace WotDossier.Applications.ViewModel.Replay
                 TeamMembers = replay.datablock_1.vehicles.Values.ToList();
 
 
-                MapName = replay.datablock_1.mapDisplayName;
                 MapNameId = replay.datablock_1.mapName;
+				MapMode = replay.GetMapMode();
 
-                if (Dictionaries.Instance.Maps.ContainsKey(replay.datablock_1.mapName))
-                {
-                    MapId = Dictionaries.Instance.Maps[replay.datablock_1.mapName].MapId;
-                }
-                else
-                {
-                    Log.WarnFormat("Unknown map: {0}", replay.datablock_1.mapName);
-                }
-
-                BattleType = (BattleType) replay.datablock_1.battleType;
+				BattleType = (BattleType) replay.datablock_1.battleType;
                 Gameplay = (Gameplay) Enum.Parse(typeof (Gameplay), replay.datablock_1.gameplayID);
                 Team = TeamMembers.First(x => x.name == replay.datablock_1.playerName).team;
 
@@ -293,7 +314,7 @@ namespace WotDossier.Applications.ViewModel.Replay
         private DeathReason ResolveDeathReason(Domain.Replay.Replay replay)
         {
             var deathReason = (DeathReason) replay.datablock_battle_result.personal.deathReason;
-            if (deathReason == DeathReason.DestroyedByShot && replay.datablock_battle_result.personal.damageReceived < Tank.Health)
+            if (deathReason == DeathReason.DestroyedByShot && replay.datablock_battle_result.personal.damageReceived < TankDescription.Health)
             {
                 return DeathReason.CrewDead;
             }

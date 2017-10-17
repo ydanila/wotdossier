@@ -50,13 +50,11 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         public List<TeamMember> SecondTeam { get; set; }
 
-        public TankIcon TankIcon { get; set; }
-
         public string Date { get; set; }
 
         public string FullName { get; set; }
 
-        public string Tank { get; set; }
+        public TankDescription TankDescription { get; set; }
 
         public List<Medal> BattleMedals { get; set; }
 
@@ -224,9 +222,14 @@ namespace WotDossier.Applications.ViewModel.Replay
         
         private ReplayViewer _replayViewer;
         
-        public IReplayMap MapDescription { get; private set; }
+        public MapDescription Map { get; private set; }
 
-        private TeamMember _ourTeamMember;
+	    public Gameplay Gameplay { get; private set; }
+	    public BattleType BattleType { get; private set; }
+
+	    public string MapMode { get; private set; }
+
+		private TeamMember _ourTeamMember;
         public TeamMember OurTeamMember
         {
             get { return _ourTeamMember; }
@@ -394,24 +397,31 @@ namespace WotDossier.Applications.ViewModel.Replay
             {
 	            Raw = replay.datablock_battle_result.raw;
 
-				MapDescription = GetMapDescription(replay);
-
-                var tankDescription = Dictionaries.Instance.GetTankDescription(replay.datablock_battle_result.personal.typeCompDescr);
-
-                Tank = tankDescription.Title;
-                TankIcon = tankDescription.Icon;
-                
+				
                 Date = replay.datablock_1.dateTime;
-
-                TeamMembers = GetTeamMembers(replay, MapDescription.Team);
 
                 DateTime playTime = DateTime.Parse(replay.datablock_1.dateTime, CultureInfo.GetCultureInfo("ru-RU"));
 
                 Version clientVersion = ReplayFileHelper.ResolveVersion(replay.datablock_1.Version, playTime);
 
-                long playerId = replay.datablock_battle_result.personal.accountDBID;
-                FirstTeam = TeamMembers.Where(x => x.Team == MapDescription.Team).OrderByDescending(x => x.Xp).ToList();
-                SecondTeam = TeamMembers.Where(x => x.Team != MapDescription.Team).OrderByDescending(x => x.Xp).ToList();
+
+	            Map = Dictionaries.Instance.GetMapDescription(replay.datablock_1.mapName, clientVersion);
+
+	            Gameplay = (Gameplay)Enum.Parse(typeof(Gameplay), replay.datablock_1.gameplayID);
+				BattleType = (BattleType)replay.datablock_1.battleType;
+
+				TankDescription = Dictionaries.Instance.GetTankDescription(replay.datablock_battle_result.personal.typeCompDescr, clientVersion);
+
+	            long playerId = replay.datablock_battle_result.personal.accountDBID;
+
+				var myTeam = replay.datablock_battle_result.players[playerId].team;
+
+				TeamMembers = GetTeamMembers(replay, myTeam);
+
+
+				
+                FirstTeam = TeamMembers.Where(x => x.Team == myTeam).OrderByDescending(x => x.Xp).ToList();
+                SecondTeam = TeamMembers.Where(x => x.Team != myTeam).OrderByDescending(x => x.Xp).ToList();
                 ReplayUser = TeamMembers.First(x => x.AccountDBID == playerId);
 
                 List<long> squads1 = FirstTeam.Where(x => x.platoonID > 0).OrderBy(x => x.platoonID).Select(x => x.platoonID).Distinct().ToList();
@@ -634,14 +644,14 @@ namespace WotDossier.Applications.ViewModel.Replay
                     
                     foreach (Slot slot in replay.datablock_advanced.Slots)
                     {
-                        if (TankIcon.CountryId != Country.Unknown)
+                        if (TankDescription.Country != Country.Unknown)
                         {
                             if (slot.Item.TypeId == SlotType.Equipment && Dictionaries.Instance.TryGetArtefactDescription<ConsumableDescription>(slot.Item.Id, out var equipt))
                             {
                                 slot.Description = equipt;
                                 Consumables.Add(slot);
                             }
-                            if (slot.Item.TypeId == SlotType.Shell && Dictionaries.Instance.TryGetShellDescription(TankIcon.CountryId, slot.Item.Id, out var shell))
+                            if (slot.Item.TypeId == SlotType.Shell && Dictionaries.Instance.TryGetShellDescription(TankDescription.Country, slot.Item.Id, out var shell))
                             {
                                 slot.Description = shell;
                                 Shells.Add(slot);
@@ -657,37 +667,13 @@ namespace WotDossier.Applications.ViewModel.Replay
                     ChatMessages = replay.datablock_advanced.Messages;
                 }
 
-                Title = string.Format(Resources.Resources.WindowTitleFormat_Replay, Tank, MapDescription.MapName, level > 0 ? level.ToString(CultureInfo.InvariantCulture) : "n/a", clientVersion.ToString(3));
-
-                ReplayViewer = new ReplayViewer(Replay, TeamMembers.Select(x => new MapVehicle(x)).ToList());
+                Title = string.Format(Resources.Resources.WindowTitleFormat_Replay, TankDescription, Map.Title, level > 0 ? level.ToString(CultureInfo.InvariantCulture) : "n/a", clientVersion.ToString(3));
+		        MapMode = replay.GetMapMode();
+				ReplayViewer = new ReplayViewer(Replay, TeamMembers.Select(x => new MapVehicle(x)).ToList());
 
                 return true;
             }
             return false;
-        }
-
-        private IReplayMap GetMapDescription(Domain.Replay.Replay replay)
-        {
-            ReplayMapViewModel mapDescription = new ReplayMapViewModel();
-
-            mapDescription.MapNameId = replay.datablock_1.mapName;
-            mapDescription.Gameplay = (Gameplay) Enum.Parse(typeof (Gameplay), replay.datablock_1.gameplayID);
-            mapDescription.MapName = string.Format("{0} - {1}", replay.datablock_1.mapDisplayName,
-                GetMapMode(mapDescription.Gameplay, (BattleType)replay.datablock_1.battleType));
-
-            if (Dictionaries.Instance.Maps.ContainsKey(replay.datablock_1.mapName))
-            {
-                mapDescription.MapId = Dictionaries.Instance.Maps[replay.datablock_1.mapName].MapId;
-            }
-            else
-            {
-                _log.WarnFormat("Unknown map: {0}", replay.datablock_1.mapName);
-            }
-
-            long playerId = replay.datablock_battle_result.personal.accountDBID;
-
-            mapDescription.Team = replay.datablock_battle_result.players[playerId].team;
-            return mapDescription;
         }
 
         private List<Medal> GetMedals(Domain.Replay.Replay replay)
@@ -723,7 +709,7 @@ namespace WotDossier.Applications.ViewModel.Replay
             List<TeamMember> teamMembers =
                 players.Join(vehicleResults, p => p.Key, vr => vr.Value.accountDBID, Tuple.Create)
                     .Join(vehicles, pVr => pVr.Item2.Key, v => v.Key,
-                        (pVr, v) => new TeamMember(pVr.Item1, pVr.Item2, v, myTeamId, replay.datablock_1.regionCode, replay.datablock_battle_result.players, replay.datablock_battle_result.vehicles))
+                        (pVr, v) => new TeamMember(replay.datablock_1.Version, pVr.Item1, pVr.Item2, v, myTeamId, replay.datablock_1.regionCode, replay.datablock_battle_result.players, replay.datablock_battle_result.vehicles))
                     .ToList();
             return teamMembers;
         }
@@ -741,36 +727,6 @@ namespace WotDossier.Applications.ViewModel.Replay
             }
 
             return BattleStatus.Defeat;
-        }
-
-        private object GetMapMode(Gameplay gameplayId, BattleType battleType)
-        {
-            List<BattleType> list = new List<BattleType>
-            {
-                BattleType.Unknown,
-                BattleType.Regular,
-                BattleType.CompanyWar,
-                BattleType.ClanWar,
-                BattleType.Event
-            };
-
-            if (list.Contains(battleType))
-            {
-                if (gameplayId == Gameplay.ctf)
-                {
-                    return Resources.Resources.BattleType_ctf;
-                }
-                if (gameplayId == Gameplay.domination)
-                {
-                    return Resources.Resources.BattleType_domination;
-                }
-                if (gameplayId == Gameplay.nations)
-                {
-                    return Resources.Resources.BattleType_nations;
-                }
-                return Resources.Resources.BattleType_assault;
-            }
-            return Resources.Resources.ResourceManager.GetEnumResource(battleType);
         }
     }
 }

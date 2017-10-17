@@ -33,8 +33,6 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         public string Tank { get; set; }
 
-        public TankIcon TankIcon { get; set; }
-
         public long Id { get; set; }
 
         public long AccountDBID { get; set; }
@@ -141,8 +139,6 @@ namespace WotDossier.Applications.ViewModel.Replay
             AccountDBID = teamMember.AccountDBID;
 
             TankDescription = teamMember.TankDescription;
-
-            TankIcon = TankDescription.Icon;
 
             Tank = teamMember.Tank;
             FullName = teamMember.FullName;

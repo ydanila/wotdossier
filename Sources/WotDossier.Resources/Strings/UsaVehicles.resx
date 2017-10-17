@@ -2342,6 +2342,10 @@ AVDS-1790-2</value>
   <data name="Continental_W-670-12" xml:space="preserve">
     <value>Continental W-670 Series 12</value>
   </data>
+  <data name="Continental_W-670-12_short" xml:space="preserve">
+    <value>Continental
+W-670 Series 12</value>
+  </data>
   <data name="Ford_GAA_R" xml:space="preserve">
     <value>Ford GAA early</value>
   </data>
@@ -2383,10 +2387,6 @@ AVDS-1790-2</value>
   </data>
   <data name="_M44_descr" xml:space="preserve">
     <value>A 155 mm SPG on the chassis of the M41 light tank. The vehicle saw action in the Korean War. In the early 1960s, improved SPGs of this type with rotating turrets were introduced, and the M44 was removed from service. According to different sources, between 250 and 600 vehicles were manufactured from 1953 through 1954.</value>
-  </data>
-  <data name="Continental_W-670-12_short" xml:space="preserve">
-    <value>Continental
-W-670 Series 12</value>
   </data>
   <data name="_37mm_T19" xml:space="preserve">
     <value>37 mm Gun T19</value>

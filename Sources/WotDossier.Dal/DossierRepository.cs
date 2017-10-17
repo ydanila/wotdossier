@@ -330,7 +330,7 @@ namespace WotDossier.Dal
             {
                 CountryId = dossierTank.Common.countryid,
                 TankId = dossierTank.Common.tankid,
-                Icon = dossierTank.Description.Icon.IconId,
+                Icon = dossierTank.Description.IconId,
                 PlayerId = playerEntity.Id,
                 PlayerUId = playerEntity.UId,
                 IsPremium = dossierTank.Common.premium == 1,

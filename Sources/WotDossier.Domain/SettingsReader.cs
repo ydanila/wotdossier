@@ -23,12 +23,12 @@ namespace WotDossier.Domain
 
             if (File.Exists(filePath))
             {
-                FileStream stream = File.Open(filePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
-                using (StreamReader reader = new StreamReader(stream))
-                {
-                    var readToEnd = reader.ReadToEnd();
-                    return Deserialize<AppSettings>(readToEnd);
-                }
+	            lock (_syncObject)
+	            {
+		            var readToEnd = File.ReadAllText(filePath);
+		            if (!string.IsNullOrEmpty(readToEnd))
+			            return Deserialize<AppSettings>(readToEnd);
+	            }
             }
             
             //create settings file if not exists
@@ -77,13 +77,7 @@ namespace WotDossier.Domain
 
             lock (_syncObject)
             {
-                using (FileStream stream = File.Open(filePath, FileMode.Create, FileAccess.ReadWrite, FileShare.Read))
-                {
-                    StreamWriter writer = new StreamWriter(stream, Encoding.UTF8);
-                    string xml = Serialize(settings);
-                    writer.Write(xml);
-                    writer.Flush();
-                }
+				File.WriteAllText(filePath, Serialize(settings));
             }
         }
 

@@ -10,7 +10,7 @@ namespace WotDossier.Resources
 {
     public class ImageCache
     {
-        private static readonly Dictionary<Uri, BitmapImage> _cache = new Dictionary<Uri, BitmapImage>();
+        private static readonly Dictionary<Uri, BitmapSource> _cache = new Dictionary<Uri, BitmapSource>();
 
 	    public static BitmapSource GetBitmapImage(string uriSource)
 	    {
@@ -21,14 +21,18 @@ namespace WotDossier.Resources
         {
             if (!_cache.ContainsKey(uriSource))
             {
-                BitmapImage bitmapImage = null;
+                BitmapSource bitmapImage = null;
                 try
                 {
                     bitmapImage = new BitmapImage(uriSource);
                 }
-                catch (Exception) { } 
+                catch (Exception) { }
 
-                _cache.Add(uriSource, bitmapImage);
+	            if (bitmapImage.DpiX != 96)
+		            bitmapImage = ConvertBitmapTo96DPI(bitmapImage);
+
+
+				_cache.Add(uriSource, bitmapImage);
             }
             return _cache[uriSource];
         }
@@ -45,5 +49,18 @@ namespace WotDossier.Resources
 	    {
 		    return GetBitmapImage(new Uri(uriSource), location, size);
 	    }
+
+		public static BitmapSource ConvertBitmapTo96DPI(BitmapSource bitmapImage)
+		{
+			double dpi = 96;
+			int width = bitmapImage.PixelWidth;
+			int height = bitmapImage.PixelHeight;
+
+			int stride = width * bitmapImage.Format.BitsPerPixel;
+			byte[] pixelData = new byte[stride * height];
+			bitmapImage.CopyPixels(pixelData, stride, 0);
+
+			return BitmapSource.Create(width, height, dpi, dpi, bitmapImage.Format, null, pixelData, stride);
+		}
 	}
 }

@@ -130,10 +130,11 @@ namespace WotDossier.Dal
             v2.Achievements.MarksOnGun = vehicle.achievements.marksOnGun;
             v2.Achievements.MarkOfMastery = vehicle.mark_of_mastery;
 
-            v2.Common = new CommonJson
+
+			v2.Common = new CommonJson
             {
                 basedonversion = 65,
-                compactDescr = 0,
+                compactDescr = vehicle.description.CompDescr,
                 countryid = vehicle.description.CountryId,
                 creationTime = 0,
                 creationTimeR = DateTime.MinValue,
@@ -144,10 +145,10 @@ namespace WotDossier.Dal
                 has_clan = 0,
                 has_company = 0,
                 tankid = vehicle.description.TankId,
-                premium = Dictionaries.Instance.Tanks[v2.UniqueId()].Premium,
-                tanktitle = Dictionaries.Instance.Tanks[v2.UniqueId()].Title,
-                tier = Dictionaries.Instance.Tanks[v2.UniqueId()].Tier,
-                type = Dictionaries.Instance.Tanks[v2.UniqueId()].Type,
+                premium = Convert.ToInt32(vehicle.description.Premium),
+                tanktitle = vehicle.description.Title,
+                tier = vehicle.description.Tier,
+                type = vehicle.description.Type,
                 mileage = 0
             };
             //v2.Common.lastBattleTime = tankJson.last_time_played;
@@ -156,7 +157,7 @@ namespace WotDossier.Dal
             //v2.Common.updatedR = Utils.UnixDateToDateTime(tankJson.updated);
             //v2.Common.battleLifeTime = tankJson.play_time;
             //v2.Common.treesCut = tankJson.amounts.trees_knocked_down;
-            v2.Description = vehicle.description;
+            //v2.Description = vehicle.description;
             return v2;
         }
 

@@ -1,4 +1,6 @@
-﻿using WotDossier.Domain.Interfaces;
+﻿using System;
+using System.Runtime.Serialization;
+using WotDossier.Domain.Interfaces;
 
 namespace WotDossier.Domain.Tank
 {
@@ -8,9 +10,27 @@ namespace WotDossier.Domain.Tank
 
         public int TankId { get; set; }
 
-        public TankIcon Icon { get; set; }
+        private TankDescription description;
 
-        public int TankUniqueId { get; set; }
+	    [IgnoreDataMember]
+	    public TankDescription TankDescription
+	    {
+		    get
+		    {
+			    if (description == null)
+			    {
+				    int? compDescr = null;
+				    if (TankUniqueId != 0)
+					    compDescr = DossierUtils.TypeCompDesc(TankUniqueId);
+				    else
+					    compDescr = DossierUtils.TypeCompDesc(CountryId, TankId);
+				    description = Dictionaries.Instance.GetTankDescription(compDescr);
+				}
+			    return description;
+		    }
+	    }
+
+		public int TankUniqueId { get; set; }
 
         public int KilledByTankUniqueId { get; set; }
 
@@ -18,11 +38,10 @@ namespace WotDossier.Domain.Tank
 
         public int Type { get; set; }
 
-        public string Tank { get; set; }
-
         public double Tier { get; set; }
 
-        public bool IsPremium { get; set; }
+	    [IgnoreDataMember]
+	    public bool IsPremium => TankDescription.Premium;
         
         public bool IsFavorite { get; set; }
 
@@ -34,7 +53,7 @@ namespace WotDossier.Domain.Tank
         /// </returns>
         public override string ToString()
         {
-            return string.Format("{0} - {1}", Tank, Count);
+            return $"{TankDescription} - {Count}";
         }
     }
 }
