@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Runtime.Serialization;
 using WotDossier.Domain.Interfaces;
 
 namespace WotDossier.Domain.Tank
@@ -8,7 +10,7 @@ namespace WotDossier.Domain.Tank
     /// </summary>
     public class TankJson : ITankDescription
     {
-        public static TankJson Initial = new TankJson
+        public static readonly Lazy<TankJson> Initial = new Lazy<TankJson>(()=>new TankJson
         {
             A15x15 = new StatisticJson(),
             Clan = new StatisticJson(),
@@ -24,32 +26,50 @@ namespace WotDossier.Domain.Tank
             
             
             Achievements = new AchievementsJson(),
-            Common = new CommonJson(),
-            Description = TankDescription.Unknown(),
+            Common = new CommonJson
+            {
+	            countryid = -1,
+				tankid = -1,
+				compactDescr = DossierUtils.TypeCompDesc(-1,-1)
+            },
             Frags = new List<FragsJson>(),
             Achievements7x7 = new Achievements7x7(),
             AchievementsHistorical = new AchievementsHistorical(),
             AchievementsFallout = new AchievementsFallout(),
-            Historical = new StatisticJson(),
+	        AchievementsRanked = new AchievementsRanked(),
+			Historical = new StatisticJson(),
             FortBattles = new StatisticJsonFort(),
             FortAchievements = new AchievementsFort(),
             FortSorties = new StatisticJsonSortie()
-        };
+        });
 
         /// <summary>
         /// Gets or sets the clan achievements.
         /// </summary>
         public AchievementsClan AchievementsClan { get; set; }
 
-        /// <summary>
-        /// Gets or sets the description.
-        /// </summary>
-        public TankDescription Description { get; set; }
+	    private TankDescription description;
+		/// <summary>
+		/// Gets or sets the description.
+		/// </summary>
 
-        /// <summary>
-        /// Gets or sets the common stat.
-        /// </summary>
-        public CommonJson Common { get; set; }
+		[IgnoreDataMember]
+	    public TankDescription Description
+	    {
+		    get
+		    {
+			    if (description == null)
+			    {
+				    description = Dictionaries.Instance.GetTankDescription(Common.compactDescr);
+			    }
+			    return description;
+		    }
+	    }
+
+		/// <summary>
+		/// Gets or sets the common stat.
+		/// </summary>
+		public CommonJson Common { get; set; }
 
         /// <summary>
         /// Gets or sets the a15x15 stat.
@@ -113,10 +133,12 @@ namespace WotDossier.Domain.Tank
 
         public AchievementsFallout AchievementsFallout { get; set; }
 
-        /// <summary>
-        /// Gets or sets the achievements historical.
-        /// </summary>
-        public AchievementsHistorical AchievementsHistorical { get; set; }
+	    public AchievementsRanked AchievementsRanked { get; set; }
+
+		/// <summary>
+		/// Gets or sets the achievements historical.
+		/// </summary>
+		public AchievementsHistorical AchievementsHistorical { get; set; }
 
         /// <summary>
         /// Gets or sets the frags list.

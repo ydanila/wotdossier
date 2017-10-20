@@ -6,7 +6,7 @@
         int TankUniqueId { get; set; }
         int CountryId { get; set; }
         int Type { get; set; }
-        bool IsPremium { get; set; }
+        bool IsPremium { get; }
         bool IsFavorite { get; set; }
     }
 }

@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chassis/desc" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="chassis/name" xml:space="preserve">
+    <value>Suspension</value>
+  </data>
+  <data name="chassis/tags" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="engine/desc" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="engine/name" xml:space="preserve">
+    <value>Engine</value>
+  </data>
+  <data name="engine/tags" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="equipment/desc" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="equipment/name" xml:space="preserve">
+    <value>Consumables</value>
+  </data>
+  <data name="equipment/tags" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="fuel_tank/desc" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="fuel_tank/name" xml:space="preserve">
+    <value>Fuel tank</value>
+  </data>
+  <data name="fuel_tank/tags" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="gun/desc" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="gun/name" xml:space="preserve">
+    <value>Gun</value>
+  </data>
+  <data name="gun/tags" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="optionalDevice/desc" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="optionalDevice/name" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="optionalDevice/tags" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="radio/desc" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="radio/name" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="radio/tags" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="shell/dimension/inch" xml:space="preserve">
+    <value>"</value>
+  </data>
+  <data name="shell/dimension/mm" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="shell/dimension/sm" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="shell/kinds/ARMOR_PIERCING" xml:space="preserve">
+    <value>Armor-Piercing</value>
+  </data>
+  <data name="shell/kinds/ARMOR_PIERCING_CR" xml:space="preserve">
+    <value>AP Composite-Rigid</value>
+  </data>
+  <data name="shell/kinds/ARMOR_PIERCING_HE" xml:space="preserve">
+    <value>AP High-Explosive</value>
+  </data>
+  <data name="shell/kinds/HIGH_EXPLOSIVE" xml:space="preserve">
+    <value>High-Explosive</value>
+  </data>
+  <data name="shell/kinds/HOLLOW_CHARGE" xml:space="preserve">
+    <value>High-Explosive Anti-Tank</value>
+  </data>
+  <data name="shell/kindsAbbreviation/ARMOR_PIERCING" xml:space="preserve">
+    <value>AP</value>
+  </data>
+  <data name="shell/kindsAbbreviation/ARMOR_PIERCING_CR" xml:space="preserve">
+    <value>APCR</value>
+  </data>
+  <data name="shell/kindsAbbreviation/ARMOR_PIERCING_HE" xml:space="preserve">
+    <value>APHE</value>
+  </data>
+  <data name="shell/kindsAbbreviation/HIGH_EXPLOSIVE" xml:space="preserve">
+    <value>HE</value>
+  </data>
+  <data name="shell/kindsAbbreviation/HOLLOW_CHARGE" xml:space="preserve">
+    <value>HEAT</value>
+  </data>
+  <data name="shell/name" xml:space="preserve">
+    <value>%(caliber)s%(dimension)s %(kind)s %(name)s</value>
+  </data>
+  <data name="shot/desc" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="shot/name" xml:space="preserve">
+    <value>Shell</value>
+  </data>
+  <data name="shot/tags" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="tankman/roles/commander" xml:space="preserve">
+    <value>Commander</value>
+  </data>
+  <data name="tankman/roles/driver" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="tankman/roles/gunner" xml:space="preserve">
+    <value>Gunner</value>
+  </data>
+  <data name="tankman/roles/loader" xml:space="preserve">
+    <value>Loader</value>
+  </data>
+  <data name="tankman/roles/radioman" xml:space="preserve">
+    <value>Radio Operator</value>
+  </data>
+  <data name="tankman/skills/camouflage" xml:space="preserve">
+    <value>Concealment</value>
+  </data>
+  <data name="tankman/skills/camouflage_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Reduces vehicle visibility.&lt;/shortDesc&gt; Effective skill level is averaged across the entire crew. The skill is cumulative with the effects of Camouflage and a Camouflage Net.</value>
+  </data>
+  <data name="tankman/skills/fire_fighting" xml:space="preserve">
+    <value>Firefighting</value>
+  </data>
+  <data name="tankman/skills/fire_fighting_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Enhances firefighting abilities.&lt;/shortDesc&gt; Effective skill level is averaged across the entire crew.</value>
+  </data>
+  <data name="tankman/skills/main" xml:space="preserve">
+    <value>Primary skill</value>
+  </data>
+  <data name="tankman/skills/repair" xml:space="preserve">
+    <value>Repairs</value>
+  </data>
+  <data name="tankman/skills/repair_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Accelerates repairs to damaged modules.&lt;/shortDesc&gt; Effective skill level is averaged across the entire crew. The skill cumulative with the effects of Toolbox and Large Repair Kit.</value>
+  </data>
+  <data name="turret/desc" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="turret/name" xml:space="preserve">
+    <value>Turret</value>
+  </data>
+  <data name="turret/tags" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicle/desc" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicle/name" xml:space="preserve">
+    <value>Vehicle</value>
+  </data>
+  <data name="vehicle/tags/at-spg/desc" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicle/tags/at-spg/name" xml:space="preserve">
+    <value>Tank Destroyer</value>
+  </data>
+  <data name="vehicle/tags/heavy_tank/desc" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicle/tags/heavy_tank/name" xml:space="preserve">
+    <value>Heavy Tank</value>
+  </data>
+  <data name="vehicle/tags/light_tank/desc" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicle/tags/light_tank/name" xml:space="preserve">
+    <value>Light Tank</value>
+  </data>
+  <data name="vehicle/tags/medium_tank/desc" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicle/tags/medium_tank/name" xml:space="preserve">
+    <value>Medium Tank</value>
+  </data>
+  <data name="vehicle/tags/spg/desc" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="vehicle/tags/spg/name" xml:space="preserve">
+    <value>SPG</value>
+  </data>
+  <data name="tankman/skills/brotherhood" xml:space="preserve">
+    <value>Brothers in Arms</value>
+  </data>
+  <data name="tankman/skills/brotherhood_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Improves major qualifications and all skills for the entire crew.&lt;/shortDesc&gt; The perk is cumulative with the effects of Improved Ventilation, Extra Combat Rations, Chocolate, Case of Cola, Pudding and Tea, Strong Coffee, Improved Combat Rations, Onigiri, Buchty, Coffee with Buns, and Bread with Smalec.</value>
+  </data>
+  <data name="tankman/skills/commander_eagleEye" xml:space="preserve">
+    <value>Recon</value>
+  </data>
+  <data name="tankman/skills/commander_eagleEye_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Increases Maximum View Range.&lt;/shortDesc&gt; The skill is more effective if observation devices are damaged, or when combined with Situational Awareness, Coated Optics, and Binocular Telescope.</value>
+  </data>
+  <data name="tankman/skills/commander_expert" xml:space="preserve">
+    <value>Eagle Eye</value>
+  </data>
+  <data name="tankman/skills/commander_expert_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Enables the Commander to identify critically damaged modules on targeted vehicles within the view range.&lt;/shortDesc&gt; Is effective both in indirect and direct fire modes.</value>
+  </data>
+  <data name="tankman/skills/commander_sixthSense" xml:space="preserve">
+    <value>Sixth Sense</value>
+  </data>
+  <data name="tankman/skills/commander_sixthSense_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Enables the Commander to identify whether the vehicle has been spotted by the enemy.&lt;/shortDesc&gt;</value>
+  </data>
+  <data name="tankman/skills/commander_tutor" xml:space="preserve">
+    <value>Mentor</value>
+  </data>
+  <data name="tankman/skills/commander_tutor_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Provides additional experience to all crew members except the Commander.&lt;/shortDesc&gt;</value>
+  </data>
+  <data name="tankman/skills/commander_universalist" xml:space="preserve">
+    <value>Jack of All Trades</value>
+  </data>
+  <data name="tankman/skills/commander_universalist_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Enables the Commander to master every qualification and replace knocked-out crew members.&lt;/shortDesc&gt; Only major qualifications can be substituted. The replacement effect diminishes with each crew member knocked out.</value>
+  </data>
+  <data name="tankman/skills/driver_badRoadsKing" xml:space="preserve">
+    <value>Off-Road Driving</value>
+  </data>
+  <data name="tankman/skills/driver_badRoadsKing_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Reduces ground resistance when driving on soft and moderately soft terrain.&lt;/shortDesc&gt; Lower ground resistance increases vehicle maneuverability and acceleration. The skill is cumulative with the effects of Additional Grousers.</value>
+  </data>
+  <data name="tankman/skills/driver_rammingMaster" xml:space="preserve">
+    <value>Controlled Impact</value>
+  </data>
+  <data name="tankman/skills/driver_rammingMaster_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Decreases ramming damage to your vehicle and increases ramming damage to an enemy vehicle.&lt;/shortDesc&gt; The skill is effective only while your vehicle is in motion. The skill is ineffective when two allied vehicles collide.</value>
+  </data>
+  <data name="tankman/skills/driver_smoothDriving" xml:space="preserve">
+    <value>Smooth Ride</value>
+  </data>
+  <data name="tankman/skills/driver_smoothDriving_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Improves accuracy when firing on the move.&lt;/shortDesc&gt; The skill is not effective if the vehicle is stationary or rotating. The skill is cumulative with the effects of Vertical Stabilizer.</value>
+  </data>
+  <data name="tankman/skills/driver_tidyPerson" xml:space="preserve">
+    <value>Preventative Maintenance</value>
+  </data>
+  <data name="tankman/skills/driver_tidyPerson_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Reduces the chance of engine fire by preventing gas or oil leakage in the engine compartment.&lt;/shortDesc&gt; The perk is cumulative with the effects of Automatic Fire Extinguishers.</value>
+  </data>
+  <data name="tankman/skills/driver_virtuoso" xml:space="preserve">
+    <value>Clutch Braking</value>
+  </data>
+  <data name="tankman/skills/driver_virtuoso_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Increases vehicle traverse speed.&lt;/shortDesc&gt; The skill is cumulative with the effects of Additional Grousers, Lend-Lease Oil, Quality Oil, Removed Speed Governor, 100-octane Gasoline, and 105-octane Gasoline.</value>
+  </data>
+  <data name="tankman/skills/gunner_gunsmith" xml:space="preserve">
+    <value>Armorer</value>
+  </data>
+  <data name="tankman/skills/gunner_gunsmith_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Improves accuracy of a damaged gun.&lt;/shortDesc&gt; If two Gunners have the skill, only the higher rating is effective. The skill is cumulative with the effects of Vertical Stabilizer.</value>
+  </data>
+  <data name="tankman/skills/gunner_rancorous" xml:space="preserve">
+    <value>Designated Target</value>
+  </data>
+  <data name="tankman/skills/gunner_rancorous_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Makes targeted enemy vehicles visible for two more seconds.&lt;/shortDesc&gt; The perk is effective both in direct and indirect fire modes. If two Gunners have the perk, the effect is not cumulative.</value>
+  </data>
+  <data name="tankman/skills/gunner_smoothTurret" xml:space="preserve">
+    <value>Snap Shot</value>
+  </data>
+  <data name="tankman/skills/gunner_smoothTurret_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Improves accuracy during turret rotation.&lt;/shortDesc&gt; If two Gunners have the skill, only the higher rating is effective. The skill is cumulative with the effects of Vertical Stabilizer.</value>
+  </data>
+  <data name="tankman/skills/gunner_sniper" xml:space="preserve">
+    <value>Deadeye</value>
+  </data>
+  <data name="tankman/skills/gunner_sniper_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Increases the chance to cause damage to enemy vehicle modules and crew. &lt;/shortDesc&gt; It is effective only with AP, APCR, and HEAT shells. If two Gunners have the perk, the effect is not cumulative.</value>
+  </data>
+  <data name="tankman/skills/gunner_woodHunter" xml:space="preserve">
+    <value>Woodhunter</value>
+  </data>
+  <data name="tankman/skills/gunner_woodHunter_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Adds 1 meter to Maximum View Range unobstructed by trees and bushes.&lt;/shortDesc&gt; The perk comes into effect when it reaches 100%. If two Gunners have the perk, the effect is not cumulative.</value>
+  </data>
+  <data name="tankman/skills/loader_desperado" xml:space="preserve">
+    <value>Adrenaline Rush</value>
+  </data>
+  <data name="tankman/skills/loader_desperado_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Accelerates gun loading if the vehicle has less than 10% of its hit points left.&lt;/shortDesc&gt; If two Loaders have the perk, the effect is not cumulative. The perk is cumulative with the effects of Gun Rammer.</value>
+  </data>
+  <data name="tankman/skills/loader_intuition" xml:space="preserve">
+    <value>Intuition</value>
+  </data>
+  <data name="tankman/skills/loader_intuition_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Creates a chance that the Loader will promptly switch between shell types, either while the gun is loaded or during the loading process.&lt;/shortDesc&gt; Loading of a new shell type resumes exactly from the point at which it was stopped. If two Loaders have the perk, the effect increases.</value>
+  </data>
+  <data name="tankman/skills/loader_pedant" xml:space="preserve">
+    <value>Safe Stowage</value>
+  </data>
+  <data name="tankman/skills/loader_pedant_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Increases ammo rack durability: the shells do not come into contact with each other. &lt;/shortDesc&gt; If two Loaders have the perk, the effect is not cumulative. The perk is cumulative with the effects of "Wet" Ammo Rack.</value>
+  </data>
+  <data name="tankman/skills/radioman_finder" xml:space="preserve">
+    <value>Situational Awareness</value>
+  </data>
+  <data name="tankman/skills/radioman_finder_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Extends View Range.&lt;/shortDesc&gt; If two Radio Operators have the skill, only the higher rating is effective. The skill is cumulative with the effects of Recon, Coated Optics and Binocular Telescope.</value>
+  </data>
+  <data name="tankman/skills/radioman_inventor" xml:space="preserve">
+    <value>Signal Boosting</value>
+  </data>
+  <data name="tankman/skills/radioman_inventor_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Extends Signal Range.&lt;/shortDesc&gt; If two Radio Operators have the skill, only the higher rating is effective.</value>
+  </data>
+  <data name="tankman/skills/radioman_lastEffort" xml:space="preserve">
+    <value>Call for Vengeance</value>
+  </data>
+  <data name="tankman/skills/radioman_lastEffort_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Enables a Radio Operator who survived the destruction of his vehicle to report enemy positions for another two seconds.&lt;/shortDesc&gt; If two Radio Operators have the perk, the effect is not cumulative.</value>
+  </data>
+  <data name="tankman/skills/radioman_retransmitter" xml:space="preserve">
+    <value>Relaying</value>
+  </data>
+  <data name="tankman/skills/radioman_retransmitter_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Extends Signal Range of allied communications within vehicle's radio coverage.&lt;/shortDesc&gt; Does not affect the Signal Range of your vehicle. If two Radio Operators have the skill, only the higher rating is effective.</value>
+  </data>
+  <data name="tankman/Skill_not_be_used" xml:space="preserve">
+    <value>Certain skills and perks may cease to operate when a tanker changes vehicles.</value>
+  </data>
+  <data name="tankman/skills/type/perk" xml:space="preserve">
+    <value>Perk. Comes into effect after it reaches 100%.</value>
+  </data>
+  <data name="tankman/skills/type/perk_common" xml:space="preserve">
+    <value>Perk. Comes into effect after&lt;br/&gt;all crew members reach 100%.</value>
+  </data>
+  <data name="tankman/skills/type/skill" xml:space="preserve">
+    <value>Skill. Comes into effect after the training starts. &lt;br/&gt;The effect increases with skill level.</value>
+  </data>
+  <data name="ammoBay/name" xml:space="preserve">
+    <value>Ammo Rack</value>
+  </data>
+  <data name="fuelTank/name" xml:space="preserve">
+    <value>Fuel Tank</value>
+  </data>
+  <data name="surveyingDevice/name" xml:space="preserve">
+    <value>Observation Device</value>
+  </data>
+  <data name="track/name" xml:space="preserve">
+    <value>Track</value>
+  </data>
+  <data name="turretRotator/name" xml:space="preserve">
+    <value>Turret</value>
+  </data>
+  <data name="shell/kinds/EVENT" xml:space="preserve">
+    <value>repairing</value>
+  </data>
+  <data name="shell/kindsAbbreviation/EVENT" xml:space="preserve">
+    <value>RP</value>
+  </data>
+  <data name="tankman/skills/brotherhood_female" xml:space="preserve">
+    <value>Sisterhood of Steel</value>
+  </data>
+  <data name="tankman/skills/brotherhood_female_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Improves major qualifications and all skills for all crew members.&lt;/shortDesc&gt; The perk is cumulative with the effects of Improved Ventilation, Extra Combat Rations, Chocolate, Case of Cola, Pudding and Tea, Strong Coffee, Improved Combat Rations, Onigiri, Buchty, Coffee with Buns, Bread with Smalec.
+
+• All female crew members have this perk trained by default.
+• Cannot be reset.</value>
+  </data>
+  <data name="marker/igr" xml:space="preserve">
+    <value>PC방 %(vehName)s</value>
+  </data>
+  <data name="tankman/skills/brotherhood_permanent" xml:space="preserve">
+    <value>Brothers in Arms</value>
+  </data>
+  <data name="tankman/skills/brotherhood_permanent_descr" xml:space="preserve">
+    <value>&lt;shortDesc&gt;Improves major qualifications and all skills for the entire crew.&lt;/shortDesc&gt; The perk is cumulative with the effects of Improved Ventilation, Extra Combat Rations, Chocolate, Case of Cola, Pudding and Tea, Strong Coffee, Improved Combat Rations, Onigiri, Buchty, Coffee with Buns, and Bread with Smalec.
+
+The perk cannot be reset.</value>
+  </data>
+  <data name="battleBooster/name" xml:space="preserve">
+    <value>Directive</value>
+  </data>
+  <data name="tankman/skills/brotherhood_sabaton" xml:space="preserve">
+    <value>Band of Brothers</value>
+  </data>
+  <data name="tankman/skills/fireFighting" xml:space="preserve">
+    <value>Firefighting</value>
+  </data>
+</root>

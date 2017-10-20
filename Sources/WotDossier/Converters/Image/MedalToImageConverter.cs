@@ -35,8 +35,8 @@ namespace WotDossier.Converters
             if (medal != null)
             {
                 string iconName = string.IsNullOrEmpty(medal.Icon) ? medal.Name : medal.Icon;
-                var uriSource = new Uri(string.Format(@"pack://application:,,,/WotDossier.Resources;component/Images/Medals/{0}.png", iconName));
-                BitmapImage bitmapImage = ImageCache.GetBitmapImage(uriSource);
+                var uriSource = new Uri(string.Format(@"pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/{0}.png", iconName));
+                var bitmapImage = ImageCache.GetBitmapImage(uriSource);
                 return bitmapImage;
             }
             return null;

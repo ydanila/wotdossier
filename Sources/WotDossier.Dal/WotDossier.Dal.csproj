@@ -91,17 +91,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApiRequestException.cs" />
-    <Compile Include="AppConfigSettings.cs" />
-    <Compile Include="ClientVersionCompabilityHelper.cs" />
     <Compile Include="CountryHelper.cs" />
     <Compile Include="DataMapper.cs" />
-    <Compile Include="Dictionaries.cs" />
     <Compile Include="DossierRepository.cs" />
-    <Compile Include="Folder.cs" />
     <Compile Include="IDataProvider.cs" />
     <Compile Include="IStatisticAdapter.cs" />
-    <Compile Include="JsonCreationConverter.cs" />
-    <Compile Include="MapConfigConverter.cs" />
     <Compile Include="Mappings\ClassMapBase.cs" />
     <Compile Include="Mappings\RankedBattlesAchievementsEntityMapping.cs" />
     <Compile Include="Mappings\RankedBattlesStatisticMapping.cs" />
@@ -128,9 +122,7 @@
     <Compile Include="NHibernate\DesktopAppSessionStorage.cs" />
     <Compile Include="PlayerInfoLoadException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SettingsReader.cs" />
     <Compile Include="WotApiClient.cs" />
-    <Compile Include="CompressHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -166,6 +158,11 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.105.2\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.105.2\build\net46\System.Data.SQLite.Core.targets'))" />
   </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" />
+    </VisualStudio>
+  </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

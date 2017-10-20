@@ -4,6 +4,7 @@
     {
         Default,
         KTTC,
-        XVM
+        XVM,
+		Perfomance
     }
 }

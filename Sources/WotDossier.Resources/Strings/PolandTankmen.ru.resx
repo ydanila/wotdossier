@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="names/pl1" xml:space="preserve">
+    <value>Berling</value>
+  </data>
+  <data name="names/pl10" xml:space="preserve">
+    <value>Kowalczyk</value>
+  </data>
+  <data name="names/pl11" xml:space="preserve">
+    <value>Kowalski</value>
+  </data>
+  <data name="names/pl11001" xml:space="preserve">
+    <value>Dąbrowska</value>
+  </data>
+  <data name="names/pl11002" xml:space="preserve">
+    <value>Drohojowska</value>
+  </data>
+  <data name="names/pl11003" xml:space="preserve">
+    <value>Dudek</value>
+  </data>
+  <data name="names/pl11004" xml:space="preserve">
+    <value>Jankowska</value>
+  </data>
+  <data name="names/pl11005" xml:space="preserve">
+    <value>Kaczmarek</value>
+  </data>
+  <data name="names/pl11006" xml:space="preserve">
+    <value>Kamińska</value>
+  </data>
+  <data name="names/pl11007" xml:space="preserve">
+    <value>Kowalczykowa</value>
+  </data>
+  <data name="names/pl11008" xml:space="preserve">
+    <value>Kozłowska</value>
+  </data>
+  <data name="names/pl11009" xml:space="preserve">
+    <value>Krawczyk</value>
+  </data>
+  <data name="names/pl11010" xml:space="preserve">
+    <value>Kromnicka</value>
+  </data>
+  <data name="names/pl11011" xml:space="preserve">
+    <value>Kurcewiczówna</value>
+  </data>
+  <data name="names/pl11012" xml:space="preserve">
+    <value>Kwiatkowska</value>
+  </data>
+  <data name="names/pl11013" xml:space="preserve">
+    <value>Valkovska</value>
+  </data>
+  <data name="names/pl11014" xml:space="preserve">
+    <value>Mazur</value>
+  </data>
+  <data name="names/pl11015" xml:space="preserve">
+    <value>Niemirska</value>
+  </data>
+  <data name="names/pl11016" xml:space="preserve">
+    <value>Nowowiejska</value>
+  </data>
+  <data name="names/pl11017" xml:space="preserve">
+    <value>Ostrowska</value>
+  </data>
+  <data name="names/pl11018" xml:space="preserve">
+    <value>Sapeshka</value>
+  </data>
+  <data name="names/pl11019" xml:space="preserve">
+    <value>Raksa</value>
+  </data>
+  <data name="names/pl11020" xml:space="preserve">
+    <value>Szewczyk</value>
+  </data>
+  <data name="names/pl11021" xml:space="preserve">
+    <value>Tomaszewska</value>
+  </data>
+  <data name="names/pl11022" xml:space="preserve">
+    <value>Trybuchowska</value>
+  </data>
+  <data name="names/pl11023" xml:space="preserve">
+    <value>Wieczorek</value>
+  </data>
+  <data name="names/pl11024" xml:space="preserve">
+    <value>Wiśniewska</value>
+  </data>
+  <data name="names/pl11025" xml:space="preserve">
+    <value>Wojciechowska</value>
+  </data>
+  <data name="names/pl11026" xml:space="preserve">
+    <value>Wójcikówna</value>
+  </data>
+  <data name="names/pl11027" xml:space="preserve">
+    <value>Wołodyjowska</value>
+  </data>
+  <data name="names/pl11028" xml:space="preserve">
+    <value>Woźniak</value>
+  </data>
+  <data name="names/pl11029" xml:space="preserve">
+    <value>Zając</value>
+  </data>
+  <data name="names/pl12" xml:space="preserve">
+    <value>Kusociński</value>
+  </data>
+  <data name="names/pl13" xml:space="preserve">
+    <value>Lewandowski</value>
+  </data>
+  <data name="names/pl14" xml:space="preserve">
+    <value>Łukasiuk</value>
+  </data>
+  <data name="names/pl15" xml:space="preserve">
+    <value>Modelski</value>
+  </data>
+  <data name="names/pl16" xml:space="preserve">
+    <value>Nowak</value>
+  </data>
+  <data name="names/pl17" xml:space="preserve">
+    <value>Nowowiejski</value>
+  </data>
+  <data name="names/pl18" xml:space="preserve">
+    <value>Orlik</value>
+  </data>
+  <data name="names/pl19" xml:space="preserve">
+    <value>Pilecki</value>
+  </data>
+  <data name="names/pl2" xml:space="preserve">
+    <value>Billewicz</value>
+  </data>
+  <data name="names/pl20" xml:space="preserve">
+    <value>Pogonowski</value>
+  </data>
+  <data name="names/pl21" xml:space="preserve">
+    <value>Przymanowski</value>
+  </data>
+  <data name="names/pl22" xml:space="preserve">
+    <value>Rębajło</value>
+  </data>
+  <data name="names/pl23" xml:space="preserve">
+    <value>Rydz</value>
+  </data>
+  <data name="names/pl24" xml:space="preserve">
+    <value>Sadowski</value>
+  </data>
+  <data name="names/pl25" xml:space="preserve">
+    <value>Semik</value>
+  </data>
+  <data name="names/pl26" xml:space="preserve">
+    <value>Skibniewski</value>
+  </data>
+  <data name="names/pl27" xml:space="preserve">
+    <value>Skierczyński</value>
+  </data>
+  <data name="names/pl28" xml:space="preserve">
+    <value>Skrzetuski</value>
+  </data>
+  <data name="names/pl29" xml:space="preserve">
+    <value>Soplica</value>
+  </data>
+  <data name="names/pl3" xml:space="preserve">
+    <value>Bohun</value>
+  </data>
+  <data name="names/pl30" xml:space="preserve">
+    <value>Stefanowicz</value>
+  </data>
+  <data name="names/pl31" xml:space="preserve">
+    <value>Strażyc</value>
+  </data>
+  <data name="names/pl32" xml:space="preserve">
+    <value>Sybilski</value>
+  </data>
+  <data name="names/pl33" xml:space="preserve">
+    <value>Szeptycki</value>
+  </data>
+  <data name="names/pl34" xml:space="preserve">
+    <value>Szmoniewski</value>
+  </data>
+  <data name="names/pl35" xml:space="preserve">
+    <value>Blazkowicz</value>
+  </data>
+  <data name="names/pl36" xml:space="preserve">
+    <value>Tarkowski</value>
+  </data>
+  <data name="names/pl37" xml:space="preserve">
+    <value>Wesołowski</value>
+  </data>
+  <data name="names/pl38" xml:space="preserve">
+    <value>Wilczewski</value>
+  </data>
+  <data name="names/pl39" xml:space="preserve">
+    <value>Wójcik</value>
+  </data>
+  <data name="names/pl4" xml:space="preserve">
+    <value>Czapliński</value>
+  </data>
+  <data name="names/pl40" xml:space="preserve">
+    <value>Wołodyjowski</value>
+  </data>
+  <data name="names/pl41" xml:space="preserve">
+    <value>Wysocki</value>
+  </data>
+  <data name="names/pl42" xml:space="preserve">
+    <value>Zagłoba</value>
+  </data>
+  <data name="names/pl43" xml:space="preserve">
+    <value>Brzęczyszczykiewicz</value>
+  </data>
+  <data name="names/pl44" xml:space="preserve">
+    <value>Zieliński</value>
+  </data>
+  <data name="names/pl5" xml:space="preserve">
+    <value>Gazurek</value>
+  </data>
+  <data name="names/pl6" xml:space="preserve">
+    <value>Hodała</value>
+  </data>
+  <data name="names/pl7" xml:space="preserve">
+    <value>Jankowski</value>
+  </data>
+  <data name="names/pl8" xml:space="preserve">
+    <value>Kamiński</value>
+  </data>
+  <data name="names/pl9" xml:space="preserve">
+    <value>Kmicic</value>
+  </data>
+  <data name="names/pln1" xml:space="preserve">
+    <value>Adam</value>
+  </data>
+  <data name="names/pln10" xml:space="preserve">
+    <value>Gerwazy</value>
+  </data>
+  <data name="names/pln11" xml:space="preserve">
+    <value>Henryk</value>
+  </data>
+  <data name="names/pln11001" xml:space="preserve">
+    <value>Adela</value>
+  </data>
+  <data name="names/pln11002" xml:space="preserve">
+    <value>Agata</value>
+  </data>
+  <data name="names/pln11003" xml:space="preserve">
+    <value>Agnieszka</value>
+  </data>
+  <data name="names/pln11004" xml:space="preserve">
+    <value>Alicja</value>
+  </data>
+  <data name="names/pln11005" xml:space="preserve">
+    <value>Amelia</value>
+  </data>
+  <data name="names/pln11006" xml:space="preserve">
+    <value>Aniela</value>
+  </data>
+  <data name="names/pln11007" xml:space="preserve">
+    <value>Apolonia</value>
+  </data>
+  <data name="names/pln11008" xml:space="preserve">
+    <value>Barbara</value>
+  </data>
+  <data name="names/pln11009" xml:space="preserve">
+    <value>Beata</value>
+  </data>
+  <data name="names/pln11010" xml:space="preserve">
+    <value>Bogumiła</value>
+  </data>
+  <data name="names/pln11011" xml:space="preserve">
+    <value>Bożena</value>
+  </data>
+  <data name="names/pln11012" xml:space="preserve">
+    <value>Danuta</value>
+  </data>
+  <data name="names/pln11013" xml:space="preserve">
+    <value>Dominika</value>
+  </data>
+  <data name="names/pln11014" xml:space="preserve">
+    <value>Elżbieta</value>
+  </data>
+  <data name="names/pln11015" xml:space="preserve">
+    <value>Emilia</value>
+  </data>
+  <data name="names/pln11016" xml:space="preserve">
+    <value>Ewa</value>
+  </data>
+  <data name="names/pln11017" xml:space="preserve">
+    <value>Helena</value>
+  </data>
+  <data name="names/pln11018" xml:space="preserve">
+    <value>Honorata</value>
+  </data>
+  <data name="names/pln11019" xml:space="preserve">
+    <value>Irena</value>
+  </data>
+  <data name="names/pln11020" xml:space="preserve">
+    <value>Jadwiga</value>
+  </data>
+  <data name="names/pln11021" xml:space="preserve">
+    <value>Justyna</value>
+  </data>
+  <data name="names/pln11022" xml:space="preserve">
+    <value>Katarzyna</value>
+  </data>
+  <data name="names/pln11023" xml:space="preserve">
+    <value>Krystyna</value>
+  </data>
+  <data name="names/pln11024" xml:space="preserve">
+    <value>Małgorzata</value>
+  </data>
+  <data name="names/pln11025" xml:space="preserve">
+    <value>Martyna</value>
+  </data>
+  <data name="names/pln11026" xml:space="preserve">
+    <value>Paulina</value>
+  </data>
+  <data name="names/pln11027" xml:space="preserve">
+    <value>Zofia</value>
+  </data>
+  <data name="names/pln12" xml:space="preserve">
+    <value>Herakliusz</value>
+  </data>
+  <data name="names/pln13" xml:space="preserve">
+    <value>Ignacy</value>
+  </data>
+  <data name="names/pln14" xml:space="preserve">
+    <value>Jacek</value>
+  </data>
+  <data name="names/pln15" xml:space="preserve">
+    <value>Jan</value>
+  </data>
+  <data name="names/pln16" xml:space="preserve">
+    <value>Jan Onufry</value>
+  </data>
+  <data name="names/pln17" xml:space="preserve">
+    <value>Jan Teofil</value>
+  </data>
+  <data name="names/pln18" xml:space="preserve">
+    <value>Janusz</value>
+  </data>
+  <data name="names/pln19" xml:space="preserve">
+    <value>Jurko</value>
+  </data>
+  <data name="names/pln2" xml:space="preserve">
+    <value>Aleksander</value>
+  </data>
+  <data name="names/pln20" xml:space="preserve">
+    <value>Karol</value>
+  </data>
+  <data name="names/pln21" xml:space="preserve">
+    <value>Marian</value>
+  </data>
+  <data name="names/pln22" xml:space="preserve">
+    <value>Mariusz</value>
+  </data>
+  <data name="names/pln23" xml:space="preserve">
+    <value>Michał</value>
+  </data>
+  <data name="names/pln24" xml:space="preserve">
+    <value>Grzegorz</value>
+  </data>
+  <data name="names/pln25" xml:space="preserve">
+    <value>Piotr</value>
+  </data>
+  <data name="names/pln26" xml:space="preserve">
+    <value>Roch</value>
+  </data>
+  <data name="names/pln27" xml:space="preserve">
+    <value>Stanisław</value>
+  </data>
+  <data name="names/pln28" xml:space="preserve">
+    <value>Stefan</value>
+  </data>
+  <data name="names/pln29" xml:space="preserve">
+    <value>Tadeusz</value>
+  </data>
+  <data name="names/pln3" xml:space="preserve">
+    <value>Andrzej</value>
+  </data>
+  <data name="names/pln30" xml:space="preserve">
+    <value>Walenty</value>
+  </data>
+  <data name="names/pln31" xml:space="preserve">
+    <value>Wawrzyniec</value>
+  </data>
+  <data name="names/pln32" xml:space="preserve">
+    <value>William</value>
+  </data>
+  <data name="names/pln33" xml:space="preserve">
+    <value>Witold</value>
+  </data>
+  <data name="names/pln34" xml:space="preserve">
+    <value>Władysław</value>
+  </data>
+  <data name="names/pln35" xml:space="preserve">
+    <value>Zygmunt</value>
+  </data>
+  <data name="names/pln4" xml:space="preserve">
+    <value>Bogumił</value>
+  </data>
+  <data name="names/pln5" xml:space="preserve">
+    <value>Bolesław</value>
+  </data>
+  <data name="names/pln6" xml:space="preserve">
+    <value>Daniel</value>
+  </data>
+  <data name="names/pln7" xml:space="preserve">
+    <value>Edward</value>
+  </data>
+  <data name="names/pln8" xml:space="preserve">
+    <value>Eugeniusz</value>
+  </data>
+  <data name="names/pln9" xml:space="preserve">
+    <value>Franciszek</value>
+  </data>
+  <data name="ranksPl/chorazy" xml:space="preserve">
+    <value>Chorąży</value>
+  </data>
+  <data name="ranksPl/kapitan" xml:space="preserve">
+    <value>Kapitan</value>
+  </data>
+  <data name="ranksPl/kapral" xml:space="preserve">
+    <value>Kapral</value>
+  </data>
+  <data name="ranksPl/major" xml:space="preserve">
+    <value>Major</value>
+  </data>
+  <data name="ranksPl/plutonowy" xml:space="preserve">
+    <value>Plutonowy</value>
+  </data>
+  <data name="ranksPl/podporucznik" xml:space="preserve">
+    <value>Podporucznik</value>
+  </data>
+  <data name="ranksPl/porucznik" xml:space="preserve">
+    <value>Porucznik</value>
+  </data>
+  <data name="ranksPl/sierzant" xml:space="preserve">
+    <value>Sierżant</value>
+  </data>
+  <data name="ranksPl/starszy_sierzant" xml:space="preserve">
+    <value>Starszy sierżant</value>
+  </data>
+  <data name="ranksPl/starszy_szeregowiec" xml:space="preserve">
+    <value>Starszy szeregowiec</value>
+  </data>
+  <data name="ranksPl/szeregowiec" xml:space="preserve">
+    <value>Szeregowiec</value>
+  </data>
+</root>

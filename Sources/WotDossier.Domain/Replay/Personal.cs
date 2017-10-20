@@ -29,9 +29,28 @@ namespace WotDossier.Domain.Replay
         public List<List<JValue>> dossierPopUps { get; set; }
         [DataMember]
         public int eventCredits { get; set; }
-        [DataMember]
+	    [DataMember]
+	    public int boosterCredits { get; set; }
+
+	    [DataMember]
+	    public int orderCredits { get; set; }
+	    [DataMember]
+	    public int achievementCredits { get; set; }
+		[DataMember]
         public int eventFreeXP { get; set; }
-        [DataMember]
+	    [DataMember]
+	    public int boosterXP { get; set; }
+	    [DataMember]
+	    public int boosterFreeXP { get; set; }
+	    [DataMember]
+	    public int achievementXP { get; set; }
+	    [DataMember]
+	    public int achievementFreeXP { get; set; }
+		[DataMember]
+	    public int orderXP { get; set; }
+	    [DataMember]
+	    public int orderFreeXP { get; set; }
+		[DataMember]
         public int eventGold { get; set; }
         [DataMember]
         public int eventTMenXP { get; set; }

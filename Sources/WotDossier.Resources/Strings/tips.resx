@@ -1,0 +1,1566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tip0" xml:space="preserve">
+    <value>Boggy ground significantly reduces a vehicle's turning speed and mobility.</value>
+  </data>
+  <data name="tip1" xml:space="preserve">
+    <value>To select shells, use keys 1–3.</value>
+  </data>
+  <data name="tip10" xml:space="preserve">
+    <value>Artillery is your team's primary firepower. Protect your SPGs, or they will be easy targets for the enemy.</value>
+  </data>
+  <data name="tip100" xml:space="preserve">
+    <value>The higher the skills of the Gunner, the faster the sight locks onto the target.</value>
+  </data>
+  <data name="tip101" xml:space="preserve">
+    <value>The higher the skills of the Commander, the better the whole crew will perform.</value>
+  </data>
+  <data name="tip102" xml:space="preserve">
+    <value>A skilled Driver makes more effective use of engine power.</value>
+  </data>
+  <data name="tip103" xml:space="preserve">
+    <value>A skilled Loader will load shells faster.</value>
+  </data>
+  <data name="tip104" xml:space="preserve">
+    <value>The Commander's training level influences the vehicle’s view range.</value>
+  </data>
+  <data name="tip105" xml:space="preserve">
+    <value>A skilled Radio Operator is able to communicate over longer distances.</value>
+  </data>
+  <data name="tip106" xml:space="preserve">
+    <value>Additional equipment improves crew efficiency or vehicle characteristics.</value>
+  </data>
+  <data name="tip107" xml:space="preserve">
+    <value>Vehicles with all technical branches researched acquire Elite status.</value>
+  </data>
+  <data name="tip108" xml:space="preserve">
+    <value>Combat Experience earned on Elite vehicles can be converted to Free Experience.</value>
+  </data>
+  <data name="tip109" xml:space="preserve">
+    <value>Elite vehicle status does not depend on crew skills.</value>
+  </data>
+  <data name="tip11" xml:space="preserve">
+    <value>Use bushes and foliage to make your tank destroyer harder to detect. Note that stationary vehicles are less visible.</value>
+  </data>
+  <data name="tip110" xml:space="preserve">
+    <value>Never interrupt your enemy when he is making a mistake. It's impolite!</value>
+  </data>
+  <data name="tip111" xml:space="preserve">
+    <value>Sometimes capturing a base is the easiest and safest option. Destroying all enemies will not earn you any extra bonuses.</value>
+  </data>
+  <data name="tip112" xml:space="preserve">
+    <value>Destroyed vehicles are locked through the end of the battle. You can return to the Garage and join a new battle in another vehicle.</value>
+  </data>
+  <data name="tip113" xml:space="preserve">
+    <value>In Tank Company and clan battles, 50% of the credits and experience earned in battle by the defeated team is transferred to the winning team.</value>
+  </data>
+  <data name="tip114" xml:space="preserve">
+    <value>Sharing an account violates the game rules and can result in loss of access to the account.</value>
+  </data>
+  <data name="tip115" xml:space="preserve">
+    <value>The game rules forbid sharing accounts. Violators may lose both accounts forever.</value>
+  </data>
+  <data name="tip116" xml:space="preserve">
+    <value>The more sophisticated your password is, the better.</value>
+  </data>
+  <data name="tip117" xml:space="preserve">
+    <value>Change your password from time to time.</value>
+  </data>
+  <data name="tip118" xml:space="preserve">
+    <value>Game rules forbid purchasing and selling accounts. If you violate these rules, you could lose your account.</value>
+  </data>
+  <data name="tip119" xml:space="preserve">
+    <value>Do not follow links to unfamiliar websites. You risk being scammed or hacked.</value>
+  </data>
+  <data name="tip12" xml:space="preserve">
+    <value>Do not wait for the enemy on a friendly base. Pressing the attack may be more effective than base defense.</value>
+  </data>
+  <data name="tip120" xml:space="preserve">
+    <value>You can purchase gold only on the official World of Tanks website. If you try to purchase gold on other websites, you will only lose your money.</value>
+  </data>
+  <data name="tip121" xml:space="preserve">
+    <value>The option "Save password" is convenient but potentially insecure.</value>
+  </data>
+  <data name="tip122" xml:space="preserve">
+    <value>On the portal you can find the instructions on how to keep your account secure. Read them carefully.</value>
+  </data>
+  <data name="tip123" xml:space="preserve">
+    <value>Hold CTRL to display the mouse cursor.</value>
+  </data>
+  <data name="tip124" xml:space="preserve">
+    <value>To repair a module, click on the Repair Kit. To heal a crew member, click on the First Aid Kit.</value>
+  </data>
+  <data name="tip125" xml:space="preserve">
+    <value>Use hotkeys (1-6 by default) to activate consumables. Hotkeys are indicated above the consumables icons.</value>
+  </data>
+  <data name="tip126" xml:space="preserve">
+    <value>To move the camera instantly in Artillery mode, right-click on the minimap.</value>
+  </data>
+  <data name="tip127" xml:space="preserve">
+    <value>To change team list appearance, press CTRL+TAB.</value>
+  </data>
+  <data name="tip128" xml:space="preserve">
+    <value>Right-click the player's name in the side team panels to view possible actions.</value>
+  </data>
+  <data name="tip129" xml:space="preserve">
+    <value>To complain about the player, right-click the player's name in the side team panels and select the corresponding option from the context menu.</value>
+  </data>
+  <data name="tip13" xml:space="preserve">
+    <value>Even heavy tanks need backup.</value>
+  </data>
+  <data name="tip130" xml:space="preserve">
+    <value>The set of available commands in the Command Menu changes depending on whether your cursor is on an ally, an enemy, or a point of terrain.</value>
+  </data>
+  <data name="tip14" xml:space="preserve">
+    <value>Auto-Aim does not guarantee 100% accuracy. Experienced players use manual aim.</value>
+  </data>
+  <data name="tip15" xml:space="preserve">
+    <value>Some vehicles are best at evasive maneuvering, while others excel at staying undetected.</value>
+  </data>
+  <data name="tip16" xml:space="preserve">
+    <value>Caliber is not the only gauge of gun performance. Rate of fire and accuracy are also important.</value>
+  </data>
+  <data name="tip17" xml:space="preserve">
+    <value>A well-armored target that cannot be defeated with Armor Piercing shells can be quite vulnerable to High-Explosive shells.</value>
+  </data>
+  <data name="tip18" xml:space="preserve">
+    <value>Zigzag maneuvers help light and medium tanks dodge enemy shells.</value>
+  </data>
+  <data name="tip19" xml:space="preserve">
+    <value>Even the most heavily armored vehicle has its weak points: the sides and rear.</value>
+  </data>
+  <data name="tip2" xml:space="preserve">
+    <value>Light tanks are scouts. Use them to spot enemy vehicles for your teammates.</value>
+  </data>
+  <data name="tip20" xml:space="preserve">
+    <value>To mount some modules, you will need to replace your vehicle's suspension.</value>
+  </data>
+  <data name="tip21" xml:space="preserve">
+    <value>Some guns might require mounting another turret.</value>
+  </data>
+  <data name="tip22" xml:space="preserve">
+    <value>Different vehicles of the same type may require different battle tactics.</value>
+  </data>
+  <data name="tip23" xml:space="preserve">
+    <value>Light tanks and SPGs can be destroyed by ramming.</value>
+  </data>
+  <data name="tip24" xml:space="preserve">
+    <value>Aimed shots are more effective than uncontrolled firing.</value>
+  </data>
+  <data name="tip25" xml:space="preserve">
+    <value>Use High-Explosive shells to destroy modules and put enemy crew out of action.</value>
+  </data>
+  <data name="tip26" xml:space="preserve">
+    <value>Vehicles that are intended for close-range maneuvers are ineffective at long-range combat.</value>
+  </data>
+  <data name="tip27" xml:space="preserve">
+    <value>Shell types differ in penetration, damage, and burst radius.</value>
+  </data>
+  <data name="tip28" xml:space="preserve">
+    <value>High-Explosive shells are most effective against light tanks and SPGs with open cabins.</value>
+  </data>
+  <data name="tip29" xml:space="preserve">
+    <value>To stop an enemy vehicle and make it an easy target, shoot it in the tracks.</value>
+  </data>
+  <data name="tip3" xml:space="preserve">
+    <value>The longer light tanks manage to survive among enemies, the more successful artillery performance will be, and the more targets will be knocked out.</value>
+  </data>
+  <data name="tip30" xml:space="preserve">
+    <value>A low profile makes a vehicle harder to detect, especially in bushes.</value>
+  </data>
+  <data name="tip31" xml:space="preserve">
+    <value>Use AP Composite-Rigid shells when Armor Piercing shells are ineffective.</value>
+  </data>
+  <data name="tip32" xml:space="preserve">
+    <value>Additional perks and skills become available after training your crew to 100% in their major qualification.</value>
+  </data>
+  <data name="tip33" xml:space="preserve">
+    <value>A stationary vehicle is more difficult to detect than one in motion.</value>
+  </data>
+  <data name="tip34" xml:space="preserve">
+    <value>Combat Experience earned on Premium vehicles can be converted to Free Experience.</value>
+  </data>
+  <data name="tip35" xml:space="preserve">
+    <value>When using chat, make your messages constructive, worthwhile, and to the point.</value>
+  </data>
+  <data name="tip36" xml:space="preserve">
+    <value>In close combat, an SPG can destroy an enemy vehicle by direct fire.</value>
+  </data>
+  <data name="tip37" xml:space="preserve">
+    <value>Enemy artillery can guess your location when you knock down trees or destroy fences and structures.</value>
+  </data>
+  <data name="tip38" xml:space="preserve">
+    <value>Light tanks are good scouts. You can spot enemy vehicles using quick maneuvers or by remaining stationary behind bushes.</value>
+  </data>
+  <data name="tip39" xml:space="preserve">
+    <value>It always makes sense to concentrate fire.</value>
+  </data>
+  <data name="tip4" xml:space="preserve">
+    <value>A light tank without a good radio becomes a burden to the team.</value>
+  </data>
+  <data name="tip40" xml:space="preserve">
+    <value>Protect your artillery. SPGs can destroy enemy heavy tanks before they capture a friendly base.</value>
+  </data>
+  <data name="tip41" xml:space="preserve">
+    <value>To locate enemy vehicles, observe the trajectory of tracers.</value>
+  </data>
+  <data name="tip42" xml:space="preserve">
+    <value>The more vehicles inside the enemy base circle, the faster the base will be captured.</value>
+  </data>
+  <data name="tip43" xml:space="preserve">
+    <value>A draw means that both teams lose, except for Assault mode, where the defending team wins when battle time expires.</value>
+  </data>
+  <data name="tip44" xml:space="preserve">
+    <value>Dodge enemy shells when capturing the base. Base capture is interrupted if your vehicle is damaged.</value>
+  </data>
+  <data name="tip45" xml:space="preserve">
+    <value>Maneuverability is determined by the type of suspension, engine power, and total weight of mounted modules.</value>
+  </data>
+  <data name="tip46" xml:space="preserve">
+    <value>The chance of fire depends on engine type. The chance of putting the fire out depends on the skills of the crew and Fire Extinguishers.</value>
+  </data>
+  <data name="tip47" xml:space="preserve">
+    <value>Buildings and destroyed vehicles can block enemy fire. Trees and bushes may conceal you, but they will not block incoming shells.</value>
+  </data>
+  <data name="tip48" xml:space="preserve">
+    <value>When damaged, a turret locks up. Click on Repair Kit to restore turret rotation speed.</value>
+  </data>
+  <data name="tip49" xml:space="preserve">
+    <value>When damaged, a gun locks up. Click on Repair Kit to make the gun function with full accuracy.</value>
+  </data>
+  <data name="tip5" xml:space="preserve">
+    <value>The suspension, radio, and engine are generally more important to a light tank than the gun and turret.</value>
+  </data>
+  <data name="tip50" xml:space="preserve">
+    <value>Damage to the ammo rack may result in reduced loading speed, or, in some cases, immediate detonation.</value>
+  </data>
+  <data name="tip51" xml:space="preserve">
+    <value>A damaged observation device considerably reduces view range.</value>
+  </data>
+  <data name="tip52" xml:space="preserve">
+    <value>Rate of fire is affected by the gun type, turret, and the skills of the crew.</value>
+  </data>
+  <data name="tip53" xml:space="preserve">
+    <value>Injury to the Driver reduces the speed and maneuverability of a vehicle.</value>
+  </data>
+  <data name="tip54" xml:space="preserve">
+    <value>Loading speed is reduced when the Loader sustains an injury.</value>
+  </data>
+  <data name="tip55" xml:space="preserve">
+    <value>Firing accuracy is reduced when the Gunner is injured.</value>
+  </data>
+  <data name="tip56" xml:space="preserve">
+    <value>In addition to experience and credits, a Premium Account also gets you a nice clean Garage.</value>
+  </data>
+  <data name="tip57" xml:space="preserve">
+    <value>You can use Free Experience to research any vehicle or module.</value>
+  </data>
+  <data name="tip58" xml:space="preserve">
+    <value>When researching modules and vehicles, Combat Experience is spent first, while Free Experience is spent last.</value>
+  </data>
+  <data name="tip59" xml:space="preserve">
+    <value>A new module may be too heavy. To enhance load capacity, upgrade the suspension.</value>
+  </data>
+  <data name="tip6" xml:space="preserve">
+    <value>Vehicles of different types often require different tactics.</value>
+  </data>
+  <data name="tip60" xml:space="preserve">
+    <value>Credits and experience are awarded for spotting, damaging, and destroying enemy vehicles.</value>
+  </data>
+  <data name="tip61" xml:space="preserve">
+    <value>An empty ammo rack does not explode. Detonation of the ammo rack does not depend on shell type.</value>
+  </data>
+  <data name="tip62" xml:space="preserve">
+    <value>Your shots can reduce the hit points of an enemy vehicle, damage or destroy modules, or injure crew members.</value>
+  </data>
+  <data name="tip63" xml:space="preserve">
+    <value>Large High-Explosive shells have tremendous destructive power. It is possible to damage several vehicles with one shot.</value>
+  </data>
+  <data name="tip64" xml:space="preserve">
+    <value>APCR and HEAT shells have the highest penetration.</value>
+  </data>
+  <data name="tip65" xml:space="preserve">
+    <value>Make use of terrain irregularities, as they can provide refuge from direct fire and observation.</value>
+  </data>
+  <data name="tip66" xml:space="preserve">
+    <value>A well-coordinated team is a winning team.</value>
+  </data>
+  <data name="tip67" xml:space="preserve">
+    <value>If you are running out of space in your Garage, consider selling an old vehicle or purchasing another slot.</value>
+  </data>
+  <data name="tip68" xml:space="preserve">
+    <value>Use the Depot to sell vehicles, modules, or ammo you don't need.</value>
+  </data>
+  <data name="tip69" xml:space="preserve">
+    <value>If anyone asks for your password, it's a scam. Administrators will never need your password for any reason. Always keep your password private.</value>
+  </data>
+  <data name="tip7" xml:space="preserve">
+    <value>The goal of a medium tank is to attack flanks and rear areas, and withdraw after delivering a thrust.</value>
+  </data>
+  <data name="tip70" xml:space="preserve">
+    <value>Premium vehicles are cheap to repair.</value>
+  </data>
+  <data name="tip71" xml:space="preserve">
+    <value>Do not fire at your allies!</value>
+  </data>
+  <data name="tip72" xml:space="preserve">
+    <value>Your radio's signal power determines your ability to exchange information about enemy positions.</value>
+  </data>
+  <data name="tip73" xml:space="preserve">
+    <value>View range is the maximum distance at which you can locate the enemy.</value>
+  </data>
+  <data name="tip74" xml:space="preserve">
+    <value>The higher your vehicle's speed, the lower your accuracy.</value>
+  </data>
+  <data name="tip75" xml:space="preserve">
+    <value>Traversing your turret and hull reduces your firing accuracy, so after a maneuver is complete, wait for the aiming circle to snap onto the target.</value>
+  </data>
+  <data name="tip76" xml:space="preserve">
+    <value>Penetration parameters of High-Explosive and HEAT shells do not depend on firing range.</value>
+  </data>
+  <data name="tip77" xml:space="preserve">
+    <value>Top speed is determined by the suspension. Acceleration depends on engine power, vehicle weight, and the type of terrain.</value>
+  </data>
+  <data name="tip78" xml:space="preserve">
+    <value>The suspension's crossing capacity is affected by different terrain.</value>
+  </data>
+  <data name="tip79" xml:space="preserve">
+    <value>Effective ramming is determined by the ratio of weight, speed, and armor thickness of the vehicles.</value>
+  </data>
+  <data name="tip8" xml:space="preserve">
+    <value>A wolf pack of medium tanks is capable of hounding even the strongest opponent to death.</value>
+  </data>
+  <data name="tip80" xml:space="preserve">
+    <value>It is always tougher to penetrate frontal armor. Aim at the sides and rear.</value>
+  </data>
+  <data name="tip81" xml:space="preserve">
+    <value>The speed the sight snaps to the target is determined by the gun type and Gunner skills.</value>
+  </data>
+  <data name="tip82" xml:space="preserve">
+    <value>Injury to the Commander decreases View Range.</value>
+  </data>
+  <data name="tip83" xml:space="preserve">
+    <value>Auto-Aim turns off if the tracked target is destroyed or lost.</value>
+  </data>
+  <data name="tip84" xml:space="preserve">
+    <value>A destroyed vehicle is locked and remains in the Garage until the end of the battle.</value>
+  </data>
+  <data name="tip85" xml:space="preserve">
+    <value>You can only enter a battle with a fully repaired vehicle and a full-strength crew.</value>
+  </data>
+  <data name="tip86" xml:space="preserve">
+    <value>Check "Resupply automatically" to reload ammunition to the vehicle's pre-battle quantities.</value>
+  </data>
+  <data name="tip87" xml:space="preserve">
+    <value>Sloped armor increases the chances of a ricochet.</value>
+  </data>
+  <data name="tip88" xml:space="preserve">
+    <value>You can enlarge your Barracks if needed.</value>
+  </data>
+  <data name="tip89" xml:space="preserve">
+    <value>You can transfer crew members to another vehicle or send them to the Barracks.</value>
+  </data>
+  <data name="tip9" xml:space="preserve">
+    <value>Whenever you sense danger, relocate your SPG—you'll survive longer.</value>
+  </data>
+  <data name="tip90" xml:space="preserve">
+    <value>An injured crew member receives less experience in battle.</value>
+  </data>
+  <data name="tip91" xml:space="preserve">
+    <value>You cannot start a battle with an incomplete crew.</value>
+  </data>
+  <data name="tip92" xml:space="preserve">
+    <value>The speed of your crew's advancement depends on their success in battle.</value>
+  </data>
+  <data name="tip93" xml:space="preserve">
+    <value>The Commander can boost major qualifications of the other crew members.</value>
+  </data>
+  <data name="tip94" xml:space="preserve">
+    <value>Major qualification of a crew member can be changed for gold. The nation of a crew member is unchangeable.</value>
+  </data>
+  <data name="tip95" xml:space="preserve">
+    <value>All Combat Experience earned with the enabled Accelerate crew training mode is spent on upgrading crew skills.</value>
+  </data>
+  <data name="tip96" xml:space="preserve">
+    <value>Training your crew to 100% in their major qualification unlocks additional skills and perks.</value>
+  </data>
+  <data name="tip97" xml:space="preserve">
+    <value>Crew members can master different skills and perks.</value>
+  </data>
+  <data name="tip98" xml:space="preserve">
+    <value>The list of equipment available depends on the vehicle's type and nationality.</value>
+  </data>
+  <data name="tip99" xml:space="preserve">
+    <value>Some equipment can be demounted and transferred to another vehicle.</value>
+  </data>
+  <data name="tip131" xml:space="preserve">
+    <value>To select a command in the Command Menu, hold Z and move your mouse to highlight the desired command.</value>
+  </data>
+  <data name="tip132" xml:space="preserve">
+    <value>Use the F2–F8 hotkeys to quickly select commands in the Command Menu.</value>
+  </data>
+  <data name="tip133" xml:space="preserve">
+    <value>Use right Shift + "+" and right Shift + "-" to change dynamic resolution of the screen in a battle.</value>
+  </data>
+  <data name="tip134" xml:space="preserve">
+    <value>Being rude is not the best way to convince your ally that you are right. Besides, it is not allowed by the game rules.</value>
+  </data>
+  <data name="tip135" xml:space="preserve">
+    <value>Allies are most willing to support polite players.</value>
+  </data>
+  <data name="tip136" xml:space="preserve">
+    <value>The main battle must take place on the map, not in chat.</value>
+  </data>
+  <data name="tip137" xml:space="preserve">
+    <value>Do not send non-informative messages to the chat because they distract players from battle.</value>
+  </data>
+  <data name="tip138" xml:space="preserve">
+    <value>Use the Complain option when any of the game rules are violated.</value>
+  </data>
+  <data name="tip139" xml:space="preserve">
+    <value>By adding players to the Blacklist you will stop receiving messages and invitations from them immediately.</value>
+  </data>
+  <data name="tip140" xml:space="preserve">
+    <value>Message censorship can be enabled in Settings.</value>
+  </data>
+  <data name="tip141" xml:space="preserve">
+    <value>Battle chat can be disabled in Settings. Platoon chat will still be available.</value>
+  </data>
+  <data name="tip142" xml:space="preserve">
+    <value>While you are having quarrels with your allies, the enemy stays alert.</value>
+  </data>
+  <data name="tip143" xml:space="preserve">
+    <value>Keep track of the battle course. Even one mistake can lead to defeat.</value>
+  </data>
+  <data name="tip144" xml:space="preserve">
+    <value>When using forbidden programs or fighting fixed battles, you are at risk of losing your account irrevocably.</value>
+  </data>
+  <data name="tip145" xml:space="preserve">
+    <value>Each hit on allies is registered by a special system that will sooner or later lock the gunner automatically.</value>
+  </data>
+  <data name="tip146" xml:space="preserve">
+    <value>Game rules violations are punishable and may result in locking your account.</value>
+  </data>
+  <data name="tip147" xml:space="preserve">
+    <value>If you were punished for the Game rules violation, we strongly recommend you to re-read them in order to prevent such incidents in future.</value>
+  </data>
+  <data name="tip148" xml:space="preserve">
+    <value>The Game rules apply to all players, as does the responsibility for violating them.</value>
+  </data>
+  <data name="tip149" xml:space="preserve">
+    <value>Free gold and cheat-codes are just tricks used to steal your account.</value>
+  </data>
+  <data name="tip150" xml:space="preserve">
+    <value>Never use your in-game email and password on other websites. You could lose your account.</value>
+  </data>
+  <data name="tip151" xml:space="preserve">
+    <value>The option "Remember password" is convenient but potentially insecure.</value>
+  </data>
+  <data name="tip152" xml:space="preserve">
+    <value>To designate a target for your allies, hold Z and select "Requesting fire!" while aiming at the enemy.</value>
+  </data>
+  <data name="tip153" xml:space="preserve">
+    <value>A secure mailbox increases the security of your account.</value>
+  </data>
+  <data name="tip154" xml:space="preserve">
+    <value>Do not forget to keep your mailbox secure so that hackers cannot use it to steal your account.</value>
+  </data>
+  <data name="tip155" xml:space="preserve">
+    <value>On the portal you can find the instructions how to keep your account secure. Read them carefully.</value>
+  </data>
+  <data name="tip156" xml:space="preserve">
+    <value>Always make sure that you are logging in to the official World of Tanks website. Fake websites can be disguised as the official site.</value>
+  </data>
+  <data name="tip157" xml:space="preserve">
+    <value>Never accept presents from unknown people. It may result in locking your account.</value>
+  </data>
+  <data name="tip158" xml:space="preserve">
+    <value>Hold CTRL to display the mouse cursor.</value>
+  </data>
+  <data name="tip159" xml:space="preserve">
+    <value>Mouse cursor can be displayed by holding CTRL.</value>
+  </data>
+  <data name="tip160" xml:space="preserve">
+    <value>To repair a module or heal a crew member, click on the appropriate icon at the bottom left of the screen.</value>
+  </data>
+  <data name="tip161" xml:space="preserve">
+    <value>To repair a damaged module, click on the repair kit at the bottom of the screen and select the module.</value>
+  </data>
+  <data name="tip162" xml:space="preserve">
+    <value>To heal an injured crew member, click on the First Aid Kit at the bottom of the screen and select the crew member.</value>
+  </data>
+  <data name="tip163" xml:space="preserve">
+    <value>Use hotkeys (1-6 by default) to activate consumables. Hotkeys are indicated above the consumables icons.</value>
+  </data>
+  <data name="tip164" xml:space="preserve">
+    <value>To move a camera instantly, right-click on the minimap in the artillery mode.</value>
+  </data>
+  <data name="tip165" xml:space="preserve">
+    <value>To change team list appearance, press CTRL+TAB.</value>
+  </data>
+  <data name="tip166" xml:space="preserve">
+    <value>To add a player to the Friends list, Ignore list or send a complaint, right-click on the player's name in the team list.</value>
+  </data>
+  <data name="tip167" xml:space="preserve">
+    <value>To add a player to the Friends list, right-click on his name in the team list and select Add to your Friends list.</value>
+  </data>
+  <data name="tip168" xml:space="preserve">
+    <value>To send a complaint, right-click on his name in the team list and select "Complain".</value>
+  </data>
+  <data name="tip169" xml:space="preserve">
+    <value>If you notice that someone is insulting other players, right-click on his name and select Complain &gt; Insult and provocation.</value>
+  </data>
+  <data name="tip170" xml:space="preserve">
+    <value>Press and hold Z to send commands to other players on your team.</value>
+  </data>
+  <data name="tip171" xml:space="preserve">
+    <value>The set of available commands in the Radial Menu depends on your target.</value>
+  </data>
+  <data name="tip172" xml:space="preserve">
+    <value>To select the command in the Radial Menu, hold Z and move your mouse to highlight the desired command.</value>
+  </data>
+  <data name="tip173" xml:space="preserve">
+    <value>The "Reloading!" message informs your allies that you're unable to shoot at the moment.</value>
+  </data>
+  <data name="tip174" xml:space="preserve">
+    <value>Use the F2–F8 hotkeys to quickly select commands in the Radial Menu.</value>
+  </data>
+  <data name="tip175" xml:space="preserve">
+    <value>To make a request of an ally, aim at the allied vehicle, press and hold Z, and select desired command.</value>
+  </data>
+  <data name="tip_football" xml:space="preserve">
+    <value>Vehicles cannot be damaged, but their tracks can be damaged. Victory conditions: score 3 goals or be in the lead at the end of the match.</value>
+  </data>
+  <data name="eventTip" xml:space="preserve">
+    <value>Repair shells can either repair allied vehicles or cause damage to enemy vehicles.</value>
+  </data>
+  <data name="beCareful" xml:space="preserve">
+    <value>Be Careful</value>
+  </data>
+  <data name="followTheRules" xml:space="preserve">
+    <value>Follow the Rules</value>
+  </data>
+  <data name="payAttention" xml:space="preserve">
+    <value>Pay Attention</value>
+  </data>
+  <data name="security" xml:space="preserve">
+    <value>Security Above Everything</value>
+  </data>
+  <data name="technicalAdvice" xml:space="preserve">
+    <value>Technical Advice</value>
+  </data>
+  <data name="tip0/payAttention/tactics/0_50/all/all/all" xml:space="preserve">
+    <value>Boggy ground significantly reduces a vehicle's speed and turning rate.</value>
+  </data>
+  <data name="tip100/payAttention/crew/0_500/all/all/all" xml:space="preserve">
+    <value>The higher the skill of the Gunner, the faster the sight snaps onto the target.</value>
+  </data>
+  <data name="tip103/payAttention/crew/0_500/all/all/all" xml:space="preserve">
+    <value>A skilled Loader will load shells faster.</value>
+  </data>
+  <data name="tip106/payAttention/tactics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Additional equipment improves crew efficiency and vehicle characteristics.</value>
+  </data>
+  <data name="tip107/payAttention/economics/50_500/all/all/all" xml:space="preserve">
+    <value>Vehicles with all modules and subsequent vehicles researched acquire the Elite status.</value>
+  </data>
+  <data name="tip108/payAttention/tactics/200_infinity/all/all/all" xml:space="preserve">
+    <value>Combat Experience earned on Elite vehicles, including Premium vehicles, can be converted to Free Experience.</value>
+  </data>
+  <data name="tip11/payAttention/tactics/0_infinity/AT-SPG/all/all" xml:space="preserve">
+    <value>Use bushes and foliage to make your tank destroyer harder to detect. Note that stationary vehicles are less visible.</value>
+  </data>
+  <data name="tip111/payAttention/tactics/50_500/all/all/all" xml:space="preserve">
+    <value>Sometimes capturing a base is an easier and safer option than trying to destroy all enemy vehicles.</value>
+  </data>
+  <data name="tip112/payAttention/economics/0_100/all/all/all" xml:space="preserve">
+    <value>In Domination, you can drive up to three vehicles in a battle. When your vehicle is destroyed, select a new one and get back on the battlefield.</value>
+  </data>
+  <data name="tip114/followTheRules/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Sharing an account violates the Game Rules and can result in loss of access to the account.</value>
+  </data>
+  <data name="tip115/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>The Game Rules forbid sharing accounts. Violators may lose both accounts forever.</value>
+  </data>
+  <data name="tip116/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>The more sophisticated your password is, the better.</value>
+  </data>
+  <data name="tip117/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Change your password regularly.</value>
+  </data>
+  <data name="tip118/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Game Rules forbid purchasing and selling accounts. If you violate these rules, you can lose your account.</value>
+  </data>
+  <data name="tip119/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Do not follow links to unfamiliar websites. You risk being scammed or hacked.</value>
+  </data>
+  <data name="tip120/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>You can purchase gold only on the official World of Tanks website. If you try to purchase gold on other websites, you run the risk of losing your money.</value>
+  </data>
+  <data name="tip121/security/security/200_infinity/all/all/all" xml:space="preserve">
+    <value>The Save password option is convenient but potentially insecure.</value>
+  </data>
+  <data name="tip122/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>On the portal you can find instructions on how to keep your account secure. Read them carefully.</value>
+  </data>
+  <data name="tip123/payAttention/tactics/200_infinity/all/all/all" xml:space="preserve">
+    <value>While in battle, hold Ctrl to display the mouse cursor.</value>
+  </data>
+  <data name="tip124/payAttention/tactics/50_500/all/all/all" xml:space="preserve">
+    <value>To repair a module, use the Repair Kit. To heal a crew member, use the First Aid Kit.</value>
+  </data>
+  <data name="tip125/usefulFeatures/interface/100_infinity/all/all/all" xml:space="preserve">
+    <value>To use consumables and switch between shell types, use hotkeys (1–6 by default).</value>
+  </data>
+  <data name="tip126/usefulFeatures/interface/100_500/SPG/all/all" xml:space="preserve">
+    <value>To move the camera instantly in Artillery mode, right-click on the minimap.</value>
+  </data>
+  <data name="tip127/usefulFeatures/interface/500_infinity/all/all/all" xml:space="preserve">
+    <value>To change team list appearance, press Ctrl+Tab.</value>
+  </data>
+  <data name="tip128/usefulFeatures/interface/100_infinity/all/all/all" xml:space="preserve">
+    <value>Right-click a player's name in the side team panels to view possible actions.</value>
+  </data>
+  <data name="tip129/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>To complain about a player, right-click the player's name in the side team panels and select the corresponding option from the context menu.</value>
+  </data>
+  <data name="tip130/usefulFeatures/interface/500_infinity/all/all/all" xml:space="preserve">
+    <value>The set of available commands in the Command Menu changes depending on whether your cursor is on an ally, an enemy, or a point of terrain.</value>
+  </data>
+  <data name="tip131/usefulFeatures/interface/200_infinity/all/all/all" xml:space="preserve">
+    <value>To select a command in the Command Menu, hold Z and move your mouse to highlight the desired command.</value>
+  </data>
+  <data name="tip132/usefulFeatures/interface/100_infinity/all/all/all" xml:space="preserve">
+    <value>Use the F2–F8 hotkeys to quickly select commands in the Command Menu.</value>
+  </data>
+  <data name="tip134/followTheRules/rules/200_infinity/all/all/all" xml:space="preserve">
+    <value>Being rude is not the best way to convince your ally that you are right. Besides, it is not allowed by the Game Rules.</value>
+  </data>
+  <data name="tip135/followTheRules/rules/200_infinity/all/all/all" xml:space="preserve">
+    <value>Allies are most willing to support polite players.</value>
+  </data>
+  <data name="tip136/followTheRules/rules/200_infinity/all/all/all" xml:space="preserve">
+    <value>The main battle must take place on the map, not in chat.</value>
+  </data>
+  <data name="tip137/followTheRules/rules/200_infinity/all/all/all" xml:space="preserve">
+    <value>Do not send non-informative messages in chat; they distract players from the battle.</value>
+  </data>
+  <data name="tip138/followTheRules/rules/200_infinity/all/all/all" xml:space="preserve">
+    <value>Use the Complain option when any of the Game Rules are violated.</value>
+  </data>
+  <data name="tip139/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>By adding players to the Blacklist you will stop receiving messages and invitations from them immediately.</value>
+  </data>
+  <data name="tip14/payAttention/tactics/101_infinity/all/all/all" xml:space="preserve">
+    <value>Auto-Aim does not guarantee 100% accuracy. Experienced players use manual aim.</value>
+  </data>
+  <data name="tip140/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Message censorship can be enabled in Settings.</value>
+  </data>
+  <data name="tip141/followTheRules/rules/200_infinity/all/all/all" xml:space="preserve">
+    <value>Battle chat can be disabled in Settings. Platoon chat will still be available.</value>
+  </data>
+  <data name="tip142/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>While you are quarreling with your allies, the enemy is taking control of the battlefield.</value>
+  </data>
+  <data name="tip143/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Keep track of the flow of the battle. Just one mistake can lead to defeat.</value>
+  </data>
+  <data name="tip144/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Using forbidden mods or engaging in collusion puts you at risk of losing your account permanently.</value>
+  </data>
+  <data name="tip145/followTheRules/rules/0_500/all/all/all" xml:space="preserve">
+    <value>Each hit on allies is registered by an automatic system; repeated hits on allies will lead to a temporary ban.</value>
+  </data>
+  <data name="tip146/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Game Rules violations are punishable and may result in locking of your account.</value>
+  </data>
+  <data name="tip147/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>If you were punished for a Game Rules violation, we strongly recommend that you reread the rules in order to prevent such incidents in future.</value>
+  </data>
+  <data name="tip148/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>The Game Rules apply to all players, as do the penalties for violating them.</value>
+  </data>
+  <data name="tip149/technicalAdvice/techProblems/500_infinity/all/all/all" xml:space="preserve">
+    <value>Cannot enter a battle? Try turning off mods and restarting the game client.</value>
+  </data>
+  <data name="tip150/technicalAdvice/techProblems/100_infinity/all/all/all" xml:space="preserve">
+    <value>Low FPS rate? Try a lower graphics quality in Settings.</value>
+  </data>
+  <data name="tip151/technicalAdvice/techProblems/100_infinity/all/all/all" xml:space="preserve">
+    <value>Low FPS rate and graphic distortions? Try updating your video card drivers.</value>
+  </data>
+  <data name="tip152/technicalAdvice/techProblems/100_infinity/all/all/all" xml:space="preserve">
+    <value>High latency when connecting via 3G or Wi-Fi? Try using a wired internet connection.</value>
+  </data>
+  <data name="tip153/technicalAdvice/techProblems/100_infinity/all/all/all" xml:space="preserve">
+    <value>Your vehicle teleports or fires with a delay? Check your network connection.</value>
+  </data>
+  <data name="tip154/technicalAdvice/techProblems/100_infinity/all/all/all" xml:space="preserve">
+    <value>Reliable antivirus software guarantees stable operation of your hardware and game client.</value>
+  </data>
+  <data name="tip155/technicalAdvice/techProblems/500_infinity/all/all/all" xml:space="preserve">
+    <value>Your team is unable to hear you in a battle? Check your voice communication settings.</value>
+  </data>
+  <data name="tip156/technicalAdvice/techProblems/200_infinity/all/all/all" xml:space="preserve">
+    <value>The more details you give in describing the issue to the Customer Service Center, the more promptly your issue will be considered.</value>
+  </data>
+  <data name="tip157/technicalAdvice/techProblems/200_infinity/all/all/all" xml:space="preserve">
+    <value>Before contacting the Customer Service Center, make sure the issue can be reproduced with game mods off.</value>
+  </data>
+  <data name="tip158/security/security/100_infinity/all/all/all" xml:space="preserve">
+    <value>Adding your phone number to your account profile makes your account secure from potential hacking.</value>
+  </data>
+  <data name="tip159/security/security/100_infinity/all/all/all" xml:space="preserve">
+    <value>Make sure the mobile phone number you added to your account is active. This will allow prompt restoration of access to your account.</value>
+  </data>
+  <data name="tip160/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Make sure your email is secure. Administrators do not change the email that is added to account.</value>
+  </data>
+  <data name="tip161/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>If you suspect someone has gained unauthorized access to your account, contact the Customers Support Service right away.</value>
+  </data>
+  <data name="tip162/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Do not accept gifts from unknown users.</value>
+  </data>
+  <data name="tip163/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Select the correct section of the Customer Service Center to guarantee a prompt consideration of your issue.</value>
+  </data>
+  <data name="tip164/payAttention/tactics/500_infinity/SPG/all/all" xml:space="preserve">
+    <value>A skilled artillery player can use shell tracers to detect and destroy an enemy SPG that does not change its firing position.</value>
+  </data>
+  <data name="tip165/payAttention/tactics/100_500/all/all/all" xml:space="preserve">
+    <value>An Automatic Fire Extinguisher promptly extinguishes fire and also reduces the chance of engine fire.</value>
+  </data>
+  <data name="tip166/payAttention/tactics/500_infinity/SPG/all/all" xml:space="preserve">
+    <value>When driving an SPG, remember to account for shell flight path and speed, as well as terrain irregularities.</value>
+  </data>
+  <data name="tip167/payAttention/tactics/50_500/all/all/all" xml:space="preserve">
+    <value>Keep track of your allies and enemies on the Minimap.</value>
+  </data>
+  <data name="tip168/payAttention/tactics/500_infinity/all/all/all" xml:space="preserve">
+    <value>Firing during passive spotting reveals your position. You earn additional experience and credits for spotting the enemy.</value>
+  </data>
+  <data name="tip169/payAttention/tactics/500_infinity/all/all/all" xml:space="preserve">
+    <value>Use the Repair Kit for quick repair of damaged tracks. Once your vehicle is mobile, try to evade enemy shells.</value>
+  </data>
+  <data name="tip17/payAttention/tactics/151_infinity/all/all/all" xml:space="preserve">
+    <value>A well-armored target that cannot be defeated with Armor Piercing shells can still be damaged by High-Explosive shells.</value>
+  </data>
+  <data name="tip170/payAttention/tactics/200_infinity/all/all/all" xml:space="preserve">
+    <value>Like bushes, fallen trees conceal your vehicles.</value>
+  </data>
+  <data name="tip171/payAttention/tactics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Boulders and deep trenches can immobilize your vehicle.</value>
+  </data>
+  <data name="tip172/payAttention/economics/0_500/all/all/all" xml:space="preserve">
+    <value>Premium ammunition and consumables can be purchased for gold by default.</value>
+  </data>
+  <data name="tip173/payAttention/economics/100_infinity/all/all/all" xml:space="preserve">
+    <value>You can transfer crew members to a Premium vehicle of the same nation and type without retraining.</value>
+  </data>
+  <data name="tip174/payAttention/crew/100_infinity/all/all/all" xml:space="preserve">
+    <value>Injuries to crew members reduce their battle effectiveness.</value>
+  </data>
+  <data name="tip175/payAttention/crew/100_infinity/all/all/all" xml:space="preserve">
+    <value>The Brothers in Arms perk comes into effect only when it reaches 100% for all crew members.</value>
+  </data>
+  <data name="tip176/payAttention/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>To receive your gift, the recipient player has to log in to their Account Management.</value>
+  </data>
+  <data name="tip177/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Sanctions for destruction/damage to allied vehicles will not be subject to appeal, under any circumstances.</value>
+  </data>
+  <data name="tip178/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Consult the Customer Service Center to clarify the reasons for suspension of your account.</value>
+  </data>
+  <data name="tip179/beCareful/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Before sending the Customer Service Center a ticket for missing vehicles, make sure you have disabled the vehicle filter in the game client.</value>
+  </data>
+  <data name="tip20/payAttention/economics/50_500/all/all/all" xml:space="preserve">
+    <value>To mount some modules, you will need to replace your vehicle's suspension and turret.</value>
+  </data>
+  <data name="tip23/payAttention/tactics/200_infinity/all/all/all" xml:space="preserve">
+    <value>Light vehicles with weak armor protection can be destroyed by ramming.</value>
+  </data>
+  <data name="tip25/payAttention/tactics/151_infinity/all/all/all" xml:space="preserve">
+    <value>Use High-Explosive shells to destroy modules and knock out enemy crew.</value>
+  </data>
+  <data name="tip28/payAttention/tactics/500_infinity/all/all/all" xml:space="preserve">
+    <value>High-Explosive shells are most effective against vehicles with weak armor protection and with open cabins.</value>
+  </data>
+  <data name="tip29/payAttention/tactics/0_50/all/all/all" xml:space="preserve">
+    <value>To stop an enemy vehicle and make it an easy target, shoot it in the tracks.</value>
+  </data>
+  <data name="tip30/payAttention/tactics/201_infinity/all/all/all" xml:space="preserve">
+    <value>A low profile makes a vehicle harder to detect, especially in bushes.</value>
+  </data>
+  <data name="tip31/payAttention/tactics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Use AP Composite-Rigid or HE Anti-Tank shells when Armor Piercing shells are ineffective.</value>
+  </data>
+  <data name="tip32/payAttention/crew/0_500/all/all/all" xml:space="preserve">
+    <value>Additional perks and skills become available after training your crew to 100% in their major qualification.</value>
+  </data>
+  <data name="tip33/payAttention/tactics/51_infinity/all/all/all" xml:space="preserve">
+    <value>A stationary vehicle is more difficult to detect than one in motion.</value>
+  </data>
+  <data name="tip36/payAttention/tactics/101_infinity/SPG/all/all" xml:space="preserve">
+    <value>In close combat, an SPG can destroy an enemy vehicle by direct fire.</value>
+  </data>
+  <data name="tip37/payAttention/tactics/100_500/all/all/all" xml:space="preserve">
+    <value>Enemy artillery can guess your location when you destroy fences and structures.</value>
+  </data>
+  <data name="tip39/payAttention/tactics/0_100/all/all/all" xml:space="preserve">
+    <value>It always makes sense to concentrate fire.</value>
+  </data>
+  <data name="tip41/payAttention/tactics/51_infinity/all/all/all" xml:space="preserve">
+    <value>To detect enemy vehicles, observe the trajectory of tracers.</value>
+  </data>
+  <data name="tip42/payAttention/tactics/100_infinity/all/all/all" xml:space="preserve">
+    <value>The more vehicles inside the enemy base circle, the faster the base will be captured. The fastest capture can be achieved by three vehicles.</value>
+  </data>
+  <data name="tip43/payAttention/tactics/500_infinity/all/all/all" xml:space="preserve">
+    <value>If neither team achieves superiority in the Assault mode, the defending team wins when battle time expires.</value>
+  </data>
+  <data name="tip44/payAttention/tactics/0_100/all/all/all" xml:space="preserve">
+    <value>Dodge enemy shells when capturing the base. Base capture is interrupted if your vehicle is damaged.</value>
+  </data>
+  <data name="tip45/payAttention/tactics/50_150/all/all/all" xml:space="preserve">
+    <value>Maneuverability is affected by the type of suspension, engine power, and total weight of mounted modules.</value>
+  </data>
+  <data name="tip47/payAttention/tactics/0_100/all/all/all" xml:space="preserve">
+    <value>Buildings and destroyed vehicles can block enemy fire. Trees and bushes may conceal you, but they will not block incoming shells.</value>
+  </data>
+  <data name="tip48/payAttention/tactics/50_infinity/all/all/all" xml:space="preserve">
+    <value>Click on Repair Kit to repair a damaged module.</value>
+  </data>
+  <data name="tip49/payAttention/tactics/50_200/all/all/all" xml:space="preserve">
+    <value>When destroyed, a gun cannot fire. Use a Repair Kit to make the gun function again.</value>
+  </data>
+  <data name="tip50/payAttention/tactics/50_200/all/all/all" xml:space="preserve">
+    <value>Damage to the ammo rack may result in reduced loading speed, or, in some cases, immediate detonation.</value>
+  </data>
+  <data name="tip56/payAttention/economics/100_infinity/all/all/all" xml:space="preserve">
+    <value>In addition to experience and credits, a Premium Account also gets you a nice clean Garage.</value>
+  </data>
+  <data name="tip57/payAttention/economics/500_infinity/all/all/all" xml:space="preserve">
+    <value>You can use Free Experience to research any vehicle or module.</value>
+  </data>
+  <data name="tip58/payAttention/economics/500_infinity/all/all/all" xml:space="preserve">
+    <value>When researching modules and vehicles, Combat Experience is spent first, while Free Experience is spent last.</value>
+  </data>
+  <data name="tip59/payAttention/economics/100_500/all/all/all" xml:space="preserve">
+    <value>A new module may be too heavy. To enhance load capacity, upgrade the suspension.</value>
+  </data>
+  <data name="tip6/payAttention/tactics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Vehicles of different types often require different tactics.</value>
+  </data>
+  <data name="tip60/payAttention/economics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Credits and experience are awarded for spotting, damaging, and destroying enemy vehicles; for base capture/defense, etc.</value>
+  </data>
+  <data name="tip62/payAttention/tactics/50_200/all/all/all" xml:space="preserve">
+    <value>Your shots can reduce the hit points of an enemy vehicle, damage or destroy modules, or injure crew members.</value>
+  </data>
+  <data name="tip65/payAttention/tactics/50_infinity/all/all/all" xml:space="preserve">
+    <value>Make use of terrain irregularities, as they can provide refuge from direct fire and observation.</value>
+  </data>
+  <data name="tip66/payAttention/tactics/0_infinity/all/all/all" xml:space="preserve">
+    <value>A well-coordinated team is a winning team.</value>
+  </data>
+  <data name="tip67/payAttention/economics/100_infinity/all/all/all" xml:space="preserve">
+    <value>If you are running out of space in your Garage, consider selling an old vehicle or purchasing another slot.</value>
+  </data>
+  <data name="tip68/payAttention/economics/500_infinity/all/all/all" xml:space="preserve">
+    <value>Use the Depot to sell vehicles, modules, consumables, equipment, or ammo you do not need.</value>
+  </data>
+  <data name="tip69/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>If anyone asks for your password, it is a scam. Administrators will never need your password for any reason. Always keep your password private.</value>
+  </data>
+  <data name="tip70/payAttention/economics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Premium vehicles are cheap to repair.</value>
+  </data>
+  <data name="tip71/followTheRules/rules/0_500/all/all/all" xml:space="preserve">
+    <value>Do not fire at your allies!</value>
+  </data>
+  <data name="tip75/payAttention/tactics/0_200/all/all/all" xml:space="preserve">
+    <value>Traversing your turret and hull reduces your firing accuracy, so after a maneuver is complete, wait for the aiming circle to snap onto the target.</value>
+  </data>
+  <data name="tip78/payAttention/tactics/500_infinity/all/all/all" xml:space="preserve">
+    <value>Suspension modules have different traverse speed, crossing ability, and loading capacity.</value>
+  </data>
+  <data name="tip79/payAttention/tactics/200_infinity/all/all/all" xml:space="preserve">
+    <value>Effective ramming is determined by the ratio of weight, speed, and armor thickness of the vehicles.</value>
+  </data>
+  <data name="tip81/payAttention/crew/0_500/all/all/all" xml:space="preserve">
+    <value>The speed with which the sight snaps to the target is determined by the gun type and the Gunner's skills.</value>
+  </data>
+  <data name="tip83/payAttention/tactics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Auto-Aim turns off if the tracked target is destroyed or lost.</value>
+  </data>
+  <data name="tip84/payAttention/economics/0_100/all/all/all" xml:space="preserve">
+    <value>A destroyed vehicle is locked and remains unavailable in the Garage until the end of the battle.</value>
+  </data>
+  <data name="tip85/payAttention/economics/0_100/all/all/all" xml:space="preserve">
+    <value>You can only enter a battle with a fully repaired vehicle and a complete crew.</value>
+  </data>
+  <data name="tip86/payAttention/economics/0_500/all/all/all" xml:space="preserve">
+    <value>You may check the Resupply Automatically and Repair Automatically options for your vehicle.</value>
+  </data>
+  <data name="tip87/payAttention/tactics/200_infinity/all/all/all" xml:space="preserve">
+    <value>Sloped armor increases the chances of ricochets and non-penetrating hits.</value>
+  </data>
+  <data name="tip88/payAttention/economics/0_500/all/all/all" xml:space="preserve">
+    <value>You can enlarge your Barracks if needed.</value>
+  </data>
+  <data name="tip89/payAttention/economics/100_infinity/all/all/all" xml:space="preserve">
+    <value>You can transfer crew members to another vehicle or send them to the Barracks.</value>
+  </data>
+  <data name="tip9/payAttention/tactics/0_infinity/SPG/all/all" xml:space="preserve">
+    <value>Whenever you sense danger, relocate your SPG—you will survive longer.</value>
+  </data>
+  <data name="tip90/payAttention/crew/0_500/all/all/all" xml:space="preserve">
+    <value>An injured crew member receives 10% less experience per battle.</value>
+  </data>
+  <data name="tip91/payAttention/economics/0_100/all/all/all" xml:space="preserve">
+    <value>You cannot start a battle with an incomplete crew.</value>
+  </data>
+  <data name="tip92/payAttention/crew/0_500/all/all/all" xml:space="preserve">
+    <value>The speed of your crew's training depends on their success in battle.</value>
+  </data>
+  <data name="tip93/payAttention/crew/100_infinity/all/all/all" xml:space="preserve">
+    <value>The Commander boosts the major qualifications of the other crew members.</value>
+  </data>
+  <data name="tip95/payAttention/crew/200_infinity/all/all/all" xml:space="preserve">
+    <value>All Combat Experience earned with Accelerate Crew Training enabled is received by the least-skilled crew member.</value>
+  </data>
+  <data name="tip99/payAttention/economics/200_infinity/all/all/all" xml:space="preserve">
+    <value>All equipment can be demounted and transferred to another vehicle.</value>
+  </data>
+  <data name="usefulFeatures" xml:space="preserve">
+    <value>Useful Options</value>
+  </data>
+  <data name="tip0/payAttention/tactics/0_50/except_7/all/all/all" xml:space="preserve">
+    <value>Boggy ground significantly reduces a vehicle's speed and turning rate.</value>
+  </data>
+  <data name="tip100/payAttention/crew/0_500/all/all/all/all" xml:space="preserve">
+    <value>The higher the skill of the Gunner, the faster the sight snaps onto the target.</value>
+  </data>
+  <data name="tip103/payAttention/crew/0_500/all/all/all/all" xml:space="preserve">
+    <value>A skilled Loader will load shells faster.</value>
+  </data>
+  <data name="tip106/payAttention/tactics/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Additional equipment improves crew efficiency and vehicle characteristics.</value>
+  </data>
+  <data name="tip107/payAttention/economics/50_500/except_7/all/all/all" xml:space="preserve">
+    <value>Vehicles with all modules and subsequent vehicles researched acquire Elite status.</value>
+  </data>
+  <data name="tip108/payAttention/tactics/200_infinity/all/all/all/all" xml:space="preserve">
+    <value>Combat Experience earned on Elite vehicles, including Premium vehicles, can be converted to Free Experience.</value>
+  </data>
+  <data name="tip11/payAttention/tactics/0_infinity/except_7/AT-SPG/all/all" xml:space="preserve">
+    <value>Use bushes and foliage to make your tank destroyer harder to detect. Note that stationary vehicles are less visible.</value>
+  </data>
+  <data name="tip111/payAttention/tactics/50_500/except_7/all/all/all" xml:space="preserve">
+    <value>Sometimes capturing a base is an easier and safer option than trying to destroy all enemy vehicles.</value>
+  </data>
+  <data name="tip112/payAttention/economics/0_100/except_7/all/all/all" xml:space="preserve">
+    <value>The Rampage mode has many unique features and significantly differs from other battle modes.</value>
+  </data>
+  <data name="tip114/followTheRules/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Sharing an account violates the Game Rules and can result in loss of access to the account.</value>
+  </data>
+  <data name="tip115/followTheRules/rules/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>The Game Rules forbid sharing accounts. Violators may lose both accounts forever.</value>
+  </data>
+  <data name="tip116/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>The more sophisticated your password is, the better.</value>
+  </data>
+  <data name="tip117/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Change your password regularly.</value>
+  </data>
+  <data name="tip118/followTheRules/rules/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Game Rules forbid purchasing and selling accounts. If you violate these rules, you can lose your account.</value>
+  </data>
+  <data name="tip119/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Do not trust links to unfamiliar websites.</value>
+  </data>
+  <data name="tip120/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>You can only purchase gold on the official World of Tanks website. If you try to purchase gold from other websites, you run the risk of losing your money.</value>
+  </data>
+  <data name="tip121/security/security/200_infinity/all/all/all/all" xml:space="preserve">
+    <value>The Save password option is convenient but potentially unsafe.</value>
+  </data>
+  <data name="tip122/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>On the portal, you can find instructions about how to keep your account secure. Please read them carefully.</value>
+  </data>
+  <data name="tip123/payAttention/tactics/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>While in battle, hold CTRL to display the mouse cursor.</value>
+  </data>
+  <data name="tip124/payAttention/tactics/50_500/all/all/all/all" xml:space="preserve">
+    <value>To repair a module, use the Repair Kit. To heal a crew member, use the First Aid Kit.</value>
+  </data>
+  <data name="tip125/usefulFeatures/interface/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>To use consumables and switch between shell types, use hotkeys (1–6 by default).</value>
+  </data>
+  <data name="tip126/usefulFeatures/interface/100_500/except_7/SPG/all/all" xml:space="preserve">
+    <value>To instantly move the camera in Artillery mode, right-click on the minimap.</value>
+  </data>
+  <data name="tip127/usefulFeatures/interface/500_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>To change team list appearance, press CTRL+TAB.</value>
+  </data>
+  <data name="tip128/usefulFeatures/interface/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Right-click a player's name in the side team panels to view possible actions.</value>
+  </data>
+  <data name="tip129/followTheRules/rules/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>To file a complaint about a player, right-click the player's name in the side team panels and select the corresponding option from the context menu.</value>
+  </data>
+  <data name="tip130/usefulFeatures/interface/500_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>The set of available commands in the Command Menu changes depending on whether your cursor is on an ally, an enemy, or a point of terrain.</value>
+  </data>
+  <data name="tip131/usefulFeatures/interface/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>To select a command in the Command Menu, hold Z and move your mouse to highlight the desired command.</value>
+  </data>
+  <data name="tip132/usefulFeatures/interface/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Use the F4–F8 hotkeys to quickly select commands in the Command Menu.</value>
+  </data>
+  <data name="tip134/followTheRules/rules/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Being rude is not the best way to convince your ally that you are right. In addition, it is against the Game Rules.</value>
+  </data>
+  <data name="tip135/followTheRules/rules/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Allies are more willing to support polite players.</value>
+  </data>
+  <data name="tip136/followTheRules/rules/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Settle your arguments on the battlefield, not in the game chat.</value>
+  </data>
+  <data name="tip137/followTheRules/rules/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Do not send non-informative messages in the chat; they distract players from the battle.</value>
+  </data>
+  <data name="tip138/followTheRules/rules/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Use the Complain option when any of the Game Rules are violated.</value>
+  </data>
+  <data name="tip139/followTheRules/rules/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>By adding players to the Blacklist you will immediately stop receiving messages and invitations from them.</value>
+  </data>
+  <data name="tip14/payAttention/tactics/101_infinity/all/all/all/all" xml:space="preserve">
+    <value>Auto-Aim does not guarantee 100% accuracy. Experienced players use manual aim.</value>
+  </data>
+  <data name="tip140/followTheRules/rules/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Message censorship can be enabled in Settings.</value>
+  </data>
+  <data name="tip141/followTheRules/rules/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Battle chat can be disabled in Settings. Platoon chat will still be available.</value>
+  </data>
+  <data name="tip142/followTheRules/rules/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>While you are arguing with your allies, the enemy is taking control of the battlefield.</value>
+  </data>
+  <data name="tip143/followTheRules/rules/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Keep track of the flow of the battle. Just one mistake can lead to defeat.</value>
+  </data>
+  <data name="tip144/followTheRules/rules/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Using forbidden mods or engaging in collusion puts you at risk of permanently losing your account.</value>
+  </data>
+  <data name="tip145/followTheRules/rules/0_500/except_7/all/all/all" xml:space="preserve">
+    <value>Each hit on allies is registered by an automatic system; repeated hits on allies will lead to a temporary ban.</value>
+  </data>
+  <data name="tip146/followTheRules/rules/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Violations of the Game Rules are punishable and may result in your account being locked.</value>
+  </data>
+  <data name="tip147/followTheRules/rules/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>If you were punished for a violation of the Game Rules, we strongly recommend that you reread the rules in order to prevent such incidents in the future.</value>
+  </data>
+  <data name="tip148/followTheRules/rules/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>The Game Rules apply to all players, as do the penalties for violating them.</value>
+  </data>
+  <data name="tip149/technicalAdvice/techProblems/500_infinity/all/all/all/all" xml:space="preserve">
+    <value>Cannot enter a battle? Try turning off mods and restarting the game client.</value>
+  </data>
+  <data name="tip150/technicalAdvice/techProblems/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Low FPS? Try a lower graphics quality in Settings.</value>
+  </data>
+  <data name="tip151/technicalAdvice/techProblems/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Low FPS and graphic distortions? Try updating your video card drivers.</value>
+  </data>
+  <data name="tip152/technicalAdvice/techProblems/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>High latency when connecting via 3G or Wi-Fi? Try using a wired internet connection.</value>
+  </data>
+  <data name="tip153/technicalAdvice/techProblems/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Your vehicle teleports or fires with a delay? Check your network connection.</value>
+  </data>
+  <data name="tip154/technicalAdvice/techProblems/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Reliable antivirus software guarantees stable operation of your hardware and game client.</value>
+  </data>
+  <data name="tip155/technicalAdvice/techProblems/500_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Your team is unable to hear you in a battle? Check your voice communication settings.</value>
+  </data>
+  <data name="tip156/technicalAdvice/techProblems/200_infinity/all/all/all/all/all" xml:space="preserve">
+    <value>The more details you give when describing the issue to the Customer Service Center, the more promptly your issue will be considered.</value>
+  </data>
+  <data name="tip157/technicalAdvice/techProblems/200_infinity/all/all/all/all" xml:space="preserve">
+    <value>Before contacting the Customer Service Center, make sure the issue can be reproduced with game mods turned off.</value>
+  </data>
+  <data name="tip158/security/security/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Adding your phone number to your account profile makes your account more secure from potential hacking.</value>
+  </data>
+  <data name="tip159/security/security/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Make sure the mobile phone number you added to your account is active. This will allow prompt restoration of access to your account.</value>
+  </data>
+  <data name="tip160/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>By linking your mobile phone number to your account, you can change the email address that the account is registered with.</value>
+  </data>
+  <data name="tip161/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>If you suspect someone has gained unauthorized access to your account, contact the Customers Support Service right away.</value>
+  </data>
+  <data name="tip162/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Do not accept gifts from unknown users.</value>
+  </data>
+  <data name="tip163/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Select the correct section of the Customer Service Center to guarantee that your issue will be considered promptly.</value>
+  </data>
+  <data name="tip164/payAttention/tactics/500_infinity/except_7/SPG/all/all" xml:space="preserve">
+    <value>A skilled artillery player can use shell tracers to detect and destroy an enemy SPG that does not change its firing position.</value>
+  </data>
+  <data name="tip165/payAttention/tactics/100_500/all/all/all/all" xml:space="preserve">
+    <value>An Automatic Fire Extinguisher promptly extinguishes fire and reduces the chance of engine fire.</value>
+  </data>
+  <data name="tip166/payAttention/tactics/500_infinity/all/SPG/all/all" xml:space="preserve">
+    <value>When driving an SPG, remember to account for the shell's flight path and speed, as well as terrain irregularities.</value>
+  </data>
+  <data name="tip167/payAttention/tactics/50_500/except_7/all/all/all" xml:space="preserve">
+    <value>Keep track of your allies and enemies on the Minimap.</value>
+  </data>
+  <data name="tip168/payAttention/tactics/500_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Firing while passively spotting reveals your position. You earn additional experience and credits for spotting the enemy.</value>
+  </data>
+  <data name="tip169/payAttention/tactics/500_infinity/all/all/all/all" xml:space="preserve">
+    <value>Use a Repair Kit for quick repair of damaged tracks. Once your vehicle is mobile, try to evade enemy shells.</value>
+  </data>
+  <data name="tip17/payAttention/tactics/151_infinity/all/all/all/all" xml:space="preserve">
+    <value>A well-armored target that cannot be defeated with Armor Piercing shells can still be damaged by High-Explosive shells.</value>
+  </data>
+  <data name="tip170/payAttention/tactics/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Like bushes, fallen trees conceal your vehicle.</value>
+  </data>
+  <data name="tip171/payAttention/tactics/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Boulders and deep trenches can immobilize your vehicle.</value>
+  </data>
+  <data name="tip172/payAttention/economics/0_500/all/all/all/all" xml:space="preserve">
+    <value>Premium ammunition and consumables can be purchased for gold by default.</value>
+  </data>
+  <data name="tip173/payAttention/economics/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>You can transfer crew members to a Premium vehicle of the same nation and type without retraining.</value>
+  </data>
+  <data name="tip174/payAttention/crew/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Injuries to crew members reduce their battle effectiveness.</value>
+  </data>
+  <data name="tip175/payAttention/crew/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>The Brothers in Arms perk only comes into effect when it reaches 100% for all crew members.</value>
+  </data>
+  <data name="tip176/payAttention/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>To receive a gift you sent, the recipient player has to log in to their Account Management.</value>
+  </data>
+  <data name="tip177/followTheRules/rules/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Punishment for destruction of/damage to allied vehicles will not be subject to appeal, under any circumstances.</value>
+  </data>
+  <data name="tip178/followTheRules/rules/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Consult the Customer Service Center to clarify the reasons for suspension of your account.</value>
+  </data>
+  <data name="tip179/beCareful/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Before sending the Customer Service Center a ticket for missing vehicles, make sure you have disabled the vehicle filter in the game client.</value>
+  </data>
+  <data name="tip20/payAttention/economics/50_500/except_7/all/all/all" xml:space="preserve">
+    <value>To mount some modules, you will need to replace your vehicle's suspension and turret.</value>
+  </data>
+  <data name="tip23/payAttention/tactics/200_infinity/all/all/all/all" xml:space="preserve">
+    <value>Light vehicles with weak armor protection can be destroyed by ramming.</value>
+  </data>
+  <data name="tip25/payAttention/tactics/151_infinity/all/all/all/all" xml:space="preserve">
+    <value>Use High-Explosive shells to destroy modules and knock out enemy crew.</value>
+  </data>
+  <data name="tip28/payAttention/tactics/500_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>High-Explosive shells are most effective against vehicles with weak armor protection and open cabins.</value>
+  </data>
+  <data name="tip29/payAttention/tactics/0_50/except_7/all/all/all" xml:space="preserve">
+    <value>To stop an enemy vehicle and make it an easy target, shoot it in the tracks.</value>
+  </data>
+  <data name="tip30/payAttention/tactics/201_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>A low profile makes a vehicle harder to detect, especially in bushes.</value>
+  </data>
+  <data name="tip31/payAttention/tactics/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Use AP Composite-Rigid or HE Anti-Tank shells when Armor Piercing shells are ineffective.</value>
+  </data>
+  <data name="tip32/payAttention/crew/0_500/all/all/all/all" xml:space="preserve">
+    <value>Additional perks and skills become available after training your crew to 100% in their major qualification.</value>
+  </data>
+  <data name="tip33/payAttention/tactics/51_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>A stationary vehicle is more difficult to detect than a moving vehicle.</value>
+  </data>
+  <data name="tip36/payAttention/tactics/101_infinity/except_7/SPG/all/all" xml:space="preserve">
+    <value>In close combat, an SPG can destroy an enemy vehicle by direct fire.</value>
+  </data>
+  <data name="tip37/payAttention/tactics/100_500/except_7/all/all/all" xml:space="preserve">
+    <value>Enemy artillery can guess your location when you destroy fences and structures.</value>
+  </data>
+  <data name="tip39/payAttention/tactics/0_100/except_7/all/all/all" xml:space="preserve">
+    <value>It always makes sense to concentrate fire.</value>
+  </data>
+  <data name="tip41/payAttention/tactics/51_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>To detect enemy vehicles, observe the trajectory of tracers.</value>
+  </data>
+  <data name="tip42/payAttention/tactics/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>The more vehicles inside the enemy base circle, the faster the base will be captured. The fastest capture can be achieved by three vehicles.</value>
+  </data>
+  <data name="tip43/payAttention/tactics/500_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>If neither team achieves superiority in the Assault mode, the defending team wins when battle time expires.</value>
+  </data>
+  <data name="tip44/payAttention/tactics/0_100/except_7/all/all/all" xml:space="preserve">
+    <value>Dodge enemy shells when capturing the base. Base capture is interrupted if your vehicle is damaged.</value>
+  </data>
+  <data name="tip45/payAttention/tactics/50_150/except_7/all/all/all/all" xml:space="preserve">
+    <value>Maneuverability is affected by the type of suspension, engine power, and total weight of mounted modules.</value>
+  </data>
+  <data name="tip47/payAttention/tactics/0_100/except_7/all/all/all" xml:space="preserve">
+    <value>Buildings and destroyed vehicles can block enemy fire. Trees and bushes may conceal you, but they will not block incoming shells.</value>
+  </data>
+  <data name="tip48/payAttention/tactics/50_infinity/all/all/all/all" xml:space="preserve">
+    <value>Use a Repair Kit to repair a damaged module.</value>
+  </data>
+  <data name="tip49/payAttention/tactics/50_200/all/all/all/all" xml:space="preserve">
+    <value>When destroyed, a gun cannot fire. Use a Repair Kit to make the gun function again.</value>
+  </data>
+  <data name="tip50/payAttention/tactics/50_200/all/all/all/all" xml:space="preserve">
+    <value>Damage to the ammo rack may result in reduced loading speed, or, in some cases, immediate detonation.</value>
+  </data>
+  <data name="tip56/payAttention/economics/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>In addition to experience and credits, Premium Account also gets you a nice clean Garage.</value>
+  </data>
+  <data name="tip57/payAttention/economics/500_infinity/all/all/all/all" xml:space="preserve">
+    <value>You can use Free Experience to research any vehicle or module.</value>
+  </data>
+  <data name="tip58/payAttention/economics/500_infinity/all/all/all/all" xml:space="preserve">
+    <value>When researching modules and vehicles, Combat Experience is spent first, while Free Experience is spent last.</value>
+  </data>
+  <data name="tip59/payAttention/economics/100_500/except_7/all/all/all" xml:space="preserve">
+    <value>A new module may be too heavy. To enhance load capacity, upgrade the suspension.</value>
+  </data>
+  <data name="tip6/payAttention/tactics/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Vehicles of different types often require different tactics.</value>
+  </data>
+  <data name="tip60/payAttention/economics/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Credits and experience are awarded for spotting, damaging, and destroying enemy vehicles; for base capture/defense, etc.</value>
+  </data>
+  <data name="tip62/payAttention/tactics/50_200/all/all/all/all" xml:space="preserve">
+    <value>Your shots can reduce the hit points of an enemy vehicle, damage or destroy modules, or injure crew members.</value>
+  </data>
+  <data name="tip65/payAttention/tactics/50_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Make use of terrain irregularities, as they can provide cover from direct fire and observation.</value>
+  </data>
+  <data name="tip66/payAttention/tactics/0_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>A well-coordinated team is a winning team.</value>
+  </data>
+  <data name="tip67/payAttention/economics/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>If you are running out of space in your Garage, consider purchasing another slot or selling one of your vehicles.</value>
+  </data>
+  <data name="tip68/payAttention/economics/500_infinity/all/all/all/all" xml:space="preserve">
+    <value>Use the Depot to sell vehicles, modules, consumables, equipment, or ammo that you do not need.</value>
+  </data>
+  <data name="tip69/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>If anyone asks for your password, it is a scam. Administrators will never need your password for any reason. Always keep your password private.</value>
+  </data>
+  <data name="tip70/payAttention/economics/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Premium vehicles are cheap to repair.</value>
+  </data>
+  <data name="tip71/followTheRules/rules/0_500/except_7/all/all/all" xml:space="preserve">
+    <value>Do not shoot your allies!</value>
+  </data>
+  <data name="tip75/payAttention/tactics/0_200/except_7/all/all/all" xml:space="preserve">
+    <value>Traversing your turret and hull reduces your firing accuracy, so after a maneuver is complete, wait for the aiming circle to snap onto the target.</value>
+  </data>
+  <data name="tip78/payAttention/tactics/500_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Suspension modules have different traverse speeds, crossing abilities, and loading capacities.</value>
+  </data>
+  <data name="tip79/payAttention/tactics/200_infinity/all/all/all/all" xml:space="preserve">
+    <value>Effective ramming is determined by the ratio between weight, speed, and armor thickness of the vehicles.</value>
+  </data>
+  <data name="tip81/payAttention/crew/0_500/all/all/all/all" xml:space="preserve">
+    <value>The speed with which the sight snaps to the target is determined by the gun type and the Gunner's skills.</value>
+  </data>
+  <data name="tip83/payAttention/tactics/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Auto-Aim turns off if the tracked target is destroyed or lost.</value>
+  </data>
+  <data name="tip84/payAttention/economics/0_100/except_7/all/all/all" xml:space="preserve">
+    <value>A destroyed vehicle is locked and remains unavailable in the Garage until the end of the battle.</value>
+  </data>
+  <data name="tip85/payAttention/economics/0_100/all/all/all/all" xml:space="preserve">
+    <value>You can only enter a battle with a fully repaired vehicle and a complete crew.</value>
+  </data>
+  <data name="tip86/payAttention/economics/0_500/all/all/all/all" xml:space="preserve">
+    <value>You may check the Resupply Automatically and Repair Automatically options for your vehicle.</value>
+  </data>
+  <data name="tip87/payAttention/tactics/200_infinity/all/all/all/all" xml:space="preserve">
+    <value>Sloped armor increases the chances of ricochets and non-penetrating hits.</value>
+  </data>
+  <data name="tip88/payAttention/economics/0_500/all/all/all/all" xml:space="preserve">
+    <value>You can enlarge your Barracks if needed.</value>
+  </data>
+  <data name="tip89/payAttention/economics/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>You can transfer crew members to another vehicle or send them to the Barracks.</value>
+  </data>
+  <data name="tip9/payAttention/tactics/0_infinity/except_7/SPG/all/all" xml:space="preserve">
+    <value>Whenever you sense danger, relocate your SPG—you will survive longer.</value>
+  </data>
+  <data name="tip90/payAttention/crew/0_500/except_7/all/all/all" xml:space="preserve">
+    <value>An injured crew member receives 10% less experience in a battle.</value>
+  </data>
+  <data name="tip91/payAttention/economics/0_100/all/all/all/all" xml:space="preserve">
+    <value>You cannot start a battle with an incomplete crew.</value>
+  </data>
+  <data name="tip92/payAttention/crew/0_500/all/all/all/all" xml:space="preserve">
+    <value>The speed of your crew's training depends on their success in battle.</value>
+  </data>
+  <data name="tip93/payAttention/crew/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>The Commander boosts the major qualifications of other crew members.</value>
+  </data>
+  <data name="tip95/payAttention/crew/200_infinity/all/all/all/all" xml:space="preserve">
+    <value>All Combat Experience earned with Accelerate Crew Training enabled is received by the least-skilled crew member.</value>
+  </data>
+  <data name="tip99/payAttention/economics/200_infinity/all/all/all/all" xml:space="preserve">
+    <value>All equipment can be demounted and transferred to another vehicle.</value>
+  </data>
+  <data name="howToPlay" xml:space="preserve">
+    <value>How to Play</value>
+  </data>
+  <data name="sandbox01" xml:space="preserve">
+    <value>You start at point 1 (for tanks and tank destroyers) or 2 (for SPGs). Apply everything you have learned in Battle Training to destroy the enemy and win.</value>
+  </data>
+  <data name="sandbox02" xml:space="preserve">
+    <value>You start in the green base with three options for beginning your attack. Choose the appropriate tactics to win the battle.</value>
+  </data>
+  <data name="eventMessage" xml:space="preserve">
+    <value>++++ eventMessage ++++</value>
+  </data>
+  <data name="eventTitle" xml:space="preserve">
+    <value>++++ eventTitle ++++</value>
+  </data>
+  <data name="sandbox0" xml:space="preserve">
+    <value>You spawn in area 1 (for tanks and tank destroyers) or 2 (for SPGs). Apply everything you have learned during battle training and claim victory.</value>
+  </data>
+  <data name="sandbox1" xml:space="preserve">
+    <value>You spawn at the green base, which gives you three options for starting the attack. Choose your tactics and try to secure victory.</value>
+  </data>
+  <data name="tip180/technicalAdvice/interface/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>You can adjust the volume by using the Master Volume slider or changing the volume settings for your system.</value>
+  </data>
+  <data name="tip181/technicalAdvice/interface/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Select your sound device—"2.0/2.1 Sound System" or "Headphones"—in sound settings for better sound positioning.</value>
+  </data>
+  <data name="tip182/technicalAdvice/interface/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>For the best performance on low-end sound systems, use the "Laptop" preset.</value>
+  </data>
+  <data name="tip183/technicalAdvice/interface/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Use the night mode to reduce sharp sounds.</value>
+  </data>
+  <data name="tip184/technicalAdvice/interface/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>You can select the Low frequency enhancement option, but the result will differ for different sound systems.</value>
+  </data>
+  <data name="epicRandom/0/body" xml:space="preserve">
+    <value>You may experience minor performance issues in this battle type.</value>
+  </data>
+  <data name="epicRandom/0/title" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="ranked/0/body" xml:space="preserve">
+    <value>Ranks I and V are permanent, while Ranks II, III, and IV can be lost. Vehicle ranks are permanent.</value>
+  </data>
+  <data name="ranked/0/title" xml:space="preserve">
+    <value>Ranks</value>
+  </data>
+  <data name="ranked/1/body" xml:space="preserve">
+    <value>Do not be disheartened if you lose a rank: at the end of a stage, you will receive a reward for your best rank achieved, not your current one.</value>
+  </data>
+  <data name="ranked/1/title" xml:space="preserve">
+    <value>Justice for All</value>
+  </data>
+  <data name="ranked/10/body" xml:space="preserve">
+    <value>You receive bonds for your success in Ranked Battles. Bonds can be exchanged for directives and improved equipment.</value>
+  </data>
+  <data name="ranked/10/title" xml:space="preserve">
+    <value>Bonds</value>
+  </data>
+  <data name="ranked/11/body" xml:space="preserve">
+    <value>You receive rewards for achieving each rank for the first time within a stage, as well as for completing a stage.</value>
+  </data>
+  <data name="ranked/11/title" xml:space="preserve">
+    <value>Awards</value>
+  </data>
+  <data name="ranked/12/body" xml:space="preserve">
+    <value>Vehicle ranks are not accrued for the account; they are earned for each vehicle separately. The total number of ranks is aggregated on the Leaderboard.</value>
+  </data>
+  <data name="ranked/12/title" xml:space="preserve">
+    <value>Vehicle Ranks</value>
+  </data>
+  <data name="ranked/2/body" xml:space="preserve">
+    <value>Vehicle ranks are unlimited. The more vehicle ranks you earn within a season, the higher the position on the Leaderboard you achieve.</value>
+  </data>
+  <data name="ranked/2/title" xml:space="preserve">
+    <value>Up and Onward</value>
+  </data>
+  <data name="ranked/3/body" xml:space="preserve">
+    <value>Keep track of the prime time: once it is over, Ranked Battles will become unavailable until the next day.</value>
+  </data>
+  <data name="ranked/3/title" xml:space="preserve">
+    <value>Prime Time</value>
+  </data>
+  <data name="ranked/4/body" xml:space="preserve">
+    <value>Note that the duration of each stage is limited. Keep an eye on the calendar and earn as many points as you can during a stage.</value>
+  </data>
+  <data name="ranked/4/title" xml:space="preserve">
+    <value>Time is Money</value>
+  </data>
+  <data name="ranked/5/body" xml:space="preserve">
+    <value>Stage duration is limited! Battle hard if you want to receive worthy rewards.</value>
+  </data>
+  <data name="ranked/5/title" xml:space="preserve">
+    <value>Timeline</value>
+  </data>
+  <data name="ranked/6/body" xml:space="preserve">
+    <value>When a season is over, follow the news on the game portal so you do not miss the date the next season begins.</value>
+  </data>
+  <data name="ranked/6/title" xml:space="preserve">
+    <value>Follow the News</value>
+  </data>
+  <data name="ranked/7/body" xml:space="preserve">
+    <value>The best players will earn a place on the Leaderboard. Players receive a rank point for each rank achieved. The more points you get, the higher your position and the better the reward.</value>
+  </data>
+  <data name="ranked/7/title" xml:space="preserve">
+    <value>Season Leaders</value>
+  </data>
+  <data name="ranked/8/body" xml:space="preserve">
+    <value>The top players will receive badges at the end of a season. A badge is a mark of pride for players, a symbol of their unequalled mastery.</value>
+  </data>
+  <data name="ranked/8/title" xml:space="preserve">
+    <value>Badges</value>
+  </data>
+  <data name="ranked/9/body" xml:space="preserve">
+    <value>The reward you receive at the end of a season depends on the League you reach. You earn points for each rank achieved. The more points you have, the higher your League.</value>
+  </data>
+  <data name="ranked/9/title" xml:space="preserve">
+    <value>Awards</value>
+  </data>
+</root>

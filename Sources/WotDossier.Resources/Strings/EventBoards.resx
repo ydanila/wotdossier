@@ -1,0 +1,852 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="awards/class/AT-SPG" xml:space="preserve">
+    <value>Rewards for Tank Destroyers</value>
+  </data>
+  <data name="awards/class/SPG" xml:space="preserve">
+    <value>Rewards for SPGs</value>
+  </data>
+  <data name="awards/class/heavyTank" xml:space="preserve">
+    <value>Rewards for Heavy Tanks</value>
+  </data>
+  <data name="awards/class/lightTank" xml:space="preserve">
+    <value>Rewards for Light Tanks</value>
+  </data>
+  <data name="awards/class/mediumTank" xml:space="preserve">
+    <value>Rewards for Medium Tanks</value>
+  </data>
+  <data name="awards/level" xml:space="preserve">
+    <value>Rewards for Tier %(level)s Vehicles</value>
+  </data>
+  <data name="awards/nation/china" xml:space="preserve">
+    <value>Rewards for Chinese Vehicles</value>
+  </data>
+  <data name="awards/nation/czech" xml:space="preserve">
+    <value>Rewards for Czechoslovakian Vehicles</value>
+  </data>
+  <data name="awards/nation/france" xml:space="preserve">
+    <value>Rewards for French Vehicles</value>
+  </data>
+  <data name="awards/nation/germany" xml:space="preserve">
+    <value>Rewards for German Vehicles</value>
+  </data>
+  <data name="awards/nation/japan" xml:space="preserve">
+    <value>Rewards for Japanese Vehicles</value>
+  </data>
+  <data name="awards/nation/poland" xml:space="preserve">
+    <value>Rewards for Polish Vehicles</value>
+  </data>
+  <data name="awards/nation/sweden" xml:space="preserve">
+    <value>Rewards for Swedish Vehicles</value>
+  </data>
+  <data name="awards/nation/uk" xml:space="preserve">
+    <value>Rewards for U.K. Vehicles</value>
+  </data>
+  <data name="awards/nation/usa" xml:space="preserve">
+    <value>Rewards for U.S.A. Vehicles</value>
+  </data>
+  <data name="awards/nation/ussr" xml:space="preserve">
+    <value>Rewards for U.S.S.R. Vehicles</value>
+  </data>
+  <data name="awards/tooltip/class" xml:space="preserve">
+    <value>Click to display the rewards for this vehicle type.</value>
+  </data>
+  <data name="awards/tooltip/level" xml:space="preserve">
+    <value>Click to display the rewards for vehicles of this tier.</value>
+  </data>
+  <data name="awards/tooltip/nation" xml:space="preserve">
+    <value>Click to display the rewards for this nation.</value>
+  </data>
+  <data name="awards/vehicle" xml:space="preserve">
+    <value>Rewards for Selected Vehicle</value>
+  </data>
+  <data name="badge/tooltip/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badgesGroup/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="block/award" xml:space="preserve">
+    <value>Main Reward</value>
+  </data>
+  <data name="block/objective" xml:space="preserve">
+    <value>Conditions</value>
+  </data>
+  <data name="block/task" xml:space="preserve">
+    <value>Mission</value>
+  </data>
+  <data name="button/awards" xml:space="preserve">
+    <value>All Rewards</value>
+  </data>
+  <data name="button/awards/tooltip" xml:space="preserve">
+    <value>Click to display the list of all rewards in the competition.</value>
+  </data>
+  <data name="button/regulations" xml:space="preserve">
+    <value>Requirements</value>
+  </data>
+  <data name="button/regulations/tooltip" xml:space="preserve">
+    <value>Click to display the full description of the competition.</value>
+  </data>
+  <data name="condition/battletype/random" xml:space="preserve">
+    <value>Random Battle 15x15</value>
+  </data>
+  <data name="condition/battletype/ranked" xml:space="preserve">
+    <value>Ranked Battle</value>
+  </data>
+  <data name="condition/battletype/squadallowed" xml:space="preserve">
+    <value>Platoons allowed</value>
+  </data>
+  <data name="condition/battletype/squadnotallowed" xml:space="preserve">
+    <value>Platoons not allowed</value>
+  </data>
+  <data name="condition/primetime/any" xml:space="preserve">
+    <value>Any server and time</value>
+  </data>
+  <data name="condition/primetime/chosen" xml:space="preserve">
+    <value>Only on the servers specified</value>
+  </data>
+  <data name="condition/vehicle/chosen" xml:space="preserve">
+    <value>Only on the vehicles specified:</value>
+  </data>
+  <data name="condition/vehicle/exist" xml:space="preserve">
+    <value>In the Garage</value>
+  </data>
+  <data name="condition/vehicle/missing" xml:space="preserve">
+    <value>Not in the Garage</value>
+  </data>
+  <data name="condition/vehicle/single" xml:space="preserve">
+    <value>In the %(vehicle)s</value>
+  </data>
+  <data name="dateTime/months/1" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="dateTime/months/10" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="dateTime/months/11" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="dateTime/months/12" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="dateTime/months/2" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="dateTime/months/3" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="dateTime/months/4" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="dateTime/months/5" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="dateTime/months/6" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="dateTime/months/7" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="dateTime/months/8" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="dateTime/months/9" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="excel/btnClose" xml:space="preserve">
+    <value>TO COMPETITION</value>
+  </data>
+  <data name="excel/header/reason/battlesLeft" xml:space="preserve">
+    <value>To get placed in the rating, fight more battles: %(number)s</value>
+  </data>
+  <data name="excel/noData" xml:space="preserve">
+    <value>No prize places have been taken yet.</value>
+  </data>
+  <data name="excel/participate/join" xml:space="preserve">
+    <value>Fight</value>
+  </data>
+  <data name="excel/participate/notParticipated" xml:space="preserve">
+    <value>You did not get placed in this rating</value>
+  </data>
+  <data name="excel/subHeader" xml:space="preserve">
+    <value>Competition: %(eventName)s</value>
+  </data>
+  <data name="header/participate/button/join" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="header/participate/button/leave" xml:space="preserve">
+    <value>Quit Competition</value>
+  </data>
+  <data name="header/participate/finished" xml:space="preserve">
+    <value>Competition Has Finished</value>
+  </data>
+  <data name="header/participate/notStarted" xml:space="preserve">
+    <value>You Have Joined</value>
+  </data>
+  <data name="header/participate/reason/byAge" xml:space="preserve">
+    <value>Account Created After %date%</value>
+  </data>
+  <data name="header/participate/reason/cantJoin" xml:space="preserve">
+    <value>Competition Unavailable</value>
+  </data>
+  <data name="header/participate/reason/leftEvent" xml:space="preserve">
+    <value>You Have Quit This Competition</value>
+  </data>
+  <data name="header/participate/started" xml:space="preserve">
+    <value>You Are Participating</value>
+  </data>
+  <data name="header/timer" xml:space="preserve">
+    <value>Ends in:</value>
+  </data>
+  <data name="maintenance/body" xml:space="preserve">
+    <value>We are sorry for the temporary inconvenience.</value>
+  </data>
+  <data name="maintenance/title" xml:space="preserve">
+    <value>Error Loading Data</value>
+  </data>
+  <data name="maintenance/update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="notification/buttons/details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="notification/eventFinished/body" xml:space="preserve">
+    <value>Competition %(eventName)s has finished. Winners will be established during the next few days, after which they will receive their well-deserved prizes.</value>
+  </data>
+  <data name="notification/eventFinished/header" xml:space="preserve">
+    <value>Competition Finished</value>
+  </data>
+  <data name="notification/eventJoin/afterStart/body" xml:space="preserve">
+    <value>The results of your battles are now counted toward the competition, so you can get placed in the rating and earn a reward.</value>
+  </data>
+  <data name="notification/eventJoin/afterStart/header" xml:space="preserve">
+    <value>You Have Joined As a Participant</value>
+  </data>
+  <data name="notification/eventJoin/beforeStart/body" xml:space="preserve">
+    <value>The results of your battle will be counted once the competition starts, so you can get placed in the rating and earn a reward.</value>
+  </data>
+  <data name="notification/eventJoin/beforeStart/header" xml:space="preserve">
+    <value>You Have Joined As a Participant</value>
+  </data>
+  <data name="notification/eventJoin/conditionsFailed/body" xml:space="preserve">
+    <value>Unable to join as a participant: the requirements were not met.</value>
+  </data>
+  <data name="notification/eventJoin/registrationDeadline/body" xml:space="preserve">
+    <value>Unable to join as a participant: the registration period has ended.</value>
+  </data>
+  <data name="notification/eventLeave/afterStart/body" xml:space="preserve">
+    <value>Your statistics in the competitions will be reset after the ratings are updated.</value>
+  </data>
+  <data name="notification/eventLeave/afterStart/header" xml:space="preserve">
+    <value>You Have Quit the Competition</value>
+  </data>
+  <data name="notification/eventLeave/beforeStart/body" xml:space="preserve">
+    <value>Your statistics will not be counted toward this competition.</value>
+  </data>
+  <data name="notification/eventLeave/beforeStart/header" xml:space="preserve">
+    <value>You Have Quit the Competition</value>
+  </data>
+  <data name="notification/eventLeave/registrationDeadline/body" xml:space="preserve">
+    <value>Unable to quit the competition: the allocated time has expired.</value>
+  </data>
+  <data name="notification/eventStarted/body" xml:space="preserve">
+    <value>Competition %(eventName)s has started! Players who have taken prize places by the time the competition ends will earn valuable rewards.</value>
+  </data>
+  <data name="notification/eventStarted/header" xml:space="preserve">
+    <value>Competition Started</value>
+  </data>
+  <data name="notification/unknownError/body" xml:space="preserve">
+    <value>Unable to complete the operation.</value>
+  </data>
+  <data name="orders/title" xml:space="preserve">
+    <value>Requirements</value>
+  </data>
+  <data name="popover/buttons/cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="popover/buttons/rating" xml:space="preserve">
+    <value>Go to Rating</value>
+  </data>
+  <data name="popover/title" xml:space="preserve">
+    <value>Rating Selection</value>
+  </data>
+  <data name="popover/tooltip/class" xml:space="preserve">
+    <value>Go to the rating for vehicles of the selected type.</value>
+  </data>
+  <data name="popover/tooltip/level" xml:space="preserve">
+    <value>Go to the rating for vehicles of the selected tier.</value>
+  </data>
+  <data name="popover/tooltip/nation" xml:space="preserve">
+    <value>Go to the rating for vehicles of the selected nation.</value>
+  </data>
+  <data name="server/list" xml:space="preserve">
+    <value>To make your battles count toward the competition, transfer to the following server:</value>
+  </data>
+  <data name="server/noSuitable/body" xml:space="preserve">
+    <value>Battle results will be counted next at: %(time)s on %(server)s. Competition schedule</value>
+  </data>
+  <data name="server/noSuitable/header" xml:space="preserve">
+    <value>Battle results are not counted toward the competition at this time</value>
+  </data>
+  <data name="status/bestResults/many" xml:space="preserve">
+    <value>My Best Results</value>
+  </data>
+  <data name="status/bestResults/one" xml:space="preserve">
+    <value>My Results</value>
+  </data>
+  <data name="status/cantJoin/notAvailable" xml:space="preserve">
+    <value>Competition is unavailable:</value>
+  </data>
+  <data name="status/cantJoin/reason/banned" xml:space="preserve">
+    <value>You are not allowed to participate in this competition due to your violation of the Game Rules</value>
+  </data>
+  <data name="status/cantJoin/reason/byAge" xml:space="preserve">
+    <value>account created after %(date)s</value>
+  </data>
+  <data name="status/cantJoin/reason/byBattlesCount" xml:space="preserve">
+    <value>you have not fought the required number of battles in the Random Battle mode: %(number)s</value>
+  </data>
+  <data name="status/cantJoin/reason/byWinRateHigh" xml:space="preserve">
+    <value>your rate of victories in the Random Battle mode exceeds %(number)s%%</value>
+  </data>
+  <data name="status/cantJoin/reason/byWinRateLow" xml:space="preserve">
+    <value>you have not reached the following rate of victories in the Random Battle mode: %(number)s%%</value>
+  </data>
+  <data name="status/cantJoin/reason/endRegistration" xml:space="preserve">
+    <value>Registration period ended</value>
+  </data>
+  <data name="status/cantJoin/reason/endRegistration/tooltip" xml:space="preserve">
+    <value>You cannot join this competition as a participant.</value>
+  </data>
+  <data name="status/cantJoin/reason/leftEvent" xml:space="preserve">
+    <value>You Have Quit This Competition</value>
+  </data>
+  <data name="status/cantJoin/reason/leftEvent/tooltip" xml:space="preserve">
+    <value>The results of your battles are no longer counted toward this competition. You will not be placed in the rating or earn a reward.
+You cannot enter this competition again.</value>
+  </data>
+  <data name="status/cantJoin/reason/many" xml:space="preserve">
+    <value>requirements not met %(number)s</value>
+  </data>
+  <data name="status/cantJoin/reason/moreThanOne" xml:space="preserve">
+    <value>requirements not met (%(number)s)</value>
+  </data>
+  <data name="status/cantJoin/reason/outOfRating" xml:space="preserve">
+    <value>You did not get placed in the rating</value>
+  </data>
+  <data name="status/cantJoin/reason/special" xml:space="preserve">
+    <value>You cannot participate in the competition using this account.</value>
+  </data>
+  <data name="status/participate/cantJoin" xml:space="preserve">
+    <value>Competition Unavailable</value>
+  </data>
+  <data name="status/participate/needMoreBattles" xml:space="preserve">
+    <value>Meet the specified requirements in battles, and your results will be shown here after the ratings are updated.</value>
+  </data>
+  <data name="status/participate/notParticipated" xml:space="preserve">
+    <value>You did not participate in the competition</value>
+  </data>
+  <data name="summary/averagedamage" xml:space="preserve">
+    <value>Average damage</value>
+  </data>
+  <data name="summary/averagedamageassisted" xml:space="preserve">
+    <value>Average damage with your assistance</value>
+  </data>
+  <data name="summary/averagexp" xml:space="preserve">
+    <value>Average experience</value>
+  </data>
+  <data name="summary/battles" xml:space="preserve">
+    <value>Battles in Competition</value>
+  </data>
+  <data name="summary/damage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="summary/damageassist" xml:space="preserve">
+    <value>Damage with your assistance</value>
+  </data>
+  <data name="summary/damageblocked" xml:space="preserve">
+    <value>Blocked damage</value>
+  </data>
+  <data name="summary/description/awards/title/award" xml:space="preserve">
+    <value>REWARD AT THE END OF THE COMPETITION</value>
+  </data>
+  <data name="summary/description/awards/title/group" xml:space="preserve">
+    <value>GROUP</value>
+  </data>
+  <data name="summary/description/awards/title/position" xml:space="preserve">
+    <value>POSITION</value>
+  </data>
+  <data name="summary/description/max/class" xml:space="preserve">
+    <value>Your best battle in the %(value)s</value>
+  </data>
+  <data name="summary/description/max/level" xml:space="preserve">
+    <value>Your best battle in a Tier %(value)s vehicle</value>
+  </data>
+  <data name="summary/description/max/nation" xml:space="preserve">
+    <value>Your best battle in a vehicle of the following nation: %(value)s</value>
+  </data>
+  <data name="summary/description/max/vehicle" xml:space="preserve">
+    <value>Your best battle in the %(value)s</value>
+  </data>
+  <data name="summary/description/sum/class" xml:space="preserve">
+    <value>Your statistics in the competition in the %(value)s</value>
+  </data>
+  <data name="summary/description/sum/level" xml:space="preserve">
+    <value>Your statistics in the competition in Tier %(value)s vehicles</value>
+  </data>
+  <data name="summary/description/sum/nation" xml:space="preserve">
+    <value>Your statistics in the competition in vehicles of the following nation: %(value)s</value>
+  </data>
+  <data name="summary/description/sum/vehicle" xml:space="preserve">
+    <value>Your statistics in the competition in the following vehicle: %(value)s</value>
+  </data>
+  <data name="summary/description/sumN/class" xml:space="preserve">
+    <value>Your best battles in the %(value)s</value>
+  </data>
+  <data name="summary/description/sumN/level" xml:space="preserve">
+    <value>Your best battles in Tier %(value)s vehicles</value>
+  </data>
+  <data name="summary/description/sumN/nation" xml:space="preserve">
+    <value>Your best battles in vehicles of the following nation: %(value)s</value>
+  </data>
+  <data name="summary/description/sumN/vehicle" xml:space="preserve">
+    <value>Your best battles in the %(value)s</value>
+  </data>
+  <data name="summary/description/sumSeqN/class" xml:space="preserve">
+    <value>Your best series of battles in the %(value)s</value>
+  </data>
+  <data name="summary/description/sumSeqN/level" xml:space="preserve">
+    <value>Your best series of battles in Tier %(value)s vehicles</value>
+  </data>
+  <data name="summary/description/sumSeqN/nation" xml:space="preserve">
+    <value>Your best series of battles in vehicles of the following nation: %(value)s</value>
+  </data>
+  <data name="summary/description/sumSeqN/vehicle" xml:space="preserve">
+    <value>Your best series of battles in the %(value)s</value>
+  </data>
+  <data name="summary/destroyedvehicles" xml:space="preserve">
+    <value>Enemy Vehicles Destroyed</value>
+  </data>
+  <data name="summary/fightInSquaad" xml:space="preserve">
+    <value>Battle in a Platoon</value>
+  </data>
+  <data name="summary/fightNotInSquaad" xml:space="preserve">
+    <value>Battle not in a Platoon</value>
+  </data>
+  <data name="summary/originalXP" xml:space="preserve">
+    <value>Base experience</value>
+  </data>
+  <data name="summary/param/max/damageAssisted" xml:space="preserve">
+    <value>Damage Caused With Player's Assistance</value>
+  </data>
+  <data name="summary/param/max/damageDealt" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="summary/param/max/originalXP" xml:space="preserve">
+    <value>Base experience</value>
+  </data>
+  <data name="summary/param/max/xp" xml:space="preserve">
+    <value>Experience</value>
+  </data>
+  <data name="summary/param/sumAll/damageAssisted" xml:space="preserve">
+    <value>Average damage caused with player's assistance</value>
+  </data>
+  <data name="summary/param/sumAll/damageDealt" xml:space="preserve">
+    <value>Average damage</value>
+  </data>
+  <data name="summary/param/sumAll/originalXP" xml:space="preserve">
+    <value>Average base experience</value>
+  </data>
+  <data name="summary/param/sumAll/xp" xml:space="preserve">
+    <value>Average experience</value>
+  </data>
+  <data name="summary/param/sumN/damageAssisted" xml:space="preserve">
+    <value>Average damage caused with player's assistance</value>
+  </data>
+  <data name="summary/param/sumN/damageDealt" xml:space="preserve">
+    <value>Total Damage</value>
+  </data>
+  <data name="summary/param/sumN/originalXP" xml:space="preserve">
+    <value>Total Base Experience</value>
+  </data>
+  <data name="summary/param/sumN/xp" xml:space="preserve">
+    <value>Total Experience</value>
+  </data>
+  <data name="summary/param/sumSeqN/damageAssisted" xml:space="preserve">
+    <value>Average damage caused with player's assistance</value>
+  </data>
+  <data name="summary/param/sumSeqN/damageDealt" xml:space="preserve">
+    <value>Total Damage</value>
+  </data>
+  <data name="summary/param/sumSeqN/originalXP" xml:space="preserve">
+    <value>Total Base Experience</value>
+  </data>
+  <data name="summary/param/sumSeqN/xp" xml:space="preserve">
+    <value>Total Experience</value>
+  </data>
+  <data name="summary/position" xml:space="preserve">
+    <value>Place in rating: %(position)s</value>
+  </data>
+  <data name="summary/result/draw" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="summary/result/loss" xml:space="preserve">
+    <value>Defeat</value>
+  </data>
+  <data name="summary/result/win" xml:space="preserve">
+    <value>Victory</value>
+  </data>
+  <data name="summary/status" xml:space="preserve">
+    <value>Updated on %(day)s at %(time)s</value>
+  </data>
+  <data name="summary/status/tooltip" xml:space="preserve">
+    <value>The data updates every %(interval)s min</value>
+  </data>
+  <data name="summary/winrate" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="table/header/player" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="table/header/position" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="table/selectParticipateBtn/" xml:space="preserve">
+    <value>Quit Competition</value>
+  </data>
+  <data name="table/selectRatingBtn/" xml:space="preserve">
+    <value>All Ratings</value>
+  </data>
+  <data name="table/selectRegistrationBtn/" xml:space="preserve">
+    <value>Join as Participant</value>
+  </data>
+  <data name="table/stripe/bronze/title" xml:space="preserve">
+    <value>Category III (places %(placeFrom)d–%(placeTo)d):</value>
+  </data>
+  <data name="table/stripe/gold/title" xml:space="preserve">
+    <value>Category I (places %(placeFrom)d–%(placeTo)d):</value>
+  </data>
+  <data name="table/stripe/goldCustom/title" xml:space="preserve">
+    <value>Category I</value>
+  </data>
+  <data name="table/stripe/iron/title" xml:space="preserve">
+    <value>Category IV (places %(placeFrom)d–%(placeTo)d):</value>
+  </data>
+  <data name="table/stripe/silver/title" xml:space="preserve">
+    <value>Category II (places %(placeFrom)d–%(placeTo)d):</value>
+  </data>
+  <data name="table/stripe/wood/title" xml:space="preserve">
+    <value>Unrewarded Places</value>
+  </data>
+  <data name="task/eventtype/all" xml:space="preserve">
+    <value>Common rating for all participants</value>
+  </data>
+  <data name="task/eventtype/class" xml:space="preserve">
+    <value>Each vehicle type has its own rating</value>
+  </data>
+  <data name="task/eventtype/level" xml:space="preserve">
+    <value>Each vehicle tier has its own rating</value>
+  </data>
+  <data name="task/eventtype/nation" xml:space="preserve">
+    <value>Each vehicle nation has its own rating</value>
+  </data>
+  <data name="task/eventtype/vehicle" xml:space="preserve">
+    <value>Each vehicle has its own rating</value>
+  </data>
+  <data name="task/objective/max/damageAssisted" xml:space="preserve">
+    <value>Get placed in the rating by damage cause with your assistance</value>
+  </data>
+  <data name="task/objective/max/damageDealt" xml:space="preserve">
+    <value>Get placed in the rating by damage caused</value>
+  </data>
+  <data name="task/objective/max/originalXP" xml:space="preserve">
+    <value>Get placed in the rating by base experience earned</value>
+  </data>
+  <data name="task/objective/max/xp" xml:space="preserve">
+    <value>Get placed in the rating by experience earned</value>
+  </data>
+  <data name="task/objective/sum/damageAssisted" xml:space="preserve">
+    <value>Get placed in the rating by total damage caused with your assistance</value>
+  </data>
+  <data name="task/objective/sum/damageDealt" xml:space="preserve">
+    <value>Get placed in the rating by total damage caused</value>
+  </data>
+  <data name="task/objective/sum/originalXP" xml:space="preserve">
+    <value>Get placed in the rating by total base experience earned</value>
+  </data>
+  <data name="task/objective/sum/xp" xml:space="preserve">
+    <value>Get placed in the rating by total experience earned</value>
+  </data>
+  <data name="task/objparam/damageAssisted" xml:space="preserve">
+    <value>damage caused with your assistance</value>
+  </data>
+  <data name="task/objparam/damageDealt" xml:space="preserve">
+    <value>damage caused</value>
+  </data>
+  <data name="task/objparam/originalXP" xml:space="preserve">
+    <value>base experience earned</value>
+  </data>
+  <data name="task/objparam/wins" xml:space="preserve">
+    <value>number of victories</value>
+  </data>
+  <data name="task/objparam/xp" xml:space="preserve">
+    <value>experience</value>
+  </data>
+  <data name="task/selection/max" xml:space="preserve">
+    <value>Your best battle is counted</value>
+  </data>
+  <data name="task/selection/sumAll" xml:space="preserve">
+    <value>All your battles are counted</value>
+  </data>
+  <data name="task/selection/sumN" xml:space="preserve">
+    <value>Your best battles are counted: %(cardinality)s</value>
+  </data>
+  <data name="task/selection/sumSeqN" xml:space="preserve">
+    <value>Your best series of battles is counted. Battles in the series: %(cardinality)s</value>
+  </data>
+  <data name="time/day/today" xml:space="preserve">
+    <value>today</value>
+  </data>
+  <data name="time/day/tomorrow" xml:space="preserve">
+    <value>tomorrow</value>
+  </data>
+  <data name="time/day/yesterday" xml:space="preserve">
+    <value>yesterday</value>
+  </data>
+  <data name="time/eventFinished" xml:space="preserve">
+    <value>Competition ended: %(date)s</value>
+  </data>
+  <data name="time/period/day" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="time/period/hour" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="time/period/minute" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="time/timeTo/end" xml:space="preserve">
+    <value>Ends in: %(time)s</value>
+  </data>
+  <data name="time/timeTo/endRegistration" xml:space="preserve">
+    <value>Registration period ends in: %(time)s</value>
+  </data>
+  <data name="time/timeTo/start" xml:space="preserve">
+    <value>Starts in: %(time)s</value>
+  </data>
+  <data name="tooltip/awardIcon" xml:space="preserve">
+    <value>The reward is granted at the end of the competition and depends on your place in the rating.
+To see the list of all rewards in this competition, click All Rewards.</value>
+  </data>
+  <data name="tooltip/top/amount/originalXP" xml:space="preserve">
+    <value>The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
+  </data>
+  <data name="tooltip/top/amount/xp" xml:space="preserve">
+    <value>The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.
+Extra experience from Premium Account is counted.</value>
+  </data>
+  <data name="tooltip/top/description/max/damageAssisted" xml:space="preserve">
+    <value>Damage caused with player's assistance of the player in the last prize place: %(number)s</value>
+  </data>
+  <data name="tooltip/top/description/max/damageDealt" xml:space="preserve">
+    <value>Damaged caused by the player in the last prize place: %(number)s</value>
+  </data>
+  <data name="tooltip/top/description/max/originalXP" xml:space="preserve">
+    <value>Base experience earned by the player in the last prize place: %(number)s
+The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
+  </data>
+  <data name="tooltip/top/description/max/xp" xml:space="preserve">
+    <value>Experience earned by the player in the last prize place: %(number)s
+The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.
+Extra experience from Premium Account is counted.</value>
+  </data>
+  <data name="tooltip/top/description/sum/damageAssisted" xml:space="preserve">
+    <value>Total damage caused with player's assistance in the last prize place: %(number)s</value>
+  </data>
+  <data name="tooltip/top/description/sum/damageDealt" xml:space="preserve">
+    <value>Total damage caused by the player in the last prize place: %(number)s</value>
+  </data>
+  <data name="tooltip/top/description/sum/originalXP" xml:space="preserve">
+    <value>Total base experience earned by the player in the last prize place: %(number)s
+The amount of experience counted does not include any extra experience from Premium Account or Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.</value>
+  </data>
+  <data name="tooltip/top/description/sum/wins" xml:space="preserve">
+    <value>Number of victories of the player in the last prize place: %(number)s</value>
+  </data>
+  <data name="tooltip/top/description/sum/xp" xml:space="preserve">
+    <value>Total experience earned by the player in the last prize place: %(number)s
+The amount of experience counted does not include any extra experience from Premium vehicles, Personal Reserves, multipliers for the first victory of the day, or any other specials.
+Extra experience from Premium Account is counted.</value>
+  </data>
+  <data name="tooltip/top/noRewardGroup" xml:space="preserve">
+    <value>Unrewarded Place</value>
+  </data>
+  <data name="tooltip/top/rewardGroup" xml:space="preserve">
+    <value>Group %(group)s (positions %(min)s-%(max)s)</value>
+  </data>
+  <data name="top/averageXP" xml:space="preserve">
+    <value>Average experience earned by the player in the last prize place:</value>
+  </data>
+  <data name="top/objectiveParameter/damageAssisted" xml:space="preserve">
+    <value>Total damage caused with your assistance</value>
+  </data>
+  <data name="top/objectiveParameter/damageDealt" xml:space="preserve">
+    <value>Total Damage</value>
+  </data>
+  <data name="top/objectiveParameter/originalXP" xml:space="preserve">
+    <value>Total Base Experience</value>
+  </data>
+  <data name="top/objectiveParameter/wins" xml:space="preserve">
+    <value>Number of Victories</value>
+  </data>
+  <data name="top/objectiveParameter/xp" xml:space="preserve">
+    <value>Total Experience</value>
+  </data>
+  <data name="top/participation/notfull" xml:space="preserve">
+    <value>You did not get placed in the rating</value>
+  </data>
+  <data name="top/participation/notintop" xml:space="preserve">
+    <value>You are not currently in a prize place</value>
+  </data>
+  <data name="top/position" xml:space="preserve">
+    <value>Place:</value>
+  </data>
+  <data name="top/reason/notfull" xml:space="preserve">
+    <value>To get placed in the rating, fight more battles:</value>
+  </data>
+  <data name="vehicles/level" xml:space="preserve">
+    <value>Tier %(level)s vehicles</value>
+  </data>
+  <data name="vehicles/tooltip/class" xml:space="preserve">
+    <value>Click to display vehicles of this type that participate in the competition.</value>
+  </data>
+  <data name="vehicles/tooltip/level" xml:space="preserve">
+    <value>Click to display vehicles of this tier that participate in the competition.</value>
+  </data>
+  <data name="vehicles/tooltip/nation" xml:space="preserve">
+    <value>Click to display vehicles of this nation that participate in the competition.</value>
+  </data>
+  <data name="vehicles/vehicle" xml:space="preserve">
+    <value>Vehicles in the Competition</value>
+  </data>
+  <data name="vehicles/vehicle/tooltip" xml:space="preserve">
+    <value>Click to display the list of vehicles that are allowed in the competition.</value>
+  </data>
+</root>

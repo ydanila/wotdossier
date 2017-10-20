@@ -19,7 +19,11 @@ namespace WotDossier.Applications.BattleModeStrategies
             {
                 return new TeamStatisticViewStrategy(dossierRepository);
             }
-            if (randomCompany == BattleMode.Clan)
+	        if (randomCompany == BattleMode.TeamRated)
+	        {
+		        return new TeamRatedStatisticViewStrategy(dossierRepository);
+	        }
+			if (randomCompany == BattleMode.Clan)
             {
                 return new ClanStatisticViewStrategy(dossierRepository);
             }
@@ -34,7 +38,22 @@ namespace WotDossier.Applications.BattleModeStrategies
                 return new FortSortiesStatisticViewStrategy(dossierRepository);
             }
 
-            if (randomCompany == BattleMode.GrandBattle)
+	        if (randomCompany == BattleMode.Fallout)
+	        {
+		        return new FalloutStatisticViewStrategy(dossierRepository);
+	        }
+
+	        if (randomCompany == BattleMode.GlobalMap)
+	        {
+		        return new GlobalMapStatisticViewStrategy(dossierRepository);
+	        }
+
+			if (randomCompany == BattleMode.Ranked)
+	        {
+		        return new RankedStatisticViewStrategy(dossierRepository);
+	        }
+
+			if (randomCompany == BattleMode.GrandBattle)
             {
                 return new GrandBattleStatisticViewStrategy(dossierRepository);
             }

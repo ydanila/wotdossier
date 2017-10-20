@@ -1,0 +1,1661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="achilles/IndicatorXOffset_caption" xml:space="preserve">
+    <value>смещение индикатора по горизонтали</value>
+  </data>
+  <data name="achilles/IndicatorXOffset_tooltip" xml:space="preserve">
+    <value>Задает смещение индикатора в горизонтальном направлении, относительно начального местоположения индикатора. Положительные значения параметра двигают индикатор вправо, отрицательные - влево.</value>
+  </data>
+  <data name="achilles/IndicatorYOffset_caption" xml:space="preserve">
+    <value>смещение индикатора по вертикали</value>
+  </data>
+  <data name="achilles/IndicatorYOffset_tooltip" xml:space="preserve">
+    <value>Задает смещение индикатора в вертикальном направлении, относительно начального местоположения индикатора. Положительные значения параметра двигают индикатор вниз, отрицательные - вверх.</value>
+  </data>
+  <data name="achilles/achilles_aim_active" xml:space="preserve">
+    <value>Автоприцел Ахиллес активен</value>
+  </data>
+  <data name="achilles/achilles_aim_disabled" xml:space="preserve">
+    <value>Автоприцел Ахиллес выключен. Повторное включение мода в бою может не включить автоприцел</value>
+  </data>
+  <data name="achilles/achilles_aim_enabled" xml:space="preserve">
+    <value>Автоприцел Ахиллес включен. Для переключения на него и обратно на автоприцел Ванги в ходе боя - используйте клавишу F12</value>
+  </data>
+  <data name="achilles/achilles_bar_xpos_caption" xml:space="preserve">
+    <value>положение маркера по горизонтали</value>
+  </data>
+  <data name="achilles/achilles_bar_xpos_tooltip" xml:space="preserve">
+    <value>Задает горизонтальное смещение дополнительных значков на маркере танка противника. Положительные значения параметра двигают значки маркера вправо, отрицательные - влево.</value>
+  </data>
+  <data name="achilles/achilles_bar_ypos_caption" xml:space="preserve">
+    <value>положение маркера по вертикали</value>
+  </data>
+  <data name="achilles/achilles_bar_ypos_tooltip" xml:space="preserve">
+    <value>Задает вертикальное смещение дополнительных значков на маркере танка противника. Положительные значения параметра двигают значки маркера вниз, отрицательные - вверх.</value>
+  </data>
+  <data name="achilles/aim_button_warning" xml:space="preserve">
+    <value>Клавиша захвата в игре совпадает с клавишей захвата мода "Ахиллес".
+Поменяете клавишу захвата в игре или в моде</value>
+  </data>
+  <data name="achilles/aim_cancel_target_timeout_caption" xml:space="preserve">
+    <value>задержка на снятие наведения (мсек.)</value>
+  </data>
+  <data name="achilles/aim_cancel_target_timeout_tooltip" xml:space="preserve">
+    <value>Этот параметр определяет через какое минимальное время при нажатии на клавишу захвата произойдет снятие с захвата выбранной цели. Если нажать на клавишу захвата и прицел захватит какую либо цель, а потом до истечения этого времени еще раз нажать на клавишу захвата, то прицел переключится на следующую доступную цель видимую на экране. Если же нажать на клавишу захвата по истечении этого аремени, то авприцел снимет цель с захвата.</value>
+  </data>
+  <data name="achilles/aim_hotkey_caption" xml:space="preserve">
+    <value>клавиша захвата цели</value>
+  </data>
+  <data name="achilles/aim_hotkey_tooltip" xml:space="preserve">
+    <value>При нажатии на эту клавишу произойдёт захват ближней к центру экрана цели. Способ определения ближней цели задаётся параметром "прилипания к цели". Если после захвата цели еще раз нажать и удерживать эту клавишу при игре на танке или ПТ, то произойдет максимально возможное приближение снайперского прицела к захваченной цели. При отпускании клавиши, обзор вернется в нормаьлному виду. При игре на артиллерии аналогичное удержание клавиши на захваченной цели включит режим плавного перемещения прицела. В этом случае прицел будет двигаться к точке упреждения медленнее чем нужно, но такой вариант поможет избавиться от резкого "мотания" прицела если танк врага двигается то вперед, то назад. Тем самым разброс орудия будет не таким большим.</value>
+  </data>
+  <data name="achilles/aim_snap_by_angle_and_distance" xml:space="preserve">
+    <value>по углу и расстоянию</value>
+  </data>
+  <data name="achilles/aim_snap_by_angle_and_distance_and_visibility" xml:space="preserve">
+    <value>по углу,расстоянию и зоне поражения</value>
+  </data>
+  <data name="achilles/aim_snap_by_nearest_angle" xml:space="preserve">
+    <value>по наименьшему углу</value>
+  </data>
+  <data name="achilles/aim_snap_caption" xml:space="preserve">
+    <value>прилипание" прицела при захвате цели</value>
+  </data>
+  <data name="achilles/aim_snap_off" xml:space="preserve">
+    <value>без прилипания</value>
+  </data>
+  <data name="achilles/aim_snap_tooltip" xml:space="preserve">
+    <value>Этот параметр определяет - по какому принципу нужно выбирать ближайшую к центру экрана цель при захвате цели. Вариант "без прилипания" - означает что вы должны навести центр экрана прямо на танк противника чтобы захватить его. Это аналогично стандартному игровому автоприцелу. Вариант "по наименьшему углу" наиболее предпочтителен, так как он выбирает ближайший танк к тому направлению - куда смотрит камера в игре. Вариант "по углу и расстоянию" выберет тот танк у которого и угол к точке обзора камеры меньше и расстояние до этого танка меньше чем до других. Вариант "по углу,расстоянию и зоне поражения" работает как предыдущий вариант, но еще он отбрасывает из полученных вариантов те танки, которые не видно в зоне прямой видимости (в снайперский прицел).</value>
+  </data>
+  <data name="achilles/auto_aim_mode_warning" xml:space="preserve">
+    <value>Для повышения точности стрельбы с упреждением при автоматическом варианте выбора точки упреждения в моде Ахиллес - ВКЛЮЧИТЕ СЕРВЕРНЫЙ ПРИЦЕЛ в настройках игры</value>
+  </data>
+  <data name="achilles/avg_speed_timeout_caption" xml:space="preserve">
+    <value>скорость танка при которой включается упреждение (м/с)</value>
+  </data>
+  <data name="achilles/avg_speed_timeout_tooltip" xml:space="preserve">
+    <value>До того как враг разовьет скорость большую чем скорость заданная этим параметром - прицел будет наводиться на уязвимые точки танка. Когда же танк противника превысит заданную скорость - включится режим упреждения и прицел будет целиться в центр танка с учетом упреждения (вертикальная поправка прицела задаётся отдельным параметром). Скорость этого параметра измеряется в метрах в секунду.</value>
+  </data>
+  <data name="achilles/bIndicatorHAlignment_caption" xml:space="preserve">
+    <value>положение индикатора по горизонтали</value>
+  </data>
+  <data name="achilles/bIndicatorHAlignment_center" xml:space="preserve">
+    <value>посередине</value>
+  </data>
+  <data name="achilles/bIndicatorHAlignment_left" xml:space="preserve">
+    <value>слева</value>
+  </data>
+  <data name="achilles/bIndicatorHAlignment_right" xml:space="preserve">
+    <value>справа</value>
+  </data>
+  <data name="achilles/bIndicatorHAlignment_tooltip" xml:space="preserve">
+    <value>Задает положение индикатора (круга) на экране. Слева,справа или посередине.</value>
+  </data>
+  <data name="achilles/bIndicatorVAlignment_bottom" xml:space="preserve">
+    <value>снизу</value>
+  </data>
+  <data name="achilles/bIndicatorVAlignment_caption" xml:space="preserve">
+    <value>положение индикатора по вертикали</value>
+  </data>
+  <data name="achilles/bIndicatorVAlignment_center" xml:space="preserve">
+    <value>посередине</value>
+  </data>
+  <data name="achilles/bIndicatorVAlignment_tooltip" xml:space="preserve">
+    <value>Задает положение индикатора (круга) на экране. Сверху,снизу или посередине.</value>
+  </data>
+  <data name="achilles/bIndicatorVAlignment_top" xml:space="preserve">
+    <value>сверху</value>
+  </data>
+  <data name="achilles/calculate_attempt" xml:space="preserve">
+    <value>Попытка расчетов %d</value>
+  </data>
+  <data name="achilles/calculated_vehicles" xml:space="preserve">
+    <value>Расчитанная техника </value>
+  </data>
+  <data name="achilles/change_aim_mode_hotkey_caption" xml:space="preserve">
+    <value>клавиша переключения на автоприцел Ванги и наоборот</value>
+  </data>
+  <data name="achilles/change_aim_mode_hotkey_tooltip" xml:space="preserve">
+    <value>При нажатии на эту клавишу произойдет переключение на автоприцел Ванги и наоборот. Желательно, чтобы в этот момент текущий автоприцел не захватил цель.</value>
+  </data>
+  <data name="achilles/chassis_aim_hotkey_caption" xml:space="preserve">
+    <value>клавиша наведения на гусеницы</value>
+  </data>
+  <data name="achilles/chassis_aim_hotkey_tooltip" xml:space="preserve">
+    <value>При нажатии на эту клавишу прицел не будет искать уязвимые точки на корпусе танка противника, а будет наводиться на его гусеницы.</value>
+  </data>
+  <data name="achilles/chassis_aim_mode_disabled" xml:space="preserve">
+    <value>режим прицеливания в гусеницы выключен</value>
+  </data>
+  <data name="achilles/chassis_aim_mode_enabled" xml:space="preserve">
+    <value>режим прицеливания в гусеницы включен</value>
+  </data>
+  <data name="achilles/check_visible_vehicles_multiplier_caption" xml:space="preserve">
+    <value>точность сканирования танков в зоне поражения</value>
+  </data>
+  <data name="achilles/check_visible_vehicles_multiplier_tooltip" xml:space="preserve">
+    <value>Настраивает точность осмотра танков врага на предмет поиска открытых для выстрела мест.Чем больше этот параметр - тем меньше может стать FPS. Это так же один из параметров, который может привести к резкому падению FPS.</value>
+  </data>
+  <data name="achilles/error_calculate_all_vehicles" xml:space="preserve">
+    <value>ОШИБКА РАСЧЕТОВ ВСЕЙ ТЕХНИКИ В БОЮ</value>
+  </data>
+  <data name="achilles/error_calculate_vehicle" xml:space="preserve">
+    <value>ПРОИЗОШЛА ОШИБКА РАСЧЕТОВ %s</value>
+  </data>
+  <data name="achilles/fix_aim_at_point_hotkey_caption" xml:space="preserve">
+    <value>клавиша фиксации прицела на заданной точке</value>
+  </data>
+  <data name="achilles/fix_aim_at_point_hotkey_tooltip" xml:space="preserve">
+    <value>При наведении на определенное место на корпусе танка противника и нажатии на эту клавишу - произойдет захват цели, но прицел не будет искать уязвимые точи у врага. Вместо этого он будет следовать за той точкой, куда смотрел прицел в момент нажатия на эту клавишу фиксации.</value>
+  </data>
+  <data name="achilles/for_hi_power_computers" xml:space="preserve">
+    <value>для мощных компьютеров</value>
+  </data>
+  <data name="achilles/for_lo_power_computers" xml:space="preserve">
+    <value>для слабых компьютеров</value>
+  </data>
+  <data name="achilles/for_mid_power_computers" xml:space="preserve">
+    <value>для средних компьютеров</value>
+  </data>
+  <data name="achilles/full_target_zoom_additional_multiplyer_caption" xml:space="preserve">
+    <value>дополнительный процент максимального приближения на цель</value>
+  </data>
+  <data name="achilles/full_target_zoom_additional_multiplyer_tooltip" xml:space="preserve">
+    <value>Этот параметр позволяет уменьшить или увеличить степень приближения цели, если вас не устраивает размер цели на экране в режиме полного приближения. Итоговое приближение сложится из базового (рассчитанного модом) и этого параметра. То есть этот параметр корректирует размер базового приближения рассчитанного модом в положительную или отрицательную сторону. В итоге цель будет видна ближе в случае положительного значения этого параметра или дальше чем обычно - в случае отрицательного.</value>
+  </data>
+  <data name="achilles/full_target_zoom_timeout_caption" xml:space="preserve">
+    <value>время срабатывания максимального приближения на цель (мсек)</value>
+  </data>
+  <data name="achilles/full_target_zoom_timeout_tooltip" xml:space="preserve">
+    <value>Время срабатывания максимального приближения на цель при зажатой клавише захвата цели. Измеряется в миллисекундах (1 миллисекунда равна одной тысячной секунды). При зажатии клавиши захвата цели, когда цель уже захвачена, и прошло время этого параметра - происходит переключение в снайперский режим и максимальное приближение танка противника в снайперском прицеле. Если после этого продолжать удерживать клавишу захвата цели - камера прицела будет следовать за танком противника. Как только клавиша захвата будет отпущена - режим прицела вернется к тому, который был до момента включения полного приближения (к снайперскому или аркадному).</value>
+  </data>
+  <data name="achilles/jump_next_candidat_timeout_caption" xml:space="preserve">
+    <value>частота поиска уязвимых точек и модулей (сек.)</value>
+  </data>
+  <data name="achilles/jump_next_candidat_timeout_tooltip" xml:space="preserve">
+    <value>Параметр определяет - за сколько секунд произойдет новый перерасчет уязвимой точки. Если этот параметр установлен на минимум, то уязвимые точки будут расчитываться каждую секунду. Это может быть полезно при игре на ЛТ и "кружении" врага. Но такое малое время перерасчета может снизить FPS в игре, потому что моду придется чаще искать уязвимые места у врага.</value>
+  </data>
+  <data name="achilles/locked_vehicle_data_unavalible" xml:space="preserve">
+    <value>нет данных для захвата %s</value>
+  </data>
+  <data name="achilles/markers_is_off" xml:space="preserve">
+    <value>Маркеры автоприцела ахиллес выключены</value>
+  </data>
+  <data name="achilles/markers_is_on" xml:space="preserve">
+    <value>Маркеры автоприцела ахиллес включены</value>
+  </data>
+  <data name="achilles/mod_description" xml:space="preserve">
+    <value>Этот автоприцел в первую очередь предназначен для прицеливания и стрельбы по неподвижным и малоподвижным целям. В нем есть и аналогичный автоприцелу "Ванги" режим упреждения для стрельбы по светлякам. По умолчанию включен другой режим упреждения, но его можно сменить на режим "как у Ванги". Особеностью данного прицела является то, что он учитывает тип заряженного снаряда и производит расчеты согласно тем местам, куда этот снаряд может пробить танк противника. На маркерах танков противника отображается процент обучения (обстрела) вашим танком - данного противника. Этот процент отображается в темном квадрате на маркере. Нормальным считается процент от 30 и выше. При игре на артиллерии этот процент не имеет значения, так как при игре на артиллерии прицел всегда целится в центр танка. Танки противника, находящиеся вне зоны прямой видимости (то есть их не видно в снайперский прицел) обводятся зеленым цветом. Те что находятся в зоне прямой видимости обводятся красным цветом и на их маркере отображается значок с глазом. Также красным цветом обводится захваченный прицелом танк в случае если он находится в прямой видимости и по нему можно стрелять. Иначе танк обводится зеленым цветом. Специальный индикатор в виде круга дублирует такую индикацию. Вид захвата цели выбирается в настройках и позволяет выбрать один из нескольких вариантов наиболее удобных для пользователя. При длительном удержании клавиши захвата когда цель уже захвачена при игре на танке или ПТ произойдет переключение в снайперский режим и сработает максимальное приближение на цель. Эта возможность может понадобиться когда вы захватываете далекую цель. При аналогичном удержании клавиши захвата при игре на артиллерии произойдет включение режима замедленного перемещения прицела за целью. Этот режим может быть полезен когда враг "играет в качельки" и тем самым заставляет прицел включать упреждение и двигаться сначала вперед перед танком а потом резко назад, создавая при этом большой разброс орудия. При замедленном движении прицела - он будет двигатьсмя с некоторой постоянной скоростью, что поможет сгладить рывки упреждения. Так как многие игроки, при появлении этого мода, жаловались на его совместную работу с атоприцелом Ванги, то пришлось сделать чтобы при загрузке модов он всегда был выключен. Таким образом не создается неудобств пользователям которые не хотят пользоваться данным модом. Но включив первый параметр в настройках мода, можно сделать чтобы мод был постоянно включен. По умолчанию, при загрузке модов активным является автоприцел Ванги, но переключиться на этот автоприцел можно клавишей F12. И наоборот, если нужно переключиться на автоприцел Ванги нужно опять нажать на F12. Желательно чтобы в этот момент цель автоприцела была снята с захвата.</value>
+  </data>
+  <data name="achilles/mod_name" xml:space="preserve">
+    <value>Автоприцел Ахиллес</value>
+  </data>
+  <data name="achilles/monitor_frequency_caption" xml:space="preserve">
+    <value>частота ведения прицела за уязвимой точкой</value>
+  </data>
+  <data name="achilles/monitor_frequency_tooltip" xml:space="preserve">
+    <value>Этот параметр определяет - насколько быстро нужно двигать орудие за найденной уязвимой точкой при движении врага. Вариант "для мощных компьютеров" позволяет двигать орудие с максимальной возможной скоростью. Однако, это может незначительно снизить FPS в игре.</value>
+  </data>
+  <data name="achilles/not_calculated_vehicles" xml:space="preserve">
+    <value>Не расчитанная техника </value>
+  </data>
+  <data name="achilles/own_vehicle_cant_lock_target_vehicle" xml:space="preserve">
+    <value>Ваш танк (%s) не может захватить танк [%s]</value>
+  </data>
+  <data name="achilles/predicted_aiming_mode_9_5" xml:space="preserve">
+    <value>вариант версии 9.5</value>
+  </data>
+  <data name="achilles/predicted_aiming_mode_automatic" xml:space="preserve">
+    <value>автоматически</value>
+  </data>
+  <data name="achilles/predicted_aiming_mode_caption" xml:space="preserve">
+    <value>вариант выбора точки упреждения</value>
+  </data>
+  <data name="achilles/predicted_aiming_mode_like_vanga_aim" xml:space="preserve">
+    <value>как у Ванги</value>
+  </data>
+  <data name="achilles/predicted_aiming_mode_tooltip" xml:space="preserve">
+    <value>Эта настройка предоставляет выбор из четырех вариантов для расчета точки упреждения для стрельбы по движущимся целям. Режим с автоматическим выбором позволяет внести меньшую задержку на сам момент выстрела после нажатия клавиши стрельбы, но из-за этого может снизиться точность попадания. Режим с задержкой выстрела (задаваемым следующим параметром) позволяет стрелять чуть точнее, но отклик на нажатие клавиши стрельбы будет не мгновенным, а задаваемым тем самым параметром. Третий вариант - тот что был в версии игры 9.5 - без задержек, но и без особой точности,судя по отзывам. Четвертый вариант аналогичен расчету точки упреждения как у автоприцела Ванги.</value>
+  </data>
+  <data name="achilles/predicted_aiming_mode_with_delay" xml:space="preserve">
+    <value>с задержкой выстрела</value>
+  </data>
+  <data name="achilles/predicted_shot_additional_time_caption" xml:space="preserve">
+    <value>задержка выстрела при упреждении (в миллисекундах)</value>
+  </data>
+  <data name="achilles/predicted_shot_additional_time_tooltip" xml:space="preserve">
+    <value>Этот параметр измеряется в миллисекундах и обозначает - через какое время после нажатия на клавишу выстрела произойдет сам выстрел. Так как прицел орудия, при упреждении, не всегда оказывается в точке прицеливания (красный шар в игре), то этот параметр задает дополнительное время в течение которого орудие должно достигнуть точки прицеливания. Чем больше это время - тем дальше от расчетной точки упреждения будет наводиться орудие и при нажатии на кнопку выстрела - оно в течение этого времени будет немного сводиться и уточнять место прицеливания. Чем меньше это время тем ближе к корпусу танка будет наводиться орудие и при больших значениях ПИНГ'а может отрицательно сказаться на проценте попаданий по противнику.</value>
+  </data>
+  <data name="achilles/predicted_shot_point_vertical_justification_caption" xml:space="preserve">
+    <value>поправка высоты точки наведения для упреждения (в процентах)</value>
+  </data>
+  <data name="achilles/predicted_shot_point_vertical_justification_tooltip" xml:space="preserve">
+    <value>Поправка высоты точки наведения для упреждения измеряется в процентах от высоты расстояния между основанием башни танка и землей. Значение по умолчанию приводит к прицеливанию на четверть высоты корпуса ниже основания башни. Если хотите чтобы пирцеливание шло в гусеницы - уменьшите этот параметр или увеличьте, если хотите прицеливание в башню. Но, учитывая что башня гораздо меньше корпуса и разброс орудия в движении большой - то вряд ли вы всегда сможете в неё попасть.</value>
+  </data>
+  <data name="achilles/predicted_shot_threshold_angle_caption" xml:space="preserve">
+    <value>минимальный угол включения упреждения на уязвимости (в градусах)</value>
+  </data>
+  <data name="achilles/predicted_shot_threshold_angle_tooltip" xml:space="preserve">
+    <value>Этот параметр определяет минимальный угол между направлением движения танка противника и направлением ствола орудия вашего танка. Измеряется в градусах. Если этот угол будет меньше заданного значения, то включится режим упреждающего наведения на уязвимые точки. Если враг направлен корпусом перпендикулярно к направлению вашего ствола на него, то текущий угол равен 90 градусов. Этот текущий угол и сравнивается с заданным в параметре. Если танк противника смотрит носовой или кормовой частью на ваш ствол то текущий угол сейчас стремиться к нулю, пока враг не встанет параллельно вашему орудию.</value>
+  </data>
+  <data name="achilles/predicted_shot_threshold_distance_caption" xml:space="preserve">
+    <value>минимальное расстояние до цели для включения упреждения на уязвимости</value>
+  </data>
+  <data name="achilles/predicted_shot_threshold_distance_tooltip" xml:space="preserve">
+    <value>Этот параметр определяет минимальное расстояние от вашего танка до вражеского, при превышении которого, режим упреждения по уязвимостям отключится и будет работать обычное упреждение. Если расстояние до противника меньше заданного этим параметром, то вместо обычного упреждения (при движении цели) включится упреждение по уязвимостям.</value>
+  </data>
+  <data name="achilles/predicted_shot_threshold_predicted_distance_caption" xml:space="preserve">
+    <value>минимальное расстояние упреждения для включения упреждения на уязвимости</value>
+  </data>
+  <data name="achilles/predicted_shot_threshold_predicted_distance_tooltip" xml:space="preserve">
+    <value>Этот параметр определяет минимальное расстояние от центра вражеского танка до маркера упреждения (красный шарик по ходу движения танка противника). Иными словами - это расстояние упреждения. Если это расстояние будет меньше заданного параметром, то прицеливание будет осуществляться в уязвимые точки, но с упреждением по ним. Если это расстояние будет больше заданного параметром, то будет работать прицеливание с упреждением по центру танка противника.</value>
+  </data>
+  <data name="achilles/scan_visible_vehicles_timeout_caption" xml:space="preserve">
+    <value>таймаут сканирования танков в зоне поражения (сек.)</value>
+  </data>
+  <data name="achilles/scan_visible_vehicles_timeout_tooltip" xml:space="preserve">
+    <value>Определяет - через сколько секунд будет вызываться метод сканирования танков на предмет их нахождения в зоне прямой видимости (видно в снайперский прицел). Чем меньше значение этого параметра, тем меньше может стать FPS в игре. Это один из параметров который может приводить к резкому падению FPS.</value>
+  </data>
+  <data name="achilles/shot_speed_justification_caption" xml:space="preserve">
+    <value>поправка скорости снаряда для упреждения (в процентах)</value>
+  </data>
+  <data name="achilles/shot_speed_justification_tooltip" xml:space="preserve">
+    <value>Поправка скорости снаряда для упреждения измеряется в процентах от расчетной скорости снаряда для вычисления упреждения. Итоговая скорость снаряда будет равна РАСЧЕТНАЯ_СКОРОСТЬ_СНАРЯДА*(1+ПОПРАВКА_СКОРОСТИ/100). Эта поправка предназначена только в целях тестирования определения формулы расчета скорости снаряда. Если вы заметите, в реплее например, что снаряды летят впереди танка или сзади, то измените это значение в большую или меньшую сторону и посмотрите на результат.</value>
+  </data>
+  <data name="achilles/smooth_aiming_mode_disbled" xml:space="preserve">
+    <value>Режим плавного перемещения прицела выключен</value>
+  </data>
+  <data name="achilles/smooth_aiming_mode_enabled" xml:space="preserve">
+    <value>Включен режим плавного перемещения прицела</value>
+  </data>
+  <data name="achilles/target_destroyed" xml:space="preserve">
+    <value>Цель уничтожена</value>
+  </data>
+  <data name="achilles/target_locked" xml:space="preserve">
+    <value>Цель захвачена [%s]</value>
+  </data>
+  <data name="achilles/target_locked_again" xml:space="preserve">
+    <value>Цель повторно обнаружена</value>
+  </data>
+  <data name="achilles/target_temporary_lost" xml:space="preserve">
+    <value>Цель временно потеряна</value>
+  </data>
+  <data name="achilles/unlock_target" xml:space="preserve">
+    <value>Отставить цель</value>
+  </data>
+  <data name="achilles/use_collide_to_others_caption" xml:space="preserve">
+    <value>учитывать при прицеливании соседние танки</value>
+  </data>
+  <data name="achilles/use_collide_to_others_tooltip" xml:space="preserve">
+    <value>Этот параметр определяет - нужно ли учитывать танки стоящие перед целевым танком и перекрывающие его. Если этот параметр включен, то прицел будет наводиться на видимую часть целевого танка, а если от отключен - то будет наводиться так, словно никаких препятствий (живых или трупов, в том числе союзников) - нет. В последнем случае возможно, что прицел будет проходить сквозь труп, союзника или противника, если они закрывают часть выцеливаемого танка противника и ваш выстрел повредит их, а не цель. Но если этот параметр включен, то возможно некоторое падение FPS.</value>
+  </data>
+  <data name="achilles/use_full_target_zoom_caption" xml:space="preserve">
+    <value>использовать максимальное приближение на захваченную цель</value>
+  </data>
+  <data name="achilles/use_full_target_zoom_tooltip" xml:space="preserve">
+    <value>Использовать максимальное приближение на захваченную цель при нажатии и удержании в течение некоторого времени (задаваемого следующим параметром) клавиши захвата цели.</value>
+  </data>
+  <data name="achilles/use_green_blur_on_aim_invalid_vehicle_caption" xml:space="preserve">
+    <value>обводить захваченную цель за укрытием - зеленым</value>
+  </data>
+  <data name="achilles/use_green_blur_on_aim_invalid_vehicle_tooltip" xml:space="preserve">
+    <value>Определяет - нужно ли обводить захваченную цель за укрытием - зеленым</value>
+  </data>
+  <data name="achilles/use_green_blur_on_aiming_vehicle_caption" xml:space="preserve">
+    <value>обводить захвачиваемую цель - зеленым</value>
+  </data>
+  <data name="achilles/use_green_blur_on_aiming_vehicle_tooltip" xml:space="preserve">
+    <value>Определяет - нужно ли при обозначении захваченной цели обводить её зеленым. В противном случае - захвачиваемая цель обводится красным цветом.</value>
+  </data>
+  <data name="achilles/use_low_prediction_caption" xml:space="preserve">
+    <value>использовать упреждение на уязвимые точки</value>
+  </data>
+  <data name="achilles/use_low_prediction_tooltip" xml:space="preserve">
+    <value>Этот параметр включает упреждение на уязвимые точки при движении танка противника. Следующие три параметра задают настройки для определения упреждающего прицеливания в уязвимую точку, либо обычного упреждения. Эта настройка возможно сможет помочь в таких ситуациях как например следующая. На вас едет "AMX 50 B" со скоростью на которой уже включилось упреждение. Если до включения упреждения прицел целился в башню или ствол противника, то после включения упреждения он будет целиться в центр лобовой части корпуса, где как раз самое бронированное место и все попадания будут без пробития. Если же прицеливание с упреждением будет осуществляться по уязвимым точкам, то прицел продолжит целиться в башню, тем самым увеличивается шанс пробития брони, потому что на башне она тоньше чем на лобовой части корпуса. Для правильной работы этого параметра нужно поставить параметр "скорость при которой включается упреждение" в значение 1 м/с.</value>
+  </data>
+  <data name="achilles/use_mod_if_it_was_disabled_caption" xml:space="preserve">
+    <value>включать мод даже если он выключен в настройках</value>
+  </data>
+  <data name="achilles/use_mod_if_it_was_disabled_tooltip" xml:space="preserve">
+    <value>Этот параметр включает мод независимо от того - включен ли он в настройках модов или нет. По умолчанию мод всегда отключен при загрузке модов и при загрузке в прямо бой, например после вылета игры, этот автоприцел не будет включен и включить его можно будет только после боя в ангаре. Если этот параметр включен, то даже при запуске игры прямо в бой, мод автоматически включится. И в ангаре его не нужно будет включать при каждом запуске игры.</value>
+  </data>
+  <data name="achilles/use_normalise_armor_caption" xml:space="preserve">
+    <value>Дополнять процент обучения по броне</value>
+  </data>
+  <data name="achilles/use_normalise_armor_tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, то процент обучения мода в точках в которых нет данных по пробитиям, будет рассчитан на основе толщины брони противника. Этим самым повысится процент обучения (обстрела) противника, но при этом могут быть непробития из за того, что пробития в точках рассчитаны на основе брони, а не реального обстрела.</value>
+  </data>
+  <data name="achilles/use_red_blur_on_aimed_vehicle_caption" xml:space="preserve">
+    <value>обводить цветом захваченную цель всегда</value>
+  </data>
+  <data name="achilles/use_red_blur_on_aimed_vehicle_tooltip" xml:space="preserve">
+    <value>Этот параметр определяет - стоит ли обводить цветом захваченную цель всегда, либо только при захвате.</value>
+  </data>
+  <data name="achilles/use_red_edge_on_visible_vehicles_caption" xml:space="preserve">
+    <value>обводить видимые цели красным если цель не захвачена</value>
+  </data>
+  <data name="achilles/use_red_edge_on_visible_vehicles_tooltip" xml:space="preserve">
+    <value>Нужно ли обводить цели в зоне прямой видимости красным цветом когда прицел не ведет какую либо цель. Этот параметр может быть полезен когда нужно знать - кто из видимых противников находится в зоне прямой видимости, чтобы скорее переключить внимание на него. Если эта настройка включена, то в режиме ведения цели - остальные танки, находящиеся в зоне прямой видимости будут обводиться зеленым, а в зоне не прямой видимости - серым.</value>
+  </data>
+  <data name="achilles/use_sound_messages_caption" xml:space="preserve">
+    <value>озвучивать захват и снятие с захвата</value>
+  </data>
+  <data name="achilles/use_sound_messages_tooltip" xml:space="preserve">
+    <value>Определяет - стоит ли озвучивать захват и снятие с захвата.</value>
+  </data>
+  <data name="achilles/use_target_earn_percent_marker_icon_tooltip" xml:space="preserve">
+    <value>Этот значок отображает "процент обучения на противника" на маркере врага. В темном полупрозрачном прямоугольнике белый текст. Чем выше число отображаемое этим значком, тем лучше прицел будет искать уязвимые места.</value>
+  </data>
+  <data name="achilles/use_target_learn_percent_marker_icon_caption" xml:space="preserve">
+    <value>значок "процент обучения на противника" на маркере</value>
+  </data>
+  <data name="achilles/use_target_visible_marker_icon_caption" xml:space="preserve">
+    <value>значок "противник в зоне поражения" на маркере. (глаз)</value>
+  </data>
+  <data name="achilles/use_target_visible_marker_icon_tooltip" xml:space="preserve">
+    <value>Этот значок (глаз) обозначает что танк противника находится в зоне прямой видимости и по нему можно вести огонь. И наоборот - он может вести огонь по вашему танку.</value>
+  </data>
+  <data name="achilles/use_vehicle_has_cassete_gun_marker_icon_caption" xml:space="preserve">
+    <value>значок "противник - барабанщик" на маркере</value>
+  </data>
+  <data name="achilles/use_vehicle_has_cassete_gun_marker_icon_tooltip" xml:space="preserve">
+    <value>Этот значок на маркере отображает схематично, что у противника кассетная система заряжания и попав под его обстрел вы можете быть уничтожены когда он попадет в вас всеми снарядами из кассеты. Либо вам будет причинен значительный урон.</value>
+  </data>
+  <data name="achilles/vanga_aim_active" xml:space="preserve">
+    <value>Автоприцел Ванги активен</value>
+  </data>
+  <data name="achilles/vehicles_calculated_at_attempt" xml:space="preserve">
+    <value>Техника рассчитана с %d попытки</value>
+  </data>
+  <data name="aim/Manual_AIM" xml:space="preserve">
+    <value>клавиша ручного указания точки наведения</value>
+  </data>
+  <data name="aim/Manual_AIM_tooltip" xml:space="preserve">
+    <value>Клавиша работает следующим образом: Вы выполняете захват цели. Потом нажимаете эту клавишу и наводите центр экрана на нужную вам точку на танке противника и еще раз нажимаете эту клавишу. Прицел будет вести выбранную вами точку до момента выхода танка противника из засвета</value>
+  </data>
+  <data name="aim/artyOffset_caption" xml:space="preserve">
+    <value>смещение точки прицеливания в арт-режиме</value>
+  </data>
+  <data name="aim/artyOffset_tooltip" xml:space="preserve">
+    <value>Задаёт смещение точки прицеливания по высоте техники в артиллерийском режиме прицеливания. Актуально для артиллерии. Положительные значения смещают точку прицеливания вверх по отношению к центру танка, а отрицательные - вниз. Нижний предел равен уровню земли. Верхний - уровню люка башни.</value>
+  </data>
+  <data name="aim/autoshot_disabled" xml:space="preserve">
+    <value>Авто выстрел выключен</value>
+  </data>
+  <data name="aim/autoshot_enabled" xml:space="preserve">
+    <value>Авто выстрел включен</value>
+  </data>
+  <data name="aim/findTarget_caption" xml:space="preserve">
+    <value>клавиша вкл/выкл поиска уязвимых точек</value>
+  </data>
+  <data name="aim/findTarget_tooltip" xml:space="preserve">
+    <value>Эта клавиша включает/отключает в бою режим поиска уязвимых точек по толщине брони врага. Если поиск уязвимых точек отключен, то автоприцел будет наводиться на центр танка, как и стандартный игровой автоприцел.</value>
+  </data>
+  <data name="aim/ignore_chassis_caption" xml:space="preserve">
+    <value>игнорирование гусениц</value>
+  </data>
+  <data name="aim/ignore_chassis_tooltip" xml:space="preserve">
+    <value>Определяет - нужно ли игнорировать наведение на гусеницы. Если этот параметр установлен, то целиться в гусеницы автоприцел не будет.</value>
+  </data>
+  <data name="aim/ignore_shields_caption" xml:space="preserve">
+    <value>не учитывать экраны</value>
+  </data>
+  <data name="aim/ignore_shields_tooltip" xml:space="preserve">
+    <value>Определяет - стоит ли учитывать экраны при выборе уязвимой точки. Если этот параметр включен, то экраны не учитываются при выборе уязвимых мест и в таком случае возможно что урон полученный противником поглотится экраном.</value>
+  </data>
+  <data name="aim/indicator_caption" xml:space="preserve">
+    <value>индикатор пробития</value>
+  </data>
+  <data name="aim/indicator_tooltip" xml:space="preserve">
+    <value>Отображать индикатор пробития или нет</value>
+  </data>
+  <data name="aim/lockTarget_caption" xml:space="preserve">
+    <value>клавиша захвата цели</value>
+  </data>
+  <data name="aim/lockTarget_tooltip" xml:space="preserve">
+    <value>При нажатии на эту клавишу происходит захват ближайшей к центру экрана цели. При повторном нажатии - происходит отмена цели. Захват цели сопровождается звуковым оповещением ,которое можно отключить.</value>
+  </data>
+  <data name="aim/mod_description" xml:space="preserve">
+    <value>Улучшеный автоприцел, обладающий интеллектуальными способностями. Позволяет,в отличие от стандартного игрового автоприцела, захватывать цель за препятствиями. Видеть их контуры за укрытиями. Целиться в места с наиболее тонкой бронёй. Стрелять с упреждением по движущимся целям. Стрельба с упреждением является основной особенностью данного мода и предназначена для нанесения урона светлякам, а так же незаменима для стрельбы по движущимся врагам на артиллерии.</value>
+  </data>
+  <data name="aim/mod_name" xml:space="preserve">
+    <value>Автоприцел Ванги</value>
+  </data>
+  <data name="aim/noScan_caption" xml:space="preserve">
+    <value>отключить рентген</value>
+  </data>
+  <data name="aim/noScan_tooltip" xml:space="preserve">
+    <value>Позволяет отключить обводку вражеских танков за укрытиями в бою. В таком случае - танки будут обводиться только при наведении на них прицела.</value>
+  </data>
+  <data name="aim/noSound_caption" xml:space="preserve">
+    <value>отключить озвучивание захвата цели</value>
+  </data>
+  <data name="aim/noSound_tooltip" xml:space="preserve">
+    <value>Позволяет отключить озвучивание захвата/(снятия с захвата) цели - клавишей захвата.</value>
+  </data>
+  <data name="aim/oneClick_caption" xml:space="preserve">
+    <value>сбрасывать захват по клику</value>
+  </data>
+  <data name="aim/oneClick_tooltip" xml:space="preserve">
+    <value>Сбрасывать захват по клику</value>
+  </data>
+  <data name="aim/recalcTime_caption" xml:space="preserve">
+    <value>частота обсчета упреждения</value>
+  </data>
+  <data name="aim/recalcTime_tooltip" xml:space="preserve">
+    <value>Этот параметр определяет точность расчетов при стрельбе с упреждением по цели. Чем выше это значение, тем точнее будет рассчитываться точка упреждения.</value>
+  </data>
+  <data name="aim/smart_caption" xml:space="preserve">
+    <value>поиск уязвимых точек</value>
+  </data>
+  <data name="aim/smart_tooltip" xml:space="preserve">
+    <value>Этот параметр включает/отключает режим поиска уязвимых точек по толщине брони. При отключенном этом параметре автоприцел будет наводиться на центр танка противника.</value>
+  </data>
+  <data name="aim/smooth_aim_caption" xml:space="preserve">
+    <value>сглаживание рывков прицела</value>
+  </data>
+  <data name="aim/smooth_aim_tooltip" xml:space="preserve">
+    <value>Этот параметр помогает плавнее перемещать прицел, при условии что цель двигается быстро и простое следование прицела за целью будет приводить к большому разбросу орудия.</value>
+  </data>
+  <data name="aim/target_destroyed" xml:space="preserve">
+    <value>Цель уничтожена</value>
+  </data>
+  <data name="aim/target_detected" xml:space="preserve">
+    <value>цель обнаружена</value>
+  </data>
+  <data name="aim/target_locked" xml:space="preserve">
+    <value>Цель понял</value>
+  </data>
+  <data name="aim/target_lost" xml:space="preserve">
+    <value>Цель потеряна, держу прицел на последнем засвете</value>
+  </data>
+  <data name="aim/target_unlocked" xml:space="preserve">
+    <value>Отставить цель</value>
+  </data>
+  <data name="aim/weak_poins_aiming_disabled" xml:space="preserve">
+    <value>Выцеливание уязвимых точек ВЫКЛЮЧЕНО</value>
+  </data>
+  <data name="aim/weak_poins_aiming_enabled" xml:space="preserve">
+    <value>Выцеливание уязвимых точек включено</value>
+  </data>
+  <data name="aim/weakspots_aim_caption" xml:space="preserve">
+    <value>упреждение для уязвимых точек</value>
+  </data>
+  <data name="aim/weakspots_aim_tooltip" xml:space="preserve">
+    <value>Определяет - стоит ли при включении упреждения, продолжать целиться в уязвимое место на корпусе противника. Если этот параметр отключен, то когда включается упреждение - автоприцел будет стараться целиться с упреждением в центр танка. Если же он включен то автоприцел будет стараться взять упреждение именно по текущей уязвимой точке, что не всегда желательно. Например если уязвимой точкой является люк командира, то стрельба с упреждением вряд ли даст попадание в него, потому что в этом случае точность стрельбы значительно меньше чем в режиме полного сведения орудия.</value>
+  </data>
+  <data name="autoexpert/expert_bar_xpos_caption" xml:space="preserve">
+    <value>положение маркера по горизонтали</value>
+  </data>
+  <data name="autoexpert/expert_bar_xpos_tooltip" xml:space="preserve">
+    <value>Этот параметр определяет местоположение маркера с поврежденными модулями противника относительно маркера танка, на котором изображаются тип техники, имя игрока. Положительное значение этого параметра сдвинет маркер поврежденных модулей вправо. Отрицательное значение параметра сдвинет маркер влево.</value>
+  </data>
+  <data name="autoexpert/expert_bar_ypos_caption" xml:space="preserve">
+    <value>положение маркера по вертикали</value>
+  </data>
+  <data name="autoexpert/expert_bar_ypos_tooltip" xml:space="preserve">
+    <value>Этот параметр аналогичен предыдущему. Положительное значение этого параметра сдвинет маркер поврежденных модулей вниз. Отрицательное значение параметра сдвинет маркер вверх.</value>
+  </data>
+  <data name="autoexpert/hide_hotkey_caption" xml:space="preserve">
+    <value>Клавиша отображения/скрытия модулей на маркере танка</value>
+  </data>
+  <data name="autoexpert/hide_hotkey_tooltip" xml:space="preserve">
+    <value>Параметр задает клавишу, при нажатии на которую включится режим отображения маркеров с поврежденными модулями противника. При повторном нажатии - режим выключится и маркеры с поврежденными модулями противника не будут отображаться.</value>
+  </data>
+  <data name="autoexpert/markers_are_off" xml:space="preserve">
+    <value>Маркеры поврежденных модулей врагов включены</value>
+  </data>
+  <data name="autoexpert/markers_are_on" xml:space="preserve">
+    <value>Маркеры поврежденных модулей врагов выключены</value>
+  </data>
+  <data name="autoexpert/mod_description" xml:space="preserve">
+    <value>Мод отображает на маркерах вражеских танков поврежденные модули. Обязательным условием работы этого мода является прокачанный перк "эксперт" и прямая видимость между стволом вашего танка и противником. Другими словами - мод будет отображать поврежденные модули противника если врага частично или полностью видно в снайперском режиме. Причем в сам снайперский режим переключаться не обязательно. Когда врага можно полностью или частично увидеть только в аркадном режиме, например, враг спрятался за холмом и его видно в аркадном режиме, но в снайперском режиме его не видно, то в таком случае мод НЕ отобразит поврежденных модулей противника.</value>
+  </data>
+  <data name="autoexpert/mod_name" xml:space="preserve">
+    <value>Автоматический перк эксперт</value>
+  </data>
+  <data name="autoexpert/scan_area_radius_caption" xml:space="preserve">
+    <value>Радиус автоматического обзора в метрах</value>
+  </data>
+  <data name="autoexpert/scan_area_radius_tooltip" xml:space="preserve">
+    <value>Этим параметром вы можете задать максимальное расстояние от вашего танка до танков противников на котором будут определяться их поврежденные модули. Чем больше врагов в радиусе вокруг вашего танка, задаваемое этим параметром, тем реже будет обновляться информация об их поврежденных модулях. На проверку поврежденных модулей конкретного врага уходит 5-7 секунд. Поэтому - чем меньше этот параметр, тем меньше врагов попадет в круг этого радиуса вокруг вашего танка и тем быстрее обновится информация по каждому из них.</value>
+  </data>
+  <data name="autoquests/mod_description" xml:space="preserve">
+    <value>Автоматически запускает доступные личные боевые задачи.</value>
+  </data>
+  <data name="autoquests/mod_name" xml:space="preserve">
+    <value>Авто - Личные Боевые Задачи</value>
+  </data>
+  <data name="autorepair/bExtinguisher_caption" xml:space="preserve">
+    <value>пожаротушение</value>
+  </data>
+  <data name="autorepair/bExtinguisher_tooltip" xml:space="preserve">
+    <value>Автоматическое пожаротушение ручным огнетушителем.</value>
+  </data>
+  <data name="autorepair/bRepairAmmoBay_caption" xml:space="preserve">
+    <value>ремонт боеукладки</value>
+  </data>
+  <data name="autorepair/bRepairAmmoBay_tooltip" xml:space="preserve">
+    <value>Автоматический ремонт боеукладки малым ремкомплектом</value>
+  </data>
+  <data name="autorepair/bRepairCommander_caption" xml:space="preserve">
+    <value>лечение коммандира</value>
+  </data>
+  <data name="autorepair/bRepairCommander_tooltip" xml:space="preserve">
+    <value>Автоматическое лечение коммандира малой аптечкой</value>
+  </data>
+  <data name="autorepair/bRepairDriver_caption" xml:space="preserve">
+    <value>лечение механика-водителя</value>
+  </data>
+  <data name="autorepair/bRepairDriver_tooltip" xml:space="preserve">
+    <value>Автоматическое лечение механика-водителя малой аптечкой</value>
+  </data>
+  <data name="autorepair/bRepairEngine_caption" xml:space="preserve">
+    <value>ремонт двигателя</value>
+  </data>
+  <data name="autorepair/bRepairEngine_tooltip" xml:space="preserve">
+    <value>Автоматический ремонт двигателя малым ремкомплектом</value>
+  </data>
+  <data name="autorepair/bRepairFuelTank_caption" xml:space="preserve">
+    <value>ремонт топливных баков</value>
+  </data>
+  <data name="autorepair/bRepairFuelTank_tooltip" xml:space="preserve">
+    <value>Автоматический ремонт топливных баков малым ремкомплектом</value>
+  </data>
+  <data name="autorepair/bRepairGun_caption" xml:space="preserve">
+    <value>ремонт орудия</value>
+  </data>
+  <data name="autorepair/bRepairGun_tooltip" xml:space="preserve">
+    <value>Автоматический ремонт орудия малым ремкомплектом</value>
+  </data>
+  <data name="autorepair/bRepairGunner_caption" xml:space="preserve">
+    <value>лечение наводчика</value>
+  </data>
+  <data name="autorepair/bRepairGunner_tooltip" xml:space="preserve">
+    <value>Автоматическое лечение наводчика малой аптечкой</value>
+  </data>
+  <data name="autorepair/bRepairLoader_caption" xml:space="preserve">
+    <value>лечение заряжающего</value>
+  </data>
+  <data name="autorepair/bRepairLoader_tooltip" xml:space="preserve">
+    <value>Автоматическое лечение заряжающего малой аптечкой</value>
+  </data>
+  <data name="autorepair/bRepairRadio_caption" xml:space="preserve">
+    <value>ремонт рации</value>
+  </data>
+  <data name="autorepair/bRepairRadio_tooltip" xml:space="preserve">
+    <value>Автоматический ремонт рации</value>
+  </data>
+  <data name="autorepair/bRepairRadioman_caption" xml:space="preserve">
+    <value>лечение радиста</value>
+  </data>
+  <data name="autorepair/bRepairRadioman_tooltip" xml:space="preserve">
+    <value>Автоматическое лечение радиста малой аптечкой</value>
+  </data>
+  <data name="autorepair/bRepairSurveyingDevice_caption" xml:space="preserve">
+    <value>ремонт приборов наблюдения</value>
+  </data>
+  <data name="autorepair/bRepairSurveyingDevice_tooltip" xml:space="preserve">
+    <value>Автоматический ремонт приборов наблюдения малым ремкомплектом</value>
+  </data>
+  <data name="autorepair/bRepairTracks_caption" xml:space="preserve">
+    <value>ремонт гусениц</value>
+  </data>
+  <data name="autorepair/bRepairTracks_tooltip" xml:space="preserve">
+    <value>Автоматический ремонт гусениц малым ремкомплектом</value>
+  </data>
+  <data name="autorepair/bRepairTurretRotator_caption" xml:space="preserve">
+    <value>ремонт башни</value>
+  </data>
+  <data name="autorepair/bRepairTurretRotator_tooltip" xml:space="preserve">
+    <value>Автоматический ремонт башни малым ремкомплектом</value>
+  </data>
+  <data name="autorepair/extinguisher_off" xml:space="preserve">
+    <value>Огнетушитель выключен</value>
+  </data>
+  <data name="autorepair/extinguisher_on" xml:space="preserve">
+    <value>Огнетушитель включен</value>
+  </data>
+  <data name="autorepair/heal_commander_off" xml:space="preserve">
+    <value>Лечение коммандира выключено</value>
+  </data>
+  <data name="autorepair/heal_commander_on" xml:space="preserve">
+    <value>Лечение коммандира включено</value>
+  </data>
+  <data name="autorepair/heal_driver_off" xml:space="preserve">
+    <value>Лечение механика водителя выключено</value>
+  </data>
+  <data name="autorepair/heal_driver_on" xml:space="preserve">
+    <value>Лечение механика водителя включено</value>
+  </data>
+  <data name="autorepair/heal_gunner_off" xml:space="preserve">
+    <value>Лечение наводчика выключено</value>
+  </data>
+  <data name="autorepair/heal_gunner_on" xml:space="preserve">
+    <value>Лечение наводчика включено</value>
+  </data>
+  <data name="autorepair/heal_loader_off" xml:space="preserve">
+    <value>Лечение заряжающего выключено</value>
+  </data>
+  <data name="autorepair/heal_loader_on" xml:space="preserve">
+    <value>Лечение заряжающего включено</value>
+  </data>
+  <data name="autorepair/heal_radioman_off" xml:space="preserve">
+    <value>Лечение радиста выключено</value>
+  </data>
+  <data name="autorepair/heal_radioman_on" xml:space="preserve">
+    <value>Лечение радиста включено</value>
+  </data>
+  <data name="autorepair/mod_description" xml:space="preserve">
+    <value>Автоматический ремонт модулей танка, лечение экипажа, пожаротушение. Срабатывает мгновенно, или с некоторой задержкой, заданной в настройках, чтобы никто не определил что ремонт, тушение или лечение запускается автоматически. Все операции срабатывают только в случае если на технике установлен соответствующий расходник. То есть для пожаротушения необходим ручной огнетушитель. Для ремонта необходим малый ремкомплект. Для лечения экипажа - малая аптечка. В бою можно включать/выключать ремонт/лечение некоторых модулей или членов экипажа, нажав на сочетание клавиш Ctrl+1...Ctrl+9. Ctrl+0 - включает/отключает автопожаротушение в бою.</value>
+  </data>
+  <data name="autorepair/mod_name" xml:space="preserve">
+    <value>Авторемонт + Огнетушитель</value>
+  </data>
+  <data name="autorepair/repair_delay_timeout_caption" xml:space="preserve">
+    <value>Время срабатывания ремонта/лечения/тушения (мс.)</value>
+  </data>
+  <data name="autorepair/repair_delay_timeout_tooltip" xml:space="preserve">
+    <value>Время срабатывания ремонта/лечения/тушения. Измеряется в миллисекундах (1 миллисекунда равна 0.001 секунды). Для того чтобы в бою противники не заметили мгновенного ремонта ваших гусениц, можете поставить эту задержку в разумных пределах. Обычно ставится не больше 1000-2000 миллисекунд (1-2 секунды). Через это время сработает ремонт. Тушение пожара будет срабатывать практически мгновенно.</value>
+  </data>
+  <data name="autorepair/repair_engine_off" xml:space="preserve">
+    <value>Ремонт двигателя выключен</value>
+  </data>
+  <data name="autorepair/repair_engine_on" xml:space="preserve">
+    <value>Ремонт двигателя включен</value>
+  </data>
+  <data name="autorepair/repair_gun_off" xml:space="preserve">
+    <value>Ремонт пушки выключен</value>
+  </data>
+  <data name="autorepair/repair_gun_on" xml:space="preserve">
+    <value>Ремонт пушки включен</value>
+  </data>
+  <data name="autorepair/repair_hull_off" xml:space="preserve">
+    <value>Лечение башни,триплекса,рации,баков выключено</value>
+  </data>
+  <data name="autorepair/repair_hull_on" xml:space="preserve">
+    <value>Лечение башни,триплекса,рации,баков включено</value>
+  </data>
+  <data name="autorepair/repair_tracks_off" xml:space="preserve">
+    <value>Ремонт гусениц выключен</value>
+  </data>
+  <data name="autorepair/repair_tracks_on" xml:space="preserve">
+    <value>Ремонт гусениц включен</value>
+  </data>
+  <data name="black_sky/mod_description" xml:space="preserve">
+    <value>Мод делающий небо черным.</value>
+  </data>
+  <data name="black_sky/mod_name" xml:space="preserve">
+    <value>Черное небо</value>
+  </data>
+  <data name="ghost_shot/hide_shot_point_timeout_caption" xml:space="preserve">
+    <value>время отображения маркера попадания по цели (сек.)</value>
+  </data>
+  <data name="ghost_shot/hide_shot_point_timeout_tooltip" xml:space="preserve">
+    <value>Время, с момента отображения маркера до его исчезновения. Измеряется в секундах.</value>
+  </data>
+  <data name="ghost_shot/mod_description" xml:space="preserve">
+    <value>Мод обозначает специальным маркером место попадания вашего снаряда по технике противника и ведет счетчик попаданий по всей незасвеченной технике. Полезен при стрельбе по кустам, для определения того - находится противник в них или нет. Также полезен при стрельбе в то место где противник ушел из засвета. Если маркер отображается в том месте где противник ушел из засвета - значит он всё еще находится там. Если же не отображается - значит стрелять в то место бесполезно.</value>
+  </data>
+  <data name="ghost_shot/mod_name" xml:space="preserve">
+    <value>Попадание по незасвеченной технике</value>
+  </data>
+  <data name="ghost_shot/shot_sound_type_caption" xml:space="preserve">
+    <value>озвучивание попадания по противнику</value>
+  </data>
+  <data name="ghost_shot/shot_sound_type_tooltip" xml:space="preserve">
+    <value>Выбирайте один из вариантов звуков обозначающих момент попадания по незасвеченному противнику либо отключите озвучивание попадания.</value>
+  </data>
+  <data name="ghost_shot/sound_1" xml:space="preserve">
+    <value>вариант 1</value>
+  </data>
+  <data name="ghost_shot/sound_2" xml:space="preserve">
+    <value>вариант 2</value>
+  </data>
+  <data name="ghost_shot/update_marker_timeout_caption" xml:space="preserve">
+    <value>время обновления маркера попадания по цели (мсек.)</value>
+  </data>
+  <data name="ghost_shot/update_marker_timeout_tooltip" xml:space="preserve">
+    <value>Время обновления отображения маркера. Чем меньше это время, тем чаще перерисовывается маркер на экране, создавая впечатление того, что он находится в одной точке при движении камерой прицела. Чем больше это время, тем большими рывками он будет перерисовываться в нужном месте. Меньшее время может ухудшить FPS в игре. Измеряется в миллисекундах.</value>
+  </data>
+  <data name="ghost_shot/without_sound" xml:space="preserve">
+    <value>без озвучки</value>
+  </data>
+  <data name="ghosts/alpha_caption" xml:space="preserve">
+    <value>преобладание цвета незасвеченных противников к стандартной окраске танка</value>
+  </data>
+  <data name="ghosts/alpha_tooltip" xml:space="preserve">
+    <value>Чем больше это значение, тем больше цвета окраски присутствует на танке противника. Чем меньше это значение, тем окраска танка ближе к обычной.</value>
+  </data>
+  <data name="ghosts/color_out_of_aoi_caption" xml:space="preserve">
+    <value>цвет противников за пределами квадрата отрисовки</value>
+  </data>
+  <data name="ghosts/color_out_of_aoi_tooltip" xml:space="preserve">
+    <value>Этим цветом будет окрашен танк противника распологающийся за квадратом отрисовки (видимый только на миникарте).</value>
+  </data>
+  <data name="ghosts/invisible_enemies_color_caption" xml:space="preserve">
+    <value>цвет незасвеченных противников</value>
+  </data>
+  <data name="ghosts/invisible_enemies_color_tooltip" xml:space="preserve">
+    <value>Этим цветом будет окрашен танк противника ушедший из засвета</value>
+  </data>
+  <data name="ghosts/marker_color_caption" xml:space="preserve">
+    <value>окраска маркера техники</value>
+  </data>
+  <data name="ghosts/marker_color_tooltip" xml:space="preserve">
+    <value>Выбирайте один из двух вариантов окраски: маркер фиолетового цвета с синим текстом либо маркер красного цвета с красным текстом (как у противников)</value>
+  </data>
+  <data name="ghosts/marker_red_and_red_text" xml:space="preserve">
+    <value>красного цвета с красным текстом</value>
+  </data>
+  <data name="ghosts/marker_violet_and_blue_text" xml:space="preserve">
+    <value>фиолетового цвета с синим текстом</value>
+  </data>
+  <data name="ghosts/mod_description" xml:space="preserve">
+    <value>Отображение противников ушедших из засвета или видимых только на миникарте. Мод отображает танк противника на его последнем местоположении в момент ухода из засвета, окрашивая корпус в заданный цвет. Либо отображает технику которую видно только на миникарте.</value>
+  </data>
+  <data name="ghosts/mod_name" xml:space="preserve">
+    <value>Незасвеченные противники</value>
+  </data>
+  <data name="ghosts/show_invisible_enemies_caption" xml:space="preserve">
+    <value>клавиша отображения/скрытия незасвеченных противников</value>
+  </data>
+  <data name="ghosts/show_invisible_enemies_tooltip" xml:space="preserve">
+    <value>При нажатии на эту клавишу происходит отображение/скрытие всех противников ушедших из засвета</value>
+  </data>
+  <data name="ghosts/show_invisible_vehicles_is_off" xml:space="preserve">
+    <value>Отображение противников пропавших из засвета ВЫКЛЮЧЕНО</value>
+  </data>
+  <data name="ghosts/show_invisible_vehicles_is_on" xml:space="preserve">
+    <value>Отображение противников пропавших из засвета ВКЛЮЧЕНО</value>
+  </data>
+  <data name="ghosts/show_marker_caption" xml:space="preserve">
+    <value>отображать маркер на технике ушедшей из засвета</value>
+  </data>
+  <data name="ghosts/show_marker_tooltip" xml:space="preserve">
+    <value>Включает/отключает отображение маркера с параметрами танка на технике ушедшей из засвета</value>
+  </data>
+  <data name="hit_line/bShowOnlyHiddenShots_caption" xml:space="preserve">
+    <value>отображать только от незасвеченных врагов</value>
+  </data>
+  <data name="hit_line/bShowOnlyHiddenShots_tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, то указатель направления атаки врага будет отображаться только от той техники - которая не засвечена на поле боя и миникарте.</value>
+  </data>
+  <data name="hit_line/line_hiding_delay_caption" xml:space="preserve">
+    <value>время исчезновения линии атаки (в секундах)</value>
+  </data>
+  <data name="hit_line/line_hiding_delay_tooltip" xml:space="preserve">
+    <value>Этот параметр определяет - через какое время (измеряемое в секундах) указатель направления атаки противника - исчезнет.</value>
+  </data>
+  <data name="hit_line/mod_description" xml:space="preserve">
+    <value>Мод указывает направление атаки противника при попадании снаряда в ваш танк. Позволяет определить примерное местоположение противника. Мод рисует синий луч исходящий из вашего танка и направленный в сторону - откуда был произведен выстрел.</value>
+  </data>
+  <data name="hit_line/mod_name" xml:space="preserve">
+    <value>Линия атаки</value>
+  </data>
+  <data name="laser/laser_length_caption" xml:space="preserve">
+    <value>длина лазера [50-500] м.</value>
+  </data>
+  <data name="laser/laser_length_tooltip" xml:space="preserve">
+    <value>Длина линии-указателя на поле боя. На это расстояние будет отображаться лазерная указка из ствола противника.</value>
+  </data>
+  <data name="laser/mod_description" xml:space="preserve">
+    <value>Мод отображает луч из ствола орудия противника, указывающий направление ствола на поле боя. Этот мод бывает полезным в случаях, когда враг прячется за укрытием и целится в место вашего выезда из-за укрытия. Либо когда танк врага находится на большом расстоянии от вашего и нет физической возможности разглядеть - куда направлен ствол его орудия.</value>
+  </data>
+  <data name="laser/mod_name" xml:space="preserve">
+    <value>Лазерная указка</value>
+  </data>
+  <data name="laser/switchMode_caption" xml:space="preserve">
+    <value>клавиша отображения/скрытия указателя</value>
+  </data>
+  <data name="laser/switchMode_tooltip" xml:space="preserve">
+    <value>Эта клавиша включает/отключает отображение всех указателей от вражеских танков во время боя.</value>
+  </data>
+  <data name="main/help_of_this_section_not_downloaded" xml:space="preserve">
+    <value>Справка по данному разделу не скачалась</value>
+  </data>
+  <data name="main/help_of_this_section_unavalable" xml:space="preserve">
+    <value>Справка по данному разделу еще не готова</value>
+  </data>
+  <data name="main/mod_description" xml:space="preserve">
+    <value>Описание мода "%s"</value>
+  </data>
+  <data name="main/mod_disabled" xml:space="preserve">
+    <value>Мод "%s" выключен</value>
+  </data>
+  <data name="main/mod_enabled" xml:space="preserve">
+    <value>Мод "%s" включен</value>
+  </data>
+  <data name="main/mod_parameter" xml:space="preserve">
+    <value>Параметр "%s"</value>
+  </data>
+  <data name="main/settings" xml:space="preserve">
+    <value>настройки</value>
+  </data>
+  <data name="main/wait_for_loading_help" xml:space="preserve">
+    <value>Подождите загузки справки...</value>
+  </data>
+  <data name="main/warpack_expired_after" xml:space="preserve">
+    <value>Ключ Warpack истекает через %d дней, %d часов</value>
+  </data>
+  <data name="main/warpack_loaded" xml:space="preserve">
+    <value>Warpack загружен</value>
+  </data>
+  <data name="noswing/mod_description" xml:space="preserve">
+    <value>Отключение раскачки для ВСЕХ танков во ВСЕХ режимах.</value>
+  </data>
+  <data name="noswing/mod_name" xml:space="preserve">
+    <value>Отключение раскачки</value>
+  </data>
+  <data name="radius_15/circle_radius_caption" xml:space="preserve">
+    <value>радиус круга в метрах</value>
+  </data>
+  <data name="radius_15/circle_radius_tooltip" xml:space="preserve">
+    <value>Параметр задает радиус отображаемого круга. Измеряется в метрах.</value>
+  </data>
+  <data name="radius_15/mod_description" xml:space="preserve">
+    <value>Мод отображает круг заданного радиуса вокруг танка. Бывает полезно, когда нужно расположить танк на некотором заданном расстонии (обычно - 15 метров) от кустов или деревьев, чтобы при выстреле ваш танк не был заметен противникам. Для артиллерии в артиллерийском режиме прицеливания - отображает максимально возможный радиус обнаружения трассеров вражеской артиллерии.</value>
+  </data>
+  <data name="radius_15/mod_name" xml:space="preserve">
+    <value>Круг радиусом 15 метров вокруг танка</value>
+  </data>
+  <data name="radius_15/show_circle_hotkey_caption" xml:space="preserve">
+    <value>клавиша отображения/скрытия круга</value>
+  </data>
+  <data name="radius_15/show_circle_hotkey_tooltip" xml:space="preserve">
+    <value>Эта клавиша отображает/скрывает круг на поле боя.</value>
+  </data>
+  <data name="redball/IndicatorXOffset_caption" xml:space="preserve">
+    <value>горизонтальное смещение индикатора на экране</value>
+  </data>
+  <data name="redball/IndicatorXOffset_tooltip" xml:space="preserve">
+    <value>Горизонтальное смещение индикатора на экране относительно положения индикатора по горизонтали. Положительные значения смещают индикатор вправо. Отрицательные - влево.</value>
+  </data>
+  <data name="redball/IndicatorYOffset_caption" xml:space="preserve">
+    <value>вертикальное смещение индикатора на экране</value>
+  </data>
+  <data name="redball/IndicatorYOffset_tooltip" xml:space="preserve">
+    <value>Вертикальное смещение индикатора на экране относительно положения индикатора по вертикали. Положительные значения смещают индикатор вниз. Отрицательные - вверх.</value>
+  </data>
+  <data name="redball/bIndicatorHAlignment_caption" xml:space="preserve">
+    <value>положение индикатора (лампы) по горизонтали</value>
+  </data>
+  <data name="redball/bIndicatorHAlignment_tooltip" xml:space="preserve">
+    <value>Задает положение индикатора (лампы) на экране по горизонтали. То есть от какой части экрана вести отсчет смещения по горизонтали задаваемого другим параметром.</value>
+  </data>
+  <data name="redball/bIndicatorVAlignment_caption" xml:space="preserve">
+    <value>положение индикатора (лампы) по вертикали</value>
+  </data>
+  <data name="redball/bIndicatorVAlignment_tooltip" xml:space="preserve">
+    <value>Задает положение индикатора (лампы) на экране по вертикали. То есть от какой части экрана вести отсчет смещения по вертикали задаваемого другим параметром.</value>
+  </data>
+  <data name="redball/bLampOn_caption" xml:space="preserve">
+    <value>отображать индикатор обнаружения (лампу)</value>
+  </data>
+  <data name="redball/bLampOn_tooltip" xml:space="preserve">
+    <value>Включает/отключает индикатор обнаружения (лампу) в момент обнаружения артиллерии противника.</value>
+  </data>
+  <data name="redball/bottom" xml:space="preserve">
+    <value>снизу</value>
+  </data>
+  <data name="redball/center" xml:space="preserve">
+    <value>посередине</value>
+  </data>
+  <data name="redball/enemy_models_marker_type_caption" xml:space="preserve">
+    <value>окраска маркера техники</value>
+  </data>
+  <data name="redball/enemy_models_marker_type_tooltip" xml:space="preserve">
+    <value>Выбирайте один из двух вариантов окраски: маркер фиолетового цвета с синим текстом либо маркер красного цвета с красным текстом (как у противников)</value>
+  </data>
+  <data name="redball/invisible_enemy_color_alpha_caption" xml:space="preserve">
+    <value>преобладание цвета обнаруженных противников к стандартной окраске танка</value>
+  </data>
+  <data name="redball/invisible_enemy_color_alpha_tooltip" xml:space="preserve">
+    <value>Чем больше это значение, тем больше цвета окраски присутствует на танке противника. Чем меньше это значение, тем окраска танка ближе к обычной.</value>
+  </data>
+  <data name="redball/invisible_enemy_color_caption" xml:space="preserve">
+    <value>цвет обнаруженных противников</value>
+  </data>
+  <data name="redball/invisible_enemy_color_tooltip" xml:space="preserve">
+    <value>Этим цветом будет окрашена обнаруженная техника противника</value>
+  </data>
+  <data name="redball/left" xml:space="preserve">
+    <value>слева</value>
+  </data>
+  <data name="redball/like_a_sphere" xml:space="preserve">
+    <value>в виде сферы</value>
+  </data>
+  <data name="redball/like_vehicle" xml:space="preserve">
+    <value>в виде танка</value>
+  </data>
+  <data name="redball/marker_hiding_delay_caption" xml:space="preserve">
+    <value>время исчезновения метки на миникарте (в секундах)</value>
+  </data>
+  <data name="redball/marker_hiding_delay_tooltip" xml:space="preserve">
+    <value>Время исчезновения метки на миникарте измеряется в секундах. Через это время метка на миникарте от обнаруженной техники и объект на поле боя исчезнут.</value>
+  </data>
+  <data name="redball/marker_scale_caption" xml:space="preserve">
+    <value>масштаб метки на миникарте (в % от стандартного размера)</value>
+  </data>
+  <data name="redball/marker_scale_tooltip" xml:space="preserve">
+    <value>Масштаб метки обнаруженной техники на миникарте задается в процентах от стандартной величины метки.</value>
+  </data>
+  <data name="redball/mod_description" xml:space="preserve">
+    <value>Этот мод для не засвеченных врагов помещает на поле боя и на миникарту метку, указывающую на место выстрела. На поле боя возможны два варианта отображения техники. Первый вариант в виде сферы и второй - в виде самой техники.</value>
+  </data>
+  <data name="redball/mod_name" xml:space="preserve">
+    <value>Красные шары</value>
+  </data>
+  <data name="redball/red_and_red_text" xml:space="preserve">
+    <value>красного цвета с красным текстом</value>
+  </data>
+  <data name="redball/right" xml:space="preserve">
+    <value>справа</value>
+  </data>
+  <data name="redball/show_marker_on_spg_only_caption" xml:space="preserve">
+    <value>отображать метку только на обнаруженной артиллерии</value>
+  </data>
+  <data name="redball/show_marker_on_spg_only_tooltip" xml:space="preserve">
+    <value>Включает/отключает отображение метки на миникарте и на поле боя только в случае обнаружения артиллерии противника. Танки и ПТ-САУ в этом случае не отображаются.</value>
+  </data>
+  <data name="redball/show_marker_on_vehicle_caption" xml:space="preserve">
+    <value>отображать маркер на обнаруженной технике</value>
+  </data>
+  <data name="redball/show_marker_on_vehicle_tooltip" xml:space="preserve">
+    <value>Включает/отключает отображение маркера с параметрами танка на обнаруженной технике</value>
+  </data>
+  <data name="redball/show_reload_process_on_minimap_caption" xml:space="preserve">
+    <value>отображать время перезарядки противника на миникарте</value>
+  </data>
+  <data name="redball/show_reload_process_on_minimap_tooltip" xml:space="preserve">
+    <value>Включает/отключает отображение примерного оставшегося времени перезарядки обнаруженной техники. Отображается только на артиллерии.</value>
+  </data>
+  <data name="redball/top" xml:space="preserve">
+    <value>сверху</value>
+  </data>
+  <data name="redball/violet_and_blue_text" xml:space="preserve">
+    <value>фиолетового цвета с синим текстом</value>
+  </data>
+  <data name="redball/world_show_model_type_caption" xml:space="preserve">
+    <value>отображение обнаруженной техники на поле боя</value>
+  </data>
+  <data name="redball/world_show_model_type_tooltip" xml:space="preserve">
+    <value>Выбирайте один из двух вариантов отображения обнаруженной артиллерии на поле боя. Старый вариант - в виде красной сферы либо новый вариант - в виде самой техники.</value>
+  </data>
+  <data name="rel_timer/circle" xml:space="preserve">
+    <value>круговой</value>
+  </data>
+  <data name="rel_timer/mod_description" xml:space="preserve">
+    <value>Отображает на маркерах вражеских танков процесс перезарядки их орудия в виде прямоугольного или кругового индикатора. А так же отображает время оставшееся до перезарядки.</value>
+  </data>
+  <data name="rel_timer/mod_name" xml:space="preserve">
+    <value>Таймер перезарядки противника</value>
+  </data>
+  <data name="rel_timer/rectangle" xml:space="preserve">
+    <value>прямоугольный</value>
+  </data>
+  <data name="rel_timer/reload_bar_alpha_caption" xml:space="preserve">
+    <value>прозрачность индикатора</value>
+  </data>
+  <data name="rel_timer/reload_bar_alpha_tooltip" xml:space="preserve">
+    <value>Задает прозрачность индикатора. Максимальное значение - индикатор будет полностью НЕ прозрачен. Минимальное - полностью прозрачен.</value>
+  </data>
+  <data name="rel_timer/reload_bar_color_caption" xml:space="preserve">
+    <value>цвет индикатора</value>
+  </data>
+  <data name="rel_timer/reload_bar_color_tooltip" xml:space="preserve">
+    <value>Задает цвет индикатора (прямоугольного или кругового).</value>
+  </data>
+  <data name="rel_timer/reload_bar_full_reload_color_caption" xml:space="preserve">
+    <value>цвет полной перезарядки барабанщика</value>
+  </data>
+  <data name="rel_timer/reload_bar_full_reload_color_tooltip" xml:space="preserve">
+    <value>задает цвет полосы отображающей полную перезарядку барабанщика. перезарядка снаряда в кассете отображается одним цветом на маркере техники, а перезарядка кассеты - другим (этим цветом).</value>
+  </data>
+  <data name="rel_timer/reload_bar_height_caption" xml:space="preserve">
+    <value>высота индикатора или радиус (для кругового)</value>
+  </data>
+  <data name="rel_timer/reload_bar_height_tooltip" xml:space="preserve">
+    <value>Задает высоту прямоугольного или радиус кругового индикатора перезарядки (в пикселах).</value>
+  </data>
+  <data name="rel_timer/reload_bar_rest_shots_text_color_caption" xml:space="preserve">
+    <value>цвет текста оставшегося количества снарядов в кассете</value>
+  </data>
+  <data name="rel_timer/reload_bar_rest_shots_text_color_tooltip" xml:space="preserve">
+    <value>Задает цвет текста оставшегося количества снарядов в кассете на индикаторе кассеты.</value>
+  </data>
+  <data name="rel_timer/reload_bar_rest_shots_text_height_caption" xml:space="preserve">
+    <value>масштаб индикатора кассеты</value>
+  </data>
+  <data name="rel_timer/reload_bar_rest_shots_text_height_tooltip" xml:space="preserve">
+    <value>Задает масштаб индикатора кассеты для отображения примерного оставшегося количества снарядов в кассете противника.</value>
+  </data>
+  <data name="rel_timer/reload_bar_rest_shots_text_is_bold_caption" xml:space="preserve">
+    <value>жирный шрифт оставшихся снарядов в кассете</value>
+  </data>
+  <data name="rel_timer/reload_bar_rest_shots_text_is_bold_tooltip" xml:space="preserve">
+    <value>Задает жирный шрифт оставшихся снарядов в кассете</value>
+  </data>
+  <data name="rel_timer/reload_bar_rest_shots_text_visible_caption" xml:space="preserve">
+    <value>отображать индикатор кассеты для барабанщиков</value>
+  </data>
+  <data name="rel_timer/reload_bar_rest_shots_text_visible_tooltip" xml:space="preserve">
+    <value>Указывает - нужно ли отображать индикатор кассеты для барабанщиков. На индикаторе кассеты отображается примерное оставшееся количество снарядов в кассете противника</value>
+  </data>
+  <data name="rel_timer/reload_bar_rest_shots_text_xpos_caption" xml:space="preserve">
+    <value>горизонтальное положение индикатора кассеты</value>
+  </data>
+  <data name="rel_timer/reload_bar_rest_shots_text_xpos_tooltip" xml:space="preserve">
+    <value>Задает горизонтальное положение индикатора кассеты на маркере танка противника. Положительные значения сдвигают индикатор вправо, а отрицательные - влево, относительно центра маркера танка противника.</value>
+  </data>
+  <data name="rel_timer/reload_bar_rest_shots_text_ypos_caption" xml:space="preserve">
+    <value>вертикальное положение индикатора кассеты</value>
+  </data>
+  <data name="rel_timer/reload_bar_rest_shots_text_ypos_tooltip" xml:space="preserve">
+    <value>Задает вертикаьлное положение индикатора кассеты на маркере танка противника. Положительные значения сдвигают индикатор вниз, а отрицательные - вверх, относительно центра маркера танка противника.</value>
+  </data>
+  <data name="rel_timer/reload_bar_text_color_caption" xml:space="preserve">
+    <value>цвет таймера индикатора</value>
+  </data>
+  <data name="rel_timer/reload_bar_text_color_tooltip" xml:space="preserve">
+    <value>Задает цвет текста таймера индикатора.</value>
+  </data>
+  <data name="rel_timer/reload_bar_text_height_caption" xml:space="preserve">
+    <value>размер шрифта таймера индикатора</value>
+  </data>
+  <data name="rel_timer/reload_bar_text_height_tooltip" xml:space="preserve">
+    <value>Задает размер шрифта таймера индикатора в условных единицах.</value>
+  </data>
+  <data name="rel_timer/reload_bar_text_is_bold_caption" xml:space="preserve">
+    <value>Жирный шрифт таймера</value>
+  </data>
+  <data name="rel_timer/reload_bar_text_is_bold_tooltip" xml:space="preserve">
+    <value>Обеспечивает отрисовку текста таймера жирным шрифтом.</value>
+  </data>
+  <data name="rel_timer/reload_bar_text_visible_caption" xml:space="preserve">
+    <value>Отображать таймер индикатора</value>
+  </data>
+  <data name="rel_timer/reload_bar_text_visible_tooltip" xml:space="preserve">
+    <value>Определяет - нужно ли отображать таймер индикатора или нет.</value>
+  </data>
+  <data name="rel_timer/reload_bar_text_xpos_caption" xml:space="preserve">
+    <value>положение таймера индикатора по горизонтали</value>
+  </data>
+  <data name="rel_timer/reload_bar_text_xpos_tooltip" xml:space="preserve">
+    <value>Этот параметр позволяет расположить текст с отображением оставшегося времени до перезарядки противника относительно маркера танка врага. Положительные значения перемещают текст вправо, отрицательные - влево. С помощью этого и следующего параметров можно расположить текст с отображением оставшегося времени до перезарядки как поверх самого индикатора, так и сбоку,сверху и снизу от него.</value>
+  </data>
+  <data name="rel_timer/reload_bar_text_ypos_caption" xml:space="preserve">
+    <value>положение таймера индикатора по вертикали</value>
+  </data>
+  <data name="rel_timer/reload_bar_text_ypos_tooltip" xml:space="preserve">
+    <value>Этот параметр позволяет расположить текст с отображением оставшегося времени до перезарядки противника относительно маркера танка врага. Положительные значения перемещают текст вниз, отрицательные - вверх.</value>
+  </data>
+  <data name="rel_timer/reload_bar_type_caption" xml:space="preserve">
+    <value>Вид индикатора перезарядки</value>
+  </data>
+  <data name="rel_timer/reload_bar_type_tooltip" xml:space="preserve">
+    <value>Вид индикатора перезарядки (в виде прямоугольника или круга)</value>
+  </data>
+  <data name="rel_timer/reload_bar_width_caption" xml:space="preserve">
+    <value>ширина индикатора</value>
+  </data>
+  <data name="rel_timer/reload_bar_width_tooltip" xml:space="preserve">
+    <value>Задает ширину индикатора прямоугольной формы (в пикселах).</value>
+  </data>
+  <data name="rel_timer/reload_bar_xpos_caption" xml:space="preserve">
+    <value>положение индикатора по горизонтали</value>
+  </data>
+  <data name="rel_timer/reload_bar_xpos_tooltip" xml:space="preserve">
+    <value>Этот параметр задает положение индикатора перезарядки противника на маркере танка. Положительные значения сдвигают индикатор вправо, отрицательные - влево.</value>
+  </data>
+  <data name="rel_timer/reload_bar_ypos_caption" xml:space="preserve">
+    <value>положение индикатора по вертикали</value>
+  </data>
+  <data name="rel_timer/reload_bar_ypos_tooltip" xml:space="preserve">
+    <value>Этот параметр задает положение индикатора перезарядки противника на маркере танка. Положительные значения сдвигают индикатор вниз, отрицательные - вверх.</value>
+  </data>
+  <data name="rel_timer/reload_timer_ratio_caption" xml:space="preserve">
+    <value>дополнительный коэффициент времени перезарядки (в %)</value>
+  </data>
+  <data name="rel_timer/reload_timer_ratio_tooltip" xml:space="preserve">
+    <value>Позволяет изменить отображаемое время перезарядки противника в большую или меньшую сторону. Задается в процентах от исходного времени перезарядки. В итоге - к расчетному времени прибавляется такое же расчетное время, умноженное на этот процент. В большинстве случаев, дополнительное оборудование и различные перки уменьшают время перезарядки танка противника. То есть на самом деле враг перезарядится немного быстрее чем это отобразит индикатор. Поэтому можно вручную уменьшить отображаемое время перезарядки, уменьшив этот параметр. Обычно его стоит ставить не меньше минус 15 процентов, так как в игре маскимально уменьшить время перезарядки можно именно на такой процент, относительно базового времени перезарядки.</value>
+  </data>
+  <data name="rel_timer/show_full_reload_every_time_caption" xml:space="preserve">
+    <value>Отображать полную перезарядку барабанщиков</value>
+  </data>
+  <data name="rel_timer/show_full_reload_every_time_tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, то вместо перезарядки одного снаряда в кассете барабанщика - будет отображаться время перезарядки всей кассеты.</value>
+  </data>
+  <data name="rest_hp/ally_color_caption" xml:space="preserve">
+    <value>цвет союзников</value>
+  </data>
+  <data name="rest_hp/ally_color_tooltip" xml:space="preserve">
+    <value>Задает цвет индикатора прочности союзников.</value>
+  </data>
+  <data name="rest_hp/background_color_caption" xml:space="preserve">
+    <value>цвет фона индикатора</value>
+  </data>
+  <data name="rest_hp/background_color_tooltip" xml:space="preserve">
+    <value>Задает цвет фона индикатора (незакрашенной его части).</value>
+  </data>
+  <data name="rest_hp/border_color_caption" xml:space="preserve">
+    <value>цвет рамки</value>
+  </data>
+  <data name="rest_hp/border_color_tooltip" xml:space="preserve">
+    <value>Задает цвет рамки вокруг индикатора прочности.</value>
+  </data>
+  <data name="rest_hp/current" xml:space="preserve">
+    <value>текущее</value>
+  </data>
+  <data name="rest_hp/current_max" xml:space="preserve">
+    <value>текущее/максимальное</value>
+  </data>
+  <data name="rest_hp/enemy_color_caption" xml:space="preserve">
+    <value>цвет противников</value>
+  </data>
+  <data name="rest_hp/enemy_color_tooltip" xml:space="preserve">
+    <value>Задает цвет индикатора прочности противников.</value>
+  </data>
+  <data name="rest_hp/in_percents" xml:space="preserve">
+    <value>в процентах</value>
+  </data>
+  <data name="rest_hp/indicator_alpha_caption" xml:space="preserve">
+    <value>прозрачность индикатора прочности</value>
+  </data>
+  <data name="rest_hp/indicator_alpha_tooltip" xml:space="preserve">
+    <value>Задает прозрачность индикатора прочности. Максимальное значение - полное отображение индикатора. Минимальное - индикатор полностью прозрачен.</value>
+  </data>
+  <data name="rest_hp/mod_description" xml:space="preserve">
+    <value>Этот мод отображает значение прочности союзника/противника в момент последнего засвета этой техники на поле боя. Можно настраивать два варианта отображения прочности. 1- для полного отображения с числом оставшейся прочности. 2- для сокращенного отображения.</value>
+  </data>
+  <data name="rest_hp/mod_name" xml:space="preserve">
+    <value>Остаток прочности на панелях противников и союзников</value>
+  </data>
+  <data name="rest_hp/near_vehicle_icon" xml:space="preserve">
+    <value>сбоку от иконки танка</value>
+  </data>
+  <data name="rest_hp/normal_hp_h_offset_left_caption" xml:space="preserve">
+    <value>горизонтальное смещение нормального индикатора союзников</value>
+  </data>
+  <data name="rest_hp/normal_hp_h_offset_left_tooltip" xml:space="preserve">
+    <value>Задаеёт горизонтальное смещение нормального индикатора прочности союзников по отношению к строке на которой изображается информация о союзнике.</value>
+  </data>
+  <data name="rest_hp/normal_hp_h_offset_right_caption" xml:space="preserve">
+    <value>горизонтальное смещение нормального индикатора врагов</value>
+  </data>
+  <data name="rest_hp/normal_hp_h_offset_right_tooltip" xml:space="preserve">
+    <value>Задаеёт горизонтальное смещение нормального индикатора прочности противников по отношению к строке на которой изображается информация о противнике.</value>
+  </data>
+  <data name="rest_hp/normal_hp_h_size_caption" xml:space="preserve">
+    <value>ширина нормального индикатора прочности</value>
+  </data>
+  <data name="rest_hp/normal_hp_h_size_tooltip" xml:space="preserve">
+    <value>Задаёт ширину нормального (полного) индикатора прочности. Измеряется в пикселах.</value>
+  </data>
+  <data name="rest_hp/normal_hp_v_offset_caption" xml:space="preserve">
+    <value>верт. смещение нормального индикатора</value>
+  </data>
+  <data name="rest_hp/normal_hp_v_offset_tooltip" xml:space="preserve">
+    <value>Задаеёт вертикальное смещение нормального индикатора прочности по отношению к строке на которой изображается информация о противнике/союзнике.</value>
+  </data>
+  <data name="rest_hp/normal_hp_v_size_caption" xml:space="preserve">
+    <value>высота нормального индикатора прочности</value>
+  </data>
+  <data name="rest_hp/normal_hp_v_size_tooltip" xml:space="preserve">
+    <value>Задаёт высоту нормального (полного) индикатора прочности. Измеряется в пикселах.</value>
+  </data>
+  <data name="rest_hp/not_show" xml:space="preserve">
+    <value>не отображать</value>
+  </data>
+  <data name="rest_hp/over_vehicle_icon" xml:space="preserve">
+    <value>над иконкой танка</value>
+  </data>
+  <data name="rest_hp/show_ally_hp_caption" xml:space="preserve">
+    <value>отображать прочность союзников</value>
+  </data>
+  <data name="rest_hp/show_ally_hp_hotkey_caption" xml:space="preserve">
+    <value>клавиша отображения прочности союзников</value>
+  </data>
+  <data name="rest_hp/show_ally_hp_hotkey_tooltip" xml:space="preserve">
+    <value>Этой клавишей включается/отключается отображение прочности союзников.</value>
+  </data>
+  <data name="rest_hp/show_ally_hp_tooltip" xml:space="preserve">
+    <value>Определяет - нужно ли отображать прочность союзников</value>
+  </data>
+  <data name="rest_hp/show_enemy_hp_caption" xml:space="preserve">
+    <value>отображать прочность противников</value>
+  </data>
+  <data name="rest_hp/show_enemy_hp_hotkey_caption" xml:space="preserve">
+    <value>клавиша отображения прочности противников</value>
+  </data>
+  <data name="rest_hp/show_enemy_hp_hotkey_tooltip" xml:space="preserve">
+    <value>Этой клавишей включается/отключается отображение прочности противников.</value>
+  </data>
+  <data name="rest_hp/show_enemy_hp_tooltip" xml:space="preserve">
+    <value>Определяет - нужно ли отображать прочность противников</value>
+  </data>
+  <data name="rest_hp/show_rest_hp_text_type_caption" xml:space="preserve">
+    <value>значения прочности на индикаторе</value>
+  </data>
+  <data name="rest_hp/show_rest_hp_text_type_tooltip" xml:space="preserve">
+    <value>Выбирайте один из трех видов отображения значения прочности на индикаторе. Можно не отображать прочность. Отображать её в процентах от максимальной прочности. Отображать текущее/максимальное значение прочности. Либо отображать просто текущее значение прочности.</value>
+  </data>
+  <data name="rest_hp/show_rest_hp_type_caption" xml:space="preserve">
+    <value>вид значения прочности на индикаторе</value>
+  </data>
+  <data name="rest_hp/show_rest_hp_type_hotkey_caption" xml:space="preserve">
+    <value>клавиша переключения вида прочности</value>
+  </data>
+  <data name="rest_hp/show_rest_hp_type_hotkey_tooltip" xml:space="preserve">
+    <value>Этой клавишей происходит переключение между отображением полного и сокращенного вида прочности в бою.</value>
+  </data>
+  <data name="rest_hp/show_rest_hp_type_tooltip" xml:space="preserve">
+    <value>Определяет - в каком виде (полном или сокращенном) нужно отображать значения прочности танков. Значение "сбоку от иконки танка" - обозначает полный вид отображения. Значение "над иконкой танка " - сокращенный вид отображения.</value>
+  </data>
+  <data name="rest_hp/small_hp_h_offset_left_caption" xml:space="preserve">
+    <value>горизонтальное смещение уменьшенногого индикатора союзников</value>
+  </data>
+  <data name="rest_hp/small_hp_h_offset_left_tooltip" xml:space="preserve">
+    <value>Задаёт горизонтальное смещение уменьшенного (сокращенного) индикатора прочности союзников.</value>
+  </data>
+  <data name="rest_hp/small_hp_h_offset_right_caption" xml:space="preserve">
+    <value>горизонтальное смещение уменьшенного индикатора врагов</value>
+  </data>
+  <data name="rest_hp/small_hp_h_offset_right_tooltip" xml:space="preserve">
+    <value>Задаёт горизонтальное смещение уменьшенного (сокращенного) индикатора прочности противников.</value>
+  </data>
+  <data name="rest_hp/small_hp_v_offset_caption" xml:space="preserve">
+    <value>вертикальное смещение сокращенного индикатора</value>
+  </data>
+  <data name="rest_hp/small_hp_v_offset_tooltip" xml:space="preserve">
+    <value>Задаёт вертикальное смещение уменьшенного (сокращенного) индикатора прочности. То есть в виде, когда индикатор отображается над танком в виде небольшой полосы, без отображения прочности.</value>
+  </data>
+  <data name="rest_hp/small_hp_v_size_caption" xml:space="preserve">
+    <value>высота сокращенного индикатора прочности</value>
+  </data>
+  <data name="rest_hp/small_hp_v_size_tooltip" xml:space="preserve">
+    <value>Задаёт высоту уменьшенного (сокращенного) индикатора прочности.То есть в виде, когда индикатор отображается над танком в виде небольшой полосы, без отображения прочности.</value>
+  </data>
+  <data name="rest_hp/text_color_caption" xml:space="preserve">
+    <value>цвет текста</value>
+  </data>
+  <data name="rest_hp/text_color_tooltip" xml:space="preserve">
+    <value>Задает цвет текста на индикаторе прочности.</value>
+  </data>
+  <data name="sense6/IndicatorXOffset_caption" xml:space="preserve">
+    <value>Смещение индикатора по горизонтали</value>
+  </data>
+  <data name="sense6/IndicatorXOffset_tooltip" xml:space="preserve">
+    <value>Этот параметр задает смещение лампы-индикатора влево или вправо от его горизонтального положения. Положительные значения сдвигают индикатор вправо. Отрицательные - влево.</value>
+  </data>
+  <data name="sense6/IndicatorYOffset_caption" xml:space="preserve">
+    <value>Смещение индикатора по вертикали</value>
+  </data>
+  <data name="sense6/IndicatorYOffset_tooltip" xml:space="preserve">
+    <value>Этот параметр задает смещение лампы-индикатора влево или вправо от его вертикального положения. Положительные значения сдвигают индикатор вниз. Отрицательные - вверх.</value>
+  </data>
+  <data name="sense6/aiming_at_you" xml:space="preserve">
+    <value>%s [%s] целится в тебя!</value>
+  </data>
+  <data name="sense6/bIndicatorHAlignment_caption" xml:space="preserve">
+    <value>положение лампы-индикатора по горизонтали</value>
+  </data>
+  <data name="sense6/bIndicatorHAlignment_tooltip" xml:space="preserve">
+    <value>Определяет положение лампы-индикатора относительно экрана. То есть, определяет в какой части экрана отображать индикатор и от этой части будет отсчитываться горизонтальное смещение индикатора. Индикатор можно располагать в левой,правой половине либо по центру экрана.</value>
+  </data>
+  <data name="sense6/bIndicatorVAlignment_caption" xml:space="preserve">
+    <value>положение индикатора по вертикали</value>
+  </data>
+  <data name="sense6/bIndicatorVAlignment_tooltip" xml:space="preserve">
+    <value>Определяет положение лампы-индикатора относительно экрана. То есть, определяет в какой части экрана отображать индикатор и от этой части будет отсчитываться вертикальное смещение индикатора. Индикатор можно располагать в нижней,верхней половине либо по центру экрана.</value>
+  </data>
+  <data name="sense6/bLampOn_caption" xml:space="preserve">
+    <value>отображать лампу-индикатор</value>
+  </data>
+  <data name="sense6/bLampOn_tooltip" xml:space="preserve">
+    <value>Определяет - нужно ли отображать лампу-индикатор при наведении противника на ваш танк.</value>
+  </data>
+  <data name="sense6/bottom" xml:space="preserve">
+    <value>снизу</value>
+  </data>
+  <data name="sense6/center" xml:space="preserve">
+    <value>посередине</value>
+  </data>
+  <data name="sense6/left" xml:space="preserve">
+    <value>слева</value>
+  </data>
+  <data name="sense6/mod_description" xml:space="preserve">
+    <value>Псевдо-заменитель перка Шестое чувство. В случае, когда ствол противника направлен на ваш танк - мод отображает направление этого противника и сообщает параметры врага.</value>
+  </data>
+  <data name="sense6/mod_name" xml:space="preserve">
+    <value>Псевдо-шестое чувство</value>
+  </data>
+  <data name="sense6/right" xml:space="preserve">
+    <value>справа</value>
+  </data>
+  <data name="sense6/top" xml:space="preserve">
+    <value>сверху</value>
+  </data>
+  <data name="sniper_zoom/mod_description" xml:space="preserve">
+    <value>Позволяет увеличить степень приближения в снайперском режиме прицеливания.</value>
+  </data>
+  <data name="sniper_zoom/mod_name" xml:space="preserve">
+    <value>Расширенный снайперский зум</value>
+  </data>
+  <data name="sniper_zoom/zoomSteps_caption" xml:space="preserve">
+    <value>количество шагов</value>
+  </data>
+  <data name="sniper_zoom/zoomSteps_tooltip" xml:space="preserve">
+    <value>Определяет - какое количество шагов будет использоваться прокруткой колесом мыши, для достижения максимального приближения.</value>
+  </data>
+  <data name="spg_search/IndicatorXOffset_caption" xml:space="preserve">
+    <value>горизонтальное смещение индикатора на экране</value>
+  </data>
+  <data name="spg_search/IndicatorXOffset_tooltip" xml:space="preserve">
+    <value>Задает горизонтальное смещение индикатора на экране относительно положения индикатора по горизонтали. Положительные значения сдвигают индикатор вправо. Отрицательные - влево.</value>
+  </data>
+  <data name="spg_search/IndicatorYOffset_caption" xml:space="preserve">
+    <value>вертикальное смещение индикатора на экране</value>
+  </data>
+  <data name="spg_search/IndicatorYOffset_tooltip" xml:space="preserve">
+    <value>Задает вертикальное смещение индикатора на экране относительно положения индикатора по вертикали. Положительные значения сдвигают индикатор вниз. Отрицательные - вверх.</value>
+  </data>
+  <data name="spg_search/bIndicatorHAlignment_caption" xml:space="preserve">
+    <value>положение индикатора (лампы) по горизонтали</value>
+  </data>
+  <data name="spg_search/bIndicatorHAlignment_tooltip" xml:space="preserve">
+    <value>Задает положение индикатора (лампы) на экране по горизонтали. То есть от какой части экрана вести отсчет смещения по горизонтали задаваемого другим параметром. Можно распологать индикатор слева,справа и посередине экрана.</value>
+  </data>
+  <data name="spg_search/bIndicatorVAlignment_caption" xml:space="preserve">
+    <value>положение индикатора (лампы) по вертикали</value>
+  </data>
+  <data name="spg_search/bIndicatorVAlignment_tooltip" xml:space="preserve">
+    <value>Задает положение индикатора (лампы) на экране по вертикали. То есть от какой части экрана вести отсчет смещения по вертикали задаваемого другим параметром. Можно распологать индикатор сверху,снизу и посередине экрана.</value>
+  </data>
+  <data name="spg_search/bLampOn_caption" xml:space="preserve">
+    <value>отображать индикатор обнаружения (лампу)</value>
+  </data>
+  <data name="spg_search/bLampOn_tooltip" xml:space="preserve">
+    <value>Включает/отключает отображение индикатора обнаружения (лампы), в момент обнаружения артиллерии противника.</value>
+  </data>
+  <data name="spg_search/bottom" xml:space="preserve">
+    <value>снизу</value>
+  </data>
+  <data name="spg_search/center" xml:space="preserve">
+    <value>посередине</value>
+  </data>
+  <data name="spg_search/enemy_models_marker_type_caption" xml:space="preserve">
+    <value>окраска маркера обнаруженной техники</value>
+  </data>
+  <data name="spg_search/enemy_models_marker_type_tooltip" xml:space="preserve">
+    <value>Выбирайте один из двух вариантов окраски: маркер фиолетового цвета с синим текстом либо маркер красного цвета с красным текстом (как у противников)</value>
+  </data>
+  <data name="spg_search/invisible_enemy_color_alpha_caption" xml:space="preserve">
+    <value>преобладание цвета обнаруженных противников к стандартной окраске танка</value>
+  </data>
+  <data name="spg_search/invisible_enemy_color_alpha_tooltip" xml:space="preserve">
+    <value>Чем больше это значение, тем больше цвета окраски присутствует на отображаемой артиллерии противника. Чем меньше это значение, тем окраска артиллерии ближе к обычной.</value>
+  </data>
+  <data name="spg_search/invisible_enemy_color_caption" xml:space="preserve">
+    <value>цвет обнаруженных противников на поле боя</value>
+  </data>
+  <data name="spg_search/invisible_enemy_color_tooltip" xml:space="preserve">
+    <value>Этим цветом будет окрашена обнаруженная артиллерия противника на поле боя в случае, если обнаруженная артиллерия отображается в виде самой техники, а не куба.</value>
+  </data>
+  <data name="spg_search/left" xml:space="preserve">
+    <value>слева</value>
+  </data>
+  <data name="spg_search/like_a_cube" xml:space="preserve">
+    <value>в виде куба</value>
+  </data>
+  <data name="spg_search/like_vehicle" xml:space="preserve">
+    <value>в виде танка</value>
+  </data>
+  <data name="spg_search/marker_hiding_delay_caption" xml:space="preserve">
+    <value>время исчезновения метки на миникарте (в секундах)</value>
+  </data>
+  <data name="spg_search/marker_hiding_delay_tooltip" xml:space="preserve">
+    <value>Определяет время исчезновения метки на миникарте и измеряется в секундах. Через это время метка на миникарте от обнаруженной артиллерии и объект на поле боя исчезнут.</value>
+  </data>
+  <data name="spg_search/marker_scale_caption" xml:space="preserve">
+    <value>масштаб метки на миникарте (в % от стандартного)</value>
+  </data>
+  <data name="spg_search/marker_scale_tooltip" xml:space="preserve">
+    <value>Определяет масштаб метки обнаруженной артиллерии на миникарте и задается в процентах от стандартной величины метки.</value>
+  </data>
+  <data name="spg_search/mod_description" xml:space="preserve">
+    <value>Мод позволяет выяснить примерное местоположение вражеской артиллерии в момент её стрельбы по вашим союзникам. Чем больше союзников вы можете увидеть на экране, а именно - чем больше маркеров техники союзников вы можете видеть на экране - тем больше шансов обнаружить артиллерию противника когда она стреляет по вам или по видимым союзникам. Союзники, которые видны только на миникарте не смогут помочь вам обнаружить артиллерию противника. Иногда вражеская артиллерия отображается в воздухе либо на здании или горе. Это связано с погрешностью вычисления местоположения, при присутствии таких неровностей вокруг вражеской артиллерии или союзников, по которым она попадает. В случае обнаружения выстрела артиллерии противника будет отображен на экране соответствующий индикатор (лампа) а на миникарте появится отметка с местоположением противника. На отметке будет отображено название техники и время до её перезарядки. Время перезарядки кассетной артиллерии будет отображаться временем перезарядки всей кассеты. Можно выбрать два варианта вида отображения обнаруженной техники на поле боя. Старый вариант в виде куба и новый вариант в виде самой техники.</value>
+  </data>
+  <data name="spg_search/mod_name" xml:space="preserve">
+    <value>Поиск приблизительного местоположения артиллерии</value>
+  </data>
+  <data name="spg_search/red_and_red_text" xml:space="preserve">
+    <value>красного цвета с красным текстом</value>
+  </data>
+  <data name="spg_search/right" xml:space="preserve">
+    <value>справа</value>
+  </data>
+  <data name="spg_search/show_marker_on_vehicle_caption" xml:space="preserve">
+    <value>отображать маркер на обнаруженной технике</value>
+  </data>
+  <data name="spg_search/show_marker_on_vehicle_tooltip" xml:space="preserve">
+    <value>Этот параметр включает/отключает отображение маркера с параметрами обнаруженной артиллерии.</value>
+  </data>
+  <data name="spg_search/show_reload_process_on_minimap_caption" xml:space="preserve">
+    <value>отображать время перезарядки противника на миникарте</value>
+  </data>
+  <data name="spg_search/show_reload_process_on_minimap_tooltip" xml:space="preserve">
+    <value>Параметр включает/отключает отображение примерного оставшегося времени перезарядки обнаруженной артиллерии. Для кассетных типов артиллерии отображается время перезарядки всей кассеты а не снаряда в ней.</value>
+  </data>
+  <data name="spg_search/top" xml:space="preserve">
+    <value>сверху</value>
+  </data>
+  <data name="spg_search/violet_and_blue_text" xml:space="preserve">
+    <value>фиолетового цвета с синим текстом</value>
+  </data>
+  <data name="spg_search/world_show_model_type_caption" xml:space="preserve">
+    <value>отображение обнаруженной техники на поле боя</value>
+  </data>
+  <data name="spg_search/world_show_model_type_tooltip" xml:space="preserve">
+    <value>Выбирайте один из двух вариантов отображения обнаруженной артиллерии на поле боя. Старый вариант - в виде красного куба либо новый вариант - в виде самой техники.</value>
+  </data>
+  <data name="spgaim/mod_description" xml:space="preserve">
+    <value>Артиллерийский режим для обычных танков,ПТ-САУ и снайперский режим для САУ.</value>
+  </data>
+  <data name="spgaim/mod_name" xml:space="preserve">
+    <value>Артиллерийский/снайперский режим на танках/САУ.</value>
+  </data>
+  <data name="spgaim/switchMode_caption" xml:space="preserve">
+    <value>Клавиша включения артиллерийского/снайперского режима</value>
+  </data>
+  <data name="spgaim/switchMode_tooltip" xml:space="preserve">
+    <value>Клавиша для перехода в артиллерийский или снайперский режим. Для обычных танков и ПТ-САУ включает артиллерийский режим прицеливания. Для САУ включает снайперский режим прицеливания.</value>
+  </data>
+  <data name="trassers/mod_description" xml:space="preserve">
+    <value>Этот мод улучшает отображение трассеров выстрелов. Модифицированные трассеры повторяются несколько раз и окрашены в различные цвета, для их лучшего восприятия.</value>
+  </data>
+  <data name="trassers/mod_name" xml:space="preserve">
+    <value>Цветные трассеры</value>
+  </data>
+  <data name="trassers/show_tracers_hotkey_caption" xml:space="preserve">
+    <value>клавиша включения/выключения отображения трассеров</value>
+  </data>
+  <data name="trassers/show_tracers_hotkey_tooltip" xml:space="preserve">
+    <value>Эта клавиша скрывает/отображает трассеры во время боя.</value>
+  </data>
+  <data name="trassers/tracers_shown_modified" xml:space="preserve">
+    <value>Трассеры отображаются модифицированным образом</value>
+  </data>
+  <data name="trassers/tracers_shown_normal" xml:space="preserve">
+    <value>Трассеры отображаются стандартным образом</value>
+  </data>
+  <data name="treefall/marker_scale_caption" xml:space="preserve">
+    <value>Масштаб метки на миникарте (в % от стандартного)</value>
+  </data>
+  <data name="treefall/marker_scale_tooltip" xml:space="preserve">
+    <value>Определяет масштаб метки о поваленном дереве или разрушенном объекте на миникарте и измеряется в процентах от изначального стандартного размера.</value>
+  </data>
+  <data name="treefall/mod_description" xml:space="preserve">
+    <value>Этот мод отображает поваленные деревья и разрушенные объекты (дома, заборы и т.п.) на миникарте специальной меткой.</value>
+  </data>
+  <data name="treefall/mod_name" xml:space="preserve">
+    <value>Поваленные деревья/разрушенные объекты</value>
+  </data>
+  <data name="tundra2/hideMode_caption" xml:space="preserve">
+    <value>отключение/включение растительности</value>
+  </data>
+  <data name="tundra2/hideMode_tooltip" xml:space="preserve">
+    <value>Этой клавишей можно быстро отключить/включить отображение растительности на поле боя.</value>
+  </data>
+  <data name="tundra2/mod_description" xml:space="preserve">
+    <value>Мод скрывает/отображает деревья и кусты на поле боя. Возможно скрывать только кроны деревьев, оставив отображение стволов.</value>
+  </data>
+  <data name="tundra2/mod_name" xml:space="preserve">
+    <value>Тундра</value>
+  </data>
+  <data name="tundra2/show_trunks_with_leafs_caption" xml:space="preserve">
+    <value>отображать стволы деревьев</value>
+  </data>
+  <data name="tundra2/show_trunks_with_leafs_tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, то при отключении растительности на поле боя - стволы деревьев по прежнему будут отображаться. Это бывает полезно когда вы прячетесь за деревьями.</value>
+  </data>
+  <data name="tundra2/switchMode_caption" xml:space="preserve">
+    <value>переключение режима</value>
+  </data>
+  <data name="tundra2/switchMode_tooltip" xml:space="preserve">
+    <value>Этой клавишей будет переключаться режим отображения растительности на поле боя.
+1-Растительность отображается полностью.2-Растительность отключена только в снайперском режиме прицеливания.3-Растительность скрыта во всех режимах прицеливания.</value>
+  </data>
+  <data name="tundra2/vegetation_off_in_all_modes" xml:space="preserve">
+    <value>Растительность отключена во всех режимах</value>
+  </data>
+  <data name="tundra2/vegetation_off_in_sniper_mode" xml:space="preserve">
+    <value>Растительность отключена в снайперском режиме</value>
+  </data>
+  <data name="tundra2/vegetation_on" xml:space="preserve">
+    <value>Растительность включена</value>
+  </data>
+  <data name="white_skeletons/mod_description" xml:space="preserve">
+    <value>Этот мод окрашивает остовы уничтоженных танков белым цветом. Такая окраска помогает разглядеть открытые части врагов, прячущихся за уничтоженной техникой.</value>
+  </data>
+  <data name="white_skeletons/mod_name" xml:space="preserve">
+    <value>Белые остовы уничтоженной техники</value>
+  </data>
+</root>

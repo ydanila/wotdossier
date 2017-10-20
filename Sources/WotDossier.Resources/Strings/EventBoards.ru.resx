@@ -1,0 +1,852 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="awards/class/AT-SPG" xml:space="preserve">
+    <value>Награды для ПТ-САУ</value>
+  </data>
+  <data name="awards/class/SPG" xml:space="preserve">
+    <value>Награды для САУ</value>
+  </data>
+  <data name="awards/class/heavyTank" xml:space="preserve">
+    <value>Награды для тяжёлых танков</value>
+  </data>
+  <data name="awards/class/lightTank" xml:space="preserve">
+    <value>Награды для лёгких танков</value>
+  </data>
+  <data name="awards/class/mediumTank" xml:space="preserve">
+    <value>Награды для средних танков</value>
+  </data>
+  <data name="awards/level" xml:space="preserve">
+    <value>Награды для техники %(level)s уровня</value>
+  </data>
+  <data name="awards/nation/china" xml:space="preserve">
+    <value>Награды для Китая</value>
+  </data>
+  <data name="awards/nation/czech" xml:space="preserve">
+    <value>Награды для Чехословакии</value>
+  </data>
+  <data name="awards/nation/france" xml:space="preserve">
+    <value>Награды для Франции</value>
+  </data>
+  <data name="awards/nation/germany" xml:space="preserve">
+    <value>Награды для Германии</value>
+  </data>
+  <data name="awards/nation/japan" xml:space="preserve">
+    <value>Награды для Японии</value>
+  </data>
+  <data name="awards/nation/poland" xml:space="preserve">
+    <value>Награды для Польши</value>
+  </data>
+  <data name="awards/nation/sweden" xml:space="preserve">
+    <value>Награды для Швеции</value>
+  </data>
+  <data name="awards/nation/uk" xml:space="preserve">
+    <value>Награды для Великобритании</value>
+  </data>
+  <data name="awards/nation/usa" xml:space="preserve">
+    <value>Награды для США</value>
+  </data>
+  <data name="awards/nation/ussr" xml:space="preserve">
+    <value>Награды для СССР</value>
+  </data>
+  <data name="awards/tooltip/class" xml:space="preserve">
+    <value>Нажмите, чтобы показать награды для этого типа техники.</value>
+  </data>
+  <data name="awards/tooltip/level" xml:space="preserve">
+    <value>Нажмите, чтобы показать награды для техники этого уровня.</value>
+  </data>
+  <data name="awards/tooltip/nation" xml:space="preserve">
+    <value>Нажмите, чтобы показать награды для этой нации.</value>
+  </data>
+  <data name="awards/vehicle" xml:space="preserve">
+    <value>Награды для выбранной машины</value>
+  </data>
+  <data name="badge/tooltip/description" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="badgesGroup/tooltip/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="block/award" xml:space="preserve">
+    <value>Основная награда</value>
+  </data>
+  <data name="block/objective" xml:space="preserve">
+    <value>Условия</value>
+  </data>
+  <data name="block/task" xml:space="preserve">
+    <value>Задача</value>
+  </data>
+  <data name="button/awards" xml:space="preserve">
+    <value>Все награды</value>
+  </data>
+  <data name="button/awards/tooltip" xml:space="preserve">
+    <value>Нажмите, чтобы перейти к списку всех наград соревнования.</value>
+  </data>
+  <data name="button/regulations" xml:space="preserve">
+    <value>Регламент</value>
+  </data>
+  <data name="button/regulations/tooltip" xml:space="preserve">
+    <value>Нажмите, чтобы перейти к полному описанию соревнования.</value>
+  </data>
+  <data name="condition/battletype/random" xml:space="preserve">
+    <value>Случайный бой 15×15</value>
+  </data>
+  <data name="condition/battletype/ranked" xml:space="preserve">
+    <value>Ранговый бой</value>
+  </data>
+  <data name="condition/battletype/squadallowed" xml:space="preserve">
+    <value>Взводы разрешены</value>
+  </data>
+  <data name="condition/battletype/squadnotallowed" xml:space="preserve">
+    <value>Взводы запрещены</value>
+  </data>
+  <data name="condition/primetime/any" xml:space="preserve">
+    <value>Любые сервер и время</value>
+  </data>
+  <data name="condition/primetime/chosen" xml:space="preserve">
+    <value>На указанных серверах</value>
+  </data>
+  <data name="condition/vehicle/chosen" xml:space="preserve">
+    <value>На указанной технике:</value>
+  </data>
+  <data name="condition/vehicle/exist" xml:space="preserve">
+    <value>Есть в Ангаре</value>
+  </data>
+  <data name="condition/vehicle/missing" xml:space="preserve">
+    <value>Нет в Ангаре</value>
+  </data>
+  <data name="condition/vehicle/single" xml:space="preserve">
+    <value>На %(vehicle)s</value>
+  </data>
+  <data name="dateTime/months/1" xml:space="preserve">
+    <value>января</value>
+  </data>
+  <data name="dateTime/months/10" xml:space="preserve">
+    <value>октября</value>
+  </data>
+  <data name="dateTime/months/11" xml:space="preserve">
+    <value>ноября</value>
+  </data>
+  <data name="dateTime/months/12" xml:space="preserve">
+    <value>декабря</value>
+  </data>
+  <data name="dateTime/months/2" xml:space="preserve">
+    <value>февраля</value>
+  </data>
+  <data name="dateTime/months/3" xml:space="preserve">
+    <value>марта</value>
+  </data>
+  <data name="dateTime/months/4" xml:space="preserve">
+    <value>апреля</value>
+  </data>
+  <data name="dateTime/months/5" xml:space="preserve">
+    <value>мая</value>
+  </data>
+  <data name="dateTime/months/6" xml:space="preserve">
+    <value>июня</value>
+  </data>
+  <data name="dateTime/months/7" xml:space="preserve">
+    <value>июля</value>
+  </data>
+  <data name="dateTime/months/8" xml:space="preserve">
+    <value>августа</value>
+  </data>
+  <data name="dateTime/months/9" xml:space="preserve">
+    <value>сентября</value>
+  </data>
+  <data name="excel/btnClose" xml:space="preserve">
+    <value>К СОРЕВНОВАНИЯМ</value>
+  </data>
+  <data name="excel/header/reason/battlesLeft" xml:space="preserve">
+    <value>Для попадания в рейтинг осталось провести боёв: %(number)s</value>
+  </data>
+  <data name="excel/noData" xml:space="preserve">
+    <value>Призовые места ещё не заняты</value>
+  </data>
+  <data name="excel/participate/join" xml:space="preserve">
+    <value>Участвовать</value>
+  </data>
+  <data name="excel/participate/notParticipated" xml:space="preserve">
+    <value>Вы не участвовали в данном рейтинге</value>
+  </data>
+  <data name="excel/subHeader" xml:space="preserve">
+    <value>Соревнование: %(eventName)s</value>
+  </data>
+  <data name="header/participate/button/join" xml:space="preserve">
+    <value>Принять участие</value>
+  </data>
+  <data name="header/participate/button/leave" xml:space="preserve">
+    <value>Покинуть соревнование</value>
+  </data>
+  <data name="header/participate/finished" xml:space="preserve">
+    <value>Cоревнование завершено</value>
+  </data>
+  <data name="header/participate/notStarted" xml:space="preserve">
+    <value>Вы записаны участником</value>
+  </data>
+  <data name="header/participate/reason/byAge" xml:space="preserve">
+    <value>аккаунт создан после %date%</value>
+  </data>
+  <data name="header/participate/reason/cantJoin" xml:space="preserve">
+    <value>Соревнование недоступно</value>
+  </data>
+  <data name="header/participate/reason/leftEvent" xml:space="preserve">
+    <value>Вы покинули это соревнование</value>
+  </data>
+  <data name="header/participate/started" xml:space="preserve">
+    <value>Вы участвуете</value>
+  </data>
+  <data name="header/timer" xml:space="preserve">
+    <value>До завершения:</value>
+  </data>
+  <data name="maintenance/body" xml:space="preserve">
+    <value>Приносим извинения за временные неудобства.</value>
+  </data>
+  <data name="maintenance/title" xml:space="preserve">
+    <value>Ошибка загрузки данных</value>
+  </data>
+  <data name="maintenance/update" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="notification/buttons/details" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
+  <data name="notification/eventFinished/body" xml:space="preserve">
+    <value>Соревнование «%(eventName)s» завершено. В ближайшие дни будут утверждены победители и вручены награды.</value>
+  </data>
+  <data name="notification/eventFinished/header" xml:space="preserve">
+    <value>Соревнование завершено</value>
+  </data>
+  <data name="notification/eventJoin/afterStart/body" xml:space="preserve">
+    <value>Теперь результаты ваших боёв учитываются в соревновании. Вы сможете попасть в рейтинг и получить награду.</value>
+  </data>
+  <data name="notification/eventJoin/afterStart/header" xml:space="preserve">
+    <value>Вы записались в участники</value>
+  </data>
+  <data name="notification/eventJoin/beforeStart/body" xml:space="preserve">
+    <value>Результаты ваших боёв будут учитываться с началом соревнования. Вы сможете попасть в рейтинг и получить награду.</value>
+  </data>
+  <data name="notification/eventJoin/beforeStart/header" xml:space="preserve">
+    <value>Вы записались в участники</value>
+  </data>
+  <data name="notification/eventJoin/conditionsFailed/body" xml:space="preserve">
+    <value>Не удалось записаться в участники: требования не выполнены.</value>
+  </data>
+  <data name="notification/eventJoin/registrationDeadline/body" xml:space="preserve">
+    <value>Не удалось записаться в участники: регистрация завершена.</value>
+  </data>
+  <data name="notification/eventLeave/afterStart/body" xml:space="preserve">
+    <value>Ваша статистика в соревновании будет обнулена после обновления рейтингов.</value>
+  </data>
+  <data name="notification/eventLeave/afterStart/header" xml:space="preserve">
+    <value>Вы покинули соревнование</value>
+  </data>
+  <data name="notification/eventLeave/beforeStart/body" xml:space="preserve">
+    <value>Ваша статистика не будет учитываться в этом соревновании.</value>
+  </data>
+  <data name="notification/eventLeave/beforeStart/header" xml:space="preserve">
+    <value>Вы покинули соревнование</value>
+  </data>
+  <data name="notification/eventLeave/registrationDeadline/body" xml:space="preserve">
+    <value>Не удалось покинуть соревнование: отведённое на это время закончилось.</value>
+  </data>
+  <data name="notification/eventStarted/body" xml:space="preserve">
+    <value>Соревнование «%(eventName)s» началось! Игроки, занявшие призовые места в конце этого соревнования, получат ценные награды.</value>
+  </data>
+  <data name="notification/eventStarted/header" xml:space="preserve">
+    <value>Соревнование стартовало</value>
+  </data>
+  <data name="notification/unknownError/body" xml:space="preserve">
+    <value>Не удалось совершить операцию.</value>
+  </data>
+  <data name="orders/title" xml:space="preserve">
+    <value>Регламент</value>
+  </data>
+  <data name="popover/buttons/cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="popover/buttons/rating" xml:space="preserve">
+    <value>Перейти к рейтингу</value>
+  </data>
+  <data name="popover/title" xml:space="preserve">
+    <value>Выбор рейтинга</value>
+  </data>
+  <data name="popover/tooltip/class" xml:space="preserve">
+    <value>Перейти к рейтингу по выбранному типу техники.</value>
+  </data>
+  <data name="popover/tooltip/level" xml:space="preserve">
+    <value>Перейти к рейтингу по выбранному уровню техники.</value>
+  </data>
+  <data name="popover/tooltip/nation" xml:space="preserve">
+    <value>Перейти к рейтингу по выбранной нации.</value>
+  </data>
+  <data name="server/list" xml:space="preserve">
+    <value>Чтобы бои учитывались в соревновании, перейдите на сервер:</value>
+  </data>
+  <data name="server/noSuitable/body" xml:space="preserve">
+    <value>Ближайшее время учёта боёв: %(time)s на %(server)s. Расписание боёв соревнования</value>
+  </data>
+  <data name="server/noSuitable/header" xml:space="preserve">
+    <value>В это время бои в рамках соревнования не учитываются</value>
+  </data>
+  <data name="status/bestResults/many" xml:space="preserve">
+    <value>Мои лучшие результаты</value>
+  </data>
+  <data name="status/bestResults/one" xml:space="preserve">
+    <value>Мои результаты</value>
+  </data>
+  <data name="status/cantJoin/notAvailable" xml:space="preserve">
+    <value>Соревнование недоступно:</value>
+  </data>
+  <data name="status/cantJoin/reason/banned" xml:space="preserve">
+    <value>Вы не можете участвовать в данном соревновании из-за нарушения Правил игры</value>
+  </data>
+  <data name="status/cantJoin/reason/byAge" xml:space="preserve">
+    <value>аккаунт создан после %(date)s</value>
+  </data>
+  <data name="status/cantJoin/reason/byBattlesCount" xml:space="preserve">
+    <value>количество боёв в режиме «Случайный бой» не достигло %(number)s</value>
+  </data>
+  <data name="status/cantJoin/reason/byWinRateHigh" xml:space="preserve">
+    <value>победы в режиме «Случайный бой» превысили %(number)s%%</value>
+  </data>
+  <data name="status/cantJoin/reason/byWinRateLow" xml:space="preserve">
+    <value>победы в режиме «Случайный бой» не достигли %(number)s%%</value>
+  </data>
+  <data name="status/cantJoin/reason/endRegistration" xml:space="preserve">
+    <value>Регистрация завершена</value>
+  </data>
+  <data name="status/cantJoin/reason/endRegistration/tooltip" xml:space="preserve">
+    <value>Вы не можете стать участником этого соревнования.</value>
+  </data>
+  <data name="status/cantJoin/reason/leftEvent" xml:space="preserve">
+    <value>Вы покинули это соревнование</value>
+  </data>
+  <data name="status/cantJoin/reason/leftEvent/tooltip" xml:space="preserve">
+    <value>Результаты ваших боёв больше не учитываются в этом соревновании. Вы не можете попасть в рейтинг и получить награду.
+Вы не можете возобновить участие в этом соревновании.</value>
+  </data>
+  <data name="status/cantJoin/reason/many" xml:space="preserve">
+    <value>требования не выполнены %(number)s</value>
+  </data>
+  <data name="status/cantJoin/reason/moreThanOne" xml:space="preserve">
+    <value>требования не выполнены (%(number)s)</value>
+  </data>
+  <data name="status/cantJoin/reason/outOfRating" xml:space="preserve">
+    <value>Вы не заняли позицию в рейтинге</value>
+  </data>
+  <data name="status/cantJoin/reason/special" xml:space="preserve">
+    <value>Вы не можете участвовать в соревновании на этом аккаунте.</value>
+  </data>
+  <data name="status/participate/cantJoin" xml:space="preserve">
+    <value>Соревнование недоступно</value>
+  </data>
+  <data name="status/participate/needMoreBattles" xml:space="preserve">
+    <value>Проводите бои с указанными условиями, и после обновления рейтингов здесь будут показаны ваши результаты.</value>
+  </data>
+  <data name="status/participate/notParticipated" xml:space="preserve">
+    <value>Вы не принимали участия в соревновании</value>
+  </data>
+  <data name="summary/averagedamage" xml:space="preserve">
+    <value>Средний урон</value>
+  </data>
+  <data name="summary/averagedamageassisted" xml:space="preserve">
+    <value>Средний урон с вашей помощью</value>
+  </data>
+  <data name="summary/averagexp" xml:space="preserve">
+    <value>Средний опыт</value>
+  </data>
+  <data name="summary/battles" xml:space="preserve">
+    <value>Бои в соревновании</value>
+  </data>
+  <data name="summary/damage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="summary/damageassist" xml:space="preserve">
+    <value>Урон с вашей помощью</value>
+  </data>
+  <data name="summary/damageblocked" xml:space="preserve">
+    <value>Заблокированный урон</value>
+  </data>
+  <data name="summary/description/awards/title/award" xml:space="preserve">
+    <value>НАГРАДА В КОНЦЕ СОРЕВНОВАНИЯ</value>
+  </data>
+  <data name="summary/description/awards/title/group" xml:space="preserve">
+    <value>ГРУППА</value>
+  </data>
+  <data name="summary/description/awards/title/position" xml:space="preserve">
+    <value>ПОЗИЦИИ</value>
+  </data>
+  <data name="summary/description/max/class" xml:space="preserve">
+    <value>Лучший бой на %(value)s</value>
+  </data>
+  <data name="summary/description/max/level" xml:space="preserve">
+    <value>Лучший бой на технике %(value)s уровня</value>
+  </data>
+  <data name="summary/description/max/nation" xml:space="preserve">
+    <value>Лучший бой на технике нации: %(value)s</value>
+  </data>
+  <data name="summary/description/max/vehicle" xml:space="preserve">
+    <value>Лучший бой на %(value)s</value>
+  </data>
+  <data name="summary/description/sum/class" xml:space="preserve">
+    <value>Статистика в событии на %(value)s</value>
+  </data>
+  <data name="summary/description/sum/level" xml:space="preserve">
+    <value>Статистика в событии на технике %(value)s уровня</value>
+  </data>
+  <data name="summary/description/sum/nation" xml:space="preserve">
+    <value>Статистика в событии на технике нации: %(value)s</value>
+  </data>
+  <data name="summary/description/sum/vehicle" xml:space="preserve">
+    <value>Статистика в событии на машине: %(value)s</value>
+  </data>
+  <data name="summary/description/sumN/class" xml:space="preserve">
+    <value>Лучшие бои на %(value)s</value>
+  </data>
+  <data name="summary/description/sumN/level" xml:space="preserve">
+    <value>Лучшие бои на технике %(value)s уровня</value>
+  </data>
+  <data name="summary/description/sumN/nation" xml:space="preserve">
+    <value>Лучшие бои на технике нации: %(value)s</value>
+  </data>
+  <data name="summary/description/sumN/vehicle" xml:space="preserve">
+    <value>Лучшие бои на %(value)s</value>
+  </data>
+  <data name="summary/description/sumSeqN/class" xml:space="preserve">
+    <value>Лучшая серия боёв на %(value)s</value>
+  </data>
+  <data name="summary/description/sumSeqN/level" xml:space="preserve">
+    <value>Лучшая серия боёв на технике %(value)s уровня</value>
+  </data>
+  <data name="summary/description/sumSeqN/nation" xml:space="preserve">
+    <value>Лучшая серия боёв на технике нации: %(value)s</value>
+  </data>
+  <data name="summary/description/sumSeqN/vehicle" xml:space="preserve">
+    <value>Лучшая серия боёв на %(value)s</value>
+  </data>
+  <data name="summary/destroyedvehicles" xml:space="preserve">
+    <value>Уничтожено машин противника</value>
+  </data>
+  <data name="summary/fightInSquaad" xml:space="preserve">
+    <value>Бой во взводе</value>
+  </data>
+  <data name="summary/fightNotInSquaad" xml:space="preserve">
+    <value>Бой вне взвода</value>
+  </data>
+  <data name="summary/originalXP" xml:space="preserve">
+    <value>«Чистый» опыт</value>
+  </data>
+  <data name="summary/param/max/damageAssisted" xml:space="preserve">
+    <value>Урон, нанесённый с помощью игрока</value>
+  </data>
+  <data name="summary/param/max/damageDealt" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="summary/param/max/originalXP" xml:space="preserve">
+    <value>«Чистый» опыт</value>
+  </data>
+  <data name="summary/param/max/xp" xml:space="preserve">
+    <value>Опыт</value>
+  </data>
+  <data name="summary/param/sumAll/damageAssisted" xml:space="preserve">
+    <value>Средний урон, нанесённый с помощью игрока</value>
+  </data>
+  <data name="summary/param/sumAll/damageDealt" xml:space="preserve">
+    <value>Средний урон</value>
+  </data>
+  <data name="summary/param/sumAll/originalXP" xml:space="preserve">
+    <value>Средний «чистый» опыт</value>
+  </data>
+  <data name="summary/param/sumAll/xp" xml:space="preserve">
+    <value>Средний опыт</value>
+  </data>
+  <data name="summary/param/sumN/damageAssisted" xml:space="preserve">
+    <value>Средний урон, нанесённый с помощью игрока</value>
+  </data>
+  <data name="summary/param/sumN/damageDealt" xml:space="preserve">
+    <value>Сумма урона</value>
+  </data>
+  <data name="summary/param/sumN/originalXP" xml:space="preserve">
+    <value>Сумма «чистого» опыта</value>
+  </data>
+  <data name="summary/param/sumN/xp" xml:space="preserve">
+    <value>Сумма опыта</value>
+  </data>
+  <data name="summary/param/sumSeqN/damageAssisted" xml:space="preserve">
+    <value>Средний урон, нанесённый с помощью игрока</value>
+  </data>
+  <data name="summary/param/sumSeqN/damageDealt" xml:space="preserve">
+    <value>Сумма урона</value>
+  </data>
+  <data name="summary/param/sumSeqN/originalXP" xml:space="preserve">
+    <value>Сумма «чистого» опыта</value>
+  </data>
+  <data name="summary/param/sumSeqN/xp" xml:space="preserve">
+    <value>Сумма опыта</value>
+  </data>
+  <data name="summary/position" xml:space="preserve">
+    <value>Позиция в рейтинге: %(position)s</value>
+  </data>
+  <data name="summary/result/draw" xml:space="preserve">
+    <value>Ничья</value>
+  </data>
+  <data name="summary/result/loss" xml:space="preserve">
+    <value>Поражение</value>
+  </data>
+  <data name="summary/result/win" xml:space="preserve">
+    <value>Победа</value>
+  </data>
+  <data name="summary/status" xml:space="preserve">
+    <value>Обновлено %(day)s в %(time)s</value>
+  </data>
+  <data name="summary/status/tooltip" xml:space="preserve">
+    <value>Обновление данных происходит раз в %(interval)s мин.</value>
+  </data>
+  <data name="summary/winrate" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="table/header/player" xml:space="preserve">
+    <value>Игрок</value>
+  </data>
+  <data name="table/header/position" xml:space="preserve">
+    <value>№</value>
+  </data>
+  <data name="table/selectParticipateBtn/" xml:space="preserve">
+    <value>Покинуть событие</value>
+  </data>
+  <data name="table/selectRatingBtn/" xml:space="preserve">
+    <value>Все рейтинги</value>
+  </data>
+  <data name="table/selectRegistrationBtn/" xml:space="preserve">
+    <value>Записаться в участники</value>
+  </data>
+  <data name="table/stripe/bronze/title" xml:space="preserve">
+    <value>III степень (%(placeFrom)d-%(placeTo)d места):</value>
+  </data>
+  <data name="table/stripe/gold/title" xml:space="preserve">
+    <value>I степень (%(placeFrom)d-%(placeTo)d места):</value>
+  </data>
+  <data name="table/stripe/goldCustom/title" xml:space="preserve">
+    <value>I степень</value>
+  </data>
+  <data name="table/stripe/iron/title" xml:space="preserve">
+    <value>IV степень (%(placeFrom)d-%(placeTo)d места):</value>
+  </data>
+  <data name="table/stripe/silver/title" xml:space="preserve">
+    <value>II степень (%(placeFrom)d-%(placeTo)d места):</value>
+  </data>
+  <data name="table/stripe/wood/title" xml:space="preserve">
+    <value>Места без наград</value>
+  </data>
+  <data name="task/eventtype/all" xml:space="preserve">
+    <value>Один рейтинг для всех участников</value>
+  </data>
+  <data name="task/eventtype/class" xml:space="preserve">
+    <value>Для каждого типа техники отдельный рейтинг</value>
+  </data>
+  <data name="task/eventtype/level" xml:space="preserve">
+    <value>Для каждого уровня техники отдельный рейтинг</value>
+  </data>
+  <data name="task/eventtype/nation" xml:space="preserve">
+    <value>Для каждой нации отдельный рейтинг</value>
+  </data>
+  <data name="task/eventtype/vehicle" xml:space="preserve">
+    <value>Для каждой машины отдельный рейтинг</value>
+  </data>
+  <data name="task/objective/max/damageAssisted" xml:space="preserve">
+    <value>Попасть в рейтинг по урону, нанесённому с вашей помощью</value>
+  </data>
+  <data name="task/objective/max/damageDealt" xml:space="preserve">
+    <value>Попасть в рейтинг по урону</value>
+  </data>
+  <data name="task/objective/max/originalXP" xml:space="preserve">
+    <value>Попасть в рейтинг по «чистому» опыту</value>
+  </data>
+  <data name="task/objective/max/xp" xml:space="preserve">
+    <value>Попасть в рейтинг по опыту</value>
+  </data>
+  <data name="task/objective/sum/damageAssisted" xml:space="preserve">
+    <value>Попасть в рейтинг по сумме урона, нанесённого с вашей помощью</value>
+  </data>
+  <data name="task/objective/sum/damageDealt" xml:space="preserve">
+    <value>Попасть в рейтинг по сумме урона</value>
+  </data>
+  <data name="task/objective/sum/originalXP" xml:space="preserve">
+    <value>Попасть в рейтинг по сумме «чистого» опыта</value>
+  </data>
+  <data name="task/objective/sum/xp" xml:space="preserve">
+    <value>Попасть в рейтинг по сумме опыта</value>
+  </data>
+  <data name="task/objparam/damageAssisted" xml:space="preserve">
+    <value>урона нанесённого с вашей помощью</value>
+  </data>
+  <data name="task/objparam/damageDealt" xml:space="preserve">
+    <value>урону</value>
+  </data>
+  <data name="task/objparam/originalXP" xml:space="preserve">
+    <value>«чистого» опыта</value>
+  </data>
+  <data name="task/objparam/wins" xml:space="preserve">
+    <value>количеству побед</value>
+  </data>
+  <data name="task/objparam/xp" xml:space="preserve">
+    <value>опыту</value>
+  </data>
+  <data name="task/selection/max" xml:space="preserve">
+    <value>Учитывается лучший бой</value>
+  </data>
+  <data name="task/selection/sumAll" xml:space="preserve">
+    <value>Учитываются все бои</value>
+  </data>
+  <data name="task/selection/sumN" xml:space="preserve">
+    <value>Учитываются лучшие бои: %(cardinality)s</value>
+  </data>
+  <data name="task/selection/sumSeqN" xml:space="preserve">
+    <value>Учитывается лучшая серия боёв. Боёв в серии: %(cardinality)s</value>
+  </data>
+  <data name="time/day/today" xml:space="preserve">
+    <value>сегодня</value>
+  </data>
+  <data name="time/day/tomorrow" xml:space="preserve">
+    <value>завтра</value>
+  </data>
+  <data name="time/day/yesterday" xml:space="preserve">
+    <value>вчера</value>
+  </data>
+  <data name="time/eventFinished" xml:space="preserve">
+    <value>Соревнование завершено %(date)s</value>
+  </data>
+  <data name="time/period/day" xml:space="preserve">
+    <value>д.</value>
+  </data>
+  <data name="time/period/hour" xml:space="preserve">
+    <value>ч.</value>
+  </data>
+  <data name="time/period/minute" xml:space="preserve">
+    <value>мин.</value>
+  </data>
+  <data name="time/timeTo/end" xml:space="preserve">
+    <value>До завершения: %(time)s</value>
+  </data>
+  <data name="time/timeTo/endRegistration" xml:space="preserve">
+    <value>До завершения регистрации: %(time)s</value>
+  </data>
+  <data name="time/timeTo/start" xml:space="preserve">
+    <value>До начала: %(time)s</value>
+  </data>
+  <data name="tooltip/awardIcon" xml:space="preserve">
+    <value>Награда присваивается в конце соревнования и зависит от вашей позиции в рейтинге.
+Чтобы перейти к списку всех наград соревнования, нажмите кнопку «Все награды».</value>
+  </data>
+  <data name="tooltip/top/amount/originalXP" xml:space="preserve">
+    <value>Учитывается опыт без надбавок от премиум аккаунта и премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.</value>
+  </data>
+  <data name="tooltip/top/amount/xp" xml:space="preserve">
+    <value>Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.
+Надбавка от премиум аккаунта учитывается.</value>
+  </data>
+  <data name="tooltip/top/description/max/damageAssisted" xml:space="preserve">
+    <value>Урон, нанесённый с помощью игрока на последней призовой позиции: %(number)s</value>
+  </data>
+  <data name="tooltip/top/description/max/damageDealt" xml:space="preserve">
+    <value>Нанесённый урон на последней призовой позиции: %(number)s</value>
+  </data>
+  <data name="tooltip/top/description/max/originalXP" xml:space="preserve">
+    <value>«Чистый» опыт на последней призовой позиции: %(number)s
+Учитывается опыт без надбавок от премиум аккаунта и премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.</value>
+  </data>
+  <data name="tooltip/top/description/max/xp" xml:space="preserve">
+    <value>Опыт на последней призовой позиции: %(number)s
+Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.
+Надбавка от премиум аккаунта учитывается.</value>
+  </data>
+  <data name="tooltip/top/description/sum/damageAssisted" xml:space="preserve">
+    <value>Сумма урона, нанесённого с помощью игрока, на последней призовой позиции: %(number)s</value>
+  </data>
+  <data name="tooltip/top/description/sum/damageDealt" xml:space="preserve">
+    <value>Сумма урона на последней призовой позиции: %(number)s</value>
+  </data>
+  <data name="tooltip/top/description/sum/originalXP" xml:space="preserve">
+    <value>Сумма заработанного «чистого» опыта на последней призовой позиции: %(number)s
+Учитывается опыт без надбавок от премиум аккаунта и премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.</value>
+  </data>
+  <data name="tooltip/top/description/sum/wins" xml:space="preserve">
+    <value>Количество одержанных побед на последней призовой позиции: %(number)s</value>
+  </data>
+  <data name="tooltip/top/description/sum/xp" xml:space="preserve">
+    <value>Сумма заработанного опыта на последней призовой позиции: %(number)s
+Учитывается опыт без надбавок от премиум техники, резервов, удвоенного опыта за первую победу в день и других акций.
+Надбавка от премиум аккаунта учитывается.</value>
+  </data>
+  <data name="tooltip/top/noRewardGroup" xml:space="preserve">
+    <value>Позиция без наград</value>
+  </data>
+  <data name="tooltip/top/rewardGroup" xml:space="preserve">
+    <value>%(group)s группа (%(min)s-%(max)s позиции)</value>
+  </data>
+  <data name="top/averageXP" xml:space="preserve">
+    <value>Средний опыт на последней призовой позиции:</value>
+  </data>
+  <data name="top/objectiveParameter/damageAssisted" xml:space="preserve">
+    <value>Сумма урона, нанесённого с вашей помощью</value>
+  </data>
+  <data name="top/objectiveParameter/damageDealt" xml:space="preserve">
+    <value>Сумма урона</value>
+  </data>
+  <data name="top/objectiveParameter/originalXP" xml:space="preserve">
+    <value>Сумма «чистого» опыта</value>
+  </data>
+  <data name="top/objectiveParameter/wins" xml:space="preserve">
+    <value>Количество побед</value>
+  </data>
+  <data name="top/objectiveParameter/xp" xml:space="preserve">
+    <value>Сумма опыта</value>
+  </data>
+  <data name="top/participation/notfull" xml:space="preserve">
+    <value>Вы не заняли позицию в рейтинге</value>
+  </data>
+  <data name="top/participation/notintop" xml:space="preserve">
+    <value>Вы не занимаете призовое место</value>
+  </data>
+  <data name="top/position" xml:space="preserve">
+    <value>Позиция:</value>
+  </data>
+  <data name="top/reason/notfull" xml:space="preserve">
+    <value>Для попадания в рейтинг осталось провести боёв:</value>
+  </data>
+  <data name="vehicles/level" xml:space="preserve">
+    <value>Техника %(level)s уровня</value>
+  </data>
+  <data name="vehicles/tooltip/class" xml:space="preserve">
+    <value>Нажмите, чтобы показать технику этого типа, участвующую в соревновании.</value>
+  </data>
+  <data name="vehicles/tooltip/level" xml:space="preserve">
+    <value>Нажмите, чтобы показать технику этого уровня, участвующую в соревновании.</value>
+  </data>
+  <data name="vehicles/tooltip/nation" xml:space="preserve">
+    <value>Нажмите, чтобы показать технику этой нации, участвующую в соревновании.</value>
+  </data>
+  <data name="vehicles/vehicle" xml:space="preserve">
+    <value>Техника соревнования</value>
+  </data>
+  <data name="vehicles/vehicle/tooltip" xml:space="preserve">
+    <value>Нажмите, чтобы перейти к списку техники, на которой можно участвовать в соревновании.</value>
+  </data>
+</root>

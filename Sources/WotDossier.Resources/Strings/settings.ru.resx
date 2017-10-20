@@ -1,0 +1,2763 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EFFECTS_QUALITY" xml:space="preserve">
+    <value>Качество доп. эффектов</value>
+  </data>
+  <data name="FAR_PLANE" xml:space="preserve">
+    <value>Дальность прорисовки</value>
+  </data>
+  <data name="FLORA_DENSITY" xml:space="preserve">
+    <value>Плотность травы</value>
+  </data>
+  <data name="MRT_DEPTH" xml:space="preserve">
+    <value>Доп. постобработка</value>
+  </data>
+  <data name="OBJECT_LOD" xml:space="preserve">
+    <value>Детализация объектов</value>
+  </data>
+  <data name="POST_PROCESSING" xml:space="preserve">
+    <value>Постобработка</value>
+  </data>
+  <data name="SHADER_VERSION_CAP" xml:space="preserve">
+    <value>Версия шейдеров</value>
+  </data>
+  <data name="SHADOWS_QUALITY" xml:space="preserve">
+    <value>Качество теней</value>
+  </data>
+  <data name="SMOKE_ENABLED" xml:space="preserve">
+    <value>Дым</value>
+  </data>
+  <data name="SNIPER_MODE_EFFECTS_QUALITY" xml:space="preserve">
+    <value>Доп. эффекты в снайперском режиме</value>
+  </data>
+  <data name="SNIPER_MODE_GRASS_ENABLED" xml:space="preserve">
+    <value>Трава в снайперском режиме</value>
+  </data>
+  <data name="SNIPER_MODE_SWINGING_ENABLED" xml:space="preserve">
+    <value>Включить динамическую камеру</value>
+  </data>
+  <data name="SPEEDTREE_QUALITY" xml:space="preserve">
+    <value>Детализация деревьев</value>
+  </data>
+  <data name="TEXTURE_COMPRESSION" xml:space="preserve">
+    <value>Компрессия текстур</value>
+  </data>
+  <data name="TEXTURE_FILTERING" xml:space="preserve">
+    <value>Фильтрация текстур</value>
+  </data>
+  <data name="TEXTURE_QUALITY" xml:space="preserve">
+    <value>Качество текстур</value>
+  </data>
+  <data name="VEHICLE_DUST_ENABLED" xml:space="preserve">
+    <value>Эффекты из-под гусениц</value>
+  </data>
+  <data name="VEHICLE_TRACES_ENABLED" xml:space="preserve">
+    <value>Следы гусениц</value>
+  </data>
+  <data name="WATER_QUALITY" xml:space="preserve">
+    <value>Качество воды</value>
+  </data>
+  <data name="WATER_SIMULATION" xml:space="preserve">
+    <value>Плотность воды</value>
+  </data>
+  <data name="WG_SHADOWS_QUALITY" xml:space="preserve">
+    <value>Улучшенные тени</value>
+  </data>
+  <data name="apply_button" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="aspectRatio" xml:space="preserve">
+    <value>Соотношение сторон экрана</value>
+  </data>
+  <data name="aspect_ratio" xml:space="preserve">
+    <value>Соотношение сторон экрана</value>
+  </data>
+  <data name="autodetectButton" xml:space="preserve">
+    <value>Рекомендуемое</value>
+  </data>
+  <data name="cancel_button" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="chat/censorshipMessages" xml:space="preserve">
+    <value>Включить цензуру сообщений</value>
+  </data>
+  <data name="chat/enableStoreChannelsWindows" xml:space="preserve">
+    <value>Запоминать положение и размеры окон каналов</value>
+  </data>
+  <data name="chat/enableStoreManagementWindows" xml:space="preserve">
+    <value>Запоминать положение и размеры прочих окон</value>
+  </data>
+  <data name="chat/invitesFromFriendsOnly" xml:space="preserve">
+    <value>Принимать приглашения в Ангаре от друзей</value>
+  </data>
+  <data name="chat/removeSpam" xml:space="preserve">
+    <value>Скрывать спам</value>
+  </data>
+  <data name="chat/showDateMessage" xml:space="preserve">
+    <value>Показывать дату сообщения</value>
+  </data>
+  <data name="chat/showJoinLeaveMessages" xml:space="preserve">
+    <value>Показывать подключение/отключение игроков</value>
+  </data>
+  <data name="chat/showTimeMessage" xml:space="preserve">
+    <value>Показывать время сообщения</value>
+  </data>
+  <data name="cursor/ArcadeTitle" xml:space="preserve">
+    <value>Аркадный</value>
+  </data>
+  <data name="cursor/centralTag" xml:space="preserve">
+    <value>Центральный маркер</value>
+  </data>
+  <data name="cursor/centralTag/type0" xml:space="preserve">
+    <value>V-образный маркер I</value>
+  </data>
+  <data name="cursor/centralTag/type1" xml:space="preserve">
+    <value>V-образный маркер II</value>
+  </data>
+  <data name="cursor/centralTag/type2" xml:space="preserve">
+    <value>V-образный маркер III</value>
+  </data>
+  <data name="cursor/centralTag/type3" xml:space="preserve">
+    <value>V-образный маркер IV</value>
+  </data>
+  <data name="cursor/centralTag/type4" xml:space="preserve">
+    <value>Перекрестие I</value>
+  </data>
+  <data name="cursor/centralTag/type5" xml:space="preserve">
+    <value>Перекрестие II</value>
+  </data>
+  <data name="cursor/centralTag/type6" xml:space="preserve">
+    <value>T-образный маркер</value>
+  </data>
+  <data name="cursor/centralTag/type7" xml:space="preserve">
+    <value>I-образный маркер</value>
+  </data>
+  <data name="cursor/centralTag/type8" xml:space="preserve">
+    <value>Тестовый</value>
+  </data>
+  <data name="cursor/condition" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="cursor/gunTag" xml:space="preserve">
+    <value>Маркер орудия</value>
+  </data>
+  <data name="cursor/gunTag/type0" xml:space="preserve">
+    <value>A-образный I (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="cursor/gunTag/type1" xml:space="preserve">
+    <value>A-образный II (c индикатором перезарядки)</value>
+  </data>
+  <data name="cursor/gunTag/type2" xml:space="preserve">
+    <value>A-образный III</value>
+  </data>
+  <data name="cursor/gunTag/type3" xml:space="preserve">
+    <value>Перекрестие I (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="cursor/gunTag/type4" xml:space="preserve">
+    <value>Перекрестие II (c индикатором перезарядки)</value>
+  </data>
+  <data name="cursor/gunTag/type5" xml:space="preserve">
+    <value>Перекрестие III</value>
+  </data>
+  <data name="cursor/gunTag/type6" xml:space="preserve">
+    <value>Тестовый</value>
+  </data>
+  <data name="cursor/mixing" xml:space="preserve">
+    <value>Сведение</value>
+  </data>
+  <data name="cursor/mixing/type0" xml:space="preserve">
+    <value>Круг I (c заполняющимся индикатором перезарядки) </value>
+  </data>
+  <data name="cursor/mixing/type1" xml:space="preserve">
+    <value>Круг II (c переключающимся индикатором перезарядки)</value>
+  </data>
+  <data name="cursor/mixing/type2" xml:space="preserve">
+    <value>Круг III (без индикатора перезарядки)</value>
+  </data>
+  <data name="cursor/mixing/type3" xml:space="preserve">
+    <value>Перекрестие (c переключающимися индикатором)</value>
+  </data>
+  <data name="cursor/mixing/type4" xml:space="preserve">
+    <value>Перекрестие II</value>
+  </data>
+  <data name="cursor/mixing/type5" xml:space="preserve">
+    <value>Тестовый</value>
+  </data>
+  <data name="cursor/net" xml:space="preserve">
+    <value>Индикаторы</value>
+  </data>
+  <data name="cursor/net/type0" xml:space="preserve">
+    <value>Индикаторы I (диагональные)</value>
+  </data>
+  <data name="cursor/net/type1" xml:space="preserve">
+    <value>Индикаторы II (горизонтальные)</value>
+  </data>
+  <data name="cursor/net/type2" xml:space="preserve">
+    <value>Panzer индикаторы</value>
+  </data>
+  <data name="cursor/net/type3" xml:space="preserve">
+    <value>Тестовая</value>
+  </data>
+  <data name="cursor/reloader" xml:space="preserve">
+    <value>Перезарядка</value>
+  </data>
+  <data name="cursorTitle" xml:space="preserve">
+    <value>Прицел</value>
+  </data>
+  <data name="customAAMode/mode0" xml:space="preserve">
+    <value>Отключено</value>
+  </data>
+  <data name="customAAMode/mode1" xml:space="preserve">
+    <value>FXAA</value>
+  </data>
+  <data name="customAAMode/mode2" xml:space="preserve">
+    <value>TSSAA-LQ</value>
+  </data>
+  <data name="customAAMode/mode3" xml:space="preserve">
+    <value>TSSAA-HQ</value>
+  </data>
+  <data name="customAAMode/mode4" xml:space="preserve">
+    <value>SSAAx2 + FXAA LQ</value>
+  </data>
+  <data name="defaultBtn" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="edgeDetectAA" xml:space="preserve">
+    <value>Edge detect AA</value>
+  </data>
+  <data name="fullScreenMode" xml:space="preserve">
+    <value>Полноэкранный режим</value>
+  </data>
+  <data name="game/enableMortalPostEffect" xml:space="preserve">
+    <value>Включить пост-эффект в посмертии</value>
+  </data>
+  <data name="game/enableVoIP" xml:space="preserve">
+    <value>Голосовая связь</value>
+  </data>
+  <data name="game/fieldset/headerChat" xml:space="preserve">
+    <value>Чат</value>
+  </data>
+  <data name="game/fieldset/headerMinimap" xml:space="preserve">
+    <value>Миникарта</value>
+  </data>
+  <data name="game/fieldset/headerVehicleMarker" xml:space="preserve">
+    <value>Маркеры техники</value>
+  </data>
+  <data name="game/playerPanelSettings" xml:space="preserve">
+    <value>Панели команд</value>
+  </data>
+  <data name="game/playersPanelState/large" xml:space="preserve">
+    <value>Длинная</value>
+  </data>
+  <data name="game/playersPanelState/medium" xml:space="preserve">
+    <value>Средняя</value>
+  </data>
+  <data name="game/playersPanelState/none" xml:space="preserve">
+    <value>Не показывать список</value>
+  </data>
+  <data name="game/playersPanelState/short" xml:space="preserve">
+    <value>Короткая</value>
+  </data>
+  <data name="game/ppShowLevels" xml:space="preserve">
+    <value>Показывать уровень техники</value>
+  </data>
+  <data name="game/ppShowTypes" xml:space="preserve">
+    <value>Показывать тип техники</value>
+  </data>
+  <data name="game/ppStartStateLabel" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="game/replayEnabled" xml:space="preserve">
+    <value>Записывать бои</value>
+  </data>
+  <data name="game/showExInfoForDestroyVehicle" xml:space="preserve">
+    <value>Показывать подписи для уничтоженной техники</value>
+  </data>
+  <data name="game/showLanguageBar" xml:space="preserve">
+    <value>Показывать панель выбора языка</value>
+  </data>
+  <data name="game/showVehicleIcon" xml:space="preserve">
+    <value>Показывать иконку техники</value>
+  </data>
+  <data name="game/showVehicleLevel" xml:space="preserve">
+    <value>Показывать уровень техники</value>
+  </data>
+  <data name="gameTitle" xml:space="preserve">
+    <value>Игра</value>
+  </data>
+  <data name="gamma" xml:space="preserve">
+    <value>Гамма</value>
+  </data>
+  <data name="graficTitle" xml:space="preserve">
+    <value>Графика</value>
+  </data>
+  <data name="graphicsQuality/ANISOTROPIC_16X" xml:space="preserve">
+    <value>Анизотропная 16х</value>
+  </data>
+  <data name="graphicsQuality/ANISOTROPIC_2X" xml:space="preserve">
+    <value>Анизотропная 2х</value>
+  </data>
+  <data name="graphicsQuality/ANISOTROPIC_4X" xml:space="preserve">
+    <value>Анизотропная 4х</value>
+  </data>
+  <data name="graphicsQuality/ANISOTROPIC_8X" xml:space="preserve">
+    <value>Анизотропная 8х</value>
+  </data>
+  <data name="graphicsQuality/BILINEAR" xml:space="preserve">
+    <value>Билинейная</value>
+  </data>
+  <data name="graphicsQuality/CUSTOM" xml:space="preserve">
+    <value>Пользовательское</value>
+  </data>
+  <data name="graphicsQuality/FAR" xml:space="preserve">
+    <value>Далеко</value>
+  </data>
+  <data name="graphicsQuality/HIGH" xml:space="preserve">
+    <value>Высоко</value>
+  </data>
+  <data name="graphicsQuality/LOW" xml:space="preserve">
+    <value>Низко</value>
+  </data>
+  <data name="graphicsQuality/LOWEST" xml:space="preserve">
+    <value>Очень низко</value>
+  </data>
+  <data name="graphicsQuality/MEDIUM" xml:space="preserve">
+    <value>Средне</value>
+  </data>
+  <data name="graphicsQuality/NEAR" xml:space="preserve">
+    <value>Близко</value>
+  </data>
+  <data name="graphicsQuality/OFF" xml:space="preserve">
+    <value>Выключено</value>
+  </data>
+  <data name="graphicsQuality/ON" xml:space="preserve">
+    <value>Включено</value>
+  </data>
+  <data name="graphicsQuality/POINT" xml:space="preserve">
+    <value>Точечная</value>
+  </data>
+  <data name="graphicsQuality/SHADER_MODEL_0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="graphicsQuality/SHADER_MODEL_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="graphicsQuality/SHADER_MODEL_2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="graphicsQuality/SHADER_MODEL_3" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="graphicsQuality/TRILINEAR" xml:space="preserve">
+    <value>Трилинейная</value>
+  </data>
+  <data name="graphicsQuality/VERYHIGH" xml:space="preserve">
+    <value>Очень высоко</value>
+  </data>
+  <data name="graphicsQuality/VERY_HIGH" xml:space="preserve">
+    <value>Очень высоко</value>
+  </data>
+  <data name="graphics_details" xml:space="preserve">
+    <value>Качество графики</value>
+  </data>
+  <data name="isColorBlind" xml:space="preserve">
+    <value>Режим цветовой слепоты</value>
+  </data>
+  <data name="keyboard/keyboard" xml:space="preserve">
+    <value>Клавиатура</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/alternate_mode" xml:space="preserve">
+    <value>Сменить режим прицела</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/attack" xml:space="preserve">
+    <value>В атаку!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/auto_rotation" xml:space="preserve">
+    <value>Фиксация корпуса / смена режима</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/backward" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/camera_down" xml:space="preserve">
+    <value>Вниз</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/camera_left" xml:space="preserve">
+    <value>Влево</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/camera_right" xml:space="preserve">
+    <value>Вправо</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/camera_up" xml:space="preserve">
+    <value>Вверх</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/fire" xml:space="preserve">
+    <value>Выстрелить</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/follow_me" xml:space="preserve">
+    <value>За мной!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/forward" xml:space="preserve">
+    <value>Вперёд</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/help_me" xml:space="preserve">
+    <value>Нужна помощь!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/item01" xml:space="preserve">
+    <value>Снаряжение 1</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/item02" xml:space="preserve">
+    <value>Снаряжение 2</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/item03" xml:space="preserve">
+    <value>Снаряжение 3</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/item04" xml:space="preserve">
+    <value>Снаряжение 4</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/item05" xml:space="preserve">
+    <value>Снаряжение 5</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/item06" xml:space="preserve">
+    <value>Снаряжение 6</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/item07" xml:space="preserve">
+    <value>Снаряжение 7</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/item08" xml:space="preserve">
+    <value>Снаряжение 8</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/left" xml:space="preserve">
+    <value>Влево</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/lock_target" xml:space="preserve">
+    <value>Автоприцел</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/lock_target_off" xml:space="preserve">
+    <value>Отключить автоприцел</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/my_target" xml:space="preserve">
+    <value>Атакую!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/negative" xml:space="preserve">
+    <value>Никак нет!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/positive" xml:space="preserve">
+    <value>Так точно!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/pushToTalk" xml:space="preserve">
+    <value>Активация микрофона</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/right" xml:space="preserve">
+    <value>Вправо</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/sizeDown" xml:space="preserve">
+    <value>Уменьшить размер</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/sizeUp" xml:space="preserve">
+    <value>Увеличить размер</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/stop_fire" xml:space="preserve">
+    <value>Остановка для выстрела</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/switch_view" xml:space="preserve">
+    <value>Переключение режимов</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/to_base" xml:space="preserve">
+    <value>Защищайте базу!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/useHorn" xml:space="preserve">
+    <value>Подать звуковой сигнал</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/visible" xml:space="preserve">
+    <value>Скрыть/Показать</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/camera" xml:space="preserve">
+    <value>Камера</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/cruis_control" xml:space="preserve">
+    <value>Круиз-контроль</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/equipment" xml:space="preserve">
+    <value>Снаряжение</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/firing" xml:space="preserve">
+    <value>Стрельба</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/minimap" xml:space="preserve">
+    <value>Миникарта</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/movement" xml:space="preserve">
+    <value>Передвижение</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/shortcuts" xml:space="preserve">
+    <value>Сообщения</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/vehicle_other" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/voicechat" xml:space="preserve">
+    <value>Голосовая связь</value>
+  </data>
+  <data name="keyboard/mouse" xml:space="preserve">
+    <value>Мышь</value>
+  </data>
+  <data name="keyboardTitle" xml:space="preserve">
+    <value>Управление</value>
+  </data>
+  <data name="minimap/labels/alpha" xml:space="preserve">
+    <value>Прозрачность миникарты</value>
+  </data>
+  <data name="minimap/labels/size" xml:space="preserve">
+    <value>Максимальный размер</value>
+  </data>
+  <data name="monitor" xml:space="preserve">
+    <value>Монитор</value>
+  </data>
+  <data name="mouse/sensitivity/art" xml:space="preserve">
+    <value>Артиллерийский прицел</value>
+  </data>
+  <data name="mouse/sensitivity/header" xml:space="preserve">
+    <value>Чувствительность</value>
+  </data>
+  <data name="mouse/sensitivity/invertationHor" xml:space="preserve">
+    <value>Горизонтальная инверсия</value>
+  </data>
+  <data name="mouse/sensitivity/invertationVert" xml:space="preserve">
+    <value>Вертикальная инверсия</value>
+  </data>
+  <data name="mouse/sensitivity/main" xml:space="preserve">
+    <value>Аркадный прицел</value>
+  </data>
+  <data name="mouse/sensitivity/sniper" xml:space="preserve">
+    <value>Снайперский прицел</value>
+  </data>
+  <data name="mouse/startDist" xml:space="preserve">
+    <value>Положение камеры</value>
+  </data>
+  <data name="multisamplingType" xml:space="preserve">
+    <value>Сглаживание</value>
+  </data>
+  <data name="multisamplingType/type0" xml:space="preserve">
+    <value>Отключено</value>
+  </data>
+  <data name="multisamplingType/type1032" xml:space="preserve">
+    <value>CSAA 8x</value>
+  </data>
+  <data name="multisamplingType/type1040" xml:space="preserve">
+    <value>CSAA 16x</value>
+  </data>
+  <data name="multisamplingType/type12" xml:space="preserve">
+    <value>12x</value>
+  </data>
+  <data name="multisamplingType/type16" xml:space="preserve">
+    <value>16x</value>
+  </data>
+  <data name="multisamplingType/type2" xml:space="preserve">
+    <value>2x</value>
+  </data>
+  <data name="multisamplingType/type2056" xml:space="preserve">
+    <value>CSAA 8xQ</value>
+  </data>
+  <data name="multisamplingType/type2064" xml:space="preserve">
+    <value>CSAA 16xQ</value>
+  </data>
+  <data name="multisamplingType/type4" xml:space="preserve">
+    <value>4x</value>
+  </data>
+  <data name="multisamplingType/type6" xml:space="preserve">
+    <value>6x</value>
+  </data>
+  <data name="multisamplingType/type8" xml:space="preserve">
+    <value>8x</value>
+  </data>
+  <data name="ok_button" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="resolution" xml:space="preserve">
+    <value>Разрешение экрана</value>
+  </data>
+  <data name="sound/fieldset/header" xml:space="preserve">
+    <value>Громкость</value>
+  </data>
+  <data name="sound/nationalVoices" xml:space="preserve">
+    <value>Голоса экипажа</value>
+  </data>
+  <data name="sound/players_notifications" xml:space="preserve">
+    <value>Уведомления от других игроков</value>
+  </data>
+  <data name="sound/vivox/buttons/capture_devices_refresh" xml:space="preserve">
+    <value>Обновить устройства</value>
+  </data>
+  <data name="sound/vivox/buttons/test_finish" xml:space="preserve">
+    <value>Закончить тест</value>
+  </data>
+  <data name="sound/vivox/buttons/test_start" xml:space="preserve">
+    <value>Начать тест</value>
+  </data>
+  <data name="sound/vivox/fade_volume" xml:space="preserve">
+    <value>Громкость окружения во время разговора</value>
+  </data>
+  <data name="sound/vivox/master_volume" xml:space="preserve">
+    <value>Громкость голоса игроков</value>
+  </data>
+  <data name="sound/vivox/mic_sensitivity" xml:space="preserve">
+    <value>Чувствительность микрофона</value>
+  </data>
+  <data name="sound/vivox/vivox_test" xml:space="preserve">
+    <value>Тест голосовой связи</value>
+  </data>
+  <data name="soundTitle" xml:space="preserve">
+    <value>Звук</value>
+  </data>
+  <data name="sounds/ambient" xml:space="preserve">
+    <value>Окружающая среда</value>
+  </data>
+  <data name="sounds/arena" xml:space="preserve">
+    <value>Музыка в бою</value>
+  </data>
+  <data name="sounds/effects" xml:space="preserve">
+    <value>Эффекты</value>
+  </data>
+  <data name="sounds/gui" xml:space="preserve">
+    <value>Интерфейс</value>
+  </data>
+  <data name="sounds/masterVolume" xml:space="preserve">
+    <value>Общий уровень громкости</value>
+  </data>
+  <data name="sounds/vehicles" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="sounds/voice" xml:space="preserve">
+    <value>Голосовые уведомления</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="tripleBuffered" xml:space="preserve">
+    <value>Тройная буферизация</value>
+  </data>
+  <data name="vertical_sync" xml:space="preserve">
+    <value>Вертикальная синхронизация</value>
+  </data>
+  <data name="vertical_sync/Off" xml:space="preserve">
+    <value>Выкл.</value>
+  </data>
+  <data name="vertical_sync/On" xml:space="preserve">
+    <value>Вкл.</value>
+  </data>
+  <data name="vibro/device/state/connected" xml:space="preserve">
+    <value>Статус: подключена</value>
+  </data>
+  <data name="vibro/device/state/notConnected" xml:space="preserve">
+    <value>Статус: отключена</value>
+  </data>
+  <data name="vibro/fieldset/header" xml:space="preserve">
+    <value>Вибронакидка Gametrix</value>
+  </data>
+  <data name="vibro/labels/acceleration" xml:space="preserve">
+    <value>Ускорение</value>
+  </data>
+  <data name="vibro/labels/collisions" xml:space="preserve">
+    <value>Столкновения</value>
+  </data>
+  <data name="vibro/labels/damage" xml:space="preserve">
+    <value>Повреждения своих модулей</value>
+  </data>
+  <data name="vibro/labels/engine" xml:space="preserve">
+    <value>Работа двигателя</value>
+  </data>
+  <data name="vibro/labels/gain" xml:space="preserve">
+    <value>Сила эффектов</value>
+  </data>
+  <data name="vibro/labels/gui" xml:space="preserve">
+    <value>Эффекты интерфейса</value>
+  </data>
+  <data name="vibro/labels/hits" xml:space="preserve">
+    <value>Попадания по своей машине</value>
+  </data>
+  <data name="vibro/labels/shots" xml:space="preserve">
+    <value>Перезарядка и выстрел</value>
+  </data>
+  <data name="voice_chat/PTT" xml:space="preserve">
+    <value>Активация микрофона</value>
+  </data>
+  <data name="voice_chat/fieldset/header" xml:space="preserve">
+    <value>Громкость</value>
+  </data>
+  <data name="voice_chat/header/common" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="voice_chat/header/microphone" xml:space="preserve">
+    <value>Микрофон</value>
+  </data>
+  <data name="voice_chat/header/speakers" xml:space="preserve">
+    <value>Наушники</value>
+  </data>
+  <data name="voice_chat/microphone" xml:space="preserve">
+    <value>Микрофон</value>
+  </data>
+  <data name="voice_chat/microphoneEnabled" xml:space="preserve">
+    <value>Включить микрофон</value>
+  </data>
+  <data name="voice_chat/voiceChatEnable" xml:space="preserve">
+    <value>Включить голосовую связь</value>
+  </data>
+  <data name="windowSize" xml:space="preserve">
+    <value>Размер окна</value>
+  </data>
+  <data name="windowTitle" xml:space="preserve">
+    <value>WoT Client</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/reloadPartialClip" xml:space="preserve">
+    <value>Перезарядить кассету</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/showHUD" xml:space="preserve">
+    <value>Скрыть боевой интерфейс</value>
+  </data>
+  <data name="arcade/cassette" xml:space="preserve">
+    <value>Кассеты</value>
+  </data>
+  <data name="arcade/centralTag" xml:space="preserve">
+    <value>Центральный маркер</value>
+  </data>
+  <data name="arcade/centralTag/type0" xml:space="preserve">
+    <value>A-образный I</value>
+  </data>
+  <data name="arcade/centralTag/type1" xml:space="preserve">
+    <value>A-образный II</value>
+  </data>
+  <data name="arcade/centralTag/type2" xml:space="preserve">
+    <value>A-образный III</value>
+  </data>
+  <data name="arcade/centralTag/type3" xml:space="preserve">
+    <value>V-образный</value>
+  </data>
+  <data name="arcade/centralTag/type4" xml:space="preserve">
+    <value>Перекрестие I</value>
+  </data>
+  <data name="arcade/centralTag/type5" xml:space="preserve">
+    <value>Перекрестие II</value>
+  </data>
+  <data name="arcade/centralTag/type6" xml:space="preserve">
+    <value>T-образный</value>
+  </data>
+  <data name="arcade/centralTag/type7" xml:space="preserve">
+    <value>I-образный</value>
+  </data>
+  <data name="arcade/centralTag/type8" xml:space="preserve">
+    <value>Точка I</value>
+  </data>
+  <data name="arcade/condition" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="arcade/gunTag" xml:space="preserve">
+    <value>Маркер орудия</value>
+  </data>
+  <data name="arcade/gunTag/type0" xml:space="preserve">
+    <value>A-образный I (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="arcade/gunTag/type1" xml:space="preserve">
+    <value>A-образный II (c индикатором перезарядки)</value>
+  </data>
+  <data name="arcade/gunTag/type2" xml:space="preserve">
+    <value>A-образный III</value>
+  </data>
+  <data name="arcade/gunTag/type3" xml:space="preserve">
+    <value>Перекрестие I (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="arcade/gunTag/type4" xml:space="preserve">
+    <value>Перекрестие II (c индикатором перезарядки)</value>
+  </data>
+  <data name="arcade/gunTag/type5" xml:space="preserve">
+    <value>Перекрестие III</value>
+  </data>
+  <data name="arcade/gunTag/type6" xml:space="preserve">
+    <value>Точка I (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="arcade/mixing" xml:space="preserve">
+    <value>Сведение</value>
+  </data>
+  <data name="arcade/mixing/type0" xml:space="preserve">
+    <value>Круг I (c заполняющимся индикатором перезарядки) </value>
+  </data>
+  <data name="arcade/mixing/type1" xml:space="preserve">
+    <value>Круг II (c переключающимся индикатором перезарядки)</value>
+  </data>
+  <data name="arcade/mixing/type2" xml:space="preserve">
+    <value>Круг III (без индикатора перезарядки)</value>
+  </data>
+  <data name="arcade/mixing/type3" xml:space="preserve">
+    <value>Перекрестие (c переключающимися индикатором)</value>
+  </data>
+  <data name="arcade/mixing/type4" xml:space="preserve">
+    <value>Перекрестие II</value>
+  </data>
+  <data name="arcade/mixing/type5" xml:space="preserve">
+    <value>Тестовый</value>
+  </data>
+  <data name="arcade/net" xml:space="preserve">
+    <value>Индикатор</value>
+  </data>
+  <data name="arcade/net/type0" xml:space="preserve">
+    <value>Диагональный</value>
+  </data>
+  <data name="arcade/net/type1" xml:space="preserve">
+    <value>Горизонтальный</value>
+  </data>
+  <data name="arcade/net/type2" xml:space="preserve">
+    <value>Радиальный</value>
+  </data>
+  <data name="arcade/net/type3" xml:space="preserve">
+    <value>Пунктирный</value>
+  </data>
+  <data name="arcade/reloader" xml:space="preserve">
+    <value>Перезарядка</value>
+  </data>
+  <data name="cursor/SnipperTitle" xml:space="preserve">
+    <value>Снайперский</value>
+  </data>
+  <data name="keyboard/keysBlocks/group/logitech_keyboard" xml:space="preserve">
+    <value>Клавиатура Logitech</value>
+  </data>
+  <data name="marker/alt" xml:space="preserve">
+    <value>Альтернативный</value>
+  </data>
+  <data name="marker/base" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+  <data name="marker/dead" xml:space="preserve">
+    <value>Маркер уничтоженной техники</value>
+  </data>
+  <data name="marker/hp" xml:space="preserve">
+    <value>Прочность техники</value>
+  </data>
+  <data name="marker/hp/type0" xml:space="preserve">
+    <value>Проценты %</value>
+  </data>
+  <data name="marker/hp/type1" xml:space="preserve">
+    <value>HP осталось / всего</value>
+  </data>
+  <data name="marker/hp/type2" xml:space="preserve">
+    <value>HP осталось</value>
+  </data>
+  <data name="marker/hp/type3" xml:space="preserve">
+    <value>Не показывать</value>
+  </data>
+  <data name="marker/hpIndicator" xml:space="preserve">
+    <value>Индикатор прочности цели</value>
+  </data>
+  <data name="marker/icon" xml:space="preserve">
+    <value>Иконка техники</value>
+  </data>
+  <data name="marker/level" xml:space="preserve">
+    <value>Уровень техники</value>
+  </data>
+  <data name="marker/name" xml:space="preserve">
+    <value>Модель техники</value>
+  </data>
+  <data name="marker/name/type0" xml:space="preserve">
+    <value>Название танка</value>
+  </data>
+  <data name="marker/name/type1" xml:space="preserve">
+    <value>Имя игрока</value>
+  </data>
+  <data name="marker/name/type2" xml:space="preserve">
+    <value>Не показывать</value>
+  </data>
+  <data name="markerTitle" xml:space="preserve">
+    <value>Маркер</value>
+  </data>
+  <data name="sniper/snpCassette" xml:space="preserve">
+    <value>Кассеты</value>
+  </data>
+  <data name="sniper/snpCentralTag" xml:space="preserve">
+    <value>Центральный маркер</value>
+  </data>
+  <data name="sniper/snpCentralTag/type0" xml:space="preserve">
+    <value>A-образный маркер I</value>
+  </data>
+  <data name="sniper/snpCentralTag/type1" xml:space="preserve">
+    <value>A-образный маркер II</value>
+  </data>
+  <data name="sniper/snpCentralTag/type2" xml:space="preserve">
+    <value>A-образный маркер III</value>
+  </data>
+  <data name="sniper/snpCentralTag/type3" xml:space="preserve">
+    <value>V-образный маркер</value>
+  </data>
+  <data name="sniper/snpCentralTag/type4" xml:space="preserve">
+    <value>Перекрестие I</value>
+  </data>
+  <data name="sniper/snpCentralTag/type5" xml:space="preserve">
+    <value>Перекрестие II</value>
+  </data>
+  <data name="sniper/snpCentralTag/type6" xml:space="preserve">
+    <value>T-образный маркер</value>
+  </data>
+  <data name="sniper/snpCentralTag/type7" xml:space="preserve">
+    <value>I-образный маркер</value>
+  </data>
+  <data name="sniper/snpCentralTag/type8" xml:space="preserve">
+    <value>Тестовый</value>
+  </data>
+  <data name="sniper/snpCondition" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="sniper/snpGunTag" xml:space="preserve">
+    <value>Маркер орудия</value>
+  </data>
+  <data name="sniper/snpGunTag/type0" xml:space="preserve">
+    <value>A-образный I (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="sniper/snpGunTag/type1" xml:space="preserve">
+    <value>A-образный II (c индикатором перезарядки)</value>
+  </data>
+  <data name="sniper/snpGunTag/type2" xml:space="preserve">
+    <value>A-образный III</value>
+  </data>
+  <data name="sniper/snpGunTag/type3" xml:space="preserve">
+    <value>Перекрестие I (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="sniper/snpGunTag/type4" xml:space="preserve">
+    <value>Перекрестие II (c индикатором перезарядки)</value>
+  </data>
+  <data name="sniper/snpGunTag/type5" xml:space="preserve">
+    <value>Перекрестие III</value>
+  </data>
+  <data name="sniper/snpMixing" xml:space="preserve">
+    <value>Сведение</value>
+  </data>
+  <data name="sniper/snpMixing/type0" xml:space="preserve">
+    <value>Круг I (c заполняющимся индикатором перезарядки)</value>
+  </data>
+  <data name="sniper/snpMixing/type1" xml:space="preserve">
+    <value>Круг II (c переключающимся индикатором перезарядки)</value>
+  </data>
+  <data name="sniper/snpMixing/type2" xml:space="preserve">
+    <value>Круг III (без индикатора перезарядки)</value>
+  </data>
+  <data name="sniper/snpNet" xml:space="preserve">
+    <value>Индикаторы</value>
+  </data>
+  <data name="sniper/snpNet/type0" xml:space="preserve">
+    <value>Индикаторы I (диагональные)</value>
+  </data>
+  <data name="sniper/snpNet/type1" xml:space="preserve">
+    <value>Индикаторы II (горизонтальные)</value>
+  </data>
+  <data name="sniper/snpNet/type2" xml:space="preserve">
+    <value>Panzer индикаторы</value>
+  </data>
+  <data name="sniper/snpReloader" xml:space="preserve">
+    <value>Перезарядка</value>
+  </data>
+  <data name="cursor/ServerAim" xml:space="preserve">
+    <value>Использовать серверный прицел</value>
+  </data>
+  <data name="LANGUAGE_CODE" xml:space="preserve">
+    <value>ru</value>
+  </data>
+  <data name="DECALS_QUALITY" xml:space="preserve">
+    <value>Качество декалей</value>
+  </data>
+  <data name="FLORA_QUALITY" xml:space="preserve">
+    <value>Количество растительности</value>
+  </data>
+  <data name="LIGHTING_QUALITY" xml:space="preserve">
+    <value>Качество освещения</value>
+  </data>
+  <data name="POST_PROCESSING_QUALITY" xml:space="preserve">
+    <value>Постобработка</value>
+  </data>
+  <data name="RENDER_PIPELINE" xml:space="preserve">
+    <value>Графика</value>
+  </data>
+  <data name="TERRAIN_QUALITY" xml:space="preserve">
+    <value>Качество ландшафта</value>
+  </data>
+  <data name="game/fieldset/headerGameplay" xml:space="preserve">
+    <value>Типы случайных боёв</value>
+  </data>
+  <data name="gameplay/assault" xml:space="preserve">
+    <value>Штурм (после исследования техники VI уровня)</value>
+  </data>
+  <data name="gameplay/ctf" xml:space="preserve">
+    <value>Стандартный бой</value>
+  </data>
+  <data name="gameplay/domination" xml:space="preserve">
+    <value>Встречный бой (после исследования техники IV уровня)</value>
+  </data>
+  <data name="graphicsQuality/DEFERRED" xml:space="preserve">
+    <value>Улучшенная</value>
+  </data>
+  <data name="graphicsQuality/FORWARD" xml:space="preserve">
+    <value>Стандартная</value>
+  </data>
+  <data name="graphicsQuality/MAX" xml:space="preserve">
+    <value>Максимум</value>
+  </data>
+  <data name="graphicsQuality/MIN" xml:space="preserve">
+    <value>Минимум</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/help_me_temp" xml:space="preserve">
+    <value>Помоги!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/help_me_temp2" xml:space="preserve">
+    <value>Поддержите огнём!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/reload" xml:space="preserve">
+    <value>Перезаряжаюсь!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/showRadialMenu" xml:space="preserve">
+    <value>Меню приказов</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/stop" xml:space="preserve">
+    <value>Стой!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/to_back" xml:space="preserve">
+    <value>Назад!</value>
+  </data>
+  <data name="marker/AllyTitle" xml:space="preserve">
+    <value>Союзники</value>
+  </data>
+  <data name="marker/DeadTitle" xml:space="preserve">
+    <value>Уничтоженные</value>
+  </data>
+  <data name="marker/EnemyTitle" xml:space="preserve">
+    <value>Противник</value>
+  </data>
+  <data name="marker/damage" xml:space="preserve">
+    <value>Полученный урон</value>
+  </data>
+  <data name="marker/nickname" xml:space="preserve">
+    <value>Имя игрока</value>
+  </data>
+  <data name="chat/storeReceiverInBattle" xml:space="preserve">
+    <value>Запоминать адресата в бою</value>
+  </data>
+  <data name="game/showVehiclesCounter" xml:space="preserve">
+    <value>Показывать маркеры техники на панели счёта</value>
+  </data>
+  <data name="alternativeVoices/fieldset/header" xml:space="preserve">
+    <value>Голосовые уведомления в бою</value>
+  </data>
+  <data name="alternativeVoices/labels/voiceBattle" xml:space="preserve">
+    <value>Голос уведомлений в бою</value>
+  </data>
+  <data name="fpsPerfomancer" xml:space="preserve">
+    <value>Динамическое изменение качества эффектов</value>
+  </data>
+  <data name="game/dynamicCamera" xml:space="preserve">
+    <value>Включить динамическую камеру</value>
+  </data>
+  <data name="sound/soundModes/baluev" xml:space="preserve">
+    <value>Балуев</value>
+  </data>
+  <data name="sound/soundModes/default" xml:space="preserve">
+    <value>Стандартные</value>
+  </data>
+  <data name="sound/soundModes/merzlikin" xml:space="preserve">
+    <value>Мерзликин</value>
+  </data>
+  <data name="dynamicCamera" xml:space="preserve">
+    <value>Включить динамическую камеру</value>
+  </data>
+  <data name="keyboard/backDraftInvert" xml:space="preserve">
+    <value>Инверсия при заднем ходе</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/attack/ext" xml:space="preserve">
+    <value>(прицел на противнике)</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/backward_cruise" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/follow_me/ext" xml:space="preserve">
+    <value>(прицел на союзнике)</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/forward_cruise" xml:space="preserve">
+    <value>Вперёд</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/help_me_temp/ext" xml:space="preserve">
+    <value>(прицел на союзнике)</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/my_target/ext" xml:space="preserve">
+    <value>(прицел САУ на противнике)</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/stop/ext" xml:space="preserve">
+    <value>(прицел на союзнике)</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/to_back/ext" xml:space="preserve">
+    <value>(прицел на союзнике)</value>
+  </data>
+  <data name="sniper/cassette" xml:space="preserve">
+    <value>Кассеты</value>
+  </data>
+  <data name="sniper/centralTag" xml:space="preserve">
+    <value>Центральный маркер</value>
+  </data>
+  <data name="sniper/centralTag/type0" xml:space="preserve">
+    <value>A-образный I</value>
+  </data>
+  <data name="sniper/centralTag/type1" xml:space="preserve">
+    <value>A-образный II</value>
+  </data>
+  <data name="sniper/centralTag/type2" xml:space="preserve">
+    <value>A-образный III</value>
+  </data>
+  <data name="sniper/centralTag/type3" xml:space="preserve">
+    <value>V-образный</value>
+  </data>
+  <data name="sniper/centralTag/type4" xml:space="preserve">
+    <value>Перекрестие I</value>
+  </data>
+  <data name="sniper/centralTag/type5" xml:space="preserve">
+    <value>Перекрестие II</value>
+  </data>
+  <data name="sniper/centralTag/type6" xml:space="preserve">
+    <value>T-образный</value>
+  </data>
+  <data name="sniper/centralTag/type7" xml:space="preserve">
+    <value>I-образный</value>
+  </data>
+  <data name="sniper/centralTag/type8" xml:space="preserve">
+    <value>Точка I</value>
+  </data>
+  <data name="sniper/condition" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="sniper/gunTag" xml:space="preserve">
+    <value>Маркер орудия</value>
+  </data>
+  <data name="sniper/gunTag/type0" xml:space="preserve">
+    <value>A-образный I (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="sniper/gunTag/type1" xml:space="preserve">
+    <value>A-образный II (c индикатором перезарядки)</value>
+  </data>
+  <data name="sniper/gunTag/type2" xml:space="preserve">
+    <value>A-образный III</value>
+  </data>
+  <data name="sniper/gunTag/type3" xml:space="preserve">
+    <value>Перекрестие I (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="sniper/gunTag/type4" xml:space="preserve">
+    <value>Перекрестие II (c индикатором перезарядки)</value>
+  </data>
+  <data name="sniper/gunTag/type5" xml:space="preserve">
+    <value>Перекрестие III</value>
+  </data>
+  <data name="sniper/mixing" xml:space="preserve">
+    <value>Сведение</value>
+  </data>
+  <data name="sniper/mixing/type0" xml:space="preserve">
+    <value>Круг I (c заполняющимся индикатором перезарядки)</value>
+  </data>
+  <data name="sniper/mixing/type1" xml:space="preserve">
+    <value>Круг II (c переключающимся индикатором перезарядки)</value>
+  </data>
+  <data name="sniper/mixing/type2" xml:space="preserve">
+    <value>Круг III (без индикатора перезарядки)</value>
+  </data>
+  <data name="sniper/net" xml:space="preserve">
+    <value>Индикатор</value>
+  </data>
+  <data name="sniper/net/type0" xml:space="preserve">
+    <value>Диагональный</value>
+  </data>
+  <data name="sniper/net/type1" xml:space="preserve">
+    <value>Горизонтальный</value>
+  </data>
+  <data name="sniper/net/type2" xml:space="preserve">
+    <value>Радиальный</value>
+  </data>
+  <data name="sniper/reloader" xml:space="preserve">
+    <value>Перезарядка</value>
+  </data>
+  <data name="sound/soundModes/U01" xml:space="preserve">
+    <value>Пользовательский 1</value>
+  </data>
+  <data name="sound/soundModes/U02" xml:space="preserve">
+    <value>Пользовательский 2</value>
+  </data>
+  <data name="sound/soundModes/U03" xml:space="preserve">
+    <value>Пользовательский 3</value>
+  </data>
+  <data name="sound/soundModes/U04" xml:space="preserve">
+    <value>Пользовательский 4</value>
+  </data>
+  <data name="sound/soundModes/nationalDefault" xml:space="preserve">
+    <value>Командирские</value>
+  </data>
+  <data name="arcade/reloaderTimer" xml:space="preserve">
+    <value>Таймер перезарядки</value>
+  </data>
+  <data name="game/horStabilizationSnp" xml:space="preserve">
+    <value>Горизонтальная стабилизация в снайперском режиме</value>
+  </data>
+  <data name="sniper/reloaderTimer" xml:space="preserve">
+    <value>Таймер перезарядки</value>
+  </data>
+  <data name="COLOR_GRADING_TECHNIQUE" xml:space="preserve">
+    <value>Цветовой фильтр</value>
+  </data>
+  <data name="MOTION_BLUR_QUALITY" xml:space="preserve">
+    <value>Качество «размытия» в движении</value>
+  </data>
+  <data name="game/replayEnabled/all" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="game/replayEnabled/last" xml:space="preserve">
+    <value>Последний</value>
+  </data>
+  <data name="game/replayEnabled/none" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="graphicsQuality/Colorization" xml:space="preserve">
+    <value>Плёнка 40-х гг.</value>
+  </data>
+  <data name="graphicsQuality/Contrasty" xml:space="preserve">
+    <value>Контрастный</value>
+  </data>
+  <data name="graphicsQuality/Muted" xml:space="preserve">
+    <value>Приглушённый</value>
+  </data>
+  <data name="graphicsQuality/NONE" xml:space="preserve">
+    <value>Выключено</value>
+  </data>
+  <data name="graphicsQuality/Photochromatic" xml:space="preserve">
+    <value>Фотохроматический</value>
+  </data>
+  <data name="graphicsQuality/Soft" xml:space="preserve">
+    <value>Насыщенный</value>
+  </data>
+  <data name="graphicsQuality/Soft Colors" xml:space="preserve">
+    <value>Мягкие цвета</value>
+  </data>
+  <data name="RIGHT_UPPER" xml:space="preserve">
+    <value>RIGHT_UPPER</value>
+  </data>
+  <data name="WRONG_UPPER" xml:space="preserve">
+    <value>WRONG_UPPER</value>
+  </data>
+  <data name="arcade/centralTag/type10" xml:space="preserve">
+    <value>O-образный I</value>
+  </data>
+  <data name="arcade/centralTag/type11" xml:space="preserve">
+    <value>O-образный II</value>
+  </data>
+  <data name="arcade/centralTag/type12" xml:space="preserve">
+    <value>A-образный IV</value>
+  </data>
+  <data name="arcade/centralTag/type13" xml:space="preserve">
+    <value>A-образный V</value>
+  </data>
+  <data name="arcade/centralTag/type9" xml:space="preserve">
+    <value>Точка II</value>
+  </data>
+  <data name="arcade/gunTag/type10" xml:space="preserve">
+    <value>O-образный II (c индикатором перезарядки)</value>
+  </data>
+  <data name="arcade/gunTag/type11" xml:space="preserve">
+    <value>O-образный III</value>
+  </data>
+  <data name="arcade/gunTag/type12" xml:space="preserve">
+    <value>A-образный IV (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="arcade/gunTag/type13" xml:space="preserve">
+    <value>A-образный V (c индикатором перезарядки)</value>
+  </data>
+  <data name="arcade/gunTag/type14" xml:space="preserve">
+    <value>A-образный VI</value>
+  </data>
+  <data name="arcade/gunTag/type7" xml:space="preserve">
+    <value>Точка II (c индикатором перезарядки)</value>
+  </data>
+  <data name="arcade/gunTag/type8" xml:space="preserve">
+    <value>Точка III</value>
+  </data>
+  <data name="arcade/gunTag/type9" xml:space="preserve">
+    <value>O-образный I (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="chat/disableBattleChat" xml:space="preserve">
+    <value>Отключить чат с союзниками</value>
+  </data>
+  <data name="game/enableDelayPostEffect" xml:space="preserve">
+    <value>Показать в посмертии машину, уничтожившую вас</value>
+  </data>
+  <data name="gameplay/nations" xml:space="preserve">
+    <value>Противостояние</value>
+  </data>
+  <data name="sniper/centralTag/type10" xml:space="preserve">
+    <value>O-образный I</value>
+  </data>
+  <data name="sniper/centralTag/type11" xml:space="preserve">
+    <value>O-образный II</value>
+  </data>
+  <data name="sniper/centralTag/type12" xml:space="preserve">
+    <value>A-образный IV</value>
+  </data>
+  <data name="sniper/centralTag/type13" xml:space="preserve">
+    <value>A-образный V</value>
+  </data>
+  <data name="sniper/centralTag/type9" xml:space="preserve">
+    <value>Точка II</value>
+  </data>
+  <data name="sniper/gunTag/type10" xml:space="preserve">
+    <value>O-образный II (c индикатором перезарядки)</value>
+  </data>
+  <data name="sniper/gunTag/type11" xml:space="preserve">
+    <value>O-образный III</value>
+  </data>
+  <data name="sniper/gunTag/type12" xml:space="preserve">
+    <value>A-образный IV (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="sniper/gunTag/type13" xml:space="preserve">
+    <value>A-образный V (c индикатором перезарядки)</value>
+  </data>
+  <data name="sniper/gunTag/type14" xml:space="preserve">
+    <value>A-образный VI</value>
+  </data>
+  <data name="sniper/gunTag/type6" xml:space="preserve">
+    <value>Точка I (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="sniper/gunTag/type7" xml:space="preserve">
+    <value>Точка II (c индикатором перезарядки)</value>
+  </data>
+  <data name="sniper/gunTag/type8" xml:space="preserve">
+    <value>Точка III</value>
+  </data>
+  <data name="sniper/gunTag/type9" xml:space="preserve">
+    <value>O-образный I (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="sniper/net/type3" xml:space="preserve">
+    <value>Пунктирный</value>
+  </data>
+  <data name="COLOR_GRADING_TECHNIQUE/description" xml:space="preserve">
+    <value>Изменение визуального стиля изображения с помощью цветовых фильтров.
+
+Не влияет на быстродействие игры.</value>
+  </data>
+  <data name="DECALS_QUALITY/description" xml:space="preserve">
+    <value>Определяет качество декалей в игре — дополнительных динамических текстур, накладываемых на основные текстуры.
+
+Декалями являются: выбоины, следы попаданий снарядов, грязь, опавшая листва, эмблемы на технике и прочие мелкие элементы.</value>
+  </data>
+  <data name="EFFECTS_QUALITY/description" xml:space="preserve">
+    <value>Определяет качество отображения искр от рикошетов, взрывов, дыма и прочих визуальных эффектов.
+
+Уменьшение значения параметра может повысить быстродействие игры.</value>
+  </data>
+  <data name="FAR_PLANE/description" xml:space="preserve">
+    <value>Определяет дистанцию отображения деталей рельефа, зданий, машин противника и прочих игровых объектов.</value>
+  </data>
+  <data name="FLORA_QUALITY/description" xml:space="preserve">
+    <value>Определяет плотность и качество прорисовки травы и кустов.
+
+Уменьшение значения параметра может повысить быстродействие игры.</value>
+  </data>
+  <data name="LIGHTING_QUALITY/description" xml:space="preserve">
+    <value>Точность расчёта освещения, солнечных лучей и оптических эффектов.
+
+Увеличение значения параметра существенно увеличивает нагрузку на видеокарту.</value>
+  </data>
+  <data name="MOTION_BLUR_QUALITY/description" xml:space="preserve">
+    <value>Определяет качество эффекта «размытия» изображения при движении машины и поворотах камеры.</value>
+  </data>
+  <data name="OBJECT_LOD/description" xml:space="preserve">
+    <value>Определяет количество отображаемых объектов и их качество.</value>
+  </data>
+  <data name="POST_PROCESSING_QUALITY/description" xml:space="preserve">
+    <value>Определяет качество тумана, эффектов свечения и других визуальных эффектов постобработки.
+
+Уменьшение значения параметра может повысить быстродействие игры.</value>
+  </data>
+  <data name="RENDER_PIPELINE/description" xml:space="preserve">
+    <value>Улучшенная: позволяет добиться максимального качества изображения.
+
+Стандартная: позволяет добиться максимального быстродействия, упрощая или отключая некоторые визуальные эффекты.</value>
+  </data>
+  <data name="RENDER_PIPELINE/label" xml:space="preserve">
+    <value>Графика:</value>
+  </data>
+  <data name="RENDER_PIPELINE/warning" xml:space="preserve">
+    <value>Изменение данного параметра вступит в силу после перезапуска игры.</value>
+  </data>
+  <data name="SHADOWS_QUALITY/description" xml:space="preserve">
+    <value>Определяет качество обработки динамических теней на всю дистанцию прорисовки. Полное выключение теней приводит к сильным визуальным несоответствиям.
+
+Уменьшение значения параметра может существенно повысить быстродействие игры.</value>
+  </data>
+  <data name="SNIPER_MODE_EFFECTS_QUALITY/description" xml:space="preserve">
+    <value>Определяет качество отображения искр от рикошетов, взрывов, дыма и прочих реалистичных эффектов в снайперском режиме.
+
+Уменьшение значения параметра может повысить быстродействие игры.</value>
+  </data>
+  <data name="SNIPER_MODE_GRASS_ENABLED/description" xml:space="preserve">
+    <value>Отображение травы в снайперском режиме.
+
+Отключение параметра может повысить быстродействие игры.</value>
+  </data>
+  <data name="SPEEDTREE_QUALITY/description" xml:space="preserve">
+    <value>Определяет качество прорисовки деревьев.</value>
+  </data>
+  <data name="TERRAIN_QUALITY/description" xml:space="preserve">
+    <value>Определяет качество прорисовки деталей рельефа карты.
+
+Используйте минимальное качество ландшафта только в случае низкой производительности вашего компьютера.
+
+Уменьшение значения параметра может привести к рассинхронизации отображения ландшафта между клиентом и сервером.</value>
+  </data>
+  <data name="TERRAIN_QUALITY/warning" xml:space="preserve">
+    <value>Применение указанного параметра может занять длительное время.</value>
+  </data>
+  <data name="TEXTURE_QUALITY/description" xml:space="preserve">
+    <value>Детализация поверхностей игровых объектов, особенно при близком рассмотрении.
+
+Уменьшение значения параметра может повысить быстродействие игры.</value>
+  </data>
+  <data name="TEXTURE_QUALITY/warning" xml:space="preserve">
+    <value>Применение указанного параметра может занять длительное время.</value>
+  </data>
+  <data name="VEHICLE_DUST_ENABLED/description" xml:space="preserve">
+    <value>Отображение грунта, снега и брызг воды, вылетающих из-под гусениц.
+
+Отключение параметра может повысить быстродействие игры.</value>
+  </data>
+  <data name="VEHICLE_TRACES_ENABLED/description" xml:space="preserve">
+    <value>Отображение следов гусениц на поверхности.
+
+Недоступно на стандартной графике и при низком значении качества декалей.</value>
+  </data>
+  <data name="WATER_QUALITY/description" xml:space="preserve">
+    <value>Определяет качество прорисовки водных поверхностей.</value>
+  </data>
+  <data name="aspectRatio/description" xml:space="preserve">
+    <value>Выбор соотношения сторон изображения. Несовпадение установленного соотношения сторон с текущим соотношением сторон монитора может привести к растягиванию или сжатию изображения по горизонтали.
+
+Не влияет на быстродействие игры.</value>
+  </data>
+  <data name="autodetectButton/description" xml:space="preserve">
+    <value>Определение оптимального качества графики для вашего компьютера.
+
+Может занять некоторое время.</value>
+  </data>
+  <data name="colorFilterIntensity" xml:space="preserve">
+    <value>Сила фильтра</value>
+  </data>
+  <data name="colorFilterIntensity/description" xml:space="preserve">
+    <value>Изменение заметности выбранного цветового фильтра.</value>
+  </data>
+  <data name="dynamicRenderer" xml:space="preserve">
+    <value>Разрешение 3D рендера</value>
+  </data>
+  <data name="dynamicRenderer/description" xml:space="preserve">
+    <value>Определяет качество и детальность отображения игровой сцены.
+
+Используйте сочетание клавиш [RShift +] и [RShift -] для изменения разрешения 3D рендера в бою. Не влияет на интерфейс.
+
+Уменьшение значения параметра может повысить быстродействие игры на компьютерах со слабой видеокартой.</value>
+  </data>
+  <data name="fov" xml:space="preserve">
+    <value>Угол обзора (FoV)</value>
+  </data>
+  <data name="fov/description" xml:space="preserve">
+    <value>Пределы видимости игровой камеры.
+
+Привычный для человека угол обзора — около 95°. Чем угол меньше, тем ближе становятся объекты, но периферийный обзор при этом сокращается.
+
+Не влияет на быстродействие игры.</value>
+  </data>
+  <data name="fpsPerfomancer/description" xml:space="preserve">
+    <value>Автоматическое упрощение эффектов при падении производительности системы.</value>
+  </data>
+  <data name="fullScreen" xml:space="preserve">
+    <value>Полноэкранный режим</value>
+  </data>
+  <data name="fullScreen/description" xml:space="preserve">
+    <value>Переключение между полноэкранным и оконным режимами игры. В оконном режиме быстродействие игры снижается.</value>
+  </data>
+  <data name="game/enableOpticalSnpEffect" xml:space="preserve">
+    <value>Включить эффект оптики в снайперском режиме</value>
+  </data>
+  <data name="gamma/description" xml:space="preserve">
+    <value>Изменение яркости изображения. Работает только в полноэкранном режиме.
+
+В оконном режиме используются текущие настройки операционной системы.</value>
+  </data>
+  <data name="graphics/significantlyAffecting" xml:space="preserve">
+    <value>Значительно влияющие на быстродействие игры</value>
+  </data>
+  <data name="graphics/tabAdvanced" xml:space="preserve">
+    <value>Расширенные</value>
+  </data>
+  <data name="graphics/tabScreen" xml:space="preserve">
+    <value>Экран</value>
+  </data>
+  <data name="graphicsQuality" xml:space="preserve">
+    <value>Качество графики</value>
+  </data>
+  <data name="graphicsQuality/description" xml:space="preserve">
+    <value>Определяет общее качество изображения.
+
+Влияет на значение параметров вкладки «Расширенные».
+
+Уменьшение качества графики увеличивает быстродействие игры.
+
+Используйте минимальное качество графики только в случае низкой производительности вашего компьютера.
+
+Уменьшение значения параметра может привести к рассинхронизации отображения ландшафта между клиентом и сервером.</value>
+  </data>
+  <data name="graphicsSettingsOptions/ANISOTROPIC_16X" xml:space="preserve">
+    <value>Анизотропная 16х</value>
+  </data>
+  <data name="graphicsSettingsOptions/ANISOTROPIC_2X" xml:space="preserve">
+    <value>Анизотропная 2х</value>
+  </data>
+  <data name="graphicsSettingsOptions/ANISOTROPIC_4X" xml:space="preserve">
+    <value>Анизотропная 4х</value>
+  </data>
+  <data name="graphicsSettingsOptions/ANISOTROPIC_8X" xml:space="preserve">
+    <value>Анизотропная 8х</value>
+  </data>
+  <data name="graphicsSettingsOptions/BILINEAR" xml:space="preserve">
+    <value>Билинейная</value>
+  </data>
+  <data name="graphicsSettingsOptions/CUSTOM" xml:space="preserve">
+    <value>Пользовательское</value>
+  </data>
+  <data name="graphicsSettingsOptions/Colorization" xml:space="preserve">
+    <value>Плёнка 40-х гг.</value>
+  </data>
+  <data name="graphicsSettingsOptions/Contrasty" xml:space="preserve">
+    <value>Контрастный</value>
+  </data>
+  <data name="graphicsSettingsOptions/DEFERRED" xml:space="preserve">
+    <value>Улучшенная</value>
+  </data>
+  <data name="graphicsSettingsOptions/FAR" xml:space="preserve">
+    <value>Далеко</value>
+  </data>
+  <data name="graphicsSettingsOptions/FORWARD" xml:space="preserve">
+    <value>Стандартная</value>
+  </data>
+  <data name="graphicsSettingsOptions/HIGH" xml:space="preserve">
+    <value>Высоко</value>
+  </data>
+  <data name="graphicsSettingsOptions/LOW" xml:space="preserve">
+    <value>Низко</value>
+  </data>
+  <data name="graphicsSettingsOptions/LOWEST" xml:space="preserve">
+    <value>Очень низко</value>
+  </data>
+  <data name="graphicsSettingsOptions/MAX" xml:space="preserve">
+    <value>Максимум</value>
+  </data>
+  <data name="graphicsSettingsOptions/MEDIUM" xml:space="preserve">
+    <value>Средне</value>
+  </data>
+  <data name="graphicsSettingsOptions/MIN" xml:space="preserve">
+    <value>Минимум</value>
+  </data>
+  <data name="graphicsSettingsOptions/Muted" xml:space="preserve">
+    <value>Приглушённый</value>
+  </data>
+  <data name="graphicsSettingsOptions/NEAR" xml:space="preserve">
+    <value>Близко</value>
+  </data>
+  <data name="graphicsSettingsOptions/NONE" xml:space="preserve">
+    <value>Выключено</value>
+  </data>
+  <data name="graphicsSettingsOptions/OFF" xml:space="preserve">
+    <value>Выключено</value>
+  </data>
+  <data name="graphicsSettingsOptions/ON" xml:space="preserve">
+    <value>Включено</value>
+  </data>
+  <data name="graphicsSettingsOptions/POINT" xml:space="preserve">
+    <value>Точечная</value>
+  </data>
+  <data name="graphicsSettingsOptions/Photochromatic" xml:space="preserve">
+    <value>Фотохроматический</value>
+  </data>
+  <data name="graphicsSettingsOptions/SHADER_MODEL_0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="graphicsSettingsOptions/SHADER_MODEL_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="graphicsSettingsOptions/SHADER_MODEL_2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="graphicsSettingsOptions/SHADER_MODEL_3" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="graphicsSettingsOptions/Soft" xml:space="preserve">
+    <value>Насыщенный</value>
+  </data>
+  <data name="graphicsSettingsOptions/Soft Colors" xml:space="preserve">
+    <value>Мягкие цвета</value>
+  </data>
+  <data name="graphicsSettingsOptions/TRILINEAR" xml:space="preserve">
+    <value>Трилинейная</value>
+  </data>
+  <data name="graphicsSettingsOptions/VERYHIGH" xml:space="preserve">
+    <value>Очень высоко</value>
+  </data>
+  <data name="graphicsSettingsOptions/VERY_HIGH" xml:space="preserve">
+    <value>Очень высоко</value>
+  </data>
+  <data name="isColorBlind/description" xml:space="preserve">
+    <value>Адаптация цветовой палитры для людей с особенностями цветовосприятия.</value>
+  </data>
+  <data name="monitor/description" xml:space="preserve">
+    <value>Выбор основного монитора для игры.</value>
+  </data>
+  <data name="refreshRate" xml:space="preserve">
+    <value>Частота обновления монитора</value>
+  </data>
+  <data name="refreshRate/default" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="refreshRate/description" xml:space="preserve">
+    <value>Частота обновления изображения экрана в игре.
+
+Несовпадение с частотой обновления монитора может привести к мерцанию.
+
+Не влияет на быстродействие игры.</value>
+  </data>
+  <data name="resolution/description" xml:space="preserve">
+    <value>Количество точек по горизонтали и вертикали в полноэкранном режиме. Более высокое разрешение улучшает чёткость изображения. Несовпадение установленного разрешения в полноэкранном режиме с текущим разрешением монитора может исказить изображение.
+
+Увеличение параметра увеличивает нагрузку на видеокарту и может понизить быстродействие игры.
+
+Уменьшить нагрузку на видеокарту можно с помощью настройки разрешения 3D рендера.</value>
+  </data>
+  <data name="smoothing" xml:space="preserve">
+    <value>Сглаживание</value>
+  </data>
+  <data name="smoothing/description" xml:space="preserve">
+    <value>Определяет степень дополнительной обработки тонких линий и контуров объектов на игровой сцене, минимизируя эффект «лесенки». Контуры объектов выглядят более естественно.</value>
+  </data>
+  <data name="vertSync" xml:space="preserve">
+    <value>Вертикальная синхронизация</value>
+  </data>
+  <data name="vertSync/Off" xml:space="preserve">
+    <value>Выкл.</value>
+  </data>
+  <data name="vertSync/On" xml:space="preserve">
+    <value>Вкл.</value>
+  </data>
+  <data name="vertSync/description" xml:space="preserve">
+    <value>Синхронизация смены кадров игры с частотой обновления монитора.
+
+Ограничение кадровой частоты — 60 кадров в секунду. Примените в случае дрожания или запаздывания изображения на нижней части экрана относительно верхней.</value>
+  </data>
+  <data name="windowSize/description" xml:space="preserve">
+    <value>Количество точек по горизонтали и вертикали окна клиента игры. При переходе в полноэкранный режим настройка меняется на «Разрешение экрана».</value>
+  </data>
+  <data name="dynamicFov" xml:space="preserve">
+    <value>Динамический FoV</value>
+  </data>
+  <data name="dynamicFov/description" xml:space="preserve">
+    <value>Динамический FoV позволяет установить минимальный и максимальный угол обзора в аркадном прицеле.
+
+Максимальный угол используется при отдалении камеры от собственной машины.
+
+Минимальный угол используется при приближении.</value>
+  </data>
+  <data name="game/showMarksOnGun" xml:space="preserve">
+    <value>Отображать отличительные отметки</value>
+  </data>
+  <data name="otherTitle" xml:space="preserve">
+    <value>Прочее</value>
+  </data>
+  <data name="SEMITRANSPARENT_LEAVES_ENABLED" xml:space="preserve">
+    <value>Прозрачность листвы</value>
+  </data>
+  <data name="SEMITRANSPARENT_LEAVES_ENABLED/description" xml:space="preserve">
+    <value>Отображение листвы для ближайших деревьев и кустов.
+
+Отключение параметра полностью скрывает листву с ближайших деревьев и кустов и может повысить быстродействие игры.</value>
+  </data>
+  <data name="HAVOK_ENABLED" xml:space="preserve">
+    <value>Улучшенная физика эффектов</value>
+  </data>
+  <data name="HAVOK_ENABLED/OFF" xml:space="preserve">
+    <value>Выключено</value>
+  </data>
+  <data name="HAVOK_ENABLED/ON" xml:space="preserve">
+    <value>Включено</value>
+  </data>
+  <data name="HAVOK_ENABLED/description" xml:space="preserve">
+    <value>Отображение более реалистичной модели взаимодействий и разрушения объектов на карте «Сталинград».
+
+Отключение параметра может повысить быстродействие игры.</value>
+  </data>
+  <data name="tripleBuffered/description" xml:space="preserve">
+    <value>Смягчает резкие скачки изображения при смене кадров (только при включённой функции «Вертикальная синхронизация»).</value>
+  </data>
+  <data name="game/battlePanelSettings" xml:space="preserve">
+    <value>Боевой интерфейс</value>
+  </data>
+  <data name="game/showSectorOnMap" xml:space="preserve">
+    <value>Показывать сектор обстрела для САУ на миникарте</value>
+  </data>
+  <data name="game/showVectorOnMap" xml:space="preserve">
+    <value>Показывать луч направления камеры на миникарте</value>
+  </data>
+  <data name="game/showVehModelsOnMap" xml:space="preserve">
+    <value>Включить дополнительные возможности миникарты</value>
+  </data>
+  <data name="game/showVehModelsOnMap/alt" xml:space="preserve">
+    <value>По нажатию на Alt</value>
+  </data>
+  <data name="game/showVehModelsOnMap/always" xml:space="preserve">
+    <value>Постоянно</value>
+  </data>
+  <data name="game/showVehModelsOnMap/never" xml:space="preserve">
+    <value>Никогда</value>
+  </data>
+  <data name="graphicsSettingsOptions/RANDOM" xml:space="preserve">
+    <value>Случайный</value>
+  </data>
+  <data name="chat/receiveFriendshipRequest" xml:space="preserve">
+    <value>Принимать запросы на добавление в «Друзья»</value>
+  </data>
+  <data name="defaultNamePrefix" xml:space="preserve">
+    <value>Игрок</value>
+  </data>
+  <data name="interfaceScale" xml:space="preserve">
+    <value>Масштабирование интерфейса</value>
+  </data>
+  <data name="interfaceScale/attention" xml:space="preserve">
+    <value>Настройка работает в тестовом режиме
+и не влияет на быстродействие игры.</value>
+  </data>
+  <data name="interfaceScale/body" xml:space="preserve">
+    <value>Автоматическое увеличение элементов интерфейса
+при увеличении экрана/окна игры.</value>
+  </data>
+  <data name="interfaceScale/description" xml:space="preserve">
+    <value>Автоматическое увеличение элементов интерфейса при увеличении экрана/окна игры.</value>
+  </data>
+  <data name="interfaceScale/header" xml:space="preserve">
+    <value>Масштабирование интерфейса</value>
+  </data>
+  <data name="interfaceScale/warning" xml:space="preserve">
+    <value>Настройка работает в тестовом режиме и не влияет на быстродействие игры.</value>
+  </data>
+  <data name="chat/chatContactsListOnly" xml:space="preserve">
+    <value>Принимать сообщения только из списка контактов</value>
+  </data>
+  <data name="chat/receiveInvitesInBattle" xml:space="preserve">
+    <value>Принимать приглашения во взвод в бою</value>
+  </data>
+  <data name="game/showBattleEfficiencyRibbons" xml:space="preserve">
+    <value>Показывать ленты боевой эффективности</value>
+  </data>
+  <data name="graphicsQualityHDSD" xml:space="preserve">
+    <value>Типы клиентов игры</value>
+  </data>
+  <data name="graphicsQualityHDSD/HD" xml:space="preserve">
+    <value>HD клиент (Бета)</value>
+  </data>
+  <data name="graphicsQualityHDSD/SD" xml:space="preserve">
+    <value>Установлен Стандартный клиент (SD)</value>
+  </data>
+  <data name="graphicsQualityHDSD/description" xml:space="preserve">
+    <value>Стандартный клиент — полная версия игры, за исключением текстур максимального разрешения.
+
+HD клиент (Бета) — полная версия игры, включая текстуры максимального разрешения. Занимает больше места на жёстком диске.</value>
+  </data>
+  <data name="DRR_AUTOSCALER_ENABLED" xml:space="preserve">
+    <value>Динамическое изменение</value>
+  </data>
+  <data name="DRR_AUTOSCALER_ENABLED/description" xml:space="preserve">
+    <value>Включить или отключить автоматическую регулировку разрешения 3D рендера.
+
+Включение настройки помогает сохранить быстродействие игры.</value>
+  </data>
+  <data name="interfaceScaleDisabled" xml:space="preserve">
+    <value>Масштабирование интерфейса</value>
+  </data>
+  <data name="interfaceScaleDisabled/attention" xml:space="preserve">
+    <value>Только для 4K мониторов.</value>
+  </data>
+  <data name="interfaceScaleDisabled/body" xml:space="preserve">
+    <value>Автоматическое увеличение элементов интерфейса
+при увеличении экрана/окна игры.</value>
+  </data>
+  <data name="interfaceScaleDisabled/description" xml:space="preserve">
+    <value>Автоматическое увеличение элементов интерфейса при увеличении экрана/окна игры.</value>
+  </data>
+  <data name="interfaceScaleDisabled/header" xml:space="preserve">
+    <value>Масштабирование интерфейса</value>
+  </data>
+  <data name="interfaceScaleDisabled/warning" xml:space="preserve">
+    <value>Только для 4K мониторов.</value>
+  </data>
+  <data name="chat/receiveClanInvitesNotifications" xml:space="preserve">
+    <value>Получать клановые уведомления</value>
+  </data>
+  <data name="game/battleLoadingInfo" xml:space="preserve">
+    <value>Подсказки на экране загрузки боя</value>
+  </data>
+  <data name="game/battleLoadingInfo/minimap" xml:space="preserve">
+    <value>Миникарта</value>
+  </data>
+  <data name="game/battleLoadingInfo/textTip" xml:space="preserve">
+    <value>Только текст</value>
+  </data>
+  <data name="game/battleLoadingInfo/visualTip" xml:space="preserve">
+    <value>С иллюстрацией</value>
+  </data>
+  <data name="game/minimapDrawRange" xml:space="preserve">
+    <value>Показывать круг отображения техники</value>
+  </data>
+  <data name="game/minimapGroupTitle" xml:space="preserve">
+    <value>Индикаторы обзора на миникарте</value>
+  </data>
+  <data name="game/minimapMaxViewRange" xml:space="preserve">
+    <value>Показывать максимальный круг обзора</value>
+  </data>
+  <data name="game/minimapViewRange" xml:space="preserve">
+    <value>Показывать круг обзора</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/block_tracks" xml:space="preserve">
+    <value>«Ручной тормоз»</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/voicechat_enable" xml:space="preserve">
+    <value>Вкл/откл голосовую связь в динамических взводах</value>
+  </data>
+  <data name="sound/dynamicRange/broad" xml:space="preserve">
+    <value>Широкий</value>
+  </data>
+  <data name="sound/dynamicRange/label" xml:space="preserve">
+    <value>Динамический диапазон</value>
+  </data>
+  <data name="sound/dynamicRange/narrow" xml:space="preserve">
+    <value>Узкий</value>
+  </data>
+  <data name="sound/dynamicRange/nightMode" xml:space="preserve">
+    <value>Ночной режим</value>
+  </data>
+  <data name="sound/dynamicRange/title" xml:space="preserve">
+    <value>Предустановки</value>
+  </data>
+  <data name="soundQuality" xml:space="preserve">
+    <value>Звук высокого качества</value>
+  </data>
+  <data name="soundQuality/description" xml:space="preserve">
+    <value>Отключение параметра может повысить быстродействие игры.</value>
+  </data>
+  <data name="sounds/masterVolumeToggle" xml:space="preserve">
+    <value>Включить звук</value>
+  </data>
+  <data name="sounds/soundQuality" xml:space="preserve">
+    <value>Низкое качество</value>
+  </data>
+  <data name="aim/cassette" xml:space="preserve">
+    <value>Кассеты</value>
+  </data>
+  <data name="aim/centralTag" xml:space="preserve">
+    <value>Центральный маркер</value>
+  </data>
+  <data name="aim/centralTag/type0" xml:space="preserve">
+    <value>A-образный I</value>
+  </data>
+  <data name="aim/centralTag/type1" xml:space="preserve">
+    <value>A-образный II</value>
+  </data>
+  <data name="aim/centralTag/type10" xml:space="preserve">
+    <value>O-образный I</value>
+  </data>
+  <data name="aim/centralTag/type11" xml:space="preserve">
+    <value>O-образный II</value>
+  </data>
+  <data name="aim/centralTag/type12" xml:space="preserve">
+    <value>A-образный IV</value>
+  </data>
+  <data name="aim/centralTag/type13" xml:space="preserve">
+    <value>A-образный V</value>
+  </data>
+  <data name="aim/centralTag/type2" xml:space="preserve">
+    <value>A-образный III</value>
+  </data>
+  <data name="aim/centralTag/type3" xml:space="preserve">
+    <value>V-образный</value>
+  </data>
+  <data name="aim/centralTag/type4" xml:space="preserve">
+    <value>Перекрестие I</value>
+  </data>
+  <data name="aim/centralTag/type5" xml:space="preserve">
+    <value>Перекрестие II</value>
+  </data>
+  <data name="aim/centralTag/type6" xml:space="preserve">
+    <value>T-образный</value>
+  </data>
+  <data name="aim/centralTag/type7" xml:space="preserve">
+    <value>I-образный</value>
+  </data>
+  <data name="aim/centralTag/type8" xml:space="preserve">
+    <value>Точка I</value>
+  </data>
+  <data name="aim/centralTag/type9" xml:space="preserve">
+    <value>Точка II</value>
+  </data>
+  <data name="aim/condition" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="aim/gunTag" xml:space="preserve">
+    <value>Маркер орудия</value>
+  </data>
+  <data name="aim/gunTag/type0" xml:space="preserve">
+    <value>A-образный I (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="aim/gunTag/type1" xml:space="preserve">
+    <value>A-образный II (c индикатором перезарядки)</value>
+  </data>
+  <data name="aim/gunTag/type10" xml:space="preserve">
+    <value>O-образный II (c индикатором перезарядки)</value>
+  </data>
+  <data name="aim/gunTag/type11" xml:space="preserve">
+    <value>O-образный III</value>
+  </data>
+  <data name="aim/gunTag/type12" xml:space="preserve">
+    <value>A-образный IV (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="aim/gunTag/type13" xml:space="preserve">
+    <value>A-образный V (c индикатором перезарядки)</value>
+  </data>
+  <data name="aim/gunTag/type14" xml:space="preserve">
+    <value>A-образный VI</value>
+  </data>
+  <data name="aim/gunTag/type2" xml:space="preserve">
+    <value>A-образный III</value>
+  </data>
+  <data name="aim/gunTag/type3" xml:space="preserve">
+    <value>Перекрестие I (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="aim/gunTag/type4" xml:space="preserve">
+    <value>Перекрестие II (c индикатором перезарядки)</value>
+  </data>
+  <data name="aim/gunTag/type5" xml:space="preserve">
+    <value>Перекрестие III</value>
+  </data>
+  <data name="aim/gunTag/type6" xml:space="preserve">
+    <value>Точка I (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="aim/gunTag/type7" xml:space="preserve">
+    <value>Точка II (c индикатором перезарядки)</value>
+  </data>
+  <data name="aim/gunTag/type8" xml:space="preserve">
+    <value>Точка III</value>
+  </data>
+  <data name="aim/gunTag/type9" xml:space="preserve">
+    <value>O-образный I (c индикатором бронепробиваемости)</value>
+  </data>
+  <data name="aim/mixing" xml:space="preserve">
+    <value>Сведение</value>
+  </data>
+  <data name="aim/mixing/type0" xml:space="preserve">
+    <value>Круг I (c заполняющимся индикатором перезарядки) </value>
+  </data>
+  <data name="aim/mixing/type1" xml:space="preserve">
+    <value>Круг II (c переключающимся индикатором перезарядки)</value>
+  </data>
+  <data name="aim/mixing/type2" xml:space="preserve">
+    <value>Круг III (без индикатора перезарядки)</value>
+  </data>
+  <data name="aim/mixing/type3" xml:space="preserve">
+    <value>Круг IV (сплошной)</value>
+  </data>
+  <data name="aim/mixing/type4" xml:space="preserve">
+    <value>Перекрестие (c переключающимся индикатором)</value>
+  </data>
+  <data name="aim/mixing/type5" xml:space="preserve">
+    <value>Перекрестие II</value>
+  </data>
+  <data name="aim/mixing/type6" xml:space="preserve">
+    <value>Тестовый</value>
+  </data>
+  <data name="aim/net" xml:space="preserve">
+    <value>Индикатор</value>
+  </data>
+  <data name="aim/net/type0" xml:space="preserve">
+    <value>Диагональный</value>
+  </data>
+  <data name="aim/net/type1" xml:space="preserve">
+    <value>Горизонтальный</value>
+  </data>
+  <data name="aim/net/type2" xml:space="preserve">
+    <value>Радиальный</value>
+  </data>
+  <data name="aim/net/type3" xml:space="preserve">
+    <value>Пунктирный</value>
+  </data>
+  <data name="aim/reloader" xml:space="preserve">
+    <value>Перезарядка</value>
+  </data>
+  <data name="aim/reloaderTimer" xml:space="preserve">
+    <value>Таймер перезарядки</value>
+  </data>
+  <data name="aim/zoomIndicator" xml:space="preserve">
+    <value>Индикатор зума</value>
+  </data>
+  <data name="game/increasedZoom/base" xml:space="preserve">
+    <value>Включить кратность приближения %(zooms)s</value>
+  </data>
+  <data name="game/increasedZoom/delimeter" xml:space="preserve">
+    <value> и </value>
+  </data>
+  <data name="game/increasedZoom/zoomStr" xml:space="preserve">
+    <value>x%(zoom)d</value>
+  </data>
+  <data name="game/showSimplifiedVehParams" xml:space="preserve">
+    <value>Показывать упрощённые ТТХ в Ангаре</value>
+  </data>
+  <data name="game/sniperModeByShift" xml:space="preserve">
+    <value>Переключение в снайперский режим только по Shift</value>
+  </data>
+  <data name="graphicsSettingsOptions/ULTRA" xml:space="preserve">
+    <value>Ультра</value>
+  </data>
+  <data name="sound/bassBoost/label" xml:space="preserve">
+    <value>Усиление баса</value>
+  </data>
+  <data name="sound/presets/title" xml:space="preserve">
+    <value>Предустановки</value>
+  </data>
+  <data name="sound/soundDevice/acoustics" xml:space="preserve">
+    <value>Акустика 2.0/2.1</value>
+  </data>
+  <data name="sound/soundDevice/headphones" xml:space="preserve">
+    <value>Наушники</value>
+  </data>
+  <data name="sound/soundDevice/label" xml:space="preserve">
+    <value>Тип устройства воспроизведения</value>
+  </data>
+  <data name="sound/soundDevice/laptop" xml:space="preserve">
+    <value>Ноутбук</value>
+  </data>
+  <data name="borderlessSize" xml:space="preserve">
+    <value>Оконный (без рамки)</value>
+  </data>
+  <data name="borderlessSize/description" xml:space="preserve">
+    <value>Оконный (без рамки)</value>
+  </data>
+  <data name="feedBack" xml:space="preserve">
+    <value>Информирование в бою</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/BaseCapture" xml:space="preserve">
+    <value>Очки захвата базы</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/BaseCaptureDrop" xml:space="preserve">
+    <value>Очки защиты базы</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/BlockedDamage" xml:space="preserve">
+    <value>Удар сдержан</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EnemyBurning" xml:space="preserve">
+    <value>Поджог противника</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EnemyCriticalHit" xml:space="preserve">
+    <value>Критический урон</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EnemyDetection" xml:space="preserve">
+    <value>Обнаружение противника</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EnemyDetectionDamage" xml:space="preserve">
+    <value>Урон по разведданным</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EnemyHpDamage" xml:space="preserve">
+    <value>Урон выстрелом</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EnemyKill" xml:space="preserve">
+    <value>Уничтожение противника</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EnemyRamAttack" xml:space="preserve">
+    <value>Урон противнику тараном</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EnemyTrackDamage" xml:space="preserve">
+    <value>Сбитие гусеницы</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/EventName" xml:space="preserve">
+    <value>Название события</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/ShowInBattle" xml:space="preserve">
+    <value>Отображать в бою</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/VehicleInfo" xml:space="preserve">
+    <value>Информация о машине</value>
+  </data>
+  <data name="feedback/tab/battleEvents/info" xml:space="preserve">
+    <value>В бою отображаются 3 последних события</value>
+  </data>
+  <data name="feedback/tab/battleEvents/label/CommonLabel" xml:space="preserve">
+    <value>Отображение в бою</value>
+  </data>
+  <data name="feedback/tab/battleEvents/label/Information" xml:space="preserve">
+    <value>Информирование</value>
+  </data>
+  <data name="feedback/tab/battleEvents/label/VisibleEvents" xml:space="preserve">
+    <value>События</value>
+  </data>
+  <data name="feedback/tab/damageIndicator" xml:space="preserve">
+    <value>Индикатор обстрела</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/indicator/blockDamageCountTF" xml:space="preserve">
+    <value>Количество
+урона</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/indicator/blockedLabel" xml:space="preserve">
+    <value>Удар по вашей машине сдержан</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/indicator/blockedValue" xml:space="preserve">
+    <value>400</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/indicator/critLabel" xml:space="preserve">
+    <value>Критическое попадание
+по вашей машине</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/indicator/critValue" xml:space="preserve">
+    <value>x3</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/indicator/damageLabel" xml:space="preserve">
+    <value>Полученный урон</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/indicator/damageModule" xml:space="preserve">
+    <value>Повреждённый
+модуль</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/indicator/damageValue" xml:space="preserve">
+    <value>400</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/items" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/items/animation" xml:space="preserve">
+    <value>Анимация появления</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/items/damage" xml:space="preserve">
+    <value>Количество урона</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/items/tankName" xml:space="preserve">
+    <value>Информация о машине</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/presets" xml:space="preserve">
+    <value>Отображать в бою</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/presets/all" xml:space="preserve">
+    <value>Полностью</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/presets/withoutCrit" xml:space="preserve">
+    <value>Без критических</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/type/extended" xml:space="preserve">
+    <value>Расширенный</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/type/standard" xml:space="preserve">
+    <value>Стандартный</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/typeLabel" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel" xml:space="preserve">
+    <value>История событий</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/blockedDamage" xml:space="preserve">
+    <value>Заблокированный бронёй</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/damageAssist" xml:space="preserve">
+    <value>Нанесённый с вашей помощью</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/damageDone" xml:space="preserve">
+    <value>Нанесённый лично</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/details/always" xml:space="preserve">
+    <value>Отображать всегда</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/details/byAlt" xml:space="preserve">
+    <value>По нажатию на Alt</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/details/hide" xml:space="preserve">
+    <value>Не показывать</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/detailsLabel" xml:space="preserve">
+    <value>Детальный урон</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/summLabel" xml:space="preserve">
+    <value>Суммарный урон</value>
+  </data>
+  <data name="feedback/tab/detailsInfoBlock" xml:space="preserve">
+    <value>Блок детального урона. Показывает полную информацию о вашей эффективности в бою.</value>
+  </data>
+  <data name="feedback/tab/eventsInfo" xml:space="preserve">
+    <value>События в бою</value>
+  </data>
+  <data name="game/carouselType" xml:space="preserve">
+    <value>Панель техники</value>
+  </data>
+  <data name="game/carouselType/double" xml:space="preserve">
+    <value>Двухуровневая</value>
+  </data>
+  <data name="game/carouselType/single" xml:space="preserve">
+    <value>Одноуровневая</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/my_target/follow_me" xml:space="preserve">
+    <value>Поддержите огнём! / За мной!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/reload/stop" xml:space="preserve">
+    <value>Перезаряжаюсь! / Стой!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/sos/help_me" xml:space="preserve">
+    <value>Нужна помощь! / Помоги!</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/to_base/to_back" xml:space="preserve">
+    <value>Защищайте базу! / Назад!</value>
+  </data>
+  <data name="otherSettings/fieldset/header" xml:space="preserve">
+    <value>Элементы звуковой картины</value>
+  </data>
+  <data name="otherSettings/labels/bulb" xml:space="preserve">
+    <value>Звук срабатывания «Шестого чувства»</value>
+  </data>
+  <data name="screenMode" xml:space="preserve">
+    <value>Режим игры</value>
+  </data>
+  <data name="screenMode/borderless" xml:space="preserve">
+    <value>Оконный (без рамки)</value>
+  </data>
+  <data name="screenMode/description" xml:space="preserve">
+    <value>Переключение между полноэкранным, оконным и оконным (без рамки) режимами экрана. В оконном режиме быстродействие игры снижается.</value>
+  </data>
+  <data name="screenMode/fullscreen" xml:space="preserve">
+    <value>Полноэкранный</value>
+  </data>
+  <data name="screenMode/label" xml:space="preserve">
+    <value>Режим:</value>
+  </data>
+  <data name="screenMode/windowed" xml:space="preserve">
+    <value>Оконный</value>
+  </data>
+  <data name="sound/bulbVoices/lightbulb" xml:space="preserve">
+    <value>Вариант 1</value>
+  </data>
+  <data name="sound/bulbVoices/lightbulb_02" xml:space="preserve">
+    <value>Вариант 2</value>
+  </data>
+  <data name="sound/bulbVoices/sixthSense" xml:space="preserve">
+    <value>Пользовательский</value>
+  </data>
+  <data name="sound/special/field/set" xml:space="preserve">
+    <value>Громкость игрового события</value>
+  </data>
+  <data name="sounds/acousticType/acoustics20" xml:space="preserve">
+    <value>Тип 2.0/2.1</value>
+  </data>
+  <data name="sounds/acousticType/acoustics51" xml:space="preserve">
+    <value>Тип 5.1</value>
+  </data>
+  <data name="sounds/acousticType/acoustics71" xml:space="preserve">
+    <value>Тип 7.1</value>
+  </data>
+  <data name="sounds/acousticType/auto" xml:space="preserve">
+    <value>Автоопределение</value>
+  </data>
+  <data name="sounds/acousticType/popover/acoustics20" xml:space="preserve">
+    <value>акустика 2.0/2.1</value>
+  </data>
+  <data name="sounds/acousticType/popover/acoustics51" xml:space="preserve">
+    <value>акустика 5.1</value>
+  </data>
+  <data name="sounds/acousticType/popover/acoustics71" xml:space="preserve">
+    <value>акустика 7.1</value>
+  </data>
+  <data name="sounds/acousticType/popover/headphones" xml:space="preserve">
+    <value>наушники</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/center" xml:space="preserve">
+    <value>Центральный</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/left" xml:space="preserve">
+    <value>Левый</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/leftBack" xml:space="preserve">
+    <value>Левый задний</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/leftFront" xml:space="preserve">
+    <value>Левый передний</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/leftSide" xml:space="preserve">
+    <value>Левый боковой</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/right" xml:space="preserve">
+    <value>Правый</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/rightBack" xml:space="preserve">
+    <value>Правый задний</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/rightFront" xml:space="preserve">
+    <value>Правый передний</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/rightSide" xml:space="preserve">
+    <value>Правый боковой</value>
+  </data>
+  <data name="sounds/acousticType/popover/item/sub" xml:space="preserve">
+    <value>Сабвуфер</value>
+  </data>
+  <data name="sounds/acousticType/popover/laptop" xml:space="preserve">
+    <value>ноутбук</value>
+  </data>
+  <data name="sounds/acousticType/popover/title" xml:space="preserve">
+    <value>Тест звучания:</value>
+  </data>
+  <data name="sounds/acousticType/testButton" xml:space="preserve">
+    <value>Тестировать</value>
+  </data>
+  <data name="sounds/bassBoost" xml:space="preserve">
+    <value>Усиление низких частот</value>
+  </data>
+  <data name="sounds/bassBoost/description" xml:space="preserve">
+    <value>Усиливает низкие частоты в игре, не увеличивая при этом общую громкость. Режим работает по-разному для выбранной звуковой системы (акустика, наушники, ноутбук).</value>
+  </data>
+  <data name="sounds/bulbVoices" xml:space="preserve">
+    <value>«Шестое чувство»</value>
+  </data>
+  <data name="sounds/bulbVoices/description" xml:space="preserve">
+    <value>Выбор одного из вариантов озвучки срабатывания эффекта навыка «Шестое чувство». Чтобы использовать собственный звук в формате mp3, переименуйте файл в sixthSense и поместите его в папку res/audioww.</value>
+  </data>
+  <data name="sounds/hangar" xml:space="preserve">
+    <value>Музыка в Ангаре</value>
+  </data>
+  <data name="sounds/masterVolumeToggle/description" xml:space="preserve">
+    <value>Выключение звуковой системы может повысить общее быстродействие игры. Для применения потребуется перезагрузка игрового клиента.</value>
+  </data>
+  <data name="sounds/nightMode" xml:space="preserve">
+    <value>Ночной режим</value>
+  </data>
+  <data name="sounds/nightMode/description" xml:space="preserve">
+    <value>Уменьшает разницу громкостей, приглушает резкие звуки и уменьшает количество низких частот в игре, обеспечивая комфортную тихую игру в ночное время.</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics20" xml:space="preserve">
+    <value>Акустика 2.0/2.1</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics20/body" xml:space="preserve">
+    <value>Адаптирует позиционирование звуков в игре для внешних парных широкополосных динамиков (2.0), либо парных высокочастотных динамиков + одного низкочастотного (2.1).</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics20/header" xml:space="preserve">
+    <value>Акустика 2.0/2.1</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics51" xml:space="preserve">
+    <value>Акустика 5.1</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics51/body" xml:space="preserve">
+    <value>Адаптирует позиционирование звуков в игре для внешних динамиков и сабвуфера в многоканальной системе 5.1.</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics51/header" xml:space="preserve">
+    <value>Акустика 5.1</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics71" xml:space="preserve">
+    <value>Акустика 7.1</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics71/body" xml:space="preserve">
+    <value>Адаптирует позиционирование звуков в игре для внешних динамиков и сабвуфера в многоканальной системе 7.1.</value>
+  </data>
+  <data name="sounds/soundDevice/acoustics71/header" xml:space="preserve">
+    <value>Акустика 7.1</value>
+  </data>
+  <data name="sounds/soundDevice/auto" xml:space="preserve">
+    <value>Автоопределение</value>
+  </data>
+  <data name="sounds/soundDevice/auto/body" xml:space="preserve">
+    <value>Автоматически определять настройки аудиоконфигурации, выставленные в операционной системе.</value>
+  </data>
+  <data name="sounds/soundDevice/auto/header" xml:space="preserve">
+    <value>Автоопределение</value>
+  </data>
+  <data name="sounds/soundDevice/headphones" xml:space="preserve">
+    <value>Наушники</value>
+  </data>
+  <data name="sounds/soundDevice/headphones/body" xml:space="preserve">
+    <value>Адаптирует позиционирование звука в игре для наушников любого класса.</value>
+  </data>
+  <data name="sounds/soundDevice/headphones/header" xml:space="preserve">
+    <value>Наушники</value>
+  </data>
+  <data name="sounds/soundDevice/laptop" xml:space="preserve">
+    <value>Ноутбук</value>
+  </data>
+  <data name="sounds/soundDevice/laptop/body" xml:space="preserve">
+    <value>Использует принцип позиционирования предустановки Акустика 2.0/2.1, но при этом адаптирует звук для максимально качественного воспроизведения на маленьких динамиках ноутбука.</value>
+  </data>
+  <data name="sounds/soundDevice/laptop/header" xml:space="preserve">
+    <value>Ноутбук</value>
+  </data>
+  <data name="sounds/soundQuality/description" xml:space="preserve">
+    <value>Снижение качества звука может повысить быстродействие игры на бюджетных компьютерах. Включение данного режима значительно снижает количество одновременно воспроизводимых звуков.</value>
+  </data>
+  <data name="sounds/speakers/back/body" xml:space="preserve">
+    <value>Тестирование звука на правом/левом задних динамиках.</value>
+  </data>
+  <data name="sounds/speakers/back/header" xml:space="preserve">
+    <value>Правый/левый задние динамики</value>
+  </data>
+  <data name="sounds/speakers/center/body" xml:space="preserve">
+    <value>Тестирование звука на центральном динамике.</value>
+  </data>
+  <data name="sounds/speakers/center/header" xml:space="preserve">
+    <value>Центральный динамик</value>
+  </data>
+  <data name="sounds/speakers/front/body" xml:space="preserve">
+    <value>Тестирование звука на правом/левом передних динамиках.</value>
+  </data>
+  <data name="sounds/speakers/front/header" xml:space="preserve">
+    <value>Правый/левый передние динамики</value>
+  </data>
+  <data name="sounds/speakers/optionalsub/body" xml:space="preserve">
+    <value>В конфигурации 2.0/2.1 сабвуфер является опциональным устройством, подключенным «сквозным» способом. Его проверка отдельно от колонок невозможна.</value>
+  </data>
+  <data name="sounds/speakers/optionalsub/header" xml:space="preserve">
+    <value>Опциональный сабвуфер</value>
+  </data>
+  <data name="sounds/speakers/sidelong/body" xml:space="preserve">
+    <value>Тестирование звука на правом/левом боковых динамиках.</value>
+  </data>
+  <data name="sounds/speakers/sidelong/header" xml:space="preserve">
+    <value>Правый/левый боковые динамики</value>
+  </data>
+  <data name="sounds/speakers/sides/body" xml:space="preserve">
+    <value>Тестирование звука на правом/левом динамиках.</value>
+  </data>
+  <data name="sounds/speakers/sides/header" xml:space="preserve">
+    <value>Правый/левый динамики</value>
+  </data>
+  <data name="sounds/speakers/sub/body" xml:space="preserve">
+    <value>Тестирование звука на сабвуфере.</value>
+  </data>
+  <data name="sounds/speakers/sub/header" xml:space="preserve">
+    <value>Сабвуфер</value>
+  </data>
+  <data name="sounds/tabCommon" xml:space="preserve">
+    <value>Общий уровень</value>
+  </data>
+  <data name="sounds/tabSpecial" xml:space="preserve">
+    <value>Игровое событие</value>
+  </data>
+  <data name="sounds/tabVivox" xml:space="preserve">
+    <value>Голосовая связь</value>
+  </data>
+  <data name="sounds/voiceNotification" xml:space="preserve">
+    <value>Голосовые уведомления</value>
+  </data>
+  <data name="voice_chat/microphone/fieldset/header" xml:space="preserve">
+    <value>Микрофон</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/ReceivedCrits" xml:space="preserve">
+    <value>Критическое повреждение</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/ReceivedDamage" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/WorldCollision" xml:space="preserve">
+    <value>Урон от падения</value>
+  </data>
+  <data name="feedback/tab/battleEvents/label/negative" xml:space="preserve">
+    <value>Получение урона</value>
+  </data>
+  <data name="feedback/tab/battleEvents/label/positive" xml:space="preserve">
+    <value>Боевая эффективность</value>
+  </data>
+  <data name="feedback/tab/battleEvents/receivedDamage" xml:space="preserve">
+    <value>Получен урон</value>
+  </data>
+  <data name="feedback/tab/damageIndicator/items/dynamicIndicator" xml:space="preserve">
+    <value>Динамические индикаторы</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/eventPositions/bottom" xml:space="preserve">
+    <value>Все события внизу</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/eventPositions/topBottom" xml:space="preserve">
+    <value>Получение урона сверху</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/eventPositionsLabel" xml:space="preserve">
+    <value>Расположение событий</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/eventTypes/both" xml:space="preserve">
+    <value>Все события</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/eventTypes/eventTypesLabel" xml:space="preserve">
+    <value>Тип события</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/eventTypes/negative" xml:space="preserve">
+    <value>Получение урона</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/eventTypes/positive" xml:space="preserve">
+    <value>Боевая эффективность</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/negative/value1" xml:space="preserve">
+    <value>490</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/negative/value2" xml:space="preserve">
+    <value>400</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/negative/value3" xml:space="preserve">
+    <value>x2</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/negative/value4" xml:space="preserve">
+    <value>x2</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/positive/value1" xml:space="preserve">
+    <value>320</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/positive/value2" xml:space="preserve">
+    <value>151</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/positive/value3" xml:space="preserve">
+    <value>867</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/positive/value4" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/screenAlert" xml:space="preserve">
+    <value>Включение данной настройки не рекомендуется
+для низких разрешений экрана</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/summaryAssist" xml:space="preserve">
+    <value>1200</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/summaryBlock" xml:space="preserve">
+    <value>700</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/summaryDamage" xml:space="preserve">
+    <value>1240</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/total/value1" xml:space="preserve">
+    <value>400</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/total/value2" xml:space="preserve">
+    <value>151</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/total/value3" xml:space="preserve">
+    <value>867</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/total/value4" xml:space="preserve">
+    <value>750</value>
+  </data>
+  <data name="feedback/tab/ribbons/armorValue" xml:space="preserve">
+    <value>750</value>
+  </data>
+  <data name="feedback/tab/ribbons/assistSpotValue" xml:space="preserve">
+    <value>654</value>
+  </data>
+  <data name="feedback/tab/ribbons/assistTrackValue" xml:space="preserve">
+    <value>750</value>
+  </data>
+  <data name="feedback/tab/ribbons/burnValue" xml:space="preserve">
+    <value>350</value>
+  </data>
+  <data name="feedback/tab/ribbons/captureValue" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="feedback/tab/ribbons/critValue" xml:space="preserve">
+    <value>x2</value>
+  </data>
+  <data name="feedback/tab/ribbons/damageValue" xml:space="preserve">
+    <value>400</value>
+  </data>
+  <data name="feedback/tab/ribbons/defenceValue" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="feedback/tab/ribbons/ramValue" xml:space="preserve">
+    <value>250</value>
+  </data>
+  <data name="feedback/tab/ribbons/visibleItemsCount" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="game/carouselVehicle/checkbox/stats" xml:space="preserve">
+    <value>Отображать статистику по наведению на слот в Ангаре</value>
+  </data>
+  <data name="game/doubleCarousel/label" xml:space="preserve">
+    <value>Двухуровневая панель техники</value>
+  </data>
+  <data name="game/doubleCarouselType/adaptive" xml:space="preserve">
+    <value>Адаптируемая</value>
+  </data>
+  <data name="game/doubleCarouselType/small" xml:space="preserve">
+    <value>Минималистичная</value>
+  </data>
+  <data name="keyboard/keysBlocks/command/trajectory_view" xml:space="preserve">
+    <value>Вид от траектории</value>
+  </data>
+  <data name="mouse/sensitivity/art2" xml:space="preserve">
+    <value>Вид от траектории</value>
+  </data>
+  <data name="alternativeVoices/labels" xml:space="preserve">
+    <value>Голосовые уведомления в бою</value>
+  </data>
+  <data name="feedback/tab/battleEvents/checkbox/AssistStun" xml:space="preserve">
+    <value>Помощь оглушением</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/assistStun" xml:space="preserve">
+    <value>Нанесённый по вашему оглушению</value>
+  </data>
+  <data name="feedback/tab/damageLogPanel/summaryAssistStun" xml:space="preserve">
+    <value>320</value>
+  </data>
+  <data name="feedback/tab/ribbons/assistStun" xml:space="preserve">
+    <value>320</value>
+  </data>
+  <data name="sounds/altVoice/NationalDefault/body" xml:space="preserve">
+    <value>Голосовые сообщения озвучиваются в соответствии с нацией танка и полом командира</value>
+  </data>
+  <data name="sounds/altVoice/NationalDefault/header" xml:space="preserve">
+    <value>Командирские</value>
+  </data>
+  <data name="sounds/altVoice/default/body" xml:space="preserve">
+    <value>Голосовые сообщения озвучиваются мужским голосом на языке клиента игры</value>
+  </data>
+  <data name="sounds/altVoice/default/header" xml:space="preserve">
+    <value>Стандартная</value>
+  </data>
+  <data name="sounds/sixthSense/body" xml:space="preserve">
+    <value>Использование своей озвучки. Для этого файл с названием sixthSense в формате mp3 поместите в папку resaudioww.</value>
+  </data>
+  <data name="sounds/sixthSense/header" xml:space="preserve">
+    <value>Пользовательские</value>
+  </data>
+  <data name="game/battleLoadingRankedInfo" xml:space="preserve">
+    <value>Подсказки на экране загрузки Рангового боя</value>
+  </data>
+  <data name="game/battleLoadingRankedInfo/minimap" xml:space="preserve">
+    <value>Миникарта</value>
+  </data>
+  <data name="game/battleLoadingRankedInfo/textTip" xml:space="preserve">
+    <value>Только текст</value>
+  </data>
+  <data name="game/battleLoadingRankedInfo/visualTip" xml:space="preserve">
+    <value>С иллюстрацией</value>
+  </data>
+  <data name="gameplay/epic_encounter" xml:space="preserve">
+    <value>Генеральное сражение (только для техники X уровня)</value>
+  </data>
+  <data name="gameplay/epic_standard" xml:space="preserve">
+    <value>Генеральное сражение (только для техники X уровня)</value>
+  </data>
+</root>

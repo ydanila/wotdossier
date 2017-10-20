@@ -1,0 +1,1436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="button/chooseVehicles/info/tooltip/description/notSelected" xml:space="preserve">
+    <value>No vehicles selected. Unable to start Autosearch.</value>
+  </data>
+  <data name="button/chooseVehicles/info/tooltip/description/notValid" xml:space="preserve">
+    <value>Selected vehicle is not ready. Unable to start Autosearch.</value>
+  </data>
+  <data name="button/chooseVehicles/info/tooltip/description/valid" xml:space="preserve">
+    <value>Suitable vehicles are selected. You may start Autosearch.</value>
+  </data>
+  <data name="button/chooseVehicles/info/tooltip/title" xml:space="preserve">
+    <value>Select Vehicles</value>
+  </data>
+  <data name="button/chooseVehicles/select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="button/chooseVehicles/selected" xml:space="preserve">
+    <value>Selected vehicles</value>
+  </data>
+  <data name="button/medallion/addSlotSettings" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="button/medallion/availableQuantity" xml:space="preserve">
+    <value>Suitable:</value>
+  </data>
+  <data name="button/medallion/chooseVehicle" xml:space="preserve">
+    <value>Select Vehicle</value>
+  </data>
+  <data name="window/autoSearch/confirmation/cancelLbl" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="window/autoSearch/confirmation/ctxMessage" xml:space="preserve">
+    <value>Time left to confirm:</value>
+  </data>
+  <data name="window/autoSearch/confirmation/ctxSeconds" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="window/autoSearch/confirmation/headerText" xml:space="preserve">
+    <value>Team Found</value>
+  </data>
+  <data name="window/autoSearch/confirmation/mainText" xml:space="preserve">
+    <value>Confirm readiness</value>
+  </data>
+  <data name="window/autoSearch/confirmation/submitlLbl" xml:space="preserve">
+    <value>Ready!</value>
+  </data>
+  <data name="window/autoSearch/errorState/cancelLbl" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="window/autoSearch/errorState/ctxMessage" xml:space="preserve">
+    <value>Search for a new team?</value>
+  </data>
+  <data name="window/autoSearch/errorState/headerText" xml:space="preserve">
+    <value>Time Expired</value>
+  </data>
+  <data name="window/autoSearch/errorState/mainText" xml:space="preserve">
+    <value>Team was found,
+but you did not confirm readiness.</value>
+  </data>
+  <data name="window/autoSearch/errorState/submitlLbl" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="window/autoSearch/searchCommand/cancelLbl" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="window/autoSearch/searchCommand/ctxMessage" xml:space="preserve">
+    <value>Average wait time:</value>
+  </data>
+  <data name="window/autoSearch/searchCommand/cxtDnmMessage" xml:space="preserve">
+    <value>%d min</value>
+  </data>
+  <data name="window/autoSearch/searchCommand/mainText" xml:space="preserve">
+    <value>Searching for suitable team</value>
+  </data>
+  <data name="window/autoSearch/searchEnemy/mainText" xml:space="preserve">
+    <value>Awaiting battle...</value>
+  </data>
+  <data name="window/autoSearch/waitingPlayers/mainText" xml:space="preserve">
+    <value>Awaiting players...</value>
+  </data>
+  <data name="window/intro/auto/btn" xml:space="preserve">
+    <value>Autosearch</value>
+  </data>
+  <data name="window/intro/auto/btn/tooltip/description/disabled" xml:space="preserve">
+    <value>Unable to find a team. Vehicles are not selected or are not ready for the battle.</value>
+  </data>
+  <data name="window/intro/auto/btn/tooltip/description/enabled" xml:space="preserve">
+    <value>Click to find a team automatically and join the battle immediately.</value>
+  </data>
+  <data name="window/intro/auto/btn/tooltip/title" xml:space="preserve">
+    <value>Autosearch</value>
+  </data>
+  <data name="window/intro/auto/btnLbl" xml:space="preserve">
+    <value>Start Autosearch</value>
+  </data>
+  <data name="window/intro/auto/description" xml:space="preserve">
+    <value>Team players will be matched automatically.</value>
+  </data>
+  <data name="window/intro/auto/title" xml:space="preserve">
+    <value>Autosearch by Rating</value>
+  </data>
+  <data name="window/intro/auto/vehicleLbl" xml:space="preserve">
+    <value>Selected vehicles:</value>
+  </data>
+  <data name="window/intro/create/btn" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="window/intro/create/description" xml:space="preserve">
+    <value>Create a team to cooperate with your friends and other players. Set requirements to the vehicles.</value>
+  </data>
+  <data name="window/intro/create/title" xml:space="preserve">
+    <value>Create Team</value>
+  </data>
+  <data name="window/intro/description" xml:space="preserve">
+    <value>Participants are peer teams with 7 players each.
+Vehicles are limited to Tiers VI–VIII. The total Tier of vehicles on a team must be 54.</value>
+  </data>
+  <data name="window/intro/search/btn" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="window/intro/search/description" xml:space="preserve">
+    <value>Select a suitable team from the list of existing ones. You must meet the Commander's requirements.</value>
+  </data>
+  <data name="window/intro/search/title" xml:space="preserve">
+    <value>Search for a Team</value>
+  </data>
+  <data name="window/intro/title" xml:space="preserve">
+    <value>Team Battle</value>
+  </data>
+  <data name="window/rosterSlotSettings/bottomResult" xml:space="preserve">
+    <value>Selected:</value>
+  </data>
+  <data name="window/rosterSlotSettings/tabBtnLbl/range" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="window/rosterSlotSettings/tabBtnLbl/vehicle" xml:space="preserve">
+    <value>Vehicles</value>
+  </data>
+  <data name="window/rosterSlotSettings/title" xml:space="preserve">
+    <value>Set Requirements</value>
+  </data>
+  <data name="window/rosterSlotSettings/vehicleTab/cancelBtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="window/rosterSlotSettings/vehicleTab/headerText" xml:space="preserve">
+    <value>Specify the requirements for your teammate's vehicles.</value>
+  </data>
+  <data name="window/rosterSlotSettings/vehicleTab/nationFieldSet" xml:space="preserve">
+    <value>Nation</value>
+  </data>
+  <data name="window/rosterSlotSettings/vehicleTab/submitBtn" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="window/rosterSlotSettings/vehicleTab/vehicleLevel" xml:space="preserve">
+    <value>Tier</value>
+  </data>
+  <data name="window/rosterSlotSettings/vehicleTab/vehicleType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="window/title" xml:space="preserve">
+    <value>Team Battle</value>
+  </data>
+  <data name="window/unit/applySlotsSettings" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="window/unit/autoRecruit" xml:space="preserve">
+    <value>Recruit</value>
+  </data>
+  <data name="window/unit/cancelSlotSettings" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="window/unit/candidates" xml:space="preserve">
+    <value>Volunteers</value>
+  </data>
+  <data name="window/unit/chat" xml:space="preserve">
+    <value>Chat Channel</value>
+  </data>
+  <data name="window/unit/closeRoom" xml:space="preserve">
+    <value>— Room shown</value>
+  </data>
+  <data name="window/unit/fight" xml:space="preserve">
+    <value>Battle!</value>
+  </data>
+  <data name="window/unit/inviteFriend" xml:space="preserve">
+    <value>Invite players</value>
+  </data>
+  <data name="window/unit/message/candidate" xml:space="preserve">
+    <value>The team Commander will add you to the team.</value>
+  </data>
+  <data name="window/unit/message/getReady" xml:space="preserve">
+    <value>Confirm that you are ready to join the battle.</value>
+  </data>
+  <data name="window/unit/message/levelError" xml:space="preserve">
+    <value>Total tier of vehicles is exceeded.</value>
+  </data>
+  <data name="window/unit/message/noVehicle" xml:space="preserve">
+    <value>Vehicles not selected</value>
+  </data>
+  <data name="window/unit/message/notFullUnit" xml:space="preserve">
+    <value>Incomplete</value>
+  </data>
+  <data name="window/unit/message/openSlots/levelError" xml:space="preserve">
+    <value>Total tier of vehicles is exceeded while some slots are available.</value>
+  </data>
+  <data name="window/unit/message/ready" xml:space="preserve">
+    <value>All members ready</value>
+  </data>
+  <data name="window/unit/message/vehicleInNotReady" xml:space="preserve">
+    <value>Vehicle is not ready for the battle.</value>
+  </data>
+  <data name="window/unit/message/waiting" xml:space="preserve">
+    <value>Wait for players getting ready…</value>
+  </data>
+  <data name="window/unit/notReady" xml:space="preserve">
+    <value>Not Ready</value>
+  </data>
+  <data name="window/unit/openRoom" xml:space="preserve">
+    <value>— Room hidden</value>
+  </data>
+  <data name="window/unit/ready" xml:space="preserve">
+    <value>Ready!</value>
+  </data>
+  <data name="window/unit/rosterSettingsView/or" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="window/unit/slot/emptySlot" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="window/unit/slot/freezed" xml:space="preserve">
+    <value>Frozen</value>
+  </data>
+  <data name="window/unit/slot/locked" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="window/unit/slot/notAvailable" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="window/unit/slot/takePlace" xml:space="preserve">
+    <value>Take Slot</value>
+  </data>
+  <data name="window/unit/slotHeaderText" xml:space="preserve">
+    <value>Set Requirements</value>
+  </data>
+  <data name="window/unit/slotSecondText" xml:space="preserve">
+    <value>Add requirements, indicating the vehicles you would like to see on your team. When adding players to the team, the vehicle requirements are not counted.</value>
+  </data>
+  <data name="window/unit/team" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="window/unit/teamLocked" xml:space="preserve">
+    <value>Team is not displayed in search results.</value>
+  </data>
+  <data name="window/unit/teamMembers" xml:space="preserve">
+    <value>Slots: %(current)s / %(max)s</value>
+  </data>
+  <data name="window/unit/teamPoints" xml:space="preserve">
+    <value>Total Tier:</value>
+  </data>
+  <data name="window/unit/teamUnlocked" xml:space="preserve">
+    <value>Team is displayed in search results.</value>
+  </data>
+  <data name="window/unit/teamVehicles" xml:space="preserve">
+    <value>Vehicles:</value>
+  </data>
+  <data name="window/unitListView/enterBtn" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="window/unitListView/enterText" xml:space="preserve">
+    <value>You can join the team as a volunteer</value>
+  </data>
+  <data name="window/unitListView/foundTeams" xml:space="preserve">
+    <value>Battle Rooms List</value>
+  </data>
+  <data name="window/unitListView/noUnitSelected" xml:space="preserve">
+    <value>Select a team from the list on the left
+to view the detailed description.</value>
+  </data>
+  <data name="window/unitListView/refreshList" xml:space="preserve">
+    <value>Update list</value>
+  </data>
+  <data name="window/unitListView/renderer/next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="window/unitListView/renderer/previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="window/unitListView/renderer/requiredVehicles" xml:space="preserve">
+    <value>Suitable vehicles</value>
+  </data>
+  <data name="window/unitListView/renderer/showMore" xml:space="preserve">
+    <value>Show 20 more</value>
+  </data>
+  <data name="window/unitListView/selectedTeam" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="window/unitListView/team" xml:space="preserve">
+    <value>Slots</value>
+  </data>
+  <data name="window/unitListView/teamDescription" xml:space="preserve">
+    <value>Team description</value>
+  </data>
+  <data name="window/unitListView/vehicles" xml:space="preserve">
+    <value>Vehicles</value>
+  </data>
+  <data name="window/vehicleSelector/buttons/cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="window/vehicleSelector/buttons/select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="window/vehicleSelector/filters/all" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="window/vehicleSelector/info/intro" xml:space="preserve">
+    <value>You will join the battle in one of the selected vehicles. Tiers allowed: VI–VIII.
+
+To play most comfortably, select a light, medium, or heavy tank.</value>
+  </data>
+  <data name="window/vehicleSelector/info/search" xml:space="preserve">
+    <value>You will join the battle in one of the selected vehicles. Tiers allowed: VI–VIII.</value>
+  </data>
+  <data name="window/vehicleSelector/info/unit" xml:space="preserve">
+    <value>Select a Tier VI–VIII vehicle in which you want to join the battle.</value>
+  </data>
+  <data name="window/vehicleSelector/title" xml:space="preserve">
+    <value>Select Vehicles</value>
+  </data>
+  <data name="window/unit/message/candidate/invalidVehicles" xml:space="preserve">
+    <value>Your vehicle does not meet the requirements of the team Commander.</value>
+  </data>
+  <data name="window/unit/message/candidate/lockedUnits" xml:space="preserve">
+    <value>You are not a team member. Slots frozen.</value>
+  </data>
+  <data name="window/unit/message/candidate/unitIsFull" xml:space="preserve">
+    <value>The team Commander will add you to the team.</value>
+  </data>
+  <data name="window/vehicleSelector/filters/allLevels" xml:space="preserve">
+    <value>All tiers</value>
+  </data>
+  <data name="window/vehicleSelector/filters/level" xml:space="preserve">
+    <value>%(levelNum)d Tier</value>
+  </data>
+  <data name="window/backBtnLbl" xml:space="preserve">
+    <value>BACK</value>
+  </data>
+  <data name="window/unit/description" xml:space="preserve">
+    <value>Participants are peer teams with 7 players each.
+Vehicles are limited to Tiers VI–VIII. The total Tier of vehicles on a team must be 54.</value>
+  </data>
+  <data name="window/unit/descriptionDefault" xml:space="preserve">
+    <value>Add description—</value>
+  </data>
+  <data name="window/unit/leave" xml:space="preserve">
+    <value>Leave Room</value>
+  </data>
+  <data name="window/unit/lockSlot" xml:space="preserve">
+    <value>Lock Slot</value>
+  </data>
+  <data name="window/unit/teamVehiclesStub" xml:space="preserve">
+    <value>Vehicles: VI–VIII</value>
+  </data>
+  <data name="window/unit/unitListView/commander" xml:space="preserve">
+    <value>Commander</value>
+  </data>
+  <data name="window/unit/unitListView/description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="window/unit/unitListView/paginationDown" xml:space="preserve">
+    <value>Weaker</value>
+  </data>
+  <data name="window/unit/unitListView/paginationInfo" xml:space="preserve">
+    <value>—Display other tactical units</value>
+  </data>
+  <data name="window/unit/unitListView/paginationUp" xml:space="preserve">
+    <value>Stronger</value>
+  </data>
+  <data name="window/unit/unitListView/players" xml:space="preserve">
+    <value>Members</value>
+  </data>
+  <data name="window/unit/unitListView/rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="window/unit/unitName" xml:space="preserve">
+    <value>Team %(commanderName)s</value>
+  </data>
+  <data name="window/unit/unlockSlot" xml:space="preserve">
+    <value>Unlock Slot</value>
+  </data>
+  <data name="window/unitListView/create/btn" xml:space="preserve">
+    <value>Create Room</value>
+  </data>
+  <data name="window/unitListView/description" xml:space="preserve">
+    <value>Below is the list of available battle rooms where you can submit an application to join as a legionnaire.</value>
+  </data>
+  <data name="window/unitListView/foundTeamsDescription" xml:space="preserve">
+    <value>The teams listed below are searching for players and have vacant slots.</value>
+  </data>
+  <data name="window/unitListView/title" xml:space="preserve">
+    <value>Battle Rooms</value>
+  </data>
+  <data name="window/vehicleSelector/filters/matches" xml:space="preserve">
+    <value>Display suitable vehicles only</value>
+  </data>
+  <data name="window/unit/message/allReady" xml:space="preserve">
+    <value>All members are ready to join the battle.</value>
+  </data>
+  <data name="window/unit/message/waitCommander" xml:space="preserve">
+    <value>Waiting for the Commander's decision...</value>
+  </data>
+  <data name="window/unit/message/invalidLevelError/6" xml:space="preserve">
+    <value>No more than one Tier VI vehicle is allowed per team.</value>
+  </data>
+  <data name="window/unit/message/invalidLevelError/6_7" xml:space="preserve">
+    <value>A Tier VI and a Tier VII vehicle are not allowed on the same team.</value>
+  </data>
+  <data name="window/unit/message/invalidLevelError/7" xml:space="preserve">
+    <value>Only two Tier VII vehicles are allowed per team.</value>
+  </data>
+  <data name="window/unit/message/invalidLevelError/unresolved" xml:space="preserve">
+    <value>Requirements for vehicle tiers not met.</value>
+  </data>
+  <data name="window/unit/message/maxLevelError" xml:space="preserve">
+    <value>Total tier of vehicles is exceeded.</value>
+  </data>
+  <data name="window/unit/message/minLevelError" xml:space="preserve">
+    <value>Insufficient total tier of vehicles</value>
+  </data>
+  <data name="CSAnimation/applyBtn/label" xml:space="preserve">
+    <value>Acknowledged!</value>
+  </data>
+  <data name="CSAnimation/description" xml:space="preserve">
+    <value>Congratulations! Your team has entered the next division. Way to go!</value>
+  </data>
+  <data name="CSAnimation/header" xml:space="preserve">
+    <value>Change Division</value>
+  </data>
+  <data name="LegionariesFilterPopover/buttons/apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="LegionariesFilterPopover/description" xml:space="preserve">
+    <value>+++ Описание описание описание описание описание описание описание описание</value>
+  </data>
+  <data name="LegionariesFilterPopover/labels/battles" xml:space="preserve">
+    <value>Battles fought</value>
+  </data>
+  <data name="LegionariesFilterPopover/labels/from" xml:space="preserve">
+    <value>from</value>
+  </data>
+  <data name="LegionariesFilterPopover/labels/percent" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="LegionariesFilterPopover/labels/requirements" xml:space="preserve">
+    <value>Requirements to Applicants</value>
+  </data>
+  <data name="LegionariesFilterPopover/labels/wins" xml:space="preserve">
+    <value>Процент побед в КБ</value>
+  </data>
+  <data name="LegionariesFilterPopover/title" xml:space="preserve">
+    <value>Requirements to Legionnaires</value>
+  </data>
+  <data name="StaticFormation/ladderView/divisionName/text" xml:space="preserve">
+    <value>Division: %(division)s. Ladder: %(league)s</value>
+  </data>
+  <data name="StaticFormation/ladderView/divisionPosition/text" xml:space="preserve">
+    <value>Place: %(place)s. Ranked Points: %(points)s</value>
+  </data>
+  <data name="StaticFormationProfileWindow/actionBtn/officer" xml:space="preserve">
+    <value>Assemble Team</value>
+  </data>
+  <data name="StaticFormationProfileWindow/actionBtn/sendRequest" xml:space="preserve">
+    <value>Submit Application</value>
+  </data>
+  <data name="StaticFormationProfileWindow/actionBtn/soldier" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="StaticFormationProfileWindow/hyperLink/text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="StaticFormationProfileWindow/tabsLbl/ladder" xml:space="preserve">
+    <value>Leaderboard</value>
+  </data>
+  <data name="StaticFormationProfileWindow/tabsLbl/staff" xml:space="preserve">
+    <value>Members</value>
+  </data>
+  <data name="StaticFormationProfileWindow/tabsLbl/stats" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="StaticFormationProfileWindow/tabsLbl/summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="StaticFormationStatsView/addStats/capturePts" xml:space="preserve">
+    <value>Base capture points</value>
+  </data>
+  <data name="StaticFormationStatsView/addStats/captureWinsRatio" xml:space="preserve">
+    <value>Rate of victories by base capture</value>
+  </data>
+  <data name="StaticFormationStatsView/addStats/defendPts" xml:space="preserve">
+    <value>Base defense points</value>
+  </data>
+  <data name="StaticFormationStatsView/addStats/dmgInflicted" xml:space="preserve">
+    <value>Damage caused</value>
+  </data>
+  <data name="StaticFormationStatsView/addStats/dmgRatio" xml:space="preserve">
+    <value>Damage caused/received ratio</value>
+  </data>
+  <data name="StaticFormationStatsView/addStats/dmgReceived" xml:space="preserve">
+    <value>Damage received</value>
+  </data>
+  <data name="StaticFormationStatsView/addStats/killed" xml:space="preserve">
+    <value>Vehicles destroyed</value>
+  </data>
+  <data name="StaticFormationStatsView/addStats/killedLostRatio" xml:space="preserve">
+    <value>Vehicles destroyed/lost ratio</value>
+  </data>
+  <data name="StaticFormationStatsView/addStats/lost" xml:space="preserve">
+    <value>Vehicles lost</value>
+  </data>
+  <data name="StaticFormationStatsView/awards" xml:space="preserve">
+    <value>Awards</value>
+  </data>
+  <data name="StaticFormationStatsView/mainStats/battles" xml:space="preserve">
+    <value>Battles fought</value>
+  </data>
+  <data name="StaticFormationStatsView/mainStats/techDefeatsNumber" xml:space="preserve">
+    <value>Technical defeats</value>
+  </data>
+  <data name="StaticFormationStatsView/mainStats/techDefeatsPercent" xml:space="preserve">
+    <value>Rate of technical defeats</value>
+  </data>
+  <data name="StaticFormationStatsView/mainStats/winsPercent" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="StaticFormationSummaryView/bestMaps" xml:space="preserve">
+    <value>Best Maps</value>
+  </data>
+  <data name="StaticFormationSummaryView/bestTanks" xml:space="preserve">
+    <value>Best Vehicles</value>
+  </data>
+  <data name="StaticFormationSummaryView/ladder/ladderPts" xml:space="preserve">
+    <value>Ranked Points: %(points)s</value>
+  </data>
+  <data name="StaticFormationSummaryView/ladder/leagueDivision" xml:space="preserve">
+    <value>Ladder: %(league)s. Division: %(division)s</value>
+  </data>
+  <data name="StaticFormationSummaryView/ladder/place" xml:space="preserve">
+    <value>%(place)s Place</value>
+  </data>
+  <data name="StaticFormationSummaryView/lastBattle" xml:space="preserve">
+    <value>Last Ranked Battle played: %(date)s</value>
+  </data>
+  <data name="StaticFormationSummaryView/noAwards" xml:space="preserve">
+    <value>No awards</value>
+  </data>
+  <data name="StaticFormationSummaryView/notEnoughTanksMaps" xml:space="preserve">
+    <value>Not enough battles</value>
+  </data>
+  <data name="StaticFormationSummaryView/registered" xml:space="preserve">
+    <value>Team registration date: %(date)s</value>
+  </data>
+  <data name="StaticFormationSummaryView/stats/battles" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="StaticFormationSummaryView/stats/techDefeats" xml:space="preserve">
+    <value>Rate of technical defeats</value>
+  </data>
+  <data name="StaticFormationSummaryView/stats/winsByCapture" xml:space="preserve">
+    <value>Victories by base capture / capture interruption</value>
+  </data>
+  <data name="StaticFormationSummaryView/stats/winsPercent" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="staticFormation/ladderView/ladderTable/headerBattlesCount/text" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="staticFormation/ladderView/ladderTable/headerFormationName/text" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="staticFormation/ladderView/ladderTable/headerPlace/text" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="staticFormation/ladderView/ladderTable/headerPoints/text" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="staticFormation/ladderView/ladderTable/headerShowFormationProfile/text" xml:space="preserve">
+    <value>Team Profile</value>
+  </data>
+  <data name="staticFormation/ladderView/ladderTable/headerWinsPercent/text" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="staticFormation/ladderView/showFormationProfileBtn/text" xml:space="preserve">
+    <value>Team Profile</value>
+  </data>
+  <data name="staticFormation/staffView/description/text" xml:space="preserve">
+    <value>В Штате команды удаляйте и пр...</value>
+  </data>
+  <data name="staticFormation/staffView/inviteBtn/text" xml:space="preserve">
+    <value>Invite to Team</value>
+  </data>
+  <data name="staticFormation/staffView/recruitmentBtn/text" xml:space="preserve">
+    <value>Applicants (%(count)s)</value>
+  </data>
+  <data name="staticFormation/staffView/recruitmentOpenedChkBx/text" xml:space="preserve">
+    <value>Close application submission</value>
+  </data>
+  <data name="staticFormation/staffView/staffTable/emptyRenderer/text" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="staticFormation/staffView/staffTable/headerAppointment/text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="staticFormation/staffView/staffTable/headerAvrAssistDamage/text" xml:space="preserve">
+    <value>%(icon)s</value>
+  </data>
+  <data name="staticFormation/staffView/staffTable/headerAvrDamage/text" xml:space="preserve">
+    <value>%(icon)s</value>
+  </data>
+  <data name="staticFormation/staffView/staffTable/headerAvrExpirience/text" xml:space="preserve">
+    <value>%(icon)s</value>
+  </data>
+  <data name="staticFormation/staffView/staffTable/headerBattlesCount/text" xml:space="preserve">
+    <value>%(icon)s</value>
+  </data>
+  <data name="staticFormation/staffView/staffTable/headerCount/text" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="staticFormation/staffView/staffTable/headerDamageCoef/text" xml:space="preserve">
+    <value>%(icon)s</value>
+  </data>
+  <data name="staticFormation/staffView/staffTable/headerJoinDate/text" xml:space="preserve">
+    <value>Join Date</value>
+  </data>
+  <data name="staticFormation/staffView/staffTable/headerName/text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="staticFormation/staffView/staffTable/headerRating/text" xml:space="preserve">
+    <value>%(icon)s</value>
+  </data>
+  <data name="staticFormation/staffView/staffTable/headerRemoveMember/text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="staticFormation/staffView/staffTable/headerTaunt/text" xml:space="preserve">
+    <value>%(icon)s</value>
+  </data>
+  <data name="staticFormation/staffView/title/text" xml:space="preserve">
+    <value>Team Members</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/accepted" xml:space="preserve">
+    <value>Accepted</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/cancelled" xml:space="preserve">
+    <value>Canceled</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/officerDescription" xml:space="preserve">
+    <value>Team members—a manually created roster of friends and suitable players.</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/onlyInvitesCheckbox" xml:space="preserve">
+    <value>Display sent invitations only</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/ownerDescription" xml:space="preserve">
+    <value>Team members—a manually created roster of friends and suitable players.</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/playerName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/rejected" xml:space="preserve">
+    <value>Declined</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/title" xml:space="preserve">
+    <value>Invitations Sent and Applications Submitted</value>
+  </data>
+  <data name="InvitesAndRequestsWindow/windowTitle" xml:space="preserve">
+    <value>Applications and Invitations</value>
+  </data>
+  <data name="StaticFormation/ladderView/ladderMsg/inLadder" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="StaticFormation/ladderView/ladderMsg/noBattles" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="StaticFormation/ladderView/ladderMsg/noSeason" xml:space="preserve">
+    <value>Ranked Battles will become available when the next season starts.</value>
+  </data>
+  <data name="StaticFormation/ladderView/ladderStatus/inLadder" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="StaticFormation/ladderView/ladderStatus/noBattles" xml:space="preserve">
+    <value>To be placed in the Leaderboard, play at least one Ranked Battle.</value>
+  </data>
+  <data name="StaticFormation/ladderView/ladderStatus/noSeason" xml:space="preserve">
+    <value>Season Ended</value>
+  </data>
+  <data name="StaticFormation/ladderView/noDivisionName/text" xml:space="preserve">
+    <value>Current division</value>
+  </data>
+  <data name="StaticFormation/ladderView/noDivisionPosition/text" xml:space="preserve">
+    <value>To be placed in the Leaderboard, play at least one Ranked Battle.</value>
+  </data>
+  <data name="StaticFormation/unitView/closeRoom/button" xml:space="preserve">
+    <value>Make Invisible</value>
+  </data>
+  <data name="StaticFormation/unitView/closedRoom/status" xml:space="preserve">
+    <value>Close recruitment of legionnaires</value>
+  </data>
+  <data name="StaticFormation/unitView/legionnairesTotal" xml:space="preserve">
+    <value>Legionnaires: %(cur)d%(font_tag_open)s/%(max)d%(font_tag_close)s</value>
+  </data>
+  <data name="StaticFormation/unitView/modeChangeWarning/lowRank" xml:space="preserve">
+    <value>Unable to switch modes</value>
+  </data>
+  <data name="StaticFormation/unitView/modeChangeWarning/lowRankTooltip" xml:space="preserve">
+    <value>Not enough permissions to proceed to Ranked Battles.</value>
+  </data>
+  <data name="StaticFormation/unitView/modeChangeWarning/noSeason" xml:space="preserve">
+    <value>Unable to Switch Modes</value>
+  </data>
+  <data name="StaticFormation/unitView/modeChangeWarning/noSeasonTooltip" xml:space="preserve">
+    <value>The season has ended. Ranked Battles are unavailable.</value>
+  </data>
+  <data name="StaticFormation/unitView/modeChangeWarning/wrongRole" xml:space="preserve">
+    <value>Unable to switch modes</value>
+  </data>
+  <data name="StaticFormation/unitView/modeChangeWarning/wrongRoleTooltip" xml:space="preserve">
+    <value>Only the team Commander can switch modes.</value>
+  </data>
+  <data name="StaticFormation/unitView/openRoom/button" xml:space="preserve">
+    <value>Make Visible</value>
+  </data>
+  <data name="StaticFormation/unitView/openRoom/status" xml:space="preserve">
+    <value>Open recruitment of legionnaires</value>
+  </data>
+  <data name="StaticFormation/unitView/rankedMode" xml:space="preserve">
+    <value>Ranked Battles</value>
+  </data>
+  <data name="StaticFormation/unitView/setRankedMode" xml:space="preserve">
+    <value>Go to Ranked Battles</value>
+  </data>
+  <data name="StaticFormation/unitView/setUnrankedMode" xml:space="preserve">
+    <value>Go to Unranked Battles</value>
+  </data>
+  <data name="StaticFormation/unitView/unrankedMode" xml:space="preserve">
+    <value>Unranked Battles</value>
+  </data>
+  <data name="StaticFormationProfileWindow/actionBtnLbl/applicationCooldown" xml:space="preserve">
+    <value>Submit Application</value>
+  </data>
+  <data name="StaticFormationProfileWindow/actionBtnLbl/callClub" xml:space="preserve">
+    <value>Assemble Team</value>
+  </data>
+  <data name="StaticFormationProfileWindow/actionBtnLbl/clubInBattle" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="StaticFormationProfileWindow/actionBtnLbl/clubIsCalled" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="StaticFormationProfileWindow/actionBtnLbl/clubIsClosed" xml:space="preserve">
+    <value>Submit Application</value>
+  </data>
+  <data name="StaticFormationProfileWindow/actionBtnLbl/inOtherClub" xml:space="preserve">
+    <value>Submit Application</value>
+  </data>
+  <data name="StaticFormationProfileWindow/actionBtnLbl/isInClubUnit" xml:space="preserve">
+    <value>View Members</value>
+  </data>
+  <data name="StaticFormationProfileWindow/actionBtnLbl/joinRequest" xml:space="preserve">
+    <value>Submit Application</value>
+  </data>
+  <data name="StaticFormationProfileWindow/actionBtnLbl/joinRequestInProcess" xml:space="preserve">
+    <value>Withdraw</value>
+  </data>
+  <data name="StaticFormationProfileWindow/actionBtnLbl/noFreeJoinRequests" xml:space="preserve">
+    <value>Submit Application</value>
+  </data>
+  <data name="StaticFormationProfileWindow/actionBtnLbl/notEnoughMembers" xml:space="preserve">
+    <value>Assemble Team</value>
+  </data>
+  <data name="StaticFormationProfileWindow/actionBtnLbl/notEnoughPermissions" xml:space="preserve">
+    <value>Assemble Team</value>
+  </data>
+  <data name="StaticFormationProfileWindow/statusLbl/applicationCooldown" xml:space="preserve">
+    <value>Unable to submit the application.</value>
+  </data>
+  <data name="StaticFormationProfileWindow/statusLbl/callClub" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="StaticFormationProfileWindow/statusLbl/clubInBattle" xml:space="preserve">
+    <value>The team is in battle.</value>
+  </data>
+  <data name="StaticFormationProfileWindow/statusLbl/clubIsCalled" xml:space="preserve">
+    <value>The team is being assembled.</value>
+  </data>
+  <data name="StaticFormationProfileWindow/statusLbl/clubIsClosed" xml:space="preserve">
+    <value>The team does not accept applications.</value>
+  </data>
+  <data name="StaticFormationProfileWindow/statusLbl/inOtherClub" xml:space="preserve">
+    <value>You are already a member of another team.</value>
+  </data>
+  <data name="StaticFormationProfileWindow/statusLbl/isInClubUnit" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="StaticFormationProfileWindow/statusLbl/joinRequest" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="StaticFormationProfileWindow/statusLbl/joinRequestInProcess" xml:space="preserve">
+    <value>Application awaiting approval</value>
+  </data>
+  <data name="StaticFormationProfileWindow/statusLbl/noFreeJoinRequests" xml:space="preserve">
+    <value>Only %(count)s application can be submitted.</value>
+  </data>
+  <data name="StaticFormationProfileWindow/statusLbl/notEnoughMembers" xml:space="preserve">
+    <value>Not enough players on the team</value>
+  </data>
+  <data name="StaticFormationProfileWindow/statusLbl/notEnoughPermissions" xml:space="preserve">
+    <value>Not enough permissions</value>
+  </data>
+  <data name="StaticFormationProfileWindow/statusLbl/notEnoughPermissions/assemblingTeam" xml:space="preserve">
+    <value>Not enough permissions</value>
+  </data>
+  <data name="StaticFormationStatsView/addStats/attackDamageEfficiency" xml:space="preserve">
+    <value>Average damage in Attack</value>
+  </data>
+  <data name="StaticFormationStatsView/addStats/defenceDamageEfficiency" xml:space="preserve">
+    <value>Average damage in Defense</value>
+  </data>
+  <data name="StaticFormationStatsView/noAwards" xml:space="preserve">
+    <value>No awards</value>
+  </data>
+  <data name="StaticFormationSummaryView/noSeason" xml:space="preserve">
+    <value>Season Ended</value>
+  </data>
+  <data name="StaticFormationSummaryView/notEnoughGames/info" xml:space="preserve">
+    <value>Fight at least one battle.</value>
+  </data>
+  <data name="StaticFormationSummaryView/notEnoughGames/warning" xml:space="preserve">
+    <value>Team not placed in Leaderboard yet.</value>
+  </data>
+  <data name="StaticFormationSummaryView/stats/attackDamageEfficiency" xml:space="preserve">
+    <value>Average damage in Attack</value>
+  </data>
+  <data name="StaticFormationSummaryView/stats/defenceDamageEfficiency" xml:space="preserve">
+    <value>Average damage in Defense</value>
+  </data>
+  <data name="clubs/roles/officer" xml:space="preserve">
+    <value>Officer</value>
+  </data>
+  <data name="clubs/roles/owner" xml:space="preserve">
+    <value>Team Commander</value>
+  </data>
+  <data name="clubs/roles/private" xml:space="preserve">
+    <value>Private</value>
+  </data>
+  <data name="rallyInfo/profileBtn/Label" xml:space="preserve">
+    <value>Team profile</value>
+  </data>
+  <data name="respawn/chatHeader" xml:space="preserve">
+    <value>Chat Channel</value>
+  </data>
+  <data name="respawn/enemyTeamStatus/Header" xml:space="preserve">
+    <value>Enemy team:</value>
+  </data>
+  <data name="respawn/enemyTeamStatus/notReady" xml:space="preserve">
+    <value>Not ready</value>
+  </data>
+  <data name="respawn/enemyTeamStatus/ready" xml:space="preserve">
+    <value>Ready!</value>
+  </data>
+  <data name="respawn/fight/label" xml:space="preserve">
+    <value>Team Ready!</value>
+  </data>
+  <data name="respawn/fight/status/commander" xml:space="preserve">
+    <value>Confirm that the team is ready.</value>
+  </data>
+  <data name="respawn/fight/status/private" xml:space="preserve">
+    <value>Awaiting battle...</value>
+  </data>
+  <data name="respawn/status/info" xml:space="preserve">
+    <value>Select a vehicle within the allocated time.</value>
+  </data>
+  <data name="respawn/status/ready" xml:space="preserve">
+    <value>Waiting for the battle to start...</value>
+  </data>
+  <data name="respawn/status/warning" xml:space="preserve">
+    <value>Confirm that you are ready.</value>
+  </data>
+  <data name="respawn/team/points" xml:space="preserve">
+    <value>Total tier of vehicles:</value>
+  </data>
+  <data name="respawn/team/teamMembers" xml:space="preserve">
+    <value>Team members: %(current)s / %(max)s</value>
+  </data>
+  <data name="respawn/team/teamVehiclesStub" xml:space="preserve">
+    <value>Vehicles: VI–VIII</value>
+  </data>
+  <data name="staticFormation/staffView/description/member/text" xml:space="preserve">
+    <value>Team members—a roster of friends and suitable players manually created by team Commander.</value>
+  </data>
+  <data name="staticFormation/staffView/description/other/text" xml:space="preserve">
+    <value>You are viewing team members of %(clubName)s.</value>
+  </data>
+  <data name="staticFormation/staffView/description/owner/text" xml:space="preserve">
+    <value>Team members—a manually created roster of friends and suitable players.</value>
+  </data>
+  <data name="window/autoSearch/searchEnemyRespawn/mainText" xml:space="preserve">
+    <value>Awaiting enemy...</value>
+  </data>
+  <data name="window/clubsListView/create/btn" xml:space="preserve">
+    <value>Create Team</value>
+  </data>
+  <data name="window/clubsListView/description" xml:space="preserve">
+    <value>Below is the list of available teams where you can submit the application. The number of applications is limited.</value>
+  </data>
+  <data name="window/clubsListView/foundTeams" xml:space="preserve">
+    <value>Teams Found</value>
+  </data>
+  <data name="window/clubsListView/foundTeamsDescription" xml:space="preserve">
+    <value>The below-listed teams are searching for players and have vacant slots.</value>
+  </data>
+  <data name="window/clubsListView/title" xml:space="preserve">
+    <value>Ranked Battles</value>
+  </data>
+  <data name="window/intro/additionalBtn/list" xml:space="preserve">
+    <value>List of Teams</value>
+  </data>
+  <data name="window/intro/cancel/btn/label" xml:space="preserve">
+    <value>Withdraw</value>
+  </data>
+  <data name="window/intro/create/btn/addPlayers" xml:space="preserve">
+    <value>Invite</value>
+  </data>
+  <data name="window/intro/create/btn/assembleTeam" xml:space="preserve">
+    <value>Assemble Team</value>
+  </data>
+  <data name="window/intro/create/btn/joinTeam" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="window/intro/create/btn/look" xml:space="preserve">
+    <value>List of Teams</value>
+  </data>
+  <data name="window/intro/requestWaiting" xml:space="preserve">
+    <value>Application
+submitted</value>
+  </data>
+  <data name="window/intro/team/description/assemblingTeam" xml:space="preserve">
+    <value>Proceed to team assembly for Ranked Battles</value>
+  </data>
+  <data name="window/intro/team/description/createBattleRoom" xml:space="preserve">
+    <value>Create a battle room</value>
+  </data>
+  <data name="window/intro/team/description/createOrFind" xml:space="preserve">
+    <value>Create or search for a team</value>
+  </data>
+  <data name="window/intro/team/description/notEnoughPermissions/assemblingTeam" xml:space="preserve">
+    <value>Not enough permissions</value>
+  </data>
+  <data name="window/intro/team/description/notEnoughPlayers" xml:space="preserve">
+    <value>To assemble a team, invite players.</value>
+  </data>
+  <data name="window/intro/team/description/ownerAssemblingTeam" xml:space="preserve">
+    <value>The Commander is assembling the team.</value>
+  </data>
+  <data name="window/intro/team/description/teamInBattle" xml:space="preserve">
+    <value>The team is in battle.</value>
+  </data>
+  <data name="window/intro/team/description/unavailable" xml:space="preserve">
+    <value>Team search and creation are temporarily not available.</value>
+  </data>
+  <data name="window/intro/team/description/waitingForRequest" xml:space="preserve">
+    <value>Application awaiting approval</value>
+  </data>
+  <data name="window/intro/team/header/staticTeams" xml:space="preserve">
+    <value>Ranked Battles</value>
+  </data>
+  <data name="window/intro/unavailableWaiting" xml:space="preserve">
+    <value>Waiting...</value>
+  </data>
+  <data name="window/rosterSlotSettings/vehicleTab/addnlHeaderText" xml:space="preserve">
+    <value>When adding players to the team, the vehicle requirements are not counted.</value>
+  </data>
+  <data name="window/staticRallyInfo/cancelBtnLabel" xml:space="preserve">
+    <value>Withdraw</value>
+  </data>
+  <data name="window/staticRallyInfo/joinBtnLabel" xml:space="preserve">
+    <value>Submit Application</value>
+  </data>
+  <data name="window/staticRallyInfo/joinInfo/alreadyJoined" xml:space="preserve">
+    <value>You are already a member of a team.</value>
+  </data>
+  <data name="window/staticRallyInfo/joinInfo/inProcess" xml:space="preserve">
+    <value>Application awaiting approval</value>
+  </data>
+  <data name="window/staticRallyInfo/joinInfo/inProcessOther" xml:space="preserve">
+    <value>The application has already been submitted.</value>
+  </data>
+  <data name="window/staticRallyInfo/joinInfo/join" xml:space="preserve">
+    <value>Submit application</value>
+  </data>
+  <data name="window/staticRallyInfo/ladderInfo" xml:space="preserve">
+    <value>Ladder %(league)s. Division %(division)s.</value>
+  </data>
+  <data name="window/staticRallyInfo/noAwards" xml:space="preserve">
+    <value>No awards</value>
+  </data>
+  <data name="window/staticRallyInfo/noRallySelected" xml:space="preserve">
+    <value>Select a team from the list on the left
+to view the detailed description.</value>
+  </data>
+  <data name="window/staticRallyInfo/staticRally/statsWinsPercent" xml:space="preserve">
+    <value>Victories</value>
+  </data>
+  <data name="window/staticRallyInfo/statsBattlesCount" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="window/unit/candidates/legionaries" xml:space="preserve">
+    <value>Legionnaires</value>
+  </data>
+  <data name="window/unit/candidates/team" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="window/unit/slot/notAllowed" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="window/unitListView/enterBtn/common" xml:space="preserve">
+    <value>Volunteer</value>
+  </data>
+  <data name="window/unitListView/enterBtn/legionary" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="window/unitListView/enterBtn/member" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="window/unitListView/enterText/common" xml:space="preserve">
+    <value>You can join the team as a volunteer.</value>
+  </data>
+  <data name="window/unitListView/enterText/legionary" xml:space="preserve">
+    <value>Join as a legionnaire</value>
+  </data>
+  <data name="window/unitListView/enterText/member" xml:space="preserve">
+    <value>Join the team</value>
+  </data>
+  <data name="window/unitListView/forLegionary/description" xml:space="preserve">
+    <value>Below is the list of available battle rooms where you can submit an application to join as a legionnaire.</value>
+  </data>
+  <data name="window/unitListView/forLegionary/title" xml:space="preserve">
+    <value>Unranked Battles</value>
+  </data>
+  <data name="window/unitListView/foundTeams/filterText" xml:space="preserve">
+    <value>—Show only teams that play Ranked Battles</value>
+  </data>
+  <data name="window/unitListView/noItems" xml:space="preserve">
+    <value>Teams not found.</value>
+  </data>
+  <data name="window/vehicleSelector/info/respawn" xml:space="preserve">
+    <value>Select a Tier VI–VIII vehicle in which you want to join the battle.</value>
+  </data>
+  <data name="window/intro/create/btn/private/seeStaff" xml:space="preserve">
+    <value>Team Members</value>
+  </data>
+  <data name="window/staticRallyInfo/joinInfo/applicationCooldown" xml:space="preserve">
+    <value>Unable to submit application.</value>
+  </data>
+  <data name="window/unit/message/level" xml:space="preserve">
+    <value>Total tier of vehicles insufficient. Required: %(level)d</value>
+  </data>
+  <data name="window/unit/message/minSlots" xml:space="preserve">
+    <value>Incomplete</value>
+  </data>
+  <data name="window/unit/message/unitIsFull" xml:space="preserve">
+    <value>The Commander will add you to the team.</value>
+  </data>
+  <data name="window/unit/message/unitIsLocked" xml:space="preserve">
+    <value>You are not a team member. Slots frozen.</value>
+  </data>
+  <data name="window/unit/message/vehicleNotFound" xml:space="preserve">
+    <value>Your vehicle does not meet the requirements of the team Commander.</value>
+  </data>
+  <data name="window/unit/message/vehicleNotSelected" xml:space="preserve">
+    <value>Select a vehicle to take into a battle.</value>
+  </data>
+  <data name="window/unit/message/vehicleNotValid" xml:space="preserve">
+    <value>Vehicle is not ready for the battle.</value>
+  </data>
+  <data name="window/unit/rangeValue" xml:space="preserve">
+    <value>%(minVal)s – %(maxVal)s</value>
+  </data>
+  <data name="window/unit/slot/required" xml:space="preserve">
+    <value>Invite players.</value>
+  </data>
+  <data name="window/unit/teamVehiclesLbl" xml:space="preserve">
+    <value>Vehicles: %(levelsRange)s</value>
+  </data>
+  <data name="window/unit/unitListView/captain" xml:space="preserve">
+    <value>Team Commander</value>
+  </data>
+  <data name="StaticFormation/unitView/modeChangeWarning/seasonFinished" xml:space="preserve">
+    <value>Season ended: Ranked Battles unavailable</value>
+  </data>
+  <data name="StaticFormation/unitView/modeChangeWarning/seasonFinishedTooltip/body" xml:space="preserve">
+    <value>Current season has ended. Ranked Battles will be available in the new season.</value>
+  </data>
+  <data name="StaticFormation/unitView/modeChangeWarning/seasonFinishedTooltip/header" xml:space="preserve">
+    <value>Unable to Switch Mode</value>
+  </data>
+  <data name="StaticFormation/unitView/modeChangeWarning/seasonPaused" xml:space="preserve">
+    <value>Ranked Battles temporarily unavailable</value>
+  </data>
+  <data name="StaticFormation/unitView/modeChangeWarning/seasonPausedTooltip/body" xml:space="preserve">
+    <value>Current season is suspended. Ranked Battles are temporarily unavailable.</value>
+  </data>
+  <data name="StaticFormation/unitView/modeChangeWarning/seasonPausedTooltip/header" xml:space="preserve">
+    <value>Unable to Switch Mode</value>
+  </data>
+  <data name="StaticFormationProfileWindow/title" xml:space="preserve">
+    <value>Team Menu</value>
+  </data>
+  <data name="StaticFormationStatsView/seasonFilter" xml:space="preserve">
+    <value>Statistics for:</value>
+  </data>
+  <data name="StaticFormationStatsView/seasonFilter/all" xml:space="preserve">
+    <value>All seasons</value>
+  </data>
+  <data name="StaticFormationStatsView/seasonFilter/current" xml:space="preserve">
+    <value>Current season</value>
+  </data>
+  <data name="StaticFormationStatsView/seasonFilter/specific" xml:space="preserve">
+    <value>Season %(dateStart)s - %(dateFinish)s</value>
+  </data>
+  <data name="StaticFormationSummaryView/season/state/ACTIVE" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="StaticFormationSummaryView/season/state/INACTIVE" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="StaticFormationSummaryView/season/state/SUSPENDED" xml:space="preserve">
+    <value>Ranked Battles temporarily unavailable</value>
+  </data>
+  <data name="StaticFormationSummaryView/season/state/UNKNOWN" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="TextLoading/loading" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="clubs/seasons/name" xml:space="preserve">
+    <value>%(startTime)s–%(finishTime)s</value>
+  </data>
+  <data name="clubs/seasons/state/ACTIVE" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="clubs/seasons/state/INACTIVE" xml:space="preserve">
+    <value>Season Ended</value>
+  </data>
+  <data name="clubs/seasons/state/SUSPENDED" xml:space="preserve">
+    <value>Season Suspended</value>
+  </data>
+  <data name="clubs/seasons/state/UNKNOWN" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="staticFormation/staffView/destroyStatic/text" xml:space="preserve">
+    <value>Dismiss Team</value>
+  </data>
+  <data name="staticFormation/staffView/exitStatic/text" xml:space="preserve">
+    <value>Leave Team</value>
+  </data>
+  <data name="staticFormation/staffView/lblStaffed/text" xml:space="preserve">
+    <value>Team members</value>
+  </data>
+  <data name="window/unit/message/curfew" xml:space="preserve">
+    <value>Curfew</value>
+  </data>
+  <data name="window/unit/message/getNotReady" xml:space="preserve">
+    <value>Click to indicate that you are not ready</value>
+  </data>
+  <data name="window/unit/message/squadInBattle" xml:space="preserve">
+    <value>Platoon in battle</value>
+  </data>
+  <data name="window/unit/message/vehicleInNotReady/broken" xml:space="preserve">
+    <value>Vehicle not ready for battle: repairs required.</value>
+  </data>
+  <data name="window/unit/message/vehicleInNotReady/crewNotFull" xml:space="preserve">
+    <value>Vehicle not ready for battle: crew incomplete.</value>
+  </data>
+  <data name="window/unit/message/vehicleInNotReady/isInBattle" xml:space="preserve">
+    <value>Vehicle in battle</value>
+  </data>
+  <data name="window/unit/message/vehicleInNotReady/rentIsOver" xml:space="preserve">
+    <value>Vehicle not ready for battle: rental period ended.</value>
+  </data>
+  <data name="window/unit/unitListView/clubName" xml:space="preserve">
+    <value>Team Name</value>
+  </data>
+  <data name="window/unitListView/noSearchResults/btn" xml:space="preserve">
+    <value>Back to List</value>
+  </data>
+  <data name="window/unitListView/noSearchResults/description" xml:space="preserve">
+    <value>Teams with this name were not found.</value>
+  </data>
+  <data name="window/unitListView/noSearchResults/header" xml:space="preserve">
+    <value>No Search Results</value>
+  </data>
+  <data name="window/unitListView/noTeams/description" xml:space="preserve">
+    <value>No teams currently found that meet the search criteria. Try again later.</value>
+  </data>
+  <data name="window/unitListView/noTeams/header" xml:space="preserve">
+    <value>Teams Not Found</value>
+  </data>
+  <data name="window/unitListView/searchTeams" xml:space="preserve">
+    <value>Search by name</value>
+  </data>
+  <data name="ladderRegulations/info" xml:space="preserve">
+    <value>Ranked Battle Rules</value>
+  </data>
+  <data name="ladderRegulations/tooltip/date" xml:space="preserve">
+    <value>%(startTime)s – %(endTime)s</value>
+  </data>
+  <data name="ladderRegulations/tooltip/header/ban" xml:space="preserve">
+    <value>Ranked Battles are unavailable on the %(server)s server.</value>
+  </data>
+  <data name="ladderRegulations/tooltip/header/free" xml:space="preserve">
+    <value>Ranked Battles have no restrictions on the %(server)s server.</value>
+  </data>
+  <data name="ladderRegulations/tooltip/header/limitation" xml:space="preserve">
+    <value>Ranked Battles are unavailable on the %(server)s server during the following period: %(time)s</value>
+  </data>
+  <data name="ladderRegulations/tooltip/info" xml:space="preserve">
+    <value>These rules ensure fair conditions and create a comfortable gaming experience for all players who fight Ranked Battles.</value>
+  </data>
+  <data name="ladderRegulations/tooltip/name" xml:space="preserve">
+    <value>Ranked Battle Rules</value>
+  </data>
+  <data name="ladderRegulations/tooltip/schedule/ban" xml:space="preserve">
+    <value>%(server)s: battles unavailable</value>
+  </data>
+  <data name="ladderRegulations/tooltip/schedule/free" xml:space="preserve">
+    <value>%(server)s: no restrictions</value>
+  </data>
+  <data name="ladderRegulations/tooltip/schedule/limitation" xml:space="preserve">
+    <value>%(server)s: %(time)s</value>
+  </data>
+  <data name="ladderRegulations/tooltip/schedule/name" xml:space="preserve">
+    <value>Schedule:</value>
+  </data>
+  <data name="ladderRegulations/warning" xml:space="preserve">
+    <value>Ranked Battles are unavailable</value>
+  </data>
+  <data name="window/unit/message/falloutGroupNotReady" xml:space="preserve">
+    <value>One of your vehicles not ready for battle</value>
+  </data>
+  <data name="window/unit/message/falloutLevel" xml:space="preserve">
+    <value>You need at least one Tier %(level)s vehicle</value>
+  </data>
+  <data name="window/unit/message/falloutMin" xml:space="preserve">
+    <value>Select Tier %(level)s vehicles</value>
+  </data>
+  <data name="window/unit/message/vehicleInNotReady/wrongMode" xml:space="preserve">
+    <value>Selected vehicle is not suitable for this battle mode</value>
+  </data>
+  <data name="window/unit/message/falloutMin/levelRange" xml:space="preserve">
+    <value>Add Tier %(level)s vehicles to the group</value>
+  </data>
+  <data name="window/unit/message/falloutMin/requiredLevel" xml:space="preserve">
+    <value>Select a Tier %(level)s vehicle</value>
+  </data>
+  <data name="window/unitListView/searchBtn/label" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="window/unit/message/fortificationNotAvailable" xml:space="preserve">
+    <value>The Stronghold: Battles mode is temporarily unavailable</value>
+  </data>
+  <data name="clubs/league/label" xml:space="preserve">
+    <value>Ladder %(league)s</value>
+  </data>
+  <data name="squadWindow/waitingForBattle" xml:space="preserve">
+    <value>Platoon Is in Battle Queue</value>
+  </data>
+  <data name="introView/leftBlock/btnLabel" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="introView/leftBlock/descr" xml:space="preserve">
+    <value>Select a suitable team from the list of existing ones. You must meet the Commander's requirements.</value>
+  </data>
+  <data name="introView/leftBlock/header" xml:space="preserve">
+    <value>Search for Team</value>
+  </data>
+  <data name="introView/rightBlock/btnLabel" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="introView/rightBlock/descr" xml:space="preserve">
+    <value>Create a team with friends or players who have suitable vehicles.</value>
+  </data>
+  <data name="introView/rightBlock/header" xml:space="preserve">
+    <value>Create Team</value>
+  </data>
+  <data name="selectedFormation/JoinUnitSection/header" xml:space="preserve">
+    <value>Selected Battle Room</value>
+  </data>
+  <data name="unitView/header" xml:space="preserve">
+    <value>Battle Room</value>
+  </data>
+  <data name="window/unit/message/inactivePeriphery" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="window/unit/message/inactivePeripheryBattle" xml:space="preserve">
+    <value>You can confirm your readiness 10 minutes before the beginning of an Advance</value>
+  </data>
+  <data name="window/unit/message/inactivePeripherySortie" xml:space="preserve">
+    <value>You can confirm your readiness 10 minutes before the beginning of a Skirmish</value>
+  </data>
+  <data name="window/unit/message/maintenance" xml:space="preserve">
+    <value>Mode temporarily unavailable</value>
+  </data>
+  <data name="window/unitListView/sort/label" xml:space="preserve">
+    <value>Rating:</value>
+  </data>
+  <data name="window/unit/message/vehicleInNotReady/rotationGroupLocked" xml:space="preserve">
+    <value>The vehicle is not ready: group %(groupNum)s is locked.</value>
+  </data>
+</root>

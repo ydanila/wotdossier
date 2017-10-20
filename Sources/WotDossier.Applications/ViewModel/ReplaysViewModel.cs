@@ -209,13 +209,12 @@ namespace WotDossier.Applications.ViewModel
             InitType(metaType);
             InitType(RuntimeTypeModel.Default.Add(typeof (Medal), true));
             InitType(RuntimeTypeModel.Default.Add(typeof (MedalGroup), true));
-            InitType(RuntimeTypeModel.Default.Add(typeof (TankIcon), true));
             InitType(RuntimeTypeModel.Default.Add(typeof (TankDescription), true));
             InitType(RuntimeTypeModel.Default.Add(typeof (Vehicle), true));
             InitType(RuntimeTypeModel.Default.Add(typeof (MapGrid), true));
             InitType(RuntimeTypeModel.Default.Add(typeof (MapImageElement), true));
             InitType(RuntimeTypeModel.Default.Add(typeof (LevelRange), true));
-            InitType(RuntimeTypeModel.Default.Add(typeof (RatingExpectancy), true));
+            InitType(RuntimeTypeModel.Default.Add(typeof (RatingExpectedValuesData), true));
             RuntimeTypeModel.Default[typeof (BattleType)].EnumPassthru = true;
             RuntimeTypeModel.Default[typeof (Gameplay)].EnumPassthru = true;
             RuntimeTypeModel.Default[typeof (Country)].EnumPassthru = true;
@@ -390,7 +389,7 @@ namespace WotDossier.Applications.ViewModel
                 StringBuilder builder = new StringBuilder();
                 foreach (ReplayFile replay in replayFiles)
                 {
-                    builder.AppendLine(string.Format("{0}, {1}", replay.TankName, replay.MapName));
+                    builder.AppendLine($"{replay.TankDescription.Title}, {replay.Map.Title}");
                     builder.AppendLine(replay.Link);
                     builder.AppendLine();
                 }
@@ -545,7 +544,7 @@ namespace WotDossier.Applications.ViewModel
                 ReplayFolder root = ReplaysFolders.First();
 
                 root.Count = ReplaysFolders.GetAll().Skip(1).Sum(x => x.Count);
-
+				/*
                 IList<ReplayEntity> dbReplays = DossierRepository.GetReplays();
                 dbReplays.Join(_replays, x => new { x.PlayerId, x.ReplayId }, y => new { y.PlayerId, y.ReplayId },
                     (x, y) => new { ReplayEntity = x, ReplayFile = y })
@@ -556,14 +555,25 @@ namespace WotDossier.Applications.ViewModel
                         x.ReplayFile.Comment = x.ReplayEntity.Comment;
                     });
 
-                //add db replays
-                List<DbReplay> collection =
+				//add db replays DbReplay.GetReplay(CompressHelper.Decompress(x.Raw), ReplaysManager.DeletedFolder.Id)
+				List<DbReplay> collection =
                     dbReplays.Where(x => x.Raw != null)
                         .Select(
                             x =>
-                                new DbReplay(CompressHelper.DecompressObject<Domain.Replay.Replay>(x.Raw),
-                                    ReplaysManager.DeletedFolder.Id))
-                        .ToList();
+                            {
+	                            try
+	                            {
+		                            return new DbReplay(CompressHelper.DecompressObject<Domain.Replay.Replay>(x.Raw),
+			                            ReplaysManager.DeletedFolder.Id);
+	                            }
+	                            catch
+	                            {
+		                            // ignored
+	                            }
+	                            return null;
+                            }
+									)
+                        .Where(c=>c!= null).ToList();
 
                 _replays.RemoveAll(x => x.FolderId == ReplaysManager.DeletedFolder.Id);
                 _replays.AddRange(collection);
@@ -583,7 +593,7 @@ namespace WotDossier.Applications.ViewModel
                     }
                 }
                 deletedFolder.Count = collection.Count;
-
+				*/
                 reporter.Report(100, Resources.Resources.Progress_DataLoadCompleted);
 
                 //restore folder selection

@@ -6,6 +6,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using WotDossier.Applications.View;
 using WotDossier.Dal;
+using WotDossier.Domain;
 using WotDossier.Framework;
 
 namespace WotDossier.Views

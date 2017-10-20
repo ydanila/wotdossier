@@ -10,52 +10,52 @@
     <Grid>
         <ScrollViewer>
             <StackPanel HorizontalAlignment="Center">
-                <controls:AchievementCompareRow FirstValue="{Binding First.Warrior}" SecondValue="{Binding Second.Warrior}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Warrior.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Warrior}" SecondValue="{Binding Second.Warrior}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/warrior.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Warrior}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Warrior}"></controls:MedalTooltip>
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Sniper}" SecondValue="{Binding Second.Sniper}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Sniper.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Sniper}" SecondValue="{Binding Second.Sniper}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/sniper.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Sniper}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Sniper}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Sniper2}" SecondValue="{Binding Second.Sniper2}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Sniper2.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Sniper2}" SecondValue="{Binding Second.Sniper2}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/sniper2.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Sniper2}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Sniper2}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.MainGun}" SecondValue="{Binding Second.MainGun}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/maingun.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.MainGun}" SecondValue="{Binding Second.MainGun}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/maingun.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_MainGun}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_MainGun}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Confederate}" SecondValue="{Binding Second.Confederate}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Supporter.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Confederate}" SecondValue="{Binding Second.Confederate}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/supporter.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Confederate}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Confederate}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.PatrolDuty}" SecondValue="{Binding Second.PatrolDuty}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Evileye.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.PatrolDuty}" SecondValue="{Binding Second.PatrolDuty}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/evileye.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_PatrolDuty}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_PatrolDuty}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.SteelWall}" SecondValue="{Binding Second.SteelWall}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Steelwall.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.SteelWall}" SecondValue="{Binding Second.SteelWall}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/steelwall.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_SteelWall}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_SteelWall}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Defender}" SecondValue="{Binding Second.Defender}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Defender.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Defender}" SecondValue="{Binding Second.Defender}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/defender.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Defender}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Defender}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Invader}" SecondValue="{Binding Second.Invader}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Invader.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Invader}" SecondValue="{Binding Second.Invader}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/invader.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Invader}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Invader}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Scout}" SecondValue="{Binding Second.Scout}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Scout.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Scout}" SecondValue="{Binding Second.Scout}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/scout.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Scout}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Scout}" />
                     </ToolTipService.ToolTip>
@@ -63,184 +63,184 @@
 
                 <!--Epic Achievements-->
                 <TextBlock Text="{x:Static resources:Resources.Label_Achievements_Epic}" HorizontalAlignment="Center" FontSize="17" FontFamily="Arial" Foreground="White" Margin="0,40,0,20"></TextBlock>
-                <controls:AchievementCompareRow FirstValue="{Binding First.HeroesOfRassenay}" SecondValue="{Binding Second.HeroesOfRassenay}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalHeroesOfRassenay.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.HeroesOfRassenay}" SecondValue="{Binding Second.HeroesOfRassenay}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/heroesOfRassenay.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_HeroesOfRassenay}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_HeroesOfRaseiniai}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.LafayettePool}" SecondValue="{Binding Second.LafayettePool}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalLafayettePool.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.LafayettePool}" SecondValue="{Binding Second.LafayettePool}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalLafayettePool.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_LafayettePool}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_LafayettePool}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.RadleyWalters}" SecondValue="{Binding Second.RadleyWalters}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalRadleyWalters.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.RadleyWalters}" SecondValue="{Binding Second.RadleyWalters}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalRadleyWalters.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_RadleyWalters}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_RadleyWalters}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.CrucialContribution}" SecondValue="{Binding Second.CrucialContribution}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalCrucialContribution.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.CrucialContribution}" SecondValue="{Binding Second.CrucialContribution}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalCrucialContribution.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_CrucialContribution}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_CrucialContribution}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.BrothersInArms}" SecondValue="{Binding Second.BrothersInArms}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalBrothersInArms.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.BrothersInArms}" SecondValue="{Binding Second.BrothersInArms}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalBrothersInArms.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_BrothersInArms}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_BrothersInArms}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Kolobanov}" SecondValue="{Binding Second.Kolobanov}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalKolobanov.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Kolobanov}" SecondValue="{Binding Second.Kolobanov}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalKolobanov.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Kolobanov}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Kolobanov}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Nikolas}" SecondValue="{Binding Second.Nikolas}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalNikolas.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Nikolas}" SecondValue="{Binding Second.Nikolas}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalNikolas.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Nikolas}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Nikolas}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Orlik}" SecondValue="{Binding Second.Orlik}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalOrlik.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Orlik}" SecondValue="{Binding Second.Orlik}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalOrlik.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Orlik}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Orlik}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Oskin}" SecondValue="{Binding Second.Oskin}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalOskin.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Oskin}" SecondValue="{Binding Second.Oskin}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalOskin.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Oskin}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Oskin}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Halonen}" SecondValue="{Binding Second.Halonen}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalHalonen.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Halonen}" SecondValue="{Binding Second.Halonen}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalHalonen.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Halonen}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Halonen}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Lehvaslaiho}" SecondValue="{Binding Second.Lehvaslaiho}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalLehvaslaiho.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Lehvaslaiho}" SecondValue="{Binding Second.Lehvaslaiho}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalLehvaslaiho.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Lehvaslaiho}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Lehvaslaiho}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.DeLanglade}" SecondValue="{Binding Second.DeLanglade}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalDeLanglade.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.DeLanglade}" SecondValue="{Binding Second.DeLanglade}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalDeLanglade.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_DeLanglade}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_DeLanglade}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Burda}" SecondValue="{Binding Second.Burda}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalBurda.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Burda}" SecondValue="{Binding Second.Burda}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalBurda.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Burda}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Burda}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Dumitru}" SecondValue="{Binding Second.Dumitru}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalDumitru.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Dumitru}" SecondValue="{Binding Second.Dumitru}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalDumitru.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Dumitru}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Dumitru}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Pascucci}" SecondValue="{Binding Second.Pascucci}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalPascucci.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Pascucci}" SecondValue="{Binding Second.Pascucci}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalPascucci.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Pascucci}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Pascucci}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.TamadaYoshio}" SecondValue="{Binding Second.TamadaYoshio}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalTamadaYoshio.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.TamadaYoshio}" SecondValue="{Binding Second.TamadaYoshio}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalTamadaYoshio.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_TamadaYoshio}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_TamadaYoshio}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Boelter}" SecondValue="{Binding Second.Boelter}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalBoelter.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Boelter}" SecondValue="{Binding Second.Boelter}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalBoelter.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Boelter}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Boelter}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Fadin}" SecondValue="{Binding Second.Fadin}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalFadin.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Fadin}" SecondValue="{Binding Second.Fadin}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalFadin.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Fadin}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Fadin}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Tarczay}" SecondValue="{Binding Second.Tarczay}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalTarczay.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Tarczay}" SecondValue="{Binding Second.Tarczay}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalTarczay.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Tarczay}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Tarczay}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.BrunoPietro}" SecondValue="{Binding Second.BrunoPietro}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalBrunoPietro.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.BrunoPietro}" SecondValue="{Binding Second.BrunoPietro}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalBrunoPietro.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Bruno}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_BrunoPietro}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Billotte}" SecondValue="{Binding Second.Billotte}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/MedalBillotte.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Billotte}" SecondValue="{Binding Second.Billotte}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalBillotte.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Billotte}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Billotte}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Huntsman}" SecondValue="{Binding Second.Huntsman}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Huntsman.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Huntsman}" SecondValue="{Binding Second.Huntsman}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/muntsman.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Huntsman}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Huntsman}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.MedalGore}" SecondValue="{Binding Second.MedalGore}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/medalGore.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.MedalGore}" SecondValue="{Binding Second.MedalGore}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalGore.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_MedalGore}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_MedalGore}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.MedalStark}" SecondValue="{Binding Second.MedalStark}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/medalStark.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.MedalStark}" SecondValue="{Binding Second.MedalStark}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/medalStark.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_MedalStark}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_MedalStark}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
                 <!--Special Achievements-->
                 <TextBlock HorizontalAlignment="Center" Text="{x:Static resources:Resources.Label_Achievements_Special}" FontSize="17" FontFamily="Arial" Foreground="White" Margin="0,40,0,20"></TextBlock>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Survivor}" SecondValue="{Binding Second.Survivor}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Diehard.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Survivor}" SecondValue="{Binding Second.Survivor}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/miehard.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Survivor}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Survivor}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Kamikaze}" SecondValue="{Binding Second.Kamikaze}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Kamikaze.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Kamikaze}" SecondValue="{Binding Second.Kamikaze}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/kamikaze.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Kamikaze}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Kamikaze}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Invincible}" SecondValue="{Binding Second.Invincible}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Invincible.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Invincible}" SecondValue="{Binding Second.Invincible}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/invincible.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Invincible}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Invincible}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Raider}" SecondValue="{Binding Second.Raider}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Raider.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Raider}" SecondValue="{Binding Second.Raider}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/raider.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Raider}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Raider}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Bombardier}" SecondValue="{Binding Second.Bombardier}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Bombardier.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Bombardier}" SecondValue="{Binding Second.Bombardier}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/bombardier.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Bombardier}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Bombardier}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Reaper}" SecondValue="{Binding Second.Reaper}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/HandOfDeath.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Reaper}" SecondValue="{Binding Second.Reaper}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/handOfDeath.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Reaper}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Reaper}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.MouseTrap}" SecondValue="{Binding Second.MouseTrap}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Mousebane.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.MouseTrap}" SecondValue="{Binding Second.MouseTrap}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/mousebane.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_MouseTrap}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_MouseTrap}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.PattonValley}" SecondValue="{Binding Second.PattonValley}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Pattonvalley.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.PattonValley}" SecondValue="{Binding Second.PattonValley}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/pattonValley.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_PattonValley}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_PattonValley}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Hunter}" SecondValue="{Binding Second.Hunter}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Beasthunter.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Hunter}" SecondValue="{Binding Second.Hunter}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/beasthunter.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Hunter}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Hunter}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Sinai}" SecondValue="{Binding Second.Sinai}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/Sinai.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Sinai}" SecondValue="{Binding Second.Sinai}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/sinai.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Sinai}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Sinai}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.MasterGunnerLongest}" SecondValue="{Binding Second.MasterGunnerLongest}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/ArmorPiercer.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.MasterGunnerLongest}" SecondValue="{Binding Second.MasterGunnerLongest}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/armorPiercer.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_MasterGunner}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_MasterGunner}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.SharpshooterLongest}" SecondValue="{Binding Second.SharpshooterLongest}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/TitleSniper.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.SharpshooterLongest}" SecondValue="{Binding Second.SharpshooterLongest}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/titleSniper.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Sharpshooter}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Sharpshooter}" />
                     </ToolTipService.ToolTip>
@@ -248,17 +248,17 @@
                 <!--Step Achievements-->
                 <!--Commemorative Achievements-->
                 <TextBlock HorizontalAlignment="Center" Text="{x:Static resources:Resources.Label_Achievements_CommemorativeAchievements}" FontSize="17" FontFamily="Arial" Foreground="White" Margin="0,40,0,20"></TextBlock>
-                <controls:AchievementCompareRow FirstValue="{Binding First.IronMan}" SecondValue="{Binding Second.IronMan}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/IronMan.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.IronMan}" SecondValue="{Binding Second.IronMan}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/ironMan.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_IronMan}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_IronMan}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.Sturdy}" SecondValue="{Binding Second.Sturdy}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/sturdy.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.Sturdy}" SecondValue="{Binding Second.Sturdy}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/sturdy.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_Sturdy}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Sturdy}" />
                     </ToolTipService.ToolTip>
                 </controls:AchievementCompareRow>
-                <controls:AchievementCompareRow FirstValue="{Binding First.LuckyDevil}" SecondValue="{Binding Second.LuckyDevil}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Images/Medals/LuckyDevil.png">
+                <controls:AchievementCompareRow FirstValue="{Binding First.LuckyDevil}" SecondValue="{Binding Second.LuckyDevil}" AchievementIconSource="pack://application:,,,/WotDossier.Resources;component/Achievements/Images/Achievement/luckyDevil.png">
                     <ToolTipService.ToolTip>
                         <controls:MedalTooltip Header="{x:Static resources:Resources.Medal_15x15_LuckyDevil}" Text="{x:Static resources:Resources.Tooltip_Achievements_15x15_Lucky}" />
                     </ToolTipService.ToolTip>

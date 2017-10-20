@@ -4,14 +4,12 @@ using WotDossier.Domain.Tank;
 
 namespace WotDossier.Applications.ViewModel.Rows
 {
-    public interface ITankStatisticRow : IStatisticBase, IStatisticExtended, IStatisticRatings, IRandomBattlesAchievements, ITeamBattlesAchievements, IHistoricalBattlesAchievements, IClanBattlesAchievements, IFortAchievements, ITankFilterable, ITankDescription
+    public interface ITankStatisticRow : IStatisticBase, IStatisticExtended, IStatisticRatings, IRandomBattlesAchievements, ITeamBattlesAchievements, ITeamRatedBattlesAchievements, IHistoricalBattlesAchievements, IClanBattlesAchievements, IFalloutAchievements, IFortAchievements, ITankFilterable, ITankDescription, IRankedBattlesAchievements
     {
         int PlayerId { get; set; }
         string PlayerName { get; set; }
 
-        TankIcon Icon { get; set; }
-
-        int MarksOnGunSort { get; set; }
+		int MarksOnGunSort { get; set; }
 
         IEnumerable<FragsJson> TankFrags { get; set; }
 

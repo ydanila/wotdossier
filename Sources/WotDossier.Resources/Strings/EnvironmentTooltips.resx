@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="8bitsKarl/desc" xml:space="preserve">
+    <value>«...а c 1 по 15 апреля 2014 года они вернули меня в далёкое детство, предложили управлять огромной серой мортирой «Karl»! И графика была восьмибитной! Восьмибитной, Карл!»</value>
+  </data>
+  <data name="8bitsKarl/title" xml:space="preserve">
+    <value>Karl</value>
+  </data>
+  <data name="DICEAwards2014/desc" xml:space="preserve">
+    <value>February 7, 2014: World of Tanks wins the "Online Game of the Year" award at the D.I.C.E Awards 2014.</value>
+  </data>
+  <data name="DICEAwards2014/title" xml:space="preserve">
+    <value>D.I.C.E. Awards 2014</value>
+  </data>
+  <data name="DogHouse/desc" xml:space="preserve">
+    <value>Your canine chief of security temporarily lives here, guarding your vehicles. However, he also strongly advises that you take all the necessary precautions to keep your account secure.</value>
+  </data>
+  <data name="DogHouse/title" xml:space="preserve">
+    <value>Doghouse</value>
+  </data>
+  <data name="DragonRidgeMap/desc" xml:space="preserve">
+    <value>An oriental-themed map with a very complex terrain. We had to remove it in version 0.8.4 because the Dragon called and said he wanted his ridge back.</value>
+  </data>
+  <data name="DragonRidgeMap/title" xml:space="preserve">
+    <value>Dragon Ridge</value>
+  </data>
+  <data name="E25/desc" xml:space="preserve">
+    <value>Немецкая ПТ-САУ VII уровня. Выведена из продажи в обновлении 0.9.5, за что постоянно мстит в боях.</value>
+  </data>
+  <data name="E25/title" xml:space="preserve">
+    <value>E 25</value>
+  </data>
+  <data name="EGA2011/desc" xml:space="preserve">
+    <value>August 15, 2011: World of Tanks receives the "Best European Online Game" award at European Games Award.</value>
+  </data>
+  <data name="EGA2011/title" xml:space="preserve">
+    <value>EGA-2011</value>
+  </data>
+  <data name="Fallout/desc" xml:space="preserve">
+    <value>Возьмите этот превосходный флаг и доставьте его на свою превосходную базу, не забыв при этом превзойти команду противника. Доступно с выходом обновления 0.9.8.</value>
+  </data>
+  <data name="Fallout/title" xml:space="preserve">
+    <value>Domination</value>
+  </data>
+  <data name="FirstApril2015/desc" xml:space="preserve">
+    <value>И о погоде на 1 апреля 2015 года: переменная облачность, ветер умеренный, возможны кратковременные осадки из чемоданов.</value>
+  </data>
+  <data name="FirstApril2015/title" xml:space="preserve">
+    <value>Секретное оружие</value>
+  </data>
+  <data name="Globe/desc" xml:space="preserve">
+    <value>• 12 августа 2010 года состоялся официальный релиз игры на российском сервере.
+• 15 марта 2011 года состоялся релиз игры в Китае.
+• 12 апреля 2011 года состоялся официальный релиз игры World of Tanks на американском и европейском серверах.
+• 26 апреля 2012 года состоялся официальный запуск сингапурского сервера.
+• 27 апреля 2012 года состоялся официальный релиз игры во Вьетнаме.
+• 27 декабря 2012 года состоялся официальный релиз в Южной Корее.
+• 19 января 2014 года в танковых баталиях на серверах RU региона одновременно участвовало свыше 1 114 000 пользователей.</value>
+  </data>
+  <data name="Globe/title" xml:space="preserve">
+    <value>География Wargaming</value>
+  </data>
+  <data name="GoldenJoystick2012/desc" xml:space="preserve">
+    <value>October 26, 2012: World of Tanks receives the "Best Online Game" award at the Golden Joystick Awards 2012.
+
+By the way, the trophy looks awesome!</value>
+  </data>
+  <data name="GoldenJoystick2012/title" xml:space="preserve">
+    <value>GJA-2012</value>
+  </data>
+  <data name="GoldenJoystick2013/desc" xml:space="preserve">
+    <value>October 25, 2013: World of Tanks receives the "Best Online Game" award at the Golden Joystick Awards 2013.
+
+By the way, the trophy looks awesome!</value>
+  </data>
+  <data name="GoldenJoystick2013/title" xml:space="preserve">
+    <value>GJA-2013</value>
+  </data>
+  <data name="GuinnessRecord/desc" xml:space="preserve">
+    <value>January 23, 2011: World of Tanks sets the Guinness World Record for the number of concurrent players on one MMO game server, with a total of 91,311 players online at the same time.</value>
+  </data>
+  <data name="GuinnessRecord/title" xml:space="preserve">
+    <value>Guinness World Record</value>
+  </data>
+  <data name="KRI2010/desc" xml:space="preserve">
+    <value>May 16, 2010: World of Tanks receives the "Best Client-Based Online Game" award at the KRI-2010.</value>
+  </data>
+  <data name="KRI2010/title" xml:space="preserve">
+    <value>KRI-2010</value>
+  </data>
+  <data name="KRI2011/desc" xml:space="preserve">
+    <value>May 14, 2011: World of Tanks receives the "Best Game" award at the KRI-2011.</value>
+  </data>
+  <data name="KRI2011/title" xml:space="preserve">
+    <value>KRI-2011</value>
+  </data>
+  <data name="KV/desc" xml:space="preserve">
+    <value>Советский тяжёлый танк V уровня. В обновлении 0.7.3 был переплавлен в КВ-1 и КВ-2.</value>
+  </data>
+  <data name="KV/title" xml:space="preserve">
+    <value>KV</value>
+  </data>
+  <data name="KV5/desc" xml:space="preserve">
+    <value>Советский тяжёлый танк VIII уровня. В обновлении 0.7.5 превращён в музейный экспонат и выведен из продажи по многочисленным жалобам радистов.</value>
+  </data>
+  <data name="KV5/title" xml:space="preserve">
+    <value>KV-5</value>
+  </data>
+  <data name="Napilnik/desc" xml:space="preserve">
+    <value>A mythical and legendary artifact used by the Game Balance department to magically fine-tune every vehicle in the game.</value>
+  </data>
+  <data name="Napilnik/title" xml:space="preserve">
+    <value>Game Balance Apparatus</value>
+  </data>
+  <data name="NationalLeader/desc" xml:space="preserve">
+    <value>November 25, 2011: World of Tanks receives the "National Leader" award at the national voting stage of the Runet Prize 2011 ceremony.</value>
+  </data>
+  <data name="NationalLeader/title" xml:space="preserve">
+    <value>National Leader</value>
+  </data>
+  <data name="PortMap/desc" xml:space="preserve">
+    <value>The most lively map in the game. Removed in version 0.8.11 because sea merchants complained that constant tank battles disrupted their trade routes and scared their customers.</value>
+  </data>
+  <data name="PortMap/title" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="PzKpfw38H735/desc" xml:space="preserve">
+    <value>Трофейный французский лёгкий танк с длинным названием и тяжёлой судьбой на службе Германии. Выведен из продажи в обновлении 0.7.1.</value>
+  </data>
+  <data name="PzKpfw38H735/title" xml:space="preserve">
+    <value>Pz.Kpfw. 38H 735 (f)</value>
+  </data>
+  <data name="PzKptwB2740/desc" xml:space="preserve">
+    <value>Трофейный французский тяжёлый танк на службе Германии. Демилитаризирован и изъят из продажи в обновлении 0.7.1. Был лучшим танком для обучения радистов.</value>
+  </data>
+  <data name="PzKptwB2740/title" xml:space="preserve">
+    <value>Pz.Kpfw. B2 740 (f)</value>
+  </data>
+  <data name="RuinbergInFireMap/desc" xml:space="preserve">
+    <value>The dark and dreary version of the Ruinberg. Removed from the game in version 0.9.5 due to its excessive amount of gloom per square meter.</value>
+  </data>
+  <data name="RuinbergInFireMap/title" xml:space="preserve">
+    <value>Ruinberg on Fire</value>
+  </data>
+  <data name="SeverogorskMap/desc" xml:space="preserve">
+    <value>The coldest map in the game. Removed in version 0.9.5 because the severe elements made the fuel in players' vehicles freeze, forcing them to stay at the base for the whole battle.</value>
+  </data>
+  <data name="SeverogorskMap/title" xml:space="preserve">
+    <value>Severogorsk</value>
+  </data>
+  <data name="Sturmtiger/desc" xml:space="preserve">
+    <value>Будет введён в игру в ближайшем обновлении. Или не в ближайшем. Или не будет.</value>
+  </data>
+  <data name="Sturmtiger/title" xml:space="preserve">
+    <value>Sturmtiger</value>
+  </data>
+  <data name="T23/desc" xml:space="preserve">
+    <value>Американский средний танк VIII уровня. В обновлении 0.6.5 ушёл поработать над собой. Помолодел на уровень и вернулся в игру под именем T23E3 в виде награды за успехи на Глобальной карте.</value>
+  </data>
+  <data name="T23/title" xml:space="preserve">
+    <value>Т23</value>
+  </data>
+  <data name="T502/desc" xml:space="preserve">
+    <value>Советский лёгкий резвый танк V уровня. Уволился в запас в обновлении 0.8.7, приведя на своё место преемника: флегматичного МТ-25.</value>
+  </data>
+  <data name="T502/title" xml:space="preserve">
+    <value>T-50-2</value>
+  </data>
+  <data name="TankFootball/desc" xml:space="preserve">
+    <value>«...и вот, мяч у Т-62А, он ловко проходит в среднюю зону, обходит одного защитника, второго, пробирается в штрафную площадь, УДАР! И!.. Гусеница сбита, движение невозможно...» — такие матчи были частым событием в игре с 12 июня по 13 июля 2014 года.</value>
+  </data>
+  <data name="TankFootball/title" xml:space="preserve">
+    <value>Танковый футбол</value>
+  </data>
+  <data name="TankRace/desc" xml:space="preserve">
+    <value>Эрон-дон-дон, леди и джентльмены. Давите на газ и летите вперёд за кубком Чемпиона танковых гонок! С 29 сентября по 13 октября 2014 года занимайте свои места на трибунах и наслаждайтесь непередаваемой атмосферой гоночного чемпионата.</value>
+  </data>
+  <data name="TankRace/title" xml:space="preserve">
+    <value>Танковые гонки</value>
+  </data>
+  <data name="Type59/desc" xml:space="preserve">
+    <value>Китайский средний танк VIII уровня. В обновлении 0.7.1. стал мечтой тех, кто не успел.</value>
+  </data>
+  <data name="Type59/title" xml:space="preserve">
+    <value>Type 59</value>
+  </data>
+  <data name="WGFaces/desc" xml:space="preserve">
+    <value>Делаем игру лучше вместе с вами и для вас!</value>
+  </data>
+  <data name="WGFaces/title" xml:space="preserve">
+    <value>Доска почёта</value>
+  </data>
+  <data name="WhiteTiger/desc" xml:space="preserve">
+    <value>From May 3 through May 31, 2012, there was a legend of the ghost of a vehicle appearing on the battlefield, and only those whose spirit was strong, could banish that vile spirit from our world (of tanks).</value>
+  </data>
+  <data name="WhiteTiger/title" xml:space="preserve">
+    <value>White Tiger</value>
+  </data>
+  <data name="WinterBattle/desc" xml:space="preserve">
+    <value>С 5 по 15 января 2015 года в World of Tanks наблюдалась повышенная активность Рейдеров, Берсерков и Мамонтов, сошедшихся в жаркой и динамичной «Зимней битве».</value>
+  </data>
+  <data name="WinterBattle/title" xml:space="preserve">
+    <value>Зимняя битва</value>
+  </data>
+  <data name="burda/desc" xml:space="preserve">
+    <value>Guards Colonel Alexander Burda was a Soviet tank ace and a Hero of the Soviet Union. On October 4th, 1941, Burda organized an ambush that destroyed an enemy armored column, including ten medium and light tanks, two trucks with antitank guns, and five infantry vehicles. He died in battle on January 25, 1944. His actions hindered the advance of 12 enemy vehicles and helped the brigade headquarters successfully evacuate.</value>
+  </data>
+  <data name="burda/title" xml:space="preserve">
+    <value>Alexander Burda</value>
+  </data>
+  <data name="fadin/desc" xml:space="preserve">
+    <value>A Hero of the Soviet Union, Alexander Fadin was a T-34 commander. Supported by one infantry platoon, Fadin managed to capture the village of Dashukovka (Ukraine) and hold it for five hours with one tank. He destroyed one tank, one SPG, eighteen machinegun nests, and neutralized up to 50 enemy soldiers and officers. His crew also shot down an enemy plane. Fadin ended the war in the Far East, where he participated in destroying the Kwantung Army as a commander of a tank company.</value>
+  </data>
+  <data name="fadin/title" xml:space="preserve">
+    <value>Alexander Fadin</value>
+  </data>
+  <data name="kolobanov/desc" xml:space="preserve">
+    <value>Colonel Zinoviy Kolobanov was a Soviet tank ace who destroyed 22 German tanks, two guns, and two armored vehicles with his KV-1 in the battle on August 19, 1941. The tanker fired 98 AP shells from his concealed tank, which received more than 100 hits. On September 15, 1941, Kolobanov was heavily wounded and stayed under treatment until the end of the war.</value>
+  </data>
+  <data name="kolobanov/title" xml:space="preserve">
+    <value>Zinoviy Kolobanov</value>
+  </data>
+  <data name="lavrinenko/desc" xml:space="preserve">
+    <value>Dmitry Lavrinenko, a Hero of the Soviet Union, Guards Lieutenant, tank ace, and a commander of the T-34 was recognized as a top Soviet tanker, who destroyed 52 tanks in 28 battles over the course of two and a half months. He died during a mortar attack on the Goryuny village, Volokolamsk Region, on December 18, 1941.</value>
+  </data>
+  <data name="lavrinenko/title" xml:space="preserve">
+    <value>Dmitry Lavrinenko</value>
+  </data>
+  <data name="naydeen/desc" xml:space="preserve">
+    <value>Sergeant Grigoriy Naydin was a BT-7 commander. On June 25th, 1941, near the Lithuanian town of Rudishkyay, he destroyed a Wehrmacht armored column that included 15 vehicles and 10 guns of the 19th Mechanized Corps. Naydin managed to hold off the German advance for two days, making it possible to organize the defenses around Vilnius. For this action, Naydin was made a Hero of the Soviet Union. He was wounded twice and continued to serve in the Armed Forces of the USSR after the war.</value>
+  </data>
+  <data name="naydeen/title" xml:space="preserve">
+    <value>Grigoriy Naydin</value>
+  </data>
+  <data name="oskin/desc" xml:space="preserve">
+    <value>Alexander Oskin, a Hero of the Soviet Union, was a tank commander who destroyed three King Tigers with his T-34 during a reconnaissance operation near Oglenduv on August 11, 1944. The following day, his tank was one of the first to rush into the Oglenduv village, which resulted in the capture of another three working King Tigers. One of the captured tanks with hull number 502 is currently exhibited in the Kubinka Tank Museum.</value>
+  </data>
+  <data name="oskin/title" xml:space="preserve">
+    <value>Alexander Oskin</value>
+  </data>
+  <data name="envIN_007_FalloutMap_01/desc" xml:space="preserve">
+    <value>The first representative of Swedish vehicles in game. The "Strv" abbreviation means Stridsvagn, which is translated as a "tank". In the early 1950s, the Swedish army was confronted with a question of modernizing the armored forces. Along with medium vehicles (among which the U.K. Centurion tank was selected), the army needed a mobile and light vehicle. One AMX-13 with a 75-mm gun was purchased in France for trials. The trials were successful, but the vehicle was deemed too expensive. However, engineers came up with an idea to mount its turret on the chassis of the Strv m/42 medium tank, but the project remained only in blueprints, and the army opted for the Strv 74, which met their requirements and was cheaper in terms of manufacturing.</value>
+  </data>
+  <data name="envIN_007_FalloutMap_01/title" xml:space="preserve">
+    <value>Strv m/42-57 Alt A.2</value>
+  </data>
+  <data name="envIN_007_FalloutMap_02/desc" xml:space="preserve">
+    <value>Aux armes! In this version, the "Paris" map became available for Random Battles. The new battlefield features tight winding streets that provide great cover for allied heavy vehicles. The central square is dangerous because shots can come from all directions, while the embankment of the Seine with an unfinished fountain is an ideal area for approaches in fast, maneuverable vehicles.</value>
+  </data>
+  <data name="envIN_007_FalloutMap_02/title" xml:space="preserve">
+    <value>Paris</value>
+  </data>
+  <data name="envIN_007_FalloutMap_03/desc" xml:space="preserve">
+    <value>You are harmlessly surfing through the game content and accidentally sell your favorite Premium vehicle or dismiss a skilled crew member. Are you tired of this happening? Well, suffer no more! We designed a new feature that will improve your quality of life significantly! Now you will be able to recover the sold vehicle or dismissed crew member. The conditions are as follows:
+• Premium vehicles can be recovered using credits within 3 days after the sale.
+• Each special and event vehicle can be recovered using credits once every 3 days.
+• A crew member can be recovered for free within two days after the dismissal and using credits within 30 days.</value>
+  </data>
+  <data name="envIN_007_FalloutMap_03/title" xml:space="preserve">
+    <value>Vehicle and Crew Recovery</value>
+  </data>
+  <data name="envIN_007_FalloutMap_04/desc" xml:space="preserve">
+    <value>Dear players! We are happy to announce that the current spotting system was significantly improved. We increased the speed of client and server calculations, which will allow you to spot your enemies instantly. Therefore, enemy vehicles will not be able to slip past the open space between two objects without being spotted (if these vehicles are in your view range). In addition, lag and freezes related to the moment of spotting will disappear. We are planning to constantly improve the spotting system to ensure comfortable gaming.</value>
+  </data>
+  <data name="envIN_007_FalloutMap_04/title" xml:space="preserve">
+    <value>Updated Spotting System</value>
+  </data>
+  <data name="envIN_007_FalloutPromo_01/desc" xml:space="preserve">
+    <value>In this version, the physical model for vehicle movement underwent significant changes. The vehicles’ behavior became more realistic; additional features of the improved model allow you to perform brand new maneuvers, including a J-turn and drifting. In addition, your vehicle can reach new heights (in every sense of the word) and take unexpected firing positions, which promotes diverse gameplay on most maps.
+
+Be as attentive as possible when moving across rugged terrain and driving down steep slopes, as a maneuvering mistake may cause your vehicle to overturn onto its sides or roof. If your vehicle is lying on its roof, a 30-second timer will appear (similar to the drowning timer), and you won’t be able to fire. Hope your allies can help, or your vehicle will be destroyed. Don’t forget that your vehicle can also be overturned by ramming.</value>
+  </data>
+  <data name="envIN_007_FalloutPromo_01/title" xml:space="preserve">
+    <value>Improved Vehicle Movement Physics</value>
+  </data>
+  <data name="flag/desc" xml:space="preserve">
+    <value>For the first time, the Wargaming.net League Grand Finals will be held in Moscow. This tournament is a major competitive event in World of Tanks. All professional tankers aspire to participate in it.
+
+Prepare for a clash between the world's best teams and lots of spectacular battles! All tankers are constantly sharpening their combat skills, and this year they will definitely raise the bar.</value>
+  </data>
+  <data name="flag/title" xml:space="preserve">
+    <value>Grand Finals 2017</value>
+  </data>
+  <data name="hellraisers/desc" xml:space="preserve">
+    <value>HellRaisers traveled a long journey to clenching the World of Tanks Champions title. Back in 2015, they were deemed the main competitors of Natus Vincere in the RU region and had a reputation of reckless and skilled players.
+
+In the semifinal, the encounter between the two ended with a dramatic victory for HellRaisers by a score of 5:2; in the final match, they smashed their rivals from China and won the championship.
+
+In 2016, then known as TORNADO ENERGY, they beat Na`Vi in the final match of the Champions Rumble and won a pass to the 2017 Grand Finals.</value>
+  </data>
+  <data name="hellraisers/title" xml:space="preserve">
+    <value>HellRaisers</value>
+  </data>
+  <data name="navi/desc" xml:space="preserve">
+    <value>In 2014, Natus Vincere proved their absolute dominance by winning the first Grand Finals of the Wargaming.net League in Warsaw.
+
+In 2016, they once again confirmed their superiority by claiming victory over their main competitor, HellRaisers, who were the reigning champions at that time.</value>
+  </data>
+  <data name="navi/title" xml:space="preserve">
+    <value>Natus Vincere</value>
+  </data>
+</root>

@@ -69,20 +69,17 @@ namespace WotDossier.Applications.ViewModel.Filter
                     {   
                         x.CountryId, 
                         x.TankId, 
-                        x.Icon, 
                         x.TankUniqueId, 
-                        x.Type, x.Tank, 
+                        x.Type, 
                         x.Tier
                     })
                 .Select(g => new FragsJson
                     {
                         Count = g.Sum(x => x.Count),
                         TankId = g.First().TankId,
-                        Icon = g.First().Icon,
                         TankUniqueId = g.First().TankUniqueId,
                         Type = g.First().Type,
                         Tier = g.First().Tier,
-                        Tank = g.First().Tank,
                         CountryId = g.First().CountryId
                     })
                 .OrderByDescending(x => x.Tier)
@@ -94,7 +91,7 @@ namespace WotDossier.Applications.ViewModel.Filter
         public void Init(List<ITankStatisticRow> tanks)
         {
             TankFrags = tanks.SelectMany(x => x.TankFrags).ToList();
-            Tanks = tanks.OrderBy(x => x.Tank).Select(x => new ListItem<int>(x.TankUniqueId, x.Tank)).ToList();
+            Tanks = tanks.OrderBy(x => x.TankDescription).Select(x => new ListItem<int>(x.TankUniqueId, x.TankDescription.Title)).ToList();
             Tanks.Insert(0, new ListItem<int>(KEY_ALL_VALUES, Resources.Resources.TankFilterPanel_All));
             OnPropertyChanged("Tanks");
         }

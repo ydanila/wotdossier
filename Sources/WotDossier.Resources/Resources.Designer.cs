@@ -1790,6 +1790,15 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to GlobalMap battle.
+        /// </summary>
+        public static string BattleType_GlobalMap {
+            get {
+                return ResourceManager.GetString("BattleType_GlobalMap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Grand Battle.
         /// </summary>
         public static string BattleType_GrandBattle {
@@ -1822,6 +1831,15 @@ namespace WotDossier.Resources {
         public static string BattleType_nations {
             get {
                 return ResourceManager.GetString("BattleType_nations", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ranked Battle.
+        /// </summary>
+        public static string BattleType_Ranked {
+            get {
+                return ResourceManager.GetString("BattleType_Ranked", resourceCulture);
             }
         }
         

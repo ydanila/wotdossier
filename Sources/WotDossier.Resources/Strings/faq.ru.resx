@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="answer_1" xml:space="preserve">
+    <value>О: Перейдите в Aнгар и установите купленное оборудование в один из свободных слотов слева от слотов снарядов.</value>
+  </data>
+  <data name="answer_10" xml:space="preserve">
+    <value>О: Определить направление, откуда вас может заметить противник, и занять такую позицию, чтобы куст оказался между вашей машиной и противником. Ствол орудия на обнаружение машины не влияет.</value>
+  </data>
+  <data name="answer_11" xml:space="preserve">
+    <value>О: Это бронепробиваемость различными типами снарядов, доступными для данного орудия.</value>
+  </data>
+  <data name="answer_12" xml:space="preserve">
+    <value>О: Нет, не пропадут и будут работать, но не будут расти, пока уровень члена экипажа снова не станет равным 100%.</value>
+  </data>
+  <data name="answer_13" xml:space="preserve">
+    <value>О: Да. Вы получите преимущества как премиум аккаунта, так и премиум машины.</value>
+  </data>
+  <data name="answer_14" xml:space="preserve">
+    <value>О: Наведите маркер прицела на машину противника, и когда его контур подсветится, нажмите правую кнопку мыши.</value>
+  </data>
+  <data name="answer_15" xml:space="preserve">
+    <value>О: Удерживайте правую кнопку мыши и осматривайтесь.</value>
+  </data>
+  <data name="answer_16" xml:space="preserve">
+    <value>О: Он ослабляет заброневое действие фугасного снаряда, если снаряд не пробил броню.</value>
+  </data>
+  <data name="answer_17" xml:space="preserve">
+    <value>О: Центр поддержки пользователей: https://ru.wargaming.net/support/</value>
+  </data>
+  <data name="answer_2" xml:space="preserve">
+    <value>О: Через Склад, предварительно сняв с него всё необходимое.</value>
+  </data>
+  <data name="answer_3" xml:space="preserve">
+    <value>О: Уровень есть не у игрока, а у машины. Уровень машины можно посмотреть в нижней части Ангара: римская цифра в левом верхнем углу на иконке машины.</value>
+  </data>
+  <data name="answer_4" xml:space="preserve">
+    <value>О: Нет, оно ставится на машину и при смене орудия остаётся.</value>
+  </data>
+  <data name="answer_5" xml:space="preserve">
+    <value>О: «Гаубичный прицел» САУ включается и выключается клавишей Shift.</value>
+  </data>
+  <data name="answer_6" xml:space="preserve">
+    <value>О: Выбрать нужный тип снаряда можно в окне обслуживания, щёлкнув левой кнопкой мыши по снаряду.</value>
+  </data>
+  <data name="answer_7" xml:space="preserve">
+    <value>О: Она будет действовать только на ту машину, на которую установлена, и её действие в бою начнётся через 5 секунд после остановки корпуса машины. Нет, не пропадёт.</value>
+  </data>
+  <data name="answer_8" xml:space="preserve">
+    <value>О: Нет, огнетушители пропадают после боя только в случае их использования.</value>
+  </data>
+  <data name="answer_9" xml:space="preserve">
+    <value>О: Лёгкие танки в игре должны выполнять роль разведчиков и обнаруживать противника. Стрелять по противнику вовсе не обязательно.</value>
+  </data>
+  <data name="question_1" xml:space="preserve">
+    <value>В: Я купил в Магазине оборудование, как мне его поставить на машину?</value>
+  </data>
+  <data name="question_10" xml:space="preserve">
+    <value>В: Как правильно замаскироваться, используя кусты?</value>
+  </data>
+  <data name="question_11" xml:space="preserve">
+    <value>В: Что означают числа бронепробиваемости в характеристиках орудия, например 112/189/29?</value>
+  </data>
+  <data name="question_12" xml:space="preserve">
+    <value>В: Если я пересажу члена экипажа на новую машину, не пропадут ли его дополнительные умения?</value>
+  </data>
+  <data name="question_13" xml:space="preserve">
+    <value>В: Если я одновременно куплю премиум аккаунт и премиум машину, получу ли я преимущества как премиум аккаунта, так и премиум машины?</value>
+  </data>
+  <data name="question_14" xml:space="preserve">
+    <value>В: Как включается автоприцел?</value>
+  </data>
+  <data name="question_15" xml:space="preserve">
+    <value>В: Как осмотреться кругом, не поворачивая башню?</value>
+  </data>
+  <data name="question_16" xml:space="preserve">
+    <value>В: Для чего нужен противоосколочный подбой?</value>
+  </data>
+  <data name="question_17" xml:space="preserve">
+    <value>В: Куда обращаться по техническим и финансовым вопросам?</value>
+  </data>
+  <data name="question_2" xml:space="preserve">
+    <value>В: Как продать машину?</value>
+  </data>
+  <data name="question_3" xml:space="preserve">
+    <value>В: Какой у меня уровень?</value>
+  </data>
+  <data name="question_4" xml:space="preserve">
+    <value>В: Оборудование «досылатель», «приводы наводки», «стабилизатор» уничтожается при смене орудия?</value>
+  </data>
+  <data name="question_5" xml:space="preserve">
+    <value>В:  Как включить или выключить «гаубичный прицел» САУ?</value>
+  </data>
+  <data name="question_6" xml:space="preserve">
+    <value>В: Как до начала боя выбрать нужный тип снарядов?</value>
+  </data>
+  <data name="question_7" xml:space="preserve">
+    <value>В: Если я куплю оборудование «Маскировочная сеть», будет ли она действовать на всю мою технику? Не пропадёт ли после боя?</value>
+  </data>
+  <data name="question_8" xml:space="preserve">
+    <value>В: Огнетушители пропадают после боя?</value>
+  </data>
+  <data name="question_9" xml:space="preserve">
+    <value>В: Почему мой лёгкий танк попадает к высокоуровневой технике, которую я не могу даже повредить?</value>
+  </data>
+  <data name="answer_17/contains_links" xml:space="preserve">
+    <value>О: {openSupportURL[openTag]:s}Центр поддержки пользователей{openSupportURL[closeTag]:s}</value>
+  </data>
+</root>

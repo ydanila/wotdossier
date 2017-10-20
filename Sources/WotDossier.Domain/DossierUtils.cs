@@ -1,9 +1,15 @@
-﻿namespace WotDossier.Domain
+﻿using System;
+using WotDossier.Domain.Tank;
+
+namespace WotDossier.Domain
 {
-    public class DossierUtils
+    public static class DossierUtils
     {
-        public static int ToUniqueId(int typeCompDescr)
-        {
+	    private const int UNKNOWN_DESCR = 65521;
+
+		public static int ToUniqueId(int typeCompDescr)
+		{
+			if (typeCompDescr == UNKNOWN_DESCR) return -10001;
             int tankId = ToTankId(typeCompDescr);
             int countryId = ToCountryId(typeCompDescr);
 
@@ -12,12 +18,14 @@
 
         public static int ToCountryId(int typeCompDescr)
         {
-            return typeCompDescr >> 4 & 15;
+	        if (typeCompDescr == UNKNOWN_DESCR) return -1;
+			return typeCompDescr >> 4 & 15;
         }
 
         public static int ToTankId(int typeCompDescr)
         {
-            return typeCompDescr >> 8 & 65535;
+	        if (typeCompDescr == UNKNOWN_DESCR) return -1;
+			return typeCompDescr >> 8 & 65535;
         }
 
         public static int ToTypeId(int typeCompDescr)
@@ -30,9 +38,27 @@
             return (type & 15) | (countryId << 4 & 255) | (tankId << 8 & 65535);
         }
 
-        public static int ToUniqueId(int countryId, int tankId)
+	    public static int TypeCompDesc(int uniqueId)
+	    {
+		    var tankid = uniqueId % 10000;
+		    var countryid = (uniqueId - tankid) / 10000;
+			return TypeCompDesc(countryid, tankid);
+	    }
+
+		public static int ToUniqueId(int countryId, int tankId)
         {
             return countryId * 10000 + tankId;
         }
+
+	    public static int ToUniqueId(Country country, int tankId)
+	    {
+		    return ToUniqueId((int)country, tankId);
+	    }
+
+		public static Country ToCountry(this string country)
+	    {
+		    return (Country) Enum.Parse(typeof(Country), char.ToUpper(country[0]) + country.Substring(1));
+
+	    }
     }
 }

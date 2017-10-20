@@ -1,0 +1,3757 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EULA/buttons/apply" xml:space="preserve">
+    <value>Принимаю</value>
+  </data>
+  <data name="EULA/labels/agree" xml:space="preserve">
+    <value>Я принимаю</value>
+  </data>
+  <data name="EULA/title" xml:space="preserve">
+    <value>Лицензионное соглашение</value>
+  </data>
+  <data name="addSkillWindow/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="addSkillWindow/desc1" xml:space="preserve">
+    <value>Умения начинают действовать с началом обучения. Эффект их действия постепенно возрастает до максимального.</value>
+  </data>
+  <data name="addSkillWindow/desc2" xml:space="preserve">
+    <value>Навыки начинают оказывать эффект только после изучения на 100%.</value>
+  </data>
+  <data name="addSkillWindow/label" xml:space="preserve">
+    <value>Навыки и умения</value>
+  </data>
+  <data name="addSkillWindow/label/commander" xml:space="preserve">
+    <value>командира</value>
+  </data>
+  <data name="addSkillWindow/label/driver" xml:space="preserve">
+    <value>водителя</value>
+  </data>
+  <data name="addSkillWindow/label/gunner" xml:space="preserve">
+    <value>наводчика</value>
+  </data>
+  <data name="addSkillWindow/label/loader" xml:space="preserve">
+    <value>заряжающего</value>
+  </data>
+  <data name="addSkillWindow/label/radioman" xml:space="preserve">
+    <value>радиста</value>
+  </data>
+  <data name="addSkillWindow/submit" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="addSkillWindow/title" xml:space="preserve">
+    <value>Просмотр умений и навыков</value>
+  </data>
+  <data name="barracksExpand/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="barracksExpand/message" xml:space="preserve">
+    <value>Расширить Казарму за %(price)s, добавив коек: %(count)s?</value>
+  </data>
+  <data name="barracksExpand/submit" xml:space="preserve">
+    <value>Расширить</value>
+  </data>
+  <data name="barracksExpand/title" xml:space="preserve">
+    <value>Расширение Казармы</value>
+  </data>
+  <data name="barracksExpandNotEnoughMoney/cancel" xml:space="preserve">
+    <value>OК</value>
+  </data>
+  <data name="barracksExpandNotEnoughMoney/message" xml:space="preserve">
+    <value>Недостаточно золота.</value>
+  </data>
+  <data name="barracksExpandNotEnoughMoney/submit" xml:space="preserve">
+    <value>OК</value>
+  </data>
+  <data name="barracksExpandNotEnoughMoney/title" xml:space="preserve">
+    <value>Расширение Казармы</value>
+  </data>
+  <data name="buyConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="buyConfirmation/messageCombine" xml:space="preserve">
+    <value>Купить "{%name}" {%count} шт.?</value>
+  </data>
+  <data name="buyConfirmation/submit" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="buyConfirmation/title" xml:space="preserve">
+    <value>Подтверждение покупки</value>
+  </data>
+  <data name="buyInstallConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="buyInstallConfirmation/conflictedMessage" xml:space="preserve">
+    <value>Снаряжение '%(conflicted)s' будет отправлено на Склад в связи с &lt;font color="#FF0000"&gt;несовместимостью&lt;/font&gt; с устанавливаемым модулем.</value>
+  </data>
+  <data name="buyInstallConfirmation/message" xml:space="preserve">
+    <value>Купить и установить %(kind)s "%(name)s" на текущую машину за %(price)s%(creditsIcon)s? %(conflict)s</value>
+  </data>
+  <data name="buyInstallConfirmation/messageCombine" xml:space="preserve">
+    <value>Купить и установить %(kind)s "%(name)s" на текущую машину за %(price)s кредитов?</value>
+  </data>
+  <data name="buyInstallConfirmation/submit" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="buyInstallConfirmation/title" xml:space="preserve">
+    <value>Подтверждение покупки</value>
+  </data>
+  <data name="buySlotConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="buySlotConfirmation/messageCombine" xml:space="preserve">
+    <value>Купить дополнительный слот в Ангаре за {%d} золота?</value>
+  </data>
+  <data name="buySlotConfirmation/submit" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="buySlotConfirmation/title" xml:space="preserve">
+    <value>Подтверждение покупки</value>
+  </data>
+  <data name="buySlotNotEnoughCredits/cancel" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="buySlotNotEnoughCredits/message" xml:space="preserve">
+    <value>Недостаточно золота для покупки дополнительного слота в Ангаре.</value>
+  </data>
+  <data name="buySlotNotEnoughCredits/submit" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="buySlotNotEnoughCredits/title" xml:space="preserve">
+    <value>Недостаточно золота</value>
+  </data>
+  <data name="buySlotShopConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="buySlotShopConfirmation/messageCombine" xml:space="preserve">
+    <value>Нет свободных слотов в Ангаре. Купить дополнительный слот за {%d} золота?</value>
+  </data>
+  <data name="buySlotShopConfirmation/submit" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="buySlotShopConfirmation/title" xml:space="preserve">
+    <value>Подтверждение покупки</value>
+  </data>
+  <data name="buyVehicleDialog/ammoCheckbox" xml:space="preserve">
+    <value>Загрузить базовый боекомплект</value>
+  </data>
+  <data name="buyVehicleDialog/cancelBtn" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="buyVehicleDialog/expandBtnLabel" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
+  <data name="buyVehicleDialog/priceLabel" xml:space="preserve">
+    <value>Купить %(vehiclename)s</value>
+  </data>
+  <data name="buyVehicleDialog/rollupBtnLabel" xml:space="preserve">
+    <value>Свернуть</value>
+  </data>
+  <data name="buyVehicleDialog/slotCheckbox" xml:space="preserve">
+    <value>Купить дополнительный слот</value>
+  </data>
+  <data name="buyVehicleDialog/submitBtn" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="buyVehicleDialog/tankmen" xml:space="preserve">
+    <value>членов экипажа:</value>
+  </data>
+  <data name="buyVehicleDialog/tankmenCheckbox" xml:space="preserve">
+    <value>Купить машину без экипажа</value>
+  </data>
+  <data name="buyVehicleDialog/tankmenLabel" xml:space="preserve">
+    <value>Подготовка экипажа [%(count)s]</value>
+  </data>
+  <data name="buyVehicleDialog/title" xml:space="preserve">
+    <value>Покупка %(vehiclename)s</value>
+  </data>
+  <data name="buyVehicleDialog/totalLabel" xml:space="preserve">
+    <value>Итого:</value>
+  </data>
+  <data name="cancelInvite/cancel" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="cancelInvite/message" xml:space="preserve">
+    <value>Извините, вы не можете сейчас принять приглашение, так как ожидаете боя. Пожалуйста, выйдите из режима ожидания либо завершите бой и попробуйте снова.</value>
+  </data>
+  <data name="cancelInvite/submit" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="cancelInvite/title" xml:space="preserve">
+    <value>Приглашение</value>
+  </data>
+  <data name="changeConfirmationNotRemovable/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="changeConfirmationNotRemovable/messageCombine" xml:space="preserve">
+    <value>&lt;font color="#FF0000"&gt;Сложное&lt;/font&gt; оборудование "%(oldName)s". В случае обычного демонтажа (например, замены на другое оборудование) будет &lt;font color="#FF0000"&gt;УНИЧТОЖЕНО&lt;/font&gt;. Может быть безопасно демонтировано и помещено на Склад за золото. Подтверждаете замену?</value>
+  </data>
+  <data name="changeConfirmationNotRemovable/submit" xml:space="preserve">
+    <value>Заменить</value>
+  </data>
+  <data name="changeConfirmationNotRemovable/title" xml:space="preserve">
+    <value>Подтверждение покупки</value>
+  </data>
+  <data name="confirmModuleDialog/countLabel" xml:space="preserve">
+    <value>Количество:</value>
+  </data>
+  <data name="confirmModuleDialog/priceLabel" xml:space="preserve">
+    <value>Стоимость:</value>
+  </data>
+  <data name="confirmModuleDialog/totalLabel" xml:space="preserve">
+    <value>Итого:</value>
+  </data>
+  <data name="controlsWrongNotification/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="controlsWrongNotification/message" xml:space="preserve">
+    <value>Некоторым действиям не назначены клавиши. Сохранить настройки управления?</value>
+  </data>
+  <data name="controlsWrongNotification/submit" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="controlsWrongNotification/title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="crewRetraining/title" xml:space="preserve">
+    <value>Переобучение</value>
+  </data>
+  <data name="customization/camouflageDrop/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/camouflageDrop/message" xml:space="preserve">
+    <value>Удалить текущий камуфляж?</value>
+  </data>
+  <data name="customization/camouflageDrop/submit" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="customization/camouflageDrop/title" xml:space="preserve">
+    <value>Камуфляж</value>
+  </data>
+  <data name="customization/changeConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/changeConfirmation/message" xml:space="preserve">
+    <value>Вы дейcтвительно хотите нанести: %(selected)s?
+%(remove)s</value>
+  </data>
+  <data name="customization/changeConfirmation/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="customization/changeConfirmation/title" xml:space="preserve">
+    <value>Подтверждение %(action)s</value>
+  </data>
+  <data name="customization/hornDrop/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/hornDrop/message" xml:space="preserve">
+    <value>Удалить текущий клаксон?</value>
+  </data>
+  <data name="customization/hornDrop/submit" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="customization/hornDrop/title" xml:space="preserve">
+    <value>Клаксон</value>
+  </data>
+  <data name="customization/selectNewItems/cancel" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="customization/selectNewItems/message" xml:space="preserve">
+    <value>Пожалуйста, выберите новый %(items)s.</value>
+  </data>
+  <data name="customization/selectNewItems/title" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="disconnect/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="disconnect/message" xml:space="preserve">
+    <value>Отключиться от сервера?</value>
+  </data>
+  <data name="disconnect/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="disconnect/title" xml:space="preserve">
+    <value>Отключение от сервера</value>
+  </data>
+  <data name="disconnected/cancel" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="disconnected/message" xml:space="preserve">
+    <value>Связь с сервером потеряна. Нажмите кнопку OK, чтобы повторно подключиться к серверу.</value>
+  </data>
+  <data name="disconnected/messageBan" xml:space="preserve">
+    <value>Ваш аккаунт заблокирован.%(reason)s</value>
+  </data>
+  <data name="disconnected/messageBanPeriod" xml:space="preserve">
+    <value>Ваш аккаунт заблокирован до %(expiryTime)s.%(reason)s</value>
+  </data>
+  <data name="disconnected/messageKick" xml:space="preserve">
+    <value>Связь с сервером потеряна.%(reason)s</value>
+  </data>
+  <data name="disconnected/reason" xml:space="preserve">
+    <value> 
+Причина: %s</value>
+  </data>
+  <data name="disconnected/title" xml:space="preserve">
+    <value>Потеря соединения</value>
+  </data>
+  <data name="dismissTankman/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="dismissTankman/message" xml:space="preserve">
+    <value>Демобилизовать этого члена экипажа?</value>
+  </data>
+  <data name="dismissTankman/submit" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="dismissTankman/title" xml:space="preserve">
+    <value>Подтверждение демобилизации</value>
+  </data>
+  <data name="dropSkill/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="dropSkill/message" xml:space="preserve">
+    <value>Сбросить все умения и навыки?</value>
+  </data>
+  <data name="dropSkill/submit" xml:space="preserve">
+    <value>Сбросить</value>
+  </data>
+  <data name="dropSkill/title" xml:space="preserve">
+    <value>Подтверждение сброса</value>
+  </data>
+  <data name="elite/cancel" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="elite/header" xml:space="preserve">
+    <value>%(name)s получил статус «Элитный»</value>
+  </data>
+  <data name="elite/message" xml:space="preserve">
+    <value>Статус «Элитный» присваивается технике, для которой исследованы все доступные модули и ветки развития.
+Боевой опыт, заработанный на элитной технике, может быть переведён в свободный опыт за золото, либо направлен на ускоренное обучение экипажа с помощью опции «Ускорить обучение экипажа».</value>
+  </data>
+  <data name="elite/title" xml:space="preserve">
+    <value>Присвоение статуса «Элитный»</value>
+  </data>
+  <data name="exchangeXPConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="exchangeXPConfirmation/message" xml:space="preserve">
+    <value>Перевести %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s единиц опыта в свободный опыт за %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s?</value>
+  </data>
+  <data name="exchangeXPConfirmation/submit" xml:space="preserve">
+    <value>Перевести</value>
+  </data>
+  <data name="exchangeXPConfirmation/title" xml:space="preserve">
+    <value>Перевод в свободный опыт</value>
+  </data>
+  <data name="exitCurrentPrebattle/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="exitCurrentPrebattle/customMessage/CLAN" xml:space="preserve">
+    <value>Вы уже находитесь в клановом бою. Выйти из кланового боя?</value>
+  </data>
+  <data name="exitCurrentPrebattle/customMessage/COMPANY" xml:space="preserve">
+    <value>Вы уже находитесь в роте. Выйти из роты?</value>
+  </data>
+  <data name="exitCurrentPrebattle/customMessage/SQUAD" xml:space="preserve">
+    <value>Вы уже находитесь во взводе. Выйти из взвода?</value>
+  </data>
+  <data name="exitCurrentPrebattle/customMessage/TOURNAMENT" xml:space="preserve">
+    <value>Вы уже присоединены к турниру. Выйти из турнира?</value>
+  </data>
+  <data name="exitCurrentPrebattle/customMessage/TRAINING" xml:space="preserve">
+    <value>Вы уже находитесь в тренировочной комнате. Выйти из тренировочной комнаты?</value>
+  </data>
+  <data name="exitCurrentPrebattle/message" xml:space="preserve">
+    <value>Вы уже находитесь в команде. Хотите выйти из команды и присоединиться к новой?</value>
+  </data>
+  <data name="exitCurrentPrebattle/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="exitCurrentPrebattle/title" xml:space="preserve">
+    <value>Подтверждение выхода</value>
+  </data>
+  <data name="finance_dialog/cancelBtn" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="finance_dialog/header" xml:space="preserve">
+    <value>Подтверждение операции</value>
+  </data>
+  <data name="finance_dialog/results/defaultMessage" xml:space="preserve">
+    <value>Введите ваш финансовый пароль для подтверждения операции.</value>
+  </data>
+  <data name="finance_dialog/results/invalid" xml:space="preserve">
+    <value>Пароль неверен.</value>
+  </data>
+  <data name="finance_dialog/results/limit" xml:space="preserve">
+    <value>Вы превысили допустимое число попыток ввода пароля. Попробуйте через 24 часа. &lt;u&gt;&lt;a href="asfunction:_root.openRestoreFinPasswordWebPage"&gt;Забыли пароль?&lt;/a&gt;&lt;/u&gt;</value>
+  </data>
+  <data name="finance_dialog/results/valid" xml:space="preserve">
+    <value>finance_dialog/results/valid</value>
+  </data>
+  <data name="finance_dialog/results/wrong" xml:space="preserve">
+    <value>Пароль должен содержать не менее 6 символов, символы латинского алфавита, цифры и знак подчеркивания.</value>
+  </data>
+  <data name="finance_dialog/submitBtn" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="freeVehicleLeftLimit/cancel" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="freeVehicleLeftLimit/message" xml:space="preserve">
+    <value>Вы израсходовали лимит на приобретение бесплатной техники. Попробуйте завтра.</value>
+  </data>
+  <data name="freeVehicleLeftLimit/title" xml:space="preserve">
+    <value>Лимит покупки</value>
+  </data>
+  <data name="gatheringXPForm/btnCancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="gatheringXPForm/btnSubmit" xml:space="preserve">
+    <value>Перевести</value>
+  </data>
+  <data name="gatheringXPForm/headerButtons/crew" xml:space="preserve">
+    <value>Экипаж</value>
+  </data>
+  <data name="gatheringXPForm/headerButtons/vehicle" xml:space="preserve">
+    <value>Машина</value>
+  </data>
+  <data name="gatheringXPForm/headerButtons/xp" xml:space="preserve">
+    <value>Опыт</value>
+  </data>
+  <data name="gatheringXPForm/labelExchange" xml:space="preserve">
+    <value>Перевести:</value>
+  </data>
+  <data name="gatheringXPForm/labelPrice" xml:space="preserve">
+    <value>Цена:</value>
+  </data>
+  <data name="gatheringXPForm/labelPriceValue" xml:space="preserve">
+    <value>&lt;font face='$FieldFont' size='13' color='#969687' &gt; {%d}&lt;/font&gt;&lt;img src='icon_free_xp' /&gt; за &lt;font face='$FieldFont' size='14' color='#f8eed5' &gt; {%d} &lt;/font&gt; &lt;img src='icon_gold' /&gt;</value>
+  </data>
+  <data name="gatheringXPForm/labelTotalPrice" xml:space="preserve">
+    <value>Итого:</value>
+  </data>
+  <data name="gatheringXPForm/labelTotalXP" xml:space="preserve">
+    <value>Суммарный опыт:</value>
+  </data>
+  <data name="gatheringXPForm/title" xml:space="preserve">
+    <value>Перевод в свободный опыт</value>
+  </data>
+  <data name="gatheringXPForm/tooltips/checkboxCrewSelected" xml:space="preserve">
+    <value>Ускоренное обучение экипажа включено.</value>
+  </data>
+  <data name="gatheringXPForm/tooltips/checkboxCrewUnselected" xml:space="preserve">
+    <value>Ускоренное обучение экипажа не включено.</value>
+  </data>
+  <data name="graphicsPresetAutodetectConfirmation/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="graphicsPresetAutodetectConfirmation/message" xml:space="preserve">
+    <value>Внимание! Изменения настроек будут утеряны. Продолжить?</value>
+  </data>
+  <data name="graphicsPresetAutodetectConfirmation/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="graphicsPresetAutodetectConfirmation/title" xml:space="preserve">
+    <value>Автоопределение качества графики</value>
+  </data>
+  <data name="graphicsPresetDelayedConfirmation/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="graphicsPresetDelayedConfirmation/message" xml:space="preserve">
+    <value>Внимание! Изменение некоторых настроек может занять продолжительное время. Продолжить?</value>
+  </data>
+  <data name="graphicsPresetDelayedConfirmation/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="graphicsPresetDelayedConfirmation/title" xml:space="preserve">
+    <value>Изменение настроек</value>
+  </data>
+  <data name="graphicsPresetNotPossible/cancel" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="graphicsPresetNotPossible/message" xml:space="preserve">
+    <value>Высокое качество текстур доступно только на 64-битных системах.</value>
+  </data>
+  <data name="graphicsPresetNotPossible/title" xml:space="preserve">
+    <value>Качество текстур недоступно.</value>
+  </data>
+  <data name="graphicsPresetRestartConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="graphicsPresetRestartConfirmation/delay" xml:space="preserve">
+    <value>Отложить</value>
+  </data>
+  <data name="graphicsPresetRestartConfirmation/message" xml:space="preserve">
+    <value>Изменения некоторых настроек вступят в силу после перезапуска клиента игры.</value>
+  </data>
+  <data name="graphicsPresetRestartConfirmation/submit" xml:space="preserve">
+    <value>Перезапустить</value>
+  </data>
+  <data name="graphicsPresetRestartConfirmation/title" xml:space="preserve">
+    <value>Изменение настроек</value>
+  </data>
+  <data name="haveNoEmptySlots/cancel" xml:space="preserve">
+    <value>OК</value>
+  </data>
+  <data name="haveNoEmptySlots/message" xml:space="preserve">
+    <value>В Ангаре нет свободного слота для новой машины. Купите дополнительный слот или продайте одну из машин.</value>
+  </data>
+  <data name="haveNoEmptySlots/submit" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="haveNoEmptySlots/title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="installConfirmationNotRemovable/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="installConfirmationNotRemovable/messageCombine" xml:space="preserve">
+    <value>&lt;font color="#FF0000"&gt;Сложное&lt;/font&gt; оборудование "%(name)s". В случае обычного демонтажа (например, замены на другое оборудование) будет &lt;font color="#FF0000"&gt;УНИЧТОЖЕНО&lt;/font&gt;. Может быть безопасно демонтировано и помещено на Склад за золото. Продолжить установку?</value>
+  </data>
+  <data name="installConfirmationNotRemovable/submit" xml:space="preserve">
+    <value>Установить</value>
+  </data>
+  <data name="installConfirmationNotRemovable/title" xml:space="preserve">
+    <value>Подтверждение установки</value>
+  </data>
+  <data name="leftPrebattleAndAcceptInvite/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="leftPrebattleAndAcceptInvite/message" xml:space="preserve">
+    <value>Вы уже находитесь в предбоевой комнате. Хотите выйти и принять приглашение?</value>
+  </data>
+  <data name="leftPrebattleAndAcceptInvite/submit" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="leftPrebattleAndAcceptInvite/title" xml:space="preserve">
+    <value>Приглашение</value>
+  </data>
+  <data name="leftSquadAndAcceptInvite/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="leftSquadAndAcceptInvite/message" xml:space="preserve">
+    <value>Вы уже в составе взвода. Хотите покинуть взвод и принять приглашение?</value>
+  </data>
+  <data name="leftSquadAndAcceptInvite/submit" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="leftSquadAndAcceptInvite/title" xml:space="preserve">
+    <value>Приглашение</value>
+  </data>
+  <data name="leftTeamAndAcceptInvite/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="leftTeamAndAcceptInvite/message" xml:space="preserve">
+    <value>Вы уже в составе роты. Хотите покинуть роту и принять приглашение?</value>
+  </data>
+  <data name="leftTeamAndAcceptInvite/submit" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="leftTeamAndAcceptInvite/title" xml:space="preserve">
+    <value>Приглашение</value>
+  </data>
+  <data name="leftTrainingAndAcceptInvite/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="leftTrainingAndAcceptInvite/message" xml:space="preserve">
+    <value>Вы уже находитесь в комнате ожидания тренировочного боя. Хотите выйти из неё и принять приглашение?</value>
+  </data>
+  <data name="leftTrainingAndAcceptInvite/submit" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="leftTrainingAndAcceptInvite/title" xml:space="preserve">
+    <value>Приглашение</value>
+  </data>
+  <data name="lowAmmo/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="lowAmmo/message" xml:space="preserve">
+    <value>В боекомплекте выбранной машины недостаточно снарядов. Перед выходом в бой боекомплект будет пополнен автоматически.</value>
+  </data>
+  <data name="lowAmmo/submit" xml:space="preserve">
+    <value>Пополнить</value>
+  </data>
+  <data name="lowAmmo/title" xml:space="preserve">
+    <value>Автопополнение боекомплекта</value>
+  </data>
+  <data name="messenger/userInfoHidden/cancel" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="messenger/userInfoHidden/message" xml:space="preserve">
+    <value>Информация пользователя %(userName)s заблокирована.</value>
+  </data>
+  <data name="messenger/userInfoHidden/submit" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="messenger/userInfoHidden/title" xml:space="preserve">
+    <value>Информация заблокирована</value>
+  </data>
+  <data name="messenger/userInfoNotAvailable/cancel" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="messenger/userInfoNotAvailable/message" xml:space="preserve">
+    <value>Информация пользователя %(userName)s временно недоступна.</value>
+  </data>
+  <data name="messenger/userInfoNotAvailable/submit" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="messenger/userInfoNotAvailable/title" xml:space="preserve">
+    <value>Информация временно недоступна</value>
+  </data>
+  <data name="moneyTransfer/cancelBtn" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="moneyTransfer/labelClan" xml:space="preserve">
+    <value>Клан:</value>
+  </data>
+  <data name="moneyTransfer/labelClanCredits" xml:space="preserve">
+    <value>кредиты</value>
+  </data>
+  <data name="moneyTransfer/labelClanGold" xml:space="preserve">
+    <value>золото</value>
+  </data>
+  <data name="moneyTransfer/labelFeePrice" xml:space="preserve">
+    <value>Комиссия:</value>
+  </data>
+  <data name="moneyTransfer/labelGold" xml:space="preserve">
+    <value>Сумма перевода:</value>
+  </data>
+  <data name="moneyTransfer/labelNormal" xml:space="preserve">
+    <value>Обычный:</value>
+  </data>
+  <data name="moneyTransfer/labelNormalCredits" xml:space="preserve">
+    <value>кредиты</value>
+  </data>
+  <data name="moneyTransfer/labelNormalGold" xml:space="preserve">
+    <value>золото</value>
+  </data>
+  <data name="moneyTransfer/labelNotification" xml:space="preserve">
+    <value>За перевод взимается комиссия в размере &lt;font color='#D39337'&gt;%s%%&lt;/font&gt;, но не менее 1 &lt;img src='icon_gold' /&gt;</value>
+  </data>
+  <data name="moneyTransfer/labelTo" xml:space="preserve">
+    <value>Кому:</value>
+  </data>
+  <data name="moneyTransfer/labelTotalPrice" xml:space="preserve">
+    <value>Итого:</value>
+  </data>
+  <data name="moneyTransfer/not_a_clan" xml:space="preserve">
+    <value>(вне клана)</value>
+  </data>
+  <data name="moneyTransfer/submitBtn" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="moneyTransfer/title" xml:space="preserve">
+    <value>Перевод золота</value>
+  </data>
+  <data name="moneyTransferConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="moneyTransferConfirmation/message" xml:space="preserve">
+    <value>Перевести {gold} &lt;img src='icon_gold' /&gt; на счёт игрока {player}, комиссия при этом составит {fee} &lt;img src='icon_gold' /&gt; ?</value>
+  </data>
+  <data name="moneyTransferConfirmation/submit" xml:space="preserve">
+    <value>Перевести</value>
+  </data>
+  <data name="moneyTransferConfirmation/title" xml:space="preserve">
+    <value>Подтверждение перевода</value>
+  </data>
+  <data name="moneyTransferLink/set_password" xml:space="preserve">
+    <value>&lt;u&gt;&lt;a href="asfunction:_root.openRestoreFinPasswordWebPage"&gt;Установить финансовый пароль&lt;/a&gt;&lt;/u&gt;</value>
+  </data>
+  <data name="moneyTransferRestriction/cancel" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="moneyTransferRestriction/message" xml:space="preserve">
+    <value>Перевод золота запрещён. Причина: %s.</value>
+  </data>
+  <data name="moneyTransferRestriction/message_expiry" xml:space="preserve">
+    <value>Срок действия: %s.</value>
+  </data>
+  <data name="moneyTransferRestriction/submit" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="moneyTransferRestriction/title" xml:space="preserve">
+    <value>Перевод золота запрещён.</value>
+  </data>
+  <data name="postmortem/cancel" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="postmortem/message" xml:space="preserve">
+    <value>Машина уничтожена. Остаться на поле боя или выйти в Ангар?</value>
+  </data>
+  <data name="postmortem/submit" xml:space="preserve">
+    <value>Остаться</value>
+  </data>
+  <data name="postmortem/title" xml:space="preserve">
+    <value>Машина уничтожена</value>
+  </data>
+  <data name="quit/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="quit/message" xml:space="preserve">
+    <value>Выйти из игры?</value>
+  </data>
+  <data name="quit/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="quit/title" xml:space="preserve">
+    <value>Выход из игры</value>
+  </data>
+  <data name="quitBattle/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="quitBattle/message" xml:space="preserve">
+    <value>Покинуть бой?</value>
+  </data>
+  <data name="quitBattle/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="quitBattle/title" xml:space="preserve">
+    <value>Выход из боя</value>
+  </data>
+  <data name="quitPreBattle/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="quitPreBattle/message" xml:space="preserve">
+    <value>Вы хотите выйти из режима ожидания боя?</value>
+  </data>
+  <data name="quitPreBattle/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="quitPreBattle/title" xml:space="preserve">
+    <value>Выход из режима ожидания боя</value>
+  </data>
+  <data name="recruitWindow/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="recruitWindow/menuEmptyRow" xml:space="preserve">
+    <value>Не выбрано</value>
+  </data>
+  <data name="recruitWindow/nation" xml:space="preserve">
+    <value>Нация</value>
+  </data>
+  <data name="recruitWindow/nationDropdown/germany" xml:space="preserve">
+    <value>Германия</value>
+  </data>
+  <data name="recruitWindow/nationDropdown/usa" xml:space="preserve">
+    <value>США</value>
+  </data>
+  <data name="recruitWindow/nationDropdown/ussr" xml:space="preserve">
+    <value>СССР</value>
+  </data>
+  <data name="recruitWindow/specialization" xml:space="preserve">
+    <value>Специальность</value>
+  </data>
+  <data name="recruitWindow/submit" xml:space="preserve">
+    <value>Рекрутировать</value>
+  </data>
+  <data name="recruitWindow/title" xml:space="preserve">
+    <value>Рекрутирование члена экипажа</value>
+  </data>
+  <data name="recruitWindow/vehicleClass" xml:space="preserve">
+    <value>Тип техники</value>
+  </data>
+  <data name="recruitWindow/vehicleClassDropdown/AT-SPG" xml:space="preserve">
+    <value>ПТ-САУ</value>
+  </data>
+  <data name="recruitWindow/vehicleClassDropdown/SPG" xml:space="preserve">
+    <value>САУ</value>
+  </data>
+  <data name="recruitWindow/vehicleClassDropdown/all" xml:space="preserve">
+    <value>Вся техника</value>
+  </data>
+  <data name="recruitWindow/vehicleClassDropdown/heavyTank" xml:space="preserve">
+    <value>Тяжёлые танки</value>
+  </data>
+  <data name="recruitWindow/vehicleClassDropdown/lightTank" xml:space="preserve">
+    <value>Лёгкие танки</value>
+  </data>
+  <data name="recruitWindow/vehicleClassDropdown/mediumTank" xml:space="preserve">
+    <value>Средние танки</value>
+  </data>
+  <data name="recruitWindow/vehicleType" xml:space="preserve">
+    <value>Машина</value>
+  </data>
+  <data name="removeConfirmationNotRemovable/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="removeConfirmationNotRemovable/messageCombine" xml:space="preserve">
+    <value>При демонтаже оборудование "{%name}" будет &lt;font color="#FF0000"&gt;УНИЧТОЖЕНО&lt;/font&gt;. Продолжить?</value>
+  </data>
+  <data name="removeConfirmationNotRemovable/submit" xml:space="preserve">
+    <value>Уничтожить</value>
+  </data>
+  <data name="removeConfirmationNotRemovable/title" xml:space="preserve">
+    <value>Подтверждение демонтажа</value>
+  </data>
+  <data name="removeConfirmationNotRemovableGold/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="removeConfirmationNotRemovableGold/messageCombine" xml:space="preserve">
+    <value>Демонтировать оборудование "{%name}" и поместить его на Склад?</value>
+  </data>
+  <data name="removeConfirmationNotRemovableGold/submit" xml:space="preserve">
+    <value>Демонтировать</value>
+  </data>
+  <data name="removeConfirmationNotRemovableGold/title" xml:space="preserve">
+    <value>Подтверждение демонтажа</value>
+  </data>
+  <data name="removeIncompatibleEqs/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="removeIncompatibleEqs/customMessage" xml:space="preserve">
+    <value>Снаряжение '%s' будет отправлено на склад в связи с &lt;font color="#FF0000"&gt;несовместимостью&lt;/font&gt; с устанавливаемым модулем.</value>
+  </data>
+  <data name="removeIncompatibleEqs/submit" xml:space="preserve">
+    <value>Демонтировать</value>
+  </data>
+  <data name="removeIncompatibleEqs/title" xml:space="preserve">
+    <value>Подтверждение снятия</value>
+  </data>
+  <data name="replacePassportConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="replacePassportConfirmation/message" xml:space="preserve">
+    <value>Сменить документы члена экипажа за %(gold)s?</value>
+  </data>
+  <data name="replacePassportConfirmation/submit" xml:space="preserve">
+    <value>Сменить</value>
+  </data>
+  <data name="replacePassportConfirmation/title" xml:space="preserve">
+    <value>Смена документов</value>
+  </data>
+  <data name="replayNotification/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="replayNotification/message" xml:space="preserve">
+    <value>Данная версия World of Tanks не совпадает с версией, для которой записан бой. Могут возникнуть проблемы при воспроизведении. Игнорировать разницу в версиях и воспроизвести бой?</value>
+  </data>
+  <data name="replayNotification/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="replayNotification/title" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="retrainingWindow/submit" xml:space="preserve">
+    <value>Переобучить</value>
+  </data>
+  <data name="sandBox/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="sandBox/message" xml:space="preserve">
+    <value>Войти в песочницу?</value>
+  </data>
+  <data name="sandBox/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="sandBox/title" xml:space="preserve">
+    <value>Песочница</value>
+  </data>
+  <data name="sellConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="sellConfirmation/message" xml:space="preserve">
+    <value>Продать «%s» %d шт.?</value>
+  </data>
+  <data name="sellConfirmation/messageCombine" xml:space="preserve">
+    <value>Продать «{%name}» {%count} шт.?</value>
+  </data>
+  <data name="sellConfirmation/messageCombineDevices" xml:space="preserve">
+    <value>Оборудование установлено: %s шт.</value>
+  </data>
+  <data name="sellConfirmation/messageCombineEquipment" xml:space="preserve">
+    <value>Снаряжение установлено: %s шт.</value>
+  </data>
+  <data name="sellConfirmation/messageCombineQuestion" xml:space="preserve">
+    <value>Продать машину за %s %s?</value>
+  </data>
+  <data name="sellConfirmation/messageCombineTankmen" xml:space="preserve">
+    <value>Экипаж: %s.</value>
+  </data>
+  <data name="sellConfirmation/submit" xml:space="preserve">
+    <value>Продать</value>
+  </data>
+  <data name="sellConfirmation/title" xml:space="preserve">
+    <value>Продажа: %s</value>
+  </data>
+  <data name="sellModuleConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="sellModuleConfirmation/submit" xml:space="preserve">
+    <value>Продать</value>
+  </data>
+  <data name="sellModuleConfirmation/title" xml:space="preserve">
+    <value>Подтверждение продажи</value>
+  </data>
+  <data name="skillDropWindow/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="skillDropWindow/message" xml:space="preserve">
+    <value>После сброса дополнительной специальности %s основной специальностью члена экипажа будет %d%s. Продолжить?</value>
+  </data>
+  <data name="skillDropWindow/submit" xml:space="preserve">
+    <value>Сбросить</value>
+  </data>
+  <data name="skillDropWindow/title" xml:space="preserve">
+    <value>Подтверждение сброса умения</value>
+  </data>
+  <data name="squadHaveNotReadyPlayers/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="squadHaveNotReadyPlayers/message" xml:space="preserve">
+    <value>Оба игрока взвода не готовы. Выйти в бой неполным составом?</value>
+  </data>
+  <data name="squadHaveNotReadyPlayers/messageEx" xml:space="preserve">
+    <value>Не готовы к бою: %d из %d бойцов. Вы действительно хотите вступить в бой неполным составом?</value>
+  </data>
+  <data name="squadHaveNotReadyPlayers/submit" xml:space="preserve">
+    <value>В бой!</value>
+  </data>
+  <data name="squadHaveNotReadyPlayers/title" xml:space="preserve">
+    <value>Взвод не готов</value>
+  </data>
+  <data name="squadHavePlayersInBattle/cancel" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="squadHavePlayersInBattle/message" xml:space="preserve">
+    <value>Невозможно начать новый бой, не все бойцы вернулись. Дождитесь окончания текущего боя.</value>
+  </data>
+  <data name="squadHavePlayersInBattle/title" xml:space="preserve">
+    <value>Взвод не готов</value>
+  </data>
+  <data name="squadPremiumNeeded/cancel" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="squadPremiumNeeded/message" xml:space="preserve">
+    <value>Создание взводов доступно только игрокам с премиум аккаунтом.
+Игрок, создавший взвод, может пригласить любого игрока независимо от типа его аккаунта.</value>
+  </data>
+  <data name="squadPremiumNeeded/title" xml:space="preserve">
+    <value>Только для премиум аккаунта</value>
+  </data>
+  <data name="teamDoesNotHaveCommander/cancel" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="teamDoesNotHaveCommander/message" xml:space="preserve">
+    <value>Нельзя отправить роту в бой без командира.</value>
+  </data>
+  <data name="teamDoesNotHaveCommander/title" xml:space="preserve">
+    <value>Рота не готова</value>
+  </data>
+  <data name="teamHaveNotReadyPlayers/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="teamHaveNotReadyPlayers/message" xml:space="preserve">
+    <value>Игроки, готовые к бою: %(readyCount)d. Вы действительно хотите пойти в бой неполным составом?</value>
+  </data>
+  <data name="teamHaveNotReadyPlayers/messageEx" xml:space="preserve">
+    <value>Игроки, готовые к бою: %d. Вы действительно хотите вступить в бой неполным составом?</value>
+  </data>
+  <data name="teamHaveNotReadyPlayers/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="teamHaveNotReadyPlayers/title" xml:space="preserve">
+    <value>Рота не готова</value>
+  </data>
+  <data name="teamLevelLimitation/cancel" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="teamLevelLimitation/message" xml:space="preserve">
+    <value>teamLevelLimitation/message</value>
+  </data>
+  <data name="teamLevelLimitation/messageEx" xml:space="preserve">
+    <value>К бою допускаются только роты с суммарным уровнем от %(min)d до %(max)d.</value>
+  </data>
+  <data name="teamLevelLimitation/title" xml:space="preserve">
+    <value>Не подходит по уровню</value>
+  </data>
+  <data name="teamPremiumNeeded/cancel" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="teamPremiumNeeded/message" xml:space="preserve">
+    <value>Создание роты доступно только игрокам с премиум аккаунтом.
+Игрок, создавший роту, может пригласить любого игрока независимо от типа его аккаунта.</value>
+  </data>
+  <data name="teamPremiumNeeded/title" xml:space="preserve">
+    <value>Только для премиум аккаунта</value>
+  </data>
+  <data name="technicalMaintenanceConfirm/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="technicalMaintenanceConfirm/msg_order_change" xml:space="preserve">
+    <value>Поменять снаряжение местами?</value>
+  </data>
+  <data name="technicalMaintenanceConfirm/msg_populate" xml:space="preserve">
+    <value>Пополнить снаряжение?</value>
+  </data>
+  <data name="technicalMaintenanceConfirm/msg_repair" xml:space="preserve">
+    <value>Отремонтировать машину?</value>
+  </data>
+  <data name="technicalMaintenanceConfirm/msg_repair_order_change" xml:space="preserve">
+    <value>Отремонтировать машину и поменять снаряжение местами?</value>
+  </data>
+  <data name="technicalMaintenanceConfirm/msg_repair_populate" xml:space="preserve">
+    <value>Отремонтировать машину и пополнить снаряжение?</value>
+  </data>
+  <data name="technicalMaintenanceConfirm/msg_repair_unload" xml:space="preserve">
+    <value>Отремонтировать машину и выгрузить снаряжение?</value>
+  </data>
+  <data name="technicalMaintenanceConfirm/msg_unload" xml:space="preserve">
+    <value>Выгрузить снаряжение?</value>
+  </data>
+  <data name="technicalMaintenanceConfirm/submit" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="technicalMaintenanceConfirm/title" xml:space="preserve">
+    <value>Подтверждение покупки</value>
+  </data>
+  <data name="updateNeeded/cancel" xml:space="preserve">
+    <value>Отложить</value>
+  </data>
+  <data name="updateNeeded/message" xml:space="preserve">
+    <value>Требуется обновление приложения.</value>
+  </data>
+  <data name="updateNeeded/submit" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="updateNeeded/title" xml:space="preserve">
+    <value>Требуется обновление</value>
+  </data>
+  <data name="upgradeTankmanAcademyConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="upgradeTankmanAcademyConfirmation/messageCombine" xml:space="preserve">
+    <value>Обучить члена экипажа за {%d} золота?</value>
+  </data>
+  <data name="upgradeTankmanAcademyConfirmation/submit" xml:space="preserve">
+    <value>Обучить</value>
+  </data>
+  <data name="upgradeTankmanAcademyConfirmation/title" xml:space="preserve">
+    <value>Подтверждение обучения</value>
+  </data>
+  <data name="upgradeTankmanAcademyNotEnoughMoney/cancel" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="upgradeTankmanAcademyNotEnoughMoney/message" xml:space="preserve">
+    <value>Недостаточно золота для обучения члена экипажа.</value>
+  </data>
+  <data name="upgradeTankmanAcademyNotEnoughMoney/submit" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="upgradeTankmanAcademyNotEnoughMoney/title" xml:space="preserve">
+    <value>Недостаточно золота</value>
+  </data>
+  <data name="upgradeTankmanScoolConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="upgradeTankmanScoolConfirmation/messageCombine" xml:space="preserve">
+    <value>Обучить члена экипажа за {%d} кредитов?</value>
+  </data>
+  <data name="upgradeTankmanScoolConfirmation/submit" xml:space="preserve">
+    <value>Обучить</value>
+  </data>
+  <data name="upgradeTankmanScoolConfirmation/title" xml:space="preserve">
+    <value>Подтверждение обучения</value>
+  </data>
+  <data name="upgradeTankmanScoolNotEnoughMoney/cancel" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="upgradeTankmanScoolNotEnoughMoney/message" xml:space="preserve">
+    <value>Недостаточно кредитов для обучения члена экипажа.</value>
+  </data>
+  <data name="upgradeTankmanScoolNotEnoughMoney/submit" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="upgradeTankmanScoolNotEnoughMoney/title" xml:space="preserve">
+    <value>Недостаточно кредитов.</value>
+  </data>
+  <data name="vehicleComponents/confirmBuyAndInstall/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="vehicleComponents/confirmBuyAndInstall/conflictedEqs" xml:space="preserve">
+    <value>Снаряжение '%s' будет отправлено на Склад в связи с &lt;font color="#FF0000"&gt;несовместимостью&lt;/font&gt; с устанавливаемым модулем.</value>
+  </data>
+  <data name="vehicleComponents/confirmBuyAndInstall/message" xml:space="preserve">
+    <value>Купить и установить "%(type)s %(name)s" на танк за %(price)s &lt;img src='icon_credits' /&gt; ?%(conflictedEqs)s</value>
+  </data>
+  <data name="vehicleComponents/confirmBuyAndInstall/submit" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="vehicleComponents/confirmBuyAndInstall/title" xml:space="preserve">
+    <value>Подтверждение покупки</value>
+  </data>
+  <data name="vehicleComponents/confirmUnlock/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="vehicleComponents/confirmUnlock/message" xml:space="preserve">
+    <value>Вы действительно хотите исследовать %s %s за %s опыта?</value>
+  </data>
+  <data name="vehicleComponents/confirmUnlock/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="vehicleComponents/confirmUnlock/title" xml:space="preserve">
+    <value>Подтверждение исследования</value>
+  </data>
+  <data name="vehicleSell/unique/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="vehicleSell/unique/message" xml:space="preserve">
+    <value>Внимание! Это специальная машина, и вы не сможете снова купить её в Магазине. Подтвердить продажу?</value>
+  </data>
+  <data name="vehicleSell/unique/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="vehicleSell/unique/title" xml:space="preserve">
+    <value>Подтверждение продажи</value>
+  </data>
+  <data name="vehicleSellDialog/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="vehicleSellDialog/content/equipmentsBox" xml:space="preserve">
+    <value>Демонтировать сложное оборудование</value>
+  </data>
+  <data name="vehicleSellDialog/content/equipmentsField" xml:space="preserve">
+    <value>Снаряжение установлено: &lt;font color='#d30100'&gt;%d шт.&lt;/font&gt;</value>
+  </data>
+  <data name="vehicleSellDialog/content/shellsField" xml:space="preserve">
+    <value>Снарядов установлено: &lt;font color='#d30100'&gt;%d шт&lt;/font&gt;</value>
+  </data>
+  <data name="vehicleSellDialog/content/tankmenBox" xml:space="preserve">
+    <value>Высадить экипаж и снять оборудование</value>
+  </data>
+  <data name="vehicleSellDialog/content/tankmenField" xml:space="preserve">
+    <value>Экипаж: &lt;font color='#d30100'&gt;%d&lt;/font&gt;</value>
+  </data>
+  <data name="vehicleSellDialog/content/totalFieldGive" xml:space="preserve">
+    <value>Потрачено:</value>
+  </data>
+  <data name="vehicleSellDialog/content/totalFieldTake" xml:space="preserve">
+    <value>Получено:</value>
+  </data>
+  <data name="vehicleSellDialog/message" xml:space="preserve">
+    <value>vehicleSellDialog/message</value>
+  </data>
+  <data name="vehicleSellDialog/submit" xml:space="preserve">
+    <value>Продать</value>
+  </data>
+  <data name="vehicleSellDialog/title" xml:space="preserve">
+    <value>Продажа %(name)s</value>
+  </data>
+  <data name="voiceChatInitFailed/cancel" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="voiceChatInitFailed/message" xml:space="preserve">
+    <value>Ошибка инициализации голосовой связи. Возможно, инициализация была заблокирована вашим фаерволом.</value>
+  </data>
+  <data name="voiceChatInitFailed/title" xml:space="preserve">
+    <value>Инициализация голосовой связи</value>
+  </data>
+  <data name="voiceChatInitSucceded/cancel" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="voiceChatInitSucceded/message" xml:space="preserve">
+    <value>Голосовая связь проинициализирована успешно.</value>
+  </data>
+  <data name="voiceChatInitSucceded/title" xml:space="preserve">
+    <value>Инициализация голосовой связи</value>
+  </data>
+  <data name="waterQualityNotPossible/cancel" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="waterQualityNotPossible/message" xml:space="preserve">
+    <value>Высокое качество воды доступно только при включённой доп. постобработке.</value>
+  </data>
+  <data name="waterQualityNotPossible/title" xml:space="preserve">
+    <value>Качество воды недоступно</value>
+  </data>
+  <data name="xpToTmenCheckbox/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="xpToTmenCheckbox/message" xml:space="preserve">
+    <value>Использовать весь заработанный на этой машине опыт для обучения экипажа. Наименее опытный член экипажа будет обучаться в два раза быстрее. Чтобы снова начать накапливать опыт, отключите «Ускоренное обучение экипажа».</value>
+  </data>
+  <data name="xpToTmenCheckbox/submit" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="xpToTmenCheckbox/title" xml:space="preserve">
+    <value>Ускоренное обучение экипажа</value>
+  </data>
+  <data name="replayStopped/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="replayStopped/message" xml:space="preserve">
+    <value>Воспроизведение записи боя завершено. Нажмите «Закончить», чтобы закрыть клиент.</value>
+  </data>
+  <data name="replayStopped/title" xml:space="preserve">
+    <value>Воспроизведение записи боя завершено</value>
+  </data>
+  <data name="premiumBuyConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="premiumBuyConfirmation/message" xml:space="preserve">
+    <value>Купить премиум аккаунт на %(days)s д. за %(gold)s золота?</value>
+  </data>
+  <data name="premiumBuyConfirmation/submit" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="premiumBuyConfirmation/title" xml:space="preserve">
+    <value>Подтверждение покупки</value>
+  </data>
+  <data name="premiumContinueConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="premiumContinueConfirmation/message" xml:space="preserve">
+    <value>Продлить премиум аккаунт на %(days)s д. за %(gold)s?</value>
+  </data>
+  <data name="premiumContinueConfirmation/submit" xml:space="preserve">
+    <value>Продлить</value>
+  </data>
+  <data name="premiumContinueConfirmation/title" xml:space="preserve">
+    <value>Подтверждение продления</value>
+  </data>
+  <data name="refuseTraining/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="refuseTraining/message" xml:space="preserve">
+    <value>Прервать обучение?</value>
+  </data>
+  <data name="refuseTraining/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="refuseTraining/title" xml:space="preserve">
+    <value>Подтверждение</value>
+  </data>
+  <data name="removeConfirmationNotRemovableGold/messagePrice" xml:space="preserve">
+    <value>Стоимость операции:</value>
+  </data>
+  <data name="addSkillWindow/label/common" xml:space="preserve">
+    <value>общие</value>
+  </data>
+  <data name="createAnAccount/message" xml:space="preserve">
+    <value>Выберите ваше имя в игре</value>
+  </data>
+  <data name="createAnAccount/note" xml:space="preserve">
+    <value>Используйте латинские буквы и цифры</value>
+  </data>
+  <data name="createAnAccount/submit" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="createAnAccount/title" xml:space="preserve">
+    <value>Добро пожаловать в World of Tanks!</value>
+  </data>
+  <data name="exchangeGoldConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="exchangeGoldConfirmation/message" xml:space="preserve">
+    <value>Обменять %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s на %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s?</value>
+  </data>
+  <data name="exchangeGoldConfirmation/submit" xml:space="preserve">
+    <value>Обменять</value>
+  </data>
+  <data name="exchangeGoldConfirmation/title" xml:space="preserve">
+    <value>Обмен золота</value>
+  </data>
+  <data name="gatheringXPForm/selectAllLabel" xml:space="preserve">
+    <value>Вся техника</value>
+  </data>
+  <data name="gatheringXPForm/toChangeLabel" xml:space="preserve">
+    <value>Перевести опыта:</value>
+  </data>
+  <data name="gatheringXPForm/totalLabel" xml:space="preserve">
+    <value>К оплате:</value>
+  </data>
+  <data name="eula/p1" xml:space="preserve">
+    <value>Пожалуйста, ознакомьтесь с условиями &lt;BR/&gt;&lt;A HREF='event:%(eulaURL)s'&gt;&lt;U&gt;Лицензионного соглашения&lt;/U&gt;&lt;/A&gt;, прежде чем продолжить.</value>
+  </data>
+  <data name="eula/p2" xml:space="preserve">
+    <value>НАЖИМАЯ КНОПКУ «ПРИНИМАЮ», ВЫ ПОДТВЕРЖДАЕТЕ, ЧТО ВНИМАТЕЛЬНО ПРОЧИТАЛИ, ПОНЯЛИ И ПОЛНОСТЬЮ СОГЛАСНЫ С УСЛОВИЯМИ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ, ОБЯЗУЕТЕСЬ ИХ СОБЛЮДАТЬ И НЕСТИ ОТВЕТСТВЕННОСТЬ ЗА ИХ НАРУШЕНИЕ. УСЛОВИЯ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ И ДОПОЛНЕНИЙ К НЕМУ ЯВЛЯЮТСЯ СУЩЕСТВЕННЫМИ И ОБЯЗАТЕЛЬНЫМИ ДЛЯ ВСЕХ УЧАСТНИКОВ ПРОЕКТА.</value>
+  </data>
+  <data name="confirmBuyAndInstall/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="confirmBuyAndInstall/conflictedEqs" xml:space="preserve">
+    <value>Снаряжение «%(eqs)s» %(color_tag_open)sнесовместимо%(color_tag_close)s с устанавливаемым модулем и будет отправлено на Склад.</value>
+  </data>
+  <data name="confirmBuyAndInstall/message" xml:space="preserve">
+    <value>Купить и установить «%(typeString)s %(userString)s» на машину за %(color_tag_open)s%(value)s%(color_tag_close)s</value>
+  </data>
+  <data name="confirmBuyAndInstall/submit" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="confirmBuyAndInstall/title" xml:space="preserve">
+    <value>Подтверждение покупки</value>
+  </data>
+  <data name="confirmUnlock/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="confirmUnlock/message" xml:space="preserve">
+    <value>Исследовать %(typeString)s %(userString)s за %(xpCost)s</value>
+  </data>
+  <data name="confirmUnlock/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="confirmUnlock/title" xml:space="preserve">
+    <value>Подтверждение исследования</value>
+  </data>
+  <data name="customization/emblemLeftDrop/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/emblemLeftDrop/message" xml:space="preserve">
+    <value>Удалить текущую эмблему 1?</value>
+  </data>
+  <data name="customization/emblemLeftDrop/submit" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="customization/emblemLeftDrop/title" xml:space="preserve">
+    <value>Эмблема 1</value>
+  </data>
+  <data name="customization/emblemRightDrop/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/emblemRightDrop/message" xml:space="preserve">
+    <value>Удалить текущую эмблему 2?</value>
+  </data>
+  <data name="customization/emblemRightDrop/submit" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="customization/emblemRightDrop/title" xml:space="preserve">
+    <value>Эмблема 2</value>
+  </data>
+  <data name="customization/inscriptionLeftDrop/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/inscriptionLeftDrop/message" xml:space="preserve">
+    <value>Удалить текущую надпись 1?</value>
+  </data>
+  <data name="customization/inscriptionLeftDrop/submit" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="customization/inscriptionLeftDrop/title" xml:space="preserve">
+    <value>Надпись 1</value>
+  </data>
+  <data name="customization/inscriptionRightDrop/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/inscriptionRightDrop/message" xml:space="preserve">
+    <value>Удалить текущую надпись 2?</value>
+  </data>
+  <data name="customization/inscriptionRightDrop/submit" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="customization/inscriptionRightDrop/title" xml:space="preserve">
+    <value>Надпись 2</value>
+  </data>
+  <data name="gatheringXPForm/sortBy/vehicle" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="gatheringXPForm/sortBy/xp" xml:space="preserve">
+    <value>Опыт</value>
+  </data>
+  <data name="gatheringXPForm/totalXP" xml:space="preserve">
+    <value>Всего:</value>
+  </data>
+  <data name="resetGraphics/cancel" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="resetGraphics/message" xml:space="preserve">
+    <value>&lt;font color='#ff0000'&gt;Внимание!&lt;/font&gt; Автоматически установлены графические настройки, которые обеспечивают оптимальное качество изображения.
+Если нужно увеличить быстродействие, выберите более низкое качество графики в «Настройках».</value>
+  </data>
+  <data name="resetGraphics/submit" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="resetGraphics/title" xml:space="preserve">
+    <value>Изменение графических настроек</value>
+  </data>
+  <data name="confirmModuleDialog/countLabel1" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="confirmModuleDialog/inventory/totalLabel1" xml:space="preserve">
+    <value>Итого</value>
+  </data>
+  <data name="confirmModuleDialog/priceLabel1" xml:space="preserve">
+    <value>Стоимость</value>
+  </data>
+  <data name="confirmModuleDialog/rezultLabel1" xml:space="preserve">
+    <value>Итого:</value>
+  </data>
+  <data name="confirmModuleDialog/shop/totalLabel1" xml:space="preserve">
+    <value>Итого</value>
+  </data>
+  <data name="koreaParentNotification/cancel" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="koreaParentNotification/message" xml:space="preserve">
+    <value>Для предотвращения возникновения игровой зависимости у несовершеннолетних пользователей выход в бой после %(preBlockTime)s запрещён. В %(blockTime)s вы будете отключены от сервера.</value>
+  </data>
+  <data name="koreaParentNotification/submit" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="koreaParentNotification/title" xml:space="preserve">
+    <value>Родительский контроль</value>
+  </data>
+  <data name="koreaPlayTimeNotification/cancel" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="koreaPlayTimeNotification/message" xml:space="preserve">
+    <value>Ваше игровое время заканчивается. Нельзя начать новый бой.</value>
+  </data>
+  <data name="koreaPlayTimeNotification/submit" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="koreaPlayTimeNotification/title" xml:space="preserve">
+    <value>Истечение игрового времени</value>
+  </data>
+  <data name="recruitWindow/nations/no_vehicle" xml:space="preserve">
+    <value>Нет вариантов</value>
+  </data>
+  <data name="shopSyncError/cancel" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="shopSyncError/message" xml:space="preserve">
+    <value>Обновите клиент. В случае повторной ошибки обновите сервер.</value>
+  </data>
+  <data name="shopSyncError/title" xml:space="preserve">
+    <value>Рассинхронизация</value>
+  </data>
+  <data name="vehicleSellDialog/ammo/label" xml:space="preserve">
+    <value>БОЕКОМПЛЕКТ:</value>
+  </data>
+  <data name="vehicleSellDialog/complexOptionalDevice" xml:space="preserve">
+    <value>СЛОЖНОЕ ОБОРУДОВАНИЕ:</value>
+  </data>
+  <data name="vehicleSellDialog/count" xml:space="preserve">
+    <value>ед.</value>
+  </data>
+  <data name="vehicleSellDialog/crew/Dissmiss" xml:space="preserve">
+    <value>Демобилизовать</value>
+  </data>
+  <data name="vehicleSellDialog/crew/Unload" xml:space="preserve">
+    <value>В Казарму</value>
+  </data>
+  <data name="vehicleSellDialog/equipment" xml:space="preserve">
+    <value>СНАРЯЖЕНИЕ:</value>
+  </data>
+  <data name="vehicleSellDialog/inventory" xml:space="preserve">
+    <value>СКЛАД:</value>
+  </data>
+  <data name="vehicleSellDialog/loss" xml:space="preserve">
+    <value>Потрачено:</value>
+  </data>
+  <data name="vehicleSellDialog/notInstalled/modules" xml:space="preserve">
+    <value>Модули</value>
+  </data>
+  <data name="vehicleSellDialog/optionalDevice" xml:space="preserve">
+    <value>ОБОРУДОВАНИЕ:</value>
+  </data>
+  <data name="vehicleSellDialog/proffit" xml:space="preserve">
+    <value>Получено:</value>
+  </data>
+  <data name="vehicleSellDialog/unload" xml:space="preserve">
+    <value>На Склад</value>
+  </data>
+  <data name="vehicleSellDialog/vehicle/elite" xml:space="preserve">
+    <value>Элитный</value>
+  </data>
+  <data name="vehicleSellDialog/vehicle/emptySellPrice" xml:space="preserve">
+    <value>Стоимость</value>
+  </data>
+  <data name="vehicleSellDialog/vehicle/level" xml:space="preserve">
+    <value>Уровень</value>
+  </data>
+  <data name="vehicleSellDialog/vehicleType/AT-SPG" xml:space="preserve">
+    <value>ПТ-САУ</value>
+  </data>
+  <data name="vehicleSellDialog/vehicleType/SPG" xml:space="preserve">
+    <value>САУ</value>
+  </data>
+  <data name="vehicleSellDialog/vehicleType/heavyTank" xml:space="preserve">
+    <value>Тяжёлый танк</value>
+  </data>
+  <data name="vehicleSellDialog/vehicleType/lightTank" xml:space="preserve">
+    <value>Лёгкий танк</value>
+  </data>
+  <data name="vehicleSellDialog/vehicleType/mediumTank" xml:space="preserve">
+    <value>Средний танк</value>
+  </data>
+  <data name="vehicleSellDialog/сommonResult" xml:space="preserve">
+    <value>ОБЩИЙ ИТОГ:</value>
+  </data>
+  <data name="tankmanRetraining/unknownVehicle/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="tankmanRetraining/unknownVehicle/message" xml:space="preserve">
+    <value>%(tankname)s отсутствует в Ангаре. Переобучить члена экипажа?</value>
+  </data>
+  <data name="tankmanRetraining/unknownVehicle/submit" xml:space="preserve">
+    <value>Переобучить</value>
+  </data>
+  <data name="tankmanRetraining/unknownVehicle/title" xml:space="preserve">
+    <value>Подтверждение переобучения</value>
+  </data>
+  <data name="controlsWrongNotificationsoundModeInvalid/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="controlsWrongNotificationsoundModeInvalid/message" xml:space="preserve">
+    <value>Файлы выбранного голоса уведомлений повреждены или отсутствуют, будет назначен голос уведомлений по умолчанию.
+Некоторым действиям не назначены клавиши. Сохранить настройки?</value>
+  </data>
+  <data name="controlsWrongNotificationsoundModeInvalid/submit" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="controlsWrongNotificationsoundModeInvalid/title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="loginWarningConfirm/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="loginWarningConfirm/submit" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="loginWarningConfirm/title" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="loginWarningInfo/cancel" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="loginWarningInfo/submit" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="loginWarningInfo/title" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="soundModeInvalid/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="soundModeInvalid/message" xml:space="preserve">
+    <value>Файлы выбранного голоса уведомлений повреждены или отсутствуют, будет назначен голос уведомлений по умолчанию.</value>
+  </data>
+  <data name="soundModeInvalid/submit" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="soundModeInvalid/title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="vehicleSellDialog/commonResult" xml:space="preserve">
+    <value>ОБЩИЙ ИТОГ:</value>
+  </data>
+  <data name="buySlotConfirmation/message" xml:space="preserve">
+    <value>Купить дополнительный слот в Ангаре за %(goldCost)s?</value>
+  </data>
+  <data name="common/confirm/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="common/confirm/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="common/error/cancel" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="confirmUnlock/item/message" xml:space="preserve">
+    <value>Вы действительно хотите исследовать %(typeString)s %(userString)s за %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (из них %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?</value>
+  </data>
+  <data name="confirmUnlock/vehicle/message" xml:space="preserve">
+    <value>Исследовать %(userString)s за %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (из них %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?</value>
+  </data>
+  <data name="cyberSport/closeConfirmation/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="cyberSport/closeConfirmation/message" xml:space="preserve">
+    <value>Вы дейcтвительно хотите выйти из режима «Командный бой»?</value>
+  </data>
+  <data name="cyberSport/closeConfirmation/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="cyberSport/closeConfirmation/title" xml:space="preserve">
+    <value>Выйти из режима</value>
+  </data>
+  <data name="exchangeXpWindow/error/noEliteVehicleInHangar" xml:space="preserve">
+    <value>Нет боевого опыта для перевода</value>
+  </data>
+  <data name="exchangeXpWindow/error/noVehiclesWithXp" xml:space="preserve">
+    <value>Нет боевого опыта для перевода</value>
+  </data>
+  <data name="freeVehicleLeftLimit/submit" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="gatheringXPForm/afterOperation" xml:space="preserve">
+    <value>После перевода:</value>
+  </data>
+  <data name="gatheringXPForm/beforeOperation" xml:space="preserve">
+    <value>До перевода:</value>
+  </data>
+  <data name="gatheringXPForm/currentAmount" xml:space="preserve">
+    <value>К переводу:</value>
+  </data>
+  <data name="gatheringXPForm/sortBy/selection/body" xml:space="preserve">
+    <value>Сортировать по выбранной технике.</value>
+  </data>
+  <data name="gatheringXPForm/sortBy/selection/header" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="gatheringXPForm/sortBy/vehicle/body" xml:space="preserve">
+    <value>Сортировать по названию техники.</value>
+  </data>
+  <data name="gatheringXPForm/sortBy/vehicle/header" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="gatheringXPForm/sortBy/xp/body" xml:space="preserve">
+    <value>Сортировать по количеству полученного опыта.</value>
+  </data>
+  <data name="gatheringXPForm/sortBy/xp/header" xml:space="preserve">
+    <value>Опыт</value>
+  </data>
+  <data name="installConfirmationNotRemovable/message" xml:space="preserve">
+    <value>&lt;font color="#FF0000"&gt;Сложное&lt;/font&gt; оборудование "%(name)s". В случае обычного демонтажа (например, замены на другое оборудование) будет &lt;font color="#FF0000"&gt;УНИЧТОЖЕНО&lt;/font&gt;. Может быть безопасно демонтировано и помещено на Склад за золото. Продолжить установку?</value>
+  </data>
+  <data name="protectedDismissTankman/additionalMessage" xml:space="preserve">
+    <value>Для совершения операции введите уровень %(skillType)s "%(skillName)s" (%(roleLevel)s)</value>
+  </data>
+  <data name="protectedDismissTankman/additionalMessage/isAbillity" xml:space="preserve">
+    <value>умения</value>
+  </data>
+  <data name="protectedDismissTankman/additionalMessage/isPerk" xml:space="preserve">
+    <value>навыка</value>
+  </data>
+  <data name="protectedDismissTankman/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="protectedDismissTankman/errorMessage" xml:space="preserve">
+    <value>Вы ввели неправильную информацию!</value>
+  </data>
+  <data name="protectedDismissTankman/mainMessage" xml:space="preserve">
+    <value>Для совершения операции введите уровень изучения основной специальности (%(roleLevel)s)</value>
+  </data>
+  <data name="protectedDismissTankman/message" xml:space="preserve">
+    <value>ПОДТВЕРЖДЕНИЕ ДЕМОБИЛИЗАЦИИ</value>
+  </data>
+  <data name="protectedDismissTankman/submit" xml:space="preserve">
+    <value>Демобилизовать</value>
+  </data>
+  <data name="protectedDismissTankman/title" xml:space="preserve">
+    <value>Демобилизация члена экипажа</value>
+  </data>
+  <data name="removeConfirmationNotRemovable/message" xml:space="preserve">
+    <value>При демонтаже оборудование «%(name)s» будет &lt;font color="#FF0000"&gt;УНИЧТОЖЕНО&lt;/font&gt;. Продолжить?</value>
+  </data>
+  <data name="removeConfirmationNotRemovableGold/message" xml:space="preserve">
+    <value>Демонтировать оборудование «%(name)s» и поместить его на Cклад?</value>
+  </data>
+  <data name="removeIncompatibleEqs/message" xml:space="preserve">
+    <value>Снаряжение "%(name)s" будет отправлено на Склад в связи с &lt;font color="#FF0000"&gt;несовместимостью&lt;/font&gt; с устанавливаемым модулем.</value>
+  </data>
+  <data name="sendInvites/company/title" xml:space="preserve">
+    <value>Пригласить в роту</value>
+  </data>
+  <data name="sendInvites/perbattle/title" xml:space="preserve">
+    <value>Выслать приглашения</value>
+  </data>
+  <data name="sendInvites/squad/title" xml:space="preserve">
+    <value>Пригласить во взвод</value>
+  </data>
+  <data name="sendInvites/training/title" xml:space="preserve">
+    <value>Выслать приглашения</value>
+  </data>
+  <data name="technicalMaintenanceConfirm/message" xml:space="preserve">
+    <value>%(content)s</value>
+  </data>
+  <data name="vehicleSellDialog/CtrlQuestion/Header" xml:space="preserve">
+    <value>ПОДТВЕРЖДЕНИЕ ПРОДАЖИ</value>
+  </data>
+  <data name="vehicleSellDialog/CtrlQuestion/Question" xml:space="preserve">
+    <value>Для подтверждения введите стоимость продажи из графы «ОБЩИЙ ИТОГ» (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)</value>
+  </data>
+  <data name="vehicleSellDialog/CtrlQuestion/errorMessage" xml:space="preserve">
+    <value>Вы ввели неправильную информацию!</value>
+  </data>
+  <data name="buyVehicleDialog/warning" xml:space="preserve">
+    <value>Нажав «Купить», вы не сможете перевести приобретённое оборудование и снаряжение в золото. Пожалуйста, проверьте всё внимательно.</value>
+  </data>
+  <data name="changePeriphery/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="changePeriphery/message" xml:space="preserve">
+    <value>Вы действительно хотите перейти на другой сервер?</value>
+  </data>
+  <data name="changePeriphery/submit" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="changePeriphery/title" xml:space="preserve">
+    <value>Подтверждение перехода</value>
+  </data>
+  <data name="changeRoamingPeriphery/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="changeRoamingPeriphery/message" xml:space="preserve">
+    <value>Вы действительно хотите перейти на иностранный сервер?
+
+При смене региона действуют следующие ограничения:
+	• недоступна некоторая техника;
+	• не отображаются эмблемы и надписи;
+	• недоступны «Боевые задачи», личные резервы и режим «Учебный бой».
+
+Возможны ошибки и проблемы с качеством соединения. Пожалуйста, уважительно относитесь к игрокам других регионов.</value>
+  </data>
+  <data name="changeRoamingPeriphery/submit" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="changeRoamingPeriphery/title" xml:space="preserve">
+    <value>Подтверждение перехода</value>
+  </data>
+  <data name="cyberSport/autoSearch/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="cyberSport/autoSearch/message" xml:space="preserve">
+    <value>Хотите запустить автопоиск для свободных слотов?</value>
+  </data>
+  <data name="cyberSport/autoSearch/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="cyberSport/autoSearch/title" xml:space="preserve">
+    <value>Автопоиск</value>
+  </data>
+  <data name="cyberSport/leaveUnit/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="cyberSport/leaveUnit/message" xml:space="preserve">
+    <value>Вы дейcтвительно хотите покинуть команду?</value>
+  </data>
+  <data name="cyberSport/leaveUnit/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="cyberSport/leaveUnit/title" xml:space="preserve">
+    <value>Покинуть команду</value>
+  </data>
+  <data name="cyberSport/leaveUnitDisabled/cancel" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="cyberSport/leaveUnitDisabled/message" xml:space="preserve">
+    <value>Выйти из режима невозможно. Вы в основном составе и готовы к бою.</value>
+  </data>
+  <data name="cyberSport/leaveUnitDisabled/title" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="cyberSport/startBattle/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="cyberSport/startBattle/message" xml:space="preserve">
+    <value>Хотите запустить поиск противника?</value>
+  </data>
+  <data name="cyberSport/startBattle/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="cyberSport/startBattle/title" xml:space="preserve">
+    <value>Поиск противника…</value>
+  </data>
+  <data name="sendInvites/prebattle/title" xml:space="preserve">
+    <value>Выслать приглашения</value>
+  </data>
+  <data name="sendInvites/unit/title" xml:space="preserve">
+    <value>Пригласить в команду</value>
+  </data>
+  <data name="cyberSport/changePeriphery/cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="cyberSport/changePeriphery/message" xml:space="preserve">
+    <value>Вы будете автоматически перемещены на другой сервер (%(host)s). Продолжить?</value>
+  </data>
+  <data name="cyberSport/changePeriphery/submit" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="cyberSport/changePeriphery/title" xml:space="preserve">
+    <value>Переход на другой сервер</value>
+  </data>
+  <data name="freeXPInfo/message" xml:space="preserve">
+    <value>%(orangeText_open)sОпыт%(orangeText_close)s%(simpleText_open)s — игровой ресурс, зарабатываемый в боях.
+
+Включает в себя:%(simpleText_close)s
+%(xpIcon)s%(orangeText_open)sБоевой опыт%(orangeText_close)s%(simpleText_open)s используется для изучения новых модулей определённой машины и дальнейшего развития в том проекте игровой вселенной Wargaming, в котором он был заработан.%(simpleText_close)s
+
+%(freeXPIcon)s%(orangeText_open)sСвободный опыт%(orangeText_close)s%(simpleText_open)s используется для изучения доступных модулей и техники в любом из проектов игровой вселенной Wargaming. Использование свободного опыта в одном из проектов отразится на его суммарном количестве во всех проектах. Расходуйте свободный опыт рационально.%(simpleText_close)s</value>
+  </data>
+  <data name="freeXPInfo/submitBtnLbl" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="freeXPInfo/title" xml:space="preserve">
+    <value>Опыт в игре</value>
+  </data>
+  <data name="quitBattleIGR/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="quitBattleIGR/message" xml:space="preserve">
+    <value>Warning! Your tank is still alive. If you leave the game now you won't get perks and won't be able to come back to this battle. Are you sure you want to quit?</value>
+  </data>
+  <data name="quitBattleIGR/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="quitBattleIGR/title" xml:space="preserve">
+    <value>Выход из боя</value>
+  </data>
+  <data name="customization/changeConfirmation/buy" xml:space="preserve">
+    <value>покупки</value>
+  </data>
+  <data name="customization/changeConfirmation/change" xml:space="preserve">
+    <value>замены</value>
+  </data>
+  <data name="changeGraphics/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="changeGraphics/message" xml:space="preserve">
+    <value>&lt;font color='#ff0000'&gt;Внимание!&lt;/font&gt; В данном обновлении графика была существенно переработана. Вы можете автоопределить настройки графики или же отменить автоопределение и поменять их вручную.</value>
+  </data>
+  <data name="changeGraphics/submit" xml:space="preserve">
+    <value>Автоопределить</value>
+  </data>
+  <data name="changeGraphics/title" xml:space="preserve">
+    <value>Автоопределение настроек графики</value>
+  </data>
+  <data name="exitCurrentPrebattle/customMessage/HISTORICAL" xml:space="preserve">
+    <value>Вы уже находитесь в Историческом бою. Выйти из Исторического боя?</value>
+  </data>
+  <data name="graphicsChangeConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="graphicsChangeConfirmation/message" xml:space="preserve">
+    <value>Режим экрана изменён. Возврат к предыдущим настройкам через %(time)s секунд. Сохранить выбранные настройки?</value>
+  </data>
+  <data name="graphicsChangeConfirmation/submit" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="graphicsChangeConfirmation/title" xml:space="preserve">
+    <value>Сохранение настроек режима экрана</value>
+  </data>
+  <data name="historicalBattle/closeConfirmation/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="historicalBattle/closeConfirmation/message" xml:space="preserve">
+    <value>Вы дейcтвительно хотите покинуть режим «Исторический бой»?</value>
+  </data>
+  <data name="historicalBattle/closeConfirmation/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="historicalBattle/closeConfirmation/title" xml:space="preserve">
+    <value>Покинуть режим</value>
+  </data>
+  <data name="lowFpsWarning/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="lowFpsWarning/message" xml:space="preserve">
+    <value>Замечено недостаточное быстродействие игры при текущих настройках графики. Установить более низкое качество графики?</value>
+  </data>
+  <data name="lowFpsWarning/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="lowFpsWarning/title" xml:space="preserve">
+    <value>Низкое быстродействие игры</value>
+  </data>
+  <data name="SORTIE/closeConfirmation/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="SORTIE/closeConfirmation/message" xml:space="preserve">
+    <value>Вы дейcтвительно хотите выйти из режима «Укрепрайон: сражения»?</value>
+  </data>
+  <data name="SORTIE/closeConfirmation/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="SORTIE/closeConfirmation/title" xml:space="preserve">
+    <value>Выйти из режима</value>
+  </data>
+  <data name="SORTIE/leaveUnit/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="SORTIE/leaveUnit/message" xml:space="preserve">
+    <value>Вы дейcтвительно хотите покинуть отряд?</value>
+  </data>
+  <data name="SORTIE/leaveUnit/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="SORTIE/leaveUnit/title" xml:space="preserve">
+    <value>Покинуть отряд</value>
+  </data>
+  <data name="SORTIE/leaveUnitDisabled/cancel" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="SORTIE/leaveUnitDisabled/message" xml:space="preserve">
+    <value>Выйти из режима невозможно. Вы в основном составе и готовы к бою.</value>
+  </data>
+  <data name="SORTIE/leaveUnitDisabled/title" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="UNIT/autoSearch/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="UNIT/autoSearch/message" xml:space="preserve">
+    <value>Хотите запустить автопоиск для свободных слотов?</value>
+  </data>
+  <data name="UNIT/autoSearch/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="UNIT/autoSearch/title" xml:space="preserve">
+    <value>Автопоиск</value>
+  </data>
+  <data name="UNIT/changePeriphery/cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="UNIT/changePeriphery/message" xml:space="preserve">
+    <value>Вы будете автоматически перемещены на другой сервер (%(host)s). Продолжить?</value>
+  </data>
+  <data name="UNIT/changePeriphery/submit" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="UNIT/changePeriphery/title" xml:space="preserve">
+    <value>Переход на другой сервер</value>
+  </data>
+  <data name="UNIT/closeConfirmation/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="UNIT/closeConfirmation/message" xml:space="preserve">
+    <value>Вы дейcтвительно хотите выйти из режима «Командный бой»?</value>
+  </data>
+  <data name="UNIT/closeConfirmation/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="UNIT/closeConfirmation/title" xml:space="preserve">
+    <value>Выйти из режима</value>
+  </data>
+  <data name="UNIT/leaveUnit/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="UNIT/leaveUnit/message" xml:space="preserve">
+    <value>Вы дейcтвительно хотите покинуть команду?</value>
+  </data>
+  <data name="UNIT/leaveUnit/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="UNIT/leaveUnit/title" xml:space="preserve">
+    <value>Покинуть команду</value>
+  </data>
+  <data name="UNIT/leaveUnitDisabled/cancel" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="UNIT/leaveUnitDisabled/message" xml:space="preserve">
+    <value>Выйти из режима невозможно. Вы в основном составе и готовы к бою.</value>
+  </data>
+  <data name="UNIT/leaveUnitDisabled/title" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="UNIT/startBattle/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="UNIT/startBattle/message" xml:space="preserve">
+    <value>Хотите запустить поиск противника?</value>
+  </data>
+  <data name="UNIT/startBattle/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="UNIT/startBattle/title" xml:space="preserve">
+    <value>Поиск противника…</value>
+  </data>
+  <data name="createOrderConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="createOrderConfirmation/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="createOrderConfirmation/title" xml:space="preserve">
+    <value>Подтверждение подготовки резерва</value>
+  </data>
+  <data name="fortificationCloseDirection/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="fortificationCloseDirection/message" xml:space="preserve">
+    <value>Вы действительно хотите закрыть выбранное направление?</value>
+  </data>
+  <data name="fortificationCloseDirection/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="fortificationCloseDirection/title" xml:space="preserve">
+    <value>Закрытие направления</value>
+  </data>
+  <data name="fortificationFixedPlayers/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="fortificationFixedPlayers/message" xml:space="preserve">
+    <value>Вы выйдете из состава гарнизона текущего строения %(oldBuilding)s и будете закреплены за строением %(newBuilding)s.</value>
+  </data>
+  <data name="fortificationFixedPlayers/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="fortificationFixedPlayers/title" xml:space="preserve">
+    <value>Закрепиться за строением</value>
+  </data>
+  <data name="legalInfoWindow/title" xml:space="preserve">
+    <value>Юридическая информация</value>
+  </data>
+  <data name="sendInvites/common/title" xml:space="preserve">
+    <value>Пригласить в формирование</value>
+  </data>
+  <data name="buyInstallConfirmation/conflictedMessage/highlightenText" xml:space="preserve">
+    <value>несовместимостью</value>
+  </data>
+  <data name="buyInstallConfirmation/conflictedMessage/postfix" xml:space="preserve">
+    <value> с устанавливаемым модулем.</value>
+  </data>
+  <data name="buyInstallConfirmation/conflictedMessage/prefix" xml:space="preserve">
+    <value>Снаряжение '%(conflicted)s' будет отправлено на склад в связи с </value>
+  </data>
+  <data name="headerTutorialDialog/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="headerTutorialDialog/checkBox" xml:space="preserve">
+    <value>Запустить обзор при следующем входе в игру</value>
+  </data>
+  <data name="headerTutorialDialog/message" xml:space="preserve">
+    <value>Вы действительно хотите прервать обзор и вернуться в Ангар?</value>
+  </data>
+  <data name="headerTutorialDialog/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="headerTutorialDialog/title" xml:space="preserve">
+    <value>Подтверждение операции</value>
+  </data>
+  <data name="headerTutorialWindow/back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="headerTutorialWindow/cancel" xml:space="preserve">
+    <value>Отказаться</value>
+  </data>
+  <data name="headerTutorialWindow/finish" xml:space="preserve">
+    <value>Завершить</value>
+  </data>
+  <data name="headerTutorialWindow/helpText" xml:space="preserve">
+    <value>Подсказка к элементам интерфейса доступна по «F1».</value>
+  </data>
+  <data name="headerTutorialWindow/mainText/step1" xml:space="preserve">
+    <value>В игровом меню вы найдёте следующие элементы:
+- текущий игровой сервер и возможность перехода на другой;
+- количество игроков онлайн на сервере / в регионе;
+- кнопка отключения от сервера (возврата на экран логина);
+- кнопка вызова настроек игры;
+- кнопка выхода из игры;
+- кнопка возврата в игру.</value>
+  </data>
+  <data name="headerTutorialWindow/mainText/step2" xml:space="preserve">
+    <value>Меню игрока содержит следующие данные и возможности:
+- основные показатели боевой эффективности;
+- доступ к просмотру всех игровых достижений: наград и игровой статистики;
+- информация о клане (при его наличии).</value>
+  </data>
+  <data name="headerTutorialWindow/mainText/step3" xml:space="preserve">
+    <value>Аккаунт игрока — учётная запись, которая содержит информацию о текущем типе аккаунта и количестве оставшихся дней премиума, а также предоставляет следующие возможности:
+- покупка премиум аккаунта;
+- продление премиум аккаунта.</value>
+  </data>
+  <data name="headerTutorialWindow/mainText/step4" xml:space="preserve">
+    <value>Меню взвода позволяет объединиться во взвод (формирование из 2-3 игроков) и участвовать в Случайных боях вместе.</value>
+  </data>
+  <data name="headerTutorialWindow/mainText/step5" xml:space="preserve">
+    <value>Здесь показан выбранный режим боя. Нажав на этот элемент, вы cможете просмотреть доступные режимы боя и выбрать подходящий. По умолчанию всегда выбран «Случайный бой».</value>
+  </data>
+  <data name="headerTutorialWindow/mainText/step6" xml:space="preserve">
+    <value>В этой части экрана отображается количество доступного золота, кредитов и свободного опыта. По нажатию на каждый элемент можно, соответственно:
+- приобрести золото;
+- обменять золото на кредиты;
+- перевести опыт с элитной техники в свободный за золото.</value>
+  </data>
+  <data name="headerTutorialWindow/mainText/welcome" xml:space="preserve">
+    <value>В текущем обновлении был изменён интерфейс Ангара. Ознакомьтесь с ключевыми особенностями.</value>
+  </data>
+  <data name="headerTutorialWindow/next" xml:space="preserve">
+    <value>Далее</value>
+  </data>
+  <data name="headerTutorialWindow/pauseTutorial" xml:space="preserve">
+    <value>Прервать обзор</value>
+  </data>
+  <data name="headerTutorialWindow/submit" xml:space="preserve">
+    <value>Ознакомиться</value>
+  </data>
+  <data name="headerTutorialWindow/title/step1" xml:space="preserve">
+    <value>Игровое меню</value>
+  </data>
+  <data name="headerTutorialWindow/title/step2" xml:space="preserve">
+    <value>Меню игрока</value>
+  </data>
+  <data name="headerTutorialWindow/title/step3" xml:space="preserve">
+    <value>Аккаунт игрока</value>
+  </data>
+  <data name="headerTutorialWindow/title/step4" xml:space="preserve">
+    <value>Меню взвода</value>
+  </data>
+  <data name="headerTutorialWindow/title/step5" xml:space="preserve">
+    <value>Режимы боя</value>
+  </data>
+  <data name="headerTutorialWindow/title/step6" xml:space="preserve">
+    <value>Игровая валюта</value>
+  </data>
+  <data name="headerTutorialWindow/title/welcome" xml:space="preserve">
+    <value>Обновление интерфейса</value>
+  </data>
+  <data name="headerTutorialWindow/windowTitle/inTutorial" xml:space="preserve">
+    <value>Обзор изменений</value>
+  </data>
+  <data name="headerTutorialWindow/windowTitle/welcome" xml:space="preserve">
+    <value>Обновление интерфейса</value>
+  </data>
+  <data name="punishmentWindow/cancel" xml:space="preserve">
+    <value>Ознакомлен</value>
+  </data>
+  <data name="punishmentWindow/message/extra/penalty" xml:space="preserve">
+    <value>%(colorTagOpen)sЛишение 100%% заработанного за бой опыта, кредитов и наград.
+
+%(colorTagClose)s</value>
+  </data>
+  <data name="punishmentWindow/message/penalty" xml:space="preserve">
+    <value>Уважаемый игрок, ввиду нарушения вами игровых правил на карте %(arenaName)s в %(time)s, а именно статьи «%(reason)s», к вам применено дисциплинарное взыскание. Указанный ниже штраф является крайней мерой наказания.
+
+Принятые меры:
+ </value>
+  </data>
+  <data name="punishmentWindow/message/warning" xml:space="preserve">
+    <value>Уважаемый игрок, ввиду нарушения вами игровых правил на карте %(arenaName)s в %(time)s, а именно статьи «%(reason)s», вам объявлено первое и последнее предупреждение. Обратите внимание, что в случае повторного нарушения вы будете лишены всех заработанных за бой кредитов, опыта и наград. В том случае, если досрочный выход из боя связан с разрывами соединения или иными техническими трудностями, обратитесь в службу технической поддержки.
+
+ </value>
+  </data>
+  <data name="punishmentWindow/msgTitle/penalty" xml:space="preserve">
+    <value>К вам применено дисциплинарное взыскание!</value>
+  </data>
+  <data name="punishmentWindow/msgTitle/warning" xml:space="preserve">
+    <value>Вам вынесено предупреждение!</value>
+  </data>
+  <data name="punishmentWindow/reason/afk" xml:space="preserve">
+    <value>Бездействие в бою</value>
+  </data>
+  <data name="punishmentWindow/reason/deserter" xml:space="preserve">
+    <value>Выход из боя до его окончания или до уничтожения собственной машины</value>
+  </data>
+  <data name="punishmentWindow/reason/suicide" xml:space="preserve">
+    <value>Умышленное уничтожение собственной машины</value>
+  </data>
+  <data name="punishmentWindow/title" xml:space="preserve">
+    <value>Трибунал</value>
+  </data>
+  <data name="quitBattle/deserter/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="quitBattle/deserter/message" xml:space="preserve">
+    <value>Вы нужны команде! Выход из боя до уничтожения собственной машины расценивается как дезертирство и может повлечь применение дисциплинарного взыскания.%(additionalInfo)s</value>
+  </data>
+  <data name="quitBattle/deserter/submit" xml:space="preserve">
+    <value>Бежать</value>
+  </data>
+  <data name="quitBattle/deserter/title" xml:space="preserve">
+    <value>Бегство с поля боя</value>
+  </data>
+  <data name="quitBattleIGR/deserter/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="quitBattleIGR/deserter/message" xml:space="preserve">
+    <value>Вы нужны команде! Выход из боя до его окончания или до уничтожения собственной машины расценивается как дезертирство и может повлечь применение дисциплинарного взыскания, а также лишение всех бонусов от игры в IGR для этого боя.%(additionalInfo)s</value>
+  </data>
+  <data name="quitBattleIGR/deserter/submit" xml:space="preserve">
+    <value>Бежать</value>
+  </data>
+  <data name="quitBattleIGR/deserter/title" xml:space="preserve">
+    <value>Бегство с поля боя</value>
+  </data>
+  <data name="rally/autoSearch/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="rally/autoSearch/message" xml:space="preserve">
+    <value>Хотите запустить автопоиск для свободных слотов?</value>
+  </data>
+  <data name="rally/autoSearch/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="rally/autoSearch/title" xml:space="preserve">
+    <value>Автопоиск</value>
+  </data>
+  <data name="rally/changePeriphery/cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="rally/changePeriphery/message" xml:space="preserve">
+    <value>Вы будете автоматически перемещены на другой сервер (%(host)s). Продолжить?</value>
+  </data>
+  <data name="rally/changePeriphery/submit" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="rally/changePeriphery/title" xml:space="preserve">
+    <value>Переход на другой сервер</value>
+  </data>
+  <data name="rally/goToAnother/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="rally/goToAnother/message" xml:space="preserve">
+    <value>При переходе в другой режим боя вы будете автоматически исключены из состава формирования.</value>
+  </data>
+  <data name="rally/goToAnother/submit" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="rally/goToAnother/title" xml:space="preserve">
+    <value>Переход в другой режим</value>
+  </data>
+  <data name="rally/goToBattleTutorial/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="rally/goToBattleTutorial/message" xml:space="preserve">
+    <value>Вы действительно хотите покинуть формирование и перейти в Боевое обучение?</value>
+  </data>
+  <data name="rally/goToBattleTutorial/submit" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="rally/goToBattleTutorial/title" xml:space="preserve">
+    <value>Переход в Боевое обучение</value>
+  </data>
+  <data name="rally/goToSquad/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="rally/goToSquad/message" xml:space="preserve">
+    <value>При создании взвода вы автоматически покинете текущий режим боя.</value>
+  </data>
+  <data name="rally/goToSquad/submit" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="rally/goToSquad/title" xml:space="preserve">
+    <value>Создание взвода</value>
+  </data>
+  <data name="rally/leave/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="rally/leave/message" xml:space="preserve">
+    <value>Вы действительно хотите покинуть режим и выйти из формирования?</value>
+  </data>
+  <data name="rally/leave/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="rally/leave/title" xml:space="preserve">
+    <value>Подтверждение выхода</value>
+  </data>
+  <data name="rally/leaveDisabled/cancel" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="rally/leaveDisabled/message" xml:space="preserve">
+    <value>Выйти из режима невозможно. Вы в основном составе и готовы к бою.</value>
+  </data>
+  <data name="rally/leaveDisabled/title" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="rally/startBattle/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="rally/startBattle/message" xml:space="preserve">
+    <value>Хотите запустить поиск противника?</value>
+  </data>
+  <data name="rally/startBattle/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="rally/startBattle/title" xml:space="preserve">
+    <value>Поиск противника</value>
+  </data>
+  <data name="replacePassport/unique/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="replacePassport/unique/message" xml:space="preserve">
+    <value>Это уникальный член экипажа и вы не сможете вернуть его первоначальные личные данные. Вы действительно хотите поменять документы за %(gold)s?</value>
+  </data>
+  <data name="replacePassport/unique/submit" xml:space="preserve">
+    <value>Сменить</value>
+  </data>
+  <data name="replacePassport/unique/title" xml:space="preserve">
+    <value>Подтверждение смены</value>
+  </data>
+  <data name="squad/goToAnother/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="squad/goToAnother/message" xml:space="preserve">
+    <value>Вы состоите во взводе. При переходе в другой режим вы будете исключены из взвода.</value>
+  </data>
+  <data name="squad/goToAnother/submit" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="squad/goToAnother/title" xml:space="preserve">
+    <value>Переход в другой режим</value>
+  </data>
+  <data name="squad/goToBattleTutorial/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="squad/goToBattleTutorial/message" xml:space="preserve">
+    <value>Вы состоите во взводе. При переходе в Боевое обучение вы будете исключены из взвода.</value>
+  </data>
+  <data name="squad/goToBattleTutorial/submit" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="squad/goToBattleTutorial/title" xml:space="preserve">
+    <value>Переход в Боевое обучение</value>
+  </data>
+  <data name="squad/goToSquad/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="squad/goToSquad/message" xml:space="preserve">
+    <value>Покинуть текущее формирование и создать взвод с игроком?</value>
+  </data>
+  <data name="squad/goToSquad/submit" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="squad/goToSquad/title" xml:space="preserve">
+    <value>Создание взвода</value>
+  </data>
+  <data name="squad/leave/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="squad/leave/message" xml:space="preserve">
+    <value>Вы действительно хотите покинуть взвод?</value>
+  </data>
+  <data name="squad/leave/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="squad/leave/title" xml:space="preserve">
+    <value>Подтверждение выхода</value>
+  </data>
+  <data name="squad/leaveDisabled/cancel" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="squad/leaveDisabled/message" xml:space="preserve">
+    <value>Невозможно покинуть взвод: вы в основном составе и готовы к бою.</value>
+  </data>
+  <data name="squad/leaveDisabled/title" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="squadHaveNoPlayers/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="squadHaveNoPlayers/message" xml:space="preserve">
+    <value>Состав взвода не сформирован. Выйти в бой неполным составом?</value>
+  </data>
+  <data name="squadHaveNoPlayers/submit" xml:space="preserve">
+    <value>В бой!</value>
+  </data>
+  <data name="squadHaveNoPlayers/title" xml:space="preserve">
+    <value>Взвод не готов</value>
+  </data>
+  <data name="squadHaveNotReadyPlayer/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="squadHaveNotReadyPlayer/message" xml:space="preserve">
+    <value>Один из игроков взвода не готов. Выйти в бой неполным составом?</value>
+  </data>
+  <data name="squadHaveNotReadyPlayer/submit" xml:space="preserve">
+    <value>В бой!</value>
+  </data>
+  <data name="squadHaveNotReadyPlayer/title" xml:space="preserve">
+    <value>Взвод не готов</value>
+  </data>
+  <data name="buyVehicleDialog/crewInVehicle" xml:space="preserve">
+    <value>Экипаж уже на местах.</value>
+  </data>
+  <data name="buyVehicleDialog/freeRentSlot" xml:space="preserve">
+    <value>На время аренды техники вы получаете бесплатный слот.</value>
+  </data>
+  <data name="customization/camouflageDismount/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/camouflageDismount/message" xml:space="preserve">
+    <value>Удалить и поместить на Склад текущий камуфляж?</value>
+  </data>
+  <data name="customization/camouflageDismount/submit" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="customization/camouflageDismount/title" xml:space="preserve">
+    <value>Камуфляж</value>
+  </data>
+  <data name="customization/emblemLeftDismount/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/emblemLeftDismount/message" xml:space="preserve">
+    <value>Удалить и поместить на Склад текущую эмблему 1?</value>
+  </data>
+  <data name="customization/emblemLeftDismount/submit" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="customization/emblemLeftDismount/title" xml:space="preserve">
+    <value>Эмблема 1</value>
+  </data>
+  <data name="customization/emblemRightDismount/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/emblemRightDismount/message" xml:space="preserve">
+    <value>Удалить и поместить на Склад текущую эмблему 2?</value>
+  </data>
+  <data name="customization/emblemRightDismount/submit" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="customization/emblemRightDismount/title" xml:space="preserve">
+    <value>Эмблема 2</value>
+  </data>
+  <data name="customization/inscriptionLeftDismount/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/inscriptionLeftDismount/message" xml:space="preserve">
+    <value>Удалить и поместить на Склад текущую надпись 1?</value>
+  </data>
+  <data name="customization/inscriptionLeftDismount/submit" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="customization/inscriptionLeftDismount/title" xml:space="preserve">
+    <value>Надпись 1</value>
+  </data>
+  <data name="customization/inscriptionRightDismount/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/inscriptionRightDismount/message" xml:space="preserve">
+    <value>Удалить и поместить на Склад текущую надпись 2?</value>
+  </data>
+  <data name="customization/inscriptionRightDismount/submit" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="customization/inscriptionRightDismount/title" xml:space="preserve">
+    <value>Надпись 2</value>
+  </data>
+  <data name="vehicleRemoveDialog/title" xml:space="preserve">
+    <value>Убрать из Ангара %(name)s</value>
+  </data>
+  <data name="vehicleSellDialog/remove" xml:space="preserve">
+    <value>Убрать</value>
+  </data>
+  <data name="reportBug/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="reportBug/message" xml:space="preserve">
+    <value>В браузере по умолчанию будет открыт тематический раздел форума игры, в котором можно сообщить об ошибке. Продолжить?</value>
+  </data>
+  <data name="reportBug/submit" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="reportBug/title" xml:space="preserve">
+    <value>Переход на форум игры</value>
+  </data>
+  <data name="confirmExchangeDialog/exchangeCredits/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="confirmExchangeDialog/exchangeCredits/exchangeNoNeedText" xml:space="preserve">
+    <value>Обмен для покупки не требуется.
+У вас достаточно кредитов.</value>
+  </data>
+  <data name="confirmExchangeDialog/exchangeCredits/goldNotEnoughText" xml:space="preserve">
+    <value>Обмен для покупки невозможен.
+Для обмена необходимо %(gold)s</value>
+  </data>
+  <data name="confirmExchangeDialog/exchangeCredits/needGoldText" xml:space="preserve">
+    <value>Обменять %(gold)s на недостающие кредиты?</value>
+  </data>
+  <data name="confirmExchangeDialog/exchangeCredits/needItemsStepperTitle" xml:space="preserve">
+    <value>Необходимо кредитов:</value>
+  </data>
+  <data name="confirmExchangeDialog/exchangeCredits/needItemsText" xml:space="preserve">
+    <value>На покупку не хватает: %(value)s</value>
+  </data>
+  <data name="confirmExchangeDialog/exchangeCredits/submit" xml:space="preserve">
+    <value>Обменять</value>
+  </data>
+  <data name="confirmExchangeDialog/exchangeCredits/title" xml:space="preserve">
+    <value>Подтверждение обмена для покупки</value>
+  </data>
+  <data name="confirmExchangeDialog/exchangeXp/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="confirmExchangeDialog/exchangeXp/exchangeNoNeedText" xml:space="preserve">
+    <value>Перевод для исследования не требуется.
+У вас достаточно опыта.</value>
+  </data>
+  <data name="confirmExchangeDialog/exchangeXp/goldNotEnoughText" xml:space="preserve">
+    <value>Обмен для исследования невозможен.
+Для перевода необходимо %(gold)s</value>
+  </data>
+  <data name="confirmExchangeDialog/exchangeXp/needGoldText" xml:space="preserve">
+    <value>Перевести недостающий опыт за %(gold)s?</value>
+  </data>
+  <data name="confirmExchangeDialog/exchangeXp/needItemsStepperTitle" xml:space="preserve">
+    <value>Необходимо опыта:</value>
+  </data>
+  <data name="confirmExchangeDialog/exchangeXp/needItemsText" xml:space="preserve">
+    <value>На исследование не хватает: %(value)s</value>
+  </data>
+  <data name="confirmExchangeDialog/exchangeXp/submit" xml:space="preserve">
+    <value>Перевести</value>
+  </data>
+  <data name="confirmExchangeDialog/exchangeXp/title" xml:space="preserve">
+    <value>Подтверждение обмена для исследования</value>
+  </data>
+  <data name="confirmExchangeDialog/goldItemsStepperTitle" xml:space="preserve">
+    <value>К оплате:</value>
+  </data>
+  <data name="staticFormation/staffView/demoteConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="staticFormation/staffView/demoteConfirmation/message" xml:space="preserve">
+    <value>Понизить в должности игрока %(userName)s?</value>
+  </data>
+  <data name="staticFormation/staffView/demoteConfirmation/submit" xml:space="preserve">
+    <value>Понизить</value>
+  </data>
+  <data name="staticFormation/staffView/demoteConfirmation/title" xml:space="preserve">
+    <value>Подтверждение понижения должности</value>
+  </data>
+  <data name="staticFormation/staffView/discontinuingFormationConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="staticFormation/staffView/discontinuingFormationConfirmation/message" xml:space="preserve">
+    <value>При расформировании команды все игроки будут автоматически исключены. Подтвердить расформирование?</value>
+  </data>
+  <data name="staticFormation/staffView/discontinuingFormationConfirmation/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="staticFormation/staffView/discontinuingFormationConfirmation/title" xml:space="preserve">
+    <value>Подтверждение расформирования</value>
+  </data>
+  <data name="staticFormation/staffView/passOwnershipConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="staticFormation/staffView/passOwnershipConfirmation/message" xml:space="preserve">
+    <value>Передать командование игроку %(userName)s?</value>
+  </data>
+  <data name="staticFormation/staffView/passOwnershipConfirmation/submit" xml:space="preserve">
+    <value>Передать командование</value>
+  </data>
+  <data name="staticFormation/staffView/passOwnershipConfirmation/title" xml:space="preserve">
+    <value>Подтверждение передачи командования</value>
+  </data>
+  <data name="staticFormation/staffView/promoteConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="staticFormation/staffView/promoteConfirmation/message" xml:space="preserve">
+    <value>Повысить в должности игрока %(userName)s?</value>
+  </data>
+  <data name="staticFormation/staffView/promoteConfirmation/submit" xml:space="preserve">
+    <value>Повысить</value>
+  </data>
+  <data name="staticFormation/staffView/promoteConfirmation/title" xml:space="preserve">
+    <value>Подтверждение повышения должности</value>
+  </data>
+  <data name="staticFormation/staffView/removeMemberConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="staticFormation/staffView/removeMemberConfirmation/message" xml:space="preserve">
+    <value>Исключить игрока %(userName)s из команды?</value>
+  </data>
+  <data name="staticFormation/staffView/removeMemberConfirmation/submit" xml:space="preserve">
+    <value>Исключить</value>
+  </data>
+  <data name="staticFormation/staffView/removeMemberConfirmation/title" xml:space="preserve">
+    <value>Подтверждение исключения</value>
+  </data>
+  <data name="tankmanChageRole/unknownVehicle/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="tankmanChageRole/unknownVehicle/message" xml:space="preserve">
+    <value>%(tankname)s отсутствует в Ангаре. Сменить специальность члена экипажа?</value>
+  </data>
+  <data name="tankmanChageRole/unknownVehicle/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="tankmanChageRole/unknownVehicle/title" xml:space="preserve">
+    <value>Подтверждение смены специальности </value>
+  </data>
+  <data name="clubInvite/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="clubInvite/message" xml:space="preserve">
+    <value>Вступление в команду предполагает участие в её жизни, а также соблюдение регламента и внутренних правил. Вступить в команду?</value>
+  </data>
+  <data name="clubInvite/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="clubInvite/title" xml:space="preserve">
+    <value>Подтверждение вступления</value>
+  </data>
+  <data name="clubs/app/create/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="clubs/app/create/message" xml:space="preserve">
+    <value>После создания собственной команды вы не сможете вступать в другие команды, пока не расформируете свою. Продолжить?</value>
+  </data>
+  <data name="clubs/app/create/submit" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="clubs/app/create/title" xml:space="preserve">
+    <value>Создание команды</value>
+  </data>
+  <data name="clubs/app/send/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="clubs/app/send/message" xml:space="preserve">
+    <value>Срок рассмотрения заявки: до 72 часов. Можно подать только 1 заявку на вступление в команду. Вы уверены, что хотите подать заявку в команду?</value>
+  </data>
+  <data name="clubs/app/send/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="clubs/app/send/title" xml:space="preserve">
+    <value>Подтверждение отправки заявки</value>
+  </data>
+  <data name="confirmBuyNotInstall/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="confirmBuyNotInstall/message" xml:space="preserve">
+    <value>Купить «%(typeString)s %(userString)s» за %(color_tag_open)s%(value)s%(color_tag_close)s%(currencyIcon)s и поместить на Склад?</value>
+  </data>
+  <data name="confirmBuyNotInstall/submit" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="confirmBuyNotInstall/title" xml:space="preserve">
+    <value>Подтверждение покупки</value>
+  </data>
+  <data name="interviewQuit/cancel" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="interviewQuit/message" xml:space="preserve">
+    <value>Сейчас вы можете отказаться от участия в опросе и пройти его позже, открыв сообщение с приглашением в Центре уведомлений. Сообщение активно в рамках текущей игровой сессии.</value>
+  </data>
+  <data name="interviewQuit/submit" xml:space="preserve">
+    <value>Отказаться</value>
+  </data>
+  <data name="interviewQuit/title" xml:space="preserve">
+    <value>Отказ от опроса</value>
+  </data>
+  <data name="staticFormation/staffView/closeClub/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="staticFormation/staffView/closeClub/message" xml:space="preserve">
+    <value>У вас есть нерассмотренные заявки. Закрыв набор, вы автоматически отклоните их.</value>
+  </data>
+  <data name="staticFormation/staffView/closeClub/submit" xml:space="preserve">
+    <value>Закрыть набор</value>
+  </data>
+  <data name="staticFormation/staffView/closeClub/title" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="staticFormation/staffView/leaveClubConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="staticFormation/staffView/leaveClubConfirmation/message" xml:space="preserve">
+    <value>Вы действительно хотите выйти из команды?</value>
+  </data>
+  <data name="staticFormation/staffView/leaveClubConfirmation/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="staticFormation/staffView/leaveClubConfirmation/title" xml:space="preserve">
+    <value>Подтверждение выхода</value>
+  </data>
+  <data name="staticFormation/staffView/transferOwnership/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="staticFormation/staffView/transferOwnership/message" xml:space="preserve">
+    <value>Передав командование, вернуть его будет невозможно.
+Вы действительно хотите снять с себя полномочия капитана команды?</value>
+  </data>
+  <data name="staticFormation/staffView/transferOwnership/submit" xml:space="preserve">
+    <value>Передать </value>
+  </data>
+  <data name="staticFormation/staffView/transferOwnership/title" xml:space="preserve">
+    <value>Передача командования</value>
+  </data>
+  <data name="fortModernizationAbsoluteDivision/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="fortModernizationAbsoluteDivision/message" xml:space="preserve">
+    <value>При достижении VIII уровня Укрепрайона оборона будет проходить в формате Абсолютного дивизиона.
+Модернизировать Укрепрайон до VIII уровня?</value>
+  </data>
+  <data name="fortModernizationAbsoluteDivision/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="fortModernizationAbsoluteDivision/title" xml:space="preserve">
+    <value>Подтверждение модернизации</value>
+  </data>
+  <data name="questsConfirmDialog/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="questsConfirmDialog/checkBox" xml:space="preserve">
+    <value>Больше не спрашивать</value>
+  </data>
+  <data name="questsConfirmDialog/message" xml:space="preserve">
+    <value>При выборе боевой задачи «%(newQuest)s» задача «%(oldQuest)s» будет отменена.</value>
+  </data>
+  <data name="questsConfirmDialog/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="questsConfirmDialog/title" xml:space="preserve">
+    <value>Подтверждение выбора задачи</value>
+  </data>
+  <data name="rally/goToIntro/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="rally/goToIntro/message" xml:space="preserve">
+    <value>Вы действительно хотите выйти из формирования?</value>
+  </data>
+  <data name="rally/goToIntro/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="rally/goToIntro/title" xml:space="preserve">
+    <value>Подтверждение выхода</value>
+  </data>
+  <data name="boostersWindow/activationConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="boostersWindow/activationConfirmation/message" xml:space="preserve">
+    <value>При активации личного резерва %(newBoosterName)s будет отменён и исчезнет действующий %(curBoosterName)s.</value>
+  </data>
+  <data name="boostersWindow/activationConfirmation/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="boostersWindow/activationConfirmation/title" xml:space="preserve">
+    <value>Подтверждение активации резерва</value>
+  </data>
+  <data name="common/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="common/submit" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="graphicsPresetNotInstalled/cancel" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="graphicsPresetNotInstalled/message" xml:space="preserve">
+    <value>Невозможно установить максимальные значения настроек. Будет установлено пользовательское качество графики.</value>
+  </data>
+  <data name="graphicsPresetNotInstalled/submit" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="graphicsPresetNotInstalled/title" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="staticFormation/staffView/discontinuingEmptyFormationConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="staticFormation/staffView/discontinuingEmptyFormationConfirmation/message" xml:space="preserve">
+    <value>Вы уверены, что хотите расформировать команду?</value>
+  </data>
+  <data name="staticFormation/staffView/discontinuingEmptyFormationConfirmation/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="staticFormation/staffView/discontinuingEmptyFormationConfirmation/title" xml:space="preserve">
+    <value>Подтверждение расформирования</value>
+  </data>
+  <data name="staticFormation/staffView/p/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="staticFormation/staffView/removeOwnerConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="staticFormation/staffView/removeOwnerConfirmation/message" xml:space="preserve">
+    <value>Если вы покинете штат, команда будет расформирована. Распустить команду?</value>
+  </data>
+  <data name="staticFormation/staffView/removeOwnerConfirmation/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="staticFormation/staffView/removeOwnerConfirmation/title" xml:space="preserve">
+    <value>Подтверждение расформирования</value>
+  </data>
+  <data name="exchangeXPConfirmation/available/forFree/message" xml:space="preserve">
+    <value>Скидка на бесплатный перевод до %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s единиц опыта будет использована, и в следующий раз перевод будет за золото.</value>
+  </data>
+  <data name="freeSlotConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="freeSlotConfirmation/message" xml:space="preserve">
+    <value>Добавить бесплатный слот в Ангаре, используя доступную 100% скидку?</value>
+  </data>
+  <data name="freeSlotConfirmation/submit" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="freeSlotConfirmation/title" xml:space="preserve">
+    <value>Добавление слота</value>
+  </data>
+  <data name="rally/companyTimeFinished/cancel" xml:space="preserve">
+    <value>Так точно!</value>
+  </data>
+  <data name="rally/companyTimeFinished/message" xml:space="preserve">
+    <value>Акция, во время которой режим «Ротный бой» был доступен, завершилась. Приносим свои извинения за неудобства.</value>
+  </data>
+  <data name="rally/companyTimeFinished/title" xml:space="preserve">
+    <value>Акция завершена</value>
+  </data>
+  <data name="recruitWindow/nationDropdown/czech" xml:space="preserve">
+    <value>Чехословакия</value>
+  </data>
+  <data name="switchPeripheryWindow/btnCancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="switchPeripheryWindow/btnSwitch" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="switchPeripheryWindow/windowTitle" xml:space="preserve">
+    <value>Переход на другой сервер</value>
+  </data>
+  <data name="buyPremWithoutBenefitsConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="buyPremWithoutBenefitsConfirmation/message" xml:space="preserve">
+    <value>Купить премиум аккаунт на %(days)s д. за %(gold)s золота?
+ %(alertIcon)s %(alertColorTagOpen)s В связи с техническими проблемами дополнительный опыт и кредиты не будут начислены. Вы можете выбрать другой бой или купить премиум аккаунт стандартным способом.%(tagClose)s</value>
+  </data>
+  <data name="buyPremWithoutBenefitsConfirmation/submit" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="buyPremWithoutBenefitsConfirmation/title" xml:space="preserve">
+    <value>Подтверждение покупки</value>
+  </data>
+  <data name="clanConfirmJoining/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="clanConfirmJoining/message" xml:space="preserve">
+    <value>%(icon)sВы собираетесь вступить в клан:
+%(clanName)s
+
+Подтвердив вступление, вы автоматически принимаете правила поведения в клане и соглашаетесь на участие в его жизни и развитии.
+
+%(clanExit)s</value>
+  </data>
+  <data name="clanConfirmJoining/message/clanExit" xml:space="preserve">
+    <value>После выхода из клана на вступление в новый накладывается временное ограничение.</value>
+  </data>
+  <data name="clanConfirmJoining/message/clanName" xml:space="preserve">
+    <value>[%(clanAbbr)s] %(clanName)s</value>
+  </data>
+  <data name="clanConfirmJoining/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="clanConfirmJoining/title" xml:space="preserve">
+    <value>Подтверждение вступления в клан</value>
+  </data>
+  <data name="customization/close/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/close/message" xml:space="preserve">
+    <value>У вас есть неоплаченные элементы внешнего вида, которые будут удалены при возврате в Ангар. Вы действительно хотите вернуться в Ангар?</value>
+  </data>
+  <data name="customization/close/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="customization/close/title" xml:space="preserve">
+    <value>Подтверждение возврата в Ангар</value>
+  </data>
+  <data name="customization/filter/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/filter/message" xml:space="preserve">
+    <value>Все элементы будут удалены. Продолжить?</value>
+  </data>
+  <data name="customization/filter/submit" xml:space="preserve">
+    <value>Удалить всё</value>
+  </data>
+  <data name="customization/filter/title" xml:space="preserve">
+    <value>Удаление элементов</value>
+  </data>
+  <data name="customization/install_invoice_item/permanent/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/install_invoice_item/permanent/message" xml:space="preserve">
+    <value>Внимание! После нанесения элемента (%(cTypeName)s %(itemName)s) на текущую машину количество доступных нанесений на другую технику станет равно %(numberLeft)s. Нанести элемент?</value>
+  </data>
+  <data name="customization/install_invoice_item/permanent/submit" xml:space="preserve">
+    <value>Нанести</value>
+  </data>
+  <data name="customization/install_invoice_item/permanent/title" xml:space="preserve">
+    <value>Нанесение элемента</value>
+  </data>
+  <data name="customization/install_invoice_item/permanent_last/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/install_invoice_item/permanent_last/message" xml:space="preserve">
+    <value>Внимание! После нанесения элемента (%(cTypeName)s %(itemName)s) на текущую машину вы не сможете его нанести на другую технику. Нанести элемент?</value>
+  </data>
+  <data name="customization/install_invoice_item/permanent_last/submit" xml:space="preserve">
+    <value>Нанести</value>
+  </data>
+  <data name="customization/install_invoice_item/permanent_last/title" xml:space="preserve">
+    <value>Нанесение элемента</value>
+  </data>
+  <data name="customization/install_invoice_item/temporary/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/install_invoice_item/temporary/message" xml:space="preserve">
+    <value>Внимание! После нанесения элемента (%(cTypeName)s %(itemName)s) на текущую машину вы не сможете его нанести на другую технику. В случае снятия элемент %(willBeDeleted)s. Нанести элемент?</value>
+  </data>
+  <data name="customization/install_invoice_item/temporary/submit" xml:space="preserve">
+    <value>Нанести</value>
+  </data>
+  <data name="customization/install_invoice_item/temporary/title" xml:space="preserve">
+    <value>Нанесение элемента</value>
+  </data>
+  <data name="customization/install_invoice_item/will_be_deleted" xml:space="preserve">
+    <value>будет удалён</value>
+  </data>
+  <data name="customization/remove_element/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/remove_element/message" xml:space="preserve">
+    <value>%(description)s</value>
+  </data>
+  <data name="customization/remove_element/submit" xml:space="preserve">
+    <value>Снять</value>
+  </data>
+  <data name="customization/remove_element/title" xml:space="preserve">
+    <value>Снятие элемента</value>
+  </data>
+  <data name="customization/replace_element/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/replace_element/message" xml:space="preserve">
+    <value>%(description)s</value>
+  </data>
+  <data name="customization/replace_element/submit" xml:space="preserve">
+    <value>Заменить</value>
+  </data>
+  <data name="customization/replace_element/title" xml:space="preserve">
+    <value>Замена элемента</value>
+  </data>
+  <data name="customization/replace_elements/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="customization/replace_elements/message" xml:space="preserve">
+    <value>%(description)s</value>
+  </data>
+  <data name="customization/replace_elements/submit" xml:space="preserve">
+    <value>Заменить</value>
+  </data>
+  <data name="customization/replace_elements/title" xml:space="preserve">
+    <value>Замена элементов</value>
+  </data>
+  <data name="sandBox/goToAnother/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="sandBox/goToAnother/message" xml:space="preserve">
+    <value>При переходе в другой режим боя вы автоматически покинете «Учебный бой».</value>
+  </data>
+  <data name="sandBox/goToAnother/submit" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="sandBox/goToAnother/title" xml:space="preserve">
+    <value>Переход в другой режим</value>
+  </data>
+  <data name="sandBox/goToBattleTutorial/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="sandBox/goToBattleTutorial/message" xml:space="preserve">
+    <value>Вы действительно хотите покинуть формирование и перейти в Боевое обучение?</value>
+  </data>
+  <data name="sandBox/goToBattleTutorial/submit" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="sandBox/goToBattleTutorial/title" xml:space="preserve">
+    <value>Переход в Боевое обучение</value>
+  </data>
+  <data name="sandBox/goToSquad/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="sandBox/goToSquad/message" xml:space="preserve">
+    <value>При создании взвода вы автоматически покинете текущий режим боя.</value>
+  </data>
+  <data name="sandBox/goToSquad/submit" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="sandBox/goToSquad/title" xml:space="preserve">
+    <value>Создание взвода</value>
+  </data>
+  <data name="squadHaveNoPlayerAuto/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="squadHaveNoPlayerAuto/message" xml:space="preserve">
+    <value>Взвод сформирован не полностью. Недостающий игрок будет подобран автоматически. Выйти в бой?</value>
+  </data>
+  <data name="squadHaveNoPlayerAuto/submit" xml:space="preserve">
+    <value>В бой!</value>
+  </data>
+  <data name="squadHaveNoPlayerAuto/title" xml:space="preserve">
+    <value>Взвод не готов</value>
+  </data>
+  <data name="squadHaveNoPlayersAuto/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="squadHaveNoPlayersAuto/message" xml:space="preserve">
+    <value>Состав взвода не сформирован. Выйти в бой с игроками, которые будут подобраны автоматически?</value>
+  </data>
+  <data name="squadHaveNoPlayersAuto/submit" xml:space="preserve">
+    <value>В бой!</value>
+  </data>
+  <data name="squadHaveNoPlayersAuto/title" xml:space="preserve">
+    <value>Взвод не готов</value>
+  </data>
+  <data name="squadHaveNotReadyPlayerAuto/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="squadHaveNotReadyPlayerAuto/message" xml:space="preserve">
+    <value>Не подтвердивший готовность игрок будет исключён из формирования. Состав доукомплектуется автоматически. Выйти в бой?</value>
+  </data>
+  <data name="squadHaveNotReadyPlayerAuto/submit" xml:space="preserve">
+    <value>В бой!</value>
+  </data>
+  <data name="squadHaveNotReadyPlayerAuto/title" xml:space="preserve">
+    <value>Взвод не готов</value>
+  </data>
+  <data name="squadHaveNotReadyPlayersAuto/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="squadHaveNotReadyPlayersAuto/message" xml:space="preserve">
+    <value>Состав взвода не сформирован. Не подтвердившие готовность игроки будут исключены из формирования. Выйти в бой с игроками, которые будут подобраны автоматически?</value>
+  </data>
+  <data name="squadHaveNotReadyPlayersAuto/submit" xml:space="preserve">
+    <value>В бой!</value>
+  </data>
+  <data name="squadHaveNotReadyPlayersAuto/title" xml:space="preserve">
+    <value>Взвод не готов</value>
+  </data>
+  <data name="fortDisabled/cancel" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="fortDisabled/message" xml:space="preserve">
+    <value>&lt;font color="#8C8C7C"&gt;Укрепрайон временно недоступен. Ведутся профилактические работы.&lt;/font&gt;</value>
+  </data>
+  <data name="fortDisabled/title" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="fortTurnedOff/cancel" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="fortTurnedOff/message" xml:space="preserve">
+    <value>Укрепрайон временно недоступен. Повторите попытку позже.</value>
+  </data>
+  <data name="fortTurnedOff/title" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="recruitWindow/nationDropdown/sweden" xml:space="preserve">
+    <value>Швеция</value>
+  </data>
+  <data name="christmas/convertDecorationsDialog/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="christmas/convertDecorationsDialog/message" xml:space="preserve">
+    <value>Результат преобразования:
+Будет списано предметов «%(slotType)s»: %(fromCnt)s
+Будет получено предметов «%(slotType)s» уровнем выше: %(toCnt)s.</value>
+  </data>
+  <data name="christmas/convertDecorationsDialog/submit" xml:space="preserve">
+    <value>Преобразовать</value>
+  </data>
+  <data name="christmas/convertDecorationsDialog/title" xml:space="preserve">
+    <value>Преобразование игрушек</value>
+  </data>
+  <data name="christmasTreeFill/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="christmasTreeFill/message" xml:space="preserve">
+    <value>Внесённые в ёлку изменения не сохранены. Всё равно продолжить?</value>
+  </data>
+  <data name="christmasTreeFill/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="christmasTreeFill/title" xml:space="preserve">
+    <value>Подтверждение выхода</value>
+  </data>
+  <data name="clan_data_not_available/cancel" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="clan_data_not_available/message" xml:space="preserve">
+    <value>Профиль клана данного игрока временно недоступен. Повторите попытку позже.</value>
+  </data>
+  <data name="clan_data_not_available/title" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="confirmExchangeDialog/restoreExchangeCredits/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText" xml:space="preserve">
+    <value>Обмен для восстановления не требуется.
+У вас достаточно кредитов.</value>
+  </data>
+  <data name="confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText" xml:space="preserve">
+    <value>Обмен для восстановления невозможен.
+Для обмена необходимо %(gold)s</value>
+  </data>
+  <data name="confirmExchangeDialog/restoreExchangeCredits/needGoldText" xml:space="preserve">
+    <value>Обменять %(gold)s на недостающие кредиты?</value>
+  </data>
+  <data name="confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle" xml:space="preserve">
+    <value>Необходимо кредитов:</value>
+  </data>
+  <data name="confirmExchangeDialog/restoreExchangeCredits/needItemsText" xml:space="preserve">
+    <value>На восстановление не хватает: %(value)s</value>
+  </data>
+  <data name="confirmExchangeDialog/restoreExchangeCredits/submit" xml:space="preserve">
+    <value>Обменять</value>
+  </data>
+  <data name="confirmExchangeDialog/restoreExchangeCredits/title" xml:space="preserve">
+    <value>Подтверждение обмена для восстановления</value>
+  </data>
+  <data name="dismissedBufferOverFlaw/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="dismissedBufferOverFlaw/message" xml:space="preserve">
+    <value>Внимание! Демобилизуемый %(dismissedName)s заменит %(deletedStr)s. Подтвердить замену?</value>
+  </data>
+  <data name="dismissedBufferOverFlaw/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="dismissedBufferOverFlaw/title" xml:space="preserve">
+    <value>Подтверждение замены</value>
+  </data>
+  <data name="dismissedBufferOverFlawMultiple/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="dismissedBufferOverFlawMultiple/message" xml:space="preserve">
+    <value>Внимание! Демобилизуемый экипаж заменит %(deletedStr)s и ещё %(extraCount)s. Подтвердить замену?</value>
+  </data>
+  <data name="dismissedBufferOverFlawMultiple/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="dismissedBufferOverFlawMultiple/title" xml:space="preserve">
+    <value>Буфер демобилизованных заполнен</value>
+  </data>
+  <data name="protectedDismissTankman/alert" xml:space="preserve">
+    <value>Без возможности восстановления</value>
+  </data>
+  <data name="quitReplay/cancel" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="quitReplay/message" xml:space="preserve">
+    <value>Прервать просмотр боя?</value>
+  </data>
+  <data name="quitReplay/submit" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="quitReplay/title" xml:space="preserve">
+    <value>Выход из просмотра боя</value>
+  </data>
+  <data name="restoreTankman/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="restoreTankman/disconnectedFromCenter" xml:space="preserve">
+    <value>Рекрутирование танкистов временно недоступно.
+Повторите попытку позже.</value>
+  </data>
+  <data name="restoreTankman/forFree" xml:space="preserve">
+    <value>Бесплатно</value>
+  </data>
+  <data name="restoreTankman/message" xml:space="preserve">
+    <value>Восстановить данного члена экипажа?</value>
+  </data>
+  <data name="restoreTankman/newPeriodWarning" xml:space="preserve">
+    <value>Внимание! Период бесплатного восстановления истек. Еще %(daysCount)s дней вы можете восстановить члена экипажа за золото.</value>
+  </data>
+  <data name="restoreTankman/price" xml:space="preserve">
+    <value>Стоимость:</value>
+  </data>
+  <data name="restoreTankman/submit" xml:space="preserve">
+    <value>Восстановить</value>
+  </data>
+  <data name="restoreTankman/title" xml:space="preserve">
+    <value>Восстановление члена экипажа</value>
+  </data>
+  <data name="restoreTankman/warning" xml:space="preserve">
+    <value>Нажав «Восстановить», вы не сможете перевести приобретённое оборудование и снаряжение в золото. Пожалуйста, проверьте всё внимательно.</value>
+  </data>
+  <data name="restoreVehicleDialog/priceLabel" xml:space="preserve">
+    <value>Восстановить %(vehiclename)s</value>
+  </data>
+  <data name="restoreVehicleDialog/submitBtn" xml:space="preserve">
+    <value>Восстановить</value>
+  </data>
+  <data name="restoreVehicleDialog/tankmenCheckbox" xml:space="preserve">
+    <value>Без экипажа</value>
+  </data>
+  <data name="restoreVehicleDialog/title" xml:space="preserve">
+    <value>Восстановление %(vehiclename)s</value>
+  </data>
+  <data name="restoreVehicleDialog/warning" xml:space="preserve">
+    <value>Нажав «Восстановить», вы не сможете перевести приобретённое оборудование и снаряжение в золото. Пожалуйста, проверьте всё внимательно.</value>
+  </data>
+  <data name="soundSpeakersPresetDoesNotMatch/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="soundSpeakersPresetDoesNotMatch/message" xml:space="preserve">
+    <value>Выбранный тип акустики отличается от автоматически определённого игрой. Вы можете протестировать изменения звучания. Подтвердить изменения?</value>
+  </data>
+  <data name="soundSpeakersPresetDoesNotMatch/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="soundSpeakersPresetDoesNotMatch/title" xml:space="preserve">
+    <value>Несоответствующий тип акустики</value>
+  </data>
+  <data name="vehicleSell/restoreCooldown/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="vehicleSell/restoreCooldown/message" xml:space="preserve">
+    <value>Внимание! Это специальная машина, после продажи вы сможете её восстановить только через %(cooldown)s д. Подтвердить продажу?</value>
+  </data>
+  <data name="vehicleSell/restoreCooldown/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="vehicleSell/restoreCooldown/title" xml:space="preserve">
+    <value>Подтверждение продажи</value>
+  </data>
+  <data name="vehicleSell/restoreUnlimited/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="vehicleSell/restoreUnlimited/message" xml:space="preserve">
+    <value>Внимание! Это специальная машина, но после продажи вы сможете её восстановить. Подтвердить продажу?</value>
+  </data>
+  <data name="vehicleSell/restoreUnlimited/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="vehicleSell/restoreUnlimited/title" xml:space="preserve">
+    <value>Подтверждение продажи</value>
+  </data>
+  <data name="vehicleSellDialog/crew/label" xml:space="preserve">
+    <value>ЭКИПАЖ:</value>
+  </data>
+  <data name="vehicleSellDialog/price/sign/add" xml:space="preserve">
+    <value>+ </value>
+  </data>
+  <data name="buyVehicleWindow/ammoCheckbox" xml:space="preserve">
+    <value>Загрузить базовый боекомплект</value>
+  </data>
+  <data name="buyVehicleWindow/cancelBtn" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="buyVehicleWindow/crewInVehicle" xml:space="preserve">
+    <value>Экипаж уже на местах.</value>
+  </data>
+  <data name="buyVehicleWindow/freeRentSlot" xml:space="preserve">
+    <value>На время аренды техники вы получаете бесплатный слот.</value>
+  </data>
+  <data name="buyVehicleWindow/priceLabel" xml:space="preserve">
+    <value>Стоимость %(vehiclename)s:</value>
+  </data>
+  <data name="buyVehicleWindow/slotCheckbox" xml:space="preserve">
+    <value>Купить дополнительный слот</value>
+  </data>
+  <data name="buyVehicleWindow/submitBtn" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="buyVehicleWindow/tabs/buy" xml:space="preserve">
+    <value>Покупка</value>
+  </data>
+  <data name="buyVehicleWindow/tabs/trade" xml:space="preserve">
+    <value>Обмен</value>
+  </data>
+  <data name="buyVehicleWindow/tankmenCheckbox" xml:space="preserve">
+    <value>Купить машину без экипажа</value>
+  </data>
+  <data name="buyVehicleWindow/tankmenLabel" xml:space="preserve">
+    <value>Подготовка экипажа:</value>
+  </data>
+  <data name="buyVehicleWindow/tankmenTotalLabel" xml:space="preserve">
+    <value>Членов экипажа: %(count)s</value>
+  </data>
+  <data name="buyVehicleWindow/title" xml:space="preserve">
+    <value>Покупка %(vehiclename)s</value>
+  </data>
+  <data name="buyVehicleWindow/totalLabel" xml:space="preserve">
+    <value>Итого:</value>
+  </data>
+  <data name="buyVehicleWindow/tradeIn/confirmation/errorMessage" xml:space="preserve">
+    <value>Вы ввели неправильную информацию!</value>
+  </data>
+  <data name="buyVehicleWindow/tradeIn/confirmation/question" xml:space="preserve">
+    <value>Введите сумму в золоте из графы «ОБЩИЙ ИТОГ»</value>
+  </data>
+  <data name="buyVehicleWindow/tradeIn/confirmation/title" xml:space="preserve">
+    <value>Подтверждение операции:</value>
+  </data>
+  <data name="buyVehicleWindow/tradeIn/info/noVehicles" xml:space="preserve">
+    <value>У вас нет подходящей техники
+для обмена</value>
+  </data>
+  <data name="buyVehicleWindow/tradeIn/info/saving" xml:space="preserve">
+    <value>Машина оценена в %(cost)s</value>
+  </data>
+  <data name="buyVehicleWindow/tradeIn/studyLabel" xml:space="preserve">
+    <value>Обучить экипаж: %(count)s</value>
+  </data>
+  <data name="buyVehicleWindow/tradeIn/totalLabel" xml:space="preserve">
+    <value>Общий итог:</value>
+  </data>
+  <data name="buyVehicleWindow/tradeIn/vehicle/choose" xml:space="preserve">
+    <value>Выбрать технику</value>
+  </data>
+  <data name="buyVehicleWindow/tradeIn/warning/choose" xml:space="preserve">
+    <value>Выберите доступную для обмена
+премиум машину</value>
+  </data>
+  <data name="buyVehicleWindow/tradein/cancelBtn" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="buyVehicleWindow/tradein/priceLabel" xml:space="preserve">
+    <value>Доплата за получение %(vehiclename)s:</value>
+  </data>
+  <data name="buyVehicleWindow/tradein/submitBtn" xml:space="preserve">
+    <value>Обменять</value>
+  </data>
+  <data name="buyVehicleWindow/tradein/tankmenCheckbox" xml:space="preserve">
+    <value>Купить машину без экипажа</value>
+  </data>
+  <data name="buyVehicleWindow/tradein/title" xml:space="preserve">
+    <value>Обмен %(vehiclename)s</value>
+  </data>
+  <data name="buyVehicleWindow/tradein/warning" xml:space="preserve">
+    <value>Нажав «Обменять», вы теряете возможность получить компенсацию за приобретённое оборудование и снаряжение в золоте. Пожалуйста, проверьте всё внимательно.</value>
+  </data>
+  <data name="buyVehicleWindow/warning" xml:space="preserve">
+    <value>Нажав «Купить», вы теряете возможность получить компенсацию за приобретённое оборудование и снаряжение в золоте. Пожалуйста, проверьте всё внимательно.</value>
+  </data>
+  <data name="restoreVehicleDialog/cancelBtn" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="stronghold/leave/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="stronghold/leave/message" xml:space="preserve">
+    <value>Вы действительно хотите покинуть отряд?</value>
+  </data>
+  <data name="stronghold/leave/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="stronghold/leave/title" xml:space="preserve">
+    <value>Подтверждение выхода</value>
+  </data>
+  <data name="stronghold/leaveDefeat/message" xml:space="preserve">
+    <value>После вашего ухода отряд будет расформирован.
+Клан получит штраф за неявку в бой.
+Вы действительно хотите покинуть отряд?</value>
+  </data>
+  <data name="stronghold/leaveDefeat/title" xml:space="preserve">
+    <value>Подтверждение выхода</value>
+  </data>
+  <data name="tradeInConfirmation/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="tradeInConfirmation/message" xml:space="preserve">
+    <value>Машина %(vehName)s будет продана и недоступна для восстановления.%(addition)s</value>
+  </data>
+  <data name="tradeInConfirmation/message/addition" xml:space="preserve">
+    <value> Дополнительно, %(operations)s.</value>
+  </data>
+  <data name="tradeInConfirmation/message/crew" xml:space="preserve">
+    <value>экипаж будет высажен в Казарму</value>
+  </data>
+  <data name="tradeInConfirmation/message/equipments" xml:space="preserve">
+    <value>снаряжение будет выгружено на Склад</value>
+  </data>
+  <data name="tradeInConfirmation/message/optionalDevices" xml:space="preserve">
+    <value>оборудование будет бесплатно демонтировано</value>
+  </data>
+  <data name="tradeInConfirmation/message/shells" xml:space="preserve">
+    <value>боекомплект будет выгружен на Склад</value>
+  </data>
+  <data name="tradeInConfirmation/submit" xml:space="preserve">
+    <value>Обменять</value>
+  </data>
+  <data name="tradeInConfirmation/title" xml:space="preserve">
+    <value>Обмен машины</value>
+  </data>
+  <data name="tradeInPopover/descr" xml:space="preserve">
+    <value>Доступная премиум техника в Ангаре</value>
+  </data>
+  <data name="tradeInPopover/sorting/nation/body" xml:space="preserve">
+    <value>Показывает нации выбранных машин.</value>
+  </data>
+  <data name="tradeInPopover/sorting/nation/header" xml:space="preserve">
+    <value>Нация</value>
+  </data>
+  <data name="tradeInPopover/sorting/saving" xml:space="preserve">
+    <value>Оценка
+машины</value>
+  </data>
+  <data name="tradeInPopover/sorting/saving/body" xml:space="preserve">
+    <value>Показывает экономию при обмене выбранных машин</value>
+  </data>
+  <data name="tradeInPopover/sorting/saving/header" xml:space="preserve">
+    <value>Оценка машины</value>
+  </data>
+  <data name="tradeInPopover/sorting/vehLvl/body" xml:space="preserve">
+    <value>Показывает уровни выбранных машин.</value>
+  </data>
+  <data name="tradeInPopover/sorting/vehLvl/header" xml:space="preserve">
+    <value>Уровень</value>
+  </data>
+  <data name="tradeInPopover/sorting/vehName/body" xml:space="preserve">
+    <value>Показывает названия выбранных машин.</value>
+  </data>
+  <data name="tradeInPopover/sorting/vehName/header" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="tradeInPopover/sorting/vehType/body" xml:space="preserve">
+    <value>Показывает типы выбранных машин.</value>
+  </data>
+  <data name="tradeInPopover/sorting/vehType/header" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="tradeInPopover/title" xml:space="preserve">
+    <value>Выбрать машину для обмена</value>
+  </data>
+  <data name="vehConf/exitDialog/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="vehConf/exitDialog/message" xml:space="preserve">
+    <value>Внесённые изменения не будут сохранены. Покинуть меню настройки машины?</value>
+  </data>
+  <data name="vehConf/exitDialog/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="vehConf/exitDialog/title" xml:space="preserve">
+    <value>Отмена изменений</value>
+  </data>
+  <data name="vehicleSellDialog/expandBtnLabel" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
+  <data name="bootcamp/retry/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="bootcamp/retry/label" xml:space="preserve">
+    <value>Повтор обучения</value>
+  </data>
+  <data name="bootcamp/retry/message" xml:space="preserve">
+    <value>При повторном прохождении Учебного полигона награда выдаваться не будет.</value>
+  </data>
+  <data name="bootcamp/retry/submit" xml:space="preserve">
+    <value>Приступить</value>
+  </data>
+  <data name="bootcamp/retry/title" xml:space="preserve">
+    <value>На полигон</value>
+  </data>
+  <data name="bootcamp/skip/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="bootcamp/skip/label" xml:space="preserve">
+    <value>Вы уверены, что хотите прервать обучение?</value>
+  </data>
+  <data name="bootcamp/skip/message" xml:space="preserve">
+    <value>Завершив обучение, вы получите дни премиум аккаунта, игровое золото и машину со 100% экипажем.</value>
+  </data>
+  <data name="bootcamp/skip/submit" xml:space="preserve">
+    <value>Покинуть</value>
+  </data>
+  <data name="bootcamp/skip/title" xml:space="preserve">
+    <value>Покинуть Учебный полигон</value>
+  </data>
+  <data name="bootcamp/start/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="bootcamp/start/label" xml:space="preserve">
+    <value>Пройти обучение</value>
+  </data>
+  <data name="bootcamp/start/message" xml:space="preserve">
+    <value>Завершив обучение, вы получите дни премиум аккаунта, игровое золото и машину со 100% экипажем.</value>
+  </data>
+  <data name="bootcamp/start/submit" xml:space="preserve">
+    <value>Приступить</value>
+  </data>
+  <data name="bootcamp/start/title" xml:space="preserve">
+    <value>На полигон</value>
+  </data>
+  <data name="bootcampCenterUnavailable/cancel" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="bootcampCenterUnavailable/message" xml:space="preserve">
+    <value>К сожалению, из-за технических работ Учебный полигон недоступен. Пожалуйста, попробуйте позже.</value>
+  </data>
+  <data name="bootcampCenterUnavailable/title" xml:space="preserve">
+    <value>Учебный полигон недоступен</value>
+  </data>
+  <data name="confirmBattleBoosterBuyAndInstall/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="confirmBattleBoosterBuyAndInstall/submit" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="confirmBattleBoosterBuyAndInstall/title" xml:space="preserve">
+    <value>Покупка и установка инструкций</value>
+  </data>
+  <data name="confirmBattleBoosterInstall/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="confirmBattleBoosterInstall/message" xml:space="preserve">
+    <value>Внимание! У вас отсутствует оборудование %(devices)s. Инструкция %(font_tag_open)sРАБОТАТЬ НЕ БУДЕТ.%(font_tag_close)s</value>
+  </data>
+  <data name="confirmBattleBoosterInstall/submit" xml:space="preserve">
+    <value>Установить</value>
+  </data>
+  <data name="confirmBattleBoosterInstall/title" xml:space="preserve">
+    <value>Установка инструкции</value>
+  </data>
+  <data name="confirmBattleBoosterInstallNotSuitable/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="confirmBattleBoosterInstallNotSuitable/message" xml:space="preserve">
+    <value>Внимание! У вас отсутствует оборудование, совместимое с выбранной инструкцией. Инструкция %(font_tag_open)sРАБОТАТЬ НЕ БУДЕТ.%(font_tag_close)s</value>
+  </data>
+  <data name="confirmBattleBoosterInstallNotSuitable/submit" xml:space="preserve">
+    <value>Установить</value>
+  </data>
+  <data name="confirmBattleBoosterInstallNotSuitable/title" xml:space="preserve">
+    <value>Установка инструкции</value>
+  </data>
+  <data name="lowAmmoAutoLoad/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="lowAmmoAutoLoad/message" xml:space="preserve">
+    <value>В боекомплекте выбранной машины недостаточно снарядов. Подтвердить выход в бой?</value>
+  </data>
+  <data name="lowAmmoAutoLoad/submit" xml:space="preserve">
+    <value>В бой!</value>
+  </data>
+  <data name="lowAmmoAutoLoad/title" xml:space="preserve">
+    <value>Выход с пустым боекомплектом</value>
+  </data>
+  <data name="recruitWindow/nationDropdown/poland" xml:space="preserve">
+    <value>Польша</value>
+  </data>
+  <data name="replayStopped/submit" xml:space="preserve">
+    <value>Закончить</value>
+  </data>
+  <data name="tankmanRetraining/undistributedExp/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="tankmanRetraining/undistributedExp/message" xml:space="preserve">
+    <value>При переобучении часть нераспределённого опыта члена экипажа будет использована для изучения основной специальности до достижения 100%</value>
+  </data>
+  <data name="tankmanRetraining/undistributedExp/submit" xml:space="preserve">
+    <value>Переобучить</value>
+  </data>
+  <data name="tankmanRetraining/undistributedExp/title" xml:space="preserve">
+    <value>Подтверждение переобучения</value>
+  </data>
+  <data name="tradeInPopover/sorting/saving/formatted" xml:space="preserve">
+    <value>Оценка
+машины</value>
+  </data>
+  <data name="vehicleSell/unique/crewLocked/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="vehicleSell/unique/crewLocked/message" xml:space="preserve">
+    <value>ВНИМАНИЕ! Данный танк является уникальным и восстановлению не подлежит. Экипаж также будет демобилизован безвозвратно.</value>
+  </data>
+  <data name="vehicleSell/unique/crewLocked/submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="vehicleSell/unique/crewLocked/title" xml:space="preserve">
+    <value>Подтверждение продажи</value>
+  </data>
+  <data name="hof/excludeRating/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="hof/excludeRating/message" xml:space="preserve">
+    <value>Ваши достижения перестанут быть доступны для просмотра другими игроками, но вы сможете включить их отображение на главной странице Зала славы.</value>
+  </data>
+  <data name="hof/excludeRating/submit" xml:space="preserve">
+    <value>Скрыть результаты</value>
+  </data>
+  <data name="hof/excludeRating/title" xml:space="preserve">
+    <value>Отображение результатов в рейтинге</value>
+  </data>
+  <data name="hofDisabled/cancel" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="hofDisabled/message" xml:space="preserve">
+    <value>Зал славы временно недоступен. Повторите попытку позже.</value>
+  </data>
+  <data name="hofDisabled/title" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="installConfirmationNotRemovable_crystal/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="installConfirmationNotRemovable_crystal/message" xml:space="preserve">
+    <value>&lt;font color="#FF0000"&gt;Сложное&lt;/font&gt; оборудование «%(name)s». В случае обычного демонтажа (например, замены на другое оборудование) будет &lt;font color="#FF0000"&gt;УНИЧТОЖЕНО&lt;/font&gt;. Может быть безопасно демонтировано и помещено на Склад за боны. Продолжить установку?</value>
+  </data>
+  <data name="installConfirmationNotRemovable_crystal/submit" xml:space="preserve">
+    <value>Установить</value>
+  </data>
+  <data name="installConfirmationNotRemovable_crystal/title" xml:space="preserve">
+    <value>Подтверждение установки</value>
+  </data>
+  <data name="installConfirmationNotRemovable_gold/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="installConfirmationNotRemovable_gold/message" xml:space="preserve">
+    <value>&lt;font color="#FF0000"&gt;Сложное&lt;/font&gt; оборудование «%(name)s». В случае обычного демонтажа (например, замены на другое оборудование) будет &lt;font color="#FF0000"&gt;УНИЧТОЖЕНО&lt;/font&gt;. Может быть безопасно демонтировано и помещено на Склад за золото. Продолжить установку?</value>
+  </data>
+  <data name="installConfirmationNotRemovable_gold/submit" xml:space="preserve">
+    <value>Установить</value>
+  </data>
+  <data name="installConfirmationNotRemovable_gold/title" xml:space="preserve">
+    <value>Подтверждение установки</value>
+  </data>
+  <data name="removeConfirmationNotRemovableMoney/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="removeConfirmationNotRemovableMoney/message" xml:space="preserve">
+    <value>Демонтировать оборудование «%(name)s» и поместить его на Склад?</value>
+  </data>
+  <data name="removeConfirmationNotRemovableMoney/messagePrice" xml:space="preserve">
+    <value>Стоимость операции:</value>
+  </data>
+  <data name="removeConfirmationNotRemovableMoney/submit" xml:space="preserve">
+    <value>Демонтировать</value>
+  </data>
+  <data name="removeConfirmationNotRemovableMoney/title" xml:space="preserve">
+    <value>Подтверждение демонтажа</value>
+  </data>
+  <data name="vehicleSellDialog/battleBoster" xml:space="preserve">
+    <value>ИНСТРУКЦИИ:</value>
+  </data>
+  <data name="elenDisabled/cancel" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="elenDisabled/message" xml:space="preserve">
+    <value>&lt;font color="#8C8C7C"&gt;Соревнования временно недоступны: ведутся профилактические работы.&lt;/font&gt;</value>
+  </data>
+  <data name="elenDisabled/title" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="leaveEvent/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="leaveEvent/message" xml:space="preserve">
+    <value>Результаты ваших боёв в соревновании будут аннулированы после обновления рейтингов. Вы не сможете попасть в рейтинг и получить награду.
+
+Покинув соревнование &lt;font color='#ff0000'&gt;ВЫ НЕ СМОЖЕТЕ ВОЗОБНОВИТЬ УЧАСТИЕ.&lt;/font&gt;</value>
+  </data>
+  <data name="leaveEvent/submit" xml:space="preserve">
+    <value>Покинуть соревнование</value>
+  </data>
+  <data name="leaveEvent/title" xml:space="preserve">
+    <value>Покинуть соревнование</value>
+  </data>
+  <data name="leaveStartedEvent/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="leaveStartedEvent/message" xml:space="preserve">
+    <value>Результаты ваших боёв не станут учитываться в этом соревновании. Вы не сможете попасть в рейтинг и получить награду.
+
+Покинув соревнование &lt;font color='#ff0000'&gt;ВЫ НЕ СМОЖЕТЕ ВОЗОБНОВИТЬ УЧАСТИЕ.&lt;/font&gt;</value>
+  </data>
+  <data name="leaveStartedEvent/submit" xml:space="preserve">
+    <value>Покинуть соревнование</value>
+  </data>
+  <data name="leaveStartedEvent/title" xml:space="preserve">
+    <value>Покинуть соревнование</value>
+  </data>
+</root>

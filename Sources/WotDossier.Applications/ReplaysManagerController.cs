@@ -4,6 +4,7 @@ using System.IO;
 using System.Reflection;
 using WotDossier.Applications.ViewModel;
 using WotDossier.Dal;
+using WotDossier.Domain;
 using WotDossier.Framework.Applications;
 using WotDossier.Framework.Forms.Commands;
 

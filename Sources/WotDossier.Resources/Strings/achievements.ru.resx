@@ -1,0 +1,2367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="achievement/maxMedalValue" xml:space="preserve">
+    <value>&gt;%s</value>
+  </data>
+  <data name="achievement/rank1" xml:space="preserve">
+    <value> I степени</value>
+  </data>
+  <data name="achievement/rank2" xml:space="preserve">
+    <value> II степени</value>
+  </data>
+  <data name="achievement/rank3" xml:space="preserve">
+    <value> III степени</value>
+  </data>
+  <data name="achievement/rank4" xml:space="preserve">
+    <value> IV степени</value>
+  </data>
+  <data name="armorPiercer" xml:space="preserve">
+    <value>«Бронебойщик»</value>
+  </data>
+  <data name="armorPiercer_descr" xml:space="preserve">
+    <value>Пробить броню противника не менее 5 раз подряд.</value>
+  </data>
+  <data name="beasthunter" xml:space="preserve">
+    <value>«Зверобой»</value>
+  </data>
+  <data name="beasthunter_descr" xml:space="preserve">
+    <value>Уничтожить 100 машин семейства кошачьих.
+Засчитываются:</value>
+  </data>
+  <data name="defender" xml:space="preserve">
+    <value>«Защитник»</value>
+  </data>
+  <data name="defender_descr" xml:space="preserve">
+    <value>Защитить базу, сбив не менее 70 очков захвата.</value>
+  </data>
+  <data name="diehard" xml:space="preserve">
+    <value>«Живучий»</value>
+  </data>
+  <data name="diehard_descr" xml:space="preserve">
+    <value>Выжить 20 боёв подряд на одной машине.</value>
+  </data>
+  <data name="handOfDeath" xml:space="preserve">
+    <value>«Коса Смерти»</value>
+  </data>
+  <data name="handOfDeath_descr" xml:space="preserve">
+    <value>Уничтожить подряд не менее трёх машин противника, затратив на вторую и последующие по одному снаряду.</value>
+  </data>
+  <data name="invader" xml:space="preserve">
+    <value>«Захватчик»</value>
+  </data>
+  <data name="invader_descr" xml:space="preserve">
+    <value>Получить наибольшее количество очков захвата, но не менее 80.</value>
+  </data>
+  <data name="invincible" xml:space="preserve">
+    <value>«Неуязвимый»</value>
+  </data>
+  <data name="invincible_descr" xml:space="preserve">
+    <value>Не получить никакого урона в течение 5 боёв подряд.</value>
+  </data>
+  <data name="kamikaze" xml:space="preserve">
+    <value>«Камикадзе»</value>
+  </data>
+  <data name="kamikaze_descr" xml:space="preserve">
+    <value>Уничтожить тараном как минимум 1 машину противника.</value>
+  </data>
+  <data name="medalAbrams" xml:space="preserve">
+    <value>Медаль Абрамса %(rank)s</value>
+  </data>
+  <data name="medalAbrams_descr" xml:space="preserve">
+    <value>За количество победных боёв, в которых игрок остался жив.</value>
+  </data>
+  <data name="medalBillotte" xml:space="preserve">
+    <value>Медаль Бийота</value>
+  </data>
+  <data name="medalBillotte_descr" xml:space="preserve">
+    <value>Уничтожить 2 машины противника, получив 5 разных повреждений модулей или ранений экипажа, потеряв при этом 80% прочности.</value>
+  </data>
+  <data name="medalBurda" xml:space="preserve">
+    <value>Медаль Бурды</value>
+  </data>
+  <data name="medalBurda_descr" xml:space="preserve">
+    <value>Уничтожить 3 САУ противника в одном бою.</value>
+  </data>
+  <data name="medalCarius" xml:space="preserve">
+    <value>Медаль Кариуса %(rank)s</value>
+  </data>
+  <data name="medalCarius_descr" xml:space="preserve">
+    <value>За количество уничтоженной техники противника.</value>
+  </data>
+  <data name="medalEkins" xml:space="preserve">
+    <value>Медаль Экинса %(rank)s</value>
+  </data>
+  <data name="medalEkins_descr" xml:space="preserve">
+    <value>За количество уничтоженной техники противника VIII–X уровней.</value>
+  </data>
+  <data name="medalFadin" xml:space="preserve">
+    <value>Медаль Фадина</value>
+  </data>
+  <data name="medalFadin_descr" xml:space="preserve">
+    <value>Уничтожить последним снарядом последнюю машину противника.</value>
+  </data>
+  <data name="medalHalonen" xml:space="preserve">
+    <value>Медаль Халонена</value>
+  </data>
+  <data name="medalHalonen_descr" xml:space="preserve">
+    <value>Уничтожить не менее 2 танков или ПТ-САУ противника в одном бою, управляя ПТ-САУ.</value>
+  </data>
+  <data name="medalKay" xml:space="preserve">
+    <value>Медаль Кея %(rank)s</value>
+  </data>
+  <data name="medalKay_descr" xml:space="preserve">
+    <value>За получение статуса «Герой битвы».</value>
+  </data>
+  <data name="medalKnispel" xml:space="preserve">
+    <value>Медаль Книспеля %(rank)s</value>
+  </data>
+  <data name="medalKnispel_descr" xml:space="preserve">
+    <value>За суммарное количество нанесённого и полученного урона.</value>
+  </data>
+  <data name="medalKolobanov" xml:space="preserve">
+    <value>Медаль Колобанова</value>
+  </data>
+  <data name="medalKolobanov_descr" xml:space="preserve">
+    <value>Победить в бою, оставшись в одиночку против 5 и более машин противника.</value>
+  </data>
+  <data name="medalLavrinenko" xml:space="preserve">
+    <value>Медаль Лавриненко %(rank)s</value>
+  </data>
+  <data name="medalLavrinenko_descr" xml:space="preserve">
+    <value>За суммарное количество сбитых очков захвата базы.</value>
+  </data>
+  <data name="medalLeClerc" xml:space="preserve">
+    <value>Медаль Леклерка %(rank)s</value>
+  </data>
+  <data name="medalLeClerc_descr" xml:space="preserve">
+    <value>За суммарное количество очков захвата базы.</value>
+  </data>
+  <data name="medalOrlik" xml:space="preserve">
+    <value>Медаль Орлика</value>
+  </data>
+  <data name="medalOrlik_descr" xml:space="preserve">
+    <value>Уничтожить не менее 2 танков или ПТ-САУ противника в одном бою, управляя лёгким танком.</value>
+  </data>
+  <data name="medalOskin" xml:space="preserve">
+    <value>Медаль Оськина</value>
+  </data>
+  <data name="medalOskin_descr" xml:space="preserve">
+    <value>Уничтожить 3 танка или ПТ-САУ противника в одном бою, управляя средним танком.</value>
+  </data>
+  <data name="medalPoppel" xml:space="preserve">
+    <value>Медаль Попеля %(rank)s</value>
+  </data>
+  <data name="medalPoppel_descr" xml:space="preserve">
+    <value>За количество обнаруженной техники противника.</value>
+  </data>
+  <data name="medalWittmann" xml:space="preserve">
+    <value>Медаль Бёльтера</value>
+  </data>
+  <data name="medalWittmann_descr" xml:space="preserve">
+    <value>Уничтожить не менее 7 машин противника на танке или ПТ-САУ либо не менее 10 на САУ.</value>
+  </data>
+  <data name="mousebane" xml:space="preserve">
+    <value>«Гроза Мышей»</value>
+  </data>
+  <data name="mousebane_descr" xml:space="preserve">
+    <value>Уничтожить 10 танков Pz.Kpfw. VIII Maus.</value>
+  </data>
+  <data name="raider" xml:space="preserve">
+    <value>«Рейдер»</value>
+  </data>
+  <data name="raider_descr" xml:space="preserve">
+    <value>В одиночку захватить базу противника, не будучи обнаруженным в ходе боя.</value>
+  </data>
+  <data name="scout" xml:space="preserve">
+    <value>«Разведчик»</value>
+  </data>
+  <data name="scout_descr" xml:space="preserve">
+    <value>Обнаружить не менее 9 машин противника.</value>
+  </data>
+  <data name="sniper" xml:space="preserve">
+    <value>«Снайпер»</value>
+  </data>
+  <data name="sniper_descr" xml:space="preserve">
+    <value>Произвести не менее 85% попаданий по противнику, сделав не менее 10 выстрелов с потенциальным уроном не менее 1 000 единиц.</value>
+  </data>
+  <data name="steelwall" xml:space="preserve">
+    <value>«Стальная cтена»</value>
+  </data>
+  <data name="steelwall_descr" xml:space="preserve">
+    <value>Получить наибольшее количество единиц заблокированного бронёй урона.</value>
+  </data>
+  <data name="supporter" xml:space="preserve">
+    <value>«Поддержка»</value>
+  </data>
+  <data name="supporter_descr" xml:space="preserve">
+    <value>Нанести урон или критические попадания наибольшему количеству машин противника, но не менее 6.</value>
+  </data>
+  <data name="tankExpert" xml:space="preserve">
+    <value>«Эксперт»</value>
+  </data>
+  <data name="tankExpert_descr" xml:space="preserve">
+    <value>Уничтожить всю технику из Дерева исследований каждой нации, исключая премиум и наградные машины.
+• Засчитывается техника, уничтоженная в Случайных, Командных и Ротных боях, в Наступлениях, на Глобальной карте, а также в Учебном бою (первые 10 боёв).</value>
+  </data>
+  <data name="titleSniper" xml:space="preserve">
+    <value>«Стрелок»</value>
+  </data>
+  <data name="titleSniper_descr" xml:space="preserve">
+    <value>Попасть в противника не менее 10 раз подряд.</value>
+  </data>
+  <data name="warrior" xml:space="preserve">
+    <value>«Воин»</value>
+  </data>
+  <data name="warrior_descr" xml:space="preserve">
+    <value>Уничтожить машин противника:</value>
+  </data>
+  <data name="achievement/master1" xml:space="preserve">
+    <value>3 степень</value>
+  </data>
+  <data name="achievement/master2" xml:space="preserve">
+    <value>2 степень</value>
+  </data>
+  <data name="achievement/master3" xml:space="preserve">
+    <value>1 степень</value>
+  </data>
+  <data name="achievement/master4" xml:space="preserve">
+    <value>Мастер</value>
+  </data>
+  <data name="markOfMastery" xml:space="preserve">
+    <value>Знак классности «%(name)s»</value>
+  </data>
+  <data name="markOfMasteryContent" xml:space="preserve">
+    <value>Присваивается игроку за мастерство владения&lt;br/&gt;боевой машиной. Для присвоения необходимо&lt;br/&gt;заработать больше опыта за бой, чем средний&lt;br/&gt;максимальный опыт за предыдущие 7 дней&lt;br/&gt;у %(val)s игроков на данной машине.</value>
+  </data>
+  <data name="markOfMasteryContent/1" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="markOfMasteryContent/1/info" xml:space="preserve">
+    <value>50% — 3 степень</value>
+  </data>
+  <data name="markOfMasteryContent/2" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="markOfMasteryContent/2/info" xml:space="preserve">
+    <value>80% — 2 степень</value>
+  </data>
+  <data name="markOfMasteryContent/3" xml:space="preserve">
+    <value>95</value>
+  </data>
+  <data name="markOfMasteryContent/3/info" xml:space="preserve">
+    <value>95% — 1 степень</value>
+  </data>
+  <data name="markOfMasteryContent/4" xml:space="preserve">
+    <value>99</value>
+  </data>
+  <data name="markOfMasteryContent/4/info" xml:space="preserve">
+    <value>99% — Мастер</value>
+  </data>
+  <data name="whiteTiger" xml:space="preserve">
+    <value>«Белый Тигр»</value>
+  </data>
+  <data name="whiteTiger_descr" xml:space="preserve">
+    <value>Уничтожить танк-призрак «Белый Тигр».</value>
+  </data>
+  <data name="heroesOfRassenay" xml:space="preserve">
+    <value>Медаль героев Расейняя</value>
+  </data>
+  <data name="heroesOfRassenay_descr" xml:space="preserve">
+    <value>Уничтожить машин противника:</value>
+  </data>
+  <data name="mechanicEngineer" xml:space="preserve">
+    <value>«Старший инженер-механик»</value>
+  </data>
+  <data name="mechanicEngineer0" xml:space="preserve">
+    <value>«Инженер-механик: СССР»</value>
+  </data>
+  <data name="mechanicEngineer0_descr" xml:space="preserve">
+    <value>Исследовать всю технику в Дереве исследований СССР.</value>
+  </data>
+  <data name="mechanicEngineer1" xml:space="preserve">
+    <value>«Инженер-механик: Германия»</value>
+  </data>
+  <data name="mechanicEngineer1_descr" xml:space="preserve">
+    <value>Исследовать всю технику в Дереве исследований Германии.</value>
+  </data>
+  <data name="mechanicEngineer2" xml:space="preserve">
+    <value>«Инженер-механик: США»</value>
+  </data>
+  <data name="mechanicEngineer2_descr" xml:space="preserve">
+    <value>Исследовать всю технику в Дереве исследований США.</value>
+  </data>
+  <data name="mechanicEngineer4" xml:space="preserve">
+    <value>«Инженер-механик: Франция»</value>
+  </data>
+  <data name="mechanicEngineer4_descr" xml:space="preserve">
+    <value>Исследовать всю технику в Дереве исследований Франции.</value>
+  </data>
+  <data name="mechanicEngineer5" xml:space="preserve">
+    <value>«Инженер-механик: Великобритания»</value>
+  </data>
+  <data name="mechanicEngineer5_descr" xml:space="preserve">
+    <value>Исследовать всю технику в Дереве исследований Великобритании.</value>
+  </data>
+  <data name="mechanicEngineer_descr" xml:space="preserve">
+    <value>Исследовать технику всех наций.</value>
+  </data>
+  <data name="medalAbrams_heroInfo" xml:space="preserve">
+    <value>Крейтон Абрамс — генерал, командовавший бронетанковыми соединениями армии США в ходе Второй мировой и Вьетнамской войн. Завоевал репутацию агрессивного и удачливого командира.</value>
+  </data>
+  <data name="medalBrunoPietro" xml:space="preserve">
+    <value>Медаль Бруно</value>
+  </data>
+  <data name="medalBrunoPietro_descr" xml:space="preserve">
+    <value>Уничтожить 3-4 машины противника, получив 5 разных повреждений модулей или ранений экипажа, потеряв при этом 80% прочности.</value>
+  </data>
+  <data name="medalCarius_heroInfo" xml:space="preserve">
+    <value>Отто Кариус — один из наиболее результативных танкистов-асов Второй мировой войны. Воевал на Pz.Kpfw. 38(t), Pz.Kpfw. VI Tiger и на ПТ-САУ Jagdtiger.</value>
+  </data>
+  <data name="medalDumitru" xml:space="preserve">
+    <value>Медаль Думитру</value>
+  </data>
+  <data name="medalDumitru_descr" xml:space="preserve">
+    <value>Уничтожить 3 САУ противника в одном бою.</value>
+  </data>
+  <data name="medalEkins_heroInfo" xml:space="preserve">
+    <value>Джой Экинс — рядовой Нортгемптонширского подразделения британской Территориальной Армии. Ряд источников приписывает Экинсу уничтожение знаменитого танкового аса Михаэля Виттмана.</value>
+  </data>
+  <data name="medalKay_heroInfo" xml:space="preserve">
+    <value>Дуглас Кей — сержант британской армии, стрелок танка Sherman Firefly, участник высадки союзников в Нормандии. Широко известен как популяризатор и пропагандист истории танковой войны.</value>
+  </data>
+  <data name="medalKnispel_heroInfo" xml:space="preserve">
+    <value>Курт Книспель — немецкий танкист-ас Второй мировой войны, принимавший участие в боях на Западном и Восточном фронтах. Воевал на Pz.Kpfw. II, Pz.Kpfw. III, Pz.Kpfw. IV, Pz.Kpfw. VI Tiger и Pz.Kpfw. VI Ausf. B Tiger II.</value>
+  </data>
+  <data name="medalLafayettePool" xml:space="preserve">
+    <value>Медаль Пула</value>
+  </data>
+  <data name="medalLafayettePool_descr" xml:space="preserve">
+    <value>Уничтожить машин противника:</value>
+  </data>
+  <data name="medalLavrinenko_heroInfo" xml:space="preserve">
+    <value>Дмитрий Фёдорович Лавриненко — советский танковый ас, Герой Советского Союза, гвардии старший лейтенант. Признан наиболее результативным советским танкистом — за два с половиной месяца уничтожил пятьдесят два танка в двадцати восьми боях.</value>
+  </data>
+  <data name="medalLeClerc_heroInfo" xml:space="preserve">
+    <value>Жак-Филипп Леклерк в ходе Второй мировой войны — генерал сил Свободной Франции, один из разработчиков операции по освобождению Парижа.</value>
+  </data>
+  <data name="medalLehvaslaiho" xml:space="preserve">
+    <value>Медаль Лехвеслайхо</value>
+  </data>
+  <data name="medalLehvaslaiho_descr" xml:space="preserve">
+    <value>Уничтожить 2 танка или ПТ-САУ противника в одном бою, управляя средним танком.</value>
+  </data>
+  <data name="medalNikolas" xml:space="preserve">
+    <value>Медаль Николса</value>
+  </data>
+  <data name="medalNikolas_descr" xml:space="preserve">
+    <value>Уничтожить не менее 4 танков или ПТ-САУ противника в одном бою, управляя средним танком.</value>
+  </data>
+  <data name="medalPascucci" xml:space="preserve">
+    <value>Медаль Паскуччи</value>
+  </data>
+  <data name="medalPascucci_descr" xml:space="preserve">
+    <value>Уничтожить 2 САУ противника в одном бою.</value>
+  </data>
+  <data name="medalPoppel_heroInfo" xml:space="preserve">
+    <value>Николай Кириллович Попель — генерал-лейтенант танковых войск, советский военачальник и политработник. Во время сражения под Дубно (Украина) летом 1941 г. организовал рейд по тылам противника на захваченной бронетехнике.</value>
+  </data>
+  <data name="medalRadleyWalters" xml:space="preserve">
+    <value>Медаль Рэдли-Уолтерса</value>
+  </data>
+  <data name="medalRadleyWalters_descr" xml:space="preserve">
+    <value>Уничтожить машин противника:</value>
+  </data>
+  <data name="medalTarczay" xml:space="preserve">
+    <value>Медаль Тарцая</value>
+  </data>
+  <data name="medalTarczay_descr" xml:space="preserve">
+    <value>Уничтожить 5 машин противника, получив 5 разных повреждений модулей или ранений экипажа, потеряв при этом 80% прочности.</value>
+  </data>
+  <data name="sinai" xml:space="preserve">
+    <value>«Лев Синая»</value>
+  </data>
+  <data name="sinai_descr" xml:space="preserve">
+    <value>Уничтожить 100 танков ИС или машин на их базе.
+Засчитываются:</value>
+  </data>
+  <data name="tankExpert0" xml:space="preserve">
+    <value>«Эксперт: СССР»</value>
+  </data>
+  <data name="tankExpert0_descr" xml:space="preserve">
+    <value>Уничтожить всю технику из Дерева исследований СССР, исключая премиум и наградные машины.
+• Засчитывается техника, уничтоженная в Случайных, Командных и Ротных боях, в Наступлениях, на Глобальной карте, а также в Учебном бою (первые 10 боёв).</value>
+  </data>
+  <data name="tankExpert1" xml:space="preserve">
+    <value>«Эксперт: Германия»</value>
+  </data>
+  <data name="tankExpert1_descr" xml:space="preserve">
+    <value>Уничтожить всю технику из Дерева исследований Германии, исключая премиум и наградные машины.
+• Засчитывается техника, уничтоженная в Случайных, Командных и Ротных боях, в Наступлениях, на Глобальной карте, а также в Учебном бою (первые 10 боёв).</value>
+  </data>
+  <data name="tankExpert2" xml:space="preserve">
+    <value>«Эксперт: США»</value>
+  </data>
+  <data name="tankExpert2_descr" xml:space="preserve">
+    <value>Уничтожить всю технику из Дерева исследований США, исключая премиум и наградные машины.
+• Засчитывается техника, уничтоженная в Случайных, Командных и Ротных боях, в Наступлениях, на Глобальной карте, а также в Учебном бою (первые 10 боёв).</value>
+  </data>
+  <data name="tankExpert4" xml:space="preserve">
+    <value>«Эксперт: Франция»</value>
+  </data>
+  <data name="tankExpert4_descr" xml:space="preserve">
+    <value>Уничтожить всю технику из Дерева исследований Франции, исключая премиум и наградные машины.
+• Засчитывается техника, уничтоженная в Случайных, Командных и Ротных боях, в Наступлениях, на Глобальной карте, а также в Учебном бою (первые 10 боёв).</value>
+  </data>
+  <data name="tankExpert5" xml:space="preserve">
+    <value>«Эксперт: Великобритания»</value>
+  </data>
+  <data name="tankExpert5_descr" xml:space="preserve">
+    <value>Уничтожить всю технику из Дерева исследований Великобритании, исключая премиум и наградные машины.
+• Засчитывается техника, уничтоженная в Случайных, Командных и Ротных боях, в Наступлениях, на Глобальной карте, а также в Учебном бою (первые 10 боёв).</value>
+  </data>
+  <data name="bombardier" xml:space="preserve">
+    <value>«Бомбардир»</value>
+  </data>
+  <data name="bombardier_descr" xml:space="preserve">
+    <value>Уничтожить одним снарядом не менее 2 машин противника.</value>
+  </data>
+  <data name="evileye" xml:space="preserve">
+    <value>«Дозорный»</value>
+  </data>
+  <data name="evileye_descr" xml:space="preserve">
+    <value>Предоставить разведданные, обеспечившие повреждение союзниками не менее 6 машин противника.</value>
+  </data>
+  <data name="medalBrothersInArms" xml:space="preserve">
+    <value>«Братья по оружию»</value>
+  </data>
+  <data name="medalBrothersInArms_descr" xml:space="preserve">
+    <value>Каждый игрок взвода должен уничтожить не менее 3 машин противника.</value>
+  </data>
+  <data name="medalCrucialContribution" xml:space="preserve">
+    <value>«Решающий вклад»</value>
+  </data>
+  <data name="medalCrucialContribution_descr" xml:space="preserve">
+    <value>Взвод должен уничтожить не менее 12 машин противника.</value>
+  </data>
+  <data name="medalDeLanglade" xml:space="preserve">
+    <value>Медаль де Ланглада</value>
+  </data>
+  <data name="medalDeLanglade_descr" xml:space="preserve">
+    <value>Уничтожить не менее 4 машин противника, захватывающих базу в одном бою.</value>
+  </data>
+  <data name="medalTamadaYoshio" xml:space="preserve">
+    <value>Медаль Йошио Тамада</value>
+  </data>
+  <data name="medalTamadaYoshio_descr" xml:space="preserve">
+    <value>Уничтожить не менее 2 САУ противника в одном бою, управляя лёгким танком.</value>
+  </data>
+  <data name="alaric" xml:space="preserve">
+    <value>«Аларих»</value>
+  </data>
+  <data name="alaric_descr" xml:space="preserve">
+    <value>Присуждается игроку победившей команды, который уничтожил не менее 2-х противников, разрушив при этом хотя бы один памятник.</value>
+  </data>
+  <data name="huntsman" xml:space="preserve">
+    <value>Медаль Найдина</value>
+  </data>
+  <data name="huntsman_descr" xml:space="preserve">
+    <value>Уничтожить все лёгкие танки противника в одном бою, но не менее 3.</value>
+  </data>
+  <data name="ironMan" xml:space="preserve">
+    <value>«Невозмутимый»</value>
+  </data>
+  <data name="ironMan_descr" xml:space="preserve">
+    <value>Получить подряд не менее 10 рикошетов и непробитий от противника.</value>
+  </data>
+  <data name="luckyDevil" xml:space="preserve">
+    <value>«Счастливчик»</value>
+  </data>
+  <data name="luckyDevil_descr" xml:space="preserve">
+    <value>Находиться на расстоянии не более 10 метров от машины противника в момент её уничтожения прямым выстрелом игрока его собственной команды.</value>
+  </data>
+  <data name="lumberjack" xml:space="preserve">
+    <value>«Лесоруб»</value>
+  </data>
+  <data name="lumberjack_descr" xml:space="preserve">
+    <value>Присуждается игроку победившей команды, который уничтожил не менее 3-х противников, повалив при этом не менее 30 деревьев.</value>
+  </data>
+  <data name="mechanicEngineer3" xml:space="preserve">
+    <value>«Инженер-механик: Китай»</value>
+  </data>
+  <data name="mechanicEngineer3_descr" xml:space="preserve">
+    <value>Исследовать всю технику в Дереве исследований Китая.</value>
+  </data>
+  <data name="pattonValley" xml:space="preserve">
+    <value>«Долина Паттонов»</value>
+  </data>
+  <data name="pattonValley_descr" xml:space="preserve">
+    <value>Уничтожить 100 танков Patton.
+Засчитываются:</value>
+  </data>
+  <data name="sturdy" xml:space="preserve">
+    <value>«Спартанец»</value>
+  </data>
+  <data name="sturdy_descr" xml:space="preserve">
+    <value>Получить рикошет или непробитие от противника при прочности техники менее 10%.</value>
+  </data>
+  <data name="tankExpert3" xml:space="preserve">
+    <value>«Эксперт: Китай»</value>
+  </data>
+  <data name="tankExpert3_descr" xml:space="preserve">
+    <value>Уничтожить всю технику из Дерева исследований Китая, исключая премиум и наградные машины.
+• Засчитывается техника, уничтоженная в Случайных, Командных и Ротных боях, в Наступлениях, на Глобальной карте, а также в Учебном бою (первые 10 боёв).</value>
+  </data>
+  <data name="achievement/rank" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="globalRating" xml:space="preserve">
+    <value>Личный рейтинг</value>
+  </data>
+  <data name="globalRating_descr" xml:space="preserve">
+    <value>Личный рейтинг — показатель игровых навыков и опытности, при расчёте которого учитываются:
+
+• Победы
+• Урон, нанесённый с вашей помощью
+• Средний урон за бой
+• Средний опыт за бой
+• Выживаемость
+
+Значение личного рейтинга уточняется с увеличением количества проведённых боёв.</value>
+  </data>
+  <data name="armorPiercer_condition" xml:space="preserve">
+    <value>• Серия прерывается непробитием, рикошетом или промахом.
+• Серия ведётся для каждой машины отдельно и может продолжиться в следующем бою на этой же машине.
+• В общий зачёт идёт максимальная серия.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="beasthunter_condition" xml:space="preserve">
+    <value>• Pz.Kpfw.&amp;nbsp;V&amp;nbsp;Panther, Panther&amp;nbsp;II, Panther-M10, Panther&amp;nbsp;mit&amp;nbsp;8,8&amp;nbsp;cm&amp;nbsp;L/71, Jagdpanther, Jagdpanther&amp;nbsp;II, GW&amp;nbsp;Panther
+
+• Pz.Kpfw.&amp;nbsp;VI&amp;nbsp;Tiger,Pz.Kpfw.&amp;nbsp;VI&amp;nbsp;Tiger&amp;nbsp;(P), Pz.Kpfw.&amp;nbsp;VI&amp;nbsp;Ausf.&amp;nbsp;B&amp;nbsp;Tiger&amp;nbsp;II, Jagdtiger, 8.8&amp;nbsp;cm&amp;nbsp;Pak43&amp;nbsp;JagdTiger, GW&amp;nbsp;Tiger, GW&amp;nbsp;Tiger&amp;nbsp;(P), Tiger 131
+
+• Löwe
+
+• Leopard&amp;nbsp;prototyp&amp;nbsp;A, Leopard&amp;nbsp;1
+
+• Засчитывается сумма результатов по всем машинам.
+• В общем зачёте повторно полученные награды суммируются.
+• Засчитывается техника, уничтоженная в Случайных, Командных, Ранговых и Ротных боях, а также в Наступлениях и на Глобальной карте.</value>
+  </data>
+  <data name="bombardier_condition" xml:space="preserve">
+    <value>• Засчитывается сумма результатов по всем машинам.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="defender_condition" xml:space="preserve">
+    <value>• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="diehard_condition" xml:space="preserve">
+    <value>• Серия ведётся для каждой машины отдельно и может продолжиться в следующем бою на этой же машине.
+• В общий зачёт идёт максимальная серия.
+• Бои на САУ не засчитываются.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="evileye_condition" xml:space="preserve">
+    <value>• Засчитываются цели, разведданные по которым в момент их повреждения передавал только один игрок.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="handOfDeath_condition" xml:space="preserve">
+    <value>• Серия ведётся для каждой машины отдельно и может продолжиться в следующем бою на этой же машине.
+• В общий зачёт идёт максимальная серия.
+• Выдаётся в момент окончания очередной рекордной серии.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="heroesOfRassenay_condition" xml:space="preserve">
+    <value>• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="heroesOfRassenay_heroInfo" xml:space="preserve">
+    <value>В июне 1941 года под городом Расейняй (Литва) произошло столкновение между частями немецкой 6-й танковой дивизии и танками КВ 3-го мехкорпуса. В сражении участвовали около двадцати советских и ста немецких танков. Несмотря на поддержку артиллерии и пехоты, немецкие войска понесли большие потери. Один из танков КВ сумел более чем на сутки перерезать немецкие коммуникации.</value>
+  </data>
+  <data name="huntsman_condition" xml:space="preserve">
+    <value>• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="invader_condition" xml:space="preserve">
+    <value>• Выиграть бой захватом базы.
+• Засчитываются только очки, обеспечившие захват.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="invincible_condition" xml:space="preserve">
+    <value>• Серия ведётся для каждой машины отдельно и может продолжиться в следующем бою на этой же машине.
+• В общий зачёт идёт максимальная серия.
+• Бои на САУ не засчитываются.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="ironMan_condition" xml:space="preserve">
+    <value>• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="kamikaze_condition" xml:space="preserve">
+    <value>• Машина противника должна быть выше уровнем.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="luckyDevil_condition" xml:space="preserve">
+    <value>• Выдаётся также, если находиться на расстоянии не более 10 метров от машины противника в момент её уничтожения артобстрелом или авиаударом его собственной команды в режиме «Укрепрайон: сражения».
+• Выдаётся только в Случайных боях, Вылазках и Наступлениях.</value>
+  </data>
+  <data name="mechanicEngineer0_condition" xml:space="preserve">
+    <value>• Неисследованные модули не являются препятствием.</value>
+  </data>
+  <data name="mechanicEngineer1_condition" xml:space="preserve">
+    <value>• Неисследованные модули не являются препятствием.</value>
+  </data>
+  <data name="mechanicEngineer2_condition" xml:space="preserve">
+    <value>• Неисследованные модули не являются препятствием.</value>
+  </data>
+  <data name="mechanicEngineer3_condition" xml:space="preserve">
+    <value>• Неисследованные модули не являются препятствием.</value>
+  </data>
+  <data name="mechanicEngineer4_condition" xml:space="preserve">
+    <value>• Неисследованные модули не являются препятствием.</value>
+  </data>
+  <data name="mechanicEngineer5_condition" xml:space="preserve">
+    <value>• Неисследованные модули не являются препятствием.</value>
+  </data>
+  <data name="medalBillotte_condition" xml:space="preserve">
+    <value>• Победить в бою.
+• Выжить в бою.
+• Учёт уничтоженных машин противника начинается после получения всех перечисленных повреждений.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalBillotte_heroInfo" xml:space="preserve">
+    <value>Пьер Бийот — капитан французской армии, в ходе боя 16 мая 1940 г. уничтоживший на B1 bis два Pz.Kpfw. IV, одиннадцать Pz.Kpfw. III и два орудия.</value>
+  </data>
+  <data name="medalBrothersInArms_condition" xml:space="preserve">
+    <value>• Взвод должен выжить в бою.
+• Выдаётся всем игрокам взвода.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalBrunoPietro_condition" xml:space="preserve">
+    <value>• Победить в бою.
+• Выжить в бою.
+• Учёт уничтоженных машин противника начинается после получения всех перечисленных повреждений.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalBrunoPietro_heroInfo" xml:space="preserve">
+    <value>Пьетро Бруно — итальянский офицер, танкист. Кавалер высшей награды Италии за подвиг на поле боя — золотой медали «За воинскую доблесть».</value>
+  </data>
+  <data name="medalBurda_condition" xml:space="preserve">
+    <value>• Управлять танком или ПТ-САУ.
+• Уничтоженная техника должна превосходить машину игрока как минимум на 1 уровень.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalBurda_heroInfo" xml:space="preserve">
+    <value>Александр Фёдорович Бурда — советский танковый ас, Герой Советского Союза, гвардии подполковник. 4 октября 1941 г. организовал засаду, в результате которой была разгромлена колонна противника, в том числе десять средних и лёгких танков, два тягача с ПТ-орудиями, пять автомашин с пехотой.</value>
+  </data>
+  <data name="medalCrucialContribution_condition" xml:space="preserve">
+    <value>• Выдаётся всем игрокам взвода.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalDeLanglade_condition" xml:space="preserve">
+    <value>• Противник должен находиться в кругу захвата базы.
+• Захват может быть как последовательным, так и одновременным.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalDeLanglade_heroInfo" xml:space="preserve">
+    <value>Поль де Ланглад — во время Второй мировой войны подполковник, а с сентября 1943 года полковник французской армии, воевал в составе 2-й бронетанковой дивизии генерала Леклерка. В бою у г. Домпэр (Франция) 12-13 сентября 1944 года боевая тактическая группа под командованием де Ланглада почти полностью уничтожила 112-ю панцербригаду. После боя из 45 «Пантер» осталось всего 4 танка.</value>
+  </data>
+  <data name="medalDumitru_condition" xml:space="preserve">
+    <value>• Управлять танком или ПТ-САУ.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalDumitru_heroInfo" xml:space="preserve">
+    <value>Ион С. Думитру — румынский танковый ас. Участвовал во Второй мировой войне в течение всего двадцати пяти дней. Из них пять дней он воевал на стороне Германии и двадцать — в составе советской 27-й танковой бригады. 26 марта 1945 г. подразделение, в составе которого был Думитру, уничтожило шесть немецких противотанковых орудий и захватило батарею 15-см гаубиц.</value>
+  </data>
+  <data name="medalFadin_condition" xml:space="preserve">
+    <value>• Если противник уничтожен пожаром, вызванным попаданием последнего снаряда, медаль также выдаётся.
+• При стрельбе из автоматических пушек и пулемётов противник должен быть уничтожен последним снарядом в очереди.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalFadin_heroInfo" xml:space="preserve">
+    <value>Александр Михайлович Фадин — командир Т-34. Одним танком, при поддержке взвода пехоты, захватил и удерживал с. Дашуковка (Украина) в течение пяти часов, уничтожив при этом один танк, одну САУ, 18 пулемётных точек, до 50 солдат и офицеров противника, а также сумел сбить самолёт выстрелом из орудия.</value>
+  </data>
+  <data name="medalHalonen_condition" xml:space="preserve">
+    <value>• Уничтоженная техника должна превосходить ПТ-САУ игрока как минимум на 2 уровня.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalHalonen_heroInfo" xml:space="preserve">
+    <value>Эркки Халонен — танковый ас, сержант финской армии. В ходе боёв в июне – июле 1944 г. на StuG III уничтожил три Т-34, два КВ-1 и две ИСУ-152.</value>
+  </data>
+  <data name="medalKolobanov_condition" xml:space="preserve">
+    <value>• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalKolobanov_heroInfo" xml:space="preserve">
+    <value>Зиновий Григорьевич Колобанов — советский танкист-ас, подполковник. В бою 19 августа 1941 года на КВ-1 уничтожил двадцать два немецких танка, два орудия и два бронетранспортёра.</value>
+  </data>
+  <data name="medalLafayettePool_condition" xml:space="preserve">
+    <value>• Управлять техникой V уровня и выше.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalLafayettePool_heroInfo" xml:space="preserve">
+    <value>Лафайет Дж. Пул — американский танковый ас. За время участия в боевых действиях подбил и уничтожил 258 немецких бронемашин и автомобилей.</value>
+  </data>
+  <data name="medalLavrinenko_condition" xml:space="preserve">
+    <value>• Засчитывается не более 100 очков за бой.</value>
+  </data>
+  <data name="medalLeClerc_condition" xml:space="preserve">
+    <value>• Победить в бою.
+• Засчитываются все очки захвата, набранные за один бой.</value>
+  </data>
+  <data name="medalLehvaslaiho_condition" xml:space="preserve">
+    <value>• Уничтоженная техника должна превосходить танк игрока как минимум на 1 уровень.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalLehvaslaiho_heroInfo" xml:space="preserve">
+    <value>Рейно Лехвеслайхо — сержант танковой бригады финской танковой дивизии. Подбил семь танков и ПТ-САУ.</value>
+  </data>
+  <data name="medalNikolas_condition" xml:space="preserve">
+    <value>• Уничтоженная техника должна превосходить танк игрока как минимум на 1 уровень.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalNikolas_heroInfo" xml:space="preserve">
+    <value>Элфи Николс — английский танковый снайпер. За один день битвы при Эль-Аламейне (Египет) уничтожил девять немецких танков. Всего в ходе битвы подбил четырнадцать танков противника.</value>
+  </data>
+  <data name="medalOrlik_condition" xml:space="preserve">
+    <value>• Уничтоженная техника должна превосходить танк игрока как минимум на 1 уровень.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalOrlik_heroInfo" xml:space="preserve">
+    <value>Роман Эдмунд Орлик — танковый ас, сержант польской армии. За сентябрь 1939 г., сражаясь на танкетке TKS, подбил тринадцать немецких танков.</value>
+  </data>
+  <data name="medalOskin_condition" xml:space="preserve">
+    <value>• Уничтоженная техника должна превосходить танк игрока как минимум на 1 уровень.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalOskin_heroInfo" xml:space="preserve">
+    <value>Александр Петрович Оськин — командир танка, Герой Советского Союза. 11 августа 1944 г., находясь в разведке у Оглендува (Польша), уничтожил три Tiger II на Т-34.</value>
+  </data>
+  <data name="medalPascucci_condition" xml:space="preserve">
+    <value>• Управлять танком или ПТ-САУ.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalPascucci_heroInfo" xml:space="preserve">
+    <value>Луиджи Арбиб Паскуччи — итальянский танковый ас. Командир 10-го танкового взвода 132-го танкового полка 132-й танковой дивизии Ariete. Во время второго сражения при Эль-Аламейне возглавил контратаку, в результате которой британские войска понесли существенные потери.</value>
+  </data>
+  <data name="medalRadleyWalters_condition" xml:space="preserve">
+    <value>• Управлять техникой V уровня и выше.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalRadleyWalters_heroInfo" xml:space="preserve">
+    <value>Сидней Валпи Рэдли-Уолтерс — канадский танковый ас 27-го танкового полка. На танке Sherman Firefly уничтожил восемнадцать немецких танков в 1944–1945 гг.</value>
+  </data>
+  <data name="medalTamadaYoshio_condition" xml:space="preserve">
+    <value>• Выжить в бою.
+• Уничтоженная техника должна превосходить танк игрока на уровень.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalTamadaYoshio_heroInfo" xml:space="preserve">
+    <value>Йошио Тамада — полковник, командующий 4-м танковым полком Квантунской армии, который во время ночной операции 2-3 июля 1939 г. у реки Халхин-Гол уничтожил 4 батареи 122-мм гаубиц, 107-мм пушек, 76,2-мм полевых орудий, 10 бронемашин, 2 бронетранспортёра, 7 противотанковых орудий, 5 пехотных миномётов и 20 грузовиков противника.</value>
+  </data>
+  <data name="medalTarczay_condition" xml:space="preserve">
+    <value>• Победить в бою.
+• Выжить в бою.
+• Учёт уничтоженных машин противника начинается после получения всех перечисленных повреждений.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalTarczay_heroInfo" xml:space="preserve">
+    <value>Эрвин Тарцай — венгерский танковый ас. Служил во 2-й венгерской танковой дивизии, уничтожил около десяти танков.</value>
+  </data>
+  <data name="medalWittmann_condition" xml:space="preserve">
+    <value>• IV–X уровни уничтоженной техники.
+• Выдавалась до выхода обновления 0.8.0.</value>
+  </data>
+  <data name="medalWittmann_heroInfo" xml:space="preserve">
+    <value>Ганс Бёльтер — один из наиболее успешных немецких танковых асов Второй мировой войны. Участвовал в боевых действиях в Польше, Франции, Греции, на территории СССР и в Нормандии.</value>
+  </data>
+  <data name="mousebane_condition" xml:space="preserve">
+    <value>• Засчитывается сумма результатов по всем машинам.
+• В общем зачёте повторно полученные награды суммируются.
+• Засчитывается техника, уничтоженная в Случайных, Командных, Ранговых и Ротных боях, а также в Наступлениях и на Глобальной карте.</value>
+  </data>
+  <data name="pattonValley_condition" xml:space="preserve">
+    <value>	• M46 Patton
+	• M46 Patton KR
+	• M48A1 Patton III
+	• M48A2/T54E2/T123E6
+	• M60
+
+• Засчитывается сумма результатов по всем машинам.
+• В общем зачёте повторно полученные награды суммируются.
+• Засчитывается техника, уничтоженная в Случайных, Командных, Ранговых и Ротных боях, а также в Наступлениях и на Глобальной карте.</value>
+  </data>
+  <data name="raider_condition" xml:space="preserve">
+    <value>• Выиграть бой захватом базы.
+• Находиться в момент захвата в кругу базы противника.
+• Случайные попадания и повреждения машины не являются препятствием.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="scout_condition" xml:space="preserve">
+    <value>• Победить в бою.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="sinai_condition" xml:space="preserve">
+    <value>• ИС, ИС-2, ИС-3, ИС-3&amp;nbsp;с&amp;nbsp;МЗ, ИС-4, ИС-5, ИС-6, ИС-7, Кировец-1, Т-10
+
+• ИСУ-122С, ИСУ-130, ИСУ-152
+
+• Объект&amp;nbsp;252У, «Защитник», Объект&amp;nbsp;260, Объект&amp;nbsp;261, Объект&amp;nbsp;263, Объект&amp;nbsp;268, Объект&amp;nbsp;704
+
+• Учитывается только техника СССР.
+• Засчитывается сумма результатов по всем машинам.
+• В общем зачёте повторно полученные награды суммируются.
+• Засчитывается техника, уничтоженная в Случайных, Командных, Ранговых и Ротных боях, а также в Наступлениях и на Глобальной карте.</value>
+  </data>
+  <data name="sniper_condition" xml:space="preserve">
+    <value>• Непробитие засчитывалось.
+• Нельзя задевать союзников прямыми выстрелами.
+• При равном проценте попаданий награждался игрок, попавший по противнику большее количество раз.
+• При равном количестве попаданий награждался игрок, получивший больше опыта за бой.
+• Выдавалась только одна награда за бой.
+• Выдавалась только в Случайных боях.
+• Выдавалась до выхода обновления 0.8.11.</value>
+  </data>
+  <data name="steelwall_condition" xml:space="preserve">
+    <value>• Выжить в бою.
+• Получить не менее 11 попаданий.
+• Сумма заблокированного бронёй урона и полученного урона должна быть не менее 1000 единиц.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="sturdy_condition" xml:space="preserve">
+    <value>• Выжить в бою.
+• Попадания по внешним модулям не учитываются.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="supporter_condition" xml:space="preserve">
+    <value>• Засчитываются цели, которые впоследствии были уничтожены другими игроками или самоуничтожились.
+• Рикошеты и непробития не учитываются.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="titleSniper_condition" xml:space="preserve">
+    <value>• Серия прерывается промахом.
+• Серия ведётся для каждой машины отдельно и может продолжиться в следующем бою на этой же машине.
+• В общий зачёт идёт максимальная серия.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="warrior_condition" xml:space="preserve">
+    <value>• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="whiteTiger_condition" xml:space="preserve">
+    <value>• Не выдаётся с 1 июля 2012 года.</value>
+  </data>
+  <data name="huntsman_heroInfo" xml:space="preserve">
+    <value>Григорий Николаевич Найдин — сержант, командир танка БТ-7, Герой Советского Союза. 25 июня 1941 года у местечка Рудишкяй (Литва) разгромил колонну бронетехники противника, уничтожив в общей сложности 15 танков и 10 орудий передового отряда 19-й танковой дивизии Вермахта, задержав тем самым наступление немцев на двое суток, что позволило тщательно организовать оборону Вильно.</value>
+  </data>
+  <data name="mechanicEngineer6" xml:space="preserve">
+    <value>«Инженер-механик: Япония»</value>
+  </data>
+  <data name="mechanicEngineer6_condition" xml:space="preserve">
+    <value>• Неисследованные модули не являются препятствием.</value>
+  </data>
+  <data name="mechanicEngineer6_descr" xml:space="preserve">
+    <value>Исследовать всю технику в Дереве исследований Японии.</value>
+  </data>
+  <data name="tankExpert6" xml:space="preserve">
+    <value>«Эксперт: Япония»</value>
+  </data>
+  <data name="tankExpert6_descr" xml:space="preserve">
+    <value>Уничтожить всю технику из Дерева исследований Японии, исключая премиум и наградные машины.
+• Засчитывается техника, уничтоженная в Случайных, Командных и Ротных боях, в Наступлениях, на Глобальной карте, а также в Учебном бою (первые 10 боёв).</value>
+  </data>
+  <data name="armoredFist" xml:space="preserve">
+    <value>«Бронетанковый кулак»</value>
+  </data>
+  <data name="armoredFist_condition" xml:space="preserve">
+    <value>• Победить в бою.
+• Выдаётся всем членам команды.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="armoredFist_descr" xml:space="preserve">
+    <value>Уничтожить всю технику противника, потеряв при этом не более 1 машины.</value>
+  </data>
+  <data name="battleCitizen" xml:space="preserve">
+    <value>Операция «Ностальгия»</value>
+  </data>
+  <data name="battleCitizen_condition" xml:space="preserve">
+    <value>• Выдавалась всем игрокам победившей команды.
+• При уничтожении союзника награда не выдавалась.
+• Выдавалась только в Случайных боях.
+• Выдавалась только одна награда за все проведённые бои в течение первоапрельской акции 2014 года.</value>
+  </data>
+  <data name="battleCitizen_descr" xml:space="preserve">
+    <value>Победить в бою, управляя мортирой «Karl».</value>
+  </data>
+  <data name="geniusForWarMedal" xml:space="preserve">
+    <value>«Отличник боевой подготовки»</value>
+  </data>
+  <data name="geniusForWarMedal_condition" xml:space="preserve">
+    <value>• Учитываются только победные бои.
+• В общем зачёте повторно полученные награды суммируются.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="geniusForWarMedal_descr" xml:space="preserve">
+    <value>Занять 100 раз первое место по количеству заработанного за бой опыта.</value>
+  </data>
+  <data name="kingOfTheHill" xml:space="preserve">
+    <value>«Царь горы»</value>
+  </data>
+  <data name="kingOfTheHill_condition" xml:space="preserve">
+    <value>• Победить в бою.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="kingOfTheHill_descr" xml:space="preserve">
+    <value>Остаться единственным выжившим в бою, управляя танком или ПТ-САУ.</value>
+  </data>
+  <data name="mainGun" xml:space="preserve">
+    <value>«Основной калибр»</value>
+  </data>
+  <data name="mainGun_condition" xml:space="preserve">
+    <value>• Нанесённый урон должен составлять не менее 20% от суммарной прочности техники противника.
+• Нанесённый урон должен составлять не менее 1000 единиц.
+• Нельзя задевать союзников прямыми выстрелами.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="mainGun_descr" xml:space="preserve">
+    <value>Нанести наибольшее количество урона за бой.</value>
+  </data>
+  <data name="markOfMasteryRankHeader" xml:space="preserve">
+    <value>Степени мастерства:</value>
+  </data>
+  <data name="markOfMasterySubContent" xml:space="preserve">
+    <value>• В статистике показывается максимальная&lt;br/&gt;степень мастерства.&lt;br/&gt;• Повторно заслуженная текущая степень&lt;br/&gt;показывается в окне результатов боя.&lt;br/&gt;• Выдаётся в Случайных и Ранговых боях.</value>
+  </data>
+  <data name="sniper2" xml:space="preserve">
+    <value>«Танкист-снайпер»</value>
+  </data>
+  <data name="sniper2_condition" xml:space="preserve">
+    <value>• Произвести не менее 8 выстрелов.
+• Общая точность стрельбы за бой — не менее 85%.
+• Не менее 80% попаданий должны быть с нанесением урона, учитывается урон технике противника и повреждения модулей.
+• Нанесённого с расстояния свыше 300 метров урона должно быть больше очков прочности машины игрока и не менее 1000.
+• Нельзя задевать союзников прямыми выстрелами.
+• Не выдаётся при игре на САУ.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="sniper2_descr" xml:space="preserve">
+    <value>Нанести наибольшее количество урона за бой с дистанции не менее 300 метров.</value>
+  </data>
+  <data name="tacticalBreakthrough" xml:space="preserve">
+    <value>«Тактик»</value>
+  </data>
+  <data name="tacticalBreakthrough_condition" xml:space="preserve">
+    <value>• Серия ведётся для каждой машины отдельно и может продолжиться в следующем бою на этой же машине.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="tacticalBreakthrough_descr" xml:space="preserve">
+    <value>Победить не менее 3 раз подряд в составе случайной команды.</value>
+  </data>
+  <data name="wolfAmongSheepMedal" xml:space="preserve">
+    <value>«За отличную стрельбу»</value>
+  </data>
+  <data name="wolfAmongSheepMedal_condition" xml:space="preserve">
+    <value>• В общем зачёте повторно полученные награды суммируются.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="wolfAmongSheepMedal_descr" xml:space="preserve">
+    <value>Занять 100 раз первое место по количеству нанесённого урона в победном бою.</value>
+  </data>
+  <data name="crucialShotMedal" xml:space="preserve">
+    <value>«Решающий выстрел»</value>
+  </data>
+  <data name="crucialShotMedal_condition" xml:space="preserve">
+    <value>• Победить в бою.
+• В общем зачёте повторно полученные награды суммируются.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="crucialShotMedal_descr" xml:space="preserve">
+    <value>20 раз уничтожить последнюю машину противника.</value>
+  </data>
+  <data name="fightingReconnaissanceMedal" xml:space="preserve">
+    <value>«Разведка боем»</value>
+  </data>
+  <data name="fightingReconnaissanceMedal_condition" xml:space="preserve">
+    <value>• Победить в бою.
+• Обнаружить не менее 2 машин противника.
+• Занять 3 и выше место по нанесённому урону.
+• В общем зачёте полученные награды суммируются.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="fightingReconnaissanceMedal_descr" xml:space="preserve">
+    <value>50 раз выполнить следующие условия:</value>
+  </data>
+  <data name="forTacticalOperations" xml:space="preserve">
+    <value>«За тактические операции %(rank)s»</value>
+  </data>
+  <data name="forTacticalOperations_condition" xml:space="preserve">
+    <value>• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="forTacticalOperations_descr" xml:space="preserve">
+    <value>За количество побед, одержанных в составе случайной команды.</value>
+  </data>
+  <data name="godOfWar" xml:space="preserve">
+    <value>«Бог войны»</value>
+  </data>
+  <data name="godOfWar_condition" xml:space="preserve">
+    <value>• В общем зачёте повторно полученные награды суммируются.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="godOfWar_descr" xml:space="preserve">
+    <value>Победить в бою на САУ, оставшись единственным выжившим.</value>
+  </data>
+  <data name="guardsman" xml:space="preserve">
+    <value>«Гвардеец %(rank)s»</value>
+  </data>
+  <data name="guardsman_condition" xml:space="preserve">
+    <value>• Например, играя в команде, состоящей из танков Т-34 и БТ-7 необходимо управлять танком БТ-7.
+• В роли вспомогательной техники в разных Исторических боях могут выступать разные машины.
+• Выдаётся только в Исторических боях.</value>
+  </data>
+  <data name="guardsman_descr" xml:space="preserve">
+    <value>За количество побед, одержанных на вспомогательной технике.</value>
+  </data>
+  <data name="histBattle1_battlefield" xml:space="preserve">
+    <value>Поле боя: Бои у озера Балатон</value>
+  </data>
+  <data name="histBattle1_battlefield_condition" xml:space="preserve">
+    <value>• Выдаётся только в Исторических боях.</value>
+  </data>
+  <data name="histBattle1_battlefield_descr" xml:space="preserve">
+    <value>Одержать не менее 1 победы за каждую из противоборствующих сторон на всей технике, принимавшей участие в сражении.</value>
+  </data>
+  <data name="histBattle1_historyLessons" xml:space="preserve">
+    <value>Уроки истории: Бои у озера Балатон</value>
+  </data>
+  <data name="histBattle1_historyLessons_condition" xml:space="preserve">
+    <value>• Выдаётся только в Исторических боях.</value>
+  </data>
+  <data name="histBattle1_historyLessons_descr" xml:space="preserve">
+    <value>Одержать не менее 1 победы за каждую из противоборствующих сторон на любой технике.</value>
+  </data>
+  <data name="histBattle2_battlefield" xml:space="preserve">
+    <value>Поле боя: Битва на Курской дуге</value>
+  </data>
+  <data name="histBattle2_battlefield_condition" xml:space="preserve">
+    <value>• Выдаётся только в Исторических боях.</value>
+  </data>
+  <data name="histBattle2_battlefield_descr" xml:space="preserve">
+    <value>Одержать не менее 1 победы за каждую из противоборствующих сторон на всей технике, принимавшей участие в сражении.</value>
+  </data>
+  <data name="histBattle2_historyLessons" xml:space="preserve">
+    <value>Уроки истории: Битва на Курской дуге</value>
+  </data>
+  <data name="histBattle2_historyLessons_condition" xml:space="preserve">
+    <value>• Выдаётся только в Исторических боях.</value>
+  </data>
+  <data name="histBattle2_historyLessons_descr" xml:space="preserve">
+    <value>Одержать не менее 1 победы за каждую из противоборствующих сторон на любой технике.</value>
+  </data>
+  <data name="histBattle3_battlefield" xml:space="preserve">
+    <value>Поле боя: Арденнская операция 1944 года</value>
+  </data>
+  <data name="histBattle3_battlefield_condition" xml:space="preserve">
+    <value>• Выдаётся только в Исторических боях.</value>
+  </data>
+  <data name="histBattle3_battlefield_descr" xml:space="preserve">
+    <value>Одержать не менее 1 победы за каждую из противоборствующих сторон на всей технике, принимавшей участие в сражении.</value>
+  </data>
+  <data name="histBattle3_historyLessons" xml:space="preserve">
+    <value>Уроки истории: Арденнская операция 1944 года</value>
+  </data>
+  <data name="histBattle3_historyLessons_condition" xml:space="preserve">
+    <value>• Выдаётся только в Исторических боях.</value>
+  </data>
+  <data name="histBattle3_historyLessons_descr" xml:space="preserve">
+    <value>Одержать не менее 1 победы за каждую из противоборствующих сторон на любой технике.</value>
+  </data>
+  <data name="makerOfHistory" xml:space="preserve">
+    <value>«Вершитель истории %(rank)s»</value>
+  </data>
+  <data name="makerOfHistory_condition" xml:space="preserve">
+    <value>• Выдаётся только в Исторических боях.</value>
+  </data>
+  <data name="makerOfHistory_descr" xml:space="preserve">
+    <value>За количество побед, одержанных за каждую из сторон конфликта.</value>
+  </data>
+  <data name="rare100003" xml:space="preserve">
+    <value>Помним всё: Maus</value>
+  </data>
+  <data name="rare100003_condition" xml:space="preserve">
+    <value>• Выдаётся всем участникам программы «Помним всё: Maus».</value>
+  </data>
+  <data name="rare100003_descr" xml:space="preserve">
+    <value>За вклад и участие в реставрации танка Maus в «Центральном музее бронетанкового вооружения и техники» в Кубинке.</value>
+  </data>
+  <data name="willToWinSpirit" xml:space="preserve">
+    <value>«За волю к победе»</value>
+  </data>
+  <data name="willToWinSpirit_condition" xml:space="preserve">
+    <value>• В общем зачёте повторно полученные награды суммируются.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="willToWinSpirit_descr" xml:space="preserve">
+    <value>Победить в бою, оставшись в одиночку против 3 и более машин противника.</value>
+  </data>
+  <data name="WFC2014" xml:space="preserve">
+    <value>«Футболист-2014»</value>
+  </data>
+  <data name="WFC2014_condition" xml:space="preserve">
+    <value>• В общий зачёт шла максимальная серия побед подряд.
+• Серия прерывалась поражением.
+• Выдавалась всем игрокам победившей команды в период действия специальной футбольной акции.</value>
+  </data>
+  <data name="WFC2014_descr" xml:space="preserve">
+    <value>Победить в футбольном матче, управляя T-62A СПОРТ.</value>
+  </data>
+  <data name="conqueror" xml:space="preserve">
+    <value>«Завоеватель %(rank)s»</value>
+  </data>
+  <data name="conqueror_condition" xml:space="preserve">
+    <value>• Засчитывается только личный вклад.
+• Выдавалась до выхода обновления 9.17.1.</value>
+  </data>
+  <data name="conqueror_descr" xml:space="preserve">
+    <value>За суммарное количество промресурса, захваченного в Вылазках.</value>
+  </data>
+  <data name="fireAndSteelMedal" xml:space="preserve">
+    <value>«Закалённый в боях»</value>
+  </data>
+  <data name="fireAndSteelMedal_condition" xml:space="preserve">
+    <value>• Выжить в бою.
+• В общем зачёте повторно полученные награды суммируются.
+• Засчитываются только победные бои.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="fireAndSteelMedal_descr" xml:space="preserve">
+    <value>25 раз получить наибольшую сумму полученного и заблокированного бронёй урона за бой.</value>
+  </data>
+  <data name="heavyFireMedal" xml:space="preserve">
+    <value>«Снайперский резерв»</value>
+  </data>
+  <data name="heavyFireMedal_condition" xml:space="preserve">
+    <value>• В общем зачёте повторно полученные награды суммируются.
+• Засчитываются только победные бои.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="heavyFireMedal_descr" xml:space="preserve">
+    <value>Занять 100 раз 1, 2 или 3 место по количеству нанесённого урона за бой.</value>
+  </data>
+  <data name="histBattle4_battlefield" xml:space="preserve">
+    <value>Поле боя: Брянский фронт</value>
+  </data>
+  <data name="histBattle4_battlefield_condition" xml:space="preserve">
+    <value>• Выдаётся только в Исторических боях.</value>
+  </data>
+  <data name="histBattle4_battlefield_descr" xml:space="preserve">
+    <value>Одержать не менее 1 победы за каждую из противоборствующих сторон на всей технике, принимавшей участие в сражении.</value>
+  </data>
+  <data name="histBattle4_historyLessons" xml:space="preserve">
+    <value>Уроки истории: Брянский фронт</value>
+  </data>
+  <data name="histBattle4_historyLessons_condition" xml:space="preserve">
+    <value>• Выдаётся только в Исторических боях.</value>
+  </data>
+  <data name="histBattle4_historyLessons_descr" xml:space="preserve">
+    <value>Одержать не менее 1 победы за каждую из противоборствующих сторон на любой технике.</value>
+  </data>
+  <data name="histBattle5_battlefield" xml:space="preserve">
+    <value>Поле боя: Штурм Берлина</value>
+  </data>
+  <data name="histBattle5_battlefield_condition" xml:space="preserve">
+    <value>• Выдаётся только в Исторических боях.</value>
+  </data>
+  <data name="histBattle5_battlefield_descr" xml:space="preserve">
+    <value>Одержать не менее 1 победы за каждую из противоборствующих сторон на всей технике, принимавшей участие в сражении.</value>
+  </data>
+  <data name="histBattle5_historyLessons" xml:space="preserve">
+    <value>Уроки истории: Штурм Берлина</value>
+  </data>
+  <data name="histBattle5_historyLessons_condition" xml:space="preserve">
+    <value>• Выдаётся только в Исторических боях.</value>
+  </data>
+  <data name="histBattle5_historyLessons_descr" xml:space="preserve">
+    <value>Одержать не менее 1 победы за каждую из противоборствующих сторон на любой технике.</value>
+  </data>
+  <data name="histBattle6_battlefield" xml:space="preserve">
+    <value>Поле боя: Блокада Тобрука</value>
+  </data>
+  <data name="histBattle6_battlefield_condition" xml:space="preserve">
+    <value>• Выдаётся только в Исторических боях.</value>
+  </data>
+  <data name="histBattle6_battlefield_descr" xml:space="preserve">
+    <value>Одержать не менее 1 победы за каждую из противоборствующих сторон на всей технике, принимавшей участие в сражении.</value>
+  </data>
+  <data name="histBattle6_historyLessons" xml:space="preserve">
+    <value>Уроки истории: Блокада Тобрука</value>
+  </data>
+  <data name="histBattle6_historyLessons_condition" xml:space="preserve">
+    <value>• Выдаётся только в Исторических боях.</value>
+  </data>
+  <data name="histBattle6_historyLessons_descr" xml:space="preserve">
+    <value>Одержать не менее 1 победы за каждую из противоборствующих сторон на любой технике.</value>
+  </data>
+  <data name="kampfer" xml:space="preserve">
+    <value>«Ратник %(rank)s»</value>
+  </data>
+  <data name="kampfer_condition" xml:space="preserve">
+    <value>• Личное достижение.
+• Выдавалась до выхода обновления 9.17.1.</value>
+  </data>
+  <data name="kampfer_descr" xml:space="preserve">
+    <value>За количество побед в боях в рамках Битв за Укрепрайон.</value>
+  </data>
+  <data name="marksOnGun/descr/param/label/1" xml:space="preserve">
+    <value>1 отметка</value>
+  </data>
+  <data name="marksOnGun/descr/param/label/2" xml:space="preserve">
+    <value>2 отметки</value>
+  </data>
+  <data name="marksOnGun/descr/param/label/3" xml:space="preserve">
+    <value>3 отметки</value>
+  </data>
+  <data name="marksOnGun/descr/param/value/1" xml:space="preserve">
+    <value>65%</value>
+  </data>
+  <data name="marksOnGun/descr/param/value/2" xml:space="preserve">
+    <value>85%</value>
+  </data>
+  <data name="marksOnGun/descr/param/value/3" xml:space="preserve">
+    <value>95%</value>
+  </data>
+  <data name="marksOnGun0" xml:space="preserve">
+    <value>Отличительные отметки</value>
+  </data>
+  <data name="marksOnGun0_descr" xml:space="preserve">
+    <value>Для получения отличительной отметки на орудие, средний показатель нанесённого игроком урона и урона, нанесённого с его помощью, должен превышать аналогичные результаты 65% игроков, достигнутые ими на данной машине за предыдущие 14 дней.</value>
+  </data>
+  <data name="marksOnGun1" xml:space="preserve">
+    <value>1 отличительная отметка</value>
+  </data>
+  <data name="marksOnGun1_descr" xml:space="preserve">
+    <value>Для получения двух отличительных отметок на орудие, средний показатель нанесённого игроком урона и урона, нанесённого с его помощью, должен превышать аналогичные результаты 85% игроков, достигнутые ими на данной машине за предыдущие 14 дней.</value>
+  </data>
+  <data name="marksOnGun2" xml:space="preserve">
+    <value>2 отличительные отметки</value>
+  </data>
+  <data name="marksOnGun2_descr" xml:space="preserve">
+    <value>Для получения трёх отличительных отметок на орудие, средний показатель нанесённого игроком урона и урона, нанесённого с его помощью, должен превышать аналогичные результаты 95% игроков, достигнутые ими на данной машине за предыдущие 14 дней.</value>
+  </data>
+  <data name="marksOnGun3" xml:space="preserve">
+    <value>3 отличительные отметки</value>
+  </data>
+  <data name="marksOnGun3_descr" xml:space="preserve">
+    <value>Заработано максимальное количество отличительных отметок.</value>
+  </data>
+  <data name="marksOnGunHeader" xml:space="preserve">
+    <value>Степени результативности:</value>
+  </data>
+  <data name="marksOnGun_condition" xml:space="preserve">
+    <value>• Результативность игрока определяется по последним 100 боям, с каждым новым боем показатель уточняется.
+• Заработанные отметки не исчезают даже при снижении результативности.
+• Отметки можно получить только на технике V–X уровней.
+• Отображение отметок на своей технике можно отключить в настройках игры.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalAntiSpgFire" xml:space="preserve">
+    <value>«За контрбатарейную стрельбу»</value>
+  </data>
+  <data name="medalAntiSpgFire_condition" xml:space="preserve">
+    <value>• Уничтожение союзников недопустимо.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalAntiSpgFire_descr" xml:space="preserve">
+    <value>Управляя САУ, уничтожить все САУ противника в одном бою, но не менее 2.</value>
+  </data>
+  <data name="medalCoolBlood" xml:space="preserve">
+    <value>«Хладнокровный»</value>
+  </data>
+  <data name="medalCoolBlood_condition" xml:space="preserve">
+    <value>• Управлять САУ IV уровня и выше.
+• Уничтожение союзников недопустимо.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalCoolBlood_descr" xml:space="preserve">
+    <value>Уничтожить не менее 2 лёгких танков противника с расстояния не более 100 метров.</value>
+  </data>
+  <data name="medalGore" xml:space="preserve">
+    <value>Медаль Гора</value>
+  </data>
+  <data name="medalGore_condition" xml:space="preserve">
+    <value>• Нанесённый урон должен составлять не менее 2000 единиц.
+• Уничтожение союзников недопустимо.
+• Попадания по союзникам не учитываются.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalGore_descr" xml:space="preserve">
+    <value>Управляя САУ, нанести урон, восьмикратно превышающий значение прочности собственной машины.</value>
+  </data>
+  <data name="medalGore_heroInfo" xml:space="preserve">
+    <value>Адриан Клементс Гор — британский полковник. 20 февраля 1943 года, обороняя перевал Кассерин (Тунис), отряд Гора в составе танкового эскадрона, пехотной роты и батареи пехотной артиллерии оказал упорное сопротивление частям Африканского корпуса Вермахта в составе пяти пехотных и одного танкового батальона, потерявшего в этом бою 11 танков.</value>
+  </data>
+  <data name="medalMonolith" xml:space="preserve">
+    <value>«Монолит»</value>
+  </data>
+  <data name="medalMonolith_condition" xml:space="preserve">
+    <value>• Скорость собственной САУ не должна превышать 10 км/ч.
+• Скорость противника, совершившего таран, должна быть выше скорости вашей САУ.
+• Уничтожение союзников недопустимо.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalMonolith_descr" xml:space="preserve">
+    <value>Выжить на САУ после фатального для противника тарана.</value>
+  </data>
+  <data name="medalStark" xml:space="preserve">
+    <value>Медаль Старка</value>
+  </data>
+  <data name="medalStark_condition" xml:space="preserve">
+    <value>• Выжить в бою.
+• Сумма полученного и заблокированного бронёй урона должна составлять не менее 2/3 от очков прочности собственной машины.
+• Уничтожение союзников недопустимо.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="medalStark_descr" xml:space="preserve">
+    <value>Управляя САУ, уничтожить не менее 2 машин противника, получив не менее 2 попаданий от противника, нанёсших урон или заблокированных бронёй.</value>
+  </data>
+  <data name="medalStark_heroInfo" xml:space="preserve">
+    <value>Александр Старк — полковник, командир сводного подразделения французских и американских войск, прикрывающего перевал Кассерин (Тунис). 19 февраля 1943 года мощным артиллерийским огнём с окружающих перевал высот отряд Старка смог на сутки задержать наступление танкового батальона и двух пехотных батальонов из состава Африканского корпуса Вермахта, вынудив немецкие войска запросить подкрепление.</value>
+  </data>
+  <data name="noMansLand" xml:space="preserve">
+    <value>«Выжженная земля»</value>
+  </data>
+  <data name="noMansLand_condition" xml:space="preserve">
+    <value>• Выдаётся обеим командам.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="noMansLand_descr" xml:space="preserve">
+    <value>Провести бой, в котором будет уничтожена вся техника обеих команд.</value>
+  </data>
+  <data name="promisingFighterMedal" xml:space="preserve">
+    <value>«Перспективный боец»</value>
+  </data>
+  <data name="promisingFighterMedal_condition" xml:space="preserve">
+    <value>• В общем зачёте повторно полученные награды суммируются.
+• Засчитываются только победные бои.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="promisingFighterMedal_descr" xml:space="preserve">
+    <value>Занять 100 раз 1, 2 или 3 место по количеству заработанного опыта за бой.</value>
+  </data>
+  <data name="pyromaniacMedal" xml:space="preserve">
+    <value>«Пироман»</value>
+  </data>
+  <data name="pyromaniacMedal_condition" xml:space="preserve">
+    <value>• В общем зачёте повторно полученные награды суммируются.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="pyromaniacMedal_descr" xml:space="preserve">
+    <value>10 раз поджечь противника.</value>
+  </data>
+  <data name="rangerMedal" xml:space="preserve">
+    <value>«Егерь»</value>
+  </data>
+  <data name="rangerMedal_condition" xml:space="preserve">
+    <value>• В общем зачёте повторно полученные награды суммируются.
+• Засчитываются только попадания, нанёсшие урон.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="rangerMedal_descr" xml:space="preserve">
+    <value>10 раз повредить или уничтожить противника, который невидим для игрока.</value>
+  </data>
+  <data name="battleTested" xml:space="preserve">
+    <value>«Проверенный боем %(rank)s»</value>
+  </data>
+  <data name="battleTested_condition" xml:space="preserve">
+    <value>• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="battleTested_descr" xml:space="preserve">
+    <value>За количество наград, полученных в Командных боях.</value>
+  </data>
+  <data name="bruteForceMedal" xml:space="preserve">
+    <value>«Силовой приём»</value>
+  </data>
+  <data name="bruteForceMedal_condition" xml:space="preserve">
+    <value>• В общем зачёте повторно полученные награды суммируются.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="bruteForceMedal_descr" xml:space="preserve">
+    <value>10 раз уничтожить противника тараном.</value>
+  </data>
+  <data name="guerrillaMedal" xml:space="preserve">
+    <value>«Мастер засады»</value>
+  </data>
+  <data name="guerrillaMedal_condition" xml:space="preserve">
+    <value>• Противник должен быть в прямой видимости.
+• В общем зачёте повторно полученные награды суммируются.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="guerrillaMedal_descr" xml:space="preserve">
+    <value>10 раз уничтожить противника, не будучи при этом обнаруженным.</value>
+  </data>
+  <data name="infiltratorMedal" xml:space="preserve">
+    <value>«Покоритель»</value>
+  </data>
+  <data name="infiltratorMedal_condition" xml:space="preserve">
+    <value>• Засчитываются только очки, обеспечившие захват.
+• В общем зачёте повторно полученные награды суммируются.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="infiltratorMedal_descr" xml:space="preserve">
+    <value>Получить 1000 очков захвата базы.</value>
+  </data>
+  <data name="medalRotmistrov" xml:space="preserve">
+    <value>Медаль Ротмистрова %(rank)s</value>
+  </data>
+  <data name="medalRotmistrov_descr" xml:space="preserve">
+    <value>За количество проведённых боёв в «Мировой войне».</value>
+  </data>
+  <data name="medalRotmistrov_heroInfo" xml:space="preserve">
+    <value>Павел Алексеевич Ротмистров — Герой Советского Союза, командующий танковыми частями в годы Великой Отечественной войны, впоследствии Главный маршал бронетанковых войск Советского Союза.</value>
+  </data>
+  <data name="prematureDetonationMedal" xml:space="preserve">
+    <value>«Смертельный удар»</value>
+  </data>
+  <data name="prematureDetonationMedal_condition" xml:space="preserve">
+    <value>• В общем зачёте повторно полученные награды суммируются.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="prematureDetonationMedal_descr" xml:space="preserve">
+    <value>Уничтожить подрывом боекомплекта 10 машин противника.</value>
+  </data>
+  <data name="sentinelMedal" xml:space="preserve">
+    <value>«Честь флага»</value>
+  </data>
+  <data name="sentinelMedal_condition" xml:space="preserve">
+    <value>• Очки засчитываются только в победных боях.
+• В общем зачёте повторно полученные награды суммируются.
+• Выдаётся только в Командных боях.</value>
+  </data>
+  <data name="sentinelMedal_descr" xml:space="preserve">
+    <value>Получить 1000 очков защиты базы.</value>
+  </data>
+  <data name="arsonist" xml:space="preserve">
+    <value>«Поджигатель»</value>
+  </data>
+  <data name="arsonist_condition" xml:space="preserve">
+    <value>• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="arsonist_descr" xml:space="preserve">
+    <value>Уничтожить поджогом как минимум 1 машину противника.</value>
+  </data>
+  <data name="bonecrusher" xml:space="preserve">
+    <value>«Костолом»</value>
+  </data>
+  <data name="bonecrusher_condition" xml:space="preserve">
+    <value>• Засчитываются также модули, повреждённые в результате пожара.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="bonecrusher_descr" xml:space="preserve">
+    <value>Повредить в бою не менее 5 модулей или членов экипажа противника.</value>
+  </data>
+  <data name="charmed" xml:space="preserve">
+    <value>«Заговорённый»</value>
+  </data>
+  <data name="charmed_condition" xml:space="preserve">
+    <value>• Засчитываются только попадания, нанёсшие урон.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="charmed_descr" xml:space="preserve">
+    <value>Выжить в победном бою, получив повреждения от не менее чем 4 разных игроков команды противника.</value>
+  </data>
+  <data name="counterblow" xml:space="preserve">
+    <value>«Контрудар»</value>
+  </data>
+  <data name="counterblow_condition" xml:space="preserve">
+    <value>• Уровень командного центра атакующих должен быть не ниже уровня командного центра обороняющихся.
+• Личное достижение.
+• Выдавалась до выхода обновления 9.17.1.</value>
+  </data>
+  <data name="counterblow_descr" xml:space="preserve">
+    <value>Захватить командный центр противника, обороняя свой Укрепрайон.</value>
+  </data>
+  <data name="crusher" xml:space="preserve">
+    <value>«Сокрушитель крепостей»</value>
+  </data>
+  <data name="crusher_condition" xml:space="preserve">
+    <value>• Уровень командного центра обороняющихся должен быть не ниже уровня командного центра атакующих.
+• Личное достижение.
+• Выдавалась до выхода обновления 9.17.1.</value>
+  </data>
+  <data name="crusher_descr" xml:space="preserve">
+    <value>Захватить командный центр противника, атаковав его Укрепрайон.</value>
+  </data>
+  <data name="deathTrack" xml:space="preserve">
+    <value>«Гонщик-2014»</value>
+  </data>
+  <data name="deathTrack_condition" xml:space="preserve">
+    <value>• В общий зачёт шла максимальная серия побед подряд.
+• Серия прерывалась поражением.
+• Выдавалась всем игрокам победившей команды в период действия специальной гоночной акции.</value>
+  </data>
+  <data name="deathTrack_descr" xml:space="preserve">
+    <value>Победить в гонке, управляя Chaffee SPORT.</value>
+  </data>
+  <data name="demolition" xml:space="preserve">
+    <value>«Взрывотехник»</value>
+  </data>
+  <data name="demolition_condition" xml:space="preserve">
+    <value>• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="demolition_descr" xml:space="preserve">
+    <value>Уничтожить подрывом боекомплекта как минимум 1 машину противника.</value>
+  </data>
+  <data name="duelist" xml:space="preserve">
+    <value>«Дуэлянт»</value>
+  </data>
+  <data name="duelist_condition" xml:space="preserve">
+    <value>• Повреждения модулей засчитываются.
+• Рикошеты и непробития не засчитываются.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="duelist_descr" xml:space="preserve">
+    <value>Уничтожить в бою не менее 2 машин противника, нанёсших вам урон.</value>
+  </data>
+  <data name="even" xml:space="preserve">
+    <value>«В расчёте!»</value>
+  </data>
+  <data name="even_condition" xml:space="preserve">
+    <value>• Учитывается также уничтожение пожаром или тараном.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="even_descr" xml:space="preserve">
+    <value>Уничтожить противника и быть уничтоженным им же.</value>
+  </data>
+  <data name="fighter" xml:space="preserve">
+    <value>«Боец»</value>
+  </data>
+  <data name="fighter_condition" xml:space="preserve">
+    <value>• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="fighter_descr" xml:space="preserve">
+    <value>Уничтожить 4-5 машин противника в одном бою.</value>
+  </data>
+  <data name="fireAndSword" xml:space="preserve">
+    <value>«За решающие сражения %(rank)s»</value>
+  </data>
+  <data name="fireAndSword_condition" xml:space="preserve">
+    <value>• Потерянный при поражениях промресурс не уменьшает показатель.
+• Личное достижение.
+• Выдавалась до выхода обновления 9.17.1.</value>
+  </data>
+  <data name="fireAndSword_descr" xml:space="preserve">
+    <value>За количество единиц промресурса, захваченного за всё время боёв в Битвах за Укрепрайон.</value>
+  </data>
+  <data name="impenetrable" xml:space="preserve">
+    <value>«Непробиваемый»</value>
+  </data>
+  <data name="impenetrable_condition" xml:space="preserve">
+    <value>• Выжить в бою.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="impenetrable_descr" xml:space="preserve">
+    <value>Получить заблокированного бронёй урона больше, чем прочность собственной машины.</value>
+  </data>
+  <data name="maxAimerSeries" xml:space="preserve">
+    <value>«Целеуказатель»</value>
+  </data>
+  <data name="maxAimerSeries_condition" xml:space="preserve">
+    <value>• Победить в бою.
+• Серия увеличивается за каждую 1000 урона, нанесённого союзниками по вашим разведданным в течение одного боя.
+• Серия ведётся для каждой машины отдельно.
+• В общий зачёт идёт максимальная серия.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="maxAimerSeries_descr" xml:space="preserve">
+    <value>Обеспечить передачу разведданных для нанесения союзниками 1000 единиц урона за один бой.</value>
+  </data>
+  <data name="reliableComrade" xml:space="preserve">
+    <value>«Надёжный боевой товарищ»</value>
+  </data>
+  <data name="reliableComrade_condition" xml:space="preserve">
+    <value>• Урон по модулям, не выведший их из строя, не учитывается.
+• Рикошеты и непробития не учитываются.
+• Серия прерывается любыми действиями, снизившими прочность машины союзника.
+• Серия может продолжиться при игре на любой машине.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="reliableComrade_descr" xml:space="preserve">
+    <value>Не наносить союзникам никакого урона в течение 50 боёв.</value>
+  </data>
+  <data name="shootToKill" xml:space="preserve">
+    <value>«Огонь на поражение»</value>
+  </data>
+  <data name="shootToKill_condition" xml:space="preserve">
+    <value>• Засчитывается также урон, нанесённый тараном и поджогом.
+• Не выдаётся при игре на САУ.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="shootToKill_descr" xml:space="preserve">
+    <value>Нанести противнику урона больше, чем прочность собственной машины.</value>
+  </data>
+  <data name="soldierOfFortune" xml:space="preserve">
+    <value>«Солдат удачи %(rank)s»</value>
+  </data>
+  <data name="soldierOfFortune_condition" xml:space="preserve">
+    <value>• Личное достижение.</value>
+  </data>
+  <data name="soldierOfFortune_descr" xml:space="preserve">
+    <value>За количество побед в Вылазках.</value>
+  </data>
+  <data name="aimer" xml:space="preserve">
+    <value>«Целеуказатель»</value>
+  </data>
+  <data name="aimer_condition" xml:space="preserve">
+    <value>• Победить в бою.
+• Серия увеличивается за каждую 1000 урона, нанесённого союзниками по вашим разведданным в течение одного боя.
+• Серия ведётся для каждой машины отдельно.
+• В общий зачёт идёт максимальная серия.
+• Выдаётся только в Случайных боях.</value>
+  </data>
+  <data name="aimer_descr" xml:space="preserve">
+    <value>Обеспечить передачу разведданных для нанесения союзниками 1000 урона за один бой.</value>
+  </data>
+  <data name="firstMerit" xml:space="preserve">
+    <value>«Первая заслуга»</value>
+  </data>
+  <data name="firstMerit_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="firstMerit_descr" xml:space="preserve">
+    <value>Выполнить любую боевую задачу в одной из веток выбранной операции.</value>
+  </data>
+  <data name="firstMerit_notification" xml:space="preserve">
+    <value>За успешное выполнение личной боевой задачи вы представлены к награде: медаль «Первая заслуга».</value>
+  </data>
+  <data name="operationWinter" xml:space="preserve">
+    <value>Операция «Зима»</value>
+  </data>
+  <data name="operationWinter_condition" xml:space="preserve">
+    <value>• Выдавалась всем игрокам победившей команды в течение специальной новогодней акции 2014–2015.
+• Выдавалась только одна награда за все проведённые бои.
+• Выдавалась только в Случайных боях.</value>
+  </data>
+  <data name="operationWinter_descr" xml:space="preserve">
+    <value>Победить в бою.</value>
+  </data>
+  <data name="readyForBattleALL" xml:space="preserve">
+    <value>«Из всех орудий»</value>
+  </data>
+  <data name="readyForBattleALL_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleALL_descr" xml:space="preserve">
+    <value>Получить награды «Образцовое выполнение» для всех типов техники в рамках кампании «Долгожданное подкрепление».</value>
+  </data>
+  <data name="readyForBattleALL_notification1" xml:space="preserve">
+    <value>Получить награду «Образцовое выполнение I степени» для всех типов техники. Награда: медаль «Из всех орудий» I степени.</value>
+  </data>
+  <data name="readyForBattleALL_notification2" xml:space="preserve">
+    <value>Получить награду «Образцовое выполнение II степени» для всех типов техники. Награда: медаль «Из всех орудий» II степени.</value>
+  </data>
+  <data name="readyForBattleALL_notification3" xml:space="preserve">
+    <value>Получить награду «Образцовое выполнение III степени» для всех типов техники. Награда: медаль «Из всех орудий» III степени.</value>
+  </data>
+  <data name="readyForBattleALL_notification4" xml:space="preserve">
+    <value>Получить награду «Образцовое выполнение IV степени» для всех типов техники. Награда: медаль «Из всех орудий» IV степени.</value>
+  </data>
+  <data name="readyForBattleATSPG" xml:space="preserve">
+    <value>«Образцовое выполнение: ПТ-САУ»</value>
+  </data>
+  <data name="readyForBattleATSPG_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleATSPG_descr" xml:space="preserve">
+    <value>За выполнение с отличием личных боевых задач для ПТ-САУ в рамках кампании «Долгожданное подкрепление».</value>
+  </data>
+  <data name="readyForBattleATSPG_notification1" xml:space="preserve">
+    <value>Выполнить с отличием 60 личных боевых задач для ПТ-САУ. Награда: медаль «Образцовое выполнение: ПТ-САУ» I степени.</value>
+  </data>
+  <data name="readyForBattleATSPG_notification2" xml:space="preserve">
+    <value>Выполнить с отличием 45 личных боевых задач для ПТ-САУ. Награда: медаль «Образцовое выполнение: ПТ-САУ» II степени.</value>
+  </data>
+  <data name="readyForBattleATSPG_notification3" xml:space="preserve">
+    <value>Выполнить с отличием 30 личных боевых задач для ПТ-САУ. Награда: медаль «Образцовое выполнение: ПТ-САУ» III степени.</value>
+  </data>
+  <data name="readyForBattleATSPG_notification4" xml:space="preserve">
+    <value>Выполнить с отличием 15 личных боевых задач для ПТ-САУ. Награда: медаль «Образцовое выполнение: ПТ-САУ» IV степени.</value>
+  </data>
+  <data name="readyForBattleHT" xml:space="preserve">
+    <value>«Образцовое выполнение: тяжёлые танки»</value>
+  </data>
+  <data name="readyForBattleHT_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleHT_descr" xml:space="preserve">
+    <value>За выполнение с отличием личных боевых задач для тяжёлых танков в рамках кампании «Долгожданное подкрепление».</value>
+  </data>
+  <data name="readyForBattleHT_notification1" xml:space="preserve">
+    <value>Выполнить с отличием 60 личных боевых задач для тяжёлых танков. Награда: медаль «Образцовое выполнение: тяжёлые танки» I степени.</value>
+  </data>
+  <data name="readyForBattleHT_notification2" xml:space="preserve">
+    <value>Выполнить с отличием 45 личных боевых задач для тяжёлых танков. Награда: медаль «Образцовое выполнение: тяжёлые танки» II степени.</value>
+  </data>
+  <data name="readyForBattleHT_notification3" xml:space="preserve">
+    <value>Выполнить с отличием 30 личных боевых задач для тяжёлых танков. Награда: медаль «Образцовое выполнение: тяжёлые танки» III степени.</value>
+  </data>
+  <data name="readyForBattleHT_notification4" xml:space="preserve">
+    <value>Выполнить с отличием 15 личных боевых задач для тяжёлых танков. Награда: медаль «Образцовое выполнение: тяжёлые танки» IV степени.</value>
+  </data>
+  <data name="readyForBattleLT" xml:space="preserve">
+    <value>«Образцовое выполнение: лёгкие танки»</value>
+  </data>
+  <data name="readyForBattleLT_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleLT_descr" xml:space="preserve">
+    <value>За выполнение с отличием личных боевых задач для лёгких танков в рамках кампании «Долгожданное подкрепление».</value>
+  </data>
+  <data name="readyForBattleLT_notification1" xml:space="preserve">
+    <value>Выполнить с отличием 60 личных боевых задач для лёгких танков. Награда: медаль «Образцовое выполнение: лёгкие танки» I степени.</value>
+  </data>
+  <data name="readyForBattleLT_notification2" xml:space="preserve">
+    <value>Выполнить с отличием 45 личных боевых задач для лёгких танков. Награда: медаль «Образцовое выполнение: лёгкие танки» II степени.</value>
+  </data>
+  <data name="readyForBattleLT_notification3" xml:space="preserve">
+    <value>Выполнить с отличием 30 личных боевых задач для лёгких танков. Награда: медаль «Образцовое выполнение: лёгкие танки» III степени.</value>
+  </data>
+  <data name="readyForBattleLT_notification4" xml:space="preserve">
+    <value>Выполнить с отличием 15 личных боевых задач для лёгких танков. Награда: медаль «Образцовое выполнение: лёгкие танки» IV степени.</value>
+  </data>
+  <data name="readyForBattleMT" xml:space="preserve">
+    <value>«Образцовое выполнение: средние танки»</value>
+  </data>
+  <data name="readyForBattleMT_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleMT_descr" xml:space="preserve">
+    <value>За выполнение с отличием личных боевых задач для средних танков в рамках кампании «Долгожданное подкрепление».</value>
+  </data>
+  <data name="readyForBattleMT_notification1" xml:space="preserve">
+    <value>Выполнить с отличием 60 личных боевых задач для средних танков. Награда: медаль «Образцовое выполнение: средние танки» I степени.</value>
+  </data>
+  <data name="readyForBattleMT_notification2" xml:space="preserve">
+    <value>Выполнить с отличием 45 личных боевых задач для средних танков. Награда: медаль «Образцовое выполнение: средние танки» II степени.</value>
+  </data>
+  <data name="readyForBattleMT_notification3" xml:space="preserve">
+    <value>Выполнить с отличием 30 личных боевых задач для средних танков. Награда: медаль «Образцовое выполнение: средние танки» III степени.</value>
+  </data>
+  <data name="readyForBattleMT_notification4" xml:space="preserve">
+    <value>Выполнить с отличием 15 личных боевых задач для средних танков. Награда: медаль «Образцовое выполнение: средние танки» IV степени.</value>
+  </data>
+  <data name="readyForBattleSPG" xml:space="preserve">
+    <value>«Образцовое выполнение: САУ»</value>
+  </data>
+  <data name="readyForBattleSPG_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="readyForBattleSPG_descr" xml:space="preserve">
+    <value>За выполнение с отличием личных боевых задач для САУ в рамках кампании «Долгожданное подкрепление».</value>
+  </data>
+  <data name="readyForBattleSPG_notification1" xml:space="preserve">
+    <value>Выполнить с отличием 60 личных боевых задач для САУ. Награда: медаль «Образцовое выполнение: САУ» I степени.</value>
+  </data>
+  <data name="readyForBattleSPG_notification2" xml:space="preserve">
+    <value>Выполнить с отличием 45 личных боевых задач для САУ. Награда: медаль «Образцовое выполнение: САУ» II степени.</value>
+  </data>
+  <data name="readyForBattleSPG_notification3" xml:space="preserve">
+    <value>Выполнить с отличием 30 личных боевых задач для САУ. Награда: медаль «Образцовое выполнение: САУ» III степени.</value>
+  </data>
+  <data name="readyForBattleSPG_notification4" xml:space="preserve">
+    <value>Выполнить с отличием 15 личных боевых задач для САУ. Награда: медаль «Образцовое выполнение: САУ» IV степени.</value>
+  </data>
+  <data name="tankwomen" xml:space="preserve">
+    <value>«Женщины в форме»</value>
+  </data>
+  <data name="tankwomen_condition" xml:space="preserve">
+    <value>?empty?</value>
+  </data>
+  <data name="tankwomen_descr" xml:space="preserve">
+    <value>Получить 5 членов экипажа женского пола.
+• Засчитываются девушки-танкисты, полученные за прохождение личных боевых задач.</value>
+  </data>
+  <data name="tankwomen_notification" xml:space="preserve">
+    <value>За успешное пополнение Казармы укомплектованным женским экипажем вы представлены к награде: медаль «Женщины в форме».</value>
+  </data>
+  <data name="testartilleryman" xml:space="preserve">
+    <value>«Артиллерист-испытатель 80 уровня»</value>
+  </data>
+  <data name="testartilleryman_condition" xml:space="preserve">
+    <value>• Выдавалась в течение всей первоапрельской акции 2015 года.</value>
+  </data>
+  <data name="testartilleryman_descr" xml:space="preserve">
+    <value>Получить секретное оружие, выполнив специальную боевую задачу.</value>
+  </data>
+  <data name="secretOperations" xml:space="preserve">
+    <value>«Секретные операции»</value>
+  </data>
+  <data name="secretOperations_condition" xml:space="preserve">
+    <value>• Вся техника, участвующая в захвате, должна выжить и получить очки захвата.
+• Сбитие противником любого количества очков захвата недопустимо.
+• Одержанные в тренировке победы не засчитываются.
+• Выдаётся только в Командных боях за игру в Ладдере.</value>
+  </data>
+  <data name="secretOperations_descr" xml:space="preserve">
+    <value>Победить захватом либо одной базы, используя 2 и более машины, либо обеих баз, используя по 1 и более машин на каждой.</value>
+  </data>
+  <data name="strategicOperations" xml:space="preserve">
+    <value>За стратегические операции %(rank)s</value>
+  </data>
+  <data name="strategicOperations_condition" xml:space="preserve">
+    <value>• Одержанные в тренировке победы не засчитываются.
+• Отображается только в достижениях команды.
+• Выдаётся только в Командных боях за игру в Ладдере.</value>
+  </data>
+  <data name="strategicOperations_descr" xml:space="preserve">
+    <value>За количество побед, одержанных постоянной командой.</value>
+  </data>
+  <data name="tacticalAdvantage" xml:space="preserve">
+    <value>«Тактическое преимущество»</value>
+  </data>
+  <data name="tacticalAdvantage_condition" xml:space="preserve">
+    <value>• Победить в бою.
+• Выдаётся всем игрокам победившей команды, принимавшим участие в бою.
+• Потерянная машина должна быть не выше VII уровня.
+• Одержанные в тренировке победы не засчитываются.
+• Выдаётся только в Командных боях за игру в Ладдере.</value>
+  </data>
+  <data name="tacticalAdvantage_descr" xml:space="preserve">
+    <value>Уничтожить всю технику противника, потеряв при этом не более 1 машины наименьшего уровня.</value>
+  </data>
+  <data name="tacticalSkill" xml:space="preserve">
+    <value>«Тактическое мастерство»</value>
+  </data>
+  <data name="tacticalSkill_condition" xml:space="preserve">
+    <value>• Выдаётся всем игрокам победившей команды, принимавшим участие в бою.
+• Одержанные в тренировке победы не засчитываются.
+• Выдаётся только в Командных боях за игру в Ладдере.</value>
+  </data>
+  <data name="tacticalSkill_descr" xml:space="preserve">
+    <value>Победить, уничтожив всю технику противника и не потеряв при этом ни одной машины.</value>
+  </data>
+  <data name="victoryMarch" xml:space="preserve">
+    <value>«Победный марш»</value>
+  </data>
+  <data name="victoryMarch_condition" xml:space="preserve">
+    <value>• Одержанные в тренировке победы не засчитываются.
+• Выдаётся только в Командных боях за игру в Ладдере.</value>
+  </data>
+  <data name="victoryMarch_descr" xml:space="preserve">
+    <value>Победить не менее 3 раз подряд, не меняя команду.</value>
+  </data>
+  <data name="fallout" xml:space="preserve">
+    <value>Герой «Превосходства»</value>
+  </data>
+  <data name="fallout_condition" xml:space="preserve">
+    <value>• Выдавалась всем игрокам победившей команды в течение специальной акции.
+• Выдавалась только одна награда за все проведённые бои.</value>
+  </data>
+  <data name="fallout_descr" xml:space="preserve">
+    <value>Победить в «Превосходстве».</value>
+  </data>
+  <data name="fallout2" xml:space="preserve">
+    <value>«Превосходная победа»</value>
+  </data>
+  <data name="fallout2_condition" xml:space="preserve">
+    <value>• Выдавалась всем игрокам победившей команды в течение специальной акции.
+• Выдавалась только одна награда за все проведённые бои.</value>
+  </data>
+  <data name="fallout2_descr" xml:space="preserve">
+    <value>Победить в событии «Превосходство: Стальная ярость».</value>
+  </data>
+  <data name="falloutPackOfWolfs" xml:space="preserve">
+    <value>«Стая»</value>
+  </data>
+  <data name="falloutPackOfWolfs_condition" xml:space="preserve">
+    <value>• Выдавалась всем игрокам победившей команды в течение специальной акции.
+• Выдавалась только одна награда за все проведённые бои.</value>
+  </data>
+  <data name="falloutPackOfWolfs_descr" xml:space="preserve">
+    <value>Победить в событии Стальная охота.</value>
+  </data>
+  <data name="falloutSingleWolf" xml:space="preserve">
+    <value>«Волк-одиночка»</value>
+  </data>
+  <data name="falloutSingleWolf_condition" xml:space="preserve">
+    <value>• Выдавалась не состоящему во взводе игроку за победу в специальной акции.
+• Выдавалась только одна награда за все проведённые бои.</value>
+  </data>
+  <data name="falloutSingleWolf_descr" xml:space="preserve">
+    <value>Победить в событии Стальная охота.</value>
+  </data>
+  <data name="falloutSteelHunter" xml:space="preserve">
+    <value>«Стальной охотник»</value>
+  </data>
+  <data name="falloutSteelHunter_condition" xml:space="preserve">
+    <value>• Выдавалась всем игрокам победившей команды в течение специальной акции.
+• Выдавалась только одна награда за все проведённые бои.</value>
+  </data>
+  <data name="falloutSteelHunter_descr" xml:space="preserve">
+    <value>Принять участие в событии Стальная охота.</value>
+  </data>
+  <data name="falloutAlwaysInLine" xml:space="preserve">
+    <value>«Всегда в строю»</value>
+  </data>
+  <data name="falloutAlwaysInLine_condition" xml:space="preserve">
+    <value>• Выдавалась всем игрокам победившей команды в течение специальной акции.
+• Выдавалась только одна награда за все проведённые бои.</value>
+  </data>
+  <data name="falloutAlwaysInLine_descr" xml:space="preserve">
+    <value>Победить в событии «Бой до последнего».</value>
+  </data>
+  <data name="mechanicEngineer7" xml:space="preserve">
+    <value>«Инженер-механик: Чехословакия»</value>
+  </data>
+  <data name="mechanicEngineer7_condition" xml:space="preserve">
+    <value>• Неисследованные модули не являются препятствием.</value>
+  </data>
+  <data name="mechanicEngineer7_descr" xml:space="preserve">
+    <value>Исследовать всю технику в Дереве исследований Чехословакии.</value>
+  </data>
+  <data name="tankExpert7" xml:space="preserve">
+    <value>«Эксперт: Чехословакия»</value>
+  </data>
+  <data name="tankExpert7_descr" xml:space="preserve">
+    <value>Уничтожить всю технику из Дерева исследований Чехословакии, исключая премиум и наградные машины.
+• Засчитывается техника, уничтоженная в Случайных, Командных и Ротных боях, в Наступлениях, на Глобальной карте, а также в Учебном бою (первые 10 боёв).</value>
+  </data>
+  <data name="aloneInTheField" xml:space="preserve">
+    <value>«Один в поле воин»</value>
+  </data>
+  <data name="aloneInTheField_condition" xml:space="preserve">
+    <value>• Не состоять во взводе.
+• Нанесённый урон должен был составлять не менее 10 000 единиц.
+• Учитывалось применение боевых резервов.
+• Выдавалась в «Стальной охоте» режима «Бой до последнего».</value>
+  </data>
+  <data name="aloneInTheField_descr" xml:space="preserve">
+    <value>Нанести наибольшее количество урона технике противника за бой.</value>
+  </data>
+  <data name="bannerman" xml:space="preserve">
+    <value>«Знаменосец»</value>
+  </data>
+  <data name="bannerman_condition" xml:space="preserve">
+    <value>• Состоять во взводе.
+• Учитывался личный результат.
+• Выдавалась в «Стальной охоте» в режиме «Бой до последнего».</value>
+  </data>
+  <data name="bannerman_descr" xml:space="preserve">
+    <value>Доставить на базу не менее 4 флагов.</value>
+  </data>
+  <data name="champion" xml:space="preserve">
+    <value>«Чемпион»</value>
+  </data>
+  <data name="champion_condition" xml:space="preserve">
+    <value>• Уничтожить не менее 5 машин противника.
+• Уничтожить не менее 3 флагов.
+• Не состоять во взводе.
+• Учитывалось применение боевых резервов.
+• Выдавалась в «Стальной охоте» режима «Бой до последнего».</value>
+  </data>
+  <data name="champion_descr" xml:space="preserve">
+    <value>Нанести не менее 10 000 единиц урона технике противника.</value>
+  </data>
+  <data name="effectiveSupport" xml:space="preserve">
+    <value>«Эффективная поддержка»</value>
+  </data>
+  <data name="effectiveSupport_condition" xml:space="preserve">
+    <value>• Нанесённый урон должен был составлять не менее 2 000 единиц.
+• Выдавалась в режиме «Бой до последнего».</value>
+  </data>
+  <data name="effectiveSupport_descr" xml:space="preserve">
+    <value>Нанести наибольшее количество урона технике противника с помощью боевых резервов.</value>
+  </data>
+  <data name="fallenFlags" xml:space="preserve">
+    <value>«Павшие знамёна»</value>
+  </data>
+  <data name="fallenFlags_condition" xml:space="preserve">
+    <value>• Не состоять во взводе.
+• Уничтожить не менее 4 флагов.
+• Выдавалась в «Стальной охоте» режима «Бой до последнего».</value>
+  </data>
+  <data name="fallenFlags_descr" xml:space="preserve">
+    <value>Уничтожить флагов больше, чем было суммарно доставлено взводами.</value>
+  </data>
+  <data name="falloutDieHard" xml:space="preserve">
+    <value>«Крепкий орешек»</value>
+  </data>
+  <data name="falloutDieHard_condition" xml:space="preserve">
+    <value>• Нанесённый технике противника урон должен был составлять не менее 10 000 единиц.
+• Уничтожить не менее 5 машин противника.
+• Учитывалось применение боевых резервов.
+• Выдавалась в «Превосходстве» режима «Бой до последнего».</value>
+  </data>
+  <data name="falloutDieHard_descr" xml:space="preserve">
+    <value>Ни разу не быть уничтоженным за бой.</value>
+  </data>
+  <data name="predator" xml:space="preserve">
+    <value>«Хищник»</value>
+  </data>
+  <data name="predator_condition" xml:space="preserve">
+    <value>• Также засчитывались машины противника, уничтоженные боевыми резервами.
+• Выдавалась в «Превосходстве» в режиме «Бой до последнего».</value>
+  </data>
+  <data name="predator_descr" xml:space="preserve">
+    <value>Уничтожить не менее 5 машин противника.</value>
+  </data>
+  <data name="sauronEye" xml:space="preserve">
+    <value>«Выживший»</value>
+  </data>
+  <data name="sauronEye_condition" xml:space="preserve">
+    <value>• Вся техника противника должна быть уничтожена.
+• Как минимум одна машина команды должна остаться в бою на момент окончания овертайма.
+• Выдаётся всем игрокам победившей команды.
+• Выдаётся в «Стальной охоте» в режиме «Бой до последнего».</value>
+  </data>
+  <data name="sauronEye_descr" xml:space="preserve">
+    <value>Победить в овертайме, избежав уничтожения огненным валом.</value>
+  </data>
+  <data name="shoulderToShoulder" xml:space="preserve">
+    <value>«Плечом к плечу»</value>
+  </data>
+  <data name="shoulderToShoulder_condition" xml:space="preserve">
+    <value>• Нанесённый технике противника урон должен был составлять не менее 30 000 единиц.
+• Учитывалось применение боевых резервов.
+• Выдавалась всем игрокам взвода в режиме «Бой до последнего».</value>
+  </data>
+  <data name="shoulderToShoulder_descr" xml:space="preserve">
+    <value>Уничтожить взводом не менее 12 машин противника.</value>
+  </data>
+  <data name="stormLord" xml:space="preserve">
+    <value>«Повелитель бури %(rank)s»</value>
+  </data>
+  <data name="stormLord_condition" xml:space="preserve">
+    <value>• Выдавалась в режиме «Бой до последнего».</value>
+  </data>
+  <data name="stormLord_descr" xml:space="preserve">
+    <value>За количество уничтоженной боевыми резервами техники противника.</value>
+  </data>
+  <data name="unreachable" xml:space="preserve">
+    <value>«Недосягаемый»</value>
+  </data>
+  <data name="unreachable_condition" xml:space="preserve">
+    <value>• Выдавалась в «Превосходстве» режима «Бой до последнего».</value>
+  </data>
+  <data name="unreachable_descr" xml:space="preserve">
+    <value>Заработать наибольшее количество очков победы.</value>
+  </data>
+  <data name="winnerLaurels" xml:space="preserve">
+    <value>«Лавры победителя %(rank)s»</value>
+  </data>
+  <data name="winnerLaurels_condition" xml:space="preserve">
+    <value>• Выдавалась в режиме «Бой до последнего».</value>
+  </data>
+  <data name="winnerLaurels_descr" xml:space="preserve">
+    <value>За количество заработанных очков победы.</value>
+  </data>
+  <data name="moonSphere" xml:space="preserve">
+    <value>«Сферический воин в вакууме»</value>
+  </data>
+  <data name="moonSphere_condition" xml:space="preserve">
+    <value>• Выдаётся всем игрокам победившей команды в течение специальной акции.
+• Выдаётся только одна награда за все проведённые бои.</value>
+  </data>
+  <data name="moonSphere_descr" xml:space="preserve">
+    <value>Победить в событии «Тёмная сторона Луны».</value>
+  </data>
+  <data name="EFC2016" xml:space="preserve">
+    <value>«Футболист-2016»</value>
+  </data>
+  <data name="EFC2016Goleador" xml:space="preserve">
+    <value>«Хет-трик»</value>
+  </data>
+  <data name="EFC2016Goleador_condition" xml:space="preserve">
+    <value>• Выдавалась в период действия специальной футбольной акции.
+• Не выдавалась в футбольном турнире.</value>
+  </data>
+  <data name="EFC2016Goleador_descr" xml:space="preserve">
+    <value>Забить не менее 3 голов в одном матче.</value>
+  </data>
+  <data name="EFC2016_condition" xml:space="preserve">
+    <value>• В общий зачёт шла максимальная серия побед подряд.
+• Серия прерывалась поражением.
+• Выдавалась всем игрокам победившей команды в период действия специальной футбольной акции.
+• Не выдавалась в футбольном турнире.</value>
+  </data>
+  <data name="EFC2016_descr" xml:space="preserve">
+    <value>Победить в футбольном матче, управляя T-62A СПОРТ.</value>
+  </data>
+  <data name="mechanicEngineer8" xml:space="preserve">
+    <value>«Инженер-механик: Швеция»</value>
+  </data>
+  <data name="mechanicEngineer8_condition" xml:space="preserve">
+    <value>• Неисследованные модули не являются препятствием.</value>
+  </data>
+  <data name="mechanicEngineer8_descr" xml:space="preserve">
+    <value>Исследовать всю технику в Дереве исследований Швеции.</value>
+  </data>
+  <data name="tankExpert8" xml:space="preserve">
+    <value>«Эксперт: Швеция»</value>
+  </data>
+  <data name="tankExpert8_descr" xml:space="preserve">
+    <value>Уничтожить всю технику из Дерева исследований Швеции, исключая премиум и наградные машины.
+• Засчитывается техника, уничтоженная в Случайных, Командных и Ротных боях, в Наступлениях, на Глобальной карте, а также в Учебном бою (первые 10 боёв).</value>
+  </data>
+  <data name="markI100Years" xml:space="preserve">
+    <value>«100 лет в строю» %(rank)s</value>
+  </data>
+  <data name="markI100Years_descr" xml:space="preserve">
+    <value>За участие в событии «Годовщина создания первого танка»</value>
+  </data>
+  <data name="markIBaseProtector" xml:space="preserve">
+    <value>«Защитник рубежей»</value>
+  </data>
+  <data name="markIBaseProtector_condition" xml:space="preserve">
+    <value>• Выдаётся всем игрокам победившей команды в течение специальной акции.
+• Выдаётся только одна награда за все проведённые бои.</value>
+  </data>
+  <data name="markIBaseProtector_descr" xml:space="preserve">
+    <value>Победить в событии «Конвой», предотвратив захват собственной базы.</value>
+  </data>
+  <data name="markIBomberman" xml:space="preserve">
+    <value>«Подрывник»</value>
+  </data>
+  <data name="markIBomberman_condition" xml:space="preserve">
+    <value>• Выдаётся в течение специальной акции.</value>
+  </data>
+  <data name="markIBomberman_descr" xml:space="preserve">
+    <value>Взорвать гусеницу танка Mk. I бомбой.</value>
+  </data>
+  <data name="markIProtector" xml:space="preserve">
+    <value>«Почётный эскорт»</value>
+  </data>
+  <data name="markIProtector_condition" xml:space="preserve">
+    <value>• Выдаётся всем игрокам победившей команды в течение специальной акции.
+• Выдаётся только одна награда за все проведённые бои.</value>
+  </data>
+  <data name="markIProtector_descr" xml:space="preserve">
+    <value>Победить в событии «Конвой», оказав помощь танку Mk. I в захвате базы противника.</value>
+  </data>
+  <data name="markIRepairer" xml:space="preserve">
+    <value>«Мастер-ремонтник»</value>
+  </data>
+  <data name="markIRepairer_condition" xml:space="preserve">
+    <value>• Выдаётся в течение специальной акции.</value>
+  </data>
+  <data name="markIRepairer_descr" xml:space="preserve">
+    <value>Починить гусеницу танка Mk. I.</value>
+  </data>
+  <data name="xmasTreeBronze" xml:space="preserve">
+    <value>«Хвоин III степени»</value>
+  </data>
+  <data name="xmasTreeBronze_condition" xml:space="preserve">
+    <value>• Чем больше украшений расположится на ёлке и танковике, тем ярче станет атмосфера праздника.
+• Выдаётся всем игрокам, выполнившим необходимое условие в течение специальной новогодней акции 2016–2017.</value>
+  </data>
+  <data name="xmasTreeBronze_descr" xml:space="preserve">
+    <value>Получить II уровень атмосферы праздника, приняв участие в новогодней акции.</value>
+  </data>
+  <data name="xmasTreeBronze_notification" xml:space="preserve">
+    <value>За проявленный героизм при повышении атмосферы праздника до II уровня вы получаете медаль «Хвоин III степени»</value>
+  </data>
+  <data name="xmasTreeGold" xml:space="preserve">
+    <value>«Хвоин I степени»</value>
+  </data>
+  <data name="xmasTreeGold_condition" xml:space="preserve">
+    <value>• Чем больше украшений расположится на ёлке и танковике, тем ярче станет атмосфера праздника.
+• Выдаётся всем игрокам, выполнившим необходимое условие в течение специальной новогодней акции 2016–2017.</value>
+  </data>
+  <data name="xmasTreeGold_descr" xml:space="preserve">
+    <value>Получить X уровень атмосферы праздника, приняв участие в новогодней акции.</value>
+  </data>
+  <data name="xmasTreeGold_notification" xml:space="preserve">
+    <value>За проявленный героизм при повышении атмосферы праздника до X уровня вы получаете медаль «Хвоин I степени»</value>
+  </data>
+  <data name="xmasTreeSilver" xml:space="preserve">
+    <value>«Хвоин II степени»</value>
+  </data>
+  <data name="xmasTreeSilver_condition" xml:space="preserve">
+    <value>• Чем больше украшений расположится на ёлке и танковике, тем ярче станет атмосфера праздника.
+• Выдаётся всем игрокам, выполнившим необходимое условие в течение специальной новогодней акции 2016–2017.</value>
+  </data>
+  <data name="xmasTreeSilver_descr" xml:space="preserve">
+    <value>Получить V уровень атмосферы праздника, приняв участие в новогодней акции.</value>
+  </data>
+  <data name="xmasTreeSilver_notification" xml:space="preserve">
+    <value>За проявленный героизм при повышении атмосферы праздника до V уровня вы получаете медаль «Хвоин II степени»</value>
+  </data>
+  <data name="honoredRank" xml:space="preserve">
+    <value>Ранг машины</value>
+  </data>
+  <data name="honoredRank_descr" xml:space="preserve">
+    <value>Показывает, как высоко вы поднялись на данной машине в Ранговых боях.</value>
+  </data>
+  <data name="mechanicEngineer9" xml:space="preserve">
+    <value>«Инженер-механик: Польша»</value>
+  </data>
+  <data name="mechanicEngineer9_condition" xml:space="preserve">
+    <value>• Неисследованные модули не являются препятствием.</value>
+  </data>
+  <data name="mechanicEngineer9_descr" xml:space="preserve">
+    <value>Исследовать всю технику в Дереве исследований Польши.</value>
+  </data>
+  <data name="rankedBattlesPioneer" xml:space="preserve">
+    <value>Пионер Ранговых боёв</value>
+  </data>
+  <data name="rankedBattlesPioneer_condition" xml:space="preserve">
+    <value>• Очки зарабатываются при получении ранга.
+• В общий зачёт идёт сумма очков за все этапы.
+• Выдаётся всем игрокам, заработавшим не менее 4 очков во время проведения бета-сезона в режиме «Ранговый бой».
+• Выдача происходит по итогам сезона.</value>
+  </data>
+  <data name="rankedBattlesPioneer_descr" xml:space="preserve">
+    <value>Заработать не менее 4 очков в течение сезона.</value>
+  </data>
+  <data name="heroesOfRassenay_condition_text" xml:space="preserve">
+    <value> и более</value>
+  </data>
+  <data name="heroesOfRassenay_ext_descr" xml:space="preserve">
+    <value>    %(condition)s — Генеральное сражение.</value>
+  </data>
+  <data name="heroesOfRassenay_standard_descr" xml:space="preserve">
+    <value>    %(condition)s — Стандартный бой, Штурм, Встречный бой.</value>
+  </data>
+  <data name="markOfMastery1" xml:space="preserve">
+    <value>Знак классности «1 степень»</value>
+  </data>
+  <data name="markOfMastery2" xml:space="preserve">
+    <value>Знак классности «2 степень»</value>
+  </data>
+  <data name="markOfMastery3" xml:space="preserve">
+    <value>Знак классности «3 степень»</value>
+  </data>
+  <data name="markOfMastery4" xml:space="preserve">
+    <value>Знак классности «Мастер»</value>
+  </data>
+  <data name="medalLafayettePool_ext_descr" xml:space="preserve">
+    <value>    %(condition)s — Генеральное сражение.</value>
+  </data>
+  <data name="medalLafayettePool_standard_descr" xml:space="preserve">
+    <value>    %(condition)s — Стандартный бой, Штурм, Встречный бой.</value>
+  </data>
+  <data name="medalRadleyWalters_ext_descr" xml:space="preserve">
+    <value>    %(condition)s — Генеральное сражение.</value>
+  </data>
+  <data name="medalRadleyWalters_standard_descr" xml:space="preserve">
+    <value>    %(condition)s — Стандартный бой, Штурм, Встречный бой.</value>
+  </data>
+  <data name="warrior_condition_text" xml:space="preserve">
+    <value> и более</value>
+  </data>
+  <data name="warrior_ext_descr" xml:space="preserve">
+    <value>    %(condition)s — Генеральное сражение.</value>
+  </data>
+  <data name="warrior_standard_descr" xml:space="preserve">
+    <value>    %(condition)s — Стандартный бой, Штурм, Встречный бой.</value>
+  </data>
+</root>

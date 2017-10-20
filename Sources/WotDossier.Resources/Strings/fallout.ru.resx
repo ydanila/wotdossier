@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="infoPanel/garage/descr" xml:space="preserve">
+    <value>Если вас уничтожили, возвращайтесь в тот же бой на другой машине.</value>
+  </data>
+  <data name="infoPanel/garage/head" xml:space="preserve">
+    <value>3 МАШИНЫ НА БОЙ</value>
+  </data>
+  <data name="infoPanel/getFlags/descr" xml:space="preserve">
+    <value>Захватывайте флаги и доставляйте их на базу.</value>
+  </data>
+  <data name="infoPanel/getFlags/head" xml:space="preserve">
+    <value>ОXОТA ЗА ФЛАГАМИ</value>
+  </data>
+  <data name="infoPanel/repair/descr" xml:space="preserve">
+    <value>Ремонтируйте и обслуживайте технику на контрольных точках.</value>
+  </data>
+  <data name="infoPanel/repair/head" xml:space="preserve">
+    <value>ПОЛНОЕ ВОССТАНОВЛЕНИЕ</value>
+  </data>
+  <data name="infoPanel/secretWin/descr" xml:space="preserve">
+    <value>За полезные действия в бою вам начисляют очки победы.</value>
+  </data>
+  <data name="infoPanel/secretWin/descr/cost" xml:space="preserve">
+    <value>+%(cost)s</value>
+  </data>
+  <data name="infoPanel/secretWin/descr/firstStr" xml:space="preserve">
+    <value>   </value>
+  </data>
+  <data name="infoPanel/secretWin/descr/secondStr" xml:space="preserve">
+    <value>   </value>
+  </data>
+  <data name="infoPanel/secretWin/head" xml:space="preserve">
+    <value>ПОДСЧЁТ ОЧКОВ</value>
+  </data>
+  <data name="battleLoading/multiteam/battleType" xml:space="preserve">
+    <value>«Стальная охота»</value>
+  </data>
+  <data name="battleLoading/multiteam/winText" xml:space="preserve">
+    <value>Задача: заработать наибольшее количество очков победы.</value>
+  </data>
+  <data name="infoPanel/resourcePoints/descr" xml:space="preserve">
+    <value>Захватывайте ресурсы на специальных ресурсных точках.</value>
+  </data>
+  <data name="infoPanel/resourcePoints/head" xml:space="preserve">
+    <value>ОХОТА ЗА РЕСУРСАМИ</value>
+  </data>
+  <data name="resourcePoints/cooldown/descr" xml:space="preserve">
+    <value>Доступно через:</value>
+  </data>
+  <data name="resourcePoints/disabled/descr" xml:space="preserve">
+    <value>На точке противник!</value>
+  </data>
+  <data name="resourcePoints/mining/descr" xml:space="preserve">
+    <value>Захват ресурсов</value>
+  </data>
+  <data name="battleSelectorWindow/domination/descr" xml:space="preserve">
+    <value>2 команды по 10 или 15 игроков в зависимости от карты, включая взводы.
+Побеждает команда, заработавшая наибольшее количество очков победы
+или уничтожившая всю технику противника.</value>
+  </data>
+  <data name="battleSelectorWindow/domination/title" xml:space="preserve">
+    <value>«Превосходство»</value>
+  </data>
+  <data name="battleSelectorWindow/dominationBattleBtnLbl" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="battleSelectorWindow/headerDesc" xml:space="preserve">
+    <value>Типы боёв в этом режиме различаются составом участников.
+Оба типа допускают использование боевых резервов и возрождение в бою.</value>
+  </data>
+  <data name="battleSelectorWindow/headerTitleStr" xml:space="preserve">
+    <value>«Бой до последнего»</value>
+  </data>
+  <data name="battleSelectorWindow/multiteam/descr" xml:space="preserve">
+    <value>Одиночные игроки, а также взводы из 3 игроков в формате
+«все против всех». Побеждает игрок или взвод, заработавший
+наибольшее количество очков победы.</value>
+  </data>
+  <data name="battleSelectorWindow/multiteam/title" xml:space="preserve">
+    <value>«Стальная охота»</value>
+  </data>
+  <data name="battleSelectorWindow/multiteamBattleBtnLbl" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="battleSelectorWindow/title" xml:space="preserve">
+    <value>«Бой до последнего»</value>
+  </data>
+  <data name="channel/label" xml:space="preserve">
+    <value>Бой до последнего</value>
+  </data>
+  <data name="hangarSwitch/1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hangarSwitch/2" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="hangarSwitch/btnLbl" xml:space="preserve">
+    <value>Сменить</value>
+  </data>
+  <data name="infoPanel/garageMultiteam/descr" xml:space="preserve">
+    <value>Если вас уничтожили, возвращайтесь в тот же бой на другой машине.</value>
+  </data>
+  <data name="infoPanel/garageMultiteam/head" xml:space="preserve">
+    <value>1-3 МАШИНЫ НА БОЙ</value>
+  </data>
+  <data name="multiselectionSlot/1/descriptionTitle" xml:space="preserve">
+    <value> .   1    %(topLevel)s </value>
+  </data>
+  <data name="multiselectionSlot/1/message" xml:space="preserve">
+    <value>    3  %(level)s .</value>
+  </data>
+  <data name="multiselectionSlot/1/topTierVehicleRequired" xml:space="preserve">
+    <value>       %(level)s .</value>
+  </data>
+  <data name="multiselectionSlot/2/descriptionTitle" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="multiselectionSlot/2/message" xml:space="preserve">
+    <value>     %(level)s .</value>
+  </data>
+  <data name="multiselectionSlot/2/topTierVehicleRequired" xml:space="preserve">
+    <value>        %(level)s .</value>
+  </data>
+  <data name="multiselectionSlot/domination/vehicleNotActivated" xml:space="preserve">
+    <value>Выберите
+машину</value>
+  </data>
+  <data name="multiselectionSlot/index" xml:space="preserve">
+    <value>%(index)d.</value>
+  </data>
+  <data name="multiselectionSlot/multiteam/vehicleNotActivated" xml:space="preserve">
+    <value>Выберите
+машину</value>
+  </data>
+  <data name="multiselectionSlot/selectionRequirements" xml:space="preserve">
+    <value>%(level)s уровень</value>
+  </data>
+  <data name="multiselectionSlot/selectionStatus" xml:space="preserve">
+    <value>Выбор техники</value>
+  </data>
+  <data name="tankCarouselSlot/activateButton" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="tankCarouselSlot/deactivateButton" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="tankCarouselSlot/selectionButtonTooltip" xml:space="preserve">
+    <value>Группа должна состоять из 3 машин %(level)s уровней. Как минимум 1 машина должна быть %(requiredLevel)s уровня и не находиться в настоящий момент в бою.</value>
+  </data>
+  <data name="awardWindow/additionalText/2" xml:space="preserve">
+    <value>Машину X уровня можно получить в аренду, выполняя специальные боевые задачи.</value>
+  </data>
+  <data name="awardWindow/btnAction/1" xml:space="preserve">
+    <value>К «Бою до последнего»</value>
+  </data>
+  <data name="awardWindow/btnAction/2" xml:space="preserve">
+    <value>К боевым задачам</value>
+  </data>
+  <data name="awardWindow/header/1" xml:space="preserve">
+    <value>У вас появилась машина %s уровня</value>
+  </data>
+  <data name="awardWindow/header/2" xml:space="preserve">
+    <value>У вас появилась машина %s уровня</value>
+  </data>
+  <data name="awardWindow/mainText/1" xml:space="preserve">
+    <value>Поздравляем! С появлением в вашем Ангаре машины %s уровня вам открылся доступ в игровой режим «Бой до последнего».</value>
+  </data>
+  <data name="awardWindow/mainText/2" xml:space="preserve">
+    <value>Поздравляем! Вы получили машину %s уровня. Для доступа к игровому режиму «Бой до последнего» купите машину X уровня, если таковой у вас нет.</value>
+  </data>
+  <data name="awardWindow/title/1" xml:space="preserve">
+    <value>Информационный листок</value>
+  </data>
+  <data name="awardWindow/title/2" xml:space="preserve">
+    <value>Информационный листок</value>
+  </data>
+  <data name="falloutBattleSelectorWindow/autoSquad/label" xml:space="preserve">
+    <value>Автопоиск команды</value>
+  </data>
+  <data name="gasAttack/damagePanel/crewDestroyed" xml:space="preserve">
+    <value>   </value>
+  </data>
+  <data name="gasAttack/postmortem/crewDestroyed" xml:space="preserve">
+    <value>   </value>
+  </data>
+  <data name="gasAttack/postmortem/respawnInfo" xml:space="preserve">
+    <value>Выбор и ремонт техники недоступны.</value>
+  </data>
+  <data name="gasAttack/postmortem/vehicleDestroyed" xml:space="preserve">
+    <value>Машина уничтожена</value>
+  </data>
+  <data name="gasAttackPanel/gasAttack/message" xml:space="preserve">
+    <value>Машина может быть уничтожена</value>
+  </data>
+  <data name="gasAttackPanel/gasAttack/title" xml:space="preserve">
+    <value>Надвигается огненный вал!</value>
+  </data>
+  <data name="gasAttackPanel/inside/message" xml:space="preserve">
+    <value>иначе машина будет уничтожена!</value>
+  </data>
+  <data name="gasAttackPanel/inside/title" xml:space="preserve">
+    <value>Срочно покиньте опасную зону,</value>
+  </data>
+  <data name="gasAttackPanel/safeZone/message" xml:space="preserve">
+    <value>Вы в свободной от огня зоне</value>
+  </data>
+  <data name="gasAttackPanel/safeZone/title" xml:space="preserve">
+    <value>Уничтожьте технику противника!</value>
+  </data>
+  <data name="gasAttackPanel/start/message" xml:space="preserve">
+    <value>Выбор и ремонт техники недоступны.</value>
+  </data>
+  <data name="gasAttackPanel/start/title" xml:space="preserve">
+    <value>Внимание! Воздушная тревога!</value>
+  </data>
+  <data name="gasAttackTimer/critical" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="gasAttackTimer/warning" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="infoPanel/garage/gasAtack/respawnInfo" xml:space="preserve">
+    <value>Выбор и ремонт техники недоступны.</value>
+  </data>
+  <data name="infoPanel/garage/gasAtack/topInfo" xml:space="preserve">
+    <value>  !</value>
+  </data>
+  <data name="infoPanel/garage/postmortemBtnLbl" xml:space="preserve">
+    <value>Режим наблюдателя</value>
+  </data>
+  <data name="infoPanel/singleHelpText/plus" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="infoPanel/singleHelpText/winPoints/damage" xml:space="preserve">
+    <value>%(points)s за %(damageDealt)s единиц урона</value>
+  </data>
+  <data name="infoPanel/singleHelpText/winPoints/flagCapture" xml:space="preserve">
+    <value>%s за доставку флага</value>
+  </data>
+  <data name="infoPanel/singleHelpText/winPoints/flagDestroy" xml:space="preserve">
+    <value>%s за уничтожение флага</value>
+  </data>
+  <data name="infoPanel/singleHelpText/winPoints/kill" xml:space="preserve">
+    <value>%s за уничтожение противника</value>
+  </data>
+  <data name="multiselectionSlot/domination/requiredVehicleNotActivated" xml:space="preserve">
+    <value>Машина
+%(level)s уровня</value>
+  </data>
+  <data name="safeZone/message" xml:space="preserve">
+    <value>Следуйте в
+безопасную зону</value>
+  </data>
+  <data name="safeZoneDirection/message" xml:space="preserve">
+    <value>Безопасная зона</value>
+  </data>
+  <data name="gasAttack/damagePanel/tankDestroyed" xml:space="preserve">
+    <value>Машина уничтожена</value>
+  </data>
+  <data name="hangarSwitch/14" xml:space="preserve">
+    <value>«Превосходство»</value>
+  </data>
+  <data name="hangarSwitch/15" xml:space="preserve">
+    <value>«Стальная охота»</value>
+  </data>
+  <data name="multiselectionSlot/14/descriptionTitle" xml:space="preserve">
+    <value>Выберите технику. Как минимум одна машина должна быть %(topLevel)s уровня.</value>
+  </data>
+  <data name="multiselectionSlot/14/message" xml:space="preserve">
+    <value>Группа должна состоять из 3 машин %(level)s уровней.</value>
+  </data>
+  <data name="multiselectionSlot/14/topTierVehicleRequired" xml:space="preserve">
+    <value>Для «Превосходства» нужна как минимум одна машина %(requiredLevel)s уровня
+Группа должна состоять из 3 машин %(level)s уровней.</value>
+  </data>
+  <data name="multiselectionSlot/15/descriptionTitle" xml:space="preserve">
+    <value>Выбор техники</value>
+  </data>
+  <data name="multiselectionSlot/15/message" xml:space="preserve">
+    <value>Выберите в своём Ангаре технику %(level)s уровня.</value>
+  </data>
+  <data name="multiselectionSlot/15/topTierVehicleRequired" xml:space="preserve">
+    <value>Для «Стальной охоты» нужна как минимум одна машина %(requiredLevel)s уровня.</value>
+  </data>
+  <data name="multiselectionSlot/groupNotReady" xml:space="preserve">
+    <value>Группа не готова</value>
+  </data>
+  <data name="multiselectionSlot/groupReady" xml:space="preserve">
+    <value>Группа готова</value>
+  </data>
+</root>

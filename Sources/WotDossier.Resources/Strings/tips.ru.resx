@@ -1,0 +1,1566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tip0" xml:space="preserve">
+    <value>При прохождении техники по болотистому грунту скорость движения и разворота резко ухудшается.</value>
+  </data>
+  <data name="tip1" xml:space="preserve">
+    <value>Используйте клавиши 1–3 для переключения типов снарядов.</value>
+  </data>
+  <data name="tip10" xml:space="preserve">
+    <value>Артиллерия — основная огневая мощь команды. Не оставляйте её без прикрытия.</value>
+  </data>
+  <data name="tip100" xml:space="preserve">
+    <value>Чем лучше наводчик владеет своей специальностью, тем быстрее сведение орудия.</value>
+  </data>
+  <data name="tip101" xml:space="preserve">
+    <value>Чем опытнее командир, тем выше эффективность всего экипажа.</value>
+  </data>
+  <data name="tip102" xml:space="preserve">
+    <value>Опытный механик-водитель эффективнее использует мощность двигателя.</value>
+  </data>
+  <data name="tip103" xml:space="preserve">
+    <value>Опытный заряжающий быстрее перезаряжает орудие.</value>
+  </data>
+  <data name="tip104" xml:space="preserve">
+    <value>Уровень владения командиром основной специальностью влияет на радиус обзора машины.</value>
+  </data>
+  <data name="tip105" xml:space="preserve">
+    <value>Опытный радист способен поддерживать связь на большем расстоянии.</value>
+  </data>
+  <data name="tip106" xml:space="preserve">
+    <value>Дополнительное оборудование улучшает эффективность работы экипажа или характеристики техники.</value>
+  </data>
+  <data name="tip107" xml:space="preserve">
+    <value>Машина, для которой исследованы все модули и ветки развития, получает статус элитной.</value>
+  </data>
+  <data name="tip108" xml:space="preserve">
+    <value>Весь боевой опыт, полученный на элитной технике, можно перевести в свободный.</value>
+  </data>
+  <data name="tip109" xml:space="preserve">
+    <value>Статус элитной техники не зависит от умений экипажа.</value>
+  </data>
+  <data name="tip11" xml:space="preserve">
+    <value>При игре на ПТ-САУ старайтесь не обнаружить себя. Укрывайтесь за густыми кустами и поваленными деревьями.</value>
+  </data>
+  <data name="tip110" xml:space="preserve">
+    <value>Не следует мешать противникам совершать ошибки. Это невежливо.</value>
+  </data>
+  <data name="tip111" xml:space="preserve">
+    <value>Иногда проще и безопаснее захватить базу противника. Уничтожение всей техники противника не даёт никакой дополнительной выгоды.</value>
+  </data>
+  <data name="tip112" xml:space="preserve">
+    <value>Если вас уничтожили, можно выйти в Ангар и вступить в новый бой на другой машине.</value>
+  </data>
+  <data name="tip113" xml:space="preserve">
+    <value>В ротном или клановом бою 50% кредитов и опыта побеждённая команда отдаёт победителю.</value>
+  </data>
+  <data name="tip114" xml:space="preserve">
+    <value>Совместное использование одного аккаунта нарушает правила игры и часто приводит к потере доступа.</value>
+  </data>
+  <data name="tip115" xml:space="preserve">
+    <value>Правила игры запрещают обмен аккаунтами. Вы рискуете потерять оба аккаунта навсегда.</value>
+  </data>
+  <data name="tip116" xml:space="preserve">
+    <value>Чем сложнее ваш пароль, тем он надёжней.</value>
+  </data>
+  <data name="tip117" xml:space="preserve">
+    <value>Регулярно меняйте пароль.</value>
+  </data>
+  <data name="tip118" xml:space="preserve">
+    <value>Покупка и продажа аккаунтов строго запрещена правилами игры. Нарушив их, вы рискуете потерять свой аккаунт.</value>
+  </data>
+  <data name="tip119" xml:space="preserve">
+    <value>Никогда не доверяйте ссылкам на сторонние ресурсы.</value>
+  </data>
+  <data name="tip12" xml:space="preserve">
+    <value>Не ждите противника на своей базе. Агрессивная тактика эффективнее глухой обороны.</value>
+  </data>
+  <data name="tip120" xml:space="preserve">
+    <value>Золото можно приобрести только на официальном сайте игры. Покупая его на других сайтах, вы просто потеряете свои деньги.</value>
+  </data>
+  <data name="tip121" xml:space="preserve">
+    <value>Использовать функцию «Сохранить пароль» удобно, но небезопасно.</value>
+  </data>
+  <data name="tip122" xml:space="preserve">
+    <value>Не забудьте ознакомиться с инструкциями по защите аккаунта на портале игры.</value>
+  </data>
+  <data name="tip123" xml:space="preserve">
+    <value>Удерживайте клавишу CTRL для отображения курсора мыши в бою.</value>
+  </data>
+  <data name="tip124" xml:space="preserve">
+    <value>Чтобы починить модуль или вылечить члена экипажа в бою, используйте ремкомплекты или аптечки.</value>
+  </data>
+  <data name="tip125" xml:space="preserve">
+    <value>Активируйте снаряжение «горячими клавишами» (по умолчанию 1-6). Клавиши указаны над значками снаряжения внизу экрана.</value>
+  </data>
+  <data name="tip126" xml:space="preserve">
+    <value>В артиллерийском режиме САУ можно мгновенно переместить камеру в нужное место, щёлкнув правой кнопкой мыши по миникарте.</value>
+  </data>
+  <data name="tip127" xml:space="preserve">
+    <value>Чтобы изменить вид списка команд в бою, нажмите CTRL+TAB.</value>
+  </data>
+  <data name="tip128" xml:space="preserve">
+    <value>Щёлкните правой кнопкой мыши по имени игрока в боковых панелях команд, чтобы посмотреть возможные действия.</value>
+  </data>
+  <data name="tip129" xml:space="preserve">
+    <value>Чтобы пожаловаться на игрока, выберите соответствующий пункт в контекстном меню имени игрока в боковых панелях команд.</value>
+  </data>
+  <data name="tip13" xml:space="preserve">
+    <value>Даже самый мощный тяжёлый танк не способен уничтожить всю технику противника без поддержки.</value>
+  </data>
+  <data name="tip130" xml:space="preserve">
+    <value>Команды в меню приказов различаются в зависимости от наведения курсора на союзника, противника или точку на местности.</value>
+  </data>
+  <data name="tip14" xml:space="preserve">
+    <value>Автоприцел не гарантирует 100% точности. Опытные игроки наводят свои орудия вручную.</value>
+  </data>
+  <data name="tip15" xml:space="preserve">
+    <value>Активная разведка — постоянное перемещение по полю боя. Пассивная — незаметное присутствие рядом с силами противника.</value>
+  </data>
+  <data name="tip16" xml:space="preserve">
+    <value>Скорострельность и точность орудия не менее важны для его эффективности, чем калибр.</value>
+  </data>
+  <data name="tip17" xml:space="preserve">
+    <value>Если не удаётся нанести урон противнику бронебойными снарядами, попробуйте использовать осколочно-фугасные.</value>
+  </data>
+  <data name="tip18" xml:space="preserve">
+    <value>Своевременное маневрирование — хороший способ избежать попаданий снарядов противника.</value>
+  </data>
+  <data name="tip19" xml:space="preserve">
+    <value>Даже самый тяжёлый танк имеет уязвимые места — борта и корму.</value>
+  </data>
+  <data name="tip2" xml:space="preserve">
+    <value>Лёгкие танки — разведчики. Главная их задача — обнаруживать технику противника и передавать координаты союзникам.</value>
+  </data>
+  <data name="tip20" xml:space="preserve">
+    <value>Установка некоторых видов модулей невозможна без замены ходовой части.</value>
+  </data>
+  <data name="tip21" xml:space="preserve">
+    <value>Установка некоторых орудий невозможна без замены башни.</value>
+  </data>
+  <data name="tip22" xml:space="preserve">
+    <value>Принадлежащая к одному типу техника часто требует разной тактики применения.</value>
+  </data>
+  <data name="tip23" xml:space="preserve">
+    <value>Лёгкие танки и САУ можно уничтожить тараном.</value>
+  </data>
+  <data name="tip24" xml:space="preserve">
+    <value>Прицельные выстрелы намного эффективнее беспорядочной стрельбы.</value>
+  </data>
+  <data name="tip25" xml:space="preserve">
+    <value>Осколочно-фугасные снаряды наиболее эффективны для выведения из строя модулей и уничтожения экипажа.</value>
+  </data>
+  <data name="tip26" xml:space="preserve">
+    <value>Предназначенная для ближнего манёвренного боя техника неэффективна в дальнем бою.</value>
+  </data>
+  <data name="tip27" xml:space="preserve">
+    <value>Типы снарядов различаются наносимым уроном, бронепробиваемостью и радиусом разлёта осколков.</value>
+  </data>
+  <data name="tip28" xml:space="preserve">
+    <value>Осколочно-фугасные снаряды наиболее эффективны против лёгких танков и САУ с открытыми рубками.</value>
+  </data>
+  <data name="tip29" xml:space="preserve">
+    <value>Стреляйте по гусеницам, чтобы остановить противника и сделать его лёгкой мишенью для союзников.</value>
+  </data>
+  <data name="tip3" xml:space="preserve">
+    <value>Чем дольше сможет прожить лёгкий танк в тылу противника, тем больше целей он обнаружит для союзной артиллерии.</value>
+  </data>
+  <data name="tip30" xml:space="preserve">
+    <value>Низкий профиль делает технику менее заметной, особенно в кустах.</value>
+  </data>
+  <data name="tip31" xml:space="preserve">
+    <value>Если не удаётся нанести урон противнику бронебойными снарядами, попробуйте использовать подкалиберные.</value>
+  </data>
+  <data name="tip32" xml:space="preserve">
+    <value>Дополнительные навыки и умения экипажа становятся доступными при достижении 100% владения основной специальностью.</value>
+  </data>
+  <data name="tip33" xml:space="preserve">
+    <value>Движущаяся техника более заметна, чем неподвижная.</value>
+  </data>
+  <data name="tip34" xml:space="preserve">
+    <value>Весь боевой опыт, полученный на премиум технике, можно перевести в свободный.</value>
+  </data>
+  <data name="tip35" xml:space="preserve">
+    <value>Уважайте себя и других игроков. Не засоряйте эфир бесполезными сообщениями.</value>
+  </data>
+  <data name="tip36" xml:space="preserve">
+    <value>В ближнем бою САУ может уничтожить противника прямой наводкой.</value>
+  </data>
+  <data name="tip37" xml:space="preserve">
+    <value>Вас проще обнаружить, если вы разрушаете строения и заборы, а также валите деревья.</value>
+  </data>
+  <data name="tip38" xml:space="preserve">
+    <value>Лёгкий танк — отличный разведчик. Для активной разведки важна мобильность, для пассивной — незаметность.</value>
+  </data>
+  <data name="tip39" xml:space="preserve">
+    <value>Концентрация огня на одной цели всегда оправдывает себя.</value>
+  </data>
+  <data name="tip4" xml:space="preserve">
+    <value>Лёгкий танк без хорошей радиостанции бесполезен для команды.</value>
+  </data>
+  <data name="tip40" xml:space="preserve">
+    <value>Берегите ваши САУ. Артиллерия может защитить вас, уничтожив тяжёлые танки противника ещё на подходе.</value>
+  </data>
+  <data name="tip41" xml:space="preserve">
+    <value>По траектории полёта снарядов можно вычислить, где затаился противник.</value>
+  </data>
+  <data name="tip42" xml:space="preserve">
+    <value>Чем больше членов команды захватывают базу, тем быстрее захват.</value>
+  </data>
+  <data name="tip43" xml:space="preserve">
+    <value>Ничья в бою означает проигрыш обеих команд, кроме режима «Штурм», где по истечении времени боя выигрывают обороняющиеся.</value>
+  </data>
+  <data name="tip44" xml:space="preserve">
+    <value>При захвате базы противника не попадите под обстрел. Это собьёт захват.</value>
+  </data>
+  <data name="tip45" xml:space="preserve">
+    <value>Манёвренность машины зависит от типа ходовой, мощности двигателя и суммарной массы установленных модулей.</value>
+  </data>
+  <data name="tip46" xml:space="preserve">
+    <value>Вероятность пожара зависит от типа двигателя. Возможность потушить пожар — от умений экипажа и наличия огнетушителей.</value>
+  </data>
+  <data name="tip47" xml:space="preserve">
+    <value>Здания и подбитые машины прикроют вас от огня противника. Кусты и деревья — нет.</value>
+  </data>
+  <data name="tip48" xml:space="preserve">
+    <value>Разрушенный механизм вращения блокирует башню. Ремкомплекты вернут башне первоначальную скорость вращения.</value>
+  </data>
+  <data name="tip49" xml:space="preserve">
+    <value>Разрушенное орудие не может стрелять. Ремкомплекты восстановят орудие и вернут ему первоначальную точность стрельбы.</value>
+  </data>
+  <data name="tip5" xml:space="preserve">
+    <value>Для лёгкого танка ходовая, радиостанция и двигатель важнее, чем орудие и башня.</value>
+  </data>
+  <data name="tip50" xml:space="preserve">
+    <value>При повреждённой боеукладке не только замедляется перезарядка орудия, но и увеличивается вероятность взрыва.</value>
+  </data>
+  <data name="tip51" xml:space="preserve">
+    <value>Повреждённые приборы наблюдения уменьшают радиус обзора.</value>
+  </data>
+  <data name="tip52" xml:space="preserve">
+    <value>Скорострельность орудия зависит от его типа, башни и умений экипажа.</value>
+  </data>
+  <data name="tip53" xml:space="preserve">
+    <value>Ранение механика-водителя снижает скорость и манёвренность машины.</value>
+  </data>
+  <data name="tip54" xml:space="preserve">
+    <value>Ранение заряжающего снижает скорость перезарядки.</value>
+  </data>
+  <data name="tip55" xml:space="preserve">
+    <value>Ранение наводчика снижает точность стрельбы.</value>
+  </data>
+  <data name="tip56" xml:space="preserve">
+    <value>Премиум аккаунт — это не только больше кредитов и опыта за каждый бой, но и чистый, красивый Ангар.</value>
+  </data>
+  <data name="tip57" xml:space="preserve">
+    <value>Свободный опыт можно потратить на исследование любой техники и модулей.</value>
+  </data>
+  <data name="tip58" xml:space="preserve">
+    <value>При исследовании техники и модулей в первую очередь используется боевой опыт и только потом свободный.</value>
+  </data>
+  <data name="tip59" xml:space="preserve">
+    <value>Новый модуль может оказаться слишком тяжёлым. Чтобы увеличить грузоподъёмность, замените ходовую часть.</value>
+  </data>
+  <data name="tip6" xml:space="preserve">
+    <value>Учитывайте тип техники, на которой вышли в бой, и применяйте соответствующую тактику.</value>
+  </data>
+  <data name="tip60" xml:space="preserve">
+    <value>Кредиты и опыт начисляются за активные действия в бою, например, за обнаружение, повреждение или уничтожение противника.</value>
+  </data>
+  <data name="tip61" xml:space="preserve">
+    <value>Детонация боеукладки зависит не от типа снарядов, а от их наличия. Пустая боеукладка не взрывается.</value>
+  </data>
+  <data name="tip62" xml:space="preserve">
+    <value>Технике противника можно нанести урон, повредить или разрушить модули, а также вывести из строя экипаж.</value>
+  </data>
+  <data name="tip63" xml:space="preserve">
+    <value>Осколочно-фугасные снаряды — самые разрушительные. Удачный выстрел таким снарядом может повредить сразу несколько машин.</value>
+  </data>
+  <data name="tip64" xml:space="preserve">
+    <value>Подкалиберные и кумулятивные снаряды обладают самой высокой бронепробиваемостью.</value>
+  </data>
+  <data name="tip65" xml:space="preserve">
+    <value>Используйте неровности местности, чтобы укрыться как от прямого огня противника, так и от наблюдения.</value>
+  </data>
+  <data name="tip66" xml:space="preserve">
+    <value>Победа в бою зависит от хорошо скоординированных действий всех членов команды.</value>
+  </data>
+  <data name="tip67" xml:space="preserve">
+    <value>Чтобы расширить Ангар, продайте одну из имеющихся машин или купите ещё один слот.</value>
+  </data>
+  <data name="tip68" xml:space="preserve">
+    <value>На Складе можно продавать ненужную технику, модули и боеприпасы.</value>
+  </data>
+  <data name="tip69" xml:space="preserve">
+    <value>Администрация никогда не станет запрашивать ваш пароль. Не доверяйте свои личные данные третьим лицам!</value>
+  </data>
+  <data name="tip7" xml:space="preserve">
+    <value>Основные задачи среднего танка: прорваться по флангам в тыл противника, нанести удар и отступить.</value>
+  </data>
+  <data name="tip70" xml:space="preserve">
+    <value>Ремонт премиум техники обходится дешевле.</value>
+  </data>
+  <data name="tip71" xml:space="preserve">
+    <value>Не стреляйте в союзников!</value>
+  </data>
+  <data name="tip72" xml:space="preserve">
+    <value>Чем мощнее радиостанция, тем легче с её помощью обмениваться сообщениями о местонахождении техники противника.</value>
+  </data>
+  <data name="tip73" xml:space="preserve">
+    <value>Радиус обзора — это максимальное расстояние, на котором можно заметить противника.</value>
+  </data>
+  <data name="tip74" xml:space="preserve">
+    <value>Чем выше скорость машины, тем ниже точность стрельбы на ходу.</value>
+  </data>
+  <data name="tip75" xml:space="preserve">
+    <value>Поворот корпуса и башни снижает точность стрельбы, поэтому после манёвра лучше подождать сведения прицела.</value>
+  </data>
+  <data name="tip76" xml:space="preserve">
+    <value>У осколочно-фугасных и кумулятивных снарядов бронепробиваемость не зависит от дальности стрельбы.</value>
+  </data>
+  <data name="tip77" xml:space="preserve">
+    <value>Максимальная скорость зависит от ходовой части. Динамика разгона — от мощности двигателя, массы машины и типа грунта.</value>
+  </data>
+  <data name="tip78" xml:space="preserve">
+    <value>Ходовые обладают разной проходимостью по разным типам грунта.</value>
+  </data>
+  <data name="tip79" xml:space="preserve">
+    <value>Успешный таран зависит от скорости, толщины брони и соотношения масс машин.</value>
+  </data>
+  <data name="tip8" xml:space="preserve">
+    <value>«Волчья стая» средних танков способна загрызть даже самого матёрого зверя.</value>
+  </data>
+  <data name="tip80" xml:space="preserve">
+    <value>Лобовую броню труднее всего пробить. Цельтесь в корму и борт.</value>
+  </data>
+  <data name="tip81" xml:space="preserve">
+    <value>Скорость сведения прицела зависит от типа орудия и мастерства наводчика.</value>
+  </data>
+  <data name="tip82" xml:space="preserve">
+    <value>Ранение командира снижает радиус обзора.</value>
+  </data>
+  <data name="tip83" xml:space="preserve">
+    <value>Автоприцел выключается, если цель, которую вы сопровождали, уничтожена или скрылась из виду.</value>
+  </data>
+  <data name="tip84" xml:space="preserve">
+    <value>Уничтоженная машина отсутствует в Ангаре до окончания боя.</value>
+  </data>
+  <data name="tip85" xml:space="preserve">
+    <value>Вступить в бой можно только на полностью отремонтированной машине с укомплектованным экипажем.</value>
+  </data>
+  <data name="tip86" xml:space="preserve">
+    <value>Автоматическое пополнение восстановит боекомплект до того состояния, в котором он был перед началом боя.</value>
+  </data>
+  <data name="tip87" xml:space="preserve">
+    <value>При больших углах наклона брони вероятность рикошета выше.</value>
+  </data>
+  <data name="tip88" xml:space="preserve">
+    <value>Расширьте Казарму, если в ней недостаточно места.</value>
+  </data>
+  <data name="tip89" xml:space="preserve">
+    <value>Членов экипажа можно пересадить на другую технику или высадить в Казарму.</value>
+  </data>
+  <data name="tip9" xml:space="preserve">
+    <value>Смена позиции при первом признаке опасности — залог выживания САУ.</value>
+  </data>
+  <data name="tip90" xml:space="preserve">
+    <value>Раненый член экипажа получает меньше опыта за бой.</value>
+  </data>
+  <data name="tip91" xml:space="preserve">
+    <value>Выйти в бой на машине с неполным экипажем невозможно.</value>
+  </data>
+  <data name="tip92" xml:space="preserve">
+    <value>Скорость обучения экипажа зависит от полученного опыта за бой.</value>
+  </data>
+  <data name="tip93" xml:space="preserve">
+    <value>Уровень владения командиром основной специальностью увеличивает прибавку в процентах к основным специальностям остального экипажа.</value>
+  </data>
+  <data name="tip94" xml:space="preserve">
+    <value>Основную специальность члена экипажа можно сменить на любую другую за игровое золото. Нацию сменить нельзя.</value>
+  </data>
+  <data name="tip95" xml:space="preserve">
+    <value>Весь заработанный боевой опыт при включённом режиме «Ускорить обучение экипажа» тратится на развитие умений экипажа.</value>
+  </data>
+  <data name="tip96" xml:space="preserve">
+    <value>Достижение 100% уровня владения основной специальностью открывает доступ к дополнительным умениям и навыкам.</value>
+  </data>
+  <data name="tip97" xml:space="preserve">
+    <value>Члены экипажа могут изучать разные дополнительные умения и навыки.</value>
+  </data>
+  <data name="tip98" xml:space="preserve">
+    <value>Список устанавливаемого оборудования зависит от типа и национальной принадлежности техники.</value>
+  </data>
+  <data name="tip99" xml:space="preserve">
+    <value>Некоторое оборудование может быть демонтировано и перенесено с одной машины на другую.</value>
+  </data>
+  <data name="tip131" xml:space="preserve">
+    <value>Используйте меню приказов для выбора быстрого сообщения союзникам (клавиша по умолчанию — Z).</value>
+  </data>
+  <data name="tip132" xml:space="preserve">
+    <value>Для быстрого вызова команд в меню приказов используйте клавиши F2–F8, которые указаны под командами.</value>
+  </data>
+  <data name="tip133" xml:space="preserve">
+    <value>С помощью комбинаций клавиш «правый Shift» + «+» и «правый Shift» + «-» можно менять динамическое разрешение экрана в бою.</value>
+  </data>
+  <data name="tip134" xml:space="preserve">
+    <value>Грубость не лучший способ убедить союзника в своей правоте, кроме того, она запрещена Правилами игры.</value>
+  </data>
+  <data name="tip135" xml:space="preserve">
+    <value>Вежливому игроку союзники будут помогать активнее.</value>
+  </data>
+  <data name="tip136" xml:space="preserve">
+    <value>Основной бой должен происходить на карте, а не в чате.</value>
+  </data>
+  <data name="tip137" xml:space="preserve">
+    <value>Не засоряйте чат неинформативными сообщениями. Это отвлекает от боя.</value>
+  </data>
+  <data name="tip138" xml:space="preserve">
+    <value>Используйте функцию «Пожаловаться» при любом нарушении Правил игры.</value>
+  </data>
+  <data name="tip139" xml:space="preserve">
+    <value>Добавив игрока в «Чёрный список» вы сразу перестанете получать от него любые сообщения и приглашения в формирования.</value>
+  </data>
+  <data name="tip140" xml:space="preserve">
+    <value>Цензурирование сообщений можно включить в настройках игры.</value>
+  </data>
+  <data name="tip141" xml:space="preserve">
+    <value>Боевой чат можно отключить в настройках игры. При этом взводный чат останется доступным.</value>
+  </data>
+  <data name="tip142" xml:space="preserve">
+    <value>Пока вы выясняете отношения с союзниками, противник не дремлет.</value>
+  </data>
+  <data name="tip143" xml:space="preserve">
+    <value>Внимательно следите за ходом боя — даже одна ошибка может стать причиной поражения.</value>
+  </data>
+  <data name="tip144" xml:space="preserve">
+    <value>Используя запрещённые программы или проводя договорные бои, вы рискуете навсегда потерять свой аккаунт.</value>
+  </data>
+  <data name="tip145" xml:space="preserve">
+    <value>Каждое попадание по союзникам фиксируется специальной системой, которая рано или поздно автоматически заблокирует стрелка.</value>
+  </data>
+  <data name="tip146" xml:space="preserve">
+    <value>Нарушение Правил игры наказывается и может привести к блокировке аккаунта.</value>
+  </data>
+  <data name="tip147" xml:space="preserve">
+    <value>Если вас наказали за нарушение Правил игры, рекомендуем внимательно их перечитать, чтобы исключить подобные инциденты в дальнейшем.</value>
+  </data>
+  <data name="tip148" xml:space="preserve">
+    <value>Правила игры едины для всех, как и ответственность за их нарушение.</value>
+  </data>
+  <data name="tip149" xml:space="preserve">
+    <value>Бесплатное золото и чит-коды к игре — уловки взломщика для кражи вашего аккаунта.</value>
+  </data>
+  <data name="tip150" xml:space="preserve">
+    <value>Не вводите email и пароль от вашего аккаунта на сторонних ресурсах. Вы рискуете потерять свой аккаунт.</value>
+  </data>
+  <data name="tip151" xml:space="preserve">
+    <value>Использовать функцию «Запомнить пароль» удобно, но небезопасно.</value>
+  </data>
+  <data name="tip152" xml:space="preserve">
+    <value>Чтобы указать союзникам цель, наведите курсор на танк противника и, удерживая клавишу Z, выберите команду «Поддержите огнём!».</value>
+  </data>
+  <data name="tip153" xml:space="preserve">
+    <value>Хорошо защищённый почтовый ящик существенно снижает вероятность взлома аккаунта.</value>
+  </data>
+  <data name="tip154" xml:space="preserve">
+    <value>Приняв меры по защите аккаунта, не забудьте защитить и почтовый ящик — взломщик может использовать его, чтобы украсть ваш аккаунт.</value>
+  </data>
+  <data name="tip155" xml:space="preserve">
+    <value>Не забудьте ознакомиться с инструкциями по защите аккаунта на портале игры.</value>
+  </data>
+  <data name="tip156" xml:space="preserve">
+    <value>Всегда проверяйте адрес сайта, на котором вы вводите логин и пароль. Сайты мошенников зачастую похожи на официальный.</value>
+  </data>
+  <data name="tip157" xml:space="preserve">
+    <value>Не принимайте подарки от незнакомых людей — это может повлечь за собой блокировку аккаунта.</value>
+  </data>
+  <data name="tip158" xml:space="preserve">
+    <value>Удерживайте клавишу CTRL для отображения курсора мыши в бою.</value>
+  </data>
+  <data name="tip159" xml:space="preserve">
+    <value>Курсор мыши в бою вызывается клавишей CTRL.</value>
+  </data>
+  <data name="tip160" xml:space="preserve">
+    <value>Чтобы починить модуль или вылечить танкиста в бою, щёлкните по соответствующему значку в левом нижнем углу экрана.</value>
+  </data>
+  <data name="tip161" xml:space="preserve">
+    <value>Чтобы починить повреждённый модуль в бою, щёлкните по значку ремкомплекта внизу экрана и выберите нужный модуль.</value>
+  </data>
+  <data name="tip162" xml:space="preserve">
+    <value>Чтобы вылечить раненого танкиста в бою, щёлкните по значку аптечки внизу экрана и выберите нужного танкиста.</value>
+  </data>
+  <data name="tip163" xml:space="preserve">
+    <value>Активируйте снаряжение «горячими клавишами» (по умолчанию 1-6). Клавиши указаны над значками снаряжения внизу экрана.</value>
+  </data>
+  <data name="tip164" xml:space="preserve">
+    <value>В артиллерийском режиме САУ можно мгновенно переместить камеру в нужное место, щёлкнув правой кнопкой мыши по миникарте.</value>
+  </data>
+  <data name="tip165" xml:space="preserve">
+    <value>Чтобы изменить вид списка команд в бою, нажмите CTRL+TAB.</value>
+  </data>
+  <data name="tip166" xml:space="preserve">
+    <value>Щёлкните правой кнопкой по игроку в списке, чтобы добавить в «Друзья», отправить в «Игнор» или пожаловаться администрации.</value>
+  </data>
+  <data name="tip167" xml:space="preserve">
+    <value>Добавить игрока в список друзей можно прямо в бою, щёлкнув правой кнопкой по его имени и нажав Добавить в «Друзья».</value>
+  </data>
+  <data name="tip168" xml:space="preserve">
+    <value>Чтобы пожаловаться на игрока в бою, щёлкните правой кнопкой мыши по его имени и нажмите «Пожаловаться».</value>
+  </data>
+  <data name="tip169" xml:space="preserve">
+    <value>Если вы заметили, что кто-то оскорбляет других игроков, щёлкните правой кнопкой по его имени и выберите «Пожаловаться».</value>
+  </data>
+  <data name="tip170" xml:space="preserve">
+    <value>Чтобы отправлять быстрые сообщения другим игрокам во время боя, удерживайте клавишу Z.</value>
+  </data>
+  <data name="tip171" xml:space="preserve">
+    <value>Команды в радиальном меню различаются в зависимости от того, наведён курсор на союзника, противника или точку на местности.</value>
+  </data>
+  <data name="tip172" xml:space="preserve">
+    <value>Чтобы выбрать команду в радиальном меню, удерживайте клавишу Z и движением мыши подсветите нужное сообщение.</value>
+  </data>
+  <data name="tip173" xml:space="preserve">
+    <value>С помощью команды радиального меню «Перезаряжаюсь» сообщите союзникам, что не можете стрелять в данный момент.</value>
+  </data>
+  <data name="tip174" xml:space="preserve">
+    <value>Для быстрого вызова команд в радиальном меню используйте клавиши F2–F8, которые указаны под командами.</value>
+  </data>
+  <data name="tip175" xml:space="preserve">
+    <value>Чтобы обратиться к союзнику, наведите курсор на его боевую машину и, удерживая клавишу Z, выберите нужную команду.</value>
+  </data>
+  <data name="tip_football" xml:space="preserve">
+    <value>Машинам нельзя нанести урон, но можно сбить гусеницу. Условия победы — 3 гола или преимущество в счёте по истечении времени матча.</value>
+  </data>
+  <data name="eventTip" xml:space="preserve">
+    <value>Восстанавливающие снаряды не только чинят союзную технику при попадании, но и исправно наносят урон противнику.</value>
+  </data>
+  <data name="beCareful" xml:space="preserve">
+    <value>Будьте внимательны</value>
+  </data>
+  <data name="followTheRules" xml:space="preserve">
+    <value>Соблюдайте правила</value>
+  </data>
+  <data name="payAttention" xml:space="preserve">
+    <value>Обратите внимание</value>
+  </data>
+  <data name="security" xml:space="preserve">
+    <value>Безопасность прежде всего</value>
+  </data>
+  <data name="technicalAdvice" xml:space="preserve">
+    <value>Технический совет</value>
+  </data>
+  <data name="tip0/payAttention/tactics/0_50/all/all/all" xml:space="preserve">
+    <value>При прохождении машины по болотистому грунту скорость движения и разворота резко ухудшается.</value>
+  </data>
+  <data name="tip100/payAttention/crew/0_500/all/all/all" xml:space="preserve">
+    <value>Чем лучше наводчик владеет своей специальностью, тем быстрее сведение орудия.</value>
+  </data>
+  <data name="tip103/payAttention/crew/0_500/all/all/all" xml:space="preserve">
+    <value>Опытный заряжающий быстрее перезаряжает орудие.</value>
+  </data>
+  <data name="tip106/payAttention/tactics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Дополнительное оборудование улучшает эффективность работы экипажа и характеристики техники.</value>
+  </data>
+  <data name="tip107/payAttention/economics/50_500/all/all/all" xml:space="preserve">
+    <value>Машина, для которой исследованы все модули и следующая в ветке развития техника, получает статус «Элитной».</value>
+  </data>
+  <data name="tip108/payAttention/tactics/200_infinity/all/all/all" xml:space="preserve">
+    <value>Весь боевой опыт, накопленный на элитной технике, в том числе и на премиум, можно перевести в свободный.</value>
+  </data>
+  <data name="tip11/payAttention/tactics/0_infinity/AT-SPG/all/all" xml:space="preserve">
+    <value>При игре на ПТ-САУ старайтесь не обнаружить себя. Укрывайтесь за густыми кустами и поваленными деревьями.</value>
+  </data>
+  <data name="tip111/payAttention/tactics/50_500/all/all/all" xml:space="preserve">
+    <value>Иногда проще и безопаснее захватить базу противника, чем уничтожать всю его технику.</value>
+  </data>
+  <data name="tip112/payAttention/economics/0_100/all/all/all" xml:space="preserve">
+    <value>В «Превосходстве» вы можете использовать до 3 машин в одном бою, выбирая следующую после уничтожения предыдущей.</value>
+  </data>
+  <data name="tip114/followTheRules/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Совместное использование одного аккаунта нарушает Правила игры и часто приводит к потере доступа.</value>
+  </data>
+  <data name="tip115/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Правила игры запрещают обмен аккаунтами. Вы рискуете потерять оба аккаунта навсегда.</value>
+  </data>
+  <data name="tip116/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Чем сложнее ваш пароль, тем он надёжней.</value>
+  </data>
+  <data name="tip117/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Регулярно меняйте пароль.</value>
+  </data>
+  <data name="tip118/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Покупка и продажа аккаунтов строго запрещена Правилами игры. Нарушив их, вы рискуете потерять свой аккаунт.</value>
+  </data>
+  <data name="tip119/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Никогда не доверяйте ссылкам на сторонние ресурсы.</value>
+  </data>
+  <data name="tip120/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Золото можно приобрести только на официальном сайте игры. Покупая его на других сайтах, вы рискуете потерять свои деньги.</value>
+  </data>
+  <data name="tip121/security/security/200_infinity/all/all/all" xml:space="preserve">
+    <value>Использовать функцию «Сохранить пароль» удобно, но небезопасно.</value>
+  </data>
+  <data name="tip122/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Не забудьте ознакомиться с инструкциями по защите аккаунта на портале игры.</value>
+  </data>
+  <data name="tip123/payAttention/tactics/200_infinity/all/all/all" xml:space="preserve">
+    <value>Удерживайте клавишу Ctrl для отображения курсора мыши в бою.</value>
+  </data>
+  <data name="tip124/payAttention/tactics/50_500/all/all/all" xml:space="preserve">
+    <value>Чтобы починить модуль или вылечить члена экипажа в бою, используйте ремкомплекты или аптечки.</value>
+  </data>
+  <data name="tip125/usefulFeatures/interface/100_infinity/all/all/all" xml:space="preserve">
+    <value>Пользуйтесь «горячими клавишами» для переключения между типами снарядов и использования снаряжения (по умолчанию 1-6).</value>
+  </data>
+  <data name="tip126/usefulFeatures/interface/100_500/SPG/all/all" xml:space="preserve">
+    <value>В артиллерийском режиме можно мгновенно переместить камеру в нужное место, щёлкнув правой кнопкой мыши по миникарте.</value>
+  </data>
+  <data name="tip127/usefulFeatures/interface/500_infinity/all/all/all" xml:space="preserve">
+    <value>Чтобы изменить вид списка команд в бою, нажмите Ctrl+Tab.</value>
+  </data>
+  <data name="tip128/usefulFeatures/interface/100_infinity/all/all/all" xml:space="preserve">
+    <value>Щёлкните правой кнопкой мыши по имени игрока в боковых панелях команд, чтобы посмотреть возможные действия.</value>
+  </data>
+  <data name="tip129/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Чтобы пожаловаться на игрока, выберите соответствующий пункт в контекстном меню имени игрока в боковых панелях команд.</value>
+  </data>
+  <data name="tip130/usefulFeatures/interface/500_infinity/all/all/all" xml:space="preserve">
+    <value>Команды в меню приказов различаются в зависимости от наведения курсора на союзника, противника или точку на местности.</value>
+  </data>
+  <data name="tip131/usefulFeatures/interface/200_infinity/all/all/all" xml:space="preserve">
+    <value>Используйте меню приказов для выбора быстрого сообщения союзникам (клавиша по умолчанию — Z).</value>
+  </data>
+  <data name="tip132/usefulFeatures/interface/100_infinity/all/all/all" xml:space="preserve">
+    <value>Для быстрого вызова команд в меню приказов используйте клавиши F2–F8, которые указаны под командами.</value>
+  </data>
+  <data name="tip134/followTheRules/rules/200_infinity/all/all/all" xml:space="preserve">
+    <value>Грубость — не лучший способ убедить союзника в своей правоте, кроме того, она запрещена Правилами игры.</value>
+  </data>
+  <data name="tip135/followTheRules/rules/200_infinity/all/all/all" xml:space="preserve">
+    <value>Вежливому игроку союзники будут помогать активнее.</value>
+  </data>
+  <data name="tip136/followTheRules/rules/200_infinity/all/all/all" xml:space="preserve">
+    <value>Основной бой должен происходить на карте, а не в чате.</value>
+  </data>
+  <data name="tip137/followTheRules/rules/200_infinity/all/all/all" xml:space="preserve">
+    <value>Не засоряйте чат неинформативными сообщениями. Это отвлекает от боя.</value>
+  </data>
+  <data name="tip138/followTheRules/rules/200_infinity/all/all/all" xml:space="preserve">
+    <value>Используйте функцию «Пожаловаться» при любом нарушении Правил игры.</value>
+  </data>
+  <data name="tip139/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Добавив игрока в «Чёрный список», вы сразу перестанете получать от него любые сообщения и приглашения в формирования.</value>
+  </data>
+  <data name="tip14/payAttention/tactics/101_infinity/all/all/all" xml:space="preserve">
+    <value>Автоприцел не гарантирует 100% точности. Опытные игроки наводят свои орудия вручную.</value>
+  </data>
+  <data name="tip140/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Цензурирование сообщений можно включить в настройках игры.</value>
+  </data>
+  <data name="tip141/followTheRules/rules/200_infinity/all/all/all" xml:space="preserve">
+    <value>Боевой чат можно отключить в настройках игры. При этом взводный чат останется доступным.</value>
+  </data>
+  <data name="tip142/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Пока вы выясняете отношения с союзниками, противник не дремлет.</value>
+  </data>
+  <data name="tip143/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Внимательно следите за ходом боя — малейшая ошибка может стать причиной поражения.</value>
+  </data>
+  <data name="tip144/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Используя запрещённые программы или проводя договорные бои, вы рискуете навсегда потерять свой аккаунт.</value>
+  </data>
+  <data name="tip145/followTheRules/rules/0_500/all/all/all" xml:space="preserve">
+    <value>Каждое попадание по союзникам фиксируется специальной системой, которая рано или поздно автоматически заблокирует стрелка.</value>
+  </data>
+  <data name="tip146/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Нарушение Правил игры наказывается и может привести к блокировке аккаунта.</value>
+  </data>
+  <data name="tip147/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Если вас наказали за нарушение Правил игры, рекомендуем внимательно их перечитать, чтобы исключить подобные инциденты в дальнейшем.</value>
+  </data>
+  <data name="tip148/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Правила игры едины для всех, как и ответственность за их нарушение.</value>
+  </data>
+  <data name="tip149/technicalAdvice/techProblems/500_infinity/all/all/all" xml:space="preserve">
+    <value>Не можете попасть в бой? Попробуйте запустить клиент игры без модификаций.</value>
+  </data>
+  <data name="tip150/technicalAdvice/techProblems/100_infinity/all/all/all" xml:space="preserve">
+    <value>Низкий показатель FPS? Попробуйте понизить качество графики в настройках игры.</value>
+  </data>
+  <data name="tip151/technicalAdvice/techProblems/100_infinity/all/all/all" xml:space="preserve">
+    <value>Низкий уровень FPS или графические искажения? Попробуйте обновить драйвера видеокарты.</value>
+  </data>
+  <data name="tip152/technicalAdvice/techProblems/100_infinity/all/all/all" xml:space="preserve">
+    <value>Высокий пинг через 3G или WiFi? Попробуйте подключить кабельное интернет-соединение.</value>
+  </data>
+  <data name="tip153/technicalAdvice/techProblems/100_infinity/all/all/all" xml:space="preserve">
+    <value>Машина телепортируется или стреляет с задержкой? Проверьте стабильность сетевого подключения.</value>
+  </data>
+  <data name="tip154/technicalAdvice/techProblems/100_infinity/all/all/all" xml:space="preserve">
+    <value>Отсутствие вирусов — залог стабильной работы компьютера и игры.</value>
+  </data>
+  <data name="tip155/technicalAdvice/techProblems/500_infinity/all/all/all" xml:space="preserve">
+    <value>Вас не слышит команда? Проверьте настройки голосовой связи.</value>
+  </data>
+  <data name="tip156/technicalAdvice/techProblems/200_infinity/all/all/all" xml:space="preserve">
+    <value>Чем подробнее вы опишете проблему при обращении в Центр поддержки пользователей, тем эффективнее будет рассмотрение заявки.</value>
+  </data>
+  <data name="tip157/technicalAdvice/techProblems/200_infinity/all/all/all" xml:space="preserve">
+    <value>Перед обращением в Центр поддержки пользователей убедитесь, что проблема воспроизводится и без модификаций игры.</value>
+  </data>
+  <data name="tip158/security/security/100_infinity/all/all/all" xml:space="preserve">
+    <value>Привязка аккаунта к мобильному телефону позволяет полностью обезопасить аккаунт от потенциальных взломщиков.</value>
+  </data>
+  <data name="tip159/security/security/100_infinity/all/all/all" xml:space="preserve">
+    <value>Следите за работоспособностью привязанного номера мобильного телефона. Это позволит оперативно восстановить доступ к аккаунту.</value>
+  </data>
+  <data name="tip160/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Обезопасьте свой почтовый ящик. Администрация не меняет привязку почтового ящика к аккаунту.</value>
+  </data>
+  <data name="tip161/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>В случае возникновения подозрений на несанкционированный доступ к аккаунту сразу свяжитесь с Центром поддержки пользователей.</value>
+  </data>
+  <data name="tip162/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Не принимайте подарки от незнакомых пользователей.</value>
+  </data>
+  <data name="tip163/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Правильно выбранный раздел при обращении в Центр поддержки пользователей помогает быстрее рассмотреть проблему.</value>
+  </data>
+  <data name="tip164/payAttention/tactics/500_infinity/SPG/all/all" xml:space="preserve">
+    <value>Опытный артиллерист может вычислить противника на САУ по трассеру, если тот ведёт стрельбу, не меняя позицию.</value>
+  </data>
+  <data name="tip165/payAttention/tactics/100_500/all/all/all" xml:space="preserve">
+    <value>Автоматический огнетушитель не только тушит пожар сразу после его возникновения, но и снижает шанс возгорания двигателя.</value>
+  </data>
+  <data name="tip166/payAttention/tactics/500_infinity/SPG/all/all" xml:space="preserve">
+    <value>При игре на САУ учитывайте траекторию полёта снаряда и его скорость, а также рельеф местности.</value>
+  </data>
+  <data name="tip167/payAttention/tactics/50_500/all/all/all" xml:space="preserve">
+    <value>Регулярно смотрите на миникарту, оценивая действия союзников и противника.</value>
+  </data>
+  <data name="tip168/payAttention/tactics/500_infinity/all/all/all" xml:space="preserve">
+    <value>При пассивной разведке не выдавайте свою позицию стрельбой. За передачу разведданных вы получите дополнительный опыт и кредиты.</value>
+  </data>
+  <data name="tip169/payAttention/tactics/500_infinity/all/all/all" xml:space="preserve">
+    <value>Вовремя использованный ремкомплект позволит быстро починить ходовую и уйти из-под обстрела противника.</value>
+  </data>
+  <data name="tip17/payAttention/tactics/151_infinity/all/all/all" xml:space="preserve">
+    <value>Если не удаётся нанести урон противнику бронебойными снарядами, попробуйте использовать осколочно-фугасные.</value>
+  </data>
+  <data name="tip170/payAttention/tactics/200_infinity/all/all/all" xml:space="preserve">
+    <value>Поваленное дерево маскирует так же, как и куст.</value>
+  </data>
+  <data name="tip171/payAttention/tactics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Ваша машина обладает высочайшей проходимостью, однако всё равно может застрять.</value>
+  </data>
+  <data name="tip172/payAttention/economics/0_500/all/all/all" xml:space="preserve">
+    <value>Премиум снаряды и снаряжение по умолчанию приобретаются за игровое золото.</value>
+  </data>
+  <data name="tip173/payAttention/economics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Вы можете пересадить экипаж на премиум машину той же нации и типа без переобучения.</value>
+  </data>
+  <data name="tip174/payAttention/crew/100_infinity/all/all/all" xml:space="preserve">
+    <value>Ранение члена экипажа снижает эффективность его действий в бою.</value>
+  </data>
+  <data name="tip175/payAttention/crew/100_infinity/all/all/all" xml:space="preserve">
+    <value>Навык «Боевое братство» работает только при его изучении всем экипажем на 100%.</value>
+  </data>
+  <data name="tip176/payAttention/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Чтобы получить купленный вами подарок, получателю необходимо авторизоваться в Личном кабинете.</value>
+  </data>
+  <data name="tip177/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>Наказание за уничтожение/повреждение техники союзников обжалованию не подлежит ни при каких обстоятельствах.</value>
+  </data>
+  <data name="tip178/followTheRules/rules/100_infinity/all/all/all" xml:space="preserve">
+    <value>За разъяснением причин блокировки учётной записи вы можете обратиться в Центр поддержки пользователей.</value>
+  </data>
+  <data name="tip179/beCareful/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Перед тем, как создавать заявку о пропаже техники в Центр поддержки пользователей, проверьте, не включен ли фильтр техники в клиенте игры.</value>
+  </data>
+  <data name="tip20/payAttention/economics/50_500/all/all/all" xml:space="preserve">
+    <value>Установка некоторых модулей невозможна без замены ходовой и башни.</value>
+  </data>
+  <data name="tip23/payAttention/tactics/200_infinity/all/all/all" xml:space="preserve">
+    <value>Машины с небольшой массой и слабой бронёй можно успешно уничтожать тараном.</value>
+  </data>
+  <data name="tip25/payAttention/tactics/151_infinity/all/all/all" xml:space="preserve">
+    <value>Осколочно-фугасные снаряды наиболее эффективны для выведения из строя модулей и уничтожения экипажа.</value>
+  </data>
+  <data name="tip28/payAttention/tactics/500_infinity/all/all/all" xml:space="preserve">
+    <value>Осколочно-фугасные снаряды наиболее эффективны против слабобронированных машин и техники с открытыми рубками.</value>
+  </data>
+  <data name="tip29/payAttention/tactics/0_50/all/all/all" xml:space="preserve">
+    <value>Стреляйте по гусеницам, чтобы остановить противника и сделать его лёгкой мишенью для союзников.</value>
+  </data>
+  <data name="tip30/payAttention/tactics/201_infinity/all/all/all" xml:space="preserve">
+    <value>Низкий профиль делает технику менее заметной, особенно в кустах.</value>
+  </data>
+  <data name="tip31/payAttention/tactics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Если не удаётся нанести урон противнику бронебойными снарядами, попробуйте использовать подкалиберные или кумулятивные.</value>
+  </data>
+  <data name="tip32/payAttention/crew/0_500/all/all/all" xml:space="preserve">
+    <value>Дополнительные навыки и умения экипажа становятся доступными при достижении 100% владения основной специальностью.</value>
+  </data>
+  <data name="tip33/payAttention/tactics/51_infinity/all/all/all" xml:space="preserve">
+    <value>Движущаяся техника более заметна, чем неподвижная.</value>
+  </data>
+  <data name="tip36/payAttention/tactics/101_infinity/SPG/all/all" xml:space="preserve">
+    <value>В ближнем бою САУ может уничтожить противника прямой наводкой.</value>
+  </data>
+  <data name="tip37/payAttention/tactics/100_500/all/all/all" xml:space="preserve">
+    <value>Разрушая строения и заборы, вы демаскируете себя.</value>
+  </data>
+  <data name="tip39/payAttention/tactics/0_100/all/all/all" xml:space="preserve">
+    <value>Концентрация огня на одной цели всегда оправдывает себя.</value>
+  </data>
+  <data name="tip41/payAttention/tactics/51_infinity/all/all/all" xml:space="preserve">
+    <value>По траектории полёта снарядов можно вычислить, где затаился противник.</value>
+  </data>
+  <data name="tip42/payAttention/tactics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Чем больше членов команды захватывают базу, тем быстрее захват. Для максимальной скорости захвата необходимо три игрока.</value>
+  </data>
+  <data name="tip43/payAttention/tactics/500_infinity/all/all/all" xml:space="preserve">
+    <value>Если по истечении времени боя в режиме «Штурм» ни одна из сторон не получила преимущества — победа достаётся обороняющейся стороне.</value>
+  </data>
+  <data name="tip44/payAttention/tactics/0_100/all/all/all" xml:space="preserve">
+    <value>При захвате базы противника не попадите под обстрел: это собьёт захват.</value>
+  </data>
+  <data name="tip45/payAttention/tactics/50_150/all/all/all" xml:space="preserve">
+    <value>Манёвренность машины зависит от типа ходовой, мощности двигателя и суммарной массы установленных модулей.</value>
+  </data>
+  <data name="tip47/payAttention/tactics/0_100/all/all/all" xml:space="preserve">
+    <value>Здания и подбитые машины прикроют вас от огня противника. Кусты и деревья — нет.</value>
+  </data>
+  <data name="tip48/payAttention/tactics/50_infinity/all/all/all" xml:space="preserve">
+    <value>При повреждении модулей машины используйте ремкомплект.</value>
+  </data>
+  <data name="tip49/payAttention/tactics/50_200/all/all/all" xml:space="preserve">
+    <value>Разрушенное орудие не может стрелять. Ремкомплекты восстановят орудие и вернут ему первоначальную точность стрельбы.</value>
+  </data>
+  <data name="tip50/payAttention/tactics/50_200/all/all/all" xml:space="preserve">
+    <value>При повреждённой боеукладке не только замедляется перезарядка орудия, но и увеличивается вероятность взрыва.</value>
+  </data>
+  <data name="tip56/payAttention/economics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Премиум аккаунт — это не только больше кредитов и опыта за каждый бой, но и чистый красивый Ангар.</value>
+  </data>
+  <data name="tip57/payAttention/economics/500_infinity/all/all/all" xml:space="preserve">
+    <value>Свободный опыт можно потратить на исследование любой техники и модулей.</value>
+  </data>
+  <data name="tip58/payAttention/economics/500_infinity/all/all/all" xml:space="preserve">
+    <value>При исследовании техники и модулей в первую очередь используется боевой опыт и только потом свободный.</value>
+  </data>
+  <data name="tip59/payAttention/economics/100_500/all/all/all" xml:space="preserve">
+    <value>Новый модуль может оказаться слишком тяжёлым. Чтобы увеличить грузоподъёмность, замените ходовую.</value>
+  </data>
+  <data name="tip6/payAttention/tactics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Учитывайте тип техники, на которой вышли в бой, и применяйте соответствующую тактику.</value>
+  </data>
+  <data name="tip60/payAttention/economics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Кредиты и опыт начисляются за обнаружение, повреждение или уничтожение противника, захват/защиту базы и т.д.</value>
+  </data>
+  <data name="tip62/payAttention/tactics/50_200/all/all/all" xml:space="preserve">
+    <value>Технике противника можно нанести урон, повредить или разрушить модули, а также вывести из строя экипаж.</value>
+  </data>
+  <data name="tip65/payAttention/tactics/50_infinity/all/all/all" xml:space="preserve">
+    <value>Умело используя рельеф, можно укрыться не только от огня противника, но и от его разведчиков.</value>
+  </data>
+  <data name="tip66/payAttention/tactics/0_infinity/all/all/all" xml:space="preserve">
+    <value>Победа в бою зависит от хорошо скоординированных действий всех членов команды.</value>
+  </data>
+  <data name="tip67/payAttention/economics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Чтобы расширить Ангар, продайте одну из имеющихся машин или купите ещё один слот.</value>
+  </data>
+  <data name="tip68/payAttention/economics/500_infinity/all/all/all" xml:space="preserve">
+    <value>На Складе можно продавать ненужную технику, модули, оборудование, боеприпасы и снаряжение.</value>
+  </data>
+  <data name="tip69/security/security/0_infinity/all/all/all" xml:space="preserve">
+    <value>Администрация никогда не станет запрашивать ваш пароль. Не доверяйте свои личные данные третьим лицам.</value>
+  </data>
+  <data name="tip70/payAttention/economics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Ремонт премиум техники обходится дешевле.</value>
+  </data>
+  <data name="tip71/followTheRules/rules/0_500/all/all/all" xml:space="preserve">
+    <value>Не стреляйте в союзников!</value>
+  </data>
+  <data name="tip75/payAttention/tactics/0_200/all/all/all" xml:space="preserve">
+    <value>Поворот корпуса и башни снижает точность стрельбы, поэтому после манёвра лучше подождать сведения прицела.</value>
+  </data>
+  <data name="tip78/payAttention/tactics/500_infinity/all/all/all" xml:space="preserve">
+    <value>Модули «Ходовая» обладают разной проходимостью, грузоподъёмностью и скоростью поворота.</value>
+  </data>
+  <data name="tip79/payAttention/tactics/200_infinity/all/all/all" xml:space="preserve">
+    <value>Успешный таран зависит от скорости, толщины брони и соотношения масс машин.</value>
+  </data>
+  <data name="tip81/payAttention/crew/0_500/all/all/all" xml:space="preserve">
+    <value>Скорость сведения прицела зависит от типа орудия и мастерства наводчика.</value>
+  </data>
+  <data name="tip83/payAttention/tactics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Автоприцел выключается, если цель, которую вы сопровождали, уничтожена или скрылась из виду.</value>
+  </data>
+  <data name="tip84/payAttention/economics/0_100/all/all/all" xml:space="preserve">
+    <value>Уничтоженная машина отсутствует в Ангаре до окончания боя.</value>
+  </data>
+  <data name="tip85/payAttention/economics/0_100/all/all/all" xml:space="preserve">
+    <value>Вступить в бой можно только на полностью отремонтированной машине с укомплектованным экипажем.</value>
+  </data>
+  <data name="tip86/payAttention/economics/0_500/all/all/all" xml:space="preserve">
+    <value>Вы можете включить автоматическое пополнение боекомплекта и снаряжения, а также автоматический ремонт машины.</value>
+  </data>
+  <data name="tip87/payAttention/tactics/200_infinity/all/all/all" xml:space="preserve">
+    <value>При больших углах встречи снаряда с бронёй вероятность рикошета и непробития выше.</value>
+  </data>
+  <data name="tip88/payAttention/economics/0_500/all/all/all" xml:space="preserve">
+    <value>Расширьте Казарму, если в ней недостаточно места.</value>
+  </data>
+  <data name="tip89/payAttention/economics/100_infinity/all/all/all" xml:space="preserve">
+    <value>Членов экипажа можно пересадить на другую технику или высадить в Казарму.</value>
+  </data>
+  <data name="tip9/payAttention/tactics/0_infinity/SPG/all/all" xml:space="preserve">
+    <value>Смена позиции при первом признаке опасности — залог выживания САУ.</value>
+  </data>
+  <data name="tip90/payAttention/crew/0_500/all/all/all" xml:space="preserve">
+    <value>Раненый член экипажа получает на 10% меньше опыта за бой.</value>
+  </data>
+  <data name="tip91/payAttention/economics/0_100/all/all/all" xml:space="preserve">
+    <value>Выйти в бой на машине с неполным экипажем невозможно.</value>
+  </data>
+  <data name="tip92/payAttention/crew/0_500/all/all/all" xml:space="preserve">
+    <value>Скорость обучения экипажа зависит от полученного опыта за бой.</value>
+  </data>
+  <data name="tip93/payAttention/crew/100_infinity/all/all/all" xml:space="preserve">
+    <value>Уровень владения командиром основной специальностью увеличивает прибавку в процентах к основным специальностям остального экипажа.</value>
+  </data>
+  <data name="tip95/payAttention/crew/200_infinity/all/all/all" xml:space="preserve">
+    <value>В режиме «Ускорить обучение экипажа» опыт идёт на развитие умений «отстающего» члена экипажа.</value>
+  </data>
+  <data name="tip99/payAttention/economics/200_infinity/all/all/all" xml:space="preserve">
+    <value>Всё оборудование может быть демонтировано и перенесено с одной машины на другую.</value>
+  </data>
+  <data name="usefulFeatures" xml:space="preserve">
+    <value>Полезные функции</value>
+  </data>
+  <data name="tip0/payAttention/tactics/0_50/except_7/all/all/all" xml:space="preserve">
+    <value>При прохождении машины по болотистому грунту скорость движения и разворота резко ухудшается.</value>
+  </data>
+  <data name="tip100/payAttention/crew/0_500/all/all/all/all" xml:space="preserve">
+    <value>Чем лучше наводчик владеет своей специальностью, тем быстрее сведение орудия.</value>
+  </data>
+  <data name="tip103/payAttention/crew/0_500/all/all/all/all" xml:space="preserve">
+    <value>Опытный заряжающий быстрее перезаряжает орудие.</value>
+  </data>
+  <data name="tip106/payAttention/tactics/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Дополнительное оборудование улучшает эффективность работы экипажа и характеристики техники.</value>
+  </data>
+  <data name="tip107/payAttention/economics/50_500/except_7/all/all/all" xml:space="preserve">
+    <value>Машина, для которой исследованы все модули и следующая в ветке развития техника, получает статус «Элитной».</value>
+  </data>
+  <data name="tip108/payAttention/tactics/200_infinity/all/all/all/all" xml:space="preserve">
+    <value>Весь боевой опыт, накопленный на элитной технике, в том числе и на премиумной, можно перевести в свободный.</value>
+  </data>
+  <data name="tip11/payAttention/tactics/0_infinity/except_7/AT-SPG/all/all" xml:space="preserve">
+    <value>При игре на ПТ-САУ старайтесь не обнаружить себя. Укрывайтесь за густыми кустами и поваленными деревьями.</value>
+  </data>
+  <data name="tip111/payAttention/tactics/50_500/except_7/all/all/all" xml:space="preserve">
+    <value>Иногда проще и безопаснее захватить базу противника, чем уничтожать всю его технику.</value>
+  </data>
+  <data name="tip112/payAttention/economics/0_100/except_7/all/all/all" xml:space="preserve">
+    <value>Режим «Бой до последнего» содержит множество уникальных особенностей и существенно отличается от других режимов боя.</value>
+  </data>
+  <data name="tip114/followTheRules/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Совместное использование одного аккаунта нарушает Правила игры и часто приводит к потере доступа.</value>
+  </data>
+  <data name="tip115/followTheRules/rules/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Правила игры запрещают обмен аккаунтами. Вы рискуете потерять оба аккаунта навсегда.</value>
+  </data>
+  <data name="tip116/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Чем сложнее ваш пароль, тем он надёжней.</value>
+  </data>
+  <data name="tip117/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Регулярно меняйте пароль.</value>
+  </data>
+  <data name="tip118/followTheRules/rules/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Покупка и продажа аккаунтов строго запрещена Правилами игры. Нарушив их, вы рискуете потерять свой аккаунт.</value>
+  </data>
+  <data name="tip119/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Никогда не доверяйте ссылкам на сторонние ресурсы.</value>
+  </data>
+  <data name="tip120/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Золото можно приобрести только на официальном сайте игры. Покупая его на других сайтах, вы рискуете потерять свои деньги.</value>
+  </data>
+  <data name="tip121/security/security/200_infinity/all/all/all/all" xml:space="preserve">
+    <value>Использовать функцию «Сохранить пароль» удобно, но небезопасно.</value>
+  </data>
+  <data name="tip122/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Не забудьте ознакомиться с инструкциями по защите аккаунта на портале игры.</value>
+  </data>
+  <data name="tip123/payAttention/tactics/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Удерживайте клавишу CTRL для отображения курсора мыши в бою.</value>
+  </data>
+  <data name="tip124/payAttention/tactics/50_500/all/all/all/all" xml:space="preserve">
+    <value>Чтобы починить модуль или вылечить члена экипажа в бою, используйте ремкомплекты или аптечки.</value>
+  </data>
+  <data name="tip125/usefulFeatures/interface/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Пользуйтесь «горячими клавишами» для переключения между типами снарядов и использования снаряжения (по умолчанию 1-6).</value>
+  </data>
+  <data name="tip126/usefulFeatures/interface/100_500/except_7/SPG/all/all" xml:space="preserve">
+    <value>В артиллерийском режиме можно мгновенно переместить камеру в нужное место, щёлкнув правой кнопкой мыши по миникарте.</value>
+  </data>
+  <data name="tip127/usefulFeatures/interface/500_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Чтобы изменить вид списка команд в бою, нажмите CTRL+TAB.</value>
+  </data>
+  <data name="tip128/usefulFeatures/interface/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Щёлкните правой кнопкой мыши по имени игрока в боковых панелях команд, чтобы посмотреть возможные действия.</value>
+  </data>
+  <data name="tip129/followTheRules/rules/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Чтобы пожаловаться на игрока, выберите соответствующий пункт в контекстном меню имени игрока в боковых панелях команд.</value>
+  </data>
+  <data name="tip130/usefulFeatures/interface/500_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Команды в меню приказов различаются в зависимости от наведения курсора на союзника, противника или точку на местности.</value>
+  </data>
+  <data name="tip131/usefulFeatures/interface/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Используйте меню приказов для выбора быстрого сообщения союзникам (клавиша по умолчанию — Z).</value>
+  </data>
+  <data name="tip132/usefulFeatures/interface/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Для быстрого вызова команд в меню приказов используйте клавиши F4–F8, которые указаны под командами.</value>
+  </data>
+  <data name="tip134/followTheRules/rules/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Грубость — не лучший способ убедить союзника в своей правоте, кроме того, она запрещена Правилами игры.</value>
+  </data>
+  <data name="tip135/followTheRules/rules/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Вежливому игроку союзники будут помогать активнее.</value>
+  </data>
+  <data name="tip136/followTheRules/rules/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Основной бой должен происходить на карте, а не в чате.</value>
+  </data>
+  <data name="tip137/followTheRules/rules/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Не засоряйте чат неинформативными сообщениями. Это отвлекает от боя.</value>
+  </data>
+  <data name="tip138/followTheRules/rules/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Используйте функцию «Пожаловаться» при любом нарушении Правил игры.</value>
+  </data>
+  <data name="tip139/followTheRules/rules/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Добавив игрока в «Чёрный список», вы сразу перестанете получать от него любые сообщения и приглашения в формирования.</value>
+  </data>
+  <data name="tip14/payAttention/tactics/101_infinity/all/all/all/all" xml:space="preserve">
+    <value>Автоприцел не гарантирует 100% точности. Опытные игроки наводят свои орудия вручную.</value>
+  </data>
+  <data name="tip140/followTheRules/rules/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Цензурирование сообщений можно включить в настройках игры.</value>
+  </data>
+  <data name="tip141/followTheRules/rules/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Боевой чат можно отключить в настройках игры. При этом взводный чат останется доступным.</value>
+  </data>
+  <data name="tip142/followTheRules/rules/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Пока вы выясняете отношения с союзниками, противник не дремлет.</value>
+  </data>
+  <data name="tip143/followTheRules/rules/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Внимательно следите за ходом боя — малейшая ошибка может стать причиной поражения.</value>
+  </data>
+  <data name="tip144/followTheRules/rules/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Используя запрещённые программы или проводя договорные бои, вы рискуете навсегда потерять свой аккаунт.</value>
+  </data>
+  <data name="tip145/followTheRules/rules/0_500/except_7/all/all/all" xml:space="preserve">
+    <value>Каждое попадание по союзникам фиксируется специальной системой, которая рано или поздно автоматически заблокирует стрелка.</value>
+  </data>
+  <data name="tip146/followTheRules/rules/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Нарушение Правил игры наказывается и может привести к блокировке аккаунта.</value>
+  </data>
+  <data name="tip147/followTheRules/rules/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Если вас наказали за нарушение Правил игры, рекомендуем внимательно их перечитать, чтобы исключить подобные инциденты в дальнейшем.</value>
+  </data>
+  <data name="tip148/followTheRules/rules/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Правила игры едины для всех, как и ответственность за их нарушение.</value>
+  </data>
+  <data name="tip149/technicalAdvice/techProblems/500_infinity/all/all/all/all" xml:space="preserve">
+    <value>Не можете попасть в бой? Попробуйте запустить клиент игры без модификаций.</value>
+  </data>
+  <data name="tip150/technicalAdvice/techProblems/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Низкий показатель FPS? Попробуйте понизить качество графики в настройках игры.</value>
+  </data>
+  <data name="tip151/technicalAdvice/techProblems/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Низкий уровень FPS или графические искажения? Попробуйте обновить драйвера видеокарты.</value>
+  </data>
+  <data name="tip152/technicalAdvice/techProblems/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Высокий пинг через 3G или WiFi? Попробуйте подключить кабельное интернет-соединение.</value>
+  </data>
+  <data name="tip153/technicalAdvice/techProblems/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Машина телепортируется или стреляет с задержкой? Проверьте стабильность сетевого подключения.</value>
+  </data>
+  <data name="tip154/technicalAdvice/techProblems/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Отсутствие вирусов — залог стабильной работы компьютера и игры.</value>
+  </data>
+  <data name="tip155/technicalAdvice/techProblems/500_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Вас не слышит команда? Проверьте настройки голосовой связи.</value>
+  </data>
+  <data name="tip156/technicalAdvice/techProblems/200_infinity/all/all/all/all/all" xml:space="preserve">
+    <value>Чем подробнее вы опишете проблему при обращении в Центр поддержки пользователей, тем эффективнее будет рассмотрение заявки.</value>
+  </data>
+  <data name="tip157/technicalAdvice/techProblems/200_infinity/all/all/all/all" xml:space="preserve">
+    <value>Перед обращением в Центр поддержки пользователей убедитесь, что проблема воспроизводится и без модификаций игры.</value>
+  </data>
+  <data name="tip158/security/security/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Привязка аккаунта к мобильному телефону позволяет полностью обезопасить аккаунт от потенциальных взломщиков.</value>
+  </data>
+  <data name="tip159/security/security/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Следите за работоспособностью привязанного номера мобильного телефона. Это позволит оперативно восстановить доступ к аккаунту.</value>
+  </data>
+  <data name="tip160/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Привязав к учётной записи номер мобильного телефона, можно сменить адрес почтового ящика, на котором зарегистрирован аккаунт.</value>
+  </data>
+  <data name="tip161/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>В случае возникновения подозрений на несанкционированный доступ к аккаунту сразу свяжитесь с Центром поддержки пользователей.</value>
+  </data>
+  <data name="tip162/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Не принимайте подарки от незнакомых пользователей.</value>
+  </data>
+  <data name="tip163/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Правильно выбранный раздел при обращении в Центр поддержки пользователей помогает быстрее рассмотреть проблему.</value>
+  </data>
+  <data name="tip164/payAttention/tactics/500_infinity/except_7/SPG/all/all" xml:space="preserve">
+    <value>Опытный артиллерист может вычислить противника на САУ по трассеру, если тот ведёт стрельбу, не меняя позицию.</value>
+  </data>
+  <data name="tip165/payAttention/tactics/100_500/all/all/all/all" xml:space="preserve">
+    <value>Автоматический огнетушитель не только тушит пожар сразу после его возникновения, но и снижает шанс возгорания двигателя.</value>
+  </data>
+  <data name="tip166/payAttention/tactics/500_infinity/all/SPG/all/all" xml:space="preserve">
+    <value>При игре на САУ учитывайте траекторию полёта снаряда и его скорость, а также рельеф местности.</value>
+  </data>
+  <data name="tip167/payAttention/tactics/50_500/except_7/all/all/all" xml:space="preserve">
+    <value>Регулярно смотрите на миникарту, оценивая действия союзников и противника.</value>
+  </data>
+  <data name="tip168/payAttention/tactics/500_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>При пассивной разведке не выдавайте свою позицию стрельбой. За передачу разведданных вы получите дополнительный опыт и кредиты.</value>
+  </data>
+  <data name="tip169/payAttention/tactics/500_infinity/all/all/all/all" xml:space="preserve">
+    <value>Вовремя использованный ремкомплект позволит быстро починить ходовую и уйти из-под обстрела противника.</value>
+  </data>
+  <data name="tip17/payAttention/tactics/151_infinity/all/all/all/all" xml:space="preserve">
+    <value>Если не удаётся нанести урон противнику бронебойными снарядами, попробуйте использовать осколочно-фугасные.</value>
+  </data>
+  <data name="tip170/payAttention/tactics/200_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Поваленное дерево маскирует так же, как и куст.</value>
+  </data>
+  <data name="tip171/payAttention/tactics/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Ваша машина обладает высочайшей проходимостью, однако всё равно может застрять.</value>
+  </data>
+  <data name="tip172/payAttention/economics/0_500/all/all/all/all" xml:space="preserve">
+    <value>Премиум снаряды и снаряжение по умолчанию приобретаются за игровое золото.</value>
+  </data>
+  <data name="tip173/payAttention/economics/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Вы можете пересадить экипаж на премиум машину той же нации и типа без переобучения.</value>
+  </data>
+  <data name="tip174/payAttention/crew/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Ранение члена экипажа снижает эффективность его действий в бою.</value>
+  </data>
+  <data name="tip175/payAttention/crew/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Навык «Боевое братство» работает только при его изучении всем экипажем на 100%.</value>
+  </data>
+  <data name="tip176/payAttention/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Чтобы получить купленный вами подарок, получателю необходимо авторизоваться в Личном кабинете.</value>
+  </data>
+  <data name="tip177/followTheRules/rules/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Наказание за уничтожение/повреждение техники союзников обжалованию не подлежит ни при каких обстоятельствах.</value>
+  </data>
+  <data name="tip178/followTheRules/rules/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>За разъяснением причин блокировки учётной записи вы можете обратиться в Центр поддержки пользователей.</value>
+  </data>
+  <data name="tip179/beCareful/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Перед тем, как создавать заявку о пропаже техники в Центр поддержки пользователей, проверьте, не включен ли фильтр техники в клиенте игры.</value>
+  </data>
+  <data name="tip20/payAttention/economics/50_500/except_7/all/all/all" xml:space="preserve">
+    <value>Установка некоторых модулей невозможна без замены ходовой и башни.</value>
+  </data>
+  <data name="tip23/payAttention/tactics/200_infinity/all/all/all/all" xml:space="preserve">
+    <value>Машины с небольшой массой и слабой бронёй можно успешно уничтожать тараном.</value>
+  </data>
+  <data name="tip25/payAttention/tactics/151_infinity/all/all/all/all" xml:space="preserve">
+    <value>Осколочно-фугасные снаряды наиболее эффективны для выведения из строя модулей и уничтожения экипажа.</value>
+  </data>
+  <data name="tip28/payAttention/tactics/500_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Осколочно-фугасные снаряды наиболее эффективны против слабобронированных машин и техники с открытыми рубками.</value>
+  </data>
+  <data name="tip29/payAttention/tactics/0_50/except_7/all/all/all" xml:space="preserve">
+    <value>Стреляйте по гусеницам, чтобы остановить противника и сделать его лёгкой мишенью для союзников.</value>
+  </data>
+  <data name="tip30/payAttention/tactics/201_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Низкий профиль делает технику менее заметной, особенно в кустах.</value>
+  </data>
+  <data name="tip31/payAttention/tactics/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Если не удаётся нанести урон противнику бронебойными снарядами, попробуйте использовать подкалиберные или кумулятивные.</value>
+  </data>
+  <data name="tip32/payAttention/crew/0_500/all/all/all/all" xml:space="preserve">
+    <value>Дополнительные навыки и умения экипажа становятся доступными при достижении 100% владения основной специальностью.</value>
+  </data>
+  <data name="tip33/payAttention/tactics/51_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Движущаяся техника более заметна, чем неподвижная.</value>
+  </data>
+  <data name="tip36/payAttention/tactics/101_infinity/except_7/SPG/all/all" xml:space="preserve">
+    <value>В ближнем бою САУ может уничтожить противника прямой наводкой.</value>
+  </data>
+  <data name="tip37/payAttention/tactics/100_500/except_7/all/all/all" xml:space="preserve">
+    <value>Разрушая строения и заборы, вы демаскируете себя.</value>
+  </data>
+  <data name="tip39/payAttention/tactics/0_100/except_7/all/all/all" xml:space="preserve">
+    <value>Концентрация огня на одной цели всегда оправдывает себя.</value>
+  </data>
+  <data name="tip41/payAttention/tactics/51_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>По траектории полёта снарядов можно вычислить, где затаился противник.</value>
+  </data>
+  <data name="tip42/payAttention/tactics/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Чем больше членов команды захватывают базу, тем быстрее захват. Для максимальной скорости захвата необходимо три игрока.</value>
+  </data>
+  <data name="tip43/payAttention/tactics/500_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Если по истечении времени боя в режиме «Штурм» ни одна из сторон не получила преимущества — победа достаётся обороняющейся стороне.</value>
+  </data>
+  <data name="tip44/payAttention/tactics/0_100/except_7/all/all/all" xml:space="preserve">
+    <value>При захвате базы противника не попадите под обстрел: это собьёт захват.</value>
+  </data>
+  <data name="tip45/payAttention/tactics/50_150/except_7/all/all/all/all" xml:space="preserve">
+    <value>Манёвренность машины зависит от типа ходовой, мощности двигателя и суммарной массы установленных модулей.</value>
+  </data>
+  <data name="tip47/payAttention/tactics/0_100/except_7/all/all/all" xml:space="preserve">
+    <value>Здания и подбитые машины прикроют вас от огня противника. Кусты и деревья — нет.</value>
+  </data>
+  <data name="tip48/payAttention/tactics/50_infinity/all/all/all/all" xml:space="preserve">
+    <value>При повреждении модулей машины используйте ремкомплект.</value>
+  </data>
+  <data name="tip49/payAttention/tactics/50_200/all/all/all/all" xml:space="preserve">
+    <value>Разрушенное орудие не может стрелять. Ремкомплекты восстановят орудие и вернут ему первоначальную точность стрельбы.</value>
+  </data>
+  <data name="tip50/payAttention/tactics/50_200/all/all/all/all" xml:space="preserve">
+    <value>При повреждённой боеукладке не только замедляется перезарядка орудия, но и увеличивается вероятность взрыва.</value>
+  </data>
+  <data name="tip56/payAttention/economics/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Премиум аккаунт — это не только больше кредитов и опыта за каждый бой, но и чистый, красивый Ангар.</value>
+  </data>
+  <data name="tip57/payAttention/economics/500_infinity/all/all/all/all" xml:space="preserve">
+    <value>Свободный опыт можно потратить на исследование любой техники и модулей.</value>
+  </data>
+  <data name="tip58/payAttention/economics/500_infinity/all/all/all/all" xml:space="preserve">
+    <value>При исследовании техники и модулей в первую очередь используется боевой опыт и только потом свободный.</value>
+  </data>
+  <data name="tip59/payAttention/economics/100_500/except_7/all/all/all" xml:space="preserve">
+    <value>Новый модуль может оказаться слишком тяжёлым. Чтобы увеличить грузоподъёмность, замените ходовую.</value>
+  </data>
+  <data name="tip6/payAttention/tactics/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Учитывайте тип техники, на которой вышли в бой, и применяйте соответствующую тактику.</value>
+  </data>
+  <data name="tip60/payAttention/economics/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Кредиты и опыт начисляются за обнаружение, повреждение или уничтожение противника, захват/защиту базы и т.д.</value>
+  </data>
+  <data name="tip62/payAttention/tactics/50_200/all/all/all/all" xml:space="preserve">
+    <value>Технике противника можно нанести урон, повредить или разрушить модули, а также вывести из строя экипаж.</value>
+  </data>
+  <data name="tip65/payAttention/tactics/50_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Умело используя рельеф, можно укрыться не только от огня противника, но и от его разведчиков.</value>
+  </data>
+  <data name="tip66/payAttention/tactics/0_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Победа в бою зависит от хорошо скоординированных действий всех членов команды.</value>
+  </data>
+  <data name="tip67/payAttention/economics/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Чтобы получить свободное место в Ангаре, купите ещё один слот или продайте одну из имеющихся машин.</value>
+  </data>
+  <data name="tip68/payAttention/economics/500_infinity/all/all/all/all" xml:space="preserve">
+    <value>На Складе можно продавать ненужную технику, модули, оборудование, боеприпасы и снаряжение.</value>
+  </data>
+  <data name="tip69/security/security/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Администрация никогда не станет запрашивать ваш пароль. Не доверяйте свои личные данные третьим лицам.</value>
+  </data>
+  <data name="tip70/payAttention/economics/100_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Ремонт премиум техники обходится дешевле.</value>
+  </data>
+  <data name="tip71/followTheRules/rules/0_500/except_7/all/all/all" xml:space="preserve">
+    <value>Не стреляйте в союзников!</value>
+  </data>
+  <data name="tip75/payAttention/tactics/0_200/except_7/all/all/all" xml:space="preserve">
+    <value>Поворот корпуса и башни снижает точность стрельбы, поэтому после манёвра лучше подождать сведения прицела.</value>
+  </data>
+  <data name="tip78/payAttention/tactics/500_infinity/except_7/all/all/all" xml:space="preserve">
+    <value>Модули «Ходовая» обладают разной проходимостью, грузоподъёмностью и скоростью поворота.</value>
+  </data>
+  <data name="tip79/payAttention/tactics/200_infinity/all/all/all/all" xml:space="preserve">
+    <value>Успешный таран зависит от скорости, толщины брони и соотношения масс машин.</value>
+  </data>
+  <data name="tip81/payAttention/crew/0_500/all/all/all/all" xml:space="preserve">
+    <value>Скорость сведения прицела зависит от типа орудия и мастерства наводчика.</value>
+  </data>
+  <data name="tip83/payAttention/tactics/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Автоприцел выключается, если цель, которую вы сопровождали, уничтожена или скрылась из виду.</value>
+  </data>
+  <data name="tip84/payAttention/economics/0_100/except_7/all/all/all" xml:space="preserve">
+    <value>Уничтоженная машина отсутствует в Ангаре до окончания боя.</value>
+  </data>
+  <data name="tip85/payAttention/economics/0_100/all/all/all/all" xml:space="preserve">
+    <value>Выйти в бой можно только на полностью отремонтированной машине с укомплектованным экипажем.</value>
+  </data>
+  <data name="tip86/payAttention/economics/0_500/all/all/all/all" xml:space="preserve">
+    <value>Вы можете включить автоматическое пополнение боекомплекта и снаряжения, а также автоматический ремонт машины.</value>
+  </data>
+  <data name="tip87/payAttention/tactics/200_infinity/all/all/all/all" xml:space="preserve">
+    <value>При больших углах встречи снаряда с броней вероятность рикошета и непробития выше.</value>
+  </data>
+  <data name="tip88/payAttention/economics/0_500/all/all/all/all" xml:space="preserve">
+    <value>Расширьте Казарму, если в ней недостаточно места.</value>
+  </data>
+  <data name="tip89/payAttention/economics/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Членов экипажа можно пересадить на другую технику или высадить в Казарму.</value>
+  </data>
+  <data name="tip9/payAttention/tactics/0_infinity/except_7/SPG/all/all" xml:space="preserve">
+    <value>Смена позиции при первом признаке опасности — залог выживания САУ.</value>
+  </data>
+  <data name="tip90/payAttention/crew/0_500/except_7/all/all/all" xml:space="preserve">
+    <value>Раненый член экипажа получает на 10% меньше опыта за бой.</value>
+  </data>
+  <data name="tip91/payAttention/economics/0_100/all/all/all/all" xml:space="preserve">
+    <value>Выйти в бой на машине с неполным экипажем невозможно.</value>
+  </data>
+  <data name="tip92/payAttention/crew/0_500/all/all/all/all" xml:space="preserve">
+    <value>Скорость обучения экипажа зависит от полученного опыта за бой.</value>
+  </data>
+  <data name="tip93/payAttention/crew/100_infinity/all/all/all/all" xml:space="preserve">
+    <value>Уровень владения командиром основной специальностью увеличивает прибавку в процентах к основным специальностям остального экипажа.</value>
+  </data>
+  <data name="tip95/payAttention/crew/200_infinity/all/all/all/all" xml:space="preserve">
+    <value>В режиме «Ускорить обучение экипажа» опыт идёт на развитие умений «отстающего» члена экипажа.</value>
+  </data>
+  <data name="tip99/payAttention/economics/200_infinity/all/all/all/all" xml:space="preserve">
+    <value>Всё оборудование может быть демонтировано и перенесено с одной машины на другую.</value>
+  </data>
+  <data name="howToPlay" xml:space="preserve">
+    <value>Как играть</value>
+  </data>
+  <data name="sandbox01" xml:space="preserve">
+    <value>Вы появляетесь в точке 1 (для танка или ПТ-САУ) или 2 (для САУ). Используя навыки, полученные в Боевом обучении, одержите победу над противником.</value>
+  </data>
+  <data name="eventMessage" xml:space="preserve">
+    <value>++++ eventMessage ++++</value>
+  </data>
+  <data name="eventTitle" xml:space="preserve">
+    <value>++++ eventTitle ++++</value>
+  </data>
+  <data name="sandbox02" xml:space="preserve">
+    <value>Вы появляетесь на зелёной базе, откуда можно начать атаку по одному из трёх ключевых направлений. Используйте желаемую тактику для победы над противником.</value>
+  </data>
+  <data name="sandbox0" xml:space="preserve">
+    <value>Вы появляетесь в точке 1 (для танка или ПТ-САУ) или 2 (для САУ). Используя навыки, полученные в Боевом обучении, одержите победу над противником.</value>
+  </data>
+  <data name="sandbox1" xml:space="preserve">
+    <value>Вы появляетесь на зелёной базе, откуда можно начать атаку по одному из трёх ключевых направлений. Используйте подходящую тактику для победы над противником.</value>
+  </data>
+  <data name="tip180/technicalAdvice/interface/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Регулируйте громкость звуков ползунком «Общий уровень» или в настройках громкости вашей операционной системы.</value>
+  </data>
+  <data name="tip181/technicalAdvice/interface/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Выберите в настройках звука устройство воспроизведения: «Наушники» или «Акустика 2.0 / 2.1» для более точного позиционирования звука.</value>
+  </data>
+  <data name="tip182/technicalAdvice/interface/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Для бюджетной аудиосистемы предпочтительнее использовать предустановку «Ноутбук».</value>
+  </data>
+  <data name="tip183/technicalAdvice/interface/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>Используйте настройку «Ночной режим» для уменьшения громкости резких и «острых» звуков.</value>
+  </data>
+  <data name="tip184/technicalAdvice/interface/0_infinity/all/all/all/all" xml:space="preserve">
+    <value>В настройках звука можно выбрать «Усиление низких частот», при этом на разных акустических системах результат будет отличаться.</value>
+  </data>
+  <data name="epicRandom/0/body" xml:space="preserve">
+    <value>В данном типе боя может наблюдаться небольшое снижение производительности.</value>
+  </data>
+  <data name="epicRandom/0/title" xml:space="preserve">
+    <value>Обратите внимание</value>
+  </data>
+  <data name="ranked/0/body" xml:space="preserve">
+    <value>I и V ранги являются несгораемыми, а II, III и IV можно потерять. Ранги машины потерять нельзя.</value>
+  </data>
+  <data name="ranked/0/title" xml:space="preserve">
+    <value>О рангах</value>
+  </data>
+  <data name="ranked/1/body" xml:space="preserve">
+    <value>Не расстраивайтесь, если потеряли ранг: награда в конце этапа выдаётся за лучший достигнутый ранг, а не за текущий.</value>
+  </data>
+  <data name="ranked/1/title" xml:space="preserve">
+    <value>Всё по справедливости</value>
+  </data>
+  <data name="ranked/10/body" xml:space="preserve">
+    <value>За успехи в Ранговых боях выдаются боны — валюта, за которую можно купить инструкции и усовершенствованное оборудование.</value>
+  </data>
+  <data name="ranked/10/title" xml:space="preserve">
+    <value>О бонах</value>
+  </data>
+  <data name="ranked/11/body" xml:space="preserve">
+    <value>Первое получение каждого ранга в течение этапа, а также само завершение этапа поощряются наградами.</value>
+  </data>
+  <data name="ranked/11/title" xml:space="preserve">
+    <value>Награды</value>
+  </data>
+  <data name="ranked/12/body" xml:space="preserve">
+    <value>Ранги техники зарабатываются не для аккаунта, но для каждой машины отдельно. Общее количество заработанных рангов техники суммируется в итоговой таблице.</value>
+  </data>
+  <data name="ranked/12/title" xml:space="preserve">
+    <value>Ранги техники</value>
+  </data>
+  <data name="ranked/2/body" xml:space="preserve">
+    <value>Ранги машины не ограничены. Чем больше рангов техники вы заработаете за весь сезон, тем выше поднимитесь по рейтинговой лестнице.</value>
+  </data>
+  <data name="ranked/2/title" xml:space="preserve">
+    <value>Вперёд и вверх</value>
+  </data>
+  <data name="ranked/3/body" xml:space="preserve">
+    <value>Следите за прайм-таймом: как только он закончится, Ранговые бои станут недоступны до следующего дня.</value>
+  </data>
+  <data name="ranked/3/title" xml:space="preserve">
+    <value>Прайм-тайм</value>
+  </data>
+  <data name="ranked/4/body" xml:space="preserve">
+    <value>Помните: каждый этап ограничен по времени. Следите за календарём, старайтесь заработать как можно больше очков за этап.</value>
+  </data>
+  <data name="ranked/4/title" xml:space="preserve">
+    <value>Время — деньги</value>
+  </data>
+  <data name="ranked/5/body" xml:space="preserve">
+    <value>Время этапа ограничено! Не стоит откладывать бои на потом, если хотите получить достойную награду.</value>
+  </data>
+  <data name="ranked/5/title" xml:space="preserve">
+    <value>Продолжительность этапа</value>
+  </data>
+  <data name="ranked/6/body" xml:space="preserve">
+    <value>Как только сезон завершится, следите за новостями на портале игры, чтобы не пропустить дату старта следующего сезона.</value>
+  </data>
+  <data name="ranked/6/title" xml:space="preserve">
+    <value>Следите за новостями</value>
+  </data>
+  <data name="ranked/7/body" xml:space="preserve">
+    <value>Лучшие игроки попадут в таблицу Лидеров сезона. За каждый полученный ранг игрок получает очко ранга. Чем больше очков, тем выше позиция и тем крупнее награды.</value>
+  </data>
+  <data name="ranked/7/title" xml:space="preserve">
+    <value>Лидеры сезона</value>
+  </data>
+  <data name="ranked/8/body" xml:space="preserve">
+    <value>В конце сезона сильнейшие игроки получат нашивки. Нашивка – предмет законной гордости владельца, символ его выдающегося мастерства.</value>
+  </data>
+  <data name="ranked/8/title" xml:space="preserve">
+    <value>Нашивки</value>
+  </data>
+  <data name="ranked/9/body" xml:space="preserve">
+    <value>Награда в конце сезона зависит от лиги, в которой вы оказались. Каждый ранг приносит очки, а чем больше очков — тем выше лига.</value>
+  </data>
+  <data name="ranked/9/title" xml:space="preserve">
+    <value>Награды</value>
+  </data>
+</root>

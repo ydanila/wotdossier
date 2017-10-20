@@ -58,7 +58,7 @@
         <!--Медаль Николса-->
         <medal name="Medal_15x15_Nikolas" id="107" icon="medalNikolas" type="0" showribbon="true"/>
         <!--"Медаль героев Расейняя-->
-        <medal name="Medal_15x15_HeroesOfRassenay" id="110" icon="medalHeroesOfRassenay" type="0" showribbon="true"/>
+        <medal name="Medal_15x15_HeroesOfRassenay" id="110" icon="heroesOfRassenay" type="0" showribbon="true"/>
         <!--Медаль де Ланглада-->
         <medal name="Medal_15x15_DeLanglade" id="145" icon="medalDeLanglade" type="0" showribbon="true"/>
         <!--Медаль Тамада Йошио-->

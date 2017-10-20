@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="8bitsKarl/desc" xml:space="preserve">
+    <value>«...а c 1 по 15 апреля 2014 года они вернули меня в далёкое детство, предложили управлять огромной серой мортирой «Karl»! И графика была восьмибитной! Восьмибитной, Карл!»</value>
+  </data>
+  <data name="8bitsKarl/title" xml:space="preserve">
+    <value>Karl</value>
+  </data>
+  <data name="DICEAwards2014/desc" xml:space="preserve">
+    <value>Победа в церемонии D.I.C.E. Awards 2014 в номинации «Онлайн-игра года». Награда получена 7 февраля 2014 года.</value>
+  </data>
+  <data name="DICEAwards2014/title" xml:space="preserve">
+    <value>D.I.C.E. Awards 2014</value>
+  </data>
+  <data name="DogHouse/desc" xml:space="preserve">
+    <value>Здесь временно поживёт лающая охрана Ангара, стерегущая вашу технику от угона. В другие дни позаботьтесь о безопасности вашего аккаунта самостоятельно.</value>
+  </data>
+  <data name="DogHouse/title" xml:space="preserve">
+    <value>Собачья будка</value>
+  </data>
+  <data name="DragonRidgeMap/desc" xml:space="preserve">
+    <value>Восточная карта со сложным рельефом. В обновлении 0.8.4 выведена из игры в связи с многочисленными просьбами вернуть хребет владельцу.</value>
+  </data>
+  <data name="DragonRidgeMap/title" xml:space="preserve">
+    <value>Хребет дракона</value>
+  </data>
+  <data name="E25/desc" xml:space="preserve">
+    <value>Немецкая ПТ-САУ VII уровня. Выведена из продажи в обновлении 0.9.5, за что постоянно мстит в боях.</value>
+  </data>
+  <data name="E25/title" xml:space="preserve">
+    <value>E 25</value>
+  </data>
+  <data name="EGA2011/desc" xml:space="preserve">
+    <value>Премия European Games Award в номинации «Лучшая европейская онлайн-игра» получена 15 августа 2011 года.</value>
+  </data>
+  <data name="EGA2011/title" xml:space="preserve">
+    <value>EGA-2011</value>
+  </data>
+  <data name="Fallout/desc" xml:space="preserve">
+    <value>Возьмите этот превосходный флаг и доставьте его на свою превосходную базу, не забыв при этом превзойти команду противника. Доступно с выходом обновления 0.9.8.</value>
+  </data>
+  <data name="Fallout/title" xml:space="preserve">
+    <value>«Превосходство»</value>
+  </data>
+  <data name="FirstApril2015/desc" xml:space="preserve">
+    <value>И о погоде на 1 апреля 2015 года: переменная облачность, ветер умеренный, возможны кратковременные осадки из чемоданов.</value>
+  </data>
+  <data name="FirstApril2015/title" xml:space="preserve">
+    <value>Секретное оружие</value>
+  </data>
+  <data name="Globe/desc" xml:space="preserve">
+    <value>• 12 августа 2010 года состоялся официальный релиз игры на российском сервере.
+• 15 марта 2011 года состоялся релиз игры в Китае.
+• 12 апреля 2011 года состоялся официальный релиз игры World of Tanks на американском и европейском серверах.
+• 26 апреля 2012 года состоялся официальный запуск сингапурского сервера.
+• 27 апреля 2012 года состоялся официальный релиз игры во Вьетнаме.
+• 27 декабря 2012 года состоялся официальный релиз в Южной Корее.
+• 19 января 2014 года в танковых баталиях на серверах RU региона одновременно участвовало свыше 1 114 000 пользователей.</value>
+  </data>
+  <data name="Globe/title" xml:space="preserve">
+    <value>География Wargaming</value>
+  </data>
+  <data name="GoldenJoystick2012/desc" xml:space="preserve">
+    <value>Победа в церемонии Golden Joystick Awards 2012 в номинации «Лучшая онлайн-игра». Награда получена 26 октября 2012 года.
+
+Красивая статуэтка, к слову.</value>
+  </data>
+  <data name="GoldenJoystick2012/title" xml:space="preserve">
+    <value>GJA-2012</value>
+  </data>
+  <data name="GoldenJoystick2013/desc" xml:space="preserve">
+    <value>Победа в церемонии Golden Joystick Awards 2013 в номинации «Лучшая онлайн-игра». Награда получена 25 октября 2013 года.
+
+Красивая статуэтка, к слову.</value>
+  </data>
+  <data name="GoldenJoystick2013/title" xml:space="preserve">
+    <value>GJA-2013</value>
+  </data>
+  <data name="GuinnessRecord/desc" xml:space="preserve">
+    <value>Рекорд по одновременному пребыванию игроков на одном игровом ММО-сервере по версии Книги рекордов Гиннесса (91311 человек) установлен 23 января 2011 года.</value>
+  </data>
+  <data name="GuinnessRecord/title" xml:space="preserve">
+    <value>Рекорд Книги Гиннесса</value>
+  </data>
+  <data name="KRI2010/desc" xml:space="preserve">
+    <value>Победа на Конференции Разработчиков Игр в номинации «Лучшая клиентская онлайн-игра» 2010 года. Награда получена 16 мая.</value>
+  </data>
+  <data name="KRI2010/title" xml:space="preserve">
+    <value>КРИ-2010</value>
+  </data>
+  <data name="KRI2011/desc" xml:space="preserve">
+    <value>Победа на Конференции Разработчиков Игр в номинации «Лучшая игра» 2011 года. Награда получена 14 мая.</value>
+  </data>
+  <data name="KRI2011/title" xml:space="preserve">
+    <value>КРИ-2011</value>
+  </data>
+  <data name="KV/desc" xml:space="preserve">
+    <value>Советский тяжёлый танк V уровня. В обновлении 0.7.3 был переплавлен в КВ-1 и КВ-2.</value>
+  </data>
+  <data name="KV/title" xml:space="preserve">
+    <value>КВ</value>
+  </data>
+  <data name="KV5/desc" xml:space="preserve">
+    <value>Советский тяжёлый танк VIII уровня. В обновлении 0.7.5 превращён в музейный экспонат и выведен из продажи по многочисленным жалобам радистов.</value>
+  </data>
+  <data name="KV5/title" xml:space="preserve">
+    <value>КВ-5</value>
+  </data>
+  <data name="Napilnik/desc" xml:space="preserve">
+    <value>Древний артефакт, с помощью которого специалисты отдела баланса проводят тщательную обработку каждой боевой машины.</value>
+  </data>
+  <data name="Napilnik/title" xml:space="preserve">
+    <value>Инструмент балансировщика</value>
+  </data>
+  <data name="NationalLeader/desc" xml:space="preserve">
+    <value>Звание «Народного лидера» в ходе Всероссийской онлайн-акции «Народное голосование Премии Рунета — 2011». Награда получена 25 ноября 2011 года.</value>
+  </data>
+  <data name="NationalLeader/title" xml:space="preserve">
+    <value>«Народный лидер»</value>
+  </data>
+  <data name="PortMap/desc" xml:space="preserve">
+    <value>Самая оживлённая карта игры. В обновлении 0.8.11 была изъята, так как постоянные танковые сражения мешали торговле и срывали сделки.</value>
+  </data>
+  <data name="PortMap/title" xml:space="preserve">
+    <value>Порт</value>
+  </data>
+  <data name="PzKpfw38H735/desc" xml:space="preserve">
+    <value>Трофейный французский лёгкий танк с длинным названием и тяжёлой судьбой на службе Германии. Выведен из продажи в обновлении 0.7.1.</value>
+  </data>
+  <data name="PzKpfw38H735/title" xml:space="preserve">
+    <value>Pz.Kpfw. 38H 735 (f)</value>
+  </data>
+  <data name="PzKptwB2740/desc" xml:space="preserve">
+    <value>Трофейный французский тяжёлый танк на службе Германии. Демилитаризирован и изъят из продажи в обновлении 0.7.1. Был лучшим танком для обучения радистов.</value>
+  </data>
+  <data name="PzKptwB2740/title" xml:space="preserve">
+    <value>Pz.Kpfw. B2 740 (f)</value>
+  </data>
+  <data name="RuinbergInFireMap/desc" xml:space="preserve">
+    <value>Мрачная и тёмная версия карты «Руинберг». Выведена из игры в обновлении 0.9.5 из-за своей избыточной мрачности и тёмности.</value>
+  </data>
+  <data name="RuinbergInFireMap/title" xml:space="preserve">
+    <value>Руинберг в огне</value>
+  </data>
+  <data name="SeverogorskMap/desc" xml:space="preserve">
+    <value>Самая холодная карта игры. Выведена в обновлении 0.9.5 в связи с частым замерзанием горючего в танках, из-за чего большинство техники весь бой так и стояло на базе.</value>
+  </data>
+  <data name="SeverogorskMap/title" xml:space="preserve">
+    <value>Северогорск</value>
+  </data>
+  <data name="Sturmtiger/desc" xml:space="preserve">
+    <value>Будет введён в игру в ближайшем обновлении. Или не в ближайшем. Или не будет.</value>
+  </data>
+  <data name="Sturmtiger/title" xml:space="preserve">
+    <value>Sturmtiger</value>
+  </data>
+  <data name="T23/desc" xml:space="preserve">
+    <value>Американский средний танк VIII уровня. В обновлении 0.6.5 ушёл поработать над собой. Помолодел на уровень и вернулся в игру под именем T23E3 в виде награды за успехи на Глобальной карте.</value>
+  </data>
+  <data name="T23/title" xml:space="preserve">
+    <value>Т23</value>
+  </data>
+  <data name="T502/desc" xml:space="preserve">
+    <value>Советский лёгкий резвый танк V уровня. Уволился в запас в обновлении 0.8.7, приведя на своё место преемника: флегматичного МТ-25.</value>
+  </data>
+  <data name="T502/title" xml:space="preserve">
+    <value>Т-50-2</value>
+  </data>
+  <data name="TankFootball/desc" xml:space="preserve">
+    <value>«...и вот, мяч у Т-62А, он ловко проходит в среднюю зону, обходит одного защитника, второго, пробирается в штрафную площадь, УДАР! И!.. Гусеница сбита, движение невозможно...» — такие матчи были частым событием в игре с 12 июня по 13 июля 2014 года.</value>
+  </data>
+  <data name="TankFootball/title" xml:space="preserve">
+    <value>Танковый футбол</value>
+  </data>
+  <data name="TankRace/desc" xml:space="preserve">
+    <value>Эрон-дон-дон, леди и джентльмены. Давите на газ и летите вперёд за кубком Чемпиона танковых гонок! С 29 сентября по 13 октября 2014 года занимайте свои места на трибунах и наслаждайтесь непередаваемой атмосферой гоночного чемпионата.</value>
+  </data>
+  <data name="TankRace/title" xml:space="preserve">
+    <value>Танковые гонки</value>
+  </data>
+  <data name="Type59/desc" xml:space="preserve">
+    <value>Китайский средний танк VIII уровня. В обновлении 0.7.1. стал мечтой тех, кто не успел.</value>
+  </data>
+  <data name="Type59/title" xml:space="preserve">
+    <value>Type 59</value>
+  </data>
+  <data name="WGFaces/desc" xml:space="preserve">
+    <value>Делаем игру лучше вместе с вами и для вас!</value>
+  </data>
+  <data name="WGFaces/title" xml:space="preserve">
+    <value>Доска почёта</value>
+  </data>
+  <data name="WhiteTiger/desc" xml:space="preserve">
+    <value>С 3 по 31 мая 2012 года среди игроков ходила легенда о зловещем призраке танка, появляющимся время от времени на поле боя, и только тем, кто силён духом, удавалось изгнать его и вернуть мир мирному населению мира танков.</value>
+  </data>
+  <data name="WhiteTiger/title" xml:space="preserve">
+    <value>Белый тигр</value>
+  </data>
+  <data name="WinterBattle/desc" xml:space="preserve">
+    <value>С 5 по 15 января 2015 года в World of Tanks наблюдалась повышенная активность Рейдеров, Берсерков и Мамонтов, сошедшихся в жаркой и динамичной «Зимней битве».</value>
+  </data>
+  <data name="WinterBattle/title" xml:space="preserve">
+    <value>Зимняя битва</value>
+  </data>
+  <data name="burda/desc" xml:space="preserve">
+    <value>Александр Фёдорович Бурда — советский танкист-ас, Герой Советского Союза, гвардии подполковник. 4 октября 1941 г. организовал засаду, в результате которой была разгромлена колонна противника, в том числе десять средних и лёгких танков, два тягача с ПТ-орудиями, пять автомашин с пехотой. Погиб в бою 25 января 1944 года, своими действиями задержав 12 машин противника и этим обеспечив эвакуацию штаба бригады.</value>
+  </data>
+  <data name="burda/title" xml:space="preserve">
+    <value>Александр Бурда</value>
+  </data>
+  <data name="fadin/desc" xml:space="preserve">
+    <value>Александр Михайлович Фадин — командир Т-34. Одним танком, при поддержке взвода пехоты, захватил и удерживал с. Дашуковка (Украина) в течение пяти часов, уничтожив при этом один танк, одну САУ, 18 пулемётных точек, до 50 солдат и офицеров противника, а также сумел сбить самолёт выстрелом из орудия. Закончил войну на Дальнем Востоке, где в должности командира танковой роты участвовал в разгроме Квантунской армии.</value>
+  </data>
+  <data name="fadin/title" xml:space="preserve">
+    <value>Александр Фадин</value>
+  </data>
+  <data name="kolobanov/desc" xml:space="preserve">
+    <value>Зиновий Григорьевич Колобанов — советский танкист-ас, подполковник. В бою 19 августа 1941 г., находясь в засаде на танке КВ-1, уничтожил двадцать два немецких танка, два орудия и два бронетранспортёра за 30 минут боя, израсходовав 98 бронебойных снарядов. После боя на КВ-1 Колобанова насчитали более сотни попаданий. 15 сентября 1941 года Колобанов был тяжело ранен и находился на излечении до конца войны.</value>
+  </data>
+  <data name="kolobanov/title" xml:space="preserve">
+    <value>Зиновий Колобанов</value>
+  </data>
+  <data name="lavrinenko/desc" xml:space="preserve">
+    <value>Дмитрий Фёдорович Лавриненко — советский танкист-ас, Герой Советского Союза, гвардии старший лейтенант, командир танка Т-34. Признан наиболее результативным советским танкистом — за два с половиной месяца уничтожил 52 танка противника в 28 боях. Погиб 18 декабря 1941 года во время миномётного обстрела деревни Горюны Волоколамского района.</value>
+  </data>
+  <data name="lavrinenko/title" xml:space="preserve">
+    <value>Дмитрий Лавриненко</value>
+  </data>
+  <data name="naydeen/desc" xml:space="preserve">
+    <value>Григорий Николаевич Найдин — сержант, командир танка БТ-7, Герой Советского Союза. 25 июня 1941 года у местечка Рудишкяй (Литва) разгромил колонну бронетехники противника, уничтожив в общей сложности 15 танков и 10 орудий передового отряда 19-й танковой дивизии Вермахта, задержав тем самым наступление немцев на двое суток, что позволило тщательно организовать оборону Вильно. Был дважды ранен, после войны продолжал службу в ВС СССР.</value>
+  </data>
+  <data name="naydeen/title" xml:space="preserve">
+    <value>Григорий Найдин</value>
+  </data>
+  <data name="oskin/desc" xml:space="preserve">
+    <value>Александр Петрович Оськин — командир танка, Герой Советского Союза. 11 августа 1944 г., находясь в разведке у Оглендува (Польша), уничтожил три Tiger II на Т-34. На следующий день его танк одним из первых ворвался в деревню Оглендув, в результате чего были захвачены три танка «Королевский тигр» в исправном состоянии, один из которых с бортовым номером 502 экспонируется в бронетанковом музее в Кубинке.</value>
+  </data>
+  <data name="oskin/title" xml:space="preserve">
+    <value>Александр Оськин</value>
+  </data>
+  <data name="envIN_007_FalloutMap_01/desc" xml:space="preserve">
+    <value>С помощью клавиши «ручного тормоза» (по умолчанию — Пробел), используемой на полном ходу, можно уменьшить радиус поворота машины, что позволит быстрее выйти из-под огня противника и скрыться за препятствием. Таким образом, умелое использование комбинации «ручного тормоза» и клавиш управления даёт существенную прибавку к манёвренности вашей машины. Аккуратно используйте данный способ при спуске со склона на большой скорости: машина может перевернуться.</value>
+  </data>
+  <data name="envIN_007_FalloutMap_01/title" xml:space="preserve">
+    <value>Занос и экстренное маневрирование</value>
+  </data>
+  <data name="envIN_007_FalloutMap_02/desc" xml:space="preserve">
+    <value>Чехословацкие послевоенные танки общего назначения (TVP – Tank Všeobecného Použití) создавались под влиянием советских и немецких разработок. Официально программа, в которой участвовали компании Škoda, ČKD и Tatra, просуществовала с 1946 по 1952 гг. Все разработанные проекты получили индекс TVP. Воплощения в металле они не получили.
+TVP T-50 - дальнейшее развитие послевоенной концепции чешского танка общего назначения. Проект фирмы Škoda от 1947 года предполагал утяжеление машины и усиление её вооружения 100-мм орудием по образцу советской Д-10Т.</value>
+  </data>
+  <data name="envIN_007_FalloutMap_02/title" xml:space="preserve">
+    <value>TVP T-50</value>
+  </data>
+  <data name="envIN_007_FalloutMap_03/desc" xml:space="preserve">
+    <value>В текущем обновлении полностью переработаны звуки в игре. Изменения коснулись звуков окружения, выстрелов из орудий, работы двигателей, лязга гусениц, рикошетов, непробитий и прочего. Теперь звуковая картина боя выглядит более реалистично и насыщенно, что поможет глубже погрузиться в атмосферу танковых сражений.</value>
+  </data>
+  <data name="envIN_007_FalloutMap_03/title" xml:space="preserve">
+    <value>Улучшенные звуки</value>
+  </data>
+  <data name="envIN_007_FalloutMap_04/desc" xml:space="preserve">
+    <value>Теперь движение через железнодорожные пути, сломанные заграждения, кучи мусора и прочие небольшие неровности рельефа будет проще: машина перестанет терять скорость и сильно раскачиваться, что существенно повысит стабилизацию орудия и поможет эффективнее вести огонь на ходу.</value>
+  </data>
+  <data name="envIN_007_FalloutMap_04/title" xml:space="preserve">
+    <value>Плавное пересечение препятствий</value>
+  </data>
+  <data name="envIN_007_FalloutPromo_01/desc" xml:space="preserve">
+    <value>В текущем обновлении внесены существенные изменения в физическую модель движения техники: теперь поведение боевых машин станет более реалистичным, а дополнительные возможности улучшенной физики позволят игрокам совершать ранее недоступные манёвры, например «полицейский разворот» и дрифт. Кроме того, ваша машина сможет забираться на ранее недоступные склоны и занимать альтернативные позиции для ведения огня, что поможет разнообразить игровой процесс на большей части карт.
+
+Повышенное внимание уделите движению техники на большой скорости по сложному рельефу и при спуске с крутых склонов: при ошибке маневрирования ваша машина может перевернуться на борт или на крышу. При перевороте на крышу запустится 30-секундный таймер (аналогичный затоплению), и вы не сможете вести огонь. Попробуйте попросить помощи у кого-либо из союзников, иначе машина будет уничтожена. Не забывайте, что переворот может произойти и при таране.</value>
+  </data>
+  <data name="envIN_007_FalloutPromo_01/title" xml:space="preserve">
+    <value>Улучшенная физика движения техники</value>
+  </data>
+  <data name="flag/desc" xml:space="preserve">
+    <value>Четвёртый Гранд-финал Wargaming.net League впервые пройдёт в Москве. Этот турнир — вершина соревновательного мира World of Tanks, и сыграть в нём мечтает любой профессиональный танкист.
+
+Нас ждёт борьба лучших команд мира и множество зрелищных сражений. С каждым годом мастерство наших игроков растёт, поэтому мы ожидаем от них игры на абсолютно новом уровне.</value>
+  </data>
+  <data name="flag/title" xml:space="preserve">
+    <value>Гранд-Финал 2017</value>
+  </data>
+  <data name="hellraisers/desc" xml:space="preserve">
+    <value>HellRaisers прошли долгий путь к титулу чемпионов мира по World of Tanks. Будучи главными конкурентами Natus Vincere в RU-регионе, они ехали на Гранд-финал 2015 года в статусе очень талантливой и дерзкой команды.
+
+Встреча с Na`Vi в полуфинале закончилась сенсационной победой Hellraisers со счётом 5:2, а в финальном матче Hellraisers буквально разгромили соперников из Китая в битве за чемпионский титул.
+
+В 2016 году под названием Tornado Energy они завоевали прямую путёвку на Гранд-финал 2017 года, одержав победу над Na`Vi в финальном матче «Битвы чемпионов 2016».</value>
+  </data>
+  <data name="hellraisers/title" xml:space="preserve">
+    <value>HellRaisers</value>
+  </data>
+  <data name="navi/desc" xml:space="preserve">
+    <value>В 2014 году в Варшаве Natus Vincere стали победителями первого Гранд-финала лиги Wargaming.net, не дав никому усомниться в своём превосходстве.
+
+В 2016-м, ещё раз подтвердив невероятно высокий уровень мастерства, в напряжённейшем матче они одолели своего главного конкурента — команду Hellraisers, отвоевав у них титул действующего чемпиона.</value>
+  </data>
+  <data name="navi/title" xml:space="preserve">
+    <value>Natus Vincere</value>
+  </data>
+  <data name="christmas/eventFinished/desc" xml:space="preserve">
+    <value>Новогоднее наступление завершено. Возможность наряжания ёлки и танковика отключена.</value>
+  </data>
+  <data name="christmas/eventFinished/title" xml:space="preserve">
+    <value>Вот и всё!</value>
+  </data>
+  <data name="christmas/eventSuspended/desc" xml:space="preserve">
+    <value>Новогоднее наступление приостановлено. Возможность наряжания ёлки и танковика отключена.</value>
+  </data>
+  <data name="christmas/eventSuspended/title" xml:space="preserve">
+    <value>Время взять паузу</value>
+  </data>
+  <data name="h07_newyear_Poster/desc" xml:space="preserve">
+    <value>Смотрите новую семейную комедию Тимура Бекмамбетова «Ёлки 5» в кинотеатрах вашего города.</value>
+  </data>
+  <data name="h07_newyear_Poster/title" xml:space="preserve">
+    <value>«Ёлки 5»</value>
+  </data>
+  <data name="h07_newyear_box/desc" xml:space="preserve">
+    <value>Всенепременно же вскройте его!</value>
+  </data>
+  <data name="h07_newyear_box/title" xml:space="preserve">
+    <value>Это ящик с подарками</value>
+  </data>
+</root>

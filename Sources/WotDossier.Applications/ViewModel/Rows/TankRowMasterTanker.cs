@@ -14,20 +14,12 @@ namespace WotDossier.Applications.ViewModel.Rows
         public double Tier { get; set; }
 
         /// <summary>
-        /// Gets or sets the icon.
-        /// </summary>
-        /// <value>
-        /// The icon.
-        /// </value>
-        public TankIcon Icon { get; set; }
-
-        /// <summary>
         /// Gets or sets the tank.
         /// </summary>
         /// <value>
         /// The tank.
         /// </value>
-        public string Tank { get; set; }
+        public TankDescription TankDescription { get; set; }
 
         /// <summary>
         /// Gets or sets the type of the tank.
@@ -61,10 +53,9 @@ namespace WotDossier.Applications.ViewModel.Rows
         {
             Tier = tank.Tier;
             TankType = tank.Type;
-            Tank = tank.Title;
-            Icon = tank.Icon;
+	        TankDescription = tank;
             CountryId = tank.CountryId;
-            IsPremium = tank.Premium == 1;
+            IsPremium = tank.Premium;
         }
 
         /// <summary>
@@ -75,7 +66,7 @@ namespace WotDossier.Applications.ViewModel.Rows
         /// </returns>
         public override string ToString()
         {
-            return Tank;
+            return TankDescription.Title;
         }
     }
 }

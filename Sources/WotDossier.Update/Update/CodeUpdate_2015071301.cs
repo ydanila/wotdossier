@@ -3,6 +3,7 @@ using System.Data.SQLite;
 using System.IO;
 using Common.Logging;
 using WotDossier.Dal;
+using WotDossier.Domain;
 
 namespace WotDossier.Update.Update
 {

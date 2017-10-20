@@ -5,9 +5,10 @@ namespace WotDossier.Domain.Interfaces
     public interface IReplayMap
     {
         Gameplay Gameplay { get; set; }
-        string MapName { get; set; }
-        int MapId { get; set; }
         string MapNameId { get; set; }
-        int Team { get; set; }
+
+	    MapDescription Map { get; }
+
+		int Team { get; set; }
     }
 }

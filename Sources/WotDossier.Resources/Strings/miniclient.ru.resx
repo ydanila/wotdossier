@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ammunition_panel/warn_tooltip" xml:space="preserve">
+    <value>Доступно после завершения загрузки</value>
+  </data>
+  <data name="battle_type_select_popover/message" xml:space="preserve">
+    <value>Все режимы боёв станут доступны после завершения загрузки.</value>
+  </data>
+  <data name="buy_vehicle/message" xml:space="preserve">
+    <value>До завершения загрузки бои доступны только на технике начальных уровней. Подтвердить покупку?</value>
+  </data>
+  <data name="buy_vehicle/title" xml:space="preserve">
+    <value>Подтверждение покупки</value>
+  </data>
+  <data name="continue_download_dialog/message" xml:space="preserve">
+    <value>Для завершения загрузки необходимо выйти из игры. Загрузка начнётся автоматически.</value>
+  </data>
+  <data name="continue_download_dialog/title" xml:space="preserve">
+    <value>Подтверждение выхода</value>
+  </data>
+  <data name="fort_welcome_view/description" xml:space="preserve">
+    <value>Укрепрайон станет доступен после завершения загрузки.</value>
+  </data>
+  <data name="hangar/continue_download" xml:space="preserve">
+    <value>Завершить загрузку</value>
+  </data>
+  <data name="hangar/miniclient_description_window/title" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="hangar/unavailable" xml:space="preserve">
+    <value>Доступен после завершения загрузки</value>
+  </data>
+  <data name="hangar/warn_message" xml:space="preserve">
+    <value>Игра загружена не полностью.   </value>
+  </data>
+  <data name="invitation/note/CLAN" xml:space="preserve">
+    <value>Клановый бой станет доступен после завершения загрузки.</value>
+  </data>
+  <data name="invitation/note/CLUBS" xml:space="preserve">
+    <value>Командный бой станет доступен после завершения загрузки.</value>
+  </data>
+  <data name="invitation/note/COMPANY" xml:space="preserve">
+    <value>Ротный бой станет доступен после завершения загрузки.</value>
+  </data>
+  <data name="invitation/note/FORT_BATTLE" xml:space="preserve">
+    <value>Наступления станут доступны после завершения загрузки.</value>
+  </data>
+  <data name="invitation/note/SORTIE" xml:space="preserve">
+    <value>Вылазки станут доступны после завершения загрузки.</value>
+  </data>
+  <data name="invitation/note/SQUAD" xml:space="preserve">
+    <value>Игра взводом станет доступна после завершения загрузки.</value>
+  </data>
+  <data name="invitation/note/TOURNAMENT" xml:space="preserve">
+    <value>Турниры станут доступны после завершения загрузки.</value>
+  </data>
+  <data name="invitation/note/TRAINING" xml:space="preserve">
+    <value>Тренировочный бой станет доступен после завершения загрузки.</value>
+  </data>
+  <data name="invitation/note/UNIT" xml:space="preserve">
+    <value>Командный бой станет доступен после завершения загрузки.</value>
+  </data>
+  <data name="personal_quests_welcome_view/continue_download" xml:space="preserve">
+    <value>Завершить загрузку</value>
+  </data>
+  <data name="personal_quests_welcome_view/description" xml:space="preserve">
+    <value>Личные боевые задачи станут доступны после завершения загрузки.</value>
+  </data>
+  <data name="shop_vehicle_item_renderer/warn_message" xml:space="preserve">
+    <value>Доступен после завершения загрузки</value>
+  </data>
+  <data name="squad_promo_window/description" xml:space="preserve">
+    <value>Игра в формированиях станет доступна после завершения загрузки.</value>
+  </data>
+  <data name="squad_promo_window/header" xml:space="preserve">
+    <value>Играйте вместе с друзьями</value>
+  </data>
+  <data name="tech_tree/continue_download" xml:space="preserve">
+    <value>Завершить загрузку</value>
+  </data>
+  <data name="tech_tree/description" xml:space="preserve">
+    <value>До завершения загрузки доступна только техника начальных уровней.</value>
+  </data>
+  <data name="tutorial/video/title" xml:space="preserve">
+    <value>Боевое обучение</value>
+  </data>
+  <data name="accountPopover/warning" xml:space="preserve">
+    <value>Кланы станут доступны после завершения загрузки.</value>
+  </data>
+  <data name="communicationCenter/warning" xml:space="preserve">
+    <value>Кланы станут доступны после завершения загрузки.</value>
+  </data>
+  <data name="profile/warning" xml:space="preserve">
+    <value>Кланы станут доступны после завершения загрузки.</value>
+  </data>
+  <data name="squad_promo_window/btn" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="invitation/note/EVENT" xml:space="preserve">
+    <value>Игра взводом станет доступна после завершения загрузки.</value>
+  </data>
+  <data name="invitation/note/FALLOUT" xml:space="preserve">
+    <value>Игра взводом станет доступна после завершения загрузки.</value>
+  </data>
+  <data name="restore_vehicle/message" xml:space="preserve">
+    <value>До завершения загрузки бои доступны только на технике начальных уровней. Подтвердить восстановление?</value>
+  </data>
+  <data name="restore_vehicle/title" xml:space="preserve">
+    <value>Подтверждение восстановления</value>
+  </data>
+  <data name="invitation/note/EXTERNAL" xml:space="preserve">
+    <value>Вылазки станут доступны после завершения загрузки.</value>
+  </data>
+  <data name="hangar/sabdbox_platform_message" xml:space="preserve">
+    <value>Недоступно в текущей версии клиента</value>
+  </data>
+</root>

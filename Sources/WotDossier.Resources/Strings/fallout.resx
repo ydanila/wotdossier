@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="infoPanel/garage/descr" xml:space="preserve">
+    <value>If your vehicle is destroyed, select a new one and get back on the battlefield.</value>
+  </data>
+  <data name="infoPanel/garage/head" xml:space="preserve">
+    <value>THREE VEHICLES PER BATTLE</value>
+  </data>
+  <data name="infoPanel/getFlags/descr" xml:space="preserve">
+    <value>Capture flags and deliver them to your base.</value>
+  </data>
+  <data name="infoPanel/getFlags/head" xml:space="preserve">
+    <value>CAPTURE THE FLAG</value>
+  </data>
+  <data name="infoPanel/repair/descr" xml:space="preserve">
+    <value>Repair and resupply your vehicles at control points.</value>
+  </data>
+  <data name="infoPanel/repair/head" xml:space="preserve">
+    <value>FULL SERVICE</value>
+  </data>
+  <data name="infoPanel/secretWin/descr" xml:space="preserve">
+    <value>Earn victory points for your contribution in battle.</value>
+  </data>
+  <data name="infoPanel/secretWin/descr/cost" xml:space="preserve">
+    <value>+%(cost)s</value>
+  </data>
+  <data name="infoPanel/secretWin/descr/firstStr" xml:space="preserve">
+    <value> for each enemy destroyed</value>
+  </data>
+  <data name="infoPanel/secretWin/descr/secondStr" xml:space="preserve">
+    <value> for each flag delivered</value>
+  </data>
+  <data name="infoPanel/secretWin/head" xml:space="preserve">
+    <value>POINT CALCULATION</value>
+  </data>
+  <data name="battleLoading/multiteam/battleType" xml:space="preserve">
+    <value>Steel Hunt</value>
+  </data>
+  <data name="battleLoading/multiteam/winText" xml:space="preserve">
+    <value>Mission: earn more victory points than the enemy.</value>
+  </data>
+  <data name="infoPanel/resourcePoints/descr" xml:space="preserve">
+    <value>Capture resources at special resource points.</value>
+  </data>
+  <data name="infoPanel/resourcePoints/head" xml:space="preserve">
+    <value>HUNT FOR RESOURCES</value>
+  </data>
+  <data name="resourcePoints/cooldown/descr" xml:space="preserve">
+    <value>Available in:</value>
+  </data>
+  <data name="resourcePoints/disabled/descr" xml:space="preserve">
+    <value>Enemy is on the point!</value>
+  </data>
+  <data name="resourcePoints/mining/descr" xml:space="preserve">
+    <value>Capturing resources</value>
+  </data>
+  <data name="battleSelectorWindow/domination/descr" xml:space="preserve">
+    <value>Two teams with 10 or 15 players each, Platoons included, depending on the map.
+The winner is the team that earns the most victory points
+or destroys all enemy vehicles.</value>
+  </data>
+  <data name="battleSelectorWindow/domination/title" xml:space="preserve">
+    <value>Domination</value>
+  </data>
+  <data name="battleSelectorWindow/dominationBattleBtnLbl" xml:space="preserve">
+    <value>Proceed</value>
+  </data>
+  <data name="battleSelectorWindow/headerDesc" xml:space="preserve">
+    <value>This mode includes battle types that differ in team structure.
+Each battle type allows the use of Combat Reserves and respawning in battle.</value>
+  </data>
+  <data name="battleSelectorWindow/headerTitleStr" xml:space="preserve">
+    <value>Rampage</value>
+  </data>
+  <data name="battleSelectorWindow/multiteam/descr" xml:space="preserve">
+    <value>Solo players and Platoons of 3 players in the free for all
+format. The winner is the player or Platoon that earns
+the most victory points.</value>
+  </data>
+  <data name="battleSelectorWindow/multiteam/title" xml:space="preserve">
+    <value>Steel Hunt</value>
+  </data>
+  <data name="battleSelectorWindow/multiteamBattleBtnLbl" xml:space="preserve">
+    <value>Proceed</value>
+  </data>
+  <data name="battleSelectorWindow/title" xml:space="preserve">
+    <value>Rampage</value>
+  </data>
+  <data name="channel/label" xml:space="preserve">
+    <value>Rampage</value>
+  </data>
+  <data name="hangarSwitch/1" xml:space="preserve">
+    <value>Domination</value>
+  </data>
+  <data name="hangarSwitch/2" xml:space="preserve">
+    <value>Steel Hunt</value>
+  </data>
+  <data name="hangarSwitch/btnLbl" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="infoPanel/garageMultiteam/descr" xml:space="preserve">
+    <value>If your vehicle is destroyed, select a new one and get back on the battlefield.</value>
+  </data>
+  <data name="infoPanel/garageMultiteam/head" xml:space="preserve">
+    <value>1–3 VEHICLES PER BATTLE</value>
+  </data>
+  <data name="multiselectionSlot/1/descriptionTitle" xml:space="preserve">
+    <value>Select vehicles. You need at least one Tier %(topLevel)s vehicle.</value>
+  </data>
+  <data name="multiselectionSlot/1/message" xml:space="preserve">
+    <value>The group should comprise three Tier %(level)s vehicles.</value>
+  </data>
+  <data name="multiselectionSlot/1/topTierVehicleRequired" xml:space="preserve">
+    <value>You need at least one Tier %(level)s vehicle to fight in the Domination mode.</value>
+  </data>
+  <data name="multiselectionSlot/2/descriptionTitle" xml:space="preserve">
+    <value>Select Vehicles</value>
+  </data>
+  <data name="multiselectionSlot/2/message" xml:space="preserve">
+    <value>Select Tier %(level)s vehicles in your Garage.</value>
+  </data>
+  <data name="multiselectionSlot/2/topTierVehicleRequired" xml:space="preserve">
+    <value>You need at least one Tier %(level)s vehicle to fight in the Steel Hunt mode.</value>
+  </data>
+  <data name="multiselectionSlot/domination/vehicleNotActivated" xml:space="preserve">
+    <value>Select
+vehicle</value>
+  </data>
+  <data name="multiselectionSlot/index" xml:space="preserve">
+    <value>%(index)d.</value>
+  </data>
+  <data name="multiselectionSlot/multiteam/vehicleNotActivated" xml:space="preserve">
+    <value>Select
+vehicle</value>
+  </data>
+  <data name="multiselectionSlot/selectionRequirements" xml:space="preserve">
+    <value>Tier %(level)s</value>
+  </data>
+  <data name="multiselectionSlot/selectionStatus" xml:space="preserve">
+    <value>Select Vehicles</value>
+  </data>
+  <data name="tankCarouselSlot/activateButton" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="tankCarouselSlot/deactivateButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="tankCarouselSlot/selectionButtonTooltip" xml:space="preserve">
+    <value>The group should comprise three Tier %(level)s vehicles with at least one vehicle of Tier %(requiredLevel)s that is not in battle.</value>
+  </data>
+  <data name="awardWindow/additionalText/2" xml:space="preserve">
+    <value>You will receive rented Tier X vehicles after completing special missions.</value>
+  </data>
+  <data name="awardWindow/btnAction/1" xml:space="preserve">
+    <value>Go to Rampage</value>
+  </data>
+  <data name="awardWindow/btnAction/2" xml:space="preserve">
+    <value>Go to Missions</value>
+  </data>
+  <data name="awardWindow/header/1" xml:space="preserve">
+    <value>Tier %s Vehicle Available</value>
+  </data>
+  <data name="awardWindow/header/2" xml:space="preserve">
+    <value>Tier %s Vehicle Available</value>
+  </data>
+  <data name="awardWindow/mainText/1" xml:space="preserve">
+    <value>Congratulations! The Tier %s vehicle in your Garage allows you to fight in the Rampage mode.</value>
+  </data>
+  <data name="awardWindow/mainText/2" xml:space="preserve">
+    <value>Congratulations! Tier %s vehicle available. Purchase a Tier X vehicle to fight in the Rampage mode.</value>
+  </data>
+  <data name="awardWindow/title/1" xml:space="preserve">
+    <value>Bulletin</value>
+  </data>
+  <data name="awardWindow/title/2" xml:space="preserve">
+    <value>Bulletin</value>
+  </data>
+  <data name="falloutBattleSelectorWindow/autoSquad/label" xml:space="preserve">
+    <value>Team autosearch</value>
+  </data>
+  <data name="gasAttack/damagePanel/crewDestroyed" xml:space="preserve">
+    <value>Crew knocked out</value>
+  </data>
+  <data name="gasAttack/postmortem/crewDestroyed" xml:space="preserve">
+    <value>Crew Knocked Out</value>
+  </data>
+  <data name="gasAttack/postmortem/respawnInfo" xml:space="preserve">
+    <value>Vehicle selection and repairs are not available.</value>
+  </data>
+  <data name="gasAttack/postmortem/vehicleDestroyed" xml:space="preserve">
+    <value>Vehicle Destroyed</value>
+  </data>
+  <data name="gasAttackPanel/gasAttack/message" xml:space="preserve">
+    <value>Your vehicle may be destroyed.</value>
+  </data>
+  <data name="gasAttackPanel/gasAttack/title" xml:space="preserve">
+    <value>Firestorm Approaches!</value>
+  </data>
+  <data name="gasAttackPanel/inside/message" xml:space="preserve">
+    <value>Your vehicle may be destroyed.</value>
+  </data>
+  <data name="gasAttackPanel/inside/title" xml:space="preserve">
+    <value>Leave the Danger Zone!</value>
+  </data>
+  <data name="gasAttackPanel/safeZone/message" xml:space="preserve">
+    <value>You are in the safe zone.</value>
+  </data>
+  <data name="gasAttackPanel/safeZone/title" xml:space="preserve">
+    <value>Destroy Enemy Vehicles!</value>
+  </data>
+  <data name="gasAttackPanel/start/message" xml:space="preserve">
+    <value>Vehicle selection and repairs are not available.</value>
+  </data>
+  <data name="gasAttackPanel/start/title" xml:space="preserve">
+    <value>Air Raid Alert!</value>
+  </data>
+  <data name="gasAttackTimer/critical" xml:space="preserve">
+    <value>Crew in Danger</value>
+  </data>
+  <data name="gasAttackTimer/warning" xml:space="preserve">
+    <value>Gas Cloud Imminent</value>
+  </data>
+  <data name="infoPanel/garage/gasAtack/respawnInfo" xml:space="preserve">
+    <value>Vehicle selection and repairs are not available.</value>
+  </data>
+  <data name="infoPanel/garage/gasAtack/topInfo" xml:space="preserve">
+    <value>Gas Cloud Approaches!</value>
+  </data>
+  <data name="infoPanel/garage/postmortemBtnLbl" xml:space="preserve">
+    <value>Spectator Mode</value>
+  </data>
+  <data name="infoPanel/singleHelpText/plus" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="infoPanel/singleHelpText/winPoints/damage" xml:space="preserve">
+    <value>%(points)s for %(damageDealt)s damage caused</value>
+  </data>
+  <data name="infoPanel/singleHelpText/winPoints/flagCapture" xml:space="preserve">
+    <value>%s for delivering a flag</value>
+  </data>
+  <data name="infoPanel/singleHelpText/winPoints/flagDestroy" xml:space="preserve">
+    <value>%s for destroying a flag</value>
+  </data>
+  <data name="infoPanel/singleHelpText/winPoints/kill" xml:space="preserve">
+    <value>%s for destroying an enemy vehicle</value>
+  </data>
+  <data name="multiselectionSlot/domination/requiredVehicleNotActivated" xml:space="preserve">
+    <value>Tier %(level)s
+vehicle</value>
+  </data>
+  <data name="safeZone/message" xml:space="preserve">
+    <value>Drive to
+the safe zone</value>
+  </data>
+  <data name="safeZoneDirection/message" xml:space="preserve">
+    <value>Safe Zone</value>
+  </data>
+  <data name="gasAttack/damagePanel/tankDestroyed" xml:space="preserve">
+    <value>Vehicle destroyed</value>
+  </data>
+  <data name="hangarSwitch/14" xml:space="preserve">
+    <value>Domination</value>
+  </data>
+  <data name="hangarSwitch/15" xml:space="preserve">
+    <value>Steel Hunt</value>
+  </data>
+  <data name="multiselectionSlot/14/descriptionTitle" xml:space="preserve">
+    <value>Select vehicles. You need at least one Tier %(topLevel)s vehicle.</value>
+  </data>
+  <data name="multiselectionSlot/14/message" xml:space="preserve">
+    <value>The group should comprise three Tier %(level)s vehicles.</value>
+  </data>
+  <data name="multiselectionSlot/14/topTierVehicleRequired" xml:space="preserve">
+    <value>You need at least one Tier %(requiredLevel)s vehicle to fight in the Domination mode.
+The group should comprise three Tier %(level)s vehicles.</value>
+  </data>
+  <data name="multiselectionSlot/15/descriptionTitle" xml:space="preserve">
+    <value>Select Vehicles:</value>
+  </data>
+  <data name="multiselectionSlot/15/message" xml:space="preserve">
+    <value>Select Tier %(level)s vehicles in your Garage.</value>
+  </data>
+  <data name="multiselectionSlot/15/topTierVehicleRequired" xml:space="preserve">
+    <value>You need at least one Tier %(requiredLevel)s vehicle to fight in the Steel Hunt mode.</value>
+  </data>
+  <data name="multiselectionSlot/groupNotReady" xml:space="preserve">
+    <value>Group not ready</value>
+  </data>
+  <data name="multiselectionSlot/groupReady" xml:space="preserve">
+    <value>Group ready</value>
+  </data>
+</root>

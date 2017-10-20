@@ -10,7 +10,7 @@ namespace WotDossier.Applications.ViewModel.Replay.Viewer
     public class MapElementContext
     {
         private readonly Rect _bounds;
-        private readonly Map _mapDescription;
+        private readonly MapDescription _mapDescription;
         private readonly string _gameplayId;
         private readonly int _team;
         private readonly int _width;
@@ -26,7 +26,7 @@ namespace WotDossier.Applications.ViewModel.Replay.Viewer
             get { return _team; }
         }
 
-        public MapElementContext(Map mapDescription, string gameplayId, int team, int width, int height)
+        public MapElementContext(MapDescription mapDescription, string gameplayId, int team, int width, int height)
         {
             _bounds = mapDescription.Config.BoundingBox;
             _mapDescription = mapDescription;

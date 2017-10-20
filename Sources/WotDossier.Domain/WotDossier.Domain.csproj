@@ -45,80 +45,39 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Common.Logging, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.3.1\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.3.1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
     <Reference Include="JetBrains.Annotations, Version=11.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
       <HintPath>..\packages\JetBrains.Annotations.11.0.0\lib\net20\JetBrains.Annotations.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppConfigSettings.cs" />
     <Compile Include="BattleMode.cs" />
     <Compile Include="ClanBattleType.cs" />
     <Compile Include="ClientStat.cs" />
+    <Compile Include="ClientVersionCompabilityHelper.cs" />
+    <Compile Include="CompressHelper.cs" />
     <Compile Include="Country.cs" />
-    <Compile Include="Dossier\AppSpot\Amounts.cs" />
-    <Compile Include="Dossier\AppSpot\Awards.cs" />
-    <Compile Include="Dossier\AppSpot\Epic.cs" />
-    <Compile Include="Dossier\AppSpot\Medals.cs" />
-    <Compile Include="Dossier\AppSpot\Series.cs" />
-    <Compile Include="Dossier\AppSpot\Tank.cs" />
-    <Compile Include="Dossier\AppSpot\TankStatistic.cs" />
-    <Compile Include="Dossier\DossierData.cs" />
-    <Compile Include="Dossier\DossierDataHeader.cs" />
+    <Compile Include="Dictionaries.cs" />
+    <Compile Include="Dossier\DossierTankData.cs" />
+    <Compile Include="Dossier\Processor\TankDataProcessor.cs" />
     <Compile Include="Dossier\DossierReader.cs" />
-    <Compile Include="Dossier\TankV65\Achievements7x7.cs" />
-    <Compile Include="Dossier\TankV87\Achievements.cs" />
-    <Compile Include="Dossier\TankV87\AchievementsFort.cs" />
-    <Compile Include="Dossier\TankV87\TankJson.cs" />
-    <Compile Include="Dossier\TankV85\Achievements7x7.cs" />
-    <Compile Include="Dossier\TankV85\AchievementsClan.cs" />
-    <Compile Include="Dossier\TankV85\AchievementsFort.cs" />
-    <Compile Include="Dossier\TankV85\AchievementsSingle.cs" />
-    <Compile Include="Dossier\TankV85\AchievementsHistorical.cs" />
-    <Compile Include="Dossier\TankV85\Achievements.cs" />
-    <Compile Include="Dossier\TankV85\TankJson.cs" />
-    <Compile Include="Dossier\TankV77\Achievements7x7.cs" />
-    <Compile Include="Dossier\TankV77\AchievementsJson.cs" />
-    <Compile Include="Dossier\TankV77\CommonJson.cs" />
-    <Compile Include="Dossier\TankV77\AchievementsHistorical.cs" />
-    <Compile Include="Dossier\TankV77\MaxJson.cs" />
-    <Compile Include="Dossier\TankV77\StatisticJson.cs" />
-    <Compile Include="Dossier\TankV77\StatisticJson_2.cs" />
-    <Compile Include="Dossier\TankV77\TankJson.cs" />
-    <Compile Include="Dossier\TankV77\TotalJson.cs" />
-    <Compile Include="Dossier\TankV29\CommonJson.cs" />
-    <Compile Include="Dossier\TankV65\CommonJson.cs" />
-    <Compile Include="Dossier\TankV65\StatisticJson_2.cs" />
-    <Compile Include="Dossier\TankV65\TotalJson.cs" />
-    <Compile Include="Dossier\TankV88\AchievementsSingle.cs" />
-    <Compile Include="Dossier\TankV88\TankJson.cs" />
-    <Compile Include="Dossier\TankV89\AchievementsSingle.cs" />
-    <Compile Include="Dossier\TankV89\TankJson.cs" />
-    <Compile Include="Dossier\TankV92\TankJson.cs" />
-    <Compile Include="Dossier\TankV94\AchievementsFallout.cs" />
-    <Compile Include="Dossier\TankV94\MaxJsonFallout.cs" />
-    <Compile Include="Dossier\TankV94\StatisticJsonFallout.cs" />
-    <Compile Include="Dossier\TankV94\TankJson.cs" />
-    <Compile Include="Dossier\TankV95\StatisticJson.cs" />
-    <Compile Include="Dossier\TankV95\StatisticJsonFallout.cs" />
-    <Compile Include="Dossier\TankV95\StatisticJsonFort.cs" />
-    <Compile Include="Dossier\TankV95\StatisticJsonFortSortie.cs" />
-    <Compile Include="Dossier\TankV95\StatisticJson_2.cs" />
-    <Compile Include="Dossier\TankV95\TankJson.cs" />
-    <Compile Include="Dossier\TankV96\AchievementsFallout.cs" />
-    <Compile Include="Dossier\TankV96\TankJson.cs" />
-    <Compile Include="Dossier\TankV97\StatisticJsonFort.cs" />
-    <Compile Include="Dossier\TankV97\StatisticJsonFortSortie.cs" />
-    <Compile Include="Dossier\TankV97\TankJson.cs" />
-    <Compile Include="Dossier\TankV98\AchievementsFort.cs" />
-    <Compile Include="Dossier\TankV98\TankJson.cs" />
-    <Compile Include="Dossier\TankV99\TankJson.cs" />
     <Compile Include="Dossier\Utils\Base32.cs" />
     <Compile Include="Entities\FavoritePlayerEntity.cs" />
     <Compile Include="Entities\GrandBattleBattlesStatisticEntity.cs" />
@@ -127,6 +86,7 @@
     <Compile Include="Entities\RankedBattlesStatisticEntity.cs" />
     <Compile Include="Entities\TankGrandBattleBattlesStatisticEntity.cs" />
     <Compile Include="Entities\TankRankedBattlesStatisticEntity.cs" />
+    <Compile Include="Folder.cs" />
     <Compile Include="GameplayDescription.cs" />
     <Compile Include="Interfaces\IFortAchievements.cs" />
     <Compile Include="Interfaces\IClanBattlesAchievements.cs" />
@@ -148,6 +108,7 @@
     <Compile Include="Interfaces\IStatisticSpecialAwards.cs" />
     <Compile Include="Interfaces\IStatisticXp.cs" />
     <Compile Include="Interfaces\IFalloutAchievements.cs" />
+    <Compile Include="Interfaces\ITeamRatedBattlesAchievements.cs" />
     <Compile Include="Interfaces\ITeamBattlesAchievements.cs" />
     <Compile Include="Entities\TankRandomBattlesStatisticEntity.cs" />
     <Compile Include="Entities\TankTeamBattleStatisticEntity.cs" />
@@ -163,8 +124,10 @@
     <Compile Include="Entities\TankEntity.cs" />
     <Compile Include="Entities\TankStatisticEntityBase.cs" />
     <Compile Include="Interfaces\ITankRowBase.cs" />
+    <Compile Include="JsonCreationConverter.cs" />
     <Compile Include="Map.cs" />
     <Compile Include="MapConfig.cs" />
+    <Compile Include="MapDescription.cs" />
     <Compile Include="MarkOfMastery.cs" />
     <Compile Include="Medal.cs" />
     <Compile Include="Common\CommonStatGroup.cs" />
@@ -198,6 +161,7 @@
     <Compile Include="Replay\StatBase.cs" />
     <Compile Include="Replay\Vehicle.cs" />
     <Compile Include="Replay\VehicleResult.cs" />
+    <Compile Include="ResourceHelper.cs" />
     <Compile Include="Server\GlobalMapFront.cs" />
     <Compile Include="Server\VehicleAchievements.cs" />
     <Compile Include="Server\Achievements.cs" />
@@ -219,6 +183,7 @@
     <Compile Include="Server\Statistics.cs" />
     <Compile Include="Server\Vehicle.cs" />
     <Compile Include="Server\VehicleMarkOfMastery.cs" />
+    <Compile Include="SettingsReader.cs" />
     <Compile Include="Settings\AppSettings.cs" />
     <Compile Include="Settings\AppSettingsBase.cs" />
     <Compile Include="Settings\DossierTheme.cs" />
@@ -227,18 +192,16 @@
     <Compile Include="Settings\StatisticPeriod.cs" />
     <Compile Include="Settings\TankFilterSettings.cs" />
     <Compile Include="TankType.cs" />
-    <Compile Include="Dossier\TankV65\AchievementsJson.cs" />
-    <Compile Include="Dossier\TankV65\StatisticJson.cs" />
-    <Compile Include="Dossier\TankV65\MaxJson.cs" />
-    <Compile Include="Dossier\TankV65\TankJson.cs" />
     <Compile Include="Tank\AchievementsFallout.cs" />
     <Compile Include="Tank\AchievementsFort.cs" />
     <Compile Include="Tank\AchievementsHistorical.cs" />
     <Compile Include="Tank\Achievements7x7.cs" />
     <Compile Include="Interfaces\ITankFilterable.cs" />
+    <Compile Include="Tank\AchievementsRanked.cs" />
     <Compile Include="Tank\AchievementsRandom.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Tank\ArtefactDescription.cs" />
     <Compile Include="Tank\ConsumableDescription.cs" />
     <Compile Include="Tank\AchievementsClan.cs" />
     <Compile Include="Tank\DeviceDescription.cs" />
@@ -255,22 +218,13 @@
     <Compile Include="Tank\TankServerInfo.cs" />
     <Compile Include="Tank\FragsJson.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Dossier\TankV29\BattleJson.cs" />
-    <Compile Include="Dossier\TankV29\ClanJson.cs" />
     <Compile Include="Tank\CommonJson.cs" />
-    <Compile Include="Dossier\TankV29\CompanyJson.cs" />
-    <Compile Include="Dossier\TankV29\EpicJson.cs" />
-    <Compile Include="Dossier\TankV29\MajorJson.cs" />
-    <Compile Include="Dossier\TankV29\SeriesJson.cs" />
-    <Compile Include="Dossier\TankV29\SpecialJson.cs" />
-    <Compile Include="Tank\TankIcon.cs" />
-    <Compile Include="Dossier\TankV29\TankJson.cs" />
-    <Compile Include="Dossier\TankV29\StatisticJson.cs" />
     <Compile Include="Tank\TankDescription.cs" />
     <Compile Include="DossierUtils.cs" />
     <Compile Include="VStat.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -278,8 +232,22 @@
       <Project>{1268B707-A866-4723-89C7-2E9BD92E6AA6}</Project>
       <Name>WotDossier.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WotDossier.Resources\WotDossier.Resources.csproj">
+      <Project>{7cd82f33-099e-4c8f-b30a-7aacac5b37e1}</Project>
+      <Name>WotDossier.Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dossier\vehicleDossierLayout.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" />
+    </VisualStudio>
+  </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

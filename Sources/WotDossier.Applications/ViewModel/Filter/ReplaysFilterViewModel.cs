@@ -9,7 +9,6 @@ using WotDossier.Applications.ViewModel.Replay;
 using WotDossier.Common;
 using WotDossier.Dal;
 using WotDossier.Domain;
-using WotDossier.Domain.Dossier.AppSpot;
 using WotDossier.Domain.Replay;
 using WotDossier.Domain.Server;
 using WotDossier.Domain.Tank;
@@ -58,8 +57,8 @@ namespace WotDossier.Applications.ViewModel.Filter
         private bool _isPremium;
         private bool _isFavorite;
         private ReplayFolder _selectedFolder;
-        private ListItem<int> _selectedMap;
-        private List<ListItem<int>> _maps;
+        private ListItem<string> _selectedMap;
+        private List<ListItem<string>> _maps;
         private string _field;
         private int? _startValue;
         private int? _endValue;
@@ -357,7 +356,7 @@ namespace WotDossier.Applications.ViewModel.Filter
             }
         }
 
-        public List<ListItem<int>> Maps
+        public List<ListItem<string>> Maps
         {
             get { return _maps; }
             set
@@ -367,7 +366,7 @@ namespace WotDossier.Applications.ViewModel.Filter
             }
         }
 
-        public ListItem<int> SelectedMap
+        public ListItem<string> SelectedMap
         {
             get { return _selectedMap; }
             set
@@ -691,10 +690,10 @@ namespace WotDossier.Applications.ViewModel.Filter
 
         private List<ListItem<int>> GetTanks()
         {
-            var tanks = Dictionaries.Instance.Tanks.Values
-                .Where(description => TankFilter(description) && description.Active)
+            var tanks = Dictionaries.Instance.AllVehicles.Values
+                .Where(description => TankFilter(description) && !description.Hidden)
                 .OrderBy(x => x.Title)
-                .Select(x => new ListItem<int>(x.UniqueId(), x.Title))
+                .Select(x => new ListItem<int>(x.UniqueId, x.Title))
                 .ToList();
             tanks.Insert(0, new ListItem<int>(KEY_ALL_VALUES, Resources.Resources.TankFilterPanel_All));
             return tanks;
@@ -734,7 +733,7 @@ namespace WotDossier.Applications.ViewModel.Filter
                     || NationSESelected && tank.CountryId == (int) Country.Sweden
                     || NationPLSelected && tank.CountryId == (int)Country.Poland
                     || NationUKSelected && tank.CountryId == (int) Country.Uk)
-                   && (tank.Premium == 1 || !IsPremium);
+                   && (tank.Premium || !IsPremium);
         }
 
         public ListItem<int> SelectedTank
@@ -785,16 +784,16 @@ namespace WotDossier.Applications.ViewModel.Filter
 
             List<ReplayFile> result = replays.ToList().Where(x =>
                 //show all unknown tanks
-                 (x.Tank != null && TankIcon.Empty.Equals(x.Tank.Icon) && (SelectedFolder == null || x.FolderId == SelectedFolder.Id)) 
+                 (x.TankDescription != null && (SelectedFolder == null || x.FolderId == SelectedFolder.Id)) 
                 || 
                 //or apply filter
-                 x.Tank != null
+                 x.TankDescription != null
                 &&
-                 (SelectedTank == null || SelectedTank.Id == KEY_ALL_VALUES || x.Tank.UniqueId() == SelectedTank.Id)
+                 (SelectedTank == null || SelectedTank.Id == KEY_ALL_VALUES || x.TankDescription.UniqueId == SelectedTank.Id)
                 &&
                  VersionFilter(versions, x)
                 &&
-                 TankFilter(x.Tank)
+                 TankFilter(x.TankDescription)
                 &&
                  MedalFilter(medals, x)
                 && 
@@ -802,7 +801,7 @@ namespace WotDossier.Applications.ViewModel.Filter
                 && 
                  (x.IsWinner == SelectedBattleResult || SelectedBattleResult == BattleStatus.Unknown)
                 && 
-                 (SelectedMap == null || x.MapId == SelectedMap.Id || SelectedMap.Id == 0)
+                 (SelectedMap == null || x.Map.Key == SelectedMap.Id || SelectedMap.Id == string.Empty)
                 && 
                  FieldFilter(x)
                 && 
@@ -937,8 +936,8 @@ namespace WotDossier.Applications.ViewModel.Filter
         /// </summary>
         public ReplaysFilterViewModel()
         {
-            List<ListItem<int>> list = Dictionaries.Instance.Maps.Values.OrderByDescending(x => x.MapId).Select(x => new ListItem<int>(x.MapId, x.LocalizedMapName)).ToList();
-            list.Insert(0, new ListItem<int>(0, ""));
+            List<ListItem<string>> list = Dictionaries.Instance.AllMaps.OrderByDescending(x => x.Value.Key).Select(x => new ListItem<string>(x.Key, x.Value.Title)).ToList();
+            list.Insert(0, new ListItem<string>("", ""));
             Maps = list;
 
             FilterFields = new List<ListItem<string>>

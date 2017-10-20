@@ -4,7 +4,7 @@ using System.Windows.Media;
 
 namespace WotDossier.Controls
 {
-    /// <summary>
+	/// <summary>
     /// Interaction logic for TextWithImage.xaml
     /// </summary>
     public partial class TextWithImage : UserControl
@@ -30,6 +30,7 @@ namespace WotDossier.Controls
         public TextWithImage()
         {
             InitializeComponent();
+			
         }
     }
 }

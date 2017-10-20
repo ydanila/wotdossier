@@ -24,6 +24,9 @@ namespace WotDossier.Applications.Logic.Adapter
             CounterBlow = tanks.Sum(x => fortAchievementsPredicate(x).CounterBlow);
             SoldierOfFortune = tanks.Sum(x => fortAchievementsPredicate(x).SoldierOfFortune);
             Kampfer = tanks.Sum(x => fortAchievementsPredicate(x).Kampfer);
+            FortWins = tanks.Sum(x => fortAchievementsPredicate(x).FortWins);
+            CapturedBasesInAttack = tanks.Sum(x => fortAchievementsPredicate(x).CapturedBasesInAttack);
+            CapturedBasesInDefence = tanks.Sum(x => fortAchievementsPredicate(x).CapturedBasesInDefence);
         }
 
         public List<ITankStatisticRow> Tanks { get; set; }
@@ -36,6 +39,7 @@ namespace WotDossier.Applications.Logic.Adapter
         public int CounterBlow { get; set; }
         public int SoldierOfFortune { get; set; }
         public int Kampfer { get; set; }
+        public int FortWins { get; set; }
         public int CapturedBasesInAttack { get; set; }
         public int CapturedBasesInDefence { get; set; }
 

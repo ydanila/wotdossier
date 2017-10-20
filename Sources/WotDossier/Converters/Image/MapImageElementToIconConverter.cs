@@ -32,7 +32,7 @@ namespace WotDossier.Converters
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             MapImageElement element = (MapImageElement)value;
-            BitmapImage bitmapImage = null;
+	        BitmapSource bitmapImage = null;
             if (element != null)
             {
                 string file;

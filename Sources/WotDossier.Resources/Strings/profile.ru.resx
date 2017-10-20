@@ -1,0 +1,1660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="profile/params/tooltip/avgDamage/body" xml:space="preserve">
+    <value>Отношение общего количества нанесённого урона к количеству проведённых боёв</value>
+  </data>
+  <data name="profile/params/tooltip/avgDamage/header" xml:space="preserve">
+    <value>Средний урон за бой</value>
+  </data>
+  <data name="profile/params/tooltip/avgExp/body" xml:space="preserve">
+    <value>Отношение общего количества заработанного опыта к количеству проведённых боёв</value>
+  </data>
+  <data name="profile/params/tooltip/avgExp/header" xml:space="preserve">
+    <value>Средний опыт за бой</value>
+  </data>
+  <data name="profile/params/tooltip/battlesCount/body" xml:space="preserve">
+    <value>Общее количество проведённых боёв. Из них:
+• побед: %(value_0)s
+• поражений: %(value_1)s
+• ничьих: %(value_2)s</value>
+  </data>
+  <data name="profile/params/tooltip/battlesCount/header" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="profile/params/tooltip/damageCoeff/body" xml:space="preserve">
+    <value>Результат деления показателей «Нанесено урона» на «Получено урона». При этом:
+• нанесено урона: %(value_0)s
+• получено урона: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/damageCoeff/header" xml:space="preserve">
+    <value>Коэффициент урона</value>
+  </data>
+  <data name="profile/params/tooltip/destroyCoeff/body" xml:space="preserve">
+    <value>Результат деления показателей «Уничтожил» на «Уничтожен». При этом:
+• уничтожил: %(value_0)s
+• уничтожен: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/destroyCoeff/header" xml:space="preserve">
+    <value>Коэффициент уничтожения</value>
+  </data>
+  <data name="profile/params/tooltip/hits/body" xml:space="preserve">
+    <value>Точность стрельбы по технике противника</value>
+  </data>
+  <data name="profile/params/tooltip/hits/header" xml:space="preserve">
+    <value>Попадания</value>
+  </data>
+  <data name="profile/params/tooltip/markOfMastery/body" xml:space="preserve">
+    <value>Знаки классности «Мастер», полученные во всех допустимых режимах боёв / Количество техники, на которой проведён хотя бы 1 Случайный бой.</value>
+  </data>
+  <data name="profile/params/tooltip/markOfMastery/header" xml:space="preserve">
+    <value>Знак классности «Мастер»</value>
+  </data>
+  <data name="profile/params/tooltip/maxDestroyed/body" xml:space="preserve">
+    <value>Рекорд установлен на %(value_0)s</value>
+  </data>
+  <data name="profile/params/tooltip/maxDestroyed/header" xml:space="preserve">
+    <value>Максимум уничтожено за бой</value>
+  </data>
+  <data name="profile/params/tooltip/maxExp/body" xml:space="preserve">
+    <value>Рекорд установлен на %(value_0)s</value>
+  </data>
+  <data name="profile/params/tooltip/maxExp/header" xml:space="preserve">
+    <value>Максимальный опыт за бой</value>
+  </data>
+  <data name="profile/params/tooltip/survival/body" xml:space="preserve">
+    <value>Процент боёв, в которых машина игрока не была уничтожена</value>
+  </data>
+  <data name="profile/params/tooltip/survival/header" xml:space="preserve">
+    <value>Выживаемость</value>
+  </data>
+  <data name="profile/params/tooltip/wins/body" xml:space="preserve">
+    <value>Общий процент одержанных побед</value>
+  </data>
+  <data name="profile/params/tooltip/wins/header" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="profile/tabs/tooltip/awards/body" xml:space="preserve">
+    <value>Посмотреть награды и описания к ним</value>
+  </data>
+  <data name="profile/tabs/tooltip/awards/header" xml:space="preserve">
+    <value>Награды</value>
+  </data>
+  <data name="profile/tabs/tooltip/statistics/body" xml:space="preserve">
+    <value>Посмотреть статистику по боям на всех типах техники</value>
+  </data>
+  <data name="profile/tabs/tooltip/statistics/header" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="profile/tabs/tooltip/summary/body" xml:space="preserve">
+    <value>Посмотреть показатели боевой эффективности</value>
+  </data>
+  <data name="profile/tabs/tooltip/summary/header" xml:space="preserve">
+    <value>Сводка</value>
+  </data>
+  <data name="profile/tabs/tooltip/technique/body" xml:space="preserve">
+    <value>Посмотреть подробную статистику по боям на каждой машине</value>
+  </data>
+  <data name="profile/tabs/tooltip/technique/header" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="profile/title" xml:space="preserve">
+    <value>Статистика игрока %s</value>
+  </data>
+  <data name="section/awards/dropdown/labels/all" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="section/awards/dropdown/labels/inProcess" xml:space="preserve">
+    <value>Уже получены</value>
+  </data>
+  <data name="section/awards/dropdown/labels/none" xml:space="preserve">
+    <value>Ещё не получены</value>
+  </data>
+  <data name="section/awards/dropdown/tooltip/body" xml:space="preserve">
+    <value>Установить фильтр на отображение всех наград, полученных наград или ещё не полученных наград</value>
+  </data>
+  <data name="section/awards/dropdown/tooltip/header" xml:space="preserve">
+    <value>Сортировка наград</value>
+  </data>
+  <data name="section/awards/labels/battleHeroes" xml:space="preserve">
+    <value>Герои битвы</value>
+  </data>
+  <data name="section/awards/labels/epic" xml:space="preserve">
+    <value>Эпические медали</value>
+  </data>
+  <data name="section/awards/labels/group" xml:space="preserve">
+    <value>Групповые награды</value>
+  </data>
+  <data name="section/awards/labels/honorary" xml:space="preserve">
+    <value>Почётные звания</value>
+  </data>
+  <data name="section/awards/labels/memory" xml:space="preserve">
+    <value>Памятные знаки</value>
+  </data>
+  <data name="section/awards/labels/special" xml:space="preserve">
+    <value>Особые</value>
+  </data>
+  <data name="section/awards/labels/stage" xml:space="preserve">
+    <value>Этапные награды</value>
+  </data>
+  <data name="section/awards/title" xml:space="preserve">
+    <value>Награды</value>
+  </data>
+  <data name="section/statistics//avgDamage" xml:space="preserve">
+    <value>Средний урон за бой</value>
+  </data>
+  <data name="section/statistics/chart/level/tooltip/body" xml:space="preserve">
+    <value>Количество боёв на технике этого уровня</value>
+  </data>
+  <data name="section/statistics/chart/level/tooltip/header" xml:space="preserve">
+    <value>Уровень техники: %(value)s</value>
+  </data>
+  <data name="section/statistics/chart/nation/tooltip/body" xml:space="preserve">
+    <value>Количество боёв на технике этой нации</value>
+  </data>
+  <data name="section/statistics/chart/nation/tooltip/header" xml:space="preserve">
+    <value>Teхника нации: %(value)s</value>
+  </data>
+  <data name="section/statistics/chart/type/tooltip/body" xml:space="preserve">
+    <value>Количество боёв на этом типе техники</value>
+  </data>
+  <data name="section/statistics/chart/type/tooltip/header" xml:space="preserve">
+    <value>Тип техники: %(value)s</value>
+  </data>
+  <data name="section/statistics/charts/byLevelLabel" xml:space="preserve">
+    <value>По уровню</value>
+  </data>
+  <data name="section/statistics/charts/byNationLabel" xml:space="preserve">
+    <value>По нации</value>
+  </data>
+  <data name="section/statistics/charts/byTypeLabel" xml:space="preserve">
+    <value>По типу</value>
+  </data>
+  <data name="section/statistics/detailed/avgDamage" xml:space="preserve">
+    <value>Нанесённый урон</value>
+  </data>
+  <data name="section/statistics/detailed/avgDestroyedVehicles" xml:space="preserve">
+    <value>Уничтожено машин противника</value>
+  </data>
+  <data name="section/statistics/detailed/avgDetectedEnemies" xml:space="preserve">
+    <value>Обнаружено машин противника</value>
+  </data>
+  <data name="section/statistics/detailed/avgReceivedDamage" xml:space="preserve">
+    <value>Полученный урон</value>
+  </data>
+  <data name="section/statistics/detailed/damageCoefficient" xml:space="preserve">
+    <value>Коэффициент урона</value>
+  </data>
+  <data name="section/statistics/detailed/dealOutDamage" xml:space="preserve">
+    <value>Нанесено урона</value>
+  </data>
+  <data name="section/statistics/detailed/destroyed" xml:space="preserve">
+    <value>Уничтожен</value>
+  </data>
+  <data name="section/statistics/detailed/destructionCoefficient" xml:space="preserve">
+    <value>Коэффициент уничтожения</value>
+  </data>
+  <data name="section/statistics/detailed/killed" xml:space="preserve">
+    <value>Уничтожил</value>
+  </data>
+  <data name="section/statistics/detailed/maxDestroyedVehicles" xml:space="preserve">
+    <value>Максимум уничтожено за бой</value>
+  </data>
+  <data name="section/statistics/detailed/receivedDamage" xml:space="preserve">
+    <value>Получено урона</value>
+  </data>
+  <data name="section/statistics/dropdown/labels/all" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="section/statistics/dropdown/labels/clan" xml:space="preserve">
+    <value>«Мировая война»</value>
+  </data>
+  <data name="section/statistics/dropdown/labels/company" xml:space="preserve">
+    <value>Рота</value>
+  </data>
+  <data name="section/statistics/dropdown/labels/random" xml:space="preserve">
+    <value>Случайный бой</value>
+  </data>
+  <data name="section/statistics/dropdown/labels/team" xml:space="preserve">
+    <value>Команда</value>
+  </data>
+  <data name="section/statistics/dropdown/typeLabel" xml:space="preserve">
+    <value>Тип боя:</value>
+  </data>
+  <data name="section/statistics/labels/battlesOnTech" xml:space="preserve">
+    <value>Бои на технике</value>
+  </data>
+  <data name="section/statistics/scores/avgDamage" xml:space="preserve">
+    <value>Средний урон за бой</value>
+  </data>
+  <data name="section/statistics/scores/avgExperience" xml:space="preserve">
+    <value>Средний опыт за бой</value>
+  </data>
+  <data name="section/statistics/scores/coolSigns" xml:space="preserve">
+    <value>Знаки классности «Мастер»</value>
+  </data>
+  <data name="section/statistics/scores/hits" xml:space="preserve">
+    <value>Попадания</value>
+  </data>
+  <data name="section/statistics/scores/maxExperience" xml:space="preserve">
+    <value>Максимальный опыт за бой</value>
+  </data>
+  <data name="section/statistics/scores/survival" xml:space="preserve">
+    <value>Выживаемость</value>
+  </data>
+  <data name="section/statistics/scores/totalBattles" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="section/statistics/scores/totalWins" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="section/statistics/title" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="section/summary/errorText/nextAwards" xml:space="preserve">
+    <value>Ближайших наград нет</value>
+  </data>
+  <data name="section/summary/errorText/significantAwards" xml:space="preserve">
+    <value>Значимых наград нет</value>
+  </data>
+  <data name="section/summary/labels/nextAwards" xml:space="preserve">
+    <value>Ближайшие награды</value>
+  </data>
+  <data name="section/summary/labels/significantAwards" xml:space="preserve">
+    <value>Значимые награды</value>
+  </data>
+  <data name="section/summary/scores/avgDamage" xml:space="preserve">
+    <value>Средний урон за бой</value>
+  </data>
+  <data name="section/summary/scores/avgExperience" xml:space="preserve">
+    <value>Средний опыт за бой</value>
+  </data>
+  <data name="section/summary/scores/coolSigns" xml:space="preserve">
+    <value>Знаки классности «Мастер»</value>
+  </data>
+  <data name="section/summary/scores/hits" xml:space="preserve">
+    <value>Попадания</value>
+  </data>
+  <data name="section/summary/scores/maxDestroyed" xml:space="preserve">
+    <value>Максимум уничтожено за бой</value>
+  </data>
+  <data name="section/summary/scores/maxExperience" xml:space="preserve">
+    <value>Максимальный опыт за бой</value>
+  </data>
+  <data name="section/summary/scores/personalScore" xml:space="preserve">
+    <value>Личный рейтинг</value>
+  </data>
+  <data name="section/summary/scores/totalBattles" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="section/summary/scores/totalWins" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="section/summary/title" xml:space="preserve">
+    <value>Сводка</value>
+  </data>
+  <data name="section/summary/warning/personalScore" xml:space="preserve">
+    <value>Недостаточно данных для подсчёта личного рейтинга &lt;font color='#c1ba9c'&gt;Проведите ещё &lt;/font&gt;&lt;font color='#cbad78'&gt; %(count)s &lt;/font&gt;&lt;font color='#c1ba9c'&gt;боёв&lt;/font&gt;</value>
+  </data>
+  <data name="section/technique/awards/noAchievements" xml:space="preserve">
+    <value>Наград ещё не заработано</value>
+  </data>
+  <data name="section/technique/buttonBar/avgExperience" xml:space="preserve">
+    <value>Средний
+опыт за бой</value>
+  </data>
+  <data name="section/technique/buttonBar/classiness" xml:space="preserve">
+    <value>Классность</value>
+  </data>
+  <data name="section/technique/buttonBar/totalBattles" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="section/technique/buttonBar/totalWins" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="section/technique/buttonBar/vehicleName" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="section/technique/checkBoxHangarVehicles/tooltip/body" xml:space="preserve">
+    <value>Показать только технику в Ангаре</value>
+  </data>
+  <data name="section/technique/checkBoxHangarVehicles/tooltip/header" xml:space="preserve">
+    <value>Есть в Ангаре</value>
+  </data>
+  <data name="section/technique/sort/tooltip/avgexp/body" xml:space="preserve">
+    <value>Сортировать по среднему опыту за бой</value>
+  </data>
+  <data name="section/technique/sort/tooltip/avgexp/header" xml:space="preserve">
+    <value>Средний опыт</value>
+  </data>
+  <data name="section/technique/sort/tooltip/battlesCount/body" xml:space="preserve">
+    <value>Сортировать по количеству боёв</value>
+  </data>
+  <data name="section/technique/sort/tooltip/battlesCount/header" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="section/technique/sort/tooltip/lvl/body" xml:space="preserve">
+    <value>Сортировать по уровню техники</value>
+  </data>
+  <data name="section/technique/sort/tooltip/lvl/header" xml:space="preserve">
+    <value>Уровень</value>
+  </data>
+  <data name="section/technique/sort/tooltip/marksofmastery/body" xml:space="preserve">
+    <value>Сортировать по знакам классности</value>
+  </data>
+  <data name="section/technique/sort/tooltip/marksofmastery/header" xml:space="preserve">
+    <value>Классность</value>
+  </data>
+  <data name="section/technique/sort/tooltip/name/body" xml:space="preserve">
+    <value>Сортировать по названию техники</value>
+  </data>
+  <data name="section/technique/sort/tooltip/name/header" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="section/technique/sort/tooltip/nation/body" xml:space="preserve">
+    <value>Сортировать по нации</value>
+  </data>
+  <data name="section/technique/sort/tooltip/nation/header" xml:space="preserve">
+    <value>Нация</value>
+  </data>
+  <data name="section/technique/sort/tooltip/technique/body" xml:space="preserve">
+    <value>Сортировать по типу техники</value>
+  </data>
+  <data name="section/technique/sort/tooltip/technique/header" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="section/technique/sort/tooltip/wins/body" xml:space="preserve">
+    <value>Сортировать по количеству побед</value>
+  </data>
+  <data name="section/technique/sort/tooltip/wins/header" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="section/technique/statistics/accuracy" xml:space="preserve">
+    <value>Попадания</value>
+  </data>
+  <data name="section/technique/statistics/avgDamage" xml:space="preserve">
+    <value>Нанесённый урон</value>
+  </data>
+  <data name="section/technique/statistics/avgDestroyedVehicles" xml:space="preserve">
+    <value>Уничтожено машин противника</value>
+  </data>
+  <data name="section/technique/statistics/avgDetectedEnemies" xml:space="preserve">
+    <value>Обнаруженной техники</value>
+  </data>
+  <data name="section/technique/statistics/avgExperience" xml:space="preserve">
+    <value>Опыт</value>
+  </data>
+  <data name="section/technique/statistics/avgReceivedDamage" xml:space="preserve">
+    <value>Полученный урон</value>
+  </data>
+  <data name="section/technique/statistics/avgScoutingDamage" xml:space="preserve">
+    <value>Урон, нанесённый с помощью игрока</value>
+  </data>
+  <data name="section/technique/statistics/avgStats" xml:space="preserve">
+    <value>Средние показатели за бой</value>
+  </data>
+  <data name="section/technique/statistics/damageCoefficient" xml:space="preserve">
+    <value>Коэффициент урона</value>
+  </data>
+  <data name="section/technique/statistics/dealOutDamage" xml:space="preserve">
+    <value>Нанесено урона</value>
+  </data>
+  <data name="section/technique/statistics/destroyed" xml:space="preserve">
+    <value>Уничтожен</value>
+  </data>
+  <data name="section/technique/statistics/destructionCoefficient" xml:space="preserve">
+    <value>Коэффициент уничтожения</value>
+  </data>
+  <data name="section/technique/statistics/effency" xml:space="preserve">
+    <value>Боевая эффективность</value>
+  </data>
+  <data name="section/technique/statistics/killed" xml:space="preserve">
+    <value>Уничтожил</value>
+  </data>
+  <data name="section/technique/statistics/maxDestroyedVehicles" xml:space="preserve">
+    <value>Максимум уничтожено за бой</value>
+  </data>
+  <data name="section/technique/statistics/maxExperience" xml:space="preserve">
+    <value>Максимальный опыт за бой</value>
+  </data>
+  <data name="section/technique/statistics/receivedDamage" xml:space="preserve">
+    <value>Получено урона</value>
+  </data>
+  <data name="section/technique/statistics/survival" xml:space="preserve">
+    <value>Выживаемость</value>
+  </data>
+  <data name="section/technique/statistics/totalBattles" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="section/technique/statistics/totalDefeats" xml:space="preserve">
+    <value>Поражения</value>
+  </data>
+  <data name="section/technique/statistics/totalWins" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="section/technique/tabBtn/achievements" xml:space="preserve">
+    <value>Награды</value>
+  </data>
+  <data name="section/technique/tabBtn/awards/tooltip/body" xml:space="preserve">
+    <value>Посмотреть заработанные на выбранной машине награды</value>
+  </data>
+  <data name="section/technique/tabBtn/awards/tooltip/header" xml:space="preserve">
+    <value>Награды</value>
+  </data>
+  <data name="section/technique/tabBtn/statistic" xml:space="preserve">
+    <value>Cтатистика</value>
+  </data>
+  <data name="section/technique/tabBtn/statistic/tooltip/body" xml:space="preserve">
+    <value>Посмотреть статистику выбранной машины</value>
+  </data>
+  <data name="section/technique/tabBtn/statistic/tooltip/header" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="section/technique/title" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="section/technique/window/hangarVehiclesLabel" xml:space="preserve">
+    <value>Есть в Ангаре</value>
+  </data>
+  <data name="profile/dropdown/battlesType" xml:space="preserve">
+    <value>Режим боя:</value>
+  </data>
+  <data name="profile/dropdown/existence" xml:space="preserve">
+    <value>Наличие:</value>
+  </data>
+  <data name="profile/dropdown/labels/all" xml:space="preserve">
+    <value>Случайный, Ротный</value>
+  </data>
+  <data name="profile/dropdown/labels/clan" xml:space="preserve">
+    <value>Глобальная карта</value>
+  </data>
+  <data name="profile/dropdown/labels/company" xml:space="preserve">
+    <value>Ротный бой</value>
+  </data>
+  <data name="profile/dropdown/labels/random" xml:space="preserve">
+    <value>Случайный бой</value>
+  </data>
+  <data name="profile/dropdown/labels/team" xml:space="preserve">
+    <value>Командный: обычная игра</value>
+  </data>
+  <data name="profile/params/tooltip/markOfMasteryDisabled/body" xml:space="preserve">
+    <value>В данном режиме боя знаки классности не присваиваются</value>
+  </data>
+  <data name="profile/params/tooltip/markOfMasteryDisabled/header" xml:space="preserve">
+    <value>Знак классности «Мастер»</value>
+  </data>
+  <data name="profile/params/tooltip/maxExpDisabled/body" xml:space="preserve">
+    <value>В данном режиме боя максимальный опыт не отображается</value>
+  </data>
+  <data name="profile/params/tooltip/maxExpDisabled/header" xml:space="preserve">
+    <value>Максимальный опыт за бой</value>
+  </data>
+  <data name="section/statistics/chart/levelDisabled/tooltip/body" xml:space="preserve">
+    <value>В данном режиме боя участвует только техника VI-VIII уровней.</value>
+  </data>
+  <data name="section/statistics/chart/levelDisabled/tooltip/header" xml:space="preserve">
+    <value>Уровень техники: %(value)s</value>
+  </data>
+  <data name="section/summary/bottomBar/clansRoleLbl" xml:space="preserve">
+    <value>клана:</value>
+  </data>
+  <data name="section/technique/page/emptyScreenLabel" xml:space="preserve">
+    <value>Вы не участвовали в данном режиме боёв</value>
+  </data>
+  <data name="section/technique/window/emptyScreenLabel" xml:space="preserve">
+    <value>Игрок не участвовал в данном режиме боёв</value>
+  </data>
+  <data name="profile/summary/nextAwards/tooltip/body" xml:space="preserve">
+    <value>Лента заполняется наградами, условия для получения которых почти выполнены.</value>
+  </data>
+  <data name="profile/summary/nextAwards/tooltip/header" xml:space="preserve">
+    <value>Ближайшие награды</value>
+  </data>
+  <data name="profile/summary/significantAwards/tooltip/body" xml:space="preserve">
+    <value>Лента заполняется наиболее важными наградами из всех, полученных игроком</value>
+  </data>
+  <data name="profile/summary/significantAwards/tooltip/header" xml:space="preserve">
+    <value>Значимые награды</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/all" xml:space="preserve">
+    <value>В Ангаре нет техники, принимавшей участие в Случайных и Ротных боях</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/team" xml:space="preserve">
+    <value>В Ангаре нет техники, принимавшей участие в Командных боях</value>
+  </data>
+  <data name="tooltip/dropdown/battleType/body" xml:space="preserve">
+    <value>Установить фильтр на отображение статистики по режимам боёв</value>
+  </data>
+  <data name="tooltip/dropdown/battleType/header" xml:space="preserve">
+    <value>Сортировка по режимам боёв</value>
+  </data>
+  <data name="profile/dropdown/labels/historical" xml:space="preserve">
+    <value>Исторический бой</value>
+  </data>
+  <data name="profile/params/tooltip/achievementsCount/body" xml:space="preserve">
+    <value>Полученные награды категории «Поле боя»</value>
+  </data>
+  <data name="profile/params/tooltip/achievementsCount/header" xml:space="preserve">
+    <value>Награды</value>
+  </data>
+  <data name="profile/params/tooltip/armorUsing/body" xml:space="preserve">
+    <value>Результат деления показателей заблокированного бронёй урона от непробитий и рикошетов бронебойными, кумулятивными и подкалиберными снарядами на урон, полученный от этих типов снарядов. Потенциальный урон от осколочно-фугасных и HESH снарядов не учитывается.
+• Средний заблокированный бронёй урон за бой от перечисленных типов снарядов: %(value_0)s</value>
+  </data>
+  <data name="profile/params/tooltip/armorUsing/header" xml:space="preserve">
+    <value>Эффективность использования брони</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedDamage/body" xml:space="preserve">
+    <value>Учитываются:
+• урон по вашим разведданным;
+• урон после вашего попадания, сбившего гусеницу.</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedDamage/header" xml:space="preserve">
+    <value>Средний урон, нанесённый с вашей помощью</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedDamage/short/body" xml:space="preserve">
+    <value>Учитываются:
+• урон по вашим разведданным;
+• урон после вашего попадания, сбившего гусеницу.</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedDamage/short/header" xml:space="preserve">
+    <value>Урон, нанесённый с вашей помощью</value>
+  </data>
+  <data name="profile/params/tooltip/avgDestroyedVehicles/body" xml:space="preserve">
+    <value>Отношение общего количества уничтоженных машин противника к количеству проведённых боёв</value>
+  </data>
+  <data name="profile/params/tooltip/avgDestroyedVehicles/header" xml:space="preserve">
+    <value>Уничтожено машин противника</value>
+  </data>
+  <data name="profile/params/tooltip/avgDetectedEnemies/body" xml:space="preserve">
+    <value>Отношение общего количества обнаруженных машин противника к количеству проведённых боёв</value>
+  </data>
+  <data name="profile/params/tooltip/avgDetectedEnemies/header" xml:space="preserve">
+    <value>Обнаружено машин противника</value>
+  </data>
+  <data name="profile/params/tooltip/avgDmg/short/body" xml:space="preserve">
+    <value>Отношение общего количества нанесённого урона к количеству проведённых боёв</value>
+  </data>
+  <data name="profile/params/tooltip/avgDmg/short/header" xml:space="preserve">
+    <value>Нанесённый урон</value>
+  </data>
+  <data name="profile/params/tooltip/avgEx/short/body" xml:space="preserve">
+    <value>Отношение общего количества заработанного опыта к количеству проведённых боёв</value>
+  </data>
+  <data name="profile/params/tooltip/avgEx/short/header" xml:space="preserve">
+    <value>Опыт</value>
+  </data>
+  <data name="profile/params/tooltip/avgReceivedDamage/body" xml:space="preserve">
+    <value>Отношение общего количества полученного урона к количеству проведённых боёв</value>
+  </data>
+  <data name="profile/params/tooltip/avgReceivedDamage/header" xml:space="preserve">
+    <value>Полученный урон</value>
+  </data>
+  <data name="profile/params/tooltip/capturePoints/body" xml:space="preserve">
+    <value>Количество заработанных очков захвата базы противника</value>
+  </data>
+  <data name="profile/params/tooltip/capturePoints/header" xml:space="preserve">
+    <value>Очки захвата базы</value>
+  </data>
+  <data name="profile/params/tooltip/droppedCapturePoints/body" xml:space="preserve">
+    <value>Количество заработанных очков защиты базы союзников</value>
+  </data>
+  <data name="profile/params/tooltip/droppedCapturePoints/header" xml:space="preserve">
+    <value>Очки защиты базы</value>
+  </data>
+  <data name="profile/params/tooltip/maxDamage/body" xml:space="preserve">
+    <value>Рекорд установлен на %(value_0)s</value>
+  </data>
+  <data name="profile/params/tooltip/maxDamage/header" xml:space="preserve">
+    <value>Максимальный урон за бой</value>
+  </data>
+  <data name="profile/params/tooltip/usedTechnics/body" xml:space="preserve">
+    <value>Техника, на которой был проведён хотя бы 1 Исторический бой</value>
+  </data>
+  <data name="profile/params/tooltip/usedTechnics/header" xml:space="preserve">
+    <value>Используемая техника</value>
+  </data>
+  <data name="section/statistics/bodyBar/label/charts" xml:space="preserve">
+    <value>Инфографика</value>
+  </data>
+  <data name="section/statistics/bodyBar/label/detailed" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="section/statistics/bodyParams/label/average" xml:space="preserve">
+    <value>Средние показатели за бой</value>
+  </data>
+  <data name="section/statistics/bodyParams/label/common" xml:space="preserve">
+    <value>Общие параметры</value>
+  </data>
+  <data name="section/statistics/bodyParams/label/record" xml:space="preserve">
+    <value>Рекордные показатели</value>
+  </data>
+  <data name="section/statistics/headerText/all" xml:space="preserve">
+    <value>Случайные и Ротные</value>
+  </data>
+  <data name="section/statistics/headerText/historical" xml:space="preserve">
+    <value>Исторические бои</value>
+  </data>
+  <data name="section/statistics/headerText/team" xml:space="preserve">
+    <value>Командные бои: обычная игра</value>
+  </data>
+  <data name="section/statistics/scores/achievementsCount" xml:space="preserve">
+    <value>Награды</value>
+  </data>
+  <data name="section/statistics/scores/armorUsing" xml:space="preserve">
+    <value>Эффективность использования брони</value>
+  </data>
+  <data name="section/statistics/scores/avgAssistedDamage" xml:space="preserve">
+    <value>Средний урон, нанесённый с вашей помощью</value>
+  </data>
+  <data name="section/statistics/scores/avgAssistedDamage/short" xml:space="preserve">
+    <value>Урон, нанесённый с вашей помощью</value>
+  </data>
+  <data name="section/statistics/scores/avgExperience/short" xml:space="preserve">
+    <value>Опыт</value>
+  </data>
+  <data name="section/statistics/scores/capturePoints" xml:space="preserve">
+    <value>Очки захвата базы</value>
+  </data>
+  <data name="section/statistics/scores/droppedCapturePoints" xml:space="preserve">
+    <value>Очки защиты базы</value>
+  </data>
+  <data name="section/statistics/scores/maxDamage" xml:space="preserve">
+    <value>Максимальный урон за бой</value>
+  </data>
+  <data name="section/statistics/scores/usedTechnics" xml:space="preserve">
+    <value>Используемая техника</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/historical" xml:space="preserve">
+    <value>В Ангаре нет техники, принимавшей участие в Исторических боях.</value>
+  </data>
+  <data name="section/technique/statistics/common" xml:space="preserve">
+    <value>Общие параметры</value>
+  </data>
+  <data name="section/technique/statistics/maxDamage" xml:space="preserve">
+    <value>Максимальный урон за бой</value>
+  </data>
+  <data name="section/technique/statistics/records" xml:space="preserve">
+    <value>Рекордные показатели</value>
+  </data>
+  <data name="section/technique/statistics/tankingCoefficient" xml:space="preserve">
+    <value>Эффективность использования брони</value>
+  </data>
+  <data name="profile/dropdown/labels/fortifications" xml:space="preserve">
+    <value>Укрепрайон: сражения</value>
+  </data>
+  <data name="profile/dropdown/labels/fortifications/battles" xml:space="preserve">
+    <value>Наступление</value>
+  </data>
+  <data name="profile/dropdown/labels/fortifications/sorties" xml:space="preserve">
+    <value>Вылазки</value>
+  </data>
+  <data name="profile/params/tooltip/fort/battles/body" xml:space="preserve">
+    <value>Общее количество боёв в Наступлениях. Из них:
+• побед: %(value_0)s
+• поражений: %(value_1)s
+• ничьих: %(value_2)s</value>
+  </data>
+  <data name="profile/params/tooltip/fort/battles/header" xml:space="preserve">
+    <value>Наступления</value>
+  </data>
+  <data name="profile/params/tooltip/fort/battlesWinsEfficiency/body" xml:space="preserve">
+    <value>Общий процент одержанных побед в Наступлениях</value>
+  </data>
+  <data name="profile/params/tooltip/fort/battlesWinsEfficiency/header" xml:space="preserve">
+    <value>Победы в Наступлениях</value>
+  </data>
+  <data name="profile/params/tooltip/fort/resource/body" xml:space="preserve">
+    <value>Отношение общего количества заработанного промресурса к количеству проведённых Вылазок.</value>
+  </data>
+  <data name="profile/params/tooltip/fort/resource/header" xml:space="preserve">
+    <value>Средняя добыча за Вылазку</value>
+  </data>
+  <data name="profile/params/tooltip/fort/sortie/body" xml:space="preserve">
+    <value>Общее количество проведённых Вылазок. Из них:
+• побед: %(value_0)s
+• поражений: %(value_1)s
+• ничьих: %(value_2)s</value>
+  </data>
+  <data name="profile/params/tooltip/fort/sortie/header" xml:space="preserve">
+    <value>Вылазки</value>
+  </data>
+  <data name="profile/params/tooltip/fort/sortieWinsEfficiency/body" xml:space="preserve">
+    <value>Общий процент одержанных побед в Вылазках</value>
+  </data>
+  <data name="profile/params/tooltip/fort/sortieWinsEfficiency/header" xml:space="preserve">
+    <value>Победы в Вылазках</value>
+  </data>
+  <data name="profile/params/tooltip/fortBattles/maxResources/body" xml:space="preserve">
+    <value>Максимальное количество промресурса, заработанного в Наступлениях</value>
+  </data>
+  <data name="profile/params/tooltip/fortBattles/maxResources/header" xml:space="preserve">
+    <value>Максимальная добыча в Наступлениях</value>
+  </data>
+  <data name="profile/params/tooltip/fortBattles/totalResources/body" xml:space="preserve">
+    <value>Общее количество заработанного промресурса во всех проведённых Наступлениях</value>
+  </data>
+  <data name="profile/params/tooltip/fortBattles/totalResources/header" xml:space="preserve">
+    <value>Суммарная добыча в Наступлениях</value>
+  </data>
+  <data name="profile/params/tooltip/fortBattlesWins/body" xml:space="preserve">
+    <value>Общий процент одержанных побед в Наступлениях</value>
+  </data>
+  <data name="profile/params/tooltip/fortBattlesWins/header" xml:space="preserve">
+    <value>Победы в Наступлениях</value>
+  </data>
+  <data name="profile/params/tooltip/fortSortieWins/body" xml:space="preserve">
+    <value>Общий процент одержанных побед в Вылазках</value>
+  </data>
+  <data name="profile/params/tooltip/fortSortieWins/header" xml:space="preserve">
+    <value>Победы в Вылазках</value>
+  </data>
+  <data name="profile/params/tooltip/fortSorties/avgResources/body" xml:space="preserve">
+    <value>Отношение общего количества заработанного промресурса к количеству проведённых Вылазок</value>
+  </data>
+  <data name="profile/params/tooltip/fortSorties/avgResources/header" xml:space="preserve">
+    <value>Средняя добыча за Вылазку</value>
+  </data>
+  <data name="profile/params/tooltip/fortSorties/totalResources/body" xml:space="preserve">
+    <value>Общее количество заработанного промресурса за все проведённые Вылазки</value>
+  </data>
+  <data name="profile/params/tooltip/fortSorties/totalResources/header" xml:space="preserve">
+    <value>Суммарная добыча за все Вылазки</value>
+  </data>
+  <data name="profile/params/tooltip/unavailableMaxDamage/body" xml:space="preserve">
+    <value>С момента введения данного параметра бои не проводились.</value>
+  </data>
+  <data name="profile/params/tooltip/unavailableMaxDamage/header" xml:space="preserve">
+    <value>Данные недоступны</value>
+  </data>
+  <data name="section/awards/labels/marksOnGun" xml:space="preserve">
+    <value>Отличительные отметки</value>
+  </data>
+  <data name="section/statistics/bodyBar/label/fortBattles" xml:space="preserve">
+    <value>Данные по Наступлениям</value>
+  </data>
+  <data name="section/statistics/bodyBar/label/fortSortie" xml:space="preserve">
+    <value>Данные по Вылазкам</value>
+  </data>
+  <data name="section/statistics/bodyBar/label/specific" xml:space="preserve">
+    <value>Особые</value>
+  </data>
+  <data name="section/statistics/bodyParams/label/fortBattles" xml:space="preserve">
+    <value>Бои в Наступлениях</value>
+  </data>
+  <data name="section/statistics/bodyParams/label/fortSortie" xml:space="preserve">
+    <value>Вылазки</value>
+  </data>
+  <data name="section/statistics/bodyParams/label/resource" xml:space="preserve">
+    <value>Промресурс</value>
+  </data>
+  <data name="section/statistics/headerText/fortifications" xml:space="preserve">
+    <value>Укрепрайон: сражения</value>
+  </data>
+  <data name="section/statistics/scores/fort/battles" xml:space="preserve">
+    <value>Наступления</value>
+  </data>
+  <data name="section/statistics/scores/fort/battlesWinsEfficiency" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="section/statistics/scores/fort/resource" xml:space="preserve">
+    <value>Средняя добыча за Вылазку</value>
+  </data>
+  <data name="section/statistics/scores/fort/sortie" xml:space="preserve">
+    <value>Вылазки</value>
+  </data>
+  <data name="section/statistics/scores/fort/sortieWinsEfficiency" xml:space="preserve">
+    <value>Победы в Вылазках</value>
+  </data>
+  <data name="section/statistics/scores/fortBattles/maxResources" xml:space="preserve">
+    <value>Максимальная добыча в Наступлении</value>
+  </data>
+  <data name="section/statistics/scores/fortBattles/totalResources" xml:space="preserve">
+    <value>Суммарная добыча в Наступлениях</value>
+  </data>
+  <data name="section/statistics/scores/fortBattlesTotalWins" xml:space="preserve">
+    <value>Победы в Наступлениях</value>
+  </data>
+  <data name="section/statistics/scores/fortSortie" xml:space="preserve">
+    <value>Вылазки</value>
+  </data>
+  <data name="section/statistics/scores/fortSortieTotalWins" xml:space="preserve">
+    <value>Победы в Вылазках</value>
+  </data>
+  <data name="section/statistics/scores/fortSorties/AvgResources" xml:space="preserve">
+    <value>Средняя добыча за Вылазку</value>
+  </data>
+  <data name="section/statistics/scores/fortSorties/totalResources" xml:space="preserve">
+    <value>Суммарная добыча в Вылазках</value>
+  </data>
+  <data name="section/statistics/scores/fortTotalBattles" xml:space="preserve">
+    <value>Наступления</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/fortBattles" xml:space="preserve">
+    <value>В Ангаре нет техники, принимавшей участие в Наступлениях</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/fortSorties" xml:space="preserve">
+    <value>В Ангаре нет техники, принимавшей участие в Вылазках</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fort/battlesCount/body" xml:space="preserve">
+    <value>Общее количество проведённых боёв. Из них:
+• побед: %(value_0)s
+• поражений: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fort/battlesCount/header" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="profile/params/tooltip/fort/looting/body" xml:space="preserve">
+    <value>Общее количество успешных разграблений Укрепрайона противника</value>
+  </data>
+  <data name="profile/params/tooltip/fort/looting/header" xml:space="preserve">
+    <value>Разграбления</value>
+  </data>
+  <data name="profile/params/tooltip/unavailable/fort/battles/body" xml:space="preserve">
+    <value>Общее количество боёв в Наступлениях
+
+Данный параметр недоступен в текущем обновлении.</value>
+  </data>
+  <data name="profile/params/tooltip/unavailable/fort/battles/header" xml:space="preserve">
+    <value>Бои в Наступлениях</value>
+  </data>
+  <data name="profile/params/tooltip/unavailable/fort/winsEfficiency/body" xml:space="preserve">
+    <value>Общий процент одержанных побед в Наступлениях
+
+Данный параметр недоступен в текущем обновлении.</value>
+  </data>
+  <data name="profile/params/tooltip/unavailable/fort/winsEfficiency/header" xml:space="preserve">
+    <value>Победы в Наступлениях</value>
+  </data>
+  <data name="section/statistics/scores/looting" xml:space="preserve">
+    <value>Разграбления</value>
+  </data>
+  <data name="profile/params/tooltip/fortBattles/attacks/body" xml:space="preserve">
+    <value>Общее количество проведённых атак на Укрепрайоны противника.
+Засчитывается, если вами был проведён как минимум 1 бой во время атаки.</value>
+  </data>
+  <data name="profile/params/tooltip/fortBattles/attacks/header" xml:space="preserve">
+    <value>Атаки</value>
+  </data>
+  <data name="profile/params/tooltip/fortBattles/defences/body" xml:space="preserve">
+    <value>Общее количество раз, когда вы защищали собственный Укрепрайон.
+Засчитывается, если вами был проведён как минимум 1 бой во время периода обороны.</value>
+  </data>
+  <data name="profile/params/tooltip/fortBattles/defences/header" xml:space="preserve">
+    <value>Защиты</value>
+  </data>
+  <data name="section/statistics/scores/fortBattles/attacks" xml:space="preserve">
+    <value>Атаки</value>
+  </data>
+  <data name="section/statistics/scores/fortBattles/defences" xml:space="preserve">
+    <value>Защиты</value>
+  </data>
+  <data name="profile/dropdown/labels/staticTeam" xml:space="preserve">
+    <value>Командный: игра в Ладдере</value>
+  </data>
+  <data name="profile/dropdown/labels/staticTeam/season" xml:space="preserve">
+    <value>Командный: игра в Ладдере</value>
+  </data>
+  <data name="profile/seasonsdropdown/all" xml:space="preserve">
+    <value>Все сезоны</value>
+  </data>
+  <data name="profile/seasonsdropdown/current" xml:space="preserve">
+    <value>Текущий сезон</value>
+  </data>
+  <data name="profile/seasonsdropdown/specific" xml:space="preserve">
+    <value>Сезон %(date1)s – %(date2)s</value>
+  </data>
+  <data name="profile/tabs/tooltip/formations/body" xml:space="preserve">
+    <value>Посмотреть подробную информацию о формированиях, в которых вы участвовали.</value>
+  </data>
+  <data name="profile/tabs/tooltip/formations/header" xml:space="preserve">
+    <value>Формирования</value>
+  </data>
+  <data name="section/formations/clan/none" xml:space="preserve">
+    <value>Вы не состоите в клане</value>
+  </data>
+  <data name="section/formations/clan/none/thirdperson" xml:space="preserve">
+    <value>Игрок не состоит в клане</value>
+  </data>
+  <data name="section/formations/clan/type" xml:space="preserve">
+    <value>Клан</value>
+  </data>
+  <data name="section/formations/fort/battles" xml:space="preserve">
+    <value>Наступления</value>
+  </data>
+  <data name="section/formations/fort/create" xml:space="preserve">
+    <value>Основать Укрепрайон</value>
+  </data>
+  <data name="section/formations/fort/level" xml:space="preserve">
+    <value>Уровень Укрепрайона: %s</value>
+  </data>
+  <data name="section/formations/fort/link" xml:space="preserve">
+    <value>Достижения в Укрепрайоне</value>
+  </data>
+  <data name="section/formations/fort/none" xml:space="preserve">
+    <value>Укрепрайон не основан</value>
+  </data>
+  <data name="section/formations/fort/none/thirdperson" xml:space="preserve">
+    <value>Клан игрока не владеет Укрепрайоном</value>
+  </data>
+  <data name="section/formations/fort/resourceRating" xml:space="preserve">
+    <value>Рейтинг добытчика</value>
+  </data>
+  <data name="section/formations/fort/sorties" xml:space="preserve">
+    <value>Вылазки</value>
+  </data>
+  <data name="section/formations/history/battles" xml:space="preserve">
+    <value>Боёв в составе</value>
+  </data>
+  <data name="section/formations/history/dates" xml:space="preserve">
+    <value>Дата вступления/выхода</value>
+  </data>
+  <data name="section/formations/history/datesPattern" xml:space="preserve">
+    <value>%(date1)s – %(date2)s</value>
+  </data>
+  <data name="section/formations/history/team" xml:space="preserve">
+    <value>Команда</value>
+  </data>
+  <data name="section/formations/history/title" xml:space="preserve">
+    <value>История команд игрока</value>
+  </data>
+  <data name="section/formations/joinDate" xml:space="preserve">
+    <value>Дата вступления: %s</value>
+  </data>
+  <data name="section/formations/rank" xml:space="preserve">
+    <value>Должность игрока: %s</value>
+  </data>
+  <data name="section/formations/team/completedSeason" xml:space="preserve">
+    <value>Сезон %s (завершён)</value>
+  </data>
+  <data name="section/formations/team/find" xml:space="preserve">
+    <value>Перейти к поиску постоянной команды</value>
+  </data>
+  <data name="section/formations/team/league" xml:space="preserve">
+    <value>Лига: %(league)s. Дивизион: %(division)s. Место: %(position)s</value>
+  </data>
+  <data name="section/formations/team/none" xml:space="preserve">
+    <value>У вас нет постоянной команды</value>
+  </data>
+  <data name="section/formations/team/none/thirdperson" xml:space="preserve">
+    <value>У игрока нет постоянной команды</value>
+  </data>
+  <data name="section/formations/team/season" xml:space="preserve">
+    <value>Сезон %s</value>
+  </data>
+  <data name="section/formations/team/seasonBattles" xml:space="preserve">
+    <value>Игра в Ладдере</value>
+  </data>
+  <data name="section/formations/team/seasonWinRate" xml:space="preserve">
+    <value>Победы за сезон</value>
+  </data>
+  <data name="section/formations/team/title" xml:space="preserve">
+    <value>Команда «%s»</value>
+  </data>
+  <data name="section/formations/team/type" xml:space="preserve">
+    <value>Команда</value>
+  </data>
+  <data name="section/formations/title" xml:space="preserve">
+    <value>Формирования</value>
+  </data>
+  <data name="section/formations/tooltip/fort/battles/body" xml:space="preserve">
+    <value>Общее количество проведённых боёв в Наступлениях. Из них:
+• побед: %(wins)s
+• поражений: %(losses)s
+• ничьих: %(draws)s</value>
+  </data>
+  <data name="section/formations/tooltip/fort/battles/header" xml:space="preserve">
+    <value>Наступления</value>
+  </data>
+  <data name="section/formations/tooltip/fort/level/body" xml:space="preserve">
+    <value>Уровень Укрепрайона равен уровню его командного центра.</value>
+  </data>
+  <data name="section/formations/tooltip/fort/level/header" xml:space="preserve">
+    <value>Уровень Укрепрайона</value>
+  </data>
+  <data name="section/formations/tooltip/fort/link/body" xml:space="preserve">
+    <value>Нажмите, чтобы открыть браузер и перейти к достижениям данного клана в Укрепрайоне.</value>
+  </data>
+  <data name="section/formations/tooltip/fort/link/header" xml:space="preserve">
+    <value>Достижения в Укрепрайоне</value>
+  </data>
+  <data name="section/formations/tooltip/fort/resourceRating/body" xml:space="preserve">
+    <value>Ваше место</value>
+  </data>
+  <data name="section/formations/tooltip/fort/resourceRating/header" xml:space="preserve">
+    <value>Рейтинг добытчика</value>
+  </data>
+  <data name="section/formations/tooltip/fort/sorties/body" xml:space="preserve">
+    <value>Общее количество проведённых Вылазок. Из них:
+• побед: %(wins)s
+• поражений: %(losses)s
+• ничьих: %(draws)s</value>
+  </data>
+  <data name="section/formations/tooltip/fort/sorties/header" xml:space="preserve">
+    <value>Вылазки</value>
+  </data>
+  <data name="section/formations/tooltip/team/link/body" xml:space="preserve">
+    <value>Нажмите, чтобы открыть профиль команды.</value>
+  </data>
+  <data name="section/formations/tooltip/team/link/header" xml:space="preserve">
+    <value>Профиль команды</value>
+  </data>
+  <data name="section/formations/tooltip/team/seasonBattles/body" xml:space="preserve">
+    <value>Общее количество проведённых игр в Ладдере в составе данной команды. Из них:
+• побед: %(wins)s
+• поражений: %(losses)s
+• ничьих: %(draws)s</value>
+  </data>
+  <data name="section/formations/tooltip/team/seasonBattles/header" xml:space="preserve">
+    <value>Игра в Ладдере</value>
+  </data>
+  <data name="section/formations/tooltip/team/seasonWinRate/body" xml:space="preserve">
+    <value>Общий процент одержанных побед в играх в Ладдере</value>
+  </data>
+  <data name="section/formations/tooltip/team/seasonWinRate/header" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="section/statistics/headerText/staticTeam" xml:space="preserve">
+    <value>Командные бои: игра в Ладдере</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/staticTeam" xml:space="preserve">
+    <value>В Ангаре нет техники, принимавшей участие в играх в Ладдере</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedDamage/shortOther/body" xml:space="preserve">
+    <value>Учитываются:
+• урон по разведданным игрока;
+• урон после попадания игрока, сбившего гусеницу.</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedDamage/shortOther/header" xml:space="preserve">
+    <value>Урон, нанесённый с помощью игрока</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedDamage/shortSelf/body" xml:space="preserve">
+    <value>Учитываются:
+• урон по вашим разведданным;
+• урон после вашего попадания, сбившего гусеницу.</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedDamage/shortSelf/header" xml:space="preserve">
+    <value>Урон, нанесённый с вашей помощью</value>
+  </data>
+  <data name="section/statistics/scores/avgAssistedDamage/shortOther" xml:space="preserve">
+    <value>Урон, нанесённый с помощью игрока</value>
+  </data>
+  <data name="section/statistics/scores/avgAssistedDamage/shortSelf" xml:space="preserve">
+    <value>Урон, нанесённый с вашей помощью</value>
+  </data>
+  <data name="profile/params/tooltip/clan/summaryDamageCoefficient/body" xml:space="preserve">
+    <value>Результат деления показателей «Нанесено урона» на «Получено урона» для всех уровней боёв. При этом:
+• нанесено урона: %(value_0)s
+• получено урона: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/clan/summaryDamageCoefficient/header" xml:space="preserve">
+    <value>Средний коэффициент урона</value>
+  </data>
+  <data name="profile/summary/clan/btnLabel" xml:space="preserve">
+    <value>Профиль клана</value>
+  </data>
+  <data name="profile/summary/clan/joinDate" xml:space="preserve">
+    <value>Дата вступления:</value>
+  </data>
+  <data name="profile/summary/clan/post" xml:space="preserve">
+    <value>Должность:</value>
+  </data>
+  <data name="profile/summary/club/btnLabel" xml:space="preserve">
+    <value>Профиль команды</value>
+  </data>
+  <data name="profile/summary/club/ladder" xml:space="preserve">
+    <value>Ладдер:</value>
+  </data>
+  <data name="profile/summary/club/ladderInfo" xml:space="preserve">
+    <value>Лига %(league)s, Дивизион %(division)s</value>
+  </data>
+  <data name="profile/summary/club/post" xml:space="preserve">
+    <value>Должность:</value>
+  </data>
+  <data name="profile/summary/noGroups" xml:space="preserve">
+    <value>Игрок не состоит в постоянных формированиях.</value>
+  </data>
+  <data name="section/statistics/bodyBar/label/clan10" xml:space="preserve">
+    <value>X уровень</value>
+  </data>
+  <data name="section/statistics/bodyBar/label/clan6" xml:space="preserve">
+    <value>VI уровень</value>
+  </data>
+  <data name="section/statistics/bodyBar/label/clan8" xml:space="preserve">
+    <value>VIII уровень</value>
+  </data>
+  <data name="section/statistics/headerText/clan" xml:space="preserve">
+    <value>Глобальная карта</value>
+  </data>
+  <data name="section/statistics/scores/clan/summaryDamageCoefficient" xml:space="preserve">
+    <value>Средний коэффициент урона</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/globalMap" xml:space="preserve">
+    <value>В Ангаре нет техники, принимавшей участие в боях на Глобальной карте</value>
+  </data>
+  <data name="profile/dropdown/labels/fallout" xml:space="preserve">
+    <value>Бой до последнего</value>
+  </data>
+  <data name="profile/params/tooltip/avgVictoryPoints/body" xml:space="preserve">
+    <value>Отношение общего количества заработанных очков победы к количеству проведённых боёв</value>
+  </data>
+  <data name="profile/params/tooltip/avgVictoryPoints/header" xml:space="preserve">
+    <value>Среднее количество очков победы</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/armorUsing/body" xml:space="preserve">
+    <value>Результат деления показателей заблокированного бронёй урона от непробитий и рикошетов бронебойными, кумулятивными и подкалиберными снарядами на урон, полученный от этих типов снарядов. Полученный урон от боевых резервов, а также от фугасных и HESH снарядов не учитывается.
+• Средний заблокированный бронёй урон за бой от перечисленных типов снарядов: %(value_0)s</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/armorUsing/header" xml:space="preserve">
+    <value>Эффективность использования брони</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDamage/body" xml:space="preserve">
+    <value>Отношение общего количества нанесённого урона с учётом применения боевых резервов к количеству проведённых боёв.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDamage/header" xml:space="preserve">
+    <value>Средний урон за бой</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body" xml:space="preserve">
+    <value>Отношение общего количества уничтоженных машин противника с учётом применения боевых резервов к количеству проведённых боёв.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header" xml:space="preserve">
+    <value>Уничтожено машин противника</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body" xml:space="preserve">
+    <value>Отношение общего количества уничтоженных машин противника без учёта применения боевых резервов к количеству проведённых боёв.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header" xml:space="preserve">
+    <value>Уничтожено машин противника</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDmg/short/body" xml:space="preserve">
+    <value>Отношение общего количества нанесённого урона с учётом применения боевых резервов к количеству проведённых боёв.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDmg/short/header" xml:space="preserve">
+    <value>Нанесённый урон</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body" xml:space="preserve">
+    <value>Отношение общего количества нанесённого урона без учёта применения боевых резервов к количеству проведённых боёв.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header" xml:space="preserve">
+    <value>Нанесённый урон</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgReceivedDamage/body" xml:space="preserve">
+    <value>Отношение общего количества полученного урона с учётом применения боевых резервов к количеству проведённых боёв.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/avgReceivedDamage/header" xml:space="preserve">
+    <value>Полученный урон</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/battlesCount/body" xml:space="preserve">
+    <value>Общее количество проведённых боёв. Из них:
+• побед: %(value_0)s</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/battlesCount/header" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/damageCoeff/body" xml:space="preserve">
+    <value>Результат деления показателей «Нанесено урона» на «Получено урона» с учётом применения боевых резервов. При этом:
+• нанесено урона своей техникой: %(value_0)s
+• нанесено урона боевыми резервами: %(value_2)s
+• получено урона от техники и боевых резервов противника: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/damageCoeff/header" xml:space="preserve">
+    <value>Коэффициент урона</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body" xml:space="preserve">
+    <value>Результат деления показателей «Нанесено урона» на «Получено урона» без учёта применения боевых резервов. При этом:
+• нанесено урона: %(value_0)s
+• получено урона: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header" xml:space="preserve">
+    <value>Коэффициент урона</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/destroyCoeff/body" xml:space="preserve">
+    <value>Результат деления показателей «Уничтожил» на «Уничтожен» с учётом применения боевых резервов. При этом:
+• уничтожил своей техникой: %(value_0)s
+• уничтожил боевыми резервами: %(value_2)s
+• %(value_1)s раз был уничтожен техникой и боевыми резервами противника.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/destroyCoeff/header" xml:space="preserve">
+    <value>Коэффициент уничтожения</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body" xml:space="preserve">
+    <value>Результат деления показателей «Уничтожил» и «Уничтожен» без учёта применения боевых резервов. При этом:
+• уничтожил: %(value_0)s
+• уничтожен: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header" xml:space="preserve">
+    <value>Коэффициент уничтожения</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/hits/body" xml:space="preserve">
+    <value>Точность стрельбы по технике противника без учёта применения боевых резервов.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/hits/header" xml:space="preserve">
+    <value>Попадания</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/maxDamage/body" xml:space="preserve">
+    <value>Рекорд установлен с учётом применения боевых резервов.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/maxDamage/header" xml:space="preserve">
+    <value>Максимальный урон за бой</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/maxDamage/vehicle/body" xml:space="preserve">
+    <value>Рекорд установлен без учёта применения боевых резервов.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/maxDamage/vehicle/header" xml:space="preserve">
+    <value>Максимальный урон за бой</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/maxDestroyed/body" xml:space="preserve">
+    <value>Рекорд установлен с учётом применения боевых резервов.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/maxDestroyed/header" xml:space="preserve">
+    <value>Максимум уничтожено за бой</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body" xml:space="preserve">
+    <value>Рекорд установлен без учёта применения боевых резервов.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header" xml:space="preserve">
+    <value>Максимум уничтожено за бой</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/wins/body" xml:space="preserve">
+    <value>Общее количество одержанных побед.</value>
+  </data>
+  <data name="profile/params/tooltip/dif/fallout/wins/header" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="profile/params/tooltip/flagsAbsorbed/body" xml:space="preserve">
+    <value>Общее количество уничтоженных флагов.</value>
+  </data>
+  <data name="profile/params/tooltip/flagsAbsorbed/header" xml:space="preserve">
+    <value>Уничтожено флагов</value>
+  </data>
+  <data name="profile/params/tooltip/flagsDelivered/body" xml:space="preserve">
+    <value>Общее количество доставленных на базу флагов.</value>
+  </data>
+  <data name="profile/params/tooltip/flagsDelivered/header" xml:space="preserve">
+    <value>Доставлено флагов</value>
+  </data>
+  <data name="profile/params/tooltip/kdr/body" xml:space="preserve">
+    <value>Результат деления показателей «Уничтожил» и «Уничтожен» с учётом применения боевых резервов. При этом:
+• уничтожил своей техникой: %(value_0)s
+• уничтожил боевыми резервами: %(value_1)s
+• %(value_2)s раз был уничтожен техникой и боевыми резервами противника.</value>
+  </data>
+  <data name="profile/params/tooltip/kdr/header" xml:space="preserve">
+    <value>Коэффициент уничтожения</value>
+  </data>
+  <data name="profile/params/tooltip/maxVictoryPoints/body" xml:space="preserve">
+    <value>Рекордный показатель заработанных очков победы за бой среди всех проведённых боёв.</value>
+  </data>
+  <data name="profile/params/tooltip/maxVictoryPoints/header" xml:space="preserve">
+    <value>Максимум очков победы за бой</value>
+  </data>
+  <data name="profile/params/tooltip/maxWinPoints/body" xml:space="preserve">
+    <value>Рекордный показатель заработанных очков победы за бой среди всех проведённых боёв.</value>
+  </data>
+  <data name="profile/params/tooltip/maxWinPoints/header" xml:space="preserve">
+    <value>Максимум очков победы за бой</value>
+  </data>
+  <data name="profile/params/tooltip/totalVehs/body" xml:space="preserve">
+    <value>Суммарное количество используемой техники разных моделей.</value>
+  </data>
+  <data name="profile/params/tooltip/totalVehs/header" xml:space="preserve">
+    <value>Парк машин</value>
+  </data>
+  <data name="section/statistics/chart/levelDisabled7x7/tooltip/body" xml:space="preserve">
+    <value>В данном режиме боя участвует только техника VI-VIII уровней.</value>
+  </data>
+  <data name="section/statistics/chart/levelDisabled7x7/tooltip/header" xml:space="preserve">
+    <value>Уровень техники: %(value)s</value>
+  </data>
+  <data name="section/statistics/chart/levelDisabledFallout/tooltip/body" xml:space="preserve">
+    <value>В данном режиме боя участвует только техника VIII-X уровней.</value>
+  </data>
+  <data name="section/statistics/chart/levelDisabledFallout/tooltip/header" xml:space="preserve">
+    <value>Уровень техники: %(value)s</value>
+  </data>
+  <data name="section/statistics/headerText/fallout" xml:space="preserve">
+    <value>Бой до последнего</value>
+  </data>
+  <data name="section/statistics/scores/avgVictoryPoints" xml:space="preserve">
+    <value>Среднее количество очков победы</value>
+  </data>
+  <data name="section/statistics/scores/flagsAbsorbed" xml:space="preserve">
+    <value>Уничтожено флагов</value>
+  </data>
+  <data name="section/statistics/scores/flagsDelivered" xml:space="preserve">
+    <value>Доставлено флагов</value>
+  </data>
+  <data name="section/statistics/scores/killDeathRatio" xml:space="preserve">
+    <value>Коэффициент уничтожения</value>
+  </data>
+  <data name="section/statistics/scores/maxVictoryPoints" xml:space="preserve">
+    <value>Максимум очков победы за бой</value>
+  </data>
+  <data name="section/statistics/scores/totalVehs" xml:space="preserve">
+    <value>Парк машин</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/fallout" xml:space="preserve">
+    <value>В Ангаре нет техники, принимавшей участие в режиме «Бой до последнего»</value>
+  </data>
+  <data name="section/technique/sort/tooltip/winRate/body" xml:space="preserve">
+    <value>Сортировать по проценту побед</value>
+  </data>
+  <data name="section/technique/sort/tooltip/winRate/header" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="profile/params/tooltip/assistedStunDamage/body" xml:space="preserve">
+    <value>Общее количество урона по оглушённому противнику</value>
+  </data>
+  <data name="profile/params/tooltip/assistedStunDamage/header" xml:space="preserve">
+    <value>Урон по оглушённым вами целям</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedStunDamage/body" xml:space="preserve">
+    <value>Отношение общего количества урона по оглушённому противнику к количеству проведённых боёв</value>
+  </data>
+  <data name="profile/params/tooltip/avgAssistedStunDamage/header" xml:space="preserve">
+    <value>Урон по оглушённым вами целям</value>
+  </data>
+  <data name="profile/params/tooltip/avgStunNumber/body" xml:space="preserve">
+    <value>Отношение общего количества совершённых попаданий с оглушением экипажа противника к количеству проведённых боёв</value>
+  </data>
+  <data name="profile/params/tooltip/avgStunNumber/header" xml:space="preserve">
+    <value>Количество оглушений</value>
+  </data>
+  <data name="profile/params/tooltip/stunNumber/body" xml:space="preserve">
+    <value>Общее количество совершённых попаданий с оглушением экипажа противника</value>
+  </data>
+  <data name="profile/params/tooltip/stunNumber/header" xml:space="preserve">
+    <value>Количество оглушений</value>
+  </data>
+  <data name="section/statistics/detailed/avgAssistedStunDamage" xml:space="preserve">
+    <value>Урон по оглушённым вами целям</value>
+  </data>
+  <data name="section/statistics/detailed/stunNumber" xml:space="preserve">
+    <value>Количество оглушений</value>
+  </data>
+  <data name="section/technique/statistics/assistedStunDamage" xml:space="preserve">
+    <value>Урон по оглушённым вами целям</value>
+  </data>
+  <data name="section/technique/statistics/avgAssistedStunDamage" xml:space="preserve">
+    <value>Урон по оглушённым вами целям</value>
+  </data>
+  <data name="section/technique/statistics/avgStunNumber" xml:space="preserve">
+    <value>Количество оглушений</value>
+  </data>
+  <data name="section/technique/statistics/stunNumber" xml:space="preserve">
+    <value>Количество оглушений</value>
+  </data>
+  <data name="profile/dropdown/labels/ranked" xml:space="preserve">
+    <value>Ранговый</value>
+  </data>
+  <data name="profile/params/tooltip/maxDamage/vehicle/body" xml:space="preserve">
+    <value>Максимальный урон, нанесённый технике противника за бой.</value>
+  </data>
+  <data name="profile/params/tooltip/maxDamage/vehicle/header" xml:space="preserve">
+    <value>Максимальный урон за бой</value>
+  </data>
+  <data name="profile/params/tooltip/maxDestroyed/vehicle/body" xml:space="preserve">
+    <value>Максимальное количество машин противника, лично уничтоженных за бой.</value>
+  </data>
+  <data name="profile/params/tooltip/maxDestroyed/vehicle/header" xml:space="preserve">
+    <value>Максимум уничтожено за бой</value>
+  </data>
+  <data name="profile/params/tooltip/maxExp/vehicle/body" xml:space="preserve">
+    <value>Максимальный опыт с учётом премиум аккаунта, заработанный за бой.</value>
+  </data>
+  <data name="profile/params/tooltip/maxExp/vehicle/header" xml:space="preserve">
+    <value>Максимальный опыт за бой</value>
+  </data>
+  <data name="profile/params/tooltip/ranked/avgFrags/body" xml:space="preserve">
+    <value>Среднее количество уничтоженной за бой техники противника</value>
+  </data>
+  <data name="profile/params/tooltip/ranked/avgFrags/header" xml:space="preserve">
+    <value>Среднее количество уничтоженной техники</value>
+  </data>
+  <data name="profile/params/tooltip/ranked/avgPoints/body" xml:space="preserve">
+    <value>Отношение количества боёв, в которых был получен шеврон, к общему количеству боёв в режиме, при этом:
+• бои, принёсшие шеврон: %(value_0)s
+• бои всего: %(value_1)s</value>
+  </data>
+  <data name="profile/params/tooltip/ranked/avgPoints/header" xml:space="preserve">
+    <value>Эффективность игры</value>
+  </data>
+  <data name="profile/params/tooltip/ranked/points/body" xml:space="preserve">
+    <value>Общее количество заработанных очков</value>
+  </data>
+  <data name="profile/params/tooltip/ranked/points/header" xml:space="preserve">
+    <value>Очки ранга</value>
+  </data>
+  <data name="profile/ranked/seasonsdropdown/all" xml:space="preserve">
+    <value>Все сезоны</value>
+  </data>
+  <data name="profile/ranked/seasonsdropdown/current" xml:space="preserve">
+    <value>Текущий сезон</value>
+  </data>
+  <data name="profile/ranked/seasonsdropdown/previous" xml:space="preserve">
+    <value>Предыдущий сезон</value>
+  </data>
+  <data name="section/statistics/headerText/ranked" xml:space="preserve">
+    <value>Ранговый бой</value>
+  </data>
+  <data name="section/statistics/scores/ranked/avgFrags" xml:space="preserve">
+    <value>Среднее количество уничтоженной техники</value>
+  </data>
+  <data name="section/statistics/scores/ranked/avgPoints" xml:space="preserve">
+    <value>Эффективность игры</value>
+  </data>
+  <data name="section/statistics/scores/ranked/points" xml:space="preserve">
+    <value>Очки ранга</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/ranked" xml:space="preserve">
+    <value>В Ангаре нет техники, принимавшей участие в Ранговых боях</value>
+  </data>
+  <data name="profile/dropdown/labels/epicRandom" xml:space="preserve">
+    <value>Генеральное сражение</value>
+  </data>
+  <data name="profile/tabs/tooltip/hof/body" xml:space="preserve">
+    <value>Посмотреть рейтинги в Зале славы</value>
+  </data>
+  <data name="profile/tabs/tooltip/hof/header" xml:space="preserve">
+    <value>Зал славы</value>
+  </data>
+  <data name="profile/tabs/tooltip/hofDisabled/body" xml:space="preserve">
+    <value>Зал славы временно недоступен. Повторите попытку позже.</value>
+  </data>
+  <data name="profile/tabs/tooltip/hofDisabled/header" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="section/hof/BrowserView/closeBtn" xml:space="preserve">
+    <value>ЗАКРЫТЬ</value>
+  </data>
+  <data name="section/hof/achievementsRatingsBtn)" xml:space="preserve">
+    <value>Перейти к рейтингу</value>
+  </data>
+  <data name="section/hof/achievementsRatingsTitle)" xml:space="preserve">
+    <value>Достижения
+в Случайных боях</value>
+  </data>
+  <data name="section/hof/betaBtn" xml:space="preserve">
+    <value>БЕТА</value>
+  </data>
+  <data name="section/hof/betaTooltip" xml:space="preserve">
+    <value>Зал славы и новый «Рейтинг World of Tanks»
+находятся в стадии бета-тестирования</value>
+  </data>
+  <data name="section/hof/mainDescription" xml:space="preserve">
+    <value>Следите за своей боевой эффективностью и позициями в рейтингах среди других игроков на выбранном отрезке времени.</value>
+  </data>
+  <data name="section/hof/mainTitle" xml:space="preserve">
+    <value>Зал славы</value>
+  </data>
+  <data name="section/hof/notAvailable/tooltip/body" xml:space="preserve">
+    <value>Зал славы временно недоступен. Повторите попытку позже.</value>
+  </data>
+  <data name="section/hof/notAvailable/tooltip/header" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="section/hof/statusBtn/hideResults" xml:space="preserve">
+    <value>Сделать результаты доступными</value>
+  </data>
+  <data name="section/hof/statusBtn/showResults" xml:space="preserve">
+    <value>Скрыть мои результаты</value>
+  </data>
+  <data name="section/hof/statusDescription/exclusion" xml:space="preserve">
+    <value>Заявка на скрытие ваших достижений в рейтингах подана и будет обработана при ближайшем пересчёте результатов.</value>
+  </data>
+  <data name="section/hof/statusDescription/hideResults" xml:space="preserve">
+    <value>Вы скрыли свои достижения в рейтингах от других игроков.</value>
+  </data>
+  <data name="section/hof/statusDescription/inclusion" xml:space="preserve">
+    <value>Заявка подана и будет обработана при ближайшем пересчёте рейтинговых позиций. Ваши достижения в рейтингах будут доступны всем игрокам.</value>
+  </data>
+  <data name="section/hof/statusDescription/showResults" xml:space="preserve">
+    <value>Ваши достижения в рейтингах доступны для просмотра всем игрокам, друзьям и соклановцам.</value>
+  </data>
+  <data name="section/hof/title" xml:space="preserve">
+    <value>Зал славы</value>
+  </data>
+  <data name="section/hof/vehiclesRatingsBtn)" xml:space="preserve">
+    <value>Перейти к рейтингу</value>
+  </data>
+  <data name="section/hof/vehiclesRatingsTitle)" xml:space="preserve">
+    <value>Техника
+в Случайных боях</value>
+  </data>
+  <data name="section/statistics/headerText/epicRandom" xml:space="preserve">
+    <value>Генеральное сражение</value>
+  </data>
+  <data name="section/technique/emptyScreenLabel/battleType/epicRandom" xml:space="preserve">
+    <value>В Ангаре нет техники, принимавшей участие в Генеральном сражении</value>
+  </data>
+  <data name="section/hof/achievementsRatingsBtn" xml:space="preserve">
+    <value>Перейти к рейтингу</value>
+  </data>
+  <data name="section/hof/achievementsRatingsTitle" xml:space="preserve">
+    <value>Рейтинг достижений
+в Случайных боях</value>
+  </data>
+  <data name="section/hof/vehiclesRatingsBtn" xml:space="preserve">
+    <value>Перейти к рейтингу</value>
+  </data>
+  <data name="section/hof/vehiclesRatingsTitle" xml:space="preserve">
+    <value>Рейтинг техники
+в Случайных боях</value>
+  </data>
+</root>

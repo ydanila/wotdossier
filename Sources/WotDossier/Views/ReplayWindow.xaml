@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:resources="clr-namespace:WotDossier.Resources;assembly=WotDossier.Resources"
         xmlns:replay="clr-namespace:WotDossier.Tabs.Replay"
         xmlns:views="clr-namespace:WotDossier.Views"
-        Title="{Binding Title}" Width="1024" Height="650" ResizeMode="NoResize" Icon="pack://application:,,,/WotDossier.Resources;component/Images/replays/replay.png" WindowStartupLocation="CenterScreen"
+        Title="{Binding Title}" Width="1024" Height="750" ResizeMode="NoResize" Icon="pack://application:,,,/WotDossier.Resources;component/Images/replays/replay.png" WindowStartupLocation="CenterScreen"
         Style="{StaticResource office2007SilverWindow}">
     <Window.CommandBindings>
         <CommandBinding Command="ApplicationCommands.Print" Executed="PrintWindow_Executed"/>
@@ -32,6 +32,10 @@
             <!--Replay extended info tab-->
             <TabItem TabIndex="0" Header="{x:Static resources:Resources.Replay_Tab_Header_BattleSimulator}">
                 <replay:Viewer HorizontalAlignment="Stretch"></replay:Viewer>
+            </TabItem>
+            <!--Replay rawData-->
+            <TabItem TabIndex="0" Header="Raw">
+                <replay:RawData HorizontalAlignment="Stretch"></replay:RawData>
             </TabItem>
         </TabControl>
         

@@ -32,7 +32,7 @@ namespace WotDossier.Converters
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             string logo = (string)parameter;
-            BitmapImage bitmapImage = null;
+	        BitmapSource bitmapImage = null;
             if (logo != null)
             {
                 Uri uriSource = new Uri(string.Format(@"pack://application:,,,/{0};component/{1}", Assembly.GetEntryAssembly().GetName().Name, logo));

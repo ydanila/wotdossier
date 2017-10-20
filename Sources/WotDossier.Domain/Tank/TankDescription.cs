@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Runtime.Serialization;
+using WotDossier.Common.Extensions;
 using WotDossier.Domain.Rating;
 
 namespace WotDossier.Domain.Tank
@@ -8,29 +10,24 @@ namespace WotDossier.Domain.Tank
     /// 
     /// </summary>
     [DataContract]
-    public class TankDescription
-    {
+    public class TankDescription : IEquatable<TankDescription>, IComparable<TankDescription>
+	{
         private const string UNKNOWN = "Unknown";
 
         public static TankDescription Unknown(string iconId = null)
         {
-            return new TankDescription { Title = iconId ?? UNKNOWN, Icon = TankIcon.Empty };
-        }
+	        return new TankDescription { Title = iconId ?? UNKNOWN, Key = "tank", CompDescr = 65521, CountryId = -1, TankId = -1, Hidden = true };
+		}
 
-        public static TankDescription Unknown(int compDescr)
-        {
-            return new TankDescription { Title = UNKNOWN, Icon = TankIcon.Empty, CompDescr = compDescr, CountryId = DossierUtils.ToCountryId(compDescr), TankId = DossierUtils.ToTankId(compDescr) };
-        }
+        public static TankDescription Total(string rowHeader)
+	    {
+		    return new TankDescription { Title = rowHeader, Key = String.Empty, CompDescr = 65521, CountryId  = -1, TankId = -1 };
+	    }
 
-        public static TankDescription Unknown(int countryId, int tankId)
-        {
-            return new TankDescription { Title = UNKNOWN, Icon = TankIcon.Empty, CountryId  = countryId, TankId = tankId };
-        }
-
-        /// <summary>
-        /// Gets or sets the tank id.
-        /// </summary>
-        [DataMember(Name = "tankid")]
+		/// <summary>
+		/// Gets or sets the tank id.
+		/// </summary>
+		[DataMember(Name = "tankid")]
         public int TankId { get; set; }
 
         /// <summary>
@@ -39,34 +36,65 @@ namespace WotDossier.Domain.Tank
         [DataMember(Name = "countryid")]
         public int CountryId { get; set; }
 
-        /// <summary>
-        /// Gets or sets the type.
-        /// </summary>
-        [DataMember(Name = "type")]
+	    /// <summary>
+	    /// Gets country.
+	    /// </summary>
+	    public Country Country => (Country) CountryId;
+
+	    /// <summary>
+		/// Gets or sets the type.
+		/// </summary>
+		[DataMember(Name = "type")]
         public int Type { get; set; }
 
-        /// <summary>
-        /// Gets or sets the tier.
-        /// </summary>
-        [DataMember(Name = "tier")]
         public int Tier { get; set; }
 
-        /// <summary>
-        /// Gets or sets the premium.
-        /// </summary>
-        [DataMember(Name = "premium")]
-        public int Premium { get; set; }
+        public bool Premium { get; set; }
 
-        /// <summary>
-        /// Gets or sets the title.
-        /// </summary>
-        [DataMember(Name = "title")]
-        public string Title { get; set; }
+		private string _title = "";
 
-        /// <summary>
-        /// Gets or sets the comp descr.
-        /// </summary>
-        [DataMember(Name = "compDescr")]
+		public string Title
+		{
+			get
+			{
+				if(string.IsNullOrEmpty(_title))
+					_title = ResourceHelper.ResourceManager(userString.ParseUserString(UserStringPart.Type)).GetString(userString.ParseUserString(UserStringPart.Key)) ?? Key;
+				return _title;
+			}
+			set => _title = value;
+		}
+
+		private string description = "";
+		public string Description
+		{
+			get
+			{
+				if (string.IsNullOrEmpty(description))
+					description = ResourceHelper.ResourceManager(descriptionString.ParseUserString(UserStringPart.Type)).GetString(descriptionString.ParseUserString(UserStringPart.Key)) ?? Key;
+				return description;
+			}
+		}
+
+	    public string Key { get; set; }
+
+	    public bool Secret { get; set; }
+
+		public bool Hidden { get; set; }
+
+		public string userString { get; set; } = "";
+
+
+		public string descriptionString { get; set; } = "";
+
+
+	    public string IconId => $"{Country.ToString().ToLower()}-{Dictionaries.Instance.AllVehicles[UniqueId].Key}";
+
+		public string CountryKey => $"{Country.ToString().ToLower()}-{Key}";
+
+		/// <summary>
+		/// Gets or sets the comp descr.
+		/// </summary>
+		[DataMember(Name = "compDescr")]
         public int CompDescr { get; set; }
 
         /// <summary>
@@ -77,64 +105,34 @@ namespace WotDossier.Domain.Tank
 
         public LevelRange LevelRange { get; set; }
 
-        /// <summary>
-        /// Gets or sets the icon.
-        /// </summary>
-        [IgnoreDataMember]
-        public TankIcon Icon { get; set; }
 
-        [DataMember(Name = "active")]
-        public bool Active { get; set; }
+		public Version Version { get; set; }
 
-        private RatingExpectancy _expectancy;
-        /// <summary>
-        /// Gets or sets the rating expectancy.
-        /// </summary>
-        [IgnoreDataMember]
-        public RatingExpectancy Expectancy
-        {
-            get { return _expectancy ?? new RatingExpectancy(); }
-            set { _expectancy = value; }
-        }
+		private int _uniqueId = -1;
 
-
-        private Dictionary<WN8Type, RatingExpectedValuesData> expectedValues;
-        /// <summary>
-        /// Gets or sets the rating expected values.
-        /// </summary>
-        [IgnoreDataMember]
-        public Dictionary<WN8Type, RatingExpectedValuesData> ExpectedValues
-        {
-            get
-            {
-                if (expectedValues == null)
-                {
-                    expectedValues = new Dictionary<WN8Type, RatingExpectedValuesData>()
-                    {
-                        {WN8Type.Default, new RatingExpectedValuesData()},
-                        { WN8Type.KTTC, new RatingExpectedValuesData() },
-                        { WN8Type.XVM, new RatingExpectedValuesData() }
-                    };
-                }
-                return expectedValues;
-            }
-            set => expectedValues = value;
-        }
-
-        private int _uniqueId = -1;
         /// <summary>
         /// Uniques the id.
         /// </summary>
-        public int UniqueId()
+        public int UniqueId
         {
-            if (_uniqueId == -1)
+            get
             {
-                _uniqueId = DossierUtils.ToUniqueId(CountryId, TankId);
+                if (_uniqueId == -1)
+                {
+                    _uniqueId = DossierUtils.ToUniqueId(CountryId, TankId);
+                }
+                return _uniqueId;
             }
-            return _uniqueId;
         }
 
-        /// <summary>
+		public int CompareTo(TankDescription other)
+		{
+			return UniqueId.CompareTo(other.UniqueId);
+		}
+
+		
+
+		/// <summary>
         /// Returns a string that represents the current object.
         /// </summary>
         /// <returns>
@@ -145,25 +143,25 @@ namespace WotDossier.Domain.Tank
             return Title;
         }
 
-        protected bool Equals(TankDescription other)
-        {
-            return TankId == other.TankId && CountryId == other.CountryId;
-        }
 
-        public override bool Equals(object obj)
-        {
-            if (ReferenceEquals(null, obj)) return false;
-            if (ReferenceEquals(this, obj)) return true;
-            if (obj.GetType() != this.GetType()) return false;
-            return Equals((TankDescription) obj);
-        }
+		public bool Equals(TankDescription other)
+		{
+			if (ReferenceEquals(null, other)) return false;
+			if (ReferenceEquals(this, other)) return true;
+			return CompDescr == other.CompDescr;
+		}
 
-        public override int GetHashCode()
-        {
-            unchecked
-            {
-                return (TankId*397) ^ CountryId;
-            }
-        }
-    }
+		public override bool Equals(object obj)
+		{
+			if (ReferenceEquals(null, obj)) return false;
+			if (ReferenceEquals(this, obj)) return true;
+			if (obj.GetType() != this.GetType()) return false;
+			return Equals((TankDescription) obj);
+		}
+
+		public override int GetHashCode()
+		{
+			return CompDescr;
+		}
+	}
 }

@@ -84,8 +84,8 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="PresentationFramework.Aero" />
-    <Reference Include="SimpleInjector, Version=4.0.8.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
-      <HintPath>..\packages\SimpleInjector.4.0.8\lib\net45\SimpleInjector.dll</HintPath>
+    <Reference Include="SimpleInjector, Version=4.0.11.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <HintPath>..\packages\SimpleInjector.4.0.11\lib\net45\SimpleInjector.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -473,6 +473,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="..\WotDossier\Tabs\Replay\RawData.xaml">
+      <Link>Tabs\Replay\RawData.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="..\WotDossier\Tabs\Replay\TeamMemberResult.xaml">
       <Link>Tabs\Replay\TeamMemberResult.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
@@ -587,8 +592,14 @@
     <Compile Include="..\WotDossier\Converters\Color\DeltaToColorConverter.cs">
       <Link>Converters\Color\DeltaToColorConverter.cs</Link>
     </Compile>
+    <Compile Include="..\WotDossier\Converters\Color\DeltaToColorConverterWithParams.cs">
+      <Link>Converters\Color\DeltaToColorConverterWithParams.cs</Link>
+    </Compile>
     <Compile Include="..\WotDossier\Converters\Color\FragsToColorConverter.cs">
       <Link>Converters\Color\FragsToColorConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\WotDossier\Converters\Color\NegativeToColorConverter.cs">
+      <Link>Converters\Color\NegativeToColorConverter.cs</Link>
     </Compile>
     <Compile Include="..\WotDossier\Converters\Color\SpottedToColorConverter.cs">
       <Link>Converters\Color\SpottedToColorConverter.cs</Link>
@@ -644,8 +655,8 @@
     <Compile Include="..\WotDossier\Converters\Image\MapNameToImageConverter.cs">
       <Link>Converters\Image\MapNameToImageConverter.cs</Link>
     </Compile>
-    <Compile Include="..\WotDossier\Converters\Image\MapToMinimapImageConverter.cs">
-      <Link>Converters\Image\MapToMinimapImageConverter.cs</Link>
+    <Compile Include="..\WotDossier\Converters\Image\MapToImageConverter.cs">
+      <Link>Converters\Image\MapToImageConverter.cs</Link>
     </Compile>
     <Compile Include="..\WotDossier\Converters\Image\MarkOfMasteryToImageConverter.cs">
       <Link>Converters\Image\MarkOfMasteryToImageConverter.cs</Link>
@@ -655,9 +666,6 @@
     </Compile>
     <Compile Include="..\WotDossier\Converters\Image\ReplayIconConverter.cs">
       <Link>Converters\Image\ReplayIconConverter.cs</Link>
-    </Compile>
-    <Compile Include="..\WotDossier\Converters\Image\ShellDescriptionToImageConverter.cs">
-      <Link>Converters\Image\ShellDescriptionToImageConverter.cs</Link>
     </Compile>
     <Compile Include="..\WotDossier\Converters\Image\TankIconToImageConverter.cs">
       <Link>Converters\Image\TankIconToImageConverter.cs</Link>
@@ -761,6 +769,9 @@
       <Link>Tabs\Replay\PersonalResults.xaml.cs</Link>
       <DependentUpon>PersonalResults.xaml</DependentUpon>
     </Compile>
+    <Compile Include="..\WotDossier\Tabs\Replay\RawData.xaml.cs">
+      <Link>Tabs\Replay\RawData.xaml.cs</Link>
+    </Compile>
     <Compile Include="..\WotDossier\Tabs\Replay\TeamMemberResult.xaml.cs">
       <Link>Tabs\Replay\TeamMemberResult.xaml.cs</Link>
       <DependentUpon>TeamMemberResult.xaml</DependentUpon>
@@ -857,74 +868,6 @@
     <EmbeddedResource Include="..\WotDossier\Data\init.s3db">
       <Link>Data\init.s3db</Link>
     </EmbeddedResource>
-    <Content Include="..\WotDossier\External\library.zip">
-      <Link>External\library.zip</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\maps.json">
-      <Link>External\maps.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\tanks.json">
-      <Link>External\tanks.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\_hashlib.pyd">
-      <Link>External\_hashlib.pyd</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\consumables.json">
-      <Link>External\consumables.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\optional_devices.json">
-      <Link>External\optional_devices.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <None Include="..\WotDossier\External\maps_description.json">
-      <Link>External\maps_description.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\china_shells.json">
-      <Link>External\shells\china_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\czech_shells.json">
-      <Link>External\shells\czech_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\france_shells.json">
-      <Link>External\shells\france_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\germany_shells.json">
-      <Link>External\shells\germany_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\japan_shells.json">
-      <Link>External\shells\japan_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\sweden_shells.json">
-      <Link>External\shells\sweden_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\uk_shells.json">
-      <Link>External\shells\uk_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\usa_shells.json">
-      <Link>External\shells\usa_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\shells\ussr_shells.json">
-      <Link>External\shells\ussr_shells.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\WotDossier\External\tanks_expectations.json">
-      <Link>External\tanks_expectations.json</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -967,14 +910,6 @@
       <Link>Data\Medals.xml</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\WotDossier\External\python27.dll">
-      <Link>External\python27.dll</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\WotDossier\External\wotrp2j.exe">
-      <Link>External\wotrp2j.exe</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <EmbeddedResource Include="..\WotDossier\Data\ReplaysCatalog.xml">
       <Link>Data\ReplaysCatalog.xml</Link>
     </EmbeddedResource>
@@ -991,6 +926,11 @@
     <PostBuildEvent>
     </PostBuildEvent>
   </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" />
+    </VisualStudio>
+  </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

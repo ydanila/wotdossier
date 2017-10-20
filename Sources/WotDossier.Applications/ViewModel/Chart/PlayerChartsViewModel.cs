@@ -249,7 +249,7 @@ namespace WotDossier.Applications.ViewModel.Chart
         public void InitLastUsedTanksChart(PlayerStatisticViewModel playerStatistic, List<ITankStatisticRow> tanks)
         {
             IEnumerable<ITankStatisticRow> viewModels = tanks.Where(x => x.LastBattle > playerStatistic.PrevStatisticSliceDate);
-            IEnumerable<IDataPoint> items = viewModels.Select(x => new SellInfo (x.BattlesCountDelta, x.WinsPercentForPeriod, x.Tank));
+            IEnumerable<IDataPoint> items = viewModels.Select(x => new SellInfo (x.BattlesCountDelta, x.WinsPercentForPeriod, x.TankDescription.Title));
             LastUsedTanksDataSource = items.ToList();
         }
 

@@ -1,0 +1,2749 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BuildingDirection/label1" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="BuildingDirection/label2" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="BuildingDirection/label3" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="BuildingDirection/label4" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="BuildingDirection/tooltip/body" xml:space="preserve">
+    <value>Нажмите, чтобы открыть направление %(value)s.</value>
+  </data>
+  <data name="BuildingDirection/tooltip/header" xml:space="preserve">
+    <value>Направление %(value)s</value>
+  </data>
+  <data name="BuildingPopover/assignPlayers" xml:space="preserve">
+    <value>(вы в составе)</value>
+  </data>
+  <data name="BuildingPopover/commanderStatus/bodyStatus/congratulation" xml:space="preserve">
+    <value>Строение готово к модернизации.</value>
+  </data>
+  <data name="BuildingPopover/commanderStatus/bodyStatus/foundation" xml:space="preserve">
+    <value>Транспортируйте промресурс или захватите его в боях.</value>
+  </data>
+  <data name="BuildingPopover/commanderStatus/bodyStatus/halfDestroy" xml:space="preserve">
+    <value>Для функционирования строения заполните его шкалу прочности.</value>
+  </data>
+  <data name="BuildingPopover/commanderStatus/bodyStatus/modernization" xml:space="preserve">
+    <value>Строение готово к модернизации.</value>
+  </data>
+  <data name="BuildingPopover/defResActions/directionOpened" xml:space="preserve">
+    <value>Направлений открыто: </value>
+  </data>
+  <data name="BuildingPopover/defResActions/management" xml:space="preserve">
+    <value>Контроль направлений</value>
+  </data>
+  <data name="BuildingPopover/defResActions/prepareTimeOver" xml:space="preserve">
+    <value>Осталось: </value>
+  </data>
+  <data name="BuildingPopover/defResActions/preparedDefRes" xml:space="preserve">
+    <value>Подготовлено: %(currentValue)s</value>
+  </data>
+  <data name="BuildingPopover/defResActions/preparingDefRes" xml:space="preserve">
+    <value>Подготовка резервов: </value>
+  </data>
+  <data name="BuildingPopover/defResActions/requestDefRes" xml:space="preserve">
+    <value>Подготовка резерва</value>
+  </data>
+  <data name="BuildingPopover/defResInfo/baseBuildingTitle" xml:space="preserve">
+    <value>Направления Укрепрайона</value>
+  </data>
+  <data name="BuildingPopover/defResInfo/defResBuildingTitle" xml:space="preserve">
+    <value>Боевые выплаты</value>
+  </data>
+  <data name="BuildingPopover/header/levelsLbl" xml:space="preserve">
+    <value>%(buildLevel)s уровень</value>
+  </data>
+  <data name="BuildingPopover/header/messageStatus" xml:space="preserve">
+    <value>%(buildLevel)d уровень</value>
+  </data>
+  <data name="BuildingPopover/header/titleStatus/congratulation" xml:space="preserve">
+    <value>Модернизация доступна!</value>
+  </data>
+  <data name="BuildingPopover/header/titleStatus/foundation" xml:space="preserve">
+    <value>Фундамент</value>
+  </data>
+  <data name="BuildingPopover/header/titleStatus/freeze" xml:space="preserve">
+    <value>Оборона сломлена!</value>
+  </data>
+  <data name="BuildingPopover/header/titleStatus/halfDestroy" xml:space="preserve">
+    <value>Частичное разрушение!</value>
+  </data>
+  <data name="BuildingPopover/header/titleStatus/modernization" xml:space="preserve">
+    <value>Модернизация доступна!</value>
+  </data>
+  <data name="BuildingPopover/indicators/defResLbl" xml:space="preserve">
+    <value>Склад</value>
+  </data>
+  <data name="BuildingPopover/indicators/hpLbl" xml:space="preserve">
+    <value>Прочность</value>
+  </data>
+  <data name="BuildingPopover/soldierStatus/bodyStatus/foundation" xml:space="preserve">
+    <value>Для завершения строительства присоединитесь к гарнизону и заработайте промресурс.</value>
+  </data>
+  <data name="BuildingPopover/soldierStatus/bodyStatus/halfDestroy" xml:space="preserve">
+    <value>Для ремонта строения присоединитесь к гарнизону и заработайте промресурс.</value>
+  </data>
+  <data name="Buildings/buildingName/base_building" xml:space="preserve">
+    <value>Командный центр</value>
+  </data>
+  <data name="Buildings/buildingName/car_building" xml:space="preserve">
+    <value>Автотранспортная часть</value>
+  </data>
+  <data name="Buildings/buildingName/finance_building" xml:space="preserve">
+    <value>Финансовая часть</value>
+  </data>
+  <data name="Buildings/buildingName/intendancy_building" xml:space="preserve">
+    <value>Интендантская служба</value>
+  </data>
+  <data name="Buildings/buildingName/tankodrom_building" xml:space="preserve">
+    <value>Танкодром</value>
+  </data>
+  <data name="Buildings/buildingName/training_building" xml:space="preserve">
+    <value>Учебная часть</value>
+  </data>
+  <data name="Buildings/buildingName/trophy_building" xml:space="preserve">
+    <value>Трофейная бригада</value>
+  </data>
+  <data name="Buildings/buildingName/warSchool_building" xml:space="preserve">
+    <value>Военное училище</value>
+  </data>
+  <data name="Buildings/buildingTooltip/order" xml:space="preserve">
+    <value> 
+Готовится новый резерв (x%d):
+%s до окончания.</value>
+  </data>
+  <data name="Buildings/buildingTooltip/store" xml:space="preserve">
+    <value> 
+Склад: </value>
+  </data>
+  <data name="Buildings/buildingTooltip/strength" xml:space="preserve">
+    <value>Прочность: </value>
+  </data>
+  <data name="Buildings/defResInfo/base_building" xml:space="preserve">
+    <value>На открытых направлениях можно возводить строения, в которых запрашиваются резервы. Направления могут быть атакованы кланом противника.</value>
+  </data>
+  <data name="Buildings/defResInfo/car_building" xml:space="preserve">
+    <value>к добыче, захваченной в Вылазках.</value>
+  </data>
+  <data name="Buildings/defResInfo/finance_building" xml:space="preserve">
+    <value>к кредитам для всех соклановцев по итогам любого боя.</value>
+  </data>
+  <data name="Buildings/defResInfo/intendancy_building" xml:space="preserve">
+    <value>к сохранению промресурса при неудачной обороне собственного Укрепрайона.</value>
+  </data>
+  <data name="Buildings/defResInfo/tankodrom_building" xml:space="preserve">
+    <value>к боевому опыту для всех соклановцев, получаемому по итогам любого боя.</value>
+  </data>
+  <data name="Buildings/defResInfo/training_building" xml:space="preserve">
+    <value>к опыту экипажа для всех соклановцев по итогам любого боя.</value>
+  </data>
+  <data name="Buildings/defResInfo/trophy_building" xml:space="preserve">
+    <value>к добыче при успешной атаке Укрепрайона клана противника.</value>
+  </data>
+  <data name="Buildings/defResInfo/warSchool_building" xml:space="preserve">
+    <value>к свободному опыту для всех соклановцев по итогам любого боя.</value>
+  </data>
+  <data name="Buildings/modernizationDescr/base_building" xml:space="preserve">
+    <value>доступен при модернизации других строений Укрепрайона.</value>
+  </data>
+  <data name="Buildings/processOrderInfo/car_building" xml:space="preserve">
+    <value>Позволяет захватывать в Вылазках дополнительно до 25% добычи. Процент прибавки зависит от уровня резерва.</value>
+  </data>
+  <data name="Buildings/processOrderInfo/finance_building" xml:space="preserve">
+    <value>До 50% дополнительных кредитов по итогам любого боя. Процент прибавки зависит от уровня резерва.</value>
+  </data>
+  <data name="Buildings/processOrderInfo/intendancy_building" xml:space="preserve">
+    <value>Снижает потерю промресурса при неудачной обороне Укрепрайона до 50%. Процент сохранения зависит от уровня резерва.</value>
+  </data>
+  <data name="Buildings/processOrderInfo/tankodrom_building" xml:space="preserve">
+    <value>До 50% дополнительного опыта по итогам любого боя. Процент прибавки зависит от уровня резерва.</value>
+  </data>
+  <data name="Buildings/processOrderInfo/training_building" xml:space="preserve">
+    <value>На максимальном уровне резерв удваивает опыт экипажа, получаемый по итогам любого боя.</value>
+  </data>
+  <data name="Buildings/processOrderInfo/trophy_building" xml:space="preserve">
+    <value>Позволяет захватывать в Наступлениях до 50% дополнительного промресурса. Процент прибавки зависит от уровня резерва.</value>
+  </data>
+  <data name="Buildings/processOrderInfo/warSchool_building" xml:space="preserve">
+    <value>На максимальном уровне резерв удваивает свободный опыт, получаемый по итогам любого боя.</value>
+  </data>
+  <data name="Buildings/trowelLabel" xml:space="preserve">
+    <value>Стройплощадка</value>
+  </data>
+  <data name="BuildingsProcess/buildingInfo/bottomMessage" xml:space="preserve">
+    <value>Строение уже возведено</value>
+  </data>
+  <data name="BuildingsProcess/buildingInfo/statusMessage" xml:space="preserve">
+    <value>Необходимо: командный центр V уровня.</value>
+  </data>
+  <data name="BuildingsProcess/buttonLbl" xml:space="preserve">
+    <value>Начать строительство</value>
+  </data>
+  <data name="BuildingsProcess/buttonLblBuilt" xml:space="preserve">
+    <value>Строение уже возведено</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/built" xml:space="preserve">
+    <value>всем бойцам ++++ ++ длиннове описание  built !!!!! д++++++ ддл иии иии  ::: выделяет дополнительные средства для выплаты жалования</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/car_building" xml:space="preserve">
+    <value>Механики автотранспортной части могут приладить прицеп к любому тягачу, позволяя увеличивать количество перевозимого груза.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/finance_building" xml:space="preserve">
+    <value>Через финансовую часть проходит вся бухгалтерия Укрепрайона. Служащие финансовой части привлекают дополнительные средства для выплаты надбавок к жалованию бойцов клана.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/intendancy_building" xml:space="preserve">
+    <value>Специалисты интендантской службы оперативно налаживают эвакуацию материальной части Укрепрайона, что помогает быстро восполнить силы после неудачной обороны.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/notAvailable" xml:space="preserve">
+    <value>всем бойцам ++ ++++ длиннове описание  notAvailable !!!!! д++++++ д длиии выделяет дополнительные средства для выплаты жалования</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/tankodrom_building" xml:space="preserve">
+    <value>На специально отведённом участке определяется эффективность боевых машин при предельных нагрузках.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/training_building" xml:space="preserve">
+    <value>Комбинация теоретических и практических занятий у новобранцев способствует быстрому постижению азов военного дела.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/trophy_building" xml:space="preserve">
+    <value>После успешной атаки на Укрепрайон противника трофейная бригада разыскивает брошенную на поле боя технику, ресурсы и прочие ценности, которые могут пригодиться.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/warSchool_building" xml:space="preserve">
+    <value>Опытные преподаватели и тематические материалы библиотеки помогают выпускать квалифицированных офицеров, подготовленных к боям в любых условиях.</value>
+  </data>
+  <data name="BuildingsProcess/mainLabel/accessCount" xml:space="preserve">
+    <value>Построено: %(current)s из %(total)s</value>
+  </data>
+  <data name="BuildingsProcess/orderInfo/descriptionPrefix" xml:space="preserve">
+    <value>Дополнительные проценты </value>
+  </data>
+  <data name="BuildingsProcess/orderInfo/header" xml:space="preserve">
+    <value>Боевые выплаты</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/car_building" xml:space="preserve">
+    <value>Дополнительный промресурс, получаемый в Вылазках.</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/finance_building" xml:space="preserve">
+    <value>Дополнительные кредиты по итогам любого боя.</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/intendancy_building" xml:space="preserve">
+    <value>Понижение последствий разграбления при неудачной обороне.</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/tankodrom_building" xml:space="preserve">
+    <value>Дополнительный боевой опыт по итогам любого боя.</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/training_building" xml:space="preserve">
+    <value>Дополнительный опыт экипажа по итогам любого боя.</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/trophy_building" xml:space="preserve">
+    <value>Увеличенная добыча при разграблении Укрепрайона противника.</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/warSchool_building" xml:space="preserve">
+    <value>Дополнительный свободный опыт по итогам любого боя.</value>
+  </data>
+  <data name="BuildingsProcess/statusMsg/built" xml:space="preserve">
+    <value>Построено</value>
+  </data>
+  <data name="BuildingsProcess/statusMsg/notAvailable" xml:space="preserve">
+    <value>Недоступно</value>
+  </data>
+  <data name="BuildingsProcess/textInfo" xml:space="preserve">
+    <value>Выберите строение из списка слева, чтобы увидеть подробное описание.</value>
+  </data>
+  <data name="BuildingsProcess/windowTitle" xml:space="preserve">
+    <value>Строительство</value>
+  </data>
+  <data name="ChoiceDivision/applyBtnLbl" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="ChoiceDivision/cancelBtnLbl" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="ChoiceDivision/description" xml:space="preserve">
+    <value>Дивизион ограничивает максимальный уровень техники и размер добычи в Вылазках, которую может захватить отряд.</value>
+  </data>
+  <data name="ChoiceDivision/divisionFullName" xml:space="preserve">
+    <value>%(divisionType)s дивизион</value>
+  </data>
+  <data name="ChoiceDivision/divisionProfit" xml:space="preserve">
+    <value>Добыча: %(defResCount)s</value>
+  </data>
+  <data name="ChoiceDivision/divisionType/absoluteDivision" xml:space="preserve">
+    <value>Абсолютный</value>
+  </data>
+  <data name="ChoiceDivision/divisionType/championDivision" xml:space="preserve">
+    <value>Чемпионский</value>
+  </data>
+  <data name="ChoiceDivision/divisionType/middleDivision" xml:space="preserve">
+    <value>Средний</value>
+  </data>
+  <data name="ChoiceDivision/vehicleLevel" xml:space="preserve">
+    <value>Уровень техники: %(minLevel)s – %(maxLevel)s</value>
+  </data>
+  <data name="ChoiceDivision/windowTitle" xml:space="preserve">
+    <value>Выбор дивизиона</value>
+  </data>
+  <data name="ClanListWindow/table/memberName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="ClanListWindow/table/monthMining" xml:space="preserve">
+    <value>За месяц</value>
+  </data>
+  <data name="ClanListWindow/table/role" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="ClanListWindow/table/weekMining" xml:space="preserve">
+    <value>За неделю</value>
+  </data>
+  <data name="CongratulationWindow/buttonLbl" xml:space="preserve">
+    <value>Так точно!</value>
+  </data>
+  <data name="CongratulationWindow/textBody" xml:space="preserve">
+    <value>На склад командного центра начислено %(sourceCount)s (единиц промресурса). Этого количества достаточно для возведения одного строения и подготовки резерва. Сейчас вы получили промресурс бесплатно, но в будущем вам придётся добывать его в Вылазках и в Наступлениях.</value>
+  </data>
+  <data name="CongratulationWindow/textTitle" xml:space="preserve">
+    <value>Пора начинать строительство!</value>
+  </data>
+  <data name="CongratulationWindow/titleLbl" xml:space="preserve">
+    <value>Открыто новое направление</value>
+  </data>
+  <data name="DemountBuilding/applyButton/label" xml:space="preserve">
+    <value>Снести</value>
+  </data>
+  <data name="DemountBuilding/cancelButton/label" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="DemountBuilding/errorMessage" xml:space="preserve">
+    <value>Вы ввели неправильную информацию!</value>
+  </data>
+  <data name="DemountBuilding/generalText/body" xml:space="preserve">
+    <value>Вы %(bodyInnerText)s весь накопленный на строении промресурс и подготовленные резервы. Повторное возведение начнётся с фундамента.</value>
+  </data>
+  <data name="DemountBuilding/generalText/bodyInnerText" xml:space="preserve">
+    <value>безвозвратно потеряете</value>
+  </data>
+  <data name="DemountBuilding/generalText/title" xml:space="preserve">
+    <value>Вы действительно хотите снести строение %(buildingName)s %(buildingLevel)s уровня?</value>
+  </data>
+  <data name="DemountBuilding/question/body" xml:space="preserve">
+    <value>Для совершения операции введите актуальное значение из шкалы прочности строения (%(controlNumber)s)</value>
+  </data>
+  <data name="DemountBuilding/question/title" xml:space="preserve">
+    <value>Снос строения</value>
+  </data>
+  <data name="DemountBuilding/windowTitle" xml:space="preserve">
+    <value>%(buildingName)s: снос</value>
+  </data>
+  <data name="FixedPlayers/header/btnLbl" xml:space="preserve">
+    <value>Закрепиться за строением</value>
+  </data>
+  <data name="FixedPlayers/header/isAssigned" xml:space="preserve">
+    <value>Вы закреплены за строением</value>
+  </data>
+  <data name="FixedPlayers/listHeader/fieldAllTime" xml:space="preserve">
+    <value>%(icon)s Всё время</value>
+  </data>
+  <data name="FixedPlayers/listHeader/fieldName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="FixedPlayers/listHeader/fieldRole" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="FixedPlayers/listHeader/fieldWeek" xml:space="preserve">
+    <value>%(icon)s Неделя</value>
+  </data>
+  <data name="FixedPlayers/windowTitle" xml:space="preserve">
+    <value>%(buildingName)s: гарнизон</value>
+  </data>
+  <data name="FortClanListWindow/title" xml:space="preserve">
+    <value>Добытчики клана %(clanName)s</value>
+  </data>
+  <data name="FortClanStatisticsWindow/sortie/battlesHeader" xml:space="preserve">
+    <value>Бои по дивизионам</value>
+  </data>
+  <data name="FortClanStatisticsWindow/title" xml:space="preserve">
+    <value>Статистика клана %(clanName)s</value>
+  </data>
+  <data name="FortDirectionsWindow/button/closeDirection" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="FortDirectionsWindow/button/newDirection" xml:space="preserve">
+    <value>Новое направление</value>
+  </data>
+  <data name="FortDirectionsWindow/button/newDirection/tooltip/disabled" xml:space="preserve">
+    <value>Открыть новое направление</value>
+  </data>
+  <data name="FortDirectionsWindow/button/newDirection/tooltip/disabled/descr" xml:space="preserve">
+    <value>Для открытия необходимо минимум %(count)d бойцов в клане.</value>
+  </data>
+  <data name="FortDirectionsWindow/button/newDirection/tooltip/enabled" xml:space="preserve">
+    <value>Открыть новое направление</value>
+  </data>
+  <data name="FortDirectionsWindow/button/newDirection/tooltip/enabled/descr" xml:space="preserve">
+    <value>Направление предназначено для возведения новых строений и создания плацдарма для нападения на Укрепрайоны противника. Не забывайте защищать каждое направление во время «Часа обороны».</value>
+  </data>
+  <data name="FortDirectionsWindow/descr/completed" xml:space="preserve">
+    <value>Поздравляем!
+Вы открыли максимальное количество направлений.</value>
+  </data>
+  <data name="FortDirectionsWindow/descr/requirements" xml:space="preserve">
+    <value>Для открытия нового направления необходимо минимум %(count)s бойцов в клане.</value>
+  </data>
+  <data name="FortDirectionsWindow/label/noBuildings" xml:space="preserve">
+    <value>Строений нет</value>
+  </data>
+  <data name="FortDirectionsWindow/label/notOpened" xml:space="preserve">
+    <value>Не открыто</value>
+  </data>
+  <data name="FortDirectionsWindow/label/openedDirections" xml:space="preserve">
+    <value>Открытые направления:</value>
+  </data>
+  <data name="FortDirectionsWindow/title" xml:space="preserve">
+    <value>Контроль направлений</value>
+  </data>
+  <data name="FortIntelligence/additionalText/comingSoon" xml:space="preserve">
+    <value>Скоро</value>
+  </data>
+  <data name="FortIntelligence/bottomBlock/body" xml:space="preserve">
+    <value>Ваш Укрепрайон также может подвергнуться атаке. Мобилизуйте резервы и будьте начеку, когда настанет время дать отпор противнику.</value>
+  </data>
+  <data name="FortIntelligence/bottomBlock/header" xml:space="preserve">
+    <value>Оборона</value>
+  </data>
+  <data name="FortIntelligence/headerBlock/body" xml:space="preserve">
+    <value>Укрепрайоны V уровня и выше получают доступ к разведданным, которые помогут клану обнаружить противника и совершить нападение.</value>
+  </data>
+  <data name="FortIntelligence/headerBlock/header" xml:space="preserve">
+    <value>Разведданные</value>
+  </data>
+  <data name="FortIntelligence/middleBlock/body" xml:space="preserve">
+    <value>Победа в Наступлении на противника принесёт больше добычи, чем Вылазки, а также поднимет престиж собственного клана.</value>
+  </data>
+  <data name="FortIntelligence/middleBlock/header" xml:space="preserve">
+    <value>Нападение</value>
+  </data>
+  <data name="FortIntelligence/topBlock/body" xml:space="preserve">
+    <value>Изучите Укрепрайоны кланов противника для выбора подходящей цели для атаки. Не забывайте, что аналогично могут выследить и ваш Укрепрайон.</value>
+  </data>
+  <data name="FortIntelligence/topBlock/header" xml:space="preserve">
+    <value>Разведка</value>
+  </data>
+  <data name="FortIntelligence/windowTitle" xml:space="preserve">
+    <value>Разведданные: выбор клана для атаки</value>
+  </data>
+  <data name="FortMainView/common/title" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="FortMainView/common/totalDepotQuantityText" xml:space="preserve">
+    <value>На всех складах: </value>
+  </data>
+  <data name="FortMainView/commonTutor/title" xml:space="preserve">
+    <value>Шаг 2 из 3. Заложите фундамент первого строения</value>
+  </data>
+  <data name="FortMainView/directions/selectingStatus" xml:space="preserve">
+    <value>Выберите направление для создания плацдарма. Контроль над направлениями осуществляется из командного центра.</value>
+  </data>
+  <data name="FortMainView/directions/title" xml:space="preserve">
+    <value>Режим открытия направлений</value>
+  </data>
+  <data name="FortMainView/directionsTutor/title" xml:space="preserve">
+    <value>Шаг 1 из 3. Выберите направление для открытия</value>
+  </data>
+  <data name="FortMainView/header/levelsLbl" xml:space="preserve">
+    <value>%(buildLevel)s уровень</value>
+  </data>
+  <data name="FortMainView/intelligenceButton/title" xml:space="preserve">
+    <value>Разведданные</value>
+  </data>
+  <data name="FortMainView/leave/button/label" xml:space="preserve">
+    <value>Покинуть режим</value>
+  </data>
+  <data name="FortMainView/sortieButton/title" xml:space="preserve">
+    <value>Вылазки</value>
+  </data>
+  <data name="FortMainView/transporting/exportingStatus" xml:space="preserve">
+    <value>Выберите строение, из которого будет транспортирован промресурс.</value>
+  </data>
+  <data name="FortMainView/transporting/importingStatus" xml:space="preserve">
+    <value>Укажите строение, в которое направите транспорт с промресурсом.</value>
+  </data>
+  <data name="FortMainView/transporting/title" xml:space="preserve">
+    <value>Режим транспортировки</value>
+  </data>
+  <data name="FortMainView/transporting/tutorialDescr" xml:space="preserve">
+    <value>Для завершения первого строительства перейдите в режим транспортировки.</value>
+  </data>
+  <data name="FortMainView/transporting/tutorialDescrDisabled" xml:space="preserve">
+    <value>В данный момент транспортировка невозможна.</value>
+  </data>
+  <data name="FortMainView/transportingTutor/title" xml:space="preserve">
+    <value>Шаг 3 из 3. Заполните склад строения промресурсом</value>
+  </data>
+  <data name="FortTransportConfirmationWindow/cancelButton" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="FortTransportConfirmationWindow/maxTransportingSizeLabel" xml:space="preserve">
+    <value>Максимальная грузоподъёмность: </value>
+  </data>
+  <data name="FortTransportConfirmationWindow/title" xml:space="preserve">
+    <value>Подтверждение транспортировки</value>
+  </data>
+  <data name="FortTransportConfirmationWindow/transportButton" xml:space="preserve">
+    <value>Транспортировать</value>
+  </data>
+  <data name="FortTransportConfirmationWindow/transportingFooterText" xml:space="preserve">
+    <value>Разгрузка транспорта
+займёт %(estimatedTime)s.</value>
+  </data>
+  <data name="FortTransportConfirmationWindow/transportingText" xml:space="preserve">
+    <value>Транспортировать:</value>
+  </data>
+  <data name="FortWelcomeCommanderView/button/label" xml:space="preserve">
+    <value>Открыть направление</value>
+  </data>
+  <data name="FortWelcomeCommanderView/option1/descr" xml:space="preserve">
+    <value>Откройте направление и возведите на нём своё первое строение. Резервы, запрашиваемые в строениях, позволят клану получить ощутимые преимущества в бою.</value>
+  </data>
+  <data name="FortWelcomeCommanderView/option1/title" xml:space="preserve">
+    <value>Начало пути</value>
+  </data>
+  <data name="FortWelcomeCommanderView/option2/descr" xml:space="preserve">
+    <value>К каждому строению приписан гарнизон, состоящий из бойцов клана. На основе гарнизонов формируются отряды, зарабатывающие промресурс во время Вылазок. Боец будет приносить доход тому строению, к которому приписан.</value>
+  </data>
+  <data name="FortWelcomeCommanderView/option2/title" xml:space="preserve">
+    <value>Добытчики</value>
+  </data>
+  <data name="FortWelcomeCommanderView/option3/descr" xml:space="preserve">
+    <value>За промресурс можно запрашивать резервы. При использовании резерв действует ограниченное время и распространяется на всех бойцов клана. Эффективность резерва зависит от уровня строения.</value>
+  </data>
+  <data name="FortWelcomeCommanderView/option3/title" xml:space="preserve">
+    <value>Привлечение резервов</value>
+  </data>
+  <data name="FortWelcomeCommanderView/title" xml:space="preserve">
+    <value>Открытие направления</value>
+  </data>
+  <data name="FortWelcomeView/bonuses/body" xml:space="preserve">
+    <value>Накапливайте ресурсы для улучшения строений
+и запрашивайте резервы, способные
+переломить ход даже самого тяжёлого сражения.</value>
+  </data>
+  <data name="FortWelcomeView/bonuses/title" xml:space="preserve">
+    <value>Преимущества в бою</value>
+  </data>
+  <data name="FortWelcomeView/buildingAndUpgrading/body" xml:space="preserve">
+    <value>Дайте достойный отпор клану противника,
+создав неприступную линию обороны с уникальными
+строениями.</value>
+  </data>
+  <data name="FortWelcomeView/buildingAndUpgrading/title" xml:space="preserve">
+    <value>Клановая крепость</value>
+  </data>
+  <data name="FortWelcomeView/clanCreate" xml:space="preserve">
+    <value>создать клан</value>
+  </data>
+  <data name="FortWelcomeView/clanSearch" xml:space="preserve">
+    <value>Найти клан</value>
+  </data>
+  <data name="FortWelcomeView/createFortBtn" xml:space="preserve">
+    <value>Основать Укрепрайон</value>
+  </data>
+  <data name="FortWelcomeView/hyperlink/more" xml:space="preserve">
+    <value>Подробное описание Укрепрайонов</value>
+  </data>
+  <data name="FortWelcomeView/requirementClan" xml:space="preserve">
+    <value>Только кланы могут владеть Укрепрайоном. Вы
+ещё не состоите в клане.</value>
+  </data>
+  <data name="FortWelcomeView/requirementCommander" xml:space="preserve">
+    <value>Основать Укрепрайон может только командующий
+кланом </value>
+  </data>
+  <data name="FortWelcomeView/title" xml:space="preserve">
+    <value>Добро пожаловать в Укрепрайон, бойцы!</value>
+  </data>
+  <data name="FortWelcomeView/warForResources/body" xml:space="preserve">
+    <value>Объявляйте войну другим кланам и нападайте на их Укрепрайоны, реквизируя промресурс.</value>
+  </data>
+  <data name="FortWelcomeView/warForResources/title" xml:space="preserve">
+    <value>Война за ресурсы</value>
+  </data>
+  <data name="FortWelcomeView/warning" xml:space="preserve">
+    <value>Необходимо %(minClanSize)d бойцов в клане</value>
+  </data>
+  <data name="General/direction" xml:space="preserve">
+    <value>Направление %(value)s</value>
+  </data>
+  <data name="General/directionName1" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="General/directionName2" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="General/directionName3" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="General/directionName4" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="General/orderType/additionalBriefing" xml:space="preserve">
+    <value>Дополнительный инструктаж</value>
+  </data>
+  <data name="General/orderType/battlePayments" xml:space="preserve">
+    <value>Боевые выплаты</value>
+  </data>
+  <data name="General/orderType/evacuation" xml:space="preserve">
+    <value>Эвакуация</value>
+  </data>
+  <data name="General/orderType/heavyTrucks" xml:space="preserve">
+    <value>Большегрузный транспорт</value>
+  </data>
+  <data name="General/orderType/militaryManeuvers" xml:space="preserve">
+    <value>Военные учения</value>
+  </data>
+  <data name="General/orderType/requisition" xml:space="preserve">
+    <value>Реквизиция</value>
+  </data>
+  <data name="General/orderType/tacticalTraining" xml:space="preserve">
+    <value>Тактическая подготовка</value>
+  </data>
+  <data name="Modernization/applyButton/label" xml:space="preserve">
+    <value>Модернизировать</value>
+  </data>
+  <data name="Modernization/cancelButton/label" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="Modernization/conditions/defencePeriod" xml:space="preserve">
+    <value>%(level)s уровень командного центра</value>
+  </data>
+  <data name="Modernization/conditions/fortMaxLevel" xml:space="preserve">
+    <value>Достигнут максимальный уровень командного центра в текущем обновлении.</value>
+  </data>
+  <data name="Modernization/conditions/generalCondition" xml:space="preserve">
+    <value>Условие: %(level)s уровень командного центра</value>
+  </data>
+  <data name="Modernization/conditions/notFulfilled" xml:space="preserve">
+    <value> (не выполнено)</value>
+  </data>
+  <data name="Modernization/modernizationInfo/afterLabel" xml:space="preserve">
+    <value>После модернизации:</value>
+  </data>
+  <data name="Modernization/modernizationInfo/beforeLabel" xml:space="preserve">
+    <value>Текущее состояние:</value>
+  </data>
+  <data name="Modernization/modernizationInfo/countCost" xml:space="preserve">
+    <value>Стоимость модернизации:</value>
+  </data>
+  <data name="Modernization/windowTitle" xml:space="preserve">
+    <value>%(buildingName)s: модернизация</value>
+  </data>
+  <data name="Orders/orderConfirmationWindow/cost" xml:space="preserve">
+    <value>Стоимость:</value>
+  </data>
+  <data name="Orders/orderConfirmationWindow/preparationTime" xml:space="preserve">
+    <value>Время подготовки:</value>
+  </data>
+  <data name="Orders/orderPopover/durationTime" xml:space="preserve">
+    <value>Время действия</value>
+  </data>
+  <data name="Orders/orderPopover/inDefensive" xml:space="preserve">
+    <value>Период обороны</value>
+  </data>
+  <data name="Orders/orderPopover/levelsLbl" xml:space="preserve">
+    <value>Резерв %(orderLevel)s уровня</value>
+  </data>
+  <data name="Orders/orderPopover/notAvailable" xml:space="preserve">
+    <value>Недоступно</value>
+  </data>
+  <data name="Orders/orderPopover/orderNotReady" xml:space="preserve">
+    <value>Необходимое строение для подготовки резерва: %(building)s.</value>
+  </data>
+  <data name="Orders/orderPopover/orderPrice" xml:space="preserve">
+    <value>Стоимость</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/additionalBriefing" xml:space="preserve">
+    <value>Дополнительный инструктаж</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/battlePayments" xml:space="preserve">
+    <value>Боевые выплаты</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/evacuation" xml:space="preserve">
+    <value>Эвакуация</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/heavyTrucks" xml:space="preserve">
+    <value>Большегрузный транспорт</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/militaryManeuvers" xml:space="preserve">
+    <value>Военные учения</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/requisition" xml:space="preserve">
+    <value>Реквизиция</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/tacticalTraining" xml:space="preserve">
+    <value>Тактическая подготовка</value>
+  </data>
+  <data name="Orders/orderPopover/producedAmount" xml:space="preserve">
+    <value>Подготовлено</value>
+  </data>
+  <data name="Orders/orderPopover/productionBuilding" xml:space="preserve">
+    <value>Необходимое строение</value>
+  </data>
+  <data name="Orders/orderPopover/productionTime" xml:space="preserve">
+    <value>Время подготовки</value>
+  </data>
+  <data name="Orders/orderPopover/useOrder" xml:space="preserve">
+    <value>Использовать резерв</value>
+  </data>
+  <data name="Time/timeValue/days" xml:space="preserve">
+    <value>%(day)s д %(hour)s ч %(min)s мин</value>
+  </data>
+  <data name="Time/timeValue/hours" xml:space="preserve">
+    <value>%(hour)s ч. %(min)s мин.</value>
+  </data>
+  <data name="Time/timeValue/lessMin" xml:space="preserve">
+    <value>менее минуты</value>
+  </data>
+  <data name="Time/timeValue/min" xml:space="preserve">
+    <value>%(min)s мин.</value>
+  </data>
+  <data name="clanStats/params/sortie/avgDefres/label" xml:space="preserve">
+    <value>Средняя добыча
+за Вылазку</value>
+  </data>
+  <data name="clanStats/params/sortie/avgDefres/tooltip/body" xml:space="preserve">
+    <value>Отношение общего количества заработанного промресурса к количеству проведённых Вылазок</value>
+  </data>
+  <data name="clanStats/params/sortie/avgDefres/tooltip/header" xml:space="preserve">
+    <value>Средняя добыча за Вылазку</value>
+  </data>
+  <data name="clanStats/params/sortie/battles/absoluteBattlesCount/label" xml:space="preserve">
+    <value>Абсолютного уровня</value>
+  </data>
+  <data name="clanStats/params/sortie/battles/championBattlesCount/label" xml:space="preserve">
+    <value>Чемпионского уровня</value>
+  </data>
+  <data name="clanStats/params/sortie/battles/middleBattlesCount/label" xml:space="preserve">
+    <value>Среднего уровня</value>
+  </data>
+  <data name="clanStats/params/sortie/battlesCount/label" xml:space="preserve">
+    <value>Вылазки</value>
+  </data>
+  <data name="clanStats/params/sortie/battlesCount/tooltip/body" xml:space="preserve">
+    <value>Общее количество проведённых Вылазок. Из них:
+• побед: %(value_0)s
+• поражений: %(value_1)s
+• ничьих: %(value_2)s</value>
+  </data>
+  <data name="clanStats/params/sortie/battlesCount/tooltip/header" xml:space="preserve">
+    <value>Вылазки</value>
+  </data>
+  <data name="clanStats/params/sortie/defres/lootInSorties/label" xml:space="preserve">
+    <value>Всего заработано промресурса в Вылазках</value>
+  </data>
+  <data name="clanStats/params/sortie/wins/label" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="clanStats/params/sortie/wins/tooltip/body" xml:space="preserve">
+    <value>Общий процент одержанных побед в Вылазках</value>
+  </data>
+  <data name="clanStats/params/sortie/wins/tooltip/header" xml:space="preserve">
+    <value>Победы в Вылазках</value>
+  </data>
+  <data name="disconnected/Warning" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="disconnected/WarningDescriptionCenterUnavailable" xml:space="preserve">
+    <value>Укрепрайон временно недоступен. Повторите попытку позже.</value>
+  </data>
+  <data name="disconnected/WarningDescriptionRoaming" xml:space="preserve">
+    <value>В роуминге Укрепрайон недоступен. Чтобы получить доступ к Укрепрайону, перейдите в свой регион.</value>
+  </data>
+  <data name="fortification/clan/position/commander" xml:space="preserve">
+    <value>Командир подразделения</value>
+  </data>
+  <data name="fortification/clan/position/diplomat" xml:space="preserve">
+    <value>Офицер разведки</value>
+  </data>
+  <data name="fortification/clan/position/leader" xml:space="preserve">
+    <value>Командующий</value>
+  </data>
+  <data name="fortification/clan/position/private" xml:space="preserve">
+    <value>Боец</value>
+  </data>
+  <data name="fortification/clan/position/recruit" xml:space="preserve">
+    <value>Новобранец</value>
+  </data>
+  <data name="fortification/clan/position/recruiter" xml:space="preserve">
+    <value>Офицер по кадрам</value>
+  </data>
+  <data name="fortification/clan/position/treasurer" xml:space="preserve">
+    <value>Офицер снабжения</value>
+  </data>
+  <data name="fortification/clan/position/vice_leader" xml:space="preserve">
+    <value>Заместитель командующего</value>
+  </data>
+  <data name="sortie/division_name/ABSOLUTE" xml:space="preserve">
+    <value>Абсолютный</value>
+  </data>
+  <data name="sortie/division_name/ALL" xml:space="preserve">
+    <value>Все дивизионы</value>
+  </data>
+  <data name="sortie/division_name/CHAMPION" xml:space="preserve">
+    <value>Чемпионский</value>
+  </data>
+  <data name="sortie/division_name/MIDDLE" xml:space="preserve">
+    <value>Средний</value>
+  </data>
+  <data name="sortie/introView/descr" xml:space="preserve">
+    <value>На развитие Укрепрайона и подготовку резервов расходуется промресурс. Захватывайте его в Вылазках или в Наступлениях.</value>
+  </data>
+  <data name="sortie/introView/fortBattles/btnLabel" xml:space="preserve">
+    <value>Участвовать</value>
+  </data>
+  <data name="sortie/introView/fortBattles/btnTitle" xml:space="preserve">
+    <value>Скоро</value>
+  </data>
+  <data name="sortie/introView/fortBattles/descr" xml:space="preserve">
+    <value>Атака Укрепрайона противника или защита собственного.</value>
+  </data>
+  <data name="sortie/introView/fortBattles/title" xml:space="preserve">
+    <value>Наступления</value>
+  </data>
+  <data name="sortie/introView/sortie/btnTitle" xml:space="preserve">
+    <value>Перейти к отрядам</value>
+  </data>
+  <data name="sortie/introView/sortie/descr" xml:space="preserve">
+    <value>Бой со случайным кланом противника на нейтральной территории.</value>
+  </data>
+  <data name="sortie/introView/sortie/title" xml:space="preserve">
+    <value>Вылазки</value>
+  </data>
+  <data name="sortie/introView/title" xml:space="preserve">
+    <value>Укрепрайон: сражения</value>
+  </data>
+  <data name="sortie/listView/create" xml:space="preserve">
+    <value>Создать отряд</value>
+  </data>
+  <data name="sortie/listView/description" xml:space="preserve">
+    <value>Зарабатывайте промресурс для развития Укрепрайона, сражаясь со случайными кланами противника
+на нейтральной территории.</value>
+  </data>
+  <data name="sortie/listView/enterBtn" xml:space="preserve">
+    <value>Записаться</value>
+  </data>
+  <data name="sortie/listView/enterText" xml:space="preserve">
+    <value>Вы можете записаться добровольцем</value>
+  </data>
+  <data name="sortie/listView/filter" xml:space="preserve">
+    <value>Отображать:</value>
+  </data>
+  <data name="sortie/listView/listColumns/division" xml:space="preserve">
+    <value>Дивизион</value>
+  </data>
+  <data name="sortie/listView/listColumns/membersCount" xml:space="preserve">
+    <value>Состав отряда</value>
+  </data>
+  <data name="sortie/listView/listColumns/name" xml:space="preserve">
+    <value>Командир</value>
+  </data>
+  <data name="sortie/listView/listTitle" xml:space="preserve">
+    <value>Сформированные отряды</value>
+  </data>
+  <data name="sortie/listView/notSelected" xml:space="preserve">
+    <value>Выберите отряд из списка слева,
+чтобы увидеть подробное описание.</value>
+  </data>
+  <data name="sortie/listView/selectedTeam" xml:space="preserve">
+    <value>Отряд</value>
+  </data>
+  <data name="sortie/listView/teamMembers" xml:space="preserve">
+    <value>Состав: %(current)s / %(max)s</value>
+  </data>
+  <data name="sortie/listView/teamVehicles" xml:space="preserve">
+    <value>Техника: %(values)s</value>
+  </data>
+  <data name="sortie/listView/teamVehiclesStub" xml:space="preserve">
+    <value>Техника:</value>
+  </data>
+  <data name="sortie/listView/title" xml:space="preserve">
+    <value>Вылазки</value>
+  </data>
+  <data name="sortie/room/candidates" xml:space="preserve">
+    <value>Добровольцы</value>
+  </data>
+  <data name="sortie/room/changeDivision" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="sortie/room/chat" xml:space="preserve">
+    <value>Канал связи</value>
+  </data>
+  <data name="sortie/room/description" xml:space="preserve">
+    <value>Сформированный отряд вступает в бой со случайным кланом противника на нейтральной территории. Уровень используемой техники определяется выбранным дивизионом.</value>
+  </data>
+  <data name="sortie/room/division" xml:space="preserve">
+    <value>Дивизион: </value>
+  </data>
+  <data name="sortie/room/fight" xml:space="preserve">
+    <value>В бой!</value>
+  </data>
+  <data name="sortie/room/inviteBtn" xml:space="preserve">
+    <value>Пригласить игроков</value>
+  </data>
+  <data name="sortie/room/inviteFriends" xml:space="preserve">
+    <value>Пригласить игроков</value>
+  </data>
+  <data name="sortie/room/leaveBtn" xml:space="preserve">
+    <value>К СПИСКУ ОТРЯДОВ</value>
+  </data>
+  <data name="sortie/room/members" xml:space="preserve">
+    <value>Состав: %(current)s / %(max)s</value>
+  </data>
+  <data name="sortie/room/message/candidate" xml:space="preserve">
+    <value>Вы не в штате отряда</value>
+  </data>
+  <data name="sortie/room/message/candidate/invalidVehicles" xml:space="preserve">
+    <value>Ваша техника не соответствует требованиям командира</value>
+  </data>
+  <data name="sortie/room/message/candidate/lockedUnits" xml:space="preserve">
+    <value>Ожидайте, состав формируется командиром</value>
+  </data>
+  <data name="sortie/room/message/candidate/unitIsFull" xml:space="preserve">
+    <value>Невозможно перейти в состав отряда. Нет свободных мест</value>
+  </data>
+  <data name="sortie/room/message/getReady" xml:space="preserve">
+    <value>Подтвердите готовность выйти в бой</value>
+  </data>
+  <data name="sortie/room/message/levelError" xml:space="preserve">
+    <value>Превышен суммарный уровень техники</value>
+  </data>
+  <data name="sortie/room/message/noVehicle" xml:space="preserve">
+    <value>Техника не выбрана</value>
+  </data>
+  <data name="sortie/room/message/notFullUnit" xml:space="preserve">
+    <value>Неполный состав</value>
+  </data>
+  <data name="sortie/room/message/openSlots/levelError" xml:space="preserve">
+    <value>Превышен суммарный уровень техники при наличии свободных слотов!</value>
+  </data>
+  <data name="sortie/room/message/ready" xml:space="preserve">
+    <value>Все готовы</value>
+  </data>
+  <data name="sortie/room/message/vehicleInNotReady" xml:space="preserve">
+    <value>Машина не готова к бою</value>
+  </data>
+  <data name="sortie/room/message/waiting" xml:space="preserve">
+    <value>Ожидание готовности игроков...</value>
+  </data>
+  <data name="sortie/room/notReady" xml:space="preserve">
+    <value>Не готов</value>
+  </data>
+  <data name="sortie/room/ready" xml:space="preserve">
+    <value>Готов!</value>
+  </data>
+  <data name="sortie/room/rosterListTitle" xml:space="preserve">
+    <value>Состав отряда</value>
+  </data>
+  <data name="sortie/room/title" xml:space="preserve">
+    <value>Отряд</value>
+  </data>
+  <data name="sortie/room/vehicles" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="sortie/slot/emptySlot" xml:space="preserve">
+    <value>Свободно</value>
+  </data>
+  <data name="sortie/slot/takePlace" xml:space="preserve">
+    <value>Занять место</value>
+  </data>
+  <data name="sortie/vehicleSelector/description" xml:space="preserve">
+    <value>Выберите машину, на которой хотите провести Вылазку. Красный индикатор означает, что техника не готова к бою.</value>
+  </data>
+  <data name="sortie/listView/slot/closed" xml:space="preserve">
+    <value>Недоступно</value>
+  </data>
+  <data name="BuildingPopover/commanderStatus/bodyStatus/freeze" xml:space="preserve">
+    <value>Для функционирования Укрепрайона заполните шкалу прочности.</value>
+  </data>
+  <data name="BuildingPopover/mapInfo/noBattle" xml:space="preserve">
+    <value>Бой не состоится</value>
+  </data>
+  <data name="BuildingPopover/orderProcess/inPause" xml:space="preserve">
+    <value>Приостановлено</value>
+  </data>
+  <data name="BuildingPopover/soldierStatus/bodyStatus/freeze" xml:space="preserve">
+    <value>Для ремонта строения присоединитесь к гарнизону и заработайте промресурс.</value>
+  </data>
+  <data name="Buildings/buildingName/office_building" xml:space="preserve">
+    <value>Канцелярия</value>
+  </data>
+  <data name="Buildings/defResInfo/office_building" xml:space="preserve">
+    <value>Особые указания</value>
+  </data>
+  <data name="Buildings/processOrderInfo/office_building" xml:space="preserve">
+    <value>Случайная награда за выполнение особых указаний: от дополнительного опыта экипажа до игрового золота.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/office_building" xml:space="preserve">
+    <value>Дешифровщики канцелярии время от времени получают и обрабатывают особые указания из штаба, после чего направляют их клану для немедленного исполнения.</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/office_building" xml:space="preserve">
+    <value>Различные награды: скидки, опыт, золото и прочее.</value>
+  </data>
+  <data name="FortCalendarWindow/calendar/dayTooltip/future/body" xml:space="preserve">
+    <value>Нажмите, чтобы посмотреть подробную информацию о запланированных битвах.</value>
+  </data>
+  <data name="FortCalendarWindow/calendar/dayTooltip/future/header" xml:space="preserve">
+    <value>Запланировано битв: %(count)d</value>
+  </data>
+  <data name="FortCalendarWindow/calendar/dayTooltip/notAvailable/body" xml:space="preserve">
+    <value>Вы можете просматривать только события в диапазоне +/- 2 недель.</value>
+  </data>
+  <data name="FortCalendarWindow/calendar/dayTooltip/notAvailable/header" xml:space="preserve">
+    <value>Информация недоступна</value>
+  </data>
+  <data name="FortCalendarWindow/calendar/dayTooltip/past/body" xml:space="preserve">
+    <value>Нажмите, чтобы посмотреть подробную информацию о состоявшихся битвах.</value>
+  </data>
+  <data name="FortCalendarWindow/calendar/dayTooltip/past/header" xml:space="preserve">
+    <value>Состоялось битв: %(count)d</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/empty/noEvents" xml:space="preserve">
+    <value>Запланированных или
+проведённых битв нет</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/empty/notAvailable" xml:space="preserve">
+    <value>Информация недоступна. Вы можете просматривать только события в диапазоне +/- 2 недель.</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/empty/vacation" xml:space="preserve">
+    <value>Битвы не запланированы.
+Нейтралитет: %(date)s</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/info/battlesCount" xml:space="preserve">
+    <value>Количество битв: %(eventsCount)d</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/info/future" xml:space="preserve">
+    <value>Количество битв: %(eventsCount)d</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/info/past" xml:space="preserve">
+    <value>Состоялось битв: %(eventsCount)d</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/item/result/lose" xml:space="preserve">
+    <value>Поражение</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/item/result/tie" xml:space="preserve">
+    <value>Ничья</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/item/result/win" xml:space="preserve">
+    <value>Победа</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/item/timeInfo" xml:space="preserve">
+    <value>%(startTime)s – %(endTime)s</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/item/title/defence" xml:space="preserve">
+    <value>Период обороны — клан %(clanName)s</value>
+  </data>
+  <data name="FortCalendarWindow/eventsList/item/title/offence" xml:space="preserve">
+    <value>Нападение на клан %(clanName)s</value>
+  </data>
+  <data name="FortCalendarWindow/message/vacation" xml:space="preserve">
+    <value>Нейтралитет: %(date)s</value>
+  </data>
+  <data name="FortCalendarWindow/title" xml:space="preserve">
+    <value>Календарь</value>
+  </data>
+  <data name="FortClanBattleList/actionDescr" xml:space="preserve">
+    <value>Вы сможете присоединиться к отряду за 15 минут до боя.</value>
+  </data>
+  <data name="FortClanBattleList/currentBtlCount" xml:space="preserve">
+    <value>Ближайшие битвы:</value>
+  </data>
+  <data name="FortClanBattleList/descrLbl" xml:space="preserve">
+    <value>В назначенный час присоединяйтесь к вашим соклановцам для защиты
+своего Укрепрайона или атаки Укрепрайона противника.</value>
+  </data>
+  <data name="FortClanBattleList/details/attack_title" xml:space="preserve">
+    <value>Нападение %(clanName)s</value>
+  </data>
+  <data name="FortClanBattleList/details/btnLbl" xml:space="preserve">
+    <value>Создать отряд</value>
+  </data>
+  <data name="FortClanBattleList/details/creationDescr" xml:space="preserve">
+    <value>Нажмите, чтобы перейти к созданию отряда
+и выйти в Наступление.</value>
+  </data>
+  <data name="FortClanBattleList/details/creationDescr_disable" xml:space="preserve">
+    <value>Создать отряд для Наступления можно
+за 15 минут до его начала.</value>
+  </data>
+  <data name="FortClanBattleList/details/creationTitle" xml:space="preserve">
+    <value>Создание отряда</value>
+  </data>
+  <data name="FortClanBattleList/details/description" xml:space="preserve">
+    <value>Направление %(directionName)s</value>
+  </data>
+  <data name="FortClanBattleList/details/title" xml:space="preserve">
+    <value>Период обороны %(clanName)s</value>
+  </data>
+  <data name="FortClanBattleList/renderBattleName/clanBattleDefence" xml:space="preserve">
+    <value>Период обороны %(clanName)s</value>
+  </data>
+  <data name="FortClanBattleList/renderBattleName/clanBattleOffence" xml:space="preserve">
+    <value>Нападение %(clanName)s</value>
+  </data>
+  <data name="FortClanBattleList/renderCurrentTime/beforeBattle" xml:space="preserve">
+    <value>До начала:</value>
+  </data>
+  <data name="FortClanBattleList/renderCurrentTime/isBattle" xml:space="preserve">
+    <value>Идёт бой</value>
+  </data>
+  <data name="FortClanBattleList/renderDayOfBattle/today" xml:space="preserve">
+    <value>сегодня</value>
+  </data>
+  <data name="FortClanBattleList/renderDayOfBattle/tomorrow" xml:space="preserve">
+    <value>завтра</value>
+  </data>
+  <data name="FortClanBattleList/renderDirection" xml:space="preserve">
+    <value>Направление %(directionName)s</value>
+  </data>
+  <data name="FortClanBattleList/tableHeader/battleName" xml:space="preserve">
+    <value>Название битвы</value>
+  </data>
+  <data name="FortClanBattleList/tableHeader/battleTime" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="FortClanBattleList/tableHeader/dayOfBattle" xml:space="preserve">
+    <value>День битвы</value>
+  </data>
+  <data name="FortClanBattleList/titleLbl" xml:space="preserve">
+    <value>Наступления</value>
+  </data>
+  <data name="FortClanBattleRoom/header/battleIcon/defence/tooltip/body" xml:space="preserve">
+    <value>Защита начинается с боя за собственное строение.</value>
+  </data>
+  <data name="FortClanBattleRoom/header/battleIcon/defence/tooltip/header" xml:space="preserve">
+    <value>Защита</value>
+  </data>
+  <data name="FortClanBattleRoom/header/battleIcon/offence/tooltip/body" xml:space="preserve">
+    <value>Атака начинается с боя за строение противника.</value>
+  </data>
+  <data name="FortClanBattleRoom/header/battleIcon/offence/tooltip/header" xml:space="preserve">
+    <value>Атака</value>
+  </data>
+  <data name="FortClanBattleRoom/header/buildingIndicator/defence/tooltip/body" xml:space="preserve">
+    <value>Вам предстоит провести бой за собственное строение: %(building)s</value>
+  </data>
+  <data name="FortClanBattleRoom/header/buildingIndicator/defence/tooltip/header" xml:space="preserve">
+    <value>Предстоящий бой</value>
+  </data>
+  <data name="FortClanBattleRoom/header/buildingIndicator/offence/tooltip/body" xml:space="preserve">
+    <value>Вам предстоит провести бой за строение противника: %(building)s</value>
+  </data>
+  <data name="FortClanBattleRoom/header/buildingIndicator/offence/tooltip/header" xml:space="preserve">
+    <value>Предстоящий бой</value>
+  </data>
+  <data name="FortClanBattleRoom/header/mapTitle" xml:space="preserve">
+    <value>Карта: %(mapName)s</value>
+  </data>
+  <data name="FortClanBattleRoom/teamSectionTitle/inBattle" xml:space="preserve">
+    <value>Идёт бой</value>
+  </data>
+  <data name="FortClanBattleRoom/teamSectionTitle/prepareTeam" xml:space="preserve">
+    <value>При готовности обеих сторон бой начнётся досрочно.</value>
+  </data>
+  <data name="FortDatePickerPopover/calendar/dayTooltip/available/body" xml:space="preserve">
+    <value>В этот день клан доступен для нападения.</value>
+  </data>
+  <data name="FortDatePickerPopover/calendar/dayTooltip/available/header" xml:space="preserve">
+    <value>Доступен</value>
+  </data>
+  <data name="FortDatePickerPopover/calendar/dayTooltip/busy/body" xml:space="preserve">
+    <value>Выбранный клан уже принял вызов противника и ожидает битву.</value>
+  </data>
+  <data name="FortDatePickerPopover/calendar/dayTooltip/busy/header" xml:space="preserve">
+    <value>Ожидает битву</value>
+  </data>
+  <data name="FortDatePickerPopover/calendar/dayTooltip/notAvailable/body" xml:space="preserve">
+    <value>В этот день клан недоступен для нападения.</value>
+  </data>
+  <data name="FortDatePickerPopover/calendar/dayTooltip/notAvailable/header" xml:space="preserve">
+    <value>Недоступен</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/button/cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/button/submit" xml:space="preserve">
+    <value>Подтвердить атаку</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/description" xml:space="preserve">
+    <value>Укажите своё направление, с которого планируете атаковать, и подтвердите нападение:</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/direction/notAvailable" xml:space="preserve">
+    <value>Доступно с %(date)s.</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/header" xml:space="preserve">
+    <value>%(date)s, %(startTime)s – %(endTime)s, нападение на %(clanName)s</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/item/attack/tooltip/body" xml:space="preserve">
+    <value>При нападении на %(clanName)s вы будете атаковать с направления %(direction)s</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/item/attack/tooltip/header" xml:space="preserve">
+    <value>Напасть с направления %(direction)s</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/item/busy/tooltip/body" xml:space="preserve">
+    <value>В это время вы атакуете %(clanName)s</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/item/busy/tooltip/header" xml:space="preserve">
+    <value>Нападение невозможно</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/item/notAvailable/tooltip/body" xml:space="preserve">
+    <value>Доступно с %(date)s.</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/item/notAvailable/tooltip/header" xml:space="preserve">
+    <value>Нападение невозможно</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/item/notOpened/tooltip/body" xml:space="preserve">
+    <value>Вы ещё не открыли это направление.</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/item/notOpened/tooltip/header" xml:space="preserve">
+    <value>Нападение невозможно</value>
+  </data>
+  <data name="FortDeclarationOfWarWindow/title" xml:space="preserve">
+    <value>Объявление войны</value>
+  </data>
+  <data name="FortDirectionsWindow/descr/baseRepairRequire" xml:space="preserve">
+    <value>Для открытия нового направления необходимо отремонтировать %(baseName)s </value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/applyButtonText" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/attackAvailability" xml:space="preserve">
+    <value>Доступность для нападения:</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/availability" xml:space="preserve">
+    <value>Доступность для нападения:</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/availability/item/any" xml:space="preserve">
+    <value>Любая</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/availability/item/dayAfterTomorrow" xml:space="preserve">
+    <value>Послезавтра</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/availability/item/today" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/availability/item/tomorrow" xml:space="preserve">
+    <value>Завтра</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/cancelButtonText" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/clanLevel" xml:space="preserve">
+    <value>Уровень клана:</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/defaultButtonText" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/header" xml:space="preserve">
+    <value>Диапазон поиска кланов</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/startHourRange" xml:space="preserve">
+    <value>Период обороны противника:</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/alreadyFought" xml:space="preserve">
+    <value>Вы уже сражались с %(clanName)s</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/attack" xml:space="preserve">
+    <value>Атака!</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/notAvailable" xml:space="preserve">
+    <value>Доступно с %(date)s.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/attack" xml:space="preserve">
+    <value>Атаковать направление %(direction)s</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/attackInfo" xml:space="preserve">
+    <value>Нажмите, чтобы перейти к выбору направления для стыковки и подтверждению нападения.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/buildingItem" xml:space="preserve">
+    <value>• %(name)s, %(level)s %(extraInfo)s</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/buildingLowLevel" xml:space="preserve">
+    <value>(бои ведутся только за строения от %(minLevel)s уровня и выше)</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/buildings" xml:space="preserve">
+    <value>На пути к командному центру клана расположены:
+%(buildings)s</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/busy/header" xml:space="preserve">
+    <value>Направление %(direction)s занято</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/busy/info" xml:space="preserve">
+    <value>%(date)s данное направление будет атаковано кланом %(clanName)s.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/notAvailable/header" xml:space="preserve">
+    <value>Направление %(direction)s недоступно</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/notAvailable/info" xml:space="preserve">
+    <value>Данное направление — новое, напасть на него можно не ранее %(date)s.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/notCommander" xml:space="preserve">
+    <value>Направление %(direction)s</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/notCommanderInfo" xml:space="preserve">
+    <value>Объявить о нападении может только командующий или его заместитель.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/direction/tooltip/notOpened" xml:space="preserve">
+    <value>Клан ещё не открыл это направление.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/nextAvailableAttack" xml:space="preserve">
+    <value>Новая атака будет доступна с %(nextDate)s</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/nextAvailableAttackInAWeek" xml:space="preserve">
+    <value>Новая атака будет доступна только через неделю после битвы %(nextDate)s</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/notSelectedScreen/commander" xml:space="preserve">
+    <value>Чтобы объявить войну, выберите клан из списка слева.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/notSelectedScreen/notCommander" xml:space="preserve">
+    <value>Чтобы увидеть подробности, выберите клан
+из списка слева.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/selectDate" xml:space="preserve">
+    <value>Выберите дату и направление для атаки:</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/selectDate/cantAttack" xml:space="preserve">
+    <value>Недостаточно полномочий для назначения даты битвы.</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/warDeclared" xml:space="preserve">
+    <value>Война клану %(clanName)s объявлена!</value>
+  </data>
+  <data name="FortIntelligence/clanTypes/all" xml:space="preserve">
+    <value>Все кланы</value>
+  </data>
+  <data name="FortIntelligence/clanTypes/booked" xml:space="preserve">
+    <value>Избранные</value>
+  </data>
+  <data name="FortIntelligence/clanTypes/last" xml:space="preserve">
+    <value>Последние</value>
+  </data>
+  <data name="FortIntelligence/clearFilterBtn/title" xml:space="preserve">
+    <value>Очистить запрос</value>
+  </data>
+  <data name="FortIntelligence/date/notAvailable" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="FortIntelligence/date/today" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="FortIntelligence/date/tomorrow" xml:space="preserve">
+    <value>Завтра</value>
+  </data>
+  <data name="FortIntelligence/fortIntelFilter/filterButtonStatus/max" xml:space="preserve">
+    <value>Максимальный диапазон</value>
+  </data>
+  <data name="FortIntelligence/fortIntelFilter/filterButtonStatus/min" xml:space="preserve">
+    <value>Диапазон уменьшен</value>
+  </data>
+  <data name="FortIntelligence/fortIntelFilter/status/all" xml:space="preserve">
+    <value>Выберите цель для нападения</value>
+  </data>
+  <data name="FortIntelligence/fortIntelFilter/status/appliedBookmarkedFilter" xml:space="preserve">
+    <value>Кланы, которые вы отметили как избранные:</value>
+  </data>
+  <data name="FortIntelligence/fortIntelFilter/status/appliedFilter" xml:space="preserve">
+    <value>Показаны результаты с учётом изменённого диапазона поиска:</value>
+  </data>
+  <data name="FortIntelligence/fortIntelFilter/status/appliedFilterAndClan" xml:space="preserve">
+    <value>На запрос действует изменённый диапазон поиска:</value>
+  </data>
+  <data name="FortIntelligence/fortIntelFilter/status/appliedLastFoundFilter" xml:space="preserve">
+    <value>Кланы, с которыми вы недавно сражались:</value>
+  </data>
+  <data name="FortIntelligence/sortBtns/availability" xml:space="preserve">
+    <value>Доступность</value>
+  </data>
+  <data name="FortIntelligence/sortBtns/buildings" xml:space="preserve">
+    <value>Уровень строений</value>
+  </data>
+  <data name="FortIntelligence/sortBtns/clanTag" xml:space="preserve">
+    <value>Тег клана</value>
+  </data>
+  <data name="FortIntelligence/sortBtns/defenceTime" xml:space="preserve">
+    <value>Период обороны</value>
+  </data>
+  <data name="FortIntelligence/status/empty" xml:space="preserve">
+    <value>Поиск не дал результатов. Заданы слишком жёсткие рамки поиска.</value>
+  </data>
+  <data name="FortIntelligence/status/emptyAbbrev" xml:space="preserve">
+    <value>Клан с таким тегом не найден. Возможно, он ещё не организовал оборону или для данного запроса диапазоны поиска оказались слишком жёсткими.
+Измените или сбросьте диапазоны, попробуйте ввести другой тег.</value>
+  </data>
+  <data name="FortIntelligence/status/emptyFavorite" xml:space="preserve">
+    <value>Здесь будут отображаться кланы, отмеченные вами как избранные.</value>
+  </data>
+  <data name="FortIntelligence/status/emptyRecent" xml:space="preserve">
+    <value>Здесь будут отображаться кланы, с которыми вы сражались в последнее время.</value>
+  </data>
+  <data name="FortIntelligence/tagSearchTextInput/default" xml:space="preserve">
+    <value>Поиск по тегу</value>
+  </data>
+  <data name="FortMainView/header/defencePeriod" xml:space="preserve">
+    <value>Период обороны: %(period)s</value>
+  </data>
+  <data name="FortMainView/header/fortFrozen" xml:space="preserve">
+    <value>Оборона сломлена! Отремонтируйте командный центр.</value>
+  </data>
+  <data name="FortMainView/transporting/notAvailableStatus" xml:space="preserve">
+    <value>В данный момент транспортировка невозможна.</value>
+  </data>
+  <data name="General/direction/notAvailable/tooEarly" xml:space="preserve">
+    <value>Доступно с %(date)s</value>
+  </data>
+  <data name="General/direction/notOpened" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="General/orderType/specialMission" xml:space="preserve">
+    <value>Особые указания</value>
+  </data>
+  <data name="Modernization/conditions/baseBuildingFiveLevel" xml:space="preserve">
+    <value>Организовать оборону Укрепрайона</value>
+  </data>
+  <data name="Modernization/conditions/defencePeriodAndBaseBuilding" xml:space="preserve">
+    <value>V уровень командного центра и организованная оборона</value>
+  </data>
+  <data name="Orders/orderPopover/nextBattle" xml:space="preserve">
+    <value>Ближайшая битва</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/specialMission" xml:space="preserve">
+    <value>Особые указания</value>
+  </data>
+  <data name="Orders/orderPopover/specialMission/description" xml:space="preserve">
+    <value>Активируйте резерв для получения особых указаний. Задания и награды при каждом использовании разные.</value>
+  </data>
+  <data name="Orders/orderPopover/specialMission/shortDescr" xml:space="preserve">
+    <value>Для получения выполните особые указания канцелярии.</value>
+  </data>
+  <data name="Orders/specialMission/award" xml:space="preserve">
+    <value>Награда:</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward" xml:space="preserve">
+    <value>Возможная награда:</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/1" xml:space="preserve">
+    <value>дополнительные кредиты.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/10" xml:space="preserve">
+    <value>увеличенные предыдущие награды.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/2" xml:space="preserve">
+    <value>увеличенная предыдущая награда.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/3" xml:space="preserve">
+    <value>увеличенная предыдущая награда или опыт экипажа.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/4" xml:space="preserve">
+    <value>увеличенные предыдущие награды.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/5" xml:space="preserve">
+    <value>увеличенные предыдущие награды или опыт для техники.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/6" xml:space="preserve">
+    <value>увеличенные предыдущие награды или премиум снаряжение.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/7" xml:space="preserve">
+    <value>увеличенные предыдущие награды.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/8" xml:space="preserve">
+    <value>увеличенные предыдущие награды или день премиум аккаунта.</value>
+  </data>
+  <data name="Orders/specialMission/possibleAward/description/level/9" xml:space="preserve">
+    <value>увеличенные предыдущие награды или игровое золото.</value>
+  </data>
+  <data name="SettingsDayoffPopover/applyButtonLabel" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="SettingsDayoffPopover/cancelButtonLabel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="SettingsDayoffPopover/description" xml:space="preserve">
+    <value>Новое время для прекращения огня вступит в силу только через 14 дней.</value>
+  </data>
+  <data name="SettingsDayoffPopover/dropDownDescription" xml:space="preserve">
+    <value>Прекращение огня:</value>
+  </data>
+  <data name="SettingsDefenceHourPopover/applyButtonLabel" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="SettingsDefenceHourPopover/cancelButtonLabel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="SettingsDefenceHourPopover/defenceHour" xml:space="preserve">
+    <value>Период обороны</value>
+  </data>
+  <data name="SettingsDefenceHourPopover/defenceHourTitle" xml:space="preserve">
+    <value>Оборона</value>
+  </data>
+  <data name="SettingsDefenceHourPopover/description" xml:space="preserve">
+    <value>Новый период обороны вступит в силу только через 14 дней.</value>
+  </data>
+  <data name="SettingsPeripheryPopover/applyButtonLabel" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="SettingsPeripheryPopover/cancelButtonLabel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="SettingsPeripheryPopover/description" xml:space="preserve">
+    <value>На выбранном сервере будут создаваться отряды для Наступлений. Смена сервера возможна один раз в 14 дней.</value>
+  </data>
+  <data name="SettingsPeripheryPopover/server" xml:space="preserve">
+    <value>Сервер:</value>
+  </data>
+  <data name="SettingsVacationPopover/applyButtonLabel" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="SettingsVacationPopover/cancelButtonLabel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="SettingsVacationPopover/description" xml:space="preserve">
+    <value>Нейтралитет можно объявить только через 2 недели. Во время нейтралитета Наступления недоступны.</value>
+  </data>
+  <data name="SettingsVacationPopover/ofDays" xml:space="preserve">
+    <value>/ 14 дней</value>
+  </data>
+  <data name="SettingsVacationPopover/vacationDuration" xml:space="preserve">
+    <value>2. Укажите продолжительность нейтралитета:</value>
+  </data>
+  <data name="SettingsVacationPopover/vacationResult" xml:space="preserve">
+    <value>%(startDate)s – %(endDate)s</value>
+  </data>
+  <data name="SettingsVacationPopover/vacationStart" xml:space="preserve">
+    <value>1. Укажите время объявления нейтралитета:</value>
+  </data>
+  <data name="SettingsWindow/blockCondition/defencePeriodTime" xml:space="preserve">
+    <value>Период обороны:</value>
+  </data>
+  <data name="SettingsWindow/blockCondition/inProgress" xml:space="preserve">
+    <value>%(value)s с %(date)s</value>
+  </data>
+  <data name="SettingsWindow/blockCondition/noWeekEnd" xml:space="preserve">
+    <value>не назначено</value>
+  </data>
+  <data name="SettingsWindow/blockCondition/recentlyScheduled" xml:space="preserve">
+    <value>Настройки недавно менялись</value>
+  </data>
+  <data name="SettingsWindow/blockCondition/vacation" xml:space="preserve">
+    <value>Нейтралитет:</value>
+  </data>
+  <data name="SettingsWindow/blockCondition/vacationNotPlanned" xml:space="preserve">
+    <value>отсутствует</value>
+  </data>
+  <data name="SettingsWindow/blockCondition/weekEnd" xml:space="preserve">
+    <value>Прекращение огня:</value>
+  </data>
+  <data name="SettingsWindow/blockDescr/defencePeriodTime" xml:space="preserve">
+    <value>Каждый день, кроме назначенного дня прекращения огня и нейтралитета, в указанное время вы должны защищать свой Укрепрайон от атак кланов противника.</value>
+  </data>
+  <data name="SettingsWindow/blockDescr/vacation" xml:space="preserve">
+    <value>Период от 3 до 14 дней, во время которого на вас не могут напасть. Неиспользованные дни нейтралитета пропадают безвозвратно. Следующий нейтралитет можно объявить только через 90 дней после завершения текущего.</value>
+  </data>
+  <data name="SettingsWindow/blockDescr/weekEnd" xml:space="preserve">
+    <value>Один день в неделю вы можете назначить днём прекращения огня: в этот день вы можете нападать на противника, не боясь быть атакованным.</value>
+  </data>
+  <data name="SettingsWindow/cancelDisablePeriod/btnLbl" xml:space="preserve">
+    <value>Отменить отключение</value>
+  </data>
+  <data name="SettingsWindow/clanInfo/buildingsCount" xml:space="preserve">
+    <value>Строений: %(buildingsCount)s</value>
+  </data>
+  <data name="SettingsWindow/clanInfo/clanTag" xml:space="preserve">
+    <value>Укрепрайон %(clanTag)s</value>
+  </data>
+  <data name="SettingsWindow/clanInfo/creationDate" xml:space="preserve">
+    <value>Основан %(creationDate)s</value>
+  </data>
+  <data name="SettingsWindow/disableDefencePeriodBtn/lbl" xml:space="preserve">
+    <value>Отключить оборону</value>
+  </data>
+  <data name="SettingsWindow/mainButtonLabel" xml:space="preserve">
+    <value>Организовать</value>
+  </data>
+  <data name="SettingsWindow/notActivated/baseLevelCondition" xml:space="preserve">
+    <value>%(level)s уровень командного центра%(isNotReady)s</value>
+  </data>
+  <data name="SettingsWindow/notActivated/conditionTitle" xml:space="preserve">
+    <value>Условия для организации обороны:</value>
+  </data>
+  <data name="SettingsWindow/notActivated/description" xml:space="preserve">
+    <value>Организованная оборона позволяет вручную выбирать противника и нападать на его Укрепрайон. Атака на выбранный клан принесёт больше промресурса, чем случайная Вылазка. Чтобы одержать безоговорочную победу, атакуйте выбранное направление и захватите командный центр противника.</value>
+  </data>
+  <data name="SettingsWindow/notActivated/playerCountCondition" xml:space="preserve">
+    <value>состав клана — не менее %(membersCount)s бойцов%(isNotReady)s</value>
+  </data>
+  <data name="SettingsWindow/perepheryTitle" xml:space="preserve">
+    <value>Сервер:</value>
+  </data>
+  <data name="SettingsWindow/statusMsg/activated" xml:space="preserve">
+    <value>Назначена</value>
+  </data>
+  <data name="SettingsWindow/statusMsg/freezed" xml:space="preserve">
+    <value>Приостановлена</value>
+  </data>
+  <data name="SettingsWindow/statusMsg/notActivated" xml:space="preserve">
+    <value>Не назначена</value>
+  </data>
+  <data name="SettingsWindow/statusMsg/notAvailable" xml:space="preserve">
+    <value>Недоступна</value>
+  </data>
+  <data name="SettingsWindow/windowTitle" xml:space="preserve">
+    <value>Настройки Укрепрайона</value>
+  </data>
+  <data name="ToolTipBuildingInfo/descrAction" xml:space="preserve">
+    <value>Урон при разграблении: %(value)s</value>
+  </data>
+  <data name="ToolTipBuildingInfo/destroyedMessage" xml:space="preserve">
+    <value>Вести бой за разрушенное строение (запас прочности ниже %(value)s) невозможно.</value>
+  </data>
+  <data name="ToolTipBuildingInfo/lowLevelMessage" xml:space="preserve">
+    <value>Вести бой за строения %(minLevel)s – %(maxLevel)s уровней невозможно.</value>
+  </data>
+  <data name="ToolTipBuildingInfo/mep/mapPrefix" xml:space="preserve">
+    <value>Карта: </value>
+  </data>
+  <data name="ToolTipBuildingInfo/statusMsg/defeat" xml:space="preserve">
+    <value>Строение захвачено</value>
+  </data>
+  <data name="ToolTipBuildingInfo/statusMsg/victory" xml:space="preserve">
+    <value>Строение захвачено</value>
+  </data>
+  <data name="ToolTipBuildingInfo/statusMsg/wasNotBattle" xml:space="preserve">
+    <value>Строение не захвачено</value>
+  </data>
+  <data name="clanStats/params/periodDefence/avgDefres/label" xml:space="preserve">
+    <value>Коэффициент
+добычи</value>
+  </data>
+  <data name="clanStats/params/periodDefence/avgDefres/tooltip/body" xml:space="preserve">
+    <value>Соотношение награбленного и потерянного промресурса в Наступлениях</value>
+  </data>
+  <data name="clanStats/params/periodDefence/avgDefres/tooltip/header" xml:space="preserve">
+    <value>Коэффициент добычи</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battles/countCapturedCommandCentres/label" xml:space="preserve">
+    <value>Количество захваченных командных центров</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battles/countPlunderedAllyBuildings/label" xml:space="preserve">
+    <value>Количество разграбленных строений вашего Укрепрайона</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battles/countPlunderedEnemyBuildings/label" xml:space="preserve">
+    <value>Количество разграбленных строений противника</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battles/countPromres/label" xml:space="preserve">
+    <value>Получено промресурса</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battles/efficiencyOfAttack" xml:space="preserve">
+    <value>Эффективность атаки</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battles/efficiencyOfDefence" xml:space="preserve">
+    <value>Эффективность обороны</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battles/lostPromres/label" xml:space="preserve">
+    <value>Потеряно промресурса</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battles/profit/label" xml:space="preserve">
+    <value>Чистая прибыль</value>
+  </data>
+  <data name="clanStats/params/periodDefence/battlesCount/label" xml:space="preserve">
+    <value>Битвы</value>
+  </data>
+  <data name="clanStats/params/periodDefence/wins/label" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="clanStats/params/periodDefence/wins/tooltip/body" xml:space="preserve">
+    <value>Общий процент одержанных побед в Наступлениях</value>
+  </data>
+  <data name="clanStats/params/periodDefence/wins/tooltip/header" xml:space="preserve">
+    <value>Победы в Битвах</value>
+  </data>
+  <data name="clanStats/tabs/buttonLbl/periodDefence" xml:space="preserve">
+    <value>Наступления</value>
+  </data>
+  <data name="clanStats/tabs/buttonLbl/sortie" xml:space="preserve">
+    <value>Вылазки</value>
+  </data>
+  <data name="disableDefencePeriodWindow/applyButton/lbl" xml:space="preserve">
+    <value>Отключить</value>
+  </data>
+  <data name="disableDefencePeriodWindow/cancelButton/lbl" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="disableDefencePeriodWindow/inputChecker/body" xml:space="preserve">
+    <value>Для совершения операции, введите текущее количество промресурса на всех складах (%(controlNumber)s)</value>
+  </data>
+  <data name="disableDefencePeriodWindow/inputChecker/title" xml:space="preserve">
+    <value>ПОДТВЕРЖДЕНИЕ ОТКЛЮЧЕНИЯ ОБОРОНЫ</value>
+  </data>
+  <data name="disableDefencePeriodWindow/mainText/body" xml:space="preserve">
+    <value>• Уровень всех резервов и строений выше IV уровня (включая командный центр) %(redText)s.
+• Количество подготовленных резервов не изменится.</value>
+  </data>
+  <data name="disableDefencePeriodWindow/mainText/bodyRedText" xml:space="preserve">
+    <value>уменьшится до IV</value>
+  </data>
+  <data name="disableDefencePeriodWindow/mainText/title" xml:space="preserve">
+    <value>Вы действительно хотите отключить оборону Укрепрайона?</value>
+  </data>
+  <data name="disableDefencePeriodWindow/windowTitle" xml:space="preserve">
+    <value>Отключение обороны</value>
+  </data>
+  <data name="fortBattleDirectionPopover/battleDurationFmt" xml:space="preserve">
+    <value>%(prevHour)s – %(nextHour)s</value>
+  </data>
+  <data name="fortBattleDirectionPopover/commingBattles" xml:space="preserve">
+    <value>Ближайшие битвы: </value>
+  </data>
+  <data name="fortBattleResultsWindow/defResReceived/byClan" xml:space="preserve">
+    <value>кланом:</value>
+  </data>
+  <data name="fortBattleResultsWindow/defResReceived/byPlayer" xml:space="preserve">
+    <value>вами:</value>
+  </data>
+  <data name="fortBattleResultsWindow/defResReceived/header" xml:space="preserve">
+    <value>Получено промресурса:</value>
+  </data>
+  <data name="fortBattleResultsWindow/defeat/description/end" xml:space="preserve">
+    <value>%(clanTag)s: %(numBuildings)d</value>
+  </data>
+  <data name="fortBattleResultsWindow/defeat/description/start" xml:space="preserve">
+    <value>Наступление завершено, разграблено строений клана</value>
+  </data>
+  <data name="fortBattleResultsWindow/defeat/header" xml:space="preserve">
+    <value>Поражение</value>
+  </data>
+  <data name="fortBattleResultsWindow/journal" xml:space="preserve">
+    <value>Наступление: журнал</value>
+  </data>
+  <data name="fortBattleResultsWindow/table/building" xml:space="preserve">
+    <value>Строение</value>
+  </data>
+  <data name="fortBattleResultsWindow/table/moreBtn" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
+  <data name="fortBattleResultsWindow/table/notParticipated" xml:space="preserve">
+    <value>Не участвовал</value>
+  </data>
+  <data name="fortBattleResultsWindow/table/result" xml:space="preserve">
+    <value>Итоги боя</value>
+  </data>
+  <data name="fortBattleResultsWindow/table/result/defeat" xml:space="preserve">
+    <value>Поражение</value>
+  </data>
+  <data name="fortBattleResultsWindow/table/result/win" xml:space="preserve">
+    <value>Победа!</value>
+  </data>
+  <data name="fortBattleResultsWindow/table/resultsNotAvailable" xml:space="preserve">
+    <value>Итоги боя недоступны</value>
+  </data>
+  <data name="fortBattleResultsWindow/table/startTime" xml:space="preserve">
+    <value>Начало боя</value>
+  </data>
+  <data name="fortBattleResultsWindow/tie/description/end" xml:space="preserve">
+    <value>%(clanTag)s завершена</value>
+  </data>
+  <data name="fortBattleResultsWindow/tie/description/start" xml:space="preserve">
+    <value>Наступление с кланом</value>
+  </data>
+  <data name="fortBattleResultsWindow/tie/header" xml:space="preserve">
+    <value>Ничья</value>
+  </data>
+  <data name="fortBattleResultsWindow/win/description/end" xml:space="preserve">
+    <value>%(clanTag)s: %(numBuildings)s</value>
+  </data>
+  <data name="fortBattleResultsWindow/win/description/start" xml:space="preserve">
+    <value>Наступление завершено, разграблено строений клана</value>
+  </data>
+  <data name="fortBattleResultsWindow/win/header" xml:space="preserve">
+    <value>Победа!</value>
+  </data>
+  <data name="fortBattleResultsWindow/windowTitle" xml:space="preserve">
+    <value>Наступление: итоги</value>
+  </data>
+  <data name="fortBattleRoom/legionariesCount" xml:space="preserve">
+    <value>Легионеры:</value>
+  </data>
+  <data name="fortBattleRoom/legionariesToolTipMsg" xml:space="preserve">
+    <value>Ожидайте, пока командир переведёт вас в состав отряда.</value>
+  </data>
+  <data name="fortBattleRoom/listHeader/clanPlayers" xml:space="preserve">
+    <value>Соклановцы</value>
+  </data>
+  <data name="fortBattleRoom/listHeader/legionariesPlayers" xml:space="preserve">
+    <value>Легионеры</value>
+  </data>
+  <data name="fortNotCommanderFirstEnterWindow/applyBtnLabel" xml:space="preserve">
+    <value>Так точно!</value>
+  </data>
+  <data name="fortNotCommanderFirstEnterWindow/textDescription" xml:space="preserve">
+    <value>• выбрать строение и присоединиться к его гарнизону. Заработанный вами промресурс пойдёт на развитие именно этого строения (по умолчанию вы закреплены за командным центром);
+• участвовать в Вылазках с соклановцами, добывая промресурс на развитие Укрепрайона и производство резервов. Быть готовым к периоду обороны;
+• следить за равномерным распределением промресурса на складах. Строения с заполненными складами перестают принимать заработанный промресурс.</value>
+  </data>
+  <data name="fortNotCommanderFirstEnterWindow/textTitle" xml:space="preserve">
+    <value>Ваши первоочередные задачи:</value>
+  </data>
+  <data name="fortNotCommanderFirstEnterWindow/windowTitle" xml:space="preserve">
+    <value>Добро пожаловать, боец!</value>
+  </data>
+  <data name="periodDefenceWindow/btn/activate" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="periodDefenceWindow/btn/notNow" xml:space="preserve">
+    <value>Не сейчас</value>
+  </data>
+  <data name="periodDefenceWindow/btn/pointsAreFilled/body" xml:space="preserve">
+    <value>Нажмите, чтобы организовать оборону для своего Укрепрайона. Настройки обороны позже можно будет изменить.</value>
+  </data>
+  <data name="periodDefenceWindow/btn/pointsAreNotFilled/body" xml:space="preserve">
+    <value>Для организации обороны установите
+сервер, период обороны и день прекращения огня.</value>
+  </data>
+  <data name="periodDefenceWindow/dropDownbtn/notSelected" xml:space="preserve">
+    <value>Не выбран</value>
+  </data>
+  <data name="periodDefenceWindow/dropDownbtn/whithoutHoliday" xml:space="preserve">
+    <value>Никогда</value>
+  </data>
+  <data name="periodDefenceWindow/headerLbl" xml:space="preserve">
+    <value>Организация обороны</value>
+  </data>
+  <data name="periodDefenceWindow/holiday" xml:space="preserve">
+    <value>Прекращение огня</value>
+  </data>
+  <data name="periodDefenceWindow/holiday/description" xml:space="preserve">
+    <value>В этот день ваш Укрепрайон будет недоступен для нападений, но вы можете нападать на другие кланы.</value>
+  </data>
+  <data name="periodDefenceWindow/hourDefence" xml:space="preserve">
+    <value>Период обороны</value>
+  </data>
+  <data name="periodDefenceWindow/hourDefence/description" xml:space="preserve">
+    <value>Каждый день в этот час ваш клан должен защищать свой Укрепрайон. Назначьте удобное для вас время.</value>
+  </data>
+  <data name="periodDefenceWindow/notNow/body" xml:space="preserve">
+    <value>Вы всегда можете организовать оборону в настройках Укрепрайона.</value>
+  </data>
+  <data name="periodDefenceWindow/periphery" xml:space="preserve">
+    <value>Сервер:</value>
+  </data>
+  <data name="periodDefenceWindow/periphery/description" xml:space="preserve">
+    <value>Здесь будут создаваться отряды для Наступлений.</value>
+  </data>
+  <data name="periodDefenceWindow/ready" xml:space="preserve">
+    <value>Заполните форму для организации обороны</value>
+  </data>
+  <data name="sortie/introView/fortBattles/nextTimeOfBattle" xml:space="preserve">
+    <value>Ближайшая битва состоится %(nextDate)s</value>
+  </data>
+  <data name="sortie/introView/fortBattles/notActivated" xml:space="preserve">
+    <value>В ближайшее время битв не запланировано</value>
+  </data>
+  <data name="sortie/introView/fortBattles/notActivatedDefenceTime" xml:space="preserve">
+    <value>Оборона не организована</value>
+  </data>
+  <data name="sortie/room/message/getNotReady" xml:space="preserve">
+    <value>Нажмите, чтобы отменить готовность</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/attackImpossible" xml:space="preserve">
+    <value>Ваш Укрепрайон заморожен, нападение невозможно.</value>
+  </data>
+  <data name="FortIntelligence/headerBlockNoDefPeriod/body" xml:space="preserve">
+    <value>Для доступа к разведданным необходим минимум V уровень Укрепрайона с организованной обороной.</value>
+  </data>
+  <data name="FortIntelligence/headerBlockNoDefPeriod/header" xml:space="preserve">
+    <value>Разведданные</value>
+  </data>
+  <data name="buildings/FINANCIAL_DEPT" xml:space="preserve">
+    <value>Финансовая часть</value>
+  </data>
+  <data name="buildings/INTENDANT_SERVICE" xml:space="preserve">
+    <value>Интендантская служба</value>
+  </data>
+  <data name="buildings/MILITARY_ACADEMY" xml:space="preserve">
+    <value>Военное училище</value>
+  </data>
+  <data name="buildings/MILITARY_BASE" xml:space="preserve">
+    <value>Командный центр</value>
+  </data>
+  <data name="buildings/OFFICE" xml:space="preserve">
+    <value>Канцелярия</value>
+  </data>
+  <data name="buildings/TANKODROME" xml:space="preserve">
+    <value>Танкодром</value>
+  </data>
+  <data name="buildings/TRAINING_DEPT" xml:space="preserve">
+    <value>Учебная часть</value>
+  </data>
+  <data name="buildings/TRANSPORT_DEPT" xml:space="preserve">
+    <value>Автотранспортная часть</value>
+  </data>
+  <data name="buildings/TROPHY_BRIGADE" xml:space="preserve">
+    <value>Трофейная бригада</value>
+  </data>
+  <data name="orders/ADDITIONAL_BRIEFING" xml:space="preserve">
+    <value>Дополнительный инструктаж</value>
+  </data>
+  <data name="orders/COMBAT_PAYMENTS" xml:space="preserve">
+    <value>Боевые выплаты</value>
+  </data>
+  <data name="orders/EVACUATION" xml:space="preserve">
+    <value>Эвакуация</value>
+  </data>
+  <data name="orders/HEAVY_TRANSPORT" xml:space="preserve">
+    <value>Большегрузный транспорт</value>
+  </data>
+  <data name="orders/MILITARY_EXERCISES" xml:space="preserve">
+    <value>Военные учения</value>
+  </data>
+  <data name="orders/REQUISITION" xml:space="preserve">
+    <value>Реквизиция</value>
+  </data>
+  <data name="orders/SPECIAL_MISSION" xml:space="preserve">
+    <value>Особые указания</value>
+  </data>
+  <data name="orders/TACTICAL_TRAINING" xml:space="preserve">
+    <value>Тактическая подготовка</value>
+  </data>
+  <data name="BuildingPopover/garrisonLabel" xml:space="preserve">
+    <value>Гарнизон</value>
+  </data>
+  <data name="FortIntelligence/status/defaultRequest/empty" xml:space="preserve">
+    <value>Подходящий противник не найден. Воспользуйтесь поиском по тегу и ручным изменением диапазона.</value>
+  </data>
+  <data name="sortie/listView/absentDivisions" xml:space="preserve">
+    <value>Нет сформированных отрядов</value>
+  </data>
+  <data name="sortie/listView/alertText/body" xml:space="preserve">
+    <value>Информация об отряде временно недоступна, однако вы можете записаться добровольцем.</value>
+  </data>
+  <data name="sortie/listView/alertText/title" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="sortie/listView/listColumns/descr" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="sortie/listView/listColumns/status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="Buildings/buildingName/artillery_building" xml:space="preserve">
+    <value>Артиллерийский дивизион</value>
+  </data>
+  <data name="Buildings/buildingName/bomber_building" xml:space="preserve">
+    <value>Полк бомбардировочной авиации</value>
+  </data>
+  <data name="Buildings/buildingName/unknown" xml:space="preserve">
+    <value>Неизвестное строение</value>
+  </data>
+  <data name="Buildings/defResInfo/artillery_building" xml:space="preserve">
+    <value>Урон одного снаряда: %(damage)s ед., снарядов в залпе: %(shotsNumberRange)s шт., радиус зоны поражения: %(areaRadius)s м.</value>
+  </data>
+  <data name="Buildings/defResInfo/bomber_building" xml:space="preserve">
+    <value>Урон одной бомбы: %(bombDamage)s ед., всего бомб: %(bombsNumberRange)s шт., зона поражения: %(areaSquare)s м². </value>
+  </data>
+  <data name="Buildings/processOrderInfo/artillery_building" xml:space="preserve">
+    <value>Даёт возможность запросить артобстрел, наносимый урон от которого зависит от уровня резерва.</value>
+  </data>
+  <data name="Buildings/processOrderInfo/bomber_building" xml:space="preserve">
+    <value>Даёт возможность запросить авиаудар, наносимый урон от которого зависит от уровня резерва.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/artillery_building" xml:space="preserve">
+    <value>Артиллеристы по первому приказу откроют гаубичный огонь по позициям противника, нанося существенный урон осколочно-фугасными снарядами.</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/bomber_building" xml:space="preserve">
+    <value>Полк бомбардировочной авиации снабжает полевые аэродромы самолётами, готовыми обрушить на противника настоящий огненный шквал.</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/artillery_building" xml:space="preserve">
+    <value>Вызов залпа артбатареи в указанный квадрат.</value>
+  </data>
+  <data name="BuildingsProcess/shortDescr/bomber_building" xml:space="preserve">
+    <value>Вызов бомбардировщика для удара с воздуха.</value>
+  </data>
+  <data name="General/orderType/artillery" xml:space="preserve">
+    <value>Артобстрел</value>
+  </data>
+  <data name="General/orderType/bomber" xml:space="preserve">
+    <value>Авиаудар</value>
+  </data>
+  <data name="OrderSelectPopover/notAvailable" xml:space="preserve">
+    <value>Недоступно</value>
+  </data>
+  <data name="OrderSelectPopover/orderCount" xml:space="preserve">
+    <value>%(orderNumber)s ед.</value>
+  </data>
+  <data name="OrderSelectPopover/orderLevel" xml:space="preserve">
+    <value>%(orderLevel)s уровень</value>
+  </data>
+  <data name="OrderSelectPopover/returnBtnLabel" xml:space="preserve">
+    <value>Убрать</value>
+  </data>
+  <data name="OrderSelectPopover/selected" xml:space="preserve">
+    <value>Выбрано</value>
+  </data>
+  <data name="Orders/orderPopover/detailsBtn" xml:space="preserve">
+    <value>Подробно</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/artillery" xml:space="preserve">
+    <value>Артобстрел</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/bomber" xml:space="preserve">
+    <value>Авиаудар</value>
+  </data>
+  <data name="Orders/orderPopover/orderType/emptyOrder" xml:space="preserve">
+    <value>Выбор резерва</value>
+  </data>
+  <data name="buildings/ARTILLERY_SHOP" xml:space="preserve">
+    <value>Артиллерийский дивизион</value>
+  </data>
+  <data name="buildings/BOMBER_SHOP" xml:space="preserve">
+    <value>Полк бомбардировочной авиации</value>
+  </data>
+  <data name="fortBattleResultsWindow/defResLost/header" xml:space="preserve">
+    <value>Потеряно промресурса:</value>
+  </data>
+  <data name="fortCombatReservesIntroWindow/artillery/description" xml:space="preserve">
+    <value>Скрытая от глаз противника артиллерийская батарея накроет указанный квадрат карты залпом осколочно-фугасных снарядов по первой же команде.</value>
+  </data>
+  <data name="fortCombatReservesIntroWindow/artillery/title" xml:space="preserve">
+    <value>Артобстрел</value>
+  </data>
+  <data name="fortCombatReservesIntroWindow/bomber/description" xml:space="preserve">
+    <value>Бомбардировщик, гружённый ПТАБами, нанесёт непоправимый урон технике противника, на свою беду оказавшейся в квадрате бомбометания.</value>
+  </data>
+  <data name="fortCombatReservesIntroWindow/bomber/title" xml:space="preserve">
+    <value>Авиаудар</value>
+  </data>
+  <data name="fortCombatReservesIntroWindow/description" xml:space="preserve">
+    <value>Новые резервы, способные переломить ход боя.</value>
+  </data>
+  <data name="fortCombatReservesIntroWindow/title" xml:space="preserve">
+    <value>Пополнение арсенала</value>
+  </data>
+  <data name="fortCombatReservesIntroWindow/windowTitle" xml:space="preserve">
+    <value>Боевые резервы</value>
+  </data>
+  <data name="fortConsumableOrder/battleParams" xml:space="preserve">
+    <value>Боевые характеристики:</value>
+  </data>
+  <data name="fortConsumableOrder/descr/11" xml:space="preserve">
+    <value>Указанный на миникарте квадрат накрывает плотный артиллерийский огонь. Используемые снаряды — осколочно-фугасные.</value>
+  </data>
+  <data name="fortConsumableOrder/descr/12" xml:space="preserve">
+    <value>В указанный на миникарте квадрат вызывается бомбардировщик, сбрасывающий кумулятивные бомбы (ПТАБ). Сбить бомбардировщик невозможно.</value>
+  </data>
+  <data name="fortConsumableOrder/levelLbl" xml:space="preserve">
+    <value>%(level)s уровень</value>
+  </data>
+  <data name="fortConsumableOrder/params/level_lbl" xml:space="preserve">
+    <value>Боевой резерв %(level)s уровня</value>
+  </data>
+  <data name="fortConsumableOrder/titleDescr" xml:space="preserve">
+    <value>Принцип действия:</value>
+  </data>
+  <data name="orderType/battleConsumable" xml:space="preserve">
+    <value>Боевой резерв %(level)s уровня</value>
+  </data>
+  <data name="orderType/consumable" xml:space="preserve">
+    <value>Резерв %(level)s уровня</value>
+  </data>
+  <data name="orders/ARTILLERY" xml:space="preserve">
+    <value>Артобстрел</value>
+  </data>
+  <data name="orders/BOMBER" xml:space="preserve">
+    <value>Авиаудар</value>
+  </data>
+  <data name="Orders/orderPopover/battleConsumable" xml:space="preserve">
+    <value>1 бой</value>
+  </data>
+  <data name="Orders/orderPopover/closeButton" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="orders/EVACUATION_EXPIRE" xml:space="preserve">
+    <value>Эвакуация</value>
+  </data>
+  <data name="orders/REQUISITION_EXPIRE" xml:space="preserve">
+    <value>Реквизиция</value>
+  </data>
+  <data name="FortClanBattleRoom/header/ordersDisabled" xml:space="preserve">
+    <value>Боевые резервы запрещены</value>
+  </data>
+  <data name="SettingsWindow/notActivated/conditions" xml:space="preserve">
+    <value>Регламент допуска к бою</value>
+  </data>
+  <data name="SettingsWindow/notActivated/conditions/attack" xml:space="preserve">
+    <value>Дивизионы при нападении на Укрепрайон противника</value>
+  </data>
+  <data name="SettingsWindow/notActivated/conditions/defence" xml:space="preserve">
+    <value>Дивизионы при обороне собственного Укрепрайона</value>
+  </data>
+  <data name="SettingsWindow/notActivated/conditions/fortLevel" xml:space="preserve">
+    <value>Уровень вашего Укрепрайона</value>
+  </data>
+  <data name="SettingsWindow/notActivated/isNotReady" xml:space="preserve">
+    <value> (не выполнено)</value>
+  </data>
+  <data name="SettingsWindow/notActivated/title" xml:space="preserve">
+    <value>Оборона</value>
+  </data>
+  <data name="rosterIntroWindow/absolute/header" xml:space="preserve">
+    <value>Укрепрайон модернизирован до VIII уровня!</value>
+  </data>
+  <data name="rosterIntroWindow/absoluteDivisionDescription" xml:space="preserve">
+    <value>Атака на Укрепрайон VIII–X уровня, дивизион:</value>
+  </data>
+  <data name="rosterIntroWindow/absoluteDivisionName" xml:space="preserve">
+    <value>Абсолютный </value>
+  </data>
+  <data name="rosterIntroWindow/attackTitle" xml:space="preserve">
+    <value>Атака</value>
+  </data>
+  <data name="rosterIntroWindow/champion/header" xml:space="preserve">
+    <value>Оборона организована!</value>
+  </data>
+  <data name="rosterIntroWindow/championDivisionDescription" xml:space="preserve">
+    <value>Атака на Укрепрайон V–VII уровня, дивизион:</value>
+  </data>
+  <data name="rosterIntroWindow/championDivisionName" xml:space="preserve">
+    <value>Чемпионский</value>
+  </data>
+  <data name="rosterIntroWindow/defenceDescription/noOffDay" xml:space="preserve">
+    <value>С %(start)s до %(end)s держите оборону своего Укрепрайона. Дивизион:</value>
+  </data>
+  <data name="rosterIntroWindow/defenceDescription/offDay" xml:space="preserve">
+    <value>С %(start)s до %(end)s (день прекращения огня: %(offDay)s) держите оборону своего Укрепрайона. Дивизион:</value>
+  </data>
+  <data name="rosterIntroWindow/defenceTitle" xml:space="preserve">
+    <value>Период обороны</value>
+  </data>
+  <data name="rosterIntroWindow/windowTitle" xml:space="preserve">
+    <value>Наступления</value>
+  </data>
+  <data name="ChoiceDivision/changeBtnLbl" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="ChoiceDivision/changewindowTitle" xml:space="preserve">
+    <value>Изменение дивизиона</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/tooltipLockTime/body" xml:space="preserve">
+    <value>Нападать на клан противника в указанный период запрещено. Измените свой выбор для применения параметров фильтра.</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/tooltipLockTime/header" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/tooltipOwnDefenceTime/body" xml:space="preserve">
+    <value>Период обороны клана противника не может совпадать с периодом обороны вашего Укрепрайона. Измените свой выбор для применения параметров фильтра.</value>
+  </data>
+  <data name="FortIntelligence/ClanFilterPopover/tooltipOwnDefenceTime/header" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="sortie/listView/curfew" xml:space="preserve">
+    <value>Комендантский час</value>
+  </data>
+  <data name="sortie/listView/sortiesRegulations" xml:space="preserve">
+    <value>Регламент Вылазок</value>
+  </data>
+  <data name="switchPeripheryWindow/applySwitchLabel" xml:space="preserve">
+    <value>Для планирования и осуществления Вылазки перейдите на сервер %(server)s.</value>
+  </data>
+  <data name="switchPeripheryWindow/btnCancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="switchPeripheryWindow/btnSwitch" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="switchPeripheryWindow/description" xml:space="preserve">
+    <value>Вы находитесь на сервере %(server)s, где действует ограничение на осуществление Вылазок.</value>
+  </data>
+  <data name="switchPeripheryWindow/header" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="switchPeripheryWindow/selectServerLabel" xml:space="preserve">
+    <value>Для планирования и осуществления Вылазки перейдите на другой сервер:</value>
+  </data>
+  <data name="switchPeripheryWindow/windowTitle" xml:space="preserve">
+    <value>Переход на другой сервер</value>
+  </data>
+  <data name="BuildingsProcess/longDescr/base_building" xml:space="preserve">
+    <value>Промресурс можно транспортировать из одного строения (включая командный центр) в любое другое в пределах вашего Укрепрайона.</value>
+  </data>
+  <data name="Buildings/buildingTooltip/compensation" xml:space="preserve">
+    <value>, 
+из которых компенсации: </value>
+  </data>
+  <data name="FortWelcomeView/alreadyCreated" xml:space="preserve">
+    <value>Укрепрайон уже создан</value>
+  </data>
+  <data name="FortWelcomeView/clanCreate/or" xml:space="preserve">
+    <value>или</value>
+  </data>
+  <data name="FortWelcomeView/clanCreateLabel" xml:space="preserve">
+    <value>Создать клан</value>
+  </data>
+  <data name="ChoiceDivision/vehicleLevelSingle" xml:space="preserve">
+    <value>Уровень техники: %(level)s</value>
+  </data>
+  <data name="sortie/room/level" xml:space="preserve">
+    <value>%(level)s уровень</value>
+  </data>
+  <data name="FortIntelligence/clanDescription/disableAttack" xml:space="preserve">
+    <value>Невозможно атаковать найденный клан: разница между уровнями Укрепрайонов более 1.</value>
+  </data>
+  <data name="orderType/battleConsumable_no_level" xml:space="preserve">
+    <value>Боевой резерв</value>
+  </data>
+  <data name="fort2/teamHeader" xml:space="preserve">
+    <value>Состав отряда</value>
+  </data>
+  <data name="fort2builds/direction" xml:space="preserve">
+    <value>%(direction)s плацдарм союзников</value>
+  </data>
+  <data name="fort2builds/direction/A" xml:space="preserve">
+    <value>Северный</value>
+  </data>
+  <data name="fort2builds/direction/B" xml:space="preserve">
+    <value>Восточный</value>
+  </data>
+  <data name="fort2builds/direction/C" xml:space="preserve">
+    <value>Южный</value>
+  </data>
+  <data name="fort2builds/direction/D" xml:space="preserve">
+    <value>Западный</value>
+  </data>
+  <data name="fort2builds/directionEnemy" xml:space="preserve">
+    <value>Плацдарм противника</value>
+  </data>
+  <data name="fort2builds/mapName" xml:space="preserve">
+    <value>Карта: &lt;font color='#FCF4CC'&gt;%(mapName)s&lt;/font&gt;</value>
+  </data>
+  <data name="fort2builds/mapUnknown" xml:space="preserve">
+    <value>Карта будет определена при начале Наступления</value>
+  </data>
+  <data name="fort2builds/point1" xml:space="preserve">
+    <value>Цитадель</value>
+  </data>
+  <data name="fort2builds/point2" xml:space="preserve">
+    <value>Запасной рубеж</value>
+  </data>
+  <data name="fort2builds/point3" xml:space="preserve">
+    <value>Передовой рубеж</value>
+  </data>
+  <data name="fort2builds/point4" xml:space="preserve">
+    <value>Передовой рубеж</value>
+  </data>
+  <data name="fort2builds/point5" xml:space="preserve">
+    <value>Запасной рубеж</value>
+  </data>
+  <data name="fort2builds/point6" xml:space="preserve">
+    <value>Цитадель</value>
+  </data>
+  <data name="fort2builds/rewardFirstTime" xml:space="preserve">
+    <value>x%(reward)s за первую победу в Наступлении в день на этом плацдарме</value>
+  </data>
+  <data name="fort2builds/rewardPoint1" xml:space="preserve">
+    <value>Удержание Цитадели при потере обоих рубежей</value>
+  </data>
+  <data name="fort2builds/rewardPoint2" xml:space="preserve">
+    <value>Удержание запасного рубежа при потере передового</value>
+  </data>
+  <data name="fort2builds/rewardPoint3" xml:space="preserve">
+    <value>Удержание обоих рубежей без захвата рубежей противника</value>
+  </data>
+  <data name="fort2builds/rewardPoint4" xml:space="preserve">
+    <value>Захват только передового рубежа</value>
+  </data>
+  <data name="fort2builds/rewardPoint5" xml:space="preserve">
+    <value>Захват обоих рубежей без захвата Цитадели</value>
+  </data>
+  <data name="fort2builds/rewardPoint6" xml:space="preserve">
+    <value>Захват Цитадели противника</value>
+  </data>
+  <data name="fort2builds/rewardRequisition" xml:space="preserve">
+    <value>от резерва Реквизиция</value>
+  </data>
+  <data name="fort2builds/totalDescription" xml:space="preserve">
+    <value>Награда выдаётся по завершению Наступления</value>
+  </data>
+  <data name="fort2buttons/makeInvisible" xml:space="preserve">
+    <value>Скрыть от легионеров</value>
+  </data>
+  <data name="fort2buttons/makeInvisibleStatus" xml:space="preserve">
+    <value>Легионеры видят отряд</value>
+  </data>
+  <data name="fort2buttons/makeVisible" xml:space="preserve">
+    <value>Отображать легионерам</value>
+  </data>
+  <data name="fort2buttons/makeVisibleStatus" xml:space="preserve">
+    <value>Легионеры не видят отряд</value>
+  </data>
+  <data name="fort2direction/A" xml:space="preserve">
+    <value>Северного</value>
+  </data>
+  <data name="fort2direction/B" xml:space="preserve">
+    <value>Восточного</value>
+  </data>
+  <data name="fort2direction/C" xml:space="preserve">
+    <value>Южного</value>
+  </data>
+  <data name="fort2direction/D" xml:space="preserve">
+    <value>Западного</value>
+  </data>
+  <data name="fort2info/sortie" xml:space="preserve">
+    <value>Вылазка в %(level)s дивизионе</value>
+  </data>
+  <data name="fort2info/stronghold" xml:space="preserve">
+    <value>Наступление с %(direction)s плацдарма</value>
+  </data>
+  <data name="fort2map/randomMap" xml:space="preserve">
+    <value>Случайная карта</value>
+  </data>
+  <data name="fort2reserve/heavyTrucks" xml:space="preserve">
+    <value>Большегрузный транспорт</value>
+  </data>
+  <data name="fort2reserve/requisition" xml:space="preserve">
+    <value>Реквизиция</value>
+  </data>
+  <data name="fort2reserve/support" xml:space="preserve">
+    <value>Боевые резервы</value>
+  </data>
+  <data name="fort2reserve/tooltip/condition" xml:space="preserve">
+    <value>В Вылазках и Наступлениях на 1 бой</value>
+  </data>
+  <data name="fort2reserve/tooltip/conditionRequisition" xml:space="preserve">
+    <value>За результат проведённого Наступления</value>
+  </data>
+  <data name="fort2reserve/tooltip/disabledInBattle" xml:space="preserve">
+    <value>Установить резерв можно перед боем</value>
+  </data>
+  <data name="fort2reserve/tooltip/disabledRequisition" xml:space="preserve">
+    <value>Установить резерв можно перед Наступлением</value>
+  </data>
+  <data name="fort2reserve/tooltip/empty" xml:space="preserve">
+    <value>У вас нет резервов для установки</value>
+  </data>
+  <data name="fort2reserve/tooltip/heavytrucksActivation" xml:space="preserve">
+    <value>Активируется с началом боя</value>
+  </data>
+  <data name="fort2reserve/tooltip/inStorage" xml:space="preserve">
+    <value>&lt;font color='#C9C9BE'&gt;%(count)s&lt;/font&gt; на складе</value>
+  </data>
+  <data name="fort2reserve/tooltip/level" xml:space="preserve">
+    <value>уровень</value>
+  </data>
+  <data name="fort2reserve/tooltip/readyToSelect" xml:space="preserve">
+    <value>Готов к установке</value>
+  </data>
+  <data name="fort2reserve/tooltip/requisitionActivation" xml:space="preserve">
+    <value>Активируется с началом Наступления</value>
+  </data>
+  <data name="fort2reserve/tooltip/selected" xml:space="preserve">
+    <value>Установлен</value>
+  </data>
+  <data name="fort2reserve/tooltip/supportActivation" xml:space="preserve">
+    <value>Активируется при использовании резерва в бою</value>
+  </data>
+  <data name="fort2reserve/tooltip/withPermition" xml:space="preserve">
+    <value>Нажмите, чтобы просмотреть список резервов, доступных для установки.</value>
+  </data>
+  <data name="fort2reserve/tooltip/withoutPermition" xml:space="preserve">
+    <value>Установить резерв может только командир отряда в должности командующего, заместителя командующего, офицера штаба или командира подразделения.</value>
+  </data>
+  <data name="fort2table/rating" xml:space="preserve">
+    <value>Рейтинг</value>
+  </data>
+  <data name="fort2table/roster" xml:space="preserve">
+    <value>Состав</value>
+  </data>
+  <data name="fort2table/tech" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="fort2title/sortie" xml:space="preserve">
+    <value>Вылазка</value>
+  </data>
+  <data name="fort2title/stronghold" xml:space="preserve">
+    <value>Наступление с %(direction)s плацдарма</value>
+  </data>
+  <data name="fort2tooltips/crossSwords" xml:space="preserve">
+    <value>{HEADER}Граница{/HEADER}{BODY}Нейтральная территория. Победитель атакует рубеж противника в следующем бою. В случае ничьей атакующий будет определён случайным образом.{/BODY}</value>
+  </data>
+  <data name="fort2tooltips/fortTitle" xml:space="preserve">
+    <value>Наступление с %(direction)s плацдарма</value>
+  </data>
+  <data name="fort2tooltips/hours" xml:space="preserve">
+    <value>ч</value>
+  </data>
+  <data name="fort2tooltips/minuts" xml:space="preserve">
+    <value>м</value>
+  </data>
+  <data name="fort2tooltips/sortieTitle" xml:space="preserve">
+    <value>Вылазка в %(level)s дивизионе</value>
+  </data>
+  <data name="mainWindow/maintenance/body" xml:space="preserve">
+    <value>Приносим извинения за доставленное неудобство.</value>
+  </data>
+  <data name="mainWindow/maintenance/button" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="mainWindow/maintenance/header" xml:space="preserve">
+    <value>Ошибка загрузки данных</value>
+  </data>
+  <data name="orders/ADDITIONAL_BRIEFING_2_0" xml:space="preserve">
+    <value>Дополнительный инструктаж</value>
+  </data>
+  <data name="orders/COMBAT_PAYMENTS_2_0" xml:space="preserve">
+    <value>Боевые выплаты</value>
+  </data>
+  <data name="orders/MILITARY_EXERCISES_2_0" xml:space="preserve">
+    <value>Военные учения</value>
+  </data>
+  <data name="orders/TACTICAL_TRAINING_2_0" xml:space="preserve">
+    <value>Тактическая подготовка</value>
+  </data>
+  <data name="rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon" xml:space="preserve">
+    <value>До начала боя &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt; минут</value>
+  </data>
+  <data name="rosterIntroWindow/introView/fortBattles/nextTimeOfBattleToday" xml:space="preserve">
+    <value>Начало сегодня в &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="rosterIntroWindow/introView/fortBattles/nextTimeOfBattleTomorrow" xml:space="preserve">
+    <value>Начало завтра в &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="rosterIntroWindow/introView/fortBattles/noBattlesToday" xml:space="preserve">
+    <value>Время начала будет уточнено позднее</value>
+  </data>
+  <data name="rosterIntroWindow/introView/fortBattles/unavailable" xml:space="preserve">
+    <value>Время начала будет уточнено позднее</value>
+  </data>
+  <data name="sortie/introView/fortBattles/EndOfBattleSoon" xml:space="preserve">
+    <value>До завершения &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="sortie/introView/fortBattles/available" xml:space="preserve">
+    <value>Вылазки доступны</value>
+  </data>
+  <data name="sortie/introView/fortBattles/nextTimeOfBattleSoon" xml:space="preserve">
+    <value>До начала &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="sortie/introView/fortBattles/nextTimeOfBattleToday" xml:space="preserve">
+    <value>Начало сегодня в &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="sortie/introView/fortBattles/nextTimeOfBattleTomorrow" xml:space="preserve">
+    <value>Начало завтра в &lt;font color='#8c8c7c'&gt;%(nextDate)s&lt;/font&gt;</value>
+  </data>
+  <data name="sortie/introView/fortBattles/noBattlesToday" xml:space="preserve">
+    <value>Время начала будет уточнено позднее</value>
+  </data>
+  <data name="sortie/introView/fortBattles/unavailable" xml:space="preserve">
+    <value>Время начала будет уточнено позднее</value>
+  </data>
+  <data name="stronghold/teamHeader" xml:space="preserve">
+    <value>Состав отряда</value>
+  </data>
+  <data name="strongholdbuilds/direction" xml:space="preserve">
+    <value>%(direction)s плацдарм союзников</value>
+  </data>
+  <data name="strongholdbuilds/direction/A" xml:space="preserve">
+    <value>Северный</value>
+  </data>
+  <data name="strongholdbuilds/direction/B" xml:space="preserve">
+    <value>Восточный</value>
+  </data>
+  <data name="strongholdbuilds/direction/C" xml:space="preserve">
+    <value>Южный</value>
+  </data>
+  <data name="strongholdbuilds/direction/D" xml:space="preserve">
+    <value>Западный</value>
+  </data>
+  <data name="strongholdbuilds/directionEnemy" xml:space="preserve">
+    <value>Плацдарм противника</value>
+  </data>
+  <data name="strongholdbuilds/mapName" xml:space="preserve">
+    <value>Карта: &lt;font color='#FCF4CC'&gt;%(mapName)s&lt;/font&gt;</value>
+  </data>
+  <data name="strongholdbuilds/mapUnknown" xml:space="preserve">
+    <value>Карта будет определена при начале Наступления</value>
+  </data>
+  <data name="strongholdbuilds/point1" xml:space="preserve">
+    <value>Цитадель</value>
+  </data>
+  <data name="strongholdbuilds/point2" xml:space="preserve">
+    <value>Запасной рубеж</value>
+  </data>
+  <data name="strongholdbuilds/point3" xml:space="preserve">
+    <value>Передовой рубеж</value>
+  </data>
+  <data name="strongholdbuilds/point4" xml:space="preserve">
+    <value>Передовой рубеж</value>
+  </data>
+  <data name="strongholdbuilds/point5" xml:space="preserve">
+    <value>Запасной рубеж</value>
+  </data>
+  <data name="strongholdbuilds/point6" xml:space="preserve">
+    <value>Цитадель</value>
+  </data>
+  <data name="strongholdbuilds/rewardFirstTime" xml:space="preserve">
+    <value>x%(reward)s за первую победу в день при Наступлениях на этом плацдарме</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint1" xml:space="preserve">
+    <value>Удержание Цитадели при потере обоих рубежей</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint2" xml:space="preserve">
+    <value>Удержание запасного рубежа при потере передового</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint3" xml:space="preserve">
+    <value>Удержание обоих рубежей без захвата рубежей противника</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint4" xml:space="preserve">
+    <value>Захват только передового рубежа</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint5" xml:space="preserve">
+    <value>Захват обоих рубежей без захвата Цитадели</value>
+  </data>
+  <data name="strongholdbuilds/rewardPoint6" xml:space="preserve">
+    <value>Захват Цитадели противника</value>
+  </data>
+  <data name="strongholdbuilds/rewardRequisition" xml:space="preserve">
+    <value>от резерва Реквизиция</value>
+  </data>
+  <data name="strongholdbuilds/totalDescription" xml:space="preserve">
+    <value>Награда выдаётся по завершении Наступления</value>
+  </data>
+  <data name="strongholdbuttons/makeInvisible" xml:space="preserve">
+    <value>Скрыть от легионеров</value>
+  </data>
+  <data name="strongholdbuttons/makeInvisibleStatus" xml:space="preserve">
+    <value>Легионеры видят отряд</value>
+  </data>
+  <data name="strongholdbuttons/makeVisible" xml:space="preserve">
+    <value>Отображать легионерам</value>
+  </data>
+  <data name="strongholdbuttons/makeVisibleStatus" xml:space="preserve">
+    <value>Легионеры не видят отряд</value>
+  </data>
+  <data name="strongholddirection/A" xml:space="preserve">
+    <value>Северного</value>
+  </data>
+  <data name="strongholddirection/B" xml:space="preserve">
+    <value>Восточного</value>
+  </data>
+  <data name="strongholddirection/C" xml:space="preserve">
+    <value>Южного</value>
+  </data>
+  <data name="strongholddirection/D" xml:space="preserve">
+    <value>Западного</value>
+  </data>
+  <data name="strongholdinfo/sortie" xml:space="preserve">
+    <value>Вылазка в %(level)s дивизионе</value>
+  </data>
+  <data name="strongholdinfo/stronghold" xml:space="preserve">
+    <value>Наступление с %(direction)s плацдарма</value>
+  </data>
+  <data name="strongholdmap/randomMap" xml:space="preserve">
+    <value>Случайная карта</value>
+  </data>
+  <data name="strongholdreserve/heavyTrucks" xml:space="preserve">
+    <value>Большегрузный транспорт</value>
+  </data>
+  <data name="strongholdreserve/requisition" xml:space="preserve">
+    <value>Реквизиция</value>
+  </data>
+  <data name="strongholdreserve/support" xml:space="preserve">
+    <value>Боевые резервы</value>
+  </data>
+  <data name="strongholdreserve/tooltip/condition" xml:space="preserve">
+    <value>В Вылазках и при Наступлениях на 1 бой</value>
+  </data>
+  <data name="strongholdreserve/tooltip/conditionRequisition" xml:space="preserve">
+    <value>За результат проведённого Наступления</value>
+  </data>
+  <data name="strongholdreserve/tooltip/disabledInBattle" xml:space="preserve">
+    <value>Установить резерв можно перед боем</value>
+  </data>
+  <data name="strongholdreserve/tooltip/disabledRequisition" xml:space="preserve">
+    <value>Установить резерв можно перед Наступлением</value>
+  </data>
+  <data name="strongholdreserve/tooltip/empty" xml:space="preserve">
+    <value>У вас нет резервов для установки</value>
+  </data>
+  <data name="strongholdreserve/tooltip/heavytrucksActivation" xml:space="preserve">
+    <value>Активируется с началом боя</value>
+  </data>
+  <data name="strongholdreserve/tooltip/inStorage" xml:space="preserve">
+    <value>&lt;font color='#C9C9BE'&gt;%(count)s&lt;/font&gt; на складе</value>
+  </data>
+  <data name="strongholdreserve/tooltip/level" xml:space="preserve">
+    <value>уровень</value>
+  </data>
+  <data name="strongholdreserve/tooltip/readyToSelect" xml:space="preserve">
+    <value>Готов к установке</value>
+  </data>
+  <data name="strongholdreserve/tooltip/requisitionActivation" xml:space="preserve">
+    <value>Активируется с началом Наступления</value>
+  </data>
+  <data name="strongholdreserve/tooltip/selected" xml:space="preserve">
+    <value>Установлен</value>
+  </data>
+  <data name="strongholdreserve/tooltip/supportActivation" xml:space="preserve">
+    <value>Активируется при использовании резерва в бою</value>
+  </data>
+  <data name="strongholdreserve/tooltip/withPermition" xml:space="preserve">
+    <value>Нажмите, чтобы просмотреть список доступных резервов для установки.</value>
+  </data>
+  <data name="strongholdreserve/tooltip/withoutPermition" xml:space="preserve">
+    <value>Установить резерв может только командир отряда в должности командующего, заместителя командующего, офицера штаба или командира подразделения.</value>
+  </data>
+  <data name="strongholdtable/rating" xml:space="preserve">
+    <value>Рейтинг</value>
+  </data>
+  <data name="strongholdtable/roster" xml:space="preserve">
+    <value>Состав</value>
+  </data>
+  <data name="strongholdtable/tech" xml:space="preserve">
+    <value>Техника</value>
+  </data>
+  <data name="strongholdtitle/sortie" xml:space="preserve">
+    <value>Вылазка</value>
+  </data>
+  <data name="strongholdtitle/stronghold" xml:space="preserve">
+    <value>Наступление с %(direction)s плацдарма</value>
+  </data>
+  <data name="strongholdtooltips/crossSwords" xml:space="preserve">
+    <value>{HEADER}Граница{/HEADER}{BODY}Нейтральная территория. Победитель атакует рубеж противника в следующем бою. В случае ничьей атакующий будет определён случайным образом.{/BODY}</value>
+  </data>
+  <data name="strongholdtooltips/fortTitle" xml:space="preserve">
+    <value>Наступление с %(direction)s плацдарма</value>
+  </data>
+  <data name="strongholdtooltips/hours" xml:space="preserve">
+    <value>ч.</value>
+  </data>
+  <data name="strongholdtooltips/minuts" xml:space="preserve">
+    <value>мин.</value>
+  </data>
+  <data name="strongholdtooltips/sortieTitle" xml:space="preserve">
+    <value>Вылазка в %(level)s дивизионе</value>
+  </data>
+</root>

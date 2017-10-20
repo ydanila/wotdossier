@@ -162,14 +162,14 @@
                             Key="Enter" CommandParameter="{Binding Path=SelectedItem, RelativeSource={RelativeSource FindAncestor, AncestorType=DataGrid}}"/>
             </dataGrid:FooterDataGrid.InputBindings>
             <dataGrid:FooterDataGrid.Columns>
-                <DataGridTemplateColumn Header="{x:Static resources:Resources.Column_Header_Map}" SortMemberPath="MapName">
+                <DataGridTemplateColumn Header="{x:Static resources:Resources.Column_Header_Map}" SortMemberPath="Map">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Grid>
-                                <TextBlock Margin="6" Text="{Binding Path=MapName}" HorizontalAlignment="Right" VerticalAlignment="Center">
+                                <TextBlock Margin="6" Text="{Binding Map.Title}" HorizontalAlignment="Right" VerticalAlignment="Center">
                                     <ToolTipService.ToolTip>
                                         <Grid>
-                                            <Image Source="{Binding Path=., Converter={x:Static  converters:MapToMinimapImageConverter.Default}}" />
+                                            <Image Source="{Binding Path=Map, Converter={x:Static  converters:MapToImageConverter.Default}}" />
                                             <ItemsControl ItemsSource="{Binding MapGrid.Elements}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent">
                                                 <ItemsControl.ItemsPanel>
                                                     <ItemsPanelTemplate>
@@ -203,8 +203,8 @@
                                 <!--<Grid.Background>
                                     <ImageBrush ImageSource="{Binding Path=CountryId, Mode=OneWay, Converter={x:Static converters:CountryIdToImageConverter.Default}}" Stretch="Fill" />
                                 </Grid.Background>-->
-                                <Image Width="70" Height="40" HorizontalAlignment="Left" Source="{Binding Path=Icon, Mode=OneWay, Converter={x:Static converters:TankIconToImageConverter.Default}}" />
-                                <TextBlock Margin="60,0,5,0" VerticalAlignment="Center" Text="{Binding Path=TankName}" Foreground="Black" HorizontalAlignment="Left" />
+                                <Image Width="70" Height="40" HorizontalAlignment="Left" Source="{Binding Path=TankDescription, Mode=OneWay, Converter={x:Static converters:TankIconToImageConverter.Default}}" />
+                                <TextBlock Margin="60,0,5,0" VerticalAlignment="Center" Text="{Binding Path=TankDescription.Title}" Foreground="Black" HorizontalAlignment="Left" />
                             </Grid>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>

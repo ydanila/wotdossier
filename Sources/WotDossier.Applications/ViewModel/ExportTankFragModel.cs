@@ -1,4 +1,6 @@
-﻿using WotDossier.Dal;
+﻿using System;
+using WotDossier.Dal;
+using WotDossier.Domain;
 using WotDossier.Domain.Tank;
 
 namespace WotDossier.Applications.ViewModel
@@ -10,7 +12,7 @@ namespace WotDossier.Applications.ViewModel
 
         public ExportTankFragModel(FragsJson frag)
         {
-            _tank = Dictionaries.Instance.Tanks[frag.KilledByTankUniqueId];
+            _tank = Dictionaries.Instance.GetTankDescription(DossierUtils.TypeCompDesc(frag.KilledByTankUniqueId));
             _frag = frag;
         }
 
@@ -70,8 +72,13 @@ namespace WotDossier.Applications.ViewModel
 
         public string FragTank
         {
-            get { return _frag.Tank; }
-            set { _frag.Tank = value; }
+            get { return _frag.TankDescription.Title; }
+	        set
+	        {
+
+		        throw new NotImplementedException();
+				//_frag.Tank = value;
+	        }
         }
 
         public int Count

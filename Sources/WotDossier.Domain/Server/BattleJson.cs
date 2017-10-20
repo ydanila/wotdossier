@@ -1,7 +1,11 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.Serialization;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
 namespace WotDossier.Domain.Server
 {
+	[DataContract]
     public class BattleJson
     {
         /// <summary>
@@ -9,10 +13,12 @@ namespace WotDossier.Domain.Server
         /// </summary>
         public int time { get; set; }
 
-        /// <summary>
-        /// battle type
-        /// </summary>
-        public ClanBattleType type { get; set; }
+		/// <summary>
+		/// battle type
+		/// </summary>
+		[JsonProperty("type")]
+		[JsonConverter(typeof(StringEnumConverter))]
+		public ClanBattleType type { get; set; }
 
         public string province_id { get; set; }
 
@@ -22,9 +28,18 @@ namespace WotDossier.Domain.Server
         /// Gets or sets the global map front identifier.
         /// </summary>
         public string front_id { get; set; }
-    }
 
-    public class StrongholdBattleJson
+	    public string front_name { get; set; }
+
+		public string attack_type { get; set; }
+
+	    public int vehicle_level { get; set; }
+
+	    public int competitor_id { get; set; }
+
+	}
+
+	public class StrongholdBattleJson
     {
         public string attacker_clan_tag { get; set; }
         public string attacker_clan_name { get; set; }

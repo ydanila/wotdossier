@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Newtonsoft.Json;
 using WotDossier.Dal;
 using WotDossier.Framework;
 
@@ -6,7 +9,35 @@ namespace WotDossier.Applications.ViewModel.Replay
 {
     public class DbReplay : ReplayFile
     {
-        private readonly Domain.Replay.Replay _replay;
+
+
+	    public class PersonalAchievementsConverter : JsonConverter
+	    {
+		    public override bool CanConvert(Type objectType)
+		    {
+			    return false;
+		    }
+
+		    public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+		    {
+			    throw new NotImplementedException();
+		    }
+
+		    public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+		    {
+				throw new NotImplementedException();
+			}
+	    }
+
+		private readonly Domain.Replay.Replay _replay;
+
+	    public static DbReplay GetReplay(string jsonData, Guid folderId)
+	    {
+			JsonSerializerSettings settings = new JsonSerializerSettings();
+		    settings.Converters.Add(new PersonalAchievementsConverter());
+
+			return new DbReplay(JsonConvert.DeserializeObject<Domain.Replay.Replay>(jsonData, settings), folderId);
+		}
 
         /// <summary>
         /// Initializes a new instance of the <see cref="DbReplay" /> class.

@@ -16,13 +16,11 @@ namespace WotDossier.Applications.ViewModel.Replay
         private List<int> _achievements;
 
         private TankDescription _tankDescription;
-        public TeamMember(KeyValuePair<long, Player> player, KeyValuePair<long, VehicleResult> vehicleResult, KeyValuePair<long, Vehicle> vehicle, int replayPlayerTeam, string regionCode, Dictionary<long, Player> players, Dictionary<long, VehicleResult> vehicles)
+        public TeamMember(Version version, KeyValuePair<long, Player> player, KeyValuePair<long, VehicleResult> vehicleResult, KeyValuePair<long, Vehicle> vehicle, int replayPlayerTeam, string regionCode, Dictionary<long, Player> players, Dictionary<long, VehicleResult> vehicles)
         {
             Id = vehicle.Key;
 
             TankDescription = Dictionaries.Instance.GetTankDescription(vehicleResult.Value.typeCompDescr);
-
-            TankIcon = TankDescription.Icon;
 
             LevelRange = TankDescription.LevelRange ?? LevelRange.All;
             Tank = !string.IsNullOrEmpty(TankDescription.Title) ? TankDescription.Title : vehicle.Value.vehicleType;
@@ -129,8 +127,6 @@ namespace WotDossier.Applications.ViewModel.Replay
 
         public string Tank { get; set; }
 
-        public TankIcon TankIcon { get; set; }
-
         public long Id { get; set; }
         public string FullName { get; set; }
         
@@ -141,13 +137,13 @@ namespace WotDossier.Applications.ViewModel.Replay
         public int Team { get; set; }
 
         public long AccountDBID { get; set; }
-        public List<int> achievements
-        {
-            get { return _achievements ?? new List<int>(); }
-            set { _achievements = value; }
-        }
+		public List<int> achievements
+		{
+			get { return _achievements ?? new List<int>(); }
+			set { _achievements = value; }
+		}
 
-        public int CapturePoints { get; set; }
+		public int CapturePoints { get; set; }
         public int Credits { get; set; }
         public int DamageAssisted { get; set; }
         public int DamageDealt { get; set; }
