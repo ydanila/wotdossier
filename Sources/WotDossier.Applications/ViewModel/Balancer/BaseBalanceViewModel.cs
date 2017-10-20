@@ -23,6 +23,8 @@
 
         public int OneLevel { get; set; }
 
+        public int Middle357 { get; set; }
+
         public int Bottom510 { get; set; }
 
         public int Bottom357 { get; set; }
@@ -35,9 +37,13 @@
 
         public double OneLevelPercent => CountPercent(OneLevel, BattlesCount);
 
+        public double Middle357Percent => CountPercent(Middle357, BattlesCount);
+
         public double Bottom510Percent => CountPercent(Bottom510, BattlesCount);
 
         public double Bottom357Percent => CountPercent(Bottom357, BattlesCount);
+
+        public double BottomPercent => Bottom510Percent + Middle357Percent + Bottom357Percent;
 
         public int Type { get; internal set; }
 

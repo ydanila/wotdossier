@@ -252,7 +252,11 @@ namespace WotDossier.Applications.ViewModel
                     {
                         tanksEntry.Bottom510++;
                     }
-                    else if (max > tier && max - min >= 2)
+                    else if (max > tier && tier > min && max - min >= 2)
+                    {
+                        tanksEntry.Middle357++;
+                    }
+                    else if (max > tier && tier == min && max - min >= 2)
                     {
                         tanksEntry.Bottom357++;
                     }

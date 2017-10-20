@@ -2568,6 +2568,15 @@ namespace WotDossier.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Bottom  ( not top).
+        /// </summary>
+        public static string Column_Bottom {
+            get {
+                return ResourceManager.GetString("Column_Bottom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Bottom 3-5-7.
         /// </summary>
         public static string Column_Bottom_3_5_7 {
@@ -2843,6 +2852,15 @@ namespace WotDossier.Resources {
         public static string Column_MasterTanker_IsPremium {
             get {
                 return ResourceManager.GetString("Column_MasterTanker_IsPremium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Middle 3-5-7.
+        /// </summary>
+        public static string Column_Middle_3_5_7 {
+            get {
+                return ResourceManager.GetString("Column_Middle_3_5_7", resourceCulture);
             }
         }
         

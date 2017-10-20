@@ -3673,4 +3673,10 @@
   <data name="Column_Top" xml:space="preserve">
     <value>Топ</value>
   </data>
+  <data name="Column_Bottom" xml:space="preserve">
+    <value>Низ (не топ)</value>
+  </data>
+  <data name="Column_Middle_3_5_7" xml:space="preserve">
+    <value>Середина 3-5-7</value>
+  </data>
 </root>

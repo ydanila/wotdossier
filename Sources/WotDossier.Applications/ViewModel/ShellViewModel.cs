@@ -738,6 +738,7 @@ namespace WotDossier.Applications.ViewModel
                                 InitClanData(serverStatistic);
 
                                 ProgressView.Report(bw, 100, Resources.Resources.Progress_LoadLastUsedVehiclesListCompleted);
+
                                 ProgressView.Report(bw, 100, Resources.Resources.Progress_DataLoadCompleted);
                             }
 

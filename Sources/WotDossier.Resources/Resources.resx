@@ -3584,4 +3584,10 @@ Date: {Date:dd.MM.yyyy}</value>
   <data name="Column_Top" xml:space="preserve">
     <value>Top</value>
   </data>
+  <data name="Column_Bottom" xml:space="preserve">
+    <value>Bottom  ( not top)</value>
+  </data>
+  <data name="Column_Middle_3_5_7" xml:space="preserve">
+    <value>Middle 3-5-7</value>
+  </data>
 </root>
