@@ -1,5 +1,4 @@
-﻿using System;
-using WotDossier.Domain.Tank;
+﻿using System.Windows.Media.Imaging;
 
 namespace WotDossier.Applications.ViewModel.Balancer
 {
@@ -8,9 +7,10 @@ namespace WotDossier.Applications.ViewModel.Balancer
         public int Tier { get; set; }
 
         public int CountryId { get; set; }
+        
+        public string IconId { get; internal set; }
 
-        public TankIcon Icon { get; set; }
-
-        public string Tank { get; set; }        
+        public string Tank { get; set; }
+        
     }
 }

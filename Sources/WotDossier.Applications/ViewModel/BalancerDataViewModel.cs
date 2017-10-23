@@ -144,8 +144,8 @@ namespace WotDossier.Applications.ViewModel
         {            
             try
             {
-                ReplaysViewModel.PrepareReplays(reporter, _log, DossierRepository, _replaysFolders, replayFolders,
-                    _replays);
+                //ReplaysViewModel.PrepareReplays(reporter, _log, DossierRepository, _replaysFolders, replayFolders, _replays);
+                ReplaysViewModel.PrepareReplays(reporter, _log, _replaysFolders, replayFolders, _replays);
 
                 //  tanks
                 var groupByTank = from r in _replays group r by r.TankName;
@@ -156,7 +156,7 @@ namespace WotDossier.Applications.ViewModel
                 TanksSummary = new List<TankBalanceViewModel>() { tanksSummary };
 
                 //  tiers
-                var groupByTier = from r in _replays group r by r.Tank.Tier;
+                var groupByTier = from r in _replays group r by r.TankDescription.Tier;
                 var tiers = new List<TierBalanceViewModel>();
                 var tiersSummary = new TierBalanceViewModel();
                 ProcessBalancerGroups(groupByTier, tiers, tiersSummary, CreateTierBalanceViewModel);
@@ -164,7 +164,7 @@ namespace WotDossier.Applications.ViewModel
                 TiersSummary = new List<TierBalanceViewModel>() { tiersSummary };
 
                 //  types
-                var groupByType = from r in _replays group r by r.Tank.Type;
+                var groupByType = from r in _replays group r by r.TankDescription.Type;
                 var types = new List<TypeBalanceViewModel>();
                 var typesSummary = new TypeBalanceViewModel();
                 ProcessBalancerGroups(groupByType, types, typesSummary, CreateTypeBalanceViewModel);
@@ -216,7 +216,7 @@ namespace WotDossier.Applications.ViewModel
                             break;
                     }
 
-                    var tier = entry.Tank.Tier;
+                    var tier = entry.TankDescription.Tier;
                     var min = tier;
                     var max = tier;
 
@@ -271,18 +271,19 @@ namespace WotDossier.Applications.ViewModel
         {
             return new TankBalanceViewModel
             {
-                Tier = replay.Tank.Tier,
-                CountryId = replay.Tank.CountryId,
-                Icon = replay.Tank.Icon,
+                Tier = replay.TankDescription.Tier,
+                CountryId = replay.TankDescription.CountryId,
+                IconId = replay.TankDescription.IconId,
                 Tank = replay.TankName,
             };
         }
 
         private TierBalanceViewModel CreateTierBalanceViewModel(ReplayFile replay)
+
         {
             return new TierBalanceViewModel
             {
-                Tier = replay.Tank.Tier
+                Tier = replay.TankDescription.Tier
             };
         }
 
@@ -290,7 +291,7 @@ namespace WotDossier.Applications.ViewModel
         {
             return new TypeBalanceViewModel
             {
-                Type = (TankType)replay.Tank.Type
+                Type = (TankType)replay.TankDescription.Type
             };
         }
 

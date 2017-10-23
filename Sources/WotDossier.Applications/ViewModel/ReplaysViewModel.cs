@@ -491,60 +491,11 @@ namespace WotDossier.Applications.ViewModel
         {
             try
             {
-                CultureHelper.SetUiCulture(SettingsReader.Get().Language);
+                PrepareReplays(reporter, _log, ReplaysFolders, replayFolders, _replays);
 
-                foreach (var replayFolder in replayFolders)
-                {
-                    string folderPath = replayFolder.Path;
-
-                    if (string.IsNullOrEmpty(folderPath))
-                    {
-                        continue;
-                    }
-
-                    if (Directory.Exists(folderPath))
-                    {
-                        _log.WarnFormat("replays before update count: {0}", _replays.Count());
-
-                        //string[] newFiles = Directory.GetFiles(folderPath, "*.wotreplay").Where(x => !x.EndsWith("temp.wotreplay", StringComparison.InvariantCultureIgnoreCase)).ToArray();
-
-                        string[] newFiles = FastDirectoryEnumerator.GetFiles(folderPath, "*.wotreplay", SearchOption.TopDirectoryOnly).Where(x => !x.Name.EndsWith("temp.wotreplay", StringComparison.InvariantCultureIgnoreCase)).Select(x => x.Path).ToArray();
-
-                        _log.WarnFormat("new files count: {0}", newFiles.Count());
-
-                        //List<string> oldFiles = replayFolder.Files;
-                        List<string> oldFiles = _replays.Where(x => x.FolderId == replayFolder.Id).Select(x => x.PhisicalPath).ToList();
-
-                        _log.WarnFormat("old files count: {0}", oldFiles.Count());
-
-                        //get operations for replays list update
-                        var operations = GetUpdateOperations(replayFolder.Id, oldFiles, newFiles);
-
-                        _log.WarnFormat("operations count: {0}", operations.Count());
-
-                        int count = operations.Count();
-                        int index = 0;
-                        foreach (var operation in operations)
-                        {
-                            //perform operation
-                            operation.Perform(_replays);
-                            FileInfo replay = new FileInfo(operation.Item);
-                            int percent = (index + 1) * 100 / count;
-                            reporter.Report(percent, Resources.Resources.ProgressLabel_Processing_file_format, index + 1, count, replay.Name);
-                            index++;
-                        }
-
-                        _log.WarnFormat("replays after update count: {0}", _replays.Count());
-
-                        //replayFolder.Files = newFiles.ToList();
-                        replayFolder.Count = _replays.Count(x => x.FolderId == replayFolder.Id);
-                    }
-                }
-
-                ReplayFolder root = ReplaysFolders.First();
-
-                root.Count = ReplaysFolders.GetAll().Skip(1).Sum(x => x.Count);
-				/*
+                ReplayFolder root = _replaysFolders.First();
+                root.Count = _replaysFolders.GetAll().Skip(1).Sum(x => x.Count);
+                /*
                 IList<ReplayEntity> dbReplays = DossierRepository.GetReplays();
                 dbReplays.Join(_replays, x => new { x.PlayerId, x.ReplayId }, y => new { y.PlayerId, y.ReplayId },
                     (x, y) => new { ReplayEntity = x, ReplayFile = y })
@@ -555,24 +506,24 @@ namespace WotDossier.Applications.ViewModel
                         x.ReplayFile.Comment = x.ReplayEntity.Comment;
                     });
 
-				//add db replays DbReplay.GetReplay(CompressHelper.Decompress(x.Raw), ReplaysManager.DeletedFolder.Id)
-				List<DbReplay> collection =
+                //add db replays DbReplay.GetReplay(CompressHelper.Decompress(x.Raw), ReplaysManager.DeletedFolder.Id)
+                List<DbReplay> collection =
                     dbReplays.Where(x => x.Raw != null)
                         .Select(
                             x =>
                             {
-	                            try
-	                            {
-		                            return new DbReplay(CompressHelper.DecompressObject<Domain.Replay.Replay>(x.Raw),
-			                            ReplaysManager.DeletedFolder.Id);
-	                            }
-	                            catch
-	                            {
-		                            // ignored
-	                            }
-	                            return null;
+                                try
+                                {
+                                    return new DbReplay(CompressHelper.DecompressObject<Domain.Replay.Replay>(x.Raw),
+                                        ReplaysManager.DeletedFolder.Id);
+                                }
+                                catch
+                                {
+                                    // ignored
+                                }
+                                return null;
                             }
-									)
+                                    )
                         .Where(c=>c!= null).ToList();
 
                 _replays.RemoveAll(x => x.FolderId == ReplaysManager.DeletedFolder.Id);
@@ -593,8 +544,7 @@ namespace WotDossier.Applications.ViewModel
                     }
                 }
                 deletedFolder.Count = collection.Count;
-				*/
-                reporter.Report(100, Resources.Resources.Progress_DataLoadCompleted);
+                */
 
                 //restore folder selection
                 ReplayFilter.SelectedFolder =
@@ -607,6 +557,61 @@ namespace WotDossier.Applications.ViewModel
             {
                 _processing = false;
             }
+        }
+        
+        internal static void PrepareReplays(IReporter reporter, ILog _log, List<ReplayFolder> _replaysFolders, List<ReplayFolder> replayFolders, List<ReplayFile> _replays)
+        {
+            CultureHelper.SetUiCulture(SettingsReader.Get().Language);
+
+            foreach (var replayFolder in replayFolders)
+            {
+                string folderPath = replayFolder.Path;
+
+                if (string.IsNullOrEmpty(folderPath))
+                {
+                    continue;
+                }
+
+                if (Directory.Exists(folderPath))
+                {
+                    _log.WarnFormat("replays before update count: {0}", _replays.Count());
+
+                    //string[] newFiles = Directory.GetFiles(folderPath, "*.wotreplay").Where(x => !x.EndsWith("temp.wotreplay", StringComparison.InvariantCultureIgnoreCase)).ToArray();
+
+                    string[] newFiles = FastDirectoryEnumerator.GetFiles(folderPath, "*.wotreplay", SearchOption.TopDirectoryOnly).Where(x => !x.Name.EndsWith("temp.wotreplay", StringComparison.InvariantCultureIgnoreCase)).Select(x => x.Path).ToArray();
+
+                    _log.WarnFormat("new files count: {0}", newFiles.Count());
+
+                    //List<string> oldFiles = replayFolder.Files;
+                    List<string> oldFiles = _replays.Where(x => x.FolderId == replayFolder.Id).Select(x => x.PhisicalPath).ToList();
+
+                    _log.WarnFormat("old files count: {0}", oldFiles.Count());
+
+                    //get operations for replays list update
+                    var operations = GetUpdateOperations(replayFolder.Id, oldFiles, newFiles);
+
+                    _log.WarnFormat("operations count: {0}", operations.Count());
+
+                    int count = operations.Count();
+                    int index = 0;
+                    foreach (var operation in operations)
+                    {
+                        //perform operation
+                        operation.Perform(_replays);
+                        FileInfo replay = new FileInfo(operation.Item);
+                        int percent = (index + 1) * 100 / count;
+                        reporter.Report(percent, Resources.Resources.ProgressLabel_Processing_file_format, index + 1, count, replay.Name);
+                        index++;
+                    }
+
+                    _log.WarnFormat("replays after update count: {0}", _replays.Count());
+
+                    //replayFolder.Files = newFiles.ToList();
+                    replayFolder.Count = _replays.Count(x => x.FolderId == replayFolder.Id);
+                }
+            }
+                        
+            reporter.Report(100, Resources.Resources.Progress_DataLoadCompleted);            
         }
 
         private void Cache(List<ReplayFile> replays)
@@ -624,7 +629,7 @@ namespace WotDossier.Applications.ViewModel
             return Path.Combine(Folder.GetDossierAppDataFolder(), "replays.cache");
         }
 
-        private IEnumerable<ReplayFile> LoadFromCache()
+        internal static IEnumerable<ReplayFile> LoadFromCache()
         {
             var path = ReplaysCacheFilePath();
             if (File.Exists(path))
@@ -653,7 +658,7 @@ namespace WotDossier.Applications.ViewModel
             return new List<ReplayFile>();
         }
 
-        private List<ListUpdateOperation<ReplayFile>> GetUpdateOperations(Guid folderId, IEnumerable<string> oldFiles, string[] newList)
+        private static List<ListUpdateOperation<ReplayFile>> GetUpdateOperations(Guid folderId, IEnumerable<string> oldFiles, string[] newList)
         {
             List<ListUpdateOperation<ReplayFile>> result = new List<ListUpdateOperation<ReplayFile>>();
             List<ListUpdateOperation<ReplayFile>> toDel = oldFiles.Except(newList).Select(x => (ListUpdateOperation<ReplayFile>)new DeleteOperation(x)).ToList();

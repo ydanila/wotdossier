@@ -679,41 +679,8 @@ Get back!</value>
   <data name="WITH_PREMIUM" xml:space="preserve">
     <value>With Premium Account:</value>
   </data>
-  <data name="invitation/note/CLAN" xml:space="preserve">
-    <value>Clan Battle will be available after you complete training.</value>
-  </data>
-  <data name="invitation/note/CLUBS" xml:space="preserve">
-    <value>Team Battle will be available after you complete training.</value>
-  </data>
-  <data name="invitation/note/COMPANY" xml:space="preserve">
-    <value>Tank Company will be available after you complete training.</value>
-  </data>
-  <data name="invitation/note/EVENT" xml:space="preserve">
-    <value>Playing in a Platoon will be available after you complete training.</value>
-  </data>
-  <data name="invitation/note/EXTERNAL" xml:space="preserve">
-    <value>Skirmishes will be available after you complete training.</value>
-  </data>
-  <data name="invitation/note/FALLOUT" xml:space="preserve">
-    <value>Playing in a Platoon will be available after you complete training.</value>
-  </data>
   <data name="invitation/note/FORT_BATTLE" xml:space="preserve">
     <value>Advances will be available after you complete training.</value>
-  </data>
-  <data name="invitation/note/SORTIE" xml:space="preserve">
-    <value>Skirmishes will be available after you complete training.</value>
-  </data>
-  <data name="invitation/note/SQUAD" xml:space="preserve">
-    <value>Playing in a Platoon will be available after you complete training.</value>
-  </data>
-  <data name="invitation/note/TOURNAMENT" xml:space="preserve">
-    <value>Tournaments will be available after you complete training.</value>
-  </data>
-  <data name="invitation/note/TRAINING" xml:space="preserve">
-    <value>Team Training will be available after you complete training.</value>
-  </data>
-  <data name="invitation/note/UNIT" xml:space="preserve">
-    <value>Team Battle will be available after you complete training.</value>
   </data>
   <data name="queue/cancel_queue" xml:space="preserve">
     <value>Cancel</value>
@@ -744,9 +711,6 @@ Get back!</value>
   </data>
   <data name="resultlabel/lose" xml:space="preserve">
     <value>DEFEAT</value>
-  </data>
-  <data name="resultlabel/techWin" xml:space="preserve">
-    <value>TECHNICAL VICTORY</value>
   </data>
   <data name="resultlabel/tie" xml:space="preserve">
     <value>DRAW</value>

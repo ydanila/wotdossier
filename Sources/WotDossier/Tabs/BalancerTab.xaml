@@ -74,7 +74,7 @@
                         <DataGridTemplateColumn Header="{x:Static resources:Resources.Column_Header_Type}" CellStyle="{StaticResource DataGridCellCenterStyle}">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
-                                    <Image Source="{Binding Type, Converter={x:Static converters:TypeToImageSourceConverter.Default}}"/>
+                                    <Image Source="{Binding TankType, Converter={x:Static converters:TypeToImageSourceConverter.Default}}"/>
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>

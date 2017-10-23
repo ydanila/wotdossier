@@ -159,7 +159,6 @@
     <Compile Include="Parser\Parser93.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="ReplayExtensions.cs" />
-    <Compile Include="ReplayExtensions.cs" />
     <Compile Include="ReplayFileHelper.cs" />
     <Compile Include="ReplaysManagerController.cs" />
     <Compile Include="Events\ReplayFileMoveEvent.cs" />
@@ -344,7 +343,7 @@
   </Target>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" />
+      <UserProperties BuildVersion_StartDate="2000/1/1" BuildVersion_UseGlobalSettings="True" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
